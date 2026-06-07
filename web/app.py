@@ -45,8 +45,18 @@ def create_app(db=None, testing: bool = False) -> Flask:
     def health():
         return jsonify(status="ok", service="hqrtm-web")
 
+    # OpenAPI / Swagger UI (BE-API-009)
+    from web.openapi import OPENAPI_SPEC, SWAGGER_UI_HTML
+
+    @app.get("/openapi.json")
+    def openapi_spec():
+        return jsonify(OPENAPI_SPEC)
+
+    @app.get("/apidocs")
+    def apidocs():
+        return SWAGGER_UI_HTML
+
     # TODO(Фаза 6): app.register_blueprint(sse_bp)  # /sse/feed
-    # TODO(Фаза 4): /api/listings, /api/notifications, /api/telegram/*, OpenAPI
 
     return app
 
