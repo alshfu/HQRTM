@@ -46,6 +46,11 @@ class UserStatus(StrEnum):
     DELETED = "deleted"
 
 
+class UserRole(StrEnum):
+    USER = "user"
+    ADMIN = "admin"
+
+
 class NotificationChannel(StrEnum):
     TELEGRAM = "telegram"
     EMAIL = "email"
@@ -68,6 +73,7 @@ class _Doc(BaseModel):
 class User(_Doc):
     email: EmailStr
     password_hash: str
+    role: UserRole = UserRole.USER
     telegram_chat_id: int | None = None
     link_code: str | None = None
     status: UserStatus = UserStatus.PENDING

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Logga in — HQRTM{% endblock %}
+
+{% block body %}
+<div class="min-h-screen grid place-items-center px-6">
+  <form id="form" class="card w-full max-w-sm rounded-2xl p-7 flex flex-col gap-4" novalidate>
+    <a href="/" class="font-extrabold text-xl">HQRTM</a>
+    <div>
+      <h1 class="text-2xl font-bold">Välkommen tillbaka</h1>
+      <p class="text-sm text-gray-400 mt-1">Logga in för att se ditt flöde.</p>
+    </div>
+
+    <label class="text-sm font-medium">E-post
+      <input name="email" type="email" required placeholder="namn@exempel.se"
+             class="input w-full mt-1 px-3 py-2.5 rounded-lg" />
+    </label>
+    <label class="text-sm font-medium">Lösenord
+      <input name="password" type="password" required placeholder="••••••••"
+             class="input w-full mt-1 px-3 py-2.5 rounded-lg" />
+    </label>
+
+    <button class="btn-accent font-semibold py-2.5 rounded-lg mt-1">Logga in</button>
+    <p class="text-center text-sm text-gray-400">
+      Inget konto? <a href="/register" class="text-accent hover:underline">Registrera dig</a>
+    </p>
+  </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  if (HQRTM.isAuthed()) location.href = "/app";
+  document.getElementById("form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    const { ok, data } = await HQRTM.login(f.email.value.trim(), f.password.value);
+    if (ok) { location.href = "/app"; }
+    else { HQRTM.toast(data?.error === "invalid_credentials" ? "Fel e-post eller lösenord" : "Inloggning misslyckades", "error"); }
+  });
+</script>
+{% endblock %}
