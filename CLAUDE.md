@@ -74,20 +74,30 @@ HQRTM/
 │   ├── index.html                       # ✅ основное демо: модульное React-приложение (Babel в браузере)
 │   ├── app/*.jsx  styles/*.css  tweaks-panel.jsx   # модули модульной версии (грузятся по HTTP)
 │   └── HQRTM-{Desktop,Tablet,Mobile}.html          # self-contained device-снапшоты (frame-locked)
+├── pyproject.toml                       # зависимости + ruff/black/pytest (источник истины)
+├── .env.example  README.md  COMPLIANCE.md  CONTRIBUTING.md  LICENSE(MIT)
+├── .pre-commit-config.yaml  .secrets.baseline   # ruff/black/detect-secrets
+├── .github/workflows/ci.yml             # CI: ruff + black + pytest (push/PR в main|develop)
+├── shared/   # config.py (pydantic-settings), db.py, models.py, utils.py
+├── web/      # app.py (Flask factory + /health), auth/ api/ sse/ templates/ static/
+├── poller/   # main.py, homeq_adapter.py, detector.py, matcher.py, dispatcher.py (заглушки)
+├── bot/      # main.py, handlers.py (заглушки)
+├── tests/    # test_smoke.py, test_utils.py
 ├── .gitignore                           # защита public repo (.env, .venv, .idea, ...)
-├── main.py                              # шаблон PyCharm («Hi, PyCharm») — заглушка, будет удалён/заменён
-├── .venv/  (ignored)                    # Python 3.14 (NB: ТЗ требует 3.12+, см. §8)
-└── .idea/  (ignored)                    # настройки PyCharm
+├── .venv/  (ignored)                    # Python 3.12
+└── .idea/  (ignored)
 ```
 
 **Готово:**
-- ✅ Git-репозиторий инициализирован (ветка `main`).
-- ✅ GitHub: **https://github.com/alshfu/HQRTM** (public, аккаунт `alshfu`).
-- ✅ GitHub Pages включён (source: `main` / корень): **https://alshfu.github.io/HQRTM/** — demo отдаётся (HTTP 200).
+- ✅ Git: репо **https://github.com/alshfu/HQRTM** (public). Ветки `main` (стабильная) и `develop`.
+- ✅ GitHub Pages: **https://alshfu.github.io/HQRTM/** (source `main`/корень) — demo отдаётся (200).
+- ✅ **Фаза 0 завершена** (код): структура пакетов, `pyproject.toml`, venv 3.12, `.env.example`,
+  README/COMPLIANCE/CONTRIBUTING/LICENSE(MIT), pre-commit (ruff/black/detect-secrets), CI `ci.yml`.
+  Линт/формат/тесты зелёные (`ruff`, `black --check`, `pytest` — 10 passed). `web/app.py` отдаёт `/health`.
+- ⚠️ Шаблонный `main.py` (PyCharm) удалён.
 
-**Ещё НЕ сделано (всё впереди):** ветки `develop`/`feature/*`, структуры каталогов
-(`poller/`, `bot/`, `web/`, `shared/`) нет, зависимостей нет, MongoDB не настроена,
-`.env.example`/`README`/`COMPLIANCE.md`/pre-commit/CI отсутствуют.
+**Ещё НЕ сделано:** GitHub Wiki (скелет), GitHub Project/Issues — опционально; `COMPLIANCE.md`
+заполнен только скелетом (ToS HomeQ + GDPR — TODO до Фазы 2). Дальше — **Фаза 1** (слой данных MongoDB).
 
 > ⚠️ Демо в `HQRTM-Demo/` — это **дизайн-прототипы** (React + Babel-in-browser, мок-данные), не итоговый фронтенд.
 > Боевой фронтенд по канону — Jinja2 + Tailwind/Bootstrap внутри `web/` (Фаза 5). Прототипы — референс UI.
@@ -97,7 +107,7 @@ HQRTM/
 > Модульная версия (`HQRTM-Demo/index.html`) грузит `app/*.jsx` через Babel → **работает только по HTTP**
 > (GitHub Pages / локальный сервер), не по `file://`. Device-снапшоты — самодостаточны, открываются как файл.
 
-**Мы находимся в Фазе 0** (частично выполнена: репо + Pages; осталось остальное по списку выше).
+**Мы находимся в начале Фазы 1** (слой данных MongoDB). Фаза 0 завершена.
 
 ---
 
@@ -142,17 +152,18 @@ Flask читает + слушает Change Stream).
 
 ---
 
-## 6. Незакрытые решения (спросить пользователя перед реализацией)
+## 6. Решения (часть закрыта 2026-06-07)
 
-Не выбирай молча — это решения уровня владельца проекта:
+**✅ Принято:**
+- **Python 3.12** (venv пересоздан). **MongoDB — Atlas free-tier** (MONGO_URI в `.env`). **Лицензия — MIT**.
 
+**❓ Ещё открыто — спрашивай, не выбирай молча:**
 1. **HomeQ:** есть ли официальное/партнёрское API? Что разрешает ToS + `robots.txt`?
-   (Скрейпинг — только fallback и только если не противоречит ToS. Зафиксировать в `COMPLIANCE.md`.)
-2. **Frontend CSS:** Tailwind или Bootstrap 5? (Roadmap рекомендует Tailwind для кастомного вида.)
-3. **MongoDB:** self-hosted (настройка RS вручную) или Atlas free-tier (RS из коробки)?
-4. **Языки UI на старте** (швед./англ./др.).
-5. Нужны ли монетизация/тарифы и админ-панель уже сейчас (по умолчанию — нет, опционально).
-6. Ожидаемое число пользователей (влияет на выбор VPS).
+   (Скрейпинг — только fallback. Зафиксировать в `COMPLIANCE.md` **до Фазы 2**.) — БЛОКЕР Фазы 2.
+2. **Frontend CSS:** Tailwind или Bootstrap 5? (Roadmap рекомендует Tailwind.) — нужно к Фазе 5.
+3. **Языки UI на старте** (швед./англ.; в демо уже sv+en).
+4. Монетизация/тарифы и админ-панель сейчас? (по умолчанию — нет; в демо админка есть как UI).
+5. Ожидаемое число пользователей (влияет на выбор VPS) — к Фазе 10.
 
 ---
 
@@ -160,8 +171,8 @@ Flask читает + слушает Change Stream).
 
 Полный план в Roadmap §11. Краткая карта фаз и вех:
 
-- **Фаза 0** — подготовка: репозиторий, структура, `.env`/`.gitignore`, pre-commit (ruff/black + **detect-secrets**), CI. ← **МЫ ЗДЕСЬ**
-- **Фаза 1** — слой данных: MongoDB как RS, `shared/db.py` + индексы, `shared/models.py` (pydantic).
+- **Фаза 0** — ✅ ГОТОВО: репозиторий, структура, окружение, pre-commit, CI.
+- **Фаза 1** — слой данных: MongoDB как RS, `shared/db.py` + индексы, `shared/models.py` (pydantic). ← **МЫ ЗДЕСЬ**
 - **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются).
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
 - **Фаза 4** — Flask API + Auth (JWT/сессии, CRUD фильтров, OpenAPI).
@@ -194,10 +205,11 @@ Flask читает + слушает Change Stream).
 - GDPR: согласие при регистрации, политика конфиденциальности, право на удаление данных (`DELETE /api/me`).
 
 ### Код и качество
-- **Python 3.12+** по ТЗ. ⚠️ В `.venv` сейчас Python **3.14** — проверь совместимость
-  библиотек (PyMongo/Motor/aiogram/Flask) или пересоздай venv на 3.12, если будут проблемы.
-- Линт/формат: **ruff + black**. Тесты: pytest (unit на `detector`/`matcher`, integration с
-  `mongomock` или test-контейнером, e2e на Playwright).
+- **Python 3.12** (venv: `/usr/local/bin/python3.12`). Установка: `pip install -e ".[dev]"`.
+  Скрейпинг-зависимости — отдельный extra: `pip install -e ".[scraper]" && playwright install`.
+- Линт/формат: **ruff + black** (конфиг в `pyproject.toml`, строка ≤ 100). Тесты: **pytest**
+  (`pytest -q`). Перед коммитом всё проверяет pre-commit; в CI — `ci.yml`.
+- Тесты: unit на `detector`/`matcher`, integration с `mongomock` или test-контейнером, e2e на Playwright.
 - Парсер HomeQ изолирован в `HomeQAdapter` — при изменении источника правится **только он** (BE-DE-005).
 - Интервал опроса — конфигурируемый (`POLL_INTERVAL_MS`), безопасный дефолт, описать в README.
 - Идемпотентность: повторный запуск не должен порождать дубли уведомлений.
@@ -219,12 +231,17 @@ Flask читает + слушает Change Stream).
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
-- **2026-06-07:** Создан CLAUDE.md. Инициализирован git (`main`), создан public-репо
-  github.com/alshfu/HQRTM, включён GitHub Pages → alshfu.github.io/HQRTM/ (demo отдаётся, 200).
-  Закоммичены: 3 ТЗ, CLAUDE.md, HQRTM-Demo/, index.html (витрина), .gitignore, main.py.
-  Кода приложения (poller/web/bot/shared) ещё нет. Открытые вопросы §6 — не закрыты.
+- **2026-06-07 (поздн.):** **Фаза 0 завершена** на ветке `develop`. Каркас: `pyproject.toml`,
+  venv 3.12, пакеты `shared/web/poller/bot` (заглушки с TODO по фазам), `tests/` (10 passed),
+  pre-commit (ruff/black/detect-secrets + baseline), CI `ci.yml`, README/COMPLIANCE/CONTRIBUTING/LICENSE.
+  `web/app.py` → `/health`. Шаблонный `main.py` удалён. **Дальше: Фаза 1** (MongoDB: `shared/db.py`
+  ensure_indexes + `shared/models.py`). Для Фазы 2 нужен ToS HomeQ (§6 п.1 — блокер).
+- **2026-06-07:** Создан CLAUDE.md, git/Pages, demo опубликовано (alshfu.github.io/HQRTM/).
 
 ### Журнал ключевых решений (дописывать, не переписывать)
+- **2026-06-07:** Стек: **Python 3.12**, **MongoDB Atlas free-tier**, лицензия **MIT**.
+  Зависимости и tooling — в `pyproject.toml` (`[project]` + `[project.optional-dependencies]`).
+  `docker-compose` отложен на Фазу 10 (Atlas для dev, локальный Docker не требуется).
 - **2026-06-07:** Каноническим стеком признан Roadmap (Flask + MongoDB + SSE + Vanilla JS).
   Документы Backend/Frontend ToR — источники требований, но их технологии (FastAPI/Postgres/Redis/React)
   не используются.

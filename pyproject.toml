@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hqrtm"
+version = "0.1.0"
+description = "HomeQ Real-Time Monitor — мониторинг FCFS-объявлений HomeQ → Telegram (Flask · MongoDB · SSE)"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Alexander Shchetinin" }]
+
+dependencies = [
+    # web (API + Jinja2)
+    "flask>=3.0",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "python-dotenv>=1.0",
+    # auth / security
+    "argon2-cffi>=23.1",
+    "pyjwt>=2.8",
+    "flask-limiter>=3.5",
+    # mongodb
+    "pymongo>=4.6",
+    "motor>=3.4",
+    # poller / http
+    "httpx>=0.27",
+    # telegram
+    "aiogram>=3.4",
+    # logging
+    "structlog>=24.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4",
+    "black>=24.3",
+    "pytest>=8.1",
+    "pytest-asyncio>=0.23",
+    "mongomock>=4.1",
+    "pre-commit>=3.7",
+    "detect-secrets>=1.5",
+]
+# Скрейпинг — fallback, ставится отдельно: pip install -e ".[scraper]" && playwright install
+scraper = ["playwright>=1.43"]
+
+[tool.setuptools]
+packages = ["poller", "bot", "web", "shared"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["poller", "bot", "web", "shared", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "W"]
+
+[tool.black]
+target-version = ["py312"]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
