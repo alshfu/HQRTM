@@ -188,10 +188,9 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются). ← **СЛЕДУЮЩАЯ**
   Блокер: выводы по ToS площадок в `COMPLIANCE.md` (§6 п.1). Адаптеры `poller/sources/*` пока `enabled=False`.
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
-- **Фаза 4** — 🚧 В РАБОТЕ (ветка `feature/phase4-api-auth`): сделано — auth (register/login/
-  refresh, Argon2 `shared/security.py`, JWT), rate-limit (flask-limiter), CRUD `/api/filters`,
-  `/api/me` (GET+DELETE GDPR), фабрика с DI БД (`create_app(db=, testing=)`). Тесты 34 passed.
-  Осталось: `/api/listings`, `/api/notifications` (пагинация), `/api/telegram/*`, OpenAPI/Swagger.
+- **Фаза 4** — ✅ ГОТОВО: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
+  `/api/me` (GDPR), `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
+  `/api/telegram/link|status`, OpenAPI (`/openapi.json`) + Swagger UI (`/apidocs`). Тесты 39 passed.
 - **Фаза 5** — Frontend (Jinja2 + Tailwind/Bootstrap + Vanilla JS).
 - **Фаза 6** — Real-time (SSE + Change Streams).
 - **Фаза 7** — GitHub Pages demo.
@@ -247,7 +246,12 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
-- **2026-06-07 (Фаза 4):** Ветка `feature/phase4-api-auth` (от `develop`). Реализовано ядро web:
+- **2026-06-07 (Фаза 4 завершена):** Все эндпоинты Фазы 4 готовы и влиты в `develop` (запушено).
+  Добавлены: `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
+  `/api/telegram/link|status`, OpenAPI (`web/openapi.py` → `/openapi.json`, Swagger UI `/apidocs`).
+  Пагинация: `?page=&limit=` (limit ≤ 100). Тесты **39 passed**, ruff/black зелёные.
+  **Дальше на выбор:** Фаза 5 (Jinja2-фронтенд поверх API) или Фаза 2 (поллер, нужен ToS площадок).
+- **2026-06-07 (Фаза 4 ядро):** Ветка `feature/phase4-api-auth` (от `develop`). Реализовано ядро web:
   `shared/security.py` (Argon2 + JWT), `web/extensions.py` (limiter), `web/db.py` (DI БД + serialize),
   `web/deps.py` (`require_auth`), blueprints `web/auth/routes.py` (register/login/refresh) и
   `web/api/routes.py` (CRUD filters + /me GDPR). Фабрика `create_app(db=, testing=)`. Тесты: **34 passed**
