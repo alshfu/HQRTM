@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>HQRTM — мониторинг аренды жилья (релиз)</title>
-<meta name="description" content="HQRTM — all-in-one агрегатор мониторинга аренды жилья в Швеции: FCFS-детекция «Först till kvarn», матчинг с фильтрами, real-time лента (SSE), Telegram. Flask · MongoDB.">
+<title>HQRTM — bevakning av hyresbostäder (release)</title>
+<meta name="description" content="HQRTM — all-in-one bevakning av hyresbostäder i Sverige: FCFS-detektion «Först till kvarn», matchning mot filter, realtidsflöde (SSE), Telegram. Flask · MongoDB.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -55,7 +55,7 @@
   h1 span{color:var(--accent)}
   .sub{margin-top:16px;font-size:clamp(15px,2.4vw,18px);color:var(--muted);line-height:1.55}
 
-  /* primary CTAs */
+  /* primära CTA */
   .hero{width:100%;max-width:880px;display:grid;gap:14px;grid-template-columns:1.4fr 1fr;margin-bottom:16px}
   @media (max-width:640px){ .hero{grid-template-columns:1fr} }
   .hero a{
@@ -74,10 +74,12 @@
   .hero h2{font-size:18px;font-weight:800;letter-spacing:-.01em}
   .hero p{font-size:13px;color:var(--muted);line-height:1.4;margin-top:3px}
 
-  /* release highlights */
-  .section-h{width:100%;max-width:880px;display:flex;align-items:baseline;gap:12px;margin:clamp(28px,5vw,44px) 0 16px;font-family:"JetBrains Mono",monospace}
+  /* sektionsrubrik */
+  .section-h{width:100%;max-width:880px;display:flex;align-items:baseline;gap:12px;margin:clamp(28px,5vw,44px) 0 16px;font-family:"JetBrains Mono",monospace;flex-wrap:wrap}
   .section-h .label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
   .section-h .meta{font-size:11.5px;color:var(--muted)}
+
+  /* release-höjdpunkter */
   .feats{display:grid;gap:14px;width:100%;max-width:880px;grid-template-columns:repeat(2,1fr)}
   @media (max-width:640px){ .feats{grid-template-columns:1fr} }
   .feat{display:flex;gap:13px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:16px 18px}
@@ -89,7 +91,24 @@
   .pill.live{color:var(--accent);background:color-mix(in oklab,var(--accent) 16%,transparent)}
   .pill.soon{color:var(--muted);border:1px solid var(--panel-line)}
 
-  /* device snapshots */
+  /* urval av annonser (riktig parser) */
+  .listings{display:grid;gap:14px;width:100%;max-width:880px;grid-template-columns:repeat(2,1fr)}
+  @media (max-width:640px){ .listings{grid-template-columns:1fr} }
+  .lcard{display:flex;flex-direction:column;gap:10px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:16px 18px;text-decoration:none;color:inherit;transition:transform .3s var(--ease),border-color .3s var(--ease)}
+  .lcard:hover{transform:translateY(-3px);border-color:color-mix(in oklab,var(--accent) 45%,transparent)}
+  .lcard .top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .lcard .src{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--accent-ink);background:var(--accent);border-radius:999px;padding:3px 9px}
+  .lcard .fcfs{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--accent);border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);border-radius:999px;padding:2px 8px}
+  .lcard h3{font-size:15.5px;font-weight:700;letter-spacing:-.01em}
+  .lcard .where{font-size:12.5px;color:var(--muted)}
+  .lcard .specs{display:flex;flex-wrap:wrap;gap:6px;font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--muted)}
+  .lcard .specs span{background:var(--bg-soft);border:1px solid var(--panel-line);border-radius:7px;padding:3px 8px}
+  .lcard .specs .rent{color:var(--text);font-weight:600}
+  .lcard .open{margin-top:2px;display:inline-flex;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent);font-weight:600}
+  .lcard .open svg{width:14px;height:14px;stroke:currentColor;stroke-width:2;fill:none;transition:transform .3s var(--ease)}
+  .lcard:hover .open svg{transform:translateX(3px)}
+
+  /* enhets-snapshots */
   .grid{display:grid; gap:18px; width:100%; max-width:880px; grid-template-columns:repeat(3,1fr)}
   @media (max-width:640px){ .grid{grid-template-columns:1fr} }
   .card{
@@ -115,7 +134,7 @@
   .card:hover .go svg{transform:translateX(4px)}
   .tag{position:absolute;top:18px;right:18px;font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--muted);border:1px solid var(--panel-line);border-radius:999px;padding:3px 9px}
 
-  /* demo credentials */
+  /* testkonton */
   .creds{width:100%;max-width:880px;display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;font-family:"JetBrains Mono",monospace;font-size:12.5px}
   .cred{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:8px 13px;color:var(--muted)}
   .cred b{color:var(--text);font-weight:600}
@@ -129,83 +148,92 @@
 <body>
   <div class="banner">
     <span class="dot"></span>
-    <span><b>Релиз</b> — продукт собран (Фазы 0–6: ядро поллера, API, веб-кабинет, real-time). Ниже — интерактивная UI-превью и исходники; боевой сервис разворачивается отдельно на VPS.</span>
+    <span><b>Release</b> — produkten är byggd (Fas 0–6: poller-kärna, API, webbpanel, realtid). Nedan: interaktiv UI-förhandsvisning, källkod och ett urval annonser från den riktiga parsern. Skarp tjänst driftsätts separat på VPS.</span>
   </div>
 
   <header>
     <div class="kicker">All-in-one bostadsbevakning · Sverige</div>
-    <h1>HQRTM — <span>живой</span> мониторинг аренды жилья</h1>
-    <p class="sub">Круглосуточно отслеживает публикации на шведских площадках, мгновенно выделяет объявления «Först till kvarn» (FCFS), сопоставляет с фильтрами пользователя и доставляет уведомление со ссылкой. Один поллер, мульти-source адаптеры, real-time лента.</p>
+    <h1>HQRTM — <span>realtidsbevakning</span> av hyresbostäder</h1>
+    <p class="sub">Bevakar publiceringar på svenska bostadsplattformar dygnet runt, lyfter direkt fram «Först till kvarn»-annonser (FCFS), matchar mot användarens filter och levererar en avisering med länk. En poller, källadaptrar och ett realtidsflöde.</p>
   </header>
 
   <div class="hero">
     <a class="primary" href="HQRTM-Demo/index.html">
       <span class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
       <span class="txt">
-        <h2>Открыть UI-превью →</h2>
-        <p>Интерактивная адаптивная версия интерфейса: лента, фильтры, настройки, админка.</p>
+        <h2>Öppna UI-förhandsvisning →</h2>
+        <p>Interaktiv responsiv version av gränssnittet: flöde, filter, inställningar, admin.</p>
       </span>
     </a>
     <a href="https://github.com/alshfu/HQRTM">
       <span class="ico"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.7 11.7 0 0 0-6 0C7.3 1.3 6.3 1.6 6.3 1.6a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 5 8c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span>
       <span class="txt">
-        <h2>Исходный код →</h2>
-        <p>Репозиторий, Wiki и история релизов на GitHub.</p>
+        <h2>Källkod →</h2>
+        <p>Repo, Wiki och releasehistorik på GitHub.</p>
       </span>
     </a>
   </div>
 
   <div class="section-h">
-    <span class="label">Что в релизе</span>
-    <span class="meta">Flask · MongoDB · SSE · asyncio-поллер</span>
+    <span class="label">Urval av bevakade objekt</span>
+    <span class="meta">normaliserat av den riktiga parsern (fixturer) · ingen live-skrapning · varje annons länkar till källan</span>
+  </div>
+
+  <main class="listings" id="listings">
+    <noscript>Aktivera JavaScript för att visa annonsurvalet.</noscript>
+  </main>
+
+  <div class="section-h">
+    <span class="label">Vad ingår i releasen</span>
+    <span class="meta">Flask · MongoDB · SSE · asyncio-poller</span>
   </div>
 
   <main class="feats">
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
-      <div><h3>Мульти-source адаптеры <span class="pill live">live</span></h3>
-        <p>Изолированные адаптеры HomeQ · Qasa · Samtrygg в единой модели <code>listings</code>; уникум — пара (source, external_id). Новая площадка = новый адаптер, ядро не меняется. Включение — после проверки ToS.</p></div>
+      <div><h3>Källadaptrar <span class="pill live">live</span></h3>
+        <p>Isolerade adaptrar HomeQ · Qasa · Samtrygg i en gemensam modell <code>listings</code>; unik nyckel = paret (source, external_id). Ny plattform = ny adapter, kärnan ändras inte. Aktiveras efter ToS-kontroll.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
-      <div><h3>FCFS-детекция <span class="pill live">live</span></h3>
-        <p>Распознаёт «Först till kvarn» и отсеивает «очередные» (köpoäng/queue). Дедуп через TTL-индекс без Redis. Бюджет латентности — цель ≤ 1.5 с.</p></div>
+      <div><h3>FCFS-detektion <span class="pill live">live</span></h3>
+        <p>Känner igen «Först till kvarn» och sållar bort köbaserade annonser (köpoäng/queue). Dedup via TTL-index utan Redis. Latensbudget — mål ≤ 1,5 s.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><path d="M3 6h18M7 12h10M11 18h2"/></svg></span>
-      <div><h3>Матчинг с фильтрами <span class="pill live">live</span></h3>
-        <p>Совпадение новых FCFS с фильтрами пользователя (цена/комнаты/площадь/район) и идемпотентная постановка уведомлений — без дублей при перезапуске.</p></div>
+      <div><h3>Matchning mot filter <span class="pill live">live</span></h3>
+        <p>Matchar nya FCFS mot användarens filter (hyra/rum/yta/område) och köar aviseringar idempotent — inga dubbletter vid omstart.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none"/></svg></span>
-      <div><h3>Real-time лента <span class="pill live">live</span></h3>
-        <p>SSE + MongoDB Change Streams: новые совпадения прилетают в кабинет мгновенно, с авто-reconnect и fallback на polling.</p></div>
+      <div><h3>Realtidsflöde <span class="pill live">live</span></h3>
+        <p>SSE + MongoDB Change Streams: nya träffar når panelen direkt, med auto-reconnect och fallback till polling.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
-      <div><h3>API + аутентификация <span class="pill live">live</span></h3>
-        <p>REST API на Flask: JWT (Argon2), CRUD фильтров, GDPR-удаление (<code>DELETE /api/me</code>), OpenAPI + Swagger UI. Rate-limit на чувствительных эндпоинтах.</p></div>
+      <div><h3>API + autentisering <span class="pill live">live</span></h3>
+        <p>REST API på Flask: JWT (Argon2), CRUD för filter, GDPR-radering (<code>DELETE /api/me</code>), OpenAPI + Swagger UI. Rate-limit på känsliga endpoints.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><path d="M3 9h18M9 21V9"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg></span>
-      <div><h3>Веб-кабинет + i18n <span class="pill live">live</span></h3>
-        <p>Jinja2 + production Tailwind + Vanilla JS: лента, фильтры, уведомления, настройки. Интерфейс по-шведски (sv/en), роль user/admin и админ-панель.</p></div>
+      <div><h3>Webbpanel + i18n <span class="pill live">live</span></h3>
+        <p>Jinja2 + production-Tailwind + Vanilla JS: flöde, filter, aviseringar, inställningar. Gränssnittet på svenska (sv/en), roll user/admin och adminpanel.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z"/></svg></span>
-      <div><h3>Telegram-доставка <span class="pill soon">Фаза 3</span></h3>
-        <p>Привязка аккаунта реализована; доставка уведомлений со ссылкой в Telegram (aiogram) — на подходе. Сейчас совпадения уже оживляют веб-ленту.</p></div>
+      <div><h3>Telegram-leverans <span class="pill soon">Fas 3</span></h3>
+        <p>Kontokoppling är klar; leverans av aviseringar med länk i Telegram (aiogram) är på väg. Just nu syns träffar redan i webbflödet.</p></div>
     </div>
     <div class="feat">
       <span class="fico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span>
-      <div><h3>Комплаенс &amp; этичная нагрузка <span class="pill live">live</span></h3>
-        <p>Один центральный поллер, джиттер и backoff, уважение 429/Retry-After. Официальное API в приоритете; адаптер включается только после положительного вывода по ToS.</p></div>
+      <div><h3>Efterlevnad &amp; etisk last <span class="pill live">live</span></h3>
+        <p>En central poller, jitter och backoff, respekt för 429/Retry-After. Officiellt API först; en adapter aktiveras bara efter positivt ToS-besked.</p></div>
     </div>
   </main>
 
   <div class="section-h">
-    <span class="label">UI-превью по устройствам</span>
-    <span class="meta">самодостаточные снапшоты интерфейса</span>
+    <span class="label">UI-förhandsvisning per enhet</span>
+    <span class="meta">fristående ögonblicksbilder av gränssnittet</span>
   </div>
 
   <main class="grid">
@@ -213,37 +241,72 @@
       <span class="tag">1440px+</span>
       <span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 20h8M12 17v3"/></svg></span>
       <h2>Desktop</h2>
-      <p>Полноразмерный дашборд: многоколоночная раскладка, расширенные панели и настройки.</p>
-      <span class="go">Открыть <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <p>Fullstor instrumentpanel: flerkolumnslayout, utökade paneler och inställningar.</p>
+      <span class="go">Öppna <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </a>
 
     <a class="card" href="HQRTM-Demo/HQRTM-Tablet.html">
       <span class="tag">~834px</span>
       <span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M11 19h2"/></svg></span>
       <h2>Tablet</h2>
-      <p>Адаптивная раскладка для планшета: компактная навигация, оптимизированная лента.</p>
-      <span class="go">Открыть <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <p>Responsiv layout för surfplatta: kompakt navigering, optimerat flöde.</p>
+      <span class="go">Öppna <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </a>
 
     <a class="card" href="HQRTM-Demo/HQRTM-Mobile.html">
       <span class="tag">~390px</span>
       <span class="ico"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg></span>
-      <h2>Mobile</h2>
-      <p>Mobile-first: мониторинг жилья критичен на телефоне — главный сценарий использования.</p>
-      <span class="go">Открыть <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <h2>Mobil</h2>
+      <p>Mobile-first: bostadsbevakning är kritisk i mobilen — det huvudsakliga användningsfallet.</p>
+      <span class="go">Öppna <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
     </a>
   </main>
 
   <div class="creds">
     <span class="cred"><span class="role">USER</span> <b>elin@hqrtm.se</b> / <b>demo1234</b></span>
     <span class="cred"><span class="role">ADMIN</span> <b>admin@hqrtm.se</b> / <b>admin1234</b></span>
-    <span class="cred">тестовые учётки UI-превью · подставлены на экране входа</span>
+    <span class="cred">testkonton för förhandsvisningen · ifyllda på inloggningsskärmen</span>
   </div>
 
   <footer>
     HQRTM · Flask · MongoDB · SSE · Telegram<br>
-    <a href="https://github.com/alshfu/HQRTM">GitHub</a> · <a href="https://github.com/alshfu/HQRTM/wiki">Wiki</a> · <a href="https://github.com/alshfu/HQRTM/releases">Релизы</a><br>
-    Боевой сервис разворачивается отдельно на VPS (Docker · Nginx · TLS)
+    <a href="https://github.com/alshfu/HQRTM">GitHub</a> · <a href="https://github.com/alshfu/HQRTM/wiki">Wiki</a> · <a href="https://github.com/alshfu/HQRTM/releases">Releaser</a><br>
+    Skarp tjänst driftsätts separat på VPS (Docker · Nginx · TLS)
   </footer>
+
+  <script src="HQRTM-Demo/sample-listings.js"></script>
+  <script>
+    (function () {
+      var SRC = { homeq: "HomeQ", qasa: "Qasa", samtrygg: "Samtrygg" };
+      var data = window.HQRTM_SAMPLE || [];
+      var root = document.getElementById("listings");
+      if (!root) return;
+      if (!data.length) { root.innerHTML = '<p style="color:var(--muted);font-size:13px">Inget urval tillgängligt.</p>'; return; }
+
+      function nf(n) { return (n == null) ? null : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " "); }
+
+      root.innerHTML = "";
+      data.forEach(function (it) {
+        var src = SRC[it.source] || it.source;
+        var specs = [];
+        if (it.rooms != null) specs.push('<span>' + it.rooms + ' rum</span>');
+        if (it.area_m2 != null) specs.push('<span>' + it.area_m2 + ' m²</span>');
+        if (it.rent != null) specs.push('<span class="rent">' + nf(it.rent) + ' kr/mån</span>');
+
+        var a = document.createElement("a");
+        a.className = "lcard";
+        a.href = it.url || "#";
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.innerHTML =
+          '<div class="top"><span class="src">' + src + '</span><span class="fcfs">Först till kvarn</span></div>' +
+          '<h3>' + (it.title || "Bostad") + '</h3>' +
+          (it.district ? '<div class="where">' + it.district + '</div>' : '') +
+          '<div class="specs">' + specs.join("") + '</div>' +
+          '<span class="open">Öppna annonsen på ' + src + ' <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>';
+        root.appendChild(a);
+      });
+    })();
+  </script>
 </body>
 </html>
