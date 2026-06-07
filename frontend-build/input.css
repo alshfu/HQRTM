@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Кастомные компоненты/токены — синхронизировать с inline-стилями в web/templates/base.html
+   при переезде с Play CDN на сборку. */

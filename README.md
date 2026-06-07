@@ -50,7 +50,7 @@ pre-commit install
 python -m shared.db
 
 # 5. Запуск веб-приложения (API + кабинет)
-flask --app web.app run --debug      # http://127.0.0.1:5000/health
+flask --app web.app run --debug      # http://127.0.0.1:5000/  (кабинет), /health, /apidocs
 
 # 6. Запуск поллера (отдельный процесс) — появится в Фазе 2
 # python -m poller.main

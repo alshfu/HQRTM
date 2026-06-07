@@ -1,0 +1,46 @@
+{% extends "app_base.html" %}
+{% block title %}Aviseringar — HQRTM{% endblock %}
+{% block heading %}Aviseringar{% endblock %}
+{% block subheading %}Historik över skickade aviseringar.{% endblock %}
+
+{% block app %}
+<div id="list" class="grid gap-2"></div>
+<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">Inga aviseringar ännu.</div>
+<div class="flex items-center gap-3 mt-4 text-sm">
+  <button id="prev" class="card px-3 py-1.5 rounded-lg hover:border-white/30">←</button>
+  <span id="pageinfo" class="font-mono text-xs text-gray-500"></span>
+  <button id="next" class="card px-3 py-1.5 rounded-lg hover:border-white/30">→</button>
+</div>
+{% endblock %}
+
+{% block app_scripts %}
+<script>
+  const list = document.getElementById("list");
+  const empty = document.getElementById("empty");
+  let page = 1;
+  const LIMIT = 20;
+
+  function row(n) {
+    const color = n.status === "delivered" ? "#15b878" : n.status === "failed" ? "#e2563f" : "#9aa6a1";
+    return `<div class="card rounded-lg px-4 py-3 flex items-center justify-between text-sm">
+      <div><span class="font-mono text-xs" style="color:${color}">${HQRTM.esc(n.status || "—")}</span>
+      <span class="text-gray-400 ml-2">${HQRTM.esc(n.channel || "telegram")}</span></div>
+      <div class="font-mono text-xs text-gray-500">${n.latency_ms ? n.latency_ms + " ms" : ""}</div></div>`;
+  }
+
+  async function load() {
+    const { ok, data } = await HQRTM.api(`/api/notifications?page=${page}&limit=${LIMIT}`);
+    if (!ok) return HQRTM.toast("Kunde inte ladda historiken", "error");
+    list.innerHTML = data.items.map(row).join("");
+    empty.classList.toggle("hidden", data.items.length > 0);
+    const pages = Math.max(1, Math.ceil(data.total / LIMIT));
+    document.getElementById("pageinfo").textContent = `${page} / ${pages} (${data.total})`;
+    document.getElementById("prev").disabled = page <= 1;
+    document.getElementById("next").disabled = page >= pages;
+  }
+
+  document.getElementById("prev").addEventListener("click", () => { if (page > 1) { page--; load(); } });
+  document.getElementById("next").addEventListener("click", () => { page++; load(); });
+  load();
+</script>
+{% endblock %}

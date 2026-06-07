@@ -116,6 +116,7 @@ def me():
         jsonify(
             id=str(user["_id"]),
             email=user.get("email"),
+            role=user.get("role", "user"),
             status=user.get("status"),
             locale=user.get("locale"),
             telegram_linked=user.get("telegram_chat_id") is not None,

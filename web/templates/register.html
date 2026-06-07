@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Registrera — HQRTM{% endblock %}
+
+{% block body %}
+<div class="min-h-screen grid place-items-center px-6">
+  <form id="form" class="card w-full max-w-sm rounded-2xl p-7 flex flex-col gap-4" novalidate>
+    <a href="/" class="font-extrabold text-xl">HQRTM</a>
+    <div>
+      <h1 class="text-2xl font-bold">Skapa konto</h1>
+      <p class="text-sm text-gray-400 mt-1">Börja bevaka bostäder på sekunder.</p>
+    </div>
+
+    <label class="text-sm font-medium">E-post
+      <input name="email" type="email" required placeholder="namn@exempel.se"
+             class="input w-full mt-1 px-3 py-2.5 rounded-lg" />
+    </label>
+    <label class="text-sm font-medium">Lösenord
+      <input name="password" type="password" required minlength="8" placeholder="Minst 8 tecken"
+             class="input w-full mt-1 px-3 py-2.5 rounded-lg" />
+    </label>
+
+    <label class="flex items-start gap-2 text-xs text-gray-400">
+      <input name="consent" type="checkbox" required class="mt-0.5" />
+      <span>Jag godkänner <a href="#" class="text-accent">villkoren</a> och <a href="#" class="text-accent">integritetspolicyn</a> (GDPR).</span>
+    </label>
+
+    <button class="btn-accent font-semibold py-2.5 rounded-lg mt-1">Registrera dig</button>
+    <p class="text-center text-sm text-gray-400">
+      Har du konto? <a href="/login" class="text-accent hover:underline">Logga in</a>
+    </p>
+  </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  if (HQRTM.isAuthed()) location.href = "/app";
+  document.getElementById("form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    if (!f.consent.checked) return HQRTM.toast("Du måste godkänna villkoren", "error");
+    if (f.password.value.length < 8) return HQRTM.toast("Lösenordet måste vara minst 8 tecken", "error");
+    const { ok, data } = await HQRTM.register(f.email.value.trim(), f.password.value);
+    if (ok) { location.href = "/app"; }
+    else if (data?.error === "email_taken") HQRTM.toast("E-posten är redan registrerad", "error");
+    else HQRTM.toast("Registrering misslyckades", "error");
+  });
+</script>
+{% endblock %}

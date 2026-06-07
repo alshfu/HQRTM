@@ -37,9 +37,11 @@ def create_app(db=None, testing: bool = False) -> Flask:
 
     from web.api.routes import bp as api_bp
     from web.auth.routes import bp as auth_bp
+    from web.views import bp as views_bp
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(api_bp)
+    app.register_blueprint(views_bp)
 
     @app.get("/health")
     def health():

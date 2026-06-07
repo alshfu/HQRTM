@@ -170,7 +170,8 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 **❓ Ещё открыто — спрашивай, не выбирай молча:**
 1. **HomeQ:** есть ли официальное/партнёрское API? Что разрешает ToS + `robots.txt`?
    (Скрейпинг — только fallback. Зафиксировать в `COMPLIANCE.md` **до Фазы 2**.) — БЛОКЕР Фазы 2.
-2. **Frontend CSS:** Tailwind или Bootstrap 5? (Roadmap рекомендует Tailwind.) — нужно к Фазе 5.
+2. ✅ **Frontend CSS: Tailwind** (решено 2026-06-07). Сейчас — Play CDN (прототип); production-сборка
+   в `frontend-build/` (Tailwind CLI, см. README там) — переезд в полировке/Фазе 8.
 3. **Языки UI на старте** (швед./англ.; в демо уже sv+en).
 4. Монетизация/тарифы и админ-панель сейчас? (по умолчанию — нет; в демо админка есть как UI).
 5. Ожидаемое число пользователей (влияет на выбор VPS) — к Фазе 10.
@@ -185,13 +186,16 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Фаза 1** — ✅ ГОТОВО (код, на ветке `feature/phase1-data-layer`): `shared/models.py`,
   `shared/db.py` (`ensure_indexes`), мульти-source каркас `poller/sources/`. Тесты 22 passed.
   Осталось: прогнать `python -m shared.db` на реальном Atlas (нужен MONGO_URI от владельца).
-- **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются). ← **СЛЕДУЮЩАЯ**
+- **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются).
   Блокер: выводы по ToS площадок в `COMPLIANCE.md` (§6 п.1). Адаптеры `poller/sources/*` пока `enabled=False`.
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
 - **Фаза 4** — ✅ ГОТОВО: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
   `/api/me` (GDPR), `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
   `/api/telegram/link|status`, OpenAPI (`/openapi.json`) + Swagger UI (`/apidocs`). Тесты 39 passed.
-- **Фаза 5** — Frontend (Jinja2 + Tailwind/Bootstrap + Vanilla JS).
+- **Фаза 5** — 🚧 В РАБОТЕ: Jinja2 + Tailwind (Play CDN) + Vanilla JS. Готово: страницы
+  landing/login/register, кабинет (дашборд-лента, фильтры CRUD, уведомления, настройки+GDPR),
+  JS-клиент `web/static/js/api.js` (токены, auto-refresh, guard), роль user/admin в навигации.
+  Маршруты — `web/views.py`. Осталось: i18n (sv/en), SSE-лента (Фаза 6), админ-UI, production Tailwind build.
 - **Фаза 6** — Real-time (SSE + Change Streams).
 - **Фаза 7** — GitHub Pages demo.
 - **Фаза 8** — устойчивость/безопасность/наблюдаемость.
@@ -246,6 +250,12 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 5):** Фронтенд на Jinja2 + **Tailwind** (Play CDN) + Vanilla JS.
+  `web/views.py` (страницы), `web/templates/*` (base/app_base + landing/login/register/dashboard/
+  filters/notifications/settings), `web/static/js/api.js` (клиент: токены в localStorage, auto-refresh,
+  guard, toast). Добавлена роль `UserRole` (user/admin) в модель + в `/api/me`; админ-пункт в навигации
+  по роли. `frontend-build/` — конфиг для production Tailwind-сборки (пока CDN). Тесты **48 passed**.
+  Ветка `feature/phase5-frontend`. Дальше: Wiki (мануалы), затем i18n / SSE (Фаза 6) / админ-UI.
 - **2026-06-07 (Фаза 4 завершена):** Все эндпоинты Фазы 4 готовы и влиты в `develop` (запушено).
   Добавлены: `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
   `/api/telegram/link|status`, OpenAPI (`web/openapi.py` → `/openapi.json`, Swagger UI `/apidocs`).

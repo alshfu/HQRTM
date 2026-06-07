@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="flex min-h-screen">
+  <!-- sidebar -->
+  <aside class="w-60 shrink-0 border-r border-white/10 p-4 flex flex-col gap-1 max-md:hidden">
+    <a href="/app" class="font-extrabold text-lg px-2 py-2">HQRTM<span class="block text-[10px] font-mono text-gray-500">Real-Time Monitor</span></a>
+
+    <nav class="mt-3 flex flex-col gap-1">
+      <a href="/app" class="navlink {{ 'active' if page=='feed' }} px-3 py-2 rounded-lg text-sm">Flöde</a>
+      <a href="/app/filters" class="navlink {{ 'active' if page=='filters' }} px-3 py-2 rounded-lg text-sm">Filter</a>
+      <a href="/app/notifications" class="navlink {{ 'active' if page=='notifications' }} px-3 py-2 rounded-lg text-sm">Aviseringar</a>
+      <a href="/app/settings" class="navlink {{ 'active' if page=='settings' }} px-3 py-2 rounded-lg text-sm">Konto</a>
+      <a href="#" id="nav-admin" class="navlink px-3 py-2 rounded-lg text-sm hidden">Admin</a>
+    </nav>
+
+    <div class="mt-auto card rounded-xl p-3 flex items-center gap-2">
+      <div class="w-8 h-8 rounded-full grid place-items-center font-bold" style="background:#15b87822;color:#15b878" id="avatar">·</div>
+      <div class="min-w-0 grow">
+        <div class="text-sm font-semibold truncate" id="chip-email">…</div>
+        <div class="text-[11px] text-gray-500" id="chip-role">—</div>
+      </div>
+      <button id="logout" title="Logga ut" class="text-gray-400 hover:text-accent text-xs font-mono">⎋</button>
+    </div>
+  </aside>
+
+  <!-- main -->
+  <main class="grow p-6 max-w-5xl">
+    <header class="mb-6">
+      <h1 class="text-2xl font-bold">{% block heading %}{% endblock %}</h1>
+      <p class="text-sm text-gray-400">{% block subheading %}{% endblock %}</p>
+    </header>
+    {% block app %}{% endblock %}
+  </main>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  if (!HQRTM.requireAuth()) { /* redirect */ }
+  document.getElementById("logout").addEventListener("click", () => HQRTM.logout());
+
+  (async () => {
+    const { ok, data } = await HQRTM.api("/api/me");
+    if (!ok) return HQRTM.logout();
+    document.getElementById("chip-email").textContent = data.email;
+    document.getElementById("chip-role").textContent = data.role === "admin" ? "Administratör" : "Användare";
+    document.getElementById("avatar").textContent = (data.email || "·")[0].toUpperCase();
+    if (data.role === "admin") document.getElementById("nav-admin").classList.remove("hidden");
+  })();
+</script>
+{% block app_scripts %}{% endblock %}
+{% endblock %}

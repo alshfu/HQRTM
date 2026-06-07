@@ -1,0 +1,80 @@
+{% extends "app_base.html" %}
+{% block title %}Filter — HQRTM{% endblock %}
+{% block heading %}Filter{% endblock %}
+{% block subheading %}Skapa och hantera dina bevakningsfilter.{% endblock %}
+
+{% block app %}
+<form id="form" class="card rounded-xl p-4 grid sm:grid-cols-2 gap-3 mb-6">
+  <input name="name" required placeholder="Namn (t.ex. Söder 2 rok)" class="input px-3 py-2 rounded-lg sm:col-span-2" />
+  <input name="district" placeholder="Område" class="input px-3 py-2 rounded-lg" />
+  <input name="city" placeholder="Stad" class="input px-3 py-2 rounded-lg" />
+  <input name="rent_max" type="number" min="0" placeholder="Max hyra (kr)" class="input px-3 py-2 rounded-lg" />
+  <input name="rooms_min" type="number" min="0" step="0.5" placeholder="Min rum" class="input px-3 py-2 rounded-lg" />
+  <label class="flex items-center gap-2 text-sm text-gray-400 sm:col-span-2">
+    <input name="only_fcfs" type="checkbox" checked /> Endast «Först till kvarn»
+  </label>
+  <button class="btn-accent font-semibold py-2 rounded-lg sm:col-span-2">Lägg till filter</button>
+</form>
+
+<div id="list" class="grid gap-3"></div>
+<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">Inga filter ännu.</div>
+{% endblock %}
+
+{% block app_scripts %}
+<script>
+  const list = document.getElementById("list");
+  const empty = document.getElementById("empty");
+
+  function row(f) {
+    const meta = [f.district, f.city, f.rent_max ? "≤" + f.rent_max + " kr" : null,
+                  f.rooms_min ? "≥" + f.rooms_min + " rok" : null, f.only_fcfs ? "FCFS" : null]
+                  .filter(Boolean).map(HQRTM.esc).join(" · ");
+    const state = f.is_active
+      ? '<span class="text-accent">aktivt</span>' : '<span class="text-gray-500">pausat</span>';
+    return `<div class="card rounded-xl p-4 flex items-center justify-between">
+      <div><div class="font-semibold">${HQRTM.esc(f.name)} <span class="text-xs">${state}</span></div>
+      <div class="text-sm text-gray-400 mt-0.5">${meta || "—"}</div></div>
+      <div class="flex gap-3 text-sm">
+        <button data-toggle="${f.id}" class="text-gray-400 hover:text-accent">${f.is_active ? "Pausa" : "Aktivera"}</button>
+        <button data-del="${f.id}" class="text-gray-400 hover:text-red-400">Ta bort</button>
+      </div></div>`;
+  }
+
+  let cache = [];
+  async function load() {
+    const { ok, data } = await HQRTM.api("/api/filters");
+    if (!ok) return HQRTM.toast("Kunde inte ladda filter", "error");
+    cache = data.items;
+    list.innerHTML = cache.map(row).join("");
+    empty.classList.toggle("hidden", cache.length > 0);
+  }
+
+  document.getElementById("form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    const body = { name: f.name.value.trim(), only_fcfs: f.only_fcfs.checked };
+    if (f.district.value) body.district = f.district.value.trim();
+    if (f.city.value) body.city = f.city.value.trim();
+    if (f.rent_max.value) body.rent_max = +f.rent_max.value;
+    if (f.rooms_min.value) body.rooms_min = +f.rooms_min.value;
+    const { ok } = await HQRTM.api("/api/filters", { method: "POST", body });
+    if (ok) { f.reset(); HQRTM.toast("Filter tillagt"); load(); }
+    else HQRTM.toast("Kunde inte spara filtret", "error");
+  });
+
+  list.addEventListener("click", async (e) => {
+    const del = e.target.dataset.del, tog = e.target.dataset.toggle;
+    if (del) {
+      const { ok } = await HQRTM.api("/api/filters/" + del, { method: "DELETE" });
+      if (ok) { HQRTM.toast("Filter borttaget"); load(); }
+    } else if (tog) {
+      const f = cache.find((x) => x.id === tog);
+      const body = { ...f, is_active: !f.is_active }; delete body.id;
+      const { ok } = await HQRTM.api("/api/filters/" + tog, { method: "PUT", body });
+      if (ok) load();
+    }
+  });
+
+  load();
+</script>
+{% endblock %}

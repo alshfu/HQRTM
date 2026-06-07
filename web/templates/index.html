@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}HQRTM — bevakning av svenska bostäder{% endblock %}
+
+{% block body %}
+<div class="max-w-3xl mx-auto px-6 py-20 text-center">
+  <div class="font-mono text-xs tracking-widest uppercase text-accent mb-4">HomeQ Real-Time Monitor</div>
+  <h1 class="text-5xl font-extrabold leading-tight tracking-tight">
+    All-in-one bevakning av <span class="text-accent">svenska bostäder</span>
+  </h1>
+  <p class="mt-5 text-lg text-gray-400">
+    Bevakar flera plattformar (HomeQ, Qasa, Blocket Bostad m.fl.), lyfter fram
+    «Först till kvarn» och skickar avisering till Telegram på sekunder.
+  </p>
+
+  <div class="mt-9 flex items-center justify-center gap-3">
+    <a href="/register" class="btn-accent font-semibold px-6 py-3 rounded-xl">Kom igång gratis</a>
+    <a href="/login" class="card px-6 py-3 rounded-xl font-semibold hover:border-white/30">Logga in</a>
+  </div>
+
+  <div class="mt-6 font-mono text-xs text-gray-500">
+    <a href="https://alshfu.github.io/HQRTM/" class="hover:text-accent underline">UI-demo (mock-data)</a>
+    · <a href="/apidocs" class="hover:text-accent underline">API-docs</a>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  // если уже залогинен — сразу в кабинет
+  if (HQRTM.isAuthed()) location.href = "/app";
+</script>
+{% endblock %}

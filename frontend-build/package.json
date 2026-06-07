@@ -1,0 +1,13 @@
+{
+  "name": "hqrtm-frontend-build",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tailwind production build for HQRTM web (Jinja2 templates)",
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i input.css -o ../web/static/css/app.css --minify",
+    "watch": "tailwindcss -c tailwind.config.js -i input.css -o ../web/static/css/app.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
