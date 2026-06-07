@@ -8,13 +8,19 @@
 
 ## 1. Что это за проект
 
-**HQRTM (HomeQ Real-Time Monitor)** — сервис, который круглосуточно мониторит публикации на
-платформе **HomeQ**, мгновенно выделяет объявления типа **«Först till kvarn» (FCFS** — «первый
-успел, первый получил»), отсеивает «очередные» (queue-объекты), сопоставляет с фильтрами
-пользователей и доставляет уведомление со ссылкой в **Telegram за ≤ 1.5 секунды**. Веб-кабинет
-позволяет пользователю самому настраивать фильтры, привязывать Telegram и видеть живую ленту.
+**HQRTM** — **all-in-one агрегатор** мониторинга аренды жилья на нескольких шведских площадках
+(HomeQ — первая; далее Qasa, Blocket Bostad, Bostad Direkt, Samtrygg, Bostadsförmedlingen, Boplats…).
+Круглосуточно мониторит публикации, мгновенно выделяет объявления типа **«Först till kvarn» (FCFS)**,
+отсеивает «очередные» (queue), сопоставляет с фильтрами пользователей и доставляет уведомление
+со ссылкой в **Telegram за ≤ 1.5 с**. Веб-кабинет: фильтры, привязка Telegram, живая лента.
 
-**Вне scope (важно):** бот **не** логинится в аккаунт HomeQ и **не** подаёт заявки — только уведомляет.
+> **Мульти-source (решение 2026-06-07):** источник изолирован в адаптере `poller/sources/`
+> (база `SourceAdapter` + реестр). Все площадки нормализуются в одну коллекцию `listings`
+> с полем `source`; уникальность объявления — пара **(source, external_id)**. Добавить площадку =
+> новый адаптер, ядро поллера не меняется. ⚠️ ToS/robots.txt — **отдельно по каждой площадке**
+> (чек-лист в `COMPLIANCE.md`); адаптер `enabled=True` только после положительного вывода.
+
+**Вне scope (важно):** бот **не** логинится в аккаунты площадок и **не** подаёт заявки — только уведомляет.
 
 ---
 
@@ -142,9 +148,13 @@ Flask читает + слушает Change Stream).
 
 Коллекции: `users`, `filters`, `listings`, `notifications`, `seen_listings`, `audit_log`.
 
+Реализовано в Фазе 1: `shared/models.py` (pydantic-схемы всех коллекций, StrEnum для source/type/
+status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COLL_*` + CLI `python -m shared.db`).
+
 Критичные инварианты (соблюдать всегда):
-- **`listings.external_id` — UNIQUE-индекс** → каждое объявление обрабатывается ровно один раз (DB-001).
-- **TTL-индекс `seen_listings.seen_at`** (~24 ч) → дедуп без Redis (DB-002).
+- **Уникум объявления — составной `(source, external_id)`** (мульти-source; уточняет DB-001).
+  Индекс `uniq_source_extid`. Тот же `external_id` на разных площадках — это разные объявления.
+- **TTL-индекс `seen_listings.seen_at`** (~24 ч, `seen_ttl_hours`) → дедуп без Redis (DB-002).
 - **TTL-индекс `listings.fetched_at`** (~7 дней) → авто-очистка (DB-003).
 - **Пароли — только хэш** (Argon2/bcrypt), секреты — никогда в открытом виде (DB-004).
 - **`notifications.latency_ms`** (publish → delivered) пишется для SLA-отчётности (DB-005).
@@ -172,8 +182,11 @@ Flask читает + слушает Change Stream).
 Полный план в Roadmap §11. Краткая карта фаз и вех:
 
 - **Фаза 0** — ✅ ГОТОВО: репозиторий, структура, окружение, pre-commit, CI.
-- **Фаза 1** — слой данных: MongoDB как RS, `shared/db.py` + индексы, `shared/models.py` (pydantic). ← **МЫ ЗДЕСЬ**
-- **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются).
+- **Фаза 1** — ✅ ГОТОВО (код, на ветке `feature/phase1-data-layer`): `shared/models.py`,
+  `shared/db.py` (`ensure_indexes`), мульти-source каркас `poller/sources/`. Тесты 22 passed.
+  Осталось: прогнать `python -m shared.db` на реальном Atlas (нужен MONGO_URI от владельца).
+- **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются). ← **СЛЕДУЮЩАЯ**
+  Блокер: выводы по ToS площадок в `COMPLIANCE.md` (§6 п.1). Адаптеры `poller/sources/*` пока `enabled=False`.
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
 - **Фаза 4** — Flask API + Auth (JWT/сессии, CRUD фильтров, OpenAPI).
 - **Фаза 5** — Frontend (Jinja2 + Tailwind/Bootstrap + Vanilla JS).
@@ -231,6 +244,13 @@ Flask читает + слушает Change Stream).
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (ещё поздн.):** **Фаза 1 готова** на ветке `feature/phase1-data-layer` (от `develop`).
+  `shared/models.py` (все коллекции, мульти-source, StrEnum), `shared/db.py` (`ensure_indexes`,
+  составной уникум `(source, external_id)`, TTL), мульти-source каркас `poller/sources/`
+  (`SourceAdapter` + реестр + HomeQ-стаб, все `enabled=False`). Добавлен `email-validator`.
+  Тесты: 22 passed (models, indexes на mongomock, registry). **Pivot:** проект → all-in-one
+  агрегатор шведских площадок. `develop` запушен на GitHub (Фаза 0). ⚠️ GitHub Actions заблокирован
+  (биллинг аккаунта) — CI не запускается, но конфиг корректен; локально зелёно.
 - **2026-06-07 (поздн.):** **Фаза 0 завершена** на ветке `develop`. Каркас: `pyproject.toml`,
   venv 3.12, пакеты `shared/web/poller/bot` (заглушки с TODO по фазам), `tests/` (10 passed),
   pre-commit (ruff/black/detect-secrets + baseline), CI `ci.yml`, README/COMPLIANCE/CONTRIBUTING/LICENSE.
@@ -242,6 +262,10 @@ Flask читает + слушает Change Stream).
 - **2026-06-07:** Стек: **Python 3.12**, **MongoDB Atlas free-tier**, лицензия **MIT**.
   Зависимости и tooling — в `pyproject.toml` (`[project]` + `[project.optional-dependencies]`).
   `docker-compose` отложен на Фазу 10 (Atlas для dev, локальный Docker не требуется).
+- **2026-06-07:** **Pivot на мульти-source агрегатор** (по предложению владельца). Источник —
+  через адаптеры `poller/sources/` (`SourceAdapter` + реестр). Уникум объявления стал
+  `(source, external_id)`. Площадки-кандидаты в `COMPLIANCE.md`; финальный набор — за владельцем.
+  ToS проверяется per-source, адаптер включается только после этого.
 - **2026-06-07:** Каноническим стеком признан Roadmap (Flask + MongoDB + SSE + Vanilla JS).
   Документы Backend/Frontend ToR — источники требований, но их технологии (FastAPI/Postgres/Redis/React)
   не используются.

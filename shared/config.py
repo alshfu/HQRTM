@@ -17,6 +17,9 @@ class Settings(BaseSettings):
     # MongoDB (replica set обязателен для Change Streams)
     mongo_uri: str = "mongodb://localhost:27017/?replicaSet=rs0"
     mongo_db: str = "hqrtm"
+    # TTL авто-очистки (DB-002/DB-003)
+    seen_ttl_hours: int = 24
+    listings_ttl_days: int = 7
 
     # Flask / web
     flask_env: str = "development"

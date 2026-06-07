@@ -1,12 +1,16 @@
-"""Подключение к MongoDB и создание индексов.
+"""Подключение к MongoDB и создание индексов (Фаза 1).
 
 Два клиента:
 - PyMongo (синхронный) — для Flask (web).
 - Motor (асинхронный) — для поллера и бота.
 
-Индексы (Фаза 1) реализуют инварианты модели данных (Roadmap §3):
-DB-001 unique listings.external_id · DB-002 TTL seen_listings ·
-DB-003 TTL listings · DB-006 replica set.
+Индексы реализуют инварианты модели данных (Roadmap §3, расширено для мульти-source):
+- DB-001: уникальность объявления — пара (source, external_id).
+- DB-002: TTL seen_listings.seen_at (дедуп без Redis).
+- DB-003: TTL listings.fetched_at (авто-очистка).
+- DB-006: MongoDB как replica set (для Change Streams; Atlas — из коробки).
+
+Инициализация индексов на реальной БД:  python -m shared.db
 """
 
 from __future__ import annotations
@@ -20,6 +24,14 @@ if TYPE_CHECKING:
     from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
     from pymongo import MongoClient
     from pymongo.database import Database
+
+# Имена коллекций — единый источник, не хардкодить строки в коде.
+COLL_USERS = "users"
+COLL_FILTERS = "filters"
+COLL_LISTINGS = "listings"
+COLL_NOTIFICATIONS = "notifications"
+COLL_SEEN = "seen_listings"
+COLL_AUDIT = "audit_log"
 
 
 @lru_cache
@@ -47,13 +59,50 @@ def get_async_db() -> AsyncIOMotorDatabase:
 
 
 def ensure_indexes(db: Database) -> None:
-    """Создать индексы и TTL (идемпотентно). Реализуется в Фазе 1.
+    """Создать индексы и TTL (идемпотентно). Безопасно вызывать многократно."""
+    settings = get_settings()
 
-    TODO(Фаза 1):
-      - listings: unique(external_id) [DB-001]; TTL(fetched_at, ~7 дней) [DB-003]
-      - seen_listings: TTL(seen_at, ~24 ч) [DB-002]
-      - users: unique(email)
-      - filters: index(user_id, is_active)
-      - notifications: index(user_id, sent_at)
-    """
-    raise NotImplementedError("ensure_indexes() — Фаза 1")
+    # users: уникальный e-mail
+    db[COLL_USERS].create_index("email", unique=True, name="uniq_email")
+
+    # filters: выборка активных фильтров пользователя при матчинге
+    db[COLL_FILTERS].create_index([("user_id", 1), ("is_active", 1)], name="user_active")
+
+    # listings: уникум (source, external_id) [DB-001]; TTL по fetched_at [DB-003];
+    # вспомогательный индекс под матчинг (тип/район/цена).
+    listings = db[COLL_LISTINGS]
+    listings.create_index(
+        [("source", 1), ("external_id", 1)], unique=True, name="uniq_source_extid"
+    )
+    listings.create_index(
+        "fetched_at", expireAfterSeconds=settings.listings_ttl_days * 86400, name="ttl_fetched"
+    )
+    listings.create_index(
+        [("listing_type", 1), ("district", 1), ("rent", 1)], name="match_type_district_rent"
+    )
+
+    # seen_listings: дедуп (source, external_id) [BE-FL-003]; TTL по seen_at [DB-002]
+    seen = db[COLL_SEEN]
+    seen.create_index([("source", 1), ("external_id", 1)], unique=True, name="uniq_seen")
+    seen.create_index("seen_at", expireAfterSeconds=settings.seen_ttl_hours * 3600, name="ttl_seen")
+
+    # notifications: история пользователя по времени
+    db[COLL_NOTIFICATIONS].create_index([("user_id", 1), ("sent_at", -1)], name="user_sent")
+
+    # audit_log: по времени
+    db[COLL_AUDIT].create_index("created_at", name="created")
+
+
+def init_indexes() -> list[str]:
+    """Создать индексы на настроенной БД и вернуть список затронутых коллекций."""
+    db = get_sync_db()
+    ensure_indexes(db)
+    return [COLL_USERS, COLL_FILTERS, COLL_LISTINGS, COLL_NOTIFICATIONS, COLL_SEEN, COLL_AUDIT]
+
+
+if __name__ == "__main__":  # pragma: no cover
+    settings = get_settings()
+    print(f"Создаю индексы в БД '{settings.mongo_db}'…")
+    for coll in init_indexes():
+        print(f"  ✓ {coll}")
+    print("Готово.")
