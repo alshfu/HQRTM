@@ -1,7 +1,12 @@
 """Адаптер HomeQ (homeq.se) — первый источник, FCFS «Först till kvarn».
 
-Реализуется в Фазе 2 после фиксации выводов по ToS HomeQ в COMPLIANCE.md.
-До этого `enabled=False` — поллер его не опрашивает.
+Путь реализации (ресёрч 2026-06-07, см. COMPLIANCE.md): **официальный HomeQ Core API**
+(`docs-core.homeq.se`, auth `/api/v2/tokens/`, Card Search опубликованных объявлений + webhooks).
+Нужен API-ключ из landlord-портала. Webhooks предпочтительны для real-time FCFS.
+До получения ключа/подтверждения ToS `enabled=False` — поллер его не опрашивает.
+
+fetch_listings() должен: вызвать Card Search (или принять webhook-события), нормализовать
+в поля модели Listing (source/external_id/title/url/district/rooms/area_m2/rent/listing_type).
 """
 
 from __future__ import annotations

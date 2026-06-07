@@ -188,8 +188,13 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Фаза 1** — ✅ ГОТОВО (код, на ветке `feature/phase1-data-layer`): `shared/models.py`,
   `shared/db.py` (`ensure_indexes`), мульти-source каркас `poller/sources/`. Тесты 22 passed.
   Осталось: прогнать `python -m shared.db` на реальном Atlas (нужен MONGO_URI от владельца).
-- **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются).
-  Блокер: выводы по ToS площадок в `COMPLIANCE.md` (§6 п.1). Адаптеры `poller/sources/*` пока `enabled=False`.
+- **Фаза 2** — 🟡 ЯДРО ГОТОВО (M1): `poller/detector.py` (FCFS vs очередь), `poller/dedup.py`
+  (seen_listings), `poller/engine.py` (дедуп→детекция→отсев→upsert), `poller/main.py` (async-цикл,
+  адаптивная частота HOT_HOURS, backoff). Тесты 58 passed. **Реальные адаптеры выключены**
+  (`enabled=False`) — ждут API-доступа/ToS. Ресёрч ToS зафиксирован в `COMPLIANCE.md`:
+  **HomeQ/Qasa имеют официальный Core API** (`docs-core.homeq.se`, JWT + Card Search + webhooks) —
+  приоритетный путь; Blocket/Bostad Direkt/Samtrygg — нужен партнёрский доступ/проверка. **Действие
+  владельца:** запросить API-ключ HomeQ/Qasa.
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
 - **Фаза 4** — ✅ ГОТОВО: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
   `/api/me` (GDPR), `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
@@ -255,6 +260,12 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 2 ядро + ToS-ресёрч):** Ядро поллера готово (детектор FCFS, дедуп, engine,
+  async-цикл с адаптивной частотой/backoff) — ветка `feature/phase2-poller`, тесты **58 passed**.
+  ToS-ресёрч площадок занесён в `COMPLIANCE.md`: **HomeQ/Qasa — официальный Core API** (приоритет),
+  остальные — партнёрство/проверка. Адаптеры всё ещё `enabled=False` (нет ключей/подтверждения ToS).
+  Реальная интеграция HomeQ API (Card Search/webhooks) — следующий шаг после получения ключа.
+  ⚠️ Это техническая сводка, не юр-консультация — решение о включении за владельцем.
 - **2026-06-07 (Фаза 6 + CI ожил):** Real-time готов: `web/sse/` (broker + Change Stream watcher +
   `/sse/feed`), дашборд на `EventSource` (дедуп, авто-reconnect, live-индикатор, fallback polling).
   Тесты **51 passed**. CI на GitHub **зелёный** (биллинг разблокирован). Язык UI зафиксирован —
