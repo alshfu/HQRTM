@@ -235,6 +235,17 @@ OPENAPI_SPEC: dict = {
                 "responses": {"200": {"description": "linked, bot_username"}},
             }
         },
+        "/sse/feed": {
+            "get": {
+                "summary": "SSE-поток совпадений (real-time)",
+                "description": "text/event-stream. Токен в query `?token=`.",
+                "parameters": [{"name": "token", "in": "query", "schema": {"type": "string"}}],
+                "responses": {
+                    "200": {"description": "поток событий"},
+                    "401": {"description": "невалидный токен"},
+                },
+            }
+        },
         "/api/me": {
             "get": {
                 "summary": "Профиль",

@@ -10,6 +10,9 @@
   </label>
   <button id="reload" class="card px-3 py-1.5 rounded-lg hover:border-white/30">Uppdatera</button>
   <span id="count" class="font-mono text-xs text-gray-500"></span>
+  <span id="live" class="ml-auto font-mono text-xs flex items-center gap-1.5 text-gray-500">
+    <span id="live-dot" class="w-2 h-2 rounded-full" style="background:#9aa6a1"></span><span id="live-label">ansluter…</span>
+  </span>
 </div>
 
 <div id="feed" class="grid gap-3"></div>
@@ -34,17 +37,77 @@
       <span class="text-accent text-sm">Öppna →</span></a>`;
   }
 
+  const seen = new Set();
+  let total = 0;
+
+  function setCount() { document.getElementById("count").textContent = total + " st"; }
+
+  function prepend(it) {
+    const key = (it.source || "") + ":" + (it.external_id || it.id || "");
+    if (seen.has(key)) return;          // дедуп на клиенте (FE-RT-003)
+    seen.add(key);
+    empty.classList.add("hidden");
+    feed.insertAdjacentHTML("afterbegin", card(it));
+    feed.firstElementChild.animate(
+      [{ opacity: 0, transform: "translateY(-6px)" }, { opacity: 1, transform: "none" }],
+      { duration: 350, easing: "ease-out" }
+    );
+    total += 1; setCount();
+  }
+
   async function load() {
     const matched = document.getElementById("only-matched").checked ? "?matched=true" : "";
     const { ok, data } = await HQRTM.api("/api/listings" + matched);
     if (!ok) return HQRTM.toast("Kunde inte ladda flödet", "error");
+    seen.clear();
+    data.items.forEach((it) => seen.add((it.source || "") + ":" + (it.external_id || it.id || "")));
     feed.innerHTML = data.items.map(card).join("");
     empty.classList.toggle("hidden", data.items.length > 0);
-    document.getElementById("count").textContent = data.total + " st";
+    total = data.total; setCount();
+  }
+
+  /* --- real-time через SSE (Фаза 6) с авто-reconnect + fallback на polling --- */
+  function setLive(state) {
+    const dot = document.getElementById("live-dot");
+    const label = document.getElementById("live-label");
+    const map = { live: ["#15b878", "live"], reconnecting: ["#e8a13a", "återansluter…"], off: ["#9aa6a1", "polling"] };
+    const [color, text] = map[state] || map.off;
+    dot.style.background = color; label.textContent = text;
+  }
+
+  let es = null, pollTimer = null, failures = 0;
+
+  function startPolling() {
+    if (pollTimer) return;
+    setLive("off");
+    pollTimer = setInterval(load, 20000);    // fallback (FE-RT-004)
+  }
+  function stopPolling() { clearInterval(pollTimer); pollTimer = null; }
+
+  function startSSE() {
+    if (!window.EventSource) return startPolling();
+    const token = localStorage.getItem("hqrtm_access");
+    if (!token) return;
+    es = new EventSource(`/sse/feed?token=${encodeURIComponent(token)}`);
+    es.onopen = () => { failures = 0; stopPolling(); setLive("live"); };
+    es.onmessage = (e) => {
+      try {
+        const msg = JSON.parse(e.data);
+        if (msg.listing) prepend(msg.listing);
+      } catch (_) {}
+    };
+    es.onerror = () => {
+      setLive("reconnecting");
+      // EventSource переподключается сам; после нескольких неудач — fallback на polling
+      if (++failures >= 3) startPolling();
+    };
   }
 
   document.getElementById("reload").addEventListener("click", load);
   document.getElementById("only-matched").addEventListener("change", load);
+  window.addEventListener("beforeunload", () => { if (es) es.close(); });
+
   load();
+  startSSE();
 </script>
 {% endblock %}
