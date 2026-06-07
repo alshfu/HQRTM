@@ -32,7 +32,30 @@
    Card Search опубликованных объявлений, **webhooks** на события). Нужно: запросить API-ключ/партнёрский
    доступ через landlord-портал, уточнить условия read-доступа для consumer-сервиса.
    **Webhooks идеальны для real-time FCFS** (вместо высокочастотного опроса).
+
+   **Контракт сверён 2026-06-07** (реализован в `poller/sources/homeq.py`, адаптер `enabled=False`):
+   - База: prod `https://api.homeq.se`, demo `https://api-demo.homeq.se`. Ключ из landlord-портала
+     (`homeq.se/biz` → settings/integration).
+   - **Auth:** `POST /api/v2/tokens/` `{username, password}` → `{token: <JWT>, company, employee, ...}`;
+     токен в заголовке `Authorization: JWT <token>`; проверка `POST /api/v2/tokens/verify/`.
+   - **Card Search:** `POST /api/v3/cards/` → `{results: [...], total_hits}`. Карточка: `id, type,
+     title, uri, city/municipality/county, rent, rooms, area, location{lat,lon}, date_access, ...`.
+     Флаги запроса `first_come_first`/`queue_points` фильтруют тип на стороне API → для FCFS
+     запрашиваем `first_come_first=true, queue_points=false` (очередные не приходят).
+   - **Webhooks:** настраиваются в landlord-портале, ретраи каждые 5 мин до 7 дней; события
+     agreement/reservation/signature/… заточены под landlord-флоу подписания, не под публикацию
+     объявлений → для FCFS-мониторинга профильнее Card Search; webhooks — на будущее.
+   ⚠️ Это техническая сверка по докам, **не** разрешение на запуск: включение адаптера (`enabled=True`)
+   — только после получения учётки и подтверждения ToS владельцем.
 2. **Qasa** — та же группа; вероятно тот же API-доступ. Уточнить при контакте с HomeQ/Qasa.
+
+   **Статус сверки 2026-06-07:** публично документированного партнёрского API у Qasa **не найдено**
+   (есть GraphQL-эндпоинт `api.qasa.com/graphql`, питающий их фронтенд, но без офиц. документации
+   для третьих лиц; ToS на программное чтение не подтверждён). Адаптер `poller/sources/qasa.py`
+   **реализован против best-effort GraphQL-схемы `homes`** и помечен ⚠️ «контракт НЕ верифицирован»,
+   `enabled=False`. **Перед включением:** (1) подтвердить разрешённость доступа (партнёрский API
+   HomeQ/Qasa или письменное согласие), (2) сверить реальную GraphQL-схему и поправить `_HOMES_QUERY`/
+   `_normalize`. Решение о включении — за владельцем.
 3. **Blocket** — без официального API + анти-бот + ToS Schibsted против скрейпинга → **не включать** без
    партнёрского соглашения.
 4. **Bostad Direkt** — robots.txt запрещает поисковые эндпоинты → опрашивать их нельзя; нужен официальный
