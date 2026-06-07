@@ -188,7 +188,10 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Фаза 2** — поллер/PoC → **веха M1** (FCFS детектируется, очередные отсекаются). ← **СЛЕДУЮЩАЯ**
   Блокер: выводы по ToS площадок в `COMPLIANCE.md` (§6 п.1). Адаптеры `poller/sources/*` пока `enabled=False`.
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
-- **Фаза 4** — Flask API + Auth (JWT/сессии, CRUD фильтров, OpenAPI).
+- **Фаза 4** — 🚧 В РАБОТЕ (ветка `feature/phase4-api-auth`): сделано — auth (register/login/
+  refresh, Argon2 `shared/security.py`, JWT), rate-limit (flask-limiter), CRUD `/api/filters`,
+  `/api/me` (GET+DELETE GDPR), фабрика с DI БД (`create_app(db=, testing=)`). Тесты 34 passed.
+  Осталось: `/api/listings`, `/api/notifications` (пагинация), `/api/telegram/*`, OpenAPI/Swagger.
 - **Фаза 5** — Frontend (Jinja2 + Tailwind/Bootstrap + Vanilla JS).
 - **Фаза 6** — Real-time (SSE + Change Streams).
 - **Фаза 7** — GitHub Pages demo.
@@ -244,6 +247,13 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 4):** Ветка `feature/phase4-api-auth` (от `develop`). Реализовано ядро web:
+  `shared/security.py` (Argon2 + JWT), `web/extensions.py` (limiter), `web/db.py` (DI БД + serialize),
+  `web/deps.py` (`require_auth`), blueprints `web/auth/routes.py` (register/login/refresh) и
+  `web/api/routes.py` (CRUD filters + /me GDPR). Фабрика `create_app(db=, testing=)`. Тесты: **34 passed**
+  (auth, filters CRUD, изоляция пользователей, GDPR-удаление). Площадки в scope: HomeQ, Qasa, Blocket,
+  Bostad Direkt, Samtrygg (COMPLIANCE.md). Фаза 1 влита в `develop` и запушена.
+  ⚠️ flask-limiter в dev использует in-memory storage (для мульти-процесса нужен backend; Фаза 8/10).
 - **2026-06-07 (ещё поздн.):** **Фаза 1 готова** на ветке `feature/phase1-data-layer` (от `develop`).
   `shared/models.py` (все коллекции, мульти-source, StrEnum), `shared/db.py` (`ensure_indexes`,
   составной уникум `(source, external_id)`, TTL), мульти-source каркас `poller/sources/`

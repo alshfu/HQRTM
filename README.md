@@ -46,15 +46,30 @@ cp .env.example .env        # заполните MONGO_URI (Atlas) и проче
 # 3. Pre-commit хуки (защита public repo от утечки секретов)
 pre-commit install
 
-# 4. Запуск веб-приложения (API + кабинет)
+# 4. Индексы MongoDB (один раз на новой БД)
+python -m shared.db
+
+# 5. Запуск веб-приложения (API + кабинет)
 flask --app web.app run --debug      # http://127.0.0.1:5000/health
 
-# 5. Запуск поллера (отдельный процесс) — появится в Фазе 2
+# 6. Запуск поллера (отдельный процесс) — появится в Фазе 2
 # python -m poller.main
 
-# 6. Запуск Telegram-бота (отдельный процесс) — появится в Фазе 3
+# 7. Запуск Telegram-бота (отдельный процесс) — появится в Фазе 3
 # python -m bot.main
 ```
+
+### API (Фаза 4, частично)
+
+| Метод | Endpoint | Назначение |
+|---|---|---|
+| POST | `/auth/register`, `/auth/login`, `/auth/refresh` | Регистрация/вход (JWT access+refresh) |
+| GET/POST/PUT/DELETE | `/api/filters[/<id>]` | CRUD фильтров (нужен `Authorization: Bearer`) |
+| GET/DELETE | `/api/me` | Профиль; удаление аккаунта и данных (GDPR) |
+| GET | `/health` | Health-check |
+
+Пароли — Argon2; доступ к данным — только своим (проверка по JWT). _В планах Фазы 4:_
+`/api/listings`, `/api/notifications`, `/api/telegram/*`, OpenAPI/Swagger.
 
 ## Конфигурация
 
