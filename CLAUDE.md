@@ -254,7 +254,9 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 
 ### Git / процесс
 - Ветвление: `main` ← `develop` ← `feature/*`, через PR.
-- Коммитить/пушить — **только когда пользователь попросит**.
+- **ГЛАВНОЕ ПРАВИЛО (2026-06-08): на каждом завершённом этапе — коммитить, пушить и обновлять Wiki**
+  (`docs/wiki/` + при необходимости `scripts/sync-wiki.sh`), без отдельного запроса. Витрина Pages
+  отдаётся из `main` → изменения `index.html` пушить в `main`. (Отменяет прежнее «пушить только по запросу».)
 - Прослеживаемость: при реализации требования ссылайся на его ID (`BE-DE-001`, `FE-FL-003` и т. п.).
 
 ### Взаимодействие с пользователем
@@ -269,6 +271,20 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-08 (Фаза 2 — Samtrygg-адаптер + витрина→релиз):** Адаптер `poller/sources/samtrygg.py`
+  доведён до рабочего состояния по образцу qasa: настройки `samtrygg_api_url/public_base/timeout_s`
+  в `shared/config.py` + `.env.example`, подключён в `poller/sources/__init__.py` (`@register`
+  отрабатывает — проверено), guard при пустом `SAMTRYGG_API_URL`. **Парсинг усилен:** извлечение
+  числа комнат из адреса/заголовка (`N rok/rum`, в ответе поля нет), fallback по альт. именам полей
+  (`sqareMeters`→`squareMeters`/`area`, `price`→`rent`), устойчивый обход ответа `GetHomePageObjects`
+  (группировка по городам `RentalObjectInfo` / плоский список / обёртка `results`). Тесты
+  `tests/test_samtrygg_adapter.py` (11). Весь набор **121 passed**, ruff/black зелёные.
+  ⚠️ `enabled=False` — host в SwaggerHub-спеке не задан, ToS не подтверждён (включение за владельцем).
+  **Витрина GitHub Pages (`index.html`) переделана с «demo» на «релиз»:** убран demo-дисклеймер,
+  добавлен блок реальных возможностей (Фазы 0–6: мульти-source, FCFS, матчинг, SSE, API/JWT, кабинет+i18n,
+  комплаенс — с пометками live/Фаза 3 для Telegram), ссылки на GitHub/Wiki/Releases. Интерактивный
+  прототип сохранён как «UI-превью релиза» (честно: боевой бэкенд на статике не работает). ⚠️ Файл
+  ещё не закоммичен/не запушен в Pages — публикация за владельцем.
 - **2026-06-07 (Фаза 5 — production Tailwind build, ФАЗА 5 ЗАКРЫТА):** Переезд с Play CDN на
   собранный Tailwind. Тема (accent/шрифты) и кастомные компоненты (`.card/.input/.btn-accent/
   .navlink`) вынесены из inline `base.html` в `frontend-build/` (`input.css` + `tailwind.config.js`,

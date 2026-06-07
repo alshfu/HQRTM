@@ -9,7 +9,7 @@
 
 # Импорт конкретных адаптеров регистрирует их в реестре (@register отрабатывает при импорте).
 # Добавляя площадку — допиши сюда её модуль, чтобы poller.main увидел адаптер.
-from poller.sources import homeq, qasa  # noqa: E402,F401
+from poller.sources import homeq, qasa, samtrygg  # noqa: E402,F401
 from poller.sources.base import SourceAdapter
 from poller.sources.registry import enabled_adapters, register
 

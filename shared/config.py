@@ -52,6 +52,13 @@ class Settings(BaseSettings):
     qasa_fetch_amount: int = 50
     qasa_timeout_s: float = 10.0
 
+    # Samtrygg (samtrygg.se) — аренда по заявке (без очереди). ⚠️ Базовый URL/host в публичной
+    # SwaggerHub-спеке не задан, ToS на программное чтение не подтверждён → адаптер enabled=False
+    # (COMPLIANCE.md). Перед включением: уточнить SAMTRYGG_API_URL и ToS (действие владельца).
+    samtrygg_api_url: str = ""  # напр. https://<host>/GetHomePageObjects (host из спеки не задан)
+    samtrygg_public_base: str = "https://samtrygg.se"  # для построения ссылок на объявления
+    samtrygg_timeout_s: float = 10.0
+
     # Логирование
     log_level: str = "INFO"
 

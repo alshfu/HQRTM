@@ -25,9 +25,11 @@
 | `QASA_API_URL` | `https://api.qasa.com/graphql` | Qasa GraphQL (контракт не верифицирован) |
 | `QASA_PUBLIC_BASE` | `https://qasa.com` | База для ссылок на объявления Qasa |
 | `QASA_FETCH_AMOUNT` | `50` | Сколько объявлений Qasa за проход |
+| `SAMTRYGG_API_URL` | — | Эндпоинт `GetHomePageObjects` (host в спеке не задан — уточнить) |
+| `SAMTRYGG_PUBLIC_BASE` | `https://samtrygg.se` | База для ссылок на объявления Samtrygg |
 | `LOG_LEVEL` | `INFO` | Уровень логирования |
 
-> Адаптеры HomeQ/Qasa по умолчанию **выключены** (`enabled=False` в коде) — включение только после
+> Адаптеры HomeQ/Qasa/Samtrygg по умолчанию **выключены** (`enabled=False` в коде) — включение только после
 > подтверждения ToS площадки (см. [Compliance](Compliance)). Учётные данные задавать после этого.
 
 ## Генерация секретов

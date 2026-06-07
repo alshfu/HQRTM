@@ -13,7 +13,9 @@
 **Ресёрч 2026-06-07 (кратко, не юр-консультация):** у **HomeQ есть официальный Core API**
 (`docs-core.homeq.se`: JWT, Card Search опубликованных объявлений, webhooks) — приоритетный путь;
 Qasa — та же группа (вероятно тот же API). Blocket — без публичного API + анти-бот (только партнёрство).
-Bostad Direkt — robots.txt запрещает поисковые эндпоинты. Samtrygg — возможно есть API (SwaggerHub).
+Bostad Direkt — robots.txt запрещает поисковые эндпоинты. **Samtrygg** — есть публичная
+SwaggerHub-спека (`GetHomePageObjects`), **но host не указан** и ToS на программное чтение не
+подтверждён → адаптер `enabled=False`, host (`SAMTRYGG_API_URL`) и ToS — за владельцем.
 Полная таблица и шаги — в `COMPLIANCE.md` репозитория.
 
 ## GDPR

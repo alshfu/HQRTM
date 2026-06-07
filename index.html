@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>HQRTM — Demo</title>
-<meta name="description" content="HomeQ Real-Time Monitor — UI demo (desktop / tablet / mobile). Statisk demo med mock-data.">
+<title>HQRTM — мониторинг аренды жилья (релиз)</title>
+<meta name="description" content="HQRTM — all-in-one агрегатор мониторинга аренды жилья в Швеции: FCFS-детекция «Först till kvarn», матчинг с фильтрами, real-time лента (SSE), Telegram. Flask · MongoDB.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -49,18 +49,49 @@
   .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in oklab,var(--accent) 22%,transparent);flex:none;animation:pulse 2.4s var(--ease) infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 
-  header{text-align:center; max-width:720px; margin-bottom:clamp(28px,5vw,52px)}
+  header{text-align:center; max-width:760px; margin-bottom:clamp(28px,5vw,52px)}
   .kicker{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
   h1{font-size:clamp(34px,7vw,58px);line-height:1.02;font-weight:800;letter-spacing:-.02em}
   h1 span{color:var(--accent)}
   .sub{margin-top:16px;font-size:clamp(15px,2.4vw,18px);color:var(--muted);line-height:1.55}
 
-  .grid{
-    display:grid; gap:18px; width:100%; max-width:880px;
-    grid-template-columns:repeat(3,1fr);
+  /* primary CTAs */
+  .hero{width:100%;max-width:880px;display:grid;gap:14px;grid-template-columns:1.4fr 1fr;margin-bottom:16px}
+  @media (max-width:640px){ .hero{grid-template-columns:1fr} }
+  .hero a{
+    display:flex;align-items:center;gap:16px;text-decoration:none;color:inherit;
+    background:var(--panel);
+    border:1px solid var(--panel-line);
+    border-radius:var(--r-lg);padding:20px 22px;
+    transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease);
   }
-  @media (max-width:640px){ .grid{grid-template-columns:1fr} }
+  .hero a.primary{background:linear-gradient(120deg,color-mix(in oklab,var(--accent) 22%,var(--panel)),var(--panel));border-color:color-mix(in oklab,var(--accent) 40%,transparent)}
+  .hero a:hover{transform:translateY(-3px);box-shadow:0 20px 46px -22px color-mix(in oklab,var(--accent) 70%,#000);border-color:color-mix(in oklab,var(--accent) 45%,transparent)}
+  .hero .ico{width:48px;height:48px;flex:none;display:grid;place-items:center;border-radius:12px;background:color-mix(in oklab,var(--accent) 16%,transparent);color:var(--accent)}
+  .hero a.primary .ico{background:var(--accent);color:var(--accent-ink)}
+  .hero .ico svg{width:24px;height:24px;stroke:currentColor;stroke-width:1.8;fill:none}
+  .hero .txt{flex:1;min-width:0}
+  .hero h2{font-size:18px;font-weight:800;letter-spacing:-.01em}
+  .hero p{font-size:13px;color:var(--muted);line-height:1.4;margin-top:3px}
 
+  /* release highlights */
+  .section-h{width:100%;max-width:880px;display:flex;align-items:baseline;gap:12px;margin:clamp(28px,5vw,44px) 0 16px;font-family:"JetBrains Mono",monospace}
+  .section-h .label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+  .section-h .meta{font-size:11.5px;color:var(--muted)}
+  .feats{display:grid;gap:14px;width:100%;max-width:880px;grid-template-columns:repeat(2,1fr)}
+  @media (max-width:640px){ .feats{grid-template-columns:1fr} }
+  .feat{display:flex;gap:13px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:16px 18px}
+  .feat .fico{width:34px;height:34px;flex:none;display:grid;place-items:center;border-radius:9px;background:color-mix(in oklab,var(--accent) 14%,transparent);color:var(--accent)}
+  .feat .fico svg{width:18px;height:18px;stroke:currentColor;stroke-width:1.8;fill:none}
+  .feat h3{font-size:14.5px;font-weight:700;display:flex;align-items:center;gap:8px}
+  .feat p{font-size:12.5px;color:var(--muted);line-height:1.45;margin-top:4px}
+  .pill{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 7px;font-weight:600}
+  .pill.live{color:var(--accent);background:color-mix(in oklab,var(--accent) 16%,transparent)}
+  .pill.soon{color:var(--muted);border:1px solid var(--panel-line)}
+
+  /* device snapshots */
+  .grid{display:grid; gap:18px; width:100%; max-width:880px; grid-template-columns:repeat(3,1fr)}
+  @media (max-width:640px){ .grid{grid-template-columns:1fr} }
   .card{
     position:relative; display:flex; flex-direction:column; gap:14px;
     text-decoration:none; color:inherit;
@@ -84,62 +115,97 @@
   .card:hover .go svg{transform:translateX(4px)}
   .tag{position:absolute;top:18px;right:18px;font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--muted);border:1px solid var(--panel-line);border-radius:999px;padding:3px 9px}
 
-  footer{margin-top:clamp(36px,6vw,60px);text-align:center;font-size:12.5px;color:var(--muted);line-height:1.7;font-family:"JetBrains Mono",monospace}
-  footer a{color:var(--accent);text-decoration:none}
-  footer a:hover{text-decoration:underline}
-
-  /* primary CTA — full responsive app */
-  .hero{width:100%;max-width:880px;margin-bottom:18px}
-  .hero a{
-    display:flex;align-items:center;gap:18px;text-decoration:none;color:inherit;
-    background:linear-gradient(120deg,color-mix(in oklab,var(--accent) 22%,var(--panel)),var(--panel));
-    border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);
-    border-radius:var(--r-lg);padding:22px 24px;
-    transition:transform .35s var(--ease),box-shadow .35s var(--ease);
-  }
-  .hero a:hover{transform:translateY(-3px);box-shadow:0 20px 46px -22px color-mix(in oklab,var(--accent) 70%,#000)}
-  .hero .ico{width:52px;height:52px;flex:none;background:var(--accent);color:var(--accent-ink)}
-  .hero .ico svg{stroke:currentColor}
-  .hero .txt{flex:1;min-width:0}
-  .hero h2{font-size:21px;font-weight:800;letter-spacing:-.01em}
-  .hero p{font-size:13.5px;color:var(--muted);line-height:1.45;margin-top:3px}
-  .hero .go{margin:0;font-size:13px}
-  @media (max-width:640px){ .hero a{flex-direction:column;align-items:flex-start;gap:12px} .hero .go svg{display:none} }
-
   /* demo credentials */
-  .creds{width:100%;max-width:880px;display:flex;flex-wrap:wrap;gap:10px;margin-bottom:clamp(24px,5vw,40px);font-family:"JetBrains Mono",monospace;font-size:12.5px}
+  .creds{width:100%;max-width:880px;display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;font-family:"JetBrains Mono",monospace;font-size:12.5px}
   .cred{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:8px 13px;color:var(--muted)}
   .cred b{color:var(--text);font-weight:600}
   .cred .role{color:var(--accent);font-weight:600}
+
+  footer{margin-top:clamp(36px,6vw,60px);text-align:center;font-size:12.5px;color:var(--muted);line-height:1.7;font-family:"JetBrains Mono",monospace}
+  footer a{color:var(--accent);text-decoration:none}
+  footer a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
   <div class="banner">
     <span class="dot"></span>
-    <span><b>Demo</b> — статическая витрина с мок-данными. Это не рабочий сервис; бэкенд и реальные уведомления здесь не подключены.</span>
+    <span><b>Релиз</b> — продукт собран (Фазы 0–6: ядро поллера, API, веб-кабинет, real-time). Ниже — интерактивная UI-превью и исходники; боевой сервис разворачивается отдельно на VPS.</span>
   </div>
 
   <header>
-    <div class="kicker">HomeQ Real-Time Monitor</div>
-    <h1>HQRTM — <span>живой</span> мониторинг жилья</h1>
-    <p class="sub">Прототип интерфейса личного кабинета: фильтры, живая лента совпавших объявлений «Först till kvarn», привязка Telegram и админ-панель. Откройте полное адаптивное приложение или один из device-снапшотов.</p>
+    <div class="kicker">All-in-one bostadsbevakning · Sverige</div>
+    <h1>HQRTM — <span>живой</span> мониторинг аренды жилья</h1>
+    <p class="sub">Круглосуточно отслеживает публикации на шведских площадках, мгновенно выделяет объявления «Först till kvarn» (FCFS), сопоставляет с фильтрами пользователя и доставляет уведомление со ссылкой. Один поллер, мульти-source адаптеры, real-time лента.</p>
   </header>
 
   <div class="hero">
-    <a href="HQRTM-Demo/index.html">
+    <a class="primary" href="HQRTM-Demo/index.html">
       <span class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
       <span class="txt">
-        <h2>Открыть приложение →</h2>
-        <p>Полная адаптивная версия с живой лентой, фильтрами, настройками, панелью оформления и админкой. Рекомендуется для оценки.</p>
+        <h2>Открыть UI-превью →</h2>
+        <p>Интерактивная адаптивная версия интерфейса: лента, фильтры, настройки, админка.</p>
       </span>
-      <span class="go">Запустить <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+    <a href="https://github.com/alshfu/HQRTM">
+      <span class="ico"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.7 11.7 0 0 0-6 0C7.3 1.3 6.3 1.6 6.3 1.6a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 5 8c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span>
+      <span class="txt">
+        <h2>Исходный код →</h2>
+        <p>Репозиторий, Wiki и история релизов на GitHub.</p>
+      </span>
     </a>
   </div>
 
-  <div class="creds">
-    <span class="cred"><span class="role">USER</span> <b>elin@hqrtm.se</b> / <b>demo1234</b></span>
-    <span class="cred"><span class="role">ADMIN</span> <b>admin@hqrtm.se</b> / <b>admin1234</b></span>
-    <span class="cred">данные подставлены на экране входа автоматически</span>
+  <div class="section-h">
+    <span class="label">Что в релизе</span>
+    <span class="meta">Flask · MongoDB · SSE · asyncio-поллер</span>
+  </div>
+
+  <main class="feats">
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
+      <div><h3>Мульти-source адаптеры <span class="pill live">live</span></h3>
+        <p>Изолированные адаптеры HomeQ · Qasa · Samtrygg в единой модели <code>listings</code>; уникум — пара (source, external_id). Новая площадка = новый адаптер, ядро не меняется. Включение — после проверки ToS.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
+      <div><h3>FCFS-детекция <span class="pill live">live</span></h3>
+        <p>Распознаёт «Först till kvarn» и отсеивает «очередные» (köpoäng/queue). Дедуп через TTL-индекс без Redis. Бюджет латентности — цель ≤ 1.5 с.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><path d="M3 6h18M7 12h10M11 18h2"/></svg></span>
+      <div><h3>Матчинг с фильтрами <span class="pill live">live</span></h3>
+        <p>Совпадение новых FCFS с фильтрами пользователя (цена/комнаты/площадь/район) и идемпотентная постановка уведомлений — без дублей при перезапуске.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none"/></svg></span>
+      <div><h3>Real-time лента <span class="pill live">live</span></h3>
+        <p>SSE + MongoDB Change Streams: новые совпадения прилетают в кабинет мгновенно, с авто-reconnect и fallback на polling.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+      <div><h3>API + аутентификация <span class="pill live">live</span></h3>
+        <p>REST API на Flask: JWT (Argon2), CRUD фильтров, GDPR-удаление (<code>DELETE /api/me</code>), OpenAPI + Swagger UI. Rate-limit на чувствительных эндпоинтах.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><path d="M3 9h18M9 21V9"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg></span>
+      <div><h3>Веб-кабинет + i18n <span class="pill live">live</span></h3>
+        <p>Jinja2 + production Tailwind + Vanilla JS: лента, фильтры, уведомления, настройки. Интерфейс по-шведски (sv/en), роль user/admin и админ-панель.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z"/></svg></span>
+      <div><h3>Telegram-доставка <span class="pill soon">Фаза 3</span></h3>
+        <p>Привязка аккаунта реализована; доставка уведомлений со ссылкой в Telegram (aiogram) — на подходе. Сейчас совпадения уже оживляют веб-ленту.</p></div>
+    </div>
+    <div class="feat">
+      <span class="fico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span>
+      <div><h3>Комплаенс &amp; этичная нагрузка <span class="pill live">live</span></h3>
+        <p>Один центральный поллер, джиттер и backoff, уважение 429/Retry-After. Официальное API в приоритете; адаптер включается только после положительного вывода по ToS.</p></div>
+    </div>
+  </main>
+
+  <div class="section-h">
+    <span class="label">UI-превью по устройствам</span>
+    <span class="meta">самодостаточные снапшоты интерфейса</span>
   </div>
 
   <main class="grid">
@@ -168,9 +234,16 @@
     </a>
   </main>
 
+  <div class="creds">
+    <span class="cred"><span class="role">USER</span> <b>elin@hqrtm.se</b> / <b>demo1234</b></span>
+    <span class="cred"><span class="role">ADMIN</span> <b>admin@hqrtm.se</b> / <b>admin1234</b></span>
+    <span class="cred">тестовые учётки UI-превью · подставлены на экране входа</span>
+  </div>
+
   <footer>
     HQRTM · Flask · MongoDB · SSE · Telegram<br>
-    Демо UI · реальный сервис разворачивается отдельно на VPS
+    <a href="https://github.com/alshfu/HQRTM">GitHub</a> · <a href="https://github.com/alshfu/HQRTM/wiki">Wiki</a> · <a href="https://github.com/alshfu/HQRTM/releases">Релизы</a><br>
+    Боевой сервис разворачивается отдельно на VPS (Docker · Nginx · TLS)
   </footer>
 </body>
 </html>
