@@ -61,24 +61,35 @@
 
 ## 3. Текущее состояние проекта (на 2026-06-07)
 
-Проект **только что инициализирован, кода ещё нет**. В репозитории:
+**Кода приложения ещё нет**, но git и публикация demo уже настроены. В репозитории:
 
 ```
 HQRTM/
 ├── HQRTM_ToR_Flask_MongoDB_Roadmap.md   # ✅ канон: стек + полный roadmap (фазы 0–11)
 ├── HQRTM_ToR_Backend.md                 # ⚠️ ранний proposal (требования — да, стек — нет)
 ├── HQRTM_ToR_Frontend.md                # ⚠️ ранний proposal (требования — да, стек — нет)
+├── CLAUDE.md                            # этот файл
+├── index.html                           # витрина GitHub Pages (выбор устройства + баннер demo)
+├── HQRTM-Demo/                          # прототипы UI: HQRTM-{Desktop,Tablet,Mobile}.html (self-contained)
+├── .gitignore                           # защита public repo (.env, .venv, .idea, ...)
 ├── main.py                              # шаблон PyCharm («Hi, PyCharm») — заглушка, будет удалён/заменён
-├── .venv/                               # Python 3.14 (NB: ТЗ требует 3.12+, см. §8)
-├── .idea/                               # настройки PyCharm
-└── CLAUDE.md                            # этот файл
+├── .venv/  (ignored)                    # Python 3.14 (NB: ТЗ требует 3.12+, см. §8)
+└── .idea/  (ignored)                    # настройки PyCharm
 ```
 
-**Ещё НЕ сделано (всё впереди):** git-репозиторий не инициализирован, структуры каталогов
-(`poller/`, `bot/`, `web/`, `shared/`) нет, зависимостей нет, MongoDB не настроена, `.env`/
-`.gitignore`/`README`/`COMPLIANCE.md` отсутствуют.
+**Готово:**
+- ✅ Git-репозиторий инициализирован (ветка `main`).
+- ✅ GitHub: **https://github.com/alshfu/HQRTM** (public, аккаунт `alshfu`).
+- ✅ GitHub Pages включён (source: `main` / корень): **https://alshfu.github.io/HQRTM/** — demo отдаётся (HTTP 200).
 
-**Мы находимся в начале Фазы 0** (см. roadmap ниже).
+**Ещё НЕ сделано (всё впереди):** ветки `develop`/`feature/*`, структуры каталогов
+(`poller/`, `bot/`, `web/`, `shared/`) нет, зависимостей нет, MongoDB не настроена,
+`.env.example`/`README`/`COMPLIANCE.md`/pre-commit/CI отсутствуют.
+
+> ⚠️ Демо в `HQRTM-Demo/` — это **дизайн-прототипы на чистом HTML/CSS/JS**, не итоговый фронтенд.
+> Боевой фронтенд по канону — Jinja2 + Tailwind/Bootstrap внутри `web/` (Фаза 5). Прототипы — референс UI.
+
+**Мы находимся в Фазе 0** (частично выполнена: репо + Pages; осталось остальное по списку выше).
 
 ---
 
@@ -200,10 +211,15 @@ Flask читает + слушает Change Stream).
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
-- **2026-06-07:** Проект инициализирован. Есть только 3 ТЗ + шаблонный `main.py` + `.venv` (Py 3.14).
-  Кода/структуры/git нет. Создан этот CLAUDE.md. Фаза 0 ещё не начата. Открытые вопросы §6 — не закрыты.
+- **2026-06-07:** Создан CLAUDE.md. Инициализирован git (`main`), создан public-репо
+  github.com/alshfu/HQRTM, включён GitHub Pages → alshfu.github.io/HQRTM/ (demo отдаётся, 200).
+  Закоммичены: 3 ТЗ, CLAUDE.md, HQRTM-Demo/, index.html (витрина), .gitignore, main.py.
+  Кода приложения (poller/web/bot/shared) ещё нет. Открытые вопросы §6 — не закрыты.
 
 ### Журнал ключевых решений (дописывать, не переписывать)
 - **2026-06-07:** Каноническим стеком признан Roadmap (Flask + MongoDB + SSE + Vanilla JS).
   Документы Backend/Frontend ToR — источники требований, но их технологии (FastAPI/Postgres/Redis/React)
   не используются.
+- **2026-06-07:** Репозиторий — **public** (по GH-001), имя `HQRTM`, аккаунт `alshfu`.
+  GitHub Pages отдаётся из ветки `main` / корень; `index.html` в корне = витрина, демо лежит в
+  `HQRTM-Demo/`. При смене схемы Pages (например, на `/docs` или `gh-pages`) — обновить пути и этот пункт.
