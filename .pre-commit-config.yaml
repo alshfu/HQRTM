@@ -26,7 +26,10 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
+        # Генерируемый минифицированный CSS (Tailwind-сборка) не трогаем.
+        exclude: '^web/static/css/app\.css$'
       - id: end-of-file-fixer
+        exclude: '^web/static/css/app\.css$'
       - id: check-added-large-files
         args: [--maxkb=600]
       - id: check-merge-conflict

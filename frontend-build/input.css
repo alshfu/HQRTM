@@ -2,5 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Кастомные компоненты/токены — синхронизировать с inline-стилями в web/templates/base.html
-   при переезде с Play CDN на сборку. */
+/* Кастомные токены/компоненты HQRTM — источник истины для production-сборки.
+   (Раньше эти правила жили inline в web/templates/base.html под Play CDN.)
+   base.html теперь грузит собранный app.css, так что дублировать их там не нужно. */
+
+@layer base {
+  body {
+    background: #0c0f0e;
+    color: #eef2f0;
+  }
+}
+
+@layer components {
+  .card {
+    background: #14191780;
+    border: 1px solid #ffffff14;
+    backdrop-filter: blur(8px);
+  }
+  .input {
+    background: #0f1413;
+    border: 1px solid #ffffff1f;
+  }
+  .input:focus {
+    outline: none;
+    border-color: #15b878;
+    box-shadow: 0 0 0 3px #15b87833;
+  }
+  .btn-accent {
+    background: #15b878;
+    color: #04140d;
+  }
+  .btn-accent:hover {
+    filter: brightness(1.08);
+  }
+  .navlink.active {
+    background: #15b87822;
+    color: #15b878;
+  }
+}

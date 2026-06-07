@@ -1,33 +1,50 @@
 # HQRTM — HomeQ Real-Time Monitor
 
-Сервис круглосуточно отслеживает публикации **HomeQ**, мгновенно выделяет объявления типа
-**«Först till kvarn» (FCFS)**, сопоставляет их с фильтрами пользователей и доставляет уведомление
-со ссылкой в **Telegram за ≤ 1.5 с**. Веб-кабинет позволяет настраивать фильтры, привязывать
-Telegram и видеть живую ленту совпадений.
+**All-in-one агрегатор** мониторинга аренды жилья на нескольких шведских площадках
+(HomeQ, Qasa, далее — Blocket Bostad, Bostad Direkt, Samtrygg…). Круглосуточно отслеживает
+публикации, мгновенно выделяет объявления типа **«Först till kvarn» (FCFS)**, отсеивает
+очередные, сопоставляет с фильтрами пользователей и доставляет уведомление со ссылкой
+в **Telegram за ≤ 1.5 с**. Веб-кабинет: фильтры, привязка Telegram, живая лента (SSE),
+интерфейс на **шведском и английском**.
 
-> Бот **не** логинится в аккаунт HomeQ и **не** подаёт заявки — только уведомляет.
+> Бот **не** логинится в аккаунты площадок и **не** подаёт заявки — только уведомляет.
 
 🔗 **Demo (UI, мок-данные):** https://alshfu.github.io/HQRTM/
 
 ## Стек
 
 Flask 3 (API + Jinja2) · MongoDB (PyMongo + Motor) · отдельный asyncio-поллер (`httpx`) ·
-Telegram (`aiogram`) · real-time через MongoDB Change Streams + SSE · Vanilla JS.
+Telegram (`aiogram`) · real-time через MongoDB Change Streams + SSE · Vanilla JS ·
+Tailwind CSS (production-сборка) · i18n sv/en.
 
 Полное ТЗ: [`HQRTM_ToR_Flask_MongoDB_Roadmap.md`](HQRTM_ToR_Flask_MongoDB_Roadmap.md) (канон).
 Руководство для разработки (в т.ч. для ИИ-ассистентов): [`CLAUDE.md`](CLAUDE.md).
+Подробная документация — [**Wiki**](https://github.com/alshfu/HQRTM/wiki) (исходники в [`docs/wiki/`](docs/wiki/)).
+
+## Мульти-source
+
+Источник изолирован в адаптере (`poller/sources/`, база `SourceAdapter` + реестр). Все площадки
+нормализуются в одну коллекцию `listings`; уникальность объявления — пара **(source, external_id)**.
+Добавить площадку = новый адаптер, ядро поллера не меняется.
+
+| Площадка | Адаптер | Путь | Статус |
+|---|---|---|---|
+| HomeQ | `poller/sources/homeq.py` | официальный **Core API** (`/api/v2/tokens/` + Card Search) | реализован, `enabled=False` (нужны ключ + ToS) |
+| Qasa  | `poller/sources/qasa.py`  | GraphQL `homes` | реализован, контракт не верифицирован, `enabled=False` |
+
+> ⚠️ Адаптер включается (`enabled=True`) только после проверки ToS площадки — см. [`COMPLIANCE.md`](COMPLIANCE.md).
 
 ## Архитектура (процессы)
 
 | Процесс | Назначение |
 |---|---|
-| `poller` | asyncio: опрос HomeQ → детекция FCFS → матчинг → постановка уведомлений |
-| `bot`    | Telegram-бот (aiogram): привязка, отправка уведомлений |
-| `web`    | Flask: REST API, веб-кабинет, SSE-лента |
+| `poller` | asyncio: опрос площадок → детекция FCFS → дедуп → матчинг с фильтрами → постановка уведомлений |
+| `bot`    | Telegram-бот (aiogram): привязка аккаунта, доставка уведомлений (Фаза 3) |
+| `web`    | Flask: REST API, веб-кабинет, SSE-лента, админ-панель |
 | MongoDB  | хранилище + Change Streams (replica set) |
 
 Поллер вынесен в **отдельный процесс**: высокочастотный опрос 24/7 несовместим с request-response
-моделью Flask. Связь между процессами — через MongoDB.
+моделью Flask. Связь между процессами — через MongoDB (поллер пишет, web читает + слушает Change Stream).
 
 ## Локальный запуск (dev)
 
@@ -49,31 +66,46 @@ pre-commit install
 # 4. Индексы MongoDB (один раз на новой БД)
 python -m shared.db
 
-# 5. Запуск веб-приложения (API + кабинет)
-flask --app web.app run --debug      # http://127.0.0.1:5000/  (кабинет), /health, /apidocs
+# 5. Запуск веб-приложения (API + кабинет + админ-панель + SSE)
+flask --app web.app run --debug      # http://127.0.0.1:5000/ , /health , /apidocs
 
-# 6. Запуск поллера (отдельный процесс) — появится в Фазе 2
+# 6. Поллер (отдельный процесс). Без включённых адаптеров (enabled=True) лог скажет, что их нет.
 # python -m poller.main
 
-# 7. Запуск Telegram-бота (отдельный процесс) — появится в Фазе 3
+# 7. Telegram-бот (отдельный процесс) — Фаза 3
 # python -m bot.main
 ```
 
-### API (Фаза 4, частично)
+CSS уже собран и закоммичен (`web/static/css/app.css`) — Node для запуска не нужен.
+Пересборка стилей после правки шаблонов: `cd frontend-build && npm install && npm run build`
+(см. [`frontend-build/README.md`](frontend-build/README.md)).
+
+## REST API
 
 | Метод | Endpoint | Назначение |
 |---|---|---|
 | POST | `/auth/register`, `/auth/login`, `/auth/refresh` | Регистрация/вход (JWT access+refresh) |
-| GET/POST/PUT/DELETE | `/api/filters[/<id>]` | CRUD фильтров (нужен `Authorization: Bearer`) |
+| GET/POST/PUT/DELETE | `/api/filters[/<id>]` | CRUD фильтров |
+| GET | `/api/listings` | Лента (`?matched=true`, `source`, `listing_type`, `district`, пагинация) |
+| GET | `/api/notifications` | История уведомлений (пагинация) |
+| POST/GET | `/api/telegram/link`, `/api/telegram/status` | Привязка Telegram |
 | GET/DELETE | `/api/me` | Профиль; удаление аккаунта и данных (GDPR) |
-| GET | `/health` | Health-check |
+| GET/POST | `/api/admin/stats`, `/api/admin/users`, `/api/admin/users/<id>/role` | Админ-панель (роль `admin`) |
+| GET | `/sse/feed` | Живая лента совпадений (SSE, auth по `?token=`) |
+| GET | `/health`, `/openapi.json`, `/apidocs` | Health-check, OpenAPI, Swagger UI |
 
-Пароли — Argon2; доступ к данным — только своим (проверка по JWT). _В планах Фазы 4:_
-`/api/listings`, `/api/notifications`, `/api/telegram/*`, OpenAPI/Swagger.
+Пароли — Argon2; доступ к данным — только своим (проверка по JWT). Полный справочник —
+[Wiki → API-Reference](docs/wiki/API-Reference.md).
+
+## Интернационализация
+
+Интерфейс на **шведском (приоритет)** и **английском**. Локаль: `?lang=sv|en` → cookie → дефолт `sv`.
+Каталоги — `web/i18n.py` (без сторонних библиотек); переключатель языка в UI.
 
 ## Конфигурация
 
-Все настройки — через переменные окружения (см. [`.env.example`](.env.example)).
+Все настройки — через переменные окружения (см. [`.env.example`](.env.example) и
+[Wiki → Configuration](docs/wiki/Configuration.md)).
 Частота опроса: `POLL_INTERVAL_MS` (безопасный дефолт; учащение в «горячие» часы — `HOT_HOURS`).
 
 ## Разработка
@@ -81,16 +113,19 @@ flask --app web.app run --debug      # http://127.0.0.1:5000/  (кабинет),
 ```bash
 ruff check .        # линт
 black .             # формат
-pytest              # тесты
+pytest              # тесты (110 passed)
 ```
 
 Ветвление: `main` (стабильная) ← `develop` ← `feature/*`, изменения через PR.
+CI (`.github/workflows/ci.yml`): ruff + black + pytest на push/PR в `main`/`develop`.
 
 ## Статус
 
-Проект в активной разработке по [roadmap](HQRTM_ToR_Flask_MongoDB_Roadmap.md#11-roadmap--пошаговая-реализация).
-Текущая фаза и прогресс фиксируются в [`CLAUDE.md`](CLAUDE.md).
+Готово: **Фазы 0, 1, 2 (ядро + адаптеры HomeQ/Qasa), 4, 5, 6, 7**. В работе/впереди: Telegram-доставка
+(Фаза 3), устойчивость/безопасность (8), деплой на VPS (10). Реальный опрос площадок ждёт включения
+адаптеров (ключи/ToS — решение владельца). Актуальный прогресс — [`CLAUDE.md`](CLAUDE.md) и
+[Wiki → Roadmap](docs/wiki/Roadmap-and-Changelog.md).
 
 ## Лицензия
 
-[MIT](LICENSE) · Комплаенс (ToS HomeQ + GDPR): [`COMPLIANCE.md`](COMPLIANCE.md).
+[MIT](LICENSE) · Комплаенс (ToS площадок + GDPR): [`COMPLIANCE.md`](COMPLIANCE.md).

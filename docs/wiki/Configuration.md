@@ -17,9 +17,18 @@
 | `TELEGRAM_BOT_TOKEN` | — | Токен бота (BotFather) |
 | `TELEGRAM_BOT_USERNAME` | — | Username бота (для deep-link привязки) |
 | `POLL_INTERVAL_MS` | `3000` | Интервал опроса поллера |
-| `HOMEQ_BASE_URL` | — | Базовый URL источника HomeQ |
 | `HOT_HOURS` | `08-22` | Окно «горячих» часов (адаптивная частота) |
+| `HOMEQ_BASE_URL` | `https://api.homeq.se` | HomeQ Core API (demo: `https://api-demo.homeq.se`) |
+| `HOMEQ_PUBLIC_BASE` | `https://homeq.se` | База для ссылок на объявления HomeQ |
+| `HOMEQ_USERNAME` / `HOMEQ_PASSWORD` | — | Учётка интеграции HomeQ (`/api/v2/tokens/`) |
+| `HOMEQ_FETCH_AMOUNT` | `100` | Сколько карточек тянуть за проход |
+| `QASA_API_URL` | `https://api.qasa.com/graphql` | Qasa GraphQL (контракт не верифицирован) |
+| `QASA_PUBLIC_BASE` | `https://qasa.com` | База для ссылок на объявления Qasa |
+| `QASA_FETCH_AMOUNT` | `50` | Сколько объявлений Qasa за проход |
 | `LOG_LEVEL` | `INFO` | Уровень логирования |
+
+> Адаптеры HomeQ/Qasa по умолчанию **выключены** (`enabled=False` в коде) — включение только после
+> подтверждения ToS площадки (см. [Compliance](Compliance)). Учётные данные задавать после этого.
 
 ## Генерация секретов
 ```bash

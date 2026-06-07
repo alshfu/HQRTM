@@ -206,11 +206,12 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Фаза 4** — ✅ ГОТОВО: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
   `/api/me` (GDPR), `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
   `/api/telegram/link|status`, OpenAPI (`/openapi.json`) + Swagger UI (`/apidocs`). Тесты 39 passed.
-- **Фаза 5** — 🚧 В РАБОТЕ: Jinja2 + Tailwind (Play CDN) + Vanilla JS. Готово: страницы
+- **Фаза 5** — ✅ ГОТОВО: Jinja2 + **Tailwind (production-сборка)** + Vanilla JS. Страницы
   landing/login/register, кабинет (дашборд-лента, фильтры CRUD, уведомления, настройки+GDPR),
   JS-клиент `web/static/js/api.js` (токены, auto-refresh, guard), роль user/admin в навигации.
-  Маршруты — `web/views.py`. ✅ **i18n (sv/en)** и **админ-UI** готовы (`web/i18n.py`, `web/admin/`,
-  `admin.html`). Осталось: production Tailwind build (сейчас Play CDN).
+  Маршруты — `web/views.py`. **i18n (sv/en)** (`web/i18n.py`), **админ-UI** (`web/admin/`, `admin.html`),
+  **production Tailwind** (`frontend-build/` → `web/static/css/app.css`, purged+minified, закоммичен;
+  Play CDN убран из `base.html`).
 - **Фаза 6** — ✅ ГОТОВО: SSE + Change Streams. `web/sse/` (broker pub/sub + watcher Change Stream
   `notifications` + эндпоинт `/sse/feed`, auth по `?token=`). Дашборд: `EventSource` с дедупом,
   авто-reconnect, индикатор live, fallback на polling. Тесты 51 passed. (Watcher требует replica set;
@@ -268,6 +269,13 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 5 — production Tailwind build, ФАЗА 5 ЗАКРЫТА):** Переезд с Play CDN на
+  собранный Tailwind. Тема (accent/шрифты) и кастомные компоненты (`.card/.input/.btn-accent/
+  .navlink`) вынесены из inline `base.html` в `frontend-build/` (`input.css` + `tailwind.config.js`,
+  `content` сканирует шаблоны и `api.js` → классы из inline-JS не вырезаются). Сборка
+  `npm run build` → `web/static/css/app.css` (purged+minified, 11KB, **закоммичен** — деплою/CI
+  Node не нужен). `base.html` грузит `app.css` вместо CDN-скрипта. README сборки обновлён.
+  Тесты **110 passed**, ruff/black зелёные. Веха: **Фаза 5 завершена полностью.**
 - **2026-06-07 (Фаза 5 — i18n + админ-UI):** **i18n (sv/en)** без flask-babel: `web/i18n.py`
   (каталоги sv/en, `translate()` с fallback sv→ключ, `init_i18n()` — резолв локали `?lang=`→cookie
   `hqrtm_lang`→дефолт sv, Jinja-глобалы `t/locale/locales`, проброс каталога в JS `window.HQRTM_I18N`).
