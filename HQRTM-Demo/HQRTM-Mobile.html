@@ -555,7 +555,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 .tbl tr:last-child td { border-bottom: 0; }
 .tbl tbody tr { transition: background .12s; }
 .tbl tbody tr:hover { background: var(--surface-2); }
-.tbl .t-addr { font-weight: 600; }
+.tbl .t-addr { font-weight: 600; white-space: nowrap; }
 .tbl .t-time { color: var(--text-3); font-family: var(--font-mono); font-size: 12.5px; white-space: nowrap; }
 .tbl .t-lat { font-family: var(--font-mono); font-size: 12.5px; font-weight: 600; }
 .pager { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-top: 1px solid var(--border); background: var(--surface-2); font-size: 13px; color: var(--text-3); }
@@ -656,6 +656,21 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 .auth-aside { background: var(--bg-2); border-left: 1px solid var(--border); position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 40px; }
 .auth-divider { display: flex; align-items: center; gap: 14px; color: var(--text-3); font-size: 12px; font-weight: 600; }
 .auth-divider::before, .auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+.demo-creds { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.demo-card { display: flex; flex-direction: column; gap: 3px; align-items: flex-start; text-align: left;
+  padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface);
+  cursor: pointer; transition: border-color .15s, background .15s, box-shadow .15s; }
+.demo-card:hover { border-color: var(--accent-line); background: var(--surface-2); box-shadow: var(--shadow-1); }
+.demo-card.admin:hover { border-color: color-mix(in oklab, var(--amber) 40%, transparent); }
+.demo-card .role { display: flex; align-items: center; gap: 7px; font-weight: 700; font-size: 13.5px; margin-bottom: 3px; }
+.demo-card .role svg { width: 15px; height: 15px; color: var(--accent); }
+.demo-card.admin .role svg { color: var(--amber); }
+.demo-card .cred { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-3); }
+.demo-card .go { margin-top: 6px; font-size: 12px; font-weight: 600; color: var(--accent-dim); display: flex; align-items: center; gap: 4px; }
+.demo-card .go svg { width: 13px; height: 13px; }
+@media (max-width: 420px) { .demo-creds { grid-template-columns: 1fr; } }
+[data-frame="phone"] .demo-creds { grid-template-columns: 1fr; }
 
 /* mini live-feed preview used in auth aside + landing */
 .preview-feed { display: flex; flex-direction: column; gap: 8px; text-align: left; }
@@ -1574,6 +1589,32 @@ function fmtClock(ms) {
   return d.toLocaleString("sv-SE", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
+/* ---- demo credentials (shown on the login screen) ---- */
+const DEMO_CREDS = {
+  user:  { email: "elin@hqrtm.se",  password: "demo1234" },
+  admin: { email: "admin@hqrtm.se", password: "admin1234" },
+};
+
+/* ---- admin: users, system events ---- */
+const SAMPLE_USERS = [
+  { name: "Elin Bergström", email: "elin@hqrtm.se", plan: "Pro", filters: 3, tg: true, last: "2 min", status: "active" },
+  { name: "Johan Lind", email: "johan.lind@gmail.com", plan: "Free", filters: 1, tg: true, last: "14 min", status: "active" },
+  { name: "Sara Ahmadi", email: "sara.a@outlook.com", plan: "Pro", filters: 5, tg: true, last: "1 h", status: "active" },
+  { name: "Viktor Berg", email: "viktor@berg.se", plan: "Free", filters: 2, tg: false, last: "3 h", status: "active" },
+  { name: "Nora Holm", email: "nora.holm@gmail.com", plan: "Pro", filters: 4, tg: true, last: "5 h", status: "active" },
+  { name: "Oskar Nyström", email: "oskar.n@telia.se", plan: "Free", filters: 0, tg: false, last: "2 d", status: "paused" },
+  { name: "Maja Karlsson", email: "maja.k@icloud.com", plan: "Pro", filters: 2, tg: true, last: "18 min", status: "active" },
+];
+const SAMPLE_EVENTS = [
+  { t: "12:42:18", lvl: "info",  msg: { sv: "WS-återanslutning OK (1.1s)", en: "WS reconnect OK (1.1s)" } },
+  { t: "12:39:02", lvl: "warn",  msg: { sv: "Källan svarade långsamt (2.4s)", en: "Source slow response (2.4s)" } },
+  { t: "12:31:55", lvl: "info",  msg: { sv: "Larm levererat · Telegram (0.4s)", en: "Alert delivered · Telegram (0.4s)" } },
+  { t: "12:24:10", lvl: "info",  msg: { sv: "Nytt konto registrerat", en: "New account registered" } },
+  { t: "12:18:47", lvl: "error", msg: { sv: "Pollning timeout — försöker igen", en: "Poll timeout — retrying" } },
+  { t: "12:18:49", lvl: "info",  msg: { sv: "Pollning återupptagen", en: "Polling resumed" } },
+  { t: "12:05:33", lvl: "info",  msg: { sv: "Filter skapat av användare", en: "Filter created by user" } },
+];
+
 /* ===========================================================================
    i18n — Swedish (sv) primary + English (en)
    ========================================================================= */
@@ -1635,7 +1676,6 @@ const STRINGS = {
     welcome_back: "Välkommen tillbaka", signin_sub: "Logga in för att se ditt flöde.",
     create_acct: "Skapa konto", signup_sub: "Bevaka bostäder och få larm på sekunden.",
     sign_in: "Logga in", sign_up: "Registrera dig", password: "Lösenord", forgot: "Glömt lösenord?",
-    demo_cred: "Demo-inloggning (klicka för att fylla i)",
     no_acct: "Har du inget konto?", have_acct: "Har du redan ett konto?",
     or: "eller", consent: "Jag godkänner",
     consent_terms: "användarvillkoren", consent_and: "och", consent_privacy: "integritetspolicyn",
@@ -1655,6 +1695,16 @@ const STRINGS = {
     feat_tg_t: "Direkt till Telegram", feat_tg_p: "Få ett tryckbart larm i fickan i samma sekund som objektet publiceras.",
     feat_fl_t: "Precisa filter", feat_fl_p: "Stad, område, hyra, rum, yta och ”endast FCFS”. Bevaka exakt det du vill ha.",
     lp_footer: "Bevakar HomeQ · Byggd för ”först till kvarn”",
+    // demo + admin
+    demo_title: "Testinloggning", demo_hint: "Logga in direkt — ingen registrering behövs.",
+    role_user: "Användare", role_admin: "Admin", demo_as: "Logga in som",
+    nav_admin: "Drift", nav_ops: "Drift",
+    admin_title: "Driftpanel", admin_sub: "Källstatus, användare och systemhälsa",
+    src_title: "Källa · HomeQ", src_online: "Tillgänglig", src_latency: "Pollningslatens",
+    src_lastpoll: "Senaste pollning", src_uptime: "Drifttid 24h", src_region: "Region",
+    m_users: "Användare", m_active: "Aktiva nu", m_alerts: "Larm idag", m_ws: "WS-anslutningar",
+    users_title: "Användare", u_plan: "Plan", u_filters: "Filter", u_tg: "Telegram", u_last: "Senast aktiv", u_status: "Status",
+    log_title: "Senaste händelser", linked_short: "Kopplad", unlinked_short: "Ej kopplad",
   },
   en: {
     t_s: "s", t_m: "m", t_h: "h", t_d: "d",
@@ -1706,7 +1756,6 @@ const STRINGS = {
     welcome_back: "Welcome back", signin_sub: "Sign in to see your feed.",
     create_acct: "Create account", signup_sub: "Monitor listings and get alerts in seconds.",
     sign_in: "Sign in", sign_up: "Sign up", password: "Password", forgot: "Forgot password?",
-    demo_cred: "Demo login (click to autofill)",
     no_acct: "No account yet?", have_acct: "Already have an account?",
     or: "or", consent: "I agree to the",
     consent_terms: "terms of service", consent_and: "and", consent_privacy: "privacy policy",
@@ -1724,12 +1773,22 @@ const STRINGS = {
     feat_tg_t: "Straight to Telegram", feat_tg_p: "A tappable alert in your pocket the second a listing goes live.",
     feat_fl_t: "Precise filters", feat_fl_p: "City, area, rent, rooms, size and “FCFS only”. Monitor exactly what you want.",
     lp_footer: "Monitoring HomeQ · Built for “first come, first served”",
+    demo_title: "Demo login", demo_hint: "Sign in instantly — no signup needed.",
+    role_user: "User", role_admin: "Admin", demo_as: "Sign in as",
+    nav_admin: "Ops", nav_ops: "Ops",
+    admin_title: "Ops panel", admin_sub: "Source status, users and system health",
+    src_title: "Source · HomeQ", src_online: "Online", src_latency: "Poll latency",
+    src_lastpoll: "Last poll", src_uptime: "Uptime 24h", src_region: "Region",
+    m_users: "Users", m_active: "Active now", m_alerts: "Alerts today", m_ws: "WS connections",
+    users_title: "Users", u_plan: "Plan", u_filters: "Filters", u_tg: "Telegram", u_last: "Last active", u_status: "Status",
+    log_title: "Recent events", linked_short: "Linked", unlinked_short: "Not linked",
   },
 };
 
 Object.assign(window, {
   AREAS, STREETS, generateListing, seedListings, SAMPLE_FILTERS,
   seedNotifications, fmtKr, timeAgo, fmtClock, STRINGS, pick, rnd,
+  DEMO_CREDS, SAMPLE_USERS, SAMPLE_EVENTS,
 });
 
 </script>
@@ -2000,12 +2059,11 @@ function Landing({ lang, theme, setLang, setTheme, go }) {
 }
 
 /* ------------------------------------------------------------------- Auth */
-function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth }) {
+function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth, onDemo }) {
   const L = STRINGS[lang];
-  const DEMO_CRED = { email: "elin@exempel.se", pw: "demo1234" };
   const [mode, setMode] = React.useState(initialMode || "in");
-  const [email, setEmail] = React.useState(DEMO_CRED.email);
-  const [pw, setPw] = React.useState(DEMO_CRED.pw);
+  const [email, setEmail] = React.useState("");
+  const [pw, setPw] = React.useState("");
   const [consent, setConsent] = React.useState(false);
   const [err, setErr] = React.useState({});
 
@@ -2054,13 +2112,6 @@ function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth }) {
             </div>
           </Field>
 
-          <div className="muted" onClick={() => { setEmail(DEMO_CRED.email); setPw(DEMO_CRED.pw); }}
-               style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 12.5, lineHeight: 1.4,
-                        padding: "10px 12px", border: "1px dashed var(--border)", borderRadius: 10, cursor: "pointer" }}>
-            <Icon name="zap" style={{ width: 14, height: 14, flex: "none" }} />
-            <span>{L.demo_cred}: <b style={{ color: "var(--text)" }}>{DEMO_CRED.email}</b> / <b style={{ color: "var(--text)" }}>{DEMO_CRED.pw}</b></span>
-          </div>
-
           {mode === "up" && (
             <Field error={err.consent}>
               <Checkbox checked={consent} onChange={setConsent}>
@@ -2078,6 +2129,22 @@ function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth }) {
             <span className="link" onClick={() => { setMode(mode === "in" ? "up" : "in"); setErr({}); }}>
               {mode === "in" ? L.sign_up : L.sign_in}
             </span>
+          </div>
+
+          <div className="auth-divider">{L.demo_title}</div>
+          <div className="demo-creds">
+            <button type="button" className="demo-card" onClick={() => onDemo("user")}>
+              <span className="role"><Icon name="user" />{L.role_user}</span>
+              <span className="cred">{DEMO_CREDS.user.email}</span>
+              <span className="cred">{DEMO_CREDS.user.password}</span>
+              <span className="go">{L.demo_as} {L.role_user.toLowerCase()}<Icon name="arrowright" /></span>
+            </button>
+            <button type="button" className="demo-card admin" onClick={() => onDemo("admin")}>
+              <span className="role"><Icon name="shield" />{L.role_admin}</span>
+              <span className="cred">{DEMO_CREDS.admin.email}</span>
+              <span className="cred">{DEMO_CREDS.admin.password}</span>
+              <span className="go">{L.demo_as} {L.role_admin.toLowerCase()}<Icon name="arrowright" /></span>
+            </button>
           </div>
         </form>
       </div>
@@ -2750,6 +2817,108 @@ Object.assign(window, { HistoryScreen, SettingsScreen });
 
 </script>
 <script type="text/babel">
+/* screens-admin.jsx — (FE-AD-001/002) Ops panel: source status, metrics, users, events */
+
+function AdminScreen({ lang }) {
+  const L = STRINGS[lang];
+  const lvl = {
+    info:  { c: "var(--text-3)", b: null },
+    warn:  { c: "var(--amber)", b: "amber" },
+    error: { c: "var(--red)", b: "red" },
+  };
+  const planBadge = (p) => p === "Pro"
+    ? <Badge kind="fcfs">Pro</Badge>
+    : <Badge>Free</Badge>;
+
+  return (
+    <div className="page">
+      <div className="page-head"><h2>{L.admin_title}</h2><p>{L.admin_sub}</p></div>
+
+      {/* source status */}
+      <div className="panel" style={{ marginBottom: 14 }}>
+        <div className="panel-body row wrap" style={{ gap: 22, alignItems: "center" }}>
+          <div className="row gap10">
+            <span className="wsdot live" style={{ border: 0, background: "transparent", padding: 0 }}><i /></span>
+            <div>
+              <div style={{ fontWeight: 700, fontSize: 15 }}>{L.src_title}</div>
+              <div className="badge badge-fcfs" style={{ marginTop: 4 }}><Icon name="checkcircle" />{L.src_online}</div>
+            </div>
+          </div>
+          <div className="divider only-desktop" style={{ width: 1, height: 40, background: "var(--border)" }} />
+          {[[L.src_latency, "0.82", "s"], [L.src_lastpoll, "2", "s"], [L.src_uptime, "99.94", "%"], [L.src_region, "eu-north-1", ""]].map((m, i) => (
+            <div key={i} style={{ whiteSpace: "nowrap", flexShrink: 0 }}>
+              <div className="muted" style={{ fontSize: 11.5, fontWeight: 600 }}>{m[0]}</div>
+              <div className="num" style={{ fontSize: 18, fontWeight: 700, marginTop: 2 }}>{m[1]}<small style={{ fontSize: 12, color: "var(--text-3)" }}> {m[2]}</small></div>
+            </div>
+          ))}
+          <div className="grow" />
+          <Spark points={[6, 5, 7, 5, 6, 4, 5, 4, 5, 4]} w={92} h={30} />
+        </div>
+      </div>
+
+      {/* metrics */}
+      <div className="stats">
+        <div className="stat"><div className="k"><Icon name="user" />{L.m_users}</div><div className="v num">1 284</div><div className="d up"><Icon name="trend" />+38</div></div>
+        <div className="stat"><div className="k"><Icon name="dot" />{L.m_active}</div><div className="v num">312</div><div className="d up"><Icon name="checkcircle" style={{ width: 13, height: 13 }} />live</div></div>
+        <div className="stat"><div className="k"><Icon name="bell" />{L.m_alerts}</div><div className="v num">2 047</div><Spark points={[5, 7, 6, 9, 8, 12, 14, 13]} /></div>
+        <div className="stat"><div className="k"><Icon name="wifi" />{L.m_ws}</div><div className="v num">298</div><div className="d up"><Icon name="trend" />stabil</div></div>
+      </div>
+
+      {/* users */}
+      <div className="section-title"><Icon name="user" style={{ width: 14, height: 14 }} />{L.users_title}</div>
+      <div className="table-wrap" style={{ marginBottom: 22 }}>
+        <table className="tbl">
+          <thead><tr>
+            <th>{L.u_user}</th><th>{L.u_plan}</th><th>{L.u_filters}</th><th>{L.u_tg}</th><th>{L.u_last}</th><th>{L.u_status}</th>
+          </tr></thead>
+          <tbody>
+            {SAMPLE_USERS.map((u, i) => (
+              <tr key={i}>
+                <td data-l={L.users_title}>
+                  <div className="row gap10">
+                    <div className="avatar" style={{ width: 30, height: 30, fontSize: 12 }}>{u.name.slice(0, 1)}</div>
+                    <div><div className="t-addr">{u.name}</div><div className="muted mono" style={{ fontSize: 11.5 }}>{u.email}</div></div>
+                  </div>
+                </td>
+                <td data-l={L.u_plan}>{planBadge(u.plan)}</td>
+                <td data-l={L.u_filters}><span className="num" style={{ fontWeight: 700 }}>{u.filters}</span></td>
+                <td data-l={L.u_tg}>{u.tg
+                  ? <span className="row gap6" style={{ color: "var(--accent-dim)", fontWeight: 600, fontSize: 12.5 }}><Icon name="checkcircle" style={{ width: 14, height: 14 }} />{L.linked_short}</span>
+                  : <span className="muted" style={{ fontSize: 12.5, fontWeight: 600 }}>{L.unlinked_short}</span>}</td>
+                <td data-l={L.u_last}><span className="t-time">{u.last}</span></td>
+                <td data-l={L.u_status}>{u.status === "active"
+                  ? <Badge kind="fcfs" icon="dot">{STRINGS[lang].active}</Badge>
+                  : <Badge icon="dot">{STRINGS[lang].paused}</Badge>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* events log */}
+      <div className="section-title"><Icon name="terminal" style={{ width: 14, height: 14 }} />{L.log_title}</div>
+      <div className="panel">
+        <div className="panel-body" style={{ padding: 6 }}>
+          {SAMPLE_EVENTS.map((e, i) => (
+            <div key={i} className="row gap10" style={{ padding: "9px 12px", borderBottom: i < SAMPLE_EVENTS.length - 1 ? "1px solid var(--line)" : 0 }}>
+              <span className="mono" style={{ fontSize: 12, color: "var(--text-3)", minWidth: 64 }}>{e.t}</span>
+              <span className="badge" style={{ color: lvl[e.lvl].c, borderColor: "color-mix(in oklab, " + lvl[e.lvl].c + " 30%, transparent)" }}>
+                <span style={{ width: 6, height: 6, borderRadius: "50%", background: lvl[e.lvl].c, display: "inline-block" }} />
+                {e.lvl.toUpperCase()}
+              </span>
+              <span style={{ fontSize: 13.5 }}>{e.msg[lang]}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { AdminScreen });
+
+</script>
+<script type="text/babel">
 /* app.jsx — root: routing, shell, live WS simulation, tweaks */
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
@@ -2838,7 +3007,12 @@ function App() {
   const [tgLinked, setTgLinked] = React.useState(false);
   const [openListing, setOpenListing] = React.useState(null);
   const [toasts, setToasts] = React.useState([]);
-  const user = { name: "Elin Bergström", email: "elin@exempel.se" };
+  const [role, setRole] = React.useState("user");
+  const user = role === "admin"
+    ? { name: "Adam Holm", email: "admin@hqrtm.se" }
+    : { name: "Elin Bergström", email: "elin@hqrtm.se" };
+  const enter = (r) => { setRole(r); setRoute("app"); setPage(r === "admin" ? "admin" : "feed");
+    const sc = document.querySelector(".content"); if (sc) sc.scrollTop = 0; };
 
   const toast = React.useCallback((msg) => {
     const id = Math.random();
@@ -2933,20 +3107,27 @@ function App() {
     return (<><Landing lang={lang} theme={t.theme} setLang={setLang} setTheme={setTheme} go={go} /><TweaksUI t={t} setTweak={setTweak} /></>);
   if (route === "auth")
     return (<><Auth lang={lang} theme={t.theme} setLang={setLang} setTheme={setTheme} go={go} initialMode={authMode}
-      onAuth={(mode) => { setRoute(mode === "up" ? "onboarding" : "app"); setPage("feed"); }} /><TweaksUI t={t} setTweak={setTweak} /></>);
+      onAuth={(mode, email) => { const r = /^admin/i.test(email || "") ? "admin" : "user";
+        if (mode === "up") { setRole("user"); setRoute("onboarding"); } else enter(r); }}
+      onDemo={enter} /><TweaksUI t={t} setTweak={setTweak} /></>);
   if (route === "onboarding")
     return (<><Onboarding lang={lang} onFinish={() => { setRoute("app"); setPage("feed"); }}
       onCreateFilter={() => {}} /><TweaksUI t={t} setTweak={setTweak} /></>);
 
   /* ---------- app shell ---------- */
-  const NAV = [
+  const navMain = [
     { id: "feed", label: L.nav_feed, icon: "radar" },
     { id: "filters", label: L.nav_filters, icon: "sliders", count: filters.filter((f) => f.active).length },
+  ];
+  const navOps = role === "admin" ? [{ id: "admin", label: L.nav_admin, icon: "shield" }] : [];
+  const navAcct = [
     { id: "history", label: L.nav_history, icon: "history" },
     { id: "settings", label: L.nav_settings, icon: "gear" },
   ];
+  const NAV = [...navMain, ...navOps, ...navAcct];
   const titles = {
     feed: [L.dash_title, L.dash_sub], filters: [L.filters_title, L.filters_sub],
+    admin: [L.admin_title, L.admin_sub],
     history: [L.history_title, L.history_sub], settings: [L.settings_title, ""],
   };
 
@@ -2960,15 +3141,25 @@ function App() {
         </div>
         <div className="nav-label">{L.nav_main}</div>
         <nav className="nav">
-          {NAV.slice(0, 2).map((n) => (
+          {navMain.map((n) => (
             <a key={n.id} className={`nav-item${page === n.id ? " active" : ""}`} onClick={() => navPage(n.id)}>
               <Icon name={n.icon} />{n.label}{n.count != null && <span className="count num">{n.count}</span>}
             </a>
           ))}
         </nav>
+        {navOps.length > 0 && (<>
+          <div className="nav-label">{L.nav_ops}</div>
+          <nav className="nav">
+            {navOps.map((n) => (
+              <a key={n.id} className={`nav-item${page === n.id ? " active" : ""}`} onClick={() => navPage(n.id)}>
+                <Icon name={n.icon} />{n.label}<span className="count num" style={{ background: "var(--amber-soft)", color: "color-mix(in oklab, var(--amber) 75%, var(--text))" }}>admin</span>
+              </a>
+            ))}
+          </nav>
+        </>)}
         <div className="nav-label">{L.nav_acct}</div>
         <nav className="nav">
-          {NAV.slice(2).map((n) => (
+          {navAcct.map((n) => (
             <a key={n.id} className={`nav-item${page === n.id ? " active" : ""}`} onClick={() => navPage(n.id)}>
               <Icon name={n.icon} />{n.label}
             </a>
@@ -2978,7 +3169,7 @@ function App() {
         <div className="side-foot">
           <div className="userchip" onClick={() => navPage("settings")}>
             <div className="avatar">{user.name.slice(0, 1)}</div>
-            <div className="userchip-meta grow"><b>{user.name}</b><span>{tgLinked ? L.tg_linked : L.tg_unlinked}</span></div>
+            <div className="userchip-meta grow"><b>{user.name}</b><span>{role === "admin" ? (lang === "sv" ? "Administratör" : "Administrator") : (tgLinked ? L.tg_linked : L.tg_unlinked)}</span></div>
             <IconBtn name="logout" label="Logga ut" onClick={(e) => { e.stopPropagation(); go("landing"); }} />
           </div>
         </div>
@@ -3031,6 +3222,7 @@ function App() {
             <SettingsScreen lang={lang} setLang={setLang} user={user} tgLinked={tgLinked} setTgLinked={setTgLinked}
               onToast={toast} onDeleteAccount={() => { toast(lang === "sv" ? "Konto raderat" : "Account deleted"); go("landing"); }} />
           )}
+          {page === "admin" && <AdminScreen lang={lang} />}
         </div>
 
         {/* mobile tab bar */}

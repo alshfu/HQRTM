@@ -87,6 +87,30 @@
   footer{margin-top:clamp(36px,6vw,60px);text-align:center;font-size:12.5px;color:var(--muted);line-height:1.7;font-family:"JetBrains Mono",monospace}
   footer a{color:var(--accent);text-decoration:none}
   footer a:hover{text-decoration:underline}
+
+  /* primary CTA — full responsive app */
+  .hero{width:100%;max-width:880px;margin-bottom:18px}
+  .hero a{
+    display:flex;align-items:center;gap:18px;text-decoration:none;color:inherit;
+    background:linear-gradient(120deg,color-mix(in oklab,var(--accent) 22%,var(--panel)),var(--panel));
+    border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);
+    border-radius:var(--r-lg);padding:22px 24px;
+    transition:transform .35s var(--ease),box-shadow .35s var(--ease);
+  }
+  .hero a:hover{transform:translateY(-3px);box-shadow:0 20px 46px -22px color-mix(in oklab,var(--accent) 70%,#000)}
+  .hero .ico{width:52px;height:52px;flex:none;background:var(--accent);color:var(--accent-ink)}
+  .hero .ico svg{stroke:currentColor}
+  .hero .txt{flex:1;min-width:0}
+  .hero h2{font-size:21px;font-weight:800;letter-spacing:-.01em}
+  .hero p{font-size:13.5px;color:var(--muted);line-height:1.45;margin-top:3px}
+  .hero .go{margin:0;font-size:13px}
+  @media (max-width:640px){ .hero a{flex-direction:column;align-items:flex-start;gap:12px} .hero .go svg{display:none} }
+
+  /* demo credentials */
+  .creds{width:100%;max-width:880px;display:flex;flex-wrap:wrap;gap:10px;margin-bottom:clamp(24px,5vw,40px);font-family:"JetBrains Mono",monospace;font-size:12.5px}
+  .cred{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:8px 13px;color:var(--muted)}
+  .cred b{color:var(--text);font-weight:600}
+  .cred .role{color:var(--accent);font-weight:600}
 </style>
 </head>
 <body>
@@ -98,8 +122,25 @@
   <header>
     <div class="kicker">HomeQ Real-Time Monitor</div>
     <h1>HQRTM — <span>живой</span> мониторинг жилья</h1>
-    <p class="sub">Прототип интерфейса личного кабинета: фильтры, живая лента совпавших объявлений «Först till kvarn» и привязка Telegram. Выберите версию макета для просмотра.</p>
+    <p class="sub">Прототип интерфейса личного кабинета: фильтры, живая лента совпавших объявлений «Först till kvarn», привязка Telegram и админ-панель. Откройте полное адаптивное приложение или один из device-снапшотов.</p>
   </header>
+
+  <div class="hero">
+    <a href="HQRTM-Demo/index.html">
+      <span class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
+      <span class="txt">
+        <h2>Открыть приложение →</h2>
+        <p>Полная адаптивная версия с живой лентой, фильтрами, настройками, панелью оформления и админкой. Рекомендуется для оценки.</p>
+      </span>
+      <span class="go">Запустить <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
+  </div>
+
+  <div class="creds">
+    <span class="cred"><span class="role">USER</span> <b>elin@hqrtm.se</b> / <b>demo1234</b></span>
+    <span class="cred"><span class="role">ADMIN</span> <b>admin@hqrtm.se</b> / <b>admin1234</b></span>
+    <span class="cred">данные подставлены на экране входа автоматически</span>
+  </div>
 
   <main class="grid">
     <a class="card" href="HQRTM-Demo/HQRTM-Desktop.html">

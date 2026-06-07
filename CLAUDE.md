@@ -69,8 +69,11 @@ HQRTM/
 ├── HQRTM_ToR_Backend.md                 # ⚠️ ранний proposal (требования — да, стек — нет)
 ├── HQRTM_ToR_Frontend.md                # ⚠️ ранний proposal (требования — да, стек — нет)
 ├── CLAUDE.md                            # этот файл
-├── index.html                           # витрина GitHub Pages (выбор устройства + баннер demo)
-├── HQRTM-Demo/                          # прототипы UI: HQRTM-{Desktop,Tablet,Mobile}.html (self-contained)
+├── index.html                           # витрина GitHub Pages: CTA на приложение + device-снапшоты + демо-доступы
+├── HQRTM-Demo/
+│   ├── index.html                       # ✅ основное демо: модульное React-приложение (Babel в браузере)
+│   ├── app/*.jsx  styles/*.css  tweaks-panel.jsx   # модули модульной версии (грузятся по HTTP)
+│   └── HQRTM-{Desktop,Tablet,Mobile}.html          # self-contained device-снапшоты (frame-locked)
 ├── .gitignore                           # защита public repo (.env, .venv, .idea, ...)
 ├── main.py                              # шаблон PyCharm («Hi, PyCharm») — заглушка, будет удалён/заменён
 ├── .venv/  (ignored)                    # Python 3.14 (NB: ТЗ требует 3.12+, см. §8)
@@ -86,8 +89,13 @@ HQRTM/
 (`poller/`, `bot/`, `web/`, `shared/`) нет, зависимостей нет, MongoDB не настроена,
 `.env.example`/`README`/`COMPLIANCE.md`/pre-commit/CI отсутствуют.
 
-> ⚠️ Демо в `HQRTM-Demo/` — это **дизайн-прототипы на чистом HTML/CSS/JS**, не итоговый фронтенд.
+> ⚠️ Демо в `HQRTM-Demo/` — это **дизайн-прототипы** (React + Babel-in-browser, мок-данные), не итоговый фронтенд.
 > Боевой фронтенд по канону — Jinja2 + Tailwind/Bootstrap внутри `web/` (Фаза 5). Прототипы — референс UI.
+>
+> Демо-доступы (подставлены на экране входа автоматически): **user** `elin@hqrtm.se` / `demo1234`,
+> **admin** `admin@hqrtm.se` / `admin1234`. Учётки заданы в `HQRTM-Demo/app/data.jsx` (`DEMO_CREDS`).
+> Модульная версия (`HQRTM-Demo/index.html`) грузит `app/*.jsx` через Babel → **работает только по HTTP**
+> (GitHub Pages / локальный сервер), не по `file://`. Device-снапшоты — самодостаточны, открываются как файл.
 
 **Мы находимся в Фазе 0** (частично выполнена: репо + Pages; осталось остальное по списку выше).
 
