@@ -1,0 +1,62 @@
+{% extends "app_base.html" %}
+{% block title %}{{ t('settings.title') }}{% endblock %}
+{% block heading %}{{ t('settings.heading') }}{% endblock %}
+{% block subheading %}{{ t('settings.sub') }}{% endblock %}
+
+{% block app %}
+<section class="card rounded-xl p-5 mb-5">
+  <h2 class="font-semibold mb-3">{{ t('settings.profile') }}</h2>
+  <div class="text-sm text-gray-400">{{ t('settings.email_label') }} <span id="email" class="text-gray-200">…</span></div>
+  <div class="text-sm text-gray-400 mt-1">{{ t('settings.role_label') }} <span id="role" class="text-gray-200">…</span></div>
+</section>
+
+<section class="card rounded-xl p-5 mb-5">
+  <h2 class="font-semibold mb-3">{{ t('settings.telegram') }}</h2>
+  <div class="text-sm text-gray-400 mb-3">{{ t('settings.status_label') }} <span id="tg-status" class="text-gray-200">…</span></div>
+  <button id="tg-link" class="btn-accent font-semibold px-4 py-2 rounded-lg text-sm">{{ t('settings.tg_connect') }}</button>
+  <div id="tg-link-box" class="mt-3 text-sm hidden">
+    <div class="text-gray-400">{{ t('settings.tg_instr') }}</div>
+    <a id="tg-deep" href="#" target="_blank" class="text-accent break-all"></a>
+    <div class="font-mono mt-1">{{ t('settings.tg_code') }} <span id="tg-code" class="text-gray-200"></span></div>
+  </div>
+</section>
+
+<section class="card rounded-xl p-5 border-red-500/30">
+  <h2 class="font-semibold mb-2 text-red-400">{{ t('settings.delete_title') }}</h2>
+  <p class="text-sm text-gray-400 mb-3">{{ t('settings.delete_desc') }}</p>
+  <button id="delete" class="px-4 py-2 rounded-lg text-sm border border-red-500/50 text-red-400 hover:bg-red-500/10">
+    {{ t('settings.delete_btn') }}
+  </button>
+</section>
+{% endblock %}
+
+{% block app_scripts %}
+<script>
+  (async () => {
+    const me = await HQRTM.api("/api/me");
+    if (me.ok) {
+      document.getElementById("email").textContent = me.data.email;
+      document.getElementById("role").textContent = HQRTM.t(me.data.role === "admin" ? "role.admin" : "role.user");
+    }
+    const st = await HQRTM.api("/api/telegram/status");
+    if (st.ok) document.getElementById("tg-status").textContent = HQRTM.t(st.data.linked ? "settings.tg_linked" : "settings.tg_unlinked");
+  })();
+
+  document.getElementById("tg-link").addEventListener("click", async () => {
+    const { ok, data } = await HQRTM.api("/api/telegram/link", { method: "POST" });
+    if (!ok) return HQRTM.toast(HQRTM.t("settings.tg_err"), "error");
+    document.getElementById("tg-link-box").classList.remove("hidden");
+    document.getElementById("tg-code").textContent = data.link_code;
+    const a = document.getElementById("tg-deep");
+    if (data.deep_link) { a.href = data.deep_link; a.textContent = data.deep_link; }
+    else { a.textContent = HQRTM.t("settings.tg_nobot"); }
+  });
+
+  document.getElementById("delete").addEventListener("click", async () => {
+    if (!confirm(HQRTM.t("settings.delete_confirm"))) return;
+    const { ok } = await HQRTM.api("/api/me", { method: "DELETE" });
+    if (ok) { HQRTM.clearTokens(); location.href = "/"; }
+    else HQRTM.toast(HQRTM.t("settings.delete_err"), "error");
+  });
+</script>
+{% endblock %}

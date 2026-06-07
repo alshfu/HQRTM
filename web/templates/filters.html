@@ -1,0 +1,80 @@
+{% extends "app_base.html" %}
+{% block title %}{{ t('filters.title') }}{% endblock %}
+{% block heading %}{{ t('filters.heading') }}{% endblock %}
+{% block subheading %}{{ t('filters.sub') }}{% endblock %}
+
+{% block app %}
+<form id="form" class="card rounded-xl p-4 grid sm:grid-cols-2 gap-3 mb-6">
+  <input name="name" required placeholder="{{ t('filters.name_placeholder') }}" class="input px-3 py-2 rounded-lg sm:col-span-2" />
+  <input name="district" placeholder="{{ t('filters.district_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+  <input name="city" placeholder="{{ t('filters.city_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+  <input name="rent_max" type="number" min="0" placeholder="{{ t('filters.rent_max_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+  <input name="rooms_min" type="number" min="0" step="0.5" placeholder="{{ t('filters.rooms_min_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+  <label class="flex items-center gap-2 text-sm text-gray-400 sm:col-span-2">
+    <input name="only_fcfs" type="checkbox" checked /> {{ t('filters.only_fcfs') }}
+  </label>
+  <button class="btn-accent font-semibold py-2 rounded-lg sm:col-span-2">{{ t('filters.add') }}</button>
+</form>
+
+<div id="list" class="grid gap-3"></div>
+<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">{{ t('filters.empty') }}</div>
+{% endblock %}
+
+{% block app_scripts %}
+<script>
+  const list = document.getElementById("list");
+  const empty = document.getElementById("empty");
+
+  function row(f) {
+    const meta = [f.district, f.city, f.rent_max ? "≤" + f.rent_max + " " + HQRTM.t("unit.kr") : null,
+                  f.rooms_min ? "≥" + f.rooms_min + " " + HQRTM.t("unit.rooms") : null, f.only_fcfs ? "FCFS" : null]
+                  .filter(Boolean).map(HQRTM.esc).join(" · ");
+    const state = f.is_active
+      ? `<span class="text-accent">${HQRTM.t("filters.active")}</span>` : `<span class="text-gray-500">${HQRTM.t("filters.paused")}</span>`;
+    return `<div class="card rounded-xl p-4 flex items-center justify-between">
+      <div><div class="font-semibold">${HQRTM.esc(f.name)} <span class="text-xs">${state}</span></div>
+      <div class="text-sm text-gray-400 mt-0.5">${meta || "—"}</div></div>
+      <div class="flex gap-3 text-sm">
+        <button data-toggle="${f.id}" class="text-gray-400 hover:text-accent">${f.is_active ? HQRTM.t("filters.pause") : HQRTM.t("filters.activate")}</button>
+        <button data-del="${f.id}" class="text-gray-400 hover:text-red-400">${HQRTM.t("filters.delete")}</button>
+      </div></div>`;
+  }
+
+  let cache = [];
+  async function load() {
+    const { ok, data } = await HQRTM.api("/api/filters");
+    if (!ok) return HQRTM.toast(HQRTM.t("filters.err_load"), "error");
+    cache = data.items;
+    list.innerHTML = cache.map(row).join("");
+    empty.classList.toggle("hidden", cache.length > 0);
+  }
+
+  document.getElementById("form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    const body = { name: f.name.value.trim(), only_fcfs: f.only_fcfs.checked };
+    if (f.district.value) body.district = f.district.value.trim();
+    if (f.city.value) body.city = f.city.value.trim();
+    if (f.rent_max.value) body.rent_max = +f.rent_max.value;
+    if (f.rooms_min.value) body.rooms_min = +f.rooms_min.value;
+    const { ok } = await HQRTM.api("/api/filters", { method: "POST", body });
+    if (ok) { f.reset(); HQRTM.toast(HQRTM.t("filters.added")); load(); }
+    else HQRTM.toast(HQRTM.t("filters.err_save"), "error");
+  });
+
+  list.addEventListener("click", async (e) => {
+    const del = e.target.dataset.del, tog = e.target.dataset.toggle;
+    if (del) {
+      const { ok } = await HQRTM.api("/api/filters/" + del, { method: "DELETE" });
+      if (ok) { HQRTM.toast(HQRTM.t("filters.removed")); load(); }
+    } else if (tog) {
+      const f = cache.find((x) => x.id === tog);
+      const body = { ...f, is_active: !f.is_active }; delete body.id;
+      const { ok } = await HQRTM.api("/api/filters/" + tog, { method: "PUT", body });
+      if (ok) load();
+    }
+  });
+
+  load();
+</script>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{ t('register.title') }}{% endblock %}
+
+{% block body %}
+<div class="absolute top-4 right-5">{% include "_lang.html" %}</div>
+<div class="min-h-screen grid place-items-center px-6">
+  <form id="form" class="card w-full max-w-sm rounded-2xl p-7 flex flex-col gap-4" novalidate>
+    <a href="/" class="font-extrabold text-xl">HQRTM</a>
+    <div>
+      <h1 class="text-2xl font-bold">{{ t('register.h1') }}</h1>
+      <p class="text-sm text-gray-400 mt-1">{{ t('register.lead') }}</p>
+    </div>
+
+    <label class="text-sm font-medium">{{ t('common.email') }}
+      <input name="email" type="email" required placeholder="{{ t('common.email_placeholder') }}"
+             class="input w-full mt-1 px-3 py-2.5 rounded-lg" />
+    </label>
+    <label class="text-sm font-medium">{{ t('common.password') }}
+      <input name="password" type="password" required minlength="8" placeholder="{{ t('register.pw_placeholder') }}"
+             class="input w-full mt-1 px-3 py-2.5 rounded-lg" />
+    </label>
+
+    <label class="flex items-start gap-2 text-xs text-gray-400">
+      <input name="consent" type="checkbox" required class="mt-0.5" />
+      <span>{{ t('register.consent_a') }} <a href="#" class="text-accent">{{ t('register.consent_terms') }}</a> {{ t('register.consent_and') }} <a href="#" class="text-accent">{{ t('register.consent_privacy') }}</a> (GDPR).</span>
+    </label>
+
+    <button class="btn-accent font-semibold py-2.5 rounded-lg mt-1">{{ t('register.submit') }}</button>
+    <p class="text-center text-sm text-gray-400">
+      {{ t('register.have_account') }} <a href="/login" class="text-accent hover:underline">{{ t('register.login_link') }}</a>
+    </p>
+  </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  if (HQRTM.isAuthed()) location.href = "/app";
+  document.getElementById("form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = e.target;
+    if (!f.consent.checked) return HQRTM.toast(HQRTM.t("register.err_consent"), "error");
+    if (f.password.value.length < 8) return HQRTM.toast(HQRTM.t("register.err_pw"), "error");
+    const { ok, data } = await HQRTM.register(f.email.value.trim(), f.password.value);
+    if (ok) { location.href = "/app"; }
+    else if (data?.error === "email_taken") HQRTM.toast(HQRTM.t("register.err_taken"), "error");
+    else HQRTM.toast(HQRTM.t("register.err_failed"), "error");
+  });
+</script>
+{% endblock %}

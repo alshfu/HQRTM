@@ -1,0 +1,101 @@
+{% extends "app_base.html" %}
+{% block title %}{{ t('admin.title') }}{% endblock %}
+{% block heading %}{{ t('admin.heading') }}{% endblock %}
+{% block subheading %}{{ t('admin.sub') }}{% endblock %}
+
+{% block app %}
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+  <div class="card rounded-xl p-4"><div class="text-2xl font-bold" id="s-users">—</div><div class="text-xs text-gray-400 mt-0.5">{{ t('admin.stat_users') }}</div></div>
+  <div class="card rounded-xl p-4"><div class="text-2xl font-bold" id="s-filters">—</div><div class="text-xs text-gray-400 mt-0.5">{{ t('admin.stat_filters') }}</div></div>
+  <div class="card rounded-xl p-4"><div class="text-2xl font-bold" id="s-listings">—</div><div class="text-xs text-gray-400 mt-0.5">{{ t('admin.stat_listings') }}</div></div>
+  <div class="card rounded-xl p-4"><div class="text-2xl font-bold" id="s-notifications">—</div><div class="text-xs text-gray-400 mt-0.5">{{ t('admin.stat_notifications') }}</div></div>
+</div>
+
+<h2 class="font-semibold mb-3">{{ t('admin.users_title') }}</h2>
+<div class="card rounded-xl overflow-hidden">
+  <table class="w-full text-sm">
+    <thead class="text-left text-xs text-gray-500 border-b border-white/10">
+      <tr>
+        <th class="px-4 py-2.5">{{ t('admin.col_email') }}</th>
+        <th class="px-4 py-2.5">{{ t('admin.col_role') }}</th>
+        <th class="px-4 py-2.5 max-sm:hidden">{{ t('admin.col_status') }}</th>
+        <th class="px-4 py-2.5 text-right">{{ t('admin.col_actions') }}</th>
+      </tr>
+    </thead>
+    <tbody id="users"></tbody>
+  </table>
+</div>
+<div class="flex items-center gap-3 mt-4 text-sm">
+  <button id="prev" class="card px-3 py-1.5 rounded-lg hover:border-white/30">←</button>
+  <span id="pageinfo" class="font-mono text-xs text-gray-500"></span>
+  <button id="next" class="card px-3 py-1.5 rounded-lg hover:border-white/30">→</button>
+</div>
+{% endblock %}
+
+{% block app_scripts %}
+<script>
+  let me = null, page = 1;
+  const LIMIT = 20;
+
+  function roleBadge(role) {
+    const isAdmin = role === "admin";
+    const color = isAdmin ? "#15b878" : "#9aa6a1";
+    return `<span class="font-mono text-xs" style="color:${color}">${HQRTM.esc(HQRTM.t(isAdmin ? "role.admin" : "role.user"))}</span>`;
+  }
+
+  function userRow(u) {
+    const self = me && u.id === me.id;
+    const target = u.role === "admin" ? "user" : "admin";
+    const label = u.role === "admin" ? HQRTM.t("admin.make_user") : HQRTM.t("admin.make_admin");
+    // Себя разжаловать нельзя (сервер тоже запрещает) — прячем кнопку для своей строки в роли admin.
+    const action = (self && u.role === "admin")
+      ? `<span class="text-gray-600 text-xs">${HQRTM.t("admin.you")}</span>`
+      : `<button data-uid="${u.id}" data-role="${target}" class="text-gray-400 hover:text-accent">${label}</button>`;
+    return `<tr class="border-b border-white/5">
+      <td class="px-4 py-2.5">${HQRTM.esc(u.email)} ${self ? '<span class="text-gray-600 text-xs">'+HQRTM.t("admin.you")+'</span>' : ""}</td>
+      <td class="px-4 py-2.5">${roleBadge(u.role)}</td>
+      <td class="px-4 py-2.5 max-sm:hidden font-mono text-xs text-gray-500">${HQRTM.esc(u.status || "—")}</td>
+      <td class="px-4 py-2.5 text-right">${action}</td>
+    </tr>`;
+  }
+
+  async function loadStats() {
+    const { ok, status, data } = await HQRTM.api("/api/admin/stats");
+    if (status === 403) { HQRTM.toast(HQRTM.t("admin.forbidden"), "error"); location.href = "/app"; return false; }
+    if (!ok) { HQRTM.toast(HQRTM.t("admin.err_load"), "error"); return false; }
+    document.getElementById("s-users").textContent = data.users;
+    document.getElementById("s-filters").textContent = data.filters;
+    document.getElementById("s-listings").textContent = data.listings;
+    document.getElementById("s-notifications").textContent = data.notifications;
+    return true;
+  }
+
+  async function loadUsers() {
+    const { ok, data } = await HQRTM.api(`/api/admin/users?page=${page}&limit=${LIMIT}`);
+    if (!ok) return HQRTM.toast(HQRTM.t("admin.err_load"), "error");
+    document.getElementById("users").innerHTML = data.items.map(userRow).join("");
+    const pages = Math.max(1, Math.ceil(data.total / LIMIT));
+    document.getElementById("pageinfo").textContent = `${page} / ${pages} (${data.total})`;
+    document.getElementById("prev").disabled = page <= 1;
+    document.getElementById("next").disabled = page >= pages;
+  }
+
+  document.getElementById("users").addEventListener("click", async (e) => {
+    const btn = e.target.closest("button[data-uid]");
+    if (!btn) return;
+    const { ok } = await HQRTM.api(`/api/admin/users/${btn.dataset.uid}/role`,
+      { method: "POST", body: { role: btn.dataset.role } });
+    if (ok) { HQRTM.toast(HQRTM.t("admin.role_changed")); loadUsers(); }
+    else HQRTM.toast(HQRTM.t("admin.err_role"), "error");
+  });
+
+  document.getElementById("prev").addEventListener("click", () => { if (page > 1) { page--; loadUsers(); } });
+  document.getElementById("next").addEventListener("click", () => { page++; loadUsers(); });
+
+  (async () => {
+    const meResp = await HQRTM.api("/api/me");
+    if (meResp.ok) me = meResp.data;
+    if (await loadStats()) loadUsers();
+  })();
+</script>
+{% endblock %}

@@ -1,0 +1,7 @@
+{# Переключатель локали. ?lang=xx сохраняет текущий путь, локаль пишется в cookie. #}
+<div class="flex items-center gap-1 font-mono text-xs">
+  {% for l in locales %}
+  <a href="?lang={{ l }}"
+     class="px-1.5 py-0.5 rounded {{ 'text-accent' if l == locale else 'text-gray-500 hover:text-gray-300' }}">{{ l | upper }}</a>
+  {% endfor %}
+</div>
