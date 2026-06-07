@@ -83,5 +83,14 @@ const HQRTM = (() => {
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  return { api, login, register, logout, requireAuth, isAuthed, toast, esc, clearTokens };
+  /* i18n: каталог приходит из шаблона (window.HQRTM_I18N). Fallback — сам ключ.
+   * Подстановка {var}: HQRTM.t("x.y", {n: 5}). См. web/i18n.py. */
+  function t(key, vars) {
+    const cat = window.HQRTM_I18N || {};
+    let s = cat[key] != null ? cat[key] : key;
+    if (vars) for (const k in vars) s = s.replaceAll("{" + k + "}", vars[k]);
+    return s;
+  }
+
+  return { api, login, register, logout, requireAuth, isAuthed, toast, esc, t, clearTokens };
 })();

@@ -1,11 +1,11 @@
 {% extends "app_base.html" %}
-{% block title %}Aviseringar — HQRTM{% endblock %}
-{% block heading %}Aviseringar{% endblock %}
-{% block subheading %}Historik över skickade aviseringar.{% endblock %}
+{% block title %}{{ t('notifications.title') }}{% endblock %}
+{% block heading %}{{ t('notifications.heading') }}{% endblock %}
+{% block subheading %}{{ t('notifications.sub') }}{% endblock %}
 
 {% block app %}
 <div id="list" class="grid gap-2"></div>
-<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">Inga aviseringar ännu.</div>
+<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">{{ t('notifications.empty') }}</div>
 <div class="flex items-center gap-3 mt-4 text-sm">
   <button id="prev" class="card px-3 py-1.5 rounded-lg hover:border-white/30">←</button>
   <span id="pageinfo" class="font-mono text-xs text-gray-500"></span>
@@ -30,7 +30,7 @@
 
   async function load() {
     const { ok, data } = await HQRTM.api(`/api/notifications?page=${page}&limit=${LIMIT}`);
-    if (!ok) return HQRTM.toast("Kunde inte ladda historiken", "error");
+    if (!ok) return HQRTM.toast(HQRTM.t("notifications.err_load"), "error");
     list.innerHTML = data.items.map(row).join("");
     empty.classList.toggle("hidden", data.items.length > 0);
     const pages = Math.max(1, Math.ceil(data.total / LIMIT));

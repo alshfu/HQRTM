@@ -35,6 +35,11 @@ def create_app(db=None, testing: bool = False) -> Flask:
 
     limiter.init_app(app)
 
+    from web.i18n import init_i18n
+
+    init_i18n(app)
+
+    from web.admin.routes import bp as admin_bp
     from web.api.routes import bp as api_bp
     from web.auth.routes import bp as auth_bp
     from web.sse.routes import bp as sse_bp
@@ -42,6 +47,7 @@ def create_app(db=None, testing: bool = False) -> Flask:
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(api_bp)
+    app.register_blueprint(admin_bp)
     app.register_blueprint(sse_bp)
     app.register_blueprint(views_bp)
 

@@ -209,7 +209,8 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Фаза 5** — 🚧 В РАБОТЕ: Jinja2 + Tailwind (Play CDN) + Vanilla JS. Готово: страницы
   landing/login/register, кабинет (дашборд-лента, фильтры CRUD, уведомления, настройки+GDPR),
   JS-клиент `web/static/js/api.js` (токены, auto-refresh, guard), роль user/admin в навигации.
-  Маршруты — `web/views.py`. Осталось: i18n (sv/en), SSE-лента (Фаза 6), админ-UI, production Tailwind build.
+  Маршруты — `web/views.py`. ✅ **i18n (sv/en)** и **админ-UI** готовы (`web/i18n.py`, `web/admin/`,
+  `admin.html`). Осталось: production Tailwind build (сейчас Play CDN).
 - **Фаза 6** — ✅ ГОТОВО: SSE + Change Streams. `web/sse/` (broker pub/sub + watcher Change Stream
   `notifications` + эндпоинт `/sse/feed`, auth по `?token=`). Дашборд: `EventSource` с дедупом,
   авто-reconnect, индикатор live, fallback на polling. Тесты 51 passed. (Watcher требует replica set;
@@ -267,6 +268,16 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 5 — i18n + админ-UI):** **i18n (sv/en)** без flask-babel: `web/i18n.py`
+  (каталоги sv/en, `translate()` с fallback sv→ключ, `init_i18n()` — резолв локали `?lang=`→cookie
+  `hqrtm_lang`→дефолт sv, Jinja-глобалы `t/locale/locales`, проброс каталога в JS `window.HQRTM_I18N`).
+  `HQRTM.t()` в `api.js` переводит inline-JS-строки. Все шаблоны переведены на `t()`, добавлен
+  переключатель языка `_lang.html` (SV|EN). **Админ-UI:** `require_admin` (роль из БД) в `web/deps.py`,
+  blueprint `web/admin/routes.py` (`/api/admin/stats|users`, смена роли с защитой от само-разжалования),
+  страница `/app/admin` + `admin.html` (статы + таблица пользователей с тогглом роли, клиентский гард
+  по 403). Тесты `test_i18n.py` (11) + `test_admin.py` (10). Весь набор **110 passed**, ruff/black зелёные.
+  Осталось по Фазе 5: production Tailwind-сборка (сейчас CDN). Локаль берётся из cookie (не из
+  `user.locale`) — работает и до логина; синхронизация с профилем — опционально на потом.
 - **2026-06-07 (Фаза 2 — Qasa-адаптер):** `poller/sources/qasa.py` — адаптер Qasa через GraphQL
   (`api.qasa.com/graphql`, запрос `homes`), нормализация в `Listing` (+`fcfs`), backoff на 429/5xx,
   обработка GraphQL-errors. ⚠️ **Контракт НЕ верифицирован** (нет офиц. публичного API Qasa) →
