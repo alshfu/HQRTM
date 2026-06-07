@@ -172,7 +172,9 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
    (Скрейпинг — только fallback. Зафиксировать в `COMPLIANCE.md` **до Фазы 2**.) — БЛОКЕР Фазы 2.
 2. ✅ **Frontend CSS: Tailwind** (решено 2026-06-07). Сейчас — Play CDN (прототип); production-сборка
    в `frontend-build/` (Tailwind CLI, см. README там) — переезд в полировке/Фазе 8.
-3. **Языки UI на старте** (швед./англ.; в демо уже sv+en).
+3. ✅ **Язык UI — шведский (приоритетный)**, продукт для шведского рынка (решено 2026-06-07).
+   Английский — вторичный (i18n-архитектура под добавление). ВЕСЬ текст интерфейса писать
+   по-шведски (Logga in, Flöde, Filter, Aviseringar, Konto …); строки — готовить под i18n.
 4. Монетизация/тарифы и админ-панель сейчас? (по умолчанию — нет; в демо админка есть как UI).
 5. Ожидаемое число пользователей (влияет на выбор VPS) — к Фазе 10.
 
@@ -196,7 +198,10 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
   landing/login/register, кабинет (дашборд-лента, фильтры CRUD, уведомления, настройки+GDPR),
   JS-клиент `web/static/js/api.js` (токены, auto-refresh, guard), роль user/admin в навигации.
   Маршруты — `web/views.py`. Осталось: i18n (sv/en), SSE-лента (Фаза 6), админ-UI, production Tailwind build.
-- **Фаза 6** — Real-time (SSE + Change Streams).
+- **Фаза 6** — ✅ ГОТОВО: SSE + Change Streams. `web/sse/` (broker pub/sub + watcher Change Stream
+  `notifications` + эндпоинт `/sse/feed`, auth по `?token=`). Дашборд: `EventSource` с дедупом,
+  авто-reconnect, индикатор live, fallback на polling. Тесты 51 passed. (Watcher требует replica set;
+  при нескольких web-процессах нужен общий backend — Фаза 8/10.)
 - **Фаза 7** — GitHub Pages demo.
 - **Фаза 8** — устойчивость/безопасность/наблюдаемость.
 - **Фаза 9** — тестирование.
@@ -250,6 +255,11 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 6 + CI ожил):** Real-time готов: `web/sse/` (broker + Change Stream watcher +
+  `/sse/feed`), дашборд на `EventSource` (дедуп, авто-reconnect, live-индикатор, fallback polling).
+  Тесты **51 passed**. CI на GitHub **зелёный** (биллинг разблокирован). Язык UI зафиксирован —
+  **шведский приоритетный** (продукт для шведского рынка), английский вторичный (i18n впереди).
+  Ветка `feature/phase6-sse`. Дальше: i18n (sv/en), админ-UI, или Фаза 2 (поллер — блок ToS).
 - **2026-06-07 (Фаза 5):** Фронтенд на Jinja2 + **Tailwind** (Play CDN) + Vanilla JS.
   `web/views.py` (страницы), `web/templates/*` (base/app_base + landing/login/register/dashboard/
   filters/notifications/settings), `web/static/js/api.js` (клиент: токены в localStorage, auto-refresh,

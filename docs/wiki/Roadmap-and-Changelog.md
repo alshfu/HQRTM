@@ -11,7 +11,7 @@
 | 3 | Telegram-бот (M2) | ⏳ |
 | 4 | Flask API + Auth | ✅ |
 | 5 | Frontend (Jinja2 + Tailwind + Vanilla JS) | 🚧 |
-| 6 | Real-time (SSE + Change Streams) | ⏳ |
+| 6 | Real-time (SSE + Change Streams) | ✅ |
 | 7 | GitHub Pages demo | ✅ (demo опубликовано) |
 | 8 | Устойчивость, безопасность, наблюдаемость | ⏳ |
 | 9 | Тестирование | ⏳ (юнит/интеграция идут параллельно) |
