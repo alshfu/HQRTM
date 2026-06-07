@@ -45,3 +45,9 @@ def notifications():
 @bp.get("/app/settings")
 def settings():
     return render_template("settings.html", page="settings")
+
+
+@bp.get("/app/admin")
+def admin():
+    # Серверной гард-проверки нет (фронтенд-гард + admin-API 403); страница только для admin.
+    return render_template("admin.html", page="admin")

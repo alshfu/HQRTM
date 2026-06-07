@@ -1,22 +1,22 @@
 {% extends "app_base.html" %}
-{% block title %}Flöde — HQRTM{% endblock %}
-{% block heading %}Flöde{% endblock %}
-{% block subheading %}Bostäder som matchat dina filter.{% endblock %}
+{% block title %}{{ t('dashboard.title') }}{% endblock %}
+{% block heading %}{{ t('dashboard.heading') }}{% endblock %}
+{% block subheading %}{{ t('dashboard.sub') }}{% endblock %}
 
 {% block app %}
 <div class="flex items-center gap-3 mb-4 text-sm">
   <label class="flex items-center gap-2 text-gray-400">
-    <input type="checkbox" id="only-matched" checked /> Endast matchade
+    <input type="checkbox" id="only-matched" checked /> {{ t('dashboard.only_matched') }}
   </label>
-  <button id="reload" class="card px-3 py-1.5 rounded-lg hover:border-white/30">Uppdatera</button>
+  <button id="reload" class="card px-3 py-1.5 rounded-lg hover:border-white/30">{{ t('dashboard.reload') }}</button>
   <span id="count" class="font-mono text-xs text-gray-500"></span>
   <span id="live" class="ml-auto font-mono text-xs flex items-center gap-1.5 text-gray-500">
-    <span id="live-dot" class="w-2 h-2 rounded-full" style="background:#9aa6a1"></span><span id="live-label">ansluter…</span>
+    <span id="live-dot" class="w-2 h-2 rounded-full" style="background:#9aa6a1"></span><span id="live-label">{{ t('live.connecting') }}</span>
   </span>
 </div>
 
 <div id="feed" class="grid gap-3"></div>
-<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">Inga bostäder ännu.</div>
+<div id="empty" class="card rounded-xl p-8 text-center text-gray-400 hidden">{{ t('dashboard.empty') }}</div>
 {% endblock %}
 
 {% block app_scripts %}
@@ -25,22 +25,23 @@
   const empty = document.getElementById("empty");
 
   function card(it) {
-    const meta = [it.district, it.rooms ? it.rooms + " rok" : null, it.area_m2 ? it.area_m2 + " m²" : null,
-                  it.rent ? it.rent + " kr/mån" : null].filter(Boolean).map(HQRTM.esc).join(" · ");
+    const meta = [it.district, it.rooms ? it.rooms + " " + HQRTM.t("unit.rooms") : null,
+                  it.area_m2 ? it.area_m2 + " m²" : null,
+                  it.rent ? it.rent + " " + HQRTM.t("unit.rent_month") : null].filter(Boolean).map(HQRTM.esc).join(" · ");
     const fcfs = it.listing_type === "fcfs"
-      ? '<span class="text-[10px] font-mono px-2 py-0.5 rounded-full" style="background:#15b87822;color:#15b878">FÖRST TILL KVARN</span>' : "";
+      ? `<span class="text-[10px] font-mono px-2 py-0.5 rounded-full" style="background:#15b87822;color:#15b878">${HQRTM.t("dashboard.fcfs_badge")}</span>` : "";
     return `<a href="${HQRTM.esc(it.url)}" target="_blank" rel="noopener"
       class="card rounded-xl p-4 flex items-center justify-between hover:border-white/30">
       <div><div class="font-semibold">${HQRTM.esc(it.title)} ${fcfs}</div>
       <div class="text-sm text-gray-400 mt-0.5">${meta}</div>
       <div class="text-[11px] font-mono text-gray-600 mt-1">${HQRTM.esc(it.source)}</div></div>
-      <span class="text-accent text-sm">Öppna →</span></a>`;
+      <span class="text-accent text-sm">${HQRTM.t("dashboard.open")}</span></a>`;
   }
 
   const seen = new Set();
   let total = 0;
 
-  function setCount() { document.getElementById("count").textContent = total + " st"; }
+  function setCount() { document.getElementById("count").textContent = total + " " + HQRTM.t("unit.items"); }
 
   function prepend(it) {
     const key = (it.source || "") + ":" + (it.external_id || it.id || "");
@@ -58,7 +59,7 @@
   async function load() {
     const matched = document.getElementById("only-matched").checked ? "?matched=true" : "";
     const { ok, data } = await HQRTM.api("/api/listings" + matched);
-    if (!ok) return HQRTM.toast("Kunde inte ladda flödet", "error");
+    if (!ok) return HQRTM.toast(HQRTM.t("dashboard.err_load"), "error");
     seen.clear();
     data.items.forEach((it) => seen.add((it.source || "") + ":" + (it.external_id || it.id || "")));
     feed.innerHTML = data.items.map(card).join("");
@@ -70,7 +71,7 @@
   function setLive(state) {
     const dot = document.getElementById("live-dot");
     const label = document.getElementById("live-label");
-    const map = { live: ["#15b878", "live"], reconnecting: ["#e8a13a", "återansluter…"], off: ["#9aa6a1", "polling"] };
+    const map = { live: ["#15b878", HQRTM.t("live.live")], reconnecting: ["#e8a13a", HQRTM.t("live.reconnecting")], off: ["#9aa6a1", HQRTM.t("live.polling")] };
     const [color, text] = map[state] || map.off;
     dot.style.background = color; label.textContent = text;
   }
