@@ -19,7 +19,8 @@
 | Bostadsförmedlingen Sthlm | `bostadsformedlingen` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
 | Boplats | `boplats` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
 
-> Список площадок — кандидаты; финальный набор согласуется с владельцем проекта.
+> **В scope (решение владельца 2026-06-07):** HomeQ, Qasa, Blocket Bostad, Bostad Direkt, Samtrygg.
+> Bostadsförmedlingen и Boplats — кандидаты на потом (очередь/köpoäng, не FCFS-приоритет).
 
 **Принципы (по ТЗ):**
 - Официальное API — в приоритете. Скрейпинг — только fallback и только если не противоречит ToS.
