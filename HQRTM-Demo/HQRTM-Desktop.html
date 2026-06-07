@@ -1,0 +1,3078 @@
+<!DOCTYPE html>
+<html lang="sv" data-theme="light" data-view="comfort" data-density="cozy" data-card="card" data-feed="urgency" data-frame="desktop">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HQRTM — desktop</title>
+<script>window.__HQRTM_FRAME="desktop";</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================================
+   HomeQ Real-Time Monitor — design tokens, theming, reset, shell
+   Two personalities (Comfort / Terminal) × (light / dark) × density × accent.
+   ========================================================================== */
+
+/* ---- Fonts loaded in index.html (Schibsted Grotesk + JetBrains Mono) ------ */
+
+:root {
+  /* accent is overwritten at runtime from the Tweaks accent picker */
+  --accent: #15b878;
+  --accent-ink: #ffffff;               /* text/icon sitting ON accent */
+  --accent-soft: color-mix(in oklab, var(--accent) 14%, transparent);
+  --accent-line: color-mix(in oklab, var(--accent) 38%, transparent);
+  --accent-dim: color-mix(in oklab, var(--accent) 60%, var(--text));
+  --amber: #e8a13a;                     /* "closing soon" */
+  --amber-soft: color-mix(in oklab, var(--amber) 16%, transparent);
+  --red: #e2563f;
+  --red-soft: color-mix(in oklab, var(--red) 15%, transparent);
+
+  /* radii / motion — overridden per view mode */
+  --r-lg: 16px;
+  --r-md: 12px;
+  --r-sm: 8px;
+  --r-pill: 999px;
+  --ease: cubic-bezier(.32,.72,.34,1);
+
+  /* density — overridden per [data-density] */
+  --feed-gap: 10px;
+  --card-pad: 16px;
+  --row-h: 44px;
+
+  --shell-pad: 22px;
+  --content-max: 1180px;
+
+  /* fonts */
+  --font-ui: "Schibsted Grotesk", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --num-font: var(--font-ui);
+  --num-feat: "tnum" 1, "lnum" 1;
+}
+
+/* -------- Light theme -------- */
+[data-theme="light"] {
+  --bg:        oklch(0.985 0.004 140);
+  --bg-2:      oklch(0.962 0.005 140);
+  --surface:   oklch(1 0 0);
+  --surface-2: oklch(0.975 0.004 140);
+  --surface-3: oklch(0.955 0.005 140);
+  --text:      oklch(0.24 0.013 155);
+  --text-2:    oklch(0.46 0.012 155);
+  --text-3:    oklch(0.60 0.010 155);
+  --border:    oklch(0.905 0.006 150);
+  --border-2:  oklch(0.935 0.005 150);
+  --line:      oklch(0.92 0.005 150);
+  --shadow-1: 0 1px 2px rgba(20,30,25,.05), 0 1px 1px rgba(20,30,25,.04);
+  --shadow-2: 0 4px 14px rgba(20,32,26,.07), 0 1px 3px rgba(20,32,26,.05);
+  --shadow-3: 0 18px 50px rgba(18,30,24,.13), 0 4px 12px rgba(18,30,24,.08);
+  --glass: rgba(255,255,255,.72);
+  --accent-ink: #ffffff;
+  color-scheme: light;
+}
+
+/* -------- Dark theme -------- */
+[data-theme="dark"] {
+  --bg:        oklch(0.165 0.013 165);
+  --bg-2:      oklch(0.195 0.014 165);
+  --surface:   oklch(0.215 0.015 165);
+  --surface-2: oklch(0.245 0.016 165);
+  --surface-3: oklch(0.275 0.018 165);
+  --text:      oklch(0.965 0.008 150);
+  --text-2:    oklch(0.74 0.013 150);
+  --text-3:    oklch(0.60 0.013 150);
+  --border:    oklch(0.30 0.018 165);
+  --border-2:  oklch(0.275 0.016 165);
+  --line:      oklch(0.275 0.016 165);
+  --shadow-1: 0 1px 2px rgba(0,0,0,.3);
+  --shadow-2: 0 6px 18px rgba(0,0,0,.36), 0 1px 3px rgba(0,0,0,.3);
+  --shadow-3: 0 22px 60px rgba(0,0,0,.55), 0 6px 16px rgba(0,0,0,.4);
+  --glass: rgba(28,34,31,.72);
+  --accent-ink: #06140d;
+  color-scheme: dark;
+}
+
+/* -------- View mode: Comfort (default) -------- */
+[data-view="comfort"] {
+  --r-lg: 18px; --r-md: 13px; --r-sm: 9px;
+  --num-font: var(--font-ui);
+}
+/* -------- View mode: Terminal -------- */
+[data-view="terminal"] {
+  --r-lg: 7px; --r-md: 6px; --r-sm: 5px;
+  --num-font: var(--font-mono);
+  --feed-gap: 1px;
+  --card-pad: 12px;
+}
+
+/* -------- Density -------- */
+[data-density="compact"]  { --feed-gap: 5px;  --card-pad: 12px; --row-h: 38px; }
+[data-density="cozy"]     { --feed-gap: 10px; --card-pad: 16px; --row-h: 44px; }
+[data-density="spacious"] { --feed-gap: 16px; --card-pad: 22px; --row-h: 52px; }
+[data-view="terminal"][data-density="compact"]  { --feed-gap: 1px; }
+[data-view="terminal"][data-density="cozy"]      { --feed-gap: 2px; }
+[data-view="terminal"][data-density="spacious"]  { --feed-gap: 4px; }
+
+/* ============================ reset ====================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-ui);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 15px;
+  line-height: 1.5;
+  transition: background .4s var(--ease), color .25s var(--ease);
+}
+#root { height: 100%; }
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea { font-family: inherit; }
+a { color: inherit; text-decoration: none; }
+h1,h2,h3,h4,p { margin: 0; }
+::selection { background: var(--accent-soft); }
+
+.mono { font-family: var(--font-mono); font-feature-settings: "tnum" 1; }
+.num  { font-family: var(--num-font); font-feature-settings: var(--num-feat); font-variant-numeric: tabular-nums; }
+
+/* scrollbars */
+*::-webkit-scrollbar { width: 11px; height: 11px; }
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, var(--text) 18%, transparent);
+  border-radius: 999px; border: 3px solid transparent; background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover { background: color-mix(in oklab, var(--text) 30%, transparent); background-clip: content-box; }
+
+/* ============================ app shell ================================= */
+.app {
+  display: grid;
+  grid-template-columns: 248px 1fr;
+  height: 100%;
+  background: var(--bg);
+}
+[data-view="terminal"] .app { grid-template-columns: 224px 1fr; }
+
+/* ---- Sidebar ---- */
+.side {
+  display: flex; flex-direction: column;
+  background: var(--bg-2);
+  border-right: 1px solid var(--border);
+  padding: 16px 14px;
+  gap: 6px;
+  min-height: 0;
+}
+.side-brand {
+  display: flex; align-items: center; gap: 11px;
+  padding: 8px 8px 14px;
+}
+.brand-mark {
+  width: 32px; height: 32px; border-radius: 9px;
+  background: var(--accent);
+  display: grid; place-items: center;
+  color: var(--accent-ink);
+  position: relative; flex-shrink: 0;
+  box-shadow: 0 2px 8px var(--accent-soft);
+}
+[data-view="terminal"] .brand-mark { border-radius: 5px; }
+.brand-mark .pulse-dot {
+  position: absolute; top: -3px; right: -3px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent); border: 2px solid var(--bg-2);
+}
+.brand-name { font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
+.brand-name small { display: block; font-weight: 500; font-size: 10.5px; color: var(--text-3); letter-spacing: .04em; text-transform: uppercase; }
+
+.nav { display: flex; flex-direction: column; gap: 2px; margin-top: 2px; }
+.nav-label { font-size: 10.5px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--text-3); padding: 14px 10px 6px; }
+.nav-item {
+  display: flex; align-items: center; gap: 11px;
+  padding: 9px 10px; border-radius: var(--r-sm);
+  color: var(--text-2); font-weight: 500; font-size: 14px;
+  border: 1px solid transparent;
+  transition: background .14s, color .14s;
+  position: relative; user-select: none; cursor: pointer;
+}
+.nav-item svg { width: 18px; height: 18px; flex-shrink: 0; opacity: .85; }
+.nav-item:hover { background: var(--surface-2); color: var(--text); }
+.nav-item.active { background: var(--surface); color: var(--text); border-color: var(--border); box-shadow: var(--shadow-1); }
+.nav-item.active svg { color: var(--accent); opacity: 1; }
+.nav-item .count {
+  margin-left: auto; font-size: 11px; font-weight: 600;
+  background: var(--accent-soft); color: var(--accent-dim);
+  padding: 1px 7px; border-radius: 999px; font-family: var(--num-font); font-variant-numeric: tabular-nums;
+}
+.side-spacer { flex: 1; }
+
+.side-foot { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 8px; }
+.userchip {
+  display: flex; align-items: center; gap: 10px; padding: 7px 8px; border-radius: var(--r-sm);
+  transition: background .14s;
+}
+.userchip:hover { background: var(--surface-2); }
+.avatar {
+  width: 30px; height: 30px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--accent), color-mix(in oklab, var(--accent) 50%, #6a8cff));
+  display: grid; place-items: center; color: var(--accent-ink); font-weight: 700; font-size: 12px;
+}
+[data-view="terminal"] .avatar { border-radius: 6px; }
+.userchip-meta { min-width: 0; }
+.userchip-meta b { font-size: 13px; font-weight: 600; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.userchip-meta span { font-size: 11.5px; color: var(--text-3); }
+
+/* ---- Main column ---- */
+.main { display: flex; flex-direction: column; min-width: 0; min-height: 0; background: var(--bg); }
+
+.topbar {
+  display: flex; align-items: center; gap: 14px;
+  padding: 0 var(--shell-pad);
+  height: 60px; flex-shrink: 0;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in oklab, var(--bg) 80%, transparent);
+  backdrop-filter: blur(12px);
+  position: sticky; top: 0; z-index: 30;
+}
+.topbar h1 { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
+.topbar-sub { font-size: 12.5px; color: var(--text-3); margin-top: 1px; white-space: nowrap; }
+.topbar > .only-desktop:first-child { flex-shrink: 0; }
+.topbar-spacer { flex: 1; }
+
+.content { flex: 1; overflow-y: auto; min-height: 0; }
+.page { max-width: var(--content-max); margin: 0 auto; padding: 26px var(--shell-pad) 80px; }
+.page-wide { max-width: 100%; }
+
+/* connection status pill */
+.wsdot {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 12px; font-weight: 600; color: var(--text-2);
+  padding: 5px 11px 5px 9px; border-radius: var(--r-pill);
+  border: 1px solid var(--border); background: var(--surface);
+}
+.wsdot i { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); position: relative; }
+.wsdot.live i { box-shadow: 0 0 0 0 var(--accent-line); animation: ping 1.8s var(--ease) infinite; }
+.wsdot.reconnecting i { background: var(--amber); animation: blink 1s steps(2) infinite; }
+.wsdot.off i { background: var(--text-3); }
+@keyframes ping { 0% { box-shadow: 0 0 0 0 var(--accent-line); } 70%,100% { box-shadow: 0 0 0 7px transparent; } }
+@keyframes blink { 50% { opacity: .25; } }
+
+/* icon buttons in topbar */
+.iconbtn {
+  width: 36px; height: 36px; border-radius: var(--r-sm);
+  display: grid; place-items: center;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-2);
+  transition: background .14s, color .14s, border-color .14s;
+}
+.iconbtn:hover { background: var(--surface-2); color: var(--text); }
+.iconbtn svg { width: 18px; height: 18px; }
+.iconbtn.on { color: var(--accent); border-color: var(--accent-line); background: var(--accent-soft); }
+
+.segmented {
+  display: inline-flex; padding: 3px; gap: 2px;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--r-sm);
+}
+.segmented button {
+  border: 0; background: transparent; color: var(--text-2);
+  font-size: 12.5px; font-weight: 600; padding: 5px 11px; border-radius: calc(var(--r-sm) - 3px);
+  display: flex; align-items: center; gap: 6px; transition: .14s;
+}
+.segmented button svg { width: 15px; height: 15px; }
+.segmented button.active { background: var(--surface); color: var(--text); box-shadow: var(--shadow-1); }
+[data-theme="dark"] .segmented button.active { background: var(--surface-3); }
+
+/* ===== mobile bottom tab bar (hidden on desktop) ===== */
+.tabbar { display: none; }
+
+@media (max-width: 860px) {
+  .app { grid-template-columns: 1fr; }
+  [data-view="terminal"] .app { grid-template-columns: 1fr; }
+  .side { display: none; }
+  .main { height: 100%; }
+  .topbar { height: 56px; padding: 0 14px; }
+  .page { padding: 18px 14px 96px; }
+  .content { padding-bottom: env(safe-area-inset-bottom); }
+  .tabbar {
+    display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 40;
+    background: color-mix(in oklab, var(--bg-2) 92%, transparent);
+    backdrop-filter: blur(16px);
+    border-top: 1px solid var(--border);
+    padding: 7px 8px calc(7px + env(safe-area-inset-bottom));
+    justify-content: space-around;
+  }
+  .tab {
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    background: transparent; border: 0; color: var(--text-3);
+    font-size: 10px; font-weight: 600; padding: 4px 10px; border-radius: var(--r-sm);
+    position: relative; flex: 1; max-width: 80px;
+  }
+  .tab svg { width: 22px; height: 22px; }
+  .tab.active { color: var(--accent); }
+  .tab .tab-count {
+    position: absolute; top: 0; right: 18px; min-width: 16px; height: 16px;
+    background: var(--accent); color: var(--accent-ink); border-radius: 999px;
+    font-size: 9.5px; display: grid; place-items: center; padding: 0 4px;
+    border: 2px solid var(--bg-2);
+  }
+}
+
+/* hide-on-mobile / show-on-mobile helpers */
+.only-mobile { display: none; }
+@media (max-width: 860px) {
+  .only-desktop { display: none !important; }
+  .only-mobile { display: revert; }
+}
+
+/* phone-preview mode: constrain the whole app to a phone frame on desktop */
+[data-frame="phone"] .app { grid-template-columns: 1fr; }
+[data-frame="phone"] .side { display: none; }
+[data-frame="phone"] .tabbar { display: flex; }
+[data-frame="phone"] .only-desktop { display: none !important; }
+[data-frame="phone"] .only-mobile { display: revert; }
+
+/* ============================================================================
+   HomeQ Real-Time Monitor — components & screen styles
+   ========================================================================== */
+
+/* ============================ buttons =================================== */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-weight: 600; font-size: 14px; line-height: 1;
+  padding: 0 16px; height: 40px; border-radius: var(--r-sm);
+  border: 1px solid transparent; white-space: nowrap;
+  transition: background .15s, border-color .15s, transform .08s, box-shadow .15s, color .15s;
+  user-select: none;
+}
+.btn:active { transform: translateY(1px); }
+.btn svg { width: 17px; height: 17px; }
+.btn-primary { background: var(--accent); color: var(--accent-ink); box-shadow: 0 1px 2px var(--accent-soft); }
+.btn-primary:hover { background: color-mix(in oklab, var(--accent) 88%, #000); box-shadow: 0 4px 14px var(--accent-soft); }
+.btn-ghost { background: var(--surface); color: var(--text); border-color: var(--border); box-shadow: var(--shadow-1); }
+.btn-ghost:hover { background: var(--surface-2); }
+.btn-quiet { background: transparent; color: var(--text-2); }
+.btn-quiet:hover { background: var(--surface-2); color: var(--text); }
+.btn-danger { background: var(--red-soft); color: var(--red); border-color: color-mix(in oklab, var(--red) 30%, transparent); }
+.btn-danger:hover { background: var(--red); color: #fff; }
+.btn-sm { height: 32px; padding: 0 12px; font-size: 13px; border-radius: calc(var(--r-sm) - 1px); }
+.btn-lg { height: 46px; padding: 0 22px; font-size: 15px; }
+.btn-block { width: 100%; }
+.btn:disabled { opacity: .5; pointer-events: none; }
+
+/* ============================ fields ==================================== */
+.field { display: flex; flex-direction: column; gap: 7px; }
+.field > label { font-size: 13px; font-weight: 600; color: var(--text-2); display: flex; justify-content: space-between; align-items: baseline; }
+.field > label .hint { font-weight: 500; color: var(--text-3); font-size: 12px; white-space: nowrap; }
+.input, .select {
+  height: 42px; padding: 0 13px; border-radius: var(--r-sm);
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  font-size: 14.5px; width: 100%; transition: border-color .14s, box-shadow .14s, background .14s;
+  outline: none;
+}
+textarea.input { height: auto; padding: 11px 13px; resize: vertical; line-height: 1.5; }
+.input::placeholder { color: var(--text-3); }
+.input:focus, .select:focus { border-color: var(--accent); box-shadow: 0 0 0 3.5px var(--accent-soft); }
+.input.err { border-color: var(--red); box-shadow: 0 0 0 3.5px var(--red-soft); }
+.field-err { font-size: 12px; color: var(--red); font-weight: 500; display: flex; align-items: center; gap: 5px; }
+.input-group { position: relative; display: flex; align-items: center; }
+.input-group .prefix, .input-group .suffix { position: absolute; color: var(--text-3); font-size: 13.5px; font-weight: 500; pointer-events: none; }
+.input-group .prefix { left: 13px; } .input-group .prefix ~ .input { padding-left: 34px; }
+.input-group .suffix { right: 13px; }
+.select { appearance: none; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='none' stroke='%2390978f' stroke-width='1.6' stroke-linecap='round' d='M2 2l4 4 4-4'/></svg>"); background-repeat: no-repeat; background-position: right 13px center; padding-right: 36px; }
+
+.checkbox { display: flex; align-items: flex-start; gap: 11px; cursor: pointer; font-size: 13.5px; color: var(--text-2); line-height: 1.45; }
+.checkbox input { position: absolute; opacity: 0; }
+.checkbox .box { width: 20px; height: 20px; border-radius: 6px; border: 1.5px solid var(--border); flex-shrink: 0; display: grid; place-items: center; transition: .14s; margin-top: 1px; background: var(--surface); }
+.checkbox .box svg { width: 13px; height: 13px; color: var(--accent-ink); opacity: 0; transform: scale(.5); transition: .14s; }
+.checkbox input:checked + .box { background: var(--accent); border-color: var(--accent); }
+.checkbox input:checked + .box svg { opacity: 1; transform: scale(1); }
+.checkbox input:focus-visible + .box { box-shadow: 0 0 0 3.5px var(--accent-soft); }
+.checkbox a { color: var(--accent-dim); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+
+/* switch */
+.switch { position: relative; width: 42px; height: 24px; border-radius: 999px; background: var(--border); border: 0; transition: background .18s; flex-shrink: 0; padding: 0; }
+.switch i { position: absolute; top: 3px; left: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.3); transition: transform .18s var(--ease); }
+.switch[data-on="1"] { background: var(--accent); }
+.switch[data-on="1"] i { transform: translateX(18px); }
+
+/* segmented control inline (chips) */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 14px;
+  border-radius: var(--r-pill); border: 1px solid var(--border); background: var(--surface);
+  font-size: 13.5px; font-weight: 600; color: var(--text-2); transition: .14s; user-select: none;
+}
+.chip svg { width: 15px; height: 15px; }
+.chip:hover { background: var(--surface-2); color: var(--text); }
+.chip.on { background: var(--accent-soft); border-color: var(--accent-line); color: var(--accent-dim); }
+[data-view="terminal"] .chip { border-radius: var(--r-sm); }
+
+/* ============================ badges ==================================== */
+.badge {
+  display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px;
+  border-radius: 6px; font-size: 11.5px; font-weight: 700; letter-spacing: .01em;
+  background: var(--surface-2); color: var(--text-2); border: 1px solid var(--border-2);
+}
+.badge svg { width: 12px; height: 12px; }
+.badge-fcfs { background: var(--accent-soft); color: var(--accent-dim); border-color: var(--accent-line); }
+.badge-amber { background: var(--amber-soft); color: color-mix(in oklab, var(--amber) 75%, var(--text)); border-color: color-mix(in oklab, var(--amber) 35%, transparent); }
+.badge-red { background: var(--red-soft); color: var(--red); border-color: color-mix(in oklab, var(--red) 30%, transparent); }
+.badge-dot::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+/* ============================ cards / panels ============================ */
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); box-shadow: var(--shadow-1); }
+.panel-head { display: flex; align-items: center; gap: 12px; padding: 16px 18px; border-bottom: 1px solid var(--border); }
+.panel-head h3 { font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
+.panel-body { padding: 18px; }
+
+.section-title { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text-3); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+
+/* stat tiles */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 22px; }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: 15px 16px; box-shadow: var(--shadow-1); position: relative; overflow: hidden; }
+.stat .k { font-size: 12px; color: var(--text-3); font-weight: 600; display: flex; align-items: center; gap: 6px; }
+.stat .k svg { width: 14px; height: 14px; }
+.stat .v { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin-top: 6px; font-family: var(--num-font); font-variant-numeric: tabular-nums; line-height: 1; }
+.stat .v small { font-size: 14px; color: var(--text-3); font-weight: 600; }
+.stat .d { font-size: 11.5px; margin-top: 6px; font-weight: 600; display: flex; align-items: center; gap: 4px; }
+.stat .d.up { color: var(--accent-dim); } .stat .d.down { color: var(--red); }
+.stat .spark { position: absolute; right: 12px; bottom: 10px; opacity: .5; }
+@media (max-width: 860px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+
+/* ============================ feed ===================================== */
+.feed-toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+.feed-toolbar .grow { flex: 1; }
+.searchbar { position: relative; flex: 1; min-width: 180px; max-width: 360px; }
+.searchbar svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--text-3); }
+.searchbar .input { height: 38px; padding-left: 36px; }
+
+.feed { display: flex; flex-direction: column; gap: var(--feed-gap); }
+
+/* --- listing as CARD --- */
+.lc {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 16px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md);
+  padding: var(--card-pad); box-shadow: var(--shadow-1);
+  transition: box-shadow .18s, border-color .18s, transform .18s;
+  position: relative; overflow: hidden;
+}
+.lc:hover { box-shadow: var(--shadow-2); border-color: var(--border-2); }
+.lc-photo { width: 116px; height: 92px; border-radius: var(--r-sm); overflow: hidden; flex-shrink: 0; position: relative; }
+.lc-main { min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.lc-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lc-title { font-size: 16px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lc-area { font-size: 13px; color: var(--text-3); display: flex; align-items: center; gap: 5px; }
+.lc-area svg { width: 14px; height: 14px; }
+.lc-specs { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 2px; }
+.lc-spec { display: flex; flex-direction: column; gap: 1px; }
+.lc-spec .sl { font-size: 10.5px; color: var(--text-3); font-weight: 600; letter-spacing: .03em; text-transform: uppercase; }
+.lc-spec .sv { font-size: 14.5px; font-weight: 700; font-family: var(--num-font); font-variant-numeric: tabular-nums; }
+.lc-spec .sv small { font-size: 11.5px; color: var(--text-3); font-weight: 600; }
+.lc-side { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; gap: 10px; }
+.lc-rent { font-size: 19px; font-weight: 800; letter-spacing: -0.02em; font-family: var(--num-font); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.lc-rent small { font-size: 12px; font-weight: 600; color: var(--text-3); }
+.lc-age { font-size: 12px; font-weight: 700; color: var(--text-3); font-family: var(--font-mono); white-space: nowrap; display: flex; align-items: center; gap: 5px; }
+.lc-age .livedot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+.lc-cta { display: flex; gap: 8px; }
+
+/* --- listing as ROW (comfort dense) --- */
+[data-card="row"] .lc { grid-template-columns: 1fr auto; padding: 12px 16px; align-items: center; }
+[data-card="row"] .lc-photo { display: none; }
+[data-card="row"] .lc-specs { gap: 14px; }
+
+/* --- listing as TICKER (terminal) --- */
+[data-card="ticker"] .feed, [data-view="terminal"] .feed { border: 1px solid var(--border); border-radius: var(--r-sm); overflow: hidden; background: var(--surface); }
+[data-card="ticker"] .lc, [data-view="terminal"] .lc {
+  grid-template-columns: minmax(0,2.2fr) 0.8fr 0.8fr 0.7fr 1fr 0.9fr auto;
+  align-items: center; gap: 14px; border: 0; border-bottom: 1px solid var(--line);
+  border-radius: 0; box-shadow: none; padding: 9px 14px; font-family: var(--font-mono);
+}
+[data-card="ticker"] .lc:hover, [data-view="terminal"] .lc:hover { background: var(--surface-2); transform: none; }
+[data-card="ticker"] .lc-photo, [data-view="terminal"] .lc-photo { display: none; }
+[data-card="ticker"] .lc-main, [data-view="terminal"] .lc-main { display: contents; }
+[data-card="ticker"] .lc-area, [data-view="terminal"] .lc-area { display: none; }
+[data-card="ticker"] .lc-specs, [data-view="terminal"] .lc-specs { display: contents; }
+[data-card="ticker"] .lc-spec .sl, [data-view="terminal"] .lc-spec .sl { display: none; }
+[data-card="ticker"] .lc-spec, [data-view="terminal"] .lc-spec { flex-direction: row; align-items: baseline; gap: 3px; font-size: 13px; justify-content: flex-end; }
+[data-card="ticker"] .lc-side, [data-view="terminal"] .lc-side { display: contents; }
+[data-card="ticker"] .lc-rent, [data-view="terminal"] .lc-rent { justify-self: end; }
+[data-card="ticker"] .lc-age, [data-view="terminal"] .lc-age { justify-self: end; }
+[data-card="ticker"] .lc-cta, [data-view="terminal"] .lc-cta { justify-self: end; }
+[data-card="ticker"] .lc-top, [data-view="terminal"] .lc-top { flex-wrap: nowrap; min-width: 0; }
+[data-card="ticker"] .lc-title, [data-view="terminal"] .lc-title { font-size: 13.5px; font-weight: 600; }
+[data-card="ticker"] .lc-rent, [data-view="terminal"] .lc-rent { font-size: 14px; font-weight: 700; }
+[data-card="ticker"] .lc-rent small, [data-view="terminal"] .lc-rent small { display: none; }
+[data-card="ticker"] .ticker-only, [data-view="terminal"] .ticker-only { display: inline; }
+.ticker-only { display: none; }
+
+/* fresh-match highlight */
+.lc.fresh { animation: flyin .5s var(--ease) both; }
+.lc.fresh::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+  box-shadow: inset 0 0 0 1.5px var(--accent); 
+}
+.lc.fresh.glow::after {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent);
+}
+[data-feed="urgency"] .lc.fresh { animation: flyin-urgent .55s var(--ease) both; }
+[data-feed="urgency"] .lc.fresh::before { animation: freshpulse 1.6s var(--ease) 2; }
+[data-feed="calm"] .lc.fresh { animation: fadein .7s var(--ease) both; }
+@keyframes flyin { from { opacity: 0; transform: translateY(-12px) scale(.99); } to { opacity: 1; transform: none; } }
+@keyframes flyin-urgent { 0% { opacity: 0; transform: translateY(-18px) scale(.97); } 60% { transform: translateY(2px) scale(1.004); } 100% { opacity: 1; transform: none; } }
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@keyframes freshpulse { 0%,100% { box-shadow: inset 0 0 0 1.5px var(--accent); } 50% { box-shadow: inset 0 0 0 1.5px var(--accent), 0 0 0 4px var(--accent-soft); } }
+
+.new-banner {
+  position: sticky; top: 0; z-index: 5; align-self: center;
+  display: inline-flex; align-items: center; gap: 8px; margin: 0 auto 4px;
+  background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 13px;
+  padding: 7px 14px; border-radius: var(--r-pill); box-shadow: var(--shadow-2); cursor: pointer;
+  animation: dropin .3s var(--ease) both;
+}
+@keyframes dropin { from { transform: translateY(-8px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* placeholder image */
+.ph {
+  width: 100%; height: 100%;
+  background-image: repeating-linear-gradient(135deg, var(--surface-2) 0 7px, var(--surface-3) 7px 14px);
+  display: grid; place-items: center; color: var(--text-3);
+}
+.ph span { font-family: var(--font-mono); font-size: 9.5px; letter-spacing: .04em; opacity: .8; background: var(--surface); padding: 2px 6px; border-radius: 4px; }
+
+/* ============================ empty / loading / error ================== */
+.state { text-align: center; padding: 64px 24px; max-width: 420px; margin: 0 auto; }
+.state .ico { width: 56px; height: 56px; border-radius: 16px; background: var(--surface-2); border: 1px solid var(--border); display: grid; place-items: center; margin: 0 auto 16px; color: var(--text-3); }
+.state .ico svg { width: 26px; height: 26px; }
+.state h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+.state p { color: var(--text-3); font-size: 14px; line-height: 1.6; margin-bottom: 18px; }
+
+.skel { background: linear-gradient(90deg, var(--surface-2) 25%, var(--surface-3) 37%, var(--surface-2) 63%); background-size: 400% 100%; animation: shimmer 1.4s ease infinite; border-radius: var(--r-sm); }
+@keyframes shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+.skel-card { display: grid; grid-template-columns: 116px 1fr auto; gap: 16px; padding: var(--card-pad); border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); }
+
+/* ============================ tables (history) ========================= */
+.table-wrap { border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden; background: var(--surface); box-shadow: var(--shadow-1); }
+table.tbl { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.tbl th { text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--text-3); padding: 12px 16px; border-bottom: 1px solid var(--border); background: var(--surface-2); white-space: nowrap; }
+.tbl td { padding: 13px 16px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.tbl tr:last-child td { border-bottom: 0; }
+.tbl tbody tr { transition: background .12s; }
+.tbl tbody tr:hover { background: var(--surface-2); }
+.tbl .t-addr { font-weight: 600; }
+.tbl .t-time { color: var(--text-3); font-family: var(--font-mono); font-size: 12.5px; white-space: nowrap; }
+.tbl .t-lat { font-family: var(--font-mono); font-size: 12.5px; font-weight: 600; }
+.pager { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-top: 1px solid var(--border); background: var(--surface-2); font-size: 13px; color: var(--text-3); }
+.pager .pnav { display: flex; gap: 6px; }
+
+@media (max-width: 720px) {
+  .table-wrap { border: 0; background: transparent; box-shadow: none; }
+  .tbl, .tbl thead, .tbl tbody, .tbl th, .tbl td, .tbl tr { display: block; }
+  .tbl thead { display: none; }
+  .tbl tr { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); margin-bottom: 10px; padding: 6px 4px; box-shadow: var(--shadow-1); }
+  .tbl td { border: 0; padding: 7px 14px; display: flex; justify-content: space-between; gap: 12px; }
+  .tbl td::before { content: attr(data-l); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); }
+  .pager { border: 0; border-radius: var(--r-md); border: 1px solid var(--border); margin-top: 4px; }
+}
+
+/* ============================ modal ==================================== */
+.scrim { position: fixed; inset: 0; background: color-mix(in oklab, #0a120e 55%, transparent); backdrop-filter: blur(3px); z-index: 100; display: grid; place-items: center; padding: 20px; animation: fadein .2s ease; }
+.modal { width: 100%; max-width: 560px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-3); max-height: calc(100vh - 40px); display: flex; flex-direction: column; animation: modalin .25s var(--ease) both; overflow: hidden; }
+@keyframes modalin { from { opacity: 0; transform: translateY(14px) scale(.985); } to { opacity: 1; transform: none; } }
+.modal-head { display: flex; align-items: center; gap: 12px; padding: 18px 20px; border-bottom: 1px solid var(--border); }
+.modal-head h2 { font-size: 17px; font-weight: 700; letter-spacing: -0.01em; }
+.modal-head .sub { font-size: 12.5px; color: var(--text-3); margin-top: 2px; }
+.modal-body { padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; }
+.modal-foot { display: flex; gap: 10px; padding: 16px 20px; border-top: 1px solid var(--border); background: var(--surface-2); }
+.modal-foot .grow { flex: 1; }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-grid .full { grid-column: 1 / -1; }
+@media (max-width: 560px) { .form-grid { grid-template-columns: 1fr; } }
+
+/* range pair */
+.range-pair { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 10px; }
+.range-pair .sep { padding-bottom: 11px; color: var(--text-3); }
+
+/* ============================ filters list ============================= */
+.filter-card { display: flex; align-items: center; gap: 16px; padding: 16px 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); box-shadow: var(--shadow-1); transition: box-shadow .16s, border-color .16s; }
+.filter-card:hover { box-shadow: var(--shadow-2); }
+.filter-card.off { opacity: .6; }
+.filter-ico { width: 42px; height: 42px; border-radius: var(--r-sm); background: var(--accent-soft); color: var(--accent-dim); display: grid; place-items: center; flex-shrink: 0; }
+.filter-ico svg { width: 20px; height: 20px; }
+.filter-meta { flex: 1; min-width: 0; }
+.filter-meta h4 { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.filter-crit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 7px; }
+.crit { font-size: 12px; color: var(--text-2); background: var(--surface-2); border: 1px solid var(--border-2); padding: 3px 9px; border-radius: 6px; font-weight: 600; display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.crit svg { width: 12px; height: 12px; color: var(--text-3); }
+.filter-stat { text-align: right; flex-shrink: 0; }
+.filter-stat .n { font-size: 20px; font-weight: 800; font-family: var(--num-font); font-variant-numeric: tabular-nums; color: var(--accent-dim); }
+.filter-stat .l { font-size: 11px; color: var(--text-3); font-weight: 600; }
+.filter-actions { display: flex; align-items: center; gap: 8px; }
+@media (max-width: 720px) {
+  .filter-card { flex-wrap: wrap; }
+  .filter-stat { order: 3; }
+  .filter-actions { margin-left: auto; }
+}
+
+/* ============================ settings ================================= */
+.settings-grid { display: grid; grid-template-columns: 200px 1fr; gap: 32px; align-items: start; }
+.settings-nav { display: flex; flex-direction: column; gap: 2px; position: sticky; top: 80px; }
+.settings-nav button { text-align: left; padding: 9px 12px; border-radius: var(--r-sm); background: transparent; border: 0; color: var(--text-2); font-weight: 600; font-size: 14px; display: flex; align-items: center; gap: 10px; transition: .14s; }
+.settings-nav button svg { width: 17px; height: 17px; }
+.settings-nav button:hover { background: var(--surface-2); color: var(--text); }
+.settings-nav button.active { background: var(--accent-soft); color: var(--accent-dim); }
+.setting-row { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.setting-row:last-child { border-bottom: 0; }
+.setting-row .sr-meta { flex: 1; }
+.setting-row .sr-meta b { font-size: 14.5px; font-weight: 600; display: block; }
+.setting-row .sr-meta span { font-size: 13px; color: var(--text-3); }
+.danger-zone { border: 1px solid color-mix(in oklab, var(--red) 30%, var(--border)); border-radius: var(--r-md); padding: 4px 18px; background: color-mix(in oklab, var(--red) 5%, var(--surface)); }
+@media (max-width: 720px) { .settings-grid { grid-template-columns: 1fr; gap: 18px; } .settings-nav { flex-direction: row; overflow-x: auto; position: static; padding-bottom: 4px; } }
+
+/* telegram link panel */
+.tg-panel { display: grid; grid-template-columns: 1fr 280px; gap: 0; overflow: hidden; }
+@media (max-width: 720px) { .tg-panel { grid-template-columns: 1fr; } }
+.tg-side { background: linear-gradient(160deg, color-mix(in oklab, var(--accent) 14%, var(--surface)), var(--surface)); border-left: 1px solid var(--border); padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+.tg-status { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 13px; padding: 6px 12px; border-radius: var(--r-pill); white-space: nowrap; }
+.tg-status.linked { background: var(--accent-soft); color: var(--accent-dim); }
+.tg-status.unlinked { background: var(--surface-2); color: var(--text-3); border: 1px solid var(--border); }
+.code-box { font-family: var(--font-mono); font-size: 24px; font-weight: 700; letter-spacing: .26em; text-align: center; padding: 16px; background: var(--bg-2); border: 1px dashed var(--accent-line); border-radius: var(--r-sm); color: var(--accent-dim); }
+
+/* ============================ onboarding =============================== */
+.ob { min-height: 100%; display: grid; place-items: center; padding: 32px 20px; }
+.ob-card { width: 100%; max-width: 560px; }
+.steps { display: flex; align-items: center; gap: 8px; margin-bottom: 28px; justify-content: center; }
+.step-dot { display: flex; align-items: center; gap: 8px; }
+.step-dot i { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 700; background: var(--surface-2); color: var(--text-3); border: 1px solid var(--border); font-family: var(--num-font); }
+.step-dot.done i { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.step-dot.active i { background: var(--accent-soft); color: var(--accent-dim); border-color: var(--accent-line); }
+.step-dot span { font-size: 12.5px; font-weight: 600; color: var(--text-3); }
+.step-dot.active span, .step-dot.done span { color: var(--text); }
+.step-line { width: 30px; height: 2px; background: var(--border); border-radius: 2px; }
+.step-line.done { background: var(--accent); }
+
+/* ============================ auth / landing =========================== */
+.auth { min-height: 100%; display: grid; grid-template-columns: 1.05fr 1fr; }
+@media (max-width: 900px) { .auth { grid-template-columns: 1fr; } .auth-aside { display: none; } }
+.auth-form-wrap { display: grid; place-items: center; padding: 40px 24px; }
+.auth-form { width: 100%; max-width: 384px; display: flex; flex-direction: column; gap: 18px; }
+.auth-aside { background: var(--bg-2); border-left: 1px solid var(--border); position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 40px; }
+.auth-divider { display: flex; align-items: center; gap: 14px; color: var(--text-3); font-size: 12px; font-weight: 600; }
+.auth-divider::before, .auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+/* mini live-feed preview used in auth aside + landing */
+.preview-feed { display: flex; flex-direction: column; gap: 8px; text-align: left; }
+.pf-row { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-sm); padding: 11px 13px; box-shadow: var(--shadow-1); }
+.pf-row .pf-ph { width: 38px; height: 38px; border-radius: 7px; flex-shrink: 0; }
+.pf-row .pf-meta { flex: 1; min-width: 0; }
+.pf-row .pf-meta b { font-size: 13px; font-weight: 700; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pf-row .pf-meta span { font-size: 11.5px; color: var(--text-3); }
+.pf-row .pf-rent { font-weight: 800; font-size: 14px; font-family: var(--num-font); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* landing */
+.lp { min-height: 100%; }
+.lp-nav { display: flex; align-items: center; gap: 14px; padding: 18px 28px; max-width: 1200px; margin: 0 auto; }
+.lp-hero { max-width: 1080px; margin: 0 auto; padding: 40px 28px 60px; text-align: center; }
+.lp-eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 700; color: var(--accent-dim); background: var(--accent-soft); border: 1px solid var(--accent-line); padding: 6px 14px; border-radius: 999px; margin-bottom: 22px; white-space: nowrap; }
+.lp-h1 { font-size: clamp(34px, 6vw, 62px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.02; margin-bottom: 18px; }
+.lp-h1 em { font-style: normal; color: var(--accent); }
+.lp-sub { font-size: clamp(16px, 2.2vw, 20px); color: var(--text-2); max-width: 600px; margin: 0 auto 30px; line-height: 1.55; }
+.lp-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.lp-demo { max-width: 920px; margin: 36px auto 0; }
+.lp-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 1080px; margin: 0 auto; padding: 20px 28px 70px; }
+@media (max-width: 800px) { .lp-features { grid-template-columns: 1fr; } }
+.lp-feat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: 22px; box-shadow: var(--shadow-1); }
+.lp-feat .fi { width: 40px; height: 40px; border-radius: 11px; background: var(--accent-soft); color: var(--accent-dim); display: grid; place-items: center; margin-bottom: 14px; }
+.lp-feat h3 { font-size: 16px; font-weight: 700; margin-bottom: 7px; }
+.lp-feat p { font-size: 13.5px; color: var(--text-3); line-height: 1.55; }
+
+/* misc utility */
+.row { display: flex; align-items: center; gap: 10px; }
+.col { display: flex; flex-direction: column; }
+.gap6 { gap: 6px; } .gap10 { gap: 10px; } .gap14 { gap: 14px; }
+.wrap { flex-wrap: wrap; }
+.grow { flex: 1; }
+.mt8 { margin-top: 8px; } .mt16 { margin-top: 16px; } .mt24 { margin-top: 24px; }
+.mb0 { margin-bottom: 0; }
+.muted { color: var(--text-3); }
+.center { text-align: center; }
+.divider { height: 1px; background: var(--border); margin: 4px 0; }
+.link { color: var(--accent-dim); font-weight: 600; cursor: pointer; }
+.link:hover { text-decoration: underline; }
+.page-head { margin-bottom: 22px; }
+.page-head h2 { font-size: 23px; font-weight: 800; letter-spacing: -0.025em; }
+.page-head p { color: var(--text-3); font-size: 14px; margin-top: 4px; }
+.toast-wrap { position: fixed; top: 16px; left: 50%; transform: translateX(-50%); z-index: 200; display: flex; flex-direction: column; gap: 8px; align-items: center; }
+.toast { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-3); border-radius: var(--r-pill); padding: 10px 16px 10px 12px; font-size: 13.5px; font-weight: 600; animation: dropin .3s var(--ease) both; }
+.toast .ti { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-ink); }
+.toast .ti svg { width: 13px; height: 13px; }
+
+/* phone.css — real-viewport mobile fixes + phone-preview frame
+   (the phone frame re-applies mobile layout regardless of viewport width) */
+
+/* ---- genuine narrow-viewport fixes ---- */
+@media (max-width: 860px) {
+  .lc { grid-template-columns: 1fr auto !important; }
+  .lp-nav { flex-wrap: wrap; }
+  .topbar h1 { font-size: 16px; }
+}
+
+/* ============================================================ phone frame */
+[data-frame="phone"] body {
+  background:
+    radial-gradient(1200px 700px at 50% -10%, color-mix(in oklab, var(--accent) 16%, #0e1512), #0b100e 60%);
+  display: grid; place-items: center; padding: 26px; overflow: hidden;
+}
+[data-frame="phone"] #root {
+  width: 402px; height: min(872px, calc(100vh - 52px));
+  border-radius: 46px; overflow: hidden; background: var(--bg);
+  box-shadow: 0 50px 120px rgba(0,0,0,.6), 0 0 0 11px #15171a, 0 0 0 13px #2a2d31, inset 0 0 0 1px rgba(255,255,255,.04);
+  position: relative;
+}
+[data-frame="phone"] #root::before {
+  content: ""; position: absolute; top: 11px; left: 50%; transform: translateX(-50%);
+  width: 116px; height: 30px; background: #0b0d0f; border-radius: 0 0 18px 18px; z-index: 60;
+}
+
+/* re-apply mobile layout inside the frame */
+[data-frame="phone"] .app { grid-template-columns: 1fr; height: 100%; }
+[data-frame="phone"] .side { display: none; }
+[data-frame="phone"] .tabbar {
+  display: flex; position: absolute; bottom: 0; left: 0; right: 0; z-index: 40;
+  background: color-mix(in oklab, var(--bg-2) 92%, transparent); backdrop-filter: blur(16px);
+  border-top: 1px solid var(--border); padding: 7px 8px 14px; justify-content: space-around;
+}
+[data-frame="phone"] .tab {
+  display: flex; flex-direction: column; align-items: center; gap: 3px; background: transparent;
+  border: 0; color: var(--text-3); font-size: 10px; font-weight: 600; padding: 4px 10px;
+  border-radius: var(--r-sm); position: relative; flex: 1; max-width: 80px;
+}
+[data-frame="phone"] .tab svg { width: 22px; height: 22px; }
+[data-frame="phone"] .tab.active { color: var(--accent); }
+[data-frame="phone"] .tab .tab-count {
+  position: absolute; top: 0; right: 18px; min-width: 16px; height: 16px; background: var(--accent);
+  color: var(--accent-ink); border-radius: 999px; font-size: 9.5px; display: grid; place-items: center;
+  padding: 0 4px; border: 2px solid var(--bg-2);
+}
+[data-frame="phone"] .only-desktop { display: none !important; }
+[data-frame="phone"] .only-mobile { display: revert; }
+[data-frame="phone"] .topbar { height: 60px; padding: 22px 16px 0; }
+[data-frame="phone"] .content { padding-bottom: 0; }
+[data-frame="phone"] .page { padding: 16px 14px 110px; }
+[data-frame="phone"] .stats { grid-template-columns: repeat(2, 1fr); }
+[data-frame="phone"] .lc { grid-template-columns: 1fr auto; }
+[data-frame="phone"] .feed-toolbar { gap: 8px; }
+[data-frame="phone"] .searchbar { max-width: none; }
+
+/* auth / landing collapse */
+[data-frame="phone"] .auth { grid-template-columns: 1fr; }
+[data-frame="phone"] .auth-aside { display: none; }
+[data-frame="phone"] .lp-features { grid-template-columns: 1fr; }
+[data-frame="phone"] .lp-nav { flex-wrap: wrap; padding: 16px; }
+[data-frame="phone"] .lp-hero { padding: 24px 16px 40px; }
+
+/* settings */
+[data-frame="phone"] .settings-grid { grid-template-columns: 1fr; gap: 16px; }
+[data-frame="phone"] .settings-nav { flex-direction: row; overflow-x: auto; position: static; padding-bottom: 4px; }
+[data-frame="phone"] .tg-panel { grid-template-columns: 1fr; }
+[data-frame="phone"] .form-grid { grid-template-columns: 1fr; }
+
+/* history table → cards */
+[data-frame="phone"] .table-wrap { border: 0; background: transparent; box-shadow: none; }
+[data-frame="phone"] .tbl, [data-frame="phone"] .tbl thead, [data-frame="phone"] .tbl tbody,
+[data-frame="phone"] .tbl th, [data-frame="phone"] .tbl td, [data-frame="phone"] .tbl tr { display: block; }
+[data-frame="phone"] .tbl thead { display: none; }
+[data-frame="phone"] .tbl tr { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); margin-bottom: 10px; padding: 6px 4px; box-shadow: var(--shadow-1); }
+[data-frame="phone"] .tbl td { border: 0; padding: 7px 14px; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+[data-frame="phone"] .tbl td::before { content: attr(data-l); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); }
+
+/* modal fits the frame */
+[data-frame="phone"] .scrim { padding: 14px; }
+[data-frame="phone"] .modal { max-height: calc(100% - 28px); }
+
+/* ============================================================ tablet frame */
+[data-frame="tablet"] body {
+  background: radial-gradient(1400px 800px at 50% -10%, color-mix(in oklab, var(--accent) 14%, #0e1512), #0b100e 62%);
+  display: grid; place-items: center; padding: 24px; overflow: hidden;
+}
+[data-frame="tablet"] #root {
+  width: min(1024px, calc(100vw - 40px));
+  height: min(768px, calc(100vh - 96px));
+  border-radius: 30px; overflow: hidden; background: var(--bg); position: relative;
+  box-shadow: 0 50px 120px rgba(0,0,0,.6), 0 0 0 13px #16181c, 0 0 0 15px #2a2d31, inset 0 0 0 1px rgba(255,255,255,.04);
+}
+[data-frame="tablet"] #root::before {
+  content: ""; position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+  width: 7px; height: 7px; border-radius: 50%; background: #060708; z-index: 60;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);
+}
+[data-frame="tablet"] .app { height: 100%; grid-template-columns: 216px 1fr; }
+[data-frame="tablet"] .stats { grid-template-columns: repeat(2, 1fr); }
+[data-frame="tablet"] .only-desktop { display: revert; }
+[data-frame="tablet"] .only-mobile { display: none !important; }
+[data-frame="tablet"] .tabbar { display: none; }
+[data-frame="tablet"] .settings-grid { grid-template-columns: 170px 1fr; }
+
+/* =================================================== floating device switcher */
+.dev-switch {
+  position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 99999;
+  display: flex; gap: 4px; background: rgba(12,16,14,.82); backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,.1); padding: 5px; border-radius: 13px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.5);
+}
+.dev-switch a {
+  display: flex; align-items: center; gap: 6px; text-decoration: none; color: #aeb7b2;
+  font: 600 12.5px/1 "Schibsted Grotesk", ui-sans-serif, sans-serif; padding: 8px 13px; border-radius: 9px;
+}
+.dev-switch a svg { width: 15px; height: 15px; }
+.dev-switch a.on { background: #15b878; color: #06140d; }
+.dev-switch a:hover:not(.on) { background: rgba(255,255,255,.08); color: #fff; }
+
+</style>
+</head>
+<body>
+<div id="root"></div>
+<div class="dev-switch"><a class="on" href="HQRTM-Desktop.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Десктоп</a><a class="" href="HQRTM-Tablet.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2.5"/><path d="M11 18h2"/></svg>Планшет</a><a class="" href="HQRTM-Mobile.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>Мобайл</a></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel">
+// @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
+
+/* BEGIN USAGE */
+// tweaks-panel.jsx
+// Reusable Tweaks shell + form-control helpers.
+// Exports (to window): useTweaks, TweaksPanel, TweakSection, TweakRow, TweakSlider,
+//   TweakToggle, TweakRadio, TweakSelect, TweakText, TweakNumber, TweakColor, TweakButton.
+//
+// Owns the host protocol (listens for __activate_edit_mode / __deactivate_edit_mode,
+// posts __edit_mode_available / __edit_mode_set_keys / __edit_mode_dismissed) so
+// individual prototypes don't re-roll it. Ships a consistent set of controls so you
+// don't hand-draw <input type="range">, segmented radios, steppers, etc.
+//
+// Usage (in an HTML file that loads React + Babel):
+//
+//   const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+//     "primaryColor": "#D97757",
+//     "palette": ["#D97757", "#29261b", "#f6f4ef"],
+//     "fontSize": 16,
+//     "density": "regular",
+//     "dark": false
+//   }/*EDITMODE-END*/;
+//
+//   function App() {
+//     const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+//     return (
+//       <div style={{ fontSize: t.fontSize, color: t.primaryColor }}>
+//         Hello
+//         <TweaksPanel>
+//           <TweakSection label="Typography" />
+//           <TweakSlider label="Font size" value={t.fontSize} min={10} max={32} unit="px"
+//                        onChange={(v) => setTweak('fontSize', v)} />
+//           <TweakRadio  label="Density" value={t.density}
+//                        options={['compact', 'regular', 'comfy']}
+//                        onChange={(v) => setTweak('density', v)} />
+//           <TweakSection label="Theme" />
+//           <TweakColor  label="Primary" value={t.primaryColor}
+//                        options={['#D97757', '#2A6FDB', '#1F8A5B', '#7A5AE0']}
+//                        onChange={(v) => setTweak('primaryColor', v)} />
+//           <TweakColor  label="Palette" value={t.palette}
+//                        options={[['#D97757', '#29261b', '#f6f4ef'],
+//                                  ['#475569', '#0f172a', '#f1f5f9']]}
+//                        onChange={(v) => setTweak('palette', v)} />
+//           <TweakToggle label="Dark mode" value={t.dark}
+//                        onChange={(v) => setTweak('dark', v)} />
+//         </TweaksPanel>
+//       </div>
+//     );
+//   }
+//
+// TweakRadio is the segmented control for 2–3 short options (auto-falls-back to
+// TweakSelect past ~16/~10 chars per label); reach for TweakSelect directly when
+// options are many or long. For color tweaks always curate 3-4 options rather than
+// a free picker; an option can also be a whole 2–5 color palette (the stored value
+// is the array). The Tweak* controls are a floor, not a ceiling — build custom
+// controls inside the panel if a tweak calls for UI they don't cover.
+/* END USAGE */
+// ─────────────────────────────────────────────────────────────────────────────
+
+const __TWEAKS_STYLE = `
+  .twk-panel{position:fixed;right:16px;bottom:16px;z-index:2147483646;width:280px;
+    max-height:calc(100vh - 32px);display:flex;flex-direction:column;
+    transform:scale(var(--dc-inv-zoom,1));transform-origin:bottom right;
+    background:rgba(250,249,247,.78);color:#29261b;
+    -webkit-backdrop-filter:blur(24px) saturate(160%);backdrop-filter:blur(24px) saturate(160%);
+    border:.5px solid rgba(255,255,255,.6);border-radius:14px;
+    box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 12px 40px rgba(0,0,0,.18);
+    font:11.5px/1.4 ui-sans-serif,system-ui,-apple-system,sans-serif;overflow:hidden}
+  .twk-hd{display:flex;align-items:center;justify-content:space-between;
+    padding:10px 8px 10px 14px;cursor:move;user-select:none}
+  .twk-hd b{font-size:12px;font-weight:600;letter-spacing:.01em}
+  .twk-x{appearance:none;border:0;background:transparent;color:rgba(41,38,27,.55);
+    width:22px;height:22px;border-radius:6px;cursor:default;font-size:13px;line-height:1}
+  .twk-x:hover{background:rgba(0,0,0,.06);color:#29261b}
+  .twk-body{padding:2px 14px 14px;display:flex;flex-direction:column;gap:10px;
+    overflow-y:auto;overflow-x:hidden;min-height:0;
+    scrollbar-width:thin;scrollbar-color:rgba(0,0,0,.15) transparent}
+  .twk-body::-webkit-scrollbar{width:8px}
+  .twk-body::-webkit-scrollbar-track{background:transparent;margin:2px}
+  .twk-body::-webkit-scrollbar-thumb{background:rgba(0,0,0,.15);border-radius:4px;
+    border:2px solid transparent;background-clip:content-box}
+  .twk-body::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.25);
+    border:2px solid transparent;background-clip:content-box}
+  .twk-row{display:flex;flex-direction:column;gap:5px}
+  .twk-row-h{flex-direction:row;align-items:center;justify-content:space-between;gap:10px}
+  .twk-lbl{display:flex;justify-content:space-between;align-items:baseline;
+    color:rgba(41,38,27,.72)}
+  .twk-lbl>span:first-child{font-weight:500}
+  .twk-val{color:rgba(41,38,27,.5);font-variant-numeric:tabular-nums}
+
+  .twk-sect{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+    color:rgba(41,38,27,.45);padding:10px 0 0}
+  .twk-sect:first-child{padding-top:0}
+
+  .twk-field{appearance:none;box-sizing:border-box;width:100%;min-width:0;height:26px;padding:0 8px;
+    border:.5px solid rgba(0,0,0,.1);border-radius:7px;
+    background:rgba(255,255,255,.6);color:inherit;font:inherit;outline:none}
+  .twk-field:focus{border-color:rgba(0,0,0,.25);background:rgba(255,255,255,.85)}
+  select.twk-field{padding-right:22px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='rgba(0,0,0,.5)' d='M0 0h10L5 6z'/></svg>");
+    background-repeat:no-repeat;background-position:right 8px center}
+
+  .twk-slider{appearance:none;-webkit-appearance:none;width:100%;height:4px;margin:6px 0;
+    border-radius:999px;background:rgba(0,0,0,.12);outline:none}
+  .twk-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;
+    width:14px;height:14px;border-radius:50%;background:#fff;
+    border:.5px solid rgba(0,0,0,.12);box-shadow:0 1px 3px rgba(0,0,0,.2);cursor:default}
+  .twk-slider::-moz-range-thumb{width:14px;height:14px;border-radius:50%;
+    background:#fff;border:.5px solid rgba(0,0,0,.12);box-shadow:0 1px 3px rgba(0,0,0,.2);cursor:default}
+
+  .twk-seg{position:relative;display:flex;padding:2px;border-radius:8px;
+    background:rgba(0,0,0,.06);user-select:none}
+  .twk-seg-thumb{position:absolute;top:2px;bottom:2px;border-radius:6px;
+    background:rgba(255,255,255,.9);box-shadow:0 1px 2px rgba(0,0,0,.12);
+    transition:left .15s cubic-bezier(.3,.7,.4,1),width .15s}
+  .twk-seg.dragging .twk-seg-thumb{transition:none}
+  .twk-seg button{appearance:none;position:relative;z-index:1;flex:1;border:0;
+    background:transparent;color:inherit;font:inherit;font-weight:500;min-height:22px;
+    border-radius:6px;cursor:default;padding:4px 6px;line-height:1.2;
+    overflow-wrap:anywhere}
+
+  .twk-toggle{position:relative;width:32px;height:18px;border:0;border-radius:999px;
+    background:rgba(0,0,0,.15);transition:background .15s;cursor:default;padding:0}
+  .twk-toggle[data-on="1"]{background:#34c759}
+  .twk-toggle i{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;
+    background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .15s}
+  .twk-toggle[data-on="1"] i{transform:translateX(14px)}
+
+  .twk-num{display:flex;align-items:center;box-sizing:border-box;min-width:0;height:26px;padding:0 0 0 8px;
+    border:.5px solid rgba(0,0,0,.1);border-radius:7px;background:rgba(255,255,255,.6)}
+  .twk-num-lbl{font-weight:500;color:rgba(41,38,27,.6);cursor:ew-resize;
+    user-select:none;padding-right:8px}
+  .twk-num input{flex:1;min-width:0;height:100%;border:0;background:transparent;
+    font:inherit;font-variant-numeric:tabular-nums;text-align:right;padding:0 8px 0 0;
+    outline:none;color:inherit;-moz-appearance:textfield}
+  .twk-num input::-webkit-inner-spin-button,.twk-num input::-webkit-outer-spin-button{
+    -webkit-appearance:none;margin:0}
+  .twk-num-unit{padding-right:8px;color:rgba(41,38,27,.45)}
+
+  .twk-btn{appearance:none;height:26px;padding:0 12px;border:0;border-radius:7px;
+    background:rgba(0,0,0,.78);color:#fff;font:inherit;font-weight:500;cursor:default}
+  .twk-btn:hover{background:rgba(0,0,0,.88)}
+  .twk-btn.secondary{background:rgba(0,0,0,.06);color:inherit}
+  .twk-btn.secondary:hover{background:rgba(0,0,0,.1)}
+
+  .twk-swatch{appearance:none;-webkit-appearance:none;width:56px;height:22px;
+    border:.5px solid rgba(0,0,0,.1);border-radius:6px;padding:0;cursor:default;
+    background:transparent;flex-shrink:0}
+  .twk-swatch::-webkit-color-swatch-wrapper{padding:0}
+  .twk-swatch::-webkit-color-swatch{border:0;border-radius:5.5px}
+  .twk-swatch::-moz-color-swatch{border:0;border-radius:5.5px}
+
+  .twk-chips{display:flex;gap:6px}
+  .twk-chip{position:relative;appearance:none;flex:1;min-width:0;height:46px;
+    padding:0;border:0;border-radius:6px;overflow:hidden;cursor:default;
+    box-shadow:0 0 0 .5px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.06);
+    transition:transform .12s cubic-bezier(.3,.7,.4,1),box-shadow .12s}
+  .twk-chip:hover{transform:translateY(-1px);
+    box-shadow:0 0 0 .5px rgba(0,0,0,.18),0 4px 10px rgba(0,0,0,.12)}
+  .twk-chip[data-on="1"]{box-shadow:0 0 0 1.5px rgba(0,0,0,.85),
+    0 2px 6px rgba(0,0,0,.15)}
+  .twk-chip>span{position:absolute;top:0;bottom:0;right:0;width:34%;
+    display:flex;flex-direction:column;box-shadow:-1px 0 0 rgba(0,0,0,.1)}
+  .twk-chip>span>i{flex:1;box-shadow:0 -1px 0 rgba(0,0,0,.1)}
+  .twk-chip>span>i:first-child{box-shadow:none}
+  .twk-chip svg{position:absolute;top:6px;left:6px;width:13px;height:13px;
+    filter:drop-shadow(0 1px 1px rgba(0,0,0,.3))}
+`;
+
+// ── useTweaks ───────────────────────────────────────────────────────────────
+// Single source of truth for tweak values. setTweak persists via the host
+// (__edit_mode_set_keys → host rewrites the EDITMODE block on disk).
+function useTweaks(defaults) {
+  const [values, setValues] = React.useState(defaults);
+  // Accepts either setTweak('key', value) or setTweak({ key: value, ... }) so a
+  // useState-style call doesn't write a "[object Object]" key into the persisted
+  // JSON block.
+  const setTweak = React.useCallback((keyOrEdits, val) => {
+    const edits = typeof keyOrEdits === 'object' && keyOrEdits !== null
+      ? keyOrEdits : { [keyOrEdits]: val };
+    setValues((prev) => ({ ...prev, ...edits }));
+    window.parent.postMessage({ type: '__edit_mode_set_keys', edits }, '*');
+    // Same-window signal so in-page listeners (deck-stage rail thumbnails)
+    // can react — the parent message only reaches the host, not peers.
+    window.dispatchEvent(new CustomEvent('tweakchange', { detail: edits }));
+  }, []);
+  return [values, setTweak];
+}
+
+// ── TweaksPanel ─────────────────────────────────────────────────────────────
+// Floating shell. Registers the protocol listener BEFORE announcing
+// availability — if the announce ran first, the host's activate could land
+// before our handler exists and the toolbar toggle would silently no-op.
+// The close button posts __edit_mode_dismissed so the host's toolbar toggle
+// flips off in lockstep; the host echoes __deactivate_edit_mode back which
+// is what actually hides the panel.
+function TweaksPanel({ title = 'Tweaks', children }) {
+  const [open, setOpen] = React.useState(false);
+  const dragRef = React.useRef(null);
+  const offsetRef = React.useRef({ x: 16, y: 16 });
+  const PAD = 16;
+
+  const clampToViewport = React.useCallback(() => {
+    const panel = dragRef.current;
+    if (!panel) return;
+    const w = panel.offsetWidth, h = panel.offsetHeight;
+    const maxRight = Math.max(PAD, window.innerWidth - w - PAD);
+    const maxBottom = Math.max(PAD, window.innerHeight - h - PAD);
+    offsetRef.current = {
+      x: Math.min(maxRight, Math.max(PAD, offsetRef.current.x)),
+      y: Math.min(maxBottom, Math.max(PAD, offsetRef.current.y)),
+    };
+    panel.style.right = offsetRef.current.x + 'px';
+    panel.style.bottom = offsetRef.current.y + 'px';
+  }, []);
+
+  React.useEffect(() => {
+    if (!open) return;
+    clampToViewport();
+    if (typeof ResizeObserver === 'undefined') {
+      window.addEventListener('resize', clampToViewport);
+      return () => window.removeEventListener('resize', clampToViewport);
+    }
+    const ro = new ResizeObserver(clampToViewport);
+    ro.observe(document.documentElement);
+    return () => ro.disconnect();
+  }, [open, clampToViewport]);
+
+  React.useEffect(() => {
+    const onMsg = (e) => {
+      const t = e?.data?.type;
+      if (t === '__activate_edit_mode') setOpen(true);
+      else if (t === '__deactivate_edit_mode') setOpen(false);
+    };
+    window.addEventListener('message', onMsg);
+    window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    return () => window.removeEventListener('message', onMsg);
+  }, []);
+
+  const dismiss = () => {
+    setOpen(false);
+    window.parent.postMessage({ type: '__edit_mode_dismissed' }, '*');
+  };
+
+  const onDragStart = (e) => {
+    const panel = dragRef.current;
+    if (!panel) return;
+    const r = panel.getBoundingClientRect();
+    const sx = e.clientX, sy = e.clientY;
+    const startRight = window.innerWidth - r.right;
+    const startBottom = window.innerHeight - r.bottom;
+    const move = (ev) => {
+      offsetRef.current = {
+        x: startRight - (ev.clientX - sx),
+        y: startBottom - (ev.clientY - sy),
+      };
+      clampToViewport();
+    };
+    const up = () => {
+      window.removeEventListener('mousemove', move);
+      window.removeEventListener('mouseup', up);
+    };
+    window.addEventListener('mousemove', move);
+    window.addEventListener('mouseup', up);
+  };
+
+  if (!open) return null;
+  return (
+    <>
+      <style>{__TWEAKS_STYLE}</style>
+      <div ref={dragRef} className="twk-panel" data-omelette-chrome=""
+           style={{ right: offsetRef.current.x, bottom: offsetRef.current.y }}>
+        <div className="twk-hd" onMouseDown={onDragStart}>
+          <b>{title}</b>
+          <button className="twk-x" aria-label="Close tweaks"
+                  onMouseDown={(e) => e.stopPropagation()}
+                  onClick={dismiss}>✕</button>
+        </div>
+        <div className="twk-body">
+          {children}
+        </div>
+      </div>
+    </>
+  );
+}
+
+// ── Layout helpers ──────────────────────────────────────────────────────────
+
+function TweakSection({ label, children }) {
+  return (
+    <>
+      <div className="twk-sect">{label}</div>
+      {children}
+    </>
+  );
+}
+
+function TweakRow({ label, value, children, inline = false }) {
+  return (
+    <div className={inline ? 'twk-row twk-row-h' : 'twk-row'}>
+      <div className="twk-lbl">
+        <span>{label}</span>
+        {value != null && <span className="twk-val">{value}</span>}
+      </div>
+      {children}
+    </div>
+  );
+}
+
+// ── Controls ────────────────────────────────────────────────────────────────
+
+function TweakSlider({ label, value, min = 0, max = 100, step = 1, unit = '', onChange }) {
+  return (
+    <TweakRow label={label} value={`${value}${unit}`}>
+      <input type="range" className="twk-slider" min={min} max={max} step={step}
+             value={value} onChange={(e) => onChange(Number(e.target.value))} />
+    </TweakRow>
+  );
+}
+
+function TweakToggle({ label, value, onChange }) {
+  return (
+    <div className="twk-row twk-row-h">
+      <div className="twk-lbl"><span>{label}</span></div>
+      <button type="button" className="twk-toggle" data-on={value ? '1' : '0'}
+              role="switch" aria-checked={!!value}
+              onClick={() => onChange(!value)}><i /></button>
+    </div>
+  );
+}
+
+function TweakRadio({ label, value, options, onChange }) {
+  const trackRef = React.useRef(null);
+  const [dragging, setDragging] = React.useState(false);
+  // The active value is read by pointer-move handlers attached for the lifetime
+  // of a drag — ref it so a stale closure doesn't fire onChange for every move.
+  const valueRef = React.useRef(value);
+  valueRef.current = value;
+
+  // Segments wrap mid-word once per-segment width runs out. The track is
+  // ~248px (280 panel − 28 body pad − 4 seg pad), each button loses 12px
+  // to its own padding, and 11.5px system-ui averages ~6.3px/char — so 2
+  // options fit ~16 chars each, 3 fit ~10. Past that (or >3 options), fall
+  // back to a dropdown rather than wrap.
+  const labelLen = (o) => String(typeof o === 'object' ? o.label : o).length;
+  const maxLen = options.reduce((m, o) => Math.max(m, labelLen(o)), 0);
+  const fitsAsSegments = maxLen <= ({ 2: 16, 3: 10 }[options.length] ?? 0);
+  if (!fitsAsSegments) {
+    // <select> emits strings — map back to the original option value so the
+    // fallback stays type-preserving (numbers, booleans) like the segment path.
+    const resolve = (s) => {
+      const m = options.find((o) => String(typeof o === 'object' ? o.value : o) === s);
+      return m === undefined ? s : typeof m === 'object' ? m.value : m;
+    };
+    return <TweakSelect label={label} value={value} options={options}
+                        onChange={(s) => onChange(resolve(s))} />;
+  }
+  const opts = options.map((o) => (typeof o === 'object' ? o : { value: o, label: o }));
+  const idx = Math.max(0, opts.findIndex((o) => o.value === value));
+  const n = opts.length;
+
+  const segAt = (clientX) => {
+    const r = trackRef.current.getBoundingClientRect();
+    const inner = r.width - 4;
+    const i = Math.floor(((clientX - r.left - 2) / inner) * n);
+    return opts[Math.max(0, Math.min(n - 1, i))].value;
+  };
+
+  const onPointerDown = (e) => {
+    setDragging(true);
+    const v0 = segAt(e.clientX);
+    if (v0 !== valueRef.current) onChange(v0);
+    const move = (ev) => {
+      if (!trackRef.current) return;
+      const v = segAt(ev.clientX);
+      if (v !== valueRef.current) onChange(v);
+    };
+    const up = () => {
+      setDragging(false);
+      window.removeEventListener('pointermove', move);
+      window.removeEventListener('pointerup', up);
+    };
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up);
+  };
+
+  return (
+    <TweakRow label={label}>
+      <div ref={trackRef} role="radiogroup" onPointerDown={onPointerDown}
+           className={dragging ? 'twk-seg dragging' : 'twk-seg'}>
+        <div className="twk-seg-thumb"
+             style={{ left: `calc(2px + ${idx} * (100% - 4px) / ${n})`,
+                      width: `calc((100% - 4px) / ${n})` }} />
+        {opts.map((o) => (
+          <button key={o.value} type="button" role="radio" aria-checked={o.value === value}>
+            {o.label}
+          </button>
+        ))}
+      </div>
+    </TweakRow>
+  );
+}
+
+function TweakSelect({ label, value, options, onChange }) {
+  return (
+    <TweakRow label={label}>
+      <select className="twk-field" value={value} onChange={(e) => onChange(e.target.value)}>
+        {options.map((o) => {
+          const v = typeof o === 'object' ? o.value : o;
+          const l = typeof o === 'object' ? o.label : o;
+          return <option key={v} value={v}>{l}</option>;
+        })}
+      </select>
+    </TweakRow>
+  );
+}
+
+function TweakText({ label, value, placeholder, onChange }) {
+  return (
+    <TweakRow label={label}>
+      <input className="twk-field" type="text" value={value} placeholder={placeholder}
+             onChange={(e) => onChange(e.target.value)} />
+    </TweakRow>
+  );
+}
+
+function TweakNumber({ label, value, min, max, step = 1, unit = '', onChange }) {
+  const clamp = (n) => {
+    if (min != null && n < min) return min;
+    if (max != null && n > max) return max;
+    return n;
+  };
+  const startRef = React.useRef({ x: 0, val: 0 });
+  const onScrubStart = (e) => {
+    e.preventDefault();
+    startRef.current = { x: e.clientX, val: value };
+    const decimals = (String(step).split('.')[1] || '').length;
+    const move = (ev) => {
+      const dx = ev.clientX - startRef.current.x;
+      const raw = startRef.current.val + dx * step;
+      const snapped = Math.round(raw / step) * step;
+      onChange(clamp(Number(snapped.toFixed(decimals))));
+    };
+    const up = () => {
+      window.removeEventListener('pointermove', move);
+      window.removeEventListener('pointerup', up);
+    };
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up);
+  };
+  return (
+    <div className="twk-num">
+      <span className="twk-num-lbl" onPointerDown={onScrubStart}>{label}</span>
+      <input type="number" value={value} min={min} max={max} step={step}
+             onChange={(e) => onChange(clamp(Number(e.target.value)))} />
+      {unit && <span className="twk-num-unit">{unit}</span>}
+    </div>
+  );
+}
+
+// Relative-luminance contrast pick — checkmarks drawn over a swatch need to
+// read on both #111 and #fafafa without per-option configuration. Hex input
+// only (#rgb / #rrggbb); named or rgb()/hsl() colors fall through to "light".
+function __twkIsLight(hex) {
+  const h = String(hex).replace('#', '');
+  const x = h.length === 3 ? h.replace(/./g, (c) => c + c) : h.padEnd(6, '0');
+  const n = parseInt(x.slice(0, 6), 16);
+  if (Number.isNaN(n)) return true;
+  const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+  return r * 299 + g * 587 + b * 114 > 148000;
+}
+
+const __TwkCheck = ({ light }) => (
+  <svg viewBox="0 0 14 14" aria-hidden="true">
+    <path d="M3 7.2 5.8 10 11 4.2" fill="none" strokeWidth="2.2"
+          strokeLinecap="round" strokeLinejoin="round"
+          stroke={light ? 'rgba(0,0,0,.78)' : '#fff'} />
+  </svg>
+);
+
+// TweakColor — curated color/palette picker. Each option is either a single
+// hex string or an array of 1-5 hex strings; the card adapts — a lone color
+// renders solid, a palette renders colors[0] as the hero (left ~2/3) with the
+// rest stacked in a sharp column on the right. onChange emits the
+// option in the shape it was passed (string stays string, array stays array).
+// Without options it falls back to the native color input for back-compat.
+function TweakColor({ label, value, options, onChange }) {
+  if (!options || !options.length) {
+    return (
+      <div className="twk-row twk-row-h">
+        <div className="twk-lbl"><span>{label}</span></div>
+        <input type="color" className="twk-swatch" value={value}
+               onChange={(e) => onChange(e.target.value)} />
+      </div>
+    );
+  }
+  // Native <input type=color> emits lowercase hex per the HTML spec, so
+  // compare case-insensitively. String() guards JSON.stringify(undefined),
+  // which returns the primitive undefined (no .toLowerCase).
+  const key = (o) => String(JSON.stringify(o)).toLowerCase();
+  const cur = key(value);
+  return (
+    <TweakRow label={label}>
+      <div className="twk-chips" role="radiogroup">
+        {options.map((o, i) => {
+          const colors = Array.isArray(o) ? o : [o];
+          const [hero, ...rest] = colors;
+          const sup = rest.slice(0, 4);
+          const on = key(o) === cur;
+          return (
+            <button key={i} type="button" className="twk-chip" role="radio"
+                    aria-checked={on} data-on={on ? '1' : '0'}
+                    aria-label={colors.join(', ')} title={colors.join(' · ')}
+                    style={{ background: hero }}
+                    onClick={() => onChange(o)}>
+              {sup.length > 0 && (
+                <span>
+                  {sup.map((c, j) => <i key={j} style={{ background: c }} />)}
+                </span>
+              )}
+              {on && <__TwkCheck light={__twkIsLight(hero)} />}
+            </button>
+          );
+        })}
+      </div>
+    </TweakRow>
+  );
+}
+
+function TweakButton({ label, onClick, secondary = false }) {
+  return (
+    <button type="button" className={secondary ? 'twk-btn secondary' : 'twk-btn'}
+            onClick={onClick}>{label}</button>
+  );
+}
+
+Object.assign(window, {
+  useTweaks, TweaksPanel, TweakSection, TweakRow,
+  TweakSlider, TweakToggle, TweakRadio, TweakSelect,
+  TweakText, TweakNumber, TweakColor, TweakButton,
+});
+
+</script>
+<script type="text/babel">
+/* icons.jsx — line icon set (24px grid, currentColor stroke).
+   Usage: <Icon name="bolt" />  */
+const ICON_PATHS = {
+  bolt:      <path d="M13 2 4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5Z" />,
+  radar:     <><path d="M19.07 4.93a10 10 0 1 0 1.4 12.6" /><path d="M12 12 7 7" /><circle cx="12" cy="12" r="3.2" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></>,
+  feed:      <><path d="M4 6h16M4 12h16M4 18h10" /></>,
+  layers:    <><path d="m12 2 9 5-9 5-9-5 9-5Z" /><path d="m3 12 9 5 9-5" /><path d="m3 17 9 5 9-5" /></>,
+  bell:      <><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" /><path d="M13.7 21a2 2 0 0 1-3.4 0" /></>,
+  history:   <><path d="M3 3v5h5" /><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8" /><path d="M12 7v5l3 2" /></>,
+  gear:      <><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z" /></>,
+  pin:       <><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></>,
+  bed:       <><path d="M2 9v11M2 13h20v7M22 13v-2a3 3 0 0 0-3-3H9v5" /><path d="M6 8v0" /></>,
+  ruler:     <><path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2M11 7l2 2M14.5 3.5l2 2M4 14l2 2" /></>,
+  coins:     <><ellipse cx="9" cy="6" rx="6" ry="3" /><path d="M3 6v6c0 1.66 2.69 3 6 3s6-1.34 6-3" /><path d="M15 9.5c2.5.3 6 1.4 6 3.5v6c0 1.66-2.69 3-6 3s-6-1.34-6-3v-1" /></>,
+  arrowup:   <path d="M12 19V5M5 12l7-7 7 7" />,
+  arrowright:<path d="M5 12h14M12 5l7 7-7 7" />,
+  external:  <><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5" /></>,
+  search:    <><circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" /></>,
+  plus:      <path d="M12 5v14M5 12h14" />,
+  check:     <path d="M20 6 9 17l-5-5" />,
+  checkcircle:<><circle cx="12" cy="12" r="9" /><path d="m8.5 12 2.5 2.5 4.5-5" /></>,
+  x:         <path d="M18 6 6 18M6 6l12 12" />,
+  sun:       <><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></>,
+  moon:      <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />,
+  globe:     <><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z" /></>,
+  sliders:   <><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6" /></>,
+  edit:      <><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" /></>,
+  trash:     <><path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" /><path d="M10 11v6M14 11v6" /></>,
+  copy:      <><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V5a2 2 0 0 1 2-2h10" /></>,
+  send:      <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z" />,
+  send2:     <><path d="M14.5 9.5 9 12l-4-1.5L21 4l-4 16-5.5-4-2.5 3v-4.5" /></>,
+  shield:    <><path d="M12 2 4 5v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V5l-8-3Z" /><path d="m9 12 2 2 4-4" /></>,
+  lock:      <><rect x="4" y="11" width="16" height="10" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></>,
+  user:      <><circle cx="12" cy="8" r="4" /><path d="M4 21a8 8 0 0 1 16 0" /></>,
+  mail:      <><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></>,
+  wifi:      <><path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0" /><circle cx="12" cy="19.5" r="1" fill="currentColor" stroke="none" /></>,
+  wifioff:   <><path d="M2 2l20 20M8.5 16a5 5 0 0 1 6-0.8M5 12.5a10 10 0 0 1 4-2.4M19 12.5a10 10 0 0 0-4.5-2.7" /><circle cx="12" cy="19.5" r="1" fill="currentColor" stroke="none" /></>,
+  clock:     <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
+  filter:    <path d="M3 4h18l-7 8v6l-4 2v-8L3 4Z" />,
+  grid:      <><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></>,
+  list:      <><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" /></>,
+  terminal:  <><rect x="3" y="4" width="18" height="16" rx="2" /><path d="m7 9 3 3-3 3M13 15h4" /></>,
+  sparkles:  <><path d="M12 3v4M12 17v4M3 12h4M17 12h4" /><path d="m6.3 6.3 2 2M15.7 15.7l2 2M17.7 6.3l-2 2M8.3 15.7l-2 2" /></>,
+  flame:     <path d="M12 2c1 4-2 5-2 8a2 2 0 0 0 4 0c0-1 .5-1.5 1-2 1 2 2 3 2 5a5 5 0 0 1-10 0c0-4 4-6 5-11Z" />,
+  phone:     <><rect x="6" y="2" width="12" height="20" rx="3" /><path d="M11 18h2" /></>,
+  monitor:   <><rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8M12 17v4" /></>,
+  chevdown:  <path d="m6 9 6 6 6-6" />,
+  chevleft:  <path d="m15 18-6-6 6-6" />,
+  chevright: <path d="m9 18 6-6-6-6" />,
+  menu:      <path d="M3 6h18M3 12h18M3 18h18" />,
+  logout:    <><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" /><path d="m16 17 5-5-5-5M21 12H9" /></>,
+  zap:       <path d="M11 2 4 14h6l-1 8 8-12h-6l1-8Z" />,
+  eye:       <><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" /></>,
+  dot:       <circle cx="12" cy="12" r="4" fill="currentColor" stroke="none" />,
+  doc:       <><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z" /><path d="M14 2v6h6M9 13h6M9 17h6" /></>,
+  trend:     <><path d="M3 17l6-6 4 4 8-8" /><path d="M17 7h4v4" /></>,
+};
+
+function Icon({ name, className, style, strokeWidth = 1.7 }) {
+  return (
+    <svg className={className} style={style} viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round"
+         strokeLinejoin="round" aria-hidden="true">
+      {ICON_PATHS[name] || null}
+    </svg>
+  );
+}
+
+/* Brand mark glyph (signal/radar pulse — original) */
+function BrandGlyph({ size = 18 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M3 13.5 10.5 6l4 4L21 3.5" />
+      <circle cx="10.5" cy="13" r="1.6" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+Object.assign(window, { Icon, BrandGlyph, ICON_PATHS });
+
+</script>
+<script type="text/babel">
+/* data.jsx — mock domain data, listing generator, i18n strings, formatters */
+
+/* ---- Swedish areas / streets (original sample data) ---- */
+const AREAS = [
+  { area: "Södermalm", city: "Stockholm" },
+  { area: "Vasastan", city: "Stockholm" },
+  { area: "Kungsholmen", city: "Stockholm" },
+  { area: "Östermalm", city: "Stockholm" },
+  { area: "Hägersten", city: "Stockholm" },
+  { area: "Hammarby Sjöstad", city: "Stockholm" },
+  { area: "Sundbyberg", city: "Stockholm" },
+  { area: "Solna", city: "Stockholm" },
+  { area: "Liljeholmen", city: "Stockholm" },
+  { area: "Aspudden", city: "Stockholm" },
+  { area: "Majorna", city: "Göteborg" },
+  { area: "Linnéstaden", city: "Göteborg" },
+  { area: "Haga", city: "Göteborg" },
+  { area: "Möllevången", city: "Malmö" },
+  { area: "Västra Hamnen", city: "Malmö" },
+  { area: "Luthagen", city: "Uppsala" },
+];
+const STREETS = [
+  "Bondegatan", "Skånegatan", "Hornsgatan", "Folkungagatan", "Götgatan",
+  "Upplandsgatan", "Sankt Eriksgatan", "Fleminggatan", "Karlbergsvägen",
+  "Ringvägen", "Renstiernas gata", "Timmermansgatan", "Krukmakargatan",
+  "Birger Jarlsgatan", "Odengatan", "Surbrunnsgatan", "Värmdövägen",
+  "Lundagatan", "Blekingegatan", "Katarina Bangata",
+];
+const HOSTS = ["Stockholmshem", "Familjebostäder", "Svenska Bostäder", "Einar Mattsson", "Wallenstam", "Heimstaden", "Balder", "John Mattson"];
+
+let __seq = 1000;
+function rnd(a, b) { return Math.floor(Math.random() * (b - a + 1)) + a; }
+function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+function generateListing(opts = {}) {
+  const loc = pick(AREAS);
+  const rooms = opts.rooms ?? pick([1, 1, 2, 2, 2, 3, 3, 4]);
+  const sqm = opts.sqm ?? rooms * rnd(18, 26) + rnd(-4, 8);
+  const rent = opts.rent ?? Math.round((4200 + sqm * rnd(95, 165)) / 50) * 50;
+  const fcfs = opts.fcfs ?? Math.random() < 0.58;
+  const floor = rnd(0, 7);
+  return {
+    id: "L" + (++__seq),
+    street: pick(STREETS),
+    streetNo: rnd(1, 88),
+    area: loc.area,
+    city: loc.city,
+    rooms, sqm, rent, fcfs, floor,
+    host: pick(HOSTS),
+    queueDays: fcfs ? 0 : rnd(120, 1900),
+    available: pick(["Omgående", "1 jul", "1 aug", "15 aug", "1 sep"]),
+    createdAt: opts.createdAt ?? Date.now(),
+    filterId: opts.filterId ?? null,
+  };
+}
+
+function seedListings(n) {
+  const out = [];
+  const now = Date.now();
+  for (let i = 0; i < n; i++) {
+    const l = generateListing({ createdAt: now - i * rnd(40, 320) * 1000 });
+    out.push(l);
+  }
+  return out;
+}
+
+/* ---- sample saved filters ---- */
+const SAMPLE_FILTERS = [
+  { id: "F1", name: "Söder · 2:a", city: "Stockholm", areas: ["Södermalm", "Hammarby Sjöstad"], rentMin: 6000, rentMax: 13500, roomsMin: 2, roomsMax: 3, sqmMin: 45, sqmMax: 90, fcfsOnly: true, active: true, matches7d: 23 },
+  { id: "F2", name: "Etta nära jobbet", city: "Stockholm", areas: ["Vasastan", "Kungsholmen"], rentMin: 4500, rentMax: 9500, roomsMin: 1, roomsMax: 1, sqmMin: 25, sqmMax: 45, fcfsOnly: true, active: true, matches7d: 11 },
+  { id: "F3", name: "Familjelya 3–4 rum", city: "Stockholm", areas: ["Hägersten", "Aspudden", "Liljeholmen"], rentMin: 9000, rentMax: 18000, roomsMin: 3, roomsMax: 4, sqmMin: 65, sqmMax: 120, fcfsOnly: false, active: false, matches7d: 4 },
+];
+
+/* ---- sample notification history ---- */
+const CHANNELS = ["telegram", "telegram", "telegram", "email"];
+const NOTIF_STATUS = ["delivered", "delivered", "delivered", "delivered", "failed"];
+function seedNotifications(n) {
+  const out = [];
+  let t = Date.now() - 60_000;
+  for (let i = 0; i < n; i++) {
+    t -= rnd(180, 5400) * 1000;
+    const l = generateListing({ createdAt: t });
+    out.push({
+      id: "N" + (2000 + i),
+      listing: l,
+      channel: pick(CHANNELS),
+      status: pick(NOTIF_STATUS),
+      latencyMs: rnd(340, 2600),
+      filterName: pick(SAMPLE_FILTERS).name,
+      sentAt: t,
+    });
+  }
+  return out;
+}
+
+/* ---- formatters ---- */
+function fmtKr(n) { return n.toLocaleString("sv-SE").replace(/,/g, " "); }
+function timeAgo(ms, lang) {
+  const s = Math.max(0, Math.floor((Date.now() - ms) / 1000));
+  const L = STRINGS[lang];
+  if (s < 60) return s + L.t_s;
+  const m = Math.floor(s / 60);
+  if (m < 60) return m + L.t_m;
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + L.t_h;
+  const d = Math.floor(h / 24);
+  return d + L.t_d;
+}
+function fmtClock(ms) {
+  const d = new Date(ms);
+  return d.toLocaleString("sv-SE", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+}
+
+/* ===========================================================================
+   i18n — Swedish (sv) primary + English (en)
+   ========================================================================= */
+const STRINGS = {
+  sv: {
+    t_s: "s", t_m: "m", t_h: "h", t_d: "d",
+    // nav
+    nav_monitor: "Översikt", nav_feed: "Live-flöde", nav_filters: "Filter",
+    nav_history: "Historik", nav_settings: "Konto", nav_main: "Bevakning", nav_acct: "Konto",
+    connected: "Ansluten", reconnecting: "Återansluter…", offline: "Offline",
+    // topbar / common
+    new_match: "ny träff", new_matches: "nya träffar", show: "Visa", view_to: "Öppna på HomeQ",
+    comfort: "Comfort", terminal: "Terminal", search_ph: "Sök adress, område…",
+    save: "Spara", cancel: "Avbryt", create: "Skapa", delete: "Ta bort", edit: "Redigera",
+    active: "Aktiv", paused: "Pausad", all: "Alla",
+    // dashboard
+    dash_title: "Översikt", dash_sub: "Realtidsbevakning av lediga lägenheter",
+    stat_today: "Träffar idag", stat_active_filters: "Aktiva filter", stat_avg_latency: "Snittlatens", stat_fastest: "Snabbaste larm",
+    live_feed: "Live-flöde", feed_sub: "Nya objekt som matchar dina filter, i realtid",
+    fcfs: "Först till kvarn", fcfs_short: "FCFS", room: "rum", sqm: "m²", floor: "vån", rent_mo: "kr/mån", queue: "kö",
+    paused_listings: "Pausat — inga nya larm just nu",
+    empty_feed_t: "Inga träffar ännu", empty_feed_p: "Så fort ett objekt matchar dina filter dyker det upp här direkt. Larmet går också till din Telegram.",
+    err_conn_t: "Anslutningen bröts", err_conn_p: "Vi försöker återansluta automatiskt. Inga larm missas — de köas på servern.",
+    retry: "Försök igen", create_filter: "Skapa filter",
+    only_fcfs: "Endast FCFS", newest: "Senaste", sound: "Ljud",
+    // filters
+    filters_title: "Filter", filters_sub: "Dina bevakningar. Slå på, pausa eller ändra när som helst.",
+    new_filter: "Nytt filter", edit_filter: "Redigera filter", filter_name: "Namn på filter",
+    f_city: "Stad", f_areas: "Områden / stadsdelar", f_rent: "Hyra (kr/mån)", f_rooms: "Antal rum",
+    f_sqm: "Yta (m²)", f_fcfs_only: "Endast FCFS-objekt", f_fcfs_hint: "Bevaka bara ”först till kvarn”",
+    min: "Min", max: "Max", to: "till", would_match: "skulle matcha nu", per_week: "/ vecka",
+    delete_filter_q: "Ta bort detta filter?", delete_filter_p: "Bevakningen stoppas och kan inte återställas.",
+    no_filters_t: "Inga filter ännu", no_filters_p: "Skapa ditt första filter för att börja bevaka lediga lägenheter.",
+    // history
+    history_title: "Historik", history_sub: "Alla larm vi har skickat till dig.",
+    h_when: "Tid", h_object: "Objekt", h_filter: "Filter", h_channel: "Kanal", h_status: "Status", h_latency: "Latens",
+    delivered: "Levererad", failed: "Misslyckad", pending: "Skickas",
+    all_channels: "Alla kanaler", all_status: "Alla status", showing: "Visar", of: "av", prev: "Föregående", next: "Nästa",
+    no_history_t: "Ingen historik ännu", no_history_p: "Dina skickade larm visas här.",
+    // settings
+    settings_title: "Konto", set_profile: "Profil", set_telegram: "Telegram", set_security: "Säkerhet",
+    set_notif: "Notiser", set_privacy: "Integritet & data",
+    name: "Namn", email: "E-post", lang_pref: "Språk", change_pw: "Byt lösenord",
+    cur_pw: "Nuvarande lösenord", new_pw: "Nytt lösenord", confirm_pw: "Bekräfta lösenord",
+    tg_linked: "Telegram kopplad", tg_unlinked: "Ej kopplad", tg_connect: "Koppla Telegram",
+    tg_unlink: "Koppla bort", tg_test: "Skicka testlarm", tg_test_sent: "Testlarm skickat — kolla din Telegram!",
+    tg_how: "Så kopplar du", tg_step1: "Öppna boten @HQRTM_bot i Telegram.", tg_step2: "Skicka koden nedan till boten.", tg_step3: "Klart — du får larm direkt.",
+    tg_copy: "Kopiera kod", copied: "Kopierat!", tg_code_note: "Koden gäller i 10 minuter.",
+    notif_telegram: "Telegram-larm", notif_telegram_d: "Få ett meddelande direkt vid ny träff.",
+    notif_email: "E-postlarm", notif_email_d: "Daglig sammanfattning via e-post.",
+    notif_sound: "Ljudsignal i appen", notif_sound_d: "Spela upp en kort signal vid ny träff i flödet.",
+    privacy_t: "Dina data tillhör dig", privacy_p: "Vi sparar bara det som behövs för att skicka larm. Du kan exportera eller radera allt när som helst.",
+    export_data: "Exportera mina data", privacy_policy: "Integritetspolicy", terms: "Användarvillkor",
+    danger: "Riskzon", delete_acct: "Radera konto & all data", delete_acct_d: "Permanent borttagning av konto, filter och historik (GDPR).",
+    delete_acct_q: "Radera ditt konto?", delete_acct_p: "Detta tar bort allt: profil, filter, historik och Telegram-koppling. Åtgärden kan inte ångras.",
+    delete_acct_confirm: "Skriv RADERA för att bekräfta", delete_word: "RADERA",
+    save_changes: "Spara ändringar", saved: "Sparat!",
+    // auth
+    welcome_back: "Välkommen tillbaka", signin_sub: "Logga in för att se ditt flöde.",
+    create_acct: "Skapa konto", signup_sub: "Bevaka bostäder och få larm på sekunden.",
+    sign_in: "Logga in", sign_up: "Registrera dig", password: "Lösenord", forgot: "Glömt lösenord?",
+    no_acct: "Har du inget konto?", have_acct: "Har du redan ett konto?",
+    or: "eller", consent: "Jag godkänner",
+    consent_terms: "användarvillkoren", consent_and: "och", consent_privacy: "integritetspolicyn",
+    consent_req: "Du måste godkänna villkoren för att fortsätta.",
+    err_email: "Ange en giltig e-postadress.", err_pw: "Minst 8 tecken.",
+    // onboarding
+    ob_title: "Kom igång", ob_step_tg: "Koppla Telegram", ob_step_filter: "Skapa filter",
+    ob_tg_t: "Få larm där du redan är", ob_tg_p: "Koppla Telegram så landar varje ny träff direkt i din ficka — på sekunden.",
+    ob_skip: "Hoppa över", ob_continue: "Fortsätt", ob_finish: "Till mitt flöde",
+    ob_filter_t: "Vad letar du efter?", ob_filter_p: "Vi börjar bevaka direkt. Du kan ändra allt sen.",
+    // landing
+    lp_eyebrow: "Realtidsbevakning av hyresrätter",
+    lp_h1a: "Den lediga lägenheten är din —", lp_h1b: "om du är först.",
+    lp_sub: "HQRTM bevakar HomeQ dygnet runt och larmar dig på sekunden när ett objekt matchar dina filter. Vid ”först till kvarn” avgör sekunderna.",
+    lp_get_started: "Kom igång gratis", lp_signin: "Logga in", lp_live: "Live nu",
+    feat_rt_t: "Larm på sekunden", feat_rt_p: "WebSocket-flöde i realtid. Inget refreshande — nya objekt dyker upp direkt.",
+    feat_tg_t: "Direkt till Telegram", feat_tg_p: "Få ett tryckbart larm i fickan i samma sekund som objektet publiceras.",
+    feat_fl_t: "Precisa filter", feat_fl_p: "Stad, område, hyra, rum, yta och ”endast FCFS”. Bevaka exakt det du vill ha.",
+    lp_footer: "Bevakar HomeQ · Byggd för ”först till kvarn”",
+  },
+  en: {
+    t_s: "s", t_m: "m", t_h: "h", t_d: "d",
+    nav_monitor: "Overview", nav_feed: "Live feed", nav_filters: "Filters",
+    nav_history: "History", nav_settings: "Account", nav_main: "Monitoring", nav_acct: "Account",
+    connected: "Connected", reconnecting: "Reconnecting…", offline: "Offline",
+    new_match: "new match", new_matches: "new matches", show: "Show", view_to: "Open on HomeQ",
+    comfort: "Comfort", terminal: "Terminal", search_ph: "Search address, area…",
+    save: "Save", cancel: "Cancel", create: "Create", delete: "Delete", edit: "Edit",
+    active: "Active", paused: "Paused", all: "All",
+    dash_title: "Overview", dash_sub: "Real-time monitoring of available apartments",
+    stat_today: "Matches today", stat_active_filters: "Active filters", stat_avg_latency: "Avg. latency", stat_fastest: "Fastest alert",
+    live_feed: "Live feed", feed_sub: "New listings matching your filters, in real time",
+    fcfs: "First come, first served", fcfs_short: "FCFS", room: "rooms", sqm: "m²", floor: "fl", rent_mo: "kr/mo", queue: "queue",
+    paused_listings: "Paused — no new alerts right now",
+    empty_feed_t: "No matches yet", empty_feed_p: "The moment a listing matches your filters it shows up here instantly. The alert also hits your Telegram.",
+    err_conn_t: "Connection lost", err_conn_p: "We’re reconnecting automatically. No alerts are missed — they’re queued on the server.",
+    retry: "Retry", create_filter: "Create filter",
+    only_fcfs: "FCFS only", newest: "Newest", sound: "Sound",
+    filters_title: "Filters", filters_sub: "Your monitors. Switch on, pause, or edit anytime.",
+    new_filter: "New filter", edit_filter: "Edit filter", filter_name: "Filter name",
+    f_city: "City", f_areas: "Areas / districts", f_rent: "Rent (kr/mo)", f_rooms: "Rooms",
+    f_sqm: "Size (m²)", f_fcfs_only: "FCFS listings only", f_fcfs_hint: "Only watch “first come, first served”",
+    min: "Min", max: "Max", to: "to", would_match: "would match now", per_week: "/ week",
+    delete_filter_q: "Delete this filter?", delete_filter_p: "Monitoring stops and can’t be restored.",
+    no_filters_t: "No filters yet", no_filters_p: "Create your first filter to start monitoring available apartments.",
+    history_title: "History", history_sub: "Every alert we’ve sent you.",
+    h_when: "When", h_object: "Listing", h_filter: "Filter", h_channel: "Channel", h_status: "Status", h_latency: "Latency",
+    delivered: "Delivered", failed: "Failed", pending: "Sending",
+    all_channels: "All channels", all_status: "All statuses", showing: "Showing", of: "of", prev: "Prev", next: "Next",
+    no_history_t: "No history yet", no_history_p: "Your sent alerts will appear here.",
+    settings_title: "Account", set_profile: "Profile", set_telegram: "Telegram", set_security: "Security",
+    set_notif: "Notifications", set_privacy: "Privacy & data",
+    name: "Name", email: "Email", lang_pref: "Language", change_pw: "Change password",
+    cur_pw: "Current password", new_pw: "New password", confirm_pw: "Confirm password",
+    tg_linked: "Telegram linked", tg_unlinked: "Not linked", tg_connect: "Connect Telegram",
+    tg_unlink: "Unlink", tg_test: "Send test alert", tg_test_sent: "Test alert sent — check your Telegram!",
+    tg_how: "How to link", tg_step1: "Open the @HQRTM_bot in Telegram.", tg_step2: "Send the code below to the bot.", tg_step3: "Done — you’ll get alerts instantly.",
+    tg_copy: "Copy code", copied: "Copied!", tg_code_note: "Code valid for 10 minutes.",
+    notif_telegram: "Telegram alerts", notif_telegram_d: "Get a message instantly on every new match.",
+    notif_email: "Email alerts", notif_email_d: "Daily summary by email.",
+    notif_sound: "In-app sound", notif_sound_d: "Play a short chime on a new match in the feed.",
+    privacy_t: "Your data belongs to you", privacy_p: "We only store what’s needed to send alerts. Export or erase everything anytime.",
+    export_data: "Export my data", privacy_policy: "Privacy policy", terms: "Terms of service",
+    danger: "Danger zone", delete_acct: "Delete account & all data", delete_acct_d: "Permanent removal of account, filters and history (GDPR).",
+    delete_acct_q: "Delete your account?", delete_acct_p: "This removes everything: profile, filters, history and Telegram link. This can’t be undone.",
+    delete_acct_confirm: "Type DELETE to confirm", delete_word: "DELETE",
+    save_changes: "Save changes", saved: "Saved!",
+    welcome_back: "Welcome back", signin_sub: "Sign in to see your feed.",
+    create_acct: "Create account", signup_sub: "Monitor listings and get alerts in seconds.",
+    sign_in: "Sign in", sign_up: "Sign up", password: "Password", forgot: "Forgot password?",
+    no_acct: "No account yet?", have_acct: "Already have an account?",
+    or: "or", consent: "I agree to the",
+    consent_terms: "terms of service", consent_and: "and", consent_privacy: "privacy policy",
+    consent_req: "You must accept the terms to continue.",
+    err_email: "Enter a valid email address.", err_pw: "At least 8 characters.",
+    ob_title: "Get started", ob_step_tg: "Link Telegram", ob_step_filter: "Create filter",
+    ob_tg_t: "Get alerts where you already are", ob_tg_p: "Link Telegram and every new match lands straight in your pocket — within a second.",
+    ob_skip: "Skip", ob_continue: "Continue", ob_finish: "Go to my feed",
+    ob_filter_t: "What are you looking for?", ob_filter_p: "We’ll start monitoring right away. You can change everything later.",
+    lp_eyebrow: "Real-time rental monitoring",
+    lp_h1a: "The empty apartment is yours —", lp_h1b: "if you’re first.",
+    lp_sub: "HQRTM watches HomeQ around the clock and alerts you within a second when a listing matches your filters. With “first come, first served”, seconds decide.",
+    lp_get_started: "Get started free", lp_signin: "Sign in", lp_live: "Live now",
+    feat_rt_t: "Alerts in a second", feat_rt_p: "Real-time WebSocket feed. No refreshing — new listings appear instantly.",
+    feat_tg_t: "Straight to Telegram", feat_tg_p: "A tappable alert in your pocket the second a listing goes live.",
+    feat_fl_t: "Precise filters", feat_fl_p: "City, area, rent, rooms, size and “FCFS only”. Monitor exactly what you want.",
+    lp_footer: "Monitoring HomeQ · Built for “first come, first served”",
+  },
+};
+
+Object.assign(window, {
+  AREAS, STREETS, generateListing, seedListings, SAMPLE_FILTERS,
+  seedNotifications, fmtKr, timeAgo, fmtClock, STRINGS, pick, rnd,
+});
+
+</script>
+<script type="text/babel">
+/* ui.jsx — shared presentational components */
+
+function Btn({ variant = "ghost", size, icon, iconRight, children, className = "", ...rest }) {
+  const cls = `btn btn-${variant}${size ? " btn-" + size : ""}${className ? " " + className : ""}`;
+  return (
+    <button className={cls} {...rest}>
+      {icon && <Icon name={icon} />}
+      {children}
+      {iconRight && <Icon name={iconRight} />}
+    </button>
+  );
+}
+
+function IconBtn({ name, on, label, ...rest }) {
+  return (
+    <button className={`iconbtn${on ? " on" : ""}`} aria-label={label} title={label} {...rest}>
+      <Icon name={name} />
+    </button>
+  );
+}
+
+function Field({ label, hint, error, children }) {
+  return (
+    <div className="field">
+      {label && <label>{label}{hint && <span className="hint">{hint}</span>}</label>}
+      {children}
+      {error && <div className="field-err"><Icon name="x" style={{ width: 13, height: 13 }} />{error}</div>}
+    </div>
+  );
+}
+
+function Switch({ on, onChange, label }) {
+  return (
+    <button className="switch" data-on={on ? "1" : "0"} role="switch" aria-checked={!!on}
+            aria-label={label} onClick={() => onChange(!on)}><i /></button>
+  );
+}
+
+function Checkbox({ checked, onChange, children }) {
+  return (
+    <label className="checkbox">
+      <input type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} />
+      <span className="box"><Icon name="check" strokeWidth="3" /></span>
+      <span>{children}</span>
+    </label>
+  );
+}
+
+function Badge({ kind, icon, children }) {
+  return <span className={`badge${kind ? " badge-" + kind : ""}`}>{icon && <Icon name={icon} />}{children}</span>;
+}
+
+function Photo({ label = "FOTO", className = "" }) {
+  return <div className={`ph ${className}`}><span>{label}</span></div>;
+}
+
+/* tiny sparkline */
+function Spark({ points = [4, 6, 5, 8, 7, 11, 9, 13], w = 60, h = 22, color = "var(--accent)" }) {
+  const max = Math.max(...points), min = Math.min(...points);
+  const dx = w / (points.length - 1);
+  const d = points.map((p, i) => `${i === 0 ? "M" : "L"}${(i * dx).toFixed(1)} ${(h - ((p - min) / (max - min || 1)) * h).toFixed(1)}`).join(" ");
+  return (
+    <svg className="spark" width={w} height={h} viewBox={`0 0 ${w} ${h}`} fill="none">
+      <path d={d} stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+/* Modal */
+function Modal({ title, sub, icon, onClose, children, footer, max }) {
+  React.useEffect(() => {
+    const h = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [onClose]);
+  return (
+    <div className="scrim" onMouseDown={onClose}>
+      <div className="modal" style={max ? { maxWidth: max } : null} onMouseDown={(e) => e.stopPropagation()}>
+        <div className="modal-head">
+          {icon && <div className="filter-ico" style={{ width: 38, height: 38 }}><Icon name={icon} /></div>}
+          <div className="grow">
+            <h2>{title}</h2>
+            {sub && <div className="sub">{sub}</div>}
+          </div>
+          <IconBtn name="x" label="Close" onClick={onClose} />
+        </div>
+        <div className="modal-body">{children}</div>
+        {footer && <div className="modal-foot">{footer}</div>}
+      </div>
+    </div>
+  );
+}
+
+/* The hero of the product — a matched listing */
+function ListingCard({ l, lang, now, fresh, glow, onOpen }) {
+  const L = STRINGS[lang];
+  const age = timeAgo(l.createdAt, lang);
+  const closingSoon = fresh && l.fcfs;
+  return (
+    <div className={`lc${fresh ? " fresh" : ""}${glow ? " glow" : ""}`} role="article">
+      <div className="lc-photo only-desktop"><Photo label="FOTO" /></div>
+      <div className="lc-main">
+        <div className="lc-top">
+          <span className="lc-title">{l.street} {l.streetNo}</span>
+          {l.fcfs
+            ? <Badge kind="fcfs" icon="zap">{L.fcfs_short}</Badge>
+            : <Badge>{l.queueDays}{lang === "sv" ? " d kö" : "d queue"}</Badge>}
+          <span className="lc-area"><Icon name="pin" />{l.area} · {l.city}</span>
+        </div>
+        <div className="lc-specs">
+          <div className="lc-spec"><span className="sl">{L.room}</span><span className="sv num">{l.rooms}<small> {L.room}</small></span></div>
+          <div className="lc-spec"><span className="sl">{L.sqm}</span><span className="sv num">{l.sqm}<small> {L.sqm}</small></span></div>
+          <div className="lc-spec"><span className="sl">{L.floor}</span><span className="sv num">{l.floor}<small> {L.floor}</small></span></div>
+        </div>
+      </div>
+      <div className="lc-side">
+        <div className="lc-rent num">{fmtKr(l.rent)}<small> {L.rent_mo}</small></div>
+        <div className="lc-age">
+          {fresh && <span className="livedot" />}{age}
+        </div>
+        <div className="lc-cta">
+          <Btn variant="primary" size="sm" iconRight="external" onClick={() => onOpen && onOpen(l)}>
+            <span className="only-desktop">{L.view_to}</span>
+            <span className="only-mobile">HomeQ</span>
+          </Btn>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SkelCard() {
+  return (
+    <div className="skel-card">
+      <div className="skel" style={{ width: 116, height: 92 }} />
+      <div style={{ display: "flex", flexDirection: "column", gap: 10, justifyContent: "center" }}>
+        <div className="skel" style={{ width: "55%", height: 16 }} />
+        <div className="skel" style={{ width: "35%", height: 12 }} />
+        <div className="skel" style={{ width: "70%", height: 12 }} />
+      </div>
+      <div className="skel" style={{ width: 80, height: 20, alignSelf: "center" }} />
+    </div>
+  );
+}
+
+function EmptyState({ icon, title, text, action }) {
+  return (
+    <div className="state">
+      <div className="ico"><Icon name={icon} /></div>
+      <h3>{title}</h3>
+      <p>{text}</p>
+      {action}
+    </div>
+  );
+}
+
+Object.assign(window, {
+  Btn, IconBtn, Field, Switch, Checkbox, Badge, Photo, Spark,
+  Modal, ListingCard, SkelCard, EmptyState,
+});
+
+</script>
+<script type="text/babel">
+/* screens-public.jsx — Landing, Auth, Onboarding */
+
+function LangThemeControls({ lang, theme, setLang, setTheme }) {
+  return (
+    <div className="row gap6">
+      <button className="wsdot" style={{ cursor: "pointer" }} onClick={() => setLang(lang === "sv" ? "en" : "sv")}
+              title="Language">
+        <Icon name="globe" style={{ width: 15, height: 15 }} />
+        {lang === "sv" ? "SV" : "EN"}
+      </button>
+      <IconBtn name={theme === "dark" ? "sun" : "moon"} label="Theme"
+               onClick={() => setTheme(theme === "dark" ? "light" : "dark")} />
+    </div>
+  );
+}
+
+/* a small animated live-feed used on landing + auth aside */
+function PreviewFeed({ lang, n = 4 }) {
+  const L = STRINGS[lang];
+  const [rows, setRows] = React.useState(() => seedListings(n));
+  React.useEffect(() => {
+    const id = setInterval(() => {
+      setRows((prev) => [generateListing({ createdAt: Date.now() }), ...prev.slice(0, n - 1)]);
+    }, 2600);
+    return () => clearInterval(id);
+  }, [n]);
+  return (
+    <div className="preview-feed">
+      {rows.map((l, i) => (
+        <div className="pf-row" key={l.id} style={i === 0 ? { animation: "flyin .45s var(--ease) both" } : null}>
+          <div className="pf-ph"><Photo label="" /></div>
+          <div className="pf-meta">
+            <b>{l.street} {l.streetNo}</b>
+            <span>{l.area} · {l.rooms} {L.room} · {l.sqm} {L.sqm}{l.fcfs ? " · FCFS" : ""}</span>
+          </div>
+          <div className="pf-rent num">{fmtKr(l.rent)}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ---------------------------------------------------------------- Landing */
+function Landing({ lang, theme, setLang, setTheme, go }) {
+  const L = STRINGS[lang];
+  return (
+    <div className="lp">
+      <div className="lp-nav">
+        <div className="side-brand" style={{ padding: 0 }}>
+          <div className="brand-mark"><BrandGlyph /><span className="pulse-dot" /></div>
+          <div className="brand-name">HQRTM<small>Real-Time Monitor</small></div>
+        </div>
+        <div className="grow" />
+        <LangThemeControls lang={lang} theme={theme} setLang={setLang} setTheme={setTheme} />
+        <Btn variant="quiet" onClick={() => go("auth", { mode: "in" })}>{L.lp_signin}</Btn>
+        <Btn variant="primary" onClick={() => go("auth", { mode: "up" })}>{L.lp_get_started}</Btn>
+      </div>
+
+      <div className="lp-hero">
+        <div className="lp-eyebrow">
+          <span className="wsdot live" style={{ border: 0, background: "transparent", padding: 0 }}><i /></span>
+          {L.lp_eyebrow}
+        </div>
+        <h1 className="lp-h1">{L.lp_h1a} <em>{L.lp_h1b}</em></h1>
+        <p className="lp-sub">{L.lp_sub}</p>
+        <div className="lp-cta">
+          <Btn variant="primary" size="lg" icon="zap" onClick={() => go("auth", { mode: "up" })}>{L.lp_get_started}</Btn>
+          <Btn variant="ghost" size="lg" iconRight="arrowright" onClick={() => go("auth", { mode: "in" })}>{L.lp_signin}</Btn>
+        </div>
+
+        <div className="lp-demo">
+          <div className="panel" style={{ overflow: "hidden" }}>
+            <div className="panel-head">
+              <div className="filter-ico" style={{ width: 30, height: 30 }}><Icon name="radar" /></div>
+              <h3>{L.live_feed}</h3>
+              <div className="grow" />
+              <span className="wsdot live"><i />{L.lp_live}</span>
+            </div>
+            <div className="panel-body"><PreviewFeed lang={lang} n={4} /></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="lp-features">
+        {[
+          { i: "zap", t: L.feat_rt_t, p: L.feat_rt_p },
+          { i: "send2", t: L.feat_tg_t, p: L.feat_tg_p },
+          { i: "sliders", t: L.feat_fl_t, p: L.feat_fl_p },
+        ].map((f) => (
+          <div className="lp-feat" key={f.t}>
+            <div className="fi"><Icon name={f.i} /></div>
+            <h3>{f.t}</h3>
+            <p>{f.p}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="center muted" style={{ paddingBottom: 50, fontSize: 13 }}>{L.lp_footer}</div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------- Auth */
+function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth }) {
+  const L = STRINGS[lang];
+  const [mode, setMode] = React.useState(initialMode || "in");
+  const [email, setEmail] = React.useState("");
+  const [pw, setPw] = React.useState("");
+  const [consent, setConsent] = React.useState(false);
+  const [err, setErr] = React.useState({});
+
+  const submit = (e) => {
+    e.preventDefault();
+    const next = {};
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) next.email = L.err_email;
+    if (pw.length < 8) next.pw = L.err_pw;
+    if (mode === "up" && !consent) next.consent = L.consent_req;
+    setErr(next);
+    if (Object.keys(next).length === 0) onAuth(mode, email);
+  };
+
+  return (
+    <div className="auth">
+      <div className="auth-form-wrap">
+        <form className="auth-form" onSubmit={submit} noValidate>
+          <div className="row" style={{ justifyContent: "space-between" }}>
+            <div className="side-brand" style={{ padding: 0, cursor: "pointer" }} onClick={() => go("landing")}>
+              <div className="brand-mark"><BrandGlyph /><span className="pulse-dot" /></div>
+              <div className="brand-name">HQRTM</div>
+            </div>
+            <LangThemeControls lang={lang} theme={theme} setLang={setLang} setTheme={setTheme} />
+          </div>
+
+          <div style={{ marginTop: 12 }}>
+            <h1 style={{ fontSize: 26, fontWeight: 800, letterSpacing: "-0.025em" }}>
+              {mode === "in" ? L.welcome_back : L.create_acct}
+            </h1>
+            <p className="muted" style={{ marginTop: 6 }}>{mode === "in" ? L.signin_sub : L.signup_sub}</p>
+          </div>
+
+          <Field label={L.email} error={err.email}>
+            <div className="input-group">
+              <span className="prefix"><Icon name="mail" style={{ width: 16, height: 16 }} /></span>
+              <input className={`input${err.email ? " err" : ""}`} type="email" placeholder="namn@exempel.se"
+                     value={email} onChange={(e) => setEmail(e.target.value)} />
+            </div>
+          </Field>
+
+          <Field label={L.password} hint={mode === "in" ? L.forgot : null} error={err.pw}>
+            <div className="input-group">
+              <span className="prefix"><Icon name="lock" style={{ width: 16, height: 16 }} /></span>
+              <input className={`input${err.pw ? " err" : ""}`} type="password" placeholder="••••••••"
+                     value={pw} onChange={(e) => setPw(e.target.value)} />
+            </div>
+          </Field>
+
+          {mode === "up" && (
+            <Field error={err.consent}>
+              <Checkbox checked={consent} onChange={setConsent}>
+                {L.consent} <a onClick={(e) => e.preventDefault()} href="#">{L.consent_terms}</a> {L.consent_and} <a onClick={(e) => e.preventDefault()} href="#">{L.consent_privacy}</a>
+              </Checkbox>
+            </Field>
+          )}
+
+          <Btn variant="primary" size="lg" className="btn-block" type="submit">
+            {mode === "in" ? L.sign_in : L.sign_up}
+          </Btn>
+
+          <div className="center muted" style={{ fontSize: 13.5 }}>
+            {mode === "in" ? L.no_acct : L.have_acct}{" "}
+            <span className="link" onClick={() => { setMode(mode === "in" ? "up" : "in"); setErr({}); }}>
+              {mode === "in" ? L.sign_up : L.sign_in}
+            </span>
+          </div>
+        </form>
+      </div>
+
+      <div className="auth-aside">
+        <div className="row" style={{ justifyContent: "space-between" }}>
+          <span className="wsdot live"><i />{L.lp_live}</span>
+          <span className="badge badge-fcfs"><Icon name="zap" />{L.fcfs_short}</span>
+        </div>
+        <div style={{ margin: "auto 0", display: "flex", flexDirection: "column", gap: 18 }}>
+          <h2 style={{ fontSize: 24, fontWeight: 800, letterSpacing: "-0.02em", lineHeight: 1.15 }}>{L.lp_h1a} <span style={{ color: "var(--accent)" }}>{L.lp_h1b}</span></h2>
+          <PreviewFeed lang={lang} n={5} />
+        </div>
+        <div className="muted" style={{ fontSize: 12.5 }}>{L.lp_footer}</div>
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------- Onboarding */
+function Onboarding({ lang, onFinish, onCreateFilter }) {
+  const L = STRINGS[lang];
+  const [step, setStep] = React.useState(0);
+  const [linked, setLinked] = React.useState(false);
+  const code = React.useMemo(() => "HQ-" + Math.random().toString(36).slice(2, 6).toUpperCase(), []);
+  const [copied, setCopied] = React.useState(false);
+
+  return (
+    <div className="ob">
+      <div className="ob-card">
+        <div className="steps">
+          <div className={`step-dot ${step > 0 ? "done" : "active"}`}>
+            <i>{step > 0 ? <Icon name="check" strokeWidth="3" style={{ width: 13, height: 13 }} /> : 1}</i>
+            <span>{L.ob_step_tg}</span>
+          </div>
+          <div className={`step-line ${step > 0 ? "done" : ""}`} />
+          <div className={`step-dot ${step === 1 ? "active" : ""}`}>
+            <i>2</i><span>{L.ob_step_filter}</span>
+          </div>
+        </div>
+
+        {step === 0 && (
+          <div className="panel">
+            <div className="panel-body" style={{ padding: 24 }}>
+              <div className="filter-ico" style={{ width: 48, height: 48, marginBottom: 16 }}><Icon name="send2" /></div>
+              <h2 style={{ fontSize: 21, fontWeight: 800, letterSpacing: "-0.02em" }}>{L.ob_tg_t}</h2>
+              <p className="muted" style={{ marginTop: 8, lineHeight: 1.55 }}>{L.ob_tg_p}</p>
+
+              <div className="mt24" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                <div className="code-box">{code}</div>
+                <div className="row gap10">
+                  <Btn variant="ghost" icon={copied ? "check" : "copy"} onClick={() => { setCopied(true); setTimeout(() => setCopied(false), 1600); }}>
+                    {copied ? L.copied : L.tg_copy}
+                  </Btn>
+                  <Btn variant="primary" icon="send2" onClick={() => setLinked(true)}>@HQRTM_bot</Btn>
+                </div>
+                <p className="muted center" style={{ fontSize: 12 }}>{L.tg_code_note}</p>
+                {linked && (
+                  <div className="tg-status linked" style={{ alignSelf: "center" }}>
+                    <Icon name="checkcircle" style={{ width: 15, height: 15 }} />{L.tg_linked}
+                  </div>
+                )}
+              </div>
+            </div>
+            <div className="modal-foot">
+              <Btn variant="quiet" onClick={() => setStep(1)}>{L.ob_skip}</Btn>
+              <div className="grow" />
+              <Btn variant="primary" iconRight="arrowright" onClick={() => setStep(1)} disabled={false}>{L.ob_continue}</Btn>
+            </div>
+          </div>
+        )}
+
+        {step === 1 && (
+          <div className="panel">
+            <div className="panel-body" style={{ padding: 24 }}>
+              <div className="filter-ico" style={{ width: 48, height: 48, marginBottom: 16 }}><Icon name="sliders" /></div>
+              <h2 style={{ fontSize: 21, fontWeight: 800, letterSpacing: "-0.02em" }}>{L.ob_filter_t}</h2>
+              <p className="muted" style={{ marginTop: 8 }}>{L.ob_filter_p}</p>
+              <div className="mt24"><FilterFormBody lang={lang} value={defaultFilter()} onChange={() => {}} embedded /></div>
+            </div>
+            <div className="modal-foot">
+              <Btn variant="quiet" onClick={() => setStep(0)} icon="chevleft">{L.prev}</Btn>
+              <div className="grow" />
+              <Btn variant="primary" icon="zap" onClick={() => { onCreateFilter(); onFinish(); }}>{L.ob_finish}</Btn>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Landing, Auth, Onboarding, PreviewFeed, LangThemeControls });
+
+</script>
+<script type="text/babel">
+/* screens-app.jsx — Filter form, Filters screen, Dashboard / live feed */
+
+const CITIES = ["Stockholm", "Göteborg", "Malmö", "Uppsala"];
+function defaultFilter() {
+  return { id: null, name: "", city: "Stockholm", areas: [], rentMin: 5000, rentMax: 14000,
+    roomsMin: 1, roomsMax: 3, sqmMin: 30, sqmMax: 90, fcfsOnly: true, active: true };
+}
+function estimateMatches(f) {
+  const areaW = (f.areas.length || 3) * 2.4;
+  const rentW = Math.max(0, (f.rentMax - f.rentMin)) / 1400;
+  const roomW = (f.roomsMax - f.roomsMin + 1) * 1.3;
+  const fcfsW = f.fcfsOnly ? 0.55 : 1;
+  return Math.max(1, Math.round((areaW + rentW + roomW) * fcfsW));
+}
+
+/* the reusable filter form body (used in modal + onboarding) */
+function FilterFormBody({ lang, value, onChange, embedded }) {
+  const L = STRINGS[lang];
+  const f = value;
+  const set = (patch) => onChange({ ...f, ...patch });
+  const areaOptions = AREAS.filter((a) => a.city === f.city).map((a) => a.area);
+  const toggleArea = (a) => set({ areas: f.areas.includes(a) ? f.areas.filter((x) => x !== a) : [...f.areas, a] });
+  const numFix = (k, v, partner, dir) => {
+    const n = Number(v) || 0;
+    const patch = { [k]: n };
+    if (dir === "min" && n > f[partner]) patch[partner] = n;
+    if (dir === "max" && n < f[partner]) patch[partner] = n;
+    set(patch);
+  };
+  const est = estimateMatches(f);
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+      {!embedded && (
+        <Field label={L.filter_name}>
+          <input className="input" placeholder={lang === "sv" ? "t.ex. Söder · 2:a" : "e.g. Söder · 2 rooms"}
+                 value={f.name} onChange={(e) => set({ name: e.target.value })} />
+        </Field>
+      )}
+      <div className="form-grid">
+        <Field label={L.f_city}>
+          <select className="select" value={f.city} onChange={(e) => set({ city: e.target.value, areas: [] })}>
+            {CITIES.map((c) => <option key={c} value={c}>{c}</option>)}
+          </select>
+        </Field>
+        <Field label={L.f_rooms}>
+          <div className="range-pair">
+            <select className="select" value={f.roomsMin} onChange={(e) => numFix("roomsMin", e.target.value, "roomsMax", "min")}>
+              {[1, 2, 3, 4, 5].map((n) => <option key={n} value={n}>{n}</option>)}
+            </select>
+            <span className="sep">–</span>
+            <select className="select" value={f.roomsMax} onChange={(e) => numFix("roomsMax", e.target.value, "roomsMin", "max")}>
+              {[1, 2, 3, 4, 5, 6].map((n) => <option key={n} value={n}>{n}+</option>)}
+            </select>
+          </div>
+        </Field>
+      </div>
+
+      <Field label={L.f_areas} hint={`${f.areas.length || L.all}`}>
+        <div className="chips">
+          {areaOptions.map((a) => (
+            <button type="button" key={a} className={`chip${f.areas.includes(a) ? " on" : ""}`} onClick={() => toggleArea(a)}>
+              {f.areas.includes(a) && <Icon name="check" strokeWidth="2.6" />}{a}
+            </button>
+          ))}
+        </div>
+      </Field>
+
+      <div className="form-grid">
+        <Field label={L.f_rent}>
+          <div className="range-pair">
+            <div className="input-group">
+              <input className="input" type="number" step="500" value={f.rentMin} onChange={(e) => numFix("rentMin", e.target.value, "rentMax", "min")} />
+            </div>
+            <span className="sep">–</span>
+            <div className="input-group">
+              <input className="input" type="number" step="500" value={f.rentMax} onChange={(e) => numFix("rentMax", e.target.value, "rentMin", "max")} />
+            </div>
+          </div>
+        </Field>
+        <Field label={L.f_sqm}>
+          <div className="range-pair">
+            <input className="input" type="number" step="5" value={f.sqmMin} onChange={(e) => numFix("sqmMin", e.target.value, "sqmMax", "min")} />
+            <span className="sep">–</span>
+            <input className="input" type="number" step="5" value={f.sqmMax} onChange={(e) => numFix("sqmMax", e.target.value, "sqmMin", "max")} />
+          </div>
+        </Field>
+      </div>
+
+      <div className="setting-row" style={{ borderBottom: 0, padding: "4px 0" }}>
+        <div className="filter-ico" style={{ width: 38, height: 38 }}><Icon name="zap" /></div>
+        <div className="sr-meta">
+          <b>{L.f_fcfs_only}</b>
+          <span>{L.f_fcfs_hint}</span>
+        </div>
+        <Switch on={f.fcfsOnly} onChange={(v) => set({ fcfsOnly: v })} label={L.f_fcfs_only} />
+      </div>
+
+      <div className="row gap10" style={{ background: "var(--accent-soft)", border: "1px solid var(--accent-line)", borderRadius: "var(--r-sm)", padding: "11px 14px" }}>
+        <Icon name="eye" style={{ width: 18, height: 18, color: "var(--accent-dim)" }} />
+        <div style={{ fontSize: 13.5 }}>
+          <b className="num" style={{ color: "var(--accent-dim)", fontSize: 16 }}>≈ {est}</b>{" "}
+          <span style={{ color: "var(--text-2)" }}>{L.would_match}</span>{" · "}
+          <span className="muted num">{Math.round(est * 1.6)} {L.per_week}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ---------------------------------------------------------------- Filters */
+function FiltersScreen({ lang, filters, onSave, onDelete, onToggle }) {
+  const L = STRINGS[lang];
+  const [editing, setEditing] = React.useState(null); // filter object or null
+  const [draft, setDraft] = React.useState(null);
+  const [confirmDel, setConfirmDel] = React.useState(null);
+
+  const openNew = () => { const d = defaultFilter(); setDraft(d); setEditing("new"); };
+  const openEdit = (f) => { setDraft({ ...f }); setEditing(f.id); };
+  const save = () => {
+    const d = { ...draft };
+    if (!d.name.trim()) d.name = d.areas[0] || d.city;
+    onSave(d);
+    setEditing(null); setDraft(null);
+  };
+
+  return (
+    <div className="page">
+      <div className="row page-head" style={{ alignItems: "flex-end" }}>
+        <div className="grow">
+          <h2>{L.filters_title}</h2>
+          <p>{L.filters_sub}</p>
+        </div>
+        <Btn variant="primary" icon="plus" onClick={openNew}>{L.new_filter}</Btn>
+      </div>
+
+      {filters.length === 0 ? (
+        <div className="panel"><EmptyState icon="sliders" title={L.no_filters_t} text={L.no_filters_p}
+          action={<Btn variant="primary" icon="plus" onClick={openNew}>{L.new_filter}</Btn>} /></div>
+      ) : (
+        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+          {filters.map((f) => (
+            <div className={`filter-card${f.active ? "" : " off"}`} key={f.id}>
+              <div className="filter-ico"><Icon name={f.fcfsOnly ? "zap" : "layers"} /></div>
+              <div className="filter-meta">
+                <h4>{f.name}
+                  {f.active ? <Badge kind="fcfs" icon="dot">{L.active}</Badge> : <Badge icon="dot">{L.paused}</Badge>}
+                </h4>
+                <div className="filter-crit">
+                  <span className="crit"><Icon name="pin" />{f.areas.length ? f.areas.join(", ") : f.city}</span>
+                  <span className="crit"><Icon name="coins" />{fmtKr(f.rentMin)}–{fmtKr(f.rentMax)}</span>
+                  <span className="crit"><Icon name="bed" />{f.roomsMin}–{f.roomsMax} {L.room}</span>
+                  <span className="crit"><Icon name="ruler" />{f.sqmMin}–{f.sqmMax} {L.sqm}</span>
+                  {f.fcfsOnly && <span className="crit" style={{ color: "var(--accent-dim)" }}><Icon name="zap" />{L.fcfs_short}</span>}
+                </div>
+              </div>
+              <div className="filter-stat only-desktop">
+                <div className="n num">{f.matches7d ?? estimateMatches(f)}</div>
+                <div className="l">{lang === "sv" ? "träffar / 7 d" : "matches / 7d"}</div>
+              </div>
+              <div className="filter-actions">
+                <Switch on={f.active} onChange={() => onToggle(f.id)} label={L.active} />
+                <IconBtn name="edit" label={L.edit} onClick={() => openEdit(f)} />
+                <IconBtn name="trash" label={L.delete} onClick={() => setConfirmDel(f)} />
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {editing && draft && (
+        <Modal title={editing === "new" ? L.new_filter : L.edit_filter} icon="sliders"
+               onClose={() => { setEditing(null); setDraft(null); }}
+               footer={<>
+                 <div className="grow" />
+                 <Btn variant="quiet" onClick={() => { setEditing(null); setDraft(null); }}>{L.cancel}</Btn>
+                 <Btn variant="primary" icon="check" onClick={save}>{editing === "new" ? L.create : L.save}</Btn>
+               </>}>
+          <FilterFormBody lang={lang} value={draft} onChange={setDraft} />
+        </Modal>
+      )}
+
+      {confirmDel && (
+        <Modal title={L.delete_filter_q} icon="trash" max={440}
+               onClose={() => setConfirmDel(null)}
+               footer={<>
+                 <div className="grow" />
+                 <Btn variant="quiet" onClick={() => setConfirmDel(null)}>{L.cancel}</Btn>
+                 <Btn variant="danger" icon="trash" onClick={() => { onDelete(confirmDel.id); setConfirmDel(null); }}>{L.delete}</Btn>
+               </>}>
+          <p className="muted">{L.delete_filter_p}</p>
+          <div className="filter-card" style={{ boxShadow: "none" }}>
+            <div className="filter-ico"><Icon name="layers" /></div>
+            <div className="filter-meta"><h4>{confirmDel.name}</h4>
+              <div className="filter-crit"><span className="crit"><Icon name="pin" />{confirmDel.areas.join(", ") || confirmDel.city}</span></div>
+            </div>
+          </div>
+        </Modal>
+      )}
+    </div>
+  );
+}
+
+/* -------------------------------------------------------------- Dashboard */
+function Dashboard({ lang, feed, now, wsState, paused, soundOn, setSoundOn,
+                    filters, onOpenListing, onRetry, onCreateFilter, contentSel = ".content" }) {
+  const L = STRINGS[lang];
+  const [q, setQ] = React.useState("");
+  const [fcfsOnly, setFcfsOnly] = React.useState(false);
+  const [unseen, setUnseen] = React.useState(0);
+  const prevLen = React.useRef(feed.length);
+
+  const activeFilters = filters.filter((f) => f.active).length;
+
+  const filtered = React.useMemo(() => feed.filter((l) => {
+    if (fcfsOnly && !l.fcfs) return false;
+    if (q) {
+      const s = (l.street + " " + l.area + " " + l.city).toLowerCase();
+      if (!s.includes(q.toLowerCase())) return false;
+    }
+    return true;
+  }), [feed, q, fcfsOnly]);
+
+  // track unseen when new items arrive and user has scrolled down
+  React.useEffect(() => {
+    const scroller = document.querySelector(contentSel);
+    if (feed.length > prevLen.current) {
+      const delta = feed.length - prevLen.current;
+      if (scroller && scroller.scrollTop > 260) setUnseen((u) => u + delta);
+    }
+    prevLen.current = feed.length;
+  }, [feed.length, contentSel]);
+
+  const scrollTop = () => {
+    const scroller = document.querySelector(contentSel);
+    if (scroller) scroller.scrollTo({ top: 0, behavior: "smooth" });
+    setUnseen(0);
+  };
+
+  const todayCount = feed.filter((l) => now - l.createdAt < 86400000).length + 18;
+
+  return (
+    <div className="page page-wide" style={{ maxWidth: 1180 }}>
+      {/* stat tiles */}
+      <div className="stats">
+        <div className="stat">
+          <div className="k"><Icon name="bolt" />{L.stat_today}</div>
+          <div className="v num">{todayCount}</div>
+          <div className="d up"><Icon name="trend" />+12% </div>
+          <Spark />
+        </div>
+        <div className="stat">
+          <div className="k"><Icon name="layers" />{L.stat_active_filters}</div>
+          <div className="v num">{activeFilters}<small> / {filters.length}</small></div>
+          <div className="d up"><Icon name="checkcircle" style={{ width: 13, height: 13 }} />{L.connected}</div>
+        </div>
+        <div className="stat">
+          <div className="k"><Icon name="clock" />{L.stat_avg_latency}</div>
+          <div className="v num">0.9<small> s</small></div>
+          <div className="d up"><Icon name="arrowup" style={{ width: 13, height: 13, transform: "rotate(180deg)" }} />-0.2s</div>
+          <Spark points={[9, 7, 8, 6, 5, 6, 4, 4]} />
+        </div>
+        <div className="stat">
+          <div className="k"><Icon name="flame" />{L.stat_fastest}</div>
+          <div className="v num">0.4<small> s</small></div>
+          <div className="d"><span className="muted" style={{ fontWeight: 600 }}>{lang === "sv" ? "Södermalm · FCFS" : "Södermalm · FCFS"}</span></div>
+        </div>
+      </div>
+
+      {/* feed header */}
+      <div className="row" style={{ marginBottom: 14, alignItems: "flex-end" }}>
+        <div className="grow">
+          <div className="section-title" style={{ marginBottom: 4 }}><Icon name="radar" style={{ width: 14, height: 14 }} />{L.live_feed}</div>
+          <p className="muted" style={{ fontSize: 13.5 }}>{L.feed_sub}</p>
+        </div>
+      </div>
+
+      <div className="feed-toolbar">
+        <div className="searchbar">
+          <Icon name="search" />
+          <input className="input" placeholder={L.search_ph} value={q} onChange={(e) => setQ(e.target.value)} />
+        </div>
+        <button className={`chip${fcfsOnly ? " on" : ""}`} onClick={() => setFcfsOnly((v) => !v)}>
+          <Icon name="zap" />{L.only_fcfs}
+        </button>
+        <button className={`chip${soundOn ? " on" : ""}`} onClick={() => setSoundOn(!soundOn)} title={L.sound}>
+          <Icon name={soundOn ? "bell" : "bell"} />{L.sound}
+        </button>
+      </div>
+
+      {unseen > 0 && (
+        <div className="new-banner" onClick={scrollTop}>
+          <Icon name="arrowup" style={{ width: 15, height: 15 }} />
+          {unseen} {unseen === 1 ? L.new_match : L.new_matches} · {L.show}
+        </div>
+      )}
+
+      {/* states */}
+      {wsState === "off" ? (
+        <div className="panel"><EmptyState icon="wifioff" title={L.err_conn_t} text={L.err_conn_p}
+          action={<Btn variant="primary" icon="history" onClick={onRetry}>{L.retry}</Btn>} /></div>
+      ) : feed.length === 0 ? (
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <SkelCard /><SkelCard /><SkelCard />
+        </div>
+      ) : filtered.length === 0 ? (
+        <div className="panel"><EmptyState icon="search" title={L.empty_feed_t} text={L.empty_feed_p}
+          action={<Btn variant="ghost" icon="sliders" onClick={onCreateFilter}>{L.create_filter}</Btn>} /></div>
+      ) : (
+        <>
+          {paused && (
+            <div className="row gap10" style={{ justifyContent: "center", padding: "8px 0", color: "var(--text-3)", fontSize: 13, fontWeight: 600 }}>
+              <span className="wsdot off" style={{ border: 0, background: "transparent", padding: 0 }}><i /></span>{L.paused_listings}
+            </div>
+          )}
+          <div className="feed">
+            {filtered.map((l) => (
+              <ListingCard key={l.id} l={l} lang={lang} now={now}
+                fresh={now - l.createdAt < 9000} glow onOpen={onOpenListing} />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+Object.assign(window, { defaultFilter, FilterFormBody, FiltersScreen, Dashboard, estimateMatches, CITIES });
+
+</script>
+<script type="text/babel">
+/* screens-account.jsx — Notification history + Account settings */
+
+const PAGE_SIZE = 8;
+
+function HistoryScreen({ lang, notifications, onOpenListing }) {
+  const L = STRINGS[lang];
+  const [page, setPage] = React.useState(0);
+  const [chan, setChan] = React.useState("all");
+  const [stat, setStat] = React.useState("all");
+
+  const rows = React.useMemo(() => notifications.filter((n) =>
+    (chan === "all" || n.channel === chan) && (stat === "all" || n.status === stat)
+  ), [notifications, chan, stat]);
+  const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+  const pageRows = rows.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
+  React.useEffect(() => { setPage(0); }, [chan, stat]);
+
+  const statusBadge = (s) =>
+    s === "delivered" ? <Badge kind="fcfs" icon="checkcircle">{L.delivered}</Badge>
+    : s === "failed" ? <Badge kind="red" icon="x">{L.failed}</Badge>
+    : <Badge kind="amber" icon="clock">{L.pending}</Badge>;
+  const chanIcon = (c) => c === "telegram" ? "send2" : "mail";
+
+  return (
+    <div className="page">
+      <div className="page-head"><h2>{L.history_title}</h2><p>{L.history_sub}</p></div>
+
+      <div className="feed-toolbar" style={{ marginBottom: 14 }}>
+        <select className="select" style={{ width: "auto", height: 38 }} value={chan} onChange={(e) => setChan(e.target.value)}>
+          <option value="all">{L.all_channels}</option>
+          <option value="telegram">Telegram</option>
+          <option value="email">E-post</option>
+        </select>
+        <select className="select" style={{ width: "auto", height: 38 }} value={stat} onChange={(e) => setStat(e.target.value)}>
+          <option value="all">{L.all_status}</option>
+          <option value="delivered">{L.delivered}</option>
+          <option value="failed">{L.failed}</option>
+        </select>
+        <div className="grow" />
+        <span className="muted" style={{ fontSize: 13 }}>{L.showing} {rows.length ? page * PAGE_SIZE + 1 : 0}–{Math.min(rows.length, (page + 1) * PAGE_SIZE)} {L.of} {rows.length}</span>
+      </div>
+
+      {rows.length === 0 ? (
+        <div className="panel"><EmptyState icon="bell" title={L.no_history_t} text={L.no_history_p} /></div>
+      ) : (
+        <div className="table-wrap">
+          <table className="tbl">
+            <thead><tr>
+              <th>{L.h_when}</th><th>{L.h_object}</th><th>{L.h_filter}</th>
+              <th>{L.h_channel}</th><th>{L.h_status}</th><th style={{ textAlign: "right" }}>{L.h_latency}</th><th></th>
+            </tr></thead>
+            <tbody>
+              {pageRows.map((n) => (
+                <tr key={n.id}>
+                  <td data-l={L.h_when}><span className="t-time">{fmtClock(n.sentAt)}</span></td>
+                  <td data-l={L.h_object}>
+                    <div className="t-addr">{n.listing.street} {n.listing.streetNo}</div>
+                    <div className="muted" style={{ fontSize: 12 }}>{n.listing.area} · {n.listing.rooms} {L.room} · {fmtKr(n.listing.rent)} {L.rent_mo}{n.listing.fcfs ? " · FCFS" : ""}</div>
+                  </td>
+                  <td data-l={L.h_filter}><span className="crit" style={{ background: "var(--surface-2)" }}>{n.filterName}</span></td>
+                  <td data-l={L.h_channel}><span className="row gap6" style={{ fontWeight: 600 }}><Icon name={chanIcon(n.channel)} style={{ width: 15, height: 15, color: "var(--text-3)" }} />{n.channel === "telegram" ? "Telegram" : "E-post"}</span></td>
+                  <td data-l={L.h_status}>{statusBadge(n.status)}</td>
+                  <td data-l={L.h_latency} style={{ textAlign: "right" }}><span className="t-lat" style={{ color: n.latencyMs < 1200 ? "var(--accent-dim)" : "var(--text-2)" }}>{(n.latencyMs / 1000).toFixed(1)}s</span></td>
+                  <td style={{ textAlign: "right" }}><IconBtn name="external" label={L.view_to} onClick={() => onOpenListing(n.listing)} /></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <div className="pager">
+            <span>{page + 1} / {pages}</span>
+            <div className="pnav">
+              <Btn variant="ghost" size="sm" icon="chevleft" disabled={page === 0} onClick={() => setPage((p) => Math.max(0, p - 1))}>{L.prev}</Btn>
+              <Btn variant="ghost" size="sm" iconRight="chevright" disabled={page >= pages - 1} onClick={() => setPage((p) => Math.min(pages - 1, p + 1))}>{L.next}</Btn>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ---------------------------------------------------------------- Settings */
+function SettingsScreen({ lang, setLang, user, tgLinked, setTgLinked, onToast, onDeleteAccount }) {
+  const L = STRINGS[lang];
+  const [tab, setTab] = React.useState("profile");
+  const [name, setName] = React.useState(user.name);
+  const [email, setEmail] = React.useState(user.email);
+  const [notif, setNotif] = React.useState({ telegram: true, email: false, sound: true });
+  const [copied, setCopied] = React.useState(false);
+  const [confirmDel, setConfirmDel] = React.useState(false);
+  const [delWord, setDelWord] = React.useState("");
+  const code = React.useMemo(() => "HQ-" + Math.random().toString(36).slice(2, 6).toUpperCase(), []);
+
+  const TABS = [
+    { id: "profile", label: L.set_profile, icon: "user" },
+    { id: "telegram", label: L.set_telegram, icon: "send2" },
+    { id: "security", label: L.set_security, icon: "lock" },
+    { id: "notif", label: L.set_notif, icon: "bell" },
+    { id: "privacy", label: L.set_privacy, icon: "shield" },
+  ];
+
+  return (
+    <div className="page">
+      <div className="page-head"><h2>{L.settings_title}</h2></div>
+      <div className="settings-grid">
+        <div className="settings-nav">
+          {TABS.map((t) => (
+            <button key={t.id} className={tab === t.id ? "active" : ""} onClick={() => setTab(t.id)}>
+              <Icon name={t.icon} />{t.label}
+            </button>
+          ))}
+        </div>
+
+        <div>
+          {tab === "profile" && (
+            <div className="panel"><div className="panel-body" style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+              <div className="row gap14">
+                <div className="avatar" style={{ width: 56, height: 56, fontSize: 20 }}>{name.slice(0, 1).toUpperCase()}</div>
+                <div><b style={{ fontSize: 16 }}>{name}</b><div className="muted">{email}</div></div>
+              </div>
+              <div className="divider" />
+              <div className="form-grid">
+                <Field label={L.name}><input className="input" value={name} onChange={(e) => setName(e.target.value)} /></Field>
+                <Field label={L.email}><input className="input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} /></Field>
+              </div>
+              <Field label={L.lang_pref}>
+                <div className="segmented" style={{ width: "fit-content" }}>
+                  <button className={lang === "sv" ? "active" : ""} onClick={() => setLang("sv")}>Svenska</button>
+                  <button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>English</button>
+                </div>
+              </Field>
+              <div className="row"><div className="grow" /><Btn variant="primary" icon="check" onClick={() => onToast(L.saved)}>{L.save_changes}</Btn></div>
+            </div></div>
+          )}
+
+          {tab === "telegram" && (
+            <div className="panel tg-panel">
+              <div className="panel-body" style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+                <div className={`tg-status ${tgLinked ? "linked" : "unlinked"}`} style={{ alignSelf: "flex-start" }}>
+                  <Icon name={tgLinked ? "checkcircle" : "send2"} style={{ width: 15, height: 15 }} />
+                  {tgLinked ? L.tg_linked : L.tg_unlinked}
+                </div>
+                <h3 style={{ fontSize: 17, fontWeight: 700 }}>{L.tg_how}</h3>
+                <ol style={{ margin: 0, paddingLeft: 18, display: "flex", flexDirection: "column", gap: 8, color: "var(--text-2)", fontSize: 14 }}>
+                  <li>{L.tg_step1}</li><li>{L.tg_step2}</li><li>{L.tg_step3}</li>
+                </ol>
+                <div className="code-box">{code}</div>
+                <div className="row gap10 wrap">
+                  <Btn variant="ghost" icon={copied ? "check" : "copy"} onClick={() => { setCopied(true); onToast(L.copied); setTimeout(() => setCopied(false), 1600); }}>{copied ? L.copied : L.tg_copy}</Btn>
+                  {!tgLinked
+                    ? <Btn variant="primary" icon="send2" onClick={() => { setTgLinked(true); onToast(L.tg_linked); }}>{L.tg_connect}</Btn>
+                    : <>
+                        <Btn variant="ghost" icon="bell" onClick={() => onToast(L.tg_test_sent)}>{L.tg_test}</Btn>
+                        <Btn variant="quiet" onClick={() => setTgLinked(false)}>{L.tg_unlink}</Btn>
+                      </>}
+                </div>
+              </div>
+              <div className="tg-side">
+                <div className="filter-ico" style={{ width: 44, height: 44, background: "var(--surface)" }}><Icon name="send2" /></div>
+                <h3 style={{ fontSize: 16, fontWeight: 700 }}>@HQRTM_bot</h3>
+                <p className="muted" style={{ fontSize: 13, lineHeight: 1.55 }}>{lang === "sv" ? "Boten skickar dig ett tryckbart larm i samma sekund som ett objekt matchar." : "The bot sends you a tappable alert the second a listing matches."}</p>
+                <div className="preview-feed" style={{ marginTop: "auto" }}>
+                  <div className="pf-row"><div className="pf-ph"><Photo label="" /></div>
+                    <div className="pf-meta"><b>Bondegatan 12</b><span>Södermalm · 2 {L.room} · FCFS</span></div>
+                    <Icon name="send2" style={{ width: 16, height: 16, color: "var(--accent)" }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {tab === "security" && (
+            <div className="panel"><div className="panel-body" style={{ display: "flex", flexDirection: "column", gap: 16, maxWidth: 420 }}>
+              <h3 style={{ fontSize: 16, fontWeight: 700 }}>{L.change_pw}</h3>
+              <Field label={L.cur_pw}><input className="input" type="password" placeholder="••••••••" /></Field>
+              <Field label={L.new_pw} hint={L.err_pw}><input className="input" type="password" placeholder="••••••••" /></Field>
+              <Field label={L.confirm_pw}><input className="input" type="password" placeholder="••••••••" /></Field>
+              <div className="row"><div className="grow" /><Btn variant="primary" icon="lock" onClick={() => onToast(L.saved)}>{L.change_pw}</Btn></div>
+            </div></div>
+          )}
+
+          {tab === "notif" && (
+            <div className="panel"><div className="panel-body">
+              {[
+                { k: "telegram", t: L.notif_telegram, d: L.notif_telegram_d, icon: "send2" },
+                { k: "email", t: L.notif_email, d: L.notif_email_d, icon: "mail" },
+                { k: "sound", t: L.notif_sound, d: L.notif_sound_d, icon: "bell" },
+              ].map((row) => (
+                <div className="setting-row" key={row.k}>
+                  <div className="filter-ico" style={{ width: 38, height: 38 }}><Icon name={row.icon} /></div>
+                  <div className="sr-meta"><b>{row.t}</b><span>{row.d}</span></div>
+                  <Switch on={notif[row.k]} onChange={(v) => setNotif({ ...notif, [row.k]: v })} label={row.t} />
+                </div>
+              ))}
+            </div></div>
+          )}
+
+          {tab === "privacy" && (
+            <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+              <div className="panel"><div className="panel-body" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                <div className="row gap14">
+                  <div className="filter-ico" style={{ width: 44, height: 44 }}><Icon name="shield" /></div>
+                  <div><b style={{ fontSize: 15.5 }}>{L.privacy_t}</b><p className="muted" style={{ fontSize: 13.5, marginTop: 3, lineHeight: 1.5 }}>{L.privacy_p}</p></div>
+                </div>
+                <div className="row gap10 wrap">
+                  <Btn variant="ghost" icon="doc" onClick={() => onToast(lang === "sv" ? "Export påbörjad" : "Export started")}>{L.export_data}</Btn>
+                  <Btn variant="quiet" iconRight="external">{L.privacy_policy}</Btn>
+                  <Btn variant="quiet" iconRight="external">{L.terms}</Btn>
+                </div>
+              </div></div>
+
+              <div className="danger-zone">
+                <div className="setting-row" style={{ borderBottom: 0 }}>
+                  <div className="filter-ico" style={{ width: 38, height: 38, background: "var(--red-soft)", color: "var(--red)" }}><Icon name="trash" /></div>
+                  <div className="sr-meta"><b style={{ color: "var(--red)" }}>{L.delete_acct}</b><span>{L.delete_acct_d}</span></div>
+                  <Btn variant="danger" icon="trash" onClick={() => { setConfirmDel(true); setDelWord(""); }}>{L.delete}</Btn>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {confirmDel && (
+        <Modal title={L.delete_acct_q} icon="shield" max={460} onClose={() => setConfirmDel(false)}
+               footer={<>
+                 <div className="grow" />
+                 <Btn variant="quiet" onClick={() => setConfirmDel(false)}>{L.cancel}</Btn>
+                 <Btn variant="danger" icon="trash" disabled={delWord.trim().toUpperCase() !== L.delete_word}
+                      onClick={onDeleteAccount}>{L.delete_acct}</Btn>
+               </>}>
+          <p className="muted">{L.delete_acct_p}</p>
+          <Field label={L.delete_acct_confirm}>
+            <input className="input" value={delWord} onChange={(e) => setDelWord(e.target.value)} placeholder={L.delete_word} autoFocus />
+          </Field>
+        </Modal>
+      )}
+    </div>
+  );
+}
+
+Object.assign(window, { HistoryScreen, SettingsScreen });
+
+</script>
+<script type="text/babel">
+/* app.jsx — root: routing, shell, live WS simulation, tweaks */
+
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "accent": "#15b878",
+  "theme": "light",
+  "view": "comfort",
+  "density": "cozy",
+  "card": "card",
+  "feedFeel": "urgency",
+  "lang": "sv",
+  "frame": "desktop",
+  "sound": false
+}/*EDITMODE-END*/;
+
+const ACCENTS = ["#15b878", "#2f74e0", "#7a5cf0", "#e8893a", "#e2566f", "#0fb5c4"];
+
+function luminance(hex) {
+  const h = hex.replace("#", "");
+  const n = parseInt(h.length === 3 ? h.replace(/./g, (c) => c + c) : h, 16);
+  const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+  return (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+}
+
+let _ac = null;
+function playBlip(feel) {
+  try {
+    _ac = _ac || new (window.AudioContext || window.webkitAudioContext)();
+    const t0 = _ac.currentTime;
+    const o = _ac.createOscillator(), g = _ac.createGain();
+    o.type = "sine";
+    const f1 = feel === "terminal" ? 880 : feel === "calm" ? 523 : 740;
+    o.frequency.setValueAtTime(f1, t0);
+    o.frequency.exponentialRampToValueAtTime(f1 * 1.5, t0 + 0.08);
+    g.gain.setValueAtTime(0.0001, t0);
+    g.gain.exponentialRampToValueAtTime(feel === "calm" ? 0.06 : 0.12, t0 + 0.01);
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.22);
+    o.connect(g); g.connect(_ac.destination);
+    o.start(t0); o.stop(t0 + 0.24);
+  } catch (e) { /* noop */ }
+}
+
+/* ---- listing detail modal ---- */
+function ListingModal({ l, lang, onClose, onToast }) {
+  const L = STRINGS[lang];
+  return (
+    <Modal title={`${l.street} ${l.streetNo}`} sub={`${l.area} · ${l.city}`} icon="pin" max={520}
+           onClose={onClose}
+           footer={<>
+             <div className="grow" />
+             <Btn variant="quiet" onClick={onClose}>{L.cancel}</Btn>
+             <Btn variant="primary" iconRight="external" onClick={() => { onToast(lang === "sv" ? "Öppnar på HomeQ…" : "Opening on HomeQ…"); onClose(); }}>{L.view_to}</Btn>
+           </>}>
+      <div style={{ height: 170, borderRadius: "var(--r-sm)", overflow: "hidden" }}><Photo label="FOTO · HomeQ" /></div>
+      <div className="row gap6 wrap">
+        {l.fcfs ? <Badge kind="fcfs" icon="zap">{L.fcfs}</Badge> : <Badge icon="layers">{l.queueDays} {lang === "sv" ? "dagar kö" : "days queue"}</Badge>}
+        <Badge icon="pin">{l.area}</Badge>
+        <Badge>{l.host}</Badge>
+      </div>
+      <div className="form-grid" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
+        {[[L.f_rent, `${fmtKr(l.rent)}`, L.rent_mo], [L.room, l.rooms, L.room], [L.sqm, l.sqm, "m²"],
+          [L.floor, l.floor, ""], [lang === "sv" ? "Inflytt" : "Move-in", l.available, ""], ["Värd", l.host, ""]].map((c, i) => (
+          <div key={i} className="stat" style={{ boxShadow: "none" }}>
+            <div className="k">{c[0]}</div>
+            <div className="v num" style={{ fontSize: 18 }}>{c[1]}{c[2] && <small> {c[2]}</small>}</div>
+          </div>
+        ))}
+      </div>
+    </Modal>
+  );
+}
+
+function App() {
+  const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const lang = t.lang;
+
+  const [route, setRoute] = React.useState("landing"); // landing | auth | onboarding | app
+  const [authMode, setAuthMode] = React.useState("in");
+  const [page, setPage] = React.useState("feed");      // feed | filters | history | settings
+
+  const [filters, setFilters] = React.useState(() => SAMPLE_FILTERS.map((f) => ({ ...f })));
+  const [feed, setFeed] = React.useState(() => seedListings(7));
+  const [notifications, setNotifications] = React.useState(() => seedNotifications(34));
+  const [now, setNow] = React.useState(Date.now());
+  const [wsState, setWsState] = React.useState("live"); // live | reconnecting | off
+  const [paused, setPaused] = React.useState(false);
+  const [tgLinked, setTgLinked] = React.useState(false);
+  const [openListing, setOpenListing] = React.useState(null);
+  const [toasts, setToasts] = React.useState([]);
+  const user = { name: "Elin Bergström", email: "elin@exempel.se" };
+
+  const toast = React.useCallback((msg) => {
+    const id = Math.random();
+    setToasts((ts) => [...ts, { id, msg }]);
+    setTimeout(() => setToasts((ts) => ts.filter((x) => x.id !== id)), 2600);
+  }, []);
+
+  /* apply tweaks to <html> */
+  React.useEffect(() => {
+    const r = document.documentElement;
+    r.dataset.theme = t.theme;
+    r.dataset.view = t.view;
+    r.dataset.density = t.density;
+    r.dataset.card = t.view === "terminal" ? "ticker" : t.card;
+    r.dataset.feed = t.feedFeel;
+    r.dataset.frame = window.__HQRTM_FRAME || t.frame;
+    r.style.setProperty("--accent", t.accent);
+    r.style.setProperty("--accent-ink", luminance(t.accent) > 0.62 ? "#10231a" : "#ffffff");
+  }, [t.theme, t.view, t.density, t.card, t.feedFeel, t.frame, t.accent]);
+
+  /* clock tick for "x s ago" */
+  React.useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  /* WebSocket simulation — pushes new matches */
+  React.useEffect(() => {
+    if (route !== "app" || wsState !== "live" || paused) return;
+    let timer;
+    const schedule = () => {
+      const feel = t.feedFeel;
+      const span = feel === "calm" ? [6000, 12000] : feel === "terminal" ? [1600, 4200] : [2800, 5600];
+      timer = setTimeout(() => {
+        const activeF = filters.filter((f) => f.active);
+        const f = activeF.length ? pick(activeF) : null;
+        const listing = generateListing({
+          createdAt: Date.now(),
+          fcfs: Math.random() < 0.6,
+          filterId: f ? f.id : null,
+        });
+        setFeed((prev) => [listing, ...prev].slice(0, 40));
+        setNotifications((prev) => [{
+          id: "N" + Date.now(), listing, channel: tgLinked ? "telegram" : "email",
+          status: "delivered", latencyMs: rnd(380, 1600),
+          filterName: f ? f.name : (lang === "sv" ? "Alla" : "All"), sentAt: Date.now(),
+        }, ...prev]);
+        if (t.sound) playBlip(feel);
+        schedule();
+      }, rnd(span[0], span[1]));
+    };
+    schedule();
+    return () => clearTimeout(timer);
+  }, [route, wsState, paused, t.feedFeel, t.sound, filters, tgLinked, lang]);
+
+  /* occasional reconnect blip to show resilience */
+  React.useEffect(() => {
+    if (route !== "app") return;
+    const id = setInterval(() => {
+      if (Math.random() < 0.12 && wsState === "live") {
+        setWsState("reconnecting");
+        setTimeout(() => setWsState("live"), 2200);
+      }
+    }, 16000);
+    return () => clearInterval(id);
+  }, [route, wsState]);
+
+  const go = (r, opts = {}) => {
+    if (opts.mode) setAuthMode(opts.mode === "up" ? "up" : "in");
+    setRoute(r);
+    const sc = document.querySelector(".content"); if (sc) sc.scrollTop = 0;
+  };
+  const navPage = (p) => {
+    setPage(p);
+    const sc = document.querySelector(".content"); if (sc) sc.scrollTo({ top: 0 });
+  };
+
+  /* filters CRUD */
+  const saveFilter = (d) => setFilters((prev) => {
+    if (d.id) return prev.map((f) => (f.id === d.id ? { ...d } : f));
+    return [{ ...d, id: "F" + Date.now(), matches7d: estimateMatches(d) }, ...prev];
+  });
+  const deleteFilter = (id) => setFilters((prev) => prev.filter((f) => f.id !== id));
+  const toggleFilter = (id) => setFilters((prev) => prev.map((f) => (f.id === id ? { ...f, active: !f.active } : f)));
+
+  const L = STRINGS[lang];
+  const setLang = (v) => setTweak("lang", v);
+  const setTheme = (v) => setTweak("theme", v);
+
+  /* ---------- public routes ---------- */
+  if (route === "landing")
+    return (<><Landing lang={lang} theme={t.theme} setLang={setLang} setTheme={setTheme} go={go} /><TweaksUI t={t} setTweak={setTweak} /></>);
+  if (route === "auth")
+    return (<><Auth lang={lang} theme={t.theme} setLang={setLang} setTheme={setTheme} go={go} initialMode={authMode}
+      onAuth={(mode) => { setRoute(mode === "up" ? "onboarding" : "app"); setPage("feed"); }} /><TweaksUI t={t} setTweak={setTweak} /></>);
+  if (route === "onboarding")
+    return (<><Onboarding lang={lang} onFinish={() => { setRoute("app"); setPage("feed"); }}
+      onCreateFilter={() => {}} /><TweaksUI t={t} setTweak={setTweak} /></>);
+
+  /* ---------- app shell ---------- */
+  const NAV = [
+    { id: "feed", label: L.nav_feed, icon: "radar" },
+    { id: "filters", label: L.nav_filters, icon: "sliders", count: filters.filter((f) => f.active).length },
+    { id: "history", label: L.nav_history, icon: "history" },
+    { id: "settings", label: L.nav_settings, icon: "gear" },
+  ];
+  const titles = {
+    feed: [L.dash_title, L.dash_sub], filters: [L.filters_title, L.filters_sub],
+    history: [L.history_title, L.history_sub], settings: [L.settings_title, ""],
+  };
+
+  return (
+    <div className="app">
+      {/* sidebar */}
+      <aside className="side">
+        <div className="side-brand">
+          <div className="brand-mark"><BrandGlyph /><span className="pulse-dot" /></div>
+          <div className="brand-name">HQRTM<small>Real-Time Monitor</small></div>
+        </div>
+        <div className="nav-label">{L.nav_main}</div>
+        <nav className="nav">
+          {NAV.slice(0, 2).map((n) => (
+            <a key={n.id} className={`nav-item${page === n.id ? " active" : ""}`} onClick={() => navPage(n.id)}>
+              <Icon name={n.icon} />{n.label}{n.count != null && <span className="count num">{n.count}</span>}
+            </a>
+          ))}
+        </nav>
+        <div className="nav-label">{L.nav_acct}</div>
+        <nav className="nav">
+          {NAV.slice(2).map((n) => (
+            <a key={n.id} className={`nav-item${page === n.id ? " active" : ""}`} onClick={() => navPage(n.id)}>
+              <Icon name={n.icon} />{n.label}
+            </a>
+          ))}
+        </nav>
+        <div className="side-spacer" />
+        <div className="side-foot">
+          <div className="userchip" onClick={() => navPage("settings")}>
+            <div className="avatar">{user.name.slice(0, 1)}</div>
+            <div className="userchip-meta grow"><b>{user.name}</b><span>{tgLinked ? L.tg_linked : L.tg_unlinked}</span></div>
+            <IconBtn name="logout" label="Logga ut" onClick={(e) => { e.stopPropagation(); go("landing"); }} />
+          </div>
+        </div>
+      </aside>
+
+      {/* main column */}
+      <div className="main">
+        <header className="topbar">
+          <div className="only-desktop">
+            <h1>{titles[page][0]}</h1>
+            {titles[page][1] && <div className="topbar-sub">{titles[page][1]}</div>}
+          </div>
+          <div className="only-mobile side-brand" style={{ padding: 0 }}>
+            <div className="brand-mark" style={{ width: 28, height: 28 }}><BrandGlyph size={15} /></div>
+            <div className="brand-name" style={{ fontSize: 14 }}>HQRTM</div>
+          </div>
+          <div className="topbar-spacer" />
+
+          <span className={`wsdot ${wsState} only-desktop`}>
+            <i />{wsState === "live" ? L.connected : wsState === "reconnecting" ? L.reconnecting : L.offline}
+          </span>
+
+          <div className="segmented only-desktop">
+            <button className={t.view === "comfort" ? "active" : ""} onClick={() => setTweak("view", "comfort")}><Icon name="grid" />{L.comfort}</button>
+            <button className={t.view === "terminal" ? "active" : ""} onClick={() => setTweak("view", "terminal")}><Icon name="terminal" />{L.terminal}</button>
+          </div>
+
+          <button className="wsdot only-desktop" style={{ cursor: "pointer" }} onClick={() => setLang(lang === "sv" ? "en" : "sv")} title="Language">
+            <Icon name="globe" style={{ width: 15, height: 15 }} />{lang === "sv" ? "SV" : "EN"}
+          </button>
+          <IconBtn name={t.theme === "dark" ? "sun" : "moon"} label="Theme" onClick={() => setTheme(t.theme === "dark" ? "light" : "dark")} />
+          <IconBtn name={t.frame === "phone" ? "monitor" : "phone"} label="Preview device" className="only-desktop"
+                   onClick={() => setTweak("frame", t.frame === "phone" ? "desktop" : "phone")} />
+        </header>
+
+        <div className="content">
+          {page === "feed" && (
+            <Dashboard lang={lang} feed={feed} now={now} wsState={wsState} paused={paused}
+              soundOn={t.sound} setSoundOn={(v) => setTweak("sound", v)}
+              filters={filters} onOpenListing={setOpenListing}
+              onRetry={() => setWsState("live")} onCreateFilter={() => navPage("filters")} />
+          )}
+          {page === "filters" && (
+            <FiltersScreen lang={lang} filters={filters} onSave={saveFilter} onDelete={deleteFilter} onToggle={toggleFilter} />
+          )}
+          {page === "history" && (
+            <HistoryScreen lang={lang} notifications={notifications} onOpenListing={setOpenListing} />
+          )}
+          {page === "settings" && (
+            <SettingsScreen lang={lang} setLang={setLang} user={user} tgLinked={tgLinked} setTgLinked={setTgLinked}
+              onToast={toast} onDeleteAccount={() => { toast(lang === "sv" ? "Konto raderat" : "Account deleted"); go("landing"); }} />
+          )}
+        </div>
+
+        {/* mobile tab bar */}
+        <nav className="tabbar">
+          {NAV.map((n) => (
+            <button key={n.id} className={`tab${page === n.id ? " active" : ""}`} onClick={() => navPage(n.id)}>
+              <Icon name={n.icon} />{n.label}
+              {n.id === "filters" && n.count > 0 && <span className="tab-count num">{n.count}</span>}
+            </button>
+          ))}
+        </nav>
+      </div>
+
+      {openListing && <ListingModal l={openListing} lang={lang} onClose={() => setOpenListing(null)} onToast={toast} />}
+
+      {/* toasts */}
+      {toasts.length > 0 && (
+        <div className="toast-wrap">
+          {toasts.map((t2) => (
+            <div className="toast" key={t2.id}><span className="ti"><Icon name="check" strokeWidth="3" /></span>{t2.msg}</div>
+          ))}
+        </div>
+      )}
+
+      <TweaksUI t={t} setTweak={setTweak} />
+    </div>
+  );
+}
+
+/* ---- Tweaks panel UI ---- */
+function TweaksUI({ t, setTweak }) {
+  return (
+    <TweaksPanel title="Tweaks">
+      <TweakSection label="Tema & känsla" />
+      <TweakRadio label="Personlighet" value={t.view} options={[{ value: "comfort", label: "Comfort" }, { value: "terminal", label: "Terminal" }]} onChange={(v) => setTweak("view", v)} />
+      <TweakRadio label="Läge" value={t.theme} options={[{ value: "light", label: "Ljust" }, { value: "dark", label: "Mörkt" }]} onChange={(v) => setTweak("theme", v)} />
+      <TweakColor label="Accentfärg" value={t.accent} options={ACCENTS} onChange={(v) => setTweak("accent", v)} />
+
+      <TweakSection label="Flödet" />
+      <TweakRadio label="Täthet" value={t.density} options={[{ value: "compact", label: "Tät" }, { value: "cozy", label: "Lagom" }, { value: "spacious", label: "Luftig" }]} onChange={(v) => setTweak("density", v)} />
+      <TweakSelect label="Kortstil" value={t.card} options={[{ value: "card", label: "Kort (med foto)" }, { value: "row", label: "Rad (kompakt)" }, { value: "ticker", label: "Ticker (terminal)" }]} onChange={(v) => setTweak("card", v)} />
+      <TweakSelect label="Känsla" value={t.feedFeel} options={[{ value: "urgency", label: "Brådska (puls)" }, { value: "calm", label: "Lugnt flöde" }, { value: "terminal", label: "Ticker-tempo" }]} onChange={(v) => setTweak("feedFeel", v)} />
+      <TweakToggle label="Ljudsignal" value={t.sound} onChange={(v) => setTweak("sound", v)} />
+
+      <TweakSection label="Övrigt" />
+      <TweakRadio label="Språk" value={t.lang} options={[{ value: "sv", label: "Svenska" }, { value: "en", label: "English" }]} onChange={(v) => setTweak("lang", v)} />
+      <TweakRadio label="Förhandsvy" value={t.frame} options={[{ value: "desktop", label: "Desktop" }, { value: "phone", label: "Mobil" }]} onChange={(v) => setTweak("frame", v)} />
+    </TweaksPanel>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+
+</script>
+</body></html>

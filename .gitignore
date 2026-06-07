@@ -1,0 +1,30 @@
+# --- Секреты (ПУБЛИЧНЫЙ репозиторий — ничего из этого не коммитить!) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Frontend build (когда появится) ---
+node_modules/
+frontend-build/dist/
