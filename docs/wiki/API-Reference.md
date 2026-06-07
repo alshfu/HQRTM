@@ -33,8 +33,21 @@
 ## Профиль (auth)
 | Метод | Путь | Назначение |
 |---|---|---|
-| GET | `/api/me` | профиль (`email`, `role`, `status`, `telegram_linked`) |
+| GET | `/api/me` | профиль (`email`, `role`, `status`, `locale`, `telegram_linked`) |
 | DELETE | `/api/me` | удалить аккаунт и все данные (GDPR) |
+
+## Админ (роль `admin`)
+Гард `require_admin`: роль проверяется по БД. Без токена — `401`, не-админу — `403`.
+| Метод | Путь | Назначение |
+|---|---|---|
+| GET | `/api/admin/stats` | счётчики `{users, filters, listings, notifications}` |
+| GET | `/api/admin/users` | список пользователей (без секретов), пагинация |
+| POST | `/api/admin/users/<id>/role` | сменить роль `{role: "admin"\|"user"}`; нельзя разжаловать себя (`400`) |
+
+## Real-time
+| Метод | Путь | Назначение |
+|---|---|---|
+| GET | `/sse/feed?token=<access>` | SSE-поток новых совпадений (Change Stream на `notifications`) |
 
 ## Прочее
 | Метод | Путь | Назначение |
@@ -43,3 +56,7 @@
 | GET | `/openapi.json`, `/apidocs` | OpenAPI + Swagger UI |
 
 Пагинированные ответы: `{ items: [...], page, limit, total }`.
+
+## i18n
+Язык интерфейса: `?lang=sv\|en` (сохраняется в cookie `hqrtm_lang`, дефолт `sv`). Затрагивает
+серверный рендер шаблонов и inline-JS (каталог отдаётся в `window.HQRTM_I18N`).

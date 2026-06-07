@@ -9,31 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
-  <!-- Tailwind Play CDN (прототип). Production-сборка — см. frontend-build/ и Wiki «Frontend Guide». -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: { accent: { DEFAULT: "#15b878", ink: "#04140d" } },
-          fontFamily: {
-            sans: ["Schibsted Grotesk", "system-ui", "sans-serif"],
-            mono: ["JetBrains Mono", "ui-monospace", "monospace"],
-          },
-        },
-      },
-    };
-  </script>
-  <style>
-    body { background: #0c0f0e; color: #eef2f0; }
-    .card { background: #14191780; border: 1px solid #ffffff14; backdrop-filter: blur(8px); }
-    .input { background:#0f1413; border:1px solid #ffffff1f; }
-    .input:focus { outline:none; border-color:#15b878; box-shadow:0 0 0 3px #15b87833; }
-    .btn-accent { background:#15b878; color:#04140d; }
-    .btn-accent:hover { filter:brightness(1.08); }
-    .navlink.active { background:#15b87822; color:#15b878; }
-  </style>
+  <!-- Production Tailwind-сборка (purged + minified). Источник: frontend-build/ (input.css +
+       tailwind.config.js). Пересборка: cd frontend-build && npm run build. Тема (accent/шрифты)
+       и компоненты (.card/.input/.btn-accent/.navlink) — в сборке, не inline. -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
   {% block head %}{% endblock %}
 </head>
 <body class="font-sans min-h-screen antialiased">
