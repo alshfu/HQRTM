@@ -34,8 +34,23 @@ class Settings(BaseSettings):
 
     # Poller
     poll_interval_ms: int = 3000
-    homeq_base_url: str = ""
     hot_hours: str = "08-22"
+
+    # HomeQ Core API (docs-core.homeq.se). Ключ/доступ — из landlord-портала
+    # (homeq.se/biz → settings/integration). Адаптер включается только после ToS (COMPLIANCE.md).
+    homeq_base_url: str = "https://api.homeq.se"  # demo: https://api-demo.homeq.se
+    homeq_public_base: str = "https://homeq.se"  # для построения ссылок на объявления
+    homeq_username: str = ""  # учётка интеграции (POST /api/v2/tokens/)
+    homeq_password: str = ""
+    homeq_fetch_amount: int = 100  # сколько карточек тянуть за проход (amount)
+    homeq_timeout_s: float = 10.0
+
+    # Qasa (qasa.com) — GraphQL API. ⚠️ Контракт НЕ верифицирован официально,
+    # доступ/ToS на программное чтение не подтверждён → адаптер enabled=False (COMPLIANCE.md).
+    qasa_api_url: str = "https://api.qasa.com/graphql"
+    qasa_public_base: str = "https://qasa.com"
+    qasa_fetch_amount: int = 50
+    qasa_timeout_s: float = 10.0
 
     # Логирование
     log_level: str = "INFO"

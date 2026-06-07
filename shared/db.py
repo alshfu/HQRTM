@@ -86,8 +86,13 @@ def ensure_indexes(db: Database) -> None:
     seen.create_index([("source", 1), ("external_id", 1)], unique=True, name="uniq_seen")
     seen.create_index("seen_at", expireAfterSeconds=settings.seen_ttl_hours * 3600, name="ttl_seen")
 
-    # notifications: история пользователя по времени
-    db[COLL_NOTIFICATIONS].create_index([("user_id", 1), ("sent_at", -1)], name="user_sent")
+    # notifications: история пользователя по времени + идемпотентность (одно уведомление
+    # на пару (user, listing) — повторный проход поллера не плодит дубли).
+    notifications = db[COLL_NOTIFICATIONS]
+    notifications.create_index([("user_id", 1), ("sent_at", -1)], name="user_sent")
+    notifications.create_index(
+        [("user_id", 1), ("listing_id", 1)], unique=True, name="uniq_user_listing"
+    )
 
     # audit_log: по времени
     db[COLL_AUDIT].create_index("created_at", name="created")

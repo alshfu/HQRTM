@@ -168,8 +168,10 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 - **Python 3.12** (venv пересоздан). **MongoDB — Atlas free-tier** (MONGO_URI в `.env`). **Лицензия — MIT**.
 
 **❓ Ещё открыто — спрашивай, не выбирай молча:**
-1. **HomeQ:** есть ли официальное/партнёрское API? Что разрешает ToS + `robots.txt`?
-   (Скрейпинг — только fallback. Зафиксировать в `COMPLIANCE.md` **до Фазы 2**.) — БЛОКЕР Фазы 2.
+1. **HomeQ:** ✅ официальное API подтверждено (Core API, контракт сверен 2026-06-07 — см.
+   `COMPLIANCE.md` и `poller/sources/homeq.py`). **Остаётся блокером:** получить учётку/ключ
+   интеграции из landlord-портала + финально подтвердить ToS read-доступа для consumer-сервиса
+   (действие владельца). Адаптер написан и протестирован, но `enabled=False` до этого.
 2. ✅ **Frontend CSS: Tailwind** (решено 2026-06-07). Сейчас — Play CDN (прототип); production-сборка
    в `frontend-build/` (Tailwind CLI, см. README там) — переезд в полировке/Фазе 8.
 3. ✅ **Язык UI — шведский (приоритетный)**, продукт для шведского рынка (решено 2026-06-07).
@@ -195,6 +197,11 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
   **HomeQ/Qasa имеют официальный Core API** (`docs-core.homeq.se`, JWT + Card Search + webhooks) —
   приоритетный путь; Blocket/Bostad Direkt/Samtrygg — нужен партнёрский доступ/проверка. **Действие
   владельца:** запросить API-ключ HomeQ/Qasa.
+  **Реальный HomeQ-адаптер реализован** (`poller/sources/homeq.py`: auth `/api/v2/tokens/` JWT +
+  Card Search `/api/v3/cards/` FCFS-only + нормализация + backoff на 429/5xx). **Матчинг готов**
+  (`poller/matcher.py` + `engine.enqueue_notifications` → queued-уведомления, идемпотентно;
+  оживляет веб-ленту/SSE без Telegram). Ветка `feature/phase2-homeq-adapter`, **80 passed**.
+  Остаётся: включение адаптера `enabled=True` (учётка + ToS) и доставка в Telegram (Фаза 3).
 - **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
 - **Фаза 4** — ✅ ГОТОВО: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
   `/api/me` (GDPR), `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
@@ -260,6 +267,35 @@ status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COL
 без переоткрытия контекста.
 
 ### Текущее состояние (обновлять)
+- **2026-06-07 (Фаза 2 — Qasa-адаптер):** `poller/sources/qasa.py` — адаптер Qasa через GraphQL
+  (`api.qasa.com/graphql`, запрос `homes`), нормализация в `Listing` (+`fcfs`), backoff на 429/5xx,
+  обработка GraphQL-errors. ⚠️ **Контракт НЕ верифицирован** (нет офиц. публичного API Qasa) →
+  `enabled=False`, перед включением сверить схему + ToS. Общие хелперы `as_float/as_int` вынесены
+  в `poller/sources/base.py` (переиспользуются HomeQ+Qasa). **Исправлен латентный баг:**
+  `poller/sources/__init__.py` теперь импортирует конкретные адаптеры → `@register` отрабатывает
+  на проде (раньше реестр был пуст при `python -m poller.main`). Тесты `tests/test_qasa_adapter.py`
+  (9) + обновлён `test_sources.py`. Весь набор **89 passed**, ruff/black зелёные.
+- **2026-06-07 (Фаза 2 — матчинг + постановка уведомлений):** `poller/matcher.py` реализован
+  (`matches()` — only_fcfs/sources/диапазоны цены-комнат-площади/район-подстрока; `match_users()`
+  — грубый отсев активных фильтров в Mongo + точная проверка в Python). `poller/engine.py` расширен:
+  `process_new_listings` теперь проставляет `_id` объявления; новая `enqueue_notifications()` —
+  матчинг новых FCFS с фильтрами и **идемпотентная** постановка `notifications` (status=queued,
+  доставка/latency — Фаза 3). Добавлен уникальный индекс `notifications (user_id, listing_id)`
+  (`uniq_user_listing`) в `shared/db.py`. Цикл `poller/main.py` вызывает enqueue после engine.
+  Это оживляет веб-ленту `/api/listings?matched` и SSE (Change Stream на notifications) **без Telegram**.
+  Тесты `tests/test_matcher.py` (12). Весь набор **80 passed**, ruff/black зелёные.
+  Ветка `feature/phase2-homeq-adapter`. ⚠️ Реальный опрос всё ещё ждёт включения адаптера (учётка+ToS).
+- **2026-06-07 (Фаза 2 — реальный HomeQ-адаптер):** Контракт HomeQ Core API сверён по докам
+  (`docs-core.homeq.se`/`api.homeq.se`) и реализован в `poller/sources/homeq.py`: auth
+  `POST /api/v2/tokens/` (JWT, перелогин на 401), Card Search `POST /api/v3/cards/` с
+  `first_come_first=true/queue_points=false` (FCFS-only на источнике), нормализация карточки →
+  поля `Listing` (+ `fcfs` для детектора), проброс 429/5xx (Retry-After) для backoff цикла.
+  Настройки в `shared/config.py` (`homeq_base_url`/`homeq_username`/`homeq_password`/`homeq_fetch_amount`)
+  и `.env.example`. Тесты `tests/test_homeq_adapter.py` на `httpx.MockTransport` (auth, search,
+  нормализация, перелогин, троттлинг, нет учётки, путь через детектор). Весь набор **68 passed**,
+  ruff/black зелёные. Ветка `feature/phase2-homeq-adapter`. ⚠️ Адаптер `enabled=False` — включение
+  и реальный опрос за владельцем (учётка из landlord-портала + подтверждение ToS). Дальше после
+  включения: Qasa (тот же API), затем Фаза 3 (Telegram-доставка, веха M2).
 - **2026-06-07 (Фаза 2 ядро + ToS-ресёрч):** Ядро поллера готово (детектор FCFS, дедуп, engine,
   async-цикл с адаптивной частотой/backoff) — ветка `feature/phase2-poller`, тесты **58 passed**.
   ToS-ресёрч площадок занесён в `COMPLIANCE.md`: **HomeQ/Qasa — официальный Core API** (приоритет),

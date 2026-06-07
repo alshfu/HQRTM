@@ -2,8 +2,9 @@
 
 Запуск: python -m poller.main
 
-Цикл: для каждого включённого адаптера → fetch → engine.process_new_listings →
-(Фаза 3) matcher + dispatcher. Адаптивная частота (HOT_HOURS) + экспоненциальный backoff.
+Цикл: для каждого включённого адаптера → fetch → process_new_listings (дедуп/детект/upsert) →
+enqueue_notifications (матчинг + queued-уведомления). Доставка в Telegram — Фаза 3.
+Адаптивная частота (HOT_HOURS) + экспоненциальный backoff.
 Адаптеры включаются (`enabled=True`) только после фиксации ToS (COMPLIANCE.md).
 """
 
@@ -16,7 +17,7 @@ from datetime import datetime
 from shared.config import get_settings
 from shared.utils import is_hot_hour, parse_hot_hours
 
-from poller.engine import process_new_listings
+from poller.engine import enqueue_notifications, process_new_listings
 from poller.sources import enabled_adapters
 
 log = logging.getLogger("hqrtm.poller")
@@ -46,7 +47,9 @@ async def run_once(db, adapters) -> list[dict]:
             continue
         for item in raw:
             item.setdefault("source", str(adapter.source))
-        new_fcfs.extend(process_new_listings(db, raw))
+        batch = process_new_listings(db, raw)
+        enqueue_notifications(db, batch)  # матчинг + постановка уведомлений (доставка — Фаза 3)
+        new_fcfs.extend(batch)
     return new_fcfs
 
 
