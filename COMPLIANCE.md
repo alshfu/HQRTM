@@ -9,18 +9,39 @@
 проверять и фиксировать **отдельно по каждой**. Адаптер включается (`enabled=True`) только
 после положительного вывода здесь. Каркас адаптеров: `poller/sources/`.
 
-| Площадка | `source` | ToS проверен | robots.txt | Офиц. API? | Вывод | Адаптер вкл. |
-|---|---|---|---|---|---|---|
-| HomeQ (homeq.se) | `homeq` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
-| Qasa (qasa.se) | `qasa` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
-| Blocket Bostad | `blocket` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
-| Bostad Direkt | `bostad_direkt` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
-| Samtrygg | `samtrygg` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
-| Bostadsförmedlingen Sthlm | `bostadsformedlingen` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
-| Boplats | `boplats` | ⬜ | ⬜ | ⬜ | TODO | ❌ |
+> ⚠️ Ниже — **техническая сводка ресёрча (2026-06-07), НЕ юридическая консультация.** Перед включением
+> любого адаптера: (1) прочитать актуальный текст ToS площадки целиком, (2) предпочесть официальный API
+> и получить ключ/разрешение, (3) при скрейпинге — соблюсти robots.txt и разумную нагрузку. Финальное
+> решение и ответственность — за владельцем проекта.
+
+| Площадка | `source` | robots.txt (ключевое) | Офиц. API | Рекоменд. путь | Адаптер |
+|---|---|---|---|---|---|
+| HomeQ | `homeq` | `Disallow: /admin/`, есть sitemap | **ДА** — Core API `docs-core.homeq.se` (REST, JWT, Card Search + webhooks) | Официальный API (ключ из landlord-портала) — приоритет | ❌ до ключа |
+| Qasa | `qasa` | открыт `/`; запрещены аккаунт-страницы и URL-фильтры | Вероятно тот же API (Qasa Group, ключи на `api.homeq.se`) | Официальный API (уточнить) | ❌ |
+| Blocket Bostad | `blocket` | жёсткая анти-бот защита; API не найдено | Нет публичного | Только партнёрство; скрейпинг — высокий риск (ToS Schibsted) | ❌ |
+| Bostad Direkt | `bostad_direkt` | `Disallow: /RentalObject/Search`, `/NewSearch`, `/Home/Premium`, `/s` | Не найдено | Уважать robots; ToS-проверка; связаться | ❌ |
+| Samtrygg | `samtrygg` | открыт `/` | Возможно (SwaggerHub `Samtryg/Samtrygg`) | Уточнить доступ к API; иначе ToS | ❌ |
+| Bostadsförmedlingen Sthlm | `bostadsformedlingen` | — | Партнёрская förmedling | Вне приоритета (очередь/köpoäng) | ❌ |
+| Boplats | `boplats` | — | — | Вне приоритета (очередь) | ❌ |
 
 > **В scope (решение владельца 2026-06-07):** HomeQ, Qasa, Blocket Bostad, Bostad Direkt, Samtrygg.
 > Bostadsförmedlingen и Boplats — кандидаты на потом (очередь/köpoäng, не FCFS-приоритет).
+
+### Выводы ресёрча и следующие шаги
+1. **HomeQ — приоритет №1: официальный API есть** (`docs-core.homeq.se`, auth `/api/v2/tokens/`,
+   Card Search опубликованных объявлений, **webhooks** на события). Нужно: запросить API-ключ/партнёрский
+   доступ через landlord-портал, уточнить условия read-доступа для consumer-сервиса.
+   **Webhooks идеальны для real-time FCFS** (вместо высокочастотного опроса).
+2. **Qasa** — та же группа; вероятно тот же API-доступ. Уточнить при контакте с HomeQ/Qasa.
+3. **Blocket** — без официального API + анти-бот + ToS Schibsted против скрейпинга → **не включать** без
+   партнёрского соглашения.
+4. **Bostad Direkt** — robots.txt запрещает поисковые эндпоинты → опрашивать их нельзя; нужен официальный
+   канал/ToS-проверка.
+5. **Samtrygg** — проверить SwaggerHub-спеку и условия доступа к API.
+6. **Действие владельца:** связаться с HomeQ/Qasa по партнёрскому API; по остальным — письменное
+   разрешение или официальный API до включения адаптера.
+
+Источники: `docs-core.homeq.se`, `api.homeq.se/api-docs/`, robots.txt площадок, SwaggerHub.
 
 **Принципы (по ТЗ):**
 - Официальное API — в приоритете. Скрейпинг — только fallback и только если не противоречит ToS.

@@ -7,7 +7,7 @@
 |---|---|---|
 | 0 | Подготовка (репо, окружение, tooling, CI) | ✅ |
 | 1 | Слой данных MongoDB + мульти-source каркас | ✅ |
-| 2 | Поллер / детекция FCFS (M1) | ⏳ блокер: ToS площадок |
+| 2 | Поллер / детекция FCFS (M1) | 🟡 ядро готово; адаптеры ждут API-доступа (HomeQ Core API) |
 | 3 | Telegram-бот (M2) | ⏳ |
 | 4 | Flask API + Auth | ✅ |
 | 5 | Frontend (Jinja2 + Tailwind + Vanilla JS) | 🚧 |
