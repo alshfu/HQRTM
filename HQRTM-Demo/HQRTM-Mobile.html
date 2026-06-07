@@ -1635,6 +1635,7 @@ const STRINGS = {
     welcome_back: "Välkommen tillbaka", signin_sub: "Logga in för att se ditt flöde.",
     create_acct: "Skapa konto", signup_sub: "Bevaka bostäder och få larm på sekunden.",
     sign_in: "Logga in", sign_up: "Registrera dig", password: "Lösenord", forgot: "Glömt lösenord?",
+    demo_cred: "Demo-inloggning (klicka för att fylla i)",
     no_acct: "Har du inget konto?", have_acct: "Har du redan ett konto?",
     or: "eller", consent: "Jag godkänner",
     consent_terms: "användarvillkoren", consent_and: "och", consent_privacy: "integritetspolicyn",
@@ -1705,6 +1706,7 @@ const STRINGS = {
     welcome_back: "Welcome back", signin_sub: "Sign in to see your feed.",
     create_acct: "Create account", signup_sub: "Monitor listings and get alerts in seconds.",
     sign_in: "Sign in", sign_up: "Sign up", password: "Password", forgot: "Forgot password?",
+    demo_cred: "Demo login (click to autofill)",
     no_acct: "No account yet?", have_acct: "Already have an account?",
     or: "or", consent: "I agree to the",
     consent_terms: "terms of service", consent_and: "and", consent_privacy: "privacy policy",
@@ -2000,9 +2002,10 @@ function Landing({ lang, theme, setLang, setTheme, go }) {
 /* ------------------------------------------------------------------- Auth */
 function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth }) {
   const L = STRINGS[lang];
+  const DEMO_CRED = { email: "elin@exempel.se", pw: "demo1234" };
   const [mode, setMode] = React.useState(initialMode || "in");
-  const [email, setEmail] = React.useState("");
-  const [pw, setPw] = React.useState("");
+  const [email, setEmail] = React.useState(DEMO_CRED.email);
+  const [pw, setPw] = React.useState(DEMO_CRED.pw);
   const [consent, setConsent] = React.useState(false);
   const [err, setErr] = React.useState({});
 
@@ -2050,6 +2053,13 @@ function Auth({ lang, theme, setLang, setTheme, go, initialMode, onAuth }) {
                      value={pw} onChange={(e) => setPw(e.target.value)} />
             </div>
           </Field>
+
+          <div className="muted" onClick={() => { setEmail(DEMO_CRED.email); setPw(DEMO_CRED.pw); }}
+               style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 12.5, lineHeight: 1.4,
+                        padding: "10px 12px", border: "1px dashed var(--border)", borderRadius: 10, cursor: "pointer" }}>
+            <Icon name="zap" style={{ width: 14, height: 14, flex: "none" }} />
+            <span>{L.demo_cred}: <b style={{ color: "var(--text)" }}>{DEMO_CRED.email}</b> / <b style={{ color: "var(--text)" }}>{DEMO_CRED.pw}</b></span>
+          </div>
 
           {mode === "up" && (
             <Field error={err.consent}>
