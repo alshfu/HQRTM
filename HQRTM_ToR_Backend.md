@@ -1,114 +1,114 @@
-# Техническое задание (ТЗ) — BACKEND
-## Проект: HomeQ Real-Time Monitor (HQRTM)
-### Этап 1 — серверная часть (ядро мониторинга, API, инфраструктура)
+# Teknisk specifikation (kravspecifikation) — BACKEND
+## Projekt: HomeQ Real-Time Monitor (HQRTM)
+### Fas 1 — serverdelen (övervakningskärna, API, infrastruktur)
 
-> Это **первый из двух** документов проекта. Второй — `HQRTM_ToR_Frontend.md` (веб-интерфейс), который подключается к API, описанному здесь.
+> Detta är **det första av två** dokument i projektet. Det andra är `HQRTM_ToR_Frontend.md` (webbgränssnittet), som ansluter till det API som beskrivs här.
 
 ---
 
-## 0. Общие положения
+## 0. Allmänna bestämmelser
 
-### 0.1 Назначение
-Разработать и развернуть устойчивый серверный сервис, который круглосуточно отслеживает публикации HomeQ, мгновенно выделяет объявления типа «Först till kvarn» (FCFS / первый успел — первый получил), отсеивает очередные, сопоставляет их с фильтрами пользователей и доставляет уведомление со ссылкой в Telegram в пределах целевого бюджета латентности. Сервис также предоставляет API и хранилище данных для подключения Frontend (Этап 2).
+### 0.1 Syfte
+Utveckla och driftsätta en robust servertjänst som dygnet runt bevakar HomeQ:s publiceringar, omedelbart identifierar annonser av typen «Först till kvarn» (FCFS / först till kvarn — först att få), sållar bort kö-annonser, matchar dem mot användarnas filter och levererar en avisering med länk till Telegram inom den fastställda latensbudgeten. Tjänsten tillhandahåller även ett API och datalagring för att koppla in Frontend (Fas 2).
 
-### 0.2 Глоссарий
-| Термин | Значение |
+### 0.2 Ordlista
+| Term | Betydelse |
 |---|---|
-| **FCFS / «Först till kvarn»** | Тип объявления «первый успел — первый получил». Целевой объект мониторинга. |
-| **Queue-объект** | Обычная очередная квартира (по баллам/времени в очереди). **Исключается** фильтром. |
-| **Latency budget** | Допустимое время от публикации объявления до доставки уведомления. |
-| **Poller / Monitoring Engine** | Сервис, опрашивающий HomeQ с высокой частотой. |
-| **Dispatcher** | Сервис рассылки уведомлений. |
-| **Tenant / пользователь** | Конечный получатель уведомлений со своим набором фильтров. |
+| **FCFS / «Först till kvarn»** | Annonstyp «först till kvarn — först att få». Det primära bevakningsobjektet. |
+| **Kö-objekt** | En vanlig kö-lägenhet (efter poäng/kötid). **Exkluderas** av filtret. |
+| **Latency budget** | Tillåten tid från att en annons publiceras till att aviseringen levereras. |
+| **Poller / Monitoring Engine** | Tjänst som frågar HomeQ med hög frekvens. |
+| **Dispatcher** | Tjänst för utskick av aviseringar. |
+| **Tenant / användare** | Slutmottagare av aviseringar med sin egen uppsättning filter. |
 
-### 0.3 Ключевое архитектурное решение
-**Один центральный поллер на всех пользователей** вместо N персональных ботов. Это снижает суммарную нагрузку на HomeQ в N раз, упрощает соблюдение ToS и уменьшает латентность (опрос выполняется один раз за цикл, рассылка — параллельная).
+### 0.3 Centralt arkitekturbeslut
+**En central poller för alla användare** istället för N personliga botar. Detta minskar den totala lasten på HomeQ N gånger, förenklar efterlevnaden av ToS och minskar latensen (frågan utförs en gång per cykel, utskicket sker parallellt).
 
-### 0.4 Правовые и комплаенс-оговорки (обязательно до старта)
-1. **ToS HomeQ.** Проверить Условия использования и `robots.txt`; зафиксировать выводы в `COMPLIANCE.md`.
-2. **Официальное API в приоритете.** Если HomeQ предоставляет публичное/партнёрское API — использовать его; скрейпинг только как fallback и при условии непротиворечия ToS.
-3. **GDPR (ЕС).** Хранятся персональные данные (e-mail, Telegram-ID, фильтры): нужны правовое основание, политика конфиденциальности, право на удаление, шифрование секретов, журнал согласий.
-4. **Этичная нагрузка.** Разумные интервалы, экспоненциальный backoff, корректная реакция на `429/503`, без флуда с множества IP.
-5. **Вне scope:** бот **не** авторизуется в аккаунте пользователя на HomeQ и **не** подаёт заявки автоматически — только уведомляет.
+### 0.4 Juridiska förbehåll och compliance (obligatoriskt före start)
+1. **HomeQ:s ToS.** Granska användarvillkoren och `robots.txt`; dokumentera slutsatserna i `COMPLIANCE.md`.
+2. **Officiellt API i första hand.** Om HomeQ erbjuder ett offentligt/partner-API — använd det; skrapning endast som fallback och under förutsättning att det inte strider mot ToS.
+3. **GDPR (EU).** Personuppgifter lagras (e-post, Telegram-ID, filter): det krävs rättslig grund, integritetspolicy, rätt till radering, kryptering av hemligheter och samtyckeslogg.
+4. **Etisk last.** Rimliga intervall, exponentiell backoff, korrekt hantering av `429/503`, ingen flod från flera IP-adresser.
+5. **Utanför scope:** boten **loggar inte** in på användarens konto på HomeQ och **lämnar inte** in ansökningar automatiskt — den aviserar endast.
 
 ---
 
-## 1.1 Цели этапа
-- круглосуточный высокочастотный мониторинг HomeQ;
-- мгновенное выделение FCFS и отсев очередных объявлений;
-- сопоставление нового объявления с фильтрами всех пользователей;
-- доставка уведомления в Telegram в пределах бюджета латентности;
-- API и хранилище для подключения Frontend (Этап 2).
+## 1.1 Mål för fasen
+- dygnet runt-bevakning av HomeQ med hög frekvens;
+- omedelbar identifiering av FCFS och bortsållning av kö-annonser;
+- matchning av en ny annons mot alla användares filter;
+- leverans av en avisering till Telegram inom latensbudgeten;
+- API och lagring för att koppla in Frontend (Fas 2).
 
-## 1.2 Архитектура
+## 1.2 Arkitektur
 ```
                          ┌─────────────────────────┐
-                         │      HomeQ (источник)    │
+                         │      HomeQ (källa)        │
                          └────────────▲─────────────┘
-                                      │ опрос (1 раз на всех)
+                                      │ fråga (1 gång för alla)
                          ┌────────────┴─────────────┐
                          │   Monitoring Engine       │
                          │   (poller, async)         │
                          └────────────┬─────────────┘
-                                      │ новые объекты
+                                      │ nya objekt
                          ┌────────────▼─────────────┐
                          │   FCFS Detector + Filter  │
                          │   Matcher                 │
                          └──────┬─────────────┬──────┘
                                 │             │
-                  совпадения по │             │ дедуп / лог
-                    фильтрам    │             │
+                  matchning per │             │ dedup / logg
+                    filter      │             │
                          ┌──────▼──────┐  ┌───▼──────────┐
                          │ Dispatcher  │  │ PostgreSQL    │
                          │ (Telegram)  │  │  + Redis      │
                          └──────┬──────┘  └───▲──────────┘
                                 │             │
                          ┌──────▼─────────────┴──────┐
-                         │   API Service (REST + WS)  │◄──── Frontend (Этап 2)
+                         │   API Service (REST + WS)  │◄──── Frontend (Fas 2)
                          └────────────────────────────┘
 ```
 
-**Компоненты (отдельные процессы/контейнеры):**
-1. **Monitoring Engine** — асинхронный поллер источника.
-2. **FCFS Detector + Filter Matcher** — детекция типа объявления и матчинг с фильтрами.
-3. **Notification Dispatcher** — рассылка (Telegram в этапе 1; e-mail/push — задел).
-4. **API Service** — REST + WebSocket для Frontend.
-5. **Data Layer** — PostgreSQL (постоянные данные) + Redis (дедуп, очереди, rate-limit, pub/sub).
-6. **Telegram Bot** — отдельный токен, webhook или long-polling.
+**Komponenter (separata processer/containrar):**
+1. **Monitoring Engine** — asynkron poller för källan.
+2. **FCFS Detector + Filter Matcher** — detektering av annonstyp och matchning mot filter.
+3. **Notification Dispatcher** — utskick (Telegram i fas 1; e-post/push — förberedelse).
+4. **API Service** — REST + WebSocket för Frontend.
+5. **Data Layer** — PostgreSQL (beständiga data) + Redis (dedup, köer, rate-limit, pub/sub).
+6. **Telegram Bot** — separat token, webhook eller long-polling.
 
-## 1.3 Функциональные требования
+## 1.3 Funktionella krav
 
-### 1.3.1 Модуль сбора данных (Data Extraction)
-| ID | Требование |
+### 1.3.1 Modul för datainsamling (Data Extraction)
+| ID | Krav |
 |---|---|
-| BE-DE-001 | Получать список объявлений HomeQ через API (приоритет) или скрейпинг (fallback). |
-| BE-DE-002 | Опрос выполняется **централизованно один раз** за цикл, независимо от числа пользователей. |
-| BE-DE-003 | Интервал опроса — конфигурируемый (`POLL_INTERVAL_MS`) с безопасным значением по умолчанию; описать в ReadMe. |
-| BE-DE-004 | Адаптивная частота: учащение в «горячие» часы, замедление ночью (конфигурируемые окна). |
-| BE-DE-005 | Парсер выделен в отдельный адаптер (`HomeQAdapter`); при изменении контракта правится только он. |
-| BE-DE-006 | Нормализация в единую модель: `external_id`, `title`, `address`, `district`, `rooms`, `area_m2`, `rent`, `listing_type`, `published_at`, `url`. |
+| BE-DE-001 | Hämta listan över HomeQ-annonser via API (prioritet) eller skrapning (fallback). |
+| BE-DE-002 | Frågan utförs **centralt en gång** per cykel, oberoende av antalet användare. |
+| BE-DE-003 | Frågeintervallet är konfigurerbart (`POLL_INTERVAL_MS`) med ett säkert standardvärde; beskriv i ReadMe. |
+| BE-DE-004 | Adaptiv frekvens: tätare under «heta» timmar, långsammare nattetid (konfigurerbara fönster). |
+| BE-DE-005 | Parsern är utbruten i en separat adapter (`HomeQAdapter`); vid ändrat kontrakt justeras endast den. |
+| BE-DE-006 | Normalisering till en enhetlig modell: `external_id`, `title`, `address`, `district`, `rooms`, `area_m2`, `rent`, `listing_type`, `published_at`, `url`. |
 
-### 1.3.2 Модуль детекции и фильтрации
-| ID | Требование |
+### 1.3.2 Modul för detektering och filtrering
+| ID | Krav |
 |---|---|
-| BE-FL-001 | Детектировать тип объявления: **FCFS** vs **очередь**; логика покрыта тестами. |
-| BE-FL-002 | Пропускать дальше **только FCFS**; очередные отбрасываются на самом раннем этапе. |
-| BE-FL-003 | Дедупликация: каждое объявление обрабатывается один раз (`external_id` в Redis с TTL). |
-| BE-FL-004 | Матчинг с фильтрами: район/город, диапазон цены, число комнат, мин/макс площадь, тип (FCFS обязателен). |
-| BE-FL-005 | Эффективный матчинг (индексы/предвыборка), не съедающий бюджет латентности при росте пользователей. |
-| BE-FL-006 | На каждое совпадение формируется задание на уведомление (user_id + listing). |
+| BE-FL-001 | Detektera annonstyp: **FCFS** vs **kö**; logiken täcks av tester. |
+| BE-FL-002 | Släpp vidare **endast FCFS**; kö-annonser kasseras i ett så tidigt skede som möjligt. |
+| BE-FL-003 | Deduplicering: varje annons bearbetas en gång (`external_id` i Redis med TTL). |
+| BE-FL-004 | Matchning mot filter: stadsdel/stad, prisintervall, antal rum, min/max area, typ (FCFS obligatoriskt). |
+| BE-FL-005 | Effektiv matchning (index/förhämtning) som inte äter upp latensbudgeten när användarantalet växer. |
+| BE-FL-006 | För varje matchning skapas ett aviseringsuppdrag (user_id + listing). |
 
-### 1.3.3 Модуль уведомлений (Telegram)
-| ID | Требование |
+### 1.3.3 Aviseringsmodul (Telegram)
+| ID | Krav |
 |---|---|
-| BE-NT-001 | Сообщение в Telegram: заголовок, ключевые параметры (район, цена, комнаты, площадь) + **прямая ссылка**. |
-| BE-NT-002 | Параллельная рассылка всем совпавшим пользователям (async, без блокировки цикла опроса). |
-| BE-NT-003 | Соблюдение лимитов Telegram Bot API (троттлинг, очередь отправки в Redis). |
-| BE-NT-004 | Логирование доставки/ошибок; неуспешные — повторная попытка с backoff. |
-| BE-NT-005 | Привязка пользователя к Telegram через deep-link/код подтверждения (используется и Frontend-ом). |
-| BE-NT-006 | Расширяемый интерфейс каналов (`NotificationChannel`) под e-mail/push без переписывания ядра. |
+| BE-NT-001 | Meddelande i Telegram: rubrik, nyckelparametrar (stadsdel, pris, rum, area) + **direktlänk**. |
+| BE-NT-002 | Parallellt utskick till alla matchade användare (async, utan att blockera frågecykeln). |
+| BE-NT-003 | Efterlevnad av Telegram Bot API:s begränsningar (throttling, utskickskö i Redis). |
+| BE-NT-004 | Loggning av leverans/fel; misslyckade — nytt försök med backoff. |
+| BE-NT-005 | Koppling av användare till Telegram via deep-link/bekräftelsekod (används även av Frontend). |
+| BE-NT-006 | Utbyggbart kanalgränssnitt (`NotificationChannel`) för e-post/push utan att skriva om kärnan. |
 
-### 1.3.4 Слой хранения данных (схема, набросок)
+### 1.3.4 Datalagringslager (schema, utkast)
 ```sql
 users            (id, email, password_hash, telegram_chat_id, status, created_at, consent_at)
 filters          (id, user_id FK, name, city, district, rent_min, rent_max,
@@ -119,147 +119,147 @@ notifications    (id, user_id FK, listing_id FK, channel, status,
                   sent_at, latency_ms, error)
 audit_log        (id, actor, action, payload_json, created_at)
 ```
-| ID | Требование |
+| ID | Krav |
 |---|---|
-| BE-DB-001 | PostgreSQL для постоянных данных; миграции (Alembic). |
-| BE-DB-002 | Redis для: «виденных» объявлений, очереди уведомлений, rate-limit, pub/sub WebSocket. |
-| BE-DB-003 | Токены/секреты — зашифрованы; пароли — только хэш (Argon2/bcrypt). |
-| BE-DB-004 | Метрика `latency_ms` (publish → delivered) фиксируется на каждое уведомление (для SLA). |
+| BE-DB-001 | PostgreSQL för beständiga data; migreringar (Alembic). |
+| BE-DB-002 | Redis för: «sedda» annonser, aviseringskö, rate-limit, pub/sub WebSocket. |
+| BE-DB-003 | Tokens/hemligheter — krypterade; lösenord — endast hash (Argon2/bcrypt). |
+| BE-DB-004 | Måttet `latency_ms` (publish → delivered) registreras för varje avisering (för SLA). |
 
 ### 1.3.5 API (REST + WebSocket)
-| ID | Endpoint (пример) | Назначение |
+| ID | Endpoint (exempel) | Syfte |
 |---|---|---|
-| BE-API-001 | `POST /auth/register`, `POST /auth/login`, `POST /auth/refresh` | Регистрация и аутентификация (JWT). |
-| BE-API-002 | `GET/POST/PUT/DELETE /filters` | CRUD фильтров пользователя. |
-| BE-API-003 | `GET /listings?matched=true` | Лента совпавших объявлений. |
-| BE-API-004 | `GET /notifications` | История уведомлений с пагинацией. |
-| BE-API-005 | `POST /telegram/link` / `GET /telegram/status` | Привязка и статус Telegram. |
-| BE-API-006 | `GET /me`, `PUT /me`, `DELETE /me` | Профиль; удаление аккаунта и данных (GDPR). |
-| BE-API-007 | `WS /ws/feed` | Real-time push новых совпадений во Frontend. |
-| BE-API-008 | `GET /health`, `GET /metrics` | Health-check и метрики. |
-| BE-API-009 | — | Документация OpenAPI/Swagger автогенерируется. |
+| BE-API-001 | `POST /auth/register`, `POST /auth/login`, `POST /auth/refresh` | Registrering och autentisering (JWT). |
+| BE-API-002 | `GET/POST/PUT/DELETE /filters` | CRUD för användarens filter. |
+| BE-API-003 | `GET /listings?matched=true` | Flöde av matchade annonser. |
+| BE-API-004 | `GET /notifications` | Aviseringshistorik med paginering. |
+| BE-API-005 | `POST /telegram/link` / `GET /telegram/status` | Koppling och status för Telegram. |
+| BE-API-006 | `GET /me`, `PUT /me`, `DELETE /me` | Profil; radering av konto och data (GDPR). |
+| BE-API-007 | `WS /ws/feed` | Real-time push av nya matchningar till Frontend. |
+| BE-API-008 | `GET /health`, `GET /metrics` | Health-check och mätvärden. |
+| BE-API-009 | — | OpenAPI/Swagger-dokumentation genereras automatiskt. |
 
-### 1.3.6 Аутентификация и авторизация
-| ID | Требование |
+### 1.3.6 Autentisering och auktorisering
+| ID | Krav |
 |---|---|
-| BE-AU-001 | JWT (access + refresh), отзыв refresh-токенов. |
-| BE-AU-002 | Роли: `user`, `admin`; доступ к чужим данным запрещён на уровне сервиса. |
-| BE-AU-003 | Rate-limiting на auth-эндпоинтах. |
-| BE-AU-004 | Опционально: подтверждение e-mail. |
+| BE-AU-001 | JWT (access + refresh), återkallande av refresh-tokens. |
+| BE-AU-002 | Roller: `user`, `admin`; åtkomst till andras data nekas på tjänstenivå. |
+| BE-AU-003 | Rate-limiting på auth-endpoints. |
+| BE-AU-004 | Valfritt: e-postbekräftelse. |
 
-## 1.4 Нефункциональные требования (NFR)
-| ID | Требование | Целевое значение |
+## 1.4 Icke-funktionella krav (NFR)
+| ID | Krav | Målvärde |
 |---|---|---|
-| NFR-001 | **Латентность** publish → доставка | ≤ **1.5 с** (целевая ≤ 1.0 с) |
-| NFR-002 | Доступность сервиса | ≥ 99.5% / месяц |
-| NFR-003 | Пропускная способность рассылки | ≥ сотни уведомлений/мин без деградации опроса |
-| NFR-004 | Масштабируемость по пользователям | линейная стоимость матчинга, центральный опрос неизменен |
-| NFR-005 | Восстановление после сбоя | автоперезапуск, без потери «виденных» объявлений |
-| NFR-006 | Безопасность | TLS, хэш паролей, шифрование секретов, без PII в логах |
+| NFR-001 | **Latens** publish → leverans | ≤ **1,5 s** (mål ≤ 1,0 s) |
+| NFR-002 | Tjänstens tillgänglighet | ≥ 99,5 % / månad |
+| NFR-003 | Genomströmning vid utskick | ≥ hundratals aviseringar/min utan degradering av frågan |
+| NFR-004 | Skalbarhet per användare | linjär matchningskostnad, central fråga oförändrad |
+| NFR-005 | Återhämtning efter fel | autostart, utan förlust av «sedda» annonser |
+| NFR-006 | Säkerhet | TLS, lösenordshash, kryptering av hemligheter, ingen PII i loggar |
 
-**Бюджет латентности (декомпозиция целевых 1.5 с):**
-| Этап | Бюджет |
+**Latensbudget (uppdelning av målet 1,5 s):**
+| Steg | Budget |
 |---|---|
-| Интервал опроса (худший случай) | ~ 0.5–0.8 с |
-| Сетевой запрос + парсинг | ~ 0.2–0.3 с |
-| Детекция FCFS + матчинг + дедуп | ~ 0.05–0.15 с |
-| Формирование и отправка в Telegram | ~ 0.2–0.4 с |
-| **Итого (целевой коридор)** | **~ 1.0–1.5 с** |
+| Frågeintervall (värsta fall) | ~ 0,5–0,8 s |
+| Nätverksförfrågan + parsning | ~ 0,2–0,3 s |
+| FCFS-detektering + matchning + dedup | ~ 0,05–0,15 s |
+| Skapande och utskick till Telegram | ~ 0,2–0,4 s |
+| **Totalt (målkorridor)** | **~ 1,0–1,5 s** |
 
-## 1.5 Устойчивость и обработка ошибок
-| ID | Требование |
+## 1.5 Robusthet och felhantering
+| ID | Krav |
 |---|---|
-| BE-RS-001 | Retry с экспоненциальным backoff на сетевых ошибках и `5xx`. |
-| BE-RS-002 | Circuit breaker: при серии ошибок — временное замедление, без падения. |
-| BE-RS-003 | Корректная реакция на `429/403` (рост интервала, пауза). |
-| BE-RS-004 | При изменении контракта HomeQ — алерт + graceful degradation (сервис не падает). |
-| BE-RS-005 | Health-checks + автоперезапуск (systemd/Docker restart policy). |
-| BE-RS-006 | Алерты администратору при недоступности источника, росте латентности, провале рассылок. |
-| BE-RS-007 | Идемпотентность: повторный запуск не приводит к дублям уведомлений. |
+| BE-RS-001 | Retry med exponentiell backoff vid nätverksfel och `5xx`. |
+| BE-RS-002 | Circuit breaker: vid en serie fel — tillfällig nedbromsning, utan krasch. |
+| BE-RS-003 | Korrekt hantering av `429/403` (ökat intervall, paus). |
+| BE-RS-004 | Vid ändring av HomeQ:s kontrakt — alert + graceful degradation (tjänsten kraschar inte). |
+| BE-RS-005 | Health-checks + autostart (systemd/Docker restart policy). |
+| BE-RS-006 | Alerter till administratören vid otillgänglig källa, ökad latens, misslyckade utskick. |
+| BE-RS-007 | Idempotens: en omstart leder inte till dubblerade aviseringar. |
 
-## 1.6 Анонимизация / защита от блокировок (в рамках ToS)
-| ID | Требование |
+## 1.6 Anonymisering / skydd mot blockeringar (inom ramen för ToS)
+| ID | Krav |
 |---|---|
-| BE-AN-001 | Корректные/ротируемые User-Agent. |
-| BE-AN-002 | Разумные интервалы и джиттер (без агрессивного флуда). |
-| BE-AN-003 | Уважение `429/Retry-After` и backoff. |
-| BE-AN-004 | (Опционально) прокси-пул — только если не противоречит ToS; цель — устойчивость, не злонамеренный обход. |
+| BE-AN-001 | Korrekta/roterande User-Agent. |
+| BE-AN-002 | Rimliga intervall och jitter (utan aggressiv flod). |
+| BE-AN-003 | Respekt för `429/Retry-After` och backoff. |
+| BE-AN-004 | (Valfritt) proxy-pool — endast om det inte strider mot ToS; målet är robusthet, inte illvillig kringgång. |
 
-## 1.7 Технологический стек (предложение)
-| Слой | Технология | Обоснование |
+## 1.7 Teknikstack (förslag)
+| Lager | Teknik | Motivering |
 |---|---|---|
-| Язык | Python 3.12+ | По исходному ТЗ; зрелая async-экосистема. |
-| Опрос/HTTP | `httpx` + `asyncio` | Асинхронный, низколатентный. |
-| Скрейпинг (fallback) | `Playwright` | Если нужен рендеринг JS. |
-| API | FastAPI + Uvicorn | Async, авто-OpenAPI, WebSocket из коробки. |
-| Telegram | `aiogram` / `python-telegram-bot` | Async-боты. |
-| БД | PostgreSQL + SQLAlchemy + Alembic | Надёжность, миграции. |
-| Кэш/очереди | Redis | Дедуп, rate-limit, pub/sub. |
-| Контейнеризация | Docker + docker-compose | Воспроизводимое окружение. |
-| Мониторинг | Prometheus + Grafana / Uptime Kuma | Метрики и аптайм. |
-| Логи | structlog / loguru | Структурные логи без PII. |
+| Språk | Python 3.12+ | Enligt ursprunglig kravspec; mogen async-ekosystem. |
+| Fråga/HTTP | `httpx` + `asyncio` | Asynkron, låg latens. |
+| Skrapning (fallback) | `Playwright` | Om JS-rendering behövs. |
+| API | FastAPI + Uvicorn | Async, auto-OpenAPI, WebSocket direkt ur lådan. |
+| Telegram | `aiogram` / `python-telegram-bot` | Async-botar. |
+| DB | PostgreSQL + SQLAlchemy + Alembic | Tillförlitlighet, migreringar. |
+| Cache/köer | Redis | Dedup, rate-limit, pub/sub. |
+| Containerisering | Docker + docker-compose | Reproducerbar miljö. |
+| Övervakning | Prometheus + Grafana / Uptime Kuma | Mätvärden och uptime. |
+| Loggar | structlog / loguru | Strukturerade loggar utan PII. |
 
-## 1.8 Развёртывание и DevOps
-| ID | Требование |
+## 1.8 Driftsättning och DevOps
+| ID | Krav |
 |---|---|
-| BE-OPS-001 | Развёртывание на бюджетном VPS, 24/7. |
-| BE-OPS-002 | Все сервисы в Docker; запуск через `docker-compose`. |
-| BE-OPS-003 | CI/CD (GitHub Actions): линт, тесты, сборка образов. |
-| BE-OPS-004 | Секреты — через переменные окружения/секрет-стор, не в репозитории. |
-| BE-OPS-005 | Резервное копирование БД (расписание). |
-| BE-OPS-006 | ReadMe: запуск, остановка, изменение целевой частоты, восстановление. |
+| BE-OPS-001 | Driftsättning på en budget-VPS, 24/7. |
+| BE-OPS-002 | Alla tjänster i Docker; start via `docker-compose`. |
+| BE-OPS-003 | CI/CD (GitHub Actions): lint, tester, byggande av images. |
+| BE-OPS-004 | Hemligheter — via miljövariabler/secret-store, inte i repot. |
+| BE-OPS-005 | Säkerhetskopiering av DB (schemalagd). |
+| BE-OPS-006 | ReadMe: start, stopp, ändring av målfrekvens, återhämtning. |
 
-## 1.9 Тестирование
-| ID | Требование |
+## 1.9 Testning
+| ID | Krav |
 |---|---|
-| BE-QA-001 | Unit-тесты детектора FCFS и матчинга фильтров (включая граничные случаи). |
-| BE-QA-002 | Интеграционные тесты API (auth, CRUD фильтров, уведомления). |
-| BE-QA-003 | Тесты дедупликации и идемпотентности. |
-| BE-QA-004 | Нагрузочный тест: рост пользователей при неизменном центральном опросе. |
-| BE-QA-005 | Замер реальной латентности на тестовых данных. |
-| BE-QA-006 | Тест «поломки источника» (эмуляция изменения разметки) — без падения, с алертом. |
+| BE-QA-001 | Unit-tester för FCFS-detektorn och filtermatchningen (inklusive gränsfall). |
+| BE-QA-002 | Integrationstester av API (auth, CRUD av filter, aviseringar). |
+| BE-QA-003 | Tester av deduplicering och idempotens. |
+| BE-QA-004 | Lasttest: ökat antal användare med oförändrad central fråga. |
+| BE-QA-005 | Mätning av verklig latens på testdata. |
+| BE-QA-006 | Test av «källfel» (emulering av ändrad markup) — utan krasch, med alert. |
 
-## 1.10 Поставки и критерии приёмки
-**Поставки:**
-1. Документированный исходный код в приватном Git-репозитории.
-2. Развёрнутый работающий backend (поллер + API + БД + бот) на согласованном VPS.
-3. `ReadMe.md` (запуск/остановка/настройка частоты) + `COMPLIANCE.md`.
-4. OpenAPI-документация API.
+## 1.10 Leveranser och acceptanskriterier
+**Leveranser:**
+1. Dokumenterad källkod i ett privat Git-repo.
+2. Driftsatt fungerande backend (poller + API + DB + bot) på överenskommen VPS.
+3. `ReadMe.md` (start/stopp/frekvensinställning) + `COMPLIANCE.md`.
+4. OpenAPI-dokumentation av API:t.
 
-**Критерии приёмки:**
-- FCFS детектируются, очередные отсеиваются (тесты + реальные данные).
-- Уведомление со ссылкой приходит в Telegram; измеренная латентность ≤ 1.5 с в типичных условиях.
-- Сервис переживает сетевые сбои и эмуляцию изменения источника без падения.
-- API готов к подключению Frontend (auth, фильтры, лента, история, WebSocket).
+**Acceptanskriterier:**
+- FCFS detekteras, kö-annonser sållas bort (tester + verkliga data).
+- Avisering med länk kommer fram till Telegram; uppmätt latens ≤ 1,5 s under typiska förhållanden.
+- Tjänsten överlever nätverksfel och emulering av en ändrad källa utan krasch.
+- API:t är redo att kopplas till Frontend (auth, filter, flöde, historik, WebSocket).
 
-## 1.11 Вехи этапа
-| Веха | Содержание |
+## 1.11 Faser i etappen
+| Fas | Innehåll |
 |---|---|
-| M1 — Proof of Concept | Сбор данных с HomeQ + подтверждённая детекция «Först till kvarn». |
-| M2 — Интеграция | Telegram-бот шлёт тестовые уведомления с корректными данными. |
-| M3 — API + БД | Готовы хранилище, auth и API (под Frontend). |
-| M4 — Driftsättning & Test | Развёртывание на VPS + 48 ч живого теста. |
+| M1 — Proof of Concept | Datainsamling från HomeQ + bekräftad detektering av «Först till kvarn». |
+| M2 — Integration | Telegram-boten skickar testaviseringar med korrekta data. |
+| M3 — API + DB | Lagring, auth och API klara (för Frontend). |
+| M4 — Driftsättning & Test | Driftsättning på VPS + 48 h live-test. |
 
 ---
 
-## Риски (backend)
-| Риск | Митигация |
+## Risker (backend)
+| Risk | Åtgärd |
 |---|---|
-| Изменение разметки/контракта HomeQ | Изолированный адаптер, тесты, алерт + graceful degradation. |
-| Блокировка по IP/частоте | Центральный поллер, разумные интервалы, backoff, уважение `429`. |
-| Нарушение ToS HomeQ | Проверка ToS, приоритет официального API, `COMPLIANCE.md`. |
-| GDPR-несоответствие | Политика, согласия, удаление данных, шифрование секретов. |
-| Превышение бюджета латентности | Профилирование, async-рассылка, оптимизация матчинга, кэш в Redis. |
-| Лимиты Telegram | Очередь рассылки + троттлинг. |
+| Ändring av HomeQ:s markup/kontrakt | Isolerad adapter, tester, alert + graceful degradation. |
+| Blockering efter IP/frekvens | Central poller, rimliga intervall, backoff, respekt för `429`. |
+| Brott mot HomeQ:s ToS | Granskning av ToS, prioritering av officiellt API, `COMPLIANCE.md`. |
+| GDPR-bristande efterlevnad | Policy, samtycken, radering av data, kryptering av hemligheter. |
+| Överskridande av latensbudget | Profilering, async-utskick, optimering av matchning, cache i Redis. |
+| Telegram-begränsningar | Utskickskö + throttling. |
 
 ## Definition of Done (backend)
-- Критерии приёмки выполнены; CI зелёный (линт + тесты).
-- Мониторинг и алерты настроены; есть бэкап БД.
-- Документация (`ReadMe`, `COMPLIANCE`, OpenAPI) актуальна.
-- Проведён живой прогон ≥ 48 ч без критических инцидентов.
+- Acceptanskriterierna uppfyllda; CI grön (lint + tester).
+- Övervakning och alerter konfigurerade; DB-backup finns.
+- Dokumentationen (`ReadMe`, `COMPLIANCE`, OpenAPI) aktuell.
+- Live-körning ≥ 48 h utan kritiska incidenter genomförd.
 
-## Открытые вопросы
-1. Предоставляет ли HomeQ официальное/партнёрское API? Что разрешает ToS?
-2. Ожидаемое число пользователей (нагрузка, стоимость VPS)?
-3. Нужны ли e-mail/push уже на Этапе 1 или как задел?
-4. Требования к географии хостинга (ЕС/GDPR-резидентность данных)?
+## Öppna frågor
+1. Erbjuder HomeQ ett officiellt/partner-API? Vad tillåter ToS?
+2. Förväntat antal användare (last, VPS-kostnad)?
+3. Behövs e-post/push redan i Fas 1 eller som förberedelse?
+4. Krav på hostingens geografi (EU/GDPR-dataresidens)?

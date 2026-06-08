@@ -1,66 +1,66 @@
-# Техническое задание + Roadmap
-## Проект: HomeQ Real-Time Monitor (HQRTM)
-### Стек: Flask · MongoDB · HTML/CSS/JS · Tailwind CSS / Bootstrap · GitHub (Public Repo + Pages + Wiki)
+# Teknisk kravspecifikation + Roadmap
+## Projekt: HomeQ Real-Time Monitor (HQRTM)
+### Stack: Flask · MongoDB · HTML/CSS/JS · Tailwind CSS / Bootstrap · GitHub (Public Repo + Pages + Wiki)
 
 ---
 
-## 0. Введение
+## 0. Introduktion
 
-### 0.1 Назначение
-Сервис круглосуточно отслеживает публикации HomeQ, мгновенно выделяет объявления типа «Först till kvarn» (FCFS — первый успел, первый получил), отсеивает очередные, сопоставляет их с фильтрами пользователей и доставляет уведомление со ссылкой в Telegram в пределах ≤ 1.5 с. Веб-интерфейс (личный кабинет) даёт пользователю самостоятельно настраивать фильтры, привязывать Telegram и видеть живую ленту совпадений.
+### 0.1 Syfte
+Tjänsten bevakar HomeQ-publiceringar dygnet runt, lyfter omedelbart fram annonser av typen «Först till kvarn» (FCFS — först till kvarn, först till mölla), sållar bort kö-annonser, matchar dem mot användarnas filter och levererar en avisering med länk till Telegram inom ≤ 1.5 s. Webbgränssnittet (panelen) låter användaren själv ställa in filter, koppla Telegram och se ett levande flöde av matchningar.
 
-### 0.2 Зафиксированный стек
-| Слой | Технология |
+### 0.2 Fastställd stack
+| Lager | Teknologi |
 |---|---|
-| Backend API + Web | **Flask 3.x** (Python 3.12+), Jinja2 шаблоны |
-| Поллер / воркер | **Отдельный asyncio-процесс**: `httpx` + `asyncio` (+ `Playwright` как fallback) |
+| Backend API + Web | **Flask 3.x** (Python 3.12+), Jinja2-mallar |
+| Poller / worker | **Separat asyncio-process**: `httpx` + `asyncio` (+ `Playwright` som fallback) |
 | Telegram | `aiogram` (async) |
-| База данных | **MongoDB** (PyMongo для Flask, Motor для async-воркера) |
-| Real-time | **MongoDB Change Streams + SSE** (или Flask-SocketIO) |
-| Frontend стили | **Tailwind CSS** или **Bootstrap 5** (выбор — §7) |
-| Frontend логика | Vanilla **JavaScript** (`fetch`, `EventSource`) |
-| Репозиторий | **GitHub — public** |
-| Demo / витрина | **GitHub Pages** (статическая сборка с мок-данными) |
-| Документация | **GitHub Wiki** |
+| Databas | **MongoDB** (PyMongo för Flask, Motor för async-worker) |
+| Real-time | **MongoDB Change Streams + SSE** (eller Flask-SocketIO) |
+| Frontend-stilar | **Tailwind CSS** eller **Bootstrap 5** (val — §7) |
+| Frontend-logik | Vanilla **JavaScript** (`fetch`, `EventSource`) |
+| Repository | **GitHub — public** |
+| Demo / skyltfönster | **GitHub Pages** (statisk build med mock-data) |
+| Dokumentation | **GitHub Wiki** |
 | CI/CD | GitHub Actions |
-| Контейнеризация / деплой | Docker + docker-compose на VPS, Nginx + TLS |
+| Containerisering / deploy | Docker + docker-compose på VPS, Nginx + TLS |
 
-### 0.3 Глоссарий
-| Термин | Значение |
+### 0.3 Ordlista
+| Term | Betydelse |
 |---|---|
-| **FCFS / «Först till kvarn»** | Объявление «первый успел — первый получил» (целевой объект). |
-| **Queue-объект** | Очередная квартира (по баллам/времени) — **исключается** фильтром. |
-| **Poller / Monitoring Engine** | Отдельный async-процесс, опрашивающий HomeQ. |
-| **Dispatcher** | Рассылка уведомлений (Telegram). |
-| **Change Stream** | Механизм MongoDB для реакции на изменения в коллекциях в реальном времени. |
-| **SSE** | Server-Sent Events — однонаправленный поток сервер → браузер. |
+| **FCFS / «Först till kvarn»** | Annons av typen «först till kvarn — först till mölla» (målobjektet). |
+| **Kö-objekt** | Kö-lägenhet (efter poäng/tid) — **utesluts** av filtret. |
+| **Poller / Monitoring Engine** | Separat async-process som pollar HomeQ. |
+| **Dispatcher** | Utskick av aviseringar (Telegram). |
+| **Change Stream** | MongoDB-mekanism för att reagera på ändringar i kollektioner i realtid. |
+| **SSE** | Server-Sent Events — enkelriktat flöde server → webbläsare. |
 
-### 0.4 Технические оговорки по стеку (важно!)
-1. **Flask синхронный (WSGI).** Высокочастотный опрос 24/7 нельзя держать в обработчиках Flask. Поллер — **отдельный долгоживущий процесс** на `asyncio`. Flask отвечает только за API и веб-интерфейс. Связь — через MongoDB.
-2. **GitHub Pages — только статика.** Живой Flask туда не деплоится. На Pages публикуется **статическая demo-сборка фронтенда с мок-данными** (витрина + документация); рабочий бэкенд — на VPS.
-3. **Public Repo ⇒ нет секретов в коде.** Telegram-токен, Mongo URI, JWT-secret и т. п. — **только** через `.env` (в `.gitignore`) и **GitHub Secrets**. Ни одного секрета в истории коммитов.
-4. **Real-time без Redis.** Используем MongoDB Change Streams (требуют MongoDB в режиме replica set; в MongoDB Atlas включён по умолчанию, для self-hosted — настроить).
+### 0.4 Tekniska förbehåll kring stacken (viktigt!)
+1. **Flask är synkront (WSGI).** Högfrekvent polling 24/7 kan inte hållas i Flask-handlers. Pollern är en **separat långlivad process** på `asyncio`. Flask ansvarar endast för API och webbgränssnitt. Kommunikation — via MongoDB.
+2. **GitHub Pages — endast statiskt.** Levande Flask kan inte deployas dit. På Pages publiceras en **statisk demo-build av frontend med mock-data** (skyltfönster + dokumentation); den fungerande backenden ligger på VPS.
+3. **Public Repo ⇒ inga hemligheter i koden.** Telegram-token, Mongo URI, JWT-secret osv. — **endast** via `.env` (i `.gitignore`) och **GitHub Secrets**. Inte en enda hemlighet i commit-historiken.
+4. **Real-time utan Redis.** Vi använder MongoDB Change Streams (kräver MongoDB i läget replica set; i MongoDB Atlas påslaget som standard, för self-hosted — konfigurera).
 
-### 0.5 Комплаенс (обязательно до старта)
-- **ToS HomeQ + `robots.txt`:** проверить, зафиксировать в `COMPLIANCE.md`. Официальное API — в приоритете; скрейпинг — fallback и только если не противоречит ToS.
-- **GDPR (ЕС):** правовое основание, политика конфиденциальности, право на удаление данных, шифрование секретов, журнал согласий.
-- **Этичная нагрузка:** один центральный поллер на всех, разумные интервалы, backoff, реакция на `429/503`.
-- **Вне scope:** бот не логинится в аккаунт HomeQ и не подаёт заявки — только уведомляет.
+### 0.5 Compliance (obligatoriskt före start)
+- **ToS HomeQ + `robots.txt`:** kontrollera, dokumentera i `COMPLIANCE.md`. Officiellt API — i prioritet; scraping — fallback och endast om det inte strider mot ToS.
+- **GDPR (EU):** rättslig grund, integritetspolicy, rätt till radering av data, kryptering av hemligheter, samtyckesjournal.
+- **Etisk belastning:** en central poller för alla, rimliga intervall, backoff, reaktion på `429/503`.
+- **Utanför scope:** boten loggar inte in på HomeQ-konto och skickar inga ansökningar — den aviserar endast.
 
 ---
 
-## 1. Архитектура решения
+## 1. Lösningsarkitektur
 
 ```
                           ┌──────────────────────────┐
-                          │       HomeQ (источник)    │
+                          │       HomeQ (källa)       │
                           └─────────────▲─────────────┘
-                                        │ опрос (1 раз на всех)
+                                        │ polling (1 gång för alla)
         ┌───────────────────────────────┴───────────────────────────────┐
-        │              ПОЛЛЕР (asyncio-процесс, отдельный контейнер)       │
-        │   HomeQAdapter → FCFS Detector → Filter Matcher → Dispatcher     │
+        │              POLLER (asyncio-process, separat container)        │
+        │   HomeQAdapter → FCFS Detector → Filter Matcher → Dispatcher    │
         └───────┬───────────────────────────────────────────┬────────────┘
-                │ запись listings / notifications            │ Telegram
+                │ skriver listings / notifications           │ Telegram
         ┌───────▼────────────┐                       ┌───────▼────────────┐
         │      MongoDB        │◄──── Change Stream ───│   Telegram Bot     │
         │ users / filters /   │                       │   (aiogram)        │
@@ -68,62 +68,62 @@
         └───────▲────────────┘
                 │ PyMongo
         ┌───────┴────────────────────────────────┐
-        │        FLASK (API + Web, Jinja2)         │──── SSE/SocketIO ───► Браузер
+        │        FLASK (API + Web, Jinja2)         │──── SSE/SocketIO ───► Webbläsare
         │  auth · filters · listings · /ws/feed    │                       (live feed)
         └──────────────────────────────────────────┘
 ```
 
-**Процессы (раздельные контейнеры в docker-compose):**
-1. `poller` — asyncio: опрос, детекция FCFS, матчинг, постановка уведомлений.
-2. `bot` — Telegram-бот (может быть в составе `poller` или отдельно).
-3. `web` — Flask (API + веб-интерфейс + SSE).
-4. `mongo` — MongoDB (replica set для Change Streams).
+**Processer (separata containrar i docker-compose):**
+1. `poller` — asyncio: polling, FCFS-detektering, matchning, köläggning av aviseringar.
+2. `bot` — Telegram-bot (kan ingå i `poller` eller vara separat).
+3. `web` — Flask (API + webbgränssnitt + SSE).
+4. `mongo` — MongoDB (replica set för Change Streams).
 
-> Почему поллер отдельно: низкая латентность и непрерывный async-цикл несовместимы с request-response моделью Flask. Разделение также позволяет масштабировать веб и поллер независимо.
+> Varför pollern är separat: låg latens och kontinuerlig async-loop är oförenliga med Flasks request-response-modell. Uppdelningen gör det också möjligt att skala web och poller oberoende av varandra.
 
 ---
 
-## 2. Структура репозитория
+## 2. Repository-struktur
 
 ```
 hqrtm/
-├── README.md                  # Quickstart, запуск/остановка, настройка частоты
-├── COMPLIANCE.md              # Выводы по ToS HomeQ + GDPR
+├── README.md                  # Quickstart, start/stopp, inställning av frekvens
+├── COMPLIANCE.md              # Slutsatser om ToS HomeQ + GDPR
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── .gitignore                 # .env, __pycache__, node_modules, dist/ ...
-├── .env.example               # Шаблон переменных (без значений секретов)
+├── .env.example               # Mall för variabler (utan hemlighetsvärden)
 ├── docker-compose.yml
 ├── pyproject.toml / requirements.txt
 │
-├── poller/                    # Async-воркер
-│   ├── main.py                # Точка входа (asyncio loop)
-│   ├── homeq_adapter.py       # Получение + нормализация данных HomeQ
-│   ├── detector.py            # Логика FCFS vs очередь
-│   ├── matcher.py             # Матчинг с фильтрами
-│   ├── dispatcher.py          # Постановка/отправка уведомлений
+├── poller/                    # Async-worker
+│   ├── main.py                # Ingångspunkt (asyncio loop)
+│   ├── homeq_adapter.py       # Hämtning + normalisering av HomeQ-data
+│   ├── detector.py            # Logik FCFS vs kö
+│   ├── matcher.py             # Matchning mot filter
+│   ├── dispatcher.py          # Köläggning/utskick av aviseringar
 │   └── config.py
 │
-├── bot/                       # Telegram-бот (aiogram)
+├── bot/                       # Telegram-bot (aiogram)
 │   ├── main.py
-│   └── handlers.py            # /start, привязка, тест-уведомление
+│   └── handlers.py            # /start, koppling, test-avisering
 │
 ├── web/                       # Flask
-│   ├── app.py                 # Фабрика приложения, blueprints
+│   ├── app.py                 # Applikationsfabrik, blueprints
 │   ├── config.py
-│   ├── auth/                  # Регистрация/логин (blueprint)
+│   ├── auth/                  # Registrering/inloggning (blueprint)
 │   ├── api/                   # REST endpoints (blueprint)
 │   ├── sse/                   # SSE / Change Stream listener
 │   ├── templates/             # Jinja2 (base.html, dashboard.html, ...)
-│   └── static/                # Скомпилированный CSS, JS, иконки
+│   └── static/                # Kompilerad CSS, JS, ikoner
 │
 ├── shared/
-│   ├── db.py                  # Подключение к MongoDB, индексы
-│   └── models.py              # Схемы/валидация документов (pydantic)
+│   ├── db.py                  # Anslutning till MongoDB, index
+│   └── models.py              # Scheman/validering av dokument (pydantic)
 │
-├── frontend-build/            # Tailwind/Bootstrap сборка (input.css, config)
+├── frontend-build/            # Tailwind/Bootstrap-build (input.css, config)
 │
-├── demo/                      # Статическая сборка для GitHub Pages (мок-данные)
+├── demo/                      # Statisk build för GitHub Pages (mock-data)
 │   ├── index.html
 │   ├── assets/
 │   └── mock-data.js
@@ -135,9 +135,9 @@ hqrtm/
 
 ---
 
-## 3. Модель данных MongoDB
+## 3. MongoDB-datamodell
 
-**Коллекции и ключевые индексы:**
+**Kollektioner och nyckelindex:**
 
 ```javascript
 // users
@@ -150,326 +150,326 @@ hqrtm/
 
 // listings
 { _id, external_id (UNIQUE idx), title, address, district, rooms,
-  area_m2, rent, listing_type, url, published_at, fetched_at (TTL idx, напр. 7 дней) }
+  area_m2, rent, listing_type, url, published_at, fetched_at (TTL idx, t.ex. 7 dagar) }
 
 // notifications
 { _id, user_id (idx), listing_id, channel:"telegram",
   status, sent_at, latency_ms, error }
 
-// seen_listings   (дедупликация)
-{ _id: external_id, seen_at (TTL idx, напр. 24 ч) }
+// seen_listings   (deduplicering)
+{ _id: external_id, seen_at (TTL idx, t.ex. 24 h) }
 
 // audit_log
 { _id, actor, action, payload, created_at }
 ```
 
-**Требования к данным:**
-| ID | Требование |
+**Datakrav:**
+| ID | Krav |
 |---|---|
-| DB-001 | `external_id` уникален — гарантирует, что объявление обрабатывается один раз. |
-| DB-002 | TTL-индекс на `seen_listings.seen_at` авто-чистит старые записи дедупа (вместо Redis). |
-| DB-003 | TTL-индекс на `listings.fetched_at` для авто-очистки устаревших объявлений. |
-| DB-004 | Пароли — только хэш (Argon2/bcrypt); секреты не хранятся в открытом виде. |
-| DB-005 | `notifications.latency_ms` (publish → delivered) пишется для отчётности по SLA. |
-| DB-006 | MongoDB запущен как replica set (минимум single-node RS) для работы Change Streams. |
+| DB-001 | `external_id` är unikt — garanterar att en annons behandlas en gång. |
+| DB-002 | TTL-index på `seen_listings.seen_at` auto-rensar gamla dedup-poster (istället för Redis). |
+| DB-003 | TTL-index på `listings.fetched_at` för auto-rensning av föråldrade annonser. |
+| DB-004 | Lösenord — endast hash (Argon2/bcrypt); hemligheter lagras inte i klartext. |
+| DB-005 | `notifications.latency_ms` (publish → delivered) skrivs för SLA-rapportering. |
+| DB-006 | MongoDB körs som replica set (minst single-node RS) för att Change Streams ska fungera. |
 
 ---
 
-## 4. Функциональные требования
+## 4. Funktionella krav
 
-### 4.1 Поллер / Monitoring Engine
-| ID | Требование |
+### 4.1 Poller / Monitoring Engine
+| ID | Krav |
 |---|---|
-| BE-DE-001 | Получение объявлений HomeQ через API (приоритет) или скрейпинг (fallback, `Playwright`). |
-| BE-DE-002 | Опрос **централизован** — один раз за цикл, независимо от числа пользователей. |
-| BE-DE-003 | Интервал опроса конфигурируется (`POLL_INTERVAL_MS`), безопасный дефолт; описать в README. |
-| BE-DE-004 | Адаптивная частота: учащение в «горячие» часы, замедление ночью. |
-| BE-DE-005 | Парсер изолирован в `HomeQAdapter`; при изменении источника правится только он. |
-| BE-DE-006 | Нормализация в единую модель документа `listings`. |
+| BE-DE-001 | Hämtning av HomeQ-annonser via API (prioritet) eller scraping (fallback, `Playwright`). |
+| BE-DE-002 | Polling är **centraliserad** — en gång per cykel, oberoende av antalet användare. |
+| BE-DE-003 | Pollingintervallet är konfigurerbart (`POLL_INTERVAL_MS`), säkert standardvärde; beskrivs i README. |
+| BE-DE-004 | Adaptiv frekvens: ökad takt under «heta» timmar, långsammare på natten. |
+| BE-DE-005 | Parsern är isolerad i `HomeQAdapter`; vid ändring av källan justeras endast den. |
+| BE-DE-006 | Normalisering till en enhetlig dokumentmodell `listings`. |
 
-### 4.2 Детекция и фильтрация
-| ID | Требование |
+### 4.2 Detektering och filtrering
+| ID | Krav |
 |---|---|
-| BE-FL-001 | Детекция FCFS vs очередь (`detector.py`), покрыта тестами. |
-| BE-FL-002 | Дальше проходят **только FCFS**; очередные отсекаются сразу. |
-| BE-FL-003 | Дедупликация через `seen_listings` + unique-индекс. |
-| BE-FL-004 | Матчинг с фильтрами: город/район, цена, комнаты, площадь, `only_fcfs`. |
-| BE-FL-005 | Эффективный матчинг (MongoDB-запрос с индексами), без превышения бюджета латентности. |
+| BE-FL-001 | Detektering FCFS vs kö (`detector.py`), täckt av tester. |
+| BE-FL-002 | Endast **FCFS** går vidare; kö-annonser sållas bort direkt. |
+| BE-FL-003 | Deduplicering via `seen_listings` + unique-index. |
+| BE-FL-004 | Matchning mot filter: stad/distrikt, pris, rum, yta, `only_fcfs`. |
+| BE-FL-005 | Effektiv matchning (MongoDB-query med index), utan att överskrida latensbudgeten. |
 
-### 4.3 Уведомления (Telegram)
-| ID | Требование |
+### 4.3 Aviseringar (Telegram)
+| ID | Krav |
 |---|---|
-| BE-NT-001 | Сообщение: заголовок, район, цена, комнаты, площадь + **прямая ссылка** на объявление. |
-| BE-NT-002 | Параллельная рассылка всем совпавшим пользователям (async). |
-| BE-NT-003 | Троттлинг под лимиты Telegram Bot API. |
-| BE-NT-004 | Повторные попытки с backoff; статусы пишутся в `notifications`. |
-| BE-NT-005 | Привязка через deep-link/код подтверждения (используется и веб-кабинетом). |
+| BE-NT-001 | Meddelande: rubrik, distrikt, pris, rum, yta + **direktlänk** till annonsen. |
+| BE-NT-002 | Parallellt utskick till alla matchande användare (async). |
+| BE-NT-003 | Throttling enligt Telegram Bot API:s gränser. |
+| BE-NT-004 | Återförsök med backoff; statusar skrivs till `notifications`. |
+| BE-NT-005 | Koppling via deep-link/bekräftelsekod (används även av panelen). |
 
 ### 4.4 Flask API
-| ID | Endpoint | Назначение |
+| ID | Endpoint | Syfte |
 |---|---|---|
-| BE-API-001 | `POST /auth/register`, `/auth/login`, `/auth/refresh` | Регистрация/вход (JWT). |
-| BE-API-002 | `GET/POST/PUT/DELETE /api/filters` | CRUD фильтров. |
-| BE-API-003 | `GET /api/listings?matched=true` | Лента совпавших объявлений. |
-| BE-API-004 | `GET /api/notifications` | История (пагинация). |
-| BE-API-005 | `POST /api/telegram/link`, `GET /api/telegram/status` | Привязка/статус Telegram. |
-| BE-API-006 | `GET/PUT/DELETE /api/me` | Профиль; удаление аккаунта и данных (GDPR). |
-| BE-API-007 | `GET /sse/feed` | SSE-поток новых совпадений. |
-| BE-API-008 | `GET /health`, `/metrics` | Health-check и метрики. |
+| BE-API-001 | `POST /auth/register`, `/auth/login`, `/auth/refresh` | Registrering/inloggning (JWT). |
+| BE-API-002 | `GET/POST/PUT/DELETE /api/filters` | CRUD för filter. |
+| BE-API-003 | `GET /api/listings?matched=true` | Flöde av matchade annonser. |
+| BE-API-004 | `GET /api/notifications` | Historik (paginering). |
+| BE-API-005 | `POST /api/telegram/link`, `GET /api/telegram/status` | Koppling/status för Telegram. |
+| BE-API-006 | `GET/PUT/DELETE /api/me` | Profil; radering av konto och data (GDPR). |
+| BE-API-007 | `GET /sse/feed` | SSE-flöde av nya matchningar. |
+| BE-API-008 | `GET /health`, `/metrics` | Health-check och metrik. |
 | BE-API-009 | — | OpenAPI/Swagger (flasgger / apispec). |
 
-### 4.5 Веб-интерфейс (экраны)
-| ID | Экран / требование |
+### 4.5 Webbgränssnitt (skärmar)
+| ID | Skärm / krav |
 |---|---|
-| FE-001 | Landing + регистрация/вход. |
-| FE-002 | Онбординг: привязка Telegram (deep-link/код) + создание первого фильтра. |
-| FE-003 | Управление фильтрами (CRUD, вкл/выкл, клиентская валидация диапазонов). |
-| FE-004 | Дашборд с **живой лентой** совпадений (SSE), карточка + кнопка перехода на HomeQ. |
-| FE-005 | История уведомлений (пагинация, фильтрация). |
-| FE-006 | Настройки аккаунта: профиль, смена пароля, удаление данных (GDPR). |
-| FE-007 | Адаптивность (mobile-first), a11y, локализация (шв./англ.). |
-| FE-008 | Состояния загрузки/ошибки/пусто на всех экранах; авто-reconnect SSE. |
+| FE-001 | Landing + registrering/inloggning. |
+| FE-002 | Onboarding: koppling av Telegram (deep-link/kod) + skapande av första filtret. |
+| FE-003 | Hantering av filter (CRUD, på/av, klientvalidering av intervall). |
+| FE-004 | Dashboard med **levande flöde** av matchningar (SSE), kort + knapp för att gå till HomeQ. |
+| FE-005 | Aviseringshistorik (paginering, filtrering). |
+| FE-006 | Kontoinställningar: profil, lösenordsbyte, radering av data (GDPR). |
+| FE-007 | Responsivitet (mobile-first), a11y, lokalisering (sv./eng.). |
+| FE-008 | Lägen för laddning/fel/tomt på alla skärmar; auto-reconnect SSE. |
 
 ---
 
-## 5. Нефункциональные требования + бюджет латентности
-| ID | Требование | Цель |
+## 5. Icke-funktionella krav + latensbudget
+| ID | Krav | Mål |
 |---|---|---|
-| NFR-001 | Латентность publish → доставка | ≤ **1.5 с** (целевая ≤ 1.0 с) |
-| NFR-002 | Доступность | ≥ 99.5% / месяц |
-| NFR-003 | Пропускная способность рассылки | ≥ сотни/мин без деградации опроса |
-| NFR-004 | Масштабируемость | центральный опрос неизменен при росте пользователей |
-| NFR-005 | Восстановление | автоперезапуск процессов, без потери дедупа |
-| NFR-006 | Безопасность | TLS, хэш паролей, секреты вне репозитория, без PII в логах |
+| NFR-001 | Latens publish → leverans | ≤ **1.5 s** (mål ≤ 1.0 s) |
+| NFR-002 | Tillgänglighet | ≥ 99.5% / månad |
+| NFR-003 | Utskickskapacitet | ≥ hundratals/min utan degradering av polling |
+| NFR-004 | Skalbarhet | central polling oförändrad när användarantalet växer |
+| NFR-005 | Återhämtning | autoomstart av processer, utan förlust av dedup |
+| NFR-006 | Säkerhet | TLS, lösenordshash, hemligheter utanför repot, ingen PII i loggar |
 
-**Бюджет латентности (целевые 1.5 с):** опрос ~0.5–0.8 с · запрос+парсинг ~0.2–0.3 с · детекция+матчинг ~0.05–0.15 с · отправка в Telegram ~0.2–0.4 с.
+**Latensbudget (mål 1.5 s):** polling ~0.5–0.8 s · request+parsing ~0.2–0.3 s · detektering+matchning ~0.05–0.15 s · utskick till Telegram ~0.2–0.4 s.
 
 ---
 
 ## 6. Frontend: Tailwind CSS vs Bootstrap
-| Критерий | Tailwind CSS | Bootstrap 5 |
+| Kriterium | Tailwind CSS | Bootstrap 5 |
 |---|---|---|
-| Подход | Utility-first, кастомный дизайн | Готовые компоненты |
-| Скорость старта | Чуть медленнее (нужен build) | Очень быстро (CDN) |
-| Уникальность UI | Высокая | Средняя (узнаваемый «бутстрап-вид») |
-| Размер бандла | Малый (purge неиспользуемого) | Больше из коробки |
-| Кривая входа | Чуть выше | Низкая |
+| Ansats | Utility-first, anpassad design | Färdiga komponenter |
+| Starthastighet | Något långsammare (kräver build) | Mycket snabbt (CDN) |
+| UI-unikhet | Hög | Medel (igenkännbart «bootstrap-utseende») |
+| Bundle-storlek | Liten (purge av oanvänt) | Större direkt ur lådan |
+| Inlärningskurva | Något högre | Låg |
 
-**Рекомендация:** если важен кастомный современный вид и есть время на build-шаг — **Tailwind** (через CLI/PostCSS; для прототипа допустим Play CDN). Если приоритет — скорость и готовые компоненты — **Bootstrap 5** (CDN, минимум настройки). Выбор фиксируется в начале §Roadmap, фаза 5.
+**Rekommendation:** om ett anpassat modernt utseende är viktigt och det finns tid för ett build-steg — **Tailwind** (via CLI/PostCSS; för prototyp är Play CDN acceptabelt). Om prioriteten är hastighet och färdiga komponenter — **Bootstrap 5** (CDN, minimal konfiguration). Valet fastställs i början av §Roadmap, fas 5.
 
-**UI-структура:** базовый шаблон `base.html` (шапка/навигация/футер) → наследуемые страницы; общий дизайн-токен (цвета, типографика); компоненты карточки объявления, формы фильтра, тост-уведомлений.
-
----
-
-## 7. Real-time стратегия
-1. Поллер пишет новое совпадение в `notifications`.
-2. Flask слушает **Change Stream** коллекции `notifications` (фоновый поток).
-3. По событию Flask отправляет данные в браузер через **SSE** (`/sse/feed`), фильтруя по `user_id`.
-4. Клиент (`EventSource`) добавляет карточку в ленту без перезагрузки; при разрыве — авто-reconnect.
-5. Fallback: если SSE недоступен — периодический `GET /api/listings?matched=true`.
-
-> Альтернатива — Flask-SocketIO (двусторонний канал). SSE проще и достаточен для односторонней ленты.
+**UI-struktur:** basmall `base.html` (header/navigering/footer) → ärvda sidor; gemensam designtoken (färger, typografi); komponenter för annonskort, filterformulär, toast-aviseringar.
 
 ---
 
-## 8. GitHub: репозиторий, ветки, CI/CD
-| ID | Требование |
+## 7. Real-time-strategi
+1. Pollern skriver en ny matchning till `notifications`.
+2. Flask lyssnar på **Change Stream** för kollektionen `notifications` (bakgrundsflöde).
+3. Vid en händelse skickar Flask data till webbläsaren via **SSE** (`/sse/feed`), filtrerat på `user_id`.
+4. Klienten (`EventSource`) lägger till ett kort i flödet utan omladdning; vid avbrott — auto-reconnect.
+5. Fallback: om SSE inte är tillgängligt — periodisk `GET /api/listings?matched=true`.
+
+> Alternativ — Flask-SocketIO (dubbelriktad kanal). SSE är enklare och tillräckligt för ett enkelriktat flöde.
+
+---
+
+## 8. GitHub: repository, grenar, CI/CD
+| ID | Krav |
 |---|---|
-| GH-001 | **Public** репозиторий; `LICENSE`, `README`, `CONTRIBUTING`, `.gitignore`. |
-| GH-002 | Ветвление: `main` (стабильная) ← `develop` ← `feature/*`; PR + ревью. |
-| GH-003 | Секреты — **только** в GitHub Secrets и локальном `.env`; `.env` в `.gitignore`. |
-| GH-004 | Pre-commit хуки (ruff/black, detect-secrets) — защита от утечки токенов в public repo. |
-| GH-005 | CI (`ci.yml`): линт + тесты на каждый PR. |
-| GH-006 | CD (`deploy-pages.yml`): сборка demo → GitHub Pages. |
-| GH-007 | CD (`deploy-vps.yml`): деплой контейнеров на VPS (по тегу/релизу). |
-| GH-008 | Issues + Projects (kanban) для трекинга задач roadmap. |
+| GH-001 | **Public** repository; `LICENSE`, `README`, `CONTRIBUTING`, `.gitignore`. |
+| GH-002 | Grenstruktur: `main` (stabil) ← `develop` ← `feature/*`; PR + granskning. |
+| GH-003 | Hemligheter — **endast** i GitHub Secrets och lokal `.env`; `.env` i `.gitignore`. |
+| GH-004 | Pre-commit-hooks (ruff/black, detect-secrets) — skydd mot läckage av token i public repo. |
+| GH-005 | CI (`ci.yml`): lint + tester på varje PR. |
+| GH-006 | CD (`deploy-pages.yml`): build av demo → GitHub Pages. |
+| GH-007 | CD (`deploy-vps.yml`): deploy av containrar till VPS (per tag/release). |
+| GH-008 | Issues + Projects (kanban) för att spåra roadmap-uppgifter. |
 
 ---
 
-## 9. GitHub Pages: что публикуем
-**Только статика** — demo-витрина для стейкхолдеров (живой бэкенд остаётся на VPS):
-| ID | Требование |
+## 9. GitHub Pages: vad vi publicerar
+**Endast statiskt** — demo-skyltfönster för intressenter (den levande backenden förblir på VPS):
+| ID | Krav |
 |---|---|
-| GP-001 | Статическая сборка фронтенда из `demo/` с **мок-данными** (`mock-data.js`). |
-| GP-002 | Демонстрирует: дашборд, ленту, формы фильтров, экран привязки Telegram — без реального API. |
-| GP-003 | Можно добавить страницу-галерею примеров уведомлений (скриншоты). |
-| GP-004 | Публикация автоматическая через Actions (ветка `gh-pages` или каталог `/docs`). |
-| GP-005 | Ссылка на demo — в `README` и в Wiki. |
-| GP-006 | На demo — баннер «Demo с мок-данными, не рабочий сервис». |
+| GP-001 | Statisk build av frontend från `demo/` med **mock-data** (`mock-data.js`). |
+| GP-002 | Demonstrerar: dashboard, flöde, filterformulär, Telegram-kopplingsskärm — utan riktigt API. |
+| GP-003 | Kan kompletteras med en gallerisida med exempel på aviseringar (skärmdumpar). |
+| GP-004 | Publicering automatisk via Actions (grenen `gh-pages` eller katalogen `/docs`). |
+| GP-005 | Länk till demo — i `README` och i Wiki. |
+| GP-006 | På demon — en banner «Demo med mock-data, inte en fungerande tjänst». |
 
 ---
 
-## 10. GitHub Wiki: структура страниц
-| Страница | Содержание |
+## 10. GitHub Wiki: sidstruktur
+| Sida | Innehåll |
 |---|---|
-| **Home** | Обзор проекта, ссылки на ключевые страницы и demo. |
-| **Architecture** | Диаграмма, описание процессов (poller/web/bot/mongo). |
-| **Setup & Installation** | Локальный запуск: Python, MongoDB (RS), `.env`, frontend-build. |
-| **Configuration** | Все переменные окружения, как менять частоту опроса. |
-| **Data Model** | Коллекции MongoDB, индексы, примеры документов. |
-| **FCFS Detection** | Как определяется «Först till kvarn», граничные случаи. |
-| **API Reference** | Эндпоинты, запросы/ответы (со ссылкой на Swagger). |
-| **Frontend Guide** | Сборка Tailwind/Bootstrap, структура шаблонов, SSE. |
-| **Deployment (VPS)** | Docker, Nginx, TLS, бэкапы, запуск/остановка. |
-| **GitHub Pages Demo** | Как собирается и публикуется витрина. |
-| **Troubleshooting / FAQ** | Типовые проблемы (источник недоступен, SSE рвётся и т. п.). |
-| **Compliance & Legal** | ToS HomeQ, GDPR, ограничения (вне scope). |
-| **Roadmap & Changelog** | Прогресс по фазам, история версий. |
+| **Home** | Projektöversikt, länkar till nyckelsidor och demo. |
+| **Architecture** | Diagram, beskrivning av processer (poller/web/bot/mongo). |
+| **Setup & Installation** | Lokal körning: Python, MongoDB (RS), `.env`, frontend-build. |
+| **Configuration** | Alla miljövariabler, hur man ändrar pollingfrekvens. |
+| **Data Model** | MongoDB-kollektioner, index, dokumentexempel. |
+| **FCFS Detection** | Hur «Först till kvarn» avgörs, gränsfall. |
+| **API Reference** | Endpoints, requests/responses (med länk till Swagger). |
+| **Frontend Guide** | Build av Tailwind/Bootstrap, mallstruktur, SSE. |
+| **Deployment (VPS)** | Docker, Nginx, TLS, backuper, start/stopp. |
+| **GitHub Pages Demo** | Hur skyltfönstret byggs och publiceras. |
+| **Troubleshooting / FAQ** | Vanliga problem (källa otillgänglig, SSE bryts osv.). |
+| **Compliance & Legal** | ToS HomeQ, GDPR, begränsningar (utanför scope). |
+| **Roadmap & Changelog** | Framsteg per fas, versionshistorik. |
 
 ---
 
-## 11. ROADMAP — пошаговая реализация
-> Чек-листы можно вести прямо в Issues/Projects. Сроки ориентировочные (для 1 разработчика); при команде — параллелится.
+## 11. ROADMAP — stegvis implementering
+> Checklistor kan föras direkt i Issues/Projects. Tidsangivelser är ungefärliga (för 1 utvecklare); med ett team — parallelliseras.
 
-### Фаза 0 — Подготовка (≈ 2–3 дня)
-- [ ] Создать **public** репозиторий, добавить `LICENSE`, `README`, `.gitignore`, `CONTRIBUTING.md`.
-- [ ] Завести структуру каталогов (см. §2).
-- [ ] Настроить виртуальное окружение, `requirements.txt`/`pyproject.toml`.
-- [ ] Создать `.env.example`; настроить загрузку `.env` (python-dotenv); добавить `.env` в `.gitignore`.
-- [ ] Подключить pre-commit (ruff/black + **detect-secrets**) — защита public repo от утечек.
-- [ ] Инициализировать **Wiki** скелетом страниц (§10, пока заглушки).
-- [ ] Настроить CI `ci.yml` (линт + пустой прогон тестов).
-- [ ] Создать GitHub Project (kanban) и перенести шаги roadmap в Issues.
+### Fas 0 — Förberedelse (≈ 2–3 dagar)
+- [ ] Skapa **public** repository, lägg till `LICENSE`, `README`, `.gitignore`, `CONTRIBUTING.md`.
+- [ ] Sätta upp katalogstrukturen (se §2).
+- [ ] Konfigurera virtuell miljö, `requirements.txt`/`pyproject.toml`.
+- [ ] Skapa `.env.example`; konfigurera inläsning av `.env` (python-dotenv); lägga till `.env` i `.gitignore`.
+- [ ] Koppla in pre-commit (ruff/black + **detect-secrets**) — skydd av public repo mot läckage.
+- [ ] Initiera **Wiki** med ett skelett av sidor (§10, tills vidare platshållare).
+- [ ] Konfigurera CI `ci.yml` (lint + tom testkörning).
+- [ ] Skapa ett GitHub Project (kanban) och flytta roadmap-stegen till Issues.
 
-### Фаза 1 — Слой данных MongoDB (≈ 2–3 дня)
-- [ ] Поднять MongoDB локально как **replica set** (для Change Streams) и/или завести Atlas free-tier.
-- [ ] `shared/db.py`: подключение (PyMongo + Motor), функция создания индексов.
-- [ ] Создать коллекции и индексы (unique `external_id`, TTL `seen_listings`, TTL `listings`).
-- [ ] `shared/models.py`: pydantic-схемы и валидация документов.
-- [ ] Wiki: заполнить **Data Model**.
+### Fas 1 — MongoDB-datalager (≈ 2–3 dagar)
+- [ ] Sätta upp MongoDB lokalt som **replica set** (för Change Streams) och/eller skapa Atlas free-tier.
+- [ ] `shared/db.py`: anslutning (PyMongo + Motor), funktion för att skapa index.
+- [ ] Skapa kollektioner och index (unique `external_id`, TTL `seen_listings`, TTL `listings`).
+- [ ] `shared/models.py`: pydantic-scheman och validering av dokument.
+- [ ] Wiki: fylla i **Data Model**.
 
-### Фаза 2 — Поллер / PoC (≈ 1 неделя) → **Веха M1**
-- [ ] Исследовать источник HomeQ (API vs скрейпинг), зафиксировать в `COMPLIANCE.md`.
-- [ ] `homeq_adapter.py`: получение + нормализация в модель `listings`.
-- [ ] `detector.py`: логика FCFS vs очередь + unit-тесты на граничные случаи.
-- [ ] Дедупликация через `seen_listings`.
-- [ ] `poller/main.py`: async-цикл опроса с backoff и адаптивной частотой.
-- [ ] **Проверка M1:** FCFS-объявления стабильно детектируются, очередные отсекаются.
+### Fas 2 — Poller / PoC (≈ 1 vecka) → **Milstolpe M1**
+- [ ] Undersöka HomeQ-källan (API vs scraping), dokumentera i `COMPLIANCE.md`.
+- [ ] `homeq_adapter.py`: hämtning + normalisering till modellen `listings`.
+- [ ] `detector.py`: logik FCFS vs kö + unit-tester på gränsfall.
+- [ ] Deduplicering via `seen_listings`.
+- [ ] `poller/main.py`: async-pollingloop med backoff och adaptiv frekvens.
+- [ ] **Kontroll M1:** FCFS-annonser detekteras stabilt, kö-annonser sållas bort.
 - [ ] Wiki: **FCFS Detection**.
 
-### Фаза 3 — Telegram-интеграция (≈ 4–5 дней) → **Веха M2**
-- [ ] Создать бота через BotFather; токен — в `.env`/Secrets (не в коде!).
-- [ ] `bot/handlers.py`: `/start`, привязка по deep-link/коду, тест-уведомление.
-- [ ] `matcher.py`: матчинг объявления с фильтрами пользователей (MongoDB-запрос).
-- [ ] `dispatcher.py`: async-рассылка, троттлинг, retry, запись в `notifications` + `latency_ms`.
-- [ ] **Проверка M2:** тестовые уведомления приходят с корректными данными и ссылкой.
+### Fas 3 — Telegram-integration (≈ 4–5 dagar) → **Milstolpe M2**
+- [ ] Skapa en bot via BotFather; token — i `.env`/Secrets (inte i koden!).
+- [ ] `bot/handlers.py`: `/start`, koppling via deep-link/kod, test-avisering.
+- [ ] `matcher.py`: matchning av annons mot användarnas filter (MongoDB-query).
+- [ ] `dispatcher.py`: async-utskick, throttling, retry, skrivning till `notifications` + `latency_ms`.
+- [ ] **Kontroll M2:** testaviseringar kommer fram med korrekta data och länk.
 
-### Фаза 4 — Flask API + Auth (≈ 1 неделя)
-- [ ] `web/app.py`: фабрика приложения, blueprints, конфиг.
-- [ ] Auth: регистрация/логин, хэш паролей (Argon2/bcrypt), JWT (access+refresh) или сессии.
-- [ ] Rate-limiting на auth (flask-limiter).
+### Fas 4 — Flask API + Auth (≈ 1 vecka)
+- [ ] `web/app.py`: applikationsfabrik, blueprints, konfiguration.
+- [ ] Auth: registrering/inloggning, lösenordshash (Argon2/bcrypt), JWT (access+refresh) eller sessioner.
+- [ ] Rate-limiting på auth (flask-limiter).
 - [ ] CRUD `/api/filters`.
-- [ ] `/api/listings`, `/api/notifications` (пагинация).
+- [ ] `/api/listings`, `/api/notifications` (paginering).
 - [ ] `/api/telegram/link`, `/api/telegram/status`.
-- [ ] `/api/me` (GET/PUT/DELETE — удаление данных GDPR).
+- [ ] `/api/me` (GET/PUT/DELETE — radering av data GDPR).
 - [ ] OpenAPI/Swagger (flasgger).
 - [ ] Wiki: **API Reference**, **Configuration**.
 
-### Фаза 5 — Frontend (Flask + Tailwind/Bootstrap + JS) (≈ 1.5 недели)
-- [ ] **Зафиксировать выбор: Tailwind или Bootstrap**; настроить build (или CDN).
-- [ ] `base.html` + дизайн-токены + навигация/футер.
-- [ ] Страницы auth (регистрация/вход) с валидацией.
-- [ ] Онбординг + UI привязки Telegram (статус, тест-уведомление).
-- [ ] UI управления фильтрами (CRUD, вкл/выкл, валидация диапазонов).
-- [ ] Дашборд + **живая лента** (SSE/`EventSource`) + карточка объявления.
-- [ ] История уведомлений (пагинация, фильтры).
-- [ ] Настройки аккаунта (профиль, пароль, удаление данных).
-- [ ] Адаптивность (mobile-first), a11y, i18n (шв./англ.), состояния загрузки/ошибки/пусто.
+### Fas 5 — Frontend (Flask + Tailwind/Bootstrap + JS) (≈ 1.5 veckor)
+- [ ] **Fastställa valet: Tailwind eller Bootstrap**; konfigurera build (eller CDN).
+- [ ] `base.html` + designtoken + navigering/footer.
+- [ ] Auth-sidor (registrering/inloggning) med validering.
+- [ ] Onboarding + UI för Telegram-koppling (status, test-avisering).
+- [ ] UI för filterhantering (CRUD, på/av, validering av intervall).
+- [ ] Dashboard + **levande flöde** (SSE/`EventSource`) + annonskort.
+- [ ] Aviseringshistorik (paginering, filter).
+- [ ] Kontoinställningar (profil, lösenord, radering av data).
+- [ ] Responsivitet (mobile-first), a11y, i18n (sv./eng.), lägen för laddning/fel/tomt.
 - [ ] Wiki: **Frontend Guide**.
 
-### Фаза 6 — Real-time (SSE + Change Streams) (≈ 3–4 дня)
-- [ ] Фоновый слушатель Change Stream коллекции `notifications` в Flask.
-- [ ] Эндпоинт `/sse/feed` с фильтрацией по `user_id`.
-- [ ] Клиентский `EventSource` + дедуп + авто-reconnect; fallback на polling.
-- [ ] Тест разрыва соединения и восстановления.
+### Fas 6 — Real-time (SSE + Change Streams) (≈ 3–4 dagar)
+- [ ] Bakgrundslyssnare för Change Stream på kollektionen `notifications` i Flask.
+- [ ] Endpoint `/sse/feed` med filtrering på `user_id`.
+- [ ] Klientens `EventSource` + dedup + auto-reconnect; fallback till polling.
+- [ ] Test av anslutningsavbrott och återhämtning.
 
-### Фаза 7 — GitHub Pages demo (≈ 2–3 дня)
-- [ ] Собрать статическую версию фронтенда в `demo/` с `mock-data.js`.
-- [ ] Добавить баннер «Demo / мок-данные».
-- [ ] Настроить `deploy-pages.yml` (Actions → `gh-pages`/`/docs`).
-- [ ] Проверить публикацию, добавить ссылку в `README` и Wiki.
+### Fas 7 — GitHub Pages demo (≈ 2–3 dagar)
+- [ ] Bygga en statisk version av frontend i `demo/` med `mock-data.js`.
+- [ ] Lägga till en banner «Demo / mock-data».
+- [ ] Konfigurera `deploy-pages.yml` (Actions → `gh-pages`/`/docs`).
+- [ ] Kontrollera publiceringen, lägga till länk i `README` och Wiki.
 - [ ] Wiki: **GitHub Pages Demo**.
 
-### Фаза 8 — Устойчивость, безопасность, наблюдаемость (≈ 4–5 дней)
-- [ ] Обработка ошибок + circuit breaker в поллере; реакция на `429/403`.
-- [ ] Алерты администратору (Telegram/e-mail) при сбоях источника/рассылок/росте латентности.
-- [ ] Anti-blocking в рамках ToS: ротация User-Agent, джиттер интервалов, уважение `Retry-After`.
-- [ ] Структурное логирование (без PII), `/health`, `/metrics`.
-- [ ] Graceful degradation при изменении разметки HomeQ (алерт, без падения).
+### Fas 8 — Robusthet, säkerhet, observerbarhet (≈ 4–5 dagar)
+- [ ] Felhantering + circuit breaker i pollern; reaktion på `429/403`.
+- [ ] Larm till administratör (Telegram/e-post) vid fel i källa/utskick/ökad latens.
+- [ ] Anti-blocking inom ToS: rotation av User-Agent, jitter på intervall, respekt för `Retry-After`.
+- [ ] Strukturerad loggning (utan PII), `/health`, `/metrics`.
+- [ ] Graceful degradation vid ändring av HomeQ-markup (larm, utan krasch).
 
-### Фаза 9 — Тестирование (≈ 1 неделя)
-- [ ] Unit: `detector`, `matcher` (включая граничные случаи).
-- [ ] Integration: API + MongoDB (`mongomock` или test-контейнер).
-- [ ] Дедупликация и идемпотентность.
-- [ ] E2E (Playwright): регистрация → привязка Telegram → создание фильтра → совпадение в ленте.
-- [ ] Нагрузочный (locust): рост пользователей при неизменном центральном опросе.
-- [ ] Замер реальной латентности на тестовых данных.
+### Fas 9 — Testning (≈ 1 vecka)
+- [ ] Unit: `detector`, `matcher` (inklusive gränsfall).
+- [ ] Integration: API + MongoDB (`mongomock` eller test-container).
+- [ ] Deduplicering och idempotens.
+- [ ] E2E (Playwright): registrering → koppling av Telegram → skapande av filter → matchning i flödet.
+- [ ] Belastning (locust): tillväxt av användare vid oförändrad central polling.
+- [ ] Mätning av verklig latens på testdata.
 
-### Фаза 10 — Развёртывание на VPS (≈ 4–5 дней) → **Веха M3**
-- [ ] Dockerfile-ы для `poller`, `bot`, `web`; `docker-compose.yml` (+ `mongo` как RS).
-- [ ] Провизия VPS; Nginx reverse proxy; TLS (Let's Encrypt/certbot).
-- [ ] Restart-policy / автоперезапуск процессов.
-- [ ] Бэкап MongoDB (`mongodump` по cron).
-- [ ] `deploy-vps.yml` (CI/CD деплой по релизу).
-- [ ] **48-часовой живой тест-прогон.**
+### Fas 10 — Utrullning på VPS (≈ 4–5 dagar) → **Milstolpe M3**
+- [ ] Dockerfile-er för `poller`, `bot`, `web`; `docker-compose.yml` (+ `mongo` som RS).
+- [ ] Provisionering av VPS; Nginx reverse proxy; TLS (Let's Encrypt/certbot).
+- [ ] Restart-policy / autoomstart av processer.
+- [ ] Backup av MongoDB (`mongodump` via cron).
+- [ ] `deploy-vps.yml` (CI/CD-deploy per release).
+- [ ] **48-timmars live-testkörning.**
 - [ ] Wiki: **Deployment (VPS)**.
 
-### Фаза 11 — Документация и сдача (≈ 2–3 дня)
-- [ ] Дозаполнить все страницы Wiki (§10).
-- [ ] Финализировать `README` (quickstart, запуск/остановка, настройка частоты).
-- [ ] `COMPLIANCE.md`, `LICENSE`, `CONTRIBUTING.md` — финал.
-- [ ] Пройти чек-лист приёмки (§14) и Definition of Done (§15).
+### Fas 11 — Dokumentation och leverans (≈ 2–3 dagar)
+- [ ] Slutfylla alla Wiki-sidor (§10).
+- [ ] Finalisera `README` (quickstart, start/stopp, inställning av frekvens).
+- [ ] `COMPLIANCE.md`, `LICENSE`, `CONTRIBUTING.md` — final.
+- [ ] Gå igenom acceptanschecklistan (§14) och Definition of Done (§15).
 
-**Сводный таймлайн (ориентир, 1 разработчик):** ≈ 7–9 недель. M1 — конец фазы 2; M2 — конец фазы 3; M3 — конец фазы 10.
-
----
-
-## 12. Тестирование (сводно)
-Unit (детектор, матчинг) · Integration (API + Mongo) · Дедуп/идемпотентность · E2E (Playwright, полный путь пользователя) · Нагрузочный (locust) · Замер латентности · Тест «поломки источника».
+**Sammanfattad tidslinje (riktmärke, 1 utvecklare):** ≈ 7–9 veckor. M1 — slutet av fas 2; M2 — slutet av fas 3; M3 — slutet av fas 10.
 
 ---
 
-## 13. Безопасность и анонимизация (в рамках ToS)
-TLS · хэш паролей (Argon2/bcrypt) · секреты вне репозитория (Secrets + `.env`) · detect-secrets в pre-commit · rate-limiting на auth · ротация User-Agent · разумные интервалы и джиттер · уважение `429/Retry-After` · логи без PII.
+## 12. Testning (sammanfattat)
+Unit (detektor, matchning) · Integration (API + Mongo) · Dedup/idempotens · E2E (Playwright, hela användarflödet) · Belastning (locust) · Mätning av latens · Test «källa går sönder».
 
 ---
 
-## 14. Поставки и критерии приёмки
-**Поставки:**
-1. Документированный код в **public** GitHub-репозитории (poller + bot + web).
-2. Развёрнутый рабочий сервис на VPS (24/7).
-3. **GitHub Pages** — статическая demo-витрина с мок-данными.
-4. Полная **GitHub Wiki**.
-5. `README` (запуск/остановка/частота), `COMPLIANCE.md`, OpenAPI-документация.
-
-**Критерии приёмки:**
-- FCFS детектируются, очередные отсекаются (тесты + реальные данные).
-- Уведомление со ссылкой приходит в Telegram; измеренная латентность ≤ 1.5 с.
-- Веб-кабинет: полный путь регистрация → Telegram → фильтр → живая лента → история.
-- Сервис переживает сетевые сбои и эмуляцию изменения источника без падения.
-- Demo опубликовано на Pages, Wiki заполнена, в публичной истории нет секретов.
+## 13. Säkerhet och anonymisering (inom ToS)
+TLS · lösenordshash (Argon2/bcrypt) · hemligheter utanför repot (Secrets + `.env`) · detect-secrets i pre-commit · rate-limiting på auth · rotation av User-Agent · rimliga intervall och jitter · respekt för `429/Retry-After` · loggar utan PII.
 
 ---
 
-## 15. Риски и Definition of Done
-| Риск | Митигация |
+## 14. Leveranser och acceptanskriterier
+**Leveranser:**
+1. Dokumenterad kod i ett **public** GitHub-repository (poller + bot + web).
+2. Utrullad fungerande tjänst på VPS (24/7).
+3. **GitHub Pages** — statiskt demo-skyltfönster med mock-data.
+4. Komplett **GitHub Wiki**.
+5. `README` (start/stopp/frekvens), `COMPLIANCE.md`, OpenAPI-dokumentation.
+
+**Acceptanskriterier:**
+- FCFS detekteras, kö-annonser sållas bort (tester + verkliga data).
+- Avisering med länk kommer fram i Telegram; uppmätt latens ≤ 1.5 s.
+- Panel: hela flödet registrering → Telegram → filter → levande flöde → historik.
+- Tjänsten överlever nätverksfel och emulering av ändring av källan utan krasch.
+- Demo publicerat på Pages, Wiki ifylld, inga hemligheter i den publika historiken.
+
+---
+
+## 15. Risker och Definition of Done
+| Risk | Mitigering |
 |---|---|
-| Изменение источника HomeQ | Изолированный адаптер, тесты, алерт + graceful degradation. |
-| Блокировка по частоте/IP | Центральный поллер, разумные интервалы, backoff, `429`. |
-| Утечка секретов в public repo | `.gitignore`, GitHub Secrets, detect-secrets в pre-commit. |
-| Flask-латентность | Поллер — отдельный async-процесс; матчинг по индексам. |
-| Change Streams не работают | MongoDB в режиме replica set (Atlas или настройка RS). |
-| GitHub Pages ≠ бэкенд | На Pages — только статический demo; рабочий бэкенд на VPS. |
-| GDPR-несоответствие | Политика, согласия, удаление данных, шифрование секретов. |
+| Ändring av HomeQ-källan | Isolerad adapter, tester, larm + graceful degradation. |
+| Blockering pga frekvens/IP | Central poller, rimliga intervall, backoff, `429`. |
+| Läckage av hemligheter i public repo | `.gitignore`, GitHub Secrets, detect-secrets i pre-commit. |
+| Flask-latens | Pollern — separat async-process; matchning via index. |
+| Change Streams fungerar inte | MongoDB i läget replica set (Atlas eller RS-konfiguration). |
+| GitHub Pages ≠ backend | På Pages — endast statiskt demo; fungerande backend på VPS. |
+| GDPR-bristande efterlevnad | Policy, samtycken, radering av data, kryptering av hemligheter. |
 
-**Definition of Done:** все критерии приёмки выполнены · CI зелёный · мониторинг/алерты + бэкап БД настроены · документация (Wiki/README/COMPLIANCE/OpenAPI) актуальна · 48-часовой прогон без критических инцидентов · в публичной истории нет секретов.
+**Definition of Done:** alla acceptanskriterier uppfyllda · CI grön · monitoring/larm + DB-backup konfigurerade · dokumentation (Wiki/README/COMPLIANCE/OpenAPI) aktuell · 48-timmars körning utan kritiska incidenter · inga hemligheter i den publika historiken.
 
 ---
 
-## 16. Открытые вопросы (зафиксировать до старта)
-1. HomeQ: есть ли официальное/партнёрское API? Что разрешает ToS?
-2. Tailwind или Bootstrap — финальный выбор?
-3. Ожидаемое число пользователей (нагрузка, выбор VPS)?
-4. Нужна ли монетизация/тарифы и админ-панель в этой фазе?
-5. MongoDB: self-hosted (настройка replica set) или Atlas?
-6. Языки интерфейса на старте (шв./англ./др.)?
+## 16. Öppna frågor (fastställs före start)
+1. HomeQ: finns officiellt/partner-API? Vad tillåter ToS?
+2. Tailwind eller Bootstrap — slutgiltigt val?
+3. Förväntat antal användare (belastning, val av VPS)?
+4. Behövs monetisering/prisplaner och admin-panel i denna fas?
+5. MongoDB: self-hosted (konfiguration av replica set) eller Atlas?
+6. Gränssnittsspråk vid start (sv./eng./övriga)?

@@ -1,125 +1,125 @@
-# CLAUDE.md — руководство для ИИ-ассистента по проекту HQRTM
+# CLAUDE.md — handledning för AI-assistenten i projektet HQRTM
 
-> Этот файл — точка входа для любого ИИ-ассистента (Claude Code и др.), работающего над проектом.
-> Читай его **первым**, до любых действий. Поддерживай его в актуальном состоянии: после
-> значимых решений и изменений — обновляй разделы «Текущее состояние» и «Журнал решений» внизу.
-
----
-
-## 1. Что это за проект
-
-**HQRTM** — **all-in-one агрегатор** мониторинга аренды жилья на нескольких шведских площадках
-(HomeQ — первая; далее Qasa, Blocket Bostad, Bostad Direkt, Samtrygg, Bostadsförmedlingen, Boplats…).
-Круглосуточно мониторит публикации, мгновенно выделяет объявления типа **«Först till kvarn» (FCFS)**,
-отсеивает «очередные» (queue), сопоставляет с фильтрами пользователей и доставляет уведомление
-со ссылкой в **Telegram за ≤ 1.5 с**. Веб-кабинет: фильтры, привязка Telegram, живая лента.
-
-> **Мульти-source (решение 2026-06-07):** источник изолирован в адаптере `poller/sources/`
-> (база `SourceAdapter` + реестр). Все площадки нормализуются в одну коллекцию `listings`
-> с полем `source`; уникальность объявления — пара **(source, external_id)**. Добавить площадку =
-> новый адаптер, ядро поллера не меняется. ⚠️ ToS/robots.txt — **отдельно по каждой площадке**
-> (чек-лист в `COMPLIANCE.md`); адаптер `enabled=True` только после положительного вывода.
-
-**Вне scope (важно):** бот **не** логинится в аккаунты площадок и **не** подаёт заявки — только уведомляет.
+> Den här filen är ingångspunkten för varje AI-assistent (Claude Code m.fl.) som arbetar med projektet.
+> Läs den **först**, före varje åtgärd. Håll den uppdaterad: efter
+> betydande beslut och ändringar — uppdatera avsnitten ”Nuvarande tillstånd” och ”Beslutslogg” längst ner.
 
 ---
 
-## 2. ⚠️ ГЛАВНОЕ: какой стек считать каноническим
+## 1. Vad är det här för projekt
 
-В репозитории три ТЗ, и они **противоречат друг другу по технологиям**. Это не ошибка чтения —
-это эволюция замысла. Каноническим является **последний и самый детальный** документ:
+**HQRTM** — en **all-in-one-aggregator** för bevakning av bostadsuthyrning på flera svenska plattformar
+(HomeQ — den första; därefter Qasa, Blocket Bostad, Bostad Direkt, Samtrygg, Bostadsförmedlingen, Boplats…).
+Bevakar publiceringar dygnet runt, lyfter omedelbart fram annonser av typen **”Först till kvarn” (FCFS)**,
+sållar bort ”kö”-annonser (queue), matchar mot användarnas filter och levererar en avisering
+med länk till **Telegram inom ≤ 1.5 s**. Webbpanel: filter, koppling av Telegram, live-flöde.
 
-### ✅ Источник истины: `HQRTM_ToR_Flask_MongoDB_Roadmap.md`
+> **Multi-source (beslut 2026-06-07):** källan är isolerad i en adapter `poller/sources/`
+> (bas `SourceAdapter` + register). Alla plattformar normaliseras till en enda kollektion `listings`
+> med fältet `source`; en annons är unik via paret **(source, external_id)**. Att lägga till en plattform =
+> en ny adapter, pollerns kärna ändras inte. ⚠️ ToS/robots.txt — **separat för varje plattform**
+> (checklista i `COMPLIANCE.md`); adaptern blir `enabled=True` först efter ett positivt utlåtande.
 
-Утверждённый стек:
+**Utanför scope (viktigt):** boten loggar **inte** in på plattformskonton och skickar **inte** in ansökningar — den aviserar bara.
 
-| Слой | Технология |
+---
+
+## 2. ⚠️ DET VIKTIGASTE: vilken stack som ska anses kanonisk
+
+I repot finns tre kravspecifikationer, och de **motsäger varandra teknologimässigt**. Det är inget lässfel —
+det är idéns utveckling. Kanonisk är det **senaste och mest detaljerade** dokumentet:
+
+### ✅ Källa/kanon: `HQRTM_ToR_Flask_MongoDB_Roadmap.md`
+
+Godkänd stack:
+
+| Lager | Teknologi |
 |---|---|
-| Backend API + Web | **Flask 3.x** (Python 3.12+) + **Jinja2** шаблоны |
-| Поллер / воркер | **Отдельный** asyncio-процесс: `httpx` + `asyncio` (+ `Playwright` fallback) |
+| Backend API + Web | **Flask 3.x** (Python 3.12+) + **Jinja2**-mallar |
+| Poller / worker | **Separat** asyncio-process: `httpx` + `asyncio` (+ `Playwright` fallback) |
 | Telegram | `aiogram` (async) |
-| База данных | **MongoDB** (PyMongo для Flask, Motor для async-воркера) |
-| Real-time | **MongoDB Change Streams + SSE** (`EventSource`), НЕ WebSocket |
-| Frontend стили | **Tailwind CSS** или **Bootstrap 5** (выбор ещё не зафиксирован — см. §6) |
-| Frontend логика | **Vanilla JavaScript** (`fetch`, `EventSource`), НЕ React |
-| Репозиторий | **GitHub public** |
-| Demo | **GitHub Pages** (статика + мок-данные) |
-| Деплой | Docker + docker-compose на VPS, Nginx + TLS |
+| Databas | **MongoDB** (PyMongo för Flask, Motor för async-workern) |
+| Real-time | **MongoDB Change Streams + SSE** (`EventSource`), INTE WebSocket |
+| Frontend-stilar | **Tailwind CSS** eller **Bootstrap 5** (valet ännu inte fastställt — se §6) |
+| Frontend-logik | **Vanilla JavaScript** (`fetch`, `EventSource`), INTE React |
+| Repository | **GitHub public** |
+| Demo | **GitHub Pages** (statik + mockdata) |
+| Driftsättning | Docker + docker-compose på VPS, Nginx + TLS |
 
-### ⚠️ Устаревшие/альтернативные ТЗ — НЕ реализовывать как есть
+### ⚠️ Föråldrade/alternativa kravspecar — implementera INTE som de är
 
-- **`HQRTM_ToR_Backend.md`** — ранний proposal: FastAPI + PostgreSQL + Redis + WebSocket.
-  Используй его **только** как источник детальных требований (ID вида `BE-DE-001`, бюджет
-  латентности, NFR, риски). Конкретные технологии (FastAPI/Postgres/Redis) **заменены** на
-  Flask/MongoDB/Change Streams в Roadmap. SQL-схема в нём — концептуальная; реальная модель
-  данных — в Roadmap §3 (MongoDB-коллекции).
-- **`HQRTM_ToR_Frontend.md`** — ранний proposal фронтенда: React + TypeScript + Vite + WebSocket.
-  Тоже используй как источник UX-требований (ID `FE-AU-001` и т. д.), но технология —
-  Jinja2 + Vanilla JS по Roadmap, не React/SPA.
+- **`HQRTM_ToR_Backend.md`** — tidigt proposal: FastAPI + PostgreSQL + Redis + WebSocket.
+  Använd den **bara** som källa till detaljerade krav (ID av typen `BE-DE-001`, budget för
+  latens, NFR, risker). De konkreta teknologierna (FastAPI/Postgres/Redis) är **ersatta** med
+  Flask/MongoDB/Change Streams i Roadmap. SQL-schemat i den är konceptuellt; den verkliga
+  datamodellen finns i Roadmap §3 (MongoDB-kollektioner).
+- **`HQRTM_ToR_Frontend.md`** — tidigt proposal för frontend: React + TypeScript + Vite + WebSocket.
+  Använd den också som källa till UX-krav (ID `FE-AU-001` osv.), men teknologin är
+  Jinja2 + Vanilla JS enligt Roadmap, inte React/SPA.
 
-**Если требование противоречит между документами — Roadmap побеждает.** Если сомневаешься,
-к какому стеку относится задача, — спроси пользователя, не выбирай молча.
+**Om ett krav motsäger sig mellan dokumenten vinner Roadmap.** Om du är osäker
+på vilken stack en uppgift hör till — fråga användaren, välj inte tyst.
 
-> Терминология: в Backend ToR real-time называется `WS /ws/feed` (WebSocket). В каноническом
-> стеке это **SSE `/sse/feed`**. Не путать.
+> Terminologi: i Backend ToR kallas real-time `WS /ws/feed` (WebSocket). I den kanoniska
+> stacken är det **SSE `/sse/feed`**. Förväxla inte.
 
 ---
 
-## 3. Текущее состояние проекта (на 2026-06-07)
+## 3. Projektets nuvarande tillstånd (per 2026-06-07)
 
-**Кода приложения ещё нет**, но git и публикация demo уже настроены. В репозитории:
+**Det finns ännu ingen applikationskod**, men git och publiceringen av demot är redan uppsatta. I repot:
 
 ```
 HQRTM/
-├── HQRTM_ToR_Flask_MongoDB_Roadmap.md   # ✅ канон: стек + полный roadmap (фазы 0–11)
-├── HQRTM_ToR_Backend.md                 # ⚠️ ранний proposal (требования — да, стек — нет)
-├── HQRTM_ToR_Frontend.md                # ⚠️ ранний proposal (требования — да, стек — нет)
-├── CLAUDE.md                            # этот файл
-├── index.html                           # витрина GitHub Pages: CTA на приложение + device-снапшоты + демо-доступы
+├── HQRTM_ToR_Flask_MongoDB_Roadmap.md   # ✅ kanon: stack + fullständig roadmap (faser 0–11)
+├── HQRTM_ToR_Backend.md                 # ⚠️ tidigt proposal (krav — ja, stack — nej)
+├── HQRTM_ToR_Frontend.md                # ⚠️ tidigt proposal (krav — ja, stack — nej)
+├── CLAUDE.md                            # den här filen
+├── index.html                           # GitHub Pages-skyltfönster: CTA till appen + device-snapshots + demo-inloggningar
 ├── HQRTM-Demo/
-│   ├── index.html                       # ✅ основное демо: модульное React-приложение (Babel в браузере)
-│   ├── app/*.jsx  styles/*.css  tweaks-panel.jsx   # модули модульной версии (грузятся по HTTP)
-│   └── HQRTM-{Desktop,Tablet,Mobile}.html          # self-contained device-снапшоты (frame-locked)
-├── pyproject.toml                       # зависимости + ruff/black/pytest (источник истины)
+│   ├── index.html                       # ✅ huvuddemot: modulär React-app (Babel i webbläsaren)
+│   ├── app/*.jsx  styles/*.css  tweaks-panel.jsx   # moduler i den modulära versionen (laddas via HTTP)
+│   └── HQRTM-{Desktop,Tablet,Mobile}.html          # self-contained device-snapshots (frame-locked)
+├── pyproject.toml                       # beroenden + ruff/black/pytest (källa/kanon)
 ├── .env.example  README.md  COMPLIANCE.md  CONTRIBUTING.md  LICENSE(MIT)
 ├── .pre-commit-config.yaml  .secrets.baseline   # ruff/black/detect-secrets
-├── .github/workflows/ci.yml             # CI: ruff + black + pytest (push/PR в main|develop)
+├── .github/workflows/ci.yml             # CI: ruff + black + pytest (push/PR till main|develop)
 ├── shared/   # config.py (pydantic-settings), db.py, models.py, utils.py
 ├── web/      # app.py (Flask factory + /health), auth/ api/ sse/ templates/ static/
-├── poller/   # main.py, homeq_adapter.py, detector.py, matcher.py, dispatcher.py (заглушки)
-├── bot/      # main.py, handlers.py (заглушки)
+├── poller/   # main.py, homeq_adapter.py, detector.py, matcher.py, dispatcher.py (platshållare)
+├── bot/      # main.py, handlers.py (platshållare)
 ├── tests/    # test_smoke.py, test_utils.py
-├── .gitignore                           # защита public repo (.env, .venv, .idea, ...)
+├── .gitignore                           # skydd för public repo (.env, .venv, .idea, ...)
 ├── .venv/  (ignored)                    # Python 3.12
 └── .idea/  (ignored)
 ```
 
-**Готово:**
-- ✅ Git: репо **https://github.com/alshfu/HQRTM** (public). Ветки `main` (стабильная) и `develop`.
-- ✅ GitHub Pages: **https://alshfu.github.io/HQRTM/** (source `main`/корень) — demo отдаётся (200).
-- ✅ **Фаза 0 завершена** (код): структура пакетов, `pyproject.toml`, venv 3.12, `.env.example`,
+**Klart:**
+- ✅ Git: repo **https://github.com/alshfu/HQRTM** (public). Grenar `main` (stabil) och `develop`.
+- ✅ GitHub Pages: **https://alshfu.github.io/HQRTM/** (source `main`/roten) — demot levereras (200).
+- ✅ **Fas 0 avslutad** (kod): paketstruktur, `pyproject.toml`, venv 3.12, `.env.example`,
   README/COMPLIANCE/CONTRIBUTING/LICENSE(MIT), pre-commit (ruff/black/detect-secrets), CI `ci.yml`.
-  Линт/формат/тесты зелёные (`ruff`, `black --check`, `pytest` — 10 passed). `web/app.py` отдаёт `/health`.
-- ⚠️ Шаблонный `main.py` (PyCharm) удалён.
+  Lint/format/tester gröna (`ruff`, `black --check`, `pytest` — 10 passed). `web/app.py` levererar `/health`.
+- ⚠️ Mall-`main.py` (PyCharm) borttagen.
 
-**Ещё НЕ сделано:** GitHub Wiki (скелет), GitHub Project/Issues — опционально; `COMPLIANCE.md`
-заполнен только скелетом (ToS HomeQ + GDPR — TODO до Фазы 2). Дальше — **Фаза 1** (слой данных MongoDB).
+**Ännu INTE gjort:** GitHub Wiki (skelett), GitHub Project/Issues — valfritt; `COMPLIANCE.md`
+är ifylld bara som skelett (ToS HomeQ + GDPR — TODO innan Fas 2). Härnäst — **Fas 1** (datalager MongoDB).
 
-> ⚠️ Демо в `HQRTM-Demo/` — это **дизайн-прототипы** (React + Babel-in-browser, мок-данные), не итоговый фронтенд.
-> Боевой фронтенд по канону — Jinja2 + Tailwind/Bootstrap внутри `web/` (Фаза 5). Прототипы — референс UI.
+> ⚠️ Demot i `HQRTM-Demo/` är **designprototyper** (React + Babel-in-browser, mockdata), inte den slutgiltiga frontenden.
+> Den skarpa frontenden enligt kanon är Jinja2 + Tailwind/Bootstrap inuti `web/` (Fas 5). Prototyperna är UI-referens.
 >
-> Демо-доступы (подставлены на экране входа автоматически): **user** `elin@hqrtm.se` / `demo1234`,
-> **admin** `admin@hqrtm.se` / `admin1234`. Учётки заданы в `HQRTM-Demo/app/data.jsx` (`DEMO_CREDS`).
-> Модульная версия (`HQRTM-Demo/index.html`) грузит `app/*.jsx` через Babel → **работает только по HTTP**
-> (GitHub Pages / локальный сервер), не по `file://`. Device-снапшоты — самодостаточны, открываются как файл.
+> Demo-inloggningar (förifyllda automatiskt på inloggningsskärmen): **user** `elin@hqrtm.se` / `demo1234`,
+> **admin** `admin@hqrtm.se` / `admin1234`. Kontona definieras i `HQRTM-Demo/app/data.jsx` (`DEMO_CREDS`).
+> Den modulära versionen (`HQRTM-Demo/index.html`) laddar `app/*.jsx` via Babel → **fungerar bara via HTTP**
+> (GitHub Pages / lokal server), inte via `file://`. Device-snapshots är självständiga och öppnas som fil.
 
-**Мы находимся в начале Фазы 1** (слой данных MongoDB). Фаза 0 завершена.
+**Vi befinner oss i början av Fas 1** (datalager MongoDB). Fas 0 är avslutad.
 
 ---
 
-## 4. Целевая структура репозитория (создавать по мере работы)
+## 4. Målstruktur för repot (skapas allteftersom arbetet fortskrider)
 
-Из Roadmap §2. Каждый процесс — отдельный контейнер в docker-compose.
+Från Roadmap §2. Varje process är en separat container i docker-compose.
 
 ```
 hqrtm/
@@ -127,285 +127,285 @@ hqrtm/
 ├── .gitignore  .env.example  docker-compose.yml
 ├── pyproject.toml / requirements.txt
 │
-├── poller/        # async-воркер: main.py, homeq_adapter.py, detector.py, matcher.py, dispatcher.py, config.py
+├── poller/        # async-worker: main.py, homeq_adapter.py, detector.py, matcher.py, dispatcher.py, config.py
 ├── bot/           # Telegram (aiogram): main.py, handlers.py
 ├── web/           # Flask: app.py, config.py, auth/, api/, sse/, templates/, static/
-├── shared/        # db.py (MongoDB + индексы), models.py (pydantic-схемы)
-├── frontend-build/# Tailwind/Bootstrap сборка
-├── demo/          # статика для GitHub Pages (index.html, assets/, mock-data.js)
+├── shared/        # db.py (MongoDB + index), models.py (pydantic-scheman)
+├── frontend-build/# Tailwind/Bootstrap-bygge
+├── demo/          # statik för GitHub Pages (index.html, assets/, mock-data.js)
 ├── tests/         # unit / integration / e2e
 └── .github/workflows/  # ci.yml, deploy-pages.yml, deploy-vps.yml
 ```
 
-**Архитектурный принцип №1:** Flask синхронный (WSGI), поэтому высокочастотный опрос 24/7
-**нельзя** держать в обработчиках Flask. Поллер — **отдельный долгоживущий asyncio-процесс**.
-Flask отвечает только за API и веб. Связь между ними — **через MongoDB** (поллер пишет,
-Flask читает + слушает Change Stream).
+**Arkitekturprincip nr 1:** Flask är synkront (WSGI), därför **får** den högfrekventa pollingen 24/7
+**inte** ligga i Flask-handlers. Pollern är en **separat, långlivad asyncio-process**.
+Flask ansvarar bara för API och webb. Kopplingen dem emellan sker **via MongoDB** (pollern skriver,
+Flask läser + lyssnar på Change Stream).
 
 ---
 
-## 5. Модель данных (MongoDB, из Roadmap §3)
+## 5. Datamodell (MongoDB, från Roadmap §3)
 
-Коллекции: `users`, `filters`, `listings`, `notifications`, `seen_listings`, `audit_log`.
+Kollektioner: `users`, `filters`, `listings`, `notifications`, `seen_listings`, `audit_log`.
 
-Реализовано в Фазе 1: `shared/models.py` (pydantic-схемы всех коллекций, StrEnum для source/type/
-status), `shared/db.py` (`ensure_indexes()` + имена коллекций `COLL_*` + CLI `python -m shared.db`).
+Implementerat i Fas 1: `shared/models.py` (pydantic-scheman för alla kollektioner, StrEnum för source/type/
+status), `shared/db.py` (`ensure_indexes()` + kollektionsnamn `COLL_*` + CLI `python -m shared.db`).
 
-Критичные инварианты (соблюдать всегда):
-- **Уникум объявления — составной `(source, external_id)`** (мульти-source; уточняет DB-001).
-  Индекс `uniq_source_extid`. Тот же `external_id` на разных площадках — это разные объявления.
-- **TTL-индекс `seen_listings.seen_at`** (~24 ч, `seen_ttl_hours`) → дедуп без Redis (DB-002).
-- **TTL-индекс `listings.fetched_at`** (~7 дней) → авто-очистка (DB-003).
-- **Пароли — только хэш** (Argon2/bcrypt), секреты — никогда в открытом виде (DB-004).
-- **`notifications.latency_ms`** (publish → delivered) пишется для SLA-отчётности (DB-005).
-- **MongoDB в режиме replica set** (минимум single-node RS) — обязательно для Change Streams (DB-006).
-
----
-
-## 6. Решения (часть закрыта 2026-06-07)
-
-**✅ Принято:**
-- **Python 3.12** (venv пересоздан). **MongoDB — Atlas free-tier** (MONGO_URI в `.env`). **Лицензия — MIT**.
-
-**❓ Ещё открыто — спрашивай, не выбирай молча:**
-1. **HomeQ:** ✅ официальное API подтверждено (Core API, контракт сверен 2026-06-07 — см.
-   `COMPLIANCE.md` и `poller/sources/homeq.py`). **Остаётся блокером:** получить учётку/ключ
-   интеграции из landlord-портала + финально подтвердить ToS read-доступа для consumer-сервиса
-   (действие владельца). Адаптер написан и протестирован, но `enabled=False` до этого.
-2. ✅ **Frontend CSS: Tailwind** (решено 2026-06-07). Сейчас — Play CDN (прототип); production-сборка
-   в `frontend-build/` (Tailwind CLI, см. README там) — переезд в полировке/Фазе 8.
-3. ✅ **Язык UI — шведский (приоритетный)**, продукт для шведского рынка (решено 2026-06-07).
-   Английский — вторичный (i18n-архитектура под добавление). ВЕСЬ текст интерфейса писать
-   по-шведски (Logga in, Flöde, Filter, Aviseringar, Konto …); строки — готовить под i18n.
-4. Монетизация/тарифы и админ-панель сейчас? (по умолчанию — нет; в демо админка есть как UI).
-5. Ожидаемое число пользователей (влияет на выбор VPS) — к Фазе 10.
+Kritiska invarianter (ska alltid efterlevas):
+- **En annons är unik via det sammansatta `(source, external_id)`** (multi-source; förtydligar DB-001).
+  Index `uniq_source_extid`. Samma `external_id` på olika plattformar är olika annonser.
+- **TTL-index `seen_listings.seen_at`** (~24 h, `seen_ttl_hours`) → dedup utan Redis (DB-002).
+- **TTL-index `listings.fetched_at`** (~7 dagar) → autorensning (DB-003).
+- **Lösenord — bara hash** (Argon2/bcrypt), hemligheter — aldrig i klartext (DB-004).
+- **`notifications.latency_ms`** (publish → delivered) skrivs för SLA-rapportering (DB-005).
+- **MongoDB i replica set-läge** (minst single-node RS) — obligatoriskt för Change Streams (DB-006).
 
 ---
 
-## 7. Roadmap — где мы и что дальше
+## 6. Beslut (delvis stängda 2026-06-07)
 
-Полный план в Roadmap §11. Краткая карта фаз и вех:
+**✅ Antaget:**
+- **Python 3.12** (venv återskapad). **MongoDB — Atlas free-tier** (MONGO_URI i `.env`). **Licens — MIT**.
 
-- **Фаза 0** — ✅ ГОТОВО: репозиторий, структура, окружение, pre-commit, CI.
-- **Фаза 1** — ✅ ГОТОВО (код, на ветке `feature/phase1-data-layer`): `shared/models.py`,
-  `shared/db.py` (`ensure_indexes`), мульти-source каркас `poller/sources/`. Тесты 22 passed.
-  Осталось: прогнать `python -m shared.db` на реальном Atlas (нужен MONGO_URI от владельца).
-- **Фаза 2** — 🟡 ЯДРО ГОТОВО (M1): `poller/detector.py` (FCFS vs очередь), `poller/dedup.py`
-  (seen_listings), `poller/engine.py` (дедуп→детекция→отсев→upsert), `poller/main.py` (async-цикл,
-  адаптивная частота HOT_HOURS, backoff). Тесты 58 passed. **Реальные адаптеры выключены**
-  (`enabled=False`) — ждут API-доступа/ToS. Ресёрч ToS зафиксирован в `COMPLIANCE.md`:
-  **HomeQ/Qasa имеют официальный Core API** (`docs-core.homeq.se`, JWT + Card Search + webhooks) —
-  приоритетный путь; Blocket/Bostad Direkt/Samtrygg — нужен партнёрский доступ/проверка. **Действие
-  владельца:** запросить API-ключ HomeQ/Qasa.
-  **Реальный HomeQ-адаптер реализован** (`poller/sources/homeq.py`: auth `/api/v2/tokens/` JWT +
-  Card Search `/api/v3/cards/` FCFS-only + нормализация + backoff на 429/5xx). **Матчинг готов**
-  (`poller/matcher.py` + `engine.enqueue_notifications` → queued-уведомления, идемпотентно;
-  оживляет веб-ленту/SSE без Telegram). Ветка `feature/phase2-homeq-adapter`, **80 passed**.
-  Остаётся: включение адаптера `enabled=True` (учётка + ToS) и доставка в Telegram (Фаза 3).
-- **Фаза 3** — Telegram → **веха M2** (тест-уведомления со ссылкой приходят).
-- **Фаза 4** — ✅ ГОТОВО: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
-  `/api/me` (GDPR), `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
-  `/api/telegram/link|status`, OpenAPI (`/openapi.json`) + Swagger UI (`/apidocs`). Тесты 39 passed.
-- **Фаза 5** — ✅ ГОТОВО: Jinja2 + **Tailwind (production-сборка)** + Vanilla JS. Страницы
-  landing/login/register, кабинет (дашборд-лента, фильтры CRUD, уведомления, настройки+GDPR),
-  JS-клиент `web/static/js/api.js` (токены, auto-refresh, guard), роль user/admin в навигации.
-  Маршруты — `web/views.py`. **i18n (sv/en)** (`web/i18n.py`), **админ-UI** (`web/admin/`, `admin.html`),
-  **production Tailwind** (`frontend-build/` → `web/static/css/app.css`, purged+minified, закоммичен;
-  Play CDN убран из `base.html`).
-- **Фаза 6** — ✅ ГОТОВО: SSE + Change Streams. `web/sse/` (broker pub/sub + watcher Change Stream
-  `notifications` + эндпоинт `/sse/feed`, auth по `?token=`). Дашборд: `EventSource` с дедупом,
-  авто-reconnect, индикатор live, fallback на polling. Тесты 51 passed. (Watcher требует replica set;
-  при нескольких web-процессах нужен общий backend — Фаза 8/10.)
-- **Фаза 7** — GitHub Pages demo.
-- **Фаза 8** — устойчивость/безопасность/наблюдаемость.
-- **Фаза 9** — тестирование.
-- **Фаза 10** — деплой на VPS → **веха M3** (48-часовой прогон).
-- **Фаза 11** — документация и сдача.
-
-**Бюджет латентности (цель ≤ 1.5 с):** опрос ~0.5–0.8 с · запрос+парсинг ~0.2–0.3 с ·
-детекция+матчинг ~0.05–0.15 с · отправка в Telegram ~0.2–0.4 с. Любое решение взвешивай против него.
+**❓ Fortfarande öppet — fråga, välj inte tyst:**
+1. **HomeQ:** ✅ officiellt API bekräftat (Core API, kontraktet avstämt 2026-06-07 — se
+   `COMPLIANCE.md` och `poller/sources/homeq.py`). **Kvarstår som blockerare:** skaffa konto/integrations-
+   nyckel från landlord-portalen + slutgiltigt bekräfta ToS för läsåtkomst för en consumer-tjänst
+   (ägarens åtgärd). Adaptern är skriven och testad, men `enabled=False` tills dess.
+2. ✅ **Frontend CSS: Tailwind** (beslutat 2026-06-07). Just nu — Play CDN (prototyp); production-bygget
+   i `frontend-build/` (Tailwind CLI, se README där) — flytten sker i polering/Fas 8.
+3. ✅ **UI-språk — svenska (prioriterat)**, produkt för den svenska marknaden (beslutat 2026-06-07).
+   Engelska — sekundärt (i18n-arkitektur förberedd för tillägg). HELA gränssnittstexten skrivs
+   på svenska (Logga in, Flöde, Filter, Aviseringar, Konto …); strängar — förbereds för i18n.
+4. Monetisering/prisplaner och adminpanel nu? (som standard — nej; i demot finns admin som UI).
+5. Förväntat antal användare (påverkar valet av VPS) — till Fas 10.
 
 ---
 
-## 8. Правила работы (соблюдать неукоснительно)
+## 7. Roadmap — var vi är och vad som kommer härnäst
 
-### Безопасность / секреты (репозиторий публичный!)
-- **Ни одного секрета в коде или истории git.** Telegram-токен, Mongo URI, JWT-secret —
-  только через `.env` (в `.gitignore`) и GitHub Secrets.
-- До первого коммита настроить **pre-commit с detect-secrets** (защита public repo).
-- Логи — **без PII** (e-mail, telegram_chat_id и т. п. не логировать).
-- Пароли — Argon2/bcrypt. TLS на проде.
+Fullständig plan i Roadmap §11. Kort karta över faser och milstolpar:
 
-### Комплаенс (до начала скрейпинга/опроса)
-- Проверить ToS HomeQ и `robots.txt`, выводы → `COMPLIANCE.md`. Официальное API в приоритете.
-- Этичная нагрузка: один центральный поллер на всех, разумные интервалы, джиттер,
-  экспоненциальный backoff, уважение `429/503/Retry-After`, ротация User-Agent.
-- GDPR: согласие при регистрации, политика конфиденциальности, право на удаление данных (`DELETE /api/me`).
+- **Fas 0** — ✅ KLAR: repository, struktur, miljö, pre-commit, CI.
+- **Fas 1** — ✅ KLAR (kod, på grenen `feature/phase1-data-layer`): `shared/models.py`,
+  `shared/db.py` (`ensure_indexes`), multi-source-stomme `poller/sources/`. Tester 22 passed.
+  Kvarstår: köra `python -m shared.db` mot riktiga Atlas (kräver MONGO_URI från ägaren).
+- **Fas 2** — 🟡 KÄRNAN KLAR (M1): `poller/detector.py` (FCFS vs kö), `poller/dedup.py`
+  (seen_listings), `poller/engine.py` (dedup→detektion→sållning→upsert), `poller/main.py` (async-loop,
+  adaptiv frekvens HOT_HOURS, backoff). Tester 58 passed. **Verkliga adaptrar avstängda**
+  (`enabled=False`) — väntar på API-åtkomst/ToS. ToS-research nedtecknad i `COMPLIANCE.md`:
+  **HomeQ/Qasa har ett officiellt Core API** (`docs-core.homeq.se`, JWT + Card Search + webhooks) —
+  prioriterad väg; Blocket/Bostad Direkt/Samtrygg — kräver partneråtkomst/kontroll. **Ägarens
+  åtgärd:** begära API-nyckel för HomeQ/Qasa.
+  **Verklig HomeQ-adapter implementerad** (`poller/sources/homeq.py`: auth `/api/v2/tokens/` JWT +
+  Card Search `/api/v3/cards/` FCFS-only + normalisering + backoff på 429/5xx). **Matchning klar**
+  (`poller/matcher.py` + `engine.enqueue_notifications` → queued-aviseringar, idempotent;
+  blåser liv i webbflödet/SSE utan Telegram). Gren `feature/phase2-homeq-adapter`, **80 passed**.
+  Kvarstår: aktivera adaptern `enabled=True` (konto + ToS) och leverans till Telegram (Fas 3).
+- **Fas 3** — Telegram → **milstolpe M2** (testaviseringar med länk kommer fram).
+- **Fas 4** — ✅ KLAR: auth (register/login/refresh, Argon2, JWT), rate-limit, CRUD `/api/filters`,
+  `/api/me` (GDPR), `/api/listings` (matched + paginering), `/api/notifications` (paginering),
+  `/api/telegram/link|status`, OpenAPI (`/openapi.json`) + Swagger UI (`/apidocs`). Tester 39 passed.
+- **Fas 5** — ✅ KLAR: Jinja2 + **Tailwind (production-bygge)** + Vanilla JS. Sidorna
+  landing/login/register, panel (dashboard-flöde, filter CRUD, aviseringar, inställningar+GDPR),
+  JS-klient `web/static/js/api.js` (tokens, auto-refresh, guard), roll user/admin i navigeringen.
+  Rutter — `web/views.py`. **i18n (sv/en)** (`web/i18n.py`), **admin-UI** (`web/admin/`, `admin.html`),
+  **production Tailwind** (`frontend-build/` → `web/static/css/app.css`, purged+minified, incheckat;
+  Play CDN borttaget ur `base.html`).
+- **Fas 6** — ✅ KLAR: SSE + Change Streams. `web/sse/` (broker pub/sub + watcher Change Stream
+  `notifications` + endpoint `/sse/feed`, auth via `?token=`). Dashboard: `EventSource` med dedup,
+  auto-reconnect, live-indikator, fallback till polling. Tester 51 passed. (Watcher kräver replica set;
+  vid flera web-processer behövs en gemensam backend — Fas 8/10.)
+- **Fas 7** — GitHub Pages demo.
+- **Fas 8** — robusthet/säkerhet/observerbarhet.
+- **Fas 9** — testning.
+- **Fas 10** — driftsättning på VPS → **milstolpe M3** (48-timmarskörning).
+- **Fas 11** — dokumentation och överlämning.
 
-### Код и качество
-- **Python 3.12** (venv: `/usr/local/bin/python3.12`). Установка: `pip install -e ".[dev]"`.
-  Скрейпинг-зависимости — отдельный extra: `pip install -e ".[scraper]" && playwright install`.
-- Линт/формат: **ruff + black** (конфиг в `pyproject.toml`, строка ≤ 100). Тесты: **pytest**
-  (`pytest -q`). Перед коммитом всё проверяет pre-commit; в CI — `ci.yml`.
-- Тесты: unit на `detector`/`matcher`, integration с `mongomock` или test-контейнером, e2e на Playwright.
-- Парсер HomeQ изолирован в `HomeQAdapter` — при изменении источника правится **только он** (BE-DE-005).
-- Интервал опроса — конфигурируемый (`POLL_INTERVAL_MS`), безопасный дефолт, описать в README.
-- Идемпотентность: повторный запуск не должен порождать дубли уведомлений.
-
-### Git / процесс
-- Ветвление: `main` ← `develop` ← `feature/*`, через PR.
-- **ГЛАВНОЕ ПРАВИЛО (2026-06-08): на каждом завершённом этапе — коммитить, пушить и обновлять Wiki**
-  (`docs/wiki/` + при необходимости `scripts/sync-wiki.sh`), без отдельного запроса. Витрина Pages
-  отдаётся из `main` → изменения `index.html` пушить в `main`. (Отменяет прежнее «пушить только по запросу».)
-- Прослеживаемость: при реализации требования ссылайся на его ID (`BE-DE-001`, `FE-FL-003` и т. п.).
-
-### Взаимодействие с пользователем
-- Язык общения — **русский** (пользователь пишет по-русски).
-- При противоречии в ТЗ — Roadmap главнее; при неоднозначности из §6 — **спрашивай**, не угадывай.
+**Latensbudget (mål ≤ 1.5 s):** polling ~0.5–0.8 s · request+parsning ~0.2–0.3 s ·
+detektion+matchning ~0.05–0.15 s · sändning till Telegram ~0.2–0.4 s. Väg varje beslut mot den.
 
 ---
 
-## 9. Памятка по сопровождению этого файла
+## 8. Arbetsregler (ska efterlevas strikt)
 
-После каждой значимой сессии обновляй два блока ниже. Это позволит следующему ИИ продолжить
-без переоткрытия контекста.
+### Säkerhet / hemligheter (repot är publikt!)
+- **Inte en enda hemlighet i kod eller git-historik.** Telegram-token, Mongo URI, JWT-secret —
+  bara via `.env` (i `.gitignore`) och GitHub Secrets.
+- Innan första commit: konfigurera **pre-commit med detect-secrets** (skydd för public repo).
+- Loggar — **utan PII** (e-mail, telegram_chat_id m.m. ska inte loggas).
+- Lösenord — Argon2/bcrypt. TLS i prod.
 
-### Текущее состояние (обновлять)
-- **2026-06-08 (витрина на шведском + реальные данные парсера + ссылки на первоисточник):**
-  Витрина `index.html` полностью переведена на **шведский** и показывает **урок реальных объявлений
-  из настоящего парсера**: `scripts/gen_sample_listings.py` прогоняет адаптеры HomeQ/Qasa/Samtrygg
-  через `httpx.MockTransport` по фикстурам (без живой скрапинга — ToS соблюдён) → нормализованные
-  `Listing` → `HQRTM-Demo/sample-listings.js` (`window.HQRTM_SAMPLE`). Каждая карточка кликабельна
-  и ведёт на **первоисточник** (`url`: homeq.se/qasa.com/samtrygg.se). Тесты **121 passed**,
-  ruff/black зелёные. ⚠️ Фаза 8 (наблюдаемость) — на паузе (заготовка откатана), сделаю отдельным
-  этапом. **NB:** по решению владельца идёт перевод **всей** кодовой базы и доков на шведский
-  (CLAUDE.md, Wiki, комментарии) — поэтапно (см. Журнал решений).
-- **2026-06-08 (Фаза 2 — Samtrygg-адаптер + витрина→релиз):** Адаптер `poller/sources/samtrygg.py`
-  доведён до рабочего состояния по образцу qasa: настройки `samtrygg_api_url/public_base/timeout_s`
-  в `shared/config.py` + `.env.example`, подключён в `poller/sources/__init__.py` (`@register`
-  отрабатывает — проверено), guard при пустом `SAMTRYGG_API_URL`. **Парсинг усилен:** извлечение
-  числа комнат из адреса/заголовка (`N rok/rum`, в ответе поля нет), fallback по альт. именам полей
-  (`sqareMeters`→`squareMeters`/`area`, `price`→`rent`), устойчивый обход ответа `GetHomePageObjects`
-  (группировка по городам `RentalObjectInfo` / плоский список / обёртка `results`). Тесты
-  `tests/test_samtrygg_adapter.py` (11). Весь набор **121 passed**, ruff/black зелёные.
-  ⚠️ `enabled=False` — host в SwaggerHub-спеке не задан, ToS не подтверждён (включение за владельцем).
-  **Витрина GitHub Pages (`index.html`) переделана с «demo» на «релиз»:** убран demo-дисклеймер,
-  добавлен блок реальных возможностей (Фазы 0–6: мульти-source, FCFS, матчинг, SSE, API/JWT, кабинет+i18n,
-  комплаенс — с пометками live/Фаза 3 для Telegram), ссылки на GitHub/Wiki/Releases. Интерактивный
-  прототип сохранён как «UI-превью релиза» (честно: боевой бэкенд на статике не работает). ⚠️ Файл
-  ещё не закоммичен/не запушен в Pages — публикация за владельцем.
-- **2026-06-07 (Фаза 5 — production Tailwind build, ФАЗА 5 ЗАКРЫТА):** Переезд с Play CDN на
-  собранный Tailwind. Тема (accent/шрифты) и кастомные компоненты (`.card/.input/.btn-accent/
-  .navlink`) вынесены из inline `base.html` в `frontend-build/` (`input.css` + `tailwind.config.js`,
-  `content` сканирует шаблоны и `api.js` → классы из inline-JS не вырезаются). Сборка
-  `npm run build` → `web/static/css/app.css` (purged+minified, 11KB, **закоммичен** — деплою/CI
-  Node не нужен). `base.html` грузит `app.css` вместо CDN-скрипта. README сборки обновлён.
-  Тесты **110 passed**, ruff/black зелёные. Веха: **Фаза 5 завершена полностью.**
-- **2026-06-07 (Фаза 5 — i18n + админ-UI):** **i18n (sv/en)** без flask-babel: `web/i18n.py`
-  (каталоги sv/en, `translate()` с fallback sv→ключ, `init_i18n()` — резолв локали `?lang=`→cookie
-  `hqrtm_lang`→дефолт sv, Jinja-глобалы `t/locale/locales`, проброс каталога в JS `window.HQRTM_I18N`).
-  `HQRTM.t()` в `api.js` переводит inline-JS-строки. Все шаблоны переведены на `t()`, добавлен
-  переключатель языка `_lang.html` (SV|EN). **Админ-UI:** `require_admin` (роль из БД) в `web/deps.py`,
-  blueprint `web/admin/routes.py` (`/api/admin/stats|users`, смена роли с защитой от само-разжалования),
-  страница `/app/admin` + `admin.html` (статы + таблица пользователей с тогглом роли, клиентский гард
-  по 403). Тесты `test_i18n.py` (11) + `test_admin.py` (10). Весь набор **110 passed**, ruff/black зелёные.
-  Осталось по Фазе 5: production Tailwind-сборка (сейчас CDN). Локаль берётся из cookie (не из
-  `user.locale`) — работает и до логина; синхронизация с профилем — опционально на потом.
-- **2026-06-07 (Фаза 2 — Qasa-адаптер):** `poller/sources/qasa.py` — адаптер Qasa через GraphQL
-  (`api.qasa.com/graphql`, запрос `homes`), нормализация в `Listing` (+`fcfs`), backoff на 429/5xx,
-  обработка GraphQL-errors. ⚠️ **Контракт НЕ верифицирован** (нет офиц. публичного API Qasa) →
-  `enabled=False`, перед включением сверить схему + ToS. Общие хелперы `as_float/as_int` вынесены
-  в `poller/sources/base.py` (переиспользуются HomeQ+Qasa). **Исправлен латентный баг:**
-  `poller/sources/__init__.py` теперь импортирует конкретные адаптеры → `@register` отрабатывает
-  на проде (раньше реестр был пуст при `python -m poller.main`). Тесты `tests/test_qasa_adapter.py`
-  (9) + обновлён `test_sources.py`. Весь набор **89 passed**, ruff/black зелёные.
-- **2026-06-07 (Фаза 2 — матчинг + постановка уведомлений):** `poller/matcher.py` реализован
-  (`matches()` — only_fcfs/sources/диапазоны цены-комнат-площади/район-подстрока; `match_users()`
-  — грубый отсев активных фильтров в Mongo + точная проверка в Python). `poller/engine.py` расширен:
-  `process_new_listings` теперь проставляет `_id` объявления; новая `enqueue_notifications()` —
-  матчинг новых FCFS с фильтрами и **идемпотентная** постановка `notifications` (status=queued,
-  доставка/latency — Фаза 3). Добавлен уникальный индекс `notifications (user_id, listing_id)`
-  (`uniq_user_listing`) в `shared/db.py`. Цикл `poller/main.py` вызывает enqueue после engine.
-  Это оживляет веб-ленту `/api/listings?matched` и SSE (Change Stream на notifications) **без Telegram**.
-  Тесты `tests/test_matcher.py` (12). Весь набор **80 passed**, ruff/black зелёные.
-  Ветка `feature/phase2-homeq-adapter`. ⚠️ Реальный опрос всё ещё ждёт включения адаптера (учётка+ToS).
-- **2026-06-07 (Фаза 2 — реальный HomeQ-адаптер):** Контракт HomeQ Core API сверён по докам
-  (`docs-core.homeq.se`/`api.homeq.se`) и реализован в `poller/sources/homeq.py`: auth
-  `POST /api/v2/tokens/` (JWT, перелогин на 401), Card Search `POST /api/v3/cards/` с
-  `first_come_first=true/queue_points=false` (FCFS-only на источнике), нормализация карточки →
-  поля `Listing` (+ `fcfs` для детектора), проброс 429/5xx (Retry-After) для backoff цикла.
-  Настройки в `shared/config.py` (`homeq_base_url`/`homeq_username`/`homeq_password`/`homeq_fetch_amount`)
-  и `.env.example`. Тесты `tests/test_homeq_adapter.py` на `httpx.MockTransport` (auth, search,
-  нормализация, перелогин, троттлинг, нет учётки, путь через детектор). Весь набор **68 passed**,
-  ruff/black зелёные. Ветка `feature/phase2-homeq-adapter`. ⚠️ Адаптер `enabled=False` — включение
-  и реальный опрос за владельцем (учётка из landlord-портала + подтверждение ToS). Дальше после
-  включения: Qasa (тот же API), затем Фаза 3 (Telegram-доставка, веха M2).
-- **2026-06-07 (Фаза 2 ядро + ToS-ресёрч):** Ядро поллера готово (детектор FCFS, дедуп, engine,
-  async-цикл с адаптивной частотой/backoff) — ветка `feature/phase2-poller`, тесты **58 passed**.
-  ToS-ресёрч площадок занесён в `COMPLIANCE.md`: **HomeQ/Qasa — официальный Core API** (приоритет),
-  остальные — партнёрство/проверка. Адаптеры всё ещё `enabled=False` (нет ключей/подтверждения ToS).
-  Реальная интеграция HomeQ API (Card Search/webhooks) — следующий шаг после получения ключа.
-  ⚠️ Это техническая сводка, не юр-консультация — решение о включении за владельцем.
-- **2026-06-07 (Фаза 6 + CI ожил):** Real-time готов: `web/sse/` (broker + Change Stream watcher +
-  `/sse/feed`), дашборд на `EventSource` (дедуп, авто-reconnect, live-индикатор, fallback polling).
-  Тесты **51 passed**. CI на GitHub **зелёный** (биллинг разблокирован). Язык UI зафиксирован —
-  **шведский приоритетный** (продукт для шведского рынка), английский вторичный (i18n впереди).
-  Ветка `feature/phase6-sse`. Дальше: i18n (sv/en), админ-UI, или Фаза 2 (поллер — блок ToS).
-- **2026-06-07 (Фаза 5):** Фронтенд на Jinja2 + **Tailwind** (Play CDN) + Vanilla JS.
-  `web/views.py` (страницы), `web/templates/*` (base/app_base + landing/login/register/dashboard/
-  filters/notifications/settings), `web/static/js/api.js` (клиент: токены в localStorage, auto-refresh,
-  guard, toast). Добавлена роль `UserRole` (user/admin) в модель + в `/api/me`; админ-пункт в навигации
-  по роли. `frontend-build/` — конфиг для production Tailwind-сборки (пока CDN). Тесты **48 passed**.
-  Ветка `feature/phase5-frontend`. Дальше: Wiki (мануалы), затем i18n / SSE (Фаза 6) / админ-UI.
-- **2026-06-07 (Фаза 4 завершена):** Все эндпоинты Фазы 4 готовы и влиты в `develop` (запушено).
-  Добавлены: `/api/listings` (matched + пагинация), `/api/notifications` (пагинация),
+### Compliance (innan scraping/polling påbörjas)
+- Kontrollera ToS för HomeQ och `robots.txt`, slutsatser → `COMPLIANCE.md`. Officiellt API har prioritet.
+- Etisk belastning: en central poller för alla, rimliga intervall, jitter,
+  exponentiell backoff, respekt för `429/503/Retry-After`, rotation av User-Agent.
+- GDPR: samtycke vid registrering, integritetspolicy, rätt till radering av data (`DELETE /api/me`).
+
+### Kod och kvalitet
+- **Python 3.12** (venv: `/usr/local/bin/python3.12`). Installation: `pip install -e ".[dev]"`.
+  Scraping-beroenden — separat extra: `pip install -e ".[scraper]" && playwright install`.
+- Lint/format: **ruff + black** (config i `pyproject.toml`, rad ≤ 100). Tester: **pytest**
+  (`pytest -q`). Före commit kontrollerar pre-commit allt; i CI — `ci.yml`.
+- Tester: unit på `detector`/`matcher`, integration med `mongomock` eller test-container, e2e med Playwright.
+- HomeQ-parsern är isolerad i `HomeQAdapter` — vid ändring av källan rättas **bara den** (BE-DE-005).
+- Pollingintervallet är konfigurerbart (`POLL_INTERVAL_MS`), säkert default, beskrivs i README.
+- Idempotens: en omstart får inte ge dubbletter av aviseringar.
+
+### Git / process
+- Förgrening: `main` ← `develop` ← `feature/*`, via PR.
+- **HUVUDREGEL (2026-06-08): vid varje avslutat steg — committa, pusha och uppdatera Wiki**
+  (`docs/wiki/` + vid behov `scripts/sync-wiki.sh`), utan separat förfrågan. Pages-skyltfönstret
+  levereras från `main` → ändringar i `index.html` pushas till `main`. (Upphäver det tidigare ”pusha bara på begäran”.)
+- Spårbarhet: vid implementering av ett krav, hänvisa till dess ID (`BE-DE-001`, `FE-FL-003` o.s.v.).
+
+### Interaktion med användaren
+- Kommunikationsspråk — **ryska** (användaren skriver på ryska).
+- Vid motsägelse i kravspecarna — Roadmap är överordnad; vid tvetydighet enligt §6 — **fråga**, gissa inte.
+
+---
+
+## 9. Notis om underhåll av den här filen
+
+Efter varje betydande session, uppdatera de två blocken nedan. Det låter nästa AI fortsätta
+utan att återupptäcka kontexten.
+
+### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (skyltfönster på svenska + verklig parserdata + länkar till förstakällan):**
+  Skyltfönstret `index.html` är helt översatt till **svenska** och visar **ett urval verkliga annonser
+  från en riktig parser**: `scripts/gen_sample_listings.py` kör adaptrarna HomeQ/Qasa/Samtrygg
+  genom `httpx.MockTransport` på fixturer (utan live-scraping — ToS efterlevs) → normaliserade
+  `Listing` → `HQRTM-Demo/sample-listings.js` (`window.HQRTM_SAMPLE`). Varje kort är klickbart
+  och leder till **förstakällan** (`url`: homeq.se/qasa.com/samtrygg.se). Tester **121 passed**,
+  ruff/black gröna. ⚠️ Fas 8 (observerbarhet) — pausad (utkastet återställt), görs som ett separat
+  steg. **OBS:** enligt ägarens beslut pågår översättning av **hela** kodbasen och dokumenten till svenska
+  (CLAUDE.md, Wiki, kommentarer) — stegvis (se Beslutslogg).
+- **2026-06-08 (Fas 2 — Samtrygg-adapter + skyltfönster→release):** Adaptern `poller/sources/samtrygg.py`
+  förts till fungerande skick enligt mönster av qasa: inställningarna `samtrygg_api_url/public_base/timeout_s`
+  i `shared/config.py` + `.env.example`, inkopplad i `poller/sources/__init__.py` (`@register`
+  fungerar — verifierat), guard vid tomt `SAMTRYGG_API_URL`. **Parsning förstärkt:** utvinning av
+  antal rum ur adress/rubrik (`N rok/rum`, fältet saknas i svaret), fallback via alt. fältnamn
+  (`sqareMeters`→`squareMeters`/`area`, `price`→`rent`), robust genomgång av svaret `GetHomePageObjects`
+  (gruppering per städer `RentalObjectInfo` / platt lista / wrapper `results`). Tester
+  `tests/test_samtrygg_adapter.py` (11). Hela sviten **121 passed**, ruff/black gröna.
+  ⚠️ `enabled=False` — host i SwaggerHub-specen är inte angiven, ToS inte bekräftat (aktivering hos ägaren).
+  **GitHub Pages-skyltfönstret (`index.html`) gjort om från ”demo” till ”release”:** demo-disclaimern borttagen,
+  block med verkliga funktioner tillagt (Faserna 0–6: multi-source, FCFS, matchning, SSE, API/JWT, panel+i18n,
+  compliance — med markeringar live/Fas 3 för Telegram), länkar till GitHub/Wiki/Releases. Den interaktiva
+  prototypen behållen som ”UI-preview av release” (ärligt: den skarpa backenden fungerar inte på statik). ⚠️ Filen
+  är ännu inte incheckad/pushad till Pages — publicering hos ägaren.
+- **2026-06-07 (Fas 5 — production Tailwind build, FAS 5 STÄNGD):** Flytt från Play CDN till
+  byggd Tailwind. Tema (accent/typsnitt) och custom-komponenter (`.card/.input/.btn-accent/
+  .navlink`) flyttade ut ur inline `base.html` till `frontend-build/` (`input.css` + `tailwind.config.js`,
+  `content` skannar mallar och `api.js` → klasser ur inline-JS skärs inte bort). Bygget
+  `npm run build` → `web/static/css/app.css` (purged+minified, 11KB, **incheckat** — deploy/CI
+  behöver inte Node). `base.html` laddar `app.css` istället för CDN-skriptet. README för bygget uppdaterad.
+  Tester **110 passed**, ruff/black gröna. Milstolpe: **Fas 5 helt avslutad.**
+- **2026-06-07 (Fas 5 — i18n + admin-UI):** **i18n (sv/en)** utan flask-babel: `web/i18n.py`
+  (kataloger sv/en, `translate()` med fallback sv→nyckel, `init_i18n()` — resolv av locale `?lang=`→cookie
+  `hqrtm_lang`→default sv, Jinja-globaler `t/locale/locales`, vidareföring av katalogen till JS `window.HQRTM_I18N`).
+  `HQRTM.t()` i `api.js` översätter inline-JS-strängar. Alla mallar översatta till `t()`, tillagd
+  språkväljare `_lang.html` (SV|EN). **Admin-UI:** `require_admin` (roll från DB) i `web/deps.py`,
+  blueprint `web/admin/routes.py` (`/api/admin/stats|users`, rollbyte med skydd mot själv-degradering),
+  sidan `/app/admin` + `admin.html` (statistik + tabell över användare med rolltoggle, klientguard
+  via 403). Tester `test_i18n.py` (11) + `test_admin.py` (10). Hela sviten **110 passed**, ruff/black gröna.
+  Kvarstår i Fas 5: production Tailwind-bygge (just nu CDN). Locale tas från cookie (inte från
+  `user.locale`) — fungerar även före login; synk med profilen — valfritt senare.
+- **2026-06-07 (Fas 2 — Qasa-adapter):** `poller/sources/qasa.py` — Qasa-adapter via GraphQL
+  (`api.qasa.com/graphql`, query `homes`), normalisering till `Listing` (+`fcfs`), backoff på 429/5xx,
+  hantering av GraphQL-errors. ⚠️ **Kontraktet INTE verifierat** (inget officiellt publikt Qasa-API) →
+  `enabled=False`, stäm av schema + ToS före aktivering. Gemensamma hjälpare `as_float/as_int` flyttade
+  till `poller/sources/base.py` (återanvänds av HomeQ+Qasa). **En latent bugg fixad:**
+  `poller/sources/__init__.py` importerar nu de konkreta adaptrarna → `@register` fungerar
+  i prod (tidigare var registret tomt vid `python -m poller.main`). Tester `tests/test_qasa_adapter.py`
+  (9) + uppdaterad `test_sources.py`. Hela sviten **89 passed**, ruff/black gröna.
+- **2026-06-07 (Fas 2 — matchning + köläggning av aviseringar):** `poller/matcher.py` implementerad
+  (`matches()` — only_fcfs/sources/intervall för pris-rum-yta/områdes-substräng; `match_users()`
+  — grov sållning av aktiva filter i Mongo + exakt kontroll i Python). `poller/engine.py` utvidgad:
+  `process_new_listings` sätter nu annonsens `_id`; ny `enqueue_notifications()` —
+  matchning av nya FCFS mot filter och **idempotent** köläggning av `notifications` (status=queued,
+  leverans/latency — Fas 3). Tillagt unikt index `notifications (user_id, listing_id)`
+  (`uniq_user_listing`) i `shared/db.py`. Loopen `poller/main.py` anropar enqueue efter engine.
+  Detta blåser liv i webbflödet `/api/listings?matched` och SSE (Change Stream på notifications) **utan Telegram**.
+  Tester `tests/test_matcher.py` (12). Hela sviten **80 passed**, ruff/black gröna.
+  Gren `feature/phase2-homeq-adapter`. ⚠️ Verklig polling väntar fortfarande på att adaptern aktiveras (konto+ToS).
+- **2026-06-07 (Fas 2 — verklig HomeQ-adapter):** Kontraktet för HomeQ Core API avstämt mot dokumentationen
+  (`docs-core.homeq.se`/`api.homeq.se`) och implementerat i `poller/sources/homeq.py`: auth
+  `POST /api/v2/tokens/` (JWT, omlogin vid 401), Card Search `POST /api/v3/cards/` med
+  `first_come_first=true/queue_points=false` (FCFS-only på källan), normalisering av kortet →
+  fält i `Listing` (+ `fcfs` för detektorn), vidareföring av 429/5xx (Retry-After) för backoff-loopen.
+  Inställningar i `shared/config.py` (`homeq_base_url`/`homeq_username`/`homeq_password`/`homeq_fetch_amount`)
+  och `.env.example`. Tester `tests/test_homeq_adapter.py` på `httpx.MockTransport` (auth, search,
+  normalisering, omlogin, throttling, inget konto, väg genom detektorn). Hela sviten **68 passed**,
+  ruff/black gröna. Gren `feature/phase2-homeq-adapter`. ⚠️ Adaptern `enabled=False` — aktivering
+  och verklig polling hos ägaren (konto från landlord-portalen + bekräftelse av ToS). Härnäst efter
+  aktivering: Qasa (samma API), sedan Fas 3 (Telegram-leverans, milstolpe M2).
+- **2026-06-07 (Fas 2 kärna + ToS-research):** Pollerns kärna klar (FCFS-detektor, dedup, engine,
+  async-loop med adaptiv frekvens/backoff) — gren `feature/phase2-poller`, tester **58 passed**.
+  ToS-research för plattformarna nedtecknad i `COMPLIANCE.md`: **HomeQ/Qasa — officiellt Core API** (prioritet),
+  övriga — partnerskap/kontroll. Adaptrarna fortfarande `enabled=False` (inga nycklar/ToS-bekräftelse).
+  Verklig integration av HomeQ API (Card Search/webhooks) — nästa steg efter att nyckel erhållits.
+  ⚠️ Detta är en teknisk sammanfattning, inte juridisk rådgivning — beslutet om aktivering ligger hos ägaren.
+- **2026-06-07 (Fas 6 + CI vaknade):** Real-time klart: `web/sse/` (broker + Change Stream watcher +
+  `/sse/feed`), dashboard på `EventSource` (dedup, auto-reconnect, live-indikator, fallback polling).
+  Tester **51 passed**. CI på GitHub **grön** (billing upplåst). UI-språk fastställt —
+  **svenska prioriterat** (produkt för den svenska marknaden), engelska sekundärt (i18n framöver).
+  Gren `feature/phase6-sse`. Härnäst: i18n (sv/en), admin-UI, eller Fas 2 (poller — ToS-blockerad).
+- **2026-06-07 (Fas 5):** Frontend på Jinja2 + **Tailwind** (Play CDN) + Vanilla JS.
+  `web/views.py` (sidor), `web/templates/*` (base/app_base + landing/login/register/dashboard/
+  filters/notifications/settings), `web/static/js/api.js` (klient: tokens i localStorage, auto-refresh,
+  guard, toast). Tillagd roll `UserRole` (user/admin) i modellen + i `/api/me`; admin-post i navigeringen
+  efter roll. `frontend-build/` — config för production Tailwind-bygget (än så länge CDN). Tester **48 passed**.
+  Gren `feature/phase5-frontend`. Härnäst: Wiki (manualer), sedan i18n / SSE (Fas 6) / admin-UI.
+- **2026-06-07 (Fas 4 avslutad):** Alla endpoints i Fas 4 klara och mergade till `develop` (pushat).
+  Tillagda: `/api/listings` (matched + paginering), `/api/notifications` (paginering),
   `/api/telegram/link|status`, OpenAPI (`web/openapi.py` → `/openapi.json`, Swagger UI `/apidocs`).
-  Пагинация: `?page=&limit=` (limit ≤ 100). Тесты **39 passed**, ruff/black зелёные.
-  **Дальше на выбор:** Фаза 5 (Jinja2-фронтенд поверх API) или Фаза 2 (поллер, нужен ToS площадок).
-- **2026-06-07 (Фаза 4 ядро):** Ветка `feature/phase4-api-auth` (от `develop`). Реализовано ядро web:
-  `shared/security.py` (Argon2 + JWT), `web/extensions.py` (limiter), `web/db.py` (DI БД + serialize),
-  `web/deps.py` (`require_auth`), blueprints `web/auth/routes.py` (register/login/refresh) и
-  `web/api/routes.py` (CRUD filters + /me GDPR). Фабрика `create_app(db=, testing=)`. Тесты: **34 passed**
-  (auth, filters CRUD, изоляция пользователей, GDPR-удаление). Площадки в scope: HomeQ, Qasa, Blocket,
-  Bostad Direkt, Samtrygg (COMPLIANCE.md). Фаза 1 влита в `develop` и запушена.
-  ⚠️ flask-limiter в dev использует in-memory storage (для мульти-процесса нужен backend; Фаза 8/10).
-- **2026-06-07 (ещё поздн.):** **Фаза 1 готова** на ветке `feature/phase1-data-layer` (от `develop`).
-  `shared/models.py` (все коллекции, мульти-source, StrEnum), `shared/db.py` (`ensure_indexes`,
-  составной уникум `(source, external_id)`, TTL), мульти-source каркас `poller/sources/`
-  (`SourceAdapter` + реестр + HomeQ-стаб, все `enabled=False`). Добавлен `email-validator`.
-  Тесты: 22 passed (models, indexes на mongomock, registry). **Pivot:** проект → all-in-one
-  агрегатор шведских площадок. `develop` запушен на GitHub (Фаза 0). ⚠️ GitHub Actions заблокирован
-  (биллинг аккаунта) — CI не запускается, но конфиг корректен; локально зелёно.
-- **2026-06-07 (поздн.):** **Фаза 0 завершена** на ветке `develop`. Каркас: `pyproject.toml`,
-  venv 3.12, пакеты `shared/web/poller/bot` (заглушки с TODO по фазам), `tests/` (10 passed),
+  Paginering: `?page=&limit=` (limit ≤ 100). Tester **39 passed**, ruff/black gröna.
+  **Härnäst valfritt:** Fas 5 (Jinja2-frontend ovanpå API) eller Fas 2 (poller, kräver plattformarnas ToS).
+- **2026-06-07 (Fas 4 kärna):** Gren `feature/phase4-api-auth` (från `develop`). Webb-kärnan implementerad:
+  `shared/security.py` (Argon2 + JWT), `web/extensions.py` (limiter), `web/db.py` (DI av DB + serialize),
+  `web/deps.py` (`require_auth`), blueprints `web/auth/routes.py` (register/login/refresh) och
+  `web/api/routes.py` (CRUD filters + /me GDPR). Factory `create_app(db=, testing=)`. Tester: **34 passed**
+  (auth, filters CRUD, användarisolering, GDPR-radering). Plattformar i scope: HomeQ, Qasa, Blocket,
+  Bostad Direkt, Samtrygg (COMPLIANCE.md). Fas 1 mergad till `develop` och pushad.
+  ⚠️ flask-limiter använder i dev in-memory storage (för multi-process behövs en backend; Fas 8/10).
+- **2026-06-07 (ännu senare):** **Fas 1 klar** på grenen `feature/phase1-data-layer` (från `develop`).
+  `shared/models.py` (alla kollektioner, multi-source, StrEnum), `shared/db.py` (`ensure_indexes`,
+  sammansatt unikt `(source, external_id)`, TTL), multi-source-stomme `poller/sources/`
+  (`SourceAdapter` + register + HomeQ-stub, alla `enabled=False`). Tillagt `email-validator`.
+  Tester: 22 passed (models, index på mongomock, registry). **Pivot:** projektet → all-in-one-
+  aggregator för svenska plattformar. `develop` pushad till GitHub (Fas 0). ⚠️ GitHub Actions blockerad
+  (kontots billing) — CI körs inte, men config är korrekt; lokalt grönt.
+- **2026-06-07 (sent):** **Fas 0 avslutad** på grenen `develop`. Stomme: `pyproject.toml`,
+  venv 3.12, paketen `shared/web/poller/bot` (platshållare med TODO per fas), `tests/` (10 passed),
   pre-commit (ruff/black/detect-secrets + baseline), CI `ci.yml`, README/COMPLIANCE/CONTRIBUTING/LICENSE.
-  `web/app.py` → `/health`. Шаблонный `main.py` удалён. **Дальше: Фаза 1** (MongoDB: `shared/db.py`
-  ensure_indexes + `shared/models.py`). Для Фазы 2 нужен ToS HomeQ (§6 п.1 — блокер).
-- **2026-06-07:** Создан CLAUDE.md, git/Pages, demo опубликовано (alshfu.github.io/HQRTM/).
+  `web/app.py` → `/health`. Mall-`main.py` borttagen. **Härnäst: Fas 1** (MongoDB: `shared/db.py`
+  ensure_indexes + `shared/models.py`). För Fas 2 krävs ToS för HomeQ (§6 p.1 — blockerare).
+- **2026-06-07:** Skapade CLAUDE.md, git/Pages, demot publicerat (alshfu.github.io/HQRTM/).
 
-### Журнал ключевых решений (дописывать, не переписывать)
-- **2026-06-08:** **Язык: всё на шведском.** По решению владельца ВСЕ файлы и документы проекта
-  (UI, витрина, demo, Wiki, CLAUDE.md, комментарии/докстринги в коде, контент сэмплов) пишутся
-  **по-шведски**. Исключение — **общение в чате с владельцем остаётся русским** (§8). Перевод
-  существующей базы — поэтапно, с коммитом/пушем на каждом этапе.
-- **2026-06-08:** **Главное правило процесса:** на каждом завершённом этапе — коммитить, пушить,
-  обновлять Wiki (без отдельного запроса). Отменяет прежнее «пушить только по запросу».
-- **2026-06-08:** **Реальные данные + первоисточник.** Пользовательские поверхности показывают
-  реальные данные парсинга (не мок) и всегда дают ссылку на первоисточник (`Listing.url`). Пока
-  площадки выключены по ToS — публичное demo показывает «урок», сгенерированный реальным парсером
-  по фикстурам (`scripts/gen_sample_listings.py`), без обращения к живым площадкам.
-- **2026-06-08:** **Telegram-доставка (Фаза 3) — отложена** (deferred, не вырезана). Уведомления
-  пока только в веб-ленте (SSE). Вернуться позже.
-- **2026-06-07:** Стек: **Python 3.12**, **MongoDB Atlas free-tier**, лицензия **MIT**.
-  Зависимости и tooling — в `pyproject.toml` (`[project]` + `[project.optional-dependencies]`).
-  `docker-compose` отложен на Фазу 10 (Atlas для dev, локальный Docker не требуется).
-- **2026-06-07:** **Pivot на мульти-source агрегатор** (по предложению владельца). Источник —
-  через адаптеры `poller/sources/` (`SourceAdapter` + реестр). Уникум объявления стал
-  `(source, external_id)`. Площадки-кандидаты в `COMPLIANCE.md`; финальный набор — за владельцем.
-  ToS проверяется per-source, адаптер включается только после этого.
-- **2026-06-07:** Каноническим стеком признан Roadmap (Flask + MongoDB + SSE + Vanilla JS).
-  Документы Backend/Frontend ToR — источники требований, но их технологии (FastAPI/Postgres/Redis/React)
-  не используются.
-- **2026-06-07:** Репозиторий — **public** (по GH-001), имя `HQRTM`, аккаунт `alshfu`.
-  GitHub Pages отдаётся из ветки `main` / корень; `index.html` в корне = витрина, демо лежит в
-  `HQRTM-Demo/`. При смене схемы Pages (например, на `/docs` или `gh-pages`) — обновить пути и этот пункт.
+### Beslutslogg (lägg till, skriv inte om)
+- **2026-06-08:** **Språk: allt på svenska.** Enligt ägarens beslut skrivs ALLA filer och dokument i projektet
+  (UI, skyltfönster, demo, Wiki, CLAUDE.md, kommentarer/docstrings i koden, sample-innehåll)
+  **på svenska**. Undantag — **kommunikationen i chatten med ägaren förblir på ryska** (§8). Översättning av
+  den befintliga basen — stegvis, med commit/push vid varje steg.
+- **2026-06-08:** **Huvudregel för processen:** vid varje avslutat steg — committa, pusha,
+  uppdatera Wiki (utan separat förfrågan). Upphäver det tidigare ”pusha bara på begäran”.
+- **2026-06-08:** **Verklig data + förstakälla.** Användarytorna visar
+  verklig parserdata (inte mock) och ger alltid en länk till förstakällan (`Listing.url`). Så länge
+  plattformarna är avstängda av ToS visar det publika demot ett ”urval” genererat av en riktig parser
+  på fixturer (`scripts/gen_sample_listings.py`), utan anrop till de levande plattformarna.
+- **2026-06-08:** **Telegram-leverans (Fas 3) — uppskjuten** (deferred, inte bortskuren). Aviseringar
+  bara i webbflödet (SSE) tills vidare. Återkom senare.
+- **2026-06-07:** Stack: **Python 3.12**, **MongoDB Atlas free-tier**, licens **MIT**.
+  Beroenden och tooling — i `pyproject.toml` (`[project]` + `[project.optional-dependencies]`).
+  `docker-compose` uppskjutet till Fas 10 (Atlas för dev, lokal Docker krävs inte).
+- **2026-06-07:** **Pivot till multi-source-aggregator** (på ägarens förslag). Källan —
+  via adaptrar `poller/sources/` (`SourceAdapter` + register). En annons blev unik via
+  `(source, external_id)`. Kandidatplattformar i `COMPLIANCE.md`; den slutgiltiga uppsättningen — hos ägaren.
+  ToS kontrolleras per-source, adaptern aktiveras först därefter.
+- **2026-06-07:** Roadmap erkänd som kanonisk stack (Flask + MongoDB + SSE + Vanilla JS).
+  Dokumenten Backend/Frontend ToR — kravkällor, men deras teknologier (FastAPI/Postgres/Redis/React)
+  används inte.
+- **2026-06-07:** Repot — **public** (enligt GH-001), namn `HQRTM`, konto `alshfu`.
+  GitHub Pages levereras från grenen `main` / roten; `index.html` i roten = skyltfönster, demot ligger i
+  `HQRTM-Demo/`. Vid byte av Pages-upplägg (t.ex. till `/docs` eller `gh-pages`) — uppdatera sökvägarna och denna punkt.
