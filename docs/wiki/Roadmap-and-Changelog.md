@@ -13,7 +13,7 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 | 5 | Frontend (Jinja2 + Tailwind + Vanilla JS) + i18n + admin-UI | ✅ |
 | 6 | Realtid (SSE + Change Streams) | ✅ |
 | 7 | GitHub Pages demo | ✅ (demo publicerad) |
-| 8 | Robusthet, säkerhet, observerbarhet | ⏳ |
+| 8 | Robusthet, säkerhet, observerbarhet | 🟡 påbörjad (loggar+PII, readiness, säkerhetsheaders, mätvärden) |
 | 9 | Testning | ⏳ (unit/integration pågår, 121 passed) |
 | 10 | Driftsättning på VPS (M3) | ⏳ |
 | 11 | Dokumentation och leverans | 🚧 (denna Wiki) |
@@ -38,6 +38,9 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 - **2026-06-08** — Annonser berikade med **bild** (`image_url`) och **beskrivning** (`description`):
   nya fält i `Listing`, normalisering i alla adaptrar (HomeQ/Qasa/Samtrygg), `pick_image`-hjälpare.
   Vitrinens urval visar nu bild + beskrivning + länk till källan.
+- **2026-06-08** — **Fas 8 påbörjad**: `shared/logging.py` (strukturerade loggar + PII-maskering),
+  `/health/ready` (DB-ping), säkerhetsheaders på alla svar, konfigurerbar rate-limit-backend
+  (`RATELIMIT_STORAGE_URI`), pollerns mätvärden per cykel. 129 passed.
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver

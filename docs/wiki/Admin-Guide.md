@@ -25,9 +25,13 @@ Därefter visas menyvalet **Admin** i panelen.
 - **Mätvärden (mål)**: latens publish→leverans (SLA ≤ 1,5 s), aviseringsvolym, bevakningsfrekvens.
 
 ## Övervakning (nuvarande)
-- `GET /health` — webbprocessens status.
+- `GET /health` — webbprocessens status (liveness).
+- `GET /health/ready` — readiness: pingar MongoDB (`200 ready` / `503 degraded`).
 - `python -m shared.db` — (åter)skapa index i databasen.
-- Processloggar (web/poller/bot) — strukturerade, utan PII.
+- Processloggar (web/poller/bot) — strukturerade, **utan PII** (e-post/chat_id/tokens maskeras
+  av `shared.logging.PiiRedactingFilter`); `LOG_JSON=true` ger JSON-loggar i prod.
+- Pollern loggar mätvärden per cykel (hämtade/nya FCFS/köade aviseringar).
+- Säkerhetsheaders sätts på varje svar (nosniff, X-Frame-Options, CSP frame-ancestors, HSTS).
 
 ## Säkerhet
 - Åtkomst till andras data är blockerad på tjänstenivå (JWT-kontroll).

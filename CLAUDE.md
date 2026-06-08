@@ -271,6 +271,12 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (bild/beskrivning + Fas 8 påbörjad):** Annonser berikade med `image_url` och
+  `description` (modell + alla adaptrar + `pick_image`); skyltfönstrets urval visar bild, beskrivning
+  och länk till förstakällan. **Fas 8 påbörjad:** `shared/logging.py` (strukturerade loggar +
+  PII-maskering, JSON via `LOG_JSON`), `/health/ready` (DB-ping), säkerhetsheaders på alla svar,
+  konfigurerbar rate-limit-backend (`RATELIMIT_STORAGE_URI`), pollerns mätvärden per cykel. Allt på
+  svenska. Tester **129 passed**, ruff/black gröna. Hela repot är fritt från kyrilliska (svenska överallt).
 - **2026-06-08 (skyltfönster på svenska + verklig parserdata + länkar till förstakällan):**
   Skyltfönstret `index.html` är helt översatt till **svenska** och visar **ett urval verkliga annonser
   från en riktig parser**: `scripts/gen_sample_listings.py` kör adaptrarna HomeQ/Qasa/Samtrygg

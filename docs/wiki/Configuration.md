@@ -28,6 +28,8 @@ Läses via `shared/config.py` (`pydantic-settings`).
 | `SAMTRYGG_API_URL` | — | Endpoint `GetHomePageObjects` (host saknas i specen — fastställ) |
 | `SAMTRYGG_PUBLIC_BASE` | `https://samtrygg.se` | Bas för länkar till Samtrygg-annonser |
 | `LOG_LEVEL` | `INFO` | Loggnivå |
+| `LOG_JSON` | `false` | JSON-loggar för aggregatorer i prod |
+| `RATELIMIT_STORAGE_URI` | — | Backend för rate-limit (tom → in-memory; prod: t.ex. `redis://…`) |
 
 > Adaptrarna HomeQ/Qasa/Samtrygg är som standard **avstängda** (`enabled=False` i koden) — aktivering
 > först efter bekräftad ToS för plattformen (se [Efterlevnad](Compliance)). Ange uppgifter därefter.

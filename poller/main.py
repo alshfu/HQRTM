@@ -37,6 +37,8 @@ def current_interval_ms(hour: int) -> int:
 async def run_once(db, adapters) -> list[dict]:
     """En genomgång av alla adaptrar. Returnerar nya FCFS-annonser."""
     new_fcfs: list[dict] = []
+    fetched = 0
+    queued = 0
     for adapter in adapters:
         try:
             raw = await adapter.fetch_listings()
@@ -47,9 +49,14 @@ async def run_once(db, adapters) -> list[dict]:
             continue
         for item in raw:
             item.setdefault("source", str(adapter.source))
+        fetched += len(raw)
         batch = process_new_listings(db, raw)
-        enqueue_notifications(db, batch)  # matchning + kö av aviseringar (utskick — Fas 3)
+        # matchning + kö av aviseringar (utskick — Fas 3)
+        queued += enqueue_notifications(db, batch)
         new_fcfs.extend(batch)
+    # Mätvärden per cykel (Fas 8): info om något nytt hände, annars debug.
+    level = logging.INFO if (new_fcfs or queued) else logging.DEBUG
+    log.log(level, "cykel: hämtade=%d nya_fcfs=%d aviseringar=%d", fetched, len(new_fcfs), queued)
     return new_fcfs
 
 
@@ -80,7 +87,9 @@ async def run(db=None) -> None:
 
 
 def main() -> None:
-    logging.basicConfig(level=get_settings().log_level)
+    from shared.logging import setup_logging
+
+    setup_logging()
     asyncio.run(run())
 
 

@@ -59,8 +59,12 @@ class Settings(BaseSettings):
     samtrygg_public_base: str = "https://samtrygg.se"  # för att bygga länkar till annonser
     samtrygg_timeout_s: float = 10.0
 
-    # Loggning
+    # Observerbarhet / robusthet (Fas 8)
     log_level: str = "INFO"
+    log_json: bool = False  # JSON-loggar för aggregatorer i prod
+    # Lagring för rate-limit-räknare. Tom → in-memory (endast en process/dev).
+    # För multiprocess/prod ange en backend, t.ex. redis://… eller memcached://…
+    ratelimit_storage_uri: str = ""
 
 
 @lru_cache

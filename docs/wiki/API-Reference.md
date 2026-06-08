@@ -52,8 +52,13 @@ Skydd `require_admin`: rollen kontrolleras mot databasen. Utan token — `401`, 
 ## Övrigt
 | Metod | Sökväg | Syfte |
 |---|---|---|
-| GET | `/health` | health-check |
+| GET | `/health` | health-check (liveness) |
+| GET | `/health/ready` | readiness — pingar MongoDB (`200 ready` / `503 degraded`) |
 | GET | `/openapi.json`, `/apidocs` | OpenAPI + Swagger UI |
+
+Alla svar bär konservativa säkerhetsheaders (Fas 8): `X-Content-Type-Options`, `X-Frame-Options`,
+`Referrer-Policy`, `Content-Security-Policy: frame-ancestors 'none'`, `Permissions-Policy`, samt
+`Strict-Transport-Security` utanför testläge.
 
 Paginerade svar: `{ items: [...], page, limit, total }`.
 
