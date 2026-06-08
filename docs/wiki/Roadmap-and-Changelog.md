@@ -15,7 +15,7 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 | 7 | GitHub Pages demo | ✅ (demo publicerad) |
 | 8 | Robusthet, säkerhet, observerbarhet | 🟡 påbörjad (loggar+PII, readiness, säkerhetsheaders, mätvärden) |
 | 9 | Testning | ⏳ (unit/integration pågår, 121 passed) |
-| 10 | Driftsättning på VPS (M3) | ⏳ |
+| 10 | Driftsättning (beta web-only, PaaS) | 🟡 scaffold klart (Dockerfile, render.yaml, poller-cron, --once, publik HomeQ-poll) — se [Deploy-Beta](Deploy-Beta) |
 | 11 | Dokumentation och leverans | 🚧 (denna Wiki) |
 
 ## Changelog (kort)
@@ -50,6 +50,9 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   riktiga Göteborg-annonser och pushar → Pages bygger om. **Hela modulära demot** (flöde + adminpanel)
   drivs nu av riktig data (`window.HQRTM_SAMPLE`/`HQRTM_META`): riktiga bilder, källänk i modalen,
   admin visar region/antal/senaste hämtning. Device-snapshots är frysta referenser.
+- **2026-06-08** — **Beta-deploy-scaffold** (web-only, PaaS): `Dockerfile` (gunicorn/gthread) +
+  `.dockerignore`, `render.yaml`, poller `--once` + publik HomeQ-poll (`HOMEQ_PUBLIC_POLL`/`HOMEQ_BBOX`),
+  `ensure_indexes` vid pollerstart, `poll-homeq.yml` (cron → prod-Mongo), guide [Deploy-Beta](Deploy-Beta).
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver

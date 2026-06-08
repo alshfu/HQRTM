@@ -59,6 +59,13 @@ class Settings(BaseSettings):
     samtrygg_public_base: str = "https://samtrygg.se"  # för att bygga länkar till annonser
     samtrygg_timeout_s: float = 10.0
 
+    # HomeQ publik bevakning (beta): pollern hämtar HomeQ:s inloggningsfria Card Search (utan JWT)
+    # och filtrerar på bbox. ⚠️ Ägarens beslut/risk gällande ToS. Kontinuerlig landlord-JWT-polling
+    # är fortsatt gated på ToS-bekräftelse (COMPLIANCE.md).
+    homeq_public_poll: bool = False
+    homeq_bbox: str = ""  # "min_lat,max_lat,min_lng,max_lng" (t.ex. Göteborg) — tom = hela landet
+    homeq_public_limit: int = 50  # max antal annonser per cykel i publik bevakning
+
     # Observerbarhet / robusthet (Fas 8)
     log_level: str = "INFO"
     log_json: bool = False  # JSON-loggar för aggregatorer i prod

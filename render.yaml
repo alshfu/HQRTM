@@ -1,0 +1,29 @@
+# Render Blueprint — beta (web-only). Importera i Render: New → Blueprint → välj repo.
+# Pollern körs separat som schemalagd cron (se .github/workflows/poll-homeq.yml) eller
+# som en Render Cron Job / Background Worker (betald plan) med kommandot:
+#   python -m poller.main --once
+services:
+  - type: web
+    name: hqrtm-web
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: MONGO_URI            # MongoDB Atlas (M0 free = replica set, krävs för Change Streams)
+        sync: false               # sätts manuellt i Render-dashboarden (hemlighet)
+      - key: MONGO_DB
+        value: hqrtm
+      - key: SECRET_KEY
+        generateValue: true       # Render genererar ett säkert värde
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FLASK_ENV
+        value: production
+      - key: LOG_JSON
+        value: "true"
+      - key: WEB_WORKERS
+        value: "2"
+      - key: WEB_THREADS
+        value: "8"

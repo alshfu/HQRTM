@@ -1,0 +1,38 @@
+name: poll-homeq
+
+# Beta-bevakning (web-only, gratis): kör pollern EN cykel mot prod-Mongo (Atlas) via cron.
+# Hämtar HomeQ:s publika Card Search (Göteborg) → upsertar listings → matchar filter →
+# köar aviseringar (status=queued) → web-flödet/SSE visar träffar för testarna.
+#
+# Krav: repo-hemligheten PROD_MONGO_URI (Atlas-anslutningssträng).
+# ⚠️ Återkommande automatiserad åtkomst till HomeQ:s publika API (ägarens beslut/risk gällande ToS).
+# Produktion: byt till Render Cron Job / Background Worker (`python -m poller.main --once`).
+
+on:
+  schedule:
+    - cron: "*/6 * * * *"   # var 6:e minut
+  workflow_dispatch: {}
+
+concurrency:
+  group: poll-homeq
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Poll publik HomeQ → prod-Mongo
+        env:
+          MONGO_URI: ${{ secrets.PROD_MONGO_URI }}
+          MONGO_DB: hqrtm
+          HOMEQ_PUBLIC_POLL: "true"
+          HOMEQ_BBOX: "57.30501310262437,57.951573625160904,11.299629385756305,12.662900614241892"
+          HOMEQ_PUBLIC_LIMIT: "50"
+          LOG_JSON: "true"
+        run: python -m poller.main --once

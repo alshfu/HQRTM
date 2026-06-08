@@ -47,11 +47,22 @@ class HomeQAdapter(SourceAdapter):
     source = Source.HOMEQ
     enabled = False  # aktivera efter ToS-kontroll (COMPLIANCE.md) — ägarens beslut
 
-    def __init__(self, client: httpx.AsyncClient | None = None) -> None:
-        """``client`` kan injiceras (tester/delad pool); annars skapas den vid behov."""
+    def __init__(
+        self,
+        client: httpx.AsyncClient | None = None,
+        public: bool = False,
+        bbox: tuple[float, float, float, float] | None = None,
+    ) -> None:
+        """``client`` kan injiceras (tester/delad pool); annars skapas den vid behov.
+
+        ``public=True`` → ``fetch_listings`` använder den inloggningsfria Card Search (utan JWT),
+        filtrerad på ``bbox`` (beta-bevakning av publik data).
+        """
         self._client = client
         self._owns_client = client is None
         self._token: str | None = None
+        self._public = public
+        self._bbox = bbox
 
     # ---------------------------------------------------------------- lifecycle
 
@@ -99,6 +110,10 @@ class HomeQAdapter(SourceAdapter):
 
     async def fetch_listings(self) -> list[dict]:
         """Returnera färska FCFS-kort från HomeQ, normaliserade till ``Listing``-fält."""
+        if self._public:
+            return await self.fetch_public_cards(
+                bbox=self._bbox, limit=get_settings().homeq_public_limit
+            )
         client = await self._get_client()
         token = await self._token_or_auth(client)
 

@@ -19,11 +19,34 @@ from shared.utils import is_hot_hour, parse_hot_hours
 
 from poller.engine import enqueue_notifications, process_new_listings
 from poller.sources import enabled_adapters
+from poller.sources.homeq import HomeQAdapter
 
 log = logging.getLogger("hqrtm.poller")
 
 _NIGHT_FACTOR = 4  # nattetid bevakar vi N gånger mer sällan
 _MAX_BACKOFF_MS = 60_000
+
+
+def _parse_bbox(value: str) -> tuple[float, float, float, float] | None:
+    """'min_lat,max_lat,min_lng,max_lng' → tuple, eller None vid tomt/fel."""
+    parts = [p.strip() for p in value.split(",") if p.strip()]
+    if len(parts) != 4:
+        return None
+    try:
+        a, b, c, d = (float(p) for p in parts)
+        return (a, b, c, d)
+    except ValueError:
+        return None
+
+
+def build_adapters() -> list:
+    """Aktiverade adaptrar från registret + ev. publik HomeQ-bevakning (beta, config-styrd)."""
+    adapters = list(enabled_adapters())
+    s = get_settings()
+    if s.homeq_public_poll:
+        adapters.append(HomeQAdapter(public=True, bbox=_parse_bbox(s.homeq_bbox)))
+        log.info("Publik HomeQ-bevakning aktiv (bbox=%s)", s.homeq_bbox or "hela landet")
+    return adapters
 
 
 def current_interval_ms(hour: int) -> int:
@@ -60,18 +83,23 @@ async def run_once(db, adapters) -> list[dict]:
     return new_fcfs
 
 
-async def run(db=None) -> None:
+async def run(db=None, once: bool = False) -> None:
     if db is None:
-        from shared.db import get_sync_db
+        from shared.db import ensure_indexes, get_sync_db
 
         db = get_sync_db()
+        ensure_indexes(db)  # idempotent — garanterar index i prod (dedup/unika nycklar)
 
-    adapters = enabled_adapters()
+    adapters = build_adapters()
     if not adapters:
         log.warning(
-            "Inga aktiverade adaptrar — kontrollera plattformarnas ToS (COMPLIANCE.md) "
-            "och enabled=True."
+            "Inga aktiverade adaptrar — kontrollera plattformarnas ToS (COMPLIANCE.md), "
+            "sätt enabled=True eller HOMEQ_PUBLIC_POLL=true."
         )
+
+    if once:
+        await run_once(db, adapters)  # en cykel (cron-läge) → avsluta
+        return
 
     backoff_ms = 0
     while True:
@@ -87,10 +115,13 @@ async def run(db=None) -> None:
 
 
 def main() -> None:
+    import sys
+
     from shared.logging import setup_logging
 
     setup_logging()
-    asyncio.run(run())
+    once = "--once" in sys.argv  # en cykel och avsluta (för schemalagd cron-bevakning)
+    asyncio.run(run(once=once))
 
 
 if __name__ == "__main__":

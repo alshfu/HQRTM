@@ -271,6 +271,14 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (Fas 10 — beta-deploy-scaffold, web-only/PaaS):** Beslut: beta **web-only** (ingen
+  Telegram), **PaaS (Render)**, data via **publik HomeQ**. Levererat: `Dockerfile` (gunicorn gthread,
+  delad image för web+poller), `.dockerignore`, `render.yaml` (web), poller `--once`-läge + **publik
+  HomeQ-bevakning** (`HOMEQ_PUBLIC_POLL`/`HOMEQ_BBOX`/`HOMEQ_PUBLIC_LIMIT`; `HomeQAdapter(public=True)`
+  → `fetch_public_cards`), `ensure_indexes` vid pollerstart, `.github/workflows/poll-homeq.yml`
+  (cron var 6:e min → prod-Mongo). Guide: `docs/wiki/Deploy-Beta.md`. pyproject: `gunicorn` + packages
+  via `find`. Tester **131 passed**, ruff/black gröna. **Återstår (ägaråtgärd):** Atlas M0 + Render-konto
+  + secrets (`MONGO_URI`, repo `PROD_MONGO_URI`), integritetspolicy/villkor (GDPR, idag platshållare).
 - **2026-06-08 (auto-uppdatering + riktig data i hela demot):** GitHub Actions
   `.github/workflows/refresh-vitrine.yml` kör `gen_sample_listings.py` **var 6:e minut** (0,1 h) →
   hämtar riktiga Göteborg-annonser (HomeQ publik Card Search) → pushar `sample-listings.js` → Pages

@@ -31,6 +31,8 @@ dependencies = [
     "aiogram>=3.4",
     # logging
     "structlog>=24.1",
+    # prod WSGI-server (gunicorn, gthread-workers för SSE)
+    "gunicorn>=21.2",
 ]
 
 [project.optional-dependencies]
@@ -46,8 +48,8 @@ dev = [
 # Skrapning — fallback, installeras separat: pip install -e ".[scraper]" && playwright install
 scraper = ["playwright>=1.43"]
 
-[tool.setuptools]
-packages = ["poller", "bot", "web", "shared"]
+[tool.setuptools.packages.find]
+include = ["poller*", "bot*", "web*", "shared*"]
 
 [tool.ruff]
 target-version = "py312"

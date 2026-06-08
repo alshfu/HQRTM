@@ -8,6 +8,7 @@
 **Utveckling**
 - [Utvecklarguide](Developer-Guide)
 - [Installation](Setup-and-Installation)
+- [Driftsättning (beta)](Deploy-Beta)
 - [Konfiguration](Configuration)
 - [Arkitektur](Architecture)
 - [Datamodell](Data-Model)
