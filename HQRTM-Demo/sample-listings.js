@@ -3,6 +3,42 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Fridkullagatan 24 A",
+    "url": "https://homeq.se/lagenhet/262067-2rum-göteborg-västra-götalands-län-fridkullagatan-24-a",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/f642bfdcbebe47a49edd934e4ffaf4ea.jpeg",
+    "description": "2 rum · 54 m² · i Göteborg, inflytt 2026-09-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 10000,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
+    "title": "Örngatan 1D",
+    "url": "https://homeq.se/lagenhet/262061-2rum-mölndal-västra-götalands-län-örngatan-1d",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/2e991d99f2c54a4eac686d2cb299c471.jpeg",
+    "description": "2 rum · 54 m² · i Mölndal, inflytt 2026-08-01",
+    "district": "Mölndal",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 8060,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
+    "title": "Skäpplandsgatan 4",
+    "url": "https://homeq.se/lagenhet/262021-3rum-göteborg-västra-götalands-län-skäpplandsgatan-4",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/abade93bbab24cfb98538340dc1f257c.jpeg",
+    "description": "3 rum · 76 m² · i Göteborg, inflytt 2026-08-01",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 76.0,
+    "rent": 13800,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Valands promenad 2E",
     "url": "https://homeq.se/lagenhet/262010-1rum-kungsbacka-hallands-län-valands-promenad-2e",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/49e2224dab9640338de4174bf78b03a6.jpeg",
@@ -63,18 +99,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "homeq",
-    "title": "Östanvindsgatan 13",
-    "url": "https://homeq.se/lagenhet/261772-3rum-kungsbacka-hallands-län-östanvindsgatan-13",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/f9a5bdcb77494f5695f052ebc1dd6f0f.jpeg",
-    "description": "3 rum · 100 m² · i Kungsbacka, inflytt 2026-07-01",
-    "district": "Kungsbacka",
-    "rooms": 3.0,
-    "area_m2": 100.0,
-    "rent": 9770,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
     "title": "Karl Gustavsgatan 63",
     "url": "https://homeq.se/lagenhet/261720-2rum-göteborg-västra-götalands-län-karl-gustavsgatan-63",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/5192001c2047465ab321365457d6c0e9.jpeg",
@@ -120,30 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 91.15,
     "rent": 16158,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Gårdstensvägen 105",
-    "url": "https://homeq.se/lagenhet/261690-2rum-angered-västra-götalands-län-gårdstensvägen-105",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/9fce49b8a8db47bc97eb0a0858a278be.jpeg",
-    "description": "2 rum · 47.4 m² · i Göteborg, inflytt 2026-09-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 47.4,
-    "rent": 9956,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Falkenbergsgatan 14A",
-    "url": "https://homeq.se/lagenhet/261636-2rum-göteborg-västra-götalands-län-falkenbergsgatan-14a",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/ed8852ba0379428d83079bc83ce1b6b5.jpeg",
-    "description": "2 rum · 62 m² · i Göteborg, inflytt 2026-07-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 10800,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T11:27:16+00:00", "clock": "11:27:16"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T12:54:05+00:00", "clock": "12:54:05"};
