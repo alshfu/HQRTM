@@ -1,4 +1,4 @@
-"""Зависимости/декораторы для эндпоинтов (аутентификация)."""
+"""Beroenden/dekoratorer för endpoints (autentisering)."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from web.db import get_db
 
 
 def require_auth(fn):
-    """Требует валидный Bearer access-токен; кладёт user_id в `g.user_id` (BE-AU-002)."""
+    """Kräver giltig Bearer access-token; lägger user_id i `g.user_id` (BE-AU-002)."""
 
     @wraps(fn)
     def wrapper(*args, **kwargs):
@@ -37,7 +37,7 @@ def require_auth(fn):
 
 
 def require_admin(fn):
-    """Требует аутентификацию + роль admin (проверяется по БД). Иначе 401/403."""
+    """Kräver autentisering + roll admin (kontrolleras mot databasen). Annars 401/403."""
 
     @wraps(fn)
     @require_auth

@@ -1,4 +1,4 @@
-"""Тесты API: CRUD фильтров и /me (включая GDPR-удаление)."""
+"""Tester av API: CRUD av filter och /me (inklusive GDPR-radering)."""
 
 from __future__ import annotations
 
@@ -10,24 +10,24 @@ def test_filters_requires_auth(client):
 def test_filters_crud(client, make_user, bearer):
     h = bearer(make_user()["access_token"])
 
-    # пусто
+    # tomt
     assert client.get("/api/filters", headers=h).get_json()["items"] == []
 
-    # создать
+    # skapa
     created = client.post("/api/filters", json={"name": "Söder", "rent_max": 15000}, headers=h)
     assert created.status_code == 201
     fid = created.get_json()["id"]
 
-    # в списке, с дефолтом only_fcfs
+    # i listan, med standardvärde only_fcfs
     items = client.get("/api/filters", headers=h).get_json()["items"]
     assert len(items) == 1 and items[0]["name"] == "Söder"
     assert items[0]["only_fcfs"] is True
 
-    # обновить
+    # uppdatera
     upd = client.put(f"/api/filters/{fid}", json={"name": "Söder 2", "is_active": False}, headers=h)
     assert upd.status_code == 200
 
-    # удалить
+    # radera
     assert client.delete(f"/api/filters/{fid}", headers=h).status_code == 200
     assert client.get("/api/filters", headers=h).get_json()["items"] == []
 
@@ -54,7 +54,7 @@ def test_me_and_gdpr_delete(client, make_user, bearer):
     assert me.get_json()["email"] == "elin@hqrtm.se"
     assert me.get_json()["telegram_linked"] is False
 
-    # GDPR: удаление аккаунта
+    # GDPR: radering av konto
     assert client.delete("/api/me", headers=h).status_code == 200
-    # пользователя больше нет
+    # användaren finns inte längre
     assert client.get("/api/me", headers=h).status_code == 404

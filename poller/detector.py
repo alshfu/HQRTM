@@ -1,17 +1,17 @@
-"""Детекция типа объявления: FCFS («Först till kvarn») vs очередь (Фаза 2).
+"""Detektering av annonstyp: FCFS («Först till kvarn») vs kö (Fas 2).
 
-Только FCFS проходят дальше; очередные отсекаются на раннем этапе (BE-FL-001/002).
-Сигналы (по приоритету):
-1. Явный `listing_type` из адаптера (если источник уже различает).
-2. Булев флаг `fcfs` из нормализованных данных.
-3. Текстовые маркеры в title/description/labels (шведские формулировки).
+Endast FCFS går vidare; kö-annonser avskiljs i ett tidigt skede (BE-FL-001/002).
+Signaler (efter prioritet):
+1. Explicit `listing_type` från adaptern (om källan redan skiljer dem åt).
+2. Boolesk flagga `fcfs` från normaliserade data.
+3. Textmarkörer i title/description/labels (svenska formuleringar).
 """
 
 from __future__ import annotations
 
 from shared.models import ListingType
 
-# Маркеры FCFS (швед.: «первый успел — первый получил»)
+# FCFS-markörer (sv.: «först till kvarn — först till hyra»)
 _FCFS_MARKERS = (
     "först till kvarn",
     "först-till-kvarn",
@@ -21,7 +21,7 @@ _FCFS_MARKERS = (
     "fcfs",
 )
 
-# Маркеры очереди (köpoäng / kötid / förtur)
+# Kö-markörer (köpoäng / kötid / förtur)
 _QUEUE_MARKERS = (
     "köpoäng",
     "kötid",
@@ -42,7 +42,7 @@ def _text(listing: dict) -> str:
 
 
 def classify(listing: dict) -> ListingType:
-    """Определить тип объявления."""
+    """Bestäm annonstypen."""
     explicit = listing.get("listing_type")
     if explicit in (ListingType.FCFS.value, ListingType.QUEUE.value):
         return ListingType(explicit)
@@ -62,5 +62,5 @@ def classify(listing: dict) -> ListingType:
 
 
 def is_fcfs(listing: dict) -> bool:
-    """True, если объявление типа FCFS (целевое)."""
+    """True om annonsen är av typen FCFS (mål-typen)."""
     return classify(listing) is ListingType.FCFS

@@ -1,1 +1,1 @@
-"""Flask-приложение: REST API, веб-кабинет (Jinja2), SSE-лента."""
+"""Flask-applikation: REST API, webbpanel (Jinja2), SSE-flöde."""

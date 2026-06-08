@@ -1,4 +1,4 @@
-"""Юнит-тесты pydantic-моделей документов (Фаза 1)."""
+"""Enhetstester för pydantic-dokumentmodeller (Fas 1)."""
 
 from __future__ import annotations
 
@@ -33,7 +33,7 @@ def test_filter_defaults():
     f = Filter(user_id="u1", name="Söder")
     assert f.only_fcfs is True
     assert f.is_active is True
-    assert f.sources is None  # None → все площадки
+    assert f.sources is None  # None → alla plattformar
 
 
 def test_filter_rejects_negative_rent():
@@ -50,7 +50,7 @@ def test_listing_source_aware():
         listing_type=ListingType.FCFS,
         rent=12500,
     )
-    # use_enum_values=True → хранятся строковые значения
+    # use_enum_values=True → strängvärden lagras
     assert listing.source == "homeq"
     assert listing.listing_type == "fcfs"
     assert listing.external_id == "abc123"

@@ -1,7 +1,7 @@
-"""Конфигурация приложения из переменных окружения (.env).
+"""Applikationskonfiguration från miljövariabler (.env).
 
-Единый источник настроек для web / poller / bot. Секреты — только из окружения,
-не хардкодить (публичный репозиторий). См. .env.example.
+Enda källan för inställningar för web / poller / bot. Hemligheter — endast från
+miljön, hårdkoda inte (publikt repo). Se .env.example.
 """
 
 from __future__ import annotations
@@ -14,10 +14,10 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore", case_sensitive=False)
 
-    # MongoDB (replica set обязателен для Change Streams)
+    # MongoDB (replica set krävs för Change Streams)
     mongo_uri: str = "mongodb://localhost:27017/?replicaSet=rs0"
     mongo_db: str = "hqrtm"
-    # TTL авто-очистки (DB-002/DB-003)
+    # TTL för auto-rensning (DB-002/DB-003)
     seen_ttl_hours: int = 24
     listings_ttl_days: int = 7
 
@@ -36,34 +36,34 @@ class Settings(BaseSettings):
     poll_interval_ms: int = 3000
     hot_hours: str = "08-22"
 
-    # HomeQ Core API (docs-core.homeq.se). Ключ/доступ — из landlord-портала
-    # (homeq.se/biz → settings/integration). Адаптер включается только после ToS (COMPLIANCE.md).
+    # HomeQ Core API (docs-core.homeq.se). Nyckel/åtkomst — från landlord-portalen
+    # (homeq.se/biz → settings/integration). Adaptern aktiveras först efter ToS (COMPLIANCE.md).
     homeq_base_url: str = "https://api.homeq.se"  # demo: https://api-demo.homeq.se
-    homeq_public_base: str = "https://homeq.se"  # для построения ссылок на объявления
-    homeq_username: str = ""  # учётка интеграции (POST /api/v2/tokens/)
+    homeq_public_base: str = "https://homeq.se"  # för att bygga länkar till annonser
+    homeq_username: str = ""  # integrationskonto (POST /api/v2/tokens/)
     homeq_password: str = ""
-    homeq_fetch_amount: int = 100  # сколько карточек тянуть за проход (amount)
+    homeq_fetch_amount: int = 100  # hur många kort som hämtas per pass (amount)
     homeq_timeout_s: float = 10.0
 
-    # Qasa (qasa.com) — GraphQL API. ⚠️ Контракт НЕ верифицирован официально,
-    # доступ/ToS на программное чтение не подтверждён → адаптер enabled=False (COMPLIANCE.md).
+    # Qasa (qasa.com) — GraphQL API. ⚠️ Kontraktet är INTE officiellt verifierat,
+    # åtkomst/ToS för programmatisk läsning ej bekräftad → adapter enabled=False (COMPLIANCE.md).
     qasa_api_url: str = "https://api.qasa.com/graphql"
     qasa_public_base: str = "https://qasa.com"
     qasa_fetch_amount: int = 50
     qasa_timeout_s: float = 10.0
 
-    # Samtrygg (samtrygg.se) — аренда по заявке (без очереди). ⚠️ Базовый URL/host в публичной
-    # SwaggerHub-спеке не задан, ToS на программное чтение не подтверждён → адаптер enabled=False
-    # (COMPLIANCE.md). Перед включением: уточнить SAMTRYGG_API_URL и ToS (действие владельца).
-    samtrygg_api_url: str = ""  # напр. https://<host>/GetHomePageObjects (host из спеки не задан)
-    samtrygg_public_base: str = "https://samtrygg.se"  # для построения ссылок на объявления
+    # Samtrygg (samtrygg.se) — uthyrning via ansökan (utan kö). ⚠️ Bas-URL/host anges inte i den
+    # publika SwaggerHub-specen, ToS för programmatisk läsning ej bekräftad → adapter enabled=False
+    # (COMPLIANCE.md). Före aktivering: precisera SAMTRYGG_API_URL och ToS (ägaråtgärd).
+    samtrygg_api_url: str = ""  # t.ex. https://<host>/GetHomePageObjects (host saknas i specen)
+    samtrygg_public_base: str = "https://samtrygg.se"  # för att bygga länkar till annonser
     samtrygg_timeout_s: float = 10.0
 
-    # Логирование
+    # Loggning
     log_level: str = "INFO"
 
 
 @lru_cache
 def get_settings() -> Settings:
-    """Кэшированный синглтон настроек."""
+    """Cachad singleton med inställningar."""
     return Settings()

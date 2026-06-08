@@ -1,6 +1,6 @@
-"""Хендлеры Telegram-бота: /start, привязка по deep-link/коду, тест-уведомление.
+"""Telegram-bot-handlers: /start, koppling via deep-link/kod, test-avisering.
 
-Реализуется в Фазе 3 (BE-NT-005).
+Implementeras i Fas 3 (BE-NT-005).
 """
 
 from __future__ import annotations

@@ -1,1 +1,1 @@
-"""Админ-эндпоинты (роль admin): статистика и управление пользователями — Фаза 5."""
+"""Admin-endpoints (roll admin): statistik och hantering av användare — Fas 5."""

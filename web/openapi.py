@@ -1,7 +1,7 @@
-"""OpenAPI 3.0 спецификация API (BE-API-009).
+"""OpenAPI 3.0-specifikation för API:t (BE-API-009).
 
-Поддерживается вручную (без тяжёлых зависимостей), отдаётся на `/openapi.json`;
-Swagger UI — на `/apidocs` (CDN). Обновлять при добавлении/изменении эндпоинтов.
+Underhålls manuellt (utan tunga beroenden), serveras på `/openapi.json`;
+Swagger UI — på `/apidocs` (CDN). Uppdatera vid tillägg/ändring av endpoints.
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ OPENAPI_SPEC: dict = {
     "info": {
         "title": "HQRTM API",
         "version": "0.1.0",
-        "description": "API агрегатора мониторинга шведских площадок аренды (HomeQ, Qasa, …).",
+        "description": "API för bevakning av svenska uthyrningsplattformar (HomeQ, Qasa, …).",
     },
     "components": {
         "securitySchemes": {
@@ -100,22 +100,22 @@ OPENAPI_SPEC: dict = {
         },
         "/auth/register": {
             "post": {
-                "summary": "Регистрация",
+                "summary": "Registrering",
                 "requestBody": {
                     "content": {
                         "application/json": {"schema": {"$ref": "#/components/schemas/Credentials"}}
                     }
                 },
                 "responses": {
-                    "201": {"description": "создан"},
-                    "400": {"description": "невалидно/слабый пароль"},
-                    "409": {"description": "email занят"},
+                    "201": {"description": "skapad"},
+                    "400": {"description": "ogiltigt/svagt lösenord"},
+                    "409": {"description": "e-post upptagen"},
                 },
             }
         },
         "/auth/login": {
             "post": {
-                "summary": "Вход",
+                "summary": "Inloggning",
                 "requestBody": {
                     "content": {
                         "application/json": {"schema": {"$ref": "#/components/schemas/Credentials"}}
@@ -123,32 +123,32 @@ OPENAPI_SPEC: dict = {
                 },
                 "responses": {
                     "200": {
-                        "description": "токены",
+                        "description": "tokens",
                         "content": {
                             "application/json": {"schema": {"$ref": "#/components/schemas/Tokens"}}
                         },
                     },
-                    "401": {"description": "неверные данные"},
+                    "401": {"description": "felaktiga uppgifter"},
                 },
             }
         },
         "/auth/refresh": {
             "post": {
-                "summary": "Обновить access по refresh",
+                "summary": "Förnya access via refresh",
                 "responses": {
                     "200": {"description": "access_token"},
-                    "401": {"description": "невалидно"},
+                    "401": {"description": "ogiltigt"},
                 },
             }
         },
         "/api/filters": {
             "get": {
-                "summary": "Список фильтров",
+                "summary": "Lista filter",
                 "security": _bearer,
                 "responses": {"200": {"description": "items"}},
             },
             "post": {
-                "summary": "Создать фильтр",
+                "summary": "Skapa filter",
                 "security": _bearer,
                 "requestBody": {
                     "content": {
@@ -156,32 +156,32 @@ OPENAPI_SPEC: dict = {
                     }
                 },
                 "responses": {
-                    "201": {"description": "создан"},
-                    "400": {"description": "невалидно"},
+                    "201": {"description": "skapad"},
+                    "400": {"description": "ogiltigt"},
                 },
             },
         },
         "/api/filters/{id}": {
             "put": {
-                "summary": "Обновить фильтр",
+                "summary": "Uppdatera filter",
                 "security": _bearer,
                 "parameters": [
                     {"name": "id", "in": "path", "required": True, "schema": {"type": "string"}}
                 ],
-                "responses": {"200": {"description": "ok"}, "404": {"description": "нет"}},
+                "responses": {"200": {"description": "ok"}, "404": {"description": "saknas"}},
             },
             "delete": {
-                "summary": "Удалить фильтр",
+                "summary": "Ta bort filter",
                 "security": _bearer,
                 "parameters": [
                     {"name": "id", "in": "path", "required": True, "schema": {"type": "string"}}
                 ],
-                "responses": {"200": {"description": "ok"}, "404": {"description": "нет"}},
+                "responses": {"200": {"description": "ok"}, "404": {"description": "saknas"}},
             },
         },
         "/api/listings": {
             "get": {
-                "summary": "Лента объявлений",
+                "summary": "Flöde av annonser",
                 "security": _bearer,
                 "parameters": [
                     {"name": "matched", "in": "query", "schema": {"type": "boolean"}},
@@ -203,7 +203,7 @@ OPENAPI_SPEC: dict = {
         },
         "/api/notifications": {
             "get": {
-                "summary": "История уведомлений",
+                "summary": "Aviseringshistorik",
                 "security": _bearer,
                 "parameters": [
                     {"name": "page", "in": "query", "schema": {"type": "integer"}},
@@ -223,37 +223,37 @@ OPENAPI_SPEC: dict = {
         },
         "/api/telegram/link": {
             "post": {
-                "summary": "Код привязки + deep-link",
+                "summary": "Kopplingskod + deep-link",
                 "security": _bearer,
                 "responses": {"200": {"description": "link_code, deep_link"}},
             }
         },
         "/api/telegram/status": {
             "get": {
-                "summary": "Статус привязки Telegram",
+                "summary": "Status för Telegram-koppling",
                 "security": _bearer,
                 "responses": {"200": {"description": "linked, bot_username"}},
             }
         },
         "/sse/feed": {
             "get": {
-                "summary": "SSE-поток совпадений (real-time)",
-                "description": "text/event-stream. Токен в query `?token=`.",
+                "summary": "SSE-flöde av träffar (real-time)",
+                "description": "text/event-stream. Token i query `?token=`.",
                 "parameters": [{"name": "token", "in": "query", "schema": {"type": "string"}}],
                 "responses": {
-                    "200": {"description": "поток событий"},
-                    "401": {"description": "невалидный токен"},
+                    "200": {"description": "händelseflöde"},
+                    "401": {"description": "ogiltig token"},
                 },
             }
         },
         "/api/me": {
             "get": {
-                "summary": "Профиль",
+                "summary": "Profil",
                 "security": _bearer,
-                "responses": {"200": {"description": "профиль"}, "404": {"description": "нет"}},
+                "responses": {"200": {"description": "profil"}, "404": {"description": "saknas"}},
             },
             "delete": {
-                "summary": "Удалить аккаунт и данные (GDPR)",
+                "summary": "Ta bort konto och data (GDPR)",
                 "security": _bearer,
                 "responses": {"200": {"description": "ok"}},
             },

@@ -1,8 +1,8 @@
-"""Blueprint админ-API: сводная статистика и управление пользователями.
+"""Blueprint admin-API: sammanfattad statistik och hantering av användare.
 
-Доступ только для роли admin (`require_admin`). Префикс `/api/admin`.
-Без PII в логах; смена роли не позволяет администратору разжаловать самого себя
-(защита от случайной потери доступа).
+Åtkomst endast för roll admin (`require_admin`). Prefix `/api/admin`.
+Utan PII i loggar; rollbyte tillåter inte att en administratör degraderar sig själv
+(skydd mot oavsiktlig förlust av åtkomst).
 """
 
 from __future__ import annotations
@@ -45,7 +45,7 @@ def _pagination() -> tuple[int, int, int]:
 @bp.get("/stats")
 @require_admin
 def stats():
-    """Сводные счётчики по коллекциям (для дашборда админа)."""
+    """Sammanfattade räknare per samling (för admin-dashboarden)."""
     db = get_db()
     return (
         jsonify(
@@ -61,7 +61,7 @@ def stats():
 @bp.get("/users")
 @require_admin
 def list_users():
-    """Список пользователей (без секретов), пагинация ?page=&limit=."""
+    """Lista över användare (utan hemligheter), paginering ?page=&limit=."""
     db = get_db()
     page, limit, skip = _pagination()
     total = db[COLL_USERS].count_documents({})
@@ -79,7 +79,7 @@ def list_users():
 @bp.post("/users/<uid>/role")
 @require_admin
 def set_role(uid: str):
-    """Сменить роль пользователя. Нельзя разжаловать самого себя (BE-AD-002)."""
+    """Byt roll för en användare. Man kan inte degradera sig själv (BE-AD-002)."""
     oid = _oid(uid)
     if oid is None:
         return jsonify(error="bad_id"), 400
@@ -98,7 +98,7 @@ def set_role(uid: str):
 
 
 def _public_user(doc: dict | None) -> dict | None:
-    """Оставить только безопасные для админ-UI поля."""
+    """Behåll endast fält som är säkra för admin-UI."""
     if doc is None:
         return None
     return {

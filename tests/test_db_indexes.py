@@ -1,4 +1,4 @@
-"""Integration-тесты создания индексов на mongomock (Фаза 1)."""
+"""Integrationstester för skapande av index på mongomock (Fas 1)."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ def db():
 
 
 def test_ensure_indexes_idempotent(db):
-    # повторный вызов не должен падать
+    # upprepat anrop ska inte krascha
     ensure_indexes(db)
     ensure_indexes(db)
 
@@ -35,10 +35,10 @@ def test_listing_uniqueness_per_source_external_id(db):
     listings = db[COLL_LISTINGS]
     listings.insert_one({"source": "homeq", "external_id": "x1", "title": "a"})
 
-    # тот же (source, external_id) — дубль запрещён
+    # samma (source, external_id) — dubblett förbjuden
     with pytest.raises(Exception):  # noqa: B017  (mongomock → DuplicateKeyError)
         listings.insert_one({"source": "homeq", "external_id": "x1", "title": "b"})
 
-    # тот же external_id, но другая площадка — разрешено (агрегатор)
+    # samma external_id, men annan plattform — tillåtet (aggregator)
     listings.insert_one({"source": "qasa", "external_id": "x1", "title": "c"})
     assert listings.count_documents({"external_id": "x1"}) == 2

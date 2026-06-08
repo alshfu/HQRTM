@@ -1,4 +1,4 @@
-"""Тесты ядра поллера (Фаза 2, M1): детектор FCFS, дедуп, engine, async-цикл."""
+"""Tester av pollerkärnan (Fas 2, M1): FCFS-detektor, dedup, engine, async-loop."""
 
 from __future__ import annotations
 
@@ -42,23 +42,23 @@ def test_process_filters_queue_and_dedups(db):
             "external_id": "b",
             "title": "Kötid krävs",
             "url": "u",
-        },  # queue → отсев
-        {"source": "homeq", "external_id": "a", "title": "Först till kvarn", "url": "u"},  # дубль
+        },  # queue → bortsållas
+        {"source": "homeq", "external_id": "a", "title": "Först till kvarn", "url": "u"},  # dublett
         {
             "source": "qasa",
             "external_id": "a",
             "fcfs": True,
             "title": "x",
             "url": "u",
-        },  # др. источник
+        },  # annan källa
     ]
     new = process_new_listings(db, raw)
     ext_ids = {(n["source"], n["external_id"]) for n in new}
-    assert ext_ids == {("homeq", "a"), ("qasa", "a")}  # FCFS, без дубля; queue отсеян
+    assert ext_ids == {("homeq", "a"), ("qasa", "a")}  # FCFS, utan dublett; queue bortsållad
     assert all(n["listing_type"] == "fcfs" for n in new)
-    # в listings сохранены только FCFS
+    # i listings sparas endast FCFS
     assert db[COLL_LISTINGS].count_documents({}) == 2
-    # повторный прогон той же пачки → ничего нового (дедуп)
+    # upprepad körning av samma batch → inget nytt (dedup)
     assert process_new_listings(db, raw) == []
 
 
@@ -92,14 +92,14 @@ async def test_run_once_collects_fcfs(db):
     new = await run_once(db, [adapter])
     assert len(new) == 1
     assert new[0]["external_id"] == "1"
-    assert new[0]["source"] == "homeq"  # проставлен из adapter.source
+    assert new[0]["source"] == "homeq"  # satt från adapter.source
 
 
 # ------------------------------------------------------------------- adaptive interval
 
 
 def test_interval_day_vs_night():
-    # HOT_HOURS дефолт 08-22: днём базовый, ночью реже
+    # HOT_HOURS standard 08-22: på dagen basintervall, på natten mer sällan
     day = current_interval_ms(12)
     night = current_interval_ms(3)
     assert night > day

@@ -1,7 +1,7 @@
-"""Blueprint REST API: фильтры (CRUD) и профиль/удаление аккаунта.
+"""Blueprint REST API: filter (CRUD) och profil/radering av konto.
 
-BE-API-002 (CRUD фильтров), BE-API-006 (/me, удаление данных — GDPR).
-Все эндпоинты требуют access-токен; доступ только к своим данным (BE-AU-002).
+BE-API-002 (CRUD för filter), BE-API-006 (/me, radering av data — GDPR).
+Alla endpoints kräver access-token; åtkomst endast till egna data (BE-AU-002).
 """
 
 from __future__ import annotations
@@ -33,7 +33,7 @@ def _oid(value: str) -> ObjectId | None:
 
 
 def _pagination() -> tuple[int, int, int]:
-    """(page, limit, skip) из query-параметров с безопасными границами."""
+    """(page, limit, skip) från query-parametrar med säkra gränser."""
     try:
         page = max(1, int(request.args.get("page", 1)))
     except (TypeError, ValueError):
@@ -61,7 +61,7 @@ def list_filters():
 @require_auth
 def create_filter():
     data = request.get_json(silent=True) or {}
-    data["user_id"] = g.user_id  # игнорируем любой user_id из тела (BE-AU-002)
+    data["user_id"] = g.user_id  # ignorerar valfritt user_id från kroppen (BE-AU-002)
     try:
         flt = Filter(**data)
     except ValidationError as exc:
@@ -128,7 +128,7 @@ def me():
 @bp.delete("/me")
 @require_auth
 def delete_me():
-    """GDPR: удалить аккаунт и все связанные данные (право на удаление)."""
+    """GDPR: radera kontot och alla relaterade data (rätt till radering)."""
     db = get_db()
     oid = _oid(g.user_id)
     if oid is None:
@@ -147,15 +147,15 @@ def delete_me():
 @bp.get("/listings")
 @require_auth
 def list_listings():
-    """Лента объявлений (BE-API-003). `?matched=true` — только совпавшие с фильтрами пользователя.
+    """Flöde av annonser (BE-API-003). `?matched=true` — endast de som matchar användarens filter.
 
-    Доп. фильтры query: source, listing_type, district. Пагинация: page, limit.
+    Ytterligare query-filter: source, listing_type, district. Paginering: page, limit.
     """
     db = get_db()
     page, limit, skip = _pagination()
 
     if request.args.get("matched") == "true":
-        # объявления, по которым у пользователя есть уведомления (совпадения)
+        # annonser som användaren har aviseringar för (matchningar)
         raw_ids = db[COLL_NOTIFICATIONS].distinct("listing_id", {"user_id": g.user_id})
         oids = [o for o in (_oid(x) for x in raw_ids) if o is not None]
         query: dict = {"_id": {"$in": oids}}
@@ -178,7 +178,7 @@ def list_listings():
 @bp.get("/notifications")
 @require_auth
 def list_notifications():
-    """История уведомлений пользователя с пагинацией (BE-API-004)."""
+    """Användarens aviseringshistorik med paginering (BE-API-004)."""
     db = get_db()
     page, limit, skip = _pagination()
     query = {"user_id": g.user_id}
@@ -194,9 +194,9 @@ def list_notifications():
 @bp.post("/telegram/link")
 @require_auth
 def telegram_link():
-    """Сгенерировать код привязки и deep-link бота (BE-API-005, BE-NT-005).
+    """Generera kopplingskod och deep-link till boten (BE-API-005, BE-NT-005).
 
-    Бот (Фаза 3) по /start <code> свяжет telegram_chat_id с аккаунтом.
+    Boten (Fas 3) kopplar telegram_chat_id till kontot via /start <code>.
     """
     db = get_db()
     oid = _oid(g.user_id)

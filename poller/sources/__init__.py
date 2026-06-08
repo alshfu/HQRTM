@@ -1,14 +1,14 @@
-"""Адаптеры площадок-источников (all-in-one агрегатор).
+"""Adaptrar för källplattformar (all-in-one aggregator).
 
-Каждая шведская площадка жилья — отдельный адаптер `SourceAdapter`, изолирующий
-получение и нормализацию данных (BE-DE-005). Поллер обходит все включённые адаптеры
-из реестра и нормализует объявления в единую модель `shared.models.Listing`.
+Varje svensk bostadsplattform — en separat adapter `SourceAdapter` som isolerar
+hämtning och normalisering av data (BE-DE-005). Pollern går igenom alla aktiverade adaptrar
+från registret och normaliserar annonser till en enhetlig modell `shared.models.Listing`.
 
-⚠️ Перед включением адаптера в проде — проверить ToS/robots.txt площадки (COMPLIANCE.md).
+⚠️ Innan en adapter aktiveras i prod — kontrollera plattformens ToS/robots.txt (COMPLIANCE.md).
 """
 
-# Импорт конкретных адаптеров регистрирует их в реестре (@register отрабатывает при импорте).
-# Добавляя площадку — допиши сюда её модуль, чтобы poller.main увидел адаптер.
+# Import av konkreta adaptrar registrerar dem i registret (@register körs vid import).
+# När du lägger till en plattform — komplettera dess modul här så att poller.main ser adaptern.
 from poller.sources import homeq, qasa, samtrygg  # noqa: E402,F401
 from poller.sources.base import SourceAdapter
 from poller.sources.registry import enabled_adapters, register

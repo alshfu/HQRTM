@@ -1,1 +1,1 @@
-"""Общий слой: конфигурация, подключение к MongoDB, модели документов."""
+"""Delat lager: konfiguration, anslutning till MongoDB, dokumentmodeller."""

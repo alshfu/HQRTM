@@ -1,9 +1,9 @@
-"""Фабрика Flask-приложения.
+"""Fabrik för Flask-applikationen.
 
-Запуск (dev):  flask --app web.app run --debug
-Health-check:  GET /health  (BE-API-008)
+Körning (dev):  flask --app web.app run --debug
+Health-check:   GET /health  (BE-API-008)
 
-Blueprints: auth (/auth), api (/api). SSE (/sse/feed) — Фаза 6.
+Blueprints: auth (/auth), api (/api). SSE (/sse/feed) — Fas 6.
 """
 
 from __future__ import annotations
@@ -13,10 +13,10 @@ from shared.config import get_settings
 
 
 def create_app(db=None, testing: bool = False) -> Flask:
-    """Создать приложение.
+    """Skapa applikationen.
 
-    db: объект БД (PyMongo или mongomock). Если None — реальная БД из настроек.
-    testing: в тестах отключает rate-limiting и помечает app.testing.
+    db: databasobjekt (PyMongo eller mongomock). Om None — riktig databas från inställningar.
+    testing: i tester stänger av rate-limiting och sätter app.testing.
     """
     settings = get_settings()
 
@@ -69,6 +69,6 @@ def create_app(db=None, testing: bool = False) -> Flask:
     return app
 
 
-# Точка входа для `flask --app web.app run`. БД подключается лениво (PyMongo не коннектится
-# до первого запроса), поэтому импорт безопасен и в тестах.
+# Ingångspunkt för `flask --app web.app run`. Databasen ansluts lat (PyMongo ansluter inte
+# före första begäran), därför är importen säker även i tester.
 app = create_app()

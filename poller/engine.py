@@ -1,10 +1,10 @@
-"""Ядро обработки объявлений поллера (Фаза 2).
+"""Kärnan för pollerns annonsbearbetning (Fas 2).
 
-Пайплайн на пачку нормализованных объявлений:
-  дедуп (seen_listings) → классификация FCFS → отсев не-FCFS → upsert в listings →
-  матчинг с фильтрами → постановка уведомлений (status=queued).
-Возвращает новые FCFS-объявления; уведомления уже стоят в очереди (доставка — Фаза 3).
-Логика синхронная (pymongo/mongomock); HTTP-конкурентность — в async-цикле main.py.
+Pipeline för en batch normaliserade annonser:
+  dedup (seen_listings) → FCFS-klassificering → avskiljning av icke-FCFS → upsert i listings →
+  matchning mot filter → kö av aviseringar (status=queued).
+Returnerar nya FCFS-annonser; aviseringarna står redan i kö (utskick — Fas 3).
+Logiken är synkron (pymongo/mongomock); HTTP-samtidighet — i async-loopen main.py.
 """
 
 from __future__ import annotations
@@ -24,19 +24,19 @@ log = logging.getLogger("hqrtm.poller")
 
 
 def process_new_listings(db, raw_listings: list[dict]) -> list[dict]:
-    """Обработать пачку объявлений, вернуть новые FCFS (с проставленным `_id`)."""
+    """Bearbeta en batch annonser, returnera nya FCFS (med satt `_id`)."""
     new_fcfs: list[dict] = []
     for item in raw_listings:
         source = item.get("source")
         external_id = item.get("external_id")
         if not source or not external_id:
-            continue  # невалидная запись адаптера
+            continue  # ogiltig post från adaptern
 
-        # дедуп: каждое объявление обрабатываем один раз (BE-FL-003)
+        # dedup: varje annons bearbetas en gång (BE-FL-003)
         if not mark_seen(db, source, external_id):
             continue
 
-        # детекция: дальше идут только FCFS (BE-FL-002)
+        # detektering: bara FCFS går vidare (BE-FL-002)
         ltype = classify(item)
         if ltype is not ListingType.FCFS:
             continue
@@ -51,16 +51,16 @@ def process_new_listings(db, raw_listings: list[dict]) -> list[dict]:
         new_fcfs.append(doc)
 
     if new_fcfs:
-        log.info("Новых FCFS: %d", len(new_fcfs))
+        log.info("Nya FCFS: %d", len(new_fcfs))
     return new_fcfs
 
 
 def enqueue_notifications(db, listings: list[dict]) -> int:
-    """Матчинг новых FCFS с фильтрами → постановка уведомлений (status=queued).
+    """Matchning av nya FCFS mot filter → kö av aviseringar (status=queued).
 
-    Идемпотентно: уникальный индекс (user_id, listing_id) не даёт дублей при повторном
-    проходе. Доставка (Telegram) и проставление latency_ms — Фаза 3. Возвращает число
-    созданных уведомлений.
+    Idempotent: unikt index (user_id, listing_id) ger inga dubbletter vid upprepad
+    genomgång. Utskick (Telegram) och sättning av latency_ms — Fas 3. Returnerar antalet
+    skapade aviseringar.
     """
     created = 0
     for doc in listings:
@@ -72,12 +72,12 @@ def enqueue_notifications(db, listings: list[dict]) -> int:
             if _enqueue(db, user_id, listing_id):
                 created += 1
     if created:
-        log.info("Поставлено уведомлений: %d", created)
+        log.info("Köade aviseringar: %d", created)
     return created
 
 
 def _enqueue(db, user_id: str, listing_id: str) -> bool:
-    """Создать queued-уведомление, если его ещё нет. True — если создано."""
+    """Skapa en queued-avisering om den inte redan finns. True — om skapad."""
     notif = {
         "user_id": user_id,
         "listing_id": listing_id,
@@ -94,5 +94,5 @@ def _enqueue(db, user_id: str, listing_id: str) -> bool:
             upsert=True,
         )
     except DuplicateKeyError:
-        return False  # гонка: уже создано параллельно
+        return False  # race: redan skapad parallellt
     return res.upserted_id is not None

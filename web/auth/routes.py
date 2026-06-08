@@ -1,4 +1,4 @@
-"""Blueprint аутентификации: регистрация, вход, обновление токена (BE-API-001)."""
+"""Blueprint för autentisering: registrering, inloggning, token-uppdatering (BE-API-001)."""
 
 from __future__ import annotations
 

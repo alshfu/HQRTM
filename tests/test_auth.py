@@ -1,4 +1,4 @@
-"""Тесты аутентификации (register/login/refresh)."""
+"""Tester av autentisering (register/login/refresh)."""
 
 from __future__ import annotations
 
@@ -43,6 +43,6 @@ def test_refresh_flow(client, make_user):
 
 def test_refresh_rejects_access_token(client, make_user):
     data = make_user()
-    # передаём access вместо refresh — должно отклоняться (проверка type)
+    # skickar access i stället för refresh — ska avvisas (kontroll av type)
     resp = client.post("/auth/refresh", json={"refresh_token": data["access_token"]})
     assert resp.status_code == 401

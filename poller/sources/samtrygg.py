@@ -1,20 +1,20 @@
-"""Адаптер Samtrygg (samtrygg.se) — «trygg» андхандсутхюрнинг (аренда по заявке).
+"""Samtrygg-adapter (samtrygg.se) — «trygg» andrahandsuthyrning (uthyrning via ansökan).
 
-Контракт — публичная SwaggerHub-спека `Samtryg/Samtrygg/1.0.0`:
-`GET /GetHomePageObjects` → массив объектов, сгруппированных по городам
-(`RentalPropertyInfo`: `cityName`, `vacantAccomadationCount` + вложенный список
-`RentalObjectInfo`). Поля объекта: `address`, `price`, `sqareMeters` (так в API — с опечаткой),
+Kontrakt — publik SwaggerHub-spec `Samtryg/Samtrygg/1.0.0`:
+`GET /GetHomePageObjects` → en array av objekt grupperade per stad
+(`RentalPropertyInfo`: `cityName`, `vacantAccomadationCount` + nästlad lista
+`RentalObjectInfo`). Objektfält: `address`, `price`, `sqareMeters` (så i API — med felstavning),
 `startDate`, `endDate`, `imageUrl`, `rentalObjectLink`.
 
-⚠️ В спеке **не задан host** и нет полей `id`/`rooms`/`title`. Поэтому:
-- ``enabled=False`` — host и условия доступа/ToS не подтверждены; включение — за владельцем
-  (см. COMPLIANCE.md). Перед включением: уточнить базовый URL (`SAMTRYGG_API_URL`) и ToS.
-- `external_id` выводим из `rentalObjectLink` (или `address`) — стабильного id в ответе нет.
-- Вложенный ключ со списком объектов в спеке назван `RentalObjectInfo`, но регистр/имя не
-  гарантированы → парсим **защитно** (известные ключи, затем эвристика: list-поле, чьи элементы
-  похожи на объект). При расхождении со схемой правится ТОЛЬКО этот файл (BE-DE-005).
+⚠️ I specen är **host inte angiven** och fälten `id`/`rooms`/`title` saknas. Därför:
+- ``enabled=False`` — host och åtkomstvillkor/ToS är inte bekräftade; aktivering — hos ägaren
+  (se COMPLIANCE.md). Innan aktivering: fastställ bas-URL (`SAMTRYGG_API_URL`) och ToS.
+- `external_id` härleds från `rentalObjectLink` (eller `address`) — stabilt id saknas i svaret.
+- Den nästlade nyckeln med objektlistan heter `RentalObjectInfo` i specen, men gemener/versaler
+  och namn är inte garanterade → vi parsar **defensivt** (kända nycklar, sedan heuristik: list-fält
+  vars element liknar ett objekt). Vid avvikelse mot schemat ändras ENDAST denna fil (BE-DE-005).
 
-Samtrygg — аренда по заявке (нет очереди/köpoäng) → объявления помечаем FCFS.
+Samtrygg — uthyrning via ansökan (ingen kö/köpoäng) → annonserna märks som FCFS.
 """
 
 from __future__ import annotations
@@ -33,10 +33,10 @@ from poller.sources.registry import register
 log = logging.getLogger("hqrtm.poller.samtrygg")
 
 _NUM_RE = re.compile(r"\d+(?:[.,]\d+)?")
-# «2 rum», «2 rok», «3 r o k», «1,5 rum» — число комнат в свободном тексте адреса/заголовка.
+# «2 rum», «2 rok», «3 r o k», «1,5 rum» — antal rum i fritext i adress/titel.
 _ROOMS_RE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:r\.?o\.?k\.?|rum\b|rok\b|rms?\b)", re.IGNORECASE)
 
-# Известные имена полей по спеке (+ возможные варианты регистра/синонимы) для устойчивости.
+# Kända fältnamn enligt specen (+ möjliga varianter av gemener/versaler/synonymer) för robusthet.
 _LINK_KEYS = ("rentalObjectLink", "RentalObjectLink", "link", "url")
 _ADDRESS_KEYS = ("address", "Address", "streetAddress")
 _AREA_KEYS = ("sqareMeters", "squareMeters", "sqareMeter", "area", "size")
@@ -47,7 +47,7 @@ _NESTED_LIST_KEYS = ("RentalObjectInfo", "rentalObjectInfo", "rentalObjects", "o
 @register
 class SamtryggAdapter(SourceAdapter):
     source = Source.SAMTRYGG
-    enabled = False  # host/ToS не подтверждены — включение за владельцем (COMPLIANCE.md)
+    enabled = False  # host/ToS ej bekräftade — aktivering hos ägaren (COMPLIANCE.md)
 
     def __init__(self, client: httpx.AsyncClient | None = None) -> None:
         self._client = client
@@ -70,12 +70,12 @@ class SamtryggAdapter(SourceAdapter):
             self._client = None
 
     async def fetch_listings(self) -> list[dict]:
-        """Вернуть нормализованные объявления Samtrygg (ключи — поля ``Listing``)."""
+        """Returnera normaliserade Samtrygg-annonser (nycklar — ``Listing``-fält)."""
         s = get_settings()
         if not s.samtrygg_api_url:
-            # Без подтверждённого host опрашивать нечего — тихо пропускаем (адаптер всё равно
-            # enabled=False; защита на случай ручного включения без конфигурации URL).
-            log.debug("samtrygg: SAMTRYGG_API_URL не задан — пропускаю опрос")
+            # Utan bekräftad host finns inget att bevaka — hoppa tyst över (adaptern är ändå
+            # enabled=False; skydd ifall den aktiveras manuellt utan URL-konfiguration).
+            log.debug("samtrygg: SAMTRYGG_API_URL är inte satt — hoppar över bevakningen")
             return []
 
         client = await self._get_client()
@@ -99,12 +99,12 @@ class SamtryggAdapter(SourceAdapter):
         return out
 
     def _normalize(self, obj: dict[str, Any], city_name: str | None) -> dict | None:
-        """Объект Samtrygg → dict с полями ``Listing`` (+ ``fcfs`` для детектора)."""
+        """Samtrygg-objekt → dict med ``Listing``-fält (+ ``fcfs`` för detektorn)."""
         link = _first(obj, _LINK_KEYS)
         address = _first(obj, _ADDRESS_KEYS)
         ext_id = link or address
         if not ext_id:
-            return None  # без стабильного ключа дедуп невозможен — пропускаем
+            return None  # utan stabil nyckel är dedup omöjlig — hoppa över
 
         title = self._title(address, city_name)
         return {
@@ -117,7 +117,7 @@ class SamtryggAdapter(SourceAdapter):
             "rooms": _rooms(address, title),
             "area_m2": _num(_first(obj, _AREA_KEYS), float),
             "rent": _num(_first(obj, _PRICE_KEYS), int),
-            "listing_type": ListingType.FCFS.value,  # аренда по заявке, не очередь
+            "listing_type": ListingType.FCFS.value,  # uthyrning via ansökan, inte kö
             "fcfs": True,
         }
 
@@ -128,7 +128,7 @@ class SamtryggAdapter(SourceAdapter):
 
 
 def _first(obj: dict[str, Any], keys: tuple[str, ...]) -> Any:
-    """Первое непустое значение по списку возможных имён ключа (устойчиво к регистру/синонимам)."""
+    """Första icke-tomma värdet bland möjliga nyckelnamn (robust mot gemener/versaler/synonymer)."""
     for key in keys:
         value = obj.get(key)
         if value not in (None, ""):
@@ -137,18 +137,18 @@ def _first(obj: dict[str, Any], keys: tuple[str, ...]) -> Any:
 
 
 def _iter_objects(payload: Any):
-    """Защитно обойти ответ `GetHomePageObjects` → пары (cityName, объект).
+    """Gå defensivt igenom svaret `GetHomePageObjects` → par (cityName, objekt).
 
-    Структура: верхний список «городов», в каждом — `cityName` и вложенный список объектов
-    (`RentalObjectInfo` по спеке). Берём известный ключ, иначе — первое list-поле, элементы
-    которого похожи на объект (есть `address`/`price`/`rentalObjectLink`). Также поддержан
-    «плоский» ответ — список самих объектов без группировки по городам.
+    Struktur: en topplista av «städer», i varje — `cityName` och en nästlad lista av objekt
+    (`RentalObjectInfo` enligt specen). Vi tar känd nyckel, annars — första list-fältet vars
+    element liknar ett objekt (har `address`/`price`/`rentalObjectLink`). Även ett
+    «platt» svar stöds — en lista av själva objekten utan gruppering per stad.
     """
     groups = payload if isinstance(payload, list) else _coerce_list(payload)
     for group in groups:
         if not isinstance(group, dict):
             continue
-        # Плоский список объектов (без обёртки-города): сам элемент — объявление.
+        # Platt objektlista (utan stads-omslag): elementet självt är en annons.
         if any(k in group for k in _LINK_KEYS + _ADDRESS_KEYS) and not _has_object_list(group):
             yield None, group
             continue
@@ -159,7 +159,7 @@ def _iter_objects(payload: Any):
 
 
 def _coerce_list(payload: Any) -> list:
-    """Достать список групп из объекта-обёртки (`results`/`data`/первое list-поле)."""
+    """Plocka ut listan av grupper ur omslagsobjektet (`results`/`data`/första list-fältet)."""
     if isinstance(payload, dict):
         for key in ("results", "data", "items"):
             value = payload.get(key)
@@ -178,7 +178,7 @@ def _has_object_list(group: dict) -> bool:
 
 
 def _nested_objects(group: dict):
-    """Вернуть вложенный список объектов: известный ключ → иначе первое подходящее list-поле."""
+    """Returnera nästlad objektlista: känd nyckel → annars första passande list-fältet."""
     for key in _NESTED_LIST_KEYS:
         if _looks_like_objects(group.get(key)):
             return [o for o in group[key] if isinstance(o, dict)]
@@ -189,7 +189,7 @@ def _nested_objects(group: dict):
 
 
 def _looks_like_objects(value: Any) -> bool:
-    """list непустой, первый элемент — dict с признаками объявления."""
+    """list är icke-tom, första elementet — dict med kännetecken för en annons."""
     return (
         isinstance(value, list)
         and bool(value)
@@ -199,7 +199,7 @@ def _looks_like_objects(value: Any) -> bool:
 
 
 def _rooms(*texts: str | None) -> float | None:
-    """Из адреса/заголовка извлечь число комнат («2 rum», «3 rok», «1,5 rok») — None если нет."""
+    """Extrahera antal rum ur adress/titel («2 rum», «3 rok», «1,5 rok») — None om saknas."""
     for text in texts:
         if not text:
             continue
@@ -213,7 +213,7 @@ def _rooms(*texts: str | None) -> float | None:
 
 
 def _num(value: Any, cast):
-    """Из строки вида '8 500 kr/mån' / '45 m²' извлечь число (None при отсутствии)."""
+    """Extrahera ett tal ur en sträng som '8 500 kr/mån' / '45 m²' (None om saknas)."""
     if value is None:
         return None
     if isinstance(value, int | float):

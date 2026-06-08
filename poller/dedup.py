@@ -1,7 +1,7 @@
-"""Дедупликация объявлений через seen_listings (BE-FL-003).
+"""Dedup av annonser via seen_listings (BE-FL-003).
 
-Ключ — (source, external_id) с unique-индексом. Первая встреча → запись и True;
-повторная → DuplicateKeyError → False. TTL-индекс на seen_at авто-чистит старое (без Redis).
+Nyckel — (source, external_id) med unique-index. Första gången → post och True;
+upprepad → DuplicateKeyError → False. TTL-index på seen_at auto-rensar gammalt (utan Redis).
 """
 
 from __future__ import annotations
@@ -13,7 +13,7 @@ from shared.db import COLL_SEEN
 
 
 def mark_seen(db, source: str, external_id: str) -> bool:
-    """Отметить объявление виденным. Возвращает True, если оно новое (впервые)."""
+    """Markera annonsen som sedd. Returnerar True om den är ny (första gången)."""
     try:
         db[COLL_SEEN].insert_one(
             {"source": source, "external_id": external_id, "seen_at": datetime.now(UTC)}

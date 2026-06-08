@@ -1,10 +1,10 @@
-"""Pydantic-схемы документов MongoDB (Roadmap §3, расширено для мульти-source).
+"""Pydantic-scheman för MongoDB-dokument (Roadmap §3, utökat för multi-källa).
 
-Проект — агрегатор: один инструмент мониторит несколько шведских площадок жилья.
-Источник изолирован в адаптере (`poller/sources/`), а здесь — единая нормализованная
-модель `Listing` с полем `source`. Уникальность объявления — пара (source, external_id).
+Projektet är en aggregator: ett verktyg bevakar flera svenska bostadsplattformar.
+Källan är isolerad i adaptern (`poller/sources/`), och här finns en enhetlig normaliserad
+modell `Listing` med fältet `source`. Unikhet för annons — paret (source, external_id).
 
-Коллекции: users, filters, listings, notifications, seen_listings, audit_log.
+Kollektioner: users, filters, listings, notifications, seen_listings, audit_log.
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ def _utcnow() -> datetime:
 
 
 class Source(StrEnum):
-    """Площадки-источники. Расширяется по мере добавления адаптеров (см. poller/sources/)."""
+    """Källplattformar. Utökas i takt med att adaptrar läggs till (se poller/sources/)."""
 
     HOMEQ = "homeq"
     QASA = "qasa"
@@ -35,8 +35,8 @@ class Source(StrEnum):
 
 
 class ListingType(StrEnum):
-    FCFS = "fcfs"  # «Först till kvarn» — целевой тип
-    QUEUE = "queue"  # очередь / köpoäng — отсекается фильтром only_fcfs
+    FCFS = "fcfs"  # «Först till kvarn» — måltyp
+    QUEUE = "queue"  # kö / köpoäng — sållas bort av filtret only_fcfs
     UNKNOWN = "unknown"
 
 
@@ -78,12 +78,12 @@ class User(_Doc):
     link_code: str | None = None
     status: UserStatus = UserStatus.PENDING
     locale: str = "sv"
-    consent_at: datetime | None = None  # GDPR: журнал согласия
+    consent_at: datetime | None = None  # GDPR: logg över samtycke
     created_at: datetime = Field(default_factory=_utcnow)
 
 
 class Filter(_Doc):
-    """Фильтр пользователя. `sources=None` → все площадки; иначе — только перечисленные."""
+    """Användarfilter. `sources=None` → alla plattformar; annars — endast de uppräknade."""
 
     user_id: str
     name: str
@@ -102,7 +102,7 @@ class Filter(_Doc):
 
 
 class Listing(_Doc):
-    """Нормализованное объявление с любой площадки (BE-DE-006). Уникум: (source, external_id)."""
+    """Normaliserad annons från valfri plattform (BE-DE-006). Unikt: (source, external_id)."""
 
     source: Source
     external_id: str
@@ -123,13 +123,13 @@ class Notification(_Doc):
     listing_id: str
     channel: NotificationChannel = NotificationChannel.TELEGRAM
     status: NotificationStatus = NotificationStatus.QUEUED
-    latency_ms: int | None = None  # publish → delivered, для SLA (DB-005)
+    latency_ms: int | None = None  # publish → delivered, för SLA (DB-005)
     error: str | None = None
     sent_at: datetime | None = None
 
 
 class SeenListing(_Doc):
-    """Дедуп (BE-FL-003). Ключ — (source, external_id), авто-чистка по TTL seen_at."""
+    """Dedup (BE-FL-003). Nyckel — (source, external_id), auto-rensning via TTL seen_at."""
 
     source: Source
     external_id: str

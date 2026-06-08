@@ -1,8 +1,8 @@
-"""SSE-эндпоинт /sse/feed (Фаза 6).
+"""SSE-endpoint /sse/feed (Fas 6).
 
-EventSource не умеет слать заголовки → access-токен принимаем в query `?token=`.
-Стрим text/event-stream: при подключении шлёт `retry`+comment, далее события из брокера
-и heartbeat-комментарии (детект разрыва + удержание соединения через прокси).
+EventSource kan inte skicka headers → access-token tas emot i query `?token=`.
+Strömmen text/event-stream: vid anslutning skickas `retry`+comment, sedan händelser från brokern
+och heartbeat-kommentarer (upptäcker avbrott + håller anslutningen vid liv genom proxy).
 """
 
 from __future__ import annotations
@@ -50,12 +50,12 @@ def feed():
     q = broker.subscribe(user_id)
 
     def stream():
-        # советуем клиенту интервал переподключения и подтверждаем соединение
+        # föreslår klienten ett återanslutningsintervall och bekräftar anslutningen
         yield "retry: 3000\n\n"
         yield ": connected\n\n"
         try:
             if testing:
-                # в тестах не блокируемся: отдаём накопленные события и выходим
+                # i tester blockerar vi inte: skickar de samlade händelserna och avslutar
                 while True:
                     try:
                         data = q.get_nowait()
@@ -77,7 +77,7 @@ def feed():
         mimetype="text/event-stream",
         headers={
             "Cache-Control": "no-cache",
-            "X-Accel-Buffering": "no",  # отключить буферизацию в Nginx
+            "X-Accel-Buffering": "no",  # inaktivera buffring i Nginx
             "Connection": "keep-alive",
         },
     )

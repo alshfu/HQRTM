@@ -1,7 +1,7 @@
-"""Реестр адаптеров площадок.
+"""Register över plattformsadaptrar.
 
-Адаптеры регистрируются декоратором @register. Поллер берёт включённые из реестра —
-добавление новой площадки не требует правок в ядре поллера (открыт на расширение).
+Adaptrar registreras med dekoratorn @register. Pollern tar de aktiverade ur registret —
+att lägga till en ny plattform kräver inga ändringar i pollerns kärna (öppen för utökning).
 """
 
 from __future__ import annotations
@@ -14,9 +14,9 @@ _REGISTRY: dict[Source, type[SourceAdapter]] = {}
 
 
 def register(cls: type[SourceAdapter]) -> type[SourceAdapter]:
-    """Зарегистрировать класс-адаптер (декоратор)."""
+    """Registrera en adapterklass (dekorator)."""
     if not getattr(cls, "source", None):
-        raise ValueError(f"{cls.__name__}: не задан атрибут `source`")
+        raise ValueError(f"{cls.__name__}: attributet `source` är inte satt")
     _REGISTRY[cls.source] = cls
     return cls
 
@@ -26,5 +26,5 @@ def all_adapters() -> list[type[SourceAdapter]]:
 
 
 def enabled_adapters() -> list[SourceAdapter]:
-    """Экземпляры включённых адаптеров (enabled=True)."""
+    """Instanser av aktiverade adaptrar (enabled=True)."""
     return [cls() for cls in _REGISTRY.values() if cls.enabled]

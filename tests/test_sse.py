@@ -1,4 +1,4 @@
-"""Тесты SSE: брокер, авторизация эндпоинта, доставка события, очистка подписки."""
+"""Tester av SSE: broker, endpoint-auktorisering, händelseleverans, rensning av prenumeration."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ def test_broker_pubsub():
     q = b.subscribe("u1")
     assert b.publish("u1", {"x": 1}) == 1
     assert q.get_nowait() == {"x": 1}
-    # другому пользователю не доставляется
+    # levereras inte till en annan användare
     assert b.publish("u2", {"y": 2}) == 0
     b.unsubscribe("u1", q)
     assert b.subscriber_count("u1") == 0
@@ -29,7 +29,7 @@ def test_sse_streams_event_and_cleans_up(client, make_user):
     assert resp.status_code == 200
     assert resp.mimetype == "text/event-stream"
 
-    # клиент подписан → публикуем совпадение
+    # klienten är prenumererad → publicerar en träff
     assert broker.subscriber_count(uid) == 1
     broker.publish(uid, {"type": "match", "listing": {"external_id": "x1"}})
 
@@ -38,5 +38,5 @@ def test_sse_streams_event_and_cleans_up(client, make_user):
     assert "data:" in body
     assert "x1" in body
 
-    # после завершения стрима подписка снята (разрыв соединения)
+    # efter att strömmen avslutats är prenumerationen borttagen (anslutningen bröts)
     assert broker.subscriber_count(uid) == 0

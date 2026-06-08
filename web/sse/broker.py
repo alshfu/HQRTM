@@ -1,9 +1,9 @@
-"""In-process pub/sub брокер для SSE.
+"""In-process pub/sub-broker för SSE.
 
-Каждый SSE-клиент подписывается на события своего user_id (очередь). Фоновый watcher
-Change Stream публикует совпадения. Брокер живёт в памяти процесса web — при нескольких
-web-процессах нужен общий backend (Redis pub/sub) или подписка каждого процесса на свой
-Change Stream (планируется при масштабировании, Фаза 8/10).
+Varje SSE-klient prenumererar på händelser för sitt user_id (kö). En bakgrunds-watcher
+för Change Stream publicerar matchningar. Brokern lever i minnet i web-processen — vid flera
+web-processer behövs en gemensam backend (Redis pub/sub) eller att varje process prenumererar
+på sin egen Change Stream (planeras vid skalning, Fas 8/10).
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ class Broker:
                     self._subs.pop(user_id, None)
 
     def publish(self, user_id: str, data: dict) -> int:
-        """Доставить событие всем подписчикам user_id. Возвращает число доставок."""
+        """Leverera händelsen till alla prenumeranter för user_id. Returnerar antal leveranser."""
         delivered = 0
         with self._lock:
             targets = list(self._subs.get(user_id, ()))
@@ -43,7 +43,7 @@ class Broker:
                 q.put_nowait(data)
                 delivered += 1
             except queue.Full:
-                pass  # медленный клиент — пропускаем (получит при следующем polling)
+                pass  # långsam klient — hoppas över (hämtas vid nästa polling)
         return delivered
 
     def subscriber_count(self, user_id: str) -> int:
@@ -51,5 +51,5 @@ class Broker:
             return len(self._subs.get(user_id, ()))
 
 
-# единый брокер процесса
+# gemensam broker för processen
 broker = Broker()

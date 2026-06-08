@@ -1,4 +1,4 @@
-"""Тесты i18n (sv/en): паритет каталогов, перевод/fallback, резолв локали в страницах."""
+"""Tester av i18n (sv/en): paritet mellan kataloger, översättning/fallback, lokal-resolv i sidor."""
 
 from __future__ import annotations
 
@@ -6,10 +6,10 @@ from web.i18n import DEFAULT_LOCALE, LOCALES, TRANSLATIONS, normalize_locale, tr
 
 
 def test_catalog_key_parity():
-    """Ключи sv и en совпадают (нет пропусков перевода)."""
+    """Nycklarna sv och en stämmer överens (inga saknade översättningar)."""
     sv = set(TRANSLATIONS["sv"])
     en = set(TRANSLATIONS["en"])
-    assert sv == en, f"расхождение ключей: only_sv={sv - en}, only_en={en - sv}"
+    assert sv == en, f"avvikelse i nycklar: only_sv={sv - en}, only_en={en - sv}"
 
 
 def test_default_is_swedish():
@@ -23,7 +23,7 @@ def test_translate_known_key():
 
 
 def test_translate_unknown_locale_falls_back_to_default():
-    assert translate("login.submit", "de") == "Logga in"  # де нет → sv
+    assert translate("login.submit", "de") == "Logga in"  # de finns inte → sv
 
 
 def test_translate_missing_key_returns_key():
@@ -37,7 +37,7 @@ def test_normalize_locale():
     assert normalize_locale(None) is None
 
 
-# ------------------------------------------------------------------- через страницы
+# ------------------------------------------------------------------- via sidor
 
 
 def test_landing_default_swedish(client):
@@ -54,23 +54,23 @@ def test_landing_english_via_query(client):
     body = resp.data.decode()
     assert 'lang="en"' in body
     assert "Get started free" in body  # landing.cta_start (en)
-    # локаль уходит в cookie
+    # lokalen sparas i cookie
     assert "hqrtm_lang=en" in resp.headers.get("Set-Cookie", "")
 
 
 def test_locale_persists_via_cookie(client):
-    client.get("/?lang=en")  # ставит cookie
-    resp = client.get("/")  # без query — берётся из cookie
+    client.get("/?lang=en")  # sätter cookie
+    resp = client.get("/")  # utan query — hämtas från cookie
     assert "Get started free" in resp.data.decode()
 
 
 def test_invalid_lang_uses_default(client):
     resp = client.get("/?lang=xx")
-    assert "Kom igång gratis" in resp.data.decode()  # дефолт sv
+    assert "Kom igång gratis" in resp.data.decode()  # standard sv
 
 
 def test_js_catalog_injected(client):
-    """Каталог текущей локали уходит в браузер (window.HQRTM_I18N)."""
+    """Katalogen för aktuell lokal skickas till webbläsaren (window.HQRTM_I18N)."""
     body = client.get("/").data.decode()
     assert "window.HQRTM_I18N" in body
-    assert "dashboard.fcfs_badge" in body  # ключ из каталога присутствует
+    assert "dashboard.fcfs_badge" in body  # nyckel från katalogen finns

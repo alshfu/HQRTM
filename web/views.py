@@ -1,8 +1,8 @@
-"""Blueprint веб-страниц (Jinja2 + Tailwind + Vanilla JS) — Фаза 5.
+"""Blueprint för webbsidor (Jinja2 + Tailwind + Vanilla JS) — Fas 5.
 
-Страницы отдают HTML-каркас; данные подгружает клиентский JS через REST API
-(токены в localStorage, защита маршрутов на клиенте — FE-AU-003).
-Боевой фронтенд по канону: Flask + Jinja2 + Tailwind + Vanilla JS (без React).
+Sidorna levererar HTML-stomme; data hämtas av klient-JS via REST API
+(tokens i localStorage, skydd av rutter på klienten — FE-AU-003).
+Produktionsfrontend enligt kanon: Flask + Jinja2 + Tailwind + Vanilla JS (utan React).
 """
 
 from __future__ import annotations
@@ -49,5 +49,5 @@ def settings():
 
 @bp.get("/app/admin")
 def admin():
-    # Серверной гард-проверки нет (фронтенд-гард + admin-API 403); страница только для admin.
+    # Inget server-skydd här (frontend-skydd + admin-API 403); sidan är bara för admin.
     return render_template("admin.html", page="admin")

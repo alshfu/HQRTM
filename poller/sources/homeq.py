@@ -1,23 +1,23 @@
-"""Адаптер HomeQ (homeq.se) — первый источник, FCFS «Först till kvarn».
+"""HomeQ-adapter (homeq.se) — första källan, FCFS «Först till kvarn».
 
-Путь реализации (ресёрч 2026-06-07, см. COMPLIANCE.md): **официальный HomeQ Core API**
-(`docs-core.homeq.se`, база `api.homeq.se`). Контракт:
+Implementationsväg (research 2026-06-07, se COMPLIANCE.md): **officiellt HomeQ Core API**
+(`docs-core.homeq.se`, bas `api.homeq.se`). Kontrakt:
 
-* **Auth:** ``POST /api/v2/tokens/`` с ``{"username", "password"}`` → ``{"token": <JWT>, ...}``.
-  Токен передаётся в заголовке ``Authorization: JWT <token>``; на 401 — перелогин.
+* **Auth:** ``POST /api/v2/tokens/`` med ``{"username", "password"}`` → ``{"token": <JWT>, ...}``.
+  Token skickas i headern ``Authorization: JWT <token>``; vid 401 — ny inloggning.
 * **Card Search:** ``POST /api/v3/cards/`` → ``{"results": [...], "total_hits": N}``.
-  Флаги ``first_come_first``/``queue_points`` фильтруют тип карточки на стороне API:
-  для FCFS-мониторинга запрашиваем ``first_come_first=True, queue_points=False`` —
-  очередные объявления вообще не приходят, отсев на источнике (BE-FL-002).
-  Сортировка ``publish_date.desc`` → самые свежие сверху.
+  Flaggorna ``first_come_first``/``queue_points`` filtrerar korttypen på API-sidan:
+  för FCFS-bevakning frågar vi ``first_come_first=True, queue_points=False`` —
+  kö-annonser kommer inte alls, avskiljning vid källan (BE-FL-002).
+  Sortering ``publish_date.desc`` → de färskaste överst.
 
-Ключ/доступ — из landlord-портала (``homeq.se/biz`` → settings/integration). Нужны учётные
-данные интеграции в ``.env`` (``HOMEQ_USERNAME``/``HOMEQ_PASSWORD``).
+Nyckel/åtkomst — från landlord-portalen (``homeq.se/biz`` → settings/integration). Krävs
+integrationsuppgifter i ``.env`` (``HOMEQ_USERNAME``/``HOMEQ_PASSWORD``).
 
-⚠️ ``enabled=False`` до подтверждения ToS и получения доступа (COMPLIANCE.md) — поллер
-адаптер не опрашивает. Включение (``enabled=True``) — решение владельца проекта.
+⚠️ ``enabled=False`` tills ToS bekräftats och åtkomst erhållits (COMPLIANCE.md) — pollern
+bevakar inte adaptern. Aktivering (``enabled=True``) — projektägarens beslut.
 
-При изменении контракта/разметки источника правится ТОЛЬКО этот файл (BE-DE-005).
+Vid ändrat kontrakt/uppmärkning hos källan ändras ENDAST denna fil (BE-DE-005).
 """
 
 from __future__ import annotations
@@ -39,16 +39,16 @@ _CARDS_PATH = "/api/v3/cards/"
 
 
 class HomeQAuthError(RuntimeError):
-    """Не удалось получить/обновить JWT (нет учётки или отказ API)."""
+    """Kunde inte hämta/uppdatera JWT (saknad inloggning eller avslag från API)."""
 
 
 @register
 class HomeQAdapter(SourceAdapter):
     source = Source.HOMEQ
-    enabled = False  # включить после проверки ToS (COMPLIANCE.md) — решение владельца
+    enabled = False  # aktivera efter ToS-kontroll (COMPLIANCE.md) — ägarens beslut
 
     def __init__(self, client: httpx.AsyncClient | None = None) -> None:
-        """``client`` можно внедрить (тесты/общий пул); иначе создаётся по запросу."""
+        """``client`` kan injiceras (tester/delad pool); annars skapas den vid behov."""
         self._client = client
         self._owns_client = client is None
         self._token: str | None = None
@@ -69,7 +69,7 @@ class HomeQAdapter(SourceAdapter):
         return self._client
 
     async def aclose(self) -> None:
-        """Закрыть внутренний клиент (если создавали сами)."""
+        """Stäng den interna klienten (om vi skapade den själva)."""
         if self._client is not None and self._owns_client:
             await self._client.aclose()
             self._client = None
@@ -79,7 +79,7 @@ class HomeQAdapter(SourceAdapter):
     async def _authenticate(self, client: httpx.AsyncClient) -> str:
         s = get_settings()
         if not s.homeq_username or not s.homeq_password:
-            raise HomeQAuthError("HOMEQ_USERNAME/HOMEQ_PASSWORD не заданы (.env)")
+            raise HomeQAuthError("HOMEQ_USERNAME/HOMEQ_PASSWORD är inte satta (.env)")
         resp = await client.post(
             _AUTH_PATH,
             json={"username": s.homeq_username, "password": s.homeq_password},
@@ -88,7 +88,7 @@ class HomeQAdapter(SourceAdapter):
             raise HomeQAuthError(f"auth {resp.status_code}: {resp.text[:200]}")
         token = resp.json().get("token")
         if not token:
-            raise HomeQAuthError("в ответе auth нет поля token")
+            raise HomeQAuthError("auth-svaret saknar fältet token")
         self._token = token
         return token
 
@@ -98,7 +98,7 @@ class HomeQAdapter(SourceAdapter):
     # ---------------------------------------------------------------- fetch
 
     async def fetch_listings(self) -> list[dict]:
-        """Вернуть свежие FCFS-карточки HomeQ, нормализованные в поля ``Listing``."""
+        """Returnera färska FCFS-kort från HomeQ, normaliserade till ``Listing``-fält."""
         client = await self._get_client()
         token = await self._token_or_auth(client)
 
@@ -106,18 +106,18 @@ class HomeQAdapter(SourceAdapter):
             "offset": 0,
             "amount": get_settings().homeq_fetch_amount,
             "sorting": "publish_date.desc",
-            "first_come_first": True,  # только «först till kvarn»
-            "queue_points": False,  # очередные отсекаем на источнике
+            "first_come_first": True,  # endast «först till kvarn»
+            "queue_points": False,  # kö-annonser avskiljs vid källan
         }
         resp = await self._cards(client, token, body)
 
-        # JWT мог протухнуть — один перелогин и повтор.
+        # JWT kan ha gått ut — en ny inloggning och nytt försök.
         if resp.status_code == 401:
             token = await self._authenticate(client)
             resp = await self._cards(client, token, body)
 
         if resp.status_code == 429 or resp.status_code >= 500:
-            # Транзиентный сбой/троттлинг — пробрасываем, цикл сделает backoff (BE-RS-002).
+            # Transient fel/strypning — kasta vidare, loopen gör backoff (BE-RS-002).
             retry_after = resp.headers.get("Retry-After")
             raise httpx.HTTPStatusError(
                 f"HomeQ cards {resp.status_code}"
@@ -136,7 +136,7 @@ class HomeQAdapter(SourceAdapter):
     # ---------------------------------------------------------------- normalize
 
     def _normalize(self, card: dict[str, Any]) -> dict:
-        """Карточка HomeQ → dict с полями модели ``Listing`` (+ ``fcfs`` для детектора)."""
+        """HomeQ-kort → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
         ext_id = str(card["id"])
         return {
             "source": str(self.source),
@@ -147,7 +147,7 @@ class HomeQAdapter(SourceAdapter):
             "rooms": as_float(card.get("rooms")),
             "area_m2": as_float(card.get("area")),
             "rent": as_int(card.get("rent")),
-            # Запрос с first_come_first=True/queue_points=False → пришли только FCFS.
+            # Förfrågan med first_come_first=True/queue_points=False → endast FCFS kom.
             "listing_type": ListingType.FCFS.value,
             "fcfs": True,
         }

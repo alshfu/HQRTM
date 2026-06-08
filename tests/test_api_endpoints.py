@@ -1,4 +1,4 @@
-"""Тесты эндпоинтов Фазы 4: listings, notifications, telegram, OpenAPI."""
+"""Tester av endpoints i Fas 4: listings, notifications, telegram, OpenAPI."""
 
 from __future__ import annotations
 
@@ -20,13 +20,13 @@ def test_listings_pagination_and_filter(client, make_user, bearer, db):
             for i in range(25)
         ]
     )
-    # первая страница (дефолт limit=20)
+    # första sidan (standard limit=20)
     r1 = client.get("/api/listings", headers=h).get_json()
     assert r1["total"] == 25 and len(r1["items"]) == 20 and r1["page"] == 1
-    # вторая страница
+    # andra sidan
     r2 = client.get("/api/listings?page=2", headers=h).get_json()
     assert len(r2["items"]) == 5
-    # фильтр по source (нет qasa)
+    # filter på source (ingen qasa)
     rq = client.get("/api/listings?source=qasa", headers=h).get_json()
     assert rq["total"] == 0
 
@@ -50,7 +50,7 @@ def test_notifications_history(client, make_user, bearer, db):
     db[COLL_NOTIFICATIONS].insert_many(
         [{"user_id": data["id"], "listing_id": f"l{i}", "status": "delivered"} for i in range(3)]
     )
-    # уведомление другого пользователя не должно попасть
+    # avisering från en annan användare ska inte komma med
     db[COLL_NOTIFICATIONS].insert_one({"user_id": "someone_else", "listing_id": "x"})
     resp = client.get("/api/notifications", headers=h).get_json()
     assert resp["total"] == 3

@@ -1,11 +1,11 @@
-"""Лёгкий i18n без сторонних библиотек (sv приоритетный, en вторичный).
+"""Lättviktig i18n utan tredjepartsbibliotek (sv prioriterad, en sekundär).
 
-Подход в духе канона (Vanilla JS + Jinja2): словарные каталоги вместо flask-babel.
-Один и тот же каталог отдаётся в шаблоны (`t()`) и в браузер (`window.HQRTM_I18N`),
-поэтому inline-JS-строки переводятся тем же ключом через `HQRTM.t()`.
+Ansats i kanonens anda (Vanilla JS + Jinja2): ordbokskataloger i stället för flask-babel.
+Samma katalog skickas till mallar (`t()`) och till webbläsaren (`window.HQRTM_I18N`),
+därför översätts inline-JS-strängar med samma nyckel via `HQRTM.t()`.
 
-Локаль определяется: `?lang=sv|en` → cookie `hqrtm_lang` → дефолт `sv`.
-Шведский — язык рынка (приоритет, решение 2026-06-07); английский — fallback при пропуске ключа.
+Locale bestäms av: `?lang=sv|en` → cookie `hqrtm_lang` → standard `sv`.
+Svenska är marknadens språk (prioritet, beslut 2026-06-07); engelska — fallback vid saknad nyckel.
 """
 
 from __future__ import annotations
@@ -17,10 +17,10 @@ LOCALES: tuple[str, ...] = ("sv", "en")
 COOKIE = "hqrtm_lang"
 _COOKIE_MAX_AGE = 365 * 24 * 3600
 
-# Каталоги переводов. Ключи ОБЯЗАНЫ совпадать между sv и en (проверяется тестом).
+# Översättningskataloger. Nycklarna MÅSTE matcha mellan sv och en (kontrolleras av test).
 TRANSLATIONS: dict[str, dict[str, str]] = {
     "sv": {
-        # nav / общее
+        # nav / gemensamt
         "nav.feed": "Flöde",
         "nav.filters": "Filter",
         "nav.notifications": "Aviseringar",
@@ -303,12 +303,12 @@ TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 def normalize_locale(value: str | None) -> str | None:
-    """Вернуть локаль, если она поддерживается, иначе None."""
+    """Returnera locale om den stöds, annars None."""
     return value if value in LOCALES else None
 
 
 def translate(key: str, locale: str | None = None, **kwargs) -> str:
-    """Перевести ключ. Fallback: запрошенная локаль → дефолт (sv) → сам ключ."""
+    """Översätt nyckeln. Fallback: begärd locale → standard (sv) → själva nyckeln."""
     loc = normalize_locale(locale) or DEFAULT_LOCALE
     value = TRANSLATIONS[loc].get(key)
     if value is None:
@@ -322,7 +322,7 @@ def translate(key: str, locale: str | None = None, **kwargs) -> str:
 
 
 def init_i18n(app: Flask) -> None:
-    """Подключить i18n: резолв локали, сохранение в cookie, Jinja-глобалы."""
+    """Koppla in i18n: resolva locale, spara i cookie, Jinja-globaler."""
 
     @app.before_request
     def _resolve_locale() -> None:

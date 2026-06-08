@@ -1,11 +1,11 @@
-"""Точка входа поллера — async-цикл опроса (Фаза 2).
+"""Pollerns startpunkt — async-loop för bevakning (Fas 2).
 
-Запуск: python -m poller.main
+Start: python -m poller.main
 
-Цикл: для каждого включённого адаптера → fetch → process_new_listings (дедуп/детект/upsert) →
-enqueue_notifications (матчинг + queued-уведомления). Доставка в Telegram — Фаза 3.
-Адаптивная частота (HOT_HOURS) + экспоненциальный backoff.
-Адаптеры включаются (`enabled=True`) только после фиксации ToS (COMPLIANCE.md).
+Loop: för varje aktiverad adapter → fetch → process_new_listings (dedup/detekt/upsert) →
+enqueue_notifications (matchning + queued-aviseringar). Utskick till Telegram — Fas 3.
+Adaptiv frekvens (HOT_HOURS) + exponentiell backoff.
+Adaptrar aktiveras (`enabled=True`) först efter fastställd ToS (COMPLIANCE.md).
 """
 
 from __future__ import annotations
@@ -22,12 +22,12 @@ from poller.sources import enabled_adapters
 
 log = logging.getLogger("hqrtm.poller")
 
-_NIGHT_FACTOR = 4  # ночью опрашиваем в N раз реже
+_NIGHT_FACTOR = 4  # nattetid bevakar vi N gånger mer sällan
 _MAX_BACKOFF_MS = 60_000
 
 
 def current_interval_ms(hour: int) -> int:
-    """Интервал опроса для часа: базовый в «горячие» часы, реже — ночью (BE-DE-004)."""
+    """Bevakningsintervall för timmen: bas under heta timmar, mer sällan nattetid (BE-DE-004)."""
     settings = get_settings()
     base = settings.poll_interval_ms
     window = parse_hot_hours(settings.hot_hours)
@@ -35,20 +35,20 @@ def current_interval_ms(hour: int) -> int:
 
 
 async def run_once(db, adapters) -> list[dict]:
-    """Один проход по всем адаптерам. Возвращает новые FCFS-объявления."""
+    """En genomgång av alla adaptrar. Returnerar nya FCFS-annonser."""
     new_fcfs: list[dict] = []
     for adapter in adapters:
         try:
             raw = await adapter.fetch_listings()
         except NotImplementedError:
-            continue  # адаптер ещё не реализован
-        except Exception as exc:  # noqa: BLE001 — сбой источника не должен ронять цикл
-            log.warning("Адаптер %s: ошибка опроса: %s", adapter.source, exc)
+            continue  # adaptern är ännu inte implementerad
+        except Exception as exc:  # noqa: BLE001 — källfel ska inte fälla loopen
+            log.warning("Adapter %s: fel vid bevakning: %s", adapter.source, exc)
             continue
         for item in raw:
             item.setdefault("source", str(adapter.source))
         batch = process_new_listings(db, raw)
-        enqueue_notifications(db, batch)  # матчинг + постановка уведомлений (доставка — Фаза 3)
+        enqueue_notifications(db, batch)  # matchning + kö av aviseringar (utskick — Fas 3)
         new_fcfs.extend(batch)
     return new_fcfs
 
@@ -62,7 +62,8 @@ async def run(db=None) -> None:
     adapters = enabled_adapters()
     if not adapters:
         log.warning(
-            "Нет включённых адаптеров — проверьте ToS площадок (COMPLIANCE.md) и enabled=True."
+            "Inga aktiverade adaptrar — kontrollera plattformarnas ToS (COMPLIANCE.md) "
+            "och enabled=True."
         )
 
     backoff_ms = 0
@@ -70,9 +71,9 @@ async def run(db=None) -> None:
         try:
             await run_once(db, adapters)
             backoff_ms = 0
-        except Exception as exc:  # noqa: BLE001 — устойчивость цикла (BE-RS-002)
+        except Exception as exc:  # noqa: BLE001 — loopens robusthet (BE-RS-002)
             backoff_ms = min(_MAX_BACKOFF_MS, (backoff_ms or 1000) * 2)
-            log.error("Сбой цикла поллера, backoff %d мс: %s", backoff_ms, exc)
+            log.error("Fel i poller-loopen, backoff %d ms: %s", backoff_ms, exc)
 
         interval = backoff_ms or current_interval_ms(datetime.now().hour)  # noqa: DTZ005
         await asyncio.sleep(interval / 1000)

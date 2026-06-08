@@ -1,4 +1,4 @@
-"""Тесты матчинга фильтров и постановки уведомлений (Фаза 2, BE-FL-004/005)."""
+"""Tester av filtermatchning och köläggning av aviseringar (Fas 2, BE-FL-004/005)."""
 
 from __future__ import annotations
 
@@ -51,7 +51,7 @@ def test_rooms_and_area_range():
 def test_missing_value_fails_bounded_filter():
     no_rent = {**LISTING, "rent": None}
     assert matches({"rent_max": 12000}, no_rent) is False
-    assert matches({}, no_rent) is True  # без границы — пропускаем
+    assert matches({}, no_rent) is True  # utan gräns — släpps igenom
 
 
 def test_sources_constraint():
@@ -63,7 +63,7 @@ def test_sources_constraint():
 def test_district_substring_case_insensitive():
     assert matches({"district": "stockholm"}, LISTING) is True
     assert matches({"district": "Göteborg"}, LISTING) is False
-    # city как fallback по тому же полю district объявления
+    # city som fallback mot samma fält district i annonsen
     assert matches({"city": "STOCK"}, LISTING) is True
 
 
@@ -74,13 +74,13 @@ def test_match_users_returns_matching_unique(db):
     db[COLL_FILTERS].insert_many(
         [
             {"user_id": "u1", "is_active": True, "rent_max": 12000},  # match
-            {"user_id": "u1", "is_active": True, "rooms_min": 2},  # match (тот же юзер)
-            {"user_id": "u2", "is_active": True, "rent_max": 9000},  # no match (дорого)
-            {"user_id": "u3", "is_active": False, "rent_max": 12000},  # неактивный
-            {"user_id": "u4", "is_active": True, "sources": ["qasa"]},  # др. источник
+            {"user_id": "u1", "is_active": True, "rooms_min": 2},  # match (samma användare)
+            {"user_id": "u2", "is_active": True, "rent_max": 9000},  # no match (för dyrt)
+            {"user_id": "u3", "is_active": False, "rent_max": 12000},  # inaktiv
+            {"user_id": "u4", "is_active": True, "sources": ["qasa"]},  # annan källa
         ]
     )
-    assert match_users(db, LISTING) == ["u1"]  # уникальный, только подходящий активный
+    assert match_users(db, LISTING) == ["u1"]  # unik, endast matchande aktiv
 
 
 def test_match_users_source_none_matches(db):
@@ -113,7 +113,7 @@ def test_enqueue_creates_queued_notifications(db):
     assert {n["user_id"] for n in notifs} == {"u1", "u2"}
     assert all(n["status"] == "queued" for n in notifs)
     assert all(n["listing_id"] == str(doc["_id"]) for n in notifs)
-    assert all(n["latency_ms"] is None for n in notifs)  # доставка — Фаза 3
+    assert all(n["latency_ms"] is None for n in notifs)  # leverans — Fas 3
 
 
 def test_enqueue_idempotent(db):
@@ -121,7 +121,7 @@ def test_enqueue_idempotent(db):
     doc = _seed_listing(db)
 
     assert enqueue_notifications(db, [doc]) == 1
-    assert enqueue_notifications(db, [doc]) == 0  # повтор не плодит дубли
+    assert enqueue_notifications(db, [doc]) == 0  # upprepning skapar inga dubletter
     assert db[COLL_NOTIFICATIONS].count_documents({}) == 1
 
 

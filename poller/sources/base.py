@@ -1,4 +1,4 @@
-"""Базовый интерфейс адаптера площадки + общие хелперы нормализации."""
+"""Basgränssnitt för plattformsadapter + gemensamma normaliseringshjälpare."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from shared.models import Source
 
 
 def as_float(value: Any) -> float | None:
-    """Безопасное приведение к float (None при пропуске/ошибке)."""
+    """Säker konvertering till float (None vid saknat värde/fel)."""
     try:
         return float(value) if value is not None else None
     except (TypeError, ValueError):
@@ -17,7 +17,7 @@ def as_float(value: Any) -> float | None:
 
 
 def as_int(value: Any) -> int | None:
-    """Безопасное приведение к int (None при пропуске/ошибке)."""
+    """Säker konvertering till int (None vid saknat värde/fel)."""
     try:
         return int(value) if value is not None else None
     except (TypeError, ValueError):
@@ -25,20 +25,20 @@ def as_int(value: Any) -> int | None:
 
 
 class SourceAdapter(ABC):
-    """Контракт адаптера источника.
+    """Kontrakt för källadapter.
 
-    Реализация (Фаза 2): получить данные площадки (официальное API в приоритете,
-    скрейпинг — fallback) и нормализовать в документы `Listing` (как dict).
-    При изменении разметки/контракта источника правится ТОЛЬКО его адаптер (BE-DE-005).
+    Implementation (Fas 2): hämta plattformens data (officiellt API prioriteras,
+    skrapning — fallback) och normalisera till `Listing`-dokument (som dict).
+    Vid ändrad uppmärkning/kontrakt hos källan ändras ENDAST dess adapter (BE-DE-005).
     """
 
-    #: какая площадка (проставляется в каждом подклассе)
+    #: vilken plattform (sätts i varje subklass)
     source: Source
 
-    #: включён ли адаптер по умолчанию (выключаем, пока не подтверждён ToS)
+    #: om adaptern är aktiverad som standard (avstängd tills ToS bekräftats)
     enabled: bool = False
 
     @abstractmethod
     async def fetch_listings(self) -> list[dict]:
-        """Вернуть нормализованные объявления площадки (ключи — поля `Listing`)."""
+        """Returnera plattformens normaliserade annonser (nycklar — `Listing`-fält)."""
         raise NotImplementedError

@@ -1,4 +1,4 @@
-"""Тесты веб-страниц (Jinja2 + Tailwind) — Фаза 5."""
+"""Tester av webbsidor (Jinja2 + Tailwind) — Fas 5."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ import pytest
         ("/", b"Real-Time Monitor"),
         ("/login", b"Logga in"),
         ("/register", b"Skapa konto"),
-        ("/app", b"Fl\xc3\xb6de"),  # «Flöde» в UTF-8
+        ("/app", b"Fl\xc3\xb6de"),  # «Flöde» i UTF-8
         ("/app/filters", b"Filter"),
         ("/app/notifications", b"Aviseringar"),
         ("/app/settings", b"GDPR"),
@@ -24,7 +24,7 @@ def test_pages_render(client, path, marker):
 
 
 def test_pages_load_api_client(client):
-    # на каждой странице подключён клиент API
+    # på varje sida är API-klienten inkluderad
     assert b"js/api.js" in client.get("/").data
     assert b"js/api.js" in client.get("/app").data
 

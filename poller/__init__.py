@@ -1,4 +1,4 @@
-"""Async-поллер: опрос HomeQ → детекция FCFS → матчинг → постановка уведомлений.
+"""Async-poller: HomeQ-bevakning → FCFS-detektering → matchning → kö av aviseringar.
 
-Отдельный долгоживущий процесс (не внутри Flask). Связь с web — через MongoDB.
+Separat långlivad process (inte inuti Flask). Kommunikation med web — via MongoDB.
 """

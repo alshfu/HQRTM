@@ -1,8 +1,8 @@
-"""Фоновый слушатель MongoDB Change Stream коллекции notifications (Фаза 6).
+"""Bakgrundslyssnare för MongoDB Change Stream på samlingen notifications (Fas 6).
 
-На каждое новое уведомление (insert) публикует в брокер событие с данными listing,
-адресно подписчикам соответствующего user_id. Требует replica set (Atlas — из коробки);
-при недоступности Change Streams тред завершается, а клиенты используют fallback-polling.
+För varje ny avisering (insert) publiceras en händelse med listing-data till brokern,
+adresserat till prenumeranterna för motsvarande user_id. Kräver replica set (Atlas — direkt);
+om Change Streams inte är tillgängliga avslutas tråden och klienterna använder fallback-polling.
 """
 
 from __future__ import annotations
@@ -43,18 +43,18 @@ def _run(db) -> None:
     try:
         pipeline = [{"$match": {"operationType": "insert"}}]
         with db[COLL_NOTIFICATIONS].watch(pipeline, full_document="updateLookup") as stream:
-            log.info("SSE change-stream watcher запущен")
+            log.info("SSE change-stream watcher startad")
             for change in stream:
                 doc = change.get("fullDocument") or {}
                 user_id = str(doc.get("user_id")) if doc.get("user_id") else None
                 if user_id:
                     broker.publish(user_id, _build_event(db, doc))
-    except Exception as exc:  # noqa: BLE001 — любой сбой не должен ронять web
-        log.warning("SSE watcher остановлен: %s (fallback на polling у клиентов)", exc)
+    except Exception as exc:  # noqa: BLE001 — inget fel får krascha web
+        log.warning("SSE watcher stoppad: %s (fallback till polling hos klienter)", exc)
 
 
 def ensure_watcher_started(db) -> None:
-    """Лениво запустить watcher один раз на процесс (daemon-тред)."""
+    """Starta watchern lat en gång per process (daemon-tråd)."""
     global _started
     with _lock:
         if _started:

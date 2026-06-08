@@ -1,8 +1,8 @@
-"""Тесты адаптера HomeQ Core API (Фаза 2).
+"""Tester för HomeQ Core API-adaptern (Fas 2).
 
-HTTP мокируется через httpx.MockTransport — без сети и сторонних зависимостей.
-Проверяем: auth-флоу, Card Search (FCFS-only), нормализацию в Listing,
-перелогин на 401, проброс троттлинга 429, отсутствие учётки, путь через детектор.
+HTTP mockas via httpx.MockTransport — utan nätverk och tredjepartsberoenden.
+Vi kontrollerar: auth-flöde, Card Search (FCFS-only), normalisering till Listing,
+återinloggning vid 401, vidarebefordran av strypning 429, saknat konto, väg genom detektorn.
 """
 
 from __future__ import annotations
@@ -28,7 +28,7 @@ CARD = {
 
 @pytest.fixture(autouse=True)
 def _creds(monkeypatch):
-    """Подставляем учётку HomeQ и сбрасываем кэш настроек."""
+    """Lägger in HomeQ-konto och rensar inställningscachen."""
     get_settings.cache_clear()
     monkeypatch.setenv("HOMEQ_USERNAME", "integration-bot")
     monkeypatch.setenv("HOMEQ_PASSWORD", "secret")
@@ -53,7 +53,7 @@ async def test_auth_then_card_search_returns_normalized_fcfs():
         if request.url.path == "/api/v3/cards/":
             assert request.headers["Authorization"] == "JWT jwt-abc"
             return httpx.Response(200, json={"results": [CARD], "total_hits": 1})
-        raise AssertionError(f"неожиданный путь {request.url.path}")
+        raise AssertionError(f"oväntad väg {request.url.path}")
 
     adapter = _adapter(handler)
     listings = await adapter.fetch_listings()
@@ -103,7 +103,7 @@ async def test_relogin_on_401():
         paths.append(request.url.path)
         if request.url.path == "/api/v2/tokens/":
             return httpx.Response(200, json={"token": next(tokens)})
-        # Первый запрос карточек с протухшим токеном → 401, затем 200.
+        # Första kortförfrågan med utgånget token → 401, sedan 200.
         if request.headers["Authorization"] == "JWT stale":
             return httpx.Response(401, json={"detail": "expired"})
         return httpx.Response(200, json={"results": [CARD]})
@@ -111,7 +111,7 @@ async def test_relogin_on_401():
     adapter = _adapter(handler)
     listings = await adapter.fetch_listings()
 
-    assert paths.count("/api/v2/tokens/") == 2  # перелогин случился
+    assert paths.count("/api/v2/tokens/") == 2  # återinloggning skedde
     assert len(listings) == 1
     await adapter.aclose()
 
@@ -147,7 +147,7 @@ async def test_missing_credentials_raises_auth_error(monkeypatch):
     get_settings.cache_clear()
 
     def handler(request: httpx.Request) -> httpx.Response:
-        raise AssertionError("не должны ходить в сеть без учётки")
+        raise AssertionError("får inte gå mot nätet utan konto")
 
     adapter = _adapter(handler)
     with pytest.raises(HomeQAuthError):
@@ -157,7 +157,7 @@ async def test_missing_credentials_raises_auth_error(monkeypatch):
 
 async def test_auth_response_without_token_raises():
     def handler(request: httpx.Request) -> httpx.Response:
-        return httpx.Response(200, json={"company": {"id": 1}})  # нет token
+        return httpx.Response(200, json={"company": {"id": 1}})  # inget token
 
     adapter = _adapter(handler)
     with pytest.raises(HomeQAuthError):
@@ -167,8 +167,8 @@ async def test_auth_response_without_token_raises():
 
 async def test_absolute_uri_and_fallback_url():
     cards = [
-        {"id": 1, "title": "A", "uri": "https://x.se/ad/1"},  # абсолютный
-        {"id": 2, "title": "B"},  # без uri → fallback
+        {"id": 1, "title": "A", "uri": "https://x.se/ad/1"},  # absolut
+        {"id": 2, "title": "B"},  # utan uri → fallback
     ]
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -199,7 +199,7 @@ async def test_cards_without_id_are_skipped():
 
 
 async def test_normalized_listing_passes_detector_as_fcfs():
-    """Сквозная проверка: нормализованная карточка распознаётся детектором как FCFS."""
+    """End-to-end-kontroll: ett normaliserat kort känns igen av detektorn som FCFS."""
 
     def handler(request: httpx.Request) -> httpx.Response:
         if request.url.path == "/api/v2/tokens/":

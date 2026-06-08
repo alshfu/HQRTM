@@ -1,4 +1,4 @@
-"""Smoke-тесты Фазы 0: приложение собирается, health отвечает, модули импортируются."""
+"""Smoke-test för Fas 0: appen byggs, health svarar, moduler importeras."""
 
 from __future__ import annotations
 

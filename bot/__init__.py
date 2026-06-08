@@ -1,1 +1,1 @@
-"""Telegram-бот (aiogram): привязка аккаунта и доставка уведомлений (Фаза 3)."""
+"""Telegram-bot (aiogram): koppling av konto och leverans av aviseringar (Fas 3)."""

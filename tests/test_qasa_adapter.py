@@ -1,8 +1,8 @@
-"""Тесты адаптера Qasa (GraphQL, Фаза 2).
+"""Tester för Qasa-adaptern (GraphQL, Fas 2).
 
-⚠️ Контракт Qasa не верифицирован официально — тесты фиксируют ту форму ответа, под
-которую написан адаптер (см. poller/sources/qasa.py). Перед включением — сверить с живым API.
-HTTP мокируется через httpx.MockTransport (без сети).
+⚠️ Qasas kontrakt är inte officiellt verifierat — testerna fixerar den svarsform som
+adaptern är skriven för (se poller/sources/qasa.py). Före aktivering — stäm av mot live-API.
+HTTP mockas via httpx.MockTransport (utan nätverk).
 """
 
 from __future__ import annotations
@@ -69,7 +69,7 @@ async def test_graphql_query_sends_first_variable():
     adapter = _adapter(handler)
     await adapter.fetch_listings()
     assert "homes" in captured["query"]
-    assert captured["variables"]["first"] == 50  # qasa_fetch_amount по умолчанию
+    assert captured["variables"]["first"] == 50  # qasa_fetch_amount som standard
     await adapter.aclose()
 
 

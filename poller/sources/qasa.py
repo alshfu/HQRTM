@@ -1,20 +1,20 @@
-"""Адаптер Qasa (qasa.com) — вторая площадка Qasa Group (та же группа, что владеет HomeQ).
+"""Qasa-adapter (qasa.com) — andra plattformen i Qasa Group (samma grupp som äger HomeQ).
 
-⚠️ **КОНТРАКТ НЕ ВЕРИФИЦИРОВАН.** В отличие от HomeQ Core API, у Qasa нет публично
-документированного партнёрского API. Их фронтенд использует GraphQL-эндпоинт
-(`api.qasa.com/graphql`, запрос `homes`), но он не документирован для третьих лиц, а ToS на
-программный доступ не подтверждён. Поэтому:
+⚠️ **KONTRAKTET ÄR INTE VERIFIERAT.** Till skillnad från HomeQ Core API har Qasa inget
+publikt dokumenterat partner-API. Deras frontend använder en GraphQL-endpoint
+(`api.qasa.com/graphql`, förfrågan `homes`), men den är inte dokumenterad för tredje part, och
+ToS för programmatisk åtkomst är inte bekräftad. Därför:
 
-* ``enabled=False`` — поллер адаптер не опрашивает; включение — только после сверки схемы с
-  живым API и подтверждения ToS владельцем (см. COMPLIANCE.md, Qasa = ❌).
-* Запрос/нормализация ниже написаны по наиболее достоверной форме GraphQL `homes` и
-  **защитны** (всё через ``.get()``) — при расхождении со схемой правится ТОЛЬКО этот файл
-  (BE-DE-005). Перед включением: сверить имена полей в GraphQL-ответе и при необходимости
-  скорректировать запрос `_HOMES_QUERY` и `_normalize`.
+* ``enabled=False`` — pollern bevakar inte adaptern; aktivering — endast efter avstämning av
+  schemat mot live-API och bekräftad ToS av ägaren (se COMPLIANCE.md, Qasa = ❌).
+* Förfrågan/normalisering nedan är skrivna efter den mest sannolika formen av GraphQL `homes`
+  och är **defensiva** (allt via ``.get()``) — vid avvikelse mot schemat ändras ENDAST denna
+  fil (BE-DE-005). Innan aktivering: stäm av fältnamnen i GraphQL-svaret och justera vid behov
+  förfrågan `_HOMES_QUERY` och `_normalize`.
 
-Модель Qasa: маркетплейс-аренда по заявке (first-hand/second-hand), без очереди/köpoäng —
-это ближе к FCFS («подал заявку — арендодатель выбирает»), поэтому объявления помечаем
-``fcfs=True`` (детектор пропустит их дальше), если явно не помечены как иное.
+Qasa-modell: marketplace-uthyrning via ansökan (first-hand/second-hand), utan kö/köpoäng —
+det ligger närmare FCFS («ansökte — hyresvärden väljer»), därför märker vi annonserna med
+``fcfs=True`` (detektorn släpper dem vidare), om de inte uttryckligen är märkta som annat.
 """
 
 from __future__ import annotations
@@ -31,7 +31,7 @@ from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.qasa")
 
-# GraphQL-запрос свежих объявлений. Имена полей — best-effort (см. предупреждение в модуле).
+# GraphQL-förfrågan om färska annonser. Fältnamn — best-effort (se varningen i modulen).
 _HOMES_QUERY = """
 query Homes($first: Int!) {
   homes(first: $first, order: { field: PUBLISHED_AT, direction: DESCENDING }) {
@@ -53,7 +53,7 @@ query Homes($first: Int!) {
 @register
 class QasaAdapter(SourceAdapter):
     source = Source.QASA
-    enabled = False  # контракт не верифицирован + ToS не подтверждён — решение владельца
+    enabled = False  # kontraktet ej verifierat + ToS ej bekräftad — ägarens beslut
 
     def __init__(self, client: httpx.AsyncClient | None = None) -> None:
         self._client = client
@@ -76,7 +76,7 @@ class QasaAdapter(SourceAdapter):
             self._client = None
 
     async def fetch_listings(self) -> list[dict]:
-        """Вернуть свежие объявления Qasa, нормализованные в поля ``Listing``."""
+        """Returnera färska Qasa-annonser, normaliserade till ``Listing``-fält."""
         s = get_settings()
         client = await self._get_client()
         resp = await client.post(
@@ -102,10 +102,10 @@ class QasaAdapter(SourceAdapter):
         return [self._normalize(n) for n in nodes if n.get("id") is not None]
 
     def _normalize(self, node: dict[str, Any]) -> dict:
-        """Узел Qasa `home` → dict с полями модели ``Listing`` (+ ``fcfs`` для детектора)."""
+        """Qasa-nod `home` → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
         ext_id = str(node["id"])
         loc = node.get("location") or {}
-        # Qasa — аренда по заявке (нет köpoäng) → трактуем как FCFS, если явно не иное.
+        # Qasa — uthyrning via ansökan (ingen köpoäng) → tolkas som FCFS, om inte annat anges.
         is_fcfs = node.get("firstHand") is not False
         return {
             "source": str(self.source),

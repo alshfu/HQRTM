@@ -1,4 +1,4 @@
-"""Доступ к БД из контекста приложения + сериализация документов."""
+"""Databasåtkomst från applikationskontexten + serialisering av dokument."""
 
 from __future__ import annotations
 
@@ -8,12 +8,12 @@ from flask import current_app
 
 
 def get_db():
-    """Текущая БД (PyMongo или mongomock в тестах) — кладётся в config фабрикой."""
+    """Aktuell databas (PyMongo eller mongomock i tester) — läggs i config av fabriken."""
     return current_app.config["DB"]
 
 
 def serialize(doc: dict[str, Any] | None) -> dict[str, Any] | None:
-    """Документ Mongo → JSON-совместимый dict: `_id` (ObjectId) → строковый `id`."""
+    """Mongo-dokument → JSON-kompatibel dict: `_id` (ObjectId) → sträng-`id`."""
     if doc is None:
         return None
     out = dict(doc)

@@ -1,4 +1,4 @@
-"""Общие фикстуры для тестов web (Flask + mongomock)."""
+"""Gemensamma fixturer för webbtester (Flask + mongomock)."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ def client(db):
 
 @pytest.fixture
 def make_user(client):
-    """Фабрика пользователей: регистрирует и возвращает JSON с id и токенами."""
+    """Användarfabrik: registrerar och returnerar JSON med id och token."""
 
     def _make(email: str = "elin@hqrtm.se", password: str = "demo1234") -> dict:
         resp = client.post("/auth/register", json={"email": email, "password": password})
@@ -34,7 +34,7 @@ def make_user(client):
 
 @pytest.fixture
 def bearer():
-    """Хелпер заголовка авторизации."""
+    """Hjälpfunktion för auktoriseringsrubrik."""
 
     def _bearer(token: str) -> dict:
         return {"Authorization": f"Bearer {token}"}

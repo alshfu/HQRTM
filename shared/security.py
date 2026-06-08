@@ -1,6 +1,6 @@
-"""Безопасность: хэш паролей (Argon2) и JWT access/refresh (BE-AU-001, DB-004).
+"""Säkerhet: lösenord-hash (Argon2) och JWT access/refresh (BE-AU-001, DB-004).
 
-Секреты — из настроек (`.env`), не хардкодить. Пароли никогда не хранятся в открытом виде.
+Hemligheter — från inställningar (`.env`), hårdkoda inte. Lösenord lagras aldrig i klartext.
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ _ph = PasswordHasher()
 _ALG = "HS256"
 
 
-# --------------------------------------------------------------------------- пароли
+# --------------------------------------------------------------------------- lösenord
 
 
 def hash_password(password: str) -> str:
@@ -49,8 +49,8 @@ def create_refresh_token(sub: str) -> str:
 
 
 def decode_token(token: str, expected_type: str | None = None) -> dict:
-    """Декодировать и проверить JWT. Бросает jwt.InvalidTokenError при проблеме."""
+    """Avkoda och verifiera JWT. Kastar jwt.InvalidTokenError vid problem."""
     payload = jwt.decode(token, get_settings().jwt_secret, algorithms=[_ALG])
     if expected_type is not None and payload.get("type") != expected_type:
-        raise jwt.InvalidTokenError(f"ожидался тип токена {expected_type!r}")
+        raise jwt.InvalidTokenError(f"förväntade tokentyp {expected_type!r}")
     return payload

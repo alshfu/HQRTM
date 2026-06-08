@@ -1,12 +1,12 @@
-"""Матчинг объявления с фильтрами пользователей (BE-FL-004, BE-FL-005).
+"""Matchning av annons mot användarnas filter (BE-FL-004, BE-FL-005).
 
-Для нового FCFS-объявления находим всех пользователей, чей активный фильтр совпадает.
-Логика синхронная (pymongo/mongomock), как и `engine` — HTTP-конкурентность в `main.py`.
+För en ny FCFS-annons hittar vi alla användare vars aktiva filter matchar.
+Logiken är synkron (pymongo/mongomock), liksom `engine` — HTTP-samtidighet i `main.py`.
 
-Стратегия: грубый отсев активных фильтров на стороне Mongo (индекс `user_active` +
-ограничение по `source`), затем точная проверка диапазонов (цена/комнаты/площадь) и
-района в Python — диапазоны с пропусками (None) фиддлятся в Mongo-запросе и хуже читаются.
-Число активных фильтров умеренное → укладываемся в бюджет матчинга (~0.05–0.15 с).
+Strategi: grov gallring av aktiva filter på Mongo-sidan (index `user_active` +
+begränsning på `source`), sedan exakt kontroll av intervall (hyra/rum/yta) och
+distrikt i Python — intervall med luckor (None) är krångliga i Mongo-frågan och svårlästa.
+Antalet aktiva filter är måttligt → vi håller oss inom matchningsbudgeten (~0.05–0.15 s).
 """
 
 from __future__ import annotations
@@ -16,7 +16,7 @@ from shared.models import ListingType
 
 
 def _in_range(value, lo, hi) -> bool:
-    """value попадает в [lo, hi]. Если задана граница, а значения нет — не совпало."""
+    """value ligger i [lo, hi]. Om en gräns är satt men värdet saknas — ingen match."""
     if lo is not None:
         if value is None or value < lo:
             return False
@@ -27,10 +27,10 @@ def _in_range(value, lo, hi) -> bool:
 
 
 def _district_ok(filt: dict, listing: dict) -> bool:
-    """Район/город фильтра против района объявления (case-insensitive подстрока).
+    """Filtrets distrikt/stad mot annonsens distrikt (case-insensitive delsträng).
 
-    У `Listing` нет отдельного поля city — адаптеры кладут муниципалитет/город в `district`,
-    поэтому и `filter.city`, и `filter.district` сверяем с `listing.district`.
+    `Listing` har inget separat city-fält — adaptrarna lägger kommun/stad i `district`,
+    därför jämför vi både `filter.city` och `filter.district` mot `listing.district`.
     """
     wanted = filt.get("district") or filt.get("city")
     if not wanted:
@@ -40,12 +40,12 @@ def _district_ok(filt: dict, listing: dict) -> bool:
 
 
 def matches(filt: dict, listing: dict) -> bool:
-    """True, если объявление подходит под фильтр."""
-    # only_fcfs (по умолчанию True): очередные не показываем
+    """True om annonsen passar filtret."""
+    # only_fcfs (default True): kö-annonser visar vi inte
     if filt.get("only_fcfs", True) and listing.get("listing_type") != ListingType.FCFS.value:
         return False
 
-    # источники: None/пусто → все площадки; иначе — только перечисленные
+    # källor: None/tomt → alla plattformar; annars — endast de uppräknade
     sources = filt.get("sources")
     if sources and listing.get("source") not in sources:
         return False
@@ -61,9 +61,10 @@ def matches(filt: dict, listing: dict) -> bool:
 
 
 def match_users(db, listing: dict) -> list[str]:
-    """Вернуть уникальные user_id всех, чьи активные фильтры совпали с объявлением."""
+    """Returnera unika user_id för alla vars aktiva filter matchade annonsen."""
     query: dict = {"is_active": True}
-    # грубый отсев по источнику: фильтр без ограничения (sources=None) или включающий площадку
+    # grov gallring på källa: filter utan begränsning (sources=None) eller som
+    # inkluderar plattformen
     source = listing.get("source")
     if source is not None:
         query["$or"] = [{"sources": None}, {"sources": source}]

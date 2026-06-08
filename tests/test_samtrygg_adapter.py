@@ -1,8 +1,8 @@
-"""Тесты адаптера Samtrygg (GetHomePageObjects, Фаза 2).
+"""Tester för Samtrygg-adaptern (GetHomePageObjects, Fas 2).
 
-⚠️ Host/контракт Samtrygg официально не подтверждён — тесты фиксируют форму ответа из публичной
-SwaggerHub-спеки, под которую написан адаптер (см. poller/sources/samtrygg.py). HTTP мокируется
-через httpx.MockTransport (без сети). Перед включением (enabled=True) — сверить с живым API.
+⚠️ Samtryggs host/kontrakt är inte officiellt bekräftat — testerna fixerar svarsformen från den
+publika SwaggerHub-specen som adaptern är skriven för (se poller/sources/samtrygg.py). HTTP mockas
+via httpx.MockTransport (utan nätverk). Före aktivering (enabled=True) — stäm av mot live-API.
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ from poller.sources.samtrygg import SamtryggAdapter
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-# Ответ по спеке: список «городов», в каждом — cityName + вложенный список RentalObjectInfo.
+# Svar enligt specen: en lista med «städer», i varje — cityName + inbäddad lista RentalObjectInfo.
 OBJ = {
     "address": "Storgatan 1, 2 rok",
     "price": "8 500 kr/mån",
@@ -31,7 +31,7 @@ API_URL = "https://api.samtrygg.test/GetHomePageObjects"
 
 @pytest.fixture(autouse=True)
 def _configure_url(monkeypatch):
-    # Адаптер опрашивает только при заданном SAMTRYGG_API_URL — подставляем тестовый host.
+    # Adaptern pollar bara när SAMTRYGG_API_URL är satt — vi lägger in en test-host.
     s = get_settings()
     monkeypatch.setattr(s, "samtrygg_api_url", API_URL, raising=False)
     yield
@@ -61,7 +61,7 @@ async def test_fetch_normalizes_city_grouped_object():
     assert item["title"] == "Storgatan 1, Stockholm"
     assert item["url"] == "https://samtrygg.se/objekt/123"
     assert item["district"] == "Stockholm"
-    assert item["rooms"] == 2.0  # «2 rok» вытащено из адреса
+    assert item["rooms"] == 2.0  # «2 rok» uttaget ur adressen
     assert item["area_m2"] == 45.0  # «45 m²» → 45.0
     assert item["rent"] == 8500  # «8 500 kr/mån» → 8500
     assert item["listing_type"] == ListingType.FCFS.value
@@ -91,7 +91,7 @@ async def test_external_id_falls_back_to_address():
     adapter = _adapter(_ok([{"cityName": "Göteborg", "RentalObjectInfo": [obj]}]))
     listings = await adapter.fetch_listings()
     assert listings[0]["external_id"] == "Storgatan 1, 2 rok"
-    # URL без ссылки откатывается к публичной базе.
+    # URL utan länk faller tillbaka till den publika basen.
     assert listings[0]["url"] == "https://samtrygg.se"
     await adapter.aclose()
 
@@ -105,7 +105,7 @@ async def test_object_without_id_or_address_skipped():
 
 
 async def test_rooms_none_when_absent():
-    obj = {**OBJ, "address": "Storgatan 1"}  # нет «N rok» в адресе
+    obj = {**OBJ, "address": "Storgatan 1"}  # ingen «N rok» i adressen
     adapter = _adapter(_ok([{"cityName": "Uppsala", "RentalObjectInfo": [obj]}]))
     listings = await adapter.fetch_listings()
     assert listings[0]["rooms"] is None
@@ -125,8 +125,8 @@ async def test_no_api_url_skips_without_request(monkeypatch):
     s = get_settings()
     monkeypatch.setattr(s, "samtrygg_api_url", "", raising=False)
 
-    def boom(request: httpx.Request) -> httpx.Response:  # не должен вызваться
-        raise AssertionError("HTTP-запрос не должен уходить без SAMTRYGG_API_URL")
+    def boom(request: httpx.Request) -> httpx.Response:  # ska inte anropas
+        raise AssertionError("HTTP-förfrågan får inte skickas utan SAMTRYGG_API_URL")
 
     adapter = _adapter(boom)
     assert await adapter.fetch_listings() == []

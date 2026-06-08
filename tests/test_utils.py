@@ -1,4 +1,4 @@
-"""Юнит-тесты shared.utils (окна «горячих» часов)."""
+"""Enhetstester för shared.utils (fönster för «heta» timmar)."""
 
 from __future__ import annotations
 
@@ -26,7 +26,7 @@ def test_is_hot_hour_daytime_window():
 
 
 def test_is_hot_hour_overnight_window():
-    win = (22, 6)  # окно через полночь
+    win = (22, 6)  # fönster över midnatt
     assert is_hot_hour(23, win) is True
     assert is_hot_hour(2, win) is True
     assert is_hot_hour(12, win) is False
