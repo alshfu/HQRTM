@@ -21,7 +21,8 @@ Fullständig tabell och steg — i `COMPLIANCE.md`.
 **Bostadsförmedlingen i Stockholm (2026-06-08):** kommunalt bolag som publicerar lediga lägenheter
 **öppet** (`bostad.stockholm.se/AllaAnnonser/?vy=lista`, JSON, ingen auth) → legitim källa,
 adaptern `enabled=True`. Kö-baserad (köpoäng). **Blocket** (Schibsten ToS mot automatiserad
-insamling, anti-bot) och **Boplats** (oklart API/ToS) läggs INTE till utan legitim åtkomst/partnerskap.
+insamling, anti-bot) och **Boplats** (data bakom autentiserat `memberapi`, ingen publik öppen data —
+verifierat 2026-06-08) läggs INTE till utan legitim åtkomst/medlemstillstånd/partnerskap.
 
 ## GDPR
 - Rättslig grund — samtycke vid registrering (`users.consent_at`).
