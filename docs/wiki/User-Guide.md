@@ -25,6 +25,9 @@ Till vänster — navigering: **Flöde**, **Filter**, **Aviseringar**, **Konto**
 
 ### Konto (inställningar)
 - **Profil**: e-post, roll.
+- **Ansökningsprofil**: spara presentation, sysselsättning, inkomst, telefon, hushåll och önskad
+  inflytt en gång — «Kopiera presentation» låter dig klistra in dina uppgifter på sekunder när du
+  ansöker (ett-tryck-ansökan via «Ansök» i flödet/Telegram leder direkt till källans annons).
 - **Telegram**: knappen «Koppla Telegram» genererar en kod och deep-link. Öppna boten, tryck
   «Start» — kontot kopplas och matchande FCFS-annonser skickas till Telegram med länk till källan.
 - **Radera konto (GDPR)**: knappen «Radera mitt konto» raderar oåterkalleligt kontot och all data

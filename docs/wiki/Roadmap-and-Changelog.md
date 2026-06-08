@@ -50,6 +50,10 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   riktiga Göteborg-annonser och pushar → Pages bygger om. **Hela modulära demot** (flöde + adminpanel)
   drivs nu av riktig data (`window.HQRTM_SAMPLE`/`HQRTM_META`): riktiga bilder, källänk i modalen,
   admin visar region/antal/senaste hämtning. Device-snapshots är frysta referenser.
+- **2026-06-08** — **Ett-tryck-ansökan + ansökningsprofil**: «Ansök»-knapp i flödet och inline-knapp
+  i Telegram (direkt till källans annons); `/api/profile` (GET/PUT) + sektion i Konto för att spara
+  presentation/inkomst/kontakt och kopiera dem snabbt. (Ingen autoinloggning/autoansökan — endast
+  legal genväg.) Tester: `test_profile.py`. 142 passed.
 - **2026-06-08** — **Fas 3 (Telegram) implementerad** + **juridiska sidor**: `bot/service.py`
   (kontokoppling via engångskod + leverans av köade aviseringar, latency_ms/delivered),
   `bot/handlers.py` (aiogram `/start <kod>`), `bot/main.py` (long-polling + leveransloop).

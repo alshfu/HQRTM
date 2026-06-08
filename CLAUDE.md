@@ -271,6 +271,11 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (ett-tryck-ansökan + ansökningsprofil):** «Ansök»-knapp i flödet (`dashboard.html`,
+  `btn-accent`) och inline-knapp «🏠 Ansök nu» i Telegram-aviseringen → direkt till källans annons
+  (legal genväg, ingen autoinloggning/autoansökan — autoclicker avböjd, se Beslutslogg). **Ansöknings-
+  profil**: `User.applicant_profile`, `GET/PUT /api/profile`, sektion i Konto (presentation/occupation/
+  income/phone/household/move_in + «Kopiera»). i18n sv/en, app.css ombyggd. Tester **142 passed**.
 - **2026-06-08 (Fas 10 — beta-deploy-scaffold, web-only/PaaS):** Beslut: beta **web-only** (ingen
   Telegram), **PaaS (Render)**, data via **publik HomeQ**. Levererat: `Dockerfile` (gunicorn gthread,
   delad image för web+poller), `.dockerignore`, `render.yaml` (web), poller `--once`-läge + **publik
@@ -407,6 +412,13 @@ utan att återupptäcka kontexten.
 - **2026-06-07:** Skapade CLAUDE.md, git/Pages, demot publicerat (alshfu.github.io/HQRTM/).
 
 ### Beslutslogg (lägg till, skriv inte om)
+- **2026-06-08:** **Autoclicker/autoansökan avböjd.** Att bygga en bot som loggar in på användarnas
+  plattformskonton och automatiskt skickar in ansökningar i autonomt läge byggs INTE: det strider mot
+  HomeQ/Schibsten ToS, kräver lagring av tredjepartslösenord och bär juridisk risk — och motsäger
+  projektets egen scope (CLAUDE.md §1, COMPLIANCE.md) och de villkor som publicerats (`/terms`).
+  Legal motsvarighet som levererats: **ett-tryck-ansökan** (avisering + direktlänk till källans annons)
+  + **ansökningsprofil** (snabb inklistring). Riktig autoansökan vore endast möjlig via HomeQ:s
+  officiella partner-API med uttryckligt samtycke per åtgärd (kräver partnerskap — ägaråtgärd).
 - **2026-06-08:** **Språk: allt på svenska.** Enligt ägarens beslut skrivs ALLA filer och dokument i projektet
   (UI, skyltfönster, demo, Wiki, CLAUDE.md, kommentarer/docstrings i koden, sample-innehåll)
   **på svenska**. Undantag — **kommunikationen i chatten med ägaren förblir på ryska** (§8). Översättning av

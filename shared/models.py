@@ -78,6 +78,8 @@ class User(_Doc):
     link_code: str | None = None
     status: UserStatus = UserStatus.PENDING
     locale: str = "sv"
+    # Ansökningsprofil: presentation, occupation, income, phone, household, move_in
+    applicant_profile: dict | None = None
     consent_at: datetime | None = None  # GDPR: logg över samtycke
     created_at: datetime = Field(default_factory=_utcnow)
 

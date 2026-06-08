@@ -141,6 +141,46 @@ def delete_me():
     return jsonify(ok=True), 200
 
 
+# --------------------------------------------------------------------------- ansökningsprofil
+
+_PROFILE_TEXT_FIELDS = ("presentation", "occupation", "phone", "household", "move_in")
+_PROFILE_MAX = 600
+
+
+@bp.get("/profile")
+@require_auth
+def get_profile():
+    """Användarens ansökningsprofil (snabb ansökan). Tom dict om ej satt."""
+    oid = _oid(g.user_id)
+    user = get_db()[COLL_USERS].find_one({"_id": oid}) if oid else None
+    if not user:
+        return jsonify(error="not_found"), 404
+    return jsonify(user.get("applicant_profile") or {}), 200
+
+
+@bp.put("/profile")
+@require_auth
+def update_profile():
+    """Spara ansökningsprofilen (textfält + income som heltal). Endast egna data."""
+    oid = _oid(g.user_id)
+    if oid is None:
+        return jsonify(error="bad_id"), 400
+    data = request.get_json(silent=True) or {}
+    profile: dict = {}
+    for key in _PROFILE_TEXT_FIELDS:
+        value = data.get(key)
+        if value not in (None, ""):
+            profile[key] = str(value)[:_PROFILE_MAX]
+    income = data.get("income")
+    if income not in (None, ""):
+        try:
+            profile["income"] = max(0, int(income))
+        except (TypeError, ValueError):
+            pass
+    get_db()[COLL_USERS].update_one({"_id": oid}, {"$set": {"applicant_profile": profile}})
+    return jsonify(profile), 200
+
+
 # --------------------------------------------------------------------------- listings
 
 

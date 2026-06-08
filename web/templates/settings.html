@@ -21,6 +21,31 @@
   </div>
 </section>
 
+<section class="card rounded-xl p-5 mb-5">
+  <h2 class="font-semibold mb-1">{{ t('settings.ap_title') }}</h2>
+  <p class="text-sm text-gray-400 mb-4">{{ t('settings.ap_hint') }}</p>
+  <div class="flex flex-col gap-3">
+    <label class="text-sm text-gray-400">{{ t('settings.ap_presentation') }}
+      <textarea id="ap-presentation" rows="3" class="input w-full mt-1"></textarea></label>
+    <div class="grid grid-cols-2 gap-3">
+      <label class="text-sm text-gray-400">{{ t('settings.ap_occupation') }}
+        <input id="ap-occupation" class="input w-full mt-1" /></label>
+      <label class="text-sm text-gray-400">{{ t('settings.ap_income') }}
+        <input id="ap-income" type="number" min="0" class="input w-full mt-1" /></label>
+      <label class="text-sm text-gray-400">{{ t('settings.ap_phone') }}
+        <input id="ap-phone" class="input w-full mt-1" /></label>
+      <label class="text-sm text-gray-400">{{ t('settings.ap_household') }}
+        <input id="ap-household" class="input w-full mt-1" /></label>
+      <label class="text-sm text-gray-400">{{ t('settings.ap_movein') }}
+        <input id="ap-move_in" class="input w-full mt-1" /></label>
+    </div>
+    <div class="flex gap-2 mt-1">
+      <button id="ap-save" class="btn-accent font-semibold px-4 py-2 rounded-lg text-sm">{{ t('settings.ap_save') }}</button>
+      <button id="ap-copy" class="card px-4 py-2 rounded-lg text-sm hover:border-white/30">{{ t('settings.ap_copy') }}</button>
+    </div>
+  </div>
+</section>
+
 <section class="card rounded-xl p-5 border-red-500/30">
   <h2 class="font-semibold mb-2 text-red-400">{{ t('settings.delete_title') }}</h2>
   <p class="text-sm text-gray-400 mb-3">{{ t('settings.delete_desc') }}</p>
@@ -57,6 +82,28 @@
     const { ok } = await HQRTM.api("/api/me", { method: "DELETE" });
     if (ok) { HQRTM.clearTokens(); location.href = "/"; }
     else HQRTM.toast(HQRTM.t("settings.delete_err"), "error");
+  });
+
+  // Ansökningsprofil — ladda/spara/kopiera
+  const AP_FIELDS = ["presentation", "occupation", "income", "phone", "household", "move_in"];
+  (async () => {
+    const { ok, data } = await HQRTM.api("/api/profile");
+    if (ok && data) AP_FIELDS.forEach((k) => {
+      const el = document.getElementById("ap-" + k);
+      if (el && data[k] != null) el.value = data[k];
+    });
+  })();
+  document.getElementById("ap-save").addEventListener("click", async () => {
+    const body = {};
+    AP_FIELDS.forEach((k) => { body[k] = document.getElementById("ap-" + k).value; });
+    const { ok } = await HQRTM.api("/api/profile", { method: "PUT", body });
+    HQRTM.toast(HQRTM.t(ok ? "settings.ap_saved" : "settings.ap_err"), ok ? "success" : "error");
+  });
+  document.getElementById("ap-copy").addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(document.getElementById("ap-presentation").value);
+      HQRTM.toast(HQRTM.t("settings.ap_copied"));
+    } catch { HQRTM.toast(HQRTM.t("settings.ap_err"), "error"); }
   });
 </script>
 {% endblock %}
