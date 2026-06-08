@@ -422,8 +422,14 @@ utan att återupptäcka kontexten.
   API:ets shape-filter odokumenterat). Detta är en **explicit ägar-godkänd engångshämtning av publik
   data** via `scripts/gen_sample_listings.py` — **inte** 24/7-polling: adaptern är kvar `enabled=False`
   (kontinuerlig bevakning + landlord-JWT gated på ToS, COMPLIANCE.md).
-- **2026-06-08:** **Telegram-leverans (Fas 3) — uppskjuten** (deferred, inte bortskuren). Aviseringar
-  bara i webbflödet (SSE) tills vidare. Återkom senare.
+- **2026-06-08:** **Telegram-leverans (Fas 3) — uppskjuten** (deferred). ~~Aviseringar bara i
+  webbflödet (SSE).~~ → **Återupptagen 2026-06-08** (se nedan): boten är implementerad.
+- **2026-06-08:** **Fas 3 implementerad (Telegram åter i scope för beta).** Ägaren vill koppla
+  registrerade användare till boten. `bot/service.py` (koppling via engångskod + leverans av köade
+  aviseringar, testbar utan aiogram), `bot/handlers.py` (aiogram `/start <kod>`), `bot/main.py`
+  (long-polling + leveransloop, sätter latency_ms/delivered). Kräver `TELEGRAM_BOT_TOKEN` (BotFather)
+  + en alltid-på-process. **Integritetspolicy + villkor** (`/privacy`, `/terms`, svenska, GDPR)
+  klara och länkade från registreringen.
 - **2026-06-07:** Stack: **Python 3.12**, **MongoDB Atlas free-tier**, licens **MIT**.
   Beroenden och tooling — i `pyproject.toml` (`[project]` + `[project.optional-dependencies]`).
   `docker-compose` uppskjutet till Fas 10 (Atlas för dev, lokal Docker krävs inte).

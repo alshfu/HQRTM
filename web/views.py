@@ -22,6 +22,16 @@ def login():
     return render_template("login.html")
 
 
+@bp.get("/privacy")
+def privacy():
+    return render_template("privacy.html")
+
+
+@bp.get("/terms")
+def terms():
+    return render_template("terms.html")
+
+
 @bp.get("/register")
 def register():
     return render_template("register.html")

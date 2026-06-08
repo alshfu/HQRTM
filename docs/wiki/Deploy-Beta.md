@@ -1,7 +1,7 @@
-# Driftsättning — beta (web-only)
+# Driftsättning — beta
 
-Beta-uppsättning enligt besluten: **web-only** (aviseringar i webbflödet via SSE, ingen Telegram än),
-**PaaS** (Render som standard), data via **HomeQ:s publika Card Search**.
+Beta-uppsättning: **PaaS** (Render som standard), data via **HomeQ:s publika Card Search**.
+Aviseringar i webbflödet (SSE) **och i Telegram** (boten är implementerad, Fas 3).
 
 ## Arkitektur
 
@@ -45,10 +45,22 @@ GitHub Actions cron (poll-homeq.yml, var 6:e min)
 | Render web | `SECRET_KEY`, `JWT_SECRET` | auto (`generateValue`) |
 | Repo Secrets | `PROD_MONGO_URI` | Atlas-sträng (för poller-cron) |
 
+## Telegram-bot (aviseringar)
+
+Boten kopplar konton via deep-link (`/start <kod>`) och levererar köade aviseringar.
+1. Skapa en bot hos **@BotFather** → `TELEGRAM_BOT_TOKEN`, notera botens username → `TELEGRAM_BOT_USERNAME`.
+2. Kör boten som en **alltid-på-process** (long-polling): `python -m bot.main` (Render Background Worker
+   eller liten VPS/container). Den behöver `MONGO_URI` + `TELEGRAM_BOT_*`.
+3. Användaren: appen → **Konto → Telegram** → «Koppla» → öppnar boten → `/start <kod>` → klart.
+   Matchande FCFS-annonser skickas sedan till Telegram (med länk till förstakällan).
+
+> Web-tjänsten behöver inte boten för att köra; SSE-flödet fungerar ändå. Men för Telegram-aviseringar
+> krävs den alltid-på-processen.
+
 ## Återstår innan publika testare
 
-- **Integritetspolicy + villkor** (GDPR) — idag platshållare; publicera riktig text (radering finns:
-  `DELETE /api/me`).
+- **Integritetspolicy + villkor** (GDPR) — ✅ klara på `/privacy` och `/terms` (svenska), länkade från
+  registreringen. Fyll i riktig juridisk enhet/kontakt (idag `kontakt@hqrtm.se` som platshållare).
 - (Valfritt) **lösenordsåterställning / e-postverifiering** — finns ej än (register/login/refresh).
 
 ## Begränsningar & risker (beta)

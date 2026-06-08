@@ -8,7 +8,7 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 | 0 | Förberedelse (repo, miljö, tooling, CI) | ✅ |
 | 1 | MongoDB-datalager + multi-source-skelett | ✅ |
 | 2 | Poller: FCFS-detektion + adaptrar + matchning (M1) | ✅ kod klar; adaptrar `enabled=False` (väntar nyckel/ToS) |
-| 3 | Telegram-bot (M2) | ⏸ uppskjuten |
+| 3 | Telegram-bot (M2) | 🟡 kärna klar (koppling + leverans, `bot/service.py`); kräver bot-token + alltid-på-process |
 | 4 | Flask API + Auth | ✅ |
 | 5 | Frontend (Jinja2 + Tailwind + Vanilla JS) + i18n + admin-UI | ✅ |
 | 6 | Realtid (SSE + Change Streams) | ✅ |
@@ -50,6 +50,11 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   riktiga Göteborg-annonser och pushar → Pages bygger om. **Hela modulära demot** (flöde + adminpanel)
   drivs nu av riktig data (`window.HQRTM_SAMPLE`/`HQRTM_META`): riktiga bilder, källänk i modalen,
   admin visar region/antal/senaste hämtning. Device-snapshots är frysta referenser.
+- **2026-06-08** — **Fas 3 (Telegram) implementerad** + **juridiska sidor**: `bot/service.py`
+  (kontokoppling via engångskod + leverans av köade aviseringar, latency_ms/delivered),
+  `bot/handlers.py` (aiogram `/start <kod>`), `bot/main.py` (long-polling + leveransloop).
+  `/privacy` + `/terms` (svenska, GDPR) länkade från registreringen. Tester: `test_bot_service.py`,
+  `test_legal.py`. 139 passed. Kräver `TELEGRAM_BOT_TOKEN` + alltid-på-process för boten.
 - **2026-06-08** — **Beta-deploy-scaffold** (web-only, PaaS): `Dockerfile` (gunicorn/gthread) +
   `.dockerignore`, `render.yaml`, poller `--once` + publik HomeQ-poll (`HOMEQ_PUBLIC_POLL`/`HOMEQ_BBOX`),
   `ensure_indexes` vid pollerstart, `poll-homeq.yml` (cron → prod-Mongo), guide [Deploy-Beta](Deploy-Beta).

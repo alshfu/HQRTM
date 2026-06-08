@@ -25,8 +25,8 @@ Till vänster — navigering: **Flöde**, **Filter**, **Aviseringar**, **Konto**
 
 ### Konto (inställningar)
 - **Profil**: e-post, roll.
-- **Telegram**: knappen «Koppla Telegram» genererar en kod och deep-link. Öppna boten, skicka koden —
-  så börjar aviseringar komma i Telegram. (Leverans i Telegram — Fas 3, uppskjuten.)
+- **Telegram**: knappen «Koppla Telegram» genererar en kod och deep-link. Öppna boten, tryck
+  «Start» — kontot kopplas och matchande FCFS-annonser skickas till Telegram med länk till källan.
 - **Radera konto (GDPR)**: knappen «Radera mitt konto» raderar oåterkalleligt kontot och all data
   (filter, aviseringar).
 

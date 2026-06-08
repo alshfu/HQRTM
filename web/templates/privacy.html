@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Integritetspolicy · HQRTM{% endblock %}
+
+{% block body %}
+<div class="absolute top-4 right-5">{% include "_lang.html" %}</div>
+<div class="max-w-2xl mx-auto px-6 py-12">
+  <a href="/" class="font-extrabold text-xl">HQRTM</a>
+  <h1 class="text-3xl font-bold mt-6">Integritetspolicy</h1>
+  <p class="text-sm text-gray-400 mt-1">Senast uppdaterad 2026-06-08 · beta</p>
+
+  <div class="mt-8 flex flex-col gap-5 text-sm leading-relaxed text-gray-300">
+    <p>Den här policyn beskriver hur HQRTM («tjänsten») behandlar dina personuppgifter enligt
+       dataskyddsförordningen (GDPR). Tjänsten bevakar publika bostadsannonser och aviserar dig
+       om annonser som matchar dina filter.</p>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">1. Personuppgiftsansvarig</h2>
+      <p class="mt-2">HQRTM. Kontakt i dataskyddsfrågor: <span class="text-accent">kontakt@hqrtm.se</span>.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">2. Vilka uppgifter vi behandlar</h2>
+      <ul class="mt-2 list-disc pl-5 flex flex-col gap-1">
+        <li>E-postadress (inloggning och kontoidentifiering).</li>
+        <li>Lösenord — lagras endast som kryptografisk hash (Argon2), aldrig i klartext.</li>
+        <li>Dina filter/bevakningar (område, hyra, antal rum m.m.).</li>
+        <li>Telegram chat-id — endast om du själv kopplar Telegram för aviseringar.</li>
+        <li>Tekniska loggar för drift och felsökning — utan personuppgifter (PII maskeras).</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">3. Ändamål och rättslig grund</h2>
+      <p class="mt-2">Vi behandlar uppgifterna för att leverera tjänsten — matcha annonser mot dina
+         filter och skicka aviseringar. Rättslig grund är <b>ditt samtycke</b> (artikel 6.1 a GDPR),
+         som du lämnar vid registreringen och när du kopplar Telegram. Du kan återkalla samtycket när
+         som helst genom att radera kontot.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">4. Lagring</h2>
+      <p class="mt-2">Uppgifterna lagras så länge ditt konto är aktivt och raderas när du raderar
+         kontot. Annonsdata rensas automatiskt löpande (TTL).</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">5. Dina rättigheter</h2>
+      <p class="mt-2">Du har rätt till tillgång, rättelse, radering («rätten att bli bortglömd»),
+         begränsning, dataportabilitet och att återkalla samtycke. Radera allt direkt i appen under
+         <b>Konto → Radera mitt konto</b> (raderar konto, filter och aviseringar oåterkalleligt). Du
+         kan även klaga hos Integritetsskyddsmyndigheten (IMY).</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">6. Tredje part</h2>
+      <p class="mt-2">Tjänsten loggar <b>inte</b> in på bostadsplattformar och skickar <b>inte</b> in
+         ansökningar åt dig — vi länkar bara till källannonsen. Om du kopplar Telegram skickas
+         aviseringar via Telegram, och Telegrams egen integritetspolicy gäller för deras tjänst.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">7. Cookies och lokal lagring</h2>
+      <p class="mt-2">Vi använder en språk-cookie (<code>hqrtm_lang</code>) och lagrar
+         inloggningstoken (JWT) i webbläsarens localStorage för att hålla dig inloggad. Inga
+         spårningscookies för marknadsföring.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">8. Säkerhet</h2>
+      <p class="mt-2">Lösenord hashas med Argon2, trafik skyddas med TLS, och hemligheter lagras
+         utanför källkoden. Loggar innehåller inte personuppgifter.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">9. Ändringar</h2>
+      <p class="mt-2">Vi kan uppdatera policyn. Den senaste versionen finns alltid på den här sidan
+         med uppdaterat datum.</p>
+    </div>
+  </div>
+
+  <div class="mt-10 flex gap-4 text-sm">
+    <a href="/register" class="text-accent">← Registrering</a>
+    <a href="/terms" class="text-accent">Användarvillkor →</a>
+  </div>
+</div>
+{% endblock %}

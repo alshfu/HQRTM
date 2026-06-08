@@ -22,7 +22,7 @@
 
     <label class="flex items-start gap-2 text-xs text-gray-400">
       <input name="consent" type="checkbox" required class="mt-0.5" />
-      <span>{{ t('register.consent_a') }} <a href="#" class="text-accent">{{ t('register.consent_terms') }}</a> {{ t('register.consent_and') }} <a href="#" class="text-accent">{{ t('register.consent_privacy') }}</a> (GDPR).</span>
+      <span>{{ t('register.consent_a') }} <a href="/terms" target="_blank" class="text-accent">{{ t('register.consent_terms') }}</a> {{ t('register.consent_and') }} <a href="/privacy" target="_blank" class="text-accent">{{ t('register.consent_privacy') }}</a> (GDPR).</span>
     </label>
 
     <button class="btn-accent font-semibold py-2.5 rounded-lg mt-1">{{ t('register.submit') }}</button>

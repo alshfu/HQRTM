@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}Användarvillkor · HQRTM{% endblock %}
+
+{% block body %}
+<div class="absolute top-4 right-5">{% include "_lang.html" %}</div>
+<div class="max-w-2xl mx-auto px-6 py-12">
+  <a href="/" class="font-extrabold text-xl">HQRTM</a>
+  <h1 class="text-3xl font-bold mt-6">Användarvillkor</h1>
+  <p class="text-sm text-gray-400 mt-1">Senast uppdaterad 2026-06-08 · beta</p>
+
+  <div class="mt-8 flex flex-col gap-5 text-sm leading-relaxed text-gray-300">
+    <p>Genom att skapa ett konto godkänner du dessa villkor. Tjänsten tillhandahålls i en
+       <b>beta-version</b> och kan ändras.</p>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">1. Tjänsten</h2>
+      <p class="mt-2">HQRTM bevakar publika bostadsannonser på svenska plattformar, lyfter fram
+         «Först till kvarn»-annonser och aviserar dig om träffar som matchar dina filter — i
+         webbflödet och, om du kopplar Telegram, via Telegram.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">2. Vad tjänsten inte gör</h2>
+      <p class="mt-2">Tjänsten <b>loggar inte in</b> på dina konton hos bostadsplattformar och
+         <b>ansöker inte</b> om bostäder åt dig. Den aviserar bara med en länk till källannonsen —
+         du ansöker själv hos respektive plattform.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">3. Inga garantier</h2>
+      <p class="mt-2">Tjänsten tillhandahålls «i befintligt skick». Vi garanterar inte att alla
+         annonser fångas, att aviseringar alltid hinner fram, eller att du får en bostad. Källornas
+         data kan vara fördröjd eller felaktig.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">4. Ditt ansvar</h2>
+      <ul class="mt-2 list-disc pl-5 flex flex-col gap-1">
+        <li>Lämna korrekta uppgifter och håll ditt konto säkert.</li>
+        <li>Använd tjänsten lagligt och för personligt bruk.</li>
+        <li>Missbruka inte tjänsten (t.ex. automatiserad massåtkomst).</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">5. Tredjepartskällor</h2>
+      <p class="mt-2">Annonser hämtas från externa plattformar (t.ex. HomeQ). Deras egna villkor
+         gäller för deras tjänster och innehåll; rättigheterna till annonsdata och bilder tillhör
+         respektive källa. Vi länkar alltid till förstakällan.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">6. Ansvarsbegränsning</h2>
+      <p class="mt-2">Vi ansvarar inte för indirekta skador eller missade bostäder till följd av
+         användning av tjänsten, i den mån lagen tillåter.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">7. Uppsägning</h2>
+      <p class="mt-2">Du kan när som helst säga upp tjänsten genom att radera ditt konto
+         (<b>Konto → Radera mitt konto</b>). Vi kan stänga konton som bryter mot villkoren.</p>
+    </div>
+
+    <div>
+      <h2 class="text-lg font-semibold text-gray-100">8. Ändringar och tillämplig lag</h2>
+      <p class="mt-2">Villkoren kan uppdateras; senaste versionen finns på den här sidan. Svensk rätt
+         tillämpas. Kontakt: <span class="text-accent">kontakt@hqrtm.se</span>.</p>
+    </div>
+  </div>
+
+  <div class="mt-10 flex gap-4 text-sm">
+    <a href="/register" class="text-accent">← Registrering</a>
+    <a href="/privacy" class="text-accent">Integritetspolicy →</a>
+  </div>
+</div>
+{% endblock %}
