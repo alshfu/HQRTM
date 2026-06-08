@@ -42,6 +42,10 @@ positiv slutsats här. Adapterskelett: `poller/sources/`.
      title, uri, city/municipality/county, rent, rooms, area, location{lat,lon}, date_access, ...`.
      Flaggorna `first_come_first`/`queue_points` filtrerar typen på API-sidan → för FCFS efterfrågar vi
      `first_come_first=true, queue_points=false` (köbaserade kommer inte).
+     **OBS (2026-06-08):** Card Search svarar **publikt utan JWT** — samma inloggningsfria sökning
+     som visas för besökare på `homeq.se/search` (`HomeQAdapter.fetch_public_cards`). Det används för
+     en explicit, ägar-godkänd **engångshämtning av publik data** till skyltfönstret. **24/7-polling**
+     (`enabled=True`) och landlord-JWT är fortsatt gated på ToS-bekräftelse + nyckel.
    - **Webhooks:** konfigureras i landlord-portalen, retries var 5:e min upp till 7 dagar; händelser
      agreement/reservation/signature/… är gjorda för landlord-flödet för signering, inte för publicering
      av annonser → för FCFS-bevakning passar Card Search bättre; webhooks — för framtiden.

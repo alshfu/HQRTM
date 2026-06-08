@@ -7,6 +7,8 @@ Vi kontrollerar: auth-flöde, Card Search (FCFS-only), normalisering till Listin
 
 from __future__ import annotations
 
+import json
+
 import httpx
 import pytest
 from poller.detector import classify, is_fcfs
@@ -214,4 +216,67 @@ async def test_normalized_listing_passes_detector_as_fcfs():
     listings = await adapter.fetch_listings()
     assert classify(listings[0]) is ListingType.FCFS
     assert is_fcfs(listings[0]) is True
+    await adapter.aclose()
+
+
+# Inom respektive utanför Göteborgs bbox (publik anonym sökning).
+_INSIDE = {
+    "id": 1,
+    "title": "Storgatan 1",
+    "uri": "/lagenhet/1",
+    "municipality": "Göteborg",
+    "rent": 9000,
+    "rooms": 2.0,
+    "area": 50.0,
+    "date_access": "2026-07-01",
+    "location": {"lat": 57.70, "lon": 11.97},
+    "images": [{"image": "https://media/1.jpg", "position": 0}],
+}
+_OUTSIDE = {
+    "id": 2,
+    "title": "Drottninggatan 5",
+    "uri": "/lagenhet/2",
+    "municipality": "Stockholm",
+    "rent": 12000,
+    "rooms": 1.0,
+    "area": 30.0,
+    "location": {"lat": 59.33, "lon": 18.06},
+    "images": [],
+}
+_GBG_BBOX = (57.305, 57.9516, 11.2996, 12.6629)
+
+
+async def test_public_cards_anonymous_filtered_by_bbox():
+    seen: dict = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        seen["auth"] = request.headers.get("Authorization")
+        body = json.loads(request.content)
+        if body["offset"] == 0:
+            return httpx.Response(200, json={"results": [_INSIDE, _OUTSIDE], "total_hits": 2})
+        return httpx.Response(200, json={"results": []})
+
+    adapter = _adapter(handler)
+    listings = await adapter.fetch_public_cards(
+        bbox=_GBG_BBOX, limit=10, page_size=200, max_pages=3
+    )
+
+    assert seen["auth"] is None  # anonym — ingen JWT
+    assert [item["external_id"] for item in listings] == ["1"]  # bara den inom bbox
+    item = listings[0]
+    assert item["url"] == "https://homeq.se/lagenhet/1"
+    assert item["image_url"] == "https://media/1.jpg"  # ur images-listan ({image: ...})
+    assert "2 rum" in item["description"] and "Göteborg" in item["description"]  # syntetiserad
+    await adapter.aclose()
+
+
+async def test_public_cards_stops_at_limit():
+    cards = [{**_INSIDE, "id": i, "uri": f"/lagenhet/{i}"} for i in range(1, 6)]
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, json={"results": cards, "total_hits": len(cards)})
+
+    adapter = _adapter(handler)
+    listings = await adapter.fetch_public_cards(bbox=_GBG_BBOX, limit=3, page_size=200, max_pages=5)
+    assert len(listings) == 3
     await adapter.aclose()

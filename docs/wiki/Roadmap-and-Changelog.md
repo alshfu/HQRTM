@@ -41,9 +41,11 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 - **2026-06-08** — **Fas 8 påbörjad**: `shared/logging.py` (strukturerade loggar + PII-maskering),
   `/health/ready` (DB-ping), säkerhetsheaders på alla svar, konfigurerbar rate-limit-backend
   (`RATELIMIT_STORAGE_URI`), pollerns mätvärden per cykel. 129 passed.
-- **2026-06-08** — **Inga påhittade annonser**: fiktiva fixturer borttagna; generatorn hämtar bara
-  från aktiverade adaptrar (tomt urval tills API-nyckel/ToS finns). Live-skrapning av plattformar
-  utan bekräftad ToS avböjs (COMPLIANCE.md). Skyltfönstret visar ärligt tomt läge.
+- **2026-06-08** — **Inga påhittade annonser**: fiktiva fixturer borttagna.
+- **2026-06-08** — **Riktiga Göteborg-annonser i skyltfönstret**: HomeQ Card Search
+  (`POST api.homeq.se/api/v3/cards/`) är publikt åtkomlig utan JWT → `HomeQAdapter.fetch_public_cards`
+  hämtar och filtrerar på bbox (Göteborg), normaliserar med samma parser (bild + beskrivning + länk
+  till förstakällan). Engångshämtning av publik data; adaptern kvar `enabled=False` (ingen 24/7-polling).
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver

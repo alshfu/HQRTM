@@ -133,6 +133,50 @@ class HomeQAdapter(SourceAdapter):
     async def _cards(self, client: httpx.AsyncClient, token: str, body: dict) -> httpx.Response:
         return await client.post(_CARDS_PATH, json=body, headers={"Authorization": f"JWT {token}"})
 
+    # ---------------------------------------------------------------- public (anonym) sökning
+
+    async def fetch_public_cards(
+        self,
+        bbox: tuple[float, float, float, float] | None = None,
+        limit: int = 30,
+        page_size: int = 200,
+        max_pages: int = 15,
+    ) -> list[dict]:
+        """Anonym Card Search (utan JWT) — samma publika endpoint som webbplatsens inloggningsfria
+        sökning. Filtrerar ev. på ``bbox`` (min_lat, max_lat, min_lng, max_lng) klientsidigt
+        eftersom API:ets geo-filter inte är dokumenterat. Returnerar normaliserade ``Listing``-dict.
+        """
+        client = await self._get_client()
+        out: list[dict] = []
+        for page in range(max_pages):
+            body = {
+                "offset": page * page_size,
+                "amount": page_size,
+                "sorting": "publish_date.desc",
+                "first_come_first": True,
+                "queue_points": False,
+            }
+            resp = await client.post(_CARDS_PATH, json=body)  # ingen Authorization → publik
+            if resp.status_code == 429 or resp.status_code >= 500:
+                retry_after = resp.headers.get("Retry-After")
+                raise httpx.HTTPStatusError(
+                    f"HomeQ cards {resp.status_code}"
+                    + (f" Retry-After={retry_after}" if retry_after else ""),
+                    request=resp.request,
+                    response=resp,
+                )
+            resp.raise_for_status()
+            results = resp.json().get("results", [])
+            if not results:
+                break
+            for card in results:
+                if card.get("id") is None or not _in_bbox(card.get("location"), bbox):
+                    continue
+                out.append(self._normalize(card))
+                if len(out) >= limit:
+                    return out
+        return out
+
     # ---------------------------------------------------------------- normalize
 
     def _normalize(self, card: dict[str, Any]) -> dict:
@@ -144,7 +188,9 @@ class HomeQAdapter(SourceAdapter):
             "title": card.get("title") or "Bostad",
             "url": self._listing_url(card, ext_id),
             "image_url": pick_image(card),
-            "description": card.get("description") or card.get("short_description"),
+            "description": card.get("description")
+            or card.get("short_description")
+            or _synth_desc(card),
             "district": card.get("municipality") or card.get("city"),
             "rooms": as_float(card.get("rooms")),
             "area_m2": as_float(card.get("area")),
@@ -162,3 +208,35 @@ class HomeQAdapter(SourceAdapter):
                 return uri
             return f"{base}/{str(uri).lstrip('/')}"
         return f"{base}/listing/{ext_id}"
+
+
+def _in_bbox(loc: Any, bbox: tuple[float, float, float, float] | None) -> bool:
+    """True om punkten ligger inom bbox (min_lat, max_lat, min_lng, max_lng). None → alltid True."""
+    if bbox is None:
+        return True
+    if not isinstance(loc, dict):
+        return False
+    lat, lon = loc.get("lat"), loc.get("lon")
+    if lat is None or lon is None:
+        return False
+    min_lat, max_lat, min_lng, max_lng = bbox
+    return min_lat <= lat <= max_lat and min_lng <= lon <= max_lng
+
+
+def _synth_desc(card: dict[str, Any]) -> str | None:
+    """Bygg en kort beskrivning ur kortets fält (HomeQ saknar fritextbeskrivning)."""
+    parts: list[str] = []
+    rooms = card.get("rooms")
+    area = card.get("area")
+    where = card.get("municipality") or card.get("city")
+    if rooms:
+        parts.append(f"{as_float(rooms):g} rum")
+    if area:
+        parts.append(f"{as_float(area):g} m²")
+    if where:
+        parts.append(f"i {where}")
+    head = " · ".join(parts) if parts else None
+    access = card.get("date_access")
+    if head and access:
+        return f"{head}, inflytt {access}"
+    return head

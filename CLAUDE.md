@@ -398,13 +398,13 @@ utan att återupptäcka kontexten.
   uppdatera Wiki (utan separat förfrågan). Upphäver det tidigare ”pusha bara på begäran”.
 - **2026-06-08:** **Verklig data + förstakälla, INGEN fiktion.** Användarytorna visar verklig
   parserdata (titel, hyra, rum, yta, **bild**, **beskrivning**) och ger alltid en länk till
-  förstakällan (`Listing.url`). **Inga påhittade/mockade annonser** på publika ytor: generatorn
-  `scripts/gen_sample_listings.py` hämtar bara från `enabled_adapters()`; är ingen adapter aktiverad
-  blir urvalet tomt och skyltfönstret visar ett ärligt tomt läge. Tidigare fiktiva fixturer borttagna.
-- **2026-06-08:** **Skrapa INTE live-plattformar utan bekräftad ToS + API-nyckel.** Förfrågan att
-  parsa t.ex. `homeq.se/search` live avböjs — strider mot COMPLIANCE.md (officiellt API först,
-  adaptrar `enabled=False` tills ToS). Väg till verklig data: ägaren skaffar nyckel + bekräftar ToS
-  → `enabled=True` → adaptern hämtar riktiga annonser via samma kod (ingen ad hoc-skrapning).
+  förstakällan (`Listing.url`). Tidigare fiktiva fixturer borttagna — inga påhittade annonser.
+- **2026-06-08:** **HomeQ Card Search är PUBLIKT tillgänglig** (`POST api.homeq.se/api/v3/cards/`
+  svarar utan JWT — samma data som webbplatsens inloggningsfria sökning). Skyltfönstret fylls med
+  **riktiga Göteborg-annonser** via `HomeQAdapter.fetch_public_cards(bbox=…)` (geo-filter klientsidigt;
+  API:ets shape-filter odokumenterat). Detta är en **explicit ägar-godkänd engångshämtning av publik
+  data** via `scripts/gen_sample_listings.py` — **inte** 24/7-polling: adaptern är kvar `enabled=False`
+  (kontinuerlig bevakning + landlord-JWT gated på ToS, COMPLIANCE.md).
 - **2026-06-08:** **Telegram-leverans (Fas 3) — uppskjuten** (deferred, inte bortskuren). Aviseringar
   bara i webbflödet (SSE) tills vidare. Återkom senare.
 - **2026-06-07:** Stack: **Python 3.12**, **MongoDB Atlas free-tier**, licens **MIT**.

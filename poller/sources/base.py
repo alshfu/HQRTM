@@ -45,7 +45,7 @@ def pick_image(obj: dict[str, Any]) -> str | None:
     if value is None and isinstance(images, list) and images:
         value = images[0]
     if isinstance(value, dict):
-        value = value.get("url") or value.get("src")
+        value = value.get("url") or value.get("src") or value.get("image")
     if isinstance(value, str) and value:
         return value
     return None

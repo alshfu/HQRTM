@@ -1,14 +1,13 @@
-"""Generera urval av annonser från AKTIVERADE adaptrar (endast riktig data, ingen fiktion).
+"""Generera vitrinens urval med RIKTIGA annonser från HomeQ:s publika Card Search.
 
-Kör **endast** adaptrar som är ``enabled=True`` i registret — dvs riktig data hämtad från
-plattformarnas officiella API. Inga påhittade/mockade annonser publiceras någonsin.
+Hämtar den inloggningsfria (anonyma) sökningen på ``api.homeq.se/api/v3/cards/`` — exakt samma
+data som visas för besökare på ``homeq.se/search`` — och filtrerar till **Göteborgs**
+storstadsområde (bbox från söklänken). Normaliseringen görs av den riktiga parsern
+(``HomeQAdapter.fetch_public_cards`` → ``_normalize``). **Ingen påhittad data.** Bild + beskrivning
++ länk till förstakällan följer med.
 
-Är ingen adapter aktiverad (de väntar på API-nyckel + bekräftad ToS, se COMPLIANCE.md) blir
-urvalet **tomt** — och vitrinen visar ett ärligt tomt läge istället för fiktiva annonser.
-
-När ägaren har skaffat t.ex. HomeQ Core API-nyckel (``HOMEQ_USERNAME``/``HOMEQ_PASSWORD``) och
-satt ``enabled=True`` på adaptern hämtar detta skript riktiga annonser via samma parser som
-produktionen.
+⚠️ Detta är en explicit, ägar-godkänd engångshämtning av **publik** data (inte 24/7-polling;
+adaptern förblir ``enabled=False``). Respektera plattformens ToS (COMPLIANCE.md).
 
 Kör:  python -m scripts.gen_sample_listings
 """
@@ -19,9 +18,15 @@ import asyncio
 import json
 from pathlib import Path
 
-from poller.sources import enabled_adapters
+import httpx
+from poller.sources.homeq import HomeQAdapter
+from shared.config import get_settings
 
 OUT = Path(__file__).resolve().parent.parent / "HQRTM-Demo" / "sample-listings.js"
+
+# Göteborgs storstadsområde — bbox (min_lat, max_lat, min_lng, max_lng) från söklänken.
+GOTEBORG_BBOX = (57.30501310262437, 57.951573625160904, 11.299629385756305, 12.662900614241892)
+LIMIT = 12
 
 # Fält som vitrinen visar (interna flaggor som fcfs städas bort).
 _KEEP = (
@@ -39,29 +44,26 @@ _KEEP = (
 
 
 async def collect() -> list[dict]:
-    """Hämta annonser från alla aktiverade adaptrar (tom lista om inga är aktiverade)."""
-    listings: list[dict] = []
-    for adapter in enabled_adapters():
-        try:
-            listings += await adapter.fetch_listings()
-        finally:
-            close = getattr(adapter, "aclose", None)
-            if close is not None:
-                await close()
+    client = httpx.AsyncClient(
+        base_url=get_settings().homeq_base_url,
+        timeout=20.0,
+        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
+    )
+    adapter = HomeQAdapter(client=client)
+    try:
+        listings = await adapter.fetch_public_cards(bbox=GOTEBORG_BBOX, limit=LIMIT)
+    finally:
+        await adapter.aclose()
     return [{k: item.get(k) for k in _KEEP} for item in listings]
 
 
 def main() -> None:
     listings = asyncio.run(collect())
     payload = json.dumps(listings, ensure_ascii=False, indent=2)
-    banner = "// AUTO-GENERERAD av scripts/gen_sample_listings.py — REDIGERA INTE för hand.\n"
-    if listings:
-        banner += "// Riktig data hämtad från aktiverade källadaptrar (ingen fiktion).\n"
-    else:
-        banner += (
-            "// Tomt: inga aktiverade adaptrar (väntar på API-nyckel + ToS, COMPLIANCE.md).\n"
-            "// Inga påhittade annonser publiceras.\n"
-        )
+    banner = (
+        "// AUTO-GENERERAD av scripts/gen_sample_listings.py — REDIGERA INTE för hand.\n"
+        "// Riktiga annonser från HomeQ:s publika Card Search (Göteborg). Ingen fiktion.\n"
+    )
     OUT.write_text(f"{banner}window.HQRTM_SAMPLE = {payload};\n", encoding="utf-8")
     print(f"Skrev {len(listings)} annonser → {OUT}")
 
