@@ -108,6 +108,8 @@ class Listing(_Doc):
     external_id: str
     title: str
     url: str
+    image_url: str | None = None  # bild på annonsen (källans primärbild) för flödet/vitrinen
+    description: str | None = None  # kort beskrivning från källan
     address: str | None = None
     district: str | None = None
     rooms: float | None = None

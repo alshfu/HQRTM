@@ -94,8 +94,11 @@
   /* urval av annonser (riktig parser) */
   .listings{display:grid;gap:14px;width:100%;max-width:880px;grid-template-columns:repeat(2,1fr)}
   @media (max-width:640px){ .listings{grid-template-columns:1fr} }
-  .lcard{display:flex;flex-direction:column;gap:10px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:16px 18px;text-decoration:none;color:inherit;transition:transform .3s var(--ease),border-color .3s var(--ease)}
+  .lcard{display:flex;flex-direction:column;gap:10px;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:14px;text-decoration:none;color:inherit;transition:transform .3s var(--ease),border-color .3s var(--ease)}
   .lcard:hover{transform:translateY(-3px);border-color:color-mix(in oklab,var(--accent) 45%,transparent)}
+  .lcard .img{width:100%;height:170px;object-fit:cover;border-radius:10px;display:block;background:var(--bg-soft)}
+  .lcard .body{display:flex;flex-direction:column;gap:9px;padding:2px 4px 4px}
+  .lcard .desc{font-size:12.5px;color:var(--muted);line-height:1.45}
   .lcard .top{display:flex;align-items:center;justify-content:space-between;gap:10px}
   .lcard .src{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--accent-ink);background:var(--accent);border-radius:999px;padding:3px 9px}
   .lcard .fcfs{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--accent);border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);border-radius:999px;padding:2px 8px}
@@ -285,6 +288,8 @@
 
       function nf(n) { return (n == null) ? null : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " "); }
 
+      function esc(s) { var d = document.createElement("div"); d.textContent = String(s == null ? "" : s); return d.innerHTML; }
+
       root.innerHTML = "";
       data.forEach(function (it) {
         var src = SRC[it.source] || it.source;
@@ -299,11 +304,15 @@
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.innerHTML =
-          '<div class="top"><span class="src">' + src + '</span><span class="fcfs">Först till kvarn</span></div>' +
-          '<h3>' + (it.title || "Bostad") + '</h3>' +
-          (it.district ? '<div class="where">' + it.district + '</div>' : '') +
-          '<div class="specs">' + specs.join("") + '</div>' +
-          '<span class="open">Öppna annonsen på ' + src + ' <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>';
+          (it.image_url ? '<img class="img" loading="lazy" alt="" src="' + esc(it.image_url) + '">' : '') +
+          '<div class="body">' +
+            '<div class="top"><span class="src">' + esc(src) + '</span><span class="fcfs">Först till kvarn</span></div>' +
+            '<h3>' + esc(it.title || "Bostad") + '</h3>' +
+            (it.district ? '<div class="where">' + esc(it.district) + '</div>' : '') +
+            (it.description ? '<p class="desc">' + esc(it.description) + '</p>' : '') +
+            '<div class="specs">' + specs.join("") + '</div>' +
+            '<span class="open">Öppna annonsen på ' + esc(src) + ' <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>' +
+          '</div>';
         root.appendChild(a);
       });
     })();

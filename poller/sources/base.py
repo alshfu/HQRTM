@@ -24,6 +24,33 @@ def as_int(value: Any) -> int | None:
         return None
 
 
+def first_nonempty(obj: dict[str, Any], keys: tuple[str, ...]) -> Any:
+    """Första icke-tomma värdet bland möjliga nyckelnamn (robust mot synonymer/versaler)."""
+    for key in keys:
+        value = obj.get(key)
+        if value not in (None, ""):
+            return value
+    return None
+
+
+# Vanliga nyckelnamn för bild-URL hos olika plattformar (best-effort).
+_IMAGE_KEYS = ("image_url", "imageUrl", "image", "primary_image", "thumbnail", "cover")
+
+
+def pick_image(obj: dict[str, Any]) -> str | None:
+    """Plocka ut en bild-URL ur ett källobjekt: enkel nyckel, lista eller {url:...}-objekt."""
+    value = first_nonempty(obj, _IMAGE_KEYS)
+    # Lista av bilder → ta den första; element kan vara str eller {url|src:...}.
+    images = obj.get("images")
+    if value is None and isinstance(images, list) and images:
+        value = images[0]
+    if isinstance(value, dict):
+        value = value.get("url") or value.get("src")
+    if isinstance(value, str) and value:
+        return value
+    return None
+
+
 class SourceAdapter(ABC):
     """Kontrakt för källadapter.
 

@@ -21,6 +21,8 @@ HOME = {
     "squareMeters": 48,
     "rentalType": "long_term",
     "firstHand": True,
+    "displayImage": "https://img.qasa.com/soder-2a.jpg",
+    "description": "Modern lägenhet på Söder.",
     "location": {"locality": "Stockholm", "route": "Götgatan", "streetNumber": "5"},
 }
 
@@ -48,6 +50,8 @@ async def test_fetch_normalizes_home_to_fcfs():
     assert item["external_id"] == "home-777"
     assert item["title"] == "Götgatan, Stockholm"
     assert item["url"] == "https://qasa.com/home/soder-2a"
+    assert item["image_url"] == "https://img.qasa.com/soder-2a.jpg"
+    assert item["description"] == "Modern lägenhet på Söder."
     assert item["district"] == "Stockholm"
     assert item["rooms"] == 2.0
     assert item["area_m2"] == 48.0

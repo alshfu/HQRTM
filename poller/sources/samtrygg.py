@@ -27,7 +27,7 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter
+from poller.sources.base import SourceAdapter, pick_image
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.samtrygg")
@@ -112,6 +112,8 @@ class SamtryggAdapter(SourceAdapter):
             "external_id": str(ext_id),
             "title": title,
             "url": str(link or get_settings().samtrygg_public_base),
+            "image_url": pick_image(obj),
+            "description": _first(obj, ("description", "Description", "info")),
             "address": address,
             "district": city_name,
             "rooms": _rooms(address, title),

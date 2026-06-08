@@ -21,6 +21,7 @@ OBJ = {
     "sqareMeters": "45 m²",
     "rentalObjectLink": "https://samtrygg.se/objekt/123",
     "imageUrl": "https://samtrygg.se/img/123.jpg",
+    "description": "Trivsam lägenhet i centrala Stockholm.",
 }
 CITY_GROUPED = [
     {"cityName": "Stockholm", "vacantAccomadationCount": 1, "RentalObjectInfo": [OBJ]},
@@ -60,6 +61,8 @@ async def test_fetch_normalizes_city_grouped_object():
     assert item["external_id"] == "https://samtrygg.se/objekt/123"
     assert item["title"] == "Storgatan 1, Stockholm"
     assert item["url"] == "https://samtrygg.se/objekt/123"
+    assert item["image_url"] == "https://samtrygg.se/img/123.jpg"
+    assert item["description"] == "Trivsam lägenhet i centrala Stockholm."
     assert item["district"] == "Stockholm"
     assert item["rooms"] == 2.0  # «2 rok» uttaget ur adressen
     assert item["area_m2"] == 45.0  # «45 m²» → 45.0

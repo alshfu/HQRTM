@@ -35,6 +35,9 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   parsern** (`scripts/gen_sample_listings.py` → `HQRTM-Demo/sample-listings.js`) med **länk till källan**
   i varje kort. Beslut: allt på svenska; riktiga data + källa; Telegram (Fas 3) uppskjuten.
 - **2026-06-08** — Wiki översatt till **svenska** (alla sidor).
+- **2026-06-08** — Annonser berikade med **bild** (`image_url`) och **beskrivning** (`description`):
+  nya fält i `Listing`, normalisering i alla adaptrar (HomeQ/Qasa/Samtrygg), `pick_image`-hjälpare.
+  Vitrinens urval visar nu bild + beskrivning + länk till källan.
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver

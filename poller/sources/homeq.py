@@ -29,7 +29,7 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter, as_float, as_int
+from poller.sources.base import SourceAdapter, as_float, as_int, pick_image
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.homeq")
@@ -143,6 +143,8 @@ class HomeQAdapter(SourceAdapter):
             "external_id": ext_id,
             "title": card.get("title") or "Bostad",
             "url": self._listing_url(card, ext_id),
+            "image_url": pick_image(card),
+            "description": card.get("description") or card.get("short_description"),
             "district": card.get("municipality") or card.get("city"),
             "rooms": as_float(card.get("rooms")),
             "area_m2": as_float(card.get("area")),

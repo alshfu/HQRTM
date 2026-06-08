@@ -26,7 +26,7 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter, as_float, as_int
+from poller.sources.base import SourceAdapter, as_float, as_int, pick_image
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.qasa")
@@ -43,6 +43,8 @@ query Homes($first: Int!) {
       squareMeters
       rentalType
       firstHand
+      description
+      displayImage
       location { locality route streetNumber }
     }
   }
@@ -112,6 +114,8 @@ class QasaAdapter(SourceAdapter):
             "external_id": ext_id,
             "title": self._title(node, loc),
             "url": self._listing_url(node, ext_id),
+            "image_url": node.get("displayImage") or pick_image(node),
+            "description": node.get("description"),
             "district": loc.get("locality"),
             "rooms": as_float(node.get("roomCount")),
             "area_m2": as_float(node.get("squareMeters")),

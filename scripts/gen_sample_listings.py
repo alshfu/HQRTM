@@ -36,6 +36,8 @@ HOMEQ_CARDS = [
         "rooms": 3,
         "area": 72,
         "rent": 14800,
+        "image": "https://picsum.photos/seed/homeq-soder/640/420",
+        "description": "Ljus trea med balkong, nära Mariatorget och tunnelbana.",
     },
     {
         "id": 184556,
@@ -45,6 +47,8 @@ HOMEQ_CARDS = [
         "rooms": 2,
         "area": 56,
         "rent": 11200,
+        "image": "https://picsum.photos/seed/homeq-goteborg/640/420",
+        "description": "Nyrenoverad tvåa med öppen planlösning, gångavstånd till Slottsskogen.",
     },
 ]
 
@@ -56,6 +60,8 @@ QASA_NODES = [
         "roomCount": 1,
         "squareMeters": 38,
         "firstHand": True,
+        "displayImage": "https://picsum.photos/seed/qasa-vasastan/640/420",
+        "description": "Charmig etta i Vasastan, fullt möblerad, andrahand.",
         "location": {"locality": "Stockholm", "route": "Dalagatan", "streetNumber": "21"},
     },
     {
@@ -65,6 +71,8 @@ QASA_NODES = [
         "roomCount": 4,
         "squareMeters": 95,
         "firstHand": True,
+        "displayImage": "https://picsum.photos/seed/qasa-malmo/640/420",
+        "description": "Rymlig fyra i Möllevången, perfekt för delat boende.",
         "location": {"locality": "Malmö", "route": "Bergsgatan", "streetNumber": "9"},
     },
 ]
@@ -79,6 +87,8 @@ SAMTRYGG_BODY = [
                 "price": "10 300 kr/mån",
                 "sqareMeters": "61 m²",
                 "rentalObjectLink": "https://samtrygg.se/hyresobjekt/55012",
+                "imageUrl": "https://picsum.photos/seed/samtrygg-uppsala/640/420",
+                "description": "Trygg andrahandsuthyrning centralt i Uppsala.",
             }
         ],
     },
@@ -91,6 +101,8 @@ SAMTRYGG_BODY = [
                 "price": "8 450 kr/mån",
                 "sqareMeters": "33 m²",
                 "rentalObjectLink": "https://samtrygg.se/hyresobjekt/55198",
+                "imageUrl": "https://picsum.photos/seed/samtrygg-lund/640/420",
+                "description": "Mysig etta vid Clemenstorget, nära universitetet.",
             }
         ],
     },
@@ -142,7 +154,18 @@ async def collect() -> list[dict]:
     await samtrygg.aclose()
 
     # Behåll bara fält som vitrinen visar (städa bort interna flaggor).
-    keep = ("source", "title", "url", "district", "rooms", "area_m2", "rent", "listing_type")
+    keep = (
+        "source",
+        "title",
+        "url",
+        "image_url",
+        "description",
+        "district",
+        "rooms",
+        "area_m2",
+        "rent",
+        "listing_type",
+    )
     return [{k: item.get(k) for k in keep} for item in listings]
 
 

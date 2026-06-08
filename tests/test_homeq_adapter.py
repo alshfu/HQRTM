@@ -23,6 +23,8 @@ CARD = {
     "rent": 11500,
     "rooms": 2.0,
     "area": 54.5,
+    "image": "https://img.homeq.se/12345.jpg",
+    "description": "Trevlig tvåa nära Medborgarplatsen.",
 }
 
 
@@ -65,6 +67,8 @@ async def test_auth_then_card_search_returns_normalized_fcfs():
     assert item["external_id"] == "12345"
     assert item["title"] == "2:a på Söder"
     assert item["url"] == "https://homeq.se/bostad/12345"
+    assert item["image_url"] == "https://img.homeq.se/12345.jpg"
+    assert item["description"] == "Trevlig tvåa nära Medborgarplatsen."
     assert item["district"] == "Stockholm"
     assert item["rooms"] == 2.0
     assert item["area_m2"] == 54.5
