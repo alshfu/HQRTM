@@ -151,7 +151,7 @@
 <body>
   <div class="banner">
     <span class="dot"></span>
-    <span><b>Release</b> — produkten är byggd (Fas 0–6: poller-kärna, API, webbpanel, realtid). Nedan: interaktiv UI-förhandsvisning, källkod och ett urval annonser från den riktiga parsern. Skarp tjänst driftsätts separat på VPS.</span>
+    <span><b>Release</b> — produkten är byggd (Fas 0–6: poller-kärna, API, webbpanel, realtid). Nedan: interaktiv UI-förhandsvisning och källkod. Live-annonser visas när källadaptrarna aktiverats (API-nyckel + ToS). Skarp tjänst driftsätts separat på VPS.</span>
   </div>
 
   <header>
@@ -178,8 +178,8 @@
   </div>
 
   <div class="section-h">
-    <span class="label">Urval av bevakade objekt</span>
-    <span class="meta">normaliserat av den riktiga parsern (fixturer) · ingen live-skrapning · varje annons länkar till källan</span>
+    <span class="label">Bevakade objekt (live)</span>
+    <span class="meta">endast riktig data från aktiverade adaptrar · inga påhittade annonser · varje annons länkar till källan</span>
   </div>
 
   <main class="listings" id="listings">
@@ -284,7 +284,14 @@
       var data = window.HQRTM_SAMPLE || [];
       var root = document.getElementById("listings");
       if (!root) return;
-      if (!data.length) { root.innerHTML = '<p style="color:var(--muted);font-size:13px">Inget urval tillgängligt.</p>'; return; }
+      if (!data.length) {
+        root.innerHTML = '<p style="grid-column:1/-1;color:var(--muted);font-size:13px;line-height:1.6;background:var(--panel);border:1px solid var(--panel-line);border-radius:var(--r-md);padding:16px 18px">' +
+          'Inga live-annonser ännu. Källadaptrarna (HomeQ/Qasa/Samtrygg) är <b>avstängda</b> tills ' +
+          'plattformarnas ToS bekräftats och API-nyckel erhållits (se COMPLIANCE.md). ' +
+          'Här visas <b>aldrig påhittade annonser</b> — så fort en adapter aktiveras dyker riktiga objekt upp.' +
+          '</p>';
+        return;
+      }
 
       function nf(n) { return (n == null) ? null : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " "); }
 
