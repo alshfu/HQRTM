@@ -1,29 +1,31 @@
 # Contributing — HQRTM
 
-## Рабочий процесс
+## Arbetsflöde
 
-1. Ветка от `develop`: `feature/<краткое-описание>` (или `fix/...`).
-2. Изменения → коммиты → PR в `develop`. В `main` попадает только стабильное.
-3. PR должен проходить CI: **ruff** (линт), **black** (формат), **pytest** (тесты).
+1. Gren från `develop`: `feature/<kort-beskrivning>` (eller `fix/...`).
+2. Ändringar → commits → PR mot `develop`. Endast stabilt går till `main`.
+3. **Huvudregel:** vid varje avslutad etapp — commit, push och uppdatera Wiki (`docs/wiki/`).
+4. PR måste klara CI: **ruff** (lint), **black** (format), **pytest** (tester).
 
-## Перед коммитом
+## Före commit
 
 ```bash
 pip install -e ".[dev]"
-pre-commit install        # один раз
+pre-commit install        # en gång
 ruff check . && black --check . && pytest
 ```
 
-`pre-commit` запускает ruff/black и **detect-secrets** — последний защищает публичный
-репозиторий от случайной утечки токенов/ключей. Если detect-secrets ругается на новый
-«секрет», проверьте его и при необходимости обновите baseline:
-`detect-secrets scan > .secrets.baseline`.
+`pre-commit` kör ruff/black och **detect-secrets** — det sista skyddar det publika repot mot
+oavsiktligt läckta tokens/nycklar. Om detect-secrets klagar på en ny «hemlighet», kontrollera den
+och uppdatera vid behov baseline: `detect-secrets scan > .secrets.baseline`.
 
-## Правила
+## Regler
 
-- **Никаких секретов в коде/истории.** Только `.env` (в `.gitignore`) и GitHub Secrets.
-- Соблюдайте прослеживаемость: в описании задачи/PR ссылайтесь на ID требования из ТЗ
-  (`BE-DE-001`, `FE-FL-003` и т. п.).
-- Стиль кода: ruff + black (настройки в `pyproject.toml`), строка ≤ 100.
-- Логи — без PII (e-mail, telegram_chat_id и пр.).
-- Парсер HomeQ изолирован в `poller/homeq_adapter.py` — при изменении источника правится только он.
+- **Språk: all kod och dokumentation skrivs på svenska** (kommentarer, docstrings, Wiki).
+  Kommunikationen i ärenden/PR kan vara på projektets vanliga språk.
+- **Inga hemligheter i kod/historik.** Endast `.env` (i `.gitignore`) och GitHub Secrets.
+- Spårbarhet: referera till kravens ID i ärende/PR (`BE-DE-001`, `FE-FL-003` o.s.v.).
+- Kodstil: ruff + black (inställningar i `pyproject.toml`), rad ≤ 100.
+- Loggar — utan PII (e-post, telegram_chat_id m.m.).
+- En plattforms parser är isolerad i sin adapter `poller/sources/<name>.py` — vid källändring
+  rättas endast den filen (BE-DE-005).

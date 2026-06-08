@@ -1,37 +1,37 @@
-# frontend-build — production-сборка Tailwind
+# frontend-build — production-bygge av Tailwind
 
-Фронтенд использует **собранный Tailwind CSS** (purged + minified), а не Play CDN.
-`web/templates/base.html` грузит результат сборки:
+Frontend använder **byggd Tailwind CSS** (purged + minified), inte Play CDN.
+`web/templates/base.html` laddar byggresultatet:
 
 ```html
 <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
 ```
 
-Собранный файл `web/static/css/app.css` **закоммичен** в репозиторий — приложение работает
-без Node-тулчейна (CI/деплою сборка не нужна). Node нужен только для пересборки CSS.
+Den byggda filen `web/static/css/app.css` är **incheckad** i repot — appen fungerar utan
+Node-toolchain (CI/driftsättning behöver inte bygga). Node behövs bara för att bygga om CSS.
 
-## Что где
+## Vad finns var
 
-- `input.css` — `@tailwind`-директивы + кастомные токены/компоненты HQRTM
-  (`.card`, `.input`, `.btn-accent`, `.navlink.active`, фон `body`). **Источник истины** —
-  раньше эти правила жили inline в `base.html`.
-- `tailwind.config.js` — тема (`accent` #15b878, шрифты Schibsted Grotesk / JetBrains Mono),
-  `darkMode: "class"`, `content` сканирует `../web/templates/**/*.html` и `../web/static/js/**/*.js`
-  (классы из inline-`<script>` и `api.js` тоже попадают в purge).
-- `package.json` — Tailwind CLI v3 + скрипты `build`/`watch`.
+- `input.css` — `@tailwind`-direktiv + HQRTM:s egna tokens/komponenter
+  (`.card`, `.input`, `.btn-accent`, `.navlink.active`, bakgrund `body`). **Källa** —
+  tidigare låg dessa regler inline i `base.html`.
+- `tailwind.config.js` — tema (`accent` #15b878, typsnitt Schibsted Grotesk / JetBrains Mono),
+  `darkMode: "class"`, `content` skannar `../web/templates/**/*.html` och `../web/static/js/**/*.js`
+  (klasser från inline-`<script>` och `api.js` kommer också med i purge).
+- `package.json` — Tailwind CLI v3 + skripten `build`/`watch`.
 
-## Пересборка (после правки шаблонов/классов/темы)
+## Bygga om (efter ändring av mallar/klasser/tema)
 
 ```bash
 cd frontend-build
-npm install          # один раз (node_modules в .gitignore)
+npm install          # en gång (node_modules i .gitignore)
 npm run build        # → ../web/static/css/app.css (purged, minified)
-# для разработки:
-npm run watch        # пересобирает при изменениях
+# för utveckling:
+npm run watch        # bygger om vid ändringar
 ```
 
-После пересборки **закоммить обновлённый `web/static/css/app.css`**.
+Efter ombyggnad **checka in den uppdaterade `web/static/css/app.css`**.
 
-> ⚠️ Tailwind вырезает неиспользуемые классы. Если класс строится в JS конкатенацией
-> (а не цельной строкой), purge его не увидит — пиши классы целиком или добавь в safelist
-> в `tailwind.config.js`.
+> ⚠️ Tailwind tar bort oanvända klasser. Om en klass byggs i JS via konkatenering (inte som en
+> hel sträng) ser purge den inte — skriv klasser i sin helhet eller lägg dem i safelist i
+> `tailwind.config.js`.
