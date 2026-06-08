@@ -1,11 +1,11 @@
-# Архитектура
+# Arkitektur
 
 ```
-        Площадки (HomeQ, Qasa, Blocket, Bostad Direkt, Samtrygg)
-                         │ опрос (1 раз на всех)
+        Plattformar (HomeQ, Qasa, Blocket, Bostad Direkt, Samtrygg)
+                         │ bevakning (1 gång för alla)
         ┌────────────────▼─────────────────────────────────────┐
-        │  POLLER (asyncio, отдельный процесс)                  │
-        │  sources/* (адаптеры) → detector(FCFS) → matcher → dispatcher │
+        │  POLLER (asyncio, separat process)                    │
+        │  sources/* (adaptrar) → detector(FCFS) → matcher → dispatcher │
         └───────┬───────────────────────────────────┬──────────┘
                 │ listings / notifications           │ Telegram (aiogram)
         ┌───────▼────────────┐               ┌───────▼────────┐
@@ -15,20 +15,20 @@
         └───────▲────────────┘
                 │ PyMongo
         ┌───────┴───────────────────────────────┐
-        │  FLASK (API + Jinja2 + SSE)            │── SSE ─► Браузер (Tailwind+JS)
+        │  FLASK (API + Jinja2 + SSE)            │── SSE ─► Webbläsare (Tailwind+JS)
         └────────────────────────────────────────┘
 ```
 
-## Принципы
-- **Поллер — отдельный процесс.** Flask синхронный (WSGI); высокочастотный опрос 24/7 несовместим
-  с request-response. Связь web↔poller — через MongoDB.
-- **Мульти-source.** Каждая площадка — адаптер `SourceAdapter` в `poller/sources/`, регистрируется в
-  реестре. Всё нормализуется в коллекцию `listings` с полем `source`. Добавить площадку = новый адаптер,
-  ядро поллера не меняется. Включение адаптера (`enabled=True`) — только после проверки ToS.
-- **Real-time.** Поллер пишет совпадение → Flask слушает Change Stream `notifications` → отдаёт в браузер
-  по SSE (`/sse/feed`, Фаза 6). Fallback — периодический `GET /api/listings?matched=true`.
-- **Дедуп без Redis.** TTL-индексы MongoDB (`seen_listings`, `listings`).
+## Principer
+- **Pollern är en separat process.** Flask är synkron (WSGI); högfrekvent bevakning dygnet runt är
+  oförenlig med request-response. Kopplingen web↔poller går via MongoDB.
+- **Multi-source.** Varje plattform är en adapter `SourceAdapter` i `poller/sources/`, registrerad i
+  registret. Allt normaliseras till kollektionen `listings` med fältet `source`. Lägga till en plattform =
+  ny adapter, pollerkärnan ändras inte. Aktivering av en adapter (`enabled=True`) — först efter ToS-kontroll.
+- **Realtid.** Pollern skriver en träff → Flask lyssnar på Change Stream `notifications` → skickar till
+  webbläsaren via SSE (`/sse/feed`, Fas 6). Fallback — periodiskt `GET /api/listings?matched=true`.
+- **Dedup utan Redis.** MongoDB TTL-index (`seen_listings`, `listings`).
 
-## Процессы (контейнеры — Фаза 10)
-`web` (Flask) · `poller` (asyncio) · `bot` (aiogram) · `mongo` (replica set, для Change Streams).
-В dev — MongoDB Atlas (replica set из коробки).
+## Processer (containrar — Fas 10)
+`web` (Flask) · `poller` (asyncio) · `bot` (aiogram) · `mongo` (replica set, för Change Streams).
+I dev — MongoDB Atlas (replica set direkt).

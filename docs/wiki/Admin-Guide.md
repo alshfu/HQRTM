@@ -1,38 +1,38 @@
-# Гид администратора
+# Guide för administratör
 
-**Администратор** (role `admin`) — обслуживает сервис: пользователи, источники, наблюдение.
+**Administratör** (roll `admin`) — sköter tjänsten: användare, källor, övervakning.
 
-> Статус: модель ролей (`UserRole` = `user` | `admin`) и отображение admin-пункта в навигации
-> реализованы. Полноценные admin-эндпоинты и UI-панель — запланированы (FE-AD-*, опционально в Roadmap).
-> Эта страница описывает целевое поведение и текущие возможности.
+> Status: rollmodellen (`UserRole` = `user` | `admin`), admin-endpoints (`/api/admin/*`) och
+> adminpanelen (`/app/admin`) är implementerade. Sidan beskriver både nuvarande funktioner och målbilden.
 
-## Роли
-- `user` — обычный пользователь (по умолчанию при регистрации).
-- `admin` — расширенный доступ. Назначается **вручную** (см. ниже); саморегистрации в admin нет.
+## Roller
+- `user` — vanlig användare (standard vid registrering).
+- `admin` — utökad åtkomst. Tilldelas **manuellt** (se nedan); ingen självregistrering till admin.
 
-## Как назначить администратора
-Пока нет admin-эндпоинта — роль выставляется напрямую в БД:
+## Tilldela administratör
+Via admin-endpoint (en admin byter roll i panelen) eller direkt i databasen:
 ```js
-// mongosh, БД hqrtm
+// mongosh, databasen hqrtm
 db.users.updateOne({ email: "admin@hqrtm.se" }, { $set: { role: "admin" } })
 ```
-После этого в кабинете у пользователя появляется пункт **Admin** в навигации.
+Därefter visas menyvalet **Admin** i panelen.
 
-## Возможности администратора (целевые)
-- **Пользователи**: список, статус, роль, привязка Telegram, последняя активность.
-- **Источники**: статус площадок (доступна/недоступна), последние ошибки парсинга, вкл/выкл адаптера.
-- **Метрики**: латентность publish→доставка (SLA ≤ 1.5 с), объём рассылок, частота опроса.
-- **Алерты**: уведомления о недоступности источника, росте латентности, провале рассылок.
+## Administratörens funktioner
+- **Användare**: lista, status, roll, Telegram-koppling, senaste aktivitet. Rollbyte
+  (`/api/admin/users/<id>/role`) — man kan inte degradera sig själv.
+- **Statistik**: `/api/admin/stats` — antal användare/filter/annonser/aviseringar.
+- **Källor (mål)**: plattformsstatus (tillgänglig/otillgänglig), senaste parsningsfel, på/av för adapter.
+- **Mätvärden (mål)**: latens publish→leverans (SLA ≤ 1,5 s), aviseringsvolym, bevakningsfrekvens.
 
-## Наблюдение (текущее)
-- `GET /health` — статус web-процесса.
-- `python -m shared.db` — (пере)создание индексов на БД.
-- Логи процессов (web/poller/bot) — структурные, без PII.
+## Övervakning (nuvarande)
+- `GET /health` — webbprocessens status.
+- `python -m shared.db` — (åter)skapa index i databasen.
+- Processloggar (web/poller/bot) — strukturerade, utan PII.
 
-## Безопасность
-- Доступ к чужим данным запрещён на уровне сервиса (проверка по JWT).
-- Секреты — только в `.env`/GitHub Secrets. Пароли — Argon2. Подробнее: [Конфигурация](Configuration).
+## Säkerhet
+- Åtkomst till andras data är blockerad på tjänstenivå (JWT-kontroll).
+- Hemligheter — endast i `.env`/GitHub Secrets. Lösenord — Argon2. Mer: [Konfiguration](Configuration).
 
-## Эксплуатация источников
-Включение адаптера площадки (`enabled=True` в `poller/sources/*`) допустимо **только** после
-положительного вывода по ToS/robots.txt этой площадки — см. [Комплаенс](Compliance).
+## Drift av källor
+Aktivering av en plattformsadapter (`enabled=True` i `poller/sources/*`) är tillåten **endast** efter
+positivt besked om plattformens ToS/robots.txt — se [Efterlevnad](Compliance).

@@ -1,41 +1,41 @@
-# Roadmap и Changelog
+# Roadmap och Changelog
 
-Полный план — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Актуальный статус — `CLAUDE.md`.
+Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell status — `CLAUDE.md`.
 
-## Прогресс по фазам
-| Фаза | Тема | Статус |
+## Framsteg per fas
+| Fas | Tema | Status |
 |---|---|---|
-| 0 | Подготовка (репо, окружение, tooling, CI) | ✅ |
-| 1 | Слой данных MongoDB + мульти-source каркас | ✅ |
-| 2 | Поллер: детекция FCFS + адаптеры + матчинг (M1) | ✅ код готов; адаптеры `enabled=False` (ждут ключ/ToS) |
-| 3 | Telegram-бот (M2) | ⏳ |
+| 0 | Förberedelse (repo, miljö, tooling, CI) | ✅ |
+| 1 | MongoDB-datalager + multi-source-skelett | ✅ |
+| 2 | Poller: FCFS-detektion + adaptrar + matchning (M1) | ✅ kod klar; adaptrar `enabled=False` (väntar nyckel/ToS) |
+| 3 | Telegram-bot (M2) | ⏸ uppskjuten |
 | 4 | Flask API + Auth | ✅ |
-| 5 | Frontend (Jinja2 + Tailwind + Vanilla JS) + i18n + админ-UI | ✅ |
-| 6 | Real-time (SSE + Change Streams) | ✅ |
-| 7 | GitHub Pages demo | ✅ (demo опубликовано) |
-| 8 | Устойчивость, безопасность, наблюдаемость | ⏳ |
-| 9 | Тестирование | ⏳ (юнит/интеграция идут параллельно, 110 passed) |
-| 10 | Деплой на VPS (M3) | ⏳ |
-| 11 | Документация и сдача | 🚧 (эта Wiki) |
+| 5 | Frontend (Jinja2 + Tailwind + Vanilla JS) + i18n + admin-UI | ✅ |
+| 6 | Realtid (SSE + Change Streams) | ✅ |
+| 7 | GitHub Pages demo | ✅ (demo publicerad) |
+| 8 | Robusthet, säkerhet, observerbarhet | ⏳ |
+| 9 | Testning | ⏳ (unit/integration pågår, 121 passed) |
+| 10 | Driftsättning på VPS (M3) | ⏳ |
+| 11 | Dokumentation och leverans | 🚧 (denna Wiki) |
 
-## Changelog (кратко)
-- **2026-06-07** — Фаза 0: каркас, окружение, pre-commit, CI.
-- **2026-06-07** — Фаза 1: модели, индексы, мульти-source адаптеры.
-- **2026-06-07** — Pivot: all-in-one агрегатор шведских площадок.
-- **2026-06-07** — Фаза 4: auth (JWT+Argon2), фильтры, листинги, уведомления, Telegram-link, OpenAPI.
-- **2026-06-07** — Фаза 6: real-time (SSE + Change Streams), дашборд на `EventSource`.
-- **2026-06-07** — Фаза 2: реальный HomeQ-адаптер (Core API), Qasa-адаптер (GraphQL, не верифицирован),
-  матчинг фильтров → идемпотентная постановка уведомлений. Адаптеры `enabled=False`.
-- **2026-06-07** — Фаза 5: фронтенд (Tailwind + Vanilla JS), роли user/admin, **i18n (sv/en)**,
-  **админ-панель** (`/api/admin/*`, `/app/admin`), **production Tailwind-сборка**. → **v0.5.0**
-- **2026-06-08** — Фаза 2: **Samtrygg-адаптер** (`GetHomePageObjects`, устойчивый парсинг: комнаты
-  из адреса, fallback по именам полей, группировка по городам) + настройки/тесты. `enabled=False`
-  (host/ToS не подтверждены). Витрина GitHub Pages переделана с «demo» на **презентацию релиза**.
-- **2026-06-08** — Витрина переведена на **шведский** и показывает **реальные объявления из
-  настоящего парсера** (`scripts/gen_sample_listings.py` → `HQRTM-Demo/sample-listings.js`) с
-  **ссылкой на первоисточник** в каждой карточке. Решения: всё на шведском; реальные данные +
-  первоисточник; Telegram (Фаза 3) отложен. ⚠️ Перевод всей Wiki/доков на шведский — поэтапно.
+## Changelog (kort)
+- **2026-06-07** — Fas 0: skelett, miljö, pre-commit, CI.
+- **2026-06-07** — Fas 1: modeller, index, multi-source-adaptrar.
+- **2026-06-07** — Pivot: all-in-one-aggregator för svenska plattformar.
+- **2026-06-07** — Fas 4: auth (JWT+Argon2), filter, listings, aviseringar, Telegram-link, OpenAPI.
+- **2026-06-07** — Fas 6: realtid (SSE + Change Streams), dashboard med `EventSource`.
+- **2026-06-07** — Fas 2: riktig HomeQ-adapter (Core API), Qasa-adapter (GraphQL, ej verifierad),
+  filtermatchning → idempotent köning av aviseringar. Adaptrar `enabled=False`.
+- **2026-06-07** — Fas 5: frontend (Tailwind + Vanilla JS), roller user/admin, **i18n (sv/en)**,
+  **adminpanel** (`/api/admin/*`, `/app/admin`), **production-Tailwind-bygge**. → **v0.5.0**
+- **2026-06-08** — Fas 2: **Samtrygg-adapter** (`GetHomePageObjects`, robust parsning: rum från
+  adressen, fallback på fältnamn, gruppering per stad) + inställningar/tester. `enabled=False`
+  (host/ToS ej bekräftade). Vitrinen på GitHub Pages gjordes om från «demo» till **release-presentation**.
+- **2026-06-08** — Vitrinen översatt till **svenska** och visar **riktiga annonser från den verkliga
+  parsern** (`scripts/gen_sample_listings.py` → `HQRTM-Demo/sample-listings.js`) med **länk till källan**
+  i varje kort. Beslut: allt på svenska; riktiga data + källa; Telegram (Fas 3) uppskjuten.
+- **2026-06-08** — Wiki översatt till **svenska** (alla sidor).
 
-## Известные внешние блокеры
-- Поллер: реальный опрос площадок ждёт включения адаптеров (`enabled=True`) — нужны
-  API-ключ/доступ HomeQ/Qasa и подтверждение ToS (решение владельца, см. [Compliance](Compliance)).
+## Kända externa blockerare
+- Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver
+  API-nyckel/åtkomst för HomeQ/Qasa och bekräftad ToS (ägarens beslut, se [Efterlevnad](Compliance)).

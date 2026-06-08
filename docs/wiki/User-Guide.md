@@ -1,39 +1,39 @@
-# Гид пользователя
+# Guide för användare
 
-**Пользователь** (role `user`) — зарегистрированный получатель уведомлений со своими фильтрами.
+**Användare** (roll `user`) — registrerad mottagare av aviseringar med egna filter.
 
-## 1. Регистрация и вход
-- `/register` — e-mail + пароль (≥ 8 символов) + согласие (GDPR). Вход происходит автоматически.
-- `/login` — повторный вход. Сессия хранится в браузере (JWT); access-токен обновляется автоматически.
+## 1. Registrering och inloggning
+- `/register` — e-post + lösenord (≥ 8 tecken) + samtycke (GDPR). Inloggning sker automatiskt.
+- `/login` — återkommande inloggning. Sessionen lagras i webbläsaren (JWT); access-token förnyas automatiskt.
 
-## 2. Кабинет (`/app`)
-Слева — навигация: **Flöde** (лента), **Filter**, **Aviseringar** (уведомления), **Konto** (настройки).
+## 2. Panel (`/app`)
+Till vänster — navigering: **Flöde**, **Filter**, **Aviseringar**, **Konto** (inställningar).
 
-### Flöde (лента)
-- Показывает объявления, **совпавшие с вашими фильтрами** (переключатель «Endast matchade»).
-- Карточка: заголовок, район, комнаты, площадь, цена, площадка-источник, бейдж «FÖRST TILL KVARN»
-  для FCFS. Кнопка **Öppna →** ведёт прямо на объявление.
+### Flöde
+- Visar annonser som **matchar dina filter** (växeln «Endast matchade»).
+- Kort: titel, område, rum, yta, hyra, källplattform, märket «FÖRST TILL KVARN» för FCFS.
+  Knappen **Öppna →** leder direkt till annonsen hos källan.
 
 ### Filter
-- **Создать**: имя, район/город, макс. цена, мин. комнат, «только FCFS».
-- **Пауза/Активация** — временно отключить фильтр без удаления.
-- **Удалить** — убрать фильтр.
-- Можно создавать несколько фильтров; совпадения с любого активного попадут в ленту/уведомления.
+- **Skapa**: namn, område/stad, maxhyra, minsta antal rum, «endast FCFS».
+- **Pausa/Aktivera** — stäng av ett filter tillfälligt utan att radera.
+- **Radera** — ta bort filtret.
+- Du kan skapa flera filter; träffar från valfritt aktivt filter hamnar i flödet/aviseringarna.
 
-### Aviseringar (история уведомлений)
-- Список отправленных уведомлений с пагинацией, статусом доставки и латентностью.
+### Aviseringar (historik)
+- Lista över skickade aviseringar med paginering, leveransstatus och latens.
 
-### Konto (настройки)
-- **Профиль**: e-mail, роль.
-- **Telegram**: кнопка «Koppla Telegram» генерирует код и deep-link. Откройте бота, отправьте код —
-  и уведомления начнут приходить в Telegram.
-- **Удаление аккаунта (GDPR)**: кнопка «Radera mitt konto» безвозвратно удаляет аккаунт и все данные
-  (фильтры, уведомления).
+### Konto (inställningar)
+- **Profil**: e-post, roll.
+- **Telegram**: knappen «Koppla Telegram» genererar en kod och deep-link. Öppna boten, skicka koden —
+  så börjar aviseringar komma i Telegram. (Leverans i Telegram — Fas 3, uppskjuten.)
+- **Radera konto (GDPR)**: knappen «Radera mitt konto» raderar oåterkalleligt kontot och all data
+  (filter, aviseringar).
 
-## 3. Как приходят уведомления
-Центральный поллер мониторит площадки → находит FCFS → сверяет с вашими фильтрами →
-шлёт уведомление со ссылкой в Telegram (цель ≤ 1.5 с). Бот **не** подаёт заявки за вас — только уведомляет.
+## 3. Så kommer aviseringar
+Den centrala pollern bevakar plattformarna → hittar FCFS → jämför med dina filter →
+skickar en avisering med länk (mål ≤ 1,5 s). Boten **ansöker inte** åt dig — den aviserar bara.
 
-## 4. Приватность (GDPR)
-Хранятся только e-mail, Telegram chat_id и ваши фильтры. Пароль — в виде хэша (Argon2).
-Удаление аккаунта стирает все связанные данные. См. [Комплаенс](Compliance).
+## 4. Integritet (GDPR)
+Endast e-post, Telegram chat_id och dina filter lagras. Lösenordet — som hash (Argon2).
+Radering av kontot tar bort all relaterad data. Se [Efterlevnad](Compliance).

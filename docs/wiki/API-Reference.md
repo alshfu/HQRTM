@@ -1,62 +1,62 @@
-# Справочник API
+# API-referens
 
-Интерактивная схема: **Swagger UI** на `/apidocs`, спецификация — `/openapi.json` (OpenAPI 3.0).
-Авторизация: `Authorization: Bearer <access_token>` (JWT). Токены выдаёт `/auth/*`.
+Interaktivt schema: **Swagger UI** på `/apidocs`, specifikation — `/openapi.json` (OpenAPI 3.0).
+Auktorisering: `Authorization: Bearer <access_token>` (JWT). Tokens utfärdas av `/auth/*`.
 
 ## Auth
-| Метод | Путь | Тело | Ответ |
+| Metod | Sökväg | Body | Svar |
 |---|---|---|---|
-| POST | `/auth/register` | `{email, password}` | `201 {id, access_token, refresh_token}` · `400` слабый пароль/невалидно · `409` email занят |
+| POST | `/auth/register` | `{email, password}` | `201 {id, access_token, refresh_token}` · `400` svagt lösenord/ogiltigt · `409` e-post upptagen |
 | POST | `/auth/login` | `{email, password}` | `200 {id, access_token, refresh_token}` · `401` |
 | POST | `/auth/refresh` | `{refresh_token}` | `200 {access_token}` · `401` |
 
-## Фильтры (auth)
-| Метод | Путь | Назначение |
+## Filter (auth)
+| Metod | Sökväg | Syfte |
 |---|---|---|
-| GET | `/api/filters` | список своих фильтров |
-| POST | `/api/filters` | создать (тело — поля `Filter`, `user_id` игнорируется) |
-| PUT | `/api/filters/<id>` | обновить |
-| DELETE | `/api/filters/<id>` | удалить |
+| GET | `/api/filters` | lista egna filter |
+| POST | `/api/filters` | skapa (body — `Filter`-fält, `user_id` ignoreras) |
+| PUT | `/api/filters/<id>` | uppdatera |
+| DELETE | `/api/filters/<id>` | radera |
 
-## Лента и уведомления (auth)
-| Метод | Путь | Параметры |
+## Flöde och aviseringar (auth)
+| Metod | Sökväg | Parametrar |
 |---|---|---|
 | GET | `/api/listings` | `matched=true`, `source`, `listing_type`, `district`, `page`, `limit` (≤100) |
 | GET | `/api/notifications` | `page`, `limit` |
 
 ## Telegram (auth)
-| Метод | Путь | Ответ |
+| Metod | Sökväg | Svar |
 |---|---|---|
 | POST | `/api/telegram/link` | `{link_code, deep_link}` |
 | GET | `/api/telegram/status` | `{linked, bot_username}` |
 
-## Профиль (auth)
-| Метод | Путь | Назначение |
+## Profil (auth)
+| Metod | Sökväg | Syfte |
 |---|---|---|
-| GET | `/api/me` | профиль (`email`, `role`, `status`, `locale`, `telegram_linked`) |
-| DELETE | `/api/me` | удалить аккаунт и все данные (GDPR) |
+| GET | `/api/me` | profil (`email`, `role`, `status`, `locale`, `telegram_linked`) |
+| DELETE | `/api/me` | radera konto och all data (GDPR) |
 
-## Админ (роль `admin`)
-Гард `require_admin`: роль проверяется по БД. Без токена — `401`, не-админу — `403`.
-| Метод | Путь | Назначение |
+## Admin (roll `admin`)
+Skydd `require_admin`: rollen kontrolleras mot databasen. Utan token — `401`, icke-admin — `403`.
+| Metod | Sökväg | Syfte |
 |---|---|---|
-| GET | `/api/admin/stats` | счётчики `{users, filters, listings, notifications}` |
-| GET | `/api/admin/users` | список пользователей (без секретов), пагинация |
-| POST | `/api/admin/users/<id>/role` | сменить роль `{role: "admin"\|"user"}`; нельзя разжаловать себя (`400`) |
+| GET | `/api/admin/stats` | räknare `{users, filters, listings, notifications}` |
+| GET | `/api/admin/users` | användarlista (utan hemligheter), paginering |
+| POST | `/api/admin/users/<id>/role` | byt roll `{role: "admin"\|"user"}`; kan inte degradera sig själv (`400`) |
 
-## Real-time
-| Метод | Путь | Назначение |
+## Realtid
+| Metod | Sökväg | Syfte |
 |---|---|---|
-| GET | `/sse/feed?token=<access>` | SSE-поток новых совпадений (Change Stream на `notifications`) |
+| GET | `/sse/feed?token=<access>` | SSE-ström av nya träffar (Change Stream på `notifications`) |
 
-## Прочее
-| Метод | Путь | Назначение |
+## Övrigt
+| Metod | Sökväg | Syfte |
 |---|---|---|
 | GET | `/health` | health-check |
 | GET | `/openapi.json`, `/apidocs` | OpenAPI + Swagger UI |
 
-Пагинированные ответы: `{ items: [...], page, limit, total }`.
+Paginerade svar: `{ items: [...], page, limit, total }`.
 
 ## i18n
-Язык интерфейса: `?lang=sv\|en` (сохраняется в cookie `hqrtm_lang`, дефолт `sv`). Затрагивает
-серверный рендер шаблонов и inline-JS (каталог отдаётся в `window.HQRTM_I18N`).
+Gränssnittsspråk: `?lang=sv\|en` (sparas i cookie `hqrtm_lang`, standard `sv`). Påverkar
+serverrendering av mallar och inline-JS (katalogen skickas i `window.HQRTM_I18N`).

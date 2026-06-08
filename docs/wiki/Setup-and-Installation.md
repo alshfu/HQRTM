@@ -1,10 +1,10 @@
-# Установка и запуск
+# Installation och körning
 
-## Требования
+## Krav
 - Python **3.12**
-- MongoDB с **replica set** (рекомендуется **Atlas free-tier** — RS из коробки; нужно для Change Streams)
+- MongoDB med **replica set** (rekommenderas **Atlas free-tier** — RS direkt; krävs för Change Streams)
 
-## Шаги
+## Steg
 ```bash
 git clone https://github.com/alshfu/HQRTM.git
 cd HQRTM
@@ -12,25 +12,26 @@ cd HQRTM
 python3.12 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 
-cp .env.example .env        # заполнить MONGO_URI и секреты
+cp .env.example .env        # fyll i MONGO_URI och hemligheter
 pre-commit install
 
-python -m shared.db                  # создать индексы MongoDB
+python -m shared.db                  # skapa MongoDB-index
 flask --app web.app run --debug      # http://127.0.0.1:5000/
 ```
 
-Открыть:
-- `/` — лендинг, `/register` → `/app` — кабинет
+Öppna:
+- `/` — landningssida, `/register` → `/app` — panel
 - `/apidocs` — Swagger UI, `/health` — health-check
 
-## MongoDB Atlas (быстрый старт)
-1. Создать бесплатный кластер на cloud.mongodb.com.
-2. Database Access — создать пользователя; Network Access — добавить свой IP.
-3. Connect → Drivers → скопировать `mongodb+srv://…` в `MONGO_URI` в `.env`.
+## MongoDB Atlas (snabbstart)
+1. Skapa ett gratis kluster på cloud.mongodb.com.
+2. Database Access — skapa en användare; Network Access — lägg till din IP.
+3. Connect → Drivers → kopiera `mongodb+srv://…` till `MONGO_URI` i `.env`.
 
 ## Frontend (Tailwind)
-Сейчас — Play CDN (ничего собирать не нужно). Production-сборка — см. `frontend-build/README.md`.
+Production-bygget är incheckat (`web/static/css/app.css`) — inget behöver byggas för att köra.
+Bygga om: se `frontend-build/README.md`.
 
-## Поллер и бот
-`python -m poller.main` (Фаза 2) и `python -m bot.main` (Фаза 3) — появятся по мере реализации;
-сейчас это заглушки. Поллер запускать только после фиксации ToS площадок (см. [Комплаенс](Compliance)).
+## Poller och bot
+`python -m poller.main` (Fas 2) och `python -m bot.main` (Fas 3, uppskjuten). Starta pollern först
+efter fastställd ToS för plattformarna (se [Efterlevnad](Compliance)).

@@ -1,23 +1,23 @@
-# Гид гостя
+# Guide för gäst
 
-**Гость** — посетитель без авторизации. Что доступно:
+**Gäst** — besökare utan inloggning. Vad som är tillgängligt:
 
-## Что можно без регистрации
-- **Лендинг** (`/`) — описание сервиса, ссылки на вход/регистрацию.
-- **UI-demo** — https://alshfu.github.io/HQRTM/ — полноценный интерфейс кабинета на мок-данных
-  (desktop/tablet/mobile). Реальные уведомления и бэкенд не подключены.
-  Демо-доступы для просмотра вида залогиненного пользователя/админа:
-  - пользователь: `elin@hqrtm.se` / `demo1234`
-  - админ: `admin@hqrtm.se` / `admin1234`
-- **API-документация** (`/apidocs`, `/openapi.json`) — публичная схема REST API.
+## Utan registrering
+- **Landningssida** (`/`) — tjänstebeskrivning, länkar till inloggning/registrering.
+- **UI-demo** — https://alshfu.github.io/HQRTM/ — fullständigt panelgränssnitt med ett urval annonser
+  från den riktiga parsern (desktop/tablet/mobil). Riktiga aviseringar och backend är inte anslutna.
+  Testkonton för att se vyn som inloggad användare/admin:
+  - användare: `elin@hqrtm.se` / `demo1234`
+  - admin: `admin@hqrtm.se` / `admin1234`
+- **API-dokumentation** (`/apidocs`, `/openapi.json`) — publikt REST API-schema.
 
-## Что недоступно
-- Личный кабинет (`/app/*`) — требует входа; без токена клиент перенаправляет на `/login`.
-- Создание фильтров, привязка Telegram, лента совпадений.
+## Inte tillgängligt
+- Användarpanel (`/app/*`) — kräver inloggning; utan token omdirigeras klienten till `/login`.
+- Skapa filter, koppla Telegram, träfflista.
 
-## Как стать пользователем
-1. Открыть `/register`.
-2. Указать e-mail и пароль (≥ 8 символов), принять условия/политику (GDPR).
-3. После регистрации вы автоматически входите и попадаете в кабинет.
+## Bli användare
+1. Öppna `/register`.
+2. Ange e-post och lösenord (≥ 8 tecken), godkänn villkor/policy (GDPR).
+3. Efter registrering loggas du in automatiskt och hamnar i panelen.
 
-Далее — [Гид пользователя](User-Guide).
+Vidare — [Guide för användare](User-Guide).

@@ -1,28 +1,28 @@
-# Комплаенс (ToS площадок, GDPR)
+# Efterlevnad (plattformarnas ToS, GDPR)
 
-Полный рабочий документ с чек-листами — `COMPLIANCE.md` в корне репозитория. Кратко:
+Fullständigt arbetsdokument med checklistor — `COMPLIANCE.md` i repots rot. Kortfattat:
 
-## ToS площадок (per-source!)
-Агрегатор мониторит несколько площадок — у каждой **свой ToS и `robots.txt`**, проверяются отдельно.
-Адаптер (`poller/sources/*`) включается (`enabled=True`) **только** после положительного вывода.
-В scope: HomeQ, Qasa, Blocket Bostad, Bostad Direkt, Samtrygg.
+## Plattformarnas ToS (per källa!)
+Aggregatorn bevakar flera plattformar — var och en har **egen ToS och `robots.txt`**, kontrolleras
+separat. En adapter (`poller/sources/*`) aktiveras (`enabled=True`) **endast** efter positivt besked.
+I scope: HomeQ, Qasa, Blocket Bostad, Bostad Direkt, Samtrygg.
 
-Принципы: официальное API в приоритете; скрейпинг — fallback и только если не противоречит ToS;
-один центральный поллер; разумные интервалы + джиттер + backoff; уважение `429/503/Retry-After`.
+Principer: officiellt API först; skrapning — fallback och endast om det inte strider mot ToS;
+en central poller; rimliga intervall + jitter + backoff; respekt för `429/503/Retry-After`.
 
-**Ресёрч 2026-06-07 (кратко, не юр-консультация):** у **HomeQ есть официальный Core API**
-(`docs-core.homeq.se`: JWT, Card Search опубликованных объявлений, webhooks) — приоритетный путь;
-Qasa — та же группа (вероятно тот же API). Blocket — без публичного API + анти-бот (только партнёрство).
-Bostad Direkt — robots.txt запрещает поисковые эндпоинты. **Samtrygg** — есть публичная
-SwaggerHub-спека (`GetHomePageObjects`), **но host не указан** и ToS на программное чтение не
-подтверждён → адаптер `enabled=False`, host (`SAMTRYGG_API_URL`) и ToS — за владельцем.
-Полная таблица и шаги — в `COMPLIANCE.md` репозитория.
+**Research 2026-06-07 (kort, ej juridisk rådgivning):** **HomeQ har ett officiellt Core API**
+(`docs-core.homeq.se`: JWT, Card Search av publicerade annonser, webhooks) — prioriterad väg;
+Qasa — samma koncern (troligen samma API). Blocket — utan publikt API + anti-bot (endast partnerskap).
+Bostad Direkt — robots.txt förbjuder söknings-endpoints. **Samtrygg** — har en publik SwaggerHub-spec
+(`GetHomePageObjects`), **men host anges inte** och ToS för programmatisk läsning är inte bekräftad →
+adaptern `enabled=False`, host (`SAMTRYGG_API_URL`) och ToS är ägarens beslut.
+Fullständig tabell och steg — i `COMPLIANCE.md`.
 
 ## GDPR
-- Правовое основание — согласие при регистрации (`users.consent_at`).
-- Право на удаление — `DELETE /api/me` стирает аккаунт и все связанные данные.
-- Пароли — Argon2; секреты — вне репозитория; логи — без PII.
-- Политика конфиденциальности и условия — ссылки в UI (заглушки до публикации текстов).
+- Rättslig grund — samtycke vid registrering (`users.consent_at`).
+- Rätt till radering — `DELETE /api/me` raderar kontot och all relaterad data.
+- Lösenord — Argon2; hemligheter — utanför repot; loggar — utan PII.
+- Integritetspolicy och villkor — länkar i UI (platshållare tills texterna publiceras).
 
-## Вне scope
-Бот **не** логинится в аккаунты площадок и **не** подаёт заявки — только уведомляет.
+## Utanför scope
+Boten **loggar inte in** på plattformskonton och **ansöker inte** — den aviserar bara.

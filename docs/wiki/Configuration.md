@@ -1,43 +1,43 @@
-# Конфигурация
+# Konfiguration
 
-Все настройки — через переменные окружения (`.env`, не коммитится). Шаблон — `.env.example`.
-Читаются через `shared/config.py` (`pydantic-settings`).
+Alla inställningar — via miljövariabler (`.env`, checkas inte in). Mall — `.env.example`.
+Läses via `shared/config.py` (`pydantic-settings`).
 
-| Переменная | По умолчанию | Назначение |
+| Variabel | Standard | Syfte |
 |---|---|---|
-| `MONGO_URI` | `mongodb://localhost:27017/?replicaSet=rs0` | Подключение к MongoDB (Atlas: `mongodb+srv://…`) |
-| `MONGO_DB` | `hqrtm` | Имя базы |
-| `SEEN_TTL_HOURS` | `24` | TTL дедупликации (`seen_listings`) |
-| `LISTINGS_TTL_DAYS` | `7` | TTL авто-очистки `listings` |
-| `FLASK_ENV` | `development` | Режим Flask |
-| `SECRET_KEY` | `change-me-dev-only` | Секрет Flask (сменить!) |
-| `JWT_SECRET` | `change-me-dev-only` | Секрет JWT (сменить! ≥ 32 байт) |
-| `JWT_ACCESS_TTL_MIN` | `15` | TTL access-токена (мин) |
-| `JWT_REFRESH_TTL_DAYS` | `30` | TTL refresh-токена (дни) |
-| `TELEGRAM_BOT_TOKEN` | — | Токен бота (BotFather) |
-| `TELEGRAM_BOT_USERNAME` | — | Username бота (для deep-link привязки) |
-| `POLL_INTERVAL_MS` | `3000` | Интервал опроса поллера |
-| `HOT_HOURS` | `08-22` | Окно «горячих» часов (адаптивная частота) |
+| `MONGO_URI` | `mongodb://localhost:27017/?replicaSet=rs0` | Anslutning till MongoDB (Atlas: `mongodb+srv://…`) |
+| `MONGO_DB` | `hqrtm` | Databasnamn |
+| `SEEN_TTL_HOURS` | `24` | TTL för dedup (`seen_listings`) |
+| `LISTINGS_TTL_DAYS` | `7` | TTL för auto-städning av `listings` |
+| `FLASK_ENV` | `development` | Flask-läge |
+| `SECRET_KEY` | `change-me-dev-only` | Flask-hemlighet (byt!) |
+| `JWT_SECRET` | `change-me-dev-only` | JWT-hemlighet (byt! ≥ 32 byte) |
+| `JWT_ACCESS_TTL_MIN` | `15` | TTL för access-token (min) |
+| `JWT_REFRESH_TTL_DAYS` | `30` | TTL för refresh-token (dagar) |
+| `TELEGRAM_BOT_TOKEN` | — | Bot-token (BotFather) |
+| `TELEGRAM_BOT_USERNAME` | — | Botens username (för deep-link-koppling) |
+| `POLL_INTERVAL_MS` | `3000` | Pollerns bevakningsintervall |
+| `HOT_HOURS` | `08-22` | Fönster för «heta» timmar (adaptiv frekvens) |
 | `HOMEQ_BASE_URL` | `https://api.homeq.se` | HomeQ Core API (demo: `https://api-demo.homeq.se`) |
-| `HOMEQ_PUBLIC_BASE` | `https://homeq.se` | База для ссылок на объявления HomeQ |
-| `HOMEQ_USERNAME` / `HOMEQ_PASSWORD` | — | Учётка интеграции HomeQ (`/api/v2/tokens/`) |
-| `HOMEQ_FETCH_AMOUNT` | `100` | Сколько карточек тянуть за проход |
-| `QASA_API_URL` | `https://api.qasa.com/graphql` | Qasa GraphQL (контракт не верифицирован) |
-| `QASA_PUBLIC_BASE` | `https://qasa.com` | База для ссылок на объявления Qasa |
-| `QASA_FETCH_AMOUNT` | `50` | Сколько объявлений Qasa за проход |
-| `SAMTRYGG_API_URL` | — | Эндпоинт `GetHomePageObjects` (host в спеке не задан — уточнить) |
-| `SAMTRYGG_PUBLIC_BASE` | `https://samtrygg.se` | База для ссылок на объявления Samtrygg |
-| `LOG_LEVEL` | `INFO` | Уровень логирования |
+| `HOMEQ_PUBLIC_BASE` | `https://homeq.se` | Bas för länkar till HomeQ-annonser |
+| `HOMEQ_USERNAME` / `HOMEQ_PASSWORD` | — | HomeQ-integrationskonto (`/api/v2/tokens/`) |
+| `HOMEQ_FETCH_AMOUNT` | `100` | Antal kort att hämta per pass |
+| `QASA_API_URL` | `https://api.qasa.com/graphql` | Qasa GraphQL (kontrakt ej verifierat) |
+| `QASA_PUBLIC_BASE` | `https://qasa.com` | Bas för länkar till Qasa-annonser |
+| `QASA_FETCH_AMOUNT` | `50` | Antal Qasa-annonser per pass |
+| `SAMTRYGG_API_URL` | — | Endpoint `GetHomePageObjects` (host saknas i specen — fastställ) |
+| `SAMTRYGG_PUBLIC_BASE` | `https://samtrygg.se` | Bas för länkar till Samtrygg-annonser |
+| `LOG_LEVEL` | `INFO` | Loggnivå |
 
-> Адаптеры HomeQ/Qasa/Samtrygg по умолчанию **выключены** (`enabled=False` в коде) — включение только после
-> подтверждения ToS площадки (см. [Compliance](Compliance)). Учётные данные задавать после этого.
+> Adaptrarna HomeQ/Qasa/Samtrygg är som standard **avstängda** (`enabled=False` i koden) — aktivering
+> först efter bekräftad ToS för plattformen (se [Efterlevnad](Compliance)). Ange uppgifter därefter.
 
-## Генерация секретов
+## Generera hemligheter
 ```bash
 python -c "import secrets; print(secrets.token_urlsafe(48))"
 ```
 
-## Безопасность
-- Публичный репозиторий ⇒ **ни одного реального секрета** в коде/истории. Только `.env` (в `.gitignore`)
-  и GitHub Secrets. pre-commit `detect-secrets` страхует от утечки.
-- В проде обязательно сменить `SECRET_KEY` и `JWT_SECRET` на длинные случайные значения.
+## Säkerhet
+- Publikt repo ⇒ **inga riktiga hemligheter** i kod/historik. Endast `.env` (i `.gitignore`) och
+  GitHub Secrets. pre-commit `detect-secrets` skyddar mot läckor.
+- I produktion måste `SECRET_KEY` och `JWT_SECRET` bytas till långa slumpvärden.

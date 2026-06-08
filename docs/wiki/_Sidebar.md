@@ -1,18 +1,18 @@
 ### HQRTM Wiki
 
-**Пользователи**
-- [Гость](Guest-Guide)
-- [Пользователь](User-Guide)
-- [Администратор](Admin-Guide)
+**Användare**
+- [Gäst](Guest-Guide)
+- [Användare](User-Guide)
+- [Administratör](Admin-Guide)
 
-**Разработка**
-- [Гид разработчика](Developer-Guide)
-- [Установка](Setup-and-Installation)
-- [Конфигурация](Configuration)
-- [Архитектура](Architecture)
-- [Модель данных](Data-Model)
+**Utveckling**
+- [Utvecklarguide](Developer-Guide)
+- [Installation](Setup-and-Installation)
+- [Konfiguration](Configuration)
+- [Arkitektur](Architecture)
+- [Datamodell](Data-Model)
 - [API](API-Reference)
-- [Комплаенс](Compliance)
+- [Efterlevnad](Compliance)
 - [Roadmap](Roadmap-and-Changelog)
 
 [· Home ·](Home)

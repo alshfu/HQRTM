@@ -1,29 +1,29 @@
 # HQRTM Wiki
 
-**HQRTM** — all-in-one агрегатор мониторинга аренды жилья на нескольких шведских площадках
-(HomeQ, Qasa, Blocket Bostad, Bostad Direkt, Samtrygg). Выделяет объявления
-**«Först till kvarn» (FCFS)** и доставляет уведомление со ссылкой в Telegram за ≤ 1.5 с.
+**HQRTM** — en all-in-one-aggregator för bevakning av hyresbostäder på flera svenska plattformar
+(HomeQ, Qasa, Blocket Bostad, Bostad Direkt, Samtrygg). Lyfter fram
+**«Först till kvarn» (FCFS)**-annonser och levererar en avisering med länk i Telegram på ≤ 1,5 s.
 
-> Эти страницы версионируются в репозитории в `docs/wiki/` и зеркалируются в GitHub Wiki.
+> Dessa sidor versionshanteras i repot under `docs/wiki/` och speglas till GitHub Wiki.
 
-## Навигация
+## Navigering
 
-**Для пользователей**
-- [Гид гостя](Guest-Guide) — что доступно без регистрации, demo
-- [Гид пользователя](User-Guide) — регистрация, фильтры, Telegram, лента, GDPR
-- [Гид администратора](Admin-Guide) — роли, управление, наблюдение
+**För användare**
+- [Guide för gäst](Guest-Guide) — vad som är tillgängligt utan registrering, demo
+- [Guide för användare](User-Guide) — registrering, filter, Telegram, flöde, GDPR
+- [Guide för administratör](Admin-Guide) — roller, hantering, övervakning
 
-**Для разработчиков**
-- [Гид разработчика](Developer-Guide) — окружение, процесс, тесты, стиль
-- [Установка и запуск](Setup-and-Installation)
-- [Конфигурация](Configuration) — переменные окружения
-- [Архитектура](Architecture)
-- [Модель данных](Data-Model)
-- [Справочник API](API-Reference)
-- [Комплаенс](Compliance) — ToS площадок, GDPR
-- [Roadmap и Changelog](Roadmap-and-Changelog)
+**För utvecklare**
+- [Utvecklarguide](Developer-Guide) — miljö, process, tester, stil
+- [Installation och körning](Setup-and-Installation)
+- [Konfiguration](Configuration) — miljövariabler
+- [Arkitektur](Architecture)
+- [Datamodell](Data-Model)
+- [API-referens](API-Reference)
+- [Efterlevnad](Compliance) — plattformarnas ToS, GDPR
+- [Roadmap och Changelog](Roadmap-and-Changelog)
 
-## Ссылки
-- Репозиторий: https://github.com/alshfu/HQRTM
-- UI-demo (мок-данные): https://alshfu.github.io/HQRTM/
-- Swagger UI (при запущенном web): `/apidocs`
+## Länkar
+- Repo: https://github.com/alshfu/HQRTM
+- UI-demo (urval från den riktiga parsern): https://alshfu.github.io/HQRTM/
+- Swagger UI (när web körs): `/apidocs`
