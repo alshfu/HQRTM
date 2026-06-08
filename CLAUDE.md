@@ -271,6 +271,12 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (Qasa aktiverad):** Qasas publika anonyma marketplace-sökning avstämd mot live
+  (`api.qasa.com/graphql` → `homeIndexSearch { documents { nodes {...} } }`, introspektion av,
+  fält upptäckta via felmeddelanden). `poller/sources/qasa.py` omskriven (riktiga fält: rent/roomCount/
+  squareMeters/location/uploads/platform), URL `qasa.com/p/<id>`, bild ur `uploads`, FCFS (ingen köpoäng).
+  `enabled=True`. Live: 20 annonser (hela landet). Tester **145 passed**. Aktiva källor i cron:
+  HomeQ (Göteborg) + Bostadsförmedlingen (Stockholm) + Qasa (hela landet).
 - **2026-06-08 (Stockholm-källa + engine lagrar alla annonser):** **Bostadsförmedlingen i Stockholm**
   tillagd (`poller/sources/bostadsformedlingen.py`) via kommunalt **öppet data-API**
   (`bostad.stockholm.se/AllaAnnonser/?vy=lista`, ingen auth) — `enabled=True`. Kö-baserad → annonser

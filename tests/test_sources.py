@@ -13,9 +13,9 @@ def test_sources_registered():
 
 
 def test_enabled_adapters_reflect_legitimacy():
-    # Endast källor med legitim åtkomst är aktiverade. Bostadsförmedlingen (kommunalt öppet data)
-    # är på; HomeQ/Qasa/Samtrygg är av tills ToS/nyckel bekräftats (COMPLIANCE.md).
+    # Endast källor med legitim (publik) åtkomst är aktiverade: Bostadsförmedlingen (kommunalt
+    # öppet data) och Qasa (publik marketplace-sökning). Samtrygg är av (host ej bekräftad).
     enabled = {a.source for a in enabled_adapters()}
     assert Source.BOSTADSFORMEDLINGEN in enabled
-    assert Source.QASA not in enabled
+    assert Source.QASA in enabled
     assert Source.SAMTRYGG not in enabled

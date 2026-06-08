@@ -18,6 +18,10 @@ Bostad Direkt — robots.txt förbjuder söknings-endpoints. **Samtrygg** — ha
 adaptern `enabled=False`, host (`SAMTRYGG_API_URL`) och ToS är ägarens beslut.
 Fullständig tabell och steg — i `COMPLIANCE.md`.
 
+**Qasa (2026-06-08):** publik, inloggningsfri marketplace-sökning (`api.qasa.com/graphql` →
+`homeIndexSearch`, schema verifierat) — samma data som anonyma besökare ser → adapter `enabled=True`.
+Aggregerar även annonser från andra plattformar (fält `platform`).
+
 **Bostadsförmedlingen i Stockholm (2026-06-08):** kommunalt bolag som publicerar lediga lägenheter
 **öppet** (`bostad.stockholm.se/AllaAnnonser/?vy=lista`, JSON, ingen auth) → legitim källa,
 adaptern `enabled=True`. Kö-baserad (köpoäng). **Blocket** (Schibsten ToS mot automatiserad

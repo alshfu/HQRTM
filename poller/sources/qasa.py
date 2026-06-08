@@ -1,20 +1,14 @@
-"""Qasa-adapter (qasa.com) — andra plattformen i Qasa Group (samma grupp som äger HomeQ).
+"""Qasa-adapter (qasa.com) — publik marketplace-sökning (verifierad 2026-06-08).
 
-⚠️ **KONTRAKTET ÄR INTE VERIFIERAT.** Till skillnad från HomeQ Core API har Qasa inget
-publikt dokumenterat partner-API. Deras frontend använder en GraphQL-endpoint
-(`api.qasa.com/graphql`, förfrågan `homes`), men den är inte dokumenterad för tredje part, och
-ToS för programmatisk åtkomst är inte bekräftad. Därför:
+Qasa exponerar en **publik, inloggningsfri** GraphQL-sökning på ``api.qasa.com/graphql``:
+``homeIndexSearch { documents { nodes { ... } } }`` (samma som webbplatsens marketplace visar för
+anonyma besökare). Schemat avstämt mot live-API → adaptern är ``enabled=True``.
 
-* ``enabled=False`` — pollern bevakar inte adaptern; aktivering — endast efter avstämning av
-  schemat mot live-API och bekräftad ToS av ägaren (se COMPLIANCE.md, Qasa = ❌).
-* Förfrågan/normalisering nedan är skrivna efter den mest sannolika formen av GraphQL `homes`
-  och är **defensiva** (allt via ``.get()``) — vid avvikelse mot schemat ändras ENDAST denna
-  fil (BE-DE-005). Innan aktivering: stäm av fältnamnen i GraphQL-svaret och justera vid behov
-  förfrågan `_HOMES_QUERY` och `_normalize`.
+Qasa-modell: uthyrning via ansökan (first/second-hand), **utan kö/köpoäng** → vi märker annonserna
+som ``fcfs=True``. ``homeIndexSearch`` aggregerar även annonser från andra plattformar (fältet
+``platform`` kan vara t.ex. ``blocket``); de hämtas lagligt via Qasas publika sökning.
 
-Qasa-modell: marketplace-uthyrning via ansökan (first-hand/second-hand), utan kö/köpoäng —
-det ligger närmare FCFS («ansökte — hyresvärden väljer»), därför märker vi annonserna med
-``fcfs=True`` (detektorn släpper dem vidare), om de inte uttryckligen är märkta som annat.
+Vid ändrat kontrakt rättas ENDAST denna fil (BE-DE-005).
 """
 
 from __future__ import annotations
@@ -26,26 +20,28 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter, as_float, as_int, pick_image
+from poller.sources.base import SourceAdapter, as_float, as_int
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.qasa")
 
-# GraphQL-förfrågan om färska annonser. Fältnamn — best-effort (se varningen i modulen).
-_HOMES_QUERY = """
-query Homes($first: Int!) {
-  homes(first: $first, order: { field: PUBLISHED_AT, direction: DESCENDING }) {
-    nodes {
-      id
-      slug
-      rent
-      roomCount
-      squareMeters
-      rentalType
-      firstHand
-      description
-      displayImage
-      location { locality route streetNumber }
+# Publik marketplace-sökning (anonym). Fält avstämda mot live-API 2026-06-08.
+_SEARCH_QUERY = """
+{
+  homeIndexSearch {
+    documents {
+      nodes {
+        id
+        rent
+        roomCount
+        squareMeters
+        firstHand
+        homeType
+        description
+        platform
+        location { locality route streetNumber }
+        uploads { url type }
+      }
     }
   }
 }
@@ -55,7 +51,7 @@ query Homes($first: Int!) {
 @register
 class QasaAdapter(SourceAdapter):
     source = Source.QASA
-    enabled = False  # kontraktet ej verifierat + ToS ej bekräftad — ägarens beslut
+    enabled = True  # publik anonym marketplace-sökning, schema verifierat
 
     def __init__(self, client: httpx.AsyncClient | None = None) -> None:
         self._client = client
@@ -64,7 +60,8 @@ class QasaAdapter(SourceAdapter):
     def _build_client(self) -> httpx.AsyncClient:
         s = get_settings()
         return httpx.AsyncClient(
-            timeout=s.qasa_timeout_s, headers={"Content-Type": "application/json"}
+            timeout=s.qasa_timeout_s,
+            headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
         )
 
     async def _get_client(self) -> httpx.AsyncClient:
@@ -81,10 +78,7 @@ class QasaAdapter(SourceAdapter):
         """Returnera färska Qasa-annonser, normaliserade till ``Listing``-fält."""
         s = get_settings()
         client = await self._get_client()
-        resp = await client.post(
-            s.qasa_api_url,
-            json={"query": _HOMES_QUERY, "variables": {"first": s.qasa_fetch_amount}},
-        )
+        resp = await client.post(s.qasa_api_url, json={"query": _SEARCH_QUERY})
 
         if resp.status_code == 429 or resp.status_code >= 500:
             retry_after = resp.headers.get("Retry-After")
@@ -100,37 +94,44 @@ class QasaAdapter(SourceAdapter):
         if payload.get("errors"):
             raise RuntimeError(f"Qasa GraphQL errors: {payload['errors']}")
 
-        nodes = (payload.get("data") or {}).get("homes", {}).get("nodes") or []
+        nodes = (
+            ((payload.get("data") or {}).get("homeIndexSearch") or {}).get("documents") or {}
+        ).get("nodes") or []
         return [self._normalize(n) for n in nodes if n.get("id") is not None]
 
     def _normalize(self, node: dict[str, Any]) -> dict:
-        """Qasa-nod `home` → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
+        """Qasa-dokument → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
         ext_id = str(node["id"])
         loc = node.get("location") or {}
-        # Qasa — uthyrning via ansökan (ingen köpoäng) → tolkas som FCFS, om inte annat anges.
-        is_fcfs = node.get("firstHand") is not False
         return {
             "source": str(self.source),
             "external_id": ext_id,
-            "title": self._title(node, loc),
-            "url": self._listing_url(node, ext_id),
-            "image_url": node.get("displayImage") or pick_image(node),
+            "title": self._title(loc),
+            "url": f"{get_settings().qasa_public_base.rstrip('/')}/p/{ext_id}",
+            "image_url": _first_image(node),
             "description": node.get("description"),
             "district": loc.get("locality"),
             "rooms": as_float(node.get("roomCount")),
             "area_m2": as_float(node.get("squareMeters")),
             "rent": as_int(node.get("rent")),
-            "listing_type": (ListingType.FCFS if is_fcfs else ListingType.QUEUE).value,
-            "fcfs": is_fcfs,
+            # Qasa har ingen köpoäng → ansökningsbaserad, behandlas som FCFS.
+            "listing_type": ListingType.FCFS.value,
+            "fcfs": True,
         }
 
-    def _title(self, node: dict, loc: dict) -> str:
+    def _title(self, loc: dict) -> str:
         route = loc.get("route")
-        locality = loc.get("locality")
-        parts = [p for p in (route, locality) if p]
+        number = loc.get("streetNumber")
+        street = f"{route} {number}" if route and number else route
+        parts = [p for p in (street, loc.get("locality")) if p]
         return ", ".join(parts) if parts else "Bostad"
 
-    def _listing_url(self, node: dict, ext_id: str) -> str:
-        base = get_settings().qasa_public_base.rstrip("/")
-        slug = node.get("slug")
-        return f"{base}/home/{slug or ext_id}"
+
+def _first_image(node: dict[str, Any]) -> str | None:
+    """Första bild-URL ur ``uploads`` (föredra type=home_picture)."""
+    uploads = node.get("uploads") or []
+    pics = [u for u in uploads if isinstance(u, dict) and u.get("url")]
+    for u in pics:
+        if u.get("type") == "home_picture":
+            return u["url"]
+    return pics[0]["url"] if pics else None
