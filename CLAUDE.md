@@ -271,6 +271,19 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+
+> **▶ FORTSÄTT HÄR (handoff 2026-06-08).** Betan är **LIVE**: web https://hqrtm.onrender.com
+> (Render free, sover efter ~15 min), testkonto `petros`/`petrosBest`. **Atlas** kluster
+> `cluster0.hm5obgl` (projekt «Mer info hunter», `60b56cac2612f0624616d4dd`), db-user `hqrtm`,
+> nät 0.0.0.0/0. `MONGO_URI` i lokal `.env` (gitignored); GitHub-secret `PROD_MONGO_URI` satt;
+> Render env `MONGO_URI` satt manuellt. CLI: `atlas` inloggad, `render` EJ inloggad. **Cron
+> `poll-homeq.yml`** (var 6 min) bevakar 3 källor → prod: HomeQ (Göteborg), Bostadsförmedlingen
+> (Stockholm), Qasa (SE). `render.yaml` = endast free web (bot-worker bortkommenterad); `buildFilter`
+> tillagd men EJ re-synkad i Render. Webbtillägg i `extension/` (byggt, ej publicerat).
+> **Nästa:** (1) re-synka Blueprint för buildFilter; (2) Telegram-bot (token + alltid-på/betald
+> worker); (3) Redis rate-limit + httpOnly JWT-cookie; (4) Qasa per stad + tilläggs-ikoner;
+> (5) riktig juridisk enhet i Privacy/Terms. **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
+
 - **2026-06-08 (webbläsartillägg «Snabbansök»):** Legitim klient i `extension/` (Manifest V3): körs i
   användarens egen webbläsare, sparar JWT + ansökningsprofil **lokalt** (`chrome.storage.local`), listar
   matchningar (`/api/listings?matched`), öppnar annonser, badge med antal, och en hjälppanel på
