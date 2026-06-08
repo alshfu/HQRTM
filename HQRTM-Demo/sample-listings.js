@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Valands promenad 2E",
+    "url": "https://homeq.se/lagenhet/262010-1rum-kungsbacka-hallands-län-valands-promenad-2e",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/49e2224dab9640338de4174bf78b03a6.jpeg",
+    "description": "1 rum · 30 m² · i Kungsbacka, inflytt 2026-07-01",
+    "district": "Kungsbacka",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 8050,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Karlagatan 11B",
     "url": "https://homeq.se/lagenhet/261923-3rum-göteborg-västra-götalands-län-karlagatan-11b",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/17016fd89d454efe9f52805b3662dd0c.jpeg",
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 62.0,
     "rent": 10800,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Kallebäcksvägen 19a",
-    "url": "https://homeq.se/lagenhet/261620-4rum-göteborg-västra-götalands-län-kallebäcksvägen-19a",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/a60ad2b5a2bf41988efd8100e0005bf7.jpeg",
-    "description": "4 rum · 94 m² · i Göteborg, inflytt 2026-08-01",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 94.0,
-    "rent": 13575,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T11:19:23+00:00", "clock": "11:19:23"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T11:27:16+00:00", "clock": "11:27:16"};
