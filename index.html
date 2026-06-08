@@ -296,6 +296,8 @@
       function nf(n) { return (n == null) ? null : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " "); }
 
       function esc(s) { var d = document.createElement("div"); d.textContent = String(s == null ? "" : s); return d.innerHTML; }
+      // Lätt miniatyr av den riktiga bilden via resize-proxy (snabb laddning); fallback till källan.
+      function thumb(u) { return "https://images.weserv.nl/?url=" + encodeURIComponent(u.replace(/^https?:\/\//, "")) + "&w=640&h=420&fit=cover&output=jpg&q=72"; }
 
       root.innerHTML = "";
       data.forEach(function (it) {
@@ -311,7 +313,7 @@
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.innerHTML =
-          (it.image_url ? '<img class="img" loading="lazy" alt="" src="' + esc(it.image_url) + '">' : '') +
+          (it.image_url ? '<img class="img" loading="lazy" alt="" src="' + esc(thumb(it.image_url)) + '" onerror="this.onerror=null;this.src=&quot;' + esc(it.image_url) + '&quot;">' : '') +
           '<div class="body">' +
             '<div class="top"><span class="src">' + esc(src) + '</span><span class="fcfs">Först till kvarn</span></div>' +
             '<h3>' + esc(it.title || "Bostad") + '</h3>' +
