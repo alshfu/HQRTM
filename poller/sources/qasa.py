@@ -39,6 +39,7 @@ _SEARCH_QUERY = """
         homeType
         description
         platform
+        currency
         location { locality route streetNumber }
         uploads { url type }
       }
@@ -97,7 +98,13 @@ class QasaAdapter(SourceAdapter):
         nodes = (
             ((payload.get("data") or {}).get("homeIndexSearch") or {}).get("documents") or {}
         ).get("nodes") or []
-        return [self._normalize(n) for n in nodes if n.get("id") is not None]
+        # Begränsa till valt land via valuta (SEK = Sverige); Qasa täcker även FI/NO.
+        currency = s.qasa_currency
+        return [
+            self._normalize(n)
+            for n in nodes
+            if n.get("id") is not None and (not currency or n.get("currency") == currency)
+        ]
 
     def _normalize(self, node: dict[str, Any]) -> dict:
         """Qasa-dokument → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""

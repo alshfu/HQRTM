@@ -51,6 +51,7 @@ class Settings(BaseSettings):
     qasa_public_base: str = "https://qasa.com"
     qasa_fetch_amount: int = 50
     qasa_timeout_s: float = 10.0
+    qasa_currency: str = "SEK"  # behåll endast svenska annonser (SEK); Qasa täcker även FI/NO
 
     # Samtrygg (samtrygg.se) — uthyrning via ansökan (utan kö). ⚠️ Bas-URL/host anges inte i den
     # publika SwaggerHub-specen, ToS för programmatisk läsning ej bekräftad → adapter enabled=False

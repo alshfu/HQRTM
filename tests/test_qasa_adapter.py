@@ -20,6 +20,7 @@ NODE = {
     "homeType": "apartment",
     "description": "Trevlig lägenhet.",
     "platform": "qasa",
+    "currency": "SEK",
     "location": {"locality": "Stockholm", "route": "Götgatan", "streetNumber": "5"},
     "uploads": [
         {"url": "https://img/floorplan.jpg", "type": "floor_plan"},
@@ -66,6 +67,14 @@ async def test_nodes_without_id_skipped():
     adapter = _adapter(_ok([{"rent": 5}, NODE]))
     listings = await adapter.fetch_listings()
     assert [item["external_id"] for item in listings] == ["home-777"]
+    await adapter.aclose()
+
+
+async def test_non_sek_filtered_out():
+    fi = {**NODE, "id": "home-fi", "currency": "EUR", "location": {"locality": "Helsinki"}}
+    adapter = _adapter(_ok([fi, NODE]))
+    listings = await adapter.fetch_listings()
+    assert [item["external_id"] for item in listings] == ["home-777"]  # endast SEK
     await adapter.aclose()
 
 
