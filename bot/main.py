@@ -20,6 +20,8 @@ _DELIVER_INTERVAL_S = 2.0
 
 async def _deliver_loop(bot, db) -> None:
     """Pollar köade aviseringar och skickar dem till Telegram (Fas 3, BE-NT-001..003)."""
+    from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+
     from bot.service import (
         latency_ms_for,
         mark_delivered,
@@ -31,10 +33,20 @@ async def _deliver_loop(bot, db) -> None:
     while True:
         for item in pending_notifications(db):
             try:
+                listing = item["listing"]
+                markup = None
+                url = listing.get("url")
+                if url:  # ett-tryck-ansökan: knapp direkt till källans annons-/ansökningssida
+                    label = "🏠 Ansök nu" if item["locale"] != "en" else "🏠 Apply now"
+                    markup = InlineKeyboardMarkup(
+                        inline_keyboard=[[InlineKeyboardButton(text=label, url=url)]]
+                    )
                 await bot.send_message(
-                    item["chat_id"], render_message(item["listing"], item["locale"])
+                    item["chat_id"],
+                    render_message(listing, item["locale"]),
+                    reply_markup=markup,
                 )
-                mark_delivered(db, item["notif_id"], latency_ms_for(item["listing"]))
+                mark_delivered(db, item["notif_id"], latency_ms_for(listing))
             except Exception as exc:  # noqa: BLE001 — en miss ska inte fälla loopen
                 log.warning("Leverans misslyckades: %s", exc)
                 mark_failed(db, item["notif_id"], exc)

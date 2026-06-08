@@ -119,5 +119,5 @@ def render_message(listing: dict, locale: str = "sv") -> str:
     if specs:
         lines.append(" · ".join(specs))
     if listing.get("url"):
-        lines.append(listing["url"])
+        lines.append(("👉 Ansök: " if sv else "👉 Apply: ") + listing["url"])
     return "\n".join(lines)
