@@ -1,7 +1,6 @@
-# Render Blueprint — beta (web-only). Importera i Render: New → Blueprint → välj repo.
-# Pollern körs separat som schemalagd cron (se .github/workflows/poll-homeq.yml) eller
-# som en Render Cron Job / Background Worker (betald plan) med kommandot:
-#   python -m poller.main --once
+# Render Blueprint — beta. Importera i Render: New → Blueprint → välj repo.
+# Pollern körs som schemalagd cron (se .github/workflows/poll-homeq.yml) eller som en
+# Render Cron Job / Background Worker (betald plan): python -m poller.main --once
 services:
   - type: web
     name: hqrtm-web
@@ -27,3 +26,24 @@ services:
         value: "2"
       - key: WEB_THREADS
         value: "8"
+      - key: TELEGRAM_BOT_USERNAME  # för deep-link i /api/telegram/link
+        sync: false
+
+  # Telegram-bot (long-polling). ⚠️ Background Worker kräver betald Render-plan (ingen free worker).
+  - type: worker
+    name: hqrtm-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerCommand: python -m bot.main
+    plan: starter
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB
+        value: hqrtm
+      - key: TELEGRAM_BOT_TOKEN     # från @BotFather
+        sync: false
+      - key: TELEGRAM_BOT_USERNAME
+        sync: false
+      - key: LOG_JSON
+        value: "true"
