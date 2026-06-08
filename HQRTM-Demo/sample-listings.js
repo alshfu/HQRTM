@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Skäpplandsgatan 21",
+    "url": "https://homeq.se/lagenhet/262116-2rum-göteborg-västra-götalands-län-skäpplandsgatan-21",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/354c744f20e24d47bde27e7673cab8f2.jpeg",
+    "description": "2 rum · 56 m² · i Göteborg, inflytt 2026-08-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 9632,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Fridkullagatan 24 A",
     "url": "https://homeq.se/lagenhet/262067-2rum-göteborg-västra-götalands-län-fridkullagatan-24-a",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/f642bfdcbebe47a49edd934e4ffaf4ea.jpeg",
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 42.0,
     "rent": 8587,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Kryddvägen 54",
-    "url": "https://homeq.se/lagenhet/261694-4rum-angered-västra-götalands-län-kryddvägen-54",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/b766a00200f444ebac2b76c1d1ff5901.jpeg",
-    "description": "4 rum · 91.15 m² · i Göteborg, inflytt 2026-09-01",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 91.15,
-    "rent": 16158,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T14:25:55+00:00", "clock": "14:25:55"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T15:49:22+00:00", "clock": "15:49:22"};
