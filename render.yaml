@@ -9,6 +9,14 @@ services:
     plan: free
     healthCheckPath: /health
     autoDeploy: true
+    # Bygg om endast vid kodändringar — INTE vid cron-pushar av vitrinens sample-listings.js.
+    buildFilter:
+      paths:
+        - "web/**"
+        - "shared/**"
+        - "Dockerfile"
+        - "pyproject.toml"
+        - "render.yaml"
     envVars:
       - key: MONGO_URI            # MongoDB Atlas (M0 free = replica set, krävs för Change Streams)
         sync: false               # sätts manuellt i Render-dashboarden (hemlighet)
