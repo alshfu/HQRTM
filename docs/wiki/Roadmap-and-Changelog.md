@@ -50,6 +50,9 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   riktiga Göteborg-annonser och pushar → Pages bygger om. **Hela modulära demot** (flöde + adminpanel)
   drivs nu av riktig data (`window.HQRTM_SAMPLE`/`HQRTM_META`): riktiga bilder, källänk i modalen,
   admin visar region/antal/senaste hämtning. Device-snapshots är frysta referenser.
+- **2026-06-08** — **Webbläsartillägg «Snabbansök»** (`extension/`, MV3): klient i användarens egen
+  webbläsare — lokal profil/JWT, lista matchningar, öppna annonser, autofyll av presentation på
+  annonssidor. Inga plattformslösenord, ingen autoinskickning (användaren skickar själv).
 - **2026-06-08** — **Qasa aktiverad**: schemat avstämt mot live (`homeIndexSearch`, publik anonym
   sökning) → adaptern omskriven + `enabled=True`. Ger Qasa-marketplace (hela landet, ansökningsbaserad
   → FCFS), aggregerar även andra plattformar. 145 passed.

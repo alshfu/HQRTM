@@ -271,6 +271,13 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (webbläsartillägg «Snabbansök»):** Legitim klient i `extension/` (Manifest V3): körs i
+  användarens egen webbläsare, sparar JWT + ansökningsprofil **lokalt** (`chrome.storage.local`), listar
+  matchningar (`/api/listings?matched`), öppnar annonser, badge med antal, och en hjälppanel på
+  annonssidor (homeq.se/qasa.com/bostad.stockholm.se) som kopierar profil + fyller presentationen i
+  formuläret. **Inga plattformslösenord lagras; ingen automatisk inskickning** — användaren granskar och
+  skickar själv (linje från Beslutslogg: autoclicker byggs inte). `popup/content/background.js` + README.
+  JS/JSON validerade, allt på svenska.
 - **2026-06-08 (Qasa aktiverad):** Qasas publika anonyma marketplace-sökning avstämd mot live
   (`api.qasa.com/graphql` → `homeIndexSearch { documents { nodes {...} } }`, introspektion av,
   fält upptäckta via felmeddelanden). `poller/sources/qasa.py` omskriven (riktiga fält: rent/roomCount/
