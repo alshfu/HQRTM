@@ -271,6 +271,15 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (auto-uppdatering + riktig data i hela demot):** GitHub Actions
+  `.github/workflows/refresh-vitrine.yml` kör `gen_sample_listings.py` **var 6:e minut** (0,1 h) →
+  hämtar riktiga Göteborg-annonser (HomeQ publik Card Search) → pushar `sample-listings.js` → Pages
+  bygger om. Generatorn skriver även `window.HQRTM_META` (antal/region/tid). **Hela det modulära demot
+  (`HQRTM-Demo/index.html`) drivs nu av riktig data:** index.html laddar `sample-listings.js`; `data.jsx`
+  mappar `HQRTM_SAMPLE` → flödet (riktiga bilder via resize-proxy + länk till källan i modalen);
+  **adminpanelen** (`screens-admin.jsx`) visar riktig region/antal objekt/senaste hämtning + en riktig
+  händelse i loggen. `ListingCard`/`Photo` renderar riktig bild. ⚠️ Device-snapshots (Desktop/Tablet/
+  Mobile.html) är **frysta** designreferenser — de uppdateras inte. 131 passed, ruff/black gröna.
 - **2026-06-08 (bild/beskrivning + Fas 8 påbörjad):** Annonser berikade med `image_url` och
   `description` (modell + alla adaptrar + `pick_image`); skyltfönstrets urval visar bild, beskrivning
   och länk till förstakällan. **Fas 8 påbörjad:** `shared/logging.py` (strukturerade loggar +

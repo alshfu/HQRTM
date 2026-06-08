@@ -48,9 +48,9 @@ function ListingModal({ l, lang, onClose, onToast }) {
            footer={<>
              <div className="grow" />
              <Btn variant="quiet" onClick={onClose}>{L.cancel}</Btn>
-             <Btn variant="primary" iconRight="external" onClick={() => { onToast(lang === "sv" ? "Öppnar på HomeQ…" : "Opening on HomeQ…"); onClose(); }}>{L.view_to}</Btn>
+             <Btn variant="primary" iconRight="external" onClick={() => { onToast(lang === "sv" ? "Öppnar på HomeQ…" : "Opening on HomeQ…"); if (l.url) window.open(l.url, "_blank", "noopener"); onClose(); }}>{L.view_to}</Btn>
            </>}>
-      <div style={{ height: 170, borderRadius: "var(--r-sm)", overflow: "hidden" }}><Photo label="FOTO · HomeQ" /></div>
+      <div style={{ height: 170, borderRadius: "var(--r-sm)", overflow: "hidden" }}><Photo label="FOTO · HomeQ" src={l.image} /></div>
       <div className="row gap6 wrap">
         {l.fcfs ? <Badge kind="fcfs" icon="zap">{L.fcfs}</Badge> : <Badge icon="layers">{l.queueDays} {lang === "sv" ? "dagar kö" : "days queue"}</Badge>}
         <Badge icon="pin">{l.area}</Badge>

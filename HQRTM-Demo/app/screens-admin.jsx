@@ -11,6 +11,20 @@ function AdminScreen({ lang }) {
     ? <Badge kind="fcfs">Pro</Badge>
     : <Badge>Free</Badge>;
 
+  // Riktig data från HomeQ (window.HQRTM_META) — region, antal objekt, senaste hämtning.
+  const M = (typeof realMeta === "function" && realMeta()) || null;
+  const metrics = [
+    [L.src_latency, "0.82", "s"],
+    [L.src_lastpoll, M ? M.clock : "2", M ? "" : "s"],
+    [M ? "Objekt" : L.src_uptime, M ? String(M.count) : "99.94", M ? "" : "%"],
+    [L.src_region, M ? M.region : "eu-north-1", ""],
+  ];
+  const events = M
+    ? [{ t: M.clock, lvl: "info", msg: {
+        sv: `Hämtade ${M.count} annonser · HomeQ (${M.region})`,
+        en: `Fetched ${M.count} listings · HomeQ (${M.region})` } }, ...SAMPLE_EVENTS]
+    : SAMPLE_EVENTS;
+
   return (
     <div className="page">
       <div className="page-head"><h2>{L.admin_title}</h2><p>{L.admin_sub}</p></div>
@@ -26,7 +40,7 @@ function AdminScreen({ lang }) {
             </div>
           </div>
           <div className="divider only-desktop" style={{ width: 1, height: 40, background: "var(--border)" }} />
-          {[[L.src_latency, "0.82", "s"], [L.src_lastpoll, "2", "s"], [L.src_uptime, "99.94", "%"], [L.src_region, "eu-north-1", ""]].map((m, i) => (
+          {metrics.map((m, i) => (
             <div key={i} style={{ whiteSpace: "nowrap", flexShrink: 0 }}>
               <div className="muted" style={{ fontSize: 11.5, fontWeight: 600 }}>{m[0]}</div>
               <div className="num" style={{ fontSize: 18, fontWeight: 700, marginTop: 2 }}>{m[1]}<small style={{ fontSize: 12, color: "var(--text-3)" }}> {m[2]}</small></div>
@@ -80,8 +94,8 @@ function AdminScreen({ lang }) {
       <div className="section-title"><Icon name="terminal" style={{ width: 14, height: 14 }} />{L.log_title}</div>
       <div className="panel">
         <div className="panel-body" style={{ padding: 6 }}>
-          {SAMPLE_EVENTS.map((e, i) => (
-            <div key={i} className="row gap10" style={{ padding: "9px 12px", borderBottom: i < SAMPLE_EVENTS.length - 1 ? "1px solid var(--line)" : 0 }}>
+          {events.map((e, i) => (
+            <div key={i} className="row gap10" style={{ padding: "9px 12px", borderBottom: i < events.length - 1 ? "1px solid var(--line)" : 0 }}>
               <span className="mono" style={{ fontSize: 12, color: "var(--text-3)", minWidth: 64 }}>{e.t}</span>
               <span className="badge" style={{ color: lvl[e.lvl].c, borderColor: "color-mix(in oklab, " + lvl[e.lvl].c + " 30%, transparent)" }}>
                 <span style={{ width: 6, height: 6, borderRadius: "50%", background: lvl[e.lvl].c, display: "inline-block" }} />

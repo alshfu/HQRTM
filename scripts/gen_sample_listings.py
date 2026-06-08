@@ -16,6 +16,8 @@ from __future__ import annotations
 
 import asyncio
 import json
+from collections import Counter
+from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
@@ -59,12 +61,24 @@ async def collect() -> list[dict]:
 
 def main() -> None:
     listings = asyncio.run(collect())
+    now = datetime.now(UTC)
+    meta = {
+        "count": len(listings),
+        "region": "Göteborg",
+        "sources": dict(Counter(item.get("source") for item in listings)),
+        "generatedAt": now.isoformat(timespec="seconds"),
+        "clock": now.strftime("%H:%M:%S"),
+    }
     payload = json.dumps(listings, ensure_ascii=False, indent=2)
     banner = (
         "// AUTO-GENERERAD av scripts/gen_sample_listings.py — REDIGERA INTE för hand.\n"
         "// Riktiga annonser från HomeQ:s publika Card Search (Göteborg). Ingen fiktion.\n"
     )
-    OUT.write_text(f"{banner}window.HQRTM_SAMPLE = {payload};\n", encoding="utf-8")
+    body = (
+        f"{banner}window.HQRTM_SAMPLE = {payload};\n"
+        f"window.HQRTM_META = {json.dumps(meta, ensure_ascii=False)};\n"
+    )
+    OUT.write_text(body, encoding="utf-8")
     print(f"Skrev {len(listings)} annonser → {OUT}")
 
 

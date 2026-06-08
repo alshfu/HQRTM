@@ -50,7 +50,15 @@ function Badge({ kind, icon, children }) {
   return <span className={`badge${kind ? " badge-" + kind : ""}`}>{icon && <Icon name={icon} />}{children}</span>;
 }
 
-function Photo({ label = "FOTO", className = "" }) {
+function Photo({ label = "FOTO", className = "", src = null }) {
+  if (src) {
+    return (
+      <div className={`ph ${className}`} style={{ padding: 0, overflow: "hidden" }}>
+        <img src={src} alt="" loading="lazy"
+          style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+      </div>
+    );
+  }
   return <div className={`ph ${className}`}><span>{label}</span></div>;
 }
 
@@ -98,7 +106,7 @@ function ListingCard({ l, lang, now, fresh, glow, onOpen }) {
   const closingSoon = fresh && l.fcfs;
   return (
     <div className={`lc${fresh ? " fresh" : ""}${glow ? " glow" : ""}`} role="article">
-      <div className="lc-photo only-desktop"><Photo label="FOTO" /></div>
+      <div className="lc-photo only-desktop"><Photo label="FOTO" src={l.image} /></div>
       <div className="lc-main">
         <div className="lc-top">
           <span className="lc-title">{l.street} {l.streetNo}</span>
@@ -110,7 +118,7 @@ function ListingCard({ l, lang, now, fresh, glow, onOpen }) {
         <div className="lc-specs">
           <div className="lc-spec"><span className="sl">{L.room}</span><span className="sv num">{l.rooms}<small> {L.room}</small></span></div>
           <div className="lc-spec"><span className="sl">{L.sqm}</span><span className="sv num">{l.sqm}<small> {L.sqm}</small></span></div>
-          <div className="lc-spec"><span className="sl">{L.floor}</span><span className="sv num">{l.floor}<small> {L.floor}</small></span></div>
+          {l.floor != null && <div className="lc-spec"><span className="sl">{L.floor}</span><span className="sv num">{l.floor}<small> {L.floor}</small></span></div>}
         </div>
       </div>
       <div className="lc-side">

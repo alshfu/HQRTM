@@ -32,7 +32,32 @@ let __seq = 1000;
 function rnd(a, b) { return Math.floor(Math.random() * (b - a + 1)) + a; }
 function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
+/* ---- riktig data från HomeQ:s publika sökning (window.HQRTM_SAMPLE) ---- */
+function thumb(u) {
+  return u ? "https://images.weserv.nl/?url=" + encodeURIComponent(u.replace(/^https?:\/\//, "")) + "&w=480&h=360&fit=cover&output=jpg&q=72" : null;
+}
+const REAL = (window.HQRTM_SAMPLE || []).map(function (it) {
+  return {
+    street: it.title || "Bostad", streetNo: "",
+    area: it.district || "Göteborg", city: it.district || "Göteborg",
+    rooms: it.rooms, sqm: it.area_m2 != null ? Math.round(it.area_m2) : null,
+    rent: it.rent, fcfs: it.listing_type === "fcfs", floor: null, host: "HomeQ",
+    queueDays: 0, available: "", image: thumb(it.image_url), url: it.url,
+    description: it.description || "",
+  };
+});
+function realMeta() { return window.HQRTM_META || null; }
+
 function generateListing(opts = {}) {
+  if (REAL.length) {
+    const base = REAL[__seq % REAL.length];
+    return Object.assign({}, base, {
+      id: "L" + (++__seq),
+      createdAt: opts.createdAt ?? Date.now(),
+      filterId: opts.filterId ?? null,
+      fcfs: opts.fcfs ?? base.fcfs,
+    });
+  }
   const loc = pick(AREAS);
   const rooms = opts.rooms ?? pick([1, 1, 2, 2, 2, 3, 3, 4]);
   const sqm = opts.sqm ?? rooms * rnd(18, 26) + rnd(-4, 8);
@@ -310,5 +335,5 @@ const STRINGS = {
 Object.assign(window, {
   AREAS, STREETS, generateListing, seedListings, SAMPLE_FILTERS,
   seedNotifications, fmtKr, timeAgo, fmtClock, STRINGS, pick, rnd,
-  DEMO_CREDS, SAMPLE_USERS, SAMPLE_EVENTS,
+  DEMO_CREDS, SAMPLE_USERS, SAMPLE_EVENTS, realMeta,
 });

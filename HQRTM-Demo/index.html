@@ -29,6 +29,10 @@
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 
+  <!-- Riktiga annonser från HomeQ (auto-uppdateras av .github/workflows/refresh-vitrine.yml).
+       Laddas FÖRE babel-modulerna så data.jsx ser window.HQRTM_SAMPLE / window.HQRTM_META. -->
+  <script src="sample-listings.js"></script>
+
   <script type="text/babel" src="tweaks-panel.jsx"></script>
   <script type="text/babel" src="app/icons.jsx"></script>
   <script type="text/babel" src="app/data.jsx"></script>

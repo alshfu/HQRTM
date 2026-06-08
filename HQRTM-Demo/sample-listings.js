@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Karlagatan 11B",
+    "url": "https://homeq.se/lagenhet/261923-3rum-göteborg-västra-götalands-län-karlagatan-11b",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/17016fd89d454efe9f52805b3662dd0c.jpeg",
+    "description": "3 rum · 77 m² · i Göteborg, inflytt 2026-07-01",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 9246,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Östanvindsgatan 67",
     "url": "https://homeq.se/lagenhet/261892-4rum-kungsbacka-hallands-län-östanvindsgatan-67",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/f9a5bdcb77494f5695f052ebc1dd6f0f.jpeg",
@@ -132,17 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 94.0,
     "rent": 13575,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Rävekärrsgatan 12",
-    "url": "https://homeq.se/lagenhet/261535-6rum-mölndal-västra-götalands-län-rävekärrsgatan-12",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/8fb6078e3f904545b197c56e18ecfff1.jpeg",
-    "description": "6 rum · 140 m² · i Mölndal, inflytt 2026-07-01",
-    "district": "Mölndal",
-    "rooms": 6.0,
-    "area_m2": 140.0,
-    "rent": 22000,
-    "listing_type": "fcfs"
   }
 ];
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-08T11:19:23+00:00", "clock": "11:19:23"};

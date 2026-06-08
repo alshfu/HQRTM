@@ -46,6 +46,10 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   (`POST api.homeq.se/api/v3/cards/`) är publikt åtkomlig utan JWT → `HomeQAdapter.fetch_public_cards`
   hämtar och filtrerar på bbox (Göteborg), normaliserar med samma parser (bild + beskrivning + länk
   till förstakällan). Engångshämtning av publik data; adaptern kvar `enabled=False` (ingen 24/7-polling).
+- **2026-06-08** — **Auto-uppdatering var 0,1 h** (`.github/workflows/refresh-vitrine.yml`): cron hämtar
+  riktiga Göteborg-annonser och pushar → Pages bygger om. **Hela modulära demot** (flöde + adminpanel)
+  drivs nu av riktig data (`window.HQRTM_SAMPLE`/`HQRTM_META`): riktiga bilder, källänk i modalen,
+  admin visar region/antal/senaste hämtning. Device-snapshots är frysta referenser.
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver
