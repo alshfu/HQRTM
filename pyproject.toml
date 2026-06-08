@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "hqrtm"
 version = "0.1.0"
-description = "HomeQ Real-Time Monitor — мониторинг FCFS-объявлений HomeQ → Telegram (Flask · MongoDB · SSE)"
+description = "HomeQ Real-Time Monitor — bevakning av FCFS-annonser → Telegram (Flask · MongoDB · SSE)"
 readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
@@ -43,7 +43,7 @@ dev = [
     "pre-commit>=3.7",
     "detect-secrets>=1.5",
 ]
-# Скрейпинг — fallback, ставится отдельно: pip install -e ".[scraper]" && playwright install
+# Skrapning — fallback, installeras separat: pip install -e ".[scraper]" && playwright install
 scraper = ["playwright>=1.43"]
 
 [tool.setuptools]

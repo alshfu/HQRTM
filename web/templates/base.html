@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
-  <!-- Production Tailwind-сборка (purged + minified). Источник: frontend-build/ (input.css +
-       tailwind.config.js). Пересборка: cd frontend-build && npm run build. Тема (accent/шрифты)
-       и компоненты (.card/.input/.btn-accent/.navlink) — в сборке, не inline. -->
+  <!-- Production Tailwind-bygge (purged + minified). Källa: frontend-build/ (input.css +
+       tailwind.config.js). Ombyggnad: cd frontend-build && npm run build. Tema (accent/typsnitt)
+       och komponenter (.card/.input/.btn-accent/.navlink) — i bygget, inte inline. -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
   {% block head %}{% endblock %}
 </head>
@@ -21,7 +21,7 @@
   <!-- toasts -->
   <div id="toasts" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2"></div>
 
-  <!-- i18n: каталог текущей локали → доступен в inline-JS через HQRTM.t() -->
+  <!-- i18n: katalog för aktuell locale → tillgänglig i inline-JS via HQRTM.t() -->
   <script>
     window.HQRTM_I18N = {{ i18n_catalog | tojson }};
     window.HQRTM_LOCALE = "{{ locale }}";

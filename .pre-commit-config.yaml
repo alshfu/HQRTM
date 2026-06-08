@@ -1,6 +1,6 @@
-# Pre-commit хуки. Установка: pre-commit install
-# Защищают public repo: формат/линт + detect-secrets (анти-утечка токенов).
-# HQRTM-Demo/ — статические прототипы, не трогаем (формат не наш).
+# Pre-commit-hookar. Installation: pre-commit install
+# Skyddar public repo: format/lint + detect-secrets (mot läckage av tokens).
+# HQRTM-Demo/ — statiska prototyper, rör vi inte (inte vårt format).
 exclude: '^HQRTM-Demo/'
 
 repos:
@@ -26,7 +26,7 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        # Генерируемый минифицированный CSS (Tailwind-сборка) не трогаем.
+        # Genererad minifierad CSS (Tailwind-bygge) rör vi inte.
         exclude: '^web/static/css/app\.css$'
       - id: end-of-file-fixer
         exclude: '^web/static/css/app\.css$'

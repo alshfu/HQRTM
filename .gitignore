@@ -1,4 +1,4 @@
-# --- Секреты (ПУБЛИЧНЫЙ репозиторий — ничего из этого не коммитить!) ---
+# --- Hemligheter (PUBLIKT repo — committa ingenting av detta!) ---
 .env
 .env.*
 !.env.example
@@ -25,6 +25,6 @@ dist/
 .DS_Store
 Thumbs.db
 
-# --- Frontend build (когда появится) ---
+# --- Frontend build (när det dyker upp) ---
 node_modules/
 frontend-build/dist/

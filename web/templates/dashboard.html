@@ -45,7 +45,7 @@
 
   function prepend(it) {
     const key = (it.source || "") + ":" + (it.external_id || it.id || "");
-    if (seen.has(key)) return;          // дедуп на клиенте (FE-RT-003)
+    if (seen.has(key)) return;          // dedup på klienten (FE-RT-003)
     seen.add(key);
     empty.classList.add("hidden");
     feed.insertAdjacentHTML("afterbegin", card(it));
@@ -67,7 +67,7 @@
     total = data.total; setCount();
   }
 
-  /* --- real-time через SSE (Фаза 6) с авто-reconnect + fallback на polling --- */
+  /* --- real-time via SSE (Fas 6) med auto-reconnect + fallback till polling --- */
   function setLive(state) {
     const dot = document.getElementById("live-dot");
     const label = document.getElementById("live-label");
@@ -99,7 +99,7 @@
     };
     es.onerror = () => {
       setLive("reconnecting");
-      // EventSource переподключается сам; после нескольких неудач — fallback на polling
+      // EventSource återansluter själv; efter flera misslyckanden — fallback till polling
       if (++failures >= 3) startPolling();
     };
   }

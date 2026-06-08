@@ -1,4 +1,4 @@
-/** Tailwind config для production-сборки (см. frontend-build/README.md). */
+/** Tailwind config för production-bygget (se frontend-build/README.md). */
 module.exports = {
   darkMode: "class",
   content: [

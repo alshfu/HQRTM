@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Кастомные токены/компоненты HQRTM — источник истины для production-сборки.
-   (Раньше эти правила жили inline в web/templates/base.html под Play CDN.)
-   base.html теперь грузит собранный app.css, так что дублировать их там не нужно. */
+/* Anpassade tokens/komponenter för HQRTM — sanningskälla för production-bygget.
+   (Tidigare låg dessa regler inline i web/templates/base.html under Play CDN.)
+   base.html laddar nu det byggda app.css, så de behöver inte dupliceras där. */
 
 @layer base {
   body {

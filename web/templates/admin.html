@@ -47,7 +47,7 @@
     const self = me && u.id === me.id;
     const target = u.role === "admin" ? "user" : "admin";
     const label = u.role === "admin" ? HQRTM.t("admin.make_user") : HQRTM.t("admin.make_admin");
-    // Себя разжаловать нельзя (сервер тоже запрещает) — прячем кнопку для своей строки в роли admin.
+    // Du kan inte degradera dig själv (servern hindrar också) — döljer knappen för egen rad i rollen admin.
     const action = (self && u.role === "admin")
       ? `<span class="text-gray-600 text-xs">${HQRTM.t("admin.you")}</span>`
       : `<button data-uid="${u.id}" data-role="${target}" class="text-gray-400 hover:text-accent">${label}</button>`;

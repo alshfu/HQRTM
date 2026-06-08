@@ -1,6 +1,6 @@
-/* HQRTM — клиент REST API (Vanilla JS).
- * Токены в localStorage; авто-refresh access по 401; защита маршрутов на клиенте.
- * Прим.: localStorage уязвим к XSS — переезд на httpOnly cookie запланирован (Фаза 8). */
+/* HQRTM — klient för REST API (Vanilla JS).
+ * Token i localStorage; auto-refresh av access vid 401; rutt-skydd på klienten.
+ * Obs: localStorage är sårbart för XSS — flytt till httpOnly cookie är planerad (Fas 8). */
 
 const HQRTM = (() => {
   const AK = "hqrtm_access";
@@ -34,7 +34,7 @@ const HQRTM = (() => {
     return true;
   }
 
-  /* Запрос с авто-refresh. Возвращает {ok, status, data}. */
+  /* Begäran med auto-refresh. Returnerar {ok, status, data}. */
   async function api(path, opts = {}) {
     let resp = await raw(path, opts);
     if (resp.status === 401 && opts.auth !== false && (await tryRefresh())) {
@@ -62,7 +62,7 @@ const HQRTM = (() => {
     location.href = "/login";
   }
 
-  /* Защита маршрута: если нет токена — на /login. */
+  /* Rutt-skydd: om token saknas — till /login. */
   function requireAuth() {
     if (!isAuthed()) { location.href = "/login"; return false; }
     return true;
@@ -83,8 +83,8 @@ const HQRTM = (() => {
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  /* i18n: каталог приходит из шаблона (window.HQRTM_I18N). Fallback — сам ключ.
-   * Подстановка {var}: HQRTM.t("x.y", {n: 5}). См. web/i18n.py. */
+  /* i18n: katalogen kommer från mallen (window.HQRTM_I18N). Fallback — själva nyckeln.
+   * Substitution {var}: HQRTM.t("x.y", {n: 5}). Se web/i18n.py. */
   function t(key, vars) {
     const cat = window.HQRTM_I18N || {};
     let s = cat[key] != null ? cat[key] : key;
