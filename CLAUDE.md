@@ -271,6 +271,14 @@ Efter varje betydande session, uppdatera de två blocken nedan. Det låter näst
 utan att återupptäcka kontexten.
 
 ### Nuvarande tillstånd (uppdatera)
+- **2026-06-08 (Stockholm-källa + engine lagrar alla annonser):** **Bostadsförmedlingen i Stockholm**
+  tillagd (`poller/sources/bostadsformedlingen.py`) via kommunalt **öppet data-API**
+  (`bostad.stockholm.se/AllaAnnonser/?vy=lista`, ingen auth) — `enabled=True`. Kö-baserad → annonser
+  taggas `listing_type=queue`. **Engine ändrad:** `process_new_listings` LAGRAR nu alla annonser
+  (FCFS + kö), inte bara FCFS — kö-plattformar blir bevakningsbara; vad användaren ser/aviseras styrs
+  av filtrens `only_fcfs`. Live-hämtning: 397 Stockholm-annonser. Tester **147 passed**.
+  ⚠️ **Blocket** (Schibsten ToS mot skrapning) och **Boplats** (oklart API/ToS) tillkommer EJ utan
+  legitim åtkomst. Cron-pollern (enabled-adaptrar) bevakar nu Göteborg (HomeQ) + Stockholm (Bostadsförm.).
 - **2026-06-08 (ett-tryck-ansökan + ansökningsprofil):** «Ansök»-knapp i flödet (`dashboard.html`,
   `btn-accent`) och inline-knapp «🏠 Ansök nu» i Telegram-aviseringen → direkt till källans annons
   (legal genväg, ingen autoinloggning/autoansökan — autoclicker avböjd, se Beslutslogg). **Ansöknings-

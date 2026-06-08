@@ -18,6 +18,11 @@ Bostad Direkt — robots.txt förbjuder söknings-endpoints. **Samtrygg** — ha
 adaptern `enabled=False`, host (`SAMTRYGG_API_URL`) och ToS är ägarens beslut.
 Fullständig tabell och steg — i `COMPLIANCE.md`.
 
+**Bostadsförmedlingen i Stockholm (2026-06-08):** kommunalt bolag som publicerar lediga lägenheter
+**öppet** (`bostad.stockholm.se/AllaAnnonser/?vy=lista`, JSON, ingen auth) → legitim källa,
+adaptern `enabled=True`. Kö-baserad (köpoäng). **Blocket** (Schibsten ToS mot automatiserad
+insamling, anti-bot) och **Boplats** (oklart API/ToS) läggs INTE till utan legitim åtkomst/partnerskap.
+
 ## GDPR
 - Rättslig grund — samtycke vid registrering (`users.consent_at`).
 - Rätt till radering — `DELETE /api/me` raderar kontot och all relaterad data.

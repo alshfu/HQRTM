@@ -14,7 +14,7 @@ from datetime import UTC, datetime
 
 from pymongo.errors import DuplicateKeyError
 from shared.db import COLL_LISTINGS, COLL_NOTIFICATIONS
-from shared.models import ListingType, NotificationChannel, NotificationStatus
+from shared.models import NotificationChannel, NotificationStatus
 
 from poller.dedup import mark_seen
 from poller.detector import classify
@@ -24,8 +24,13 @@ log = logging.getLogger("hqrtm.poller")
 
 
 def process_new_listings(db, raw_listings: list[dict]) -> list[dict]:
-    """Bearbeta en batch annonser, returnera nya FCFS (med satt `_id`)."""
-    new_fcfs: list[dict] = []
+    """Bearbeta en batch annonser, returnera de nya (med satt `_id`).
+
+    Multi-source: vi LAGRAR alla nya annonser (FCFS + kö) och taggar med ``listing_type``
+    via detektorn. Vad användaren ser/aviseras avgörs av filtren (``only_fcfs``), inte av
+    ingestion → kö-plattformar (Bostadsförmedlingen, Boplats) blir bevakningsbara.
+    """
+    new_listings: list[dict] = []
     for item in raw_listings:
         source = item.get("source")
         external_id = item.get("external_id")
@@ -36,23 +41,19 @@ def process_new_listings(db, raw_listings: list[dict]) -> list[dict]:
         if not mark_seen(db, source, external_id):
             continue
 
-        # detektering: bara FCFS går vidare (BE-FL-002)
-        ltype = classify(item)
-        if ltype is not ListingType.FCFS:
-            continue
-
-        doc = {**item, "listing_type": ListingType.FCFS.value, "fetched_at": datetime.now(UTC)}
+        ltype = classify(item)  # FCFS / kö — taggas, sållas inte bort (BE-FL-002)
+        doc = {**item, "listing_type": ltype.value, "fetched_at": datetime.now(UTC)}
         res = db[COLL_LISTINGS].update_one(
             {"source": source, "external_id": external_id}, {"$set": doc}, upsert=True
         )
         doc["_id"] = res.upserted_id or db[COLL_LISTINGS].find_one(
             {"source": source, "external_id": external_id}, {"_id": 1}
         ).get("_id")
-        new_fcfs.append(doc)
+        new_listings.append(doc)
 
-    if new_fcfs:
-        log.info("Nya FCFS: %d", len(new_fcfs))
-    return new_fcfs
+    if new_listings:
+        log.info("Nya annonser: %d", len(new_listings))
+    return new_listings
 
 
 def enqueue_notifications(db, listings: list[dict]) -> int:

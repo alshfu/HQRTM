@@ -59,6 +59,12 @@ class Settings(BaseSettings):
     samtrygg_public_base: str = "https://samtrygg.se"  # för att bygga länkar till annonser
     samtrygg_timeout_s: float = 10.0
 
+    # Bostadsförmedlingen i Stockholm — kommunalt öppet data-API (publik lista, ingen auth).
+    # Kö-baserad (köpoäng). enabled=True i adaptern → pollern bevakar Stockholm direkt.
+    bostadsformedlingen_api_url: str = "https://bostad.stockholm.se/AllaAnnonser/?vy=lista"
+    bostadsformedlingen_public_base: str = "https://bostad.stockholm.se"
+    bostadsformedlingen_timeout_s: float = 10.0
+
     # HomeQ publik bevakning (beta): pollern hämtar HomeQ:s inloggningsfria Card Search (utan JWT)
     # och filtrerar på bbox. ⚠️ Ägarens beslut/risk gällande ToS. Kontinuerlig landlord-JWT-polling
     # är fortsatt gated på ToS-bekräftelse (COMPLIANCE.md).

@@ -9,7 +9,12 @@ från registret och normaliserar annonser till en enhetlig modell `shared.models
 
 # Import av konkreta adaptrar registrerar dem i registret (@register körs vid import).
 # När du lägger till en plattform — komplettera dess modul här så att poller.main ser adaptern.
-from poller.sources import homeq, qasa, samtrygg  # noqa: E402,F401
+from poller.sources import (  # noqa: E402,F401
+    bostadsformedlingen,
+    homeq,
+    qasa,
+    samtrygg,
+)
 from poller.sources.base import SourceAdapter
 from poller.sources.registry import enabled_adapters, register
 

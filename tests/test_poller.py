@@ -34,7 +34,7 @@ def test_classify_swedish_text_markers():
 # ------------------------------------------------------------------- dedup + engine
 
 
-def test_process_filters_queue_and_dedups(db):
+def test_process_stores_all_with_type_and_dedups(db):
     raw = [
         {"source": "homeq", "external_id": "a", "title": "Först till kvarn", "url": "u"},
         {
@@ -42,7 +42,7 @@ def test_process_filters_queue_and_dedups(db):
             "external_id": "b",
             "title": "Kötid krävs",
             "url": "u",
-        },  # queue → bortsållas
+        },  # kö → lagras med listing_type=queue
         {"source": "homeq", "external_id": "a", "title": "Först till kvarn", "url": "u"},  # dublett
         {
             "source": "qasa",
@@ -53,11 +53,14 @@ def test_process_filters_queue_and_dedups(db):
         },  # annan källa
     ]
     new = process_new_listings(db, raw)
-    ext_ids = {(n["source"], n["external_id"]) for n in new}
-    assert ext_ids == {("homeq", "a"), ("qasa", "a")}  # FCFS, utan dublett; queue bortsållad
-    assert all(n["listing_type"] == "fcfs" for n in new)
-    # i listings sparas endast FCFS
-    assert db[COLL_LISTINGS].count_documents({}) == 2
+    types = {(n["source"], n["external_id"]): n["listing_type"] for n in new}
+    # alla unika lagras (FCFS + kö), utan dublett; taggade med rätt typ
+    assert types == {
+        ("homeq", "a"): "fcfs",
+        ("homeq", "b"): "queue",
+        ("qasa", "a"): "fcfs",
+    }
+    assert db[COLL_LISTINGS].count_documents({}) == 3
     # upprepad körning av samma batch → inget nytt (dedup)
     assert process_new_listings(db, raw) == []
 
@@ -82,7 +85,7 @@ class _FakeAdapter(SourceAdapter):
         return self._items
 
 
-async def test_run_once_collects_fcfs(db):
+async def test_run_once_collects_all_with_types(db):
     adapter = _FakeAdapter(
         [
             {"external_id": "1", "title": "Först till kvarn", "url": "u"},
@@ -90,9 +93,9 @@ async def test_run_once_collects_fcfs(db):
         ]
     )
     new = await run_once(db, [adapter])
-    assert len(new) == 1
-    assert new[0]["external_id"] == "1"
-    assert new[0]["source"] == "homeq"  # satt från adapter.source
+    types = {n["external_id"]: n["listing_type"] for n in new}
+    assert types == {"1": "fcfs", "2": "queue"}  # alla lagras, taggade med typ
+    assert all(n["source"] == "homeq" for n in new)  # satt från adapter.source
 
 
 # ------------------------------------------------------------------- adaptive interval

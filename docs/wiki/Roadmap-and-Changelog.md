@@ -50,6 +50,10 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   riktiga Göteborg-annonser och pushar → Pages bygger om. **Hela modulära demot** (flöde + adminpanel)
   drivs nu av riktig data (`window.HQRTM_SAMPLE`/`HQRTM_META`): riktiga bilder, källänk i modalen,
   admin visar region/antal/senaste hämtning. Device-snapshots är frysta referenser.
+- **2026-06-08** — **Stockholm: Bostadsförmedlingen** tillagd via kommunalt öppet data-API
+  (`bostad.stockholm.se`, ingen auth, `enabled=True`) — kö-baserad (`listing_type=queue`).
+  **Engine lagrar nu alla annonser** (FCFS + kö); `only_fcfs`-filter styr vad användaren ser.
+  Blocket (ToS) och Boplats (oklart) tillkommer ej utan legitim åtkomst. 147 passed.
 - **2026-06-08** — **Ett-tryck-ansökan + ansökningsprofil**: «Ansök»-knapp i flödet och inline-knapp
   i Telegram (direkt till källans annons); `/api/profile` (GET/PUT) + sektion i Konto för att spara
   presentation/inkomst/kontakt och kopiera dem snabbt. (Ingen autoinloggning/autoansökan — endast
