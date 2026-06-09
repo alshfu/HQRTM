@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Västergatan 25",
+    "url": "https://homeq.se/lagenhet/262376-1rum-göteborg-västra-götalands-län-västergatan-25",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/789b7b97197f429d8c6c9c8e8e22f8bf.jpeg",
+    "description": "1 rum · 45 m² · i Göteborg, inflytt 2026-09-01",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 45.0,
+    "rent": 8472,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Temperaturgatan 87",
     "url": "https://homeq.se/lagenhet/262330-1rum-göteborg-västra-götalands-län-temperaturgatan-87",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/1bdf2179fea547f7af93dee3c8a60213.jpeg",
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 77.0,
     "rent": 9246,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Östanvindsgatan 67",
-    "url": "https://homeq.se/lagenhet/261892-4rum-kungsbacka-hallands-län-östanvindsgatan-67",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/f9a5bdcb77494f5695f052ebc1dd6f0f.jpeg",
-    "description": "4 rum · 94 m² · i Kungsbacka, inflytt 2026-07-01",
-    "district": "Kungsbacka",
-    "rooms": 4.0,
-    "area_m2": 94.0,
-    "rent": 9815,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T12:31:26+00:00", "clock": "12:31:26"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T13:33:39+00:00", "clock": "13:33:39"};
