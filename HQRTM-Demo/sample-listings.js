@@ -3,6 +3,30 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Temperaturgatan 87",
+    "url": "https://homeq.se/lagenhet/262330-1rum-göteborg-västra-götalands-län-temperaturgatan-87",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/1bdf2179fea547f7af93dee3c8a60213.jpeg",
+    "description": "1 rum · 40 m² · i Göteborg, inflytt 2026-07-01",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 5387,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
+    "title": "Hagavägen 29",
+    "url": "https://homeq.se/lagenhet/262321-2rum-alingsås-västra-götalands-län-hagavägen-29",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/415504ca384a40da810604e288ca9107.jpeg",
+    "description": "2 rum · 42 m² · i Alingsås, inflytt 2026-09-01",
+    "district": "Alingsås",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 7134,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Aschebergsgatan 40C",
     "url": "https://homeq.se/lagenhet/262226-4rum-göteborg-västra-götalands-län-aschebergsgatan-40c",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/3fbe56c292f54978a2fb3f430d7a0792.jpeg",
@@ -120,30 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 94.0,
     "rent": 9815,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Dragstedtsgatan 6C",
-    "url": "https://homeq.se/lagenhet/261877-2rum-kungsbacka-hallands-län-dragstedtsgatan-6c",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/8f287eb5cb6c4caa906933e649d15d0d.jpeg",
-    "description": "2 rum · 89 m² · i Kungsbacka, inflytt 2026-08-01",
-    "district": "Kungsbacka",
-    "rooms": 2.0,
-    "area_m2": 89.0,
-    "rent": 10594,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Munins väg 22",
-    "url": "https://homeq.se/lagenhet/261786-2rum-kungsbacka-hallands-län-munins-väg-22",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/83d2d48b2b974989a84c9560a9122929.jpeg",
-    "description": "2 rum · 69 m² · i Kungsbacka, inflytt 2026-07-01",
-    "district": "Kungsbacka",
-    "rooms": 2.0,
-    "area_m2": 69.0,
-    "rent": 9730,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T11:32:56+00:00", "clock": "11:32:56"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T12:31:26+00:00", "clock": "12:31:26"};
