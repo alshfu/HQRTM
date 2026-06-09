@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Karlagatan 20C",
+    "url": "https://homeq.se/lagenhet/262200-2rum-göteborg-västra-götalands-län-karlagatan-20c",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/bc379fe795554d9a939bb3c17341fafe.jpeg",
+    "description": "2 rum · 55 m² · i Göteborg, inflytt 2026-08-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 8991,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Skäpplandsgatan 21",
     "url": "https://homeq.se/lagenhet/262116-2rum-göteborg-västra-götalands-län-skäpplandsgatan-21",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/354c744f20e24d47bde27e7673cab8f2.jpeg",
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 45.0,
     "rent": 8783,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Danska Vägen 76A",
-    "url": "https://homeq.se/lagenhet/261718-2rum-göteborg-västra-götalands-län-danska-vägen-76a",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/3a7545d12e8649788163cae3ce770565.jpeg",
-    "description": "2 rum · 42 m² · i Göteborg, inflytt 2026-07-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 8587,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T06:27:36+00:00", "clock": "06:27:36"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T07:51:36+00:00", "clock": "07:51:36"};
