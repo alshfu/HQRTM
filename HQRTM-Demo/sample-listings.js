@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Aschebergsgatan 40C",
+    "url": "https://homeq.se/lagenhet/262226-4rum-göteborg-västra-götalands-län-aschebergsgatan-40c",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/3fbe56c292f54978a2fb3f430d7a0792.jpeg",
+    "description": "4 rum · 110 m² · i Göteborg, inflytt 2026-07-01",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 110.0,
+    "rent": 21500,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Karlagatan 20C",
     "url": "https://homeq.se/lagenhet/262200-2rum-göteborg-västra-götalands-län-karlagatan-20c",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/bc379fe795554d9a939bb3c17341fafe.jpeg",
@@ -11,6 +23,18 @@ window.HQRTM_SAMPLE = [
     "rooms": 2.0,
     "area_m2": 55.0,
     "rent": 8991,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
+    "title": "Fyrklöversgatan 23B",
+    "url": "https://homeq.se/lagenhet/262233-2rum-göteborg-västra-götalands-län-fyrklöversgatan-23b",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/788614004d0a4bc4a68d265b93071ed9.png",
+    "description": "2 rum · 55 m² · i Göteborg, inflytt 2026-08-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 11243,
     "listing_type": "fcfs"
   },
   {
@@ -120,30 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 69.0,
     "rent": 9730,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Karl Gustavsgatan 63",
-    "url": "https://homeq.se/lagenhet/261720-2rum-göteborg-västra-götalands-län-karl-gustavsgatan-63",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/5192001c2047465ab321365457d6c0e9.jpeg",
-    "description": "2 rum · 65 m² · i Göteborg, inflytt 2026-09-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 12521,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Danska Vägen 76A",
-    "url": "https://homeq.se/lagenhet/261719-2rum-göteborg-västra-götalands-län-danska-vägen-76a",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/3a7545d12e8649788163cae3ce770565.jpeg",
-    "description": "2 rum · 45 m² · i Göteborg, inflytt 2026-07-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 8783,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T07:51:36+00:00", "clock": "07:51:36"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T08:59:53+00:00", "clock": "08:59:53"};
