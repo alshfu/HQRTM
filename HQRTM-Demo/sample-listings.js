@@ -3,9 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Västergatan 23",
+    "url": "https://homeq.se/lagenhet/262383-1rum-göteborg-västra-götalands-län-västergatan-23",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/b0d69a3cf7c74b278ca9d0096e464a16.jpeg",
+    "description": "1 rum · 45 m² · i Göteborg, inflytt 2026-10-01",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 45.0,
+    "rent": 7812,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Västergatan 25",
     "url": "https://homeq.se/lagenhet/262376-1rum-göteborg-västra-götalands-län-västergatan-25",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/789b7b97197f429d8c6c9c8e8e22f8bf.jpeg",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/4fc20cbe567f4b3193b3bd3722731f74.jpeg",
     "description": "1 rum · 45 m² · i Göteborg, inflytt 2026-09-01",
     "district": "Göteborg",
     "rooms": 1.0,
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 30.0,
     "rent": 8050,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Karlagatan 11B",
-    "url": "https://homeq.se/lagenhet/261923-3rum-göteborg-västra-götalands-län-karlagatan-11b",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/17016fd89d454efe9f52805b3662dd0c.jpeg",
-    "description": "3 rum · 77 m² · i Göteborg, inflytt 2026-07-01",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 9246,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T13:33:39+00:00", "clock": "13:33:39"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-09T14:32:53+00:00", "clock": "14:32:53"};
