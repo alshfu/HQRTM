@@ -73,6 +73,8 @@ async function loadMatches() {
   list.innerHTML = "";
   (data.items || []).forEach((it) => {
     const meta = [it.district, it.rooms ? it.rooms + " rum" : null, it.area_m2 ? it.area_m2 + " m²" : null,
+      (it.floor != null) ? "vån " + it.floor : null,
+      it.has_balcony ? "🌿 balkong" : null, it.has_kitchen ? "🍳 kök" : null,
       it.rent ? fmtKr(it.rent) : null].filter(Boolean).join(" · ");
     const card = document.createElement("div");
     card.className = "card";

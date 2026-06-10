@@ -5,8 +5,9 @@ på matchande bostäder — utan att lagra plattformslösenord och utan automati
 
 ## Vad den gör
 - **Loggar in** mot HQRTM-API:t och sparar token + ansökningsprofil **lokalt** (`chrome.storage.local`).
-- **Listar matchande objekt** (`/api/listings?matched=true`) i popupen; ett klick öppnar annonsen
-  hos källan (där användaren själv är inloggad).
+- **Listar matchande objekt** (`/api/listings?matched=true`) i popupen — med område, rum, yta,
+  **våning/balkong/kök** (där källan anger det) och hyra; ett klick öppnar annonsen hos källan
+  (där användaren själv är inloggad).
 - **Badge** på ikonen visar antal matchningar (uppdateras periodiskt).
 - På annonssidor (homeq.se / qasa.com / bostad.stockholm.se) visar en liten panel din profil med
   **Kopiera**-knappar, **«Fyll i formuläret»** (fältmappning, se nedan) och «Endast presentation».
