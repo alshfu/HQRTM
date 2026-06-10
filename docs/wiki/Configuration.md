@@ -14,6 +14,9 @@ Läses via `shared/config.py` (`pydantic-settings`).
 | `JWT_SECRET` | `change-me-dev-only` | JWT-hemlighet (byt! ≥ 32 byte) |
 | `JWT_ACCESS_TTL_MIN` | `15` | TTL för access-token (min) |
 | `JWT_REFRESH_TTL_DAYS` | `30` | TTL för refresh-token (dagar) |
+| `COOKIE_AUTH` | `true` | Sätt JWT som httpOnly-cookies (webbpanelen); Bearer fungerar parallellt |
+| `COOKIE_SECURE` | `false` | `true` i prod (HTTPS) → Secure-cookie |
+| `COOKIE_SAMESITE` | `Lax` | SameSite för auth-cookies (CSRF-skydd) |
 | `TELEGRAM_BOT_TOKEN` | — | Bot-token (BotFather) |
 | `TELEGRAM_BOT_USERNAME` | — | Botens username (för deep-link-koppling) |
 | `POLL_INTERVAL_MS` | `3000` | Pollerns bevakningsintervall |
@@ -29,7 +32,7 @@ Läses via `shared/config.py` (`pydantic-settings`).
 | `SAMTRYGG_PUBLIC_BASE` | `https://samtrygg.se` | Bas för länkar till Samtrygg-annonser |
 | `LOG_LEVEL` | `INFO` | Loggnivå |
 | `LOG_JSON` | `false` | JSON-loggar för aggregatorer i prod |
-| `RATELIMIT_STORAGE_URI` | — | Backend för rate-limit (tom → in-memory; prod: t.ex. `redis://…`) |
+| `RATELIMIT_STORAGE_URI` | — | Backend för rate-limit (tom → in-memory; prod/multiprocess: Redis, t.ex. `redis://…`/`rediss://…`) |
 
 > Adaptrarna HomeQ/Qasa/Samtrygg är som standard **avstängda** (`enabled=False` i koden) — aktivering
 > först efter bekräftad ToS för plattformen (se [Efterlevnad](Compliance)). Ange uppgifter därefter.

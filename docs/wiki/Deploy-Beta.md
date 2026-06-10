@@ -71,7 +71,16 @@ Boten kopplar konton via deep-link (`/start <kod>`) och levererar köade aviseri
 - ⚠️ **ToS**: återkommande automatiserad åtkomst till HomeQ:s publika API (ägarens beslut/risk).
   Landlord-JWT/officiell 24/7-polling är fortsatt gated på ToS-bekräftelse (se [Efterlevnad](Compliance)).
 
+## Säkerhet (aktiverat)
+
+- **httpOnly-cookie för JWT**: webbpanelen autentiserar via `hqrtm_access`/`hqrtm_refresh`
+  (oåtkomliga för JS → XSS-skydd, `SameSite=Lax` → CSRF-skydd). Sätt `COOKIE_SECURE=true` i prod
+  (gjort i `render.yaml`). Bearer-token fungerar parallellt för API/tillägget.
+- **Rate-limit på Redis** (valfritt men rekommenderat med flera processer/instanser): sätt
+  `RATELIMIT_STORAGE_URI=rediss://…` i Render-dashboarden. Tom → in-memory per process (free-planen
+  kör en process → fungerar, men räknare delas inte vid uppskalning). Paketet `redis` ingår i imagen.
+
 ## Skala upp senare
 
-Render betald + **Background Worker** för pollern (alltid på, `python -m poller.main`); rate-limit på
-**Redis** (`RATELIMIT_STORAGE_URI`); **httpOnly-cookie** för JWT (idag localStorage); **Telegram** (Fas 3).
+Render betald + **Background Worker** för pollern (alltid på, `python -m poller.main`); delad
+**Redis** för rate-limit över instanser; **Telegram** (Fas 3).

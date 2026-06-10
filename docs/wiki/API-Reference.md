@@ -1,14 +1,20 @@
 # API-referens
 
 Interaktivt schema: **Swagger UI** på `/apidocs`, specifikation — `/openapi.json` (OpenAPI 3.0).
-Auktorisering: `Authorization: Bearer <access_token>` (JWT). Tokens utfärdas av `/auth/*`.
+
+**Auktorisering — två sätt:**
+- `Authorization: Bearer <access_token>` (JWT) — för API-klienter och webbläsartillägget.
+- **httpOnly-cookies** (`hqrtm_access`/`hqrtm_refresh`) — sätts automatiskt av `/auth/*` och används av
+  webbpanelen (token oåtkomlig för JS → XSS-skydd; `SameSite=Lax` → CSRF-skydd). Skickas automatiskt
+  same-origin. Bearer-headern har företräde när båda finns.
 
 ## Auth
 | Metod | Sökväg | Body | Svar |
 |---|---|---|---|
-| POST | `/auth/register` | `{email, password}` | `201 {id, access_token, refresh_token}` · `400` svagt lösenord/ogiltigt · `409` e-post upptagen |
-| POST | `/auth/login` | `{email, password}` | `200 {id, access_token, refresh_token}` · `401` |
-| POST | `/auth/refresh` | `{refresh_token}` | `200 {access_token}` · `401` |
+| POST | `/auth/register` | `{email, password}` | `201 {id, access_token, refresh_token}` (+ Set-Cookie) · `400` svagt lösenord/ogiltigt · `409` e-post upptagen |
+| POST | `/auth/login` | `{email, password}` | `200 {id, access_token, refresh_token}` (+ Set-Cookie) · `401` |
+| POST | `/auth/refresh` | `{refresh_token}` *(eller refresh-cookie)* | `200 {access_token}` (+ Set-Cookie) · `401` |
+| POST | `/auth/logout` | — | `200 {status}` — rensar auth-cookies |
 
 ## Filter (auth)
 | Metod | Sökväg | Syfte |

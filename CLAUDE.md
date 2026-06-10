@@ -281,10 +281,22 @@ utan att återupptäcka kontexten.
 > (Stockholm), Qasa (**Göteborg + Stockholm** via `QASA_AREAS`). `render.yaml` = endast free web
 > (bot-worker bortkommenterad); `buildFilter` tillagd men EJ re-synkad i Render. Webbtillägg i
 > `extension/` (byggt, ej publicerat).
-> **Nästa:** (1) re-synka Blueprint för buildFilter; (2) Telegram-bot (token + alltid-på/betald
-> worker); (3) Redis rate-limit + httpOnly JWT-cookie; (4) riktig juridisk enhet i Privacy/Terms;
-> (5) publicera tillägget (Chrome Web Store/AMO). **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
+> **Nästa:** (1) re-synka Blueprint för buildFilter (inkl. nya env COOKIE_SECURE/RATELIMIT_STORAGE_URI);
+> (2) Telegram-bot (token + alltid-på/betald worker); (3) riktig juridisk enhet i Privacy/Terms;
+> (4) publicera tillägget (Chrome Web Store/AMO); (5) ev. Redis-instans för delad rate-limit vid
+> uppskalning. **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
 
+- **2026-06-10 (Fas 8 — httpOnly JWT-cookies + Redis rate-limit):** **Säkerhet.** `web/auth/cookies.py`
+  (`set_/clear_auth_cookies`): login/register/refresh sätter `hqrtm_access`/`hqrtm_refresh` som
+  **httpOnly**-cookies (`SameSite=Lax`; `Secure` via `COOKIE_SECURE` i prod) — additivt, JSON-tokens
+  finns kvar för **Bearer** (API/tillägget). `require_auth` (web/deps.py) + SSE (`web/sse/routes.py`) +
+  `/auth/refresh` läser cookie som fallback; nytt **`/auth/logout`** rensar dem. Webbpanelen
+  (`web/static/js/api.js`) lagrar **inte längre token i localStorage** (XSS-skydd) → `credentials:
+  same-origin` + en icke-känslig UX-flagga `hqrtm_session`; `EventSource("/sse/feed")` utan `?token=`.
+  `settings/privacy/dashboard`-mallar uppdaterade. **Rate-limit:** `redis>=5` i beroendena så
+  `RATELIMIT_STORAGE_URI=redis://…` ger delade räknare över processer; `render.yaml` sätter
+  `COOKIE_SECURE=true` + `RATELIMIT_STORAGE_URI` (sync:false). Config `cookie_auth/cookie_secure/
+  cookie_samesite`. Tester `test_auth_cookies.py` (5). **153 passed**, ruff/black gröna.
 - **2026-06-10 (tillägg: ikoner + fältmappning, v0.2.0):** `extension/icons/` (16/32/48/128 px)
   genererade **utan beroenden** (`gen_icons.py`: grön rundad kvadrat + vitt hus, supersampling) och
   inkopplade i manifest (`icons` + `action.default_icon`). `content.js` fick **fältmappning**:

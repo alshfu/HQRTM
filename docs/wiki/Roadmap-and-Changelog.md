@@ -85,6 +85,12 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   typbonus) mot sidans `input`/`textarea`/`select`, med platsledtrådar per domän (`PLATFORM_HINTS`).
   Native value-setter + `input`/`change` → React-formulär reagerar; datum→`yyyy-mm-dd`. Fortsatt
   **ingen autoinskickning** (Beslutslogg).
+- **2026-06-10** — **httpOnly JWT-cookies + Redis-rate-limit** (Fas 8, säkerhet): login/register/refresh
+  sätter `hqrtm_access`/`hqrtm_refresh` som **httpOnly**-cookies (`SameSite=Lax`, `Secure` i prod) —
+  webbpanelen slutar lagra token i `localStorage` (XSS-skydd). `require_auth`, SSE och `/auth/refresh`
+  läser cookie som fallback; nytt `/auth/logout` rensar dem. **Bearer fungerar parallellt** (API/tillägget).
+  `redis` i beroendena → `RATELIMIT_STORAGE_URI=redis://…` ger delade rate-limit-räknare över processer;
+  `render.yaml` sätter `COOKIE_SECURE=true` + `RATELIMIT_STORAGE_URI`. 153 passed.
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver
