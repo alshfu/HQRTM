@@ -72,6 +72,9 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 - **2026-06-08** — **Beta-deploy-scaffold** (web-only, PaaS): `Dockerfile` (gunicorn/gthread) +
   `.dockerignore`, `render.yaml`, poller `--once` + publik HomeQ-poll (`HOMEQ_PUBLIC_POLL`/`HOMEQ_BBOX`),
   `ensure_indexes` vid pollerstart, `poll-homeq.yml` (cron → prod-Mongo), guide [Deploy-Beta](Deploy-Beta).
+- **2026-06-10** — **Ny bidragsgivare: Pushkinho (Petros)** (`Petros@maktic.se`). Tillagd i
+  `CONTRIBUTING.md` (avsnitt «Bidragsgivare»), [Utvecklarguide](Developer-Guide) och `pyproject.toml`
+  (`[project].authors`). Samma person som prod-testkontot `petros`.
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver
