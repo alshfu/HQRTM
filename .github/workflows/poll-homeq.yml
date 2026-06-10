@@ -34,5 +34,7 @@ jobs:
           HOMEQ_PUBLIC_POLL: "true"
           HOMEQ_BBOX: "57.30501310262437,57.951573625160904,11.299629385756305,12.662900614241892"
           HOMEQ_PUBLIC_LIMIT: "50"
+          # Qasa: bevaka samma orter som övriga källor (Göteborg + Stockholm) istället för hela landet.
+          QASA_AREAS: "se/goteborg,se/stockholm"
           LOG_JSON: "true"
         run: python -m poller.main --once

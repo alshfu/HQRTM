@@ -52,6 +52,9 @@ class Settings(BaseSettings):
     qasa_fetch_amount: int = 50
     qasa_timeout_s: float = 10.0
     qasa_currency: str = "SEK"  # behåll endast svenska annonser (SEK); Qasa täcker även FI/NO
+    # Begränsa Qasa till orter via ``areaIdentifier`` (kommaseparerat, t.ex.
+    # "se/goteborg,se/stockholm"). Tomt = hela landet. Varje ort hämtas separat och slås ihop.
+    qasa_areas: str = ""
 
     # Samtrygg (samtrygg.se) — uthyrning via ansökan (utan kö). ⚠️ Bas-URL/host anges inte i den
     # publika SwaggerHub-specen, ToS för programmatisk läsning ej bekräftad → adapter enabled=False

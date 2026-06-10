@@ -25,11 +25,13 @@ from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.qasa")
 
-# Publik marketplace-sökning (anonym). Fält avstämda mot live-API 2026-06-08.
+# Publik marketplace-sökning (anonym). Fält + argument avstämda mot live-API 2026-06-08/2026-06-10.
+# ``params: HomeSearchParamsInput`` (bl.a. ``areaIdentifier: "se/<stad>"``) filtrerar per ort;
+# ``documents(limit:)`` styr antalet. Utan ``areaIdentifier`` → hela landet.
 _SEARCH_QUERY = """
-{
-  homeIndexSearch {
-    documents {
+query Q($params: HomeSearchParamsInput, $limit: Int) {
+  homeIndexSearch(params: $params) {
+    documents(limit: $limit) {
       nodes {
         id
         rent
@@ -76,10 +78,39 @@ class QasaAdapter(SourceAdapter):
             self._client = None
 
     async def fetch_listings(self) -> list[dict]:
-        """Returnera färska Qasa-annonser, normaliserade till ``Listing``-fält."""
+        """Returnera färska Qasa-annonser, normaliserade till ``Listing``-fält.
+
+        Om ``QASA_AREAS`` är satt hämtas varje ort separat (``areaIdentifier``) och resultaten
+        slås ihop (dedup på ``id``). Tom konfig → en enda sökning över hela landet.
+        """
         s = get_settings()
+        areas = _parse_areas(s.qasa_areas)
         client = await self._get_client()
-        resp = await client.post(s.qasa_api_url, json={"query": _SEARCH_QUERY})
+        currency = s.qasa_currency
+
+        seen: set[str] = set()
+        listings: list[dict] = []
+        for area in areas:
+            for node in await self._fetch_area(client, area, s):
+                ext_id = node.get("id")
+                if ext_id is None or str(ext_id) in seen:
+                    continue
+                # Begränsa till valt land via valuta (SEK = Sverige); Qasa täcker även FI/NO.
+                if currency and node.get("currency") != currency:
+                    continue
+                seen.add(str(ext_id))
+                listings.append(self._normalize(node))
+        return listings
+
+    async def _fetch_area(self, client: httpx.AsyncClient, area: str | None, s: Any) -> list[dict]:
+        """Hämta råa noder för en ort (``area``) eller hela landet (``area=None``)."""
+        params: dict[str, Any] = {}
+        if area:
+            params["areaIdentifier"] = area
+        variables = {"params": params, "limit": s.qasa_fetch_amount}
+        resp = await client.post(
+            s.qasa_api_url, json={"query": _SEARCH_QUERY, "variables": variables}
+        )
 
         if resp.status_code == 429 or resp.status_code >= 500:
             retry_after = resp.headers.get("Retry-After")
@@ -95,16 +126,9 @@ class QasaAdapter(SourceAdapter):
         if payload.get("errors"):
             raise RuntimeError(f"Qasa GraphQL errors: {payload['errors']}")
 
-        nodes = (
+        return (
             ((payload.get("data") or {}).get("homeIndexSearch") or {}).get("documents") or {}
         ).get("nodes") or []
-        # Begränsa till valt land via valuta (SEK = Sverige); Qasa täcker även FI/NO.
-        currency = s.qasa_currency
-        return [
-            self._normalize(n)
-            for n in nodes
-            if n.get("id") is not None and (not currency or n.get("currency") == currency)
-        ]
 
     def _normalize(self, node: dict[str, Any]) -> dict:
         """Qasa-dokument → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
@@ -132,6 +156,12 @@ class QasaAdapter(SourceAdapter):
         street = f"{route} {number}" if route and number else route
         parts = [p for p in (street, loc.get("locality")) if p]
         return ", ".join(parts) if parts else "Bostad"
+
+
+def _parse_areas(raw: str) -> list[str | None]:
+    """``"se/goteborg, se/stockholm"`` → ``["se/goteborg", "se/stockholm"]``; tomt → ``[None]``."""
+    areas = [a.strip() for a in (raw or "").split(",") if a.strip()]
+    return areas or [None]
 
 
 def _first_image(node: dict[str, Any]) -> str | None:

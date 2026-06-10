@@ -123,3 +123,57 @@ async def test_normalized_passes_detector_as_fcfs():
     assert classify(listings[0]) is ListingType.FCFS
     assert is_fcfs(listings[0]) is True
     await adapter.aclose()
+
+
+async def test_areas_fetched_separately_and_merged(monkeypatch):
+    """QASA_AREAS → en request per ort med rätt areaIdentifier; resultat slås ihop + dedupas."""
+    from shared.config import get_settings
+
+    monkeypatch.setenv("QASA_AREAS", "se/goteborg, se/stockholm")
+    get_settings.cache_clear()
+
+    seen_areas: list = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        import json
+
+        body = json.loads(request.content)
+        area = body["variables"]["params"].get("areaIdentifier")
+        seen_areas.append(area)
+        # Båda orterna returnerar samma annons → dedup ska ge exakt en.
+        return httpx.Response(
+            200, json={"data": {"homeIndexSearch": {"documents": {"nodes": [NODE]}}}}
+        )
+
+    adapter = _adapter(handler)
+    listings = await adapter.fetch_listings()
+
+    assert seen_areas == ["se/goteborg", "se/stockholm"]
+    assert [item["external_id"] for item in listings] == ["home-777"]  # dedup på id
+    await adapter.aclose()
+    get_settings.cache_clear()
+
+
+async def test_no_areas_one_country_wide_request(monkeypatch):
+    """Tom QASA_AREAS → exakt en request utan areaIdentifier (hela landet)."""
+    from shared.config import get_settings
+
+    monkeypatch.setenv("QASA_AREAS", "")
+    get_settings.cache_clear()
+
+    calls: list = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        import json
+
+        calls.append(json.loads(request.content)["variables"]["params"])
+        return httpx.Response(
+            200, json={"data": {"homeIndexSearch": {"documents": {"nodes": [NODE]}}}}
+        )
+
+    adapter = _adapter(handler)
+    await adapter.fetch_listings()
+
+    assert calls == [{}]  # ett anrop, inga area-filter
+    await adapter.aclose()
+    get_settings.cache_clear()
