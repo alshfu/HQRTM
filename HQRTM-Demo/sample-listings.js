@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Friggagatan 9B",
+    "url": "https://homeq.se/lagenhet/262535-2rum-göteborg-västra-götalands-län-friggagatan-9b",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/23dc7cf7a5e749ae88a9fff12fcbb23e.jpeg",
+    "description": "2 rum · 73 m² · i Göteborg, inflytt 2026-10-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 73.0,
+    "rent": 12779,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Västergatan 23",
     "url": "https://homeq.se/lagenhet/262383-1rum-göteborg-västra-götalands-län-västergatan-23",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/b0d69a3cf7c74b278ca9d0096e464a16.jpeg",
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 76.0,
     "rent": 13800,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Valands promenad 2E",
-    "url": "https://homeq.se/lagenhet/262010-1rum-kungsbacka-hallands-län-valands-promenad-2e",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/49e2224dab9640338de4174bf78b03a6.jpeg",
-    "description": "1 rum · 30 m² · i Kungsbacka, inflytt 2026-07-01",
-    "district": "Kungsbacka",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 8050,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-10T09:45:28+00:00", "clock": "09:45:28"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-10T11:06:39+00:00", "clock": "11:06:39"};
