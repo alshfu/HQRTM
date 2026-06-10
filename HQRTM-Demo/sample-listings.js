@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Bockhornsgatan, Göteborg",
+    "url": "https://qasa.com/p/1390761",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dcb6fac92c7b88bf897e56ba3055bfa4f44dcb547a369dc5ed2ef583025a208.jpg",
+    "description": "Vi hyr ut vår mysiga lägenhet med fint läge vid Slottskogen. Härlig balkong med solläge. \nLägenheten är grundläggande möblerad och skall säljas. Därav kortare hyrestid. El internet vatten värme ingår i hyran.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kallebäcksvägen, Göteborg",
     "url": "https://qasa.com/p/1390751",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d98667a976daa700ff65ab1d32e01fd6dde894699b48034545e2163cb699f74.jpg",
@@ -119,21 +134,6 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bandtraktorgatan, Angered",
-    "url": "https://qasa.com/p/1220889",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/12cc5c8ff217f8ff8a0373b3afe184c1b0f5eab3f728286dcee7d4d2c80dade2.jpg",
-    "description": "Hyr ut min fräscha bostadsrätt i Angered centrum som ligger en våning upp från markplan. Lägenheten ligger nära kommunikation till Göteborg som endast tar 17 min med spårvagn. Lägenheten är ljus och i mycket gott skick. Viss möblering ingår ( se bilderna).  I lägenheten finns gott med förvaring för dig som flyttar in då lägenheten har en stor klädkammare. \nKostnad för elförbrukning tillkommer separat. Kostnaden baseras på din förbrukning med faktura från elbolaget som underlag.  Bredband ingår i avgiften. \n\nLämna en presentation med lite info och vem du är så så hör jag av mig om det blir aktuellt. \n\nTillträde snarast. \nVäl mött Erica ",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 6670,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
     "listing_type": "fcfs"
   },
   {
@@ -212,4 +212,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-10T18:20:25+00:00", "clock": "18:20:25"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-10T19:19:26+00:00", "clock": "19:19:26"};
