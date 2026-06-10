@@ -282,9 +282,18 @@ utan att återupptäcka kontexten.
 > (bot-worker bortkommenterad); `buildFilter` tillagd men EJ re-synkad i Render. Webbtillägg i
 > `extension/` (byggt, ej publicerat).
 > **Nästa:** (1) re-synka Blueprint för buildFilter; (2) Telegram-bot (token + alltid-på/betald
-> worker); (3) Redis rate-limit + httpOnly JWT-cookie; (4) tilläggs-ikoner/fältmappning;
-> (5) riktig juridisk enhet i Privacy/Terms. **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
+> worker); (3) Redis rate-limit + httpOnly JWT-cookie; (4) riktig juridisk enhet i Privacy/Terms;
+> (5) publicera tillägget (Chrome Web Store/AMO). **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
 
+- **2026-06-10 (tillägg: ikoner + fältmappning, v0.2.0):** `extension/icons/` (16/32/48/128 px)
+  genererade **utan beroenden** (`gen_icons.py`: grön rundad kvadrat + vitt hus, supersampling) och
+  inkopplade i manifest (`icons` + `action.default_icon`). `content.js` fick **fältmappning**:
+  knappen «Fyll i formuläret» matchar profilfälten (presentation/sysselsättning/inkomst/telefon/
+  hushåll/inflytt) heuristiskt mot sidans `input`/`textarea`/`select` — etikett (`label`/`aria`/
+  omslutande text) väger tyngst, sedan `name`/`id`/`placeholder`/`autocomplete`, plus typbonus;
+  `PLATFORM_HINTS` ger direkta selektorträffar per domän. Värden sätts via **native value-setter** +
+  `input`/`change` (React/Vue reagerar), datum→`yyyy-mm-dd`, belopp→siffror. «Endast presentation»
+  kvar som fallback. **Ingen autoinskickning** (Beslutslogg). JS/JSON validerade (`node --check`).
 - **2026-06-10 (Qasa per ort):** GraphQL-argumentet `homeIndexSearch(params: {areaIdentifier:
   "se/<stad>"})` avstämt mot live-API (probning via felmeddelanden, som tidigare). Ny konfig
   `qasa_areas`/`QASA_AREAS` (kommaseparerat, tomt = hela landet); adaptern hämtar varje ort separat

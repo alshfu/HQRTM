@@ -79,6 +79,12 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   "se/<stad>"})` avstämt mot live-API. Ny konfig `QASA_AREAS` (kommaseparerat, tomt = hela landet);
   adaptern hämtar varje ort separat och slår ihop (dedup på id). Cron bevakar nu **Göteborg + Stockholm**
   för Qasa (i linje med övriga källor) istället för hela landet. 148 passed.
+- **2026-06-10** — **Tillägg «Snabbansök» v0.2.0**: **ikoner** (16/32/48/128 px, genererade utan
+  beroenden via `extension/icons/gen_icons.py`) + **fältmappning** för autofyll. «Fyll i formuläret»
+  matchar profilfälten heuristiskt (etikett/`name`/`id`/`placeholder`/`aria-label`/`autocomplete` +
+  typbonus) mot sidans `input`/`textarea`/`select`, med platsledtrådar per domän (`PLATFORM_HINTS`).
+  Native value-setter + `input`/`change` → React-formulär reagerar; datum→`yyyy-mm-dd`. Fortsatt
+  **ingen autoinskickning** (Beslutslogg).
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver
