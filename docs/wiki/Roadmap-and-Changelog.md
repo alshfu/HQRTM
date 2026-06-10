@@ -92,6 +92,8 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   Bostadsförmedlingen ger dessutom strukturerade `Vaning`/`Balkong`. Matchning: våning **lenient**
   (okänt släpps igenom → maximal matchning), bekvämligheter **strikta** (krav → måste vara bekräftat).
   Utökat filterformulär («Fler kriterier») + flödeskort visar våning/balkong/kök. i18n sv/en. 162 passed.
+- **2026-06-10** — **Tillägg v0.2.1**: matchningslistan i popupen visar nu **våning/balkong/kök**
+  (där källan anger det), utöver område/rum/yta/hyra.
 - **2026-06-10** — **httpOnly JWT-cookies + Redis-rate-limit** (Fas 8, säkerhet): login/register/refresh
   sätter `hqrtm_access`/`hqrtm_refresh` som **httpOnly**-cookies (`SameSite=Lax`, `Secure` i prod) —
   webbpanelen slutar lagra token i `localStorage` (XSS-skydd). `require_auth`, SSE och `/auth/refresh`
