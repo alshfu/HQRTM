@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Nymånegatan 19, Göteborg",
+    "url": "https://qasa.com/p/1390829",
+    "image_url": null,
+    "description": "Renoverat kök och badrum 2013.\nKöket är utrustat med induktionshäll, infälld diskho, varmluftsugn och mikrovågsugn i arbetshöjd, diskmaskin.\nBadrummet har handdukstork, duschplats med vikväggar, plats för tvättmaskin och torktumlare.\nBalkong. \nParkeringsplats under tak finns att hyra.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 71.0,
+    "rent": 9352,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bockhornsgatan, Göteborg",
     "url": "https://qasa.com/p/1390761",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dcb6fac92c7b88bf897e56ba3055bfa4f44dcb547a369dc5ed2ef583025a208.jpg",
@@ -156,14 +171,14 @@ window.HQRTM_SAMPLE = [
     "title": "Lindholmsvägen, Göteborg",
     "url": "https://qasa.com/p/1390683",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee12dfedcbf4907830df1cb10987ba3f5842e55856c24142629a7aa0a0ee4175.jpg",
-    "description": "Jag hyr ut ett rum i min fina lägenhet i gamla Lindholmen, nära Sannegårdshamnen, vattnet och kajpromenaderna. Här bor du i ett lugnt och tryggt område men har ändå väldigt nära till stan via färjan, spårvagn och buss.\n\nLägenheten är modern, ljus och trivsam med bra gemensamma ytor, fullt utrustat kök och en härlig uteplats med möjlighet att grilla. Det är ett boende som passar dig som vill ha något bekvämt, fräscht och enkelt snarare än bara “ett rum”.\n\nJag reser mycket i jobbet och är ofta borta, så du kommer ofta ha lägenheten ganska mycket för dig själv. Jag söker därför någon som är skötsam, självgående och respektfull med hemmet.\n\nI närheten finns Lindholmen Science Park, restauranger, caféer, gym, matbutiker, fina promenadstråk längs vattnet och smidiga kommunikationer in till centrum. Färjan över älven är ett stort plus och gör att stan känns väldigt nära.\n\nNormal användning av el, vatten och internet ingår enligt överenskommelse. Det kan även finnas möjlighet att ibland nyttja bil efter separat överenskommelse, då den oftast står stilla.\n\nBostaden kan komma att säljas framöver, så uthyrningen passar bäst för någon som är flexibel kring boendeperioden. Allt sker såklart tydligt och enligt avtal.\n\nSkriv gärna några rader om dig själv, din sysselsättning och när du önskar flytta in.",
+    "description": "Jag hyr ut ett rum i min fina lägenhet i gamla Lindholmen, nära Sannegårdshamnen. Lägenheten är fullt utrustad med en fin uteplats och grill som kan nyttjas.\n\nJag reser mycket i jobbet och är inte mycket hemma på dagarna, så du kommer ofta ha lägenheten ganska mycket för dig själv. Jag söker därför någon som är skötsam, självgående och respektfull med hemmet.\n\nNormal användning av el, vatten och internet ingår enligt överenskommelse. Det kan även finnas möjlighet att ibland nyttja bil efter separat överenskommelse, då den oftast står stilla.\n\nBostaden kan komma att säljas framöver, så uthyrningen passar bäst för någon som är flexibel kring boendeperioden. Allt sker såklart tydligt och enligt avtal.\n\nSkriv gärna några rader om dig själv, din sysselsättning och när du önskar flytta in.",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 15.0,
     "rent": 6000,
     "floor": null,
     "has_balcony": true,
-    "has_kitchen": true,
+    "has_kitchen": null,
     "listing_type": "fcfs"
   },
   {
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solståndsgatan, Göteborg",
-    "url": "https://qasa.com/p/1390593",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ebb1f7f1e29ebfe2e3273f1804e54bfc8f988dc5df5e067ac0d4384e65970ef9.jpg",
-    "description": "1 Rum på 12 kvm i en 78 kvm stor 3:a på markplan med uteplats/trädgård i ett jätte lungt naturrikt område.\nNaturligtvis delar vi på resten av lägenheten,dock inte våra rum.\nHärliga grannar!\nNära till spårvagn och det går 3 olika linjer till centrum och tar cirka 13 minuter.\nFinns flera olika gym, Hemköp,Apotek, Bibliotek mm mm i närområdet.\n\nNaturligtvis får du inreda \"ditt\" rum precis så som du vill och fri att röra dig i lägenheten förutom mitt sovrum och mina privata saker.\nPorslin,kökssaker över lag kan användas mm\nTV finns i vardagsrummet men egen TV är ok.\nKabel tv med basutbud.\n\n\nTycker jag bor för stort själv och tänkte det vore trevligt ha en inneboende.\nDu bör vara glad i sinnet men gärna morgontrött 😁 för det är jag. (Innan kaffet)\n\n\nDu ska ha Heltidsstudier (ej hemma studier på heltid dvs dustans) eller HELTIDSARBETE.\nArbetsgivarintyg el studieintyg krävs.\n\nIngen kriminell bakgrund.\nFesta gärna men borta med hänsyn till grannar och mig.\n Rökning utomhus.\nDu städar efter dig i kök, toalett osv.\nStädning av ditt rum sköter du själv.\n\n\nENDAST seriösa gör sig besvär.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-10T20:11:13+00:00", "clock": "20:11:13"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-10T21:09:55+00:00", "clock": "21:09:55"};
