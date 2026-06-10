@@ -286,6 +286,13 @@ utan att återupptäcka kontexten.
 > (4) publicera tillägget (Chrome Web Store/AMO); (5) ev. Redis-instans för delad rate-limit vid
 > uppskalning. **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
 
+- **2026-06-10 (vitrin/skyltfönster — våning/balkong/kök):** `scripts/gen_sample_listings.py`
+  aggregerar nu **HomeQ + Qasa (Göteborg)** (`QASA_AREAS=se/goteborg` sätts i skriptet) och behåller
+  `floor/has_balcony/has_kitchen` i `HQRTM-Demo/sample-listings.js`. Qasas rika fritext ger riktiga
+  bekvämlighetsfält (sorteras främst). Modulära demot: `data.jsx` mappar fälten (+ host per källa),
+  `ui.jsx` (kort) och `app.jsx` (modal) visar våning/🌿balkong/🍳kök; synt. gen() får också
+  balkong/kök. Skyltfönstret `index.html` visar fälten i urvalskorten. i18n sv/en. **Ingen fiktion**;
+  device-snapshots frysta. Cron `refresh-vitrine.yml` kör samma generator (nu med Qasa).
 - **2026-06-10 (utökat filter — våning/balkong/kök/yta):** `Filter` utökad med `floor_min/max`,
   `require_balcony`/`require_kitchen` (utöver distrikt/rum/yta/hyra som redan fanns men nu exponeras
   i UI:t). `Listing` utökad med `floor`/`has_balcony`/`has_kitchen`. **Datakälla:** list-API:erna
