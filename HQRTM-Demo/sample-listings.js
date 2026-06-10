@@ -3,6 +3,18 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Zirkongatan 25D",
+    "url": "https://homeq.se/lagenhet/262548-2rum-västra-frölunda-västra-götalands-län-zirkongatan-25d",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/0e3ae55d4d614aebb9b5a1ce739cccd5.jpeg",
+    "description": "2 rum · 51 m² · i Göteborg, inflytt 2026-09-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 11789,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Friggagatan 9B",
     "url": "https://homeq.se/lagenhet/262535-2rum-göteborg-västra-götalands-län-friggagatan-9b",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/23dc7cf7a5e749ae88a9fff12fcbb23e.jpeg",
@@ -132,18 +144,6 @@ window.HQRTM_SAMPLE = [
     "area_m2": 54.0,
     "rent": 8060,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
-    "title": "Skäpplandsgatan 4",
-    "url": "https://homeq.se/lagenhet/262021-3rum-göteborg-västra-götalands-län-skäpplandsgatan-4",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/abade93bbab24cfb98538340dc1f257c.jpeg",
-    "description": "3 rum · 76 m² · i Göteborg, inflytt 2026-08-01",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 76.0,
-    "rent": 13800,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-10T11:06:39+00:00", "clock": "11:06:39"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-10T12:21:15+00:00", "clock": "12:21:15"};
