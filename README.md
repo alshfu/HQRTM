@@ -127,6 +127,13 @@ Klart: **Fas 0, 1, 2 (kärna + adaptrar HomeQ/Qasa/Samtrygg), 4, 5, 6, 7**. Påg
 väntar på aktivering av adaptrar (nycklar/ToS — ägarens beslut). Aktuell status — [`CLAUDE.md`](CLAUDE.md) och
 [Wiki → Roadmap](docs/wiki/Roadmap-and-Changelog.md).
 
+## Bidragsgivare
+
+- **Alexander Shchetinin** — skapare och underhållare
+- **Pushkinho (Petros)** — `Petros@maktic.se`
+
+Vill du bidra? Se [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
 ## Licens
 
 [MIT](LICENSE) · Efterlevnad (plattformarnas ToS + GDPR): [`COMPLIANCE.md`](COMPLIANCE.md).
