@@ -278,12 +278,20 @@ utan att återupptäcka kontexten.
 > nät 0.0.0.0/0. `MONGO_URI` i lokal `.env` (gitignored); GitHub-secret `PROD_MONGO_URI` satt;
 > Render env `MONGO_URI` satt manuellt. CLI: `atlas` inloggad, `render` EJ inloggad. **Cron
 > `poll-homeq.yml`** (var 6 min) bevakar 3 källor → prod: HomeQ (Göteborg), Bostadsförmedlingen
-> (Stockholm), Qasa (SE). `render.yaml` = endast free web (bot-worker bortkommenterad); `buildFilter`
-> tillagd men EJ re-synkad i Render. Webbtillägg i `extension/` (byggt, ej publicerat).
+> (Stockholm), Qasa (**Göteborg + Stockholm** via `QASA_AREAS`). `render.yaml` = endast free web
+> (bot-worker bortkommenterad); `buildFilter` tillagd men EJ re-synkad i Render. Webbtillägg i
+> `extension/` (byggt, ej publicerat).
 > **Nästa:** (1) re-synka Blueprint för buildFilter; (2) Telegram-bot (token + alltid-på/betald
-> worker); (3) Redis rate-limit + httpOnly JWT-cookie; (4) Qasa per stad + tilläggs-ikoner;
+> worker); (3) Redis rate-limit + httpOnly JWT-cookie; (4) tilläggs-ikoner/fältmappning;
 > (5) riktig juridisk enhet i Privacy/Terms. **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
 
+- **2026-06-10 (Qasa per ort):** GraphQL-argumentet `homeIndexSearch(params: {areaIdentifier:
+  "se/<stad>"})` avstämt mot live-API (probning via felmeddelanden, som tidigare). Ny konfig
+  `qasa_areas`/`QASA_AREAS` (kommaseparerat, tomt = hela landet); adaptern hämtar varje ort separat
+  via `documents(limit:)` och slår ihop med dedup på id. Cron `poll-homeq.yml` sätter
+  `QASA_AREAS=se/goteborg,se/stockholm` → Qasa bevakar nu samma metroområden som övriga källor
+  (live-smoke: 100 annonser, enbart Göteborg/Stockholm m. förorter). Tester `test_qasa_adapter.py`
+  (per-ort + dedup + landsomfattande). **148 passed**, ruff/black gröna.
 - **2026-06-08 (webbläsartillägg «Snabbansök»):** Legitim klient i `extension/` (Manifest V3): körs i
   användarens egen webbläsare, sparar JWT + ansökningsprofil **lokalt** (`chrome.storage.local`), listar
   matchningar (`/api/listings?matched`), öppnar annonser, badge med antal, och en hjälppanel på

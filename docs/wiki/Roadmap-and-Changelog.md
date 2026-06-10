@@ -75,6 +75,10 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
 - **2026-06-10** — **Ny bidragsgivare: Pushkinho (Petros)** (`Petros@maktic.se`). Tillagd i
   `CONTRIBUTING.md` (avsnitt «Bidragsgivare»), [Utvecklarguide](Developer-Guide) och `pyproject.toml`
   (`[project].authors`). Samma person som prod-testkontot `petros`.
+- **2026-06-10** — **Qasa per ort**: GraphQL-argumentet `homeIndexSearch(params: {areaIdentifier:
+  "se/<stad>"})` avstämt mot live-API. Ny konfig `QASA_AREAS` (kommaseparerat, tomt = hela landet);
+  adaptern hämtar varje ort separat och slår ihop (dedup på id). Cron bevakar nu **Göteborg + Stockholm**
+  för Qasa (i linje med övriga källor) istället för hela landet. 148 passed.
 
 ## Kända externa blockerare
 - Poller: riktig bevakning av plattformarna väntar på aktivering av adaptrar (`enabled=True`) — kräver
