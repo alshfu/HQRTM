@@ -446,6 +446,9 @@ utan att återupptäcka kontexten.
 - **2026-06-07:** Skapade CLAUDE.md, git/Pages, demot publicerat (alshfu.github.io/HQRTM/).
 
 ### Beslutslogg (lägg till, skriv inte om)
+- **2026-06-10:** **Ny bidragsgivare: Pushkinho (Petros)** — `Petros@maktic.se`. Tillagd i
+  `CONTRIBUTING.md` (avsnitt «Bidragsgivare»), `docs/wiki/Developer-Guide.md` (speglat till GitHub
+  Wiki) och `pyproject.toml` (`[project].authors`). Samma person som prod-testkontot `petros`.
 - **2026-06-08:** **Autoclicker/autoansökan avböjd.** Att bygga en bot som loggar in på användarnas
   plattformskonton och automatiskt skickar in ansökningar i autonomt läge byggs INTE: det strider mot
   HomeQ/Schibsten ToS, kräver lagring av tredjepartslösenord och bär juridisk risk — och motsäger
