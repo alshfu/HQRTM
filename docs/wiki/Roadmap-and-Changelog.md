@@ -85,6 +85,13 @@ Fullständig plan — `HQRTM_ToR_Flask_MongoDB_Roadmap.md` (§11). Aktuell statu
   typbonus) mot sidans `input`/`textarea`/`select`, med platsledtrådar per domän (`PLATFORM_HINTS`).
   Native value-setter + `input`/`change` → React-formulär reagerar; datum→`yyyy-mm-dd`. Fortsatt
   **ingen autoinskickning** (Beslutslogg).
+- **2026-06-10** — **Utökat filter** (våning/balkong/kök/yta): `Filter` får `floor_min/max`,
+  `require_balcony`/`require_kitchen` (utöver distrikt/rum/yta/hyra). `Listing` får
+  `floor`/`has_balcony`/`has_kitchen`. Källornas list-API:er saknar dessa fält (verifierat HomeQ/Qasa)
+  → `extract_features()` utvinner balkong/kök/våning ur annonsens **egen text** (ingen fiktion);
+  Bostadsförmedlingen ger dessutom strukturerade `Vaning`/`Balkong`. Matchning: våning **lenient**
+  (okänt släpps igenom → maximal matchning), bekvämligheter **strikta** (krav → måste vara bekräftat).
+  Utökat filterformulär («Fler kriterier») + flödeskort visar våning/balkong/kök. i18n sv/en. 162 passed.
 - **2026-06-10** — **httpOnly JWT-cookies + Redis-rate-limit** (Fas 8, säkerhet): login/register/refresh
   sätter `hqrtm_access`/`hqrtm_refresh` som **httpOnly**-cookies (`SameSite=Lax`, `Secure` i prod) —
   webbpanelen slutar lagra token i `localStorage` (XSS-skydd). `require_auth`, SSE och `/auth/refresh`

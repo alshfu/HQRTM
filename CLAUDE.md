@@ -286,6 +286,16 @@ utan att återupptäcka kontexten.
 > (4) publicera tillägget (Chrome Web Store/AMO); (5) ev. Redis-instans för delad rate-limit vid
 > uppskalning. **Gräns:** ingen autoclicker/lösenordslagring (Beslutslogg).
 
+- **2026-06-10 (utökat filter — våning/balkong/kök/yta):** `Filter` utökad med `floor_min/max`,
+  `require_balcony`/`require_kitchen` (utöver distrikt/rum/yta/hyra som redan fanns men nu exponeras
+  i UI:t). `Listing` utökad med `floor`/`has_balcony`/`has_kitchen`. **Datakälla:** list-API:erna
+  (HomeQ/Qasa) saknar dessa fält (live-verifierat) → `poller/sources/base.py::extract_features()`
+  utvinner balkong/kök/våning ur annonsens **egen text** (riktig data, ingen fiktion — Beslutslogg);
+  **Bostadsförmedlingen** ger strukturerade `Vaning`/`Balkong` (auktoritativa, inkl. False). Alla
+  adaptrar berikade. **Matchning** (`poller/matcher.py`): våning **lenient** (okänt släpps igenom →
+  maximal matchning), balkong/kök **strikta** (krav → annonsen måste bekräfta). Filterformulär med
+  «Fler kriterier» (yta/våning/balkong/kök), flödeskort visar våning/balkong/kök, i18n sv/en,
+  OpenAPI uppdaterad. Live-smoke (Qasa Göteborg): 42/50 berikade ur texten. **162 passed**.
 - **2026-06-10 (Fas 8 — httpOnly JWT-cookies + Redis rate-limit):** **Säkerhet.** `web/auth/cookies.py`
   (`set_/clear_auth_cookies`): login/register/refresh sätter `hqrtm_access`/`hqrtm_refresh` som
   **httpOnly**-cookies (`SameSite=Lax`; `Secure` via `COOKIE_SECURE` i prod) — additivt, JSON-tokens
