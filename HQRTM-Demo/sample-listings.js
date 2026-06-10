@@ -75,18 +75,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "homeq",
-    "title": "Aschebergsgatan 40C",
-    "url": "https://homeq.se/lagenhet/262226-4rum-göteborg-västra-götalands-län-aschebergsgatan-40c",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/3fbe56c292f54978a2fb3f430d7a0792.jpeg",
-    "description": "4 rum · 110 m² · i Göteborg, inflytt 2026-07-01",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 110.0,
-    "rent": 21500,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "homeq",
     "title": "Karlagatan 20C",
     "url": "https://homeq.se/lagenhet/262200-2rum-göteborg-västra-götalands-län-karlagatan-20c",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/bc379fe795554d9a939bb3c17341fafe.jpeg",
@@ -144,6 +132,18 @@ window.HQRTM_SAMPLE = [
     "area_m2": 54.0,
     "rent": 8060,
     "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
+    "title": "Skäpplandsgatan 4",
+    "url": "https://homeq.se/lagenhet/262021-3rum-göteborg-västra-götalands-län-skäpplandsgatan-4",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/abade93bbab24cfb98538340dc1f257c.jpeg",
+    "description": "3 rum · 76 m² · i Göteborg, inflytt 2026-08-01",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 76.0,
+    "rent": 13800,
+    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-10T12:21:15+00:00", "clock": "12:21:15"};
+window.HQRTM_META = {"count": 12, "region": "Göteborg", "sources": {"homeq": 12}, "generatedAt": "2026-06-10T13:40:25+00:00", "clock": "13:40:25"};
