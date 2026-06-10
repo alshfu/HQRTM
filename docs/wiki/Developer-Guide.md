@@ -55,3 +55,9 @@ pytest -q           # tester
 - Unit: `shared.utils`, modeller, `detector`/`matcher`.
 - Integration: API + index på `mongomock`, Flask test client (fixturer i `tests/conftest.py`:
   `db`, `client`, `make_user`, `bearer`).
+
+## Bidragsgivare
+- Alexander Shchetinin — skapare och underhållare.
+- Pushkinho (Petros) — `Petros@maktic.se`.
+
+Se även `CONTRIBUTING.md` i roten.
