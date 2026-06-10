@@ -29,3 +29,8 @@ och uppdatera vid behov baseline: `detect-secrets scan > .secrets.baseline`.
 - Loggar — utan PII (e-post, telegram_chat_id m.m.).
 - En plattforms parser är isolerad i sin adapter `poller/sources/<name>.py` — vid källändring
   rättas endast den filen (BE-DE-005).
+
+## Bidragsgivare
+
+- Alexander Shchetinin — skapare och underhållare
+- Pushkinho (Petros) — <Petros@maktic.se>
