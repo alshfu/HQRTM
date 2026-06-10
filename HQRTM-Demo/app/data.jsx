@@ -36,12 +36,16 @@ function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 function thumb(u) {
   return u ? "https://images.weserv.nl/?url=" + encodeURIComponent(u.replace(/^https?:\/\//, "")) + "&w=480&h=360&fit=cover&output=jpg&q=72" : null;
 }
+const HOST_BY_SOURCE = { homeq: "HomeQ", qasa: "Qasa", bostadsformedlingen: "Bostadsförmedlingen", samtrygg: "Samtrygg" };
 const REAL = (window.HQRTM_SAMPLE || []).map(function (it) {
   return {
     street: it.title || "Bostad", streetNo: "",
     area: it.district || "Göteborg", city: it.district || "Göteborg",
     rooms: it.rooms, sqm: it.area_m2 != null ? Math.round(it.area_m2) : null,
-    rent: it.rent, fcfs: it.listing_type === "fcfs", floor: null, host: "HomeQ",
+    rent: it.rent, fcfs: it.listing_type === "fcfs",
+    floor: it.floor != null ? it.floor : null,
+    balcony: it.has_balcony === true, kitchen: it.has_kitchen === true,
+    host: HOST_BY_SOURCE[it.source] || "HomeQ",
     queueDays: 0, available: "", image: thumb(it.image_url), url: it.url,
     description: it.description || "",
   };
@@ -71,6 +75,7 @@ function generateListing(opts = {}) {
     area: loc.area,
     city: loc.city,
     rooms, sqm, rent, fcfs, floor,
+    balcony: Math.random() < 0.6, kitchen: Math.random() < 0.9,
     host: pick(HOSTS),
     queueDays: fcfs ? 0 : rnd(120, 1900),
     available: pick(["Omgående", "1 jul", "1 aug", "15 aug", "1 sep"]),
@@ -181,7 +186,7 @@ const STRINGS = {
     dash_title: "Översikt", dash_sub: "Realtidsbevakning av lediga lägenheter",
     stat_today: "Träffar idag", stat_active_filters: "Aktiva filter", stat_avg_latency: "Snittlatens", stat_fastest: "Snabbaste larm",
     live_feed: "Live-flöde", feed_sub: "Nya objekt som matchar dina filter, i realtid",
-    fcfs: "Först till kvarn", fcfs_short: "FCFS", room: "rum", sqm: "m²", floor: "vån", rent_mo: "kr/mån", queue: "kö",
+    fcfs: "Först till kvarn", fcfs_short: "FCFS", room: "rum", sqm: "m²", floor: "vån", balcony: "Balkong", kitchen: "Eget kök", yes: "Ja", no: "—", rent_mo: "kr/mån", queue: "kö",
     paused_listings: "Pausat — inga nya larm just nu",
     empty_feed_t: "Inga träffar ännu", empty_feed_p: "Så fort ett objekt matchar dina filter dyker det upp här direkt. Larmet går också till din Telegram.",
     err_conn_t: "Anslutningen bröts", err_conn_p: "Vi försöker återansluta automatiskt. Inga larm missas — de köas på servern.",
@@ -265,7 +270,7 @@ const STRINGS = {
     dash_title: "Overview", dash_sub: "Real-time monitoring of available apartments",
     stat_today: "Matches today", stat_active_filters: "Active filters", stat_avg_latency: "Avg. latency", stat_fastest: "Fastest alert",
     live_feed: "Live feed", feed_sub: "New listings matching your filters, in real time",
-    fcfs: "First come, first served", fcfs_short: "FCFS", room: "rooms", sqm: "m²", floor: "fl", rent_mo: "kr/mo", queue: "queue",
+    fcfs: "First come, first served", fcfs_short: "FCFS", room: "rooms", sqm: "m²", floor: "fl", balcony: "Balcony", kitchen: "Own kitchen", yes: "Yes", no: "—", rent_mo: "kr/mo", queue: "queue",
     paused_listings: "Paused — no new alerts right now",
     empty_feed_t: "No matches yet", empty_feed_p: "The moment a listing matches your filters it shows up here instantly. The alert also hits your Telegram.",
     err_conn_t: "Connection lost", err_conn_p: "We’re reconnecting automatically. No alerts are missed — they’re queued on the server.",

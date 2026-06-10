@@ -305,6 +305,9 @@
         var specs = [];
         if (it.rooms != null) specs.push('<span>' + it.rooms + ' rum</span>');
         if (it.area_m2 != null) specs.push('<span>' + it.area_m2 + ' m²</span>');
+        if (it.floor != null) specs.push('<span>vån ' + it.floor + '</span>');
+        if (it.has_balcony) specs.push('<span>🌿 balkong</span>');
+        if (it.has_kitchen) specs.push('<span>🍳 kök</span>');
         if (it.rent != null) specs.push('<span class="rent">' + nf(it.rent) + ' kr/mån</span>');
 
         var a = document.createElement("a");

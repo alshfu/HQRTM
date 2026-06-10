@@ -119,6 +119,8 @@ function ListingCard({ l, lang, now, fresh, glow, onOpen }) {
           <div className="lc-spec"><span className="sl">{L.room}</span><span className="sv num">{l.rooms}<small> {L.room}</small></span></div>
           <div className="lc-spec"><span className="sl">{L.sqm}</span><span className="sv num">{l.sqm}<small> {L.sqm}</small></span></div>
           {l.floor != null && <div className="lc-spec"><span className="sl">{L.floor}</span><span className="sv num">{l.floor}<small> {L.floor}</small></span></div>}
+          {l.balcony && <div className="lc-spec"><span className="sl">{L.balcony}</span><span className="sv">🌿</span></div>}
+          {l.kitchen && <div className="lc-spec"><span className="sl">{L.kitchen}</span><span className="sv">🍳</span></div>}
         </div>
       </div>
       <div className="lc-side">

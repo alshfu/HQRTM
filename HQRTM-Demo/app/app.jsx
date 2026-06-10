@@ -58,7 +58,9 @@ function ListingModal({ l, lang, onClose, onToast }) {
       </div>
       <div className="form-grid" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
         {[[L.f_rent, `${fmtKr(l.rent)}`, L.rent_mo], [L.room, l.rooms, L.room], [L.sqm, l.sqm, "m²"],
-          [L.floor, l.floor, ""], [lang === "sv" ? "Inflytt" : "Move-in", l.available, ""], ["Värd", l.host, ""]].map((c, i) => (
+          [L.floor, l.floor != null ? l.floor : L.no, ""], [L.balcony, l.balcony ? L.yes : L.no, ""],
+          [L.kitchen, l.kitchen ? L.yes : L.no, ""],
+          [lang === "sv" ? "Inflytt" : "Move-in", l.available, ""], ["Värd", l.host, ""]].map((c, i) => (
           <div key={i} className="stat" style={{ boxShadow: "none" }}>
             <div className="k">{c[0]}</div>
             <div className="v num" style={{ fontSize: 18 }}>{c[1]}{c[2] && <small> {c[2]}</small>}</div>
