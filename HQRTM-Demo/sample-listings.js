@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Olof Skötkonungsgatan, Göteborg",
+    "url": "https://qasa.com/p/1390852",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a6ca52ce5d9087235c8a7285f5db949bff777c47d47bbea2ace40041be03aab2.png",
+    "description": "En fin stor 1a med eget kök men delad badrum i källaren i ett radhus område Öregrty. Vi hyr ut i förstahand helt omöblerat men det går att få enkelt möblerat. \nOBS! Man dela badrum tillsammans med en annan hyregäst i studio bredvid. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6520,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nymånegatan 19, Göteborg",
     "url": "https://qasa.com/p/1390829",
     "image_url": null,
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Famngatan, Gothenburg",
-    "url": "https://qasa.com/p/1390599",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19e9656649f98d0a415855fffefe2f44d6deb6c1547fec759faaef309ba741b6.jpg",
-    "description": "Hej, jag letar efter EN hyresgäst till min lägenhet. Vänligen observera att jag inte kan hyra ut den till två personer p.g.a. reglerna.\n\nDen ligger på Famngatan i Västra Frölunda och är 5 minuter från Nymilsgatan spårvagnshållplats. 30 kvm studio med solig balkong och uthyras möblerad och fullutrustat kök med diskmaskin och tvättmaskin i badrummet. Huset är en nyproduktion som byggdes 2021–2022. Det är en bostadsrätt och det är viktigt för mig att hyresgästen tar bra hand om den och mina möbler. Du får registrera din adress och få namnet på dörren. Tillgängligt från 3/08. Om du är intresserad, skriv gärna lite om dig själv och din situation. \nMed vänliga hälsningar,\nRegina\n\nHello, I am looking for ONE tenant for my flat. Please note that I cannot rent it out to two people due to the regulations.\n\nIt is located on Famngatan in Västra Frölunda and is 5 minutes from the Nymilsgatan tram stop. A 30 sqm studio with a sunny balcony, furnished and with a fully equipped kitchen including a dishwasher and washing machine in the bathroom. No extra storage space is available, unfortunately, so it's suitable for someone moving with few belongings. The building is a new development constructed in 2022. It is a \"bostadsrätt\" property, and it is important to me that the tenant takes good care of it and my furniture. You will be able to register your address and have your name on the door. Available from 3 August. If you are interested, please write a little about yourself and your situation.\nKind regards,\nRegina",
-    "district": "Gothenburg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-10T21:55:58+00:00", "clock": "21:55:58"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-10T22:41:38+00:00", "clock": "22:41:38"};
