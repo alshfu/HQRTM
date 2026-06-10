@@ -134,11 +134,17 @@ OPENAPI_SPEC: dict = {
         },
         "/auth/refresh": {
             "post": {
-                "summary": "Förnya access via refresh",
+                "summary": "Förnya access via refresh (body eller httpOnly-cookie)",
                 "responses": {
-                    "200": {"description": "access_token"},
+                    "200": {"description": "access_token (+ Set-Cookie)"},
                     "401": {"description": "ogiltigt"},
                 },
+            }
+        },
+        "/auth/logout": {
+            "post": {
+                "summary": "Logga ut — rensa auth-cookies",
+                "responses": {"200": {"description": "utloggad"}},
             }
         },
         "/api/filters": {

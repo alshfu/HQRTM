@@ -80,7 +80,11 @@
   document.getElementById("delete").addEventListener("click", async () => {
     if (!confirm(HQRTM.t("settings.delete_confirm"))) return;
     const { ok } = await HQRTM.api("/api/me", { method: "DELETE" });
-    if (ok) { HQRTM.clearTokens(); location.href = "/"; }
+    if (ok) {
+      HQRTM.clearTokens();
+      try { await HQRTM.api("/auth/logout", { method: "POST", auth: false }); } catch (_) {}
+      location.href = "/";
+    }
     else HQRTM.toast(HQRTM.t("settings.delete_err"), "error");
   });
 

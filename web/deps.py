@@ -12,18 +12,22 @@ from shared.db import COLL_USERS
 from shared.models import UserRole
 from shared.security import decode_token
 
+from web.auth.cookies import ACCESS_COOKIE
 from web.db import get_db
 
 
 def require_auth(fn):
-    """Kräver giltig Bearer access-token; lägger user_id i `g.user_id` (BE-AU-002)."""
+    """Kräver giltig access-token (Bearer-header eller httpOnly-cookie); user_id → `g.user_id`."""
 
     @wraps(fn)
     def wrapper(*args, **kwargs):
         header = request.headers.get("Authorization", "")
-        if not header.startswith("Bearer "):
+        if header.startswith("Bearer "):
+            token = header[len("Bearer ") :]
+        else:
+            token = request.cookies.get(ACCESS_COOKIE, "")
+        if not token:
             return jsonify(error="missing_token"), 401
-        token = header[len("Bearer ") :]
         try:
             payload = decode_token(token, expected_type="access")
         except jwt.ExpiredSignatureError:

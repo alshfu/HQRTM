@@ -27,6 +27,11 @@ class Settings(BaseSettings):
     jwt_secret: str = "change-me-dev-only"
     jwt_access_ttl_min: int = 15
     jwt_refresh_ttl_days: int = 30
+    # JWT i httpOnly-cookie (Fas 8) — alternativ till localStorage, skyddar token mot XSS.
+    # Webbpanelen använder cookies; tillägget/API-klienter använder Bearer. (BE-AU-002)
+    cookie_auth: bool = True  # sätt access/refresh som httpOnly-cookies vid login/register/refresh
+    cookie_secure: bool = False  # True i prod (HTTPS) → Secure-cookie; False i dev/test (HTTP)
+    cookie_samesite: str = "Lax"  # CSRF-skydd: Lax blockerar cookie vid cross-site POST/fetch
 
     # Telegram
     telegram_bot_token: str = ""

@@ -28,6 +28,10 @@ services:
         generateValue: true
       - key: FLASK_ENV
         value: production
+      - key: COOKIE_SECURE          # HTTPS i prod → Secure httpOnly-cookies för JWT
+        value: "true"
+      - key: RATELIMIT_STORAGE_URI  # Redis för delade rate-limit-räknare över processer (valfritt)
+        sync: false                 # t.ex. rediss://… ; tom → in-memory per process
       - key: LOG_JSON
         value: "true"
       - key: WEB_WORKERS

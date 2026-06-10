@@ -1,37 +1,30 @@
 /* HQRTM — klient för REST API (Vanilla JS).
- * Token i localStorage; auto-refresh av access vid 401; rutt-skydd på klienten.
- * Obs: localStorage är sårbart för XSS — flytt till httpOnly cookie är planerad (Fas 8). */
+ * Auth via httpOnly-cookies (sätts av servern; JS kan inte läsa token → skydd mot XSS).
+ * Cookies skickas automatiskt (same-origin). I localStorage ligger ENDAST en icke-känslig
+ * sessionsflagga för rutt-skyddet på klienten (UX); den verkliga kontrollen sker på servern. */
 
 const HQRTM = (() => {
-  const AK = "hqrtm_access";
-  const RK = "hqrtm_refresh";
+  const SK = "hqrtm_session"; // UX-flagga (inte en token) — styr klientens redirect till /login
 
-  const getAccess = () => localStorage.getItem(AK);
-  const getRefresh = () => localStorage.getItem(RK);
-  const setTokens = (a, r) => {
-    if (a) localStorage.setItem(AK, a);
-    if (r) localStorage.setItem(RK, r);
-  };
-  const clearTokens = () => {
-    localStorage.removeItem(AK);
-    localStorage.removeItem(RK);
-  };
-  const isAuthed = () => !!getAccess();
+  const isAuthed = () => localStorage.getItem(SK) === "1";
+  const markAuthed = () => localStorage.setItem(SK, "1");
+  const clearTokens = () => localStorage.removeItem(SK); // namnet behålls för bakåtkompatibilitet
 
-  async function raw(path, { method = "GET", body, auth = true } = {}) {
+  async function raw(path, { method = "GET", body } = {}) {
     const headers = { "Content-Type": "application/json" };
-    if (auth && getAccess()) headers["Authorization"] = "Bearer " + getAccess();
-    return fetch(path, { method, headers, body: body ? JSON.stringify(body) : undefined });
+    // credentials: skicka httpOnly-cookies med varje begäran (same-origin).
+    return fetch(path, {
+      method,
+      headers,
+      credentials: "same-origin",
+      body: body ? JSON.stringify(body) : undefined,
+    });
   }
 
   async function tryRefresh() {
-    const r = getRefresh();
-    if (!r) return false;
-    const resp = await raw("/auth/refresh", { method: "POST", body: { refresh_token: r }, auth: false });
-    if (!resp.ok) return false;
-    const data = await resp.json();
-    setTokens(data.access_token, null);
-    return true;
+    // Refresh-token ligger i httpOnly-cookie → tom body, servern läser cookien.
+    const resp = await raw("/auth/refresh", { method: "POST", body: {} });
+    return resp.ok;
   }
 
   /* Begäran med auto-refresh. Returnerar {ok, status, data}. */
@@ -47,18 +40,19 @@ const HQRTM = (() => {
 
   async function login(email, password) {
     const { ok, data } = await api("/auth/login", { method: "POST", body: { email, password }, auth: false });
-    if (ok) setTokens(data.access_token, data.refresh_token);
+    if (ok) markAuthed();
     return { ok, data };
   }
 
   async function register(email, password) {
     const { ok, data } = await api("/auth/register", { method: "POST", body: { email, password }, auth: false });
-    if (ok) setTokens(data.access_token, data.refresh_token);
+    if (ok) markAuthed();
     return { ok, data };
   }
 
-  function logout() {
+  async function logout() {
     clearTokens();
+    try { await raw("/auth/logout", { method: "POST" }); } catch (_) {}
     location.href = "/login";
   }
 

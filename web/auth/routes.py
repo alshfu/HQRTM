@@ -16,6 +16,7 @@ from shared.security import (
     verify_password,
 )
 
+from web.auth.cookies import REFRESH_COOKIE, clear_auth_cookies, set_auth_cookies
 from web.db import get_db
 from web.extensions import limiter
 
@@ -29,6 +30,15 @@ def _tokens(user_id: str) -> dict:
         "access_token": create_access_token(user_id),
         "refresh_token": create_refresh_token(user_id),
     }
+
+
+def _auth_response(user_id: str, status: int):
+    """JSON-svar med tokens (Bearer-klienter/tillägget) + httpOnly-cookies (webbpanelen)."""
+    tokens = _tokens(user_id)
+    resp = jsonify(id=user_id, **tokens)
+    resp.status_code = status
+    set_auth_cookies(resp, tokens["access_token"], tokens["refresh_token"])
+    return resp
 
 
 @bp.post("/register")
@@ -54,8 +64,7 @@ def register():
     except DuplicateKeyError:
         return jsonify(error="email_taken"), 409
 
-    user_id = str(res.inserted_id)
-    return jsonify(id=user_id, **_tokens(user_id)), 201
+    return _auth_response(str(res.inserted_id), 201)
 
 
 @bp.post("/login")
@@ -66,16 +75,28 @@ def login():
     user = db[COLL_USERS].find_one({"email": data.get("email", "")})
     if not user or not verify_password(user["password_hash"], data.get("password", "")):
         return jsonify(error="invalid_credentials"), 401
-    return jsonify(id=str(user["_id"]), **_tokens(str(user["_id"]))), 200
+    return _auth_response(str(user["_id"]), 200)
 
 
 @bp.post("/refresh")
 @limiter.limit("20/minute")
 def refresh():
     data = request.get_json(silent=True) or {}
-    token = data.get("refresh_token", "")
+    # Refresh-token från body (Bearer-klienter) eller httpOnly-cookie (webbpanelen).
+    token = data.get("refresh_token") or request.cookies.get(REFRESH_COOKIE, "")
     try:
         payload = decode_token(token, expected_type="refresh")
     except jwt.InvalidTokenError:
         return jsonify(error="invalid_token"), 401
-    return jsonify(access_token=create_access_token(payload["sub"])), 200
+    access = create_access_token(payload["sub"])
+    resp = jsonify(access_token=access)
+    set_auth_cookies(resp, access=access)
+    return resp
+
+
+@bp.post("/logout")
+def logout():
+    """Rensa auth-cookies. (Bearer-tokens är tillståndslösa → klienten slänger dem själv.)"""
+    resp = jsonify(status="logged_out")
+    clear_auth_cookies(resp)
+    return resp

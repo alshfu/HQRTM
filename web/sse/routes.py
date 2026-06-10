@@ -14,6 +14,7 @@ import jwt
 from flask import Blueprint, Response, current_app, jsonify, request
 from shared.security import decode_token
 
+from web.auth.cookies import ACCESS_COOKIE
 from web.sse.broker import broker
 
 bp = Blueprint("sse", __name__, url_prefix="/sse")
@@ -22,11 +23,14 @@ _HEARTBEAT_SEC = 15
 
 
 def _user_from_request() -> str | None:
+    # Token från query (EventSource kan inte sätta headers), Bearer-header eller httpOnly-cookie.
     token = request.args.get("token", "")
     if not token:
         header = request.headers.get("Authorization", "")
         if header.startswith("Bearer "):
             token = header[len("Bearer ") :]
+    if not token:
+        token = request.cookies.get(ACCESS_COOKIE, "")
     if not token:
         return None
     try:

@@ -60,9 +60,10 @@
 
     <div>
       <h2 class="text-lg font-semibold text-gray-100">7. Cookies och lokal lagring</h2>
-      <p class="mt-2">Vi använder en språk-cookie (<code>hqrtm_lang</code>) och lagrar
-         inloggningstoken (JWT) i webbläsarens localStorage för att hålla dig inloggad. Inga
-         spårningscookies för marknadsföring.</p>
+      <p class="mt-2">Vi använder en språk-cookie (<code>hqrtm_lang</code>) och nödvändiga
+         <strong>httpOnly-cookies</strong> (<code>hqrtm_access</code>/<code>hqrtm_refresh</code>) för
+         din inloggning (JWT) — de kan inte läsas av JavaScript (skydd mot XSS) och är
+         <code>SameSite=Lax</code>. Inga spårningscookies för marknadsföring.</p>
     </div>
 
     <div>

@@ -87,9 +87,8 @@
 
   function startSSE() {
     if (!window.EventSource) return startPolling();
-    const token = localStorage.getItem("hqrtm_access");
-    if (!token) return;
-    es = new EventSource(`/sse/feed?token=${encodeURIComponent(token)}`);
+    // Auth via httpOnly-cookie — EventSource skickar cookies automatiskt (same-origin).
+    es = new EventSource("/sse/feed", { withCredentials: true });
     es.onopen = () => { failures = 0; stopPolling(); setLive("live"); };
     es.onmessage = (e) => {
       try {
