@@ -35,10 +35,14 @@ def _in_triangle(px, py, ax, ay, bx, by, cx, cy) -> bool:
 
 
 def _house(x: float, y: float) -> bool:
-    """Vitt hus i normaliserade koordinater: tak (triangel) + kropp (rektangel)."""
-    roof = _in_triangle(x, y, 0.50, 0.18, 0.16, 0.52, 0.84, 0.52)
-    body = 0.27 <= x <= 0.73 and 0.50 <= y <= 0.82
-    door = 0.44 <= x <= 0.56 and 0.62 <= y <= 0.82  # urklippt dörr → accentfärg
+    """Vitt hus i normaliserade koordinater: tak (triangel) + kropp (rektangel).
+
+    Huset är optiskt centrerat: den tunga kroppen ligger högre upp så att tyngdpunkten
+    hamnar i mitten (annars ser huset ut att sitta för lågt).
+    """
+    roof = _in_triangle(x, y, 0.50, 0.14, 0.16, 0.48, 0.84, 0.48)
+    body = 0.27 <= x <= 0.73 and 0.46 <= y <= 0.78
+    door = 0.44 <= x <= 0.56 and 0.58 <= y <= 0.78  # urklippt dörr → accentfärg
     return (roof or body) and not door
 
 
