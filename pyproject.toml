@@ -9,7 +9,10 @@ description = "HomeQ Real-Time Monitor — bevakning av FCFS-annonser → Telegr
 readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
-authors = [{ name = "Alexander Shchetinin" }]
+authors = [
+    { name = "Alexander Shchetinin" },
+    { name = "Pushkinho (Petros)", email = "Petros@maktic.se" },
+]
 
 dependencies = [
     # web (API + Jinja2)
