@@ -17,7 +17,7 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter, as_float, as_int
+from poller.sources.base import SourceAdapter, as_float, as_int, extract_features
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.bostadsformedlingen")
@@ -74,20 +74,31 @@ class BostadsformedlingenAdapter(SourceAdapter):
         return [self._normalize(it) for it in items if _ext_id(it) is not None]
 
     def _normalize(self, it: dict[str, Any]) -> dict:
-        return {
+        title = it.get("Gatuadress") or "Bostad"
+        description = self._desc(it)
+        balcony = it.get("Balkong")
+        doc = {
             "source": str(self.source),
             "external_id": str(_ext_id(it)),
-            "title": it.get("Gatuadress") or "Bostad",
+            "title": title,
             "url": self._url(it),
             "image_url": None,
-            "description": self._desc(it),
+            "description": description,
             "district": it.get("Stadsdel") or it.get("Kommun"),
             "rooms": as_float(it.get("AntalRum")),
             "area_m2": as_float(it.get("Yta")),
             "rent": as_int(it.get("Hyra")),
+            # Strukturerade fält från det öppna API:et (auktoritativa, inkl. False).
+            "floor": as_int(it.get("Vaning")),
+            "has_balcony": balcony if isinstance(balcony, bool) else None,
             "listing_type": ListingType.QUEUE.value,  # köpoäng, inte FCFS
             "fcfs": False,
         }
+        # Komplettera saknade fält (t.ex. kök) ur texten — skriv inte över strukturerad källdata.
+        for key, val in extract_features(title, description).items():
+            if doc.get(key) is None:
+                doc[key] = val
+        return doc
 
     def _url(self, it: dict[str, Any]) -> str:
         base = get_settings().bostadsformedlingen_public_base.rstrip("/")

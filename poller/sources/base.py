@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from abc import ABC, abstractmethod
 from typing import Any
 
@@ -49,6 +50,56 @@ def pick_image(obj: dict[str, Any]) -> str | None:
     if isinstance(value, str) and value:
         return value
     return None
+
+
+# --------------------------------------------------------------------------- feature-extraktion
+#
+# Plattformarnas list-API:er exponerar sällan balkong/kök/våning som strukturerade fält
+# (verifierat mot HomeQ/Qasa 2026-06-10). Vi utvinner dem därför ur annonsens EGEN text
+# (titel/beskrivning/adress) — riktig källdata, ingen fiktion (Beslutslogg). Hittas inget →
+# fältet förblir None ("okänt"), och matcharen behandlar okänt enligt sin policy.
+
+_BALCONY_RE = re.compile(r"\b(balkong|fransk\s+balkong|altan|uteplats|terrass|loftgång)", re.I)
+_KITCHEN_RE = re.compile(r"\b(kök|kokvrå|kitchenette|pentry|trinettkök|köksö)", re.I)
+# Våning: "3 tr", "vån 3", "våning 3", "3:e våningen", "plan 3"; bottenvåning/markplan → 0.
+_FLOOR_RE = re.compile(
+    r"(?:\bvån(?:ing(?:en)?)?\.?\s*|\bplan\s*)(\d{1,2})\b"
+    r"|\b(\d{1,2})\s*(?::a|:e)?\s*(?:tr\b|trappor\b|våning)",
+    re.I,
+)
+_GROUND_RE = re.compile(r"\b(bottenvåning|bottenplan|markplan|bv\b)", re.I)
+
+
+def extract_features(*texts: str | None) -> dict[str, Any]:
+    """Utvinn {has_balcony, has_kitchen, floor} ur fritext. Endast hittade nycklar returneras.
+
+    Vi sätter bara *positiva* fynd (True / våningsnummer) — frånvaro av ett omnämnande är inte
+    bevis på frånvaro, så vi sätter aldrig False/0 spekulativt (utom uttalad bottenvåning → 0).
+    """
+    blob = " ".join(t for t in texts if t)
+    if not blob:
+        return {}
+    found: dict[str, Any] = {}
+    if _BALCONY_RE.search(blob):
+        found["has_balcony"] = True
+    if _KITCHEN_RE.search(blob):
+        found["has_kitchen"] = True
+    floor = _parse_floor(blob)
+    if floor is not None:
+        found["floor"] = floor
+    return found
+
+
+def _parse_floor(blob: str) -> int | None:
+    if _GROUND_RE.search(blob):
+        return 0
+    m = _FLOOR_RE.search(blob)
+    if not m:
+        return None
+    num = m.group(1) or m.group(2)
+    val = as_int(num)
+    # rimlighetskontroll: våningsplan 0–60 (annars troligen ett missförstått tal, t.ex. rumsyta)
+    return val if val is not None and 0 <= val <= 60 else None
 
 
 class SourceAdapter(ABC):

@@ -27,6 +27,9 @@
   function card(it) {
     const meta = [it.district, it.rooms ? it.rooms + " " + HQRTM.t("unit.rooms") : null,
                   it.area_m2 ? it.area_m2 + " m²" : null,
+                  (it.floor != null) ? HQRTM.t("unit.floor") + " " + it.floor : null,
+                  it.has_balcony ? "🌿 " + HQRTM.t("unit.balcony") : null,
+                  it.has_kitchen ? "🍳 " + HQRTM.t("unit.kitchen") : null,
                   it.rent ? it.rent + " " + HQRTM.t("unit.rent_month") : null].filter(Boolean).map(HQRTM.esc).join(" · ");
     const fcfs = it.listing_type === "fcfs"
       ? `<span class="text-[10px] font-mono px-2 py-0.5 rounded-full" style="background:#15b87822;color:#15b878">${HQRTM.t("dashboard.fcfs_badge")}</span>` : "";

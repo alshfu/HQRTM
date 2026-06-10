@@ -26,6 +26,22 @@ def _in_range(value, lo, hi) -> bool:
     return True
 
 
+def _in_range_lenient(value, lo, hi) -> bool:
+    """Som _in_range men okänt värde (None) släpps igenom — för glest befolkade fält (våning).
+
+    Vi utesluter alltså bara annonser där fältet är KÄNT och utanför intervallet → maximerar
+    matchningar när källan inte anger uppgiften.
+    """
+    if value is None:
+        return True
+    return _in_range(value, lo, hi)
+
+
+def _amenity_ok(required: bool, value) -> bool:
+    """Krav på bekvämlighet (balkong/kök): om krav → annonsen måste uttryckligen ha den (True)."""
+    return value is True if required else True
+
+
 def _district_ok(filt: dict, listing: dict) -> bool:
     """Filtrets distrikt/stad mot annonsens distrikt (case-insensitive delsträng).
 
@@ -55,6 +71,14 @@ def matches(filt: dict, listing: dict) -> bool:
     if not _in_range(listing.get("rooms"), filt.get("rooms_min"), filt.get("rooms_max")):
         return False
     if not _in_range(listing.get("area_m2"), filt.get("area_min"), filt.get("area_max")):
+        return False
+    # Våning glest befolkad → okänt släpps igenom (lenient)
+    if not _in_range_lenient(listing.get("floor"), filt.get("floor_min"), filt.get("floor_max")):
+        return False
+    # Bekvämligheter (strikt: krav → måste vara uttryckligen angivet i annonsen)
+    if not _amenity_ok(filt.get("require_balcony", False), listing.get("has_balcony")):
+        return False
+    if not _amenity_ok(filt.get("require_kitchen", False), listing.get("has_kitchen")):
         return False
 
     return _district_ok(filt, listing)

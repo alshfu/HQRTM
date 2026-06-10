@@ -67,6 +67,30 @@ def test_district_substring_case_insensitive():
     assert matches({"city": "STOCK"}, LISTING) is True
 
 
+def test_floor_range_is_lenient_on_unknown():
+    on_3 = {**LISTING, "floor": 3}
+    assert matches({"floor_min": 2, "floor_max": 5}, on_3) is True
+    assert matches({"floor_min": 4}, on_3) is False  # känd våning utanför → ingen match
+    # okänd våning (None) släpps igenom (maximerar matchningar)
+    assert matches({"floor_min": 4}, LISTING) is True
+
+
+def test_require_balcony_strict():
+    with_balcony = {**LISTING, "has_balcony": True}
+    without = {**LISTING, "has_balcony": False}
+    assert matches({"require_balcony": True}, with_balcony) is True
+    assert matches({"require_balcony": True}, without) is False
+    # okänt (None) räknas inte som bekräftad balkong → ingen match vid krav
+    assert matches({"require_balcony": True}, LISTING) is False
+    # utan krav spelar fältet ingen roll
+    assert matches({"require_balcony": False}, without) is True
+
+
+def test_require_kitchen_strict():
+    assert matches({"require_kitchen": True}, {**LISTING, "has_kitchen": True}) is True
+    assert matches({"require_kitchen": True}, LISTING) is False
+
+
 # ------------------------------------------------------------------- match_users()
 
 

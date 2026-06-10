@@ -8,8 +8,25 @@
   <input name="name" required placeholder="{{ t('filters.name_placeholder') }}" class="input px-3 py-2 rounded-lg sm:col-span-2" />
   <input name="district" placeholder="{{ t('filters.district_placeholder') }}" class="input px-3 py-2 rounded-lg" />
   <input name="city" placeholder="{{ t('filters.city_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+  <input name="rent_min" type="number" min="0" placeholder="{{ t('filters.rent_min_placeholder') }}" class="input px-3 py-2 rounded-lg" />
   <input name="rent_max" type="number" min="0" placeholder="{{ t('filters.rent_max_placeholder') }}" class="input px-3 py-2 rounded-lg" />
   <input name="rooms_min" type="number" min="0" step="0.5" placeholder="{{ t('filters.rooms_min_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+  <input name="rooms_max" type="number" min="0" step="0.5" placeholder="{{ t('filters.rooms_max_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+
+  <button type="button" id="adv-toggle" class="text-sm text-accent text-left sm:col-span-2">+ {{ t('filters.adv_toggle') }}</button>
+  <div id="adv" class="hidden sm:col-span-2 grid sm:grid-cols-2 gap-3">
+    <input name="area_min" type="number" min="0" placeholder="{{ t('filters.area_min_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+    <input name="area_max" type="number" min="0" placeholder="{{ t('filters.area_max_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+    <input name="floor_min" type="number" min="0" placeholder="{{ t('filters.floor_min_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+    <input name="floor_max" type="number" min="0" placeholder="{{ t('filters.floor_max_placeholder') }}" class="input px-3 py-2 rounded-lg" />
+    <label class="flex items-center gap-2 text-sm text-gray-400">
+      <input name="require_balcony" type="checkbox" /> {{ t('filters.require_balcony') }}
+    </label>
+    <label class="flex items-center gap-2 text-sm text-gray-400">
+      <input name="require_kitchen" type="checkbox" /> {{ t('filters.require_kitchen') }}
+    </label>
+  </div>
+
   <label class="flex items-center gap-2 text-sm text-gray-400 sm:col-span-2">
     <input name="only_fcfs" type="checkbox" checked /> {{ t('filters.only_fcfs') }}
   </label>
@@ -25,9 +42,22 @@
   const list = document.getElementById("list");
   const empty = document.getElementById("empty");
 
+  function range(min, max, unit) {
+    if (min != null && max != null) return min + "–" + max + " " + unit;
+    if (min != null) return "≥" + min + " " + unit;
+    if (max != null) return "≤" + max + " " + unit;
+    return null;
+  }
+
   function row(f) {
-    const meta = [f.district, f.city, f.rent_max ? "≤" + f.rent_max + " " + HQRTM.t("unit.kr") : null,
-                  f.rooms_min ? "≥" + f.rooms_min + " " + HQRTM.t("unit.rooms") : null, f.only_fcfs ? "FCFS" : null]
+    const meta = [f.district, f.city,
+                  range(f.rent_min, f.rent_max, HQRTM.t("unit.kr")),
+                  range(f.rooms_min, f.rooms_max, HQRTM.t("unit.rooms")),
+                  range(f.area_min, f.area_max, "m²"),
+                  range(f.floor_min, f.floor_max, HQRTM.t("unit.floor")),
+                  f.require_balcony ? HQRTM.t("unit.balcony") : null,
+                  f.require_kitchen ? HQRTM.t("unit.kitchen") : null,
+                  f.only_fcfs ? "FCFS" : null]
                   .filter(Boolean).map(HQRTM.esc).join(" · ");
     const state = f.is_active
       ? `<span class="text-accent">${HQRTM.t("filters.active")}</span>` : `<span class="text-gray-500">${HQRTM.t("filters.paused")}</span>`;
@@ -49,14 +79,26 @@
     empty.classList.toggle("hidden", cache.length > 0);
   }
 
+  document.getElementById("adv-toggle").addEventListener("click", (e) => {
+    document.getElementById("adv").classList.toggle("hidden");
+    e.target.classList.toggle("font-semibold");
+  });
+
+  const NUM_FIELDS = ["rent_min", "rent_max", "rooms_min", "rooms_max",
+                      "area_min", "area_max", "floor_min", "floor_max"];
+
   document.getElementById("form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const f = e.target;
-    const body = { name: f.name.value.trim(), only_fcfs: f.only_fcfs.checked };
+    const body = {
+      name: f.name.value.trim(),
+      only_fcfs: f.only_fcfs.checked,
+      require_balcony: f.require_balcony.checked,
+      require_kitchen: f.require_kitchen.checked,
+    };
     if (f.district.value) body.district = f.district.value.trim();
     if (f.city.value) body.city = f.city.value.trim();
-    if (f.rent_max.value) body.rent_max = +f.rent_max.value;
-    if (f.rooms_min.value) body.rooms_min = +f.rooms_min.value;
+    NUM_FIELDS.forEach((k) => { if (f[k].value) body[k] = +f[k].value; });
     const { ok } = await HQRTM.api("/api/filters", { method: "POST", body });
     if (ok) { f.reset(); HQRTM.toast(HQRTM.t("filters.added")); load(); }
     else HQRTM.toast(HQRTM.t("filters.err_save"), "error");

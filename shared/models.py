@@ -97,6 +97,11 @@ class Filter(_Doc):
     rooms_max: float | None = Field(default=None, ge=0)
     area_min: float | None = Field(default=None, ge=0)
     area_max: float | None = Field(default=None, ge=0)
+    floor_min: int | None = Field(default=None, ge=0)
+    floor_max: int | None = Field(default=None, ge=0)
+    # Bekvämligheter: kräv att annonsen uttryckligen anger balkong/kök (utvinns ur källans text).
+    require_balcony: bool = False
+    require_kitchen: bool = False
     only_fcfs: bool = True
     sources: list[Source] | None = None
     is_active: bool = True
@@ -117,6 +122,10 @@ class Listing(_Doc):
     rooms: float | None = None
     area_m2: float | None = None
     rent: int | None = Field(default=None, ge=0)
+    # Utvinns ur källans text/fält → None = okänt, aldrig spekulativt False (Beslutslogg).
+    floor: int | None = None
+    has_balcony: bool | None = None
+    has_kitchen: bool | None = None
     listing_type: ListingType = ListingType.UNKNOWN
     published_at: datetime | None = None
     fetched_at: datetime = Field(default_factory=_utcnow)

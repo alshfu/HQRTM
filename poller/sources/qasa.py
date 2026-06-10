@@ -20,7 +20,7 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter, as_float, as_int
+from poller.sources.base import SourceAdapter, as_float, as_int, extract_features
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.qasa")
@@ -134,13 +134,15 @@ class QasaAdapter(SourceAdapter):
         """Qasa-dokument → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
         ext_id = str(node["id"])
         loc = node.get("location") or {}
-        return {
+        title = self._title(loc)
+        description = node.get("description")
+        doc = {
             "source": str(self.source),
             "external_id": ext_id,
-            "title": self._title(loc),
+            "title": title,
             "url": f"{get_settings().qasa_public_base.rstrip('/')}/p/{ext_id}",
             "image_url": _first_image(node),
-            "description": node.get("description"),
+            "description": description,
             "district": loc.get("locality"),
             "rooms": as_float(node.get("roomCount")),
             "area_m2": as_float(node.get("squareMeters")),
@@ -149,6 +151,8 @@ class QasaAdapter(SourceAdapter):
             "listing_type": ListingType.FCFS.value,
             "fcfs": True,
         }
+        doc.update(extract_features(title, description))  # balkong/kök/våning ur texten
+        return doc
 
     def _title(self, loc: dict) -> str:
         route = loc.get("route")

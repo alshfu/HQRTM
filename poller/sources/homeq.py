@@ -29,7 +29,7 @@ import httpx
 from shared.config import get_settings
 from shared.models import ListingType, Source
 
-from poller.sources.base import SourceAdapter, as_float, as_int, pick_image
+from poller.sources.base import SourceAdapter, as_float, as_int, extract_features, pick_image
 from poller.sources.registry import register
 
 log = logging.getLogger("hqrtm.poller.homeq")
@@ -197,15 +197,15 @@ class HomeQAdapter(SourceAdapter):
     def _normalize(self, card: dict[str, Any]) -> dict:
         """HomeQ-kort → dict med fält från modellen ``Listing`` (+ ``fcfs`` för detektorn)."""
         ext_id = str(card["id"])
-        return {
+        title = card.get("title") or "Bostad"
+        description = card.get("description") or card.get("short_description") or _synth_desc(card)
+        doc = {
             "source": str(self.source),
             "external_id": ext_id,
-            "title": card.get("title") or "Bostad",
+            "title": title,
             "url": self._listing_url(card, ext_id),
             "image_url": pick_image(card),
-            "description": card.get("description")
-            or card.get("short_description")
-            or _synth_desc(card),
+            "description": description,
             "district": card.get("municipality") or card.get("city"),
             "rooms": as_float(card.get("rooms")),
             "area_m2": as_float(card.get("area")),
@@ -214,6 +214,8 @@ class HomeQAdapter(SourceAdapter):
             "listing_type": ListingType.FCFS.value,
             "fcfs": True,
         }
+        doc.update(extract_features(title, description))  # balkong/kök/våning ur texten
+        return doc
 
     def _listing_url(self, card: dict, ext_id: str) -> str:
         uri = card.get("uri")
