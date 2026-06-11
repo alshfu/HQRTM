@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Rosmaringatan, Angered",
+    "url": "https://qasa.com/p/1391586",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94eea6c455ad91391c09ce2d8ef5e8625ef586c2658aa9276b6e09157cb1e179.jpg",
+    "description": "Rymlig bostad med en stor inglasad balkong samt en utebalkong, ett möblerat hem med allt man behöver.  ",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 67.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Merkuriusgatan, Göteborg",
     "url": "https://qasa.com/p/1391567",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46686ab1de87fef1e06cee21d74eb5f2ce620ee34268b57332773d4062099a50.jpg",
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sofiagatan 10B, GÖTEBORG",
-    "url": "https://qasa.com/p/1391409",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a7493b8cea9f4bb1237547a0c436dc9a41284264375f1746e6b367062f4eb8d3.jpg",
-    "description": "Vi är glada att kunna erbjuda 15 nyrenoverade lägenheter på Sofiagatan 10 A-C i Bagaregården!\n \nHär erbjuds en 1 rok om 43 kvadratmeter. Lägenhetens ytskikt är ljusa och i hallen finns ett praktiskt klinkergolv, och i bostadens övriga rum ligger ett ljust LVT-golv i träimitation. Köket är välutrustat med rostfria vitvaror och en bänkskiva i kvartskomposit. Badrummet är helkaklat med duschväggar i glas, LED-belyst spegel, handdukstork och golvvärme.\n \nInga visningar kan erbjudas eftersom fastigheten fortfarande renoveras.\nObservera att avvikelser från planritningen kan förekomma och att bilderna i annonsen är exempelbilder.\r\n\r\nOMGIVNING\r\nBagaregården är ett lugnt och charmigt område med en härlig småstadskänsla nära city. Här finns populära caféer, lokala restauranger och fina promenadstråk.\r\n\r\nKOMMUNIKATIONER\r\nRedbergsplatsen som är en knutpunkt för kollektivtrafiken ligger inom gångavstånd.\r\n\r\nSERVICE\r\nI närområdet finns ett stort utbud av service, med allt från matbutiker, caféer till restauranger, skolor och vårdcentraler.\r\n\r\nPARKERING\r\nBalder har inga parkeringsplatser i området.",
-    "district": "GÖTEBORG",
-    "rooms": 1.0,
-    "area_m2": 43.0,
-    "rent": 9227,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T20:40:04+00:00", "clock": "20:40:04"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T21:31:11+00:00", "clock": "21:31:11"};
