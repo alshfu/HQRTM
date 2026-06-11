@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Inägogatan, Göteborg",
+    "url": "https://qasa.com/p/1391440",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9b2d4678d0369d32bdd1d08329a75cee143d8c4f90026282d4bdcd24b66fdd25.jpg",
+    "description": "En fräsch 1.5 med fantastisk utsikt på våning 7. Öppen planlösning och fullt utrustad med modernt kök, diskmaskin och kombimaskin för tvätt.\n\n10 minuters promenad från Eriksberg och vattnet. 5 minuter till Eketrägatan för smidig transport till Centrum.\n\nI hyran kommer el, vatten, bredband och tv ingå.\n\nMöblering kan diskuteras.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 42.0,
+    "rent": 10000,
+    "floor": 7,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Julaftonsgatan, Göteborg",
     "url": "https://qasa.com/p/1391451",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/efaed5c395c3def066400e8aeede29e9b0a2550a1e4705e305d6a77dc1888d3a.jpg",
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sofiagatan 10A, GÖTEBORG",
-    "url": "https://qasa.com/p/1391404",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cff03523db8f7f20a76977517c914d79e9042cc9a482a84ca96956465e2808f7.jpg",
-    "description": "Vi är glada att kunna erbjuda 15 nyrenoverade lägenheter på Sofiagatan 10 A-C i Bagaregården!\n \nHär erbjuds en 1 rok om 37 kvadratmeter. Lägenhetens ytskikt är ljusa och i hallen finns ett praktiskt klinkergolv, och i bostadens övriga rum ligger ett ljust LVT-golv i träimitation. Köket är välutrustat med rostfria vitvaror och en bänkskiva i kvartskomposit. Badrummet är helkaklat med duschväggar i glas, LED-belyst spegel, handdukstork och golvvärme.\n \nInga visningar kan erbjudas eftersom fastigheten fortfarande renoveras.\n\nObservera att avvikelser från planritningen kan förekomma och att bilderna i annonsen är exempelbilder.\r\n\r\nOMGIVNING\r\nBagaregården är ett lugnt och charmigt område med en härlig småstadskänsla nära city. Här finns populära caféer, lokala restauranger och fina promenadstråk.\r\n\r\nKOMMUNIKATIONER\r\nRedbergsplatsen som är en knutpunkt för kollektivtrafiken ligger inom gångavstånd.\r\n\r\nSERVICE\r\nI närområdet finns ett stort utbud av service, med allt från matbutiker, caféer till restauranger, skolor och vårdcentraler.\r\n\r\nPARKERING\r\nBalder har inga parkeringsplatser i området.",
-    "district": "GÖTEBORG",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 8560,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T17:48:02+00:00", "clock": "17:48:02"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T18:51:13+00:00", "clock": "18:51:13"};
