@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Gröna gatan, Göteborg",
+    "url": "https://qasa.com/p/1391588",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/48a005826de2c4809b1c5bf8ba24addc74865bc99d37326465ff2da928207e86.jpg",
+    "description": "PLEASE, READ THE WHOLE ADVERTISEMENT IN SWEDISH!\n\nEN MÅNADSUTHYRNING: 23 JUNI 2026 - 26 JULI 2026\nLägenheten är en fräsch möblerad 2-a belägen centralt, man kan cykla till centrum på 12 minuter, buss- och spårvagnshållplatser finns också väldigt nära. För övrigt har vi promenadavstånd till Röda Sten och Mariaplan med stort utbud av restauranger och caféer. \nDu kommer att få tillgång till all köksutrustning och övriga möbler i lägenheten. Man kommer in till en hall och till höger har man badrum och sovrum, rakt fram är det köket och till vänster är det vardagsrummet.\nI hyran ingår el, wifi. \nJag kommer att spendera en månads semester på en annan ort. Goda referenser erfordras.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 11200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rosmaringatan, Angered",
     "url": "https://qasa.com/p/1391586",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94eea6c455ad91391c09ce2d8ef5e8625ef586c2658aa9276b6e09157cb1e179.jpg",
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gatersered sörgård, Billdal",
-    "url": "https://qasa.com/p/1390628",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ad7e6237864468c66f61b4ab87777510c2f082ca2fa2fd8063177b6978409cef.jpg",
-    "description": "Ligger  bra till i lantlig miljö\nstor altan och trädgård\nCa 10 minuter gångväg till buss till gbg city ca 20 min med snabbuss\nLika nära till Kungsporten där hemköp restaurang apotek etc. finns.\nEl tillkommer",
-    "district": "Billdal",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T21:31:11+00:00", "clock": "21:31:11"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T22:17:59+00:00", "clock": "22:17:59"};
