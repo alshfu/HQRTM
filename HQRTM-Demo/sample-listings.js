@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Övre Husargatan 24",
+    "url": "https://homeq.se/lagenhet/262819-2rum-göteborg-västra-götalands-län-övre-husargatan-24",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/789b7b97197f429d8c6c9c8e8e22f8bf.jpeg",
+    "description": "2 rum · 61 m² · i Göteborg, inflytt 2026-07-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 61.0,
+    "rent": 8783,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Kristinehöjdsgatan 12 A",
     "url": "https://homeq.se/lagenhet/261241-1rum-göteborg-västra-götalands-län-kristinehöjdsgatan-12-a",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/ae13e5b978f5422fb7365073b2217dd5.jpeg",
@@ -92,16 +107,16 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   },
   {
-    "source": "homeq",
-    "title": "Friggagatan 9B",
-    "url": "https://homeq.se/lagenhet/262535-2rum-göteborg-västra-götalands-län-friggagatan-9b",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/23dc7cf7a5e749ae88a9fff12fcbb23e.jpeg",
-    "description": "2 rum · 73 m² · i Göteborg, inflytt 2026-10-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 73.0,
-    "rent": 12779,
-    "floor": null,
+    "source": "qasa",
+    "title": "Tredje Kvillängsvägen, Hisings Backa",
+    "url": "https://qasa.com/p/1391101",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d53606160b679d02caebd58755bee314c80308c254c0f01124bba4242ae21d3.jpg",
+    "description": "3.5 rok lägenhet uthyres tillsvidare enligt överenskommelse. Lägenheten är 2vånings lägenhet med 2st wc. \n\n----\n3.5 room apartment available for long term. The apartment is a 2 floor apartment with 2 wc on eachfloor with bathroom.",
+    "district": "Hisings Backa",
+    "rooms": 3.5,
+    "area_m2": 85.0,
+    "rent": 16500,
+    "floor": 2,
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
@@ -111,7 +126,7 @@ window.HQRTM_SAMPLE = [
     "title": "Bratteråsgatan, Göteborg",
     "url": "https://qasa.com/p/1390407",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4f29cfbd27762849997c846a8ea12381df4bae9daf5676850b5d81b90622503.jpg",
-    "description": "Välkommen till denna exklusiva lägenhet nära kajpromenaden på Eriksberg med  ett perfekt läge i den mest expansiva delen av Göteborg.\nMed sina 43 kvadratmeter erbjuder den en smart planerad 2:a, perfekt för både singlar och par som uppskattar kvalitet och stil.\nMycket luftig och rymlig atmosfär, tack vare en generös takhöjd på 3 meter. \nSovrum med en bekväm dubbelsäng och skjutgarderob med gott om plats.\nPå den privata uteplatsen kan man njuta av utomhuslivet och njuta av morgonkaffe eller slappna av på kvällen efter en lång dag.\n\nLägenheten är möblerad med skandinaviska designmöbler, och komplett med TV och husgeråd och Wifi (1000Mbps).\nSkrivbord finns.\n\nDet centrala läget på Eriksberg innebär att du har en mängd olika kommunikationsmöjligheter inom räckhåll. Butiker, restauranger och nöjen finns alla inom gångavstånd, vilket gör din vardag både bekväm och mångsidig.\nLigger precis intill Eriksbergstorget med flera busslinjer och dessutom direkt närhet till Eriksbergs färjeläge med förbindelse till Stenpiren/city.\nHyrs ut pga utlandsvistelse. Hyresperiod kan diskuteras, även kortare perioder möjligt. ",
+    "description": "Välkommen till denna exklusiva lägenhet nära kajpromenaden på Eriksberg med  ett perfekt läge i den mest expansiva delen av Göteborg.\nMed sina 43 kvadratmeter erbjuder den en smart planerad 2:a, perfekt för både singlar och par som uppskattar kvalitet och stil.\nMycket luftig och rymlig atmosfär, tack vare en generös takhöjd på 3 meter. \nSovrum med en bekväm dubbelsäng och skjutgarderob med gott om plats.\nPå den privata uteplatsen i söderläge kan man njuta av utomhuslivet och njuta av morgonkaffe eller slappna av på kvällen efter en lång dag.\n\nLägenheten är möblerad med skandinaviska designmöbler, och komplett med TV och husgeråd och Wifi (1000Mbps).\nSkrivbord finns.\n\nDet centrala läget på Eriksberg innebär att du har en mängd olika kommunikationsmöjligheter inom räckhåll. Butiker, restauranger och nöjen finns alla inom gångavstånd, vilket gör din vardag både bekväm och mångsidig.\nLigger precis intill Eriksbergstorget med flera busslinjer och dessutom direkt närhet till Eriksbergs färjeläge med förbindelse till Stenpiren/city.\nHyrs ut pga utlandsvistelse. Hyresperiod kan diskuteras, även kortare perioder möjligt. ",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 43.0,
@@ -153,6 +168,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Meteorgatan 40, Göteborg",
+    "url": "https://qasa.com/p/1391119",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/466458d1fc4ae4748c597ee19d2d0994d094fa8184e1be646f7b9c5614221ccd.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Bergsjön! Modernt kök med rostfria vitvaror och diskmaskin installerat. Genomgående parkett i lägenheten. Helkaklat badrum förberett för tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nNÄROMRÅDE\nLägenheten är belägen i Bergsjön, ett område med närhet till både service och grönområden. I närområdet finns bland annat mataffärer, skolor, förskolor och goda kommunikationer som tar dig vidare till centrala Göteborg. För den som uppskattar natur och friluftsliv finns flera promenadstråk, parker och rekreationsområden inom bekvämt avstånd.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 82.0,
+    "rent": 10496,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Olbersgatan, Göteborg",
     "url": "https://qasa.com/p/1390958",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0eeb61483e45de7abda5facd295dde798a85cfbf8f708ee3ad5cc7ad71633032.jpg",
@@ -180,36 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Olof Skötkonungsgatan, Göteborg",
-    "url": "https://qasa.com/p/1390852",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a6ca52ce5d9087235c8a7285f5db949bff777c47d47bbea2ace40041be03aab2.png",
-    "description": "En fin stor 1a med eget kök men delad badrum i källaren i ett radhus område Öregrty. Vi hyr ut i förstahand helt omöblerat men det går att få enkelt möblerat. \nOBS! Man dela badrum tillsammans med en annan hyregäst i studio bredvid. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6520,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nymånegatan 19, Göteborg",
-    "url": "https://qasa.com/p/1390829",
-    "image_url": null,
-    "description": "Renoverat kök och badrum 2013.\nKöket är utrustat med induktionshäll, infälld diskho, varmluftsugn och mikrovågsugn i arbetshöjd, diskmaskin.\nBadrummet har handdukstork, duschplats med vikväggar, plats för tvättmaskin och torktumlare.\nBalkong. \nParkeringsplats under tak finns att hyra.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 71.0,
-    "rent": 9352,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T08:58:42+00:00", "clock": "08:58:42"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T10:38:39+00:00", "clock": "10:38:39"};
