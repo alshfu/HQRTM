@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Lindens Gata 22",
+    "url": "https://homeq.se/lagenhet/262728-1rum-kungsbacka-hallands-län-lindens-gata-22",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/378c0089aa30414a96f4febf0c73ab82.jpeg",
+    "description": "1 rum · 27 m² · i Kungsbacka, inflytt 2026-09-01",
+    "district": "Kungsbacka",
+    "rooms": 1.0,
+    "area_m2": 27.0,
+    "rent": 7801,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Karneolgatan 11",
     "url": "https://homeq.se/lagenhet/262642-1rum-västra-frölunda-västra-götalands-län-karneolgatan-11",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/411a1ac63623495fb8f51b404ad75b31.jpeg",
@@ -92,17 +107,17 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   },
   {
-    "source": "homeq",
-    "title": "Hagavägen 29",
-    "url": "https://homeq.se/lagenhet/262321-2rum-alingsås-västra-götalands-län-hagavägen-29",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/415504ca384a40da810604e288ca9107.jpeg",
-    "description": "2 rum · 42 m² · i Alingsås, inflytt 2026-09-01",
-    "district": "Alingsås",
+    "source": "qasa",
+    "title": "Olbersgatan, Göteborg",
+    "url": "https://qasa.com/p/1390958",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0eeb61483e45de7abda5facd295dde798a85cfbf8f708ee3ad5cc7ad71633032.jpg",
+    "description": "Fin ljus lägenhet med balkong i söderläge. \nLägenheten har enbart haft 1 hyresgäst sedan den renoverades och är i fint skick. \n\nLägenheten har mycket ljusinsläpp. \n\nI närheten finns tempo och pizzeria resturang. 2 min gångväg till spårvagnen, som tar ca15 minuter till cetntrum.",
+    "district": "Göteborg",
     "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 7134,
+    "area_m2": 56.0,
+    "rent": 8843,
     "floor": null,
-    "has_balcony": null,
+    "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
   },
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Decembergatan, Göteborg",
-    "url": "https://qasa.com/p/1372034",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8629e9208b46d6387bd07c3e3c05057441aa83f2a4c178c22bd910ea7a8802af.jpg",
-    "description": "Hej\n\n** English at the bottom **\n\nEtt eget privat stort möblerat rum i en delad lägenhet som jag hyr ut med kontrakt som skrivs för uthyrning & du kan självklart skriva dig på adressen vid uthyrning.\n\nOch det ingår:\n\n- El\n- ingen deposition\n- Wifi snabbt internet\n- Rumsförsäkring\n- Värme\n- Kryddor, Toalett papper, tvål, diskmedel, städningsprodukter\n\ni ett delat boende med 1 till totalt ( jag ) person som har ett eget rum på andra sidan utav den stora lägenheten\n\n\n- 15 minuter in till centrum med spårvagn 7 och 11\n\n- 25 minuter till Chalmers med spårvagn 6\n\n\nOch rummet tidigare hyrdes ut av:\n\n- Tamara, Erasmus Tysk kvinnlig student Societyscience vid Göteborgs universitet.\n\n- Aleksandra, en ung kvinna ifrån Ukraina som jobbar och hyrt nästan i 1 år.\n\n- Inês, en Portugisisk student,\n\n- Sarah, Fransk kvinnlig marinbiolog Erasmusstudent vid Göteborgs universitet\n\nOch det finns rumsreferens att få vid rumsvisning om du skulle vilja ha\n\ninlytt tillgängligt ifrån 1 Augusti eller när det skulle passa dig\n\n\nStort eget Rum för uthyrning är på Decembergatan, Kortedala, Göteborg.\n\n\nHela lägenheten är 2 rum och kök 62m².\n\nDitt egna rum har stora garderober.\n\n\nDitt rum är på ena sidan utav stora lägenheten och mitt rum är på andra sidan.\n\n\n\nRummet är möblerat med\n\n\n- Säng , bädd set och täcke med kudde\n\n- Byrå\n\n- Matta\n\n- Lampa\n\n- Gardiner\n\n- Sängbord\n\n- Skrivbord med kontorsstol\n\n- Spegel\n\n- Extra Klädeshängare möbel\n\n\n\nSökes: En person som är ordningsam, ansvarsfull, lugn, ej rökare.\n\n\n\nOch i resten utav lägenheten så är delat utrymmen\n\n- Kök med diskmaskin, micro, kylskåp och frys\n\n- Hallen\n\n- Extra stort förrådsrum i lägenheten\n\n- Badrum\n\n- Källare förråd\n\n\n\nTvättstugan är inne i huset och det är lätt att få tid.\n\n\nOmrådet är lugnt och trevligt med nära till grönområden där man kan promenera, många vandringsleder, motionera, picknick, bibliotek, matbutiker, skog, vårdcentral.\n\n\n\nVäldigt nära till spårvagnar nr 6, 7, 11.\n\n15 minuter in till centrum med spårvagn 7 och 11.\n\n25 minuter till Chalmers med spårvagn 6.\n\n\n\nHör gärna av dig för en rumsvisning / digital videosamtals rumsvisning\neller om du har andra frågor.\n\n\nOch jag hyr ut rummet för att jag har en stor lägenhet och det hjälper till med hushålls kassan.\n\n\nMed Vänliga Hälsningar Radek\n\nHi\n\nA large private room in the shared apartment i am renting out & adress registration when renting\n\nEverything is included in the rent:\n\n- Electricity\n- No deposit\n- Wifi fast internet\n- Heating in the apartment\n- Room insurance\n- Spices, Toilet paper, hand soap,dishwashing liquid, dishwasher tablets, cleaning products\n\nAnd the room was previously rented by:\n\n- Tamara, Erasmus German female student\n\n- Aleksandra, a young woman from Ukraine who worked and rented almost 1 year\n\n- Inês, a Portuguese student\n\n- Sarah, French female Marine Biologist Erasmus student at Gothenburg University \n\n\nIf you have any questions or want to see the apartment or digital room/apartment viewing, please get in touch\n\nBest regards, Radek",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 13.0,
-    "rent": 3499,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T05:46:02+00:00", "clock": "05:46:02"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T07:21:26+00:00", "clock": "07:21:26"};
