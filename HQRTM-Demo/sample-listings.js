@@ -212,4 +212,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T18:51:13+00:00", "clock": "18:51:13"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T19:48:00+00:00", "clock": "19:48:00"};
