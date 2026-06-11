@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Merkuriusgatan, Göteborg",
+    "url": "https://qasa.com/p/1391567",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46686ab1de87fef1e06cee21d74eb5f2ce620ee34268b57332773d4062099a50.jpg",
+    "description": "Hyr ut min vackra lägenhet vid Merkuriusparken! Vån 3/3, balkong i sydost. Nyrenoverat badrum med badkar och två toaletter! Möblerad! From 1/7 men är flexibel med tid. Kortidsuthyrning 3 mån.  Nära till otroliga naturområden, sjö, kulturhus, affärer, bus och spårvagn. \n\nInternet, el och parkering ingår! \n\nSöker ansvarsfulla personer utan betalningsanmärkning och med referenser.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 8000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Inägogatan, Göteborg",
     "url": "https://qasa.com/p/1391440",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9b2d4678d0369d32bdd1d08329a75cee143d8c4f90026282d4bdcd24b66fdd25.jpg",
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Glasmästaregatan, Göteborg",
-    "url": "https://qasa.com/p/1391282",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a1c52d1b5d86bbaa87cef4c5906161cfa7bd74e3a5b0724c424ac4550f052c3.jpg",
-    "description": "En fräch och fin lägenhet på 2 rum och kokvrå. Ett litet extra rum/förråd i lgh.  Och även tillgång till källarförråd. \n\nOBS!  inflytt omgående. Tills augusti  2026-08-31\n\n\nVad som ingår i hyran\nDelvis möblerad\n(Soffa och matbord och stolar)\nVärme och vatten\nKommunikation\n\nMycket bra kommunikationer med närhet till spårvagn och buss. Kort avstånd till centrum, Chalmers, Liseberg och matbutiker/restauranger.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 6693,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T19:48:00+00:00", "clock": "19:48:00"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T20:40:04+00:00", "clock": "20:40:04"};
