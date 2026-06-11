@@ -108,6 +108,51 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Glasmästaregatan, Göteborg",
+    "url": "https://qasa.com/p/1391282",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a1c52d1b5d86bbaa87cef4c5906161cfa7bd74e3a5b0724c424ac4550f052c3.jpg",
+    "description": "En fräch och fin lägenhet på 2 rum och kokvrå. Ett litet extra rum/förråd i lgh.  Och även tillgång till källarförråd. \n\nOBS!  inflytt omgående. Tills augusti  2026-08-31\n\n\nVad som ingår i hyran\nDelvis möblerad\n(Soffa och matbord och stolar)\nVärme och vatten\nKommunikation\n\nMycket bra kommunikationer med närhet till spårvagn och buss. Kort avstånd till centrum, Chalmers, Liseberg och matbutiker/restauranger.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 6693,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kobbarnas Väg, Göteborg",
+    "url": "https://qasa.com/p/1391263",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6044c51482da0b1a1939199dd3d5eb8a25d7feb9a33c27cb4757fc9ef806c003.jpg",
+    "description": "Rum uthyres med tillgång till badrum och kök under en begränsad tid.\n\nFrån och med 2026-06-11 till och med den 20 augusti 2026",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nolebrunnsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1391258",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7fe4f7559d868e431fbef6ceef07c214a68c95ff0c5bd948d73c45483d9f76b2.jpg",
+    "description": "Välkommen till vårt nyrenoverade attefallshus på 25 kvm – en liten pärla som erbjuder allt du behöver för ett bekvämt boende! Här bor du med egen uteplats i ett lugnt område med närhet både till havet och stadens puls. Bra förbindelser med kollektivtrafiken, ca 10 min in till centrala Göteborg med direktbuss. Cykel och gångavstånd till havet. \n\nHuset är smart planerat och utrustat med allt du kan tänkas behöva: Fullt utrustat kök, fräscht badrum med dusch, tvättmaskin och en egen uteplats!\nPerkering finns för extra avgift.",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1391204",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d1166ff321f6a8deb91c4a19ea63b20952fad710e0205731e021602897a0d25.jpg",
@@ -119,51 +164,6 @@ window.HQRTM_SAMPLE = [
     "floor": 3,
     "has_balcony": null,
     "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslätten 10, Göteborg",
-    "url": "https://qasa.com/p/1391221",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3fb3750356577347fb044724ef7f7bb2f2bed8f9d9b6255c7e48b76fd28cbd73.jpg",
-    "description": "OBS! Lägenheten hyrs ut med ett korttidskontrakt och överenskommelse om avstående från besittningsskydd.\n\nMed ca 10 minuter till centrala Göteborg finns nu den här lägenheten för korttidsuthyrning. \nI Björkekärr bor du ett stenkast ifrån naturområden så som Härlanda tjärn och med bra förbindelser till centrala Göteborg. \n\nObservera att planlösningen är från en renoverad lägenhet. Därav förekommer avvikelser i planlösningen.\n\nIdag finns inte en garanterad hyrestid. Uppsägningstiden är 3 månader för båda parter. Köpoäng behålls vid korttidskontrakt.\r\n\r\nOMGIVNING\r\nSmörslätten är beläget i Björkekärr i Östra Göteborg. Området består av 6 huskroppar på 6 våningar vardera och ett daghem. Området ligger på gångavstånd till Delsjöns naturreservat med fina vandringsleder, ridvägar, fiskemöjligheter, motionsspår och flera fina badplatser.\r\n\r\nKOMMUNIKATIONER\r\nFrån närliggande Backvägen har du enkel tillgång till Svartexpress-busslinjen, som snabbt tar dig till centrala delar av staden. Dessutom kan du enkelt ta spårvagnarna 1 och 5 från Östra Sjukhuset, vilket gör det enkelt att pendla till och från arbete eller utforska staden. Busslinje 17 från Smörslottsgatan erbjuder också en smidig transportförbindelse. Oavsett var du behöver åka, så har du flera alternativ inom bekvämt räckhåll från din nya bostad.\r\n\r\nSERVICE\r\nÖstra sjukhuset ligger alldeles över gatan. Där finns både apotek och pressbyrå. En hållplats bort ligger Spåntorget med pizzeria, servicebutik och gym.\r\n\r\nPARKERING\r\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 4159,
-    "floor": 6,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslätten 8, Göteborg",
-    "url": "https://qasa.com/p/1391215",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f387006f10404418a7ab4f09b838a8ee11c6c19e93c9f027e2970140601bad33.jpg",
-    "description": "OBS! Lägenheten hyrs ut med ett korttidskontrakt och överenskommelse om avstående från besittningsskydd.\n\nMed ca 10 minuter till centrala Göteborg finns nu den här lägenheten för korttidsuthyrning. \nI Björkekärr bor du ett stenkast ifrån naturområden så som Härlanda tjärn och med bra förbindelser till centrala Göteborg. \n\nObservera att planlösningen är från en renoverad lägenhet. Därav förekommer avvikelser i planlösningen.\n\nIdag finns inte en garanterad hyrestid. Uppsägningstiden är 3 månader för båda parter. Köpoäng behålls vid korttidskontrakt.\r\n\r\nOMGIVNING\r\nSmörslätten är beläget i Björkekärr i Östra Göteborg. Området består av 6 huskroppar på 6 våningar vardera och ett daghem. Området ligger på gångavstånd till Delsjöns naturreservat med fina vandringsleder, ridvägar, fiskemöjligheter, motionsspår och flera fina badplatser.\r\n\r\nKOMMUNIKATIONER\r\nFrån närliggande Backvägen har du enkel tillgång till Svartexpress-busslinjen, som snabbt tar dig till centrala delar av staden. Dessutom kan du enkelt ta spårvagnarna 1 och 5 från Östra Sjukhuset, vilket gör det enkelt att pendla till och från arbete eller utforska staden. Busslinje 17 från Smörslottsgatan erbjuder också en smidig transportförbindelse. Oavsett var du behöver åka, så har du flera alternativ inom bekvämt räckhåll från din nya bostad.\r\n\r\nSERVICE\r\nÖstra sjukhuset ligger alldeles över gatan. Där finns både apotek och pressbyrå. En hållplats bort ligger Spåntorget med pizzeria, servicebutik och gym.\r\n\r\nPARKERING\r\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 4988,
-    "floor": 6,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslätten 2, Göteborg",
-    "url": "https://qasa.com/p/1391206",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee0591c2a266da79b024a0b77c6facede90e1171292d8d147be683572dafd589.jpg",
-    "description": "OBS! Lägenheten hyrs ut med ett korttidskontrakt och överenskommelse om avstående från \nbesittningsskydd.\nMed ca 10 minuter till centrala Göteborg finns nu den här 2an för \nkorttidsuthyrning. Lägenheten är 61\nKvadratmeter. I Björkekärr bor du ett stenkast ifrån naturområden så som Härlanda tjärn \noch med bra förbindelser till centrala Göteborg. \nObservera att planlösningen är från en renoverad lägenhet. Därav förekommer avvikelser i planlösningen.\r\n\r\nOMGIVNING\r\nSmörslätten är beläget i Björkekärr i Östra Göteborg. Området består av 6 huskroppar på 6 våningar vardera och ett daghem. Området ligger på gångavstånd till Delsjöns naturreservat med fina vandringsleder, ridvägar, fiskemöjligheter, motionsspår och flera fina badplatser.\r\n\r\nKOMMUNIKATIONER\r\nFrån närliggande Backvägen har du enkel tillgång till Svartexpress-busslinjen, som snabbt tar dig till centrala delar av staden. Dessutom kan du enkelt ta spårvagnarna 1 och 5 från Östra Sjukhuset, vilket gör det enkelt att pendla till och från arbete eller utforska staden. Busslinje 17 från Smörslottsgatan erbjuder också en smidig transportförbindelse. Oavsett var du behöver åka, så har du flera alternativ inom bekvämt räckhåll från din nya bostad.\r\n\r\nSERVICE\r\nÖstra sjukhuset ligger alldeles över gatan. Där finns både apotek och pressbyrå. En hållplats bort ligger Spåntorget med pizzeria, servicebutik och gym.\r\n\r\nPARKERING\r\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 7486,
-    "floor": 6,
-    "has_balcony": null,
-    "has_kitchen": null,
     "listing_type": "fcfs"
   },
   {
@@ -212,4 +212,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T12:08:59+00:00", "clock": "12:08:59"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T13:41:50+00:00", "clock": "13:41:50"};
