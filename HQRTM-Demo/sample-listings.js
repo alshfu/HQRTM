@@ -108,6 +108,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Julaftonsgatan, Göteborg",
+    "url": "https://qasa.com/p/1391451",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/efaed5c395c3def066400e8aeede29e9b0a2550a1e4705e305d6a77dc1888d3a.jpg",
+    "description": "Room for rent in Kortedala area Göteborg \n\n✅ Rent: 3500SEK/month\n✅ You can register your address here.\n✅ Security deposit is required or to cover any possible damages (e.g. broken windows or utilities).\n=We  can write  contract \n✅ Available to move in right away! Empty and furnished ready to move in right away ...first come first served \n=Smoke free\n=Pet free \n\nKortedala area 15 minutes from Central Station by  tram\n\nRum hyres inneboende i lägenhet omgående..\n=Hyra 3500kr/månader \n=Deposition  (ifall du skada fönster , köket .etc)\n=Skriva address \n= Skriva kontrakt \nOm du vill flytta omgående kontakta mig , lämna din telefon jag ringer dig direkt,\nKortedala område, Göteborg \n15 minuter från centralstationen \n\nMobil nummer: ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 3304,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Forsstenagatan, Göteborg",
     "url": "https://qasa.com/p/1372776",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8a4c16e2fe8cc267d866f6935e6253d9a7add2c9efc490ab51f6c388bc68ae8.jpg",
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sofiagatan 10A, GÖTEBORG",
-    "url": "https://qasa.com/p/1391401",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8dfdd6e999e95e395d602d54a9a2546ccafe4024f074fe1667246e769f55a60.jpg",
-    "description": "Vi är glada att kunna erbjuda 15 nyrenoverade lägenheter på Sofiagatan 10 A-C i Bagaregården!\n \nHär erbjuds en 3 rok om 80 kvadratmeter. Lägenhetens ytskikt är ljusa och i hallen finns ett praktiskt klinkergolv, och i bostadens övriga rum ligger ett ljust LVT-golv i träimitation. Köket är välutrustat med rostfria vitvaror och en bänkskiva i kvartskomposit. Badrummet är helkaklat med duschväggar i glas, LED-belyst spegel, handdukstork och golvvärme.\n\n- Tvättmaskin & torktumlare i lägenheten\n-  Balkong\n- Två våningsplan\n \nInga visningar kan erbjudas eftersom fastigheten fortfarande renoveras.\nObservera att avvikelser från planritningen kan förekomma och att bilderna i annonsen är exempelbilder.\r\n\r\nOMGIVNING\r\nBagaregården är ett lugnt och charmigt område med en härlig småstadskänsla nära city. Här finns populära caféer, lokala restauranger och fina promenadstråk.\r\n\r\nKOMMUNIKATIONER\r\nRedbergsplatsen som är en knutpunkt för kollektivtrafiken ligger inom gångavstånd.\r\n\r\nSERVICE\r\nI närområdet finns ett stort utbud av service, med allt från matbutiker, caféer till restauranger, skolor och vårdcentraler.\r\n\r\nPARKERING\r\nBalder har inga parkeringsplatser i området.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 14454,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T16:31:48+00:00", "clock": "16:31:48"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-11T17:48:02+00:00", "clock": "17:48:02"};
