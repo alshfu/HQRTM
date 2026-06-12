@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Backebogatan , Hisings Backa",
+    "url": "https://qasa.com/p/1375430",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fd550c0956fd4ec2f73c40af5e592018e47ecf21edb4f3753a6855a81195e64b.png",
+    "description": "Möblerad 3,5 rum på 88 kvm med uteplats \n\nNu finns möjlighet att hyra en rymlig och välplanerad lägenhet på 88kvm. Lägenheten hyrs ut möblerad,  bra kommunikationer med bus. Endast 2min gångavstånd till busshållplats. \n\nLägenheten består av:\n\n • 2,5 sovrum med  garderob\n\n • Stort vardagsrum med plats för extra säng eller arbetshörna\n\n • Kök med rymlig matplats\n\n • Hall med stor spegel och förvaring\n\n • 2 Badrum med tvättmaskin och torktumlare\n\nHyra: 14,500\nObs! El tillkommer.\n\nUthyres till skötsam person/personer med ordnad ekonomi.\nVid intresse, hör gärna av er med en kort beskrivning av er själva.",
+    "district": "Hisings Backa",
+    "rooms": 3.5,
+    "area_m2": 88.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sankt Jörgens Allé, Hisings Backa",
     "url": "https://qasa.com/p/1392078",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a6033f8688199295436fb615eec0b0e2e1b251f33da7fd3e049c7c9c71d397a.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fågelfängaregatan, Göteborg",
-    "url": "https://qasa.com/p/1305538",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e7c6aca0612f4ee2da67c9caefd9764c8ad607ab49b8d65ae7341dda8b0bac56.jpg",
-    "description": "For female tenants only. \nThree private bedrooms available. \nKitchen, living room and bathroom shared. \n\nRent room 1: 10 000 sek/month + utilities\nRent room 2: 8000 sek/month + utilities\n Rent room 3:  10 000 se/month + utilities\n\n---\n\nMitt vackra trähus från 1923 ligger i Kungsladugård. 5 min promenad till Slottsskogen. 2 minuters promenad till ICA och spårvagn 3 och 11 (Godhemsgatan). 3 minuters promenad till Mariaplan och Mariagatan med alla fik,  restauranger, pub, vinbar, bagerier, 2nd hand shops, apotek, Coop, etc. \n\nJag hyr ut huset till tre kvinnliga studenter. Ett sov-och arbetsrum per student. Gemensamt kök och vardagsrum. Ett badrum, en extra toalett och en tvättstuga. \n\nJag planerar bo utomlands under vintern, så bara min katt Agnes kommer vara hemma. Han är lugn och mysig och gillar sällskap så dom som hyr måste gilla katter.\n\nSovrum 1 om ca 18 kvadrat ligger på andra våningen.\nSovrum 2 på ca 12 kvadrat ligger på andra våningen.\nPå detta våningsplan finns också ett badrum med dusch, badkar och toalett\nSovrum 3 på ca 16 kvadrat ligger på vindsvåningen.\n\nKök och vardagsrum ligger båda på första våningen och tvättstugan i källarvåningen.\n\nI tillägg till hyran delar ni lika på el, uppvärmning, sophantering och internet, uppskattningsvis 600-800/månad och person beroende på er förbrukning.\n\nHyra för rum 1: 10 000 sek\nHyra för rum 2: 8000 sek\nHyra för rum 3:  10 000 se",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 120.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prospect Hillgatan, Göteborg",
-    "url": "https://qasa.com/p/1391815",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8b7e317e85a8916d7e8ac3cc01dfb5f29b7b33009a9104e73e04f0978ce98a9.jpg",
-    "description": "Välkommen till charmig sekelskiftesvilla med panoramautsikt över hela Göteborg. Ett rum erbjuds med fri tillgång till gemensamt kök och badrum, uteplats och tvättstuga. Hyran inkluderar el, vatten, värme, sophämtning, internet. Gratis parkering finns på gatan i direkt anslutning till fastigheten.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 7.0,
-    "rent": 5900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Husargatan, Göteborg",
-    "url": "https://qasa.com/p/1391611",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2cb3dad662792f52a0efc08e30106a0bcd26a3a11d714817e4faf1d88f1e3e04.jpg",
-    "description": "En underbar sekelskifteslägenhet med högt i tak och balkong ut mot Övre Husargatan. Ett stenkast från slottsskogen och alla härliga uteserveringar i Linne’kvarteren. 3 rum 78kvm+ kök med induktionshäll. 5 veckors uthyrning from veckan innan midsommar tom. första veckan i Augusti",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 17750,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T16:10:00+00:00", "clock": "16:10:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T17:17:07+00:00", "clock": "17:17:07"};
