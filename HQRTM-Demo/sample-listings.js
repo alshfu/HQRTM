@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sankt Jörgens Allé, Hisings Backa",
+    "url": "https://qasa.com/p/1392078",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e84e5266d4ee92d490672b68afcf4fb7518cb089471dec730255af465b3f8c74.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 24150 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/iqiejcd5o2vvzc71aest/vastra-gotaland/hisings-backa/sankt-jorgens-all--62/5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nEtt trevligt hus på centrala Hisingen i ett väldigt lugnt område (ej genomfart) nära bussar, köpcenter (Backaplan & Bäckebol) Skola 1-9 och förskola 500m från huset. Två toaletter med dusch. Nyrenoverat kök med diskmaskin och vinkyl. Braskamin. Stor altan mot väster (kvällssol) två golfbanor i närområdet.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 24150 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Hisings Backa",
+    "rooms": 5.0,
+    "area_m2": 140.0,
+    "rent": 22794,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Drakenbergsgatan, Gteborg",
     "url": "https://qasa.com/p/1392020",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b31d52f4f803cc16c2170806edcb4280cc9971834c9e6eb6c93e4c90e2d9c36.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Domarringsväg, Askim",
-    "url": "https://qasa.com/p/1390955",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d76acaa2b9a96ff6c7f65677241985e36385cc66a761871c5ba5a9d4c42cc8ba.jpg",
-    "description": " En  lägenhet i en 2 familjehus/ villa. Första hand alltså. Tills vidare.\nByggd ej länge sen, jätte fin och lyx med alla utrustningar, diskmaskin, tvättmaskin , parkering, . Jätte elegant lägenhet , ca. 79kv, 2,an .  möblerad, möbler kan tas ut om du önskar så. Med inglasad balkong, i en av de bästa områden i Göteborg, Askim, ca. 10-15 min till stan. Bra kommunikation till stan,  lång lång uthyrning, absolut vill inte ha kort uthyrning.  Med tanke på att det är min egen villa, då räknas den som första hand.  inklusiv  internet, sopphämtning, parkering om ni har bil blir 15000 kr hyra med 2 månader deposition.  \n3 busshållplatser precis i närheten mitt emot villan.\nDu kan flytta omedelbart. Kan skriva mitt nr så att diskutera.\nAll bekvämligheter finns i lägenheten som är en del av villa.",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 79.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T13:51:54+00:00", "clock": "13:51:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T14:58:11+00:00", "clock": "14:58:11"};
