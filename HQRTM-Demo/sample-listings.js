@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamlestads Brygga, Göteborg",
+    "url": "https://qasa.com/p/1392210",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/25f9b7274ab210348f7c4939933c5b9fc71662afe1e73e7bd9d64091aa7a9fc4.jpg",
+    "description": "Hyr ut vår lägenhet i Göteborg i andra hand. Läget är både centralt, men ger också lugnet utanför stan. Bara en hållplats med spårvagn till centrala Göteborg och förbindelser precis utanför dörren.\n\nNybyggd 2:a på 59kvm på våning 6 med utsikt över Säveån.\n\nI hyran ingår bredband 1000/1000Mbit/s. \nHör gärna av er om ni är intresserade av att veta mer!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 59.0,
+    "rent": 14000,
+    "floor": 6,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fotbollsvägen, Angered",
     "url": "https://qasa.com/p/1392174",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a741557850da20b9e34d35f8b3e118e089b9dd011433df12e81e8dc31301254b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solstrålegatan, Göteborg",
-    "url": "https://qasa.com/p/1391901",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bca7bfebbe099580b777d35cf5c36a1fadefb682570b165c106f356dc92d6b24.jpg",
-    "description": "Hej, lägenheten ligger i absolut rätt område, utan andra fastigheter runt om. Det är en lugn gård med stora grönytor samt lekplats som vätter mot skogen. Inga mopeder eller ligister som drar omkring på kvällar eller nätter. \n\nLägenheten är luftig i sin planlösning med ett stort sovrum ca 22 kvm med akrivbord och garderober samt en dubbelsäng som är elektrisk där man kan vinkla rygg eller forända som man vill. Det finns ett mindre sovrum på ca 12 kvm som också har skrivbord samt byrå. \n\nDet finns en ganska stor klädkammare samt i hall 2 även 3 garderober. \n\nBadrummet har en liten balkong och är  utrustat med badkar, toalett och handfat, samt med tvättmaskin och torktumlare vilka servas av fastighetsbolaget om så behövs. Det finns även en extra separat liten toalett i lägenheten, kanske bra för gäster eller barn. \n\nKöket har vita luckor, har spis/ugn, micro, diskmaskin, fyllstor kyl 180 cm samt även frys 180 cm och matbord för fyra. Köket är öppet mot vardagsrummet vilket skapar stor rymd. \n\nVardagsrummet har en stor hörnsoffa, tv och ett litet skrivbord. Utanför finns en stor balkong som vätter mot gården och skogen. \n\nUthyrningen är från 1 aug-ish, beroende på ert behov men det fungerar med inflytt ca 15 juli - 15 aug. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 94.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T18:54:13+00:00", "clock": "18:54:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T19:39:55+00:00", "clock": "19:39:55"};
