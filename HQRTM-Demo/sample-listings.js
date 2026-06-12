@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Drakenbergsgatan, Gteborg",
+    "url": "https://qasa.com/p/1392020",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b31d52f4f803cc16c2170806edcb4280cc9971834c9e6eb6c93e4c90e2d9c36.jpg",
+    "description": "Det är 4 st. hyresgäster/studenter som delar på kök och badrum på en ovanvåning i en villa.  Det finns nu två rum ledigt från den 1/8. Det tar 5 min. till spårvagnshållplatsen och det tar ca 20 min att promenera in till centrum. Rummen  passar några som skall studera i Gbg.\nDet bor två trevliga killar här redan. Så jag hoppas på att hitta två trevliga killar till.\nMed vänlig hälsning, Pia",
+    "district": "Gteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Solstrålegatan, Göteborg",
     "url": "https://qasa.com/p/1391901",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bca7bfebbe099580b777d35cf5c36a1fadefb682570b165c106f356dc92d6b24.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Luftvärnsvägen 8, Göteborg",
-    "url": "https://qasa.com/p/1391789",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0334ffe704d98b096b4824f9982a633d43dde81e8bfa728065e0f47f8bef75fd.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Kviberg! Kommer med diskmaskin, tvättmaskin och torktumlare (kombimaskin). Dessutom trägolv och helkaklat badrum. \nFörråd finns ej. \n\nBakom huset finns en grillplats och cykelförvaring under tak. Alldeles intill ligger Kvibergs knutpunkt med bara 10 minuter in till centrala Göteborg.\n\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni. \n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nI denna lägenhet gäller individuell mätning av energiförbrukningen, vilket gör att de boende själva kan påverka hur mycket varmvatten eller el de betalar för. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 12241,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T12:42:37+00:00", "clock": "12:42:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T13:51:54+00:00", "clock": "13:51:54"};
