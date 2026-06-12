@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fotbollsvägen, Angered",
+    "url": "https://qasa.com/p/1392174",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a741557850da20b9e34d35f8b3e118e089b9dd011433df12e81e8dc31301254b.jpg",
+    "description": "Gäststuga på 30 m², med  egen entré, 1 rum, badrum, kök, mindre förråd på vinden, parkering. Ett av rummen är inglasat och isolerad terass som kan används året runt med många fönster, fin utsikt mot trädgård och natur med mycket ljus. Stugan är delvis möblerad har en säng, bord i vardags rom,  bord med 2 stolar på teras,  garderob, skoskåp och alla nödvändiga hushållsapparater. Stugan ligger väldig centralt och nära stan. 10 min från Hjällbo Centrum och 20min från stan. 1 hållplats från Gamlestad, 2 hålplats från Stan, 2 hållplats från Angered. 50m från trädgården rinner Lärjeån med vackert skogsområde samt cykelbana och promenadväg. Villaområdet är mycket trevligt och lugnt. Bussar och spårvagnar i närheten, och det tar 20 min till stan. Upsägnings tid 3 månader. Hyra 7200 kr.  Välkommen.\n                               ",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 7200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stortoppsgatan, Göteborg",
-    "url": "https://qasa.com/p/1391889",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7cb33e9dfd18343bcf16a87a93ea2b0b1b4630ebf8ed0912e1bc3d5f42aa63f.png",
-    "description": "Mycket ljus och fin trerumslägenhet på Gråberget i Majorna. Belägen högst upp i fastigheten med fönster i tre väderstreck samt balkong. Alla bekvämligheter (diskmaskin, tvättmaskin/torktumlare) och egen garageplats med laddbox. Uthyres antingen delvis möblerad eller helt utan möbler (enligt överenskommelse).\n\nI hyran ingår el, vatten, bredband och garageplats.\n\nSe bifogad planlösning.\n\nUthyres i andra hand (pga prova-på-sambo) från mitten av augusti till sommaren 2027.\n\nReferenser krävs.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 76.0,
-    "rent": 16600,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T18:06:03+00:00", "clock": "18:06:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T18:54:13+00:00", "clock": "18:54:13"};
