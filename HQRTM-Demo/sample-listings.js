@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "homeq",
+    "title": "Västergatan 27",
+    "url": "https://homeq.se/lagenhet/262994-1rum-göteborg-västra-götalands-län-västergatan-27",
+    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/abcf413ca944420db6e4eee6114d1b7f.jpeg",
+    "description": "1 rum · 32 m² · i Göteborg, inflytt 2026-09-01",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 6130,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "homeq",
     "title": "Gymnasiegatan 13",
     "url": "https://homeq.se/lagenhet/262584-1rum-kungsbacka-hallands-län-gymnasiegatan-13",
     "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/378c0089aa30414a96f4febf0c73ab82.jpeg",
@@ -92,18 +107,18 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   },
   {
-    "source": "homeq",
-    "title": "Karl Johansgatan 82",
-    "url": "https://homeq.se/lagenhet/261556-3rum-göteborg-västra-götalands-län-karl-johansgatan-82",
-    "image_url": "https://homeq-media-live.s3.amazonaws.com/apartment_images/4a6b70fa15104df69264b51030187ab0.jpeg",
-    "description": "3 rum · 73 m² · i Göteborg, inflytt 2026-07-16",
+    "source": "qasa",
+    "title": "Grevegårdsvägen, Göteborg",
+    "url": "https://qasa.com/p/1295358",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/780383b78cb6d635173e52f1f99e6266a48f27fcfe32cec2a43a71324432a36f.jpg",
+    "description": "Hej, jag hyr ut ett möblerat rum, del i kök och badrum, ingår internet, el och vatten. Hållplatsen ligger i grevegårdsvägen med kommunikation av bussar och spårvagnar, ficka och gym.\nLedig omgående. Är du intresserad kontakta mig. Tack och välkommen.",
     "district": "Göteborg",
     "rooms": 3.0,
-    "area_m2": 73.0,
-    "rent": 8097,
+    "area_m2": 12.0,
+    "rent": 5000,
     "floor": null,
     "has_balcony": null,
-    "has_kitchen": null,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -195,21 +210,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Sörgårdsväg, Askim",
-    "url": "https://qasa.com/p/1390974",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2f211e47d4e16b2bfc7e071d9a672754f63c18586266578bf747044f136fdd29.jpg",
-    "description": "En plans villa, ljus och öppen planlösning med trivsam kök, 4 sovrum, badrum, gästtoalett, tvättstuga med groventre till carport. \nBelägen på barnvänlig gata med närhet till skola, hav, natur och kommunikationer.",
-    "district": "Askim",
-    "rooms": 5.0,
-    "area_m2": 122.0,
-    "rent": 23500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-12T03:50:27+00:00", "clock": "03:50:27"};
+window.HQRTM_META = {"count": 14, "region": "Göteborg", "sources": {"homeq": 7, "qasa": 7}, "generatedAt": "2026-06-12T05:27:10+00:00", "clock": "05:27:10"};
