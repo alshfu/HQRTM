@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bronsfatsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1392221",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/20cdd7b9bcd0b922d24ac74e332cc93841bf2be652878580110f0725046f6de8.jpg",
+    "description": "Hej\n\nI hyran ingår: El, sophantering, vatten, värme, bredband och tillgång till pendel parkering. För information så är detta en lägenhets villa som är nyrenoverat år 2022. Med egen ingång och entré. Fullt möblerat med porslin, glas samt husgeråd. Bara att flytta in.\n\nInfo om lägenheten:\nGenomgående hall med stor klädkammare och bra förvaring. \nNytt och fräscht kök. Stort sovrum och bra yta för vardagsrum. Nytt och fräscht badrum.\n\nBusshållplats finns 100 m bort från bostaden. Mycket bra kommunikationer och endast ett stenkast till Frölunda Torg och salta havsbad, Askimsbadet.\n\nEj lämplig för barnfamiljer. Rökning ej tillåtet. Ej fester. Allmänna bostads regler finns.\n\nUthyrnings tid: Tillsvidare men prov först i 6 månader.\n\n",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 8100,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamlestads Brygga, Göteborg",
     "url": "https://qasa.com/p/1392210",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/25f9b7274ab210348f7c4939933c5b9fc71662afe1e73e7bd9d64091aa7a9fc4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Drakenbergsgatan, Gteborg",
-    "url": "https://qasa.com/p/1392020",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b31d52f4f803cc16c2170806edcb4280cc9971834c9e6eb6c93e4c90e2d9c36.jpg",
-    "description": "Det är 4 st. hyresgäster/studenter som delar på kök och badrum på en ovanvåning i en villa.  Det finns nu två rum ledigt från den 1/8. Det tar 5 min. till spårvagnshållplatsen och det tar ca 20 min att promenera in till centrum. Rummen  passar några som skall studera i Gbg.\nDet bor två trevliga killar här redan. Så jag hoppas på att hitta två trevliga killar till.\nMed vänlig hälsning, Pia",
-    "district": "Gteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T20:29:35+00:00", "clock": "20:29:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T21:11:13+00:00", "clock": "21:11:13"};
