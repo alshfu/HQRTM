@@ -5,12 +5,12 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Sankt Jörgens Allé, Hisings Backa",
     "url": "https://qasa.com/p/1392078",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e84e5266d4ee92d490672b68afcf4fb7518cb089471dec730255af465b3f8c74.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a6033f8688199295436fb615eec0b0e2e1b251f33da7fd3e049c7c9c71d397a.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 24150 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/iqiejcd5o2vvzc71aest/vastra-gotaland/hisings-backa/sankt-jorgens-all--62/5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nEtt trevligt hus på centrala Hisingen i ett väldigt lugnt område (ej genomfart) nära bussar, köpcenter (Backaplan & Bäckebol) Skola 1-9 och förskola 500m från huset. Två toaletter med dusch. Nyrenoverat kök med diskmaskin och vinkyl. Braskamin. Stor altan mot väster (kvällssol) två golfbanor i närområdet.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 24150 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Hisings Backa",
     "rooms": 5.0,
     "area_m2": 140.0,
-    "rent": 22794,
+    "rent": 23012,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T14:58:11+00:00", "clock": "14:58:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-12T16:10:00+00:00", "clock": "16:10:00"};
