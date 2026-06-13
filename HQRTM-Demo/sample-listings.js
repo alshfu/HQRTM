@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bratteråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1392452",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1305b04f3de1a7191064669652d04ecac9c50ecf9eee0414a67cf0578ea266d3.jpg",
+    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sägengatan, Hisings Backa",
     "url": "https://qasa.com/p/1392430",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d124034fc5109b1a726338bf83f54f185920e9e06eccd84cb1e262c44e4025a0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Drakenbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1392329",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1cc4f5f2cb3e444d6d5caf79c52591f67fa39ef8496cbada62a6714e035d5e9e.jpg",
-    "description": "Välkommen till Drakenbergsgatan, Göteborg\nTillgänglig: 2026-08-01 - 2 år eller längre.\n\nKlassiskt vackert gammalt parhus med gedigna kvalitéer och danska designmöbler, byggt 1929. Huset är helrenoverat, kök med köksmaskiner från Miele bl.a. induktionshäll, kyl & frys med ismaskin och helkaklat badrum med dusch och badkar, samt golvvärme.\n\nHuset ligger i Örgryte villastad med närhet till skog och sjö samt gångavstånd till centrum. Endast 15 min till korsvägen och 25 minuter till Götaplatsen.\n\nTrevlig planlösning med sovrum på övre plan. Vardagsrum, kök och matsal med utgång till terrass och trädgård.\n\nBoende ytan är 180 kvm som är fördelat på 4 sovrum, varav ett rum är hela vindsvåningen med en walk in closet.\n\nKallhyra 25000:- per månad.\nTillkommer: fjärrvärme, sopor och vatten. samt\ninternet och hushållsel. \nEn månadshyra i deposition.\n\n...........\n\nAvailable 2026-08-01 - 2 years or longer.\n\nClassic beautiful old semi-detached house with solid qualities with Danish Design furniture, built in 1929. The house is renovated, kitchen with kitchen appliances from Miele i.e. induction hob, fridge & freezer with ice machine and fully tiled bathroom, shower, bath tube and underfloor heating.\n\nThe house is located in Örgryte residential area near to forest with lake and walking distance to the center. Only 15 minutes to Korsvägen and 25 minutes to Götaplatsen.\n\nNice floor plan with bedroom on the upper floor. Living room, kitchen and dining room with access to terrace and garden.\n\nThe living area is 180 sq.m. which is divided into 4 bedrooms, one of which is the entire 3rd floor with a walk in closet.\n\nBasic rent SEK 25,000 per month.\nAdditional: heating, garbage, water, internet and electricity.\nOne month rent deposit",
-    "district": "Göteborg",
-    "rooms": 6.0,
-    "area_m2": 180.0,
-    "rent": 25000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T13:46:12+00:00", "clock": "13:46:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T14:35:26+00:00", "clock": "14:35:26"};
