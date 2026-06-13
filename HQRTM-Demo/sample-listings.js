@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sägengatan, Hisings Backa",
+    "url": "https://qasa.com/p/1392430",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d124034fc5109b1a726338bf83f54f185920e9e06eccd84cb1e262c44e4025a0.jpg",
+    "description": "UTHYRES – Möblerad 1:a på Sägengatan 17 i Hisings Backa. \n\nJag kommer att hyra ut min fina bostadsrätt på 33,5 m2 från och med 1 september. Lägenheten totalrenoverades 2022 och ligger i närheten av Selma Lagerlöfs torg. Buss 18 går precis utanför och tar 19 minuter in till centrum! Bostaden är möblerad och det finns tv, wifi samt diskmaskin. Det finns gott om förvaringsutrymmen i lägenheten. Garageplats kan hyras till om det är av intresse. Andrahandskontraktet gäller i ett år med möjlighet till förlängning.\n\n\n\n🏢 Information om lägenheten och \n\n* 1 rum och kök (33,5 m2)\n\n* Wifi och tv-abonnemang hos Tele2 ingår\n\n* Diskmaskin\n\n* Fullt möblerad\n\n* Balkong\n\n* Garageplats kan hyras vid behov\n\n\n\n\n 💰Avgifter:\n\n*  Hyra: 7000 kr/månad\n\n* Garageplats 500 kr/månad\n\n* El och varmvatten ingår i hyran vid normal förbrukning\n\n\n\n📅 Inflyttning:\n\n* Ca 1 september 2026 (Exakt datum kan diskuteras)\n\n\n\n\n📜 Regler:\n\n* En månads deposition\n\n* Ingen rökning i lägenheten\n\n* Inga husdjur\n\n* Du behöver en hemförsäkring för dina egna tillhörigheter\n\n\n\nOm du är intresserad får du gärna skicka ett meddelande till mig  med information om:\n\n👤 Vem du är (ålder, sysselsättning etc.)\n\n📅 Planerad hyresperiod — startdatum, slutdatum\n\n📝 Referens (från tidigare hyresvärd eller liknande)\n",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Södra Vägen, Göteborg",
+    "url": "https://qasa.com/p/1258214",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2f3b3a2c9f11123f35e293b33a1a0d03368474635d6907689b3cb197cf9a65bd.jpg",
+    "description": "Hej,\nJag heter Anders och är konstnär och möbelformgivare. Jag bor i en \n100 m² stor lägenhet i en äldre fastighet nära Valand i centrala Göteborg. Jag hyr ut ett möblerat rum på 15 m². Du kommer att ha tillgång till kök, toalett/dusch, vardagsrum och matsal. En välfungerande tvättstuga finns i källaren, och internet med 500 Mbit/s ingår i hyran. Det är nästan alltid mycket tyst i huset, vilket kan vara bra om du är student. För tillfället har jag två studenter som hyr var sitt rum, Ilse som kommer från Holland och studerar arkitektur och Merlind som kommer från Tyskland och studerar global hälsa på Göteborgs universitet. Merlind flyttar ut i slutet av juni och då behöver jag en ny hyresgäst. Om du tycker att detta låter intressant får du gärna höra av dig och berätta lite om dig själv.\n\nHello,\nMy name is Anders, and I am an artist and furniture designer. I live in a \n100 m² apartment in an older property near Valand in central Gothenburg. I am renting out a furnished room of 15 m². You will have access to the kitchen, toilet/shower, living room and dining room. There is a well-functioning laundry room in the basement, and the 500 Mbit/s internet is included in the rent. It is almost always very quiet in the house, which can be good if you are a student. At the moment, I have two students who each rent their own room; Ilse, who comes from the Netherlands and studies architecture and Merlind, who comes from Germany and studies global health at the University of Gothenburg. Merlind is moving out at the end of June, and then I need a new tenant. If this sounds interesting to you, please get in touch and tell me a little about yourself.\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Eklandagatan, Göteborg",
     "url": "https://qasa.com/p/1357399",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5878e5e489415cc901a1ca8636be4603a987d05837e12b8214772b3a39ff1124.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prospect Hillgatan, Göteborg",
-    "url": "https://qasa.com/p/1392226",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a710c0bdde297dfedb177645267694939245d65948c0eb45b969b37671253368.jpg",
-    "description": "Välkommen till charmig sekelskiftesvilla med panoramautsikt över hela Göteborg. Ett rum erbjuds med fri tillgång till gemensamt kök och badrum, uteplats och tvättstuga. Hyran inkluderar el, vatten, värme, sophämtning, internet. Gratis parkering finns på gatan i direkt anslutning till fastigheten. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims sörgårdsväg, Askim. Göteborg.",
-    "url": "https://qasa.com/p/1392319",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e2628b077769308a2e877478b5e9c253fa8697209af72859be33e2608473a0a5.jpg",
-    "description": "Askims Sörgårdsväg 67, 436 44 Askim\n\nUthyres i första hand Nybyggd Villa (2017). Belägen i eftertraktad Askim, \npå barnvänlig gata med närhet till hav, skolor, natur och affärer. 150 m till busshållsplatsen med mycket goda och täta kommunikationsförbindelser till stan, universitet och sjukhus mm.\n\nLjus och öppenplanlösning med trivsamt och välutrustad kök, 4 sovrum varav ett med praktiskt klädvårdsrum och ett stort vardagsrum med anslutning till altan. Rymligt badrum, gästtoalett, mycket välutrustad tvättstuga med grov entre till carport. Stort Garage.\nGräsmatta och stort altan.\n\nPassar mycket bra som kollektivboende för studenter eller som ett rymligt en familj hus.\n\nhyra 23500 kr/månad.\n",
-    "district": "Askim. Göteborg.",
-    "rooms": 5.0,
-    "area_m2": 122.0,
-    "rent": 23500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T11:49:46+00:00", "clock": "11:49:46"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T12:24:53+00:00", "clock": "12:24:53"};
