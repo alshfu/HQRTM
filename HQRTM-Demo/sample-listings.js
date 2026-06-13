@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Drakenbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1392329",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1cc4f5f2cb3e444d6d5caf79c52591f67fa39ef8496cbada62a6714e035d5e9e.jpg",
+    "description": "Välkommen till Drakenbergsgatan, Göteborg\nTillgänglig: 2026-08-01 - 2 år eller längre.\n\nKlassiskt vackert gammalt parhus med gedigna kvalitéer och danska designmöbler, byggt 1929. Huset är helrenoverat, kök med köksmaskiner från Miele bl.a. induktionshäll, kyl & frys med ismaskin och helkaklat badrum med dusch och badkar, samt golvvärme.\n\nHuset ligger i Örgryte villastad med närhet till skog och sjö samt gångavstånd till centrum. Endast 15 min till korsvägen och 25 minuter till Götaplatsen.\n\nTrevlig planlösning med sovrum på övre plan. Vardagsrum, kök och matsal med utgång till terrass och trädgård.\n\nBoende ytan är 180 kvm som är fördelat på 4 sovrum, varav ett rum är hela vindsvåningen med en walk in closet.\n\nKallhyra 25000:- per månad.\nTillkommer: fjärrvärme, sopor och vatten. samt\ninternet och hushållsel. \nEn månadshyra i deposition.\n\n...........\n\nAvailable 2026-08-01 - 2 years or longer.\n\nClassic beautiful old semi-detached house with solid qualities with Danish Design furniture, built in 1929. The house is renovated, kitchen with kitchen appliances from Miele i.e. induction hob, fridge & freezer with ice machine and fully tiled bathroom, shower, bath tube and underfloor heating.\n\nThe house is located in Örgryte residential area near to forest with lake and walking distance to the center. Only 15 minutes to Korsvägen and 25 minutes to Götaplatsen.\n\nNice floor plan with bedroom on the upper floor. Living room, kitchen and dining room with access to terrace and garden.\n\nThe living area is 180 sq.m. which is divided into 4 bedrooms, one of which is the entire 3rd floor with a walk in closet.\n\nBasic rent SEK 25,000 per month.\nAdditional: heating, garbage, water, internet and electricity.\nOne month rent deposit",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 180.0,
+    "rent": 25000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Prospect Hillgatan, Göteborg",
+    "url": "https://qasa.com/p/1392226",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a710c0bdde297dfedb177645267694939245d65948c0eb45b969b37671253368.jpg",
+    "description": "Välkommen till charmig sekelskiftesvilla med panoramautsikt över hela Göteborg. Ett rum erbjuds med fri tillgång till gemensamt kök och badrum, uteplats och tvättstuga. Hyran inkluderar el, vatten, värme, sophämtning, internet. Gratis parkering finns på gatan i direkt anslutning till fastigheten. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Askims sörgårdsväg, Askim. Göteborg.",
+    "url": "https://qasa.com/p/1392319",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e2628b077769308a2e877478b5e9c253fa8697209af72859be33e2608473a0a5.jpg",
+    "description": "Askims Sörgårdsväg 67, 436 44 Askim\n\nUthyres i första hand Nybyggd Villa (2017). Belägen i eftertraktad Askim, \npå barnvänlig gata med närhet till hav, skolor, natur och affärer. 150 m till busshållsplatsen med mycket goda och täta kommunikationsförbindelser till stan, universitet och sjukhus mm.\n\nLjus och öppenplanlösning med trivsamt och välutrustad kök, 4 sovrum varav ett med praktiskt klädvårdsrum och ett stort vardagsrum med anslutning till altan. Rymligt badrum, gästtoalett, mycket välutrustad tvättstuga med grov entre till carport. Stort Garage.\nGräsmatta och stort altan.\n\nPassar mycket bra som kollektivboende för studenter eller som ett rymligt en familj hus.\n\nhyra 23500 kr/månad.\n",
+    "district": "Askim. Göteborg.",
+    "rooms": 5.0,
+    "area_m2": 122.0,
+    "rent": 23500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Munkebäcksgatan, Göteborg",
     "url": "https://qasa.com/p/1392263",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0d66599b312073a23c00398e903db22365e56954c7d1258f86f4df13fa5ca99.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fotbollsvägen, Angered",
-    "url": "https://qasa.com/p/1392174",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a741557850da20b9e34d35f8b3e118e089b9dd011433df12e81e8dc31301254b.jpg",
-    "description": "Gäststuga på 30 m², med  egen entré, 1 rum, badrum, kök, mindre förråd på vinden, parkering. Ett av rummen är inglasat och isolerad terass som kan används året runt med många fönster, fin utsikt mot trädgård och natur med mycket ljus. Stugan är delvis möblerad har en säng, bord i vardags rom,  bord med 2 stolar på teras,  garderob, skoskåp och alla nödvändiga hushållsapparater. Stugan ligger väldig centralt och nära stan. 10 min från Hjällbo Centrum och 20min från stan. 1 hållplats från Gamlestad, 2 hålplats från Stan, 2 hållplats från Angered. 50m från trädgården rinner Lärjeån med vackert skogsområde samt cykelbana och promenadväg. Villaområdet är mycket trevligt och lugnt. Bussar och spårvagnar i närheten, och det tar 20 min till stan. Upsägnings tid 3 månader. Hyra 7200 kr.  Välkommen.\n                               ",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 7200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T08:03:37+00:00", "clock": "08:03:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T09:16:46+00:00", "clock": "09:16:46"};
