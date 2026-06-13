@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lönnskärsdamm, Brännö",
+    "url": "https://qasa.com/p/1391383",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c480d037008acd30344e71bf63f100e2271db65289029d5f5e7111a594357e0.jpg",
+    "description": "Stuga på Brännö hyrs ut till student. Stugan har allrum med kokvrå och duschrum med toalett. Stugan uthyres möblerad och med köksgeråd. I allrummet finns säng, soffa, fåtölj, matbord med stolar, garderob, TV och byrå. Köksutrustningen har allt som behövs för en längre vistelse.  Tvättstuga finns i angränsande byggnad. I hyran ingår el och wi-fi. Stugan uthyres till student under begränsad tid motsvarande läsår/termin. Brännö har goda kommunala förbindelser med Göteborg.",
+    "district": "Brännö",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nedre Hjällbogärdet, Angered",
     "url": "https://qasa.com/p/1392529",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/274bb3dd2095862eea223356084296bd275dddf7f1fdaf5b411f9c387b8424e9.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Decembergatan, Göteborg",
-    "url": "https://qasa.com/p/1392392",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7756565d61af1e7189fea53d6f68b0555007ad7c8db1760a8e65a6701812a6a0.jpg",
-    "description": "Hej\n\n** English at the bottom **\n\n1  September 2026 - 31 Januari 2027\n\nEtt eget privat stort möblerat rum i en delad lägenhet som jag hyr ut med kontrakt som skrivs för uthyrning & du kan självklart skriva dig på adressen vid uthyrning.\n\nOch det ingår:\n\n- El\n- ingen deposition\n- Wifi snabbt internet\n- Rumsförsäkring\n- Värme\n- Kryddor, Toalett papper, tvål, diskmedel, städningsprodukter\n\ni ett delat boende med 1 till totalt ( jag ) person som har ett eget rum på andra sidan utav den stora lägenheten\n\n\n- 15 minuter in till centrum med spårvagn 7 och 11\n\n- 25 minuter till Chalmers med spårvagn 6\n\n\nOch rummet tidigare hyrdes ut av:\n\n- Tamara, Erasmus Tysk kvinnlig student Societyscience vid Göteborgs universitet.\n\n- Aleksandra, en ung kvinna ifrån Ukraina som jobbar och hyrt nästan i 1 år.\n\n- Inês, en Portugisisk student,\n\n- Sarah, Fransk kvinnlig marinbiolog Erasmusstudent vid Göteborgs universitet\n\nOch det finns rumsreferens att få vid rumsvisning om du skulle vilja ha\n\n\nStort eget Rum för uthyrning är på Decembergatan, Kortedala, Göteborg.\n\n\nHela lägenheten är 2 rum och kök 62m².\n\nDitt egna rum har stora garderober.\n\n\nDitt rum är på ena sidan utav stora lägenheten och mitt rum är på andra sidan.\n\n\n\nRummet är möblerat med\n\n\n- Säng , bädd set och täcke med kudde\n\n- Byrå\n\n- Matta\n\n- Lampa\n\n- Gardiner\n\n- Sängbord\n\n- Skrivbord med kontorsstol\n\n- Spegel\n\n- Extra Klädeshängare möbel\n\n\n\nSökes: En person som är ordningsam, ansvarsfull, lugn, ej rökare.\n\n\n\nOch i resten utav lägenheten så är delat utrymmen\n\n- Kök med diskmaskin, micro, kylskåp och frys\n\n- Hallen\n\n- Extra stort förrådsrum i lägenheten\n\n- Badrum\n\n- Källare förråd\n\n\n\nTvättstugan är inne i huset och det är lätt att få tid.\n\n\nOmrådet är lugnt och trevligt med nära till grönområden där man kan promenera, många vandringsleder, motionera, picknick, bibliotek, matbutiker, skog, vårdcentral.\n\n\nHör gärna av dig för en rumsvisning / digital videosamtals rumsvisning\neller om du har andra frågor.\n\n\nOch jag hyr ut rummet för att jag har en stor lägenhet och det hjälper till med hushålls kassan.\n\n\nMed Vänliga Hälsningar Radek\n\nHi\n\n1 September - 31 January 2027\n\nA large furnished private room in the shared apartment i am renting out & with adress registration when renting\n\nEverything is included in the rent:\n\n- Electricity\n- No deposit\n- Wifi fast internet\n- Heating in the apartment\n- Room insurance\n- Spices, Toilet paper, hand soap,dishwashing liquid, dishwasher tablets, cleaning products\n\n\n- 15 minutes to City Center with tram nr 7 & nr 11\n\n- 25 minutes to Chalmers with tram nr 6\n\n\nAnd the room was previously rented by:\n\n- Tamara, Erasmus German female student\n\n- Aleksandra, a young woman from Ukraine who worked and rented almost 1 year\n\n- Inês, a Portuguese student\n\n- Sarah, French female Marine Biologist Erasmus student at Gothenburg University \n\n\nIf you have any questions or want to see the apartment or digital room/apartment viewing, please get in touch\n\nBest regards, Radek",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 13.0,
-    "rent": 3499,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T19:21:25+00:00", "clock": "19:21:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T19:59:08+00:00", "clock": "19:59:08"};
