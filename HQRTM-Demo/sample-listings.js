@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilla Munkebäcksgatan, Göteborg",
+    "url": "https://qasa.com/p/1392263",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0d66599b312073a23c00398e903db22365e56954c7d1258f86f4df13fa5ca99.jpg",
+    "description": "Mysig lägenhet med högt i tak. Väldigt nära ICA Munkebäck, Systembolaget, SATS. Bra förbindelser med spårvagn 1,3 och 5 samt 17 bussen.  Vi hyr ut lägenheten då vi är i behov av större och har fått en annan lägenhet och vill vänta med försäljning av lägenheten. \nSeparat kök, vardagsrum samt sovrum med ett fräscht badrum. Två klädkammare med bra förvaring. \nIngår i hyran: El, bredband, både kall och varmvatten. Finns eventuellt möjlighet att få med parkeringsplatsen vi har idag (600kr utöver hyran) om det är av intresse. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Cederflychts gata , Hisings Backa",
     "url": "https://qasa.com/p/1392246",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9eb78fc3c102aee59c7f901554ab5a01678e5e8840a774092c6b3928399e78d3.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backebogatan , Hisings Backa",
-    "url": "https://qasa.com/p/1375430",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fd550c0956fd4ec2f73c40af5e592018e47ecf21edb4f3753a6855a81195e64b.png",
-    "description": "Möblerad 3,5 rum på 88 kvm med uteplats \n\nNu finns möjlighet att hyra en rymlig och välplanerad lägenhet på 88kvm. Lägenheten hyrs ut möblerad,  bra kommunikationer med bus. Endast 2min gångavstånd till busshållplats. \n\nLägenheten består av:\n\n • 2,5 sovrum med  garderob\n\n • Stort vardagsrum med plats för extra säng eller arbetshörna\n\n • Kök med rymlig matplats\n\n • Hall med stor spegel och förvaring\n\n • 2 Badrum med tvättmaskin och torktumlare\n\nHyra: 14,500\nObs! El tillkommer.\n\nUthyres till skötsam person/personer med ordnad ekonomi.\nVid intresse, hör gärna av er med en kort beskrivning av er själva.",
-    "district": "Hisings Backa",
-    "rooms": 3.5,
-    "area_m2": 88.0,
-    "rent": 14500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T05:24:43+00:00", "clock": "05:24:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T06:49:42+00:00", "clock": "06:49:42"};
