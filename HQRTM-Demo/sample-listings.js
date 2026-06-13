@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Hjällbogärdet, Angered",
+    "url": "https://qasa.com/p/1392529",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/274bb3dd2095862eea223356084296bd275dddf7f1fdaf5b411f9c387b8424e9.jpg",
+    "description": "Are you an international student in search of housing? We are now looking for a new tenant for our guesthouse. We have rented to international students in the past and it worked out well. That is why we are looking for a similar set up this time.\n\n \n\nThe furnished cottage has 26 square meters, which we rent to one person. It has a living room with a sleeping loft. In the living room there is a table with chairs, a couch, a wardrobe, and a large bookshelf with doors and drawers for storage.\n\n \n\nIn a separate room is a small kitchen/kitchenette with fridge, a small freezer, microwave, kitchen counter, hot plates, as well as a washing machine. In the bathroom is a massage shower and storage cabinets. On two sides of the cottage there is a porch.\n\n \n\nThe cottage suits somebody who likes to live in the countryside, but still close to the city. It’s next to a forest with the Lärje river and plenty of hiking trails. It takes 12 minutes by car, 25 minutes by public transportation (13 minutes’ walk plus 12 minutes by tram), or 30 minutes by bike to the Central Station.\n\n \n\nThe cottage is in the same yard as the main property which is why we are looking for a calm tenant who does not play loud music or have parties. A deposit will be required. Internet and electricity are not included in the rent. The moving in date can be discussed.\n\nElectricity costs are not included in the rent. Tenants are responsible for paying for electricity based on their actual consumption, as measured by a power meter.\n ",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 26.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Svängrumsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1373827",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/00508895f1731f2141287c583ad44cdb79e9e7cf292d460c9b6ed8dbe0efc082.jpg",
+    "description": "Modern och välplanerad bostad i ett attraktivt område med goda kommunikationer. Lägenheten har ett utmärkt läge med närhet till både centrala Göteborg och Frölunda Torg.\n\nBostaden är välisolerad, vilket bidrar till en behaglig inomhustemperatur under vinterhalvåret samt en lugn och tyst boendemiljö med minimal ljudpåverkan från grannlägenheter.\n\nDen rymliga balkongen erbjuder sol större delen av dagen och ger goda möjligheter till avkoppling utomhus.\n\nI hyran ingår varmvatten och internet. El debiteras separat kvartalsvis och uppgår vanligtvis till cirka 500–700 kr per kvartal.\n\nLägenheten hyrs ut möblerad. TV:n som syns på bilderna ingår dock inte i uthyrningen.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bratteråsgatan, Göteborg",
     "url": "https://qasa.com/p/1392452",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1305b04f3de1a7191064669652d04ecac9c50ecf9eee0414a67cf0578ea266d3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brungatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1321123",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3700076a79e7402ae02e659b7f5013481f87248772ea71646365c0583f7ede69.jpg",
-    "description": "Mysig och nybyggt gäststuga uthyres from  omgående,  och tillsvidare (kan hyras som semester/sommarboende, för upp till 4 personer. Se priser nedanför).  Möblerat. ett separat sovrum med dubbel säng, sovloft,  och kök/vardagsrum. Eget badrum, egen toalett och egna tvättmaskin och torktumlare. Snabb internet via fiber/kabel.  Passar 1-2 personer vid långsiktig uthyrning och upp till 4 personer vid kort uthyrning (ex. under sommaren). Nära kollektiv trafik (2 min till hållplatsen, 20-25 min till centrum). Lugnt och trevligt område (Västra Göteborg, Näset). Nära havet (400 m från havet) och nära Göteborgs största köpcentrum. Månadshyra: 9500 kr. I  hyran ingår el, internet via fiber, vatten/varmt vatten, uppvärmning, sophantering.  Kontakta oss för mer information \n\nOBS!\nKan även hyras ut som sommarboende under juni-augusti .  i så fall är priserna enligt nedan\n1 vecka: 5900 kr/vecka\n1-6 dagar: 900 kr/natt\n\nEnglish\nA guest Cottage (gäststuga) is available for rent from now and onwards. Furnished. One sleeping room, kitchen/sittingroom, it has its own bathroom, own washing machine and a dryer. Switable for 1-2 persons for långstaying tenants,  and upp to 4 persons for shortstaying tenants (during summer for instance). Near to the public transport (2 min to the bus stop, and 20-25 min to the city center). Calm, located in one of the best locations in Gothernburg, Näset. Near to the sea (400 m), and near to  the biggest shoping center in Gothernburg. Monthly rent 9500 kr. The rent includes electricity use, internet via fiber, water, warm water, heating, garbage disposal  (all charges are inkludering).  Please kontact us for more information\n\nOBS!\nCan even be rented as summer house under the months June-August\nin that case prices are as follows:\n\n1 week: 5900 kr/week\n1-6 days: 900 kr/per night\n",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 33.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Erik Dahlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1392371",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89404833739d8f9d5fefb1b4f3c2d7d497a70cfeb1d4e4bdaa6aa2a12915b30f.jpg",
-    "description": "Denna ljusa och fräscha lägenhet ligger i en välskött fastighet från 1914. I den egna uppgången till lägenheten, som tidigare tjänstgjorde som portvaktsbostad, möts du av en luftig hall.\n\nLägenheten är välplanerad och erbjuder 48 kvadratmeter med bevarade brädgolv, framträdande tegelvägg, klassiska element och stora spröjsade fönster som öppnar upp mot föreningens grönskande förträdgård på framsidan och den mysiga innergården på baksidan. Den genomtänkta planlösningen gör lägenheten både charmig och hemtrevlig.  Det finns ett stort kök med plats för ett stort matbord och gott om förvaring. Badrummet renoverades 2025.\n\nLäget på Erik Dahlbergsgatan är idealiskt, med närhet till allt Vasastan har att erbjuda. Gångavstånd till gym, mataffär, systembolag, grönområden, mysiga restauranger, Chalmers och Handelshögskolan.  Lägenheten ligger precis bredvid Kapellplatsens spårvagns- och busshållplats, här ifrån man kan ta sig till Centralstationen på 10 min. \n\nBredband och el ingår i hyran. \n\nLägenheten hyrs ut pga utlandsstudier. \n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 48.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T16:30:30+00:00", "clock": "16:30:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-13T17:03:19+00:00", "clock": "17:03:19"};
