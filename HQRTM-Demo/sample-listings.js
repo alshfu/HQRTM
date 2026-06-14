@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Pennygången, Göteborg",
+    "url": "https://qasa.com/p/1393103",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/811ceea2abc4c8d92e9cbbf099554906d628d5f90a208549e515335cfa5e3a62.jpg",
+    "description": "Rum uthyres till veckopendlare (mån-fre)\nOBS! Endast kvinna. \n\nHyr ut ett rum i min fina 4:a på Högsbohöjd. Nära till Majorna och Ruddalens friluftsområde. \nBra kommunikation med kollektivtrafik till stan.  Cykelrum finns. \n\nVi delar kök och badrum. \n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 7.0,
+    "rent": 3500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Trollbärsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1393090",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5002d9dacff16dacad81a324b2ee1d2409d43b9d7b126daffde09ba35d0cafac.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Jaktgatan, Göteborg",
-    "url": "https://qasa.com/p/1392883",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bbefdc0105e3716460b477a07bf66f1e7ba3137f53c8e76304b4ca7e02b47b39.png",
-    "description": "\nPlease note, the text in English below. \n\nIntressekoll:\nÖverväger att hyra ut del av min villa, ( del som går att avgränsa från resterande del av villan med entrédörr från trapphus )\n\nSöker skötsam icke rökande person eller par utan hemmaboende barn eller husdjur med välordnad ekonomi.\n\nHyr ut centralt belägen möblerad villalägenhet ( del av villa ) i Örgryte med tillgång till uteplats och fri parkering på gatan.\n\nÖnskar hyresgäst som planerar hyra minst ett år, gärna längre, tillsvidare men även kortare period kan vara aktuell.\nInkluderar husgeråd sängkläder så enkelt att bara flytta in och ut.\n\nFinns möjlighet att hyra ytterligare ca 42 kvadratmeter möblerad bostad om så önskas. Denna yta utgörs av sovrum, klädkammare, allrum med arbetsplats, tv, soffgrupp och ett extra badrum med wc och dusch.\n\nPromenadavstånd till Götaplatsen, Kungsportsavenyn. Delsjöterrängen med löparbanor, golf, ridhus, badsjö inpå knuten.\n\nDu når Sahlgrenska, Mölndals sjukhus och Östra Sjukhuset på 10 min med bil, cykel eller allmänna kommunikationer. Likaså de flesta av Göteborgs universitet, Astra Seneca, Essesity, Chalmers. 15 min till centralstationen och 25 min till Landvetter flygplats.\n\nCa 300 meter till närmaste spårvagnshållplats. Bra cykelvägar till city och nära Liseberg och Göteborgs evenemangs stråk.\n\nTidpunkt för inflyttning är flexibel from 1 oktober 26.\nVälkommen med några korta rader om vem du/ ni är, vad ni sysslar med, var ni kommer ifrån, varför boendet skulle passa er väl och hur länge ni önskar att hyra.\n\nVäl mött! Carl-J\n\n\n\nLooking for caring non-smoker or couple without children or pets living at home with well-ordered finances.\n\nFor rent, centrally located furnished villa apartment in Örgryte with access to patio/balcony and free parking on the street.\n\nWould like a tenant who plans to rent for a year, preferably longer, indefinitely, but also a shorter period may be relevant.\n\nEventually can be rented 42 sqm extra furnitured livingspace, bedrom, walk in closet,  living room with workong place, sofa and an extra bathroom.\n\nIncludes housewares bedding so easy to just move in and move out.\n\nWalking distance to Götaplatsen, Kungsportsavenyn. Part lake terrain with running tracks, golf, riding stables, bathing lake in the knot.\n\nYou can reach Sahlgrenska, Mölndal Hospital and Östra Sjukhuset in 10 minutes by car, bicycle or public transport. Likewise most of Gothenburg University, Astra Seneca, Essesity, Chalmers. 15 min to the central station and 25 min to Landvetter airport.\n\nAbout 300 meters to the nearest tram stop. Good cycle routes to the city and close to Liseberg and Gothenburg's event route.\n\nTime to move in is flexible from aprox october 26.\n\nWelcome with a few short lines about who you/you are, what you do, where you come from, why the accommodation would suit you well and how long you wish to rent.\n\nWelcome! Carl-J\n",
-    "district": "Göteborg",
-    "rooms": 4.5,
-    "area_m2": 125.0,
-    "rent": 24700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T21:55:27+00:00", "clock": "21:55:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T22:29:47+00:00", "clock": "22:29:47"};
