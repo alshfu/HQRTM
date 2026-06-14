@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Allmänna vägen, Göteborg",
+    "url": "https://qasa.com/p/1392214",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be12de0af5336b591ff0cde32206f79a5346e7432ad6e5879e0d356e446fbd8f.jpg",
+    "description": "Mysig etta i Majorna ledig från augusti till december på grund av studier på annan ort. Hyrs ut fullt möblerad. Passar för en person eller ett par.\nIngår i hyran: värme, vatten, internet och el\nKostnad som tillkommer: Hemförsäkring (krav från föreningen)\n\n-Bra förbindelser till centrum från Stigbergstorget som är närmsta hållplats.\n-Markplanslägenhet med utsikt mot innergården\n-Nära till olika matbutiker och gym\n-Öppen planlösning så finns tyvärr inte möjlighet att stänga om sig mellan t.ex. kök och vardagsrum\n-180 cm säng\n\nSöker en ordningsam person som kan ta hand om mitt hem medan jag är borta.\nHyresgästen behöver bli godkänd av föreningen.\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 9200,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skogshyddegatan, Göteborg",
     "url": "https://qasa.com/p/1392769",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/191fe92a2611a15f7bd0c9e4b99f0db662bc7f298cfec89a4653a04a7b54cb3f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1392452",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1305b04f3de1a7191064669652d04ecac9c50ecf9eee0414a67cf0578ea266d3.jpg",
-    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T10:57:47+00:00", "clock": "10:57:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T11:46:06+00:00", "clock": "11:46:06"};
