@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Jaktgatan, Göteborg",
+    "url": "https://qasa.com/p/1392883",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bbefdc0105e3716460b477a07bf66f1e7ba3137f53c8e76304b4ca7e02b47b39.png",
+    "description": "\nPlease note, the text in English below. \n\nIntressekoll:\nÖverväger att hyra ut del av min villa, ( del som går att avgränsa från resterande del av villan med entrédörr från trapphus )\n\nSöker skötsam icke rökande person eller par utan hemmaboende barn eller husdjur med välordnad ekonomi.\n\nHyr ut centralt belägen möblerad villalägenhet ( del av vills ) i Örgryte med tillgång till uteplats och fri parkering på gatan.\n\nÖnskar hyresgäst som planerar hyra minst ett år, gärna längre, tillsvidare men även kortare period kan vara aktuell.\nInkluderar husgeråd sängkläder så enkelt att bara flytta in och ut.\n\nFinns möjlighet att hyra ytterligare ca 42 kvadratmeter möblerad bostad om så önskas. Denna yta utgörs av sovrum, klädkammare, allrum med arbetsplats, tv, soffgrupp och ett extra badrum med wc och dusch.\n\nPromenadavstånd till Götaplatsen, Kungsportsavenyn. Delsjöterrängen med löparbanor, golf, ridhus, badsjö inpå knuten.\n\nDu når Sahlgrenska, Mölndals sjukhus och Östra Sjukhuset på 10 min med bil, cykel eller allmänna kommunikationer. Likaså de flesta av Göteborgs universitet, Astra Seneca, Essesity, Chalmers. 15 min till centralstationen och 25 min till Landvetter flygplats.\n\nCa 300 meter till närmaste spårvagnshållplats. Bra cykelvägar till city och nära Liseberg och Göteborgs evenemangs stråk.\n\nTidpunkt för inflyttning är flexibel from ca januari 2025.\n\nVälkommen med några korta rader om vem du/ ni är, vad ni sysslar med, var ni kommer ifrån, varför boendet skulle passa er väl och hur länge ni önskar att hyra.\n\nVäl mött! Carl\n\n\n\nLooking for caring non-smoker or couple without children or pets living at home with well-ordered finances.\n\nFor rent, centrally located furnished villa apartment in Örgryte with access to patio/balcony and free parking on the street.\n\nWould like a tenant who plans to rent for a year, preferably longer, indefinitely, but also a shorter period may be relevant.\n\nEventually can be rented 42 sqm extra furnitured livingspace, bedrom, walk in closet,  living room with workong place, sofa and an extra bathroom.\n\nIncludes housewares bedding so easy to just move in and move out.\n\nWalking distance to Götaplatsen, Kungsportsavenyn. Part lake terrain with running tracks, golf, riding stables, bathing lake in the knot.\n\nYou can reach Sahlgrenska, Mölndal Hospital and Östra Sjukhuset in 10 minutes by car, bicycle or public transport. Likewise most of Gothenburg University, Astra Seneca, Essesity, Chalmers. 15 min to the central station and 25 min to Landvetter airport.\n\nAbout 300 meters to the nearest tram stop. Good cycle routes to the city and close to Liseberg and Gothenburg's event route.\n\nTime to move in is flexible from aprox January 2025.\n\nWelcome with a few short lines about who you/you are, what you do, where you come from, why the accommodation would suit you well and how long you wish to rent.\n\nWelcome! Carl\n",
+    "district": "Göteborg",
+    "rooms": 4.5,
+    "area_m2": 125.0,
+    "rent": 24700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smuttenvägen, Köpstadsö",
     "url": "https://qasa.com/p/1391973",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bc3815a98e71e659f47d5adb02f346af6c44f8a4a8d922eea5f5e7f3bb2096b0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Hjällbogärdet, Angered",
-    "url": "https://qasa.com/p/1392529",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/274bb3dd2095862eea223356084296bd275dddf7f1fdaf5b411f9c387b8424e9.jpg",
-    "description": "Are you an international student in search of housing? We are now looking for a new tenant for our guesthouse. We have rented to international students in the past and it worked out well. That is why we are looking for a similar set up this time.\n\n \n\nThe furnished cottage has 26 square meters, which we rent to one person. It has a living room with a sleeping loft. In the living room there is a table with chairs, a couch, a wardrobe, and a large bookshelf with doors and drawers for storage.\n\n \n\nIn a separate room is a small kitchen/kitchenette with fridge, a small freezer, microwave, kitchen counter, hot plates, as well as a washing machine. In the bathroom is a massage shower and storage cabinets. On two sides of the cottage there is a porch.\n\n \n\nThe cottage suits somebody who likes to live in the countryside, but still close to the city. It’s next to a forest with the Lärje river and plenty of hiking trails. It takes 12 minutes by car, 25 minutes by public transportation (13 minutes’ walk plus 12 minutes by tram), or 30 minutes by bike to the Central Station.\n\n \n\nThe cottage is in the same yard as the main property which is why we are looking for a calm tenant who does not play loud music or have parties. A deposit will be required. Internet and electricity are not included in the rent. The moving in date can be discussed.\n\nElectricity costs are not included in the rent. Tenants are responsible for paying for electricity based on their actual consumption, as measured by a power meter.\n\nPS: If you just need a place to stay during the Gothia Cup, please contact us.\n ",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 26.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T13:55:40+00:00", "clock": "13:55:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T14:50:32+00:00", "clock": "14:50:32"};
