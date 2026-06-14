@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Västra Skansgatan, Göteborg",
+    "url": "https://qasa.com/p/1392921",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55ce532ed2e9df6f8ce3ffc7701f1dcc37c5bac9b6965e5b21a54a6d5e92ab77.jpg",
+    "description": "Mycket centralt i charmiga Haga.\nI det äldre pittoreska Haga med gå gator,  små butiker och caféer uthyres\nStort ljust möblerat rum; ca. 40 m2 \nomgående till kvinnlig studerande.\nRummet är vackert möblerat med soffhörna och sängavdelning, tillgång till kök samt badrum.\nRummet har med tre stora fönster utsikt mot en söt innergård.\n\nLedigt omgående.\n\nI ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 6800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Äringsgatan, Göteborg",
     "url": "https://qasa.com/p/1392916",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fcddbbab7f1ffa106b4bb87b9e0a1606af86f2cf4fe0ff7a46b13fcaa09dc5d0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norumshöjd, Göteborg",
-    "url": "https://qasa.com/p/1392563",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c0d604f5874b7953619617fc2fd3d97a57a449af4c408a88c241ed206864dbc.png",
-    "description": "Möblerad 3:a på 90 kvm uthyres omgående – Tuve (till 31 augusti)\n\nLjus och rymlig 3-rumslägenhet på 90 kvm uthyres omgående till och med slutet av augusti.\n\nLägenheten är fullt möblerad och utrustad med allt som behövs för ett bekvämt och enkelt boende. Här finns två sovrum med sängar (160 cm respektive 120 cm), stort vardagsrum, samt fullt utrustat kök med köksartiklar och husgeråd.\n\nGenerösa ytor och en trivsam planlösning gör lägenheten mycket lätt att trivas i. Balkong finns.\n\n✔ Möblerad\n✔ Internet ingår\n✔ El ingår\n✔ Fullt utrustat kök + husgeråd\n✔ Balkong\n✔ Inflyttning omgående\n\nHyra: 10 500 kr/mån\n\nPassar perfekt för en person, ett par eller en mindre familj.\n\nOmrådet är lugnt, grönt och mycket trivsamt. I närheten finns Tuve torg med mataffärer, apotek, bibliotek och bageri. Goda kommunikationer med hållplats nära bostaden – cirka 15 minuter till centrum och 10 minuter till Hjalmar Brantingsplatsen.\n\nLägenheten har tidigare fungerat mycket bra för tillfälligt boende.\n\nKrav: Fast sysselsättning, ordnad ekonomi samt betalning i förskott. Deposition kan komma att begäras.\n\nVid intresse, skicka gärna en kort presentation av dig/er.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 89.0,
-    "rent": 9911,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T15:30:26+00:00", "clock": "15:30:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T16:08:34+00:00", "clock": "16:08:34"};
