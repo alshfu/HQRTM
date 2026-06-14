@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Aspirantgatan, Göteborg",
+    "url": "https://qasa.com/p/1392914",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
+    "description": "Välkommen till en välplanerad 2:a med gavelläge och stor balkong. Bostaden har en öppen och social planlösning, kök från Marbodal, goda möjligheter till förvaring med två skjutdörrsgarderober i fullhöjd samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\nLägenheten är belägen i ett modernt, stilrent kvarter i Bellevue, Kviberg. Här bor du tryggt, med goda kommunikationsmöjligheter och har allt du behöver nära till hands. Med spårvagn eller bil tar du dig till Göteborgs centrum på bara 10 minuter. Precis utanför porten finns hållplatsen Bellevue, där linjerna 6, 7, 11 och bussarna 21, 56, 510 passerar med täta avgångar. Ett stenkast åt andra hållet väntar grönska, här finner du ett rofyllt skogsparti med ett harmoniskt promenadstråk jämte Säveån. På bekvämt gångavstånd når du Gamlestaden, ett livfullt område med butiker, service och topprecenserade restauranger som Rolling Bistros, Tycho Mat & Möte, Mugworts, Dubbelhakan m.fl. Både Lidl och Coop finns inom en radie av 500 meter från lägenheten, likaså multisportcentret Prioritet Serneke Arena.\n\nHyran inkluderar:\n- Möblerad lägenhet\n- Elförbrukning\n- Uppvärmning\n- Varmvatten\n- Bredband 100Mbit/s och digital-TV via Telia Triple play\n\nMöblemang kan diskuteras vid önskemål. \n\nLägenheten hyrs ut på grund av arbete på annan ort. Jag söker en (eller max två) ordningssam, rök- och djurfri hyresgäst med långsiktigt boendebehov. Kontrakt skrivs på 6-12 månader i taget, med möjlighet till förlängning.\n\nVälkommen att höra av dig, berätta gärna lite om dig själv i din första kontakt!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 14347,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Västra Skansgatan, Göteborg",
     "url": "https://qasa.com/p/1392921",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55ce532ed2e9df6f8ce3ffc7701f1dcc37c5bac9b6965e5b21a54a6d5e92ab77.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Plejadgatan, Göteborg",
-    "url": "https://qasa.com/p/1392584",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4a7fa4691b48b609202e427823e2cb8566fe0d4134f567ecc19e6e4af3f9836.jpg",
-    "description": "Jag hyr ut min studentlägenhet på grund av utlandsstudier i ett halvår. Du som vill hyra måste studera på heltid på Göteborgs universitet eller Chalmers. Lägenheten ligger nära Campus Lindholmen och ligger nära Lindholmspiren och Lindholmens busshållplats. Lägenheten är en 1a med rymligt badrum och kök. I hyran ingår el, vatten och internet. Lägenheten hyrs ut möblerad.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 21.0,
-    "rent": 6200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T16:08:34+00:00", "clock": "16:08:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T16:46:15+00:00", "clock": "16:46:15"};
