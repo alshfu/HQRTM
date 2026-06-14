@@ -3,10 +3,25 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Äringsgatan, Göteborg",
+    "url": "https://qasa.com/p/1392916",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fcddbbab7f1ffa106b4bb87b9e0a1606af86f2cf4fe0ff7a46b13fcaa09dc5d0.jpg",
+    "description": "Hyr ut ett rum i min tvåa. Sovrummet på bilden. \n\nFräsch lägenhet som renoverats nyligen. Tillgång till badrum kök egna utrymmen i kyl frys skafferi. \n\nEn garderob finns i rummet annars är den omöblerad. \n\nFransk balkong, det finns lite utrymme i förrådet om det skulle behövas.\n\nEl vatten internet ingår. \n\nJag ber om lugn skötsam person. \n\nEn månads deposition. \n\nNågra frågor? fråga.\n\n//Yasha",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 4800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Jaktgatan, Göteborg",
     "url": "https://qasa.com/p/1392883",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bbefdc0105e3716460b477a07bf66f1e7ba3137f53c8e76304b4ca7e02b47b39.png",
-    "description": "\nPlease note, the text in English below. \n\nIntressekoll:\nÖverväger att hyra ut del av min villa, ( del som går att avgränsa från resterande del av villan med entrédörr från trapphus )\n\nSöker skötsam icke rökande person eller par utan hemmaboende barn eller husdjur med välordnad ekonomi.\n\nHyr ut centralt belägen möblerad villalägenhet ( del av vills ) i Örgryte med tillgång till uteplats och fri parkering på gatan.\n\nÖnskar hyresgäst som planerar hyra minst ett år, gärna längre, tillsvidare men även kortare period kan vara aktuell.\nInkluderar husgeråd sängkläder så enkelt att bara flytta in och ut.\n\nFinns möjlighet att hyra ytterligare ca 42 kvadratmeter möblerad bostad om så önskas. Denna yta utgörs av sovrum, klädkammare, allrum med arbetsplats, tv, soffgrupp och ett extra badrum med wc och dusch.\n\nPromenadavstånd till Götaplatsen, Kungsportsavenyn. Delsjöterrängen med löparbanor, golf, ridhus, badsjö inpå knuten.\n\nDu når Sahlgrenska, Mölndals sjukhus och Östra Sjukhuset på 10 min med bil, cykel eller allmänna kommunikationer. Likaså de flesta av Göteborgs universitet, Astra Seneca, Essesity, Chalmers. 15 min till centralstationen och 25 min till Landvetter flygplats.\n\nCa 300 meter till närmaste spårvagnshållplats. Bra cykelvägar till city och nära Liseberg och Göteborgs evenemangs stråk.\n\nTidpunkt för inflyttning är flexibel from ca januari 2025.\n\nVälkommen med några korta rader om vem du/ ni är, vad ni sysslar med, var ni kommer ifrån, varför boendet skulle passa er väl och hur länge ni önskar att hyra.\n\nVäl mött! Carl\n\n\n\nLooking for caring non-smoker or couple without children or pets living at home with well-ordered finances.\n\nFor rent, centrally located furnished villa apartment in Örgryte with access to patio/balcony and free parking on the street.\n\nWould like a tenant who plans to rent for a year, preferably longer, indefinitely, but also a shorter period may be relevant.\n\nEventually can be rented 42 sqm extra furnitured livingspace, bedrom, walk in closet,  living room with workong place, sofa and an extra bathroom.\n\nIncludes housewares bedding so easy to just move in and move out.\n\nWalking distance to Götaplatsen, Kungsportsavenyn. Part lake terrain with running tracks, golf, riding stables, bathing lake in the knot.\n\nYou can reach Sahlgrenska, Mölndal Hospital and Östra Sjukhuset in 10 minutes by car, bicycle or public transport. Likewise most of Gothenburg University, Astra Seneca, Essesity, Chalmers. 15 min to the central station and 25 min to Landvetter airport.\n\nAbout 300 meters to the nearest tram stop. Good cycle routes to the city and close to Liseberg and Gothenburg's event route.\n\nTime to move in is flexible from aprox January 2025.\n\nWelcome with a few short lines about who you/you are, what you do, where you come from, why the accommodation would suit you well and how long you wish to rent.\n\nWelcome! Carl\n",
+    "description": "\nPlease note, the text in English below. \n\nIntressekoll:\nÖverväger att hyra ut del av min villa, ( del som går att avgränsa från resterande del av villan med entrédörr från trapphus )\n\nSöker skötsam icke rökande person eller par utan hemmaboende barn eller husdjur med välordnad ekonomi.\n\nHyr ut centralt belägen möblerad villalägenhet ( del av villa ) i Örgryte med tillgång till uteplats och fri parkering på gatan.\n\nÖnskar hyresgäst som planerar hyra minst ett år, gärna längre, tillsvidare men även kortare period kan vara aktuell.\nInkluderar husgeråd sängkläder så enkelt att bara flytta in och ut.\n\nFinns möjlighet att hyra ytterligare ca 42 kvadratmeter möblerad bostad om så önskas. Denna yta utgörs av sovrum, klädkammare, allrum med arbetsplats, tv, soffgrupp och ett extra badrum med wc och dusch.\n\nPromenadavstånd till Götaplatsen, Kungsportsavenyn. Delsjöterrängen med löparbanor, golf, ridhus, badsjö inpå knuten.\n\nDu når Sahlgrenska, Mölndals sjukhus och Östra Sjukhuset på 10 min med bil, cykel eller allmänna kommunikationer. Likaså de flesta av Göteborgs universitet, Astra Seneca, Essesity, Chalmers. 15 min till centralstationen och 25 min till Landvetter flygplats.\n\nCa 300 meter till närmaste spårvagnshållplats. Bra cykelvägar till city och nära Liseberg och Göteborgs evenemangs stråk.\n\nTidpunkt för inflyttning är flexibel from 1 oktober 26.\nVälkommen med några korta rader om vem du/ ni är, vad ni sysslar med, var ni kommer ifrån, varför boendet skulle passa er väl och hur länge ni önskar att hyra.\n\nVäl mött! Carl-J\n\n\n\nLooking for caring non-smoker or couple without children or pets living at home with well-ordered finances.\n\nFor rent, centrally located furnished villa apartment in Örgryte with access to patio/balcony and free parking on the street.\n\nWould like a tenant who plans to rent for a year, preferably longer, indefinitely, but also a shorter period may be relevant.\n\nEventually can be rented 42 sqm extra furnitured livingspace, bedrom, walk in closet,  living room with workong place, sofa and an extra bathroom.\n\nIncludes housewares bedding so easy to just move in and move out.\n\nWalking distance to Götaplatsen, Kungsportsavenyn. Part lake terrain with running tracks, golf, riding stables, bathing lake in the knot.\n\nYou can reach Sahlgrenska, Mölndal Hospital and Östra Sjukhuset in 10 minutes by car, bicycle or public transport. Likewise most of Gothenburg University, Astra Seneca, Essesity, Chalmers. 15 min to the central station and 25 min to Landvetter airport.\n\nAbout 300 meters to the nearest tram stop. Good cycle routes to the city and close to Liseberg and Gothenburg's event route.\n\nTime to move in is flexible from aprox october 26.\n\nWelcome with a few short lines about who you/you are, what you do, where you come from, why the accommodation would suit you well and how long you wish to rent.\n\nWelcome! Carl-J\n",
     "district": "Göteborg",
     "rooms": 4.5,
     "area_m2": 125.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lönnskärsdamm, Brännö",
-    "url": "https://qasa.com/p/1391383",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c480d037008acd30344e71bf63f100e2271db65289029d5f5e7111a594357e0.jpg",
-    "description": "Stuga på Brännö hyrs ut till student. Stugan har allrum med kokvrå och duschrum med toalett. Stugan uthyres möblerad och med köksgeråd. I allrummet finns säng, soffa, fåtölj, matbord med stolar, garderob, TV och byrå. Köksutrustningen har allt som behövs för en längre vistelse.  Tvättstuga finns i angränsande byggnad. I hyran ingår el och wi-fi. Stugan uthyres till student under begränsad tid motsvarande läsår/termin. Brännö har goda kommunala förbindelser med Göteborg.",
-    "district": "Brännö",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T14:50:32+00:00", "clock": "14:50:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T15:30:26+00:00", "clock": "15:30:26"};
