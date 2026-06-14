@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Plejadgatan, Göteborg",
+    "url": "https://qasa.com/p/1392584",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4a7fa4691b48b609202e427823e2cb8566fe0d4134f567ecc19e6e4af3f9836.jpg",
+    "description": "Jag hyr ut min studentlägenhet på grund av utlandsstudier i ett halvår. Du som vill hyra måste studera på heltid på Göteborgs universitet eller Chalmers. Lägenheten ligger nära Campus Lindholmen och ligger nära Lindholmspiren och Lindholmens busshållplats. Lägenheten är en 1a med rymligt badrum och kök. I hyran ingår el, vatten och internet. Lägenheten hyrs ut möblerad.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 21.0,
+    "rent": 6200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Norumshöjd, Göteborg",
+    "url": "https://qasa.com/p/1392563",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c0d604f5874b7953619617fc2fd3d97a57a449af4c408a88c241ed206864dbc.png",
+    "description": "Möblerad 3:a på 90 kvm uthyres omgående – Tuve (till 31 augusti)\n\nLjus och rymlig 3-rumslägenhet på 90 kvm uthyres omgående till och med slutet av augusti.\n\nLägenheten är fullt möblerad och utrustad med allt som behövs för ett bekvämt och enkelt boende. Här finns två sovrum med sängar (160 cm respektive 120 cm), stort vardagsrum, samt fullt utrustat kök med köksartiklar och husgeråd.\n\nGenerösa ytor och en trivsam planlösning gör lägenheten mycket lätt att trivas i. Balkong finns.\n\n✔ Möblerad\n✔ Internet ingår\n✔ El ingår\n✔ Fullt utrustat kök + husgeråd\n✔ Balkong\n✔ Inflyttning omgående\n\nHyra: 10 500 kr/mån\n\nPassar perfekt för en person, ett par eller en mindre familj.\n\nOmrådet är lugnt, grönt och mycket trivsamt. I närheten finns Tuve torg med mataffärer, apotek, bibliotek och bageri. Goda kommunikationer med hållplats nära bostaden – cirka 15 minuter till centrum och 10 minuter till Hjalmar Brantingsplatsen.\n\nLägenheten har tidigare fungerat mycket bra för tillfälligt boende.\n\nKrav: Fast sysselsättning, ordnad ekonomi samt betalning i förskott. Deposition kan komma att begäras.\n\nVid intresse, skicka gärna en kort presentation av dig/er.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 89.0,
+    "rent": 9911,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lönnskärsdamm, Brännö",
     "url": "https://qasa.com/p/1391383",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c480d037008acd30344e71bf63f100e2271db65289029d5f5e7111a594357e0.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vägen, Göteborg",
-    "url": "https://qasa.com/p/1258214",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2f3b3a2c9f11123f35e293b33a1a0d03368474635d6907689b3cb197cf9a65bd.jpg",
-    "description": "Hej,\nJag heter Anders och är konstnär och möbelformgivare. Jag bor i en \n100 m² stor lägenhet i en äldre fastighet nära Valand i centrala Göteborg. Jag hyr ut ett möblerat rum på 15 m². Du kommer att ha tillgång till kök, toalett/dusch, vardagsrum och matsal. En välfungerande tvättstuga finns i källaren, och internet med 500 Mbit/s ingår i hyran. Det är nästan alltid mycket tyst i huset, vilket kan vara bra om du är student. För tillfället har jag två studenter som hyr var sitt rum, Ilse som kommer från Holland och studerar arkitektur och Merlind som kommer från Tyskland och studerar global hälsa på Göteborgs universitet. Merlind flyttar ut i slutet av juni och då behöver jag en ny hyresgäst. Om du tycker att detta låter intressant får du gärna höra av dig och berätta lite om dig själv.\n\nHello,\nMy name is Anders, and I am an artist and furniture designer. I live in a \n100 m² apartment in an older property near Valand in central Gothenburg. I am renting out a furnished room of 15 m². You will have access to the kitchen, toilet/shower, living room and dining room. There is a well-functioning laundry room in the basement, and the 500 Mbit/s internet is included in the rent. It is almost always very quiet in the house, which can be good if you are a student. At the moment, I have two students who each rent their own room; Ilse, who comes from the Netherlands and studies architecture and Merlind, who comes from Germany and studies global health at the University of Gothenburg. Merlind is moving out at the end of June, and then I need a new tenant. If this sounds interesting to you, please get in touch and tell me a little about yourself.\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Eklandagatan, Göteborg",
-    "url": "https://qasa.com/p/1357399",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5878e5e489415cc901a1ca8636be4603a987d05837e12b8214772b3a39ff1124.jpg",
-    "description": "⚠️ Uthyres endast till kvinna \n\nEtt rum uthyres i ett centralt och populärt område i Johanneberg, Göteborg. \n\nLägenheten ligger bredvid busshållplats med mycket goda kommunikationer. Bara några steg till Willys mataffär, apotek, gym och restauranger. Nära till bland annat Chalmers, Carlanderska och Liseberg. \n\nDelat kök och badrum. Elkostnad baseras på förbrukning och brukar landar på ca 140–190 kr per månad.\n\nFlexibel in- och utflyttningsdatum, tidigast från 15 Juli 2026. Välkommen att höra av dig!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 4097,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T07:04:37+00:00", "clock": "07:04:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T08:31:16+00:00", "clock": "08:31:16"};
