@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Trollbärsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1393090",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5002d9dacff16dacad81a324b2ee1d2409d43b9d7b126daffde09ba35d0cafac.jpg",
+    "description": "Nu finns möjligheten att hyra ett härligt miniboende i ett lugnt område strax utanför Göteborg. Njut av ett fräscht attefallshus byggt 2017 med fullt utrustat kök, tvättmaskin, mysigt sovloft med 140cm säng. Då det även finns en bäddsoffa på 140cm så går det att bo upp till 4 personer. Parkering ingår vid behov (500kr extra/månad) men om du hellre åker kollektivt tar ni er smidigt in till centrum på endast 20 minuter.\n\nUthyres möblerat i första hand men kan diskuteras vid långtidsuthyrning.\n\n8000kr / mån, bredband, el och vatten ingår. Parkering kan ordnas för 500kr extra / månad. Tillgängligt från 16/8 2026. ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Husargatan, Göteborg",
     "url": "https://qasa.com/p/1393067",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/764e1c7b62c4c31661563fd3dfcf44ddbb307af25b6b836a7831c5aaee5538b1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smuttenvägen, Köpstadsö",
-    "url": "https://qasa.com/p/1391973",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bc3815a98e71e659f47d5adb02f346af6c44f8a4a8d922eea5f5e7f3bb2096b0.jpg",
-    "description": "Charmigt boende i ett litet hus i Göteborgs södra skärgård. \nÖn är en riktig Saltkråkan ö där transporter sker med skottkärra och med cykel uppehåll under sommarmånaderna. \n\nLämpligt för 1 eller 2 studerande (max 2 personer)\nHuset är beläget på Köpstadsö i en stor anlagd trädgård.\nBoendet hyrs ut: 1 sep. 2026 till 31 maj 2027\n\n- Huset är totalrenoverat för 6 år sedan\n- Alla köksmaskiner är nya (kyl/frys, diskmaskin, induktionshäll och micro) inkl. tvättmaskin i grovköket.\n- Köket är integrerat med matplats för 6 personer\n- Vardagsrum med vinkel soffa och fåtölj + TV\n- 2 sovrum (en dubbelsäng och en våningssäng)\n- Toalett med dusch\n- Wifi ingår\n- Allt ingår förutom el (värmen = värmepump och extra elradiatorer). Kallhyra\n- Uteplats med möbler för 6 personer\n- 50m till bad och hamn (med bastu)\n- 50m till tennisbana\n- Transport till stan (skärgårdsbåt ca 15min till Saltholmen, därefter spårvagn eller snabb buss till centralen ca 15min.  \nJag hyr ut bostaden under vinterhalvåret till skötsamma studerande, sommartid använder jag bostaden själv.",
-    "district": "Köpstadsö",
-    "rooms": 4.0,
-    "area_m2": 75.0,
-    "rent": 8700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T20:20:55+00:00", "clock": "20:20:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T20:50:55+00:00", "clock": "20:50:55"};
