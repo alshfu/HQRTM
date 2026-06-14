@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smuttenvägen, Köpstadsö",
+    "url": "https://qasa.com/p/1391973",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bc3815a98e71e659f47d5adb02f346af6c44f8a4a8d922eea5f5e7f3bb2096b0.jpg",
+    "description": "Charmigt boende i ett litet hus i Göteborgs södra skärgård. \nÖn är en riktig Saltkråkan ö där transporter sker med skottkärra och med cykel uppehåll under sommarmånaderna. \n\nLämpligt för 1 eller 2 studerande (max 2 personer)\nHuset är beläget på Köpstadsö i en stor anlagd trädgård.\nBoendet hyrs ut: 1 sep. 2026 till 31 maj 2027\n\n- Huset är totalrenoverat för 6 år sedan\n- Alla köksmaskiner är nya (kyl/frys, diskmaskin, induktionshäll och micro) inkl. tvättmaskin i grovköket.\n- Köket är integrerat med matplats för 6 personer\n- Vardagsrum med vinkel soffa och fåtölj + TV\n- 2 sovrum (en dubbelsäng och en våningssäng)\n- Toalett med dusch\n- Wifi ingår\n- Allt ingår förutom el (värmen = värmepump och extra elradiatorer). Kallhyra\n- Uteplats med möbler för 6 personer\n- 50m till bad och hamn (med bastu)\n- 50m till tennisbana\n- Transport till stan (skärgårdsbåt ca 15min till Saltholmen, därefter spårvagn eller snabb buss till centralen ca 15min.  \nJag hyr ut bostaden under vinterhalvåret till skötsamma studerande, sommartid använder jag bostaden själv.",
+    "district": "Köpstadsö",
+    "rooms": 4.0,
+    "area_m2": 75.0,
+    "rent": 8700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Allmänna vägen, Göteborg",
     "url": "https://qasa.com/p/1392214",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be12de0af5336b591ff0cde32206f79a5346e7432ad6e5879e0d356e446fbd8f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Svängrumsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1373827",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/00508895f1731f2141287c583ad44cdb79e9e7cf292d460c9b6ed8dbe0efc082.jpg",
-    "description": "Modern och välplanerad bostad i ett attraktivt område med goda kommunikationer. Lägenheten har ett utmärkt läge med närhet till både centrala Göteborg och Frölunda Torg.\n\nBostaden är välisolerad, vilket bidrar till en behaglig inomhustemperatur under vinterhalvåret samt en lugn och tyst boendemiljö med minimal ljudpåverkan från grannlägenheter.\n\nDen rymliga balkongen erbjuder sol större delen av dagen och ger goda möjligheter till avkoppling utomhus.\n\nI hyran ingår varmvatten och internet. El debiteras separat kvartalsvis och uppgår vanligtvis till cirka 500–700 kr per kvartal.\n\nLägenheten hyrs ut möblerad. TV:n som syns på bilderna ingår dock inte i uthyrningen.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T12:28:03+00:00", "clock": "12:28:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T13:10:10+00:00", "clock": "13:10:10"};
