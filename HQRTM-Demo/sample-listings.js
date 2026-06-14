@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skogshyddegatan, Göteborg",
+    "url": "https://qasa.com/p/1392769",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/191fe92a2611a15f7bd0c9e4b99f0db662bc7f298cfec89a4653a04a7b54cb3f.jpg",
+    "description": "Nu har du chansen att hyra en del av vår fina villa i eftertraktade Örgryte. Välkommen till en mysig och välplanerad vindsvåning på 40 kvm (plus ca 10 kvm extra längs med väggarna där taket är lite lägre). Här bor du högst upp i huset, 2 trappor upp, med charmiga takvinklar och fantastiskt ljusinsläpp från både öst och väst.\n\nVardagsrum: Rymligt vardagsrum med plats för både soffgrupp och matbord. Här kan du njuta av den vackra utsikten mot väster över Örgrytes takåsar.\n\nSovrum: Lugnt sovrum beläget mot öster med en praktisk inbyggd klädkammare.\n\nKök: Stilrent kök med vita luckor och gott om förvaring. Här finns spis, diskmaskin, kyl och frys i fullhöjd samt en kombinerad tvättmaskin/torktumlare, bekvämt och praktiskt!\n\nBadrum: Badrum med dusch och plastmatta.\n\nFörvaring: Bra förvaringsmöjligheter i form av kattvindar längs med väggarna och ett vindsförråd.\n\nUteplats: Egen uteplats på framsidan av huset, perfekt för en mindre soffgrupp där du kan njuta av eftermiddagssolen.\n\nLäge, läge, läge! Den här vindsvåningen ligger i ett lugnt och grönsprakande villaområde med närhet till både natur och stad. Du har ca 20 minuters promenad in till stan och bara ett stenkast till den vackra Överåsparken. Dessutom är det bara 5 minuters promenad till ICA Nära samt närmsta busshållplats (linje 60) — smidigare blir det inte!\n\nEn liten men viktig sak att veta: villan är just nu till salu. Det betyder att vi inte kan säga exakt hur länge boendet sträcker sig, men vår förhoppning är att en ny ägare vill behålla hyresgästen och att det i så fall bara blir ett smidigt byte av hyresvärd.\n\nInflyttning: 1 augusti\n\nHyra: 11.750 kr - OBS: uppvärmning och el ingår i hyran!\n\nParkering: Fri parkering på gatan.\n\nÖvrigt: Rökning är ej tillåtet. Husdjur kan diskuteras. Internet ingår inte, men det är bra täckning för mobilt bredband.\n\nLåter det intressant? Vi letar efter en trivsam och skötsam hyresgäst som är rökfri och har stabil ekonomi. Om detta känns som rätt hem för dig/er ser jag fram emot att höra lite mer om vem du är och varför du vill bo här.\n\nVälkommen att höra av dig!\nClaudine",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 11186,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Plejadgatan, Göteborg",
     "url": "https://qasa.com/p/1392584",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4a7fa4691b48b609202e427823e2cb8566fe0d4134f567ecc19e6e4af3f9836.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sägengatan, Hisings Backa",
-    "url": "https://qasa.com/p/1392430",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d124034fc5109b1a726338bf83f54f185920e9e06eccd84cb1e262c44e4025a0.jpg",
-    "description": "UTHYRES – Möblerad 1:a på Sägengatan 17 i Hisings Backa. \n\nJag kommer att hyra ut min fina bostadsrätt på 33,5 m2 från och med 1 september. Lägenheten totalrenoverades 2022 och ligger i närheten av Selma Lagerlöfs torg. Buss 18 går precis utanför och tar 19 minuter in till centrum! Bostaden är möblerad och det finns tv, wifi samt diskmaskin. Det finns gott om förvaringsutrymmen i lägenheten. Garageplats kan hyras till om det är av intresse. Andrahandskontraktet gäller i ett år med möjlighet till förlängning.\n\n\n\n🏢 Information om lägenheten och \n\n* 1 rum och kök (33,5 m2)\n\n* Wifi och tv-abonnemang hos Tele2 ingår\n\n* Diskmaskin\n\n* Fullt möblerad\n\n* Balkong\n\n* Garageplats kan hyras vid behov\n\n\n\n\n 💰Avgifter:\n\n*  Hyra: 7000 kr/månad\n\n* Garageplats 500 kr/månad\n\n* El och varmvatten ingår i hyran vid normal förbrukning\n\n\n\n📅 Inflyttning:\n\n* Ca 1 september 2026 (Exakt datum kan diskuteras)\n\n\n\n\n📜 Regler:\n\n* En månads deposition\n\n* Ingen rökning i lägenheten\n\n* Inga husdjur\n\n* Du behöver en hemförsäkring för dina egna tillhörigheter\n\n\n\nOm du är intresserad får du gärna skicka ett meddelande till mig  med information om:\n\n👤 Vem du är (ålder, sysselsättning etc.)\n\n📅 Planerad hyresperiod — startdatum, slutdatum\n\n📝 Referens (från tidigare hyresvärd eller liknande)\n",
-    "district": "Hisings Backa",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T09:53:36+00:00", "clock": "09:53:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T10:57:47+00:00", "clock": "10:57:47"};
