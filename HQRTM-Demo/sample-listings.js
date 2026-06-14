@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bufjällsleden, Göteborg",
+    "url": "https://qasa.com/p/1393024",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9136e2a1cd436af08e0f31239ae165860e6f30722c5d722c616fda0b3488824a.jpg",
+    "description": "Välplanerad gavellägenhet i gott skick med lugnt naturnära läge i Slättadamm/Bjurslätt på Hisingen. Naturen är bokstavligen utanför knuten samtidigt som bussen tar sig till centrum på 15 minuter.\nTvå bra sovrum, separat kök och rymligt vardagsrum med utgång till en stor inglasad balkong i söderläge. \nOBS: Lägenheten är en bostadsrätt som kommer vara ute till försäljning. Därför måste hyresgästen räkna med att mäklaren kommer hålla visningar under boendetiden. Du ansvarar då för att det är välstädat och bra ordning i bostaden. \nVissa möbler kan ingå, dock ej sängar. \n\nUtöver hyran tillkommer 600kr för hushållsel och bredband. Parkering kan hyras för 200kr.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 64.0,
+    "rent": 12250,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Aspirantgatan, Göteborg",
     "url": "https://qasa.com/p/1392914",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skogshyddegatan, Göteborg",
-    "url": "https://qasa.com/p/1392769",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/191fe92a2611a15f7bd0c9e4b99f0db662bc7f298cfec89a4653a04a7b54cb3f.jpg",
-    "description": "Nu har du chansen att hyra en del av vår fina villa i eftertraktade Örgryte. Välkommen till en mysig och välplanerad vindsvåning på 40 kvm (plus ca 10 kvm extra längs med väggarna där taket är lite lägre). Här bor du högst upp i huset, 2 trappor upp, med charmiga takvinklar och fantastiskt ljusinsläpp från både öst och väst.\n\nVardagsrum: Rymligt vardagsrum med plats för både soffgrupp och matbord. Här kan du njuta av den vackra utsikten mot väster över Örgrytes takåsar.\n\nSovrum: Lugnt sovrum beläget mot öster med en praktisk inbyggd klädkammare.\n\nKök: Stilrent kök med vita luckor och gott om förvaring. Här finns spis, diskmaskin, kyl och frys i fullhöjd samt en kombinerad tvättmaskin/torktumlare, bekvämt och praktiskt!\n\nBadrum: Badrum med dusch och plastmatta.\n\nFörvaring: Bra förvaringsmöjligheter i form av kattvindar längs med väggarna och ett vindsförråd.\n\nUteplats: Egen uteplats på framsidan av huset, perfekt för en mindre soffgrupp där du kan njuta av eftermiddagssolen.\n\nLäge, läge, läge! Den här vindsvåningen ligger i ett lugnt och grönsprakande villaområde med närhet till både natur och stad. Du har ca 20 minuters promenad in till stan och bara ett stenkast till den vackra Överåsparken. Dessutom är det bara 5 minuters promenad till ICA Nära samt närmsta busshållplats (linje 60) — smidigare blir det inte!\n\nEn liten men viktig sak att veta: villan är just nu till salu. Det betyder att vi inte kan säga exakt hur länge boendet sträcker sig, men vår förhoppning är att en ny ägare vill behålla hyresgästen och att det i så fall bara blir ett smidigt byte av hyresvärd.\n\nInflyttning: 1 augusti\n\nHyra: 11.750 kr - OBS: uppvärmning och el ingår i hyran!\n\nParkering: Fri parkering på gatan.\n\nÖvrigt: Rökning är ej tillåtet. Husdjur kan diskuteras. Internet ingår inte, men det är bra täckning för mobilt bredband.\n\nLåter det intressant? Vi letar efter en trivsam och skötsam hyresgäst som är rökfri och har stabil ekonomi. Om detta känns som rätt hem för dig/er ser jag fram emot att höra lite mer om vem du är och varför du vill bo här.\n\nVälkommen att höra av dig!\nClaudine",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 11186,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T17:55:23+00:00", "clock": "17:55:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T18:35:56+00:00", "clock": "18:35:56"};
