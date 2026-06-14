@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Husargatan, Göteborg",
+    "url": "https://qasa.com/p/1393067",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/764e1c7b62c4c31661563fd3dfcf44ddbb307af25b6b836a7831c5aaee5538b1.jpg",
+    "description": "Fin ljus modern helrenoverad 1:a uthyres till ensamstående skötsam rök- & spritfri student med referenser, helst under längre tid, gärna minst 1 år. Uthyres från 15/8 2026.\nBostaden är möblerad. I rummet med en 120 cm bred resårsäng, sängbord, matbord med stolar, litet soffbord med 2 karmstolar, vitrinskåp med bokhylla, golvlampa och matta. I badrummet finns ett mindre fönster, ny duschkabin i glas, holvhylla i trå och en rullvagn.\nLiten köksdel med glasfiberhäll, liten diskbänk, kylskåp, Micro o flera skåp och lådor.\nNära Linneplatsen och Slottsskogen.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vrångö Bryggväg, Vrångö",
     "url": "https://qasa.com/p/1393059",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d81dda5e911cce34ebd98fa7812205f58ab3c4991ba18bf7f33bb558e21ebdcd.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Allmänna vägen, Göteborg",
-    "url": "https://qasa.com/p/1392214",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be12de0af5336b591ff0cde32206f79a5346e7432ad6e5879e0d356e446fbd8f.jpg",
-    "description": "Mysig etta i Majorna ledig från augusti till december på grund av studier på annan ort. Hyrs ut fullt möblerad. Passar för en person eller ett par.\nIngår i hyran: värme, vatten, internet och el\nKostnad som tillkommer: Hemförsäkring (krav från föreningen)\n\n-Bra förbindelser till centrum från Stigbergstorget som är närmsta hållplats.\n-Markplanslägenhet med utsikt mot innergården\n-Nära till olika matbutiker och gym\n-Öppen planlösning så finns tyvärr inte möjlighet att stänga om sig mellan t.ex. kök och vardagsrum\n-180 cm säng\n\nSöker en ordningsam person som kan ta hand om mitt hem medan jag är borta.\nHyresgästen behöver bli godkänd av föreningen.\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 9200,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T19:47:43+00:00", "clock": "19:47:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-14T20:20:55+00:00", "clock": "20:20:55"};
