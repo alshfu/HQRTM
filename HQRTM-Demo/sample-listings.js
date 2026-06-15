@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Oskarsgatan 9, Göteborg",
+    "url": "https://qasa.com/p/1393225",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aeb0dab4969a60a938e270232a90eae0ecffb74a3f21011bb64b5366aacd48d0.jpg",
+    "description": "Välkommen till denna charmiga lägenhet på 38 kvm på Oskarsgatan 9, även känt som Amerikahuset, i hjärtat av Göteborg. En av höjdpunkterna i denna fastighet är den gemensamma ute terrassen, perfekt för att njuta av soliga dagar eller gemensamma måltider med vänner och grannar. Bostaden bjuder inte bara på en trivsam inomhusmiljö utan även en fantastisk utsikt över älven. Amerikahuset har en fascinerande historia som sträcker sig tillbaka i tiden. Byggt under en tid då handel med Amerika blomstrade, bär huset på historiska detaljer och karaktär. Det är som att bo i ett stycke av Göteborgs rika förflutna, och varje hörn av byggnaden berättar en historia. Denna lägenhet erbjuder en unik kombination av modern bekvämlighet och historisk charm, och är en perfekt plats för dem som söker ett hem med karaktär och gemenskap.\nInflytt: 2026-09-01\n2026 års hyra",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 6753,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Pennygången, Göteborg",
     "url": "https://qasa.com/p/1393103",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/811ceea2abc4c8d92e9cbbf099554906d628d5f90a208549e515335cfa5e3a62.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Äringsgatan, Göteborg",
-    "url": "https://qasa.com/p/1392916",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fcddbbab7f1ffa106b4bb87b9e0a1606af86f2cf4fe0ff7a46b13fcaa09dc5d0.jpg",
-    "description": "Hyr ut ett rum i min tvåa. Sovrummet på bilden. \n\nFräsch lägenhet som renoverats nyligen. Tillgång till badrum kök egna utrymmen i kyl frys skafferi. \n\nEn garderob finns i rummet annars är den omöblerad. \n\nFransk balkong, det finns lite utrymme i förrådet om det skulle behövas.\n\nEl vatten internet ingår. \n\nJag ber om lugn skötsam person. \n\nEn månads deposition. \n\nNågra frågor? fråga.\n\n//Yasha",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 4800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T05:41:30+00:00", "clock": "05:41:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T07:36:20+00:00", "clock": "07:36:20"};
