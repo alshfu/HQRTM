@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Kvarnbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1393226",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/607fd1390452a96e2d5e9c2eb1dcfdfa8e047259f31394b9fe8a80cd30752de3.jpg",
+    "description": "Mitt i city \nMöblerat rum mitt i city uthyres 1 september-31 oktober  2026. Rummet ligger några minuters promenad från Gustav Adolfsson torg, Nordstans Affärscentrum, Stenpiren och Centralstationen Rummet ligger i en fyrarumslägenhet med . Tillgång till kök med full utrustning  badrum med dusch och gästtoalett. I hyran ingår värme vatten, elektricitet och Wi-Fi.. En månadshyra i deposition.  Välkommen!\n\nCity center Furnished room in the centre of the city for rent from September 1 th - October 31 th .The room is a few minutes walk from Gustav Adolfsson torg, Nordstan Business Centre, Stenpiren and Central Station. The room is located in a four-room apartment with access to a fully equipped kitchen. bathroom with shower and guest toilet. The rent includes heating, water, electricity and Wi-Fi. One month's rent in deposit. You are welcome to contact us. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 6200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Siriusgatan, Göteborg",
+    "url": "https://qasa.com/p/1393659",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3fca6b1504a9e630d2a1f9778456a2efca009f9ff8dbb0de6b06415f1952693b.png",
+    "description": "🏠 Andrahand uthyres – 2 rok i Bergsjön, Göteborg\n\nSöker du ett mysigt boende från 1 september? Då kan detta vara något för dig!\n\nJag hyr ut min tvåa på 53 kvm i Bergsjön. Lägenheten ligger på våning 3 av 5 med stor hiss och har en härlig balkong. Den hyrs ut delvis möblerad med egen tvättmaskin och internet ingår.\n\n🌿 Läge & närhet\nNära till fantastisk natur — Bergsjön (fin badsjö!), Lärjeleden/Lärjeåns dalgång, Gärdsås mosse med mera. Gångavstånd till Gärdsås torg med bland annat Lidl. Bra förbindelser med både spårvagn och buss.\n\n💰 Villkor\nTillkommer: elnät och elhandel\nInternet ingår ✅\nVarmvatten ingår ✅\nEgen tvättmaskin ✅\nTillträde: 1 september 2026\nHyrestid: 1år \n\n🛁 Badrum med badkar\n\n🏋️ Fint utegym på gården\n\n🧺 Tvättmöjligheter\nEgen tvättmaskin i lägenheten samt tillgång till gemensam tvättstuga med torkrum och torktumlare. Mattvättstuga finns i närområdet.\n\n🚗 Parkeringsplats kan hyras separat direkt via fastighetsägaren\n\n🐾 Husdjur välkomna om de är rumsrena och inte förstör.- här bor hundar i vanliga fall, så även om städning sker före flytt kan allergener finnas kvar. För din skull bör du som söker inte vara hundallergiker.\n🚬 Rökning tillåten på balkongen (med stängd dörr)\n\n🤝 Jag söker en skötsam och ordningsam hyresgäst som tar väl hand om lägenheten.\n\n📋 Kreditupplysning och referenser önskas från intresserade hyresgäster.\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 5909,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Engelbrektsgatan, Göteborg",
     "url": "https://qasa.com/p/1393489",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e44e34139dbedde790f31a7d92172002e1ed4010890f0ff9c509d314d83ce3cf.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skytteskogsgatan, Göteborg",
-    "url": "https://qasa.com/p/1393351",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30a23733c91c76e29083ea15b42b59e5b7f600ac65924048e3519bc46993c938.jpg",
-    "description": "Du kommer att bo i ett mysigt hus från 1940-talet med gratis parkering och egen ingång. Vi har försökt behålla en del av den gamla charmen i lägenheten samtidigt som vi vill att den är funktionell för dagens behov. Lägenheten ligger i en halvkällare med egen ingång 3-4 trappsteg ner från lägenhetens egen lilla uteplats. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 37.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gröna Annas Gata, Göteborg",
-    "url": "https://qasa.com/p/1393232",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42d463e7dd1080dc424e3a2f5a18f66f21b6bd8b34ce0cea13e7f02b77872b78.jpg",
-    "description": "Nyrenoverad 3Rok lägenhet på 66 kvm precis vid Hjalmar Brantningsplatsen med mycket goda förbindelser till hela Göteborg uthyres. Till Brunnsparken kommer man på 5 minuter, till Avenyn på 9 minuter. En kort promenad över Göta Älvbron så är man vid Centralstationen, läget blir helt enkelt inte bättre. I närheten finns en mängd mysiga caféer och restauranger. \n\nBostaden har en separat ingång och tack vare souterräng blir bostaden en våning upp och därmed behöver ni inte oroa er för insyn på denna extremt lugna gata som omsluter bostaden. Lägenheten har en härlig öppen och ljus planlösning samt en fin uteplats i soligt läge. Bostaden består av 2 st sovrum, vardagsrum, kök, badrum och hall. Lägenheten är fullt möblerad utan säng. I hyran ingår el, vatten, värme och Bredband. \n\nMax 2 personer sökes (helst ett par) och vi förutsätter att hyresgästen har ordnad ekonomi, är skötsam, rök-och djurfri. \n\nUthyres: 1 år, med möjlighet till förlängning.\n\nInflytt: Början på Juli 2026. \n\nEn månads deposition önskas. \n\nLåter detta intressant? Berätta gärna om er själva. \n\nOm vi tror att bostaden passar just er önskas referenser och träff innan kontraktskrivning.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 66.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T13:57:34+00:00", "clock": "13:57:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T16:04:41+00:00", "clock": "16:04:41"};
