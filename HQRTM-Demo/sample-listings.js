@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Teatergatan, Göteborg",
+    "url": "https://qasa.com/p/1393379",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4feafe4a3facebb35cd4f307211327859a78d635491b060f611ff0a6b92d92d3.jpg",
+    "description": "En extremt fräsch, central lägenhet med egen uteplats på ca 30m², fågelvägen ca: 40 meter från Avenyn! \nUteplatsen är på en lugn och trygg innegård. \n\nOtroligt välisolerande fönster.\n\nIngång från såväl Teatergatan som från Avenyn. (Markplan mot Avenyn in mot en lugn innergård och en våning upp från Teatergatan).\n\nEtt stort och ett mindre sovrum.\n\nGenomgående parkettgolv i hela lägenheten. \n\nTvättmaskin och torktumlare och golvvärme finns i badrummet.\nInbyggd micro och diskmaskin i kök.\n\nStort källarförråd och cykel och barnvagnsförråd finns med.\n\nÖppen planlösning. Gott om inbyggda garderober i såväl hallen som i det stora sovrummet.. \n\nLägenheten känns betydligt större än vad den är.\n\nMåste ses då bilderna inte gör lägenheten rättvisa!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 17595,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Götabergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1393411",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0385dfc71f43a0260e743dfe0cd5697df31d7fee1c764b617d8bb629322cafdf.jpg",
+    "description": "Ett delvis möblerat rum uthyres i en lägenhet. I rummet ingår säng, skrivbord, stol, runt bord, fåtölj samt garderober.\n\nDu delar bostaden med en pensionär i 70-årsåldern. Det finns även möjlighet att en ytterligare rumskamrat flyttar in i rummet bredvid, då även det söks en hyresgäst. Badrummet delas med personen i rummet mittemot, gärna en studerande eller student från HDK-Valand. Köket delas med Thomas.\n\nEtt passande boende för dig som vill bo nära skolan och ha enkel tillgång till dina studier.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skytteskogsgatan, Göteborg",
     "url": "https://qasa.com/p/1393351",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30a23733c91c76e29083ea15b42b59e5b7f600ac65924048e3519bc46993c938.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Husargatan, Göteborg",
-    "url": "https://qasa.com/p/1393067",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/764e1c7b62c4c31661563fd3dfcf44ddbb307af25b6b836a7831c5aaee5538b1.jpg",
-    "description": "Fin ljus modern helrenoverad 1:a uthyres till ensamstående skötsam rök- & spritfri student med referenser, helst under längre tid, gärna minst 1 år. Uthyres från 15/8 2026.\nBostaden är möblerad. I rummet med en 120 cm bred resårsäng, sängbord, matbord med stolar, litet soffbord med 2 karmstolar, vitrinskåp med bokhylla, golvlampa och matta. I badrummet finns ett mindre fönster, ny duschkabin i glas, holvhylla i trå och en rullvagn.\nLiten köksdel med glasfiberhäll, liten diskbänk, kylskåp, Micro o flera skåp och lådor.\nNära Linneplatsen och Slottsskogen.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vrångö Bryggväg, Vrångö",
-    "url": "https://qasa.com/p/1393059",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d81dda5e911cce34ebd98fa7812205f58ab3c4991ba18bf7f33bb558e21ebdcd.jpg",
-    "description": "Välkommen till Vrångö i Göteborgs södra skärgård, här finns vårt fina Attefallshus att hyra.\n\nHuset består av ett kombinerat allrum och kök med bäddsoffa och ett sovrum med dubbelsäng samt badrum. På uteplatsen finns plats för många att sitta och möjligheter att grilla.\n\nHit tar du dig från stan med snabbuss / spårvagn och Västtrafiks skärgårdsbåtar. \n\nHär har ni nära till bad, restaurang, café, butik och fiskaffär, på en kort promenad kommer du till naturreservat och klippor. På Vrångö kan ni förutom att bada även hyra havskajak eller spela paddel med mera.\n\n\n- Lakan och handdukar ingår\n- Tvätt hos värdfamilj en gång i veckan\n- Internet och TV finns\n\nVälkomna!\n\nMarie och Oscar",
-    "district": "Vrångö",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 6200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T09:46:38+00:00", "clock": "09:46:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T11:51:23+00:00", "clock": "11:51:23"};
