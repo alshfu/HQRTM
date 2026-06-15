@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fredrikas Gård, Göteborg",
+    "url": "https://qasa.com/p/1393860",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2888a7c397ab8e2d3c5f4ec63920353267abf2e0c502aaee61eece40542982e8.jpg",
+    "description": "Jag hyr ut 30m2 i min lgh på 105m2\nVi delar ingång men väl inne i lgh hyr du en avskild del i lgh med ett pentry eget badrum med dusch walk in closet och ett stort sovrum med ett stort hörn fönster .\nRummet är möblerat med en fräsch 160 säng sittpuff skrivbord skänk . Köket  är för enkel matlagning ,där finns micro kokplatta vattenkokare och det flesta köksredskap . Avancerad matlagning och all stekning sker i stora köket.\nJag har bott I denna lgh 13 år och känner alla mina grannar väl.\n\nFörutom jag bor här Wilda 20(heltid ) Marley 16 (varannan vecka ) Sol 3år (2 dagar i veckan )\n\nJag prioritera långtidshyrning !\n\nVi skriver inneboende kontrakt som fotas med giltig legitimation ! enligt hyresgästföreningens avtal.\nNär vi skriver kontrakt betalas :\nHyra+en hyra i förskott+4500kr i deposition =15 000kr\n\nMvh Tim",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Femkampsgatan, Göteborg",
     "url": "https://qasa.com/p/1393803",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/155dc246b593477347212e080ea9bae66232cd484948447e92d8b01537334f3f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Siriusgatan, Göteborg",
-    "url": "https://qasa.com/p/1393659",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3fca6b1504a9e630d2a1f9778456a2efca009f9ff8dbb0de6b06415f1952693b.png",
-    "description": "🏠 Andrahand uthyres – 2 rok i Bergsjön, Göteborg\n\nSöker du ett mysigt boende från 1 september? Då kan detta vara något för dig!\n\nJag hyr ut min tvåa på 53 kvm i Bergsjön. Lägenheten ligger på våning 3 av 5 med stor hiss och har en härlig balkong. Den hyrs ut delvis möblerad med egen tvättmaskin och internet ingår.\n\n🌿 Läge & närhet\nNära till fantastisk natur — Bergsjön (fin badsjö!), Lärjeleden/Lärjeåns dalgång, Gärdsås mosse med mera. Gångavstånd till Gärdsås torg med bland annat Lidl. Bra förbindelser med både spårvagn och buss.\n\n💰 Villkor\nTillkommer: elnät och elhandel\nInternet ingår ✅\nVarmvatten ingår ✅\nEgen tvättmaskin ✅\nTillträde: 1 september 2026\nHyrestid: 1år \n\n🛁 Badrum med badkar\n\n🏋️ Fint utegym på gården\n\n🧺 Tvättmöjligheter\nEgen tvättmaskin i lägenheten samt tillgång till gemensam tvättstuga med torkrum och torktumlare. Mattvättstuga finns i närområdet.\n\n🚗 Parkeringsplats kan hyras separat direkt via fastighetsägaren\n\n🐾 Husdjur välkomna om de är rumsrena och inte förstör.- här bor hundar i vanliga fall, så även om städning sker före flytt kan allergener finnas kvar. För din skull bör du som söker inte vara hundallergiker.\n🚬 Rökning tillåten på balkongen (med stängd dörr)\n\n🤝 Jag söker en skötsam och ordningsam hyresgäst som tar väl hand om lägenheten.\n\n📋 Kreditupplysning och referenser önskas från intresserade hyresgäster.\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 5909,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T17:59:04+00:00", "clock": "17:59:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T19:10:57+00:00", "clock": "19:10:57"};
