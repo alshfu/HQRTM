@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Strängnäsgatan, Göteborg",
+    "url": "https://qasa.com/p/1387315",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a9f0d0487e1289ff3ed59fd3056411f36800be133463da7d5456c212b6c615d.jpg",
+    "description": "Attefallshus på 25 kvm med loft som ligger i ett lugnt villaområde i Tollered. \nAttefallshuset har egen uteplats,  kök med ugn och spis, tvättmaskin/torktumlare, parkering samt ladd-box för elbil.  Närmaste spårvagnshållplats är  Eketrägatans hållplats som ligger 10 minuters promenad bort. \n\nI hyran ingår: El, vatten, värme, sopor, wifi, parkering med laddbox för elbil samt egen uteplats. \n\nOBS:  Vi sätter hyran beroende på vilket avtal vi skriver. Om det hyrs möblerat eller inte, låg eller kort tid. Priset i  annonsen är ca pris.  ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fredrikas Gård, Göteborg",
     "url": "https://qasa.com/p/1393860",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2888a7c397ab8e2d3c5f4ec63920353267abf2e0c502aaee61eece40542982e8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Kvarnbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1393226",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/607fd1390452a96e2d5e9c2eb1dcfdfa8e047259f31394b9fe8a80cd30752de3.jpg",
-    "description": "Mitt i city \nMöblerat rum mitt i city uthyres 1 september-31 oktober  2026. Rummet ligger några minuters promenad från Gustav Adolfsson torg, Nordstans Affärscentrum, Stenpiren och Centralstationen Rummet ligger i en fyrarumslägenhet med . Tillgång till kök med full utrustning  badrum med dusch och gästtoalett. I hyran ingår värme vatten, elektricitet och Wi-Fi.. En månadshyra i deposition.  Välkommen!\n\nCity center Furnished room in the centre of the city for rent from September 1 th - October 31 th .The room is a few minutes walk from Gustav Adolfsson torg, Nordstan Business Centre, Stenpiren and Central Station. The room is located in a four-room apartment with access to a fully equipped kitchen. bathroom with shower and guest toilet. The rent includes heating, water, electricity and Wi-Fi. One month's rent in deposit. You are welcome to contact us. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 14.0,
-    "rent": 6200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T19:10:57+00:00", "clock": "19:10:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T20:26:48+00:00", "clock": "20:26:48"};
