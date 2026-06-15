@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lasarettsgatan, Göteborg",
+    "url": "https://qasa.com/p/1393935",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b07c953bea37218c1eebf372454b5ca8f382de234ceb5b96f55c1e2d3faa0f9.jpg",
+    "description": "På grund av studier utomlands hyr jag ut min lägenhet. Det är en centralt belägen 2:a på 48m2 med separat kök på 7e våningen.  Bra förbindelser med 5 -7 minuter till Domkyrkan, Stenpiren och Järntorget. Lägenheten har bl.a. diskmaskin och balkong. \n\nI hyran ingår allt som internet, el och såklart värme och vatten. Lägenheten hyrs ut möblerad men ifall något önskas bort så är det inga konstigheter då jag kommer förvara vissa saker i förråd (dock inte större grejer som soffa eller säng). \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Backavägen, Göteborg",
+    "url": "https://qasa.com/p/1393881",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56b4f198910d6ff004091dbd84bd9c876411ac789edc9338a0e9dae46b430678.png",
+    "description": "Om lägenheten\nVälkommen till en mycket välplanerad och modern lägenhet med ljusa, öppna ytor och genomgående ekparkett. De stora fönsterpartierna ger ett fantastiskt ljusinsläpp som skapar en luftig och trivsam atmosfär i hela bostaden.\n\nBalkong\nDen rymliga balkongen erbjuder sol från förmiddag till kväll och en härlig utsikt över Göteborgs hamn. Här kan du njuta av både solen och det levande närområdet året om.\n\nSovrum\nSovrummen är placerade i ett lugnt och avskilt läge med fönster mot den grönskande, stängda innergården, vilket ger en tyst och behaglig boendemiljö.\n\nKök\nDet stilrena, vita köket är fullt utrustat med moderna vitvaror och erbjuder goda arbetsytor samt smart förvaring.\n\nBadrum\nFräscht och helkaklat badrum med egen tvättmaskin och torktumlare för hög komfort i vardagen.\n\nFastigheten\nFastigheten präglas av modern industriell arkitektur med fasader i vackert återbrukat tegel. Huset har en tydlig miljöprofil och drivs med fossilfri sol- och geoenergi, vilket bidrar till ett hållbart boende. Självklart finns hiss i byggnaden.\n\nOmråde och kommunikationer\nHär bor du med ett oslagbart serviceutbud precis utanför dörren. I samma byggnad finns bland annat Stora Coop, Elgiganten, Dollarstore, Apotek, blomsterbutik, kemtvätt/skrädderi, en ny saluhallsbutik samt ett modernt parkeringshus.\n\nLägenheten ligger på bekvämt gångavstånd till Hjalmar Brantingsplatsen, som erbjuder mycket goda kommunikationer till centrala Göteborg och övriga delar av staden. Dessutom finns en busshållplats endast några meter från fastigheten, där linjerna 18, 19, 42 och 44 trafikerar området med täta avgångar.\n\n6 min med buss till centralstation bla.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 14867,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Strängnäsgatan, Göteborg",
     "url": "https://qasa.com/p/1387315",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a9f0d0487e1289ff3ed59fd3056411f36800be133463da7d5456c212b6c615d.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Salsavägen, Angered",
-    "url": "https://qasa.com/p/1393563",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7d50e0915556442e27c6792eabc4472505a7d7abe6612ccc2a9216e82f52168.jpg",
-    "description": "Furnished Room in Shared House – Available Now\n\nA fully furnished room is available in a spacious and well-maintained 160 m² house. You will share the kitchen, living room, and bathroom with two friendly and respectful tenants. We are looking for a clean, quiet, non-smoking, and pet-free male tenant.\n\nLocation\nExcellent access to public transport, with trams and buses nearby. Only 15 minutes to the Central Station by tram, with frequent departures. Close to grocery stores, gyms, the library, and nature areas.\n\nIncluded:\nFully furnished bedroom\nFully equipped kitchen\nLaundry facilities\nHigh-speed Wi-Fi, electricity, heating, and water\nAccess to garden and BBQ area\nFree guest parking is available outside the house\n\nRent: SEK 6,000/month (all utilities included)\nA security deposit equivalent to one month's rent is required.\n\nWe speak Swedish, English, and Spanish. Feel free to contact us for more information or to arrange a viewing.\n\n----------------------------------------------------------------------------------------\nMöblerat rum i delat hus – inflyttning omgående\n\nEtt fullt möblerat rum uthyres i ett rymligt och välskött hus på 160 m². Du delar kök, vardagsrum och badrum med två lugna och respektfulla hyresgäster. Vi söker en skötsam, rökfri och djurfri man.\n\nLäge\nMycket bra kommunikationer med spårvagn och buss. Endast 15 minuter till centralstationen med täta avgångar. Nära mataffärer, gym, bibliotek och naturområden.\n\nBoendet inkluderar:\nMöblerat sovrum\nFullt utrustat kök\nTvättstuga\nWi-Fi, el, värme och vatten\nTillgång till trädgård och grillplats\nGratis gästparkering finns utanför huset.\n\nHyra: 6 000 kr/månad (allt inkluderat)\nEn deposition motsvarande en månadshyra erläggs vid inflyttning.\n\nVi talar svenska, engelska och spanska. Kontakta oss gärna för mer information eller visning.",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5660,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bunkebergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1393758",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/57f31adc987ec2df59a7d20c18054ddb2ab513e5bc71a85be8f1714ac5d106eb.jpg",
-    "description": "Mysig enrumslägenhet med stor balkong in mot gården. En stor innegård. Värme och kallvatten ingår. Individuell mätning av varmvatten. \nLätt att ta sig till alla delar av Göteborg med nära belägen buss och spårvagn. \nMatbutik, apotek, kafé och restauranger runt hörnet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T20:26:48+00:00", "clock": "20:26:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T21:34:23+00:00", "clock": "21:34:23"};
