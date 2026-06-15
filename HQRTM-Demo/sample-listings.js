@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Engelbrektsgatan, Göteborg",
+    "url": "https://qasa.com/p/1393489",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e44e34139dbedde790f31a7d92172002e1ed4010890f0ff9c509d314d83ce3cf.jpg",
+    "description": "Möblerad och fullt utrustad sekelskifteslägenhet, i Vasastan två kvarter från Avenyn, 170 m² fördelade på fyra rum och kök. Uthyres till självkostnad, 20 500/månad, tillkommer el, TV, bredband, städning. Deposition två månadshyror. Lägenheten hyrs ut i andra hand, i åtta månader,  under perioden oktober 2026 till maj 2027 (2026 09 22 – 2027 06 02). ",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 170.0,
+    "rent": 20500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Teatergatan, Göteborg",
     "url": "https://qasa.com/p/1393379",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4feafe4a3facebb35cd4f307211327859a78d635491b060f611ff0a6b92d92d3.jpg",
@@ -18,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Lars Kaggsgatan 34A, Göteborg",
+    "url": "https://qasa.com/p/1393564",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bc8d8ef7ff5f1ef716461b70300492f6d458af8b16555ab3379304e584c062a.jpg",
+    "description": "En lägenhet om 2 rum och kök, fördelat på 49 kvadratmeter. Nya golv i hela lägenheten, ekparkett genomgående med vitmålade väggar. \n\nInflyttningsdatum 1 augusti 2026. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 49.0,
+    "rent": 6353,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Götabergsgatan, Göteborg",
     "url": "https://qasa.com/p/1393411",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0385dfc71f43a0260e743dfe0cd5697df31d7fee1c764b617d8bb629322cafdf.jpg",
@@ -28,6 +58,21 @@ window.HQRTM_SAMPLE = [
     "rent": 6300,
     "floor": null,
     "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Luftvärnsvägen 8, Göteborg",
+    "url": "https://qasa.com/p/1393503",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/163c436c554b9c3cd223a87a9f3a278144791a3964e23b80888a35e0f0f2ca56.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna charmiga tvåa med en fransk balkong! Modernt kök med rostfria vitvaror och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum med kombimaskin. Extra förråd finns ej. \n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11989,
+    "floor": null,
+    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Oskarsgatan 9, Göteborg",
-    "url": "https://qasa.com/p/1393225",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aeb0dab4969a60a938e270232a90eae0ecffb74a3f21011bb64b5366aacd48d0.jpg",
-    "description": "Välkommen till denna charmiga lägenhet på 38 kvm på Oskarsgatan 9, även känt som Amerikahuset, i hjärtat av Göteborg. En av höjdpunkterna i denna fastighet är den gemensamma ute terrassen, perfekt för att njuta av soliga dagar eller gemensamma måltider med vänner och grannar. Bostaden bjuder inte bara på en trivsam inomhusmiljö utan även en fantastisk utsikt över älven. Amerikahuset har en fascinerande historia som sträcker sig tillbaka i tiden. Byggt under en tid då handel med Amerika blomstrade, bär huset på historiska detaljer och karaktär. Det är som att bo i ett stycke av Göteborgs rika förflutna, och varje hörn av byggnaden berättar en historia. Denna lägenhet erbjuder en unik kombination av modern bekvämlighet och historisk charm, och är en perfekt plats för dem som söker ett hem med karaktär och gemenskap.\nInflytt: 2026-09-01\n2026 års hyra",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 6753,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Pennygången, Göteborg",
-    "url": "https://qasa.com/p/1393103",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/811ceea2abc4c8d92e9cbbf099554906d628d5f90a208549e515335cfa5e3a62.jpg",
-    "description": "Rum uthyres till veckopendlare (mån-fre)\nOBS! Endast kvinna. \n\nHyr ut ett rum i min fina 4:a på Högsbohöjd. Nära till Majorna och Ruddalens friluftsområde. \nBra kommunikation med kollektivtrafik till stan.  Cykelrum finns. \n\nVi delar kök och badrum. \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 7.0,
-    "rent": 3500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Trollbärsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1393090",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5002d9dacff16dacad81a324b2ee1d2409d43b9d7b126daffde09ba35d0cafac.jpg",
-    "description": "Nu finns möjligheten att hyra ett härligt miniboende i ett lugnt område strax utanför Göteborg. Njut av ett fräscht attefallshus byggt 2017 med fullt utrustat kök, tvättmaskin, mysigt sovloft med 140cm säng. Då det även finns en bäddsoffa på 140cm så går det att bo upp till 4 personer. Parkering ingår vid behov (500kr extra/månad) men om du hellre åker kollektivt tar ni er smidigt in till centrum på endast 20 minuter.\n\nUthyres möblerat i första hand men kan diskuteras vid långtidsuthyrning.\n\n8000kr / mån, bredband, el och vatten ingår. Parkering kan ordnas för 500kr extra / månad. Tillgängligt från 16/8 2026. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T11:51:23+00:00", "clock": "11:51:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T13:57:34+00:00", "clock": "13:57:34"};
