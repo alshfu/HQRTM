@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skytteskogsgatan, Göteborg",
+    "url": "https://qasa.com/p/1393351",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30a23733c91c76e29083ea15b42b59e5b7f600ac65924048e3519bc46993c938.jpg",
+    "description": "Du kommer att bo i ett mysigt hus från 1940-talet med gratis parkering och egen ingång. Vi har försökt behålla en del av den gamla charmen i lägenheten samtidigt som vi vill att den är funktionell för dagens behov. Lägenheten ligger i en halvkällare med egen ingång 3-4 trappsteg ner från lägenhetens egen lilla uteplats. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 37.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gröna Annas Gata, Göteborg",
+    "url": "https://qasa.com/p/1393232",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42d463e7dd1080dc424e3a2f5a18f66f21b6bd8b34ce0cea13e7f02b77872b78.jpg",
+    "description": "Nyrenoverad 3Rok lägenhet på 66 kvm precis vid Hjalmar Brantningsplatsen med mycket goda förbindelser till hela Göteborg uthyres. Till Brunnsparken kommer man på 5 minuter, till Avenyn på 9 minuter. En kort promenad över Göta Älvbron så är man vid Centralstationen, läget blir helt enkelt inte bättre. I närheten finns en mängd mysiga caféer och restauranger. \n\nBostaden har en separat ingång och tack vare souterräng blir bostaden en våning upp och därmed behöver ni inte oroa er för insyn på denna extremt lugna gata som omsluter bostaden. Lägenheten har en härlig öppen och ljus planlösning samt en fin uteplats i soligt läge. Bostaden består av 2 st sovrum, vardagsrum, kök, badrum och hall. Lägenheten är fullt möblerad utan säng. I hyran ingår el, vatten, värme och Bredband. \n\nMax 2 personer sökes (helst ett par) och vi förutsätter att hyresgästen har ordnad ekonomi, är skötsam, rök-och djurfri. \n\nUthyres: 1 år, med möjlighet till förlängning.\n\nInflytt: Början på Juli 2026. \n\nEn månads deposition önskas. \n\nLåter detta intressant? Berätta gärna om er själva. \n\nOm vi tror att bostaden passar just er önskas referenser och träff innan kontraktskrivning.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 66.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Oskarsgatan 9, Göteborg",
     "url": "https://qasa.com/p/1393225",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aeb0dab4969a60a938e270232a90eae0ecffb74a3f21011bb64b5366aacd48d0.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Aspirantgatan, Göteborg",
-    "url": "https://qasa.com/p/1392914",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
-    "description": "Välkommen till en välplanerad 2:a med gavelläge och stor balkong. Bostaden har en öppen och social planlösning, kök från Marbodal, goda möjligheter till förvaring med två skjutdörrsgarderober i fullhöjd samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\nLägenheten är belägen i ett modernt, stilrent kvarter i Bellevue, Kviberg. Här bor du tryggt, med goda kommunikationsmöjligheter och har allt du behöver nära till hands. Med spårvagn eller bil tar du dig till Göteborgs centrum på bara 10 minuter. Precis utanför porten finns hållplatsen Bellevue, där linjerna 6, 7, 11 och bussarna 21, 56, 510 passerar med täta avgångar. Ett stenkast åt andra hållet väntar grönska, här finner du ett rofyllt skogsparti med ett harmoniskt promenadstråk jämte Säveån. På bekvämt gångavstånd når du Gamlestaden, ett livfullt område med butiker, service och topprecenserade restauranger som Rolling Bistros, Tycho Mat & Möte, Mugworts, Dubbelhakan m.fl. Både Lidl och Coop finns inom en radie av 500 meter från lägenheten, likaså multisportcentret Prioritet Serneke Arena.\n\nHyran inkluderar:\n- Möblerad lägenhet\n- Elförbrukning\n- Uppvärmning\n- Varmvatten\n- Bredband 100Mbit/s och digital-TV via Telia Triple play\n\nMöblemang kan diskuteras vid önskemål. \n\nLägenheten hyrs ut på grund av arbete på annan ort. Jag söker en (eller max två) ordningssam, rök- och djurfri hyresgäst med långsiktigt boendebehov. Kontrakt skrivs på 6-12 månader i taget, med möjlighet till förlängning.\n\nVälkommen att höra av dig, berätta gärna lite om dig själv i din första kontakt!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 14347,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Västra Skansgatan, Göteborg",
-    "url": "https://qasa.com/p/1392921",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55ce532ed2e9df6f8ce3ffc7701f1dcc37c5bac9b6965e5b21a54a6d5e92ab77.jpg",
-    "description": "Mycket centralt i charmiga Haga.\nI det äldre pittoreska Haga med gå gator,  små butiker och caféer uthyres\nStort ljust möblerat rum; ca. 40 m2 \nomgående till kvinnlig studerande.\nRummet är vackert möblerat med soffhörna och sängavdelning, tillgång till kök samt badrum.\nRummet har med tre stora fönster utsikt mot en söt innergård.\n\nLedigt omgående.\n\nI ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 6800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T07:36:20+00:00", "clock": "07:36:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-15T09:46:38+00:00", "clock": "09:46:38"};
