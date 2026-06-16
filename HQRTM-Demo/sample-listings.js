@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Splintvedsgatan, Göteborg",
+    "url": "https://qasa.com/p/1394494",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/82d3e3af2ed39a6a6512ae9a3615e7cfedb26f5ab32be8fc69ca6ac2b1801133.jpg",
+    "description": "Nu blir ett rum blir ledigt i mitt mysiga hus, med del i kök, matrum, vardagsrum, badrum och tvättstuga. Området är ett av Göteborgs tryggaste och lugnaste.\nSovrummet som är 10m² har utsikt mot trädgården och är möblerat med säng, skrivbord, bokhylla, byrå och garderob.\nVi sätter vi stor vikt vid ärlighet, respekt och ordningsamhet.\nHuset har en liten gullig trädgård, ligger på en lugn gata, 5-10 minuter från skogen, friluftsområde med motionsspår, badsjö, div. friluftsaktiviteter samt gym. \nDet är även 5 - 10 minuters promenad till Östra Sjukhuset och endast 1 min från mat- samt serviceaffär, studenthem samt busshållplats (Studiegången). \nDär går buss 17, som tar dig till Centralstationen/Nordstan på 15 minuter, med endast 5 min mellan avgångarna i högtrafik, samt nattrafik på helger. \nDet tar 20 - 35 min till de flesta ställen runt centrum såsom Chalmers, Valand, Avenyn, Handels, Lindholmen, Sahlgrenska sjukhuset och Linnéplatsen. \nDet är cykelavstånd till centrum runt 15- 20 min, lite beroende på vart man ska.\nTV och trådlöst bredband ingår.\nDeposition motsvarande två månadsinbetalningar lämnas vid tillträdet.\nFör bådas trygghet skriver vi kontrakt med två månaders uppsägningstid.\nFöreträde för den som vill hyra i minst ett år.\n....................................................................\nAugust 15 a room will be available in my cozy house, with a shared kitchen, dining room, living room, bathroom and laundry room. The area is one of Gothenburg's safest and quietest.\nThe sleeping room which is 10m² has a view of the garden and is furnished with a bed, desk, bookshelf, chest of drawers and wardrobe.\nWe place great importance on honesty, respect and orderliness.\nThe house has a small cute garden, is located on a quiet street, 5-10 minutes from the forest, an outdoor recreation area with exercise tracks, a swimming lake, various outdoor activities and a gym. \nIt is also a 5-10 minute walk to Östra Sjukhuset and only 1 minute from a food and service shop, student dormitory and bus stop (Studiegången). \nThere is bus 17, which takes you to Central Station/Nordstan in 15 minutes, with only 5 minutes between departures during rush hour, and night traffic on weekends. \n It takes 20 - 35 minutes to most places around the city center such as Chalmers, Valand, Avenyn, Handels, Lindholmen, Sahlgrenska Hospital and Linnéplatsen. \nThe distance to the city center by bike is around 15-20 minutes, depending on where you are going.\nTV and wireless broadband are included.\nA deposit equivalent to two months' payments is left upon arrival.\nFor both of our safety, we sign a contract with a two-month notice period.\nPriority for those who want to rent for at least one year.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Anders Personsgatan, Göteborg",
     "url": "https://qasa.com/p/1394392",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89192392ee75ac309007d808c158212a9a7e622d94ec48013567ae5ae93efee2.jpg",
@@ -28,6 +43,21 @@ window.HQRTM_SAMPLE = [
     "rent": 11186,
     "floor": null,
     "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Tamburingatan 7, Västra frölunda",
+    "url": "https://qasa.com/p/1394450",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/18ea4c1f1782ed4d696389ece9b8e42822914e9186349bf3560a636cf1bd26e0.jpg",
+    "description": "Välkommen till Tamburingatan 3!\nHär kommer du att bo i en välplanerad 3 rums lägenhet om 80 kvadratmeter.\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin, två rymliga kyl och frys, induktions häll, inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.  \nLägenhetsförrådet finner ni i lägenheten.\n\nOBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på planritning kan förekomma.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13105,
+    "floor": null,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ebba Ljunggrens Gata 22, Västra Frölunda",
-    "url": "https://qasa.com/p/1394390",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/12afcce51eaf1d408a77ea8fca471e91982a5486d01282bc735842062ee891fc.jpg",
-    "description": "Välkommen hem till Urbana!   \n\nHär ges möjlighet att hyra en välplanerad och ljus 2 Rum och Kök på 40 kvm med balkong.\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin samt inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas samt tvättmaskin och torktumlare.\nLägenhetsförråd finns. \nDå ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på bilder samt planritning kan förekomma. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\r\n\r\nOMGIVNING\r\nSödra Änggården erbjuder ett modernt och naturnära boende med allt du behöver inom bekvämt räckhåll. I området finns förskolor och skolor, närhet till mataffärer, service och restauranger samt goda kommunikationer till centrala Göteborg. Det populära köpcentrumet 421 ligger endast ett stenkast bort och erbjuder ett brett utbud av shopping, dagligvaruhandel och service.\r\n\r\nPARKERING\r\nFinna att hyra i mån av plats, kontakta Balder vid intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 9917,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Parkgatan, Göteborg",
-    "url": "https://qasa.com/p/1394176",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f639dd5f9f4e7fe31976eeb648659e6b4b7796d24f2ff92ca89a034b5ecb6948.png",
-    "description": "Unik möblerad, modern city studio i ett av Vasastadens vackraste sekelskiftes hus med ingång från Storgatan ett stenkast från Vasaplatsen mitt i centrala Göteborg uthyres from 1 november, ev kan inflyttning ske i mitten av oktober.\n\nSöker rökfri, skötsam och lugn person utan husdjur eller hemmaboende barn.\n\nBostaden är modernt inredd och nyligen renoverad, finns fint kök med diskmaskin, porslin och husgeråd. Lyxigt stort badrum med bubbelbadkar, dusch, tvättmaskin. Liten arbetsplats, fint med garderob, köksö och soffa.\n\nRekommenderas mobilavtal med obegränsad surf som nyttjas som mobilt Wifi.\n\nHushållsel, värme och sophämtning ingår.\n\nSökande som ligger utanför efterfrågad profil besvaras ej.\n\nHyrs ut till en person, gärna kvinnlig  studerande.  \n\nSom en första kontakt Välkommen med en intresseanmälan, beskriv gärna vem du är, syssla, varför boendet i Vasastaden skulle passa dig och hur länge du önskar hyra.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T14:30:36+00:00", "clock": "14:30:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T16:11:09+00:00", "clock": "16:11:09"};
