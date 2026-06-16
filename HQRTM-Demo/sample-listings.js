@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Klockarevägen, Hisings Kärra",
+    "url": "https://qasa.com/p/1393971",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3bca4ab166f9fb840728eeb613b609da68f5b1c0fa97c64ccdf188c0204d6246.jpg",
+    "description": "Bostaden ligger nära kärra centrum\nOch nära till busshållplatsen. \nFinns skola och dagis i närheten, riktig familje vänligt. \nBostaden är i OK skick. \n4 sovrum på andra våningen, badrum, balkong, \n\nFörsta våningen så har vi kök separat och vardagsrummet för sig samt en yta för matbord sen finns det en liten toalett och en tvättrum. \n\nI hyran ingår:\nvärme(fjärrvärme), vatten, kabel-tv, parkering, snöröjning,\nsophämtning, underhåll av tak, krypgrund. \n\nDet som inte ingår är:\nEl, internet, hemförsäkring. \n\n",
+    "district": "Hisings Kärra",
+    "rooms": 5.0,
+    "area_m2": 112.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lasarettsgatan, Göteborg",
     "url": "https://qasa.com/p/1393935",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b07c953bea37218c1eebf372454b5ca8f382de234ceb5b96f55c1e2d3faa0f9.jpg",
@@ -81,7 +96,7 @@ window.HQRTM_SAMPLE = [
     "title": "Solstrålegatan, Göteborg",
     "url": "https://qasa.com/p/1393787",
     "image_url": null,
-    "description": "Välkommen till denna fina och välplanerade lägenhet på 93 kvm, perfekt för dig som vill bo bekvämt med familjen eller själv. \nDet är en bostadsrätt som ligger i ett lugnt och trevligt område i Hisingen med mycket goda kommunikationer – både buss och spårvagn. Du tar dig in till centrum på ca 20 minuter med kollektiv.  Det finns skolor, förskola och dagis i närheten samt flertals butiker i närområdet. \nParkering kan erbjudas om det behövs kostar 400 kr per månad. \n\nLägenheten har 2 st sovrum, 2 st wc och 2 st balkonger. \n\nI hyran på 13 500 kr ingår:\n-Värme\n-Varmvatten\n-Bredband\n\nUthyrning:\n-Tillgänglig från 30 oktober 2026\n-Uthyres 6 månader i taget med möjlighet till förlängning efter godkännande från bostadsrättsföreningen\n\nVid intresse eller frågor – hör gärna av dig! Visningar erbjuds både digitalt och fysisk. ",
+    "description": "Välkommen till en av hisingens fina och välplanerade lägenhet på 93 kvm, perfekt för dig som vill bo bekvämt med familjen eller själv. \nDet är en bostadsrätt som ligger i ett lugnt och trevligt område i Hisingen med mycket goda kommunikationer – både buss och spårvagn. Du tar dig in till centrum på ca 20 minuter med kollektiv och med bil på ca 10 min.  Det finns skolor, förskola och dagis i närheten samt flertals butiker i närområdet. \nParkering kan erbjudas om det behövs kostar 400 kr per månad. \n\nLägenheten har 2 st sovrum, 2 st wc och 2 st balkonger. \n\nI hyran på 13 500 kr ingår:\n-Värme\n-Varmvatten\n-Bredband\n\nUthyrning:\n-Tillgänglig från 30 oktober 2026\n-Uthyres 6 eller 12 månader i taget med möjlighet till förlängning efter godkännande från bostadsrättsföreningen\n\nVid intresse eller frågor – hör gärna av dig! Visningar erbjuds både digitalt och fysisk. ",
     "district": "Göteborg",
     "rooms": 3.5,
     "area_m2": 93.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Trädesgatan, Göteborg",
-    "url": "https://qasa.com/p/1393773",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/67f8d2231856535eff81b193a70c7a4b2d48f18ec99cc19d31efd33796f6c549.jpg",
-    "description": "Hej!\n\nNu söker vi en ny hyresgäst till min sambos lägenhet i Kvillebäcken.\n\nDet är en charmig vindslägenhet på 33,5 kvm (1,5 rum och kök) som ligger högst upp i huset.\n\nInflyttning: Omgående (eller enligt överenskommelse)\n\nHyrperiod: 1 år framåt, med god chans till förlängning\n\nHyra: 8 800 kr/månad. Ingår i hyran: kallvatten, varmvatten, el, bredband och TV.\n\nUppsägningstid: 2 månader.\n\nDeposition: 10 000 kr.\n\nGemensamma utrymmen i fastigheten: Tillgång till tvättstuga och torkrum. Mysig innergård med grillplats. Cykelställ. Återvinningsstation.\n\nVem söker vi? \nVi söker en skötsam hyresgäst med stabil och ordnad ekonomi. Lägenheten är helt djur- och rökfri.\n\nHör av dig om du är intresserad eller har några frågor!\n\n/D&S",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 33.0,
-    "rent": 8800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T03:24:26+00:00", "clock": "03:24:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T05:17:44+00:00", "clock": "05:17:44"};
