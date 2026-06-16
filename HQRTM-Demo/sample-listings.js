@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lergöksgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1285231",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5be52c7fc0c028d29ea67526d00c74710eaa8ea1cc706fc86c991d1a1490f0e.jpg",
+    "description": "🌟Mysig & Fullt Möblerad 1:a i Toppläge\n\nVälkommen till denna charmiga, varma och välskötta etta, perfekt för bekvämt boende. Lägenheten är smakfullt möblerad och utrustad med moderna bekvämligheter – redo för inflyttning och att känna sig som hemma från första dagen.\n\n✨ Lägenhetens höjdpunkter:\nLjus och trivsam bostad med en välkomnande atmosfär\nFullt möblerad – det är bara att ta med dina personliga tillhörigheter\nVälutrustat kök med kokplatta, ugn, mikrovågsugn och diskmaskin\nTvättmaskin och torktumlare i lägenheten för enkel vardag\nRymligt och modernt badrum\nEgen balkong – perfekt för avkoppling\n\n💡 Driftkostnader:\n✅ Höghastighetsinternet och värme ingår i hyran\n⚡ Frihet att välja eget elavtal/elleverantör\n💧 Vatten debiteras efter faktisk förbrukning\n\n📍 Utmärkt läge för vardagslivet:\nEndast 5 minuters promenad till Frölunda Torg med butiker, restauranger och service\nLivsmedelsbutik precis över gatan\nTre gym (Nordic Wellness, 24/7 Fitness & Friskis & Svettis) inom 2 minuter\nBusshållplats 2 minuter bort med förbindelser till centrum och Hisingen\nStort spårvagns- och busstorg vid Frölunda Torg inom gångavstånd\n\n💫 Ett perfekt hem för dig som söker ett bekvämt, välbeläget och smidigt boende i ett mycket bra läge.\n\n--------------------------------------------------------------------------------\n\n🌟 Cozy & Fully Furnished Studio Apartment  in prime location\n\nWelcome to this charming, warm, and well-maintained one-room apartment, perfectly suited for comfortable living. Thoughtfully furnished and equipped with modern conveniences, this inviting home is ready for you to move in and feel at home.\n\n✨ Apartment Highlights:\nBright and cozy living space with a welcoming atmosphere\nFully furnished – just bring your personal belongings\nWell-equipped kitchen with hotplate, oven, microwave, and dishwasher\nIn-unit washing machine and dryer for everyday ease\nSpacious, modern bathroom\nPrivate balcony – perfect for relaxing\n\n💡 Utilities & Costs:\n✅ High-speed internet and heating included in the rent\n⚡ Freedom to choose your own electricity provider/contract\n💧 Water charged based on actual usage\n\n📍 Excellent Location for Everyday Living:\nOnly 5 minutes’ walk to Frölunda Torg, offering shops, restaurants, and services\nGrocery store right across the street\nThree gyms (Nordic Wellness, 24/7 Fitness & Friskis & Svettis) within 2 minutes\nBus stop 2 minutes away with connections to the city center and Hisingen\nMajor tram and bus hub at Frölunda Torg within easy walking distance\n\n💫 A perfect home for anyone seeking a comfortable, well-connected, and hassle-free rental in a well connected area.\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 24.0,
+    "rent": 8150,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sägengatan, Hisings Backa",
     "url": "https://qasa.com/p/1394039",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/112f68841adf5f9a9af677387b665767d7bec50ae43491148f2a64baa806b9f5.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fredrikas Gård, Göteborg",
-    "url": "https://qasa.com/p/1393860",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2888a7c397ab8e2d3c5f4ec63920353267abf2e0c502aaee61eece40542982e8.jpg",
-    "description": "Jag hyr ut 30m2 i min lgh på 105m2\nVi delar ingång men väl inne i lgh hyr du en avskild del i lgh med ett pentry eget badrum med dusch walk in closet och ett stort sovrum med ett stort hörn fönster .\nRummet är möblerat med en fräsch 160 säng sittpuff skrivbord skänk . Köket  är för enkel matlagning ,där finns micro kokplatta vattenkokare och det flesta köksredskap . Avancerad matlagning och all stekning sker i stora köket.\nJag har bott I denna lgh 13 år och känner alla mina grannar väl.\n\nFörutom jag bor här Wilda 20(heltid ) Marley 16 (varannan vecka ) Sol 3år (2 dagar i veckan )\n\nJag prioritera långtidshyrning !\n\nVi skriver inneboende kontrakt som fotas med giltig legitimation ! enligt hyresgästföreningens avtal.\nNär vi skriver kontrakt betalas :\nHyra+en hyra i förskott+4500kr i deposition =15 000kr\n\nMvh Tim",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T07:10:35+00:00", "clock": "07:10:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T09:10:03+00:00", "clock": "09:10:03"};
