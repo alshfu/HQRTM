@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1344303",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b282b9040eb8f987339849e768aefa5486dc41fe9d3e0d1417627343b2df4bc1.jpg",
+    "description": "• Lägenhet på våning 16 i Karlatornet – här bor du med fantastisk utsikt! \n• Följande ingår i hyran: El, värme, vatten, gymkort och ett förråd i källaren \n• Uthyres omöblerad \n• Inga husdjur. Sorry! \n• Rökning förbjuden \n• Bemannad reception/lobby med lounge \n• Hotell finns också i byggnaden med möjlighet till matbeställning etc. \n• Ett superfint gemensamt kök med stor uteplats finns på plan 15 \n• Tidsbegränsad uthyrning under 2026 \n• Referenser krävs och uthyrningen förutsätter styrelsens godkännande \n• Frågor? Skicka ett meddelande så svarar jag gärna!  Såhär skriver Serneke i sin beskrivning, och det gäller också denna lägenhet på våning 16: Välkommen till Karlatornet och välkommen till ett nytt sätt att bo. Med sina 245 meter och 73 våningar är Karlatornet Nordens högsta byggnad. Karlatornet är en skyskrapa beläget i stadsdelen Lindholmen i Göteborg. Lägenheterna bygger på ett modernt helhetstänk med noggrant utvalda material och genomtänkta planlösningar som betonar den vackra utsikten. Fönster från golv till tak, golvvärme genomgående, eleganta förvaringslösningar och tidlösa material bidrar till den lyxiga stämningen. En stadsmiljö som bjuder på nya perspektiv och upplevelser beläget vid Göta älv. Området binds samman med övriga centrum genom täta busslinjer och färja över älven med ca 10 min. Här skapas en ny stadskärna som lever dygnet runt. Karlastaden kommer att utvecklas med nya bostäder, hotell, kontor, butiker, restauranger, kultur och service. Som boende i Karlatornet har du tillgång till flera faciliteter i byggnaden. Karlatornets lobby med bemannad reception, biorum, hundspa och kylrum finner du på entréplan. En trappa upp finns kaffestation, lounge, mötesrum, aktivitetsrum och inte minst det gemensamma köket på våning 15. Gym finns, liksom roomservice från hotellet i byggnaden erbjuds (städ, mat, m.m).\nOm bostaden\nByggnaden byggdes år 2023.\nRenoveringar\nKöket är nyrenoverat (0-5 år)\nBadrummet är nyrenoverat (0-5 år)",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 13000,
+    "floor": 16,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Vegagatan, Göteborg",
+    "url": "https://qasa.com/p/1394194",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cac323dbe1a66ddad7db8c9e25602b77c2f5e5f923675822283bbfe22bc48492.jpg",
+    "description": "Letsr hyresgäst till min 1,5a på 39kvm med balkong.\nSeparat kök och sovalkov.\n\nUthyres möblerat.\n\nKan diskutera inflytt och utflytt.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 39.0,
+    "rent": 10350,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lergöksgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1285231",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5be52c7fc0c028d29ea67526d00c74710eaa8ea1cc706fc86c991d1a1490f0e.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backavägen, Göteborg",
-    "url": "https://qasa.com/p/1393881",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56b4f198910d6ff004091dbd84bd9c876411ac789edc9338a0e9dae46b430678.png",
-    "description": "Om lägenheten\nVälkommen till en mycket välplanerad och modern lägenhet med ljusa, öppna ytor och genomgående ekparkett. De stora fönsterpartierna ger ett fantastiskt ljusinsläpp som skapar en luftig och trivsam atmosfär i hela bostaden.\n\nBalkong\nDen rymliga balkongen erbjuder sol från förmiddag till kväll och en härlig utsikt över Göteborgs hamn. Här kan du njuta av både solen och det levande närområdet året om.\n\nSovrum\nSovrummen är placerade i ett lugnt och avskilt läge med fönster mot den grönskande, stängda innergården, vilket ger en tyst och behaglig boendemiljö.\n\nKök\nDet stilrena, vita köket är fullt utrustat med moderna vitvaror och erbjuder goda arbetsytor samt smart förvaring.\n\nBadrum\nFräscht och helkaklat badrum med egen tvättmaskin och torktumlare för hög komfort i vardagen.\n\nFastigheten\nFastigheten präglas av modern industriell arkitektur med fasader i vackert återbrukat tegel. Huset har en tydlig miljöprofil och drivs med fossilfri sol- och geoenergi, vilket bidrar till ett hållbart boende. Självklart finns hiss i byggnaden.\n\nOmråde och kommunikationer\nHär bor du med ett oslagbart serviceutbud precis utanför dörren. I samma byggnad finns bland annat Stora Coop, Elgiganten, Dollarstore, Apotek, blomsterbutik, kemtvätt/skrädderi, en ny saluhallsbutik samt ett modernt parkeringshus.\n\nLägenheten ligger på bekvämt gångavstånd till Hjalmar Brantingsplatsen, som erbjuder mycket goda kommunikationer till centrala Göteborg och övriga delar av staden. Dessutom finns en busshållplats endast några meter från fastigheten, där linjerna 18, 19, 42 och 44 trafikerar området med täta avgångar.\n\n6 min med buss till centralstation bla.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 14867,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Strängnäsgatan, Göteborg",
-    "url": "https://qasa.com/p/1387315",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a9f0d0487e1289ff3ed59fd3056411f36800be133463da7d5456c212b6c615d.jpg",
-    "description": "Attefallshus på 25 kvm med loft som ligger i ett lugnt villaområde i Tollered. \nAttefallshuset har egen uteplats,  kök med ugn och spis, tvättmaskin/torktumlare, parkering samt ladd-box för elbil.  Närmaste spårvagnshållplats är  Eketrägatans hållplats som ligger 10 minuters promenad bort. \n\nI hyran ingår: El, vatten, värme, sopor, wifi, parkering med laddbox för elbil samt egen uteplats. \n\nOBS:  Vi sätter hyran beroende på vilket avtal vi skriver. Om det hyrs möblerat eller inte, låg eller kort tid. Priset i  annonsen är ca pris.  ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T09:10:03+00:00", "clock": "09:10:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T10:56:53+00:00", "clock": "10:56:53"};
