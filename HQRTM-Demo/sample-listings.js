@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fyrklöversgatan, Göteborg",
+    "url": "https://qasa.com/p/1394672",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19f4d4a77ad4d879aa11012fb4369770ad676d52d4bb1ff76aa5908509fc9fb1.jpg",
+    "description": "Hej, hyr nu ut min fantastiska etta på 43kvm(modell större) i underbara Kvillered pga studier!\n\nNyproduktion 2020 med öppen planlösning med all utrustning man kan behöva, så som:\n\n- stor balkong på 8 kvm \n- diskmaskin\n- integrerad mikrovågsugn \n- Induktionshäll \n- avskild sovalkov \n- stort duschbås \n- Tvättmaskin\n- Torktumlare\n- Grundutbud TV\n\nHyrs ut med följande möbler kvar: \n- Soffa, 55” TV, 160cm kontinentalsäng, vardagsrumsmattan, soffbord samt eventuellt matbord vid behov. Möblering kan diskuteras.\n\nOmråde:\n- 2min till närmsta busshållsplats och 8min därifrån till Brunnsparken.\n- 5 min gång till Wieselgrensplatsen med stort utbud restauranger, butiker, apotek osv.\n- 10 min gång till Backaplan.\n\nI hyran ingår varmvatten, värme & el upp till 300kr/månad.\n\nOBS. Hyr ut tills hösten 2027",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 43.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Solståndsgatan, Göteborg",
+    "url": "https://qasa.com/p/1394669",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53c373253382feda6597d4204af985cd7e842ceae97be282b51e563cc5c41507.jpg",
+    "description": "1 Rum på 12 kvm i en 78 kvm stor 3:a på markplan med uteplats/trädgård i ett jätte lungt naturrikt område.\nNaturligtvis delar vi på resten av lägenheten,dock inte våra rum.\nHärliga grannar!\nNära till spårvagn och det går 3 olika linjer till centrum och tar cirka 13 minuter.\nFinns flera olika gym, Hemköp,Apotek, Bibliotek mm mm i närområdet.\n\nNaturligtvis får du inreda \"ditt\" rum precis så som du vill och fri att röra dig i lägenheten förutom mitt sovrum och mina privata saker.\nPorslin,kökssaker över lag kan användas mm\nTV finns i vardagsrummet men egen TV är ok.\nKabel tv med basutbud.\n\n\nTycker jag bor för stort själv och tänkte det vore trevligt ha en inneboende.\nDu bör vara glad i sinnet men gärna morgontrött 😁 för det är jag. (Innan kaffet)\n\n\nDu ska ha Heltidsstudier (ej hemma studier på heltid dvs dustans) eller HELTIDSARBETE.\nArbetsgivarintyg el studieintyg krävs.\n\nIngen kriminell bakgrund.\nFesta gärna men borta med hänsyn till grannar och mig.\n Rökning utomhus.\nDu städar efter dig i kök, toalett osv.\nStädning av ditt rum sköter du själv.\n\n\nENDAST seriösa gör sig besvär.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nordostpassagen, Göteborg",
+    "url": "https://qasa.com/p/1394643",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e23ba1a6bb2137447cf2f032df1a209a486ab29ebd44f269a4541466fd4f2ada.jpg",
+    "description": "Möblerad 4:a mitt i Göteborg – 96 goa kvm \n\nVi har byggt vårt drömhem – men sedan öppnade sig en möjlighet i Spanien som var för spännande att tacka nej till. Nu söker lägenheten lyckliga hyresgäster. \n\nLäget\nMitt i det bästa av Göteborg. Promenadavstånd till allt. City, Slottsskogen, och runt hörnet finns några av stadens bästa ställen: Bar Robusta, Odette och för den som vet– Etna, stans bästa pizza.\n\nLägenheten\nNyrenoverad med nya golv och nymålat i hela lägenheten – fräsch, ljus och inflyttningsklar. 96 kvm fördelade på tre sovrum, ett stort vardagsrum, två badrum och en balkong med utsikt över trädtopparna.\n\nSovrummen\n\nSovrum 1 – Headmastern\nDet stora sovrummet med 180-säng, tre stora garderober och utsikt mot Naturhistoriska museets tinnar. Lugnt, rymligt och med en vy som påminner dig om var du bor.\n\nSovrum 2 – Barnrummet\nVåningssäng med 140 cm nere och 90 cm uppe, två garderober och smart förvaring för leksaker. Redan inrett för de som behöver det – och tomt på kaos för de som inte gör det. Rummet kan anpassas. \n\nSovrum 3 – Gästrummet/kontoret/biokvällen\n160-säng, skrivbord och en projektorscreen som rullas in mot väggen när den inte används. Multifunktionellt!\n\nBadrummen\nTvå kaklade badrum: en helkaklad WC och ett med litet badkar. Fräscht och funktionellt.\n\nVardagsrummet\nNavet i lägenheten. Här finns både matbord och soffgrupp – rum nog för middag, filmkväll och allt däremellan. \n\nKöket\nFullt utrustat med stort kylskåp och stor frys. Allt du behöver för att laga mat på riktigt. (Enda undantaget: mikrovågsugn. Vi har inte kommit till skott att köpa en ännu.)\n\nBalkongen\nHög nog för att se över trädtopparna, lagom nära för att smygkolla på Vegagatans liv. Gasolgrill ingår enligt ök. Lagom stor för en sommarkväll. Morgonsol! \n\nTvättstugan\nEgen tvättmaskin och bra hängutrymme. Och om du verkligen vill göra det ordentligt: vi lämnar gärna vår professionella steamer också.\n\nLite extra\nBehöver du ta dig runt stan på ett smart sätt? Vi kan tänka oss hyra ut våra elcyklar – en Ecoride och en Longtail – om intresse finns.\n\nHör av er vid frågor!\n",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 96.0,
+    "rent": 21800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Styckjunkaregatan, Göteborg",
     "url": "https://qasa.com/p/1393934",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5ca84a145a69435929f5a6f5258f88aaaf290d6b86c1894744420ef562256250.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hisingen, Göteborg",
-    "url": "https://qasa.com/p/1394357",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3292dcf5c92533153a01e35031756d586653168153623e296215126da4ffefa5.jpg",
-    "description": "Hej, \nJag hyr ut min fullt möblerade lägenhet i minst 1 år pga. utlandsvistelse. Lägenheten hyrs ut from 2026-07-01. I lägenheten finns 2 sovrum, stor vardagsrum, kök, badrum, balkong, och 2 garderober. Spårvagnshållplats finns bara 3-4 minuter bort. 3 spårvagnslinjer åker härifrån varannan minut och tar dig till centrala station på ca 15 min. I hyran ingår internet (fiber) varmvatten, värme, sophantering samt källare . El avgift tillkommer. Parkeringsplats finns tillgänglig och kan ordnas om det behövs. En månads hyra måste lämnas in som deposition och betalas ut vid utflytt, om allting är oskadd. Vill du veta mer?  Skriv för mer information och bilder. \n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 71.0,
-    "rent": 11186,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tamburingatan 7, Västra frölunda",
-    "url": "https://qasa.com/p/1394450",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/18ea4c1f1782ed4d696389ece9b8e42822914e9186349bf3560a636cf1bd26e0.jpg",
-    "description": "Välkommen till Tamburingatan 3!\nHär kommer du att bo i en välplanerad 3 rums lägenhet om 80 kvadratmeter.\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin, två rymliga kyl och frys, induktions häll, inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.  \nLägenhetsförrådet finner ni i lägenheten.\n\nOBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på planritning kan förekomma.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmlandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1394338",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0c82d943616669822573640e3fde30bef98709c0912dcf0d4e45b43bfab0bd79.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 24000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/hmqoorlqxxvfv33robal/vastra-gotaland/goteborg/varmlandsgatan-32/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till en rymlig lägenhet om 73 kvm på Värmlandsgatan i Göteborg. Här erbjuds 3 rum och 1 badrum samt ett fullt möblerat hem som är redo att flytta in. Lägenheten ligger på våning 1 och har bekvämligheter som hiss, balkong/uteplats, dusch, samt ett kök utrustat med diskmaskin.\r\n\r\nI hemmet finns även tvättmaskin och torktumlare, och tillgång till tvättstuga. För extra bekvämlighet ingår uppvärmt vatten och sophämtning. Lägenheten är barnvänlig och erbjuder TV i bostaden.\r\n\r\nLäget är centralt med närhet till kollektivtrafik, service och vardagsliv. I området finns ett bra utbud av butiker, restauranger och skolor, samtidigt som du når parker och grönområden på bekvämt avstånd.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 24000 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 73.0,
-    "rent": 22652,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T19:21:57+00:00", "clock": "19:21:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T20:26:44+00:00", "clock": "20:26:44"};
