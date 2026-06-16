@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Prilyckegatan, Hisings Kärra",
+    "url": "https://qasa.com/p/1394715",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b85a87313c48902edea66227257ad4cdeb7cd1f0be50568b96ba820da7c0fce2.jpg",
+    "description": "Mysigt radhus i tryggt område.\nI huset bor en 50 åring kvinna inneboende och jag, 66 åring kvinna. Vi är ursprungligen från Peru och Spanien. Jag söker en kvinna till som inneboende. Uthyrnings tid kan förlängas om det funkar.\nHuset har 2 kompletta badrum, 2 balkonger och en liten trädgård.\nI området finns på få minuters promenad avstånd: Ica/mataffär, simhallen och gym, pizzeria mm. skogen, busshållplatsen med express bus som tar ca 20 min. till stan. ",
+    "district": "Hisings Kärra",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fyrklöversgatan, Göteborg",
     "url": "https://qasa.com/p/1394672",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19f4d4a77ad4d879aa11012fb4369770ad676d52d4bb1ff76aa5908509fc9fb1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Anders Personsgatan, Göteborg",
-    "url": "https://qasa.com/p/1394392",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89192392ee75ac309007d808c158212a9a7e622d94ec48013567ae5ae93efee2.jpg",
-    "description": "Rymlig och modern 2:a om 74,5 kvm i centrala Gårda – möblerad och inflyttningsklar\n\nNu finns möjligheten att hyra en ljus och välplanerad tvåa på 74,5 kvm i attraktiva Gårda, med ett centralt läge och utmärkta kommunikationer. Lägenheten ligger på våning 6 med hiss och erbjuder ett bekvämt boende med närhet till allt Göteborg har att erbjuda.\n\nBostaden hyrs ut möblerad och är fullt utrustad för ett bekymmersfritt boende. Köket har diskmaskin och alla nödvändiga köksredskap. I lägenheten finns även både tvättmaskin och torktumlare, samtidigt som det finns tillgång till tvättstuga i fastigheten för den som önskar.\n\nLägenheten erbjuder dessutom mycket goda förvaringsmöjligheter med en rymlig klädkammare samt flera praktiska förvaringsutrymmen. Den generösa planlösningen gör det enkelt att hålla bostaden organiserad och trivsam även för den som har mycket kläder, utrustning eller andra tillhörigheter.\n\nEn av lägenhetens stora fördelar är den generösa inglasade balkongen med värmeelement, vilket gör att den kan användas som ett extra rum stora delar av året. Från bostaden har du trevlig utsikt mot den lugna innergården, Stampen och Lunden.\n\nTrots det centrala läget är lägenheten mycket tyst och välisolerad. Här slipper du störande trafikljud och lyhördhet, samtidigt som du har stadens puls inom bekvämt räckhåll.\n\nOmrådet\n\nGårda är ett av Göteborgs mest strategiska områden med närhet till både centrum och stadens större trafikleder. Precis utanför fastigheten finns bussförbindelser som snabbt tar dig in till centrum och Nordstan. Spårvagnshållplatsen Svingeln ligger på bekvämt gångavstånd och gör det enkelt att ta sig till övriga delar av Göteborg.\n\nI direkt anslutning till byggnaden finns restauranger, sushi, pizzeria, hamburgerrestaurang samt annan service. Coop vid Stampen ligger cirka 10 minuters promenad bort. För den som uppskattar promenader och motion finns fina gång- och cykelstråk längs kanalen samt en lugn och trivsam innergård.\n\nHyra och villkor\n\n* Hyra: 15 000 kr/månad\n* El, värme, vatten, internet och TV ingår\n* Möblerad\n* Tillgänglig från september 2026\n* Uthyrning tillsvidare\n* Garageplats finns att hyra separat (ca 2 000 kr/månad)\n* Parkeringsplats utomhus finns via EasyPark (ca 1 000 kr/månad)\n\nÖvriga villkor\n\nLägenheten hyrs ut som ett djur- och rökfritt boende, vilket innebär att inga djur är tillåtna samt rökning inte är tillåten i lägenheten, på balkongen eller i fastighetens gemensamma utrymmen.\n\nVi söker i första hand ett skötsamt par som önskar ett långsiktigt och trivsamt boende och som värdesätter ett lugnt och välskött hem.\n\nVälkommen att höra av er med en presentation av er själva och er boendesituation.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 75.0,
-    "rent": 15000,
-    "floor": 6,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T22:22:09+00:00", "clock": "22:22:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T23:00:02+00:00", "clock": "23:00:02"};
