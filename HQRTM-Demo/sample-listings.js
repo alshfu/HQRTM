@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Styckjunkaregatan, Göteborg",
+    "url": "https://qasa.com/p/1393934",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5ca84a145a69435929f5a6f5258f88aaaf290d6b86c1894744420ef562256250.jpg",
+    "description": "Jag har nu tagit det stora steget att plugga utomlands under ex antal månader, & därav tänker jag hyra ut min lägenhet\n\nLägenheten kommer att hyras ut möblerad\nDet är en 2:a på 50kvm , ett sovrum, vardagsrum & kök. Lägenheten har morgonsol & kvällssol vilket ger lägenheten fint ljusinsläpp under hela dagen. Från vardagsrummet finns utgång till balkong, liten men tillräckligt för två. Toalett med dusch är mindre men fyller sin funktion. Förutom diskmaskin så är köket fullrustat. Lägenheten har ett litet förråd som jag använder som garderob. \n\nLägenheten ligger centralt i Göteborg med ca 3 min gång till hållplats, 10 min in till centralen, med flera valmöjligheter av spårvagn/buss.  \nTillgång till tvättstuga finns med bokningssystem. Källsortering finns strax utanför lägenheten. Finns tillgång till källare. \nParkering finns tillgänglig för att hyra samt betald besöksparkering finns. \n\nJag har just nu två katter som bor med mig. Så spår av katthår kommer finnas i lägenheten !! Om det är så att man själv är en kattälskare & vill ta hand om mina två bebisar, så kan det diskuteras. Men lägenheten hyrs ut utan krav av att de bor där. \n\nInflytt runt september & utflytt är diskuterbart. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 7802,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1183560",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/73d03599f97cdbc684621a315162b65447c24fddd7d951cce7af723f4b0bd4ec.jpg",
+    "description": "Lägenheten uthyrs i andra hand i ett ev. förläggning,\nLägenheten är väldigt central  och har väldigt kommunikationsförbindelser. \nAdress: Gamla Björlandavägen 7, 417 20 Göteborg.\n\nObjektbeskrivning: 2 rum och kök, plan 1 med högstandard och \nlägenheten är totalt renoverad 2018\n\nStorlek: 47 kvm , dvs 2 rum och kök + balkong \nHyra: 9500  ingår uppvärmning, sophämtning och vatten , fiberbredband, parkering\ndet finns gemensamt tvättstuga, ink fiber bredband. \n\ninflyt: 1 okt 2026\n\nHyreskontraktet gäller i ett år med 3 månadsuppsägning ömsesidigt. Hyreskontraktet kan överlåtas till första handskontrakt efter 1 år i överenskommelse med hyresvärden.\nDjur- och rökfritt, inga betalningsanmärkningar, referenser krävs.\nVid intresse skicka PM med kort beskrivning om dig själv !\n\n \nOBS!\nVid kontrakt skrivning begär hyresvärden följande underlag: \n- anställningsavtal med underskrift samt 3 senaste lönespecifikationer. \n- kreditupplysning \n- belastningsregistret ( detta skicka via brev till din folkförda adress men jag vill att du inte öppnar detta. detta gör vi tillsammans.).\n- referenser av din tidigare hyresvärd.  \n \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 9500,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Splintvedsgatan, Göteborg",
     "url": "https://qasa.com/p/1394494",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/82d3e3af2ed39a6a6512ae9a3615e7cfedb26f5ab32be8fc69ca6ac2b1801133.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ängsäters Gränd, Hovås",
-    "url": "https://qasa.com/p/1394271",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce5e4908a4f0d3b463d4c33c5fe7f4d0591347d1bb38f59bf54c59736598a695.jpg",
-    "description": "Nybyggd och välplanerad 1:a med moderna bekvämligheter såsom diskmaskin, tvättmaskin och torktumlare. Lägenheten har ett rymligt badrum samt en generös balkong. Lugnt läge i Nya Hovås med cirka 10 minuter till havet med cykel (cirka 5 minuter med buss) och goda kommunikationer - cirka 21 minuter med buss till Linnéplatsen. Tillgång till verkstad och uterum som går att boka.",
-    "district": "Hovås",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 7944,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Örnehufvudsgatan 5, GÖTEBORG",
-    "url": "https://qasa.com/p/1394421",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7a19f4b2a791d4a4c9c53c7a2ca6d93fcacf668af76bee11370d1de631b27652.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2021. Lägenheten om 56 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Normalt slitage kan förekomma i lägenheten.\n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\n\nOBS! Bilderna i annonsen är exempelbilder och kan skilja sig från verkligheten. Avvikelser från planritning kan förekomma.\r\n\r\nOMGIVNING\r\nJohanneberg är en trivsam stadsdel i den södra delen av centrala Göteborg.  Utemljön består av mycket grönytor och har ett rikt utbud av butiker mm. Närheten till centrum samt den gröna omgivningen gör området väldigt omtyckt.\r\n\r\nKOMMUNIKATIONER\r\nFlera hållplatser finns inom några minuters gångavstånd.\nHärifrån går bussar med täta avgångar som snabbt tar dig in mot centrala Göteborg.\r\n\r\nSERVICE\r\nDu har all tänkbar service i närheten såsom matbutik, restauranger",
-    "district": "GÖTEBORG",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 11203,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T17:59:07+00:00", "clock": "17:59:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T19:21:57+00:00", "clock": "19:21:57"};
