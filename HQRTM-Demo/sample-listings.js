@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sägengatan, Hisings Backa",
+    "url": "https://qasa.com/p/1394039",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/112f68841adf5f9a9af677387b665767d7bec50ae43491148f2a64baa806b9f5.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/njp9jtelwsrqc5rfluxd/vastra-gotaland/hisings-backa/sagengatan-29/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till Sägengatan 29! Här på entréplanet hittar ni denna charmiga bostadsrätt med ett rum och kök. inkluderar både parkeringsplats och snabbt bredband (250/500 Mbit).\r\n\r\nTill lägenheten hör även ett praktiskt förråd på samma plan. Köket och badrummet renoverades 2009, och kyl och frys är helt nya från 2023. Bostaden är i utmärkt skick med vackert parkettgolv och ljusa väggar, och inte att förglömma, en härlig balkong att njuta av.\r\n\r\nDet är bara två minuters promenad till busshållplatsen, där du snabbt kan ta dig till centralen eller andra delar av Göteborg. Området är lugnt och familjevänligt, med gröna gårdar mellan husen och lekplatser för barnen att utforska.\r\n\r\nHisings Backa är ett trivsamt område med närhet till butiker vid Selma Lagerlöfs torg och utmärkta kommunikationer in till Göteborg.\r\n\r\nDet finns möjlighet till snabbt tillträde till denna bostad, en perfekt plats att kalla hemma!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 10854,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Storhöjdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1394012",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ad47b4af4067df4492ddc8fdfe98b493fa9daaa7201a788ed0daed67962fd493.jpg",
+    "description": "Denna lägenhet är en härlig och ljus etta högst upp i fina Strömmensberg i Göteborg. En stor hall leder in till ett ordentligt kök med öppen planlösning mot vardagsrummet, fönster från två väderstreck ger ett fint ljus i lägenheten. Sovdelen i rummet går att skärma av med hjälp av smidiga draperier vilket gör att lägenheten känns större än dess 38kvm. Det finns dessutom bra förvaring i form av en hallgarderob och en stor sovrumsgarderob där väldigt mycket får plats. Utöver det ett helkaklat badrum med toalett, handfat och dusch. \nBalkongen på 6kvm är rymlig och man får enkelt plats med ordentliga utemöbler. Söderläget gör att du har sol från 9 på morgonen tills solen går ner. \n\nI huset finns totalt 30 lägenheter och gemensam tvättstuga. Tillgång till källarförråd ingår i hyran och det gör även elen.  \nBostadsrättsföreningen är kopplad till en parkeringsförening som hanterar parkeringen utanför huset så möjlighet till närliggande parkering finns mot en avgift på 200:-/mån. Vill man ta sig runt med kollektivtrafik är närmaste hållplats nedför backen (ca 300 meter) där buss 17 samt spårvagn 1 och 3 trafikerar dygnet runt med endast 10 min in till stan. \n\nJag hyr ut lägenheten då jag numera bor med min sambo i Kviberg vilket är nära ifall något skulle behövas. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Klockarevägen, Hisings Kärra",
     "url": "https://qasa.com/p/1393971",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3bca4ab166f9fb840728eeb613b609da68f5b1c0fa97c64ccdf188c0204d6246.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Femkampsgatan, Göteborg",
-    "url": "https://qasa.com/p/1393803",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/155dc246b593477347212e080ea9bae66232cd484948447e92d8b01537334f3f.jpg",
-    "description": "Välskött och hemtrevlig 2:a med balkong och utsikt åt två väderstreck. Närhet till fina grönområden och busshållplats strax utanför lägenheten som tar en ner till centralstationen på 8 minuter. Gratis parkering längs gatorna i hela området.  Internet, värme och vatten ingår i hyran. Välutrustat tvättrum med två tvättmaskiner, torktumlare och torkrum som enkelt bokas via app. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 49.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solstrålegatan, Göteborg",
-    "url": "https://qasa.com/p/1393787",
-    "image_url": null,
-    "description": "Välkommen till en av hisingens fina och välplanerade lägenhet på 93 kvm, perfekt för dig som vill bo bekvämt med familjen eller själv. \nDet är en bostadsrätt som ligger i ett lugnt och trevligt område i Hisingen med mycket goda kommunikationer – både buss och spårvagn. Du tar dig in till centrum på ca 20 minuter med kollektiv och med bil på ca 10 min.  Det finns skolor, förskola och dagis i närheten samt flertals butiker i närområdet. \nParkering kan erbjudas om det behövs kostar 400 kr per månad. \n\nLägenheten har 2 st sovrum, 2 st wc och 2 st balkonger. \n\nI hyran på 13 500 kr ingår:\n-Värme\n-Varmvatten\n-Bredband\n\nUthyrning:\n-Tillgänglig från 30 oktober 2026\n-Uthyres 6 eller 12 månader i taget med möjlighet till förlängning efter godkännande från bostadsrättsföreningen\n\nVid intresse eller frågor – hör gärna av dig! Visningar erbjuds både digitalt och fysisk. ",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 93.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T05:17:44+00:00", "clock": "05:17:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-16T07:10:35+00:00", "clock": "07:10:35"};
