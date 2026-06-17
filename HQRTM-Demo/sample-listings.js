@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gyllenkrooksgatan 3, Göteborg",
+    "url": "https://qasa.com/p/1395135",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c8b39ea432b551aac6b6e7ab74d00644b87718be2262743c3516eb8a443cf742.jpg",
+    "description": "OM LÄGENHETEN\nVälkommen till en fin och välplanerad trerumslägenhet med kök. Lägenheten erbjuder ett nyrenoverat kök utrustat med diskmaskin, och mikrovågsugn ingår. Från ett av sovrummen nås en charmig balkong med utsikt över den lugna innergården. Badrummet är helkaklat och i äldre standard. Observera att badrummet inte är förberett för installation av tvättmaskin.\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 69.0,
+    "rent": 11797,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bredfjällsgatan, Angered",
     "url": "https://qasa.com/p/1394774",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd85cadd2b4f051dee924898f610bd063e7607b160eda64869dbd452699d9a26.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prilyckegatan, Hisings Kärra",
-    "url": "https://qasa.com/p/1394715",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b85a87313c48902edea66227257ad4cdeb7cd1f0be50568b96ba820da7c0fce2.jpg",
-    "description": "Mysigt radhus i tryggt område.\nI huset bor en 50 åring kvinna inneboende och jag, 66 åring kvinna. Vi är ursprungligen från Peru och Spanien. Jag söker en kvinna till som inneboende. Uthyrnings tid kan förlängas om det funkar.\nHuset har 2 kompletta badrum, 2 balkonger och en liten trädgård.\nI området finns på få minuters promenad avstånd: Ica/mataffär, simhallen och gym, pizzeria mm. skogen, busshållplatsen med express bus som tar ca 20 min. till stan. ",
-    "district": "Hisings Kärra",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T11:05:23+00:00", "clock": "11:05:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T12:34:41+00:00", "clock": "12:34:41"};
