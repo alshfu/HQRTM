@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1395415",
+    "image_url": null,
+    "description": "Nybyggt och mycket fräscht Attefallshus om ca 30 kvm uthyres på Hisingen i Göteborg.\nDetta är ett helt nytt och aldrig tidigare bebott boende med modern standard och genomtänkt planlösning. Perfekt för en person eller ett par som söker ett lugnt, privat och bekvämt boende med hög kvalitet.\nBostaden är fullt möblerad och håller på att färdigställas med sista detaljer såsom parkettgolv och mindre finjusteringar, vilket gör att första hyresgästen får flytta in i ett helt nytt hem.\nOm bostaden\nCa 30 kvm\nFullt möblerad, med möjlighet till anpassning efter önskemål\nModernt och fullt utrustat kök\nHelkaklat och rymligt badrum\nVardagsrum i öppen planlösning\nSovloft med plats för dubbelsäng\nEgen entré\nEgen parkeringsplats\nUteplatser och trädgård\nPrivat altan\nEgen balkong\nTillgång till stor och fin trädgård bakom huset\nMycket lugnt och insynsskyddat läge\nLäge och kommunikationer:\nEndast ca 150 meter till busshållplats Toleredsgatan med busslinjer 25, 44 och 145. Mycket goda kommunikationer till centrala Göteborg, Lindholmen, Backaplan och Volvo.\nOmrådet är lugnt och trevligt med närhet till natur, service och stora arbetsplatser.\nUthyres till skötsam person eller par.\nBostaden hyrs ut då den inte används av oss själva och vi vill att någon ska få möjlighet att bo i ett nybyggt, modernt och välplanerat boende.\nInflyttning enligt överenskommelse.\nVälkommen att höra av dig med en kort presentation av dig/er. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Antenngatan, Västra Frölunda",
     "url": "https://qasa.com/p/1395353",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e03713791619a611998d9e54814bad191b02d538810326678192c9387bbaf5ad.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bredfjällsgatan, Angered",
-    "url": "https://qasa.com/p/1394774",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd85cadd2b4f051dee924898f610bd063e7607b160eda64869dbd452699d9a26.jpg",
-    "description": "Har en 2-rumslägenhet. Jag hyr ut ett rum. du får gärna möblera den själv. Du har tillgång till toalett och kök. Söker en lugn och omtänksam person. Inga djur är tillåtna. Rökning är endast tillåten på balkongen. Hyran kostar 3950kr.\nInkuluderar el och internet",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 19.0,
-    "rent": 3950,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T19:26:33+00:00", "clock": "19:26:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T20:19:21+00:00", "clock": "20:19:21"};
