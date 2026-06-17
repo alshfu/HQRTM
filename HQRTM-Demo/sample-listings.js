@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tamburingatan 7, Västra frölunda",
+    "url": "https://qasa.com/p/1394820",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc97ae35dd16762bb702bb9d9d8bf1a42d0933ce857934075108e1ca03062e7b.jpg",
+    "description": "Välkommen till Tamburingatan 7!\nHär kommer du att bo i en välplanerad 3 rums lägenhet om 80 kvadratmeter.\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin, två rymliga kyl och frys, induktions häll, inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.  \nLägenhetsförrådet finner ni i lägenheten. \n\nOBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på planritning kan förekomma.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13105,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Prilyckegatan, Hisings Kärra",
     "url": "https://qasa.com/p/1394715",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b85a87313c48902edea66227257ad4cdeb7cd1f0be50568b96ba820da7c0fce2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Splintvedsgatan, Göteborg",
-    "url": "https://qasa.com/p/1394494",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/82d3e3af2ed39a6a6512ae9a3615e7cfedb26f5ab32be8fc69ca6ac2b1801133.jpg",
-    "description": "Nu blir ett rum blir ledigt i mitt mysiga hus, med del i kök, matrum, vardagsrum, badrum och tvättstuga. Området är ett av Göteborgs tryggaste och lugnaste.\nSovrummet som är 10m² har utsikt mot trädgården och är möblerat med säng, skrivbord, bokhylla, byrå och garderob.\nVi sätter vi stor vikt vid ärlighet, respekt och ordningsamhet.\nHuset har en liten gullig trädgård, ligger på en lugn gata, 5-10 minuter från skogen, friluftsområde med motionsspår, badsjö, div. friluftsaktiviteter samt gym. \nDet är även 5 - 10 minuters promenad till Östra Sjukhuset och endast 1 min från mat- samt serviceaffär, studenthem samt busshållplats (Studiegången). \nDär går buss 17, som tar dig till Centralstationen/Nordstan på 15 minuter, med endast 5 min mellan avgångarna i högtrafik, samt nattrafik på helger. \nDet tar 20 - 35 min till de flesta ställen runt centrum såsom Chalmers, Valand, Avenyn, Handels, Lindholmen, Sahlgrenska sjukhuset och Linnéplatsen. \nDet är cykelavstånd till centrum runt 15- 20 min, lite beroende på vart man ska.\nTV och trådlöst bredband ingår.\nDeposition motsvarande två månadsinbetalningar lämnas vid tillträdet.\nFör bådas trygghet skriver vi kontrakt med två månaders uppsägningstid.\nFöreträde för den som vill hyra i minst ett år.\n....................................................................\nAugust 15 a room will be available in my cozy house, with a shared kitchen, dining room, living room, bathroom and laundry room. The area is one of Gothenburg's safest and quietest.\nThe sleeping room which is 10m² has a view of the garden and is furnished with a bed, desk, bookshelf, chest of drawers and wardrobe.\nWe place great importance on honesty, respect and orderliness.\nThe house has a small cute garden, is located on a quiet street, 5-10 minutes from the forest, an outdoor recreation area with exercise tracks, a swimming lake, various outdoor activities and a gym. \nIt is also a 5-10 minute walk to Östra Sjukhuset and only 1 minute from a food and service shop, student dormitory and bus stop (Studiegången). \nThere is bus 17, which takes you to Central Station/Nordstan in 15 minutes, with only 5 minutes between departures during rush hour, and night traffic on weekends. \n It takes 20 - 35 minutes to most places around the city center such as Chalmers, Valand, Avenyn, Handels, Lindholmen, Sahlgrenska Hospital and Linnéplatsen. \nThe distance to the city center by bike is around 15-20 minutes, depending on where you are going.\nTV and wireless broadband are included.\nA deposit equivalent to two months' payments is left upon arrival.\nFor both of our safety, we sign a contract with a two-month notice period.\nPriority for those who want to rent for at least one year.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T05:45:11+00:00", "clock": "05:45:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T07:33:06+00:00", "clock": "07:33:06"};
