@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Antenngatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1395353",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e03713791619a611998d9e54814bad191b02d538810326678192c9387bbaf5ad.jpg",
+    "description": "Vi hyr ut vår ljusa och välplanerade tvåa på 51,5 kvm, belägen på Antenngatan 47B. Lägenheten ligger på andra och översta våningen, vilket innebär ett lugnt och ostört boende utan grannar ovanför. Den hyrs ut delvis möblerad.\n\nHyran är 11 500 kr per månad och inkluderar värme och vatten. El tillkommer och debiteras enligt faktisk förbrukning. \n\nBostaden erbjuder en genomtänkt planlösning med ett rymligt och ljust vardagsrum, ett separat sovrum, ett kök med plats för matbord samt ett fräscht badrum. Från vardagsrummet når du även den trevliga balkongen – en perfekt plats att njuta av under vår- och sommarmånaderna. Fastigheten har genomgått renovering av fasad, tak och balkonger under våren 2026, utförd av föreningen.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Blidvädersgatan 22, Göteborg",
     "url": "https://qasa.com/p/1395173",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/48e957d3a067a0bef257b8b689281e75769548461a850793b72f936aec4e0c10.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Jenny Lindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1394866",
-    "image_url": null,
-    "description": "1 rum och kök ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T17:37:24+00:00", "clock": "17:37:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-17T18:31:06+00:00", "clock": "18:31:06"};
