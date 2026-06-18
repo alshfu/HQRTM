@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fagottgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1386413",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f46e2d705b0402a3ac2bb2c9b3ef7c57118235859f0a7424fef08135850a976a.jpg",
+    "description": "Hyr ut min lägenhet med anledning av resa. Hall, badrum och kök är avgränsade vilket minskar känslan av en \"studentlägenhet\" som enrummare lätt kan ge. Lägenheten hyrs ut möblerad, där dubbelsängen i sovrummet/vardagsrummet går att fälla upp längs med väggen. El, värme, vatten, tv och bredband ingår.\n\nLägenheten har ett bra läge med gångavstånd till flera matbutiker och gym samt Frölunda torg som är ett större köpcenter. God buss- och spårvagnsförbindelse och bra förutsättningar för att ta sig fram med cykel.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 8590,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1395829",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dc3ab02f0659903b3a9f47bda77dbf2e6f9ff92899bc93d011d633d3c646603.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 38, Göteborg",
-    "url": "https://qasa.com/p/1395549",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/070682f2986721f1799bdcdd81cbe465fe04c7fbd031d5476d1ec8ac9a318930.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror och diskmaskin tillsammans med en gasspis. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring samt gas tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 56.0,
-    "rent": 8376,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T15:51:48+00:00", "clock": "15:51:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T16:57:21+00:00", "clock": "16:57:21"};
