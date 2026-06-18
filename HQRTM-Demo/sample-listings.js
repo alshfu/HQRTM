@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Blidvädersgatan 38, Göteborg",
+    "url": "https://qasa.com/p/1395549",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/070682f2986721f1799bdcdd81cbe465fe04c7fbd031d5476d1ec8ac9a318930.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror och diskmaskin tillsammans med en gasspis. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring samt gas tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 56.0,
+    "rent": 8376,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1395415",
     "image_url": null,
@@ -50,7 +65,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Blidvädersgatan 12, Göteborg",
     "url": "https://qasa.com/p/1395171",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/69c6cfb746f53a7ea619b2720a08b530c053aaed9c7df05cad18185206a9bf4f.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3103022139dc46e7dbd76dc0fc1fbaa541a803643dda53020fb8efdcf1110abf.jpg",
     "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror och diskmaskin. Genomgående trägolv i lägenheten. Balkong finns genom vardagsrummet. \n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
     "district": "Göteborg",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gyllenkrooksgatan 3, Göteborg",
-    "url": "https://qasa.com/p/1395135",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c8b39ea432b551aac6b6e7ab74d00644b87718be2262743c3516eb8a443cf742.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till en fin och välplanerad trerumslägenhet med kök. Lägenheten erbjuder ett nyrenoverat kök utrustat med diskmaskin, och mikrovågsugn ingår. Från ett av sovrummen nås en charmig balkong med utsikt över den lugna innergården. Badrummet är helkaklat och i äldre standard. Observera att badrummet inte är förberett för installation av tvättmaskin.\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 69.0,
-    "rent": 11797,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T05:41:35+00:00", "clock": "05:41:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T07:20:04+00:00", "clock": "07:20:04"};
