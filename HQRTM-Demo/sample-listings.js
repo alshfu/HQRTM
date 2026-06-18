@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Styrsö hamnväg, Styrsö",
+    "url": "https://qasa.com/p/1395609",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c54953162564628cb99326909fc90a21c69b7f1da9ce4509ae452300de1dad5.jpg",
+    "description": "Charmigt litet hus i Göteborgs södra skärgård på Styrsö uthyres till student. \n\nMöjlighet finns att hyra ut till ett par med ett tillägg på 1000 kronor. \n\nHuset är möblerat och utrustat och består av ett rum med kokvrå och tvättmaskin. Dessutom finns  dusch och toalett samt litet förråd. \n\nI hyran ingår: Värme, vatten, hushållsel, sophämtning och WiFi. \n\n200 meter till närmaste hållplats och 200 meter till livsmedelsbutik. \n\nPå ön finns också gym, träningspass, motionsslingor, bad samt bibliotek, barer och mycket annat. ",
+    "district": "Styrsö",
+    "rooms": 1.0,
+    "area_m2": 22.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Vadlagsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1395582",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f7c419a1135e68fcce0d414fe14cd0e21c68d5b889419ed98eba99325afb8a62.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 32775 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/grzok2krxjpwqmw0qctu/vastra-gotaland/vastra-frolunda/vadlagsgatan-8/8-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLetar du efter ett hem med både komfort och stil? Denna vackra villa, belägen på Näset i västra Göteborg är nu tillgänglig för uthyrning! Perfekt för både familjer och företag, villa erbjuder en härlig blandning av lugn och närhet till stadens puls.\r\nVillan ligger på Näset i västra Göteborg 300 m till närmaste havsbad och båthamn. Villan har två våningar och källare. Entréplan består av hall, kök med vidhängande matplats, stort vardagsrum, solig lounge, ett kontor eller sovrum, badrum med jacuzzi, toalett. Via loungerummet kommer man ut på en terrass i söderläge. Övervåningen består av tre sovrum, ett allrum, toalett och dusch samt en balkong med havsutsikt. I källaren finns tvättstuga och hobbyrum.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 32775 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Västra Frölunda",
+    "rooms": 8.0,
+    "area_m2": 160.0,
+    "rent": 30934,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Blidvädersgatan 38, Göteborg",
     "url": "https://qasa.com/p/1395549",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/070682f2986721f1799bdcdd81cbe465fe04c7fbd031d5476d1ec8ac9a318930.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Varvsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1395158",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/79e9c0eb390a41d2c47055ff54e77675edfa1e10eaba9aee794228879e74f155.jpg",
-    "description": "Gamla Varvsgatan 1 – Modern 2:a i hjärtat av Majorna\n\nHär bor du med Majornas unika charm precis utanför dörren – nära hamninloppet, mysiga caféer, populära restauranger och Slottsskogens grönska.\n\nLägenheten är en välplanerad tvåa om 71 kvm med genomtänkta materialval och en modern standard. Det stilrena köket är fullt utrustat med inbyggnadsugn, spishäll, mikrovågsugn och diskmaskin.\n\nDet helkaklade badrummet erbjuder både tvättmaskin och torktumlare för en bekväm vardag.\n\nSom en extra bonus kommer lägenheten inom kort att få en egen balkong. I samband med fastighetens pågående balkongrenovering tillförs en ny balkong till lägenheten – ett mycket uppskattat tillskott som ger möjlighet att njuta av den fina utsikten mot hamninloppet.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 71.0,
-    "rent": 12338,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 48, Göteborg",
-    "url": "https://qasa.com/p/1395143",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a6ada8556ce4a1e0b5c0f9bf2485430804b93d8d4e8bfa5a19732960376ffced.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ\n\nOM LÄGENHETEN\nVälkomna till denna välplanerade etta högt upp i huset på Blidvädersgatan 48! Lägenheten har ett charmigt parkettgolv i kök och vardagsrum. Det praktiska köket är utrustat med moderna rostfria vitvaror. Badrummet nås direkt i hallen och är helkaklat, förberett för tvättmaskin och utrustat med dusch.\n\nHYRAN \nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten. \n\nPARKERING \nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se Vill du få tips via mejl på lediga parkeringsplatser där du bor kan du lägga upp en bevakning.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 23.0,
-    "rent": 4723,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T07:20:04+00:00", "clock": "07:20:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T08:58:18+00:00", "clock": "08:58:18"};
