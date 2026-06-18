@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lillhagsparken 19A, Göteborg",
+    "url": "https://qasa.com/p/1395781",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/394aaaa3668f9f87f45a0855b280de2895925a03e597fcad9861428b80d2109f.jpg",
+    "description": "Lägenheterna på Lillhagsparken 19 & 23 är moderna och välplanerade. Samtliga lägenheter innehar ekparkett genomgående med vitmålade väggar, klinker i hall och helkaklat badrum. I köken finner man ett modern Marbodal-kök, utrustat med diskmaskin och inbyggd mikrovågsugn. Badrummen är utrustade med tvättmaskin och torktumlare. Samtliga lägenheter har antingen balkong eller uteplats beroende på våningsplan. Det finns både parkering och garage att hyra, i mån av plats, med laddmöjlighet. \n\nUtöver hyran tillkommer kostnad för el och varmvatten. Endast kallvatten och värme ingår i hyran.\n\nInflyttning 1 juli 2026.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 13827,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Björcksgatan, Göteborg",
     "url": "https://qasa.com/p/1395638",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7270f47f1788db90a3fe3af20d422407515aa709ddcccb4a6d2396fa20d805a4.jpg",
@@ -21,7 +36,7 @@ window.HQRTM_SAMPLE = [
     "title": "Styrsö hamnväg, Styrsö",
     "url": "https://qasa.com/p/1395609",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c54953162564628cb99326909fc90a21c69b7f1da9ce4509ae452300de1dad5.jpg",
-    "description": "Charmigt litet hus i Göteborgs södra skärgård på Styrsö, uthyres till student. \n\nMöjlighet finns att hyra ut till ett par där minst en studerar. Då med ett tillägg på 1000 kronor. \n\nHuset är möblerat och utrustat och består av ett rum med kokvrå och tvättmaskin. Dessutom finns  dusch och toalett samt litet förråd. \n\nI hyran ingår: Värme, vatten, hushållsel, sophämtning och WiFi. \n\n200 meter till närmaste hållplats och 200 meter till livsmedelsbutik. \n\nPå ön finns också gym, träningspass, motionsslingor, bad samt bibliotek, barer och mycket annat. ",
+    "description": "Charmigt litet hus i Göteborgs södra skärgård på Styrsö, uthyres till student. \n\nMöjlighet finns att hyra ut till ett par där minst en studerar. Då med ett tillägg på 1000 kronor. \n\nOm du är intresserad av att hyra här, skriv och berätta lite om dig själv. Vilken utbildning du ska gå på och om du har studerat tidigare. Vad du har för intressen och varför du vill bo på en ö. Om du har en partner som ska bo med dig, behöver även partnern berätta om sig. \n\nHuset är möblerat och utrustat och består av ett rum med kokvrå och tvättmaskin. Dessutom finns  dusch och toalett samt litet förråd. \n\nI hyran ingår: Värme, vatten, hushållsel, sophämtning och WiFi. \n\n200 meter till närmaste hållplats och 200 meter till livsmedelsbutik. \n\nPå ön finns också gym, träningspass, motionsslingor, bad samt bibliotek, barer och mycket annat. ",
     "district": "Styrsö",
     "rooms": 1.0,
     "area_m2": 22.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 22, Göteborg",
-    "url": "https://qasa.com/p/1395173",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/48e957d3a067a0bef257b8b689281e75769548461a850793b72f936aec4e0c10.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna charmiga lilla etta på 28kvm! Lägenheten har en smart planlösning med ett praktiskt modernt kokvrå och helkaklat badrum förberett för dig att kunna köpa och installera din egna tvättmaskin.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring samt gas tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 5204,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T11:58:29+00:00", "clock": "11:58:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T13:26:24+00:00", "clock": "13:26:24"};
