@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1395829",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dc3ab02f0659903b3a9f47bda77dbf2e6f9ff92899bc93d011d633d3c646603.jpg",
+    "description": "\nVälkommen till en modern och stilren 2:a i attraktiva Lundby, Göteborg. Här bor du i ett bekvämt och välplanerat hem med hög standard och närhet till både city och natur.\n\nLägenheten om 50 kvm är byggd 2020 och uppdaterad med nytt kök och badrum (2024), vilket ger ett fräscht och modernt intryck. Bostaden erbjuder alla bekvämligheter för en smidig vardag, inklusive fullt utrustat kök, internet och TV.\n\nTill lägenheten hör parkeringsplats med möjlighet till elbilsladdning. I fastigheten finns även tvättstuga, cykelrum och återvinning. Säkerhetsdörr ger extra trygghet.\n\nHär bor du på Gamla Björlandavägen med goda kommunikationer och närhet till Göteborgs stadspuls. Samtidigt har du naturen runt hörnet med Keillers Park och fina promenadstråk.\n\nInflyttning från 1 juli 2026. Kontrakt till 7 juli 2028.\n\nPunktform \n📍 Läge: Lundby, Göteborg (Gamla Björlandavägen7)\n🏠 Typ: 2 rok, 50 kvm, plan 3\n🏗️ Byggår: tot rev 2020\n🔧 Renoverat: Kök & badrum 2024\n\n\nING\nDiskmaskin & mikrovågsugn\nInternet & TV\nParkeringsplats med elbilsladdning\nSäkerhetsdörr\nEL/ ELNÄT\nVatten och värme \n\nGemensamt:\nTvättstuga\nCykelrum\nÅtervinningsstation ( restavfall och blandad avfall)\n\nOmråde:\nNära kollektivtrafik (bussar inom gångavstånd)\nNära natur & Keillers Park\nSnabb access till centrala Göteborg\n\nÖvrigt:\n📅 Inflytt: 2026-07-01\n📄 Kontrakt: till 2028-07-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11000,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sjupundsgatan, Göteborg",
+    "url": "https://qasa.com/p/1395839",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/69257a335fcabd2863876cc3c7979b020c6cace7030e218df525697de988816b.jpg",
+    "description": "Nyproducerad etta från 2022 i populära Högsbo uthyrs från 1:a augusti och tillsvidare. \n\nDenna kvadratsmarta etta med stor balkong i söderläge har praktiskt kök med allt som behövs. Vardagsrummet rymmer såväl soffhörna, säng som ett litet matbord. Hall är möblerbar med gott om förvaringsutrymme, från hall nås det stilrena badrummet med duschvägg i glas och kombitvättmaskin. Lägenheten har en utsikt mot innergården.  \nTvättstugan finns och även lounge med kök och takterrass. Där kan man grilla, sola eller träna på ett utegym. Ett extra förvaringsutrymme finns i källaren.\nBusshållplats ligger precis utanför entré, med bussen nr 16 Sahlgrenska/ Chalmers nås på 8 min, Nordstan nås på 20 min. Promenadavstånd till Botaniska trädgården och Slottsskogen. Fem spårvagnslinjer till staden (Axel Dahlströms torg: 8 min till fots). Ica Nära och gym (STC) finns i områden. \n\nLägenheten uthyrs omöblerat. \n\nNotera:\nInternet ingår. \nEl och varmvatten kostnad tillkommer: kostnader up till 350 kr ingår, ev. överskott regleras separat (debiteras efter egen förbrukning).\n\nDjur välkomna. \n\nLägenheten är för närvarande uthyrd och blir tillgänglig från och med 1:a augusti. Visning kan ordnas innan inflyttning. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 12050,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillhagsparken 19A, Göteborg",
     "url": "https://qasa.com/p/1395781",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/394aaaa3668f9f87f45a0855b280de2895925a03e597fcad9861428b80d2109f.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Björlandavägen, Göteborg",
-    "url": "https://qasa.com/p/1395415",
-    "image_url": null,
-    "description": "Nybyggt och mycket fräscht Attefallshus om ca 30 kvm uthyres på Hisingen i Göteborg.\nDetta är ett helt nytt och aldrig tidigare bebott boende med modern standard och genomtänkt planlösning. Perfekt för en person eller ett par som söker ett lugnt, privat och bekvämt boende med hög kvalitet.\nBostaden är fullt möblerad och håller på att färdigställas med sista detaljer såsom parkettgolv och mindre finjusteringar, vilket gör att första hyresgästen får flytta in i ett helt nytt hem.\nOm bostaden\nCa 30 kvm\nFullt möblerad, med möjlighet till anpassning efter önskemål\nModernt och fullt utrustat kök\nHelkaklat och rymligt badrum\nVardagsrum i öppen planlösning\nSovloft med plats för dubbelsäng\nEgen entré\nEgen parkeringsplats\nUteplatser och trädgård\nPrivat altan\nEgen balkong\nTillgång till stor och fin trädgård bakom huset\nMycket lugnt och insynsskyddat läge\nLäge och kommunikationer:\nEndast ca 150 meter till busshållplats Toleredsgatan med busslinjer 25, 44 och 145. Mycket goda kommunikationer till centrala Göteborg, Lindholmen, Backaplan och Volvo.\nOmrådet är lugnt och trevligt med närhet till natur, service och stora arbetsplatser.\nUthyres till skötsam person eller par.\nBostaden hyrs ut då den inte används av oss själva och vi vill att någon ska få möjlighet att bo i ett nybyggt, modernt och välplanerat boende.\nInflyttning enligt överenskommelse.\nVälkommen att höra av dig med en kort presentation av dig/er. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Antenngatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1395353",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e03713791619a611998d9e54814bad191b02d538810326678192c9387bbaf5ad.jpg",
-    "description": "Vi hyr ut vår ljusa och välplanerade tvåa på 51,5 kvm, belägen på Antenngatan 47B. Lägenheten ligger på andra och översta våningen, vilket innebär ett lugnt och ostört boende utan grannar ovanför. Den hyrs ut delvis möblerad.\n\nHyran är 11 500 kr per månad och inkluderar värme och vatten. El tillkommer och debiteras enligt faktisk förbrukning. \n\nBostaden erbjuder en genomtänkt planlösning med ett rymligt och ljust vardagsrum, ett separat sovrum, ett kök med plats för matbord samt ett fräscht badrum. Från vardagsrummet når du även den trevliga balkongen – en perfekt plats att njuta av under vår- och sommarmånaderna. Fastigheten har genomgått renovering av fasad, tak och balkonger under våren 2026, utförd av föreningen.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T13:26:24+00:00", "clock": "13:26:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T14:31:59+00:00", "clock": "14:31:59"};
