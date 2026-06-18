@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Västanvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1395925",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9b5940f50537514ea7415a11d4ea46fdf2ba7b38f1ec27f366343544957866e.jpg",
+    "description": "En trevlig, välplanerad lägenhet på vindsplan. Sovalkov. Stort kök med diskmaskin. Nära till Wieselgrensplatsen där kollektivtrafik tar en till centrum på 10 minuter. Många fina grönområden och Ramberget på kort gångavstånd. \nFlyttar på grund av arbete under ett år i Stockholm, med stor möjlighet för fortsättning. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 38.0,
+    "rent": 7950,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bratteråsgatan, Göteborg",
     "url": "https://qasa.com/p/1395908",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/337f4ba0243696fbb1038c10046b302c00284d2c426521533fe1722201255074.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styrsö hamnväg, Styrsö",
-    "url": "https://qasa.com/p/1395609",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c54953162564628cb99326909fc90a21c69b7f1da9ce4509ae452300de1dad5.jpg",
-    "description": "Charmigt litet hus i Göteborgs södra skärgård på Styrsö, uthyres till student. \n\nMöjlighet finns att hyra ut till ett par där minst en studerar. Då med ett tillägg på 1000 kronor. \n\nOm du är intresserad av att hyra här, skriv och berätta lite om dig själv. Vilken utbildning du ska gå på och om du har studerat tidigare. Vad du har för intressen och varför du vill bo på en ö. Om du har en partner som ska bo med dig, behöver även partnern berätta om sig. \n\nHuset är möblerat och utrustat och består av ett rum med kokvrå och tvättmaskin. Dessutom finns  dusch och toalett samt litet förråd. \n\nI hyran ingår: Värme, vatten, hushållsel, sophämtning och WiFi. \n\n200 meter till närmaste hållplats och 200 meter till livsmedelsbutik. \n\nPå ön finns också gym, träningspass, motionsslingor, bad samt bibliotek, barer och mycket annat. ",
-    "district": "Styrsö",
-    "rooms": 1.0,
-    "area_m2": 22.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T18:06:11+00:00", "clock": "18:06:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T19:03:00+00:00", "clock": "19:03:00"};
