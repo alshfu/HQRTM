@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bratteråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1395908",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/337f4ba0243696fbb1038c10046b302c00284d2c426521533fe1722201255074.jpg",
+    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fagottgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1386413",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f46e2d705b0402a3ac2bb2c9b3ef7c57118235859f0a7424fef08135850a976a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vadlagsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1395582",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f7c419a1135e68fcce0d414fe14cd0e21c68d5b889419ed98eba99325afb8a62.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 32775 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/grzok2krxjpwqmw0qctu/vastra-gotaland/vastra-frolunda/vadlagsgatan-8/8-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLetar du efter ett hem med både komfort och stil? Denna vackra villa, belägen på Näset i västra Göteborg är nu tillgänglig för uthyrning! Perfekt för både familjer och företag, villa erbjuder en härlig blandning av lugn och närhet till stadens puls.\r\nVillan ligger på Näset i västra Göteborg 300 m till närmaste havsbad och båthamn. Villan har två våningar och källare. Entréplan består av hall, kök med vidhängande matplats, stort vardagsrum, solig lounge, ett kontor eller sovrum, badrum med jacuzzi, toalett. Via loungerummet kommer man ut på en terrass i söderläge. Övervåningen består av tre sovrum, ett allrum, toalett och dusch samt en balkong med havsutsikt. I källaren finns tvättstuga och hobbyrum.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 32775 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Västra Frölunda",
-    "rooms": 8.0,
-    "area_m2": 160.0,
-    "rent": 30934,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T16:57:21+00:00", "clock": "16:57:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T18:06:11+00:00", "clock": "18:06:11"};
