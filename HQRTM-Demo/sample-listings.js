@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brygghusvägen, Torslanda",
+    "url": "https://qasa.com/p/1395983",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4b95d165b8ef40242c7a42430a9c8ecc32f88f8cf105befe4400a3c6c5d8688d.jpg",
+    "description": "Välkommen till en modern marklägenhet med härlig villakänsla!\n\nHär erbjuds 74 välplanerade kvadratmeter fördelade på tre rum och kök. Lägenheten byggdes 2022 och håller en genomgående hög standard med bland annat golvvärme och generös takhöjd som skapar en luftig och trivsam känsla.\n\nBostaden är i mycket fint skick och redan när du kliver in möts du av en välkomnande hall med bra förvaringsmöjligheter i garderober samt plats för ytterkläder.\n\nEtt hem som kombinerar bekvämligheten i en lägenhet med känslan av att bo i hus.",
+    "district": "Torslanda",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 13980,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1395949",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9256de1502185314d5dc45397199cd38ef359ebd6d3d771333da7b70d12d53f9.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillhagsparken 19A, Göteborg",
-    "url": "https://qasa.com/p/1395781",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/394aaaa3668f9f87f45a0855b280de2895925a03e597fcad9861428b80d2109f.jpg",
-    "description": "Lägenheterna på Lillhagsparken 19 & 23 är moderna och välplanerade. Samtliga lägenheter innehar ekparkett genomgående med vitmålade väggar, klinker i hall och helkaklat badrum. I köken finner man ett modern Marbodal-kök, utrustat med diskmaskin och inbyggd mikrovågsugn. Badrummen är utrustade med tvättmaskin och torktumlare. Samtliga lägenheter har antingen balkong eller uteplats beroende på våningsplan. Det finns både parkering och garage att hyra, i mån av plats, med laddmöjlighet. \n\nUtöver hyran tillkommer kostnad för el och varmvatten. Endast kallvatten och värme ingår i hyran.\n\nInflyttning 1 juli 2026.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 13827,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T20:50:11+00:00", "clock": "20:50:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T21:35:58+00:00", "clock": "21:35:58"};
