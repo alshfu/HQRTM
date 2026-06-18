@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Monsungatan, Göteborg",
+    "url": "https://qasa.com/p/1395949",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9256de1502185314d5dc45397199cd38ef359ebd6d3d771333da7b70d12d53f9.jpg",
+    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Västanvindsgatan, Göteborg",
     "url": "https://qasa.com/p/1395925",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9b5940f50537514ea7415a11d4ea46fdf2ba7b38f1ec27f366343544957866e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björcksgatan, Göteborg",
-    "url": "https://qasa.com/p/1395638",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7270f47f1788db90a3fe3af20d422407515aa709ddcccb4a6d2396fa20d805a4.jpg",
-    "description": "Välplanerad och charmig etta i Kålltorp uthyres möblerad!\n\nJag hyr ut min trivsamma och välskötta etta i Kålltorp från 1 juli, gärna under en period om 12 månader. Lägenheten är belägen i ett charmigt landshövdingehus i en lugn och omtyckt bostadsrättsförening.\n\nLägenheten är cirka 40 kvm och har en smart planlösning med ett rymligt allrum, separat kök och gott om förvaring. Den hyrs ut fullt möblerad och vissa möbler kan vid behov ställas undan efter överenskommelse. Ett eget förråd ingår också.\n\nI hyran ingår:  möbler , el, fiber/WiFi , vatten , förråd\n\nKålltorp är ett av Göteborgs mest uppskattade områden med närhet till både stad och natur. På gångavstånd finns ICA Kvantum, Coop, gym, caféer, restauranger och service. Delsjöområdet med motionsspår, badsjöar och grönområden ligger precis i närheten.\n\nKommunikationerna är mycket goda med spårvagn och buss. Det tar 10 min till Korsvägen och 15 min till centrala Göteborg. Chalmers nås på cirka 25 min. Gratis parkering finns på gatan utanför och föreningen erbjuder även cykelförvaring samt en trevlig innergård med grillplats och sittplatser.\n\nAnledningen till uthyrningen är att jag för närvarande bor tillsammans med min sambo, men vill behålla lägenheten.\n\nBerätta gärna lite om dig själv vid intresse, exempelvis arbete eller studier samt hur länge du söker boende!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T19:03:00+00:00", "clock": "19:03:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-18T19:54:08+00:00", "clock": "19:54:08"};
