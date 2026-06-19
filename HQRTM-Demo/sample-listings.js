@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Åbrinken, Angered",
+    "url": "https://qasa.com/p/1396177",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc96ee5a0fe35dbe580b1967d4c48808eca904695a88904ff5a7ea6d96783b6a.jpg",
+    "description": "Källarvåning uthyres i Göteborg, Angered\n\nFräsch och rymlig källarvåning om cirka 88 kvm uthyres från och med 1 augusti.\n\nBostaden är omöblerad och består av 3 rum och kök, badrum/WC, tvättstuga samt tillgång till uteplats och trädgård. Lägenheten är rökfri och djurfri.\n\nKommunikationerna är mycket goda med närhet till hållplatsen Åbrinken, endast cirka 50–150 meter från bostaden. Restiden till centrala Göteborg är cirka 15–20 minuter.\n\nHyra: ca 9 500 kr/månad\nI hyran ingår el, varmvatten och sophämtning.\nParkering finns framför huset.\nDeposition motsvarande en månadshyra erläggs i förskott.\n\nVid intresse är du varmt välkommen att höra av dig för mer information eller för att boka en visning. Skriv gärna några rader om dig själv i ditt meddelande.\n\nMed vänliga hälsningar,\nFarah",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 88.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hedtångsvägen, Hovås",
+    "url": "https://qasa.com/p/1396178",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75427257eebb46c797a56a6c27af902372f7efa0516474ed783ec08f0e148755.png",
+    "description": "Upptäck denna charmiga nyproducerade tvårummare på 58 kvadratmeter - här väntar ett boende med både stil och funktionalitet. Lägenheten, erbjuder ett bekvämt och privat boende. Köket är rymligt och välplanerat, perfekt för både vardagsmiddag och festliga tillställningar. Det ljusa vardagsrummet bjuder in till avkoppling och umgänge. Ett harmoniskt sovrum, med plats för både dubbelsäng och garderober, kompletterar den hemtrevliga känslan. Här kombineras en smart planlösning med bra ljusinsläpp, vilket skapar en inbjudande atmosfär. \n\nInternet: Brf Hovås Tak har tecknat ett kollektivt avtal med Telia om leverans av Bredband, TV & Telefoni, med ett grundutbud som tillkommer årsavgiften. I grundutbudet ingår Bredband 100/100 Mbit/s, TV-paketet lagom (se Telias hemsida vilka kanaler som omfattas) samt bredbandstelefoni. Till lägenheten hör 1st digital-box, 1st bredbandsrouter och (en extra förstärkare? som förstärker WIFI signalen. Vill man beställa extratjänster själv av Telia utöver grundutbudet så går detta bra.\n\nLägenheten befinner sig i ett attraktivt läge med närhet till service, restauranger, kommunikationer och havet.\n\nBostaden hyrs ut då vi får tillskott i familjen. \n\n",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Västra Andersgårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1396167",
+    "image_url": null,
+    "description": "Lägenheten är ljus och fräsch. Bra planlösning. Ett sovrum och i sovrummet finns en walk in closet. Vardagsrummet och köket är i ett stort rum. På toaletten finns det badkar. Vill hyra ut möblerat och en avgift tillkommer för möblerna. Inflytt och utflytt sker enligt överenskommelse men jag tänker ett par månader till att börja med.\nDu som hyr behöver betala hyran, för möblerna, el och elnät. Du behöver ha en hemförsäkring. Du kan betala mig och använda det bredband/wifi jag redan har tecknat om du vill.\nKommunikationen är mycket god, nära till buss och spårvagn.\nJag vill hyra ut till en kvinna och ser gärna att du är rök och djurfri.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 7582,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Varpevägen, Brännö",
     "url": "https://qasa.com/p/1396120",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b06209d1696eba4b3966f67882b35eb65f3c06223a7f4ef176a39dea5d199c46.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Västanvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1395925",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9b5940f50537514ea7415a11d4ea46fdf2ba7b38f1ec27f366343544957866e.jpg",
-    "description": "En trevlig, välplanerad lägenhet på vindsplan. Sovalkov. Stort kök med diskmaskin. Nära till Wieselgrensplatsen där kollektivtrafik tar en till centrum på 10 minuter. Många fina grönområden och Ramberget på kort gångavstånd. \nFlyttar på grund av arbete under ett år i Stockholm, med stor möjlighet för fortsättning. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 38.0,
-    "rent": 7950,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1395908",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/337f4ba0243696fbb1038c10046b302c00284d2c426521533fe1722201255074.jpg",
-    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fagottgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1386413",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f46e2d705b0402a3ac2bb2c9b3ef7c57118235859f0a7424fef08135850a976a.jpg",
-    "description": "Hyr ut min lägenhet med anledning av resa. Hall, badrum och kök är avgränsade vilket minskar känslan av en \"studentlägenhet\" som enrummare lätt kan ge. Lägenheten hyrs ut möblerad, där dubbelsängen i sovrummet/vardagsrummet går att fälla upp längs med väggen. El, värme, vatten, tv och bredband ingår.\n\nLägenheten har ett bra läge med gångavstånd till flera matbutiker och gym samt Frölunda torg som är ett större köpcenter. God buss- och spårvagnsförbindelse och bra förutsättningar för att ta sig fram med cykel.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 8590,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-19T14:06:12+00:00", "clock": "14:06:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-19T15:19:22+00:00", "clock": "15:19:22"};
