@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Varpevägen, Brännö",
+    "url": "https://qasa.com/p/1396120",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b06209d1696eba4b3966f67882b35eb65f3c06223a7f4ef176a39dea5d199c46.jpg",
+    "description": "Vill du bo på en vacker ö i Göteborgs skärgård har du hittat rätt!\nTrevlig stuga med sovrum,  helt kök, badrum med dusch, toalett och tvättmaskin/torktumlare. Nytt uterum med infravärme. Ett sovrum på nedre plan med dubbelsäng. En säng på loftet  samt tv och trappa upp till loft. Uppvärmning värmegolv och luftvärmepump/Air-condition. Tillgång till bastu och relaxrum. Stugan ligger på vackra Brännö i Göteborgs skärgård, ön är bilfri, endast några varubilar. Det finns affär på ön och goda kommunikationer till centrum med färja och snabbuss alternativt spårvagn.  El, Vatten, Wi-Fi (100), sophämtning ingår.  Stugan passar en till två personer vid längre uthyrning. Högt och avskilt läge med havsutsikt! Gärna studenter. ",
+    "district": "Brännö",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 11050,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ekebygatan, Hisings Backa",
     "url": "https://qasa.com/p/1396073",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/061f0125acbda3d080fe3cd4095ed957699011640ee903544a7382bccf747aaa.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Björlandavägen, Göteborg",
-    "url": "https://qasa.com/p/1395829",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dc3ab02f0659903b3a9f47bda77dbf2e6f9ff92899bc93d011d633d3c646603.jpg",
-    "description": "\nVälkommen till en modern och stilren 2:a i attraktiva Lundby, Göteborg. Här bor du i ett bekvämt och välplanerat hem med hög standard och närhet till både city och natur.\n\nLägenheten om 50 kvm är byggd 2020 och uppdaterad med nytt kök och badrum (2024), vilket ger ett fräscht och modernt intryck. Bostaden erbjuder alla bekvämligheter för en smidig vardag, inklusive fullt utrustat kök, internet och TV.\n\nTill lägenheten hör parkeringsplats med möjlighet till elbilsladdning. I fastigheten finns även tvättstuga, cykelrum och återvinning. Säkerhetsdörr ger extra trygghet.\n\nHär bor du på Gamla Björlandavägen med goda kommunikationer och närhet till Göteborgs stadspuls. Samtidigt har du naturen runt hörnet med Keillers Park och fina promenadstråk.\n\nInflyttning från 1 juli 2026. Kontrakt till 7 juli 2028.\n\nPunktform \n📍 Läge: Lundby, Göteborg (Gamla Björlandavägen7)\n🏠 Typ: 2 rok, 50 kvm, plan 3\n🏗️ Byggår: tot rev 2020\n🔧 Renoverat: Kök & badrum 2024\n\n\nING\nDiskmaskin & mikrovågsugn\nInternet & TV\nParkeringsplats med elbilsladdning\nSäkerhetsdörr\nEL/ ELNÄT\nVatten och värme \n\nGemensamt:\nTvättstuga\nCykelrum\nÅtervinningsstation ( restavfall och blandad avfall)\n\nOmråde:\nNära kollektivtrafik (bussar inom gångavstånd)\nNära natur & Keillers Park\nSnabb access till centrala Göteborg\n\nÖvrigt:\n📅 Inflytt: 2026-07-01\n📄 Kontrakt: till 2028-07-01",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11000,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-19T09:54:42+00:00", "clock": "09:54:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-19T11:36:25+00:00", "clock": "11:36:25"};
