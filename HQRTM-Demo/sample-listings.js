@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ekebygatan, Hisings Backa",
+    "url": "https://qasa.com/p/1396073",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/061f0125acbda3d080fe3cd4095ed957699011640ee903544a7382bccf747aaa.jpg",
+    "description": "Nu finns möjlighet att hyra en välplanerad och trivsam 3:a om 74,3 m² belägen i Hisings Backa. Lägenheten är belägen högst upp i huset på våning 3 av 3, vilket ger ett lugnt och insynsskyddat boende.\n\nOmrådet erbjuder en perfekt kombination av närhet till natur och smidiga kommunikationer. Närmaste hållplats är Körkarlensgata, och med flera busslinjer tar du dig till Brunnsparken på cirka 10 minuter. I närområdet finns ett brett utbud av service, restauranger, livsmedelsbutiker och shopping, bland annat vid Bäckebol Köpcentrum och Selma Lagerlöfs Torg. För den som uppskattar friluftsliv finns även fina grönområden, promenadstråk och motionsslingor inom bekvämt avstånd.\n\nLägenheten hyrs ut möblerad (delvis)\n\nHyra: 15 000 kr/månad\n\nI hyran ingår:\n\n* El\n* Vatten\n* Värme\n* Internet\n* Parkeringsplats ( önskas elbilsladdning finns det med)\n\nHyrestid:\nLägenheten hyrs ut initialt i 1 år. Om uthyrningen fungerar väl finns möjlighet till förlängning med ytterligare 1 år.\n\nKrav på hyresgäst:\n\n* Deposition erläggs före inflyttning.\n* God ekonomi utan betalningsanmärkningar.\n* Ordnad livssituation och goda referenser är meriterande.\n\nVid intresse, skicka gärna en kort presentation av dig själv, vilka som kommer att bo i lägenheten samt önskat inflyttningsdatum. Jag söker en skötsam hyresgäst som kommer att ta väl hand om bostaden.",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 14200,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brygghusvägen, Torslanda",
     "url": "https://qasa.com/p/1395983",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4b95d165b8ef40242c7a42430a9c8ecc32f88f8cf105befe4400a3c6c5d8688d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sjupundsgatan, Göteborg",
-    "url": "https://qasa.com/p/1395839",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/69257a335fcabd2863876cc3c7979b020c6cace7030e218df525697de988816b.jpg",
-    "description": "Nyproducerad etta från 2022 i populära Högsbo uthyrs från 1:a augusti och tillsvidare. \n\nDenna kvadratsmarta etta med stor balkong i söderläge har praktiskt kök med allt som behövs. Vardagsrummet rymmer såväl soffhörna, säng som ett litet matbord. Hall är möblerbar med gott om förvaringsutrymme, från hall nås det stilrena badrummet med duschvägg i glas och kombitvättmaskin. Lägenheten har en utsikt mot innergården.  \nTvättstugan finns och även lounge med kök och takterrass. Där kan man grilla, sola eller träna på ett utegym. Ett extra förvaringsutrymme finns i källaren.\nBusshållplats ligger precis utanför entré, med bussen nr 16 Sahlgrenska/ Chalmers nås på 8 min, Nordstan nås på 20 min. Promenadavstånd till Botaniska trädgården och Slottsskogen. Fem spårvagnslinjer till staden (Axel Dahlströms torg: 8 min till fots). Ica Nära och gym (STC) finns i områden. \n\nLägenheten uthyrs omöblerat. \n\nNotera:\nInternet ingår. \nEl och varmvatten kostnad tillkommer: kostnader up till 350 kr ingår, ev. överskott regleras separat (debiteras efter egen förbrukning).\n\nDjur välkomna. \n\nLägenheten är för närvarande uthyrd och blir tillgänglig från och med 1:a augusti. Visning kan ordnas innan inflyttning. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 12050,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-19T08:15:31+00:00", "clock": "08:15:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-19T09:54:42+00:00", "clock": "09:54:42"};
