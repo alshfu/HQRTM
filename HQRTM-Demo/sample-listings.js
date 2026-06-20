@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Trebackegatan, Göteborg",
+    "url": "https://qasa.com/p/1396411",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4759848f939761dad31638540ec8eb75b85f4c73b2996b46e889fbd45d98e1f7.jpg",
+    "description": "Charmig 3:a i mysiga Kålltorp/Munkebäck – nära både natur och stadsliv\n\nNu hyr vi ut vår ljusa och rymliga lägenhet på 95 kvm!\nHär bor du med det bästa av två världar – lugnet och grönskan runt hörnet, samtidigt som du enkelt tar dig in till centrala Göteborg. På bekvämt gångavstånd finns Delsjön och Skatås med fina möjligheter till motion, promenader och bad. Med spårvagn eller buss når du centrum på cirka 15–20 minuter.\n\nLägenheten är belägen på våning 2 i en villa med tillgång till trädgård och uteplats, vilket ger en härlig och hemtrevlig känsla. Från balkongen i söderläge har du utsikt över det lummiga villaområdet.\n\nBostaden är ljus och trivsam med vackra parkett- och trägolv samt en öppen spis som bidrar till extra charm. Det rymliga vardagsrummet ger plats för både soffgrupp och matbord, och kan vid behov delas av för att skapa ett extra rum. Badrummet är nyrenoverat och utrustat med både tvätt- och torkmöjligheter för en bekväm vardag.\n\nI hyran ingår el, värme, vatten och sophämtning.\n\nVi hyr ut tillsvidare och ser att bostaden passar perfekt för ett par, en mindre familj eller pensionärer som söker ett lugnt och bekvämt boende, exempelvis efter att ha sålt hus eller större bostad. Inflyttning är satt till 1 september men det kan finnas möjlighet att flytta in tidigare.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 95.0,
+    "rent": 15000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Basungatan, Västra Frölunda",
     "url": "https://qasa.com/p/1396344",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a7662a03960192ff16bdc796edede03b1dc4310f596a3a658ac864c1d2856e6b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ekebygatan, Hisings Backa",
-    "url": "https://qasa.com/p/1396073",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/061f0125acbda3d080fe3cd4095ed957699011640ee903544a7382bccf747aaa.jpg",
-    "description": "Nu finns möjlighet att hyra en välplanerad och trivsam 3:a om 74,3 m² belägen i Hisings Backa. Lägenheten är belägen högst upp i huset på våning 3 av 3, vilket ger ett lugnt och insynsskyddat boende.\n\nOmrådet erbjuder en perfekt kombination av närhet till natur och smidiga kommunikationer. Närmaste hållplats är Körkarlensgata, och med flera busslinjer tar du dig till Brunnsparken på cirka 10 minuter. I närområdet finns ett brett utbud av service, restauranger, livsmedelsbutiker och shopping, bland annat vid Bäckebol Köpcentrum och Selma Lagerlöfs Torg. För den som uppskattar friluftsliv finns även fina grönområden, promenadstråk och motionsslingor inom bekvämt avstånd.\n\nLägenheten hyrs ut möblerad (delvis)\n\nHyra: 15 000 kr/månad\n\nI hyran ingår:\n\n* El\n* Vatten\n* Värme\n* Internet\n* Parkeringsplats ( önskas elbilsladdning finns det med)\n\nHyrestid:\nLägenheten hyrs ut initialt i 1 år. Om uthyrningen fungerar väl finns möjlighet till förlängning med ytterligare 1 år.\n\nKrav på hyresgäst:\n\n* Deposition erläggs före inflyttning.\n* God ekonomi utan betalningsanmärkningar.\n* Ordnad livssituation och goda referenser är meriterande.\n\nVid intresse, skicka gärna en kort presentation av dig själv, vilka som kommer att bo i lägenheten samt önskat inflyttningsdatum. Jag söker en skötsam hyresgäst som kommer att ta väl hand om bostaden.",
-    "district": "Hisings Backa",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 14200,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T16:01:35+00:00", "clock": "16:01:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T16:41:47+00:00", "clock": "16:41:47"};
