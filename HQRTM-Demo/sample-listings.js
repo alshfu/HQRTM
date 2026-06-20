@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Basungatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1396344",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a7662a03960192ff16bdc796edede03b1dc4310f596a3a658ac864c1d2856e6b.jpg",
+    "description": "Trevlig belägenhet nära Ruddalen och kommunala förbindelser.  Man går till spårvagnshållplatsen Musikvägen på ca7 minuter. Lugnt och tryggt område.\n\nLägenheten är en stor 1,5a med sovalkov och separat kök och med en stor inglasad balkong med grym utsikt.\n\nGemensamt tvättstuga cykelrum, gym och bastu. Finns även en övernattningslägenhet som besökare kan hyra.\n\nJag bor ihop med min tjej och hyr därför ut denna lägenhet. \n\nParkering ingår.",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 48.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Södra Vägen, Göteborg",
+    "url": "https://qasa.com/p/1396084",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eae7b258417909838e6865c5cfbea73e9ecc48c805c7ecc7199d4b24c7418f68.jpg",
+    "description": "Hej,\nJag heter Anders och är konstnär och möbelformgivare. Jag bor i en \n100 m² stor lägenhet i en äldre fastighet nära Valand i centrala Göteborg. Jag hyr ut ett möblerat rum på 15 m². Du kommer att ha tillgång till kök, toalett/dusch, vardagsrum och matsal. En välfungerande tvättstuga finns i källaren, och internet med 500 Mbit/s ingår i hyran. Det är nästan alltid mycket tyst i huset, vilket kan vara bra om du är student. För tillfället har jag två studenter som hyr var sitt rum, Ilse som kommer från Holland och studerar arkitektur och Merlind som kommer från Tyskland och studerar global hälsa på Göteborgs universitet. Merlind flyttar ut i slutet av juni och då behöver jag en ny hyresgäst. Om du tycker att detta låter intressant får du gärna höra av dig och berätta lite om dig själv.\n\nHello,\nMy name is Anders, and I am an artist and furniture designer. I live in a \n100 m² apartment in an older property near Valand in central Gothenburg. I am renting out a furnished room of 15 m². You will have access to the kitchen, toilet/shower, living room and dining room. There is a well-functioning laundry room in the basement, and the 500 Mbit/s internet is included in the rent. It is almost always very quiet in the house, which can be good if you are a student. At the moment, I have two students who each rent their own room; Ilse, who comes from the Netherlands and studies architecture and Merlind, who comes from Germany and studies global health at the University of Gothenburg. Merlind is moving out at the end of June, and then I need a new tenant. If this sounds interesting to you, please get in touch and tell me a little about yourself.\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Åbrinken, Angered",
     "url": "https://qasa.com/p/1396177",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc96ee5a0fe35dbe580b1967d4c48808eca904695a88904ff5a7ea6d96783b6a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brygghusvägen, Torslanda",
-    "url": "https://qasa.com/p/1395983",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4b95d165b8ef40242c7a42430a9c8ecc32f88f8cf105befe4400a3c6c5d8688d.jpg",
-    "description": "Välkommen till en modern marklägenhet med härlig villakänsla!\n\nHär erbjuds 74 välplanerade kvadratmeter fördelade på tre rum och kök. Lägenheten byggdes 2022 och håller en genomgående hög standard med bland annat golvvärme och generös takhöjd som skapar en luftig och trivsam känsla.\n\nBostaden är i mycket fint skick och redan när du kliver in möts du av en välkomnande hall med bra förvaringsmöjligheter i garderober samt plats för ytterkläder.\n\nEtt hem som kombinerar bekvämligheten i en lägenhet med känslan av att bo i hus.",
-    "district": "Torslanda",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 13980,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Monsungatan, Göteborg",
-    "url": "https://qasa.com/p/1395949",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9256de1502185314d5dc45397199cd38ef359ebd6d3d771333da7b70d12d53f9.jpg",
-    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T10:17:37+00:00", "clock": "10:17:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T11:08:05+00:00", "clock": "11:08:05"};
