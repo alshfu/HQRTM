@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Östra Skärvallsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1114965",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d9265c0119e1f2fc2454f0d7e7b2a6a0faabe5b3ad00681c4a898bbd4c06aaf8.jpg",
+    "description": "Rooms for rent to female students. \nRooms for rent in one of the nicest areas in Gothenburg. The room is in a house situated  towards the west of Gothenburg. Close to the sea and nature areas which is great for walking or running. You will easily reach universities or the city centre by bus or tram. \nIn the apartment there are 3 rooms, of which you will rent one, and then there is a kitchen and bathroom that you will share with the other students. \nInternet via wi-fi is available.\nNo smoking is allowed at all and also no pets.\nPlease write me about yourself if you are interested in renting.\n\nRum uthyres till kvinnliga studenter. \nPå andra våningen i ett hus med separat lägenhet uthyres rum till tjejer som studerar, det finns 3 rum i lägenheten och man hyr ett utav dessa per person.\nKök och badrum finns i lägenheten och dessa utrymmen delas av er 3 studenter.\nIngen rökning och inga husdjur tillåtet.\nSvara via mail och berätta om dig själv on du är intresserad av att hyra ett rum.\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 3500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Trebackegatan, Göteborg",
     "url": "https://qasa.com/p/1396411",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4759848f939761dad31638540ec8eb75b85f4c73b2996b46e889fbd45d98e1f7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Varpevägen, Brännö",
-    "url": "https://qasa.com/p/1396120",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b06209d1696eba4b3966f67882b35eb65f3c06223a7f4ef176a39dea5d199c46.jpg",
-    "description": "Vill du bo på en vacker ö i Göteborgs skärgård har du hittat rätt!\nTrevlig stuga med sovrum,  helt kök, badrum med dusch, toalett och tvättmaskin/torktumlare. Nytt uterum med infravärme. Ett sovrum på nedre plan med dubbelsäng. En säng på loftet  samt tv och trappa upp till loft. Uppvärmning värmegolv och luftvärmepump/Air-condition. Tillgång till bastu och relaxrum. Stugan ligger på vackra Brännö i Göteborgs skärgård, ön är bilfri, endast några varubilar. Det finns affär på ön och goda kommunikationer till centrum med färja och snabbuss alternativt spårvagn.  El, Vatten, Wi-Fi (100), sophämtning ingår.  Stugan passar en till två personer vid längre uthyrning. Högt och avskilt läge med havsutsikt! Gärna studenter. ",
-    "district": "Brännö",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 11050,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T20:09:40+00:00", "clock": "20:09:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T20:44:16+00:00", "clock": "20:44:16"};
