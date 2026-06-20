@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Frölundaborgs allé, Göteborg",
+    "url": "https://qasa.com/p/1396503",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be2511cc58f924ab30cddfa2523544596c53007ce67a765b6b75130b55581cf8.jpg",
+    "description": "Vi söker en skötsam hyresgäst utan betalningsanmärkningar och stabil inkomst att hyra vår 24 kvm lägenhet i vår villa som ligger mitt i lummiga och lugna gatan mellan Slottsskogsvallen, Frölundaborg och Marklandsgatan i södra delen av centrala Göteborg, ett stenkast från Botaniska trädgården.\n\nLägenheten har egen ingång, ligger på bottenplan och har en hall, ett badrum, en pentry i ett sovrum med utgång till en egen uteplats i vår trädgård. Lägenheten är delvis renoverad i februari 2023. Hyresgästen kommer ha tillgång till en gemensam tvättstuga som delas med oss i huset, där det finns 3 tvättmaskiner, torktumlare och torkskåp.\n\nHyra: 10 000 kronor per månad.\nDepositionsavgift: 20 000 kr som motsvarar två månadshyror.\nInflytt: lägenheten är ledig nu och inflytt kan ske när som framgent.\nIngår: Värme, el, bredband och vatten.\nHyresgästen tecknar egen hemförsäkring.\nParkering finns på gatan och är kostnadsfritt för boende.\nLåst cykelförråd finns vid entrén till lägenheten.\nKollektivtrafiken vid Marklandsgatan är ca 1 min från lägenheten.\n\nVid intresse, sänd ett meddelande via Blocket. Beskriv kort vem du är, vad du har för sysselsättning, tidsram för att hyra, och när du skulle kunna flytta in.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 24.0,
+    "rent": 10000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Östra Skärvallsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1114965",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d9265c0119e1f2fc2454f0d7e7b2a6a0faabe5b3ad00681c4a898bbd4c06aaf8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Västra Andersgårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1396167",
-    "image_url": null,
-    "description": "Lägenheten är ljus och fräsch. Bra planlösning. Ett sovrum och i sovrummet finns en walk in closet. Vardagsrummet och köket är i ett stort rum. På toaletten finns det badkar. Vill hyra ut möblerat och en avgift tillkommer för möblerna. Inflytt och utflytt sker enligt överenskommelse men jag tänker ett par månader till att börja med.\nDu som hyr behöver betala hyran, för möblerna, el och elnät. Du behöver ha en hemförsäkring. Du kan betala mig och använda det bredband/wifi jag redan har tecknat om du vill.\nKommunikationen är mycket god, nära till buss och spårvagn.\nJag vill hyra ut till en kvinna och ser gärna att du är rök och djurfri.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 7582,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T20:44:16+00:00", "clock": "20:44:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-20T21:16:35+00:00", "clock": "21:16:35"};
