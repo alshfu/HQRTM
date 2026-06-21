@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Asmunds Lycka, Göteborg",
+    "url": "https://qasa.com/p/1366017",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1caf95eaec407c0d416d85a86cc8d7131d27c5a2aac6cfb930d30e166cc86dcd.jpg",
+    "description": "Välkommen till en modern och smakfull villa belägen i Tuve, med närhet till Torslanda och Volvo. Här bor du i ett lugnt och naturnära område samtidigt som du har smidig tillgång till stadens puls – endast 10 minuter till Backaplan och Angered, samt cirka 15 minuter till centrala Göteborg. Busshållplats finns inom 5 minuters promenadavstånd.\nVillan erbjuder 3–4 rymliga sovrum och passar utmärkt för upp till 6 personer. Det moderna köket är fullt utrustat och öppnar upp mot ett stort och ljust vardagsrum, perfekt för både vardag och sociala tillställningar. Bostaden har två stilrena badrum, varav det övre är utrustat med jacuzzi.\nFastigheten är energieffektiv med installerade solceller och batterilösning. Den generösa trädgården med uteplats ger gott om utrymme för avkoppling och umgänge. Parkering finns för upp till 4 bilar.",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 160.0,
+    "rent": 25000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Frölundaborgs allé, Göteborg",
     "url": "https://qasa.com/p/1396503",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be2511cc58f924ab30cddfa2523544596c53007ce67a765b6b75130b55581cf8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hedtångsvägen, Hovås",
-    "url": "https://qasa.com/p/1396178",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75427257eebb46c797a56a6c27af902372f7efa0516474ed783ec08f0e148755.png",
-    "description": "Upptäck denna charmiga nyproducerade tvårummare på 58 kvadratmeter - här väntar ett boende med både stil och funktionalitet. Lägenheten, erbjuder ett bekvämt och privat boende. Köket är rymligt och välplanerat, perfekt för både vardagsmiddag och festliga tillställningar. Det ljusa vardagsrummet bjuder in till avkoppling och umgänge. Ett harmoniskt sovrum, med plats för både dubbelsäng och garderober, kompletterar den hemtrevliga känslan. Här kombineras en smart planlösning med bra ljusinsläpp, vilket skapar en inbjudande atmosfär. \n\nInternet: Brf Hovås Tak har tecknat ett kollektivt avtal med Telia om leverans av Bredband, TV & Telefoni, med ett grundutbud som tillkommer årsavgiften. I grundutbudet ingår Bredband 100/100 Mbit/s, TV-paketet lagom (se Telias hemsida vilka kanaler som omfattas) samt bredbandstelefoni. Till lägenheten hör 1st digital-box, 1st bredbandsrouter och (en extra förstärkare? som förstärker WIFI signalen. Vill man beställa extratjänster själv av Telia utöver grundutbudet så går detta bra.\n\nLägenheten befinner sig i ett attraktivt läge med närhet till service, restauranger, kommunikationer och havet.\n\nBostaden hyrs ut då vi får tillskott i familjen. \n\n",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T10:11:24+00:00", "clock": "10:11:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T11:23:21+00:00", "clock": "11:23:21"};
