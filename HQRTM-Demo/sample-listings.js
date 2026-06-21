@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Munspelsgatan , Göteborg ",
+    "url": "https://qasa.com/p/1396915",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65995d52449c843913e32dbd576659c466745d81e2b2edf6e2c5bbd32fb74fb0.jpg",
+    "description": "En 2a på 51 kvadratmeter. \nIngår: El, Wi-Fi bredband, vatten, även eget förråd, och cykel rum. Tillgång även på bottenplan till gym och relaxavdelning. Du har 5 minuters gångavstånd till centrum/Frölunda torg, samt nära till två olika stränder. ",
+    "district": "Göteborg ",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 11900,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långströmsgatan, Göteborg",
     "url": "https://qasa.com/p/1389259",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gertruds gata, Västra Frölunda",
-    "url": "https://qasa.com/p/1396750",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f63f4506574d8dd666537a369bff81c569aa244d08f4c9ab0b1ff81b1bb142e2.jpg",
-    "description": "Fräscht. Tryggt, lugnt, rent, \nprivat och snyggt boende m hög standard och nära till många badvikar. Stort rum 25m2, med helt ny continentalsäng 105 säng, soffa soffbord och skrivbord. Man delar pentry, toalett, tvättmaskin o dusch m en annan hyresgäst på plan ett. 120m2 totalt. Nära till Frölunda torg där alla faciliteter finns dessutom en knutpunkt för kommunikationer.   \n\nEng: Safe clean and nite. \nOne room with high standard for rent in a house, in a calm safe area close to the sea. Good communications to Chalmers and Göteborgs universitet",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 24.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T18:44:13+00:00", "clock": "18:44:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T19:17:41+00:00", "clock": "19:17:41"};
