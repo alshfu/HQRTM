@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hult Åsens Väg, Askim",
+    "url": "https://qasa.com/p/1396929",
+    "image_url": null,
+    "description": "Har ett extrarum i 3-rums lägenhet. Rummet rymmer säng, garderob och ett bord. Tillgång till kök och badrum. ",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 6900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Munspelsgatan , Göteborg ",
     "url": "https://qasa.com/p/1396915",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65995d52449c843913e32dbd576659c466745d81e2b2edf6e2c5bbd32fb74fb0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Kopparkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/1396747",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdff192157ffda2cf837475d5563b945e7c9805471b0c4a121f3b9491342a3a8.jpg",
-    "description": "Fin 1:a, helt separat lägenhet med egen ingång i villa i Sydvästra Göteborg nära Nya Hovås. Egen uteplats & parkering.  \nUthyres tillsvidare. \nUthyres till en person. Nybyggd 2017, fullt möblerad med bl. a. ställbar säng, golvvärme i hela lägenheten, full takhöjd, stora skjutdörrar ut till den egna altanen (kvällssol) som är under tak. Trinettkök med två kokplattor, kyl med frysfack och micro. Helkaklat badrum med dusch, tvättmaskin, handfat/lådor. Golvvärme i hela lägenheten.\nSEK 9000 månad inkl. ALLT.  (ingen serviceavgift tillkommer). Inklusive parkering, vatten/avlopp, sophämtning  & fiber/wi-fi,  kabel-tv/Com.  \nHuset beläget 25 meter från Sandsjöbacka naturreservat med mycket fin natur. Joggingspår runt flera sjöar. Ett par minuter med bil till Amundön och fantastiska havsbad, 10 minuter på cykel.\n5-7 min promenad till Nya Hovås/Ica samt busshållplats, Lyckhem-Brottkärr. Direktbuss till Linneplatsen/Järntorget (ca.20minuter) Sahlgrenska (17minuter), Chalmers (20min), Centralen (30min).\nNya Hovås - Liten \"småstad\" med den mesta servicen, välsorterad mataffär, fiskbil, bageri, restauranger, apotek, systembolag, vårdcentral, gym, affärer mm.  \n\nDu som hyr skall ha:\n-Fast inkomst\n-Inga betalningsanmärkningar\n-Djur och rökfri  \n- Hyran betalas i förskott.\n- 1 månads deposition krävs vid kontraktsskrivning, kontrakt skrivs ej via Blocket.  \n- Uppsägningstid 1 respektive 3 månader enligt lag.\n- Uthyres från 1/8. (ev. från 1/9)\n\nTacksam för endast seriösa svar där ovan önskemål stämmer. Maila kort om dig och kontaktuppgifter, från när du vill hyra och hur länge.\n\nVälkommen att titta på lägenheten!",
-    "district": "Hovås",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 8650,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T19:17:41+00:00", "clock": "19:17:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T20:00:34+00:00", "clock": "20:00:34"};
