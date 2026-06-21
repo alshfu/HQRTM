@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Dalheimersgatan, Göteborg",
+    "url": "https://qasa.com/p/1396715",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/05b2114035e875b977feca785dde8adb0d6bf1bc6f8c294ff486173113841083.jpg",
+    "description": "Charmig 3:a med öppen spis och balkong i Norra Guldheden\n\nVälkommen till en ljus och trivsam trea i ett vackert 40-talshus i populära Norra Guldheden, ett lugnt och grönt område med stadens puls runt hörnet.\n\nLägenheten ligger på tredje våningen och bjuder på härlig karaktär med tidstypiska detaljer, öppen spis och en mysig balkong i sydvästläge.\n\nPlanlösningen är väl genomtänkt med ett rymligt vardagsrum, två sovrum och ett separat kök med plats för matbord.\n\nLäget är svårt att slå:\nDu bor med närhet till Sahlgrenska Universitetssjukhuset, Chalmers tekniska högskola och allt som Linné har att erbjuda med restauranger, barer, caféer och parker. Samtidigt ligger området lugnt och grönt, med bra kommunikationer nära.\n\nKort fakta:\n• 3 rum och kök\n• Våning 3 (ej hiss)\n• Balkong\n• Öppen spis\n• Charmigt 40-talshus\n• Uthyres från och med 2026-09-01\n• Förråd\n• Delvis eller helt möblerad, vi kan komma överens om detaljer\n\nVälkommen att höra av dig och berätta lite om dig själv! Visning kan ordnas på begäran. Vi hyr ut pga jobb på annan ort.\n\n---\n\nCharming 2-bedroom apartment with fireplace and balcony in Norra Guldheden\n\nWelcome to a bright and welcoming three-room apartment in a beautiful 1940s building in the popular Norra Guldheden area — a peaceful and green neighborhood with the city’s vibrant life just around the corner.\n\nThe apartment is located on the third floor and offers plenty of character with original period details, a cozy fireplace, and a lovely southwest-facing balcony.\n\nThe layout is well planned, featuring a spacious living room, two bedrooms, and a separate kitchen with enough space for a dining table.\n\nThe location is hard to beat:\nYou will live close to Sahlgrenska University Hospital, Chalmers University of Technology, and everything Linné has to offer including restaurants, bars, cafés, and parks. At the same time, the area remains calm and green, with excellent public transport connections nearby.\n\nQuick facts: 3 rooms and kitchen (2 bedrooms), 3rd floor (no elevator), Balcony, Fireplace, Charming 1940s building, Storage space included, Partly or fully furnished - details can be discussed.\n\nFeel free to get in touch and tell us a little about yourself! Viewings can be arranged upon request. We're renting out the apartment due to work at a different location.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 72.0,
+    "rent": 17510,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Asmunds Lycka, Göteborg",
     "url": "https://qasa.com/p/1366017",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1caf95eaec407c0d416d85a86cc8d7131d27c5a2aac6cfb930d30e166cc86dcd.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Åbrinken, Angered",
-    "url": "https://qasa.com/p/1396177",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc96ee5a0fe35dbe580b1967d4c48808eca904695a88904ff5a7ea6d96783b6a.jpg",
-    "description": "Källarvåning uthyres i Göteborg, Angered\n\nFräsch och rymlig källarvåning om cirka 88 kvm uthyres från och med 1 augusti.\n\nBostaden är omöblerad och består av 3 rum och kök, badrum/WC, tvättstuga samt tillgång till uteplats och trädgård. Lägenheten är rökfri och djurfri.\n\nKommunikationerna är mycket goda med närhet till hållplatsen Åbrinken, endast cirka 50–150 meter från bostaden. Restiden till centrala Göteborg är cirka 15–20 minuter.\n\nHyra: ca 9 500 kr/månad\nI hyran ingår el, varmvatten och sophämtning.\nParkering finns framför huset.\nDeposition motsvarande en månadshyra erläggs i förskott.\n\nVid intresse är du varmt välkommen att höra av dig för mer information eller för att boka en visning. Skriv gärna några rader om dig själv i ditt meddelande.\n\nMed vänliga hälsningar,\nFarah",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 88.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T13:01:59+00:00", "clock": "13:01:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T13:44:49+00:00", "clock": "13:44:49"};
