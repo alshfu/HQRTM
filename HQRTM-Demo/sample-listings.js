@@ -3,10 +3,25 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skolgatan, Göteborg",
+    "url": "https://qasa.com/p/1396827",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6ae2bc797c7caa91b4e1a8564a40579f6284578af4a6162bfc059648ea18058.jpg",
+    "description": "Trevligt övernattningsrum i centrala Haga uthyres med fördel till veckopendlare, student eller liknande under perioden 1 juli- 14 augusti eller \n15 augusti- 31 december 2026 (med möjlighet till förlängning).   \n\nOm boendet:  \n• (1) st rum (fullt möblerat)  \n• tillgång till kök (för enklare matlagning) \n • bredband & el ingår \n • Täcke, kudde, sängkläder, handduk och enklare köksgeråd ingår (sängen är utdragningsbar till dubbel)    \n\n Sökes: \n(1 person) som: har anställning, studerar, gästforskar eller liknande som är lugn, trevlig ordningsam samt innehar en sund och aktiv livsstil.   \n\nDet läggs stor vikt vid att du är har en öppen och sympatisk personlighet samt kommer hålla överenskommen ordning och hygien i såväl eget rum som övriga gemensamma ytor.   \n\nHyra: 6 300 kr + deposition (1 st hyra) vid kontraktsskrivning.   \n\nAnsökan: \nSkriv och berätta lite om dig själv (sysselsättning, boendebehov, intressen, ålder m.m.).  \n\nObs! Rummet uthyres endast till en (1 st) person ej par), försörjningsstöd godkänns inte som inkomst.  \n\nEndast kompletta intresseanmälningar med ifylld Blocket-profil och personligt svar behandlas. \n\nVi har tyvärr endast möjlighet att återkoppla om du går vidare i processen. Om annonsen finns kvar är rummet fortfarande ledigt.   \n\nVälkommen med din ansökan!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 6300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kungsgatan, Göteborg",
     "url": "https://qasa.com/p/1396782",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53695179361bb8a8145612e8eb2a350136233afdf5e31a469cc85d85eea648e3.jpg",
-    "description": "Lägenheten ligger högst upp med utsikt och balkong mot söder, mot gamla stadsmuren Carolus Rex och nere vid Esparatoplatsen.  Det är nära till det mesta, och inte minst ett livligt härligt folkliv.",
+    "description": "Lägenheten ligger högst upp med utsikt och balkong mot söder, mot gamla stadsmuren Carolus Rex och ned mot Esparantoplatsen.  Det är nära till det mesta, inte minst till ett livligt och härligt folkliv.",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 76.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Dalheimersgatan, Göteborg",
-    "url": "https://qasa.com/p/1396715",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/05b2114035e875b977feca785dde8adb0d6bf1bc6f8c294ff486173113841083.jpg",
-    "description": "Charmig 3:a med öppen spis och balkong i Norra Guldheden\n\nVälkommen till en ljus och trivsam trea i ett vackert 40-talshus i populära Norra Guldheden, ett lugnt och grönt område med stadens puls runt hörnet.\n\nLägenheten ligger på tredje våningen och bjuder på härlig karaktär med tidstypiska detaljer, öppen spis och en mysig balkong i sydvästläge.\n\nPlanlösningen är väl genomtänkt med ett rymligt vardagsrum, två sovrum och ett separat kök med plats för matbord.\n\nLäget är svårt att slå:\nDu bor med närhet till Sahlgrenska Universitetssjukhuset, Chalmers tekniska högskola och allt som Linné har att erbjuda med restauranger, barer, caféer och parker. Samtidigt ligger området lugnt och grönt, med bra kommunikationer nära.\n\nKort fakta:\n• 3 rum och kök\n• Våning 3 (ej hiss)\n• Balkong\n• Öppen spis\n• Charmigt 40-talshus\n• Uthyres från och med 2026-09-01\n• Förråd\n• Delvis eller helt möblerad, vi kan komma överens om detaljer\n\nVälkommen att höra av dig och berätta lite om dig själv! Visning kan ordnas på begäran. Vi hyr ut pga jobb på annan ort.\n\n---\n\nCharming 2-bedroom apartment with fireplace and balcony in Norra Guldheden\n\nWelcome to a bright and welcoming three-room apartment in a beautiful 1940s building in the popular Norra Guldheden area — a peaceful and green neighborhood with the city’s vibrant life just around the corner.\n\nThe apartment is located on the third floor and offers plenty of character with original period details, a cozy fireplace, and a lovely southwest-facing balcony.\n\nThe layout is well planned, featuring a spacious living room, two bedrooms, and a separate kitchen with enough space for a dining table.\n\nThe location is hard to beat:\nYou will live close to Sahlgrenska University Hospital, Chalmers University of Technology, and everything Linné has to offer including restaurants, bars, cafés, and parks. At the same time, the area remains calm and green, with excellent public transport connections nearby.\n\nQuick facts: 3 rooms and kitchen (2 bedrooms), 3rd floor (no elevator), Balcony, Fireplace, Charming 1940s building, Storage space included, Partly or fully furnished - details can be discussed.\n\nFeel free to get in touch and tell us a little about yourself! Viewings can be arranged upon request. We're renting out the apartment due to work at a different location.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 72.0,
-    "rent": 17510,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T16:06:59+00:00", "clock": "16:06:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T16:49:19+00:00", "clock": "16:49:19"};
