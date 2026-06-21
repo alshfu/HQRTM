@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1389259",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
+    "description": "Hyr ut 1 rum på 8 kvm.\nSängskåp med Emma resårmadrass av högsta kvalité .\nELFA garderobsystem.\nFällbart väggbord med förvaring.\n3st olika uppblåsbara fåtöljer med elektrisk pump. \n\n\n83kvm bostadsrätt, 4 rum.\n2 toaletter samt duschrum och tvätt/tork i ena.\nStor balkong på vån 7 i söderläge. Ska glasses in. \nVälutrustat kök.\n\nBusshållplats direkt utanför dörren. Dessutom inom el-scooter område samt gång/scooter avstånd till eketrägatan och spårvagnar.\n\nI hyran ingår el/vatten internet. Tillgång till gemensamma utrymmen så som vardagsrum, kök, badrum \n\nHyr ut rummet på obestämd tid för att dyra ut kassan :)\n\nMer info och bilder kommer uppdateras inom kort\n\nElcykel Scott Sub active unisex finns också för uthyrning under hela perioden. 250kr/mån. Kortar restider väsentligt\n\nViktigt är att personen som flyttar in är ordningsam och håller rent efter sig.\nViktigt är också att personen  ifråga tecknar en fullvärdig hemförsäkring.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 4500,
+    "floor": 7,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skolgatan, Göteborg",
     "url": "https://qasa.com/p/1396827",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6ae2bc797c7caa91b4e1a8564a40579f6284578af4a6162bfc059648ea18058.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Munspelsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1381334",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94171c76ac6d877aabc137b6f9973b33b4ac53cea98be26c488705977d3846cf.jpg",
-    "description": "En nybyggd 2:a med inglasad balkong på våning 3. \n\nÖppen planlösning med vardagsrum och kök i ett. En stor köks-ö för extra förvaring. \n\nI badrummet finns en kombimaskin som både tvättar och torktumlar. \n\nLägenheten finns i Frölunda och med 5 minuters promenad nås Frölunda Torg med massor av affärer och goda kollektiv-förbindelser. \n\nParkering går själv att ordna, ca 2 minuters promenad bort. \n\nDet går även att ta del av den gemensamma bastun vid önskemål. \n\nInflyttningsdatum är flexibelt.\n\nI hyran ingår normal förbrukning av el och vatten. \nBredband och TV ingår. \n\n Hör av dig vid frågor eller funderingar. ",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 12000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T17:24:43+00:00", "clock": "17:24:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T18:03:29+00:00", "clock": "18:03:29"};
