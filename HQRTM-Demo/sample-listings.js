@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kungsgatan, Göteborg",
+    "url": "https://qasa.com/p/1396782",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53695179361bb8a8145612e8eb2a350136233afdf5e31a469cc85d85eea648e3.jpg",
+    "description": "Lägenheten ligger högst upp med utsikt och balkong mot söder, mot gamla stadsmuren Carolus Rex och nere vid Esparatoplatsen.  Det är nära till det mesta, och inte minst ett livligt härligt folkliv.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 76.0,
+    "rent": 21500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Önskevädersgatan, Göteborg",
     "url": "https://qasa.com/p/1396761",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/93b2eeaeb4b1c1510d9f338e8e732321498208704bb13551da0e171c1ca66381.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Asmunds Lycka, Göteborg",
-    "url": "https://qasa.com/p/1366017",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1caf95eaec407c0d416d85a86cc8d7131d27c5a2aac6cfb930d30e166cc86dcd.jpg",
-    "description": "Välkommen till en modern och smakfull villa belägen i Tuve, med närhet till Torslanda och Volvo. Här bor du i ett lugnt och naturnära område samtidigt som du har smidig tillgång till stadens puls – endast 10 minuter till Backaplan och Angered, samt cirka 15 minuter till centrala Göteborg. Busshållplats finns inom 5 minuters promenadavstånd.\nVillan erbjuder 3–4 rymliga sovrum och passar utmärkt för upp till 6 personer. Det moderna köket är fullt utrustat och öppnar upp mot ett stort och ljust vardagsrum, perfekt för både vardag och sociala tillställningar. Bostaden har två stilrena badrum, varav det övre är utrustat med jacuzzi.\nFastigheten är energieffektiv med installerade solceller och batterilösning. Den generösa trädgården med uteplats ger gott om utrymme för avkoppling och umgänge. Parkering finns för upp till 4 bilar.",
-    "district": "Göteborg",
-    "rooms": 6.0,
-    "area_m2": 160.0,
-    "rent": 25000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T15:20:55+00:00", "clock": "15:20:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T16:06:59+00:00", "clock": "16:06:59"};
