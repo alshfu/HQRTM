@@ -33,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Askims Kyrkåsväg, Askim",
+    "url": "https://qasa.com/p/1396905",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d35ca0ed1a1e205464bf63ae6bbbdbadde792efb00df51e96cbb5f8b0caefec.jpg",
+    "description": "Rymlig 4:a med egen ingång i lugna Askim\n\nVälkommen till denna välplanerade och rymliga lägenhet på entréplan med egen ingång, belägen på en lugn villagata i populära Askim. Här bor du med närhet till både natur, hav och smidiga kommunikationer in till centrala Göteborg.\n\nNärmaste busshållplats ligger cirka 5 minuters promenad bort, och med X2-bussen tar du dig till Järntorget på ungefär 22 minuter. I området finns fina promenadstråk, naturreservat och havet inom bekvämt gång- eller cykelavstånd. Du har även nära till matbutiker, restauranger, gym och annan service.\n\nLägenheten är cirka 120 kvm och erbjuder generösa ytor med gott om förvaring. Här finns två sovrum, en rymlig hall samt ett ljust och öppet kök och vardagsrum som skapar en social och trivsam känsla.\n\nBostaden har två badrum. Det större badrummet är utrustat med bastu, jacuzzi, öppen dusch och toalett – perfekt för avkoppling hemma. Det finns även ett extra badrum för ökad bekvämlighet.\n\nLägenheten är i mycket gott skick. Köket är nyinstallerat och hela bostaden målades om under 2024.\n\nMöblering kan erbjudas efter överenskommelse.\n\nFri parkering finns på gatan precis utanför huset.\n\nInflyttning kan ske omgående.\n\nFakta\n\n* Ca 120 kvm\n* Egen ingång\n* 2 sovrum\n* Rymlig hall\n* Öppen planlösning mellan kök och vardagsrum\n* 2 badrum\n* Bastu, jacuzzi och öppen dusch\n* Nytt kök och nymålat 2024\n* Möblering möjlig efter överenskommelse\n* Lugnt och attraktivt läge i Askim\n* X2-buss till Järntorget på ca 22 minuter\n* Nära butiker, restauranger, gym och service\n* Gång- och cykelavstånd till natur och hav\n* Fri parkering på gatan\n* Tillgänglig för omgående inflyttning",
+    "district": "Askim",
+    "rooms": 4.0,
+    "area_m2": 120.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långströmsgatan, Göteborg",
     "url": "https://qasa.com/p/1389259",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Aspirantgatan, Göteborg",
-    "url": "https://qasa.com/p/1396755",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d707ca7301692949444a48eda28da79de204df2f23388d8126b2385ca82dddc6.jpg",
-    "description": "Trevlig tvårumslägehet i nästan nyskick och med bra planlösning .  Hundra meter till spårvagnenshållplatsen (Bellevue) och lägenheten vätter mot en lugn innergård och skogsdunge. Det är fönster i både syd och västerläge med stor balkong. I hyran ingår el, internet, tv och varmvatten. \n\nHar med kort varsel fått nytt jobb på annan ort, därav är förlängning möjlig.  ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T21:14:50+00:00", "clock": "21:14:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-21T21:49:09+00:00", "clock": "21:49:09"};
