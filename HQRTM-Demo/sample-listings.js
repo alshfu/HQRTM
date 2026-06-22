@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ebbe Lieberathsgatan , Göteborg",
+    "url": "https://qasa.com/p/1397697",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fab5d7c8486de346d82d4e3d50a06a020b9a7087c81ee1748a29346370d96032.jpg",
+    "description": "Fantastisk lägenhet nära till allt!\nMatbutiker, gym, hotell, spårvagn/kommunikation! 9 min till avenyn\n11 min till mölndal centrum!\nÖppen planlösning och balkong i nytt och lugnt område.\nSka flytta ihop med min flickvän.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hedtångsvägen, Hovås",
     "url": "https://qasa.com/p/1397675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a1afb8e83b97d13191a38c9d9c0a34b6779f997fc78c0cc1deeb6a43f9f8e78d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Arvesgärde, Göteborg",
-    "url": "https://qasa.com/p/1388956",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30ba55970cde6c5b0ef7ae5eebcd68198c03c29da23a548ff22384f99ff8b1cd.jpg",
-    "description": "Läs hela annonsen!\n\nVarmt välkommen till denna välplanerade etta i populära Tuve med hiss på våning 5/5 med balkong.\n \n Arvesgärde 26 är centralt belägen i Tuve, ett område som kombinerar stadslivets pulserande energi med naturens lugn. En snabb och enkel bussresa med linje 17 tar dig direkt in till centrala stan. Gångavstånd från bostaden finner du Hisingsparken med sina grönområden och promenadstråk. Ett stenkast från bostaden finner ni Tuve Torg som erbjuder alla bekvämligheter du kan tänka dig, så som livsmedelsbutiker, servicebutiker, gym, vårdcentral, restauranger, frisör och konditori. \n\n!!!Bostaden ligger ute till försäljning så behov av visning kommer att behövas!!!\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 8575,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T16:15:56+00:00", "clock": "16:15:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T17:54:46+00:00", "clock": "17:54:46"};
