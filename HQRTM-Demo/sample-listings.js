@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlanda vägen , Göteborg",
+    "url": "https://qasa.com/p/1396002",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f278f94252e513c56ba89f5900c0939e3eefcbf49bd8c293b45a273b7c2aa8f2.jpg",
+    "description": "Uthyrning av övernattningslägenheten / studentlägenheter / företagslägenhet  i andra hand\n1,5 rum med eget kök och badrum. \ndet ingår el, bredband och digital tv. \ndet finns möjlighet att hyra p-plats med el laddning. \nLägenheten är delvis möblerad det finns i källarplan \n\n1 månads disposition ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 27.0,
+    "rent": 6799,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Vättnedalsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1346375",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55eab4ccdc318d9c562f8953a4d6792f7fcaaa34e10c95dff18fa55949a54b62.jpg",
+    "description": "Lägenhet uthyres 1 r.o.k\n\nLägenheten ligger i vårt hus och den har egen ingång. \n \nLägenheten är belägen i Önnered med nära till hav och natur.\nKollektivtrafik med bra kommunikationer till både Frölunda Torg och centrala delarna av Göteborg.\n \nLägenheten har fönster i tre väderstreck och egen balkong.\nDet är ett mindre kök och separat sovrum/vardagsrum, toalett med dusch. \n\nLägenheten uthyres möblerad. \nDet finns:\n- bäddsoffa\n- säng\n- garderob\n- byrå\n- litet klaffbord med stol i köket\n- lite porslin, glas, bestick och tallrikar.\nosv. klart för inflytt.\n \nI hyran ingår:\nEl\nVärme\nVatten\nInternet (gästnät)",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 28.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gröna Annas gata, Göteborg",
+    "url": "https://qasa.com/p/1396900",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/120084198441e209e4b6dcba083b35d4c00042bf27171e9cc1a9773f13f65ed8.jpg",
+    "description": "Hyresperiod: 1 april 2025 – 1 augusti 2025\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad, dock inte med de möbler som syns på bilderna. Bland annat ingår säng, vardagsrums möbler inklusive soffa, bord och TV, köksbord med stolar samt balkongmöbler.\n\nI hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt både parkeringsplats och MC-parkering. Läget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 13000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gunnestorpsvägen 133, Göteborg",
     "url": "https://qasa.com/p/1397079",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d78940a3d48d7c923ee1a5df91e925bf332bdf8efbf85a759bf1e63e1c23db95.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1389259",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
-    "description": "Hyr ut 1 rum på 8 kvm.\nSängskåp med Emma resårmadrass av högsta kvalité .\nELFA garderobsystem.\nFällbart väggbord med förvaring.\n3st olika uppblåsbara fåtöljer med elektrisk pump. \n\n\n83kvm bostadsrätt, 4 rum.\n2 toaletter samt duschrum och tvätt/tork i ena.\nStor balkong på vån 7 i söderläge. Ska glasses in. \nVälutrustat kök.\n\nBusshållplats direkt utanför dörren. Dessutom inom el-scooter område samt gång/scooter avstånd till eketrägatan och spårvagnar.\n\nI hyran ingår el/vatten internet. Tillgång till gemensamma utrymmen så som vardagsrum, kök, badrum \n\nHyr ut rummet på obestämd tid för att dyra ut kassan :)\n\nMer info och bilder kommer uppdateras inom kort\n\nElcykel Scott Sub active unisex finns också för uthyrning under hela perioden. 250kr/mån. Kortar restider väsentligt\n\nViktigt är att personen som flyttar in är ordningsam och håller rent efter sig.\nViktigt är också att personen  ifråga tecknar en fullvärdig hemförsäkring.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 4500,
-    "floor": 7,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skolgatan, Göteborg",
-    "url": "https://qasa.com/p/1396827",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6ae2bc797c7caa91b4e1a8564a40579f6284578af4a6162bfc059648ea18058.jpg",
-    "description": "Trevligt övernattningsrum i centrala Haga uthyres med fördel till veckopendlare, student eller liknande under perioden 1 juli- 14 augusti eller \n15 augusti- 31 december 2026 (med möjlighet till förlängning).   \n\nOm boendet:  \n• (1) st rum (fullt möblerat)  \n• tillgång till kök (för enklare matlagning) \n • bredband & el ingår \n • Täcke, kudde, sängkläder, handduk och enklare köksgeråd ingår (sängen är utdragningsbar till dubbel)    \n\n Sökes: \n(1 person) som: har anställning, studerar, gästforskar eller liknande som är lugn, trevlig ordningsam samt innehar en sund och aktiv livsstil.   \n\nDet läggs stor vikt vid att du är har en öppen och sympatisk personlighet samt kommer hålla överenskommen ordning och hygien i såväl eget rum som övriga gemensamma ytor.   \n\nHyra: 6 300 kr + deposition (1 st hyra) vid kontraktsskrivning.   \n\nAnsökan: \nSkriv och berätta lite om dig själv (sysselsättning, boendebehov, intressen, ålder m.m.).  \n\nObs! Rummet uthyres endast till en (1 st) person ej par), försörjningsstöd godkänns inte som inkomst.  \n\nEndast kompletta intresseanmälningar med ifylld Blocket-profil och personligt svar behandlas. \n\nVi har tyvärr endast möjlighet att återkoppla om du går vidare i processen. Om annonsen finns kvar är rummet fortfarande ledigt.   \n\nVälkommen med din ansökan!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 14.0,
-    "rent": 6300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungsgatan, Göteborg",
-    "url": "https://qasa.com/p/1396782",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53695179361bb8a8145612e8eb2a350136233afdf5e31a469cc85d85eea648e3.jpg",
-    "description": "Lägenheten ligger högst upp med utsikt och balkong mot söder, mot gamla stadsmuren Carolus Rex och ned mot Esparantoplatsen.  Det är nära till det mesta, inte minst till ett livligt och härligt folkliv.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 76.0,
-    "rent": 21500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T06:14:25+00:00", "clock": "06:14:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T08:31:32+00:00", "clock": "08:31:32"};
