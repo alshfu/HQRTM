@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kransen, Göteborg",
+    "url": "https://qasa.com/p/1397872",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ebf3f764fbcca447a925d347a2ba0d4c5fd5e3952993a6b8be529033ce5f4b70.jpg",
+    "description": "På grund av studier och resa kommer min mysiga lägenhet i Strömmensberg (strax öster om Redbergsplatsen) att hyras ut från 1 september och under ett års tid. Inflytt kan även vara möjlig från slutet av augusti. \n\nEn rymlig och charmig 2:a på 57 kvm med fiskbensparkett och balkong med eftermiddags/kvällssol och härlig fri utsikt! Lägenheten ligger lugnt men centralt, med 6 min promenad till spårvagn/buss som tar dig till centralen på 10 minuter. Nära till Delsjön och Skatås för den som gillar skog, bad eller promenader.\n\nHyran inkluderar värme, el och snabbt fiberbredband.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Djurgårdsgatan, Göteborg",
     "url": "https://qasa.com/p/1397850",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f10d79da24c2d2137c7831d941ce75a7487f592b54f483923da8e23a1c26cea.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hedtångsvägen, Hovås",
-    "url": "https://qasa.com/p/1397675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a1afb8e83b97d13191a38c9d9c0a34b6779f997fc78c0cc1deeb6a43f9f8e78d.jpg",
-    "description": "2 rok med fantastisk utsikt över nya Hovås. Lägenheten är helt ny (2024-09-01) med exklusiva inredningsval. \nSmart planlösning. Innerväg som skärmar av vardagsrum mellan sovrum med skjutdörrdörr. Se visningsbild vardagsrum. \nAlla bekvämligheter i föreningen man kan tänka sig. Cykelförråd, förråd, lounge för hemmajobb. Takvilla på taket man kan hyra för festligheter. \nLägenheten hyrs ut möblerad förutom soffan.  Eller omöblerad om man så vill. \nSovrum\nVitvaror i högsta kvalite. \nTvätt/torktummlare i ett. \nKöksö för extra förvaring. \nStor balkong. \n\n\nParkering i garage finns att hyra mot en avgift av 1000 kr. \n",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 34.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T21:20:12+00:00", "clock": "21:20:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T22:08:56+00:00", "clock": "22:08:56"};
