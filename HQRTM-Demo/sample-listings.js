@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fjärde Långgatan, Göteborg",
+    "url": "https://qasa.com/p/1035441",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba198b6d49c027beec871122aa89a7c5443bd4cab1a5b7c009f48788412188c0.jpg",
+    "description": "Sekelskiftslägenhet med balkong mitt i attraktiva Linné. 3 rum, 95 kvadratmeter, 17 000 SEK / månad.\n\nLägenheten är i toppskick och har det typiska sekelskiftesdragen med generös takhöjd, kakelugn, stuckatur och dubbeldörrar. \n\nLägenheten hyrs ut möblerad. \n\nLägenheten ligger nära till allt vad linné har att erbjuda vilket inkluderar restauranger, cafér, gym, butiker, slottskogen med mera\n\nI hyran ingår\n- vatten\n- el\n- bredband\n\n----\n\n\nCentury apartment in the middle of the attractive area Linné. 3 rooms, 95 squaremeter, rent: 17 000 SEK / month.\n\nThe apartment is in great condition and have the typical century charm which include with generous ceiling height, tiled stove, stucco work and double doors.\n\nThe apartment is rented out with furniture. \n\nThe apartment is close to everything that Linné has to offer which includes restaurants, cafés, gym, shops, grocery store, the wonderful park Slottskogen and more.\n\nIn the rent the following is included:\n- Water\n- Electricity\n- Broadband",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 95.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Södra Vägen, Göteborg",
     "url": "https://qasa.com/p/1397419",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b68a51a0a9a1020290a3565db54a0eb184c0011dd53d05853c48adc836915b9b.png",
@@ -33,10 +48,40 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Blåsvädersgatan 22, Göteborg",
+    "url": "https://qasa.com/p/1397518",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/05ff8c8fc7c6b2e071f2355cb9ccaa4103804faf4b73189c8834e8d83731a4aa.jpg",
+    "description": "Välkommen till denna rymliga 3 rum och kök på Meteorgatan!\n\nOM LÄGENHETEN\nLägenheten kommer att genomgå en omfattande Willhemlyft innan inflyttning och hyrs därför ut på planritning samt exempelbilder som visar de materialval och den standard som kommer att erbjudas efter renoveringen. Exempelbilderna är alltså inte enligt planritning. \n\nEfter renoveringen kommer lägenheten att erbjuda:\n\n- Vitmålade väggar i samtliga rum\n- Vinylklinker i hall och kök\n- Trägolv i övriga rum\n- Kök med separat kyl och frys\n- Diskmaskin ingår\n- Förberett för tvättmaskin. \n- Balkong\n- Förråd i källaren\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el.\n\nHyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 71.0,
+    "rent": 8226,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Köldgatan 13, Göteborg",
+    "url": "https://qasa.com/p/1397517",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f0104157ed8143c6a298d84b8286c7b32a435e75b7ce6fb2760f81ebac910481.jpg",
+    "description": "Välkommen till denna rymliga 3 rum och kök på Meteorgatan!\n\nOM LÄGENHETEN\nLägenheten kommer att genomgå en omfattande Willhemlyft innan inflyttning och hyrs därför ut på planritning samt exempelbilder som visar de materialval och den standard som kommer att erbjudas efter renoveringen. Exempelbilderna är alltså inte enligt planritning. \n\nEfter renoveringen kommer lägenheten att erbjuda:\n\n- Vitmålade väggar i samtliga rum\n- Vinylklinker i hall och kök\n- Trägolv i övriga rum\n- Kök med separat kyl och frys\n- Diskmaskin ingår\n- Förberett för tvättmaskin. \n- Balkong\n- Förråd i källaren\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el.\n\nHyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 6749,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lergöksgatan 5E, Västra Frölunda",
     "url": "https://qasa.com/p/1397461",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1ba0752f5583214767349b492af1efbcb03a384260b2abe57d275c138332a3b6.jpg",
-    "description": "Drömmer du om en ny bostad med flexibilitet att välja ditt framtida hem?  \n\n  \n\nUpptäck en unik möjlighet att hyra en mysig 4 med kök i Frölunda Park, Göteborg – 94 kvadratmeter fyllda med funktionalitet och bekvämlighet. Genom Balders hyrköpsmodell får du chans att både bo och fundera över ett eventuellt framtida köp.   \n\nBostaden hyrs ut via ett korttidskontrakt på HomeQ, där dina HomeQ-poäng bevaras och du fortsätter att samla poäng medan du bor hos oss.   \n\n Boendetid: Garanterat fram till mars 2028 \n\n-Diskmaskin   \n\n-Spishäll med inbyggd ugn   \n\n-Inbyggd mikrovågsugn   \n\n-Tvättmaskin\n\n-Torktumlare\n\n-Externt förråd i källare   \n\n-Balkong   \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.    \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning. \n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag. \n\nIngen visning erbjuds.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergöksgatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö. Mer information ges vid intresse.",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1ec4c75cc141586135d3a6b52d1c5237c3e275c2ef117095489c1b6d51c7eb52.jpg",
+    "description": "Upptäck en unik möjlighet att hyra en mysig 4 med kök i Frölunda Park, Göteborg – 94 kvadratmeter fyllda med funktionalitet och bekvämlighet. \n\nBostaden hyrs ut via ett korttidskontrakt på HomeQ, där dina HomeQ-poäng bevaras och du fortsätter att samla poäng medan du bor hos oss.   \n\n Boendetid: Garanterat fram till mars 2028 \n\n-Diskmaskin   \n\n-Spishäll med inbyggd ugn   \n\n-Inbyggd mikrovågsugn   \n\n-Tvättmaskin\n\n-Torktumlare\n\n-Externt förråd i källare   \n\n-Balkong   \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.    \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning. \n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag. \n\nIngen visning erbjuds.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergöksgatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö. Mer information ges vid intresse.",
     "district": "Västra Frölunda",
     "rooms": 4.0,
     "area_m2": 94.0,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vättnedalsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1346375",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55eab4ccdc318d9c562f8953a4d6792f7fcaaa34e10c95dff18fa55949a54b62.jpg",
-    "description": "Lägenhet uthyres 1 r.o.k\n\nLägenheten ligger i vårt hus och den har egen ingång. \n \nLägenheten är belägen i Önnered med nära till hav och natur.\nKollektivtrafik med bra kommunikationer till både Frölunda Torg och centrala delarna av Göteborg.\n \nLägenheten har fönster i tre väderstreck och egen balkong.\nDet är ett mindre kök och separat sovrum/vardagsrum, toalett med dusch. \n\nLägenheten uthyres möblerad. \nDet finns:\n- bäddsoffa\n- säng\n- garderob\n- byrå\n- litet klaffbord med stol i köket\n- lite porslin, glas, bestick och tallrikar.\nosv. klart för inflytt.\n \nI hyran ingår:\nEl\nVärme\nVatten\nInternet (gästnät)",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gröna Annas gata, Göteborg",
-    "url": "https://qasa.com/p/1396900",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/120084198441e209e4b6dcba083b35d4c00042bf27171e9cc1a9773f13f65ed8.jpg",
-    "description": "Hyresperiod: 1 april 2025 – 1 augusti 2025\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad, dock inte med de möbler som syns på bilderna. Bland annat ingår säng, vardagsrums möbler inklusive soffa, bord och TV, köksbord med stolar samt balkongmöbler.\n\nI hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt både parkeringsplats och MC-parkering. Läget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 13000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gunnestorpsvägen 133, Göteborg",
-    "url": "https://qasa.com/p/1397079",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d78940a3d48d7c923ee1a5df91e925bf332bdf8efbf85a759bf1e63e1c23db95.jpg",
-    "description": "Fantastisk möjlighet att flytta in i en fin lägenhet nära Tuve torg den 1 oktober. \nBostaden är en 2 rum & kök på 35 kvm.\nHär bor du i ett bra läge med närhet till kommunikationer, grönområden, torget samt skolor.\n\nLägenheten har en modern inredning som håller en hög standard. \nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten. Denna kostnad tillkommer på hyran.\n\nPlanritning finns.\nLåter det intressant? Ansök redan idag!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 35.0,
-    "rent": 8171,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T12:37:17+00:00", "clock": "12:37:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T14:36:53+00:00", "clock": "14:36:53"};
