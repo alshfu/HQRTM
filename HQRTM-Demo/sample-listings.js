@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Södra Vägen, Göteborg",
+    "url": "https://qasa.com/p/1397419",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b68a51a0a9a1020290a3565db54a0eb184c0011dd53d05853c48adc836915b9b.png",
+    "description": "Ljus och mysig möblerad lägenhet i ett lugnt och centralt läge i Göteborg. Lägenheten är välplanerad och hyrs ut möblerad med soffa, säng, matplats samt grundläggande köksutrustning.\n\nBostaden passar bra för en skötsam person eller ett par som söker ett bekvämt boende med allt det viktigaste på plats. Lägenheten har en trevlig vardagsrumsdel med soffa och TV, matplats vid fönster samt separat sovdel/sovrum med större säng.\n\nHär finns fina ljusinsläpp, trägolv och en varm, hemtrevlig känsla. Lägenheten hyrs ut möblerad enligt inventarielista och jag söker därför en lugn och ansvarsfull hyresgäst som tar väl hand om hemmet.\n\nI hyran ingår:\nMöbler\nKöksutrustning\nEl\nBredband\n\nJag söker dig som är rökfri, har stabil ekonomi och vill hyra under en bestämd period. Inga fester eller störande beteende. Referenser är meriterande.\n\nUthyrningen sker med godkännande från hyresvärden och avtal skrivs via Qasa.\n\nVid intresse får du gärna skriva kort om dig själv, din sysselsättning, önskat inflyttningsdatum och hur länge du önskar hyra.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Arvesgärde, Göteborg",
+    "url": "https://qasa.com/p/1388956",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30ba55970cde6c5b0ef7ae5eebcd68198c03c29da23a548ff22384f99ff8b1cd.jpg",
+    "description": "Läs hela annonsen!\n\nVarmt välkommen till denna välplanerade etta i populära Tuve med hiss på våning 5/5 med balkong.\n \n Arvesgärde 26 är centralt belägen i Tuve, ett område som kombinerar stadslivets pulserande energi med naturens lugn. En snabb och enkel bussresa med linje 17 tar dig direkt in till centrala stan. Gångavstånd från bostaden finner du Hisingsparken med sina grönområden och promenadstråk. Ett stenkast från bostaden finner ni Tuve Torg som erbjuder alla bekvämligheter du kan tänka dig, så som livsmedelsbutiker, servicebutiker, gym, vårdcentral, restauranger, frisör och konditori. \n\n!!!Bostaden ligger ute till försäljning så behov av visning kommer att behövas!!!\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 8575,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lergöksgatan 5E, Västra Frölunda",
+    "url": "https://qasa.com/p/1397461",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1ba0752f5583214767349b492af1efbcb03a384260b2abe57d275c138332a3b6.jpg",
+    "description": "Drömmer du om en ny bostad med flexibilitet att välja ditt framtida hem?  \n\n  \n\nUpptäck en unik möjlighet att hyra en mysig 4 med kök i Frölunda Park, Göteborg – 94 kvadratmeter fyllda med funktionalitet och bekvämlighet. Genom Balders hyrköpsmodell får du chans att både bo och fundera över ett eventuellt framtida köp.   \n\nBostaden hyrs ut via ett korttidskontrakt på HomeQ, där dina HomeQ-poäng bevaras och du fortsätter att samla poäng medan du bor hos oss.   \n\n Boendetid: Garanterat fram till mars 2028 \n\n-Diskmaskin   \n\n-Spishäll med inbyggd ugn   \n\n-Inbyggd mikrovågsugn   \n\n-Tvättmaskin\n\n-Torktumlare\n\n-Externt förråd i källare   \n\n-Balkong   \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.    \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning. \n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag. \n\nIngen visning erbjuds.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergöksgatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö. Mer information ges vid intresse.",
+    "district": "Västra Frölunda",
+    "rooms": 4.0,
+    "area_m2": 94.0,
+    "rent": 16986,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlanda vägen , Göteborg",
     "url": "https://qasa.com/p/1396002",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f278f94252e513c56ba89f5900c0939e3eefcbf49bd8c293b45a273b7c2aa8f2.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hult Åsens Väg, Askim",
-    "url": "https://qasa.com/p/1396929",
-    "image_url": null,
-    "description": "Har ett extrarum i 3-rums lägenhet. Rummet rymmer säng, garderob och ett bord. Tillgång till kök och badrum. ",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 6900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Munspelsgatan , Göteborg ",
-    "url": "https://qasa.com/p/1396915",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65995d52449c843913e32dbd576659c466745d81e2b2edf6e2c5bbd32fb74fb0.jpg",
-    "description": "En 2a på 51 kvadratmeter. \nIngår: El, Wi-Fi bredband, vatten, även eget förråd, och cykel rum. Tillgång även på bottenplan till gym och relaxavdelning. Du har 5 minuters gångavstånd till centrum/Frölunda torg, samt nära till två olika stränder. ",
-    "district": "Göteborg ",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 11900,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Kyrkåsväg, Askim",
-    "url": "https://qasa.com/p/1396905",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d35ca0ed1a1e205464bf63ae6bbbdbadde792efb00df51e96cbb5f8b0caefec.jpg",
-    "description": "Rymlig 4:a med egen ingång i lugna Askim\n\nVälkommen till denna välplanerade och rymliga lägenhet på entréplan med egen ingång, belägen på en lugn villagata i populära Askim. Här bor du med närhet till både natur, hav och smidiga kommunikationer in till centrala Göteborg.\n\nNärmaste busshållplats ligger cirka 5 minuters promenad bort, och med X2-bussen tar du dig till Järntorget på ungefär 22 minuter. I området finns fina promenadstråk, naturreservat och havet inom bekvämt gång- eller cykelavstånd. Du har även nära till matbutiker, restauranger, gym och annan service.\n\nLägenheten är cirka 120 kvm och erbjuder generösa ytor med gott om förvaring. Här finns två sovrum, en rymlig hall samt ett ljust och öppet kök och vardagsrum som skapar en social och trivsam känsla.\n\nBostaden har två badrum. Det större badrummet är utrustat med bastu, jacuzzi, öppen dusch och toalett – perfekt för avkoppling hemma. Det finns även ett extra badrum för ökad bekvämlighet.\n\nLägenheten är i mycket gott skick. Köket är nyinstallerat och hela bostaden målades om under 2024.\n\nMöblering kan erbjudas efter överenskommelse.\n\nFri parkering finns på gatan precis utanför huset.\n\nInflyttning kan ske omgående.\n\nFakta\n\n* Ca 120 kvm\n* Egen ingång\n* 2 sovrum\n* Rymlig hall\n* Öppen planlösning mellan kök och vardagsrum\n* 2 badrum\n* Bastu, jacuzzi och öppen dusch\n* Nytt kök och nymålat 2024\n* Möblering möjlig efter överenskommelse\n* Lugnt och attraktivt läge i Askim\n* X2-buss till Järntorget på ca 22 minuter\n* Nära butiker, restauranger, gym och service\n* Gång- och cykelavstånd till natur och hav\n* Fri parkering på gatan\n* Tillgänglig för omgående inflyttning",
-    "district": "Askim",
-    "rooms": 4.0,
-    "area_m2": 120.0,
-    "rent": 18000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T10:30:20+00:00", "clock": "10:30:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T12:37:17+00:00", "clock": "12:37:17"};
