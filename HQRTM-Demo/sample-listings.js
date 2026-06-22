@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gunnestorpsvägen 133, Göteborg",
+    "url": "https://qasa.com/p/1397079",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d78940a3d48d7c923ee1a5df91e925bf332bdf8efbf85a759bf1e63e1c23db95.jpg",
+    "description": "Fantastisk möjlighet att flytta in i en fin lägenhet nära Tuve torg den 1 oktober. \nBostaden är en 2 rum & kök på 35 kvm.\nHär bor du i ett bra läge med närhet till kommunikationer, grönområden, torget samt skolor.\n\nLägenheten har en modern inredning som håller en hög standard. \nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten. Denna kostnad tillkommer på hyran.\n\nPlanritning finns.\nLåter det intressant? Ansök redan idag!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 35.0,
+    "rent": 8171,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hult Åsens Väg, Askim",
     "url": "https://qasa.com/p/1396929",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Önskevädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1396761",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/93b2eeaeb4b1c1510d9f338e8e732321498208704bb13551da0e171c1ca66381.jpg",
-    "description": "Lägenhet uthyres för längre period. (Över 1 år)\nDen är tillgänglig redan nu så snabb inflytt är möjligt. \n\n*Hyr ut helst till 2 personer / par men ensam funkar med.\n*Du som hyr ska ha stabil inkomst och inte vara jobbsökande.\n*Priset är fast och diskuteras ej.\n*Långtidsuthyrning som gäller.\n\n55 kvm + balkong på ca 7 kvm\nLägenheten renoverades 2017.\n\n-Vad som ingår i hyran?\nKall & varm vatten.\nUppvärmning av lägenhet\nInternet och tv kanaler\nDiverse möbler: Soffa, dubbelsäng, tv-bänk, soffbord, köksbord, mikro och lite köksredskap.\n\n-Vad som behöver betalas extra varje månad?\nElen man förbrukat. Brukar vara på ca 150 kr.\n\nDet finns möjlighet att hyra parkeringsplats. I närheten av lägenheten, cirka 500 meter bort, finns en mataffär, en spelbutik och en restaurang. Spårvagnar finns också i närheten och resan till stadens centrum tar cirka 15 minuter med kollektivtrafik. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 11300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T04:19:58+00:00", "clock": "04:19:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T06:14:25+00:00", "clock": "06:14:25"};
