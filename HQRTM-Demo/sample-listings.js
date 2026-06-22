@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Djurgårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1397850",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f10d79da24c2d2137c7831d941ce75a7487f592b54f483923da8e23a1c26cea.png",
+    "description": "Jag hyr ut min välplanerade och trivsamma 2:a på Djurgårdsgatan 45A i Majorna/Masthugget i Göteborg under en period då jag ska prova sambolivet.\n\nLägenheten är fullt möblerad och nyrenoverad från topp till tå, med modern standard och fräscha ytskikt genom hela bostaden. Tack vare den smarta planlösningen känns lägenheten rymlig och välutnyttjad, och passar perfekt för en person eller ett par.\n\nBostaden består av ett separat sovrum, hall med bra förvaring, badrum samt ett öppet kök mot vardagsrummet som skapar en social och trivsam yta. Sovrummet ligger avskilt från sällskapsytorna, vilket ger en lugn och privat känsla.\n\nDet finns även tillgång till tvättstuga i huset.\n\nOm området\n\nBostaden ligger på Djurgårdsgatan i ett attraktivt område mellan Majorna och Masthugget – ett av Göteborgs mest populära områden för dig som vill bo lugnt men samtidigt ha nära till city.\n\nOmrådet erbjuder en bra kombination av stadsliv och grönska med närhet till caféer, restauranger, butiker och fina promenadstråk. Du har dessutom nära till både Slottskogen, Linné och Järntorget.\n\nKommunikation\n\nKommunikationerna är mycket bra. Närmaste hållplats är Fjällgatan, som ligger bara några minuter bort. Därifrån tar spårvagnen dig smidigt till Centralstationen och innerstan på cirka 10 minuter.\n\nDet som ingår i hyran\n\nI hyran ingår allt förutom TV.\n\nDet innebär att följande ingår:\n\nVärme\nVatten\nEl\nInternet\n\nÖvrigt \n\nJag söker en skötsam och ansvarsfull hyresgäst som tar hand om bostaden väl.\n\nUthyrningsperiod: 3 augusti 2026 – 1 februari 2027, med möjlighet till förlängning.\n\nRökning är ej tillåten\nBostaden hyrs ut djurfritt\nVisning sker endast för utvalda kandidater\nHyresgästen behöver även godkännas av Familjebostäder innan inflytt kan ske",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 39.0,
+    "rent": 6948,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1397791",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5e19e9d0492ad7002af34dc8a23349a8014753c74a30745bf39479140315dac.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmshamnen, Göteborg",
-    "url": "https://qasa.com/p/1397643",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f822db10b6a581249f35861d6955b6af5f9839e1d6ffbde3fed7cfd16e9fa031.jpg",
-    "description": "✨ Mysig, möblerad 1:a i Lindholmen – 24 kvm – uthyres!\n\nLetar du efter en smart planerad, fullt utrustad lägenhet på ett av Göteborgs mest attraktiva lägen? Nu finns möjlighet att hyra min fina etta på Lindholmshamnen 23, med närhet till vattnet, Lindholmens Science Park och färja direkt till centrum.\n\n⸻\n\n🛏 Om bostaden\n\t•\t24 kvm, välplanerad 1:a med öppet kök och sovalkov\n\t•\tFullt möblerad: säng, soffa, matbord, garderob, mm.\n\t•\tFönster mot lugn innergård – tyst läge utan insyn\n\t•\tVåning 2 (hiss finns)\n\t•\tStilrent badrum med dusch och kombimaskin\n\t•\tModernt kök med diskmaskin och integrerade vitvaror\n\n⸻\n\n💰 Hyra & vad som ingår\n\t•\tI hyran ingår:\n✔ Möbler\n✔ Bredband (fiber via föreningen)\n✔ Värme, vatten\n✖ El tillkommer (rörlig)\n\n⸻\n\n📍 Läge & kommunikation\n\t•\tLindholmen – citynära, lugnt och tryggt\n\t•\t2 min till Älvsnabben-färjan (10 min till Stenpiren)\n\t•\tGångavstånd till ICA Kvantum, gym, restauranger och campus\n\t•\tNära till busshållplats (bl.a. linje X1, 10, 11, 19, 21)\n\n⸻\n\nℹ️ Varför hyrs bostaden ut?\n\nJag ska flytta ihop med min flickvän och hyr därför ut lägenheten i andra hand, 6–12 månader, med möjlighet till förlängning efter godkännande från föreningen.\n\n⸻\n\n🎯 Du som söker\n\nVi ser gärna att du är:\n\t•\tRökfri och djurfri\n\t•\tAnsvarstagande\n\t•\tHar stabil inkomst (student eller fast jobb)\n\n⸻\n\n📩 Intresserad?\nSkriv gärna och berätta kort om dig själv – vad du jobbar/studerar med och från när du kan flytta in. Uthyrning sker efter godkännande från bostadsrättsföreningen.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 24.0,
-    "rent": 10000,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T20:16:50+00:00", "clock": "20:16:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-22T21:20:12+00:00", "clock": "21:20:12"};
