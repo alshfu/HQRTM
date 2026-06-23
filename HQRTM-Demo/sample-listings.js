@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Höstvädersgatan 31, Göteborg",
+    "url": "https://qasa.com/p/1397994",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d2501ef9d9af5d3037477c81a4d6abba366540b3dae29560b6e36a727fa83348.jpg",
+    "description": "Välkommen till denna moderna etta i Biskopsgården!\n\nOM LÄGENHETEN\nLägenheten kommer att genomgå en omfattande Willhemlyft innan inflyttning och hyrs därför ut på planritning samt exempelbilder som visar de materialval och den standard som kommer att erbjudas efter renoveringen. Exempelbilderna är alltså inte enligt planritning. \n\nEfter renoveringen kommer lägenheten att erbjuda:\n\n- Vitmålade väggar i samtliga rum\n- Vinylklinker i hall och kök\n- Trägolv i övriga rum\n- Kök med kombinerad kyl/frys\n- Förberett för diskmaskin\n- Förberett för tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 5189,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Karl Staaffsgatan 12, Göteborg",
+    "url": "https://qasa.com/p/1397961",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1406f93e6b5a9d6614f14003585e2f58734a386ade59d94d87b9266694e144b2.jpg",
+    "description": "Välkommen till denna 2 rum och kök på Karl Staafsgatan!\n\nOM LÄGENHETEN\nLägenheten kommer att genomgå en omfattande Willhemlyft innan inflyttning och hyrs därför ut på planritning samt exempelbilder som visar de materialval och den standard som kommer att erbjudas efter renoveringen. Exempelbilderna är alltså inte enligt planritning. \n\nBalkong finns ej. \n\nEfter renoveringen kommer lägenheten att erbjuda:\n\n- Vitmålade väggar i samtliga rum\n- Vinylklinker i hall och kök\n- Trägolv i övriga rum\n- Kök med separat kyl och frys\n- Förberett för diskmaskin\n- Förberett för tvättmaskin. \n- Förråd i källaren\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el.\n\nHyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 7926,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kransen, Göteborg",
     "url": "https://qasa.com/p/1397872",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ebf3f764fbcca447a925d347a2ba0d4c5fd5e3952993a6b8be529033ce5f4b70.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ebbe Lieberathsgatan , Göteborg",
-    "url": "https://qasa.com/p/1397697",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fab5d7c8486de346d82d4e3d50a06a020b9a7087c81ee1748a29346370d96032.jpg",
-    "description": "Fantastisk lägenhet nära till allt!\nMatbutiker, gym, hotell, spårvagn/kommunikation! 9 min till avenyn\n11 min till mölndal centrum!\nÖppen planlösning och balkong i nytt och lugnt område.\nSka flytta ihop med min flickvän.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T05:50:34+00:00", "clock": "05:50:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T07:05:10+00:00", "clock": "07:05:10"};
