@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Vintervädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1398401",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49f60bfcdcd8a8392cbf9067b928ae6a1a0d9ad4db06783d7c62772926930976.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16100 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/xywi1hxvtofhsajivvzf/vastra-gotaland/goteborg/vintervadersgatan-1/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nJag söker en hyresgäst som är noggrann, ansvarsfull och vill ta väl hand om min ljusa och fräscha 2:a i Göteborg \r\n\r\nLägenheten är ca 60 kvm med balkong och diskmaskin  Den hyrs ut delvis möblerad och är mycket trivsam.\r\n\r\nLägenheten är belägen i området Friskväderstorget i Göteborg – ett lugnt och omtyckt område med mycket god närhet till service, kommunikationer och natur.\r\nLäget är mycket bra med närhet till allt. Precis utanför finns pizzeria, matbutiker (bl.a. Willys vid torget), samt frukt- och salladsbutiker. Endast ca 2 minuters gångavstånd till spårvagn Samtidigt bor du nära natur och skog.\r\n\r\nTillgänglig från början av augusti\r\n Uthyrning: 1 år med goda möjligheter till förlängning\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16100 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 15196,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sankt Eriksgatan, Göteborg",
+    "url": "https://qasa.com/p/1393683",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a6c207b59a977cacb4725c69abcc7a704d22a7eae4da61a3fa5644666a67c68a.jpg",
+    "description": "Hej! Jag hyr ut ett schysst och ljust rum på cirka 22 m² i min lägenhet, ett alldeles perfekt boende för dig som ska studera i Göteborg och vill ha nära till allt.\n\nOmrådet och läget\nLägenheten ligger bara 1 minuts promenad till Nordstan. Du har gångavstånd till Andra Långgatan, Järntorget, Avenyn och Kungsportsplatsen. Busshållplats och spårvagn finns ca två minuter bort, vilket gör det enkelt att ta sig till exempelvis Chalmers eller universitetet.\n\nRummet och lägenheten\n    •    Ditt rum är på ca 22 m² – rymligt och bekvämt.\n    •    Tillgång till delat kök (ugn, spis, mikro, kyl/frys, allt det vanliga).\n    •    Delat badrum med dusch, badkar och handfat.\n    •   Stor hall som är avskild från min del av bostaden.\n    •    Tillgång till matplats i vardagsrummet samt en balkong.\n    •    I huset finns tvättstuga, cykelförråd och innergård.\n\nKort om mig\nJag som hyr ut arbetar som skomakare, älskar musik och matlagning. I hemmet finns även min katt frasse, så du bör inte vara allergisk.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 24.0,
+    "rent": 6389,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nordhemsgatan, Göteborg",
     "url": "https://qasa.com/p/141222",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1d080fd7221078a6713e2210845c59e502c8229c77ecb1056ca74d3af77a12c6.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Godemansgatan, Göteborg",
-    "url": "https://qasa.com/p/1398006",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b54e7b02934a4ec19a7a07703d3166d7645a625e07d9388fb3a64146d0287b52.png",
-    "description": "Välplanerad och stilsäker tvåa med generöst ljusinsläpp och genomgående stilrena materialval. Den sociala planlösningen rymmer ett stort, lättmöblerat vardagsrum med utgång till solig balkong i västerläge. Stilrent renoverat kök, rofyllt sovrum med god förvaring samt helkaklat badrum med egen tvättmaskin.\n\nEn omtyckt förening där det både finns gästlägenhet och lokal för medlemmar att tillgå. I området ligger trendiga matställen, Kville Saluhall runt hörnet som erbjuder diverse charkuterier och delikatesser från världens alla hörn och dessutom perfekta kommunikationer till city. Backaplan med mataffärer & service ligger på bekvämt promenadavstånd.\n\nSpårvagn in till stan går från Vågmästareplatsen som är ca 200m från lägenheten och tar dig in till Brunnsparken på mindre än 10min , bra förbindelser även med buss. \nNära till Volvo trucks ( Lundby) och Volvo cars med spårvagn och buss samt ut till Lindholmen går det buss och även spårvagn från Hjalmar Brantingsplatsen \n\nI hyran ingår allt, vatten , bredband, el \nFinns möjlighet till parkering för 300 kr i månaden och den är precis i anslutning till huset. \nVi hyr ut vår lägenhet då vi har försökt sälja den ett tag men marknaden har varit sisådär. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sisjövägen 59, Göteborg",
-    "url": "https://qasa.com/p/1398076",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f987060cf18ac8cd0eedc733a8c27f3dc6bdb5709d0f650d1f3ae8b402dc8dff.jpg",
-    "description": "Tänk dig att ta morgondoppet i Sisjön och kvällsdoppet i havet. Visst låter det härligt? Den nya stadsdelen Sisjödal växer fram i Askim i sydvästra Göteborg – med fint läge nära både stad, natur och hav.\n\nOm Bostaden \nDenna fastighet är byggd 2022 och det har bott andra hyresgäster innan dig i lägenheten. Alla bostäder har en balkong eller egen uteplats samt en gemensam uteplats. Lägenheten är ljus med säkerhetsdörr, vitmålade väggar och parkettgolv av ek. Köket har vita skåp, kakel som stänkskydd och bänkskiva av laminat. Köket är utrustat med spis, ugn, kyl/frys och diskmaskin. Badrummet är helkaklat med golv av klinker samt försett med kombimaskin för tvätt och tork. \n\nDe interiöra bilderna är tagna i visningslägenheterna och därför kan avvikelser förekomma. \n\nHyra \nVärme och kallvatten ingår i hyran.\nLägenheten är kopplad till kollektivt Bredband Bitcom. Det tillkommer ett obligatoriskt tillägg för bredband. Varje år sker en förhandlingsordning. I en fastighet som har en förhandlingsordning måste hyresvärden förhandla med hyresgäst¬föreningen inför alla hyreshöjningar. \n\nOm du är en av dem med längst kötid kan du komma att bli inbjuden till visning. Visningarna är inte obligatoriska att gå på. I vissa fall behöver du ta ställning till bostaden enbart utifrån en ritning. För en snabbare process så går det bra att tacka ja till lägenheten utan visning.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 9448,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T11:56:10+00:00", "clock": "11:56:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T13:10:21+00:00", "clock": "13:10:21"};
