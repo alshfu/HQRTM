@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Runiusgatan, Göteborg",
+    "url": "https://qasa.com/p/1398592",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/681ee0ab196961375bc265218cd2524b3836b592c7314c990cccbf7b4e649672.jpg",
+    "description": "Letar du efter ett möblerat rum i ett centralt beläget , mysigt villaområde i Göteborg nära till allt?\n\nNu har vi två lediga möblerade rum för uthyrning tills vidare. Båda rummen är ledigta omgående (det mindre 20m2 hyra 4100 kr) och det andra rummet25 m2 (hyra 4480 kr)..I de övriga rummen bor en tjej och vi letar därför efter en kvinnlig, rökfri hyresgäst, som är intresserad av ett boende.\n\nHuset ligger i Kålltorp nära kommunikationer och affärer.. Rummet ligger i en bottenvåning huset . Våningen har seperat ingång och du delar kök, toalett, dusch och tvättstuga med en boende i lägenheten Trevligt och fräscht. I rummen finns bl a garderob, säng, soffa, bord och stolar, skrivbord och TV. I månadshyran ingår el, värme, vatten, sophantering och bredband. Du betalar en månadshyra i deponi som återfås vid utflyttning. Två månaders uppsägning.\n\nVi söker en hyresgäst som är lugn och städad samt intresserad av ett boende för en längre tid (helst minst ett år). Gärna studerande. Rummen är för en person enbart och kan inte delas av två. Husdjur är ej tillåtet. Är du intresserad så ett mail så återkommer vi med tid för en visning\n\n\nGratis parkering på gatan utanför.\n\nGång/cykelavstånd in till stan. Nära till både spårvagn och buss. Du kan cykla till Avenyn på bara 15minuter. Vackra Skatås med joggingslinga inpå knuten.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 3750,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Framnäsgatan, Göteborg",
     "url": "https://qasa.com/p/1397873",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1dce3c8b429d1a6ab5e40eac84d7da8a230644481c7e5882b56e5d5c25275994.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vintervädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1398401",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e1b30af64b5a659535c1ec2ff31095faacc7fb1c5f7901984b7f9a7098866787.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16100 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/xywi1hxvtofhsajivvzf/vastra-gotaland/goteborg/vintervadersgatan-1/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nJag söker en hyresgäst som är noggrann, ansvarsfull och vill ta väl hand om min ljusa och fräscha 2:a i Göteborg \r\n\r\nLägenheten är ca 60 kvm med balkong och diskmaskin  Den hyrs ut delvis möblerad och är mycket trivsam.\r\n\r\nLägenheten är belägen i området Friskväderstorget i Göteborg – ett lugnt och omtyckt område med mycket god närhet till service, kommunikationer och natur.\r\nLäget är mycket bra med närhet till allt. Precis utanför finns pizzeria, matbutiker (bl.a. Willys vid torget), samt frukt- och salladsbutiker. Endast ca 2 minuters gångavstånd till spårvagn Samtidigt bor du nära natur och skog.\r\n\r\nTillgänglig från början av augusti\r\n Uthyrning: 1 år med goda möjligheter till förlängning\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16100 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 15341,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T17:06:48+00:00", "clock": "17:06:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T17:51:16+00:00", "clock": "17:51:16"};
