@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Grafiska vägen, Göteborg",
+    "url": "https://qasa.com/p/1398517",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c81b90fb94477de70f69ac686adf358f4c838a1e3697118a5189fd8a3262bf20.jpg",
+    "description": "Ljus och modern etta uthyres i centrala Göteborg\n\nPå grund av jobb på annan ort hyr jag ut min fräscha nybyggda etta på 33 kvm, belägen i Almedal/Elisedal. \n\nDenna charmiga bostad erbjuder ett rymligt och möblerat boende med en generös walk-in-closet. Perfekt för dig som vill bo centralt med närhet till allt (och har lite för mycket grejer)!\n\n\t•\tHelt möblerad: Lägenheten är fullt möblerad och inkluderar balkongmöbler på den mysiga balkongen.\n\t•\tTvätt- och torkmaskin: För extra bekvämlighet finns en kombinerad tvätt- och torkmaskin i lägenheten.\n\t•\tPerfekt läge: Liseberg ligger bara 12 minuter bort till fots, och Korsvägen nås på mindre än 20 minuter. Dessutom har du nära till det vackra Safjällets naturreservat på bara 30 min till fots(!)\n\t•\tUtmärkta kommunikationer: Spårvagn 2 och 4 stannar i närheten och tar dig smidigt till både Göteborgs innerstad och Mölndals centrum.\n\t•\tService: ICA Maxi och Willys ligger bara 5 minuter bort, och du har tillgång till både Nordic Wellness och 24 Seven Fitness i närheten.\n\nHyran är 10.000 kr/månad och inkluderar el, varmvatten och bredband.\n\nKontakta mig gärna för mer information eller för att boka en visning!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Wallenbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1398513",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/05b516be158796e9d52caa9f5a1f0ca247fcad6210f96f1640f84226495ba2a5.jpg",
+    "description": "Jag har ett rum ledigt från nu och fram till 15 Augusti.\nMin lägenhet ligger i området Johanneberg i Göteborg, precis vid Chalmers.\nJag bor i lägenhet och jag hyr ut 1 trevligt rum som är på ca 7 m2. Vi delar badrum och kök. Tvättstuga finns i källaren.\nLägenheten ligger i ett väldigt lugnt område med trevliga grannar. Det finns 3 olika busslinjer som passerar ganska nära och det är bara ca 200 meter till närmaste hållplats.\nHyran är 4000 SKR/mån och allt ingår. Sängkläder, handdukar, wifi, el. Inga extra kostnader.\nJag hyr även ut veckovis fram till 15 Augsuti.\n\n\nI have a room available from now until the 15:th of August.\nMy apartment is located in the area Johanneberg in Gothenburg and it´s very close to Chalmers. I live in an apartment and I rent out 1 nice room and it´s about 7 square meters.\n\nWe share bathroom and kitchen.\nLaundry in the basement. I live in a very calm and quiet area with nice neighbours.\nThere are 3 different bus lines which pass quite close to the apartment and it´s just about 200 meters to the closest bus stop.\n\nThe rent is 4000 SKR/month and everything is included. Bed clothes, towels, wifi, electricity. No extra costs.\n\nIn first hand I want a person who will not be registered at my place. Maybe ERASMUS-student or similar.\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 7.0,
+    "rent": 4000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Ågatan, Göteborg",
     "url": "https://qasa.com/p/1398294",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d58208b0ec1bac7e83bf477c76b40ce26e9fe1ef747a2b405320fe2842ca615.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergöksgatan 5A, Västra Frölunda",
-    "url": "https://qasa.com/p/1398437",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/05afa589cdc16b9d4f354a12652fd660407457110ddf6fbb8e04ad4acef2b773.jpg",
-    "description": "Upptäck en unik möjlighet att hyra en mysig 4  med kök i Frölunda Park, Göteborg – 94 kvadratmeter fyllda med funktionalitet och bekvämlighet.  \n\nBostaden hyrs ut via ett korttidskontrakt på HomeQ, där dina HomeQ-poäng bevaras och du fortsätter att samla poäng medan du bor hos oss.   \n\n Boendetid: Garanterat fram till mars 2028 \n\n-Diskmaskin   \n\n-Spishäll med inbyggd ugn   \n\n-Inbyggd mikrovågsugn   \n\n-Tvättmaskin\n\n-Torktumlare\n\n-Externt förråd i källare   \n\n-Balkong   \n\n  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.    \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning. \n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag. \n\nIngen visning erbjuds.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergöksgatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö. Mer information ges vid intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 94.0,
-    "rent": 17023,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergöksgatan 5D, Västra Frölunda",
-    "url": "https://qasa.com/p/1398422",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/faac2ce25f4a11a7956e8c1ce7c6258476d9275c7191cd1a2e98525fed14c6cf.jpg",
-    "description": "Här ges möjlighet att bli den första hyresgästen att hyra en 3 rum och kök på 67 kvadratmeter. Observera att lägenheten hyrs ut via Balders hyrköpsmodell.\n\n-Diskmaskin\n-Spishäll med inbyggd ugn\n-Inbyggd mikrovågsugn\n-Tvättmaskin och torktumlare\n-Externt förråd i källare\n-Balkong\n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergöksgatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö. Mer information ges vid intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 67.0,
-    "rent": 13429,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T14:04:26+00:00", "clock": "14:04:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T15:15:49+00:00", "clock": "15:15:49"};
