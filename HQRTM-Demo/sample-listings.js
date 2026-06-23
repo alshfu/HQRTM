@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordhemsgatan, Göteborg",
+    "url": "https://qasa.com/p/141222",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1d080fd7221078a6713e2210845c59e502c8229c77ecb1056ca74d3af77a12c6.jpg",
+    "description": "Vacker och ljus 1:a i Linné uthyres över sommaren\n\nVacker och ljus lägenhet om 1 rum och kök, 40 kvm, uthyres möblerad över sommaren med omgående inflyttning fram till 26 augusti.\n\nLägenheten ligger på ett toppläge på Nordhemsgatan 47 i Linné och är fullt möblerad med modern och stilren interiör.\n\nHyra: 12 500 kr/månad\n\nDu som hyr ska vara rökfri, djurfri och ha fast inkomst.\n\nMaila vid intresse och skriv gärna några rader om dig själv.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 11995,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Drottninggatan 81A, Trollhättan ",
+    "url": "https://qasa.com/p/1398311",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/436d7e20d60d9b51fb05d121ed0e25830cdb1727d03849994a51bf53c382d82f.jpg",
+    "description": "Välkommen till denna 3 rok på Drottninggatan 81A i Trollhättan. Lägenheten är disponerad på 80 kvm, denna 3 rok är belägen på våning 2.  I hyran ingår värme och varmvatten. \nParkering finns att hyra separat! Vi erbjuder dig gärna en visning! Är du intresserad? Vänligen lämna din intresseanmälan nedan!\n\n\n",
+    "district": "Trollhättan ",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 10123,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hults gata, Askim",
     "url": "https://qasa.com/p/1398169",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dfe02715601def0e644ee845af6e8cef8c17928e1c173bc12d856e78de29c3e4.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Universumsgatan 24, Göteborg",
-    "url": "https://qasa.com/p/1398028",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cedea3ca79c080995dded0e976e629b7d7f27264a96ca3b44be70c5d29776cb2.jpg",
-    "description": "Välkommen hem till Bergsjö Höjd! \n\nHär erbjuds en ljus och välplanerad lägenhet om 55 kvm, byggd 2022, med öppen planlösning och moderna materialval. \n \nFrån köket finns utgång till en rymlig balkong som passar bra för att njuta av frisk luft eller en kopp kaffe. Köket är utrustat med bland annat diskmaskin och mikrovågsugn, och i badrummet finns en kombinerad tvättmaskin och torktumlare som underlättar vardagen.  \n\nTill lägenheten hör även ett förråd i källaren.  \n \nI hyran som marknadsförts ingår inte kostnad för el och vatten då du betalar för din faktiska förbrukning.  \n  \nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Normalt slitage kan förekomma i lägenheten. Visning sker enligt planritning.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 8478,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kosmosgatan 6, Göteborg",
-    "url": "https://qasa.com/p/1398023",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/71c7f578a85e418da9e502282483f0df4bb779d345457b081f81bb3596b6bf6b.png",
-    "description": "Välkommen till ditt nya HEM – ett rymligt boende på hela 90 kvm!\n \nLetar du efter ett hem med både stil, komfort och smarta lösningar? Då har du hittat rätt! Den här generösa 90-kvadrataren totalrenoverades 2017 och erbjuder ett modernt, bekvämt boende där du kan trivas direkt från första dagen.\n \nHela lägenheten har målats om i ljusa, harmoniska färger och fått en ny säkerhetsdörr för extra trygghet. I hallen möts du av ett praktiskt och snyggt klinkergolv som tål vardagens slitage, medan övriga rum pryds av ett exklusivt ekparkettgolv som ger både värme och karaktär.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel, handdukstork samt en spegel med stämningsfull LED-belysning. Här finns även en egen tvättmaskin och torktumlare för maximal bekvämlighet.\n \nI det välplanerade köket, som verkligen är hemmets hjärta, finns inbyggnadsugn, häll, fläktkåpa, diskmaskin samt kyl och frys – allt du behöver för både vardagsmat och helgmiddag.\n \nI hyran ingår värme, vatten och kabel-TV, vilket ger dig full kontroll på dina boendekostnader.\n \nObservera: Bilderna i annonsen är exempelbilder. Normalt slitage samt avvikelser från planritningen kan förekomma.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 90.0,
-    "rent": 12450,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T10:50:00+00:00", "clock": "10:50:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T11:56:10+00:00", "clock": "11:56:10"};
