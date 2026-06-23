@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hults gata, Askim",
+    "url": "https://qasa.com/p/1398169",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dfe02715601def0e644ee845af6e8cef8c17928e1c173bc12d856e78de29c3e4.jpg",
+    "description": "English below:\nNyrenoverad. Månadshyra: 5500kr.  Inflyttning under  augusti. Inga avgifter. Ingen deposition. Kontrakt skrivs direkt med hyresvärden.\n\nMöblerad lägenhet på 90 m2 på entréplan i mitt hus. Du har ett eget sovrum och delar hall, vardagsrum/matplats, kök/tvättstuga, dusch/toalett och uteplats.  Köket är fullt utrustat.  De andra hyresgästerna är två män. Den ena studerar på Chalmers och den andra är civilingenjör och jobbar på Volvo.\n\nRummet är möblerat med säng 105 cm, skrivbord, bokhyllor, garderob. Mörkerrullgardin för en god sömn och reglerbar plisse’gardin mot insyn. Rummet vetter mot trädgården och den lugna gatan. Huset är beläget i trevligt och tryggt område nära hav och skog.  Det går snabbt och smidigt att ta sig till centrala Göteborg.\nI hyran ingår fiber/wifi, el, värme, vatten och sophämtning. Förvaring av cykel i låst garage. Gratis bilparkering på gatan utanför.\nMycket goda kommunikationer från busshållplatsen \"Pilegården Göteborg\" som du når till fots på någon minut.\nBuss X2 tar 12 min till Linnéplatsen. Buss 258 tar 10 min till Sahlgrenska och 14 min till Chalmers.  Buss 180 tar 21 min till Volvo. Buss 89: 5 min till Frölunda torg Eller cykla in till stan på den lummiga cykelbanan.  Affärer och service i närområdet.\n\nLite om mig: Jag är sjuksköterska och bor själv i den övre lägenheten som är helt separerad från uthyrningslägenheten på bottenplan.\nMin entré är på baksidan av huset.\n\nFör din TRYGGHET: Ingen deposition. Inga avgifter. Verifierad värd.\n\nVÄLKOMMEN att höra av dig för mer info.\n------------------------------------------------------\nNewly renovated. 5500 kr/month. Contract directly with the landlord.  No fees. No deposit .  \nMoving in during August.\n\nShared apartment (90m2) on first floor of my house. You have your own bedroom and share \nlivingroom/diningroom, kitchen/laundryroom, bathroom and part of the garden.  The other tenants are two men. One studying at Chalmers and the other is working as engineer at Volvo.\n\nRent includes fiber/wifi, electricity, heat and water.  Bike can be placed in locked garage. Free parkingplace for a car. The room is furnished with 105 cm bed, desk, cupboards, bookshelves,  carpets, dark blinder for a good night sleep and is facing the garden and the quiet street.  Kitchen is fully equiped. The house is situated in a nice and safe area with wonderful nature around the  corner.\n\nEasy access to citycenter.\nA few minutes walk takes you to the bus station \"Pilegården Göteborg\" with frequently departures.  Bus X2:  12 minutes to Linneplatsen. Bus 258: 10 min to Sahlgrenska and 14 min to Chalmers.                       \nBus 180: 21 min to Volvo. Bus 89: 5 min to Frölunda torg. Or take the bike to town along the nice green bikeway. All sorts of shops and service in the neighbourhood.\n\nI live in the apartment on topfloor with seperate entrance. I live by myself working as a nurse.\n\nFor your SAFETY: No deposit. No fees. Verified host.\nWELCOME to get in touch with me for more info.",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 9.0,
+    "rent": 5190,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Viktor Rydbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1398100",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8aff4d4153348902782f83085bd007b4e12230a6da654b498f441d2dd47c122b.jpg",
@@ -20,7 +35,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Tegnérsgatan, Göteborg",
     "url": "https://qasa.com/p/1398102",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a80de698a92e327dabc1abb321850f6f38ff582c07ef43c30e00869090042d6d.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9153c000327aa3835fd4f235fcde5ad45794dfa94a34beb8df049fda3033656.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 18400 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/7t5a5mbvgaycrajruahw/vastra-gotaland/goteborg/tegn-rsgatan-15/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus lägenhet, ett sovrum med dubbelsäng. Ett litet rum med en 90 säng, som gästrum. Kök med gasspis, matplats för 3 personer. Vardagsrum med en stor hörnsoffa med bord, tv matsalen med bord för 8 personer binds ihop med vardags rummet på ett ljus och luftigt sätt. Lägenheten ligger mitt i Lorensberg, gångavstånd till avenyn, Scandinavium, Heden, grönområden, restauranger, mataffärer etc.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 18400 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kosmosgatan 2, Göteborg",
-    "url": "https://qasa.com/p/1398018",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f553ed3ca063608e5ea4eba3785e65632fedbb8697f20ad443276df2991a5471.jpg",
-    "description": "Välkommen hem till denna ljusa och stilrena lägenhet om 56 välplanerade kvadratmeter, som renoverades år 2018! Här erbjuds ett stilrent och modernt boende där varje detalj är noggrant utvald för att skapa en trivsam och funktionell vardag.\n \nLägenheten har genomgått en renovering där samtliga väggar och tak målats i ljusa färger. En säkerhetsdörr är installerad för att ge dig en extra trygg känsla i vardagen. I hallen möts du av ett snyggt och praktiskt klinkergolv som både tål slitage och ger ett välkomnande intryck. I resten av hemmet ligger ett elegant ekparkettgolv som ger både värme och karaktär åt bostaden.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel. Köket, hemmets hjärta, är välutrustat med inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kombinerad kyl och frys. Här finns gott om utrymme för både matlagning och gemenskap. I direkt anslutning hittar du även balkongen – perfekt för dig som gillar att sitta ute och njuta av vädret och utsikten.\n \nI hyran ingår värme, vatten och kabel-TV.\nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 8752,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T08:22:10+00:00", "clock": "08:22:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-23T09:42:49+00:00", "clock": "09:42:49"};
