@@ -35,13 +35,28 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Anders Personsgatan, Göteborg",
     "url": "https://qasa.com/p/1398862",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09d07add269d93a2b21db5828c100534c182c45348391d81987072cd063cf436.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/edf573afcb61bcf541619823806177d391248118e1b6db37fdeb2bee105d0257.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13570 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/dm2cvnwtrk8ar1gvtnct/vastra-gotaland/goteborg/anders-personsgatan-25/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nRymlig och modern 2:a om 74 kvm i centrala Göteborg – möblerad och inflyttningsklar\r\n\r\nNu finns möjligheten att hyra en ljus och välplanerad tvåa på 74 kvm i attraktiva Gårda, med ett centralt läge och utmärkta kommunikationer. Lägenheten ligger på våning 6 med hiss och erbjuder ett bekvämt boende med närhet till allt Göteborg har att erbjuda.\r\n\r\nBostaden hyrs ut möblerad och är fullt utrustad för ett bekymmersfritt boende. Köket har diskmaskin och alla nödvändiga köksredskap. I lägenheten finns även både tvättmaskin och torktumlare, samtidigt som det finns tillgång till tvättstuga i fastigheten för den som önskar.\r\n\r\nLägenheten erbjuder dessutom mycket goda förvaringsmöjligheter med en rymlig klädkammare samt flera praktiska förvaringsutrymmen. Den generösa planlösningen gör det enkelt att hålla bostaden organiserad och trivsam även för den som har mycket kläder, utrustning eller andra tillhörigheter.\r\n\r\nEn av lägenhetens stora fördelar är den generösa inglasade balkongen med värmeelement, vilket gör att den kan användas som ett extra rum stora delar av året. Från bostaden har du trevlig utsikt mot den lugna innergården, Stampen och Lunden.\r\n\r\nTrots det centrala läget är lägenheten mycket tyst och välisolerad. Här slipper du störande trafikljud och lyhördhet, samtidigt som du har stadens puls inom bekvämt räckhåll.\r\n\r\nOmrådet\r\n\r\nGårda är ett av Göteborgs mest strategiska områden med närhet till både centrum och stadens större trafikleder. Precis utanför fastigheten finns bussförbindelser som snabbt tar dig in till centrum och Nordstan. Spårvagnshållplatsen Svingeln ligger på bekvämt gångavstånd och gör det enkelt att ta sig till övriga delar av Göteborg.\r\n\r\nI direkt anslutning till byggnaden finns restauranger, sushi, pizzeria, hamburgerrestaurang samt annan service. Coop vid Stampen ligger cirka 10 minuters promenad bort. För den som uppskattar promenader och motion finns fina gång- och cykelstråk längs kanalen samt en lugn och trivsam innergård.\r\n\r\n* Möblerad\r\n* Tillgänglig från september 2026\r\n* Uthyrning tillsvidare\r\n\r\nÖvriga villkor\r\n\r\nLägenheten hyrs ut som ett djur- och rökfritt boende, vilket innebär att inga djur är tillåtna samt rökning inte är tillåten i lägenheten, på balkongen eller i fastighetens gemensamma utrymmen.\r\n\r\nVi söker i första hand ett skötsamt par som önskar ett långsiktigt och trivsamt boende och som värdesätter ett lugnt och välskött hem.\r\n\r\nVälkommen att höra av er med en presentation av er själva och er boendesituation.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13570 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 2.0,
-    "area_m2": 75.0,
+    "area_m2": 74.0,
     "rent": 12931,
     "floor": 6,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kryddvägen 54, Angered",
+    "url": "https://qasa.com/p/1398986",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94264e4dfacced9bbac978b4ca5c08e4d3683b480e7f8a387e8c6923810f0675.jpg",
+    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 9 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. ",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 9750,
+    "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lilla Tunnlandsgatan 5, Göteborg",
-    "url": "https://qasa.com/p/1398766",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9211dd36e7520b4e8ba40dcac5708e0fe1ff1b83f6a1333a356150ae3cd9b123.jpg",
-    "description": "Trevligt planerad och modern lägenhet med öppet planlösning kök/vardagsrum med utgång till generös balkong i österläge. \nHelkaklat badrum med dusch, tvättmaskin, och torktumlare. Kök med diskmaskin. Promenadavstånd till Marklandsgatan som är knutpunkt för många buss- och spårvagnslinjer och i närområdet finns även Slottsskogen och Botaniska Trädgården. \nParkering finns både i garage och utomhus men för närvarande är det viss kö.\nVarmvattenförbrukningen mäts individuellt och debiteras i efterhand.\nHyran som anges avser 2025 års hyra då förhandlingen för 2026 års hyra pågår.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 9812,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T08:43:41+00:00", "clock": "08:43:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T09:58:55+00:00", "clock": "09:58:55"};
