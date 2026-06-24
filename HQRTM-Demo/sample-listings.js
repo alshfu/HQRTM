@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långedragsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1399125",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eacc86b2258e408c56d2037aec78c3fcdd6f49f734497d6cbbba9563279c837b.jpg",
+    "description": "Välkommen till ett trivsamt och välplanerat attefallshus, beläget i ett lugnt och trevligt villaområde. Bostaden hyrs ut fullt möblerad och är redo för inflyttning.\n Bostaden har ett enkelt och funktionellt vardagsrum med soffa, TV och en arbetsplats. Köket är utrustat med kylskåp, spis och mikrovågsugn. Det finns även ett eget badrum med dusch. Tvättmaskin och torktumlare finns i bostaden för din bekvämlighet.\n Boendet är rök- och djurfritt och passar även personer med behov av tillgänglighet.\n I hyran ingår:\n \n El\n Värme\n Varm- och kallvatten\n Sophämtning\n Internet\n \n Parkeringsmöjlighet finns i området.\n Bostaden ligger i ett lugnt och tryggt område med bra kommunikationer till centrala Göteborg.\n Passar bra för en person eller ett par som söker ett enkelt och bekvämt boende.\n\n- Betala ingenting nu\n- Kontrollerad annons\n- Träffas digitalt eller i bostaden",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 25.0,
+    "rent": 9390,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Övre Fogelbergsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1399127",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80aa083ec2e7adf3e842fbae10d3f8a57aad6b067c1c1cd873f9785e02035772.jpg",
+    "description": "Nu har ni möjligheten att flytta in i en fantastisk lägenhet på Övre Fogelbergsgatan 1 i Vasastaden. \nBostaden är beläget på våning 1.\nLägenheten är en 3 rum och kök på 80 kvm.\nHär bor du med närhet till allt du kan tänkas behöva.\n\n\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 10953,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Garverigatan, Göteborg",
     "url": "https://qasa.com/p/1398889",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/41c5e0acc7d5599317421c200f66b9cb9beab87d9640a836be8f31689cff0b50.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 113, Angered",
-    "url": "https://qasa.com/p/1398794",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5d72a23a0b15e0c78363bf2c2ecf0f1e02e6030ecf8a33fc4ca0928ed1cfa0d.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 7 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. ",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 10565,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Västanvindsgatan 2B, Göteborg",
-    "url": "https://qasa.com/p/1398790",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/81d155e07cb2c91f4b2d702e5939435d1a778487784623ddedc9ffc8ea722ea9.jpg",
-    "description": "Vi har en ledig 1 ROK på Västanvindsgatan från 1 oktober. \nLägenheten är disponerad på 38 kvm och belägen på våning 3. \nHär bor du med ett fantastiskt läge med närhet till butiker & grönområden och där du med enkelhet tar dig in till mer centrala delar. \n\nOm det är av intresse, ansök redan idag!\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 6170,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T11:10:18+00:00", "clock": "11:10:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T12:07:34+00:00", "clock": "12:07:34"};
