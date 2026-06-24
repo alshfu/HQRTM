@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Landalagången, Göteborg",
+    "url": "https://qasa.com/p/1399245",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49870cc7ab102daa01d1bf2394004ed87601091e2f2de07c971a8fc908bd9429.jpg",
+    "description": "Trevlig och välplanerad 1-rumslägenhet på 30 kvm uthyres i attraktiva Landala. Lägenheten är fullt möblerad och utrustad med allt som behövs för ett bekvämt boende, inklusive säng, soffa, matbord, förvaring och fullt utrustat kök.\n\nLägenheten har ett mycket bra läge med gångavstånd till Chalmers University of Technology och nära till kollektivtrafik, butiker, restauranger och annan service. Landala ligger centralt i Göteborg och precis intill Chalmersområdet, vilket gör bostaden idealisk för studenter eller yrkesverksamma.  \n\nKontakta mig gärna för mer information eller för att boka en visning.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rubingatan, Västra Frölunda",
     "url": "https://qasa.com/p/1399167",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc4843a32f57cda70e2a6833c9523af1a5abeb1a6c47e1452432af60a7f3e255.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddvägen 54, Angered",
-    "url": "https://qasa.com/p/1398986",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94264e4dfacced9bbac978b4ca5c08e4d3683b480e7f8a387e8c6923810f0675.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 9 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. ",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 47.0,
-    "rent": 9750,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T13:03:41+00:00", "clock": "13:03:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T13:53:27+00:00", "clock": "13:53:27"};
