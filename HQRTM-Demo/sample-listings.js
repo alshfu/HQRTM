@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Anders Personsgatan, Göteborg",
+    "url": "https://qasa.com/p/1398862",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09d07add269d93a2b21db5828c100534c182c45348391d81987072cd063cf436.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13570 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/dm2cvnwtrk8ar1gvtnct/vastra-gotaland/goteborg/anders-personsgatan-25/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nRymlig och modern 2:a om 74 kvm i centrala Göteborg – möblerad och inflyttningsklar\r\n\r\nNu finns möjligheten att hyra en ljus och välplanerad tvåa på 74 kvm i attraktiva Gårda, med ett centralt läge och utmärkta kommunikationer. Lägenheten ligger på våning 6 med hiss och erbjuder ett bekvämt boende med närhet till allt Göteborg har att erbjuda.\r\n\r\nBostaden hyrs ut möblerad och är fullt utrustad för ett bekymmersfritt boende. Köket har diskmaskin och alla nödvändiga köksredskap. I lägenheten finns även både tvättmaskin och torktumlare, samtidigt som det finns tillgång till tvättstuga i fastigheten för den som önskar.\r\n\r\nLägenheten erbjuder dessutom mycket goda förvaringsmöjligheter med en rymlig klädkammare samt flera praktiska förvaringsutrymmen. Den generösa planlösningen gör det enkelt att hålla bostaden organiserad och trivsam även för den som har mycket kläder, utrustning eller andra tillhörigheter.\r\n\r\nEn av lägenhetens stora fördelar är den generösa inglasade balkongen med värmeelement, vilket gör att den kan användas som ett extra rum stora delar av året. Från bostaden har du trevlig utsikt mot den lugna innergården, Stampen och Lunden.\r\n\r\nTrots det centrala läget är lägenheten mycket tyst och välisolerad. Här slipper du störande trafikljud och lyhördhet, samtidigt som du har stadens puls inom bekvämt räckhåll.\r\n\r\nOmrådet\r\n\r\nGårda är ett av Göteborgs mest strategiska områden med närhet till både centrum och stadens större trafikleder. Precis utanför fastigheten finns bussförbindelser som snabbt tar dig in till centrum och Nordstan. Spårvagnshållplatsen Svingeln ligger på bekvämt gångavstånd och gör det enkelt att ta sig till övriga delar av Göteborg.\r\n\r\nI direkt anslutning till byggnaden finns restauranger, sushi, pizzeria, hamburgerrestaurang samt annan service. Coop vid Stampen ligger cirka 10 minuters promenad bort. För den som uppskattar promenader och motion finns fina gång- och cykelstråk längs kanalen samt en lugn och trivsam innergård.\r\n\r\n* Möblerad\r\n* Tillgänglig från september 2026\r\n* Uthyrning tillsvidare\r\n\r\nÖvriga villkor\r\n\r\nLägenheten hyrs ut som ett djur- och rökfritt boende, vilket innebär att inga djur är tillåtna samt rökning inte är tillåten i lägenheten, på balkongen eller i fastighetens gemensamma utrymmen.\r\n\r\nVi söker i första hand ett skötsamt par som önskar ett långsiktigt och trivsamt boende och som värdesätter ett lugnt och välskött hem.\r\n\r\nVälkommen att höra av er med en presentation av er själva och er boendesituation.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13570 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 75.0,
+    "rent": 12931,
+    "floor": 6,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gårdstensvägen 113, Angered",
     "url": "https://qasa.com/p/1398794",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5d72a23a0b15e0c78363bf2c2ecf0f1e02e6030ecf8a33fc4ca0928ed1cfa0d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Grafiska vägen, Göteborg",
-    "url": "https://qasa.com/p/1398517",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c81b90fb94477de70f69ac686adf358f4c838a1e3697118a5189fd8a3262bf20.jpg",
-    "description": "Ljus och modern etta uthyres i centrala Göteborg\n\nPå grund av jobb på annan ort hyr jag ut min fräscha nybyggda etta på 33 kvm, belägen i Almedal/Elisedal. \n\nDenna charmiga bostad erbjuder ett rymligt och möblerat boende med en generös walk-in-closet. Perfekt för dig som vill bo centralt med närhet till allt (och har lite för mycket grejer)!\n\n\t•\tHelt möblerad: Lägenheten är fullt möblerad och inkluderar balkongmöbler på den mysiga balkongen.\n\t•\tTvätt- och torkmaskin: För extra bekvämlighet finns en kombinerad tvätt- och torkmaskin i lägenheten.\n\t•\tPerfekt läge: Liseberg ligger bara 12 minuter bort till fots, och Korsvägen nås på mindre än 20 minuter. Dessutom har du nära till det vackra Safjällets naturreservat på bara 30 min till fots(!)\n\t•\tUtmärkta kommunikationer: Spårvagn 2 och 4 stannar i närheten och tar dig smidigt till både Göteborgs innerstad och Mölndals centrum.\n\t•\tService: ICA Maxi och Willys ligger bara 5 minuter bort, och du har tillgång till både Nordic Wellness och 24 Seven Fitness i närheten.\n\nHyran är 10.000 kr/månad och inkluderar el, varmvatten och bredband.\n\nKontakta mig gärna för mer information eller för att boka en visning!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T06:17:02+00:00", "clock": "06:17:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T07:36:17+00:00", "clock": "07:36:17"};
