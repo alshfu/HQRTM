@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rubingatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1399167",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc4843a32f57cda70e2a6833c9523af1a5abeb1a6c47e1452432af60a7f3e255.jpg",
+    "description": "Jag hyr ut ett ljust och möblerat rum på cirka 20 kvm i en nyrenoverad lägenhet på 100 kvm på Robingatan 43 i Göteborg.\n\n✔ Endast 5–7 minuters promenad till Frölunda Torg med butiker, restauranger, gym, apotek och annan service.\n✔ Nära buss- och spårvagnshållplatser med smidiga förbindelser till centrala Göteborg.\n✔ Lugnt och trevligt område med grönområden och promenadvägar.\n✔ El, vatten, värme och Wi-Fi ingår i hyran.\n✔ Tillgång till kök, badrum och inglasad balkong.\n✔ Möjlighet till folkbokföring finns.\n✔ Passar både arbetande personer och studenter.\n✔ Rök- och alkoholfri hyresgäst önskas.\n✔ Inflyttning omgående eller enligt överenskommelse.\n\nVid intresse, skicka gärna ett meddelande med en kort presentation om dig själv.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långedragsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1399125",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eacc86b2258e408c56d2037aec78c3fcdd6f49f734497d6cbbba9563279c837b.jpg",
@@ -25,7 +40,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 3.0,
     "area_m2": 80.0,
-    "rent": 10953,
+    "rent": 12849,
     "floor": 1,
     "has_balcony": null,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 56, Göteborg",
-    "url": "https://qasa.com/p/1398897",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ccbc4650d1bcf37657cf235a9ec37520a10a1a76fb1b0923a1926e7686c01d7.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror med diskmaskin. Genomgående trägolv i lägenheten. Badrummet är helkaklat och det är inte förberett för tvättmaskin. Vindsutrymme finns. Ingen fysisk visning erbjuds. \n \ncykelrum och barnvagnsrum finns i samma trappuppgång.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 9403,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T12:07:34+00:00", "clock": "12:07:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T13:03:41+00:00", "clock": "13:03:41"};
