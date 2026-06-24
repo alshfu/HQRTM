@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Garverigatan, Göteborg",
+    "url": "https://qasa.com/p/1398889",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/41c5e0acc7d5599317421c200f66b9cb9beab87d9640a836be8f31689cff0b50.jpg",
+    "description": "En fantastisk lägenhet som jag har renoverat en hel del själv eftersom jag är fastighetstekniker och allmänt händig. \nDetta gör att precis hela lägenheten är i toppskick.\n\n• Fullutrustad med allt från strykjärn, hårtork och allt som behövs för städning och rengöring. Och köket har allt man behöver och lite till såsom tex kaffebryggare.\n•Verktygslåda mm mm.\n\n• Generöst med garderober plus en stor byrå för kläder i sovrummet och många förvaringsutrymmen utrymme mellan kök och hall.\n\n• I lägenheten ingår bla 65\" TV + extra ljudanläggning vardagsrum.\n55\" TV sovrum. \n• MAX och Prime ingår. \n• 2 balkongstolar\n•I köket har jag installerat en egen exklusiv spis/ugn med många smarta funktioner. \n• Vissa mindre personliga prydnadssaker kommer avlägsnas men inget som påverkar standarden eller funktionalitet. \nDetta ger utrymme för lite .er personlig touch. \n•Sängen är 180*200.\n•Mysig innergård där man kan grilla där det finns bänk och stolar. \n•Även ett cykelställ med tak. Gården är låst med grind.\n•Parkering finns att hyra för 700kr och ingår ej i hyran då jag inte har en sådan i dagsläget. \n",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 64.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Vaktgatan, Göteborg",
+    "url": "https://qasa.com/p/1368551",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53324d2753ec76f1eb09a6f4e6d30ef03a09535752c7023fd70564430714bc7c.jpg",
+    "description": "(English Below)\nLäs igenom hela annonsen!\nVi hyr nu ut vår fina tvårumslägenhet i Gamlestaden till ansvarstagande person/personer! \nLägenheten består av ett ljust vardagsrum samt ett nyrenoverat sovrum med inbyggd garderob.  Köket är grått HTHkök med kombiugn. Badrummet är nyligen stamrenoverat med egen tvättmaskin. Finns även tvättstuga att tillgå.  Uthyres omöblerad.\n\nKollektivtrafiken ligger bara några minuter till fots och det tar cirka 10 minuter med spårvagnen till centralstationen.  Som sagt söker vi ansvarstagande hyresgäster som tar hand om vår lägenhet som det vore deras egen. Vi hyr ut vår lägenhet pga av rådande bostadsmarknad. \n\n*English*\nWe are now renting out our nice two-room apartment in Gamlestaden to responsible person/persons! \nThe apartment consists of a bright living room and a newly renovated bedroom with built-in wardrobe. The kitchen is a gray HTH kitchen with a combi oven. The bathroom has recently been completely renovated with its own washing machine. There is also a laundry room available.  Its rented out unfurnished.\nPublic transport is only a few minutes away on foot and it takes about 10 minutes by tram to the central station. As I said, we are looking for responsible tenants who will take care of our apartment as if it were their own. We are renting out our apartment due to the current housing market.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Anders Personsgatan, Göteborg",
     "url": "https://qasa.com/p/1398862",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09d07add269d93a2b21db5828c100534c182c45348391d81987072cd063cf436.jpg",
@@ -13,6 +43,21 @@ window.HQRTM_SAMPLE = [
     "rent": 12931,
     "floor": 6,
     "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Blidvädersgatan 56, Göteborg",
+    "url": "https://qasa.com/p/1398897",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ccbc4650d1bcf37657cf235a9ec37520a10a1a76fb1b0923a1926e7686c01d7.jpg",
+    "description": "OM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror med diskmaskin. Genomgående trägolv i lägenheten. Badrummet är helkaklat och det är inte förberett för tvättmaskin. Vindsutrymme finns. Ingen fysisk visning erbjuds. \n \ncykelrum och barnvagnsrum finns i samma trappuppgång.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 68.0,
+    "rent": 9403,
+    "floor": null,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -35,7 +80,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Västanvindsgatan 2B, Göteborg",
     "url": "https://qasa.com/p/1398790",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6fab9e8ed3a81afd9507f523c17cb9ebc03d0f184b4b52c4f6d5799dd72a1a8.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/81d155e07cb2c91f4b2d702e5939435d1a778487784623ddedc9ffc8ea722ea9.jpg",
     "description": "Vi har en ledig 1 ROK på Västanvindsgatan från 1 oktober. \nLägenheten är disponerad på 38 kvm och belägen på våning 3. \nHär bor du med ett fantastiskt läge med närhet till butiker & grönområden och där du med enkelhet tar dig in till mer centrala delar. \n\nOm det är av intresse, ansök redan idag!\n",
     "district": "Göteborg",
     "rooms": 1.0,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Runiusgatan, Göteborg",
-    "url": "https://qasa.com/p/1398592",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/681ee0ab196961375bc265218cd2524b3836b592c7314c990cccbf7b4e649672.jpg",
-    "description": "Letar du efter ett möblerat rum i ett centralt beläget , mysigt villaområde i Göteborg nära till allt?\n\nNu har vi två lediga möblerade rum för uthyrning tills vidare. Båda rummen är ledigta omgående (det mindre 20m2 hyra 4100 kr) och det andra rummet25 m2 (hyra 4480 kr)..I de övriga rummen bor en tjej och vi letar därför efter en kvinnlig, rökfri hyresgäst, som är intresserad av ett boende.\n\nHuset ligger i Kålltorp nära kommunikationer och affärer.. Rummet ligger i en bottenvåning huset . Våningen har seperat ingång och du delar kök, toalett, dusch och tvättstuga med en boende i lägenheten Trevligt och fräscht. I rummen finns bl a garderob, säng, soffa, bord och stolar, skrivbord och TV. I månadshyran ingår el, värme, vatten, sophantering och bredband. Du betalar en månadshyra i deponi som återfås vid utflyttning. Två månaders uppsägning.\n\nVi söker en hyresgäst som är lugn och städad samt intresserad av ett boende för en längre tid (helst minst ett år). Gärna studerande. Rummen är för en person enbart och kan inte delas av två. Husdjur är ej tillåtet. Är du intresserad så ett mail så återkommer vi med tid för en visning\n\n\nGratis parkering på gatan utanför.\n\nGång/cykelavstånd in till stan. Nära till både spårvagn och buss. Du kan cykla till Avenyn på bara 15minuter. Vackra Skatås med joggingslinga inpå knuten.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 3750,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Framnäsgatan, Göteborg",
-    "url": "https://qasa.com/p/1397873",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1dce3c8b429d1a6ab5e40eac84d7da8a230644481c7e5882b56e5d5c25275994.jpg",
-    "description": "Charmig och möblerad etta i Almedal uthyres höstterminen 2026\n\nVälplanerad etta om 37 kvm i ett charmigt landshövdingehus i Almedal. Lägenheten ligger på första våningen (ej bottenvåning) i ett hus med endast två våningsplan. Här finns ett separat kök, hall och ett rymligt allrum med högt i tak och vackra takstuckaturer som ger bostaden karaktär.\n\nLägenheten har två stora fönster som ger fint ljusinsläpp. Från allrummet har man utsikt över området och kan följa stadslivet och spårvagnarna utanför, medan köksfönstret vetter mot den lugna innergården.\n\nKöket är renoverat för ca 8 år sedan och fullt utrustat med bland annat diskmaskin. I lägenheten finns även tvättmaskin och torktumlare. Bostaden hyrs ut fullt möblerad med 120 cm säng, soffa, TV och övrig nödvändig inredning.\n\nI hyran ingår:\n\n* Värme\n* Vatten\n* Bredband/WiFi\n* TV\n\nTillgång finns till föreningens cykelförvaring. Privat förråd ingår inte i uthyrningen.\n\nLägenheten har ett mycket bra läge med endast cirka 70 meter till Almedals spårvagnshållplats där linje 4 (Angered till Mölndal) och 11 (Lindholmen till Mölndal) trafikerar området, båda kör förbi korsvägen. Från närliggande hållplatser går även flera busslinjer mot bland annat Heden, Masthugget och Minnesplatsen.\n\n* Chalmers: cirka 15 minuter med spårvagn eller 20–25 minuter till fots eller snabbare med cykel.\n* Göteborgs Centralstation: cirka 11–16 minuter med spårvagn eller omkring 25 minuter till fots.\n\nAlmedal är ett lugnt och trevligt område som uppskattas av både studenter, yrkesverksamma och barnfamiljer. I närheten finns flera mataffärer, bland annat Willys och Coop inom gångavstånd. ICA Maxi ligger endast ett par hållplatser bort.\n\nPå några minuters promenad finns gym, restauranger, caféer, keramiker, godisbutik och annan service som massör och restauranger. Ett charmigt franskt café ligger i närområdet och den närliggande ån bidrar till en grön och trivsam miljö. Dessutom ligger Liseberg en hållplats bort, du kan även gå då det tar ca 5-10 minuter. \n\nJag hyr ut lägenheten under höstterminen då jag kommer att studera på utbyte i Australien. Jag söker därför en ansvarsfull person som kan ta hand om bostaden under perioden.\n\nUthyrningsperiod: 7 augusti – 31 december.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 10200,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sisjöbäckens Väg, Askim",
-    "url": "https://qasa.com/p/1398534",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b1f98878e088ef98341541ce37a5af1a0ba078579df8492b57eb35f8a88e236.jpg",
-    "description": "Möblerad 2:a uthyres i Sisjön – nära natur, shopping och bra kommunikationer\n\nNybyggd och ljus 2:a (från 2019) uthyres centralt i Sisjön, med närhet till både natur och ett stort utbud av affärer. Lägenheten har öppen planlösning, diskmaskin, stor balkong och tillhörande förråd. Uthyres möblerad. Snabb inflytt prioriteras!\n\nDet är kallhyra 13500 plus bredband vatten och el! \nDet finns parkering att hyra smidigt via AimoPark",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 13250,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T07:36:17+00:00", "clock": "07:36:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T08:43:41+00:00", "clock": "08:43:41"};
