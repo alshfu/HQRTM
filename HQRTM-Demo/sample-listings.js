@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Chapmansgatan , Göteborg",
+    "url": "https://qasa.com/p/1399546",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d2792c774e75ee4c44300c3443156d8d570a72bb5d383fe878ffdfb638798ea2.jpg",
+    "description": "Vi hyr ut ett rum på ca 20m² du har tillgång till kök, balkong och badrum. \nVi vill främst ha en student men detta går att diskuteras. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sisjöbäckens Väg, Askim",
     "url": "https://qasa.com/p/1398534",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b1f98878e088ef98341541ce37a5af1a0ba078579df8492b57eb35f8a88e236.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Landalagången, Göteborg",
-    "url": "https://qasa.com/p/1399245",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49870cc7ab102daa01d1bf2394004ed87601091e2f2de07c971a8fc908bd9429.jpg",
-    "description": "Trevlig och välplanerad 1-rumslägenhet på 30 kvm uthyres i attraktiva Landala. Lägenheten är fullt möblerad och utrustad med allt som behövs för ett bekvämt boende, inklusive säng, soffa, matbord, förvaring och fullt utrustat kök.\n\nLägenheten har ett mycket bra läge med gångavstånd till Chalmers University of Technology och nära till kollektivtrafik, butiker, restauranger och annan service. Landala ligger centralt i Göteborg och precis intill Chalmersområdet, vilket gör bostaden idealisk för studenter eller yrkesverksamma.  \n\nKontakta mig gärna för mer information eller för att boka en visning.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T20:13:47+00:00", "clock": "20:13:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T20:54:47+00:00", "clock": "20:54:47"};
