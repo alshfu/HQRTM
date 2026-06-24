@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1397844",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/894e365ca5367b88b42970f25b3725af5c973ea13428ca677d587ba8da21a64c.jpg",
+    "description": "Modern och fullt möblerad 2:a i Karlatornet med fantastisk utsikt\n\nJag hyr ut min stilrena och fullt möblerade tvåa på våning 10 i Karlatornet. Lägenheten är 53 kvm och erbjuder ett modernt boende med stora fönsterpartier och en härlig utsikt över hamninloppet.\n\nLägenheten erbjuder:\n\n• Ljust och rymligt vardagsrum med stora fönsterpartier och vacker utsikt.\n• Modernt kök med integrerade vitvaror och allt som behövs.\n• Stilrent badrum med kombinerad tvättmaskin och torktumlare.\n• Praktiska förvaringslösningar med walk-in closet.\n• Fullt möblerad och redo att flytta in i.\n\nSom boende i Karlatornet får du även tillgång till byggnadens uppskattade gemensamma faciliteter:\n\n• Kostnadsfritt gym\n• Takterrass med fantastiska vyer\n• Lounge- och sociala ytor\n• Möjlighet att boka biorum, konferensrum och gemensamma kök\n\nHär bor du med närhet till Lindholmens utbud, restauranger, service och goda kommunikationer till centrala Göteborg. Spårvagnen precis utanför tar ca 5 min så är du på centralstationen.\n\nUthyres till en skötsam och seriös person eller företag.\nInflyttning enligt överenskommelse.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 13339,
+    "floor": 10,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Antenngatan, Göteborg",
+    "url": "https://qasa.com/p/1399398",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0ecd4b223257286e7fcd4ed2191d6173588aebd1a63b0c2d107c5cc4d63e1c0.jpg",
+    "description": "Smakfull tvåa med modernt och renoverat badrum, solig balkong och attraktivt läge. Nylagt golv från april 2026. Öppen planlösning.\n\nI avgiften ingår grundavgift, bredband och värme exl elkostnader.\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kyrkliden, Askim",
     "url": "https://qasa.com/p/1399368",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc37fba61582ada8843639428eab3733de5f08e5263b14329d0d7f06ef3e11ef.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rubingatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1399167",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc4843a32f57cda70e2a6833c9523af1a5abeb1a6c47e1452432af60a7f3e255.jpg",
-    "description": "Jag hyr ut ett ljust och möblerat rum på cirka 20 kvm i en nyrenoverad lägenhet på 100 kvm på Robingatan 43 i Göteborg.\n\n✔ Endast 5–7 minuters promenad till Frölunda Torg med butiker, restauranger, gym, apotek och annan service.\n✔ Nära buss- och spårvagnshållplatser med smidiga förbindelser till centrala Göteborg.\n✔ Lugnt och trevligt område med grönområden och promenadvägar.\n✔ El, vatten, värme och Wi-Fi ingår i hyran.\n✔ Tillgång till kök, badrum och inglasad balkong.\n✔ Möjlighet till folkbokföring finns.\n✔ Passar både arbetande personer och studenter.\n✔ Rök- och alkoholfri hyresgäst önskas.\n✔ Inflyttning omgående eller enligt överenskommelse.\n\nVid intresse, skicka gärna ett meddelande med en kort presentation om dig själv.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 69, Göteborg",
-    "url": "https://qasa.com/p/1399281",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66037aa3ca298bf471486010ee2aef5771456764bbb1f30bfaf46f08e5bda161.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 4rok! Modernt kök med rostfria vitvaror och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10617,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T16:37:53+00:00", "clock": "16:37:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T17:24:06+00:00", "clock": "17:24:06"};
