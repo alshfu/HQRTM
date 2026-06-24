@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gårdstensvägen 113, Angered",
+    "url": "https://qasa.com/p/1398794",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5d72a23a0b15e0c78363bf2c2ecf0f1e02e6030ecf8a33fc4ca0928ed1cfa0d.jpg",
+    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 7 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. ",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 10565,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Västanvindsgatan 2B, Göteborg",
+    "url": "https://qasa.com/p/1398790",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6fab9e8ed3a81afd9507f523c17cb9ebc03d0f184b4b52c4f6d5799dd72a1a8.jpg",
+    "description": "Vi har en ledig 1 ROK på Västanvindsgatan från 1 oktober. \nLägenheten är disponerad på 38 kvm och belägen på våning 3. \nHär bor du med ett fantastiskt läge med närhet till butiker & grönområden och där du med enkelhet tar dig in till mer centrala delar. \n\nOm det är av intresse, ansök redan idag!\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 6170,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Tunnlandsgatan 5, Göteborg",
+    "url": "https://qasa.com/p/1398766",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9211dd36e7520b4e8ba40dcac5708e0fe1ff1b83f6a1333a356150ae3cd9b123.jpg",
+    "description": "Trevligt planerad och modern lägenhet med öppet planlösning kök/vardagsrum med utgång till generös balkong i österläge. \nHelkaklat badrum med dusch, tvättmaskin, och torktumlare. Kök med diskmaskin. Promenadavstånd till Marklandsgatan som är knutpunkt för många buss- och spårvagnslinjer och i närområdet finns även Slottsskogen och Botaniska Trädgården. \nParkering finns både i garage och utomhus men för närvarande är det viss kö.\nVarmvattenförbrukningen mäts individuellt och debiteras i efterhand.\nHyran som anges avser 2025 års hyra då förhandlingen för 2026 års hyra pågår.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 9812,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Runiusgatan, Göteborg",
     "url": "https://qasa.com/p/1398592",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/681ee0ab196961375bc265218cd2524b3836b592c7314c990cccbf7b4e649672.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Wallenbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1398513",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/05b516be158796e9d52caa9f5a1f0ca247fcad6210f96f1640f84226495ba2a5.jpg",
-    "description": "Jag har ett rum ledigt från nu och fram till 15 Augusti.\nMin lägenhet ligger i området Johanneberg i Göteborg, precis vid Chalmers.\nJag bor i lägenhet och jag hyr ut 1 trevligt rum som är på ca 7 m2. Vi delar badrum och kök. Tvättstuga finns i källaren.\nLägenheten ligger i ett väldigt lugnt område med trevliga grannar. Det finns 3 olika busslinjer som passerar ganska nära och det är bara ca 200 meter till närmaste hållplats.\nHyran är 4000 SKR/mån och allt ingår. Sängkläder, handdukar, wifi, el. Inga extra kostnader.\nJag hyr även ut veckovis fram till 15 Augsuti.\n\n\nI have a room available from now until the 15:th of August.\nMy apartment is located in the area Johanneberg in Gothenburg and it´s very close to Chalmers. I live in an apartment and I rent out 1 nice room and it´s about 7 square meters.\n\nWe share bathroom and kitchen.\nLaundry in the basement. I live in a very calm and quiet area with nice neighbours.\nThere are 3 different bus lines which pass quite close to the apartment and it´s just about 200 meters to the closest bus stop.\n\nThe rent is 4000 SKR/month and everything is included. Bed clothes, towels, wifi, electricity. No extra costs.\n\nIn first hand I want a person who will not be registered at my place. Maybe ERASMUS-student or similar.\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 7.0,
-    "rent": 4000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Ågatan, Göteborg",
-    "url": "https://qasa.com/p/1398294",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d58208b0ec1bac7e83bf477c76b40ce26e9fe1ef747a2b405320fe2842ca615.jpg",
-    "description": "Jag vill dela min bostad med  två andra personer, då den är alldeles för stor för mig ensam. Lägenheten är en etage lägenhet med utsikt mot Ullevi \n\nJag är särbo och vistas därför oftast hos min partner, men har inte för avsikt att flytta ihop med henne permanent. Vi trivs bra med särbolivet.\n\nFinns allergi i hushållet så det fungerar inte med djur eller parfymer.\n\nJag bor på nedre våningen i det lilla rummet. I stora rummet på nedre våningen bor en kvinna i 50års åldern.\n\nJag vill hyra  rummet på övre våningen eftersom han som bor däruppe måste lämna Sverige inom 4 veckor. Rummet är 20 kvm. Eget badrum och egen toalett och stor terrass. Han har precis byggt en platsbyggd stabil 160 cm loftsäng\n\nNedre våningen har kök med tvättmaskin, toalett med dusch, tvättmaskin, balkong, vardagsrum och två sovrum på 20 och 7 kvm. \nHyran delas utifrån ytan man använder.\n\nNi är bara två som lagar mat och använder köket.  Jag lagar aldrig mat hemma. \n\nHon som bor därnere vill såklart gärna träffa vederbörande. Det är ju ni två som ska samsas på daglig basis.\n\nHyran är kallhyra, så vi delar på kostnaden för el och varmvatten baserat på antal personer.  Internet ingår (jag står för det). Påslaget är cirka 200 kronor per månad per person.\nEn månadshyra deposition krävs.\nHyran höjs när värden höjer. Detta är nya hyran för 2026\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6690,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Domarringsväg, Askim",
-    "url": "https://qasa.com/p/1397428",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63d7fca778d4acd928b4f4cf519e22dec2be80205fc0e3c49310fa4e45822a46.jpg",
-    "description": "En  lägenhet i en 2 familjehus/ villa. långtids uthyrning Byggd ej länge sen, jätte fin och lyx med alla utrustningar, diskmaskin, tvättmaskin , parkering, . Jätte elegant lägenhet , ca. 79kv, 2,an .  möblerad, möbler kan tas ut om du önskar så. Med inglasad balkong, i en av de bästa områden i Göteborg, Askim, ca. 10-15 min till stan. Bra kommunikation till stan,  lång lång uthyrning, absolut vill inte ha kort uthyrning.  Inklusiv  internet, sopphämtning, parkering om ni har bil blir 15000 kr hyra med 2 månader deposition.  \n3 busshållplatser precis i närheten mitt emot villan.\nDu kan flytta omedelbart. Kan skriva mitt nr så att diskutera.\nAll bekvämligheter finns i lägenheten som är en del av villa.",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 79.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T04:50:34+00:00", "clock": "04:50:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T06:17:02+00:00", "clock": "06:17:02"};
