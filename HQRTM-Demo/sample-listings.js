@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sisjöbäckens Väg, Askim",
+    "url": "https://qasa.com/p/1398534",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b1f98878e088ef98341541ce37a5af1a0ba078579df8492b57eb35f8a88e236.jpg",
+    "description": "Möblerad 2:a uthyres i Sisjön – nära natur, shopping och bra kommunikationer\n\nNybyggd och ljus 2:a (från 2019) uthyres centralt i Sisjön, med närhet till både natur och ett stort utbud av affärer. Lägenheten har öppen planlösning, diskmaskin, stor balkong och tillhörande förråd. Uthyres möblerad. Snabb inflytt prioriteras!\n\nDet är kallhyra 13500 plus bredband vatten och el! \nDet finns parkering att hyra smidigt via AimoPark",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 13250,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1397844",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/894e365ca5367b88b42970f25b3725af5c973ea13428ca677d587ba8da21a64c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 28, Göteborg",
-    "url": "https://qasa.com/p/1399299",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b148b1954613098427c835ddac6cb75ecc1a75d4fd0c5bf40c3062553779f50.jpg",
-    "description": "Välkommen till denna 3 rum och kök på Blidvädersgatan i Biskopsgården !\n\nOM LÄGENHETEN\nLägenheten kommer att genomgå en omfattande Willhemlyft innan inflyttning och hyrs därför ut på planritning samt exempelbilder som visar de materialval och den standard som kommer att erbjudas efter renoveringen. Exempelbilderna är alltså inte enligt planritning. Balkong finns.\n\nEfter renoveringen kommer lägenheten att erbjuda:\n\n- Vitmålade väggar i samtliga rum\n- Vinylklinker i hall och kök\n- Trägolv i övriga rum\n- Kök med separat kyl och frys\n- Diskmaskin ingår\n- Förberett för tvättmaskin\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el.\n\nHyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 56.0,
-    "rent": 8506,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T19:29:26+00:00", "clock": "19:29:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T20:13:47+00:00", "clock": "20:13:47"};
