@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kyrkliden, Askim",
+    "url": "https://qasa.com/p/1399368",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc37fba61582ada8843639428eab3733de5f08e5263b14329d0d7f06ef3e11ef.jpg",
+    "description": "Vi hyr ut övervåningen på vår villa till studenter. \nTre olika rum med gemensamma utrymmen såsom kök o duschrum. Hyran är 4100 kr per person. ",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4100,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1399277",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5232720dfc436d384d670a8d3fa8dc02789de1b34f4350e11ac15cae672ba5e4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blåsvädersgatan 22, Göteborg",
-    "url": "https://qasa.com/p/1399271",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0be6c7516bdd8b58d8b695c6e0b8c82ba13cb80b9a6058dbdfb47dfa63691453.jpg",
-    "description": "Välkommen till denna rymliga 4 rum och kök på Blåsvädersgatan!\n\nOM LÄGENHETEN\nLägenheten kommer att genomgå en omfattande Willhemlyft innan inflyttning och hyrs därför ut på planritning samt exempelbilder som visar de materialval och den standard som kommer att erbjudas efter renoveringen. Exempelbilderna är alltså inte enligt planritning. Balkong och vindsutrymme finns.\n\nEfter renoveringen kommer lägenheten att erbjuda:\n\n- Vitmålade väggar i samtliga rum\n- Vinylklinker i hall och kök\n- Trägolv i övriga rum\n- Kök med separat kyl och frys\n- Diskmaskin ingår\n- Förberett för tvättmaskin. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el.\n\nHyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 71.0,
-    "rent": 10004,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T15:48:56+00:00", "clock": "15:48:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-24T16:37:53+00:00", "clock": "16:37:53"};
