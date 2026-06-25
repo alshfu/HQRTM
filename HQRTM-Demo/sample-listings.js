@@ -48,6 +48,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Bratteråsbacken 22, Göteborg",
+    "url": "https://qasa.com/p/1399814",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02467cfec41d93839ce7df2a5e191688f7ecb97a5cb4f3a258ee32e09ff1d9bb.jpg",
+    "description": "Modern 1:a på 34 kvm – allt inkluderat!\n\nVälkommen till denna ljusa och välplanerade etta på 34 kvm, belägen på våning 11. Lägenheten erbjuder en öppen planlösning och smart utnyttjad yta – perfekt för dig som vill ha ett modernt och funktionellt hem.\n\nBostaden har bland annat:\n• Öppen planlösning\n• Ljust kök från Marbodal med svart bänkskiva och diskmaskin\n• Ekparkettgolv\n• Helkaklat badrum med golvvärme, frostade duschdörrar och kombitvättmaskin\n\nHär bor du bekvämt med allt nära till hands – och hyran inkluderar el, värme, vatten och bredband, vilket gör vardagen enkel och kostnaderna förutsägbara.\n\nLägenheten passar dig som söker ett smidigt boende med hög standard och centralt läge, oavsett om du studerar, jobbar eller vill ha en lättskött bostad.\n\nLägenheten hyrs ut i andra hand via Peab Bostad med ett avstående från besittningsskydd. Bostaden hyrs ut omöblerad och ska nyttjas som permanentbostad.\n\nTips: Kika gärna på 3D-scanningen för att se hur lägenheten ser ut i detalj!\nFörst till kvarn gäller – missa inte denna möjlighet!\n\nKontakta oss på atthyra@fastiella.se\n för mer information eller för att boka en visning och upplev ditt nya hem på plats.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 9800,
+    "floor": 11,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Speldosegatan 8, Västra frölunda",
     "url": "https://qasa.com/p/1399748",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/587eee8a6dac94f21f3edc7372527076aef1df37d814b7948ec3f6a0949a9c22.pdf",
@@ -80,7 +95,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Speldosegatan 2, Västra frölunda",
     "url": "https://qasa.com/p/1399725",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f87c62b0ce33cafaaf04541dbeb1115155c0c0d3f66dd876b96bb6bc88fa66a0.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46b71427d268c5f371fd6e4d06ed977356fd69c3bfc02c449ade48292ab94a29.jpg",
     "description": "Här ges möjlighet att hyra en nyrenoverad lägenhet som HEM renoveras nu, 2026. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. \n\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Vitvarorna i lägenheten är av märket Cylinda och Lägenhetsförrådet finner ni i lägenheten. Lägenheten hyrs ut på ritning på grund av pågående renovering och ingen fysisk visning är möjlig att hållas.    \n\nOBS! Avvikelser från planritningen kan förekomma.   \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
     "district": "Västra frölunda",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Eldaregatan, Göteborg",
-    "url": "https://qasa.com/p/1184985",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce5ba6bec75440c51dfd8217292349f92e57d53dc7428b87c57fb06925a8a787.jpg",
-    "description": "LEDIGT RUM Centralt läge/Väst!\nTillgängligt möblerat rum 10 kvm med fantastisk “UTSIKT över stan”! \n Ingår i 4 r-lägenhet, 91 kvm, 1 vån! \n“Charmiga gamla Masthugget”, Västra Göteborg, Centralt läge! \nNaturen \"Inpå Knuten\",  Slottskogen, friskvård, hav och kontinenten!\nBra kommunikationer, nära Institutioner: Sahlgrenska, Chalmers...!\n\nBostaden inklusive;\n-  vatten, el, delat kök, badrum, tvättstuga i fastigheten\nHyra 4000 Kr/månad\n\nHandpenning enl ök\nRummet ledigt fr o m snarast möjligt\nKostnad  för surf tillkommer; Eget  wifi/delad  Fiberbredband, \nEgen Hemförsäkring\n\nSöker pålitlig icke-rökande/-allergisk, ansvarstagande, ordentlig, måttlighet med alkohol! \nKvinnlig (äldre) person/Kvinnlig Utlandssstudent\nEndast seriösa sökande beaktas! \nVisning av rummet helst fm, ej Tisdagar\n\nHygien gällande Covid 19!\nKan också hyra också ut enstaka nätter till Gothia Cup; \n1000 kr/natt !\n\nHälsningar Ingalill\nEnsamstående, Pensionerad Sjuksköterska/ Vårdlärare\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 4000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T08:41:46+00:00", "clock": "08:41:46"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T09:55:15+00:00", "clock": "09:55:15"};
