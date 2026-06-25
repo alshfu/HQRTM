@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lergöksgatan 1J, Västra Frölunda",
+    "url": "https://qasa.com/p/1400088",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/679f74aad3f7b2868cdd0594d6f84acf9a7ae508021a2f537e00e23679351d54.jpg",
+    "description": "Här ges möjlighet att hyra en 2 Rum och Kök på 48 kvm i en nyproducerad bostad från 2024 med nära till det mesta.\n \n-Diskmaskin  \n-Spishäll med inbyggd ugn  \n-Inbyggd mikrovågsugn  \n-Kombimaskin\n-Balkong  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.   \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Information ges vid intresse.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10752,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lergöksgatan 1G, Västra Frölunda",
+    "url": "https://qasa.com/p/1400076",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d33b7a57a475b92b6904fcbefe156dd40bd378bf5d1fc9d1a444f5d5d5facc73.jpg",
+    "description": "Här ges möjlighet att hyra en 1 Rum och Kök på 36 kvm, en nyproducerad bostad från 2024 med nära till det mesta!   \n\n    \n-Diskmaskin    \n\n-Spishäll med inbyggd ugn    \n\n-Inbyggd mikrovågsugn \n\n-kombimaskin   \n\n-Balkong    \n\n-Externt förråd  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.   \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Information ges vid intresse.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 36.0,
+    "rent": 8725,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bautastensgatan, Göteborg",
     "url": "https://qasa.com/p/1399075",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b38ed260912855fa41da8bad8b0ff260c2099d4905a10dbbdbaee7bfcee73b0.jpg",
@@ -12,6 +42,21 @@ window.HQRTM_SAMPLE = [
     "area_m2": 39.0,
     "rent": 11000,
     "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan 4A, GÖTEBORG",
+    "url": "https://qasa.com/p/1400053",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a58d2e449fea995b9ebeeca75b7a022742f1d6cb1142295b46d30fcff71b4b49.jpg",
+    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 3 rum och kök på 83 kvm, belägen på våning 2 på Långströmsgatan 4 A.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset.\n\nHyra: 12 413 kr/månad\nInflyttning: 2026-10-01\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Bilderna i annonsen är exempelbilder från liknande renoverade lägenheter. Planritningen är inte skalenlig och kan avvika från verkligt utförande.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat kö.",
+    "district": "GÖTEBORG",
+    "rooms": 3.0,
+    "area_m2": 83.0,
+    "rent": 12413,
+    "floor": 2,
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sommarvädersgatan 68, Göteborg",
-    "url": "https://qasa.com/p/1399910",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d560cc77d5385aa12b0aa5a57f1a8c11eff69c9824df23fbb94e98f06f2c7c1.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom planritning och bilder i HomeQ. \n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna moderna och välplanerade 4-rumslägenhet som genomgick ett Willhemlyft år 2021. Lägenheten är belägen i ett av låghusen på Sommarvädersgatan.\n\nBostaden erbjuder ett stilrent kök utrustat med rostfria vitvaror och diskmaskin. Genomgående trägolv i hela lägenheten. Det helkaklade badrummet är förberett för installation av tvättmaskin.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 81.0,
-    "rent": 10741,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Artillerigatan, Göteborg",
-    "url": "https://qasa.com/p/1399668",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0511f8da609fb85342f3759136dd808028464ed2faf2be9976c6b096aff4ac37.jpg",
-    "description": "En fräsch och smart planerad 1:a med sovalkov. Lägenheten har en inglasad balkong med trevligt läge mot Bunkeberget.\nBostaden hyrs ut möblerad och är utrustad med säng, garderob, TV-bänk, soffa samt stolar till det förlängda bordet. Tillgång till vindsförråd ingår.\nI lägenheten finns även diskmaskin samt kombinerad tvätt- och torkmaskin för extra bekvämlighet.\nI hyran ingår el, internet, värme och vatten. inga extra kostnader tillkommer.\nLägenheten hyrs ut under tiden den ligger ute till försäljning. Vid eventuell visning behöver mäklare få tillgång till bostaden.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 34.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björsaredsvägen, Olofstorp",
-    "url": "https://qasa.com/p/1399620",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/926c8b30847106e3e8351ccd6d05c0b7ac773a6a3eb63af1b411788507825583.jpg",
-    "description": "🌿 Nytt & moderne attefallshus uthyres – 2 rok + loft – nära natur & kommunikationer\n\nVälkommen till ett nybyggt och stilsäkert attefallshus med genomtänkt planlösning, stora fönsterpartier och egen altan! Perfekt för dig som söker ett lugnt och privat boende med närhet till både natur och stad.\n\n🏡 Om bostaden\n2 rok + loft/hems\nCa 30 kvm + extra sovloft\nSeparat sovrum + ljust vardagsrum med öppen planlösning mot kök\nFullt utrustat kök med diskmaskin, spis/ugn, kyl/frys\nHelkaklat badrum med tvättmaskin\nGolvvärme\nEgen entré och altan\nStora fönster som ger fint ljusinsläpp och luftig känsla\nLoftet lämpar sig som extra sovplats eller förvaring (ej kontor/arbetsplats).\n\n🌳 Läge\nLugn och trygg miljö\nNära natur och motionsspår\nGoda kommunikationer och service i närheten\n\n💡 Övrigt\nHusdjur efter överenskommelse\nEj rökare\nMöjlighet till parkering\nEl, vatten & internet efter överenskommelse\n\n👤 Passar dig som\nÄr yrkesverksam eller pendlar\nVill bo lugnt och modernt i egen bostad\nSöker kvalitetsboende med smart planlösning\n\n📩 Skicka ett meddelande med kort info om dig själv, arbets-/studiesituation samt önskat inflyttningsdatum för att boka visning.",
-    "district": "Olofstorp",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 7999,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T13:50:36+00:00", "clock": "13:50:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T14:51:32+00:00", "clock": "14:51:32"};
