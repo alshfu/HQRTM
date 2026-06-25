@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Kosmosgatan 10, Göteborg",
+    "url": "https://qasa.com/p/1399658",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/08e3c3222e9d0d702020654f851b90118a76eb1270df5a03cb59db82f1e63272.png",
+    "description": "Välkommen till ditt nya HEM – ett rymligt, renoverat boende på hela 90 kvm!\n \nLetar du efter ett hem med både stil, komfort och smarta lösningar? Då har du hittat rätt! Den här generösa 90-kvadrataren totalrenoverades 2023 och erbjuder ett modernt, bekvämt boende där du kan trivas direkt från första dagen.\n \nHela lägenheten har målats om i ljusa, harmoniska färger och fått en ny säkerhetsdörr för extra trygghet. I hallen möts du av ett praktiskt och snyggt klinkergolv som tål vardagens slitage, medan övriga rum pryds av ett exklusivt ekparkettgolv som ger både värme och karaktär.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel, handdukstork samt en spegel med stämningsfull LED-belysning. Här finns även en egen tvättmaskin och torktumlare för maximal bekvämlighet.\n \nI det välplanerade köket, som verkligen är hemmets hjärta, finns inbyggnadsugn, häll, fläktkåpa, diskmaskin samt kyl och frys – allt du behöver för både vardagsmat och helgmiddag.\n \nI hyran ingår värme, vatten och kabel-TV, vilket ger dig full kontroll på dina boendekostnader.\n \nObservera: Bilderna i annonsen är exempelbilder. Normalt slitage samt avvikelser från planritningen kan förekomma.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 90.0,
+    "rent": 12375,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tröskaregatan, Göteborg",
     "url": "https://qasa.com/p/1399605",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ab1fd47b5a8af80886f9d37e54d0f3120ab1a5fbb5f0e4d59d2b9d30614e8d0f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kyrkliden, Askim",
-    "url": "https://qasa.com/p/1399368",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc37fba61582ada8843639428eab3733de5f08e5263b14329d0d7f06ef3e11ef.jpg",
-    "description": "Vi hyr ut övervåningen på vår villa till studenter. \nTre olika rum med gemensamma utrymmen såsom kök o duschrum. Hyran är 4100 kr per person. ",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4100,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T04:50:45+00:00", "clock": "04:50:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T06:19:15+00:00", "clock": "06:19:15"};
