@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lergöksgatan 1G, Västra Frölunda",
+    "url": "https://qasa.com/p/1400097",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/682805630e3af49a87696ea6f5ef1bb3e29ba2794fd9f24746ad90c44117d258.jpg",
+    "description": "Här ges möjlighet att hyra en 1 Rum och Kök på 36 kvm, en nyproducerad bostad från 2024 med nära till det mesta!   \n\n-Diskmaskin    \n\n-Spishäll med inbyggd ugn    \n\n-Inbyggd mikrovågsugn    \n\n-Kombimaskin\n\n-Balkong    \n\n-Externt förråd  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.   \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Information ges vid intresse.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 36.0,
+    "rent": 8725,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lergöksgatan 1J, Västra Frölunda",
     "url": "https://qasa.com/p/1400088",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/679f74aad3f7b2868cdd0594d6f84acf9a7ae508021a2f537e00e23679351d54.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 21A, Göteborg",
-    "url": "https://qasa.com/p/1399936",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a660542077ee82ed6ad619f713dc883fec0b9342c65548a1a7f2a8a9bb5336ec.jpg",
-    "description": "Välkommen hem till Bergskristallen! \n\nHär ges möjlighet att hyra en 2 Rum och Kök på 47 kvm i ett bostadshus som byggdes klart under våren 2023. Lägenheten är på våning 1. En ljus och välplanerad bostad med avtalstid från 1 oktober. \n\nHyran för 2026 ligger på 7 781 SEK/mån. \n\nLägenheten är utrustad med diskmaskin, inbyggd micro och kombimaskin. Till lägenheten hör ett förråd på vinden. \n\nOBS! Exempelbilder och planritningen är inte skalenlig. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. Där kan du även se om lägenheten har balkong, fransk balkong, uteplats eller om den saknar utemöjlighet. Lägenheten har individuell mätning och debitering (IMD). \n\nIMD gör det möjligt att mäta förbrukningen av kall- och varmvatten och värme i varje enskild lägenhet. Det innebär att du som hyresgäst endast betalar för din förbrukning. IMD ger hyresgäster möjlighet att själva påverka sina kostnader, rättvist för alla och bra för miljön. Du betalar i efterskott, för det vatten och värme som du faktiskt förbrukat. Förbrukningen debiteras med fem månaders eftersläpning. Hyran kommer alltså att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Bergskristallen så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. Hisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nSeparat kö",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 47.0,
-    "rent": 7781,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T14:51:32+00:00", "clock": "14:51:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T15:47:10+00:00", "clock": "15:47:10"};
