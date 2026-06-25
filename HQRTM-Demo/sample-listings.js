@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Långströmsgatan 28A, Göteborg",
+    "url": "https://qasa.com/p/1400031",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ccc2af43cc30ddf16969609a50cfab8b43edb79f50164130d306b2368477a8ea.jpg",
+    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 2 rum och kök på 63 kvm, belägen på våning 3 på Långströmsgatan 28 A.\n\nHär erbjuds ett modernt boende med ljusa ytskikt och en genomtänkt planlösning.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset.\n\nHyra: 10 197 kr/månad\nInflyttning: 2026-10-01\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Bilderna i annonsen är exempelbilder från liknande renoverade lägenheter. Planritningen är inte skalenlig och kan avvika från verkligt utförande.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 63.0,
+    "rent": 10197,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rubelgatan, Göteborg",
     "url": "https://qasa.com/p/1330924",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6bb8826e7b7bdb9be6a40560a6c32b1ea7ba3f19b7ec6028afdbf48c8ac1f40.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tröskaregatan, Göteborg",
-    "url": "https://qasa.com/p/1399606",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/41c066aaea1d9b92768bf3109bd82008b92f5d2223ad4d186cde721e895b5e79.jpg",
-    "description": "-Lämpas för studenter. Lugnt och tyst område.\nRenoverat utrymme på ca 16 m2 uthyres till en person.\n- 6 500kr á månad vid minst 3 månader.\n- 5 800kr á månad för veckopendlare (3-4 nätter i veckan, ej helger).\n- 7 300kr á 1+1 månad.\nDeposition för 1 månad krävs vid inflytt. \nFör endast en person \n\nService avgiften från Blocket Bostad x Qasa läggs inte till.\n\nDet finns ej rinnande vatten i rummet. Toalett samt bad finns i huvudbyggnaden och delas med en annan hyresgäst.\n\nKommunikation från Wieselgrensplatsen:\nHjalmar brantingsplatsen: 3 minuter\nCentralstation: 6 minuter\nBrunnsparken: 7 minuter\nChalmers: 16 minuter\nLindholmen: 25 minuter\n\nIngår: -städartiklar tvättstugan ink tvättmedelartiklar\n- värme, vatten och el\n- wi-fi\n- eget kylskåp med frysfack\n- micro\n- vattenkokare\n- kaffemaskin\n- porslin och bestick\n- 1 set sänglinnen\n- handduk och diskhandduk\n- induktionsplatta\nKök för större tillagning samt dusch och toalett finns tillgängligt i huvudbyggnaden.\n\nÖnskemål:\n- ingen rökning eller djur\n\n----------------------\nFor one person \nSuitable for students. Calm and quiet area.\nRenovated space of approximately 16 m2 for rent to one person.\n6,500 SEK per month for a minimum of 3 months.\n5,800 SEK per month for weekly commuters (3-4 nights a week, excluding weekends).\n7,300 SEK for a 1+1 month lease.\n\nService fee from Blocket Bostad x Qasa will not be added.\n\nDeposit equivalent to 1 month's rent required upon move-in.\nThere is no running water in the room. Toilet and bath facilities are available in the main building and shared with another tenant.\n\nCommunication from Wieselgrensplatsen:\nHjalmar Brantingsplatsen: 3 minutes\nCentral Station: 6 minutes\nBrunnsparken: 7 minutes\nChalmers: 16 minutes\nLindholmen: 25 minutes\n\nIncluded:\n\nCleaning supplies in the laundry room including laundry detergent\nHeating, water, and electricity\nWi-Fi\nPersonal refrigerator with freezer compartment\nMicrowave\nKettle\nCoffee machine\nTableware and cutlery\n1 set of bed linen\nTowel and dish towel\nInduction hotplate\nKitchen for larger cooking and shower and toilet facilities are available in the main building.\nPreferences:\n\nNo smoking\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T13:01:47+00:00", "clock": "13:01:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T13:50:36+00:00", "clock": "13:50:36"};
