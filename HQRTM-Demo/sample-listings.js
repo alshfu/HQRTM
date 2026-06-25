@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Eldaregatan, Göteborg",
+    "url": "https://qasa.com/p/1184985",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce5ba6bec75440c51dfd8217292349f92e57d53dc7428b87c57fb06925a8a787.jpg",
+    "description": "LEDIGT RUM Centralt läge/Väst!\nTillgängligt möblerat rum 10 kvm med fantastisk “UTSIKT över stan”! \n Ingår i 4 r-lägenhet, 91 kvm, 1 vån! \n“Charmiga gamla Masthugget”, Västra Göteborg, Centralt läge! \nNaturen \"Inpå Knuten\",  Slottskogen, friskvård, hav och kontinenten!\nBra kommunikationer, nära Institutioner: Sahlgrenska, Chalmers...!\n\nBostaden inklusive;\n-  vatten, el, delat kök, badrum, tvättstuga i fastigheten\nHyra 4000 Kr/månad\n\nHandpenning enl ök\nRummet ledigt fr o m snarast möjligt\nKostnad  för surf tillkommer; Eget  wifi/delad  Fiberbredband, \nEgen Hemförsäkring\n\nSöker pålitlig icke-rökande/-allergisk, ansvarstagande, ordentlig, måttlighet med alkohol! \nKvinnlig (äldre) person/Kvinnlig Utlandssstudent\nEndast seriösa sökande beaktas! \nVisning av rummet helst fm, ej Tisdagar\n\nHygien gällande Covid 19!\nKan också hyra också ut enstaka nätter till Gothia Cup; \n1000 kr/natt !\n\nHälsningar Ingalill\nEnsamstående, Pensionerad Sjuksköterska/ Vårdlärare\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 4000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Tröskaregatan, Göteborg",
+    "url": "https://qasa.com/p/1399605",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ab1fd47b5a8af80886f9d37e54d0f3120ab1a5fbb5f0e4d59d2b9d30614e8d0f.jpg",
+    "description": "-Lämpas för studenter.\nRenoverat utrymme på ca 12m2 uthyres till en person.\n- 5 950 á månad vid minst 3 månader.\n- 5 500kr á månad för veckopendlare (3-4 nätter i veckan, ej helger).\n- 7 300kr á 1+1 månad.\nDeposition för 1 månad krävs vid inflytt.\nEndast för en person.\n\nService avgiften från Blocket Bostad x Qasa läggs inte till.\n\nDet finns ej rinnande vatten i rummet. Toalett samt bad finns i huvudbyggnaden och delas med en annan hyresgäst.\n\nKommunikation från Wieselgrensplatsen:\nHjalmar brantingsplatsen: 3 minuter\nCentralstation: 6 minuter\nBrunnsparken: 7 minuter\nChalmers: 16 minuter\nLindholmen: 25 minuter\n\nIngår: -städartiklar tvättstugan ink tvättmedelartiklar\n- värme, vatten och el\n- wi-fi\n- eget kylskåp med frysfack\n- micro\n- vattenkokare\n- kaffemaskin\n- porslin och bestick\n- 1 set sänglinnen\n- handduk och diskhandduk\n- induktionsplatta\nKök för större tillagning samt dusch och toalett finns tillgängligt i huvudbyggnaden.\n\nÖnskemål:\n- ingen rökning eller djur\n\n-----------------------\n\nSuitable for students.\nRenovated space of approximately 12m2 for rent to one person.\n5,950 SEK per month for a minimum of 3 months.\n5,500 SEK per month for weekly commuters (3-4 nights a week, excluding weekends).\n7,300 SEK for a 1+1 month lease.\n\nService fee from Blocket Bostad x Qasa will not be added.\nDeposit equivalent to 1 month's rent required upon move-in.\nThere is no running water in the room. Toilet and bath facilities are available in the main building and shared with another tenant.\n\nCommunication from Wieselgrensplatsen:\nHjalmar Brantingsplatsen: 3 minutes\nCentral Station: 6 minutes\nBrunnsparken: 7 minutes\nChalmers: 16 minutes\nLindholmen: 25 minutes\n\nIncluded:\n\nCleaning supplies in the laundry room including laundry detergent\nHeating, water, and electricity\nWi-Fi\nPersonal refrigerator with freezer compartment\nMicrowave\nKettle\nCoffee machine\nTableware and cutlery\n1 set of bed linen\nTowel and dish towel\nInduction hotplate\nKitchen for larger cooking and shower and toilet facilities are available in the main building.\n\nPreferences:\n\nNo smoking or pets",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5950,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Chapmansgatan , Göteborg",
     "url": "https://qasa.com/p/1399546",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d2792c774e75ee4c44300c3443156d8d570a72bb5d383fe878ffdfb638798ea2.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1399277",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5232720dfc436d384d670a8d3fa8dc02789de1b34f4350e11ac15cae672ba5e4.jpg",
-    "description": "Nu har du möjlighet att bo på våning 5 i Nordens högsta skyskrapa. Bostaden på 73kvm andas exklusivitet och präglas av öppna ytor, moderna materialval och ett generöst ljusinsläpp genom fönsterpartier från golv till tak. Bostaden ligger i söderhörnet och flödas av ljusinsläpp samt en utsikt över älven och de härliga promenadstråk som finns i området. Här finner ni två rymliga sovrum varav ena har en vägg med inbyggda garderober. Ett badrum med exklusiva materialval och med tvättutrustning.\nI hyran ingår fräscha möbler, en del husgeråd, el, värme, vatten, bredband och även hemstäd 2ggr i månaden.\n\nKarlatornet erbjuder en lyxig och bekväm livsstil med förstklassiga faciliteter och service, i receptionen står en professionell personal redo att vara behjälpliga.\nHär bor du med tillgång till ett unikt serviceutbud från hotellet i samma byggnad - beställ room service direkt hem till lägenheten, boka städning eller ta hissen ner till hotellets gym, spa och restaurang. Till lägenheten har du tillgång till gym för två personer. Här har du även medlemskap i bilpool, bio, aktivitetsrum, konferensrum samt lobby med reception. På våning 69 kommer det även ligga en skybar samt restaurang med utsiktsplats som kommer vara tillgänglig för alla att besöka. Direkt nedanför väntar folkvimlet bland butiker, caféer och restauranger i det framtida Karlastaden, Göteborgs nya stadsdel.\nNu kan du även ta spårvagnen in till stan.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 73.0,
-    "rent": 22000,
-    "floor": 5,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Riksdalersgatan, Göteborg",
-    "url": "https://qasa.com/p/1388764",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d7a849d350bca50df2fb3fc6e30ec53909a5a07541d503443aeec99b33645ee.jpg",
-    "description": "Jag är  en pensionerad akademiker som hyr ut ett rum i min trerumslägenhet på nedre botten i ett trevåningshus. Området är lugnt och stabilt med goda förbindelser med city och GU/Chalmers. Tysta och vänliga grannar. \nUnder din hyrestid vill jag att du vattnar mina krukväxter ifall jag gör någon längre resa. Du får alltid ta hem vänner till ditt rum och köket och i förekommande fall får du gärna använda mitt vardagsrum som är möblerat med dining furniture och möjlighet för flera personer att umgås. I hyran ingår: sängkläder, sänglinne, handdukar, galgar, toa- och hushållspapper.  \n\nTill rummet hör två garderober med stora skåp ovanför. I källaren finns ett låst cykelrum och en modern och fräsch tvättstuga som du har fri tillgång till. Det har du givetvis även till kök med kyl och frys samt till badrum. Så du får gärna laga mat, baka eller vad du kan tänkas vilja. \n\nJag är social, openminded och flexibel, vilket jag hoppas att du också är.  Flytande i engelska. \n\nVerkar detta intressant så hör av dig!   \n\n\nI am a retired sociologist who rents out a room in my three-room apartment on the bottom floor of a three-story building. The area is green, quiet and stable with quiet and friendly neighbors and central with good connections to the city and GU.\nI have an indoor cat and a must is that you like cats and can take care of her when I am in Laos from 16 Dec to 31 Jan 2024. This means that I want you to make sure she has food and water and you emptying her litter box every day. Besides, she is very shy and won't enter your room unless you lure her in. During this time, I also want you to water my plants. \nYou can always bring friends home to your room and the kitchen and when I'm away you can use my living room, which is furnished with dining furniture and the opportunity for several people to hang out. You don't need to bring bedclothes, bed linen or towels, I provide that.\n\nThe room includes two wardrobes with large cupboards above. In the basement there is a modern and fresh laundry room that you have free access to. Of course, you have that for the kitchen with fridge and freezer and for the bathroom as well. So feel free to cook or bake whatever you want. Personally, I don't eat meat, especially not pork, but I like fresh fish and shellfish.\n\nI am social and open-minded and easy to get along with. Although I am flexible, I hope you are the same. I speak fluent English.\n\nIf this sounds interesting, get in touch!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4100,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T03:22:05+00:00", "clock": "03:22:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T04:50:45+00:00", "clock": "04:50:45"};
