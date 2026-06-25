@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bautastensgatan, Göteborg",
+    "url": "https://qasa.com/p/1399075",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b38ed260912855fa41da8bad8b0ff260c2099d4905a10dbbdbaee7bfcee73b0.jpg",
+    "description": "Hej! Jag hyr ut min fina tvåa på 39 kvm i ett vackert landshövdingehus på Eriksberg. Lägenheten ligger på andra våningen av tre och med fönster åt två håll, flyter ljuset in hela dagen.\n\nLägenheten är nyrenoverad med ljusa kulörer och fräscht slipade trägolv. Balkongen vetter västerut så man får härlig kvällssol, finns bord och stolar för två.\n\nKöket har gott om förvaring med bra arbetsutrymmen och mikro, spis, kyl, och frys, sovrummet är lugnt beläget och vardagsrummet är rymligt och välplanerat vilket gör att 39kvm inte känns trångt. \n\nBra läge:\n- 20 minuter till centrala Göteborg\n- 10 minuters promenad till vattnet och Eriksbergs kajstråk\n- Eriksbergsköpcentrum alldeles i närheten (Sats gym + stor Coop)\n- Goda kommunikationer med buss från Nordviksgatan eller Danaplatsen\n\nHyran inkluderar el, vatten, värme och wifi (kan anpassa kapaciteten efter behov). Jag är lätt att nå via telefon eller sms om det skulle uppstå några frågor.\n\nHyr ut tills vidare på grund av flytt utomlands, tillgänglig från första augusti.\n\nVälkommen att höra av dig för visning!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 39.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rubelgatan, Göteborg",
     "url": "https://qasa.com/p/1330924",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6bb8826e7b7bdb9be6a40560a6c32b1ea7ba3f19b7ec6028afdbf48c8ac1f40.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsbacken 22, Göteborg",
-    "url": "https://qasa.com/p/1399814",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02467cfec41d93839ce7df2a5e191688f7ecb97a5cb4f3a258ee32e09ff1d9bb.jpg",
-    "description": "Modern 1:a på 34 kvm – allt inkluderat!\n\nVälkommen till denna ljusa och välplanerade etta på 34 kvm, belägen på våning 11. Lägenheten erbjuder en öppen planlösning och smart utnyttjad yta – perfekt för dig som vill ha ett modernt och funktionellt hem.\n\nBostaden har bland annat:\n• Öppen planlösning\n• Ljust kök från Marbodal med svart bänkskiva och diskmaskin\n• Ekparkettgolv\n• Helkaklat badrum med golvvärme, frostade duschdörrar och kombitvättmaskin\n\nHär bor du bekvämt med allt nära till hands – och hyran inkluderar el, värme, vatten och bredband, vilket gör vardagen enkel och kostnaderna förutsägbara.\n\nLägenheten passar dig som söker ett smidigt boende med hög standard och centralt läge, oavsett om du studerar, jobbar eller vill ha en lättskött bostad.\n\nLägenheten hyrs ut i andra hand via Peab Bostad med ett avstående från besittningsskydd. Bostaden hyrs ut omöblerad och ska nyttjas som permanentbostad.\n\nTips: Kika gärna på 3D-scanningen för att se hur lägenheten ser ut i detalj!\nFörst till kvarn gäller – missa inte denna möjlighet!\n\nKontakta oss på atthyra@fastiella.se\n för mer information eller för att boka en visning och upplev ditt nya hem på plats.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 9800,
-    "floor": 11,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T11:59:43+00:00", "clock": "11:59:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T13:01:47+00:00", "clock": "13:01:47"};
