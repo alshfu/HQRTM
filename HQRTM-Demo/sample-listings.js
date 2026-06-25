@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Flundregatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1400190",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8669be2b47a5d77c568bac1195e30f4d903426289e52151b8396675ad825046e.jpg",
+    "description": "Vi hyr ut lägenhet i villa. Egen balkong och egen uteplats. Tio minuters promenad från Fiskebäcksbadet och ca fem minuter till närmsta skola. Lägenheten består av två våningar med tre sovrum (se bilder för planlösning). Kan hyras möblerad alternativt omöblerad. El, vatten, värme, internet och sophämtning ingår i hyran. Ca 125 kvm i boyta samt ca 25 kvm i biyta. Närmsta hållplats Fiskebäcksskolan är ca fem minuters promenad bort. \n\nIn kluderat i hyran är: värme, vatten, el, sophämtning och internet 600/600.\n\nRestider med bil:\nCentralstationen ca 20 min\nFrölunda torg 7-8 min\nMed kollektivtrafik:\nBrunnsparken/centralstationen ca 30 min\nFrölunda torg ca 15 min\n\nI Fiskebäck bor du nära både naturområden och staden. Du kan läsa mer  om området här\n\nFör vår egen del har båda våra barn gått ut grundskolan och i och med det har vi valt att köpa nytt boende närmare stan. Boendet är i ett tvåfamiljshus där vi äger halva huset. I och med det så är det komplicerat att genomföra en försäljning vilket gör att vi väljer att hyra ut tills vidare. \nFinns intresse att förvärva lägenheten kan det diskuteras.\n\nTillträde enligt överenskommelse. \n\n",
+    "district": "Västra Frölunda",
+    "rooms": 4.0,
+    "area_m2": 125.0,
+    "rent": 21000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lergöksgatan 1G, Västra Frölunda",
     "url": "https://qasa.com/p/1400097",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/682805630e3af49a87696ea6f5ef1bb3e29ba2794fd9f24746ad90c44117d258.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rubelgatan, Göteborg",
-    "url": "https://qasa.com/p/1330924",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6bb8826e7b7bdb9be6a40560a6c32b1ea7ba3f19b7ec6028afdbf48c8ac1f40.jpg",
-    "description": "Trevlig liten 2-rumslägenhet men mycket natur omkring. Fullt modern med tvättstuga och gästrum att hyra. Hiss, uteplatser och gemensamma utrymmen. \nPå torget nedanför huset finns mataffärer, restauranger, bibliotek, tobaksaffär, skönhetsbutik och stort gym. Intill torget finns spårvagnshållplats med flera linjer. Till centrum tar det ca 15 minuter. Till Linnéstaden med mängder av restauranger och butiker 5-10 minuter och till Göteborgs stora nöjespark Liseberg tar resan 10-15 minuter. \nGanska nära Göteborgs finaste park Slottsskogen med caféer, djurpark, musikframträdanden, museum, stor lekpark, osv.\nStort skogsområde med promenad- och träningsvägar finns alldeles i närheten. \nI hyran ingår el och avgift för vatten samt bredband och tv-kanaler. Parkering kan hyras. \nJag hyr ut lägenheten för att jag bor i sommarstugan flera månader under sommaren.\nHund finns så du bör ju inte vara allergisk för även om jag såklart städar lägenheten ordentligt så är det svårt att bli av med alla spår av min hund Signe.\nJag hyr i första hand ut till ungdomar som ska studera i Göteborg under sommaren.  Det finns ju säkert bra hyresgäst av andra kategorier så hör av dig ändå om du är skötsam och rädd om min min inredning och lägenheten.\nLite flexibel med uthyrningstid kan jag vara men hyr inte ut mer än ca 3 månader. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 9100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T18:18:26+00:00", "clock": "18:18:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T19:08:03+00:00", "clock": "19:08:03"};
