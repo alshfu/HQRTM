@@ -18,6 +18,36 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Långströmsgatan 21A, Göteborg",
+    "url": "https://qasa.com/p/1399936",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a660542077ee82ed6ad619f713dc883fec0b9342c65548a1a7f2a8a9bb5336ec.jpg",
+    "description": "Välkommen hem till Bergskristallen! \n\nHär ges möjlighet att hyra en 2 Rum och Kök på 47 kvm i ett bostadshus som byggdes klart under våren 2023. Lägenheten är på våning 1. En ljus och välplanerad bostad med avtalstid från 1 oktober. \n\nHyran för 2026 ligger på 7 781 SEK/mån. \n\nLägenheten är utrustad med diskmaskin, inbyggd micro och kombimaskin. Till lägenheten hör ett förråd på vinden. \n\nOBS! Exempelbilder och planritningen är inte skalenlig. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. Där kan du även se om lägenheten har balkong, fransk balkong, uteplats eller om den saknar utemöjlighet. Lägenheten har individuell mätning och debitering (IMD). \n\nIMD gör det möjligt att mäta förbrukningen av kall- och varmvatten och värme i varje enskild lägenhet. Det innebär att du som hyresgäst endast betalar för din förbrukning. IMD ger hyresgäster möjlighet att själva påverka sina kostnader, rättvist för alla och bra för miljön. Du betalar i efterskott, för det vatten och värme som du faktiskt förbrukat. Förbrukningen debiteras med fem månaders eftersläpning. Hyran kommer alltså att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Bergskristallen så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. Hisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nSeparat kö",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 7781,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sommarvädersgatan 68, Göteborg",
+    "url": "https://qasa.com/p/1399910",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d560cc77d5385aa12b0aa5a57f1a8c11eff69c9824df23fbb94e98f06f2c7c1.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom planritning och bilder i HomeQ. \n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna moderna och välplanerade 4-rumslägenhet som genomgick ett Willhemlyft år 2021. Lägenheten är belägen i ett av låghusen på Sommarvädersgatan.\n\nBostaden erbjuder ett stilrent kök utrustat med rostfria vitvaror och diskmaskin. Genomgående trägolv i hela lägenheten. Det helkaklade badrummet är förberett för installation av tvättmaskin.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 81.0,
+    "rent": 10741,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Artillerigatan, Göteborg",
     "url": "https://qasa.com/p/1399668",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0511f8da609fb85342f3759136dd808028464ed2faf2be9976c6b096aff4ac37.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Speldosegatan 8, Västra frölunda",
-    "url": "https://qasa.com/p/1399748",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/587eee8a6dac94f21f3edc7372527076aef1df37d814b7948ec3f6a0949a9c22.pdf",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2024. \n\nLägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål.\n\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. \n\nOBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.  \n\nOBS! Avvikelser från planritningen kan förekomma.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nMer information ges vid intresse.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Speldosegatan 4, Västra frölunda",
-    "url": "https://qasa.com/p/1399743",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/100b4a2e91057702e7b3b981bbef2cce071d7d4c5269cafef29f33e36f5c6f2a.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2018. \n\nLägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål.\n\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten.\n\n OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.  \n\nOBS! Avvikelser från planritningen kan förekomma.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. information ges vid intresse.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T11:01:22+00:00", "clock": "11:01:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T11:59:43+00:00", "clock": "11:59:43"};
