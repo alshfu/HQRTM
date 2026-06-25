@@ -66,11 +66,11 @@ window.HQRTM_SAMPLE = [
     "title": "Sisjöbäckens Väg, Askim",
     "url": "https://qasa.com/p/1398534",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b1f98878e088ef98341541ce37a5af1a0ba078579df8492b57eb35f8a88e236.jpg",
-    "description": "Möblerad 2:a uthyres i Sisjön – nära natur, shopping och bra kommunikationer\n\nNybyggd och ljus 2:a (från 2019) uthyres centralt i Sisjön, med närhet till både natur och ett stort utbud av affärer. Lägenheten har öppen planlösning, diskmaskin, stor balkong och tillhörande förråd. Uthyres möblerad. Snabb inflytt prioriteras!\n\nDet är kallhyra 13500 plus bredband vatten och el! \nDet finns parkering att hyra smidigt via AimoPark",
+    "description": "Möblerad 2:a uthyres i Sisjön – nära natur, shopping och bra kommunikationer\n\nNybyggd och ljus 2:a (från 2019) uthyres centralt i Sisjön, med närhet till både natur och ett stort utbud av affärer. Lägenheten har öppen planlösning, diskmaskin, stor balkong och tillhörande förråd. Uthyres möblerad. Snabb inflytt prioriteras!\n\nDet är kallhyra 12700 plus bredband vatten och el! \nDet finns parkering att hyra smidigt via Easypark.",
     "district": "Askim",
     "rooms": 2.0,
     "area_m2": 54.0,
-    "rent": 13250,
+    "rent": 12800,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T06:19:15+00:00", "clock": "06:19:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T07:39:23+00:00", "clock": "07:39:23"};
