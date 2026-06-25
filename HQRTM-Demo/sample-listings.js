@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rubelgatan, Göteborg",
+    "url": "https://qasa.com/p/1330924",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6bb8826e7b7bdb9be6a40560a6c32b1ea7ba3f19b7ec6028afdbf48c8ac1f40.jpg",
+    "description": "Trevlig liten 2-rumslägenhet men mycket natur omkring. Fullt modern med tvättstuga och gästrum att hyra. Hiss, uteplatser och gemensamma utrymmen. \nPå torget nedanför huset finns mataffärer, restauranger, bibliotek, tobaksaffär, skönhetsbutik och stort gym. Intill torget finns spårvagnshållplats med flera linjer. Till centrum tar det ca 15 minuter. Till Linnéstaden med mängder av restauranger och butiker 5-10 minuter och till Göteborgs stora nöjespark Liseberg tar resan 10-15 minuter. \nGanska nära Göteborgs finaste park Slottsskogen med caféer, djurpark, musikframträdanden, museum, stor lekpark, osv.\nStort skogsområde med promenad- och träningsvägar finns alldeles i närheten. \nI hyran ingår el och avgift för vatten samt bredband och tv-kanaler. Parkering kan hyras. \nJag hyr ut lägenheten för att jag bor i sommarstugan flera månader under sommaren.\nHund finns så du bör ju inte vara allergisk för även om jag såklart städar lägenheten ordentligt så är det svårt att bli av med alla spår av min hund Signe.\nJag hyr i första hand ut till ungdomar som ska studera i Göteborg under sommaren.  Det finns ju säkert bra hyresgäst av andra kategorier så hör av dig ändå om du är skötsam och rädd om min min inredning och lägenheten.\nLite flexibel med uthyrningstid kan jag vara men hyr inte ut mer än ca 3 månader. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 9100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Artillerigatan, Göteborg",
     "url": "https://qasa.com/p/1399668",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0511f8da609fb85342f3759136dd808028464ed2faf2be9976c6b096aff4ac37.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Speldosegatan 2, Västra frölunda",
-    "url": "https://qasa.com/p/1399725",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46b71427d268c5f371fd6e4d06ed977356fd69c3bfc02c449ade48292ab94a29.jpg",
-    "description": "Här ges möjlighet att hyra en nyrenoverad lägenhet som HEM renoveras nu, 2026. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. \n\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Vitvarorna i lägenheten är av märket Cylinda och Lägenhetsförrådet finner ni i lägenheten. Lägenheten hyrs ut på ritning på grund av pågående renovering och ingen fysisk visning är möjlig att hållas.    \n\nOBS! Avvikelser från planritningen kan förekomma.   \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T09:55:15+00:00", "clock": "09:55:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-25T11:01:22+00:00", "clock": "11:01:22"};
