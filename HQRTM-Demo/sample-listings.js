@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stenkastsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1400981",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a3c8dba475d2016defab263ff6e1d3e30f768d14231bcbeb41a8c61d3dcb051.jpg",
+    "description": "En möblerad och inflyttningsklar 3a om 76 kvm i Frölunda\n\nNu finns möjligheten att hyra en rymlig och välplanerad trea om 76 kvm i Frölunda med möjlighet till inflyttning omgående. Lägenheten hyrs ut möblerad och har ett fullt utrustat kök, tillgång till tvättstuga, gott om förvaring med garderober och förråd samt en trevlig balkong.\n\nHär bor du i ett lugnt och välisolerat område med närhet till Frölunda Torg, Linné, Slottsskogen och Marklandsgatan med utmärkta kommunikationer. Mataffärer och annan service finns inom gångavstånd.\n\nVi söker skötsamma hyresgäster som önskar ett trivsamt och välskött boende. Välkommen att höra av dig med en kort presentation av dig själv och din boendesituation.",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 76.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Viktoriagatan, Göteborg",
     "url": "https://qasa.com/p/1400971",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/038639aaa9ca161206d37af0dbeb5243edbc677942b836379114391e68c76263.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillekärr Södra, Hisings Kärra",
-    "url": "https://qasa.com/p/1395828",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9808fe2978689bdea59c160087ca0402047e16ae344b271b612f9c61e45acde.jpg",
-    "description": "hyr ut ett RUM\n\ndelat kök och badrum",
-    "district": "Hisings Kärra",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 3200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T20:53:35+00:00", "clock": "20:53:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T21:28:41+00:00", "clock": "21:28:41"};
