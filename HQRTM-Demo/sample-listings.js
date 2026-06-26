@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Toredalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1014852",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8b4d2ad50eda2ba32367d1e90076ae9d58bf4535e629ecf38966d491552c486.jpg",
+    "description": "Lägenhet med 4 rum + kök på plan 2 av huset och ligger i ett lugnt & barnvänligt område med gott om grönområden och service butiker i närheten. Gångavstånd till Spårvagnshållplats, Lundbybadet, Volvo penta och fina promenadstråk, På bara några minuter tar man sig till backaplan eller centrala Göteborg. \n Hyran är 15000 kr/månaden inkl el och internet (ifall man vill nyttja fastighetens fiber) Man kan nyttja trädgården så mycket man vill och det finns flera parkeringsplatser tillhörande huset. ",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 15000,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Fogelbergsgatan 1, Göteborg",
     "url": "https://qasa.com/p/1400414",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/71fea810ef34f62efbf759085b1b08583c6c979f732a7c325b054f955e1be983.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergöksgatan 1G, Västra Frölunda",
-    "url": "https://qasa.com/p/1400076",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d33b7a57a475b92b6904fcbefe156dd40bd378bf5d1fc9d1a444f5d5d5facc73.jpg",
-    "description": "Här ges möjlighet att hyra en 1 Rum och Kök på 36 kvm, en nyproducerad bostad från 2024 med nära till det mesta!   \n\n    \n-Diskmaskin    \n\n-Spishäll med inbyggd ugn    \n\n-Inbyggd mikrovågsugn \n\n-kombimaskin   \n\n-Balkong    \n\n-Externt förråd  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.   \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Information ges vid intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 8725,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bautastensgatan, Göteborg",
-    "url": "https://qasa.com/p/1399075",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b38ed260912855fa41da8bad8b0ff260c2099d4905a10dbbdbaee7bfcee73b0.jpg",
-    "description": "Hej! Jag hyr ut min fina tvåa på 39 kvm i ett vackert landshövdingehus på Eriksberg. Lägenheten ligger på andra våningen av tre och med fönster åt två håll, flyter ljuset in hela dagen.\n\nLägenheten är nyrenoverad med ljusa kulörer och fräscht slipade trägolv. Balkongen vetter västerut så man får härlig kvällssol, finns bord och stolar för två.\n\nKöket har gott om förvaring med bra arbetsutrymmen och mikro, spis, kyl, och frys, sovrummet är lugnt beläget och vardagsrummet är rymligt och välplanerat vilket gör att 39kvm inte känns trångt. \n\nBra läge:\n- 20 minuter till centrala Göteborg\n- 10 minuters promenad till vattnet och Eriksbergs kajstråk\n- Eriksbergsköpcentrum alldeles i närheten (Sats gym + stor Coop)\n- Goda kommunikationer med buss från Nordviksgatan eller Danaplatsen\n\nHyran inkluderar el, vatten, värme och wifi (kan anpassa kapaciteten efter behov). Jag är lätt att nå via telefon eller sms om det skulle uppstå några frågor.\n\nHyr ut tills vidare på grund av flytt utomlands, tillgänglig från första augusti.\n\nVälkommen att höra av dig för visning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 39.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 4A, GÖTEBORG",
-    "url": "https://qasa.com/p/1400053",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a58d2e449fea995b9ebeeca75b7a022742f1d6cb1142295b46d30fcff71b4b49.jpg",
-    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 3 rum och kök på 83 kvm, belägen på våning 2 på Långströmsgatan 4 A.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset.\n\nHyra: 12 413 kr/månad\nInflyttning: 2026-10-01\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Bilderna i annonsen är exempelbilder från liknande renoverade lägenheter. Planritningen är inte skalenlig och kan avvika från verkligt utförande.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 12413,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T07:56:31+00:00", "clock": "07:56:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T09:18:17+00:00", "clock": "09:18:17"};
