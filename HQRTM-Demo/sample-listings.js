@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hults gata, Askim",
+    "url": "https://qasa.com/p/1400930",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34e7407bc2e2aeef5113c39e451f9b6b0447725f68cb18280571d28c556477ee.jpg",
+    "description": "English below:\nNyrenoverad. Månadshyra: 5500kr.  Inflyttning under  augusti. Inga avgifter. Ingen deposition. Kontrakt skrivs direkt med hyresvärden.\n\nMöblerad lägenhet på 90 m2 på entréplan i mitt hus. Du har ett eget sovrum och delar hall, vardagsrum/matplats, kök/tvättstuga, dusch/toalett och uteplats.  Köket är fullt utrustat.  De andra hyresgästerna är två män. Den ena studerar på Chalmers och den andra är civilingenjör och jobbar på Volvo.\n\nRummet är möblerat med säng 105 cm, skrivbord, bokhyllor, garderob. Mörkerrullgardin för en god sömn och reglerbar plisse’gardin mot insyn. Rummet vetter mot trädgården och den lugna gatan. Huset är beläget i trevligt och tryggt område nära hav och skog.  Det går snabbt och smidigt att ta sig till centrala Göteborg.\nI hyran ingår fiber/wifi, el, värme, vatten och sophämtning. Förvaring av cykel i låst garage. Gratis bilparkering på gatan utanför.\nMycket goda kommunikationer från busshållplatsen \"Pilegården Göteborg\" som du når till fots på någon minut.\nBuss X2 tar 12 min till Linnéplatsen. Buss 258 tar 10 min till Sahlgrenska och 14 min till Chalmers.  Buss 180 tar 21 min till Volvo. Buss 89: 5 min till Frölunda torg Eller cykla in till stan på den lummiga cykelbanan.  Affärer och service i närområdet.\n\nLite om mig: Jag är sjuksköterska och bor själv i den övre lägenheten som är helt separerad från uthyrningslägenheten på bottenplan.\nMin entré är på baksidan av huset.\n\nFör din TRYGGHET: Ingen deposition. Inga avgifter. Verifierad värd.\n\nVÄLKOMMEN att höra av dig för mer info.\n------------------------------------------------------\nNewly renovated. 5500 kr/month. Contract directly with the landlord.  No fees. No deposit .  \nMoving in during August.\n\nShared apartment (90m2) on first floor of my house. You have your own bedroom and share \nlivingroom/diningroom, kitchen/laundryroom, bathroom and part of the garden.  The other tenants are two men. One studying at Chalmers and the other is working as engineer at Volvo.\n\nRent includes fiber/wifi, electricity, heat and water.  Bike can be placed in locked garage. Free parkingplace for a car. The room is furnished with 105 cm bed, desk, cupboards, bookshelves,  carpets, dark blinder for a good night sleep and is facing the garden and the quiet street.  Kitchen is fully equiped. The house is situated in a nice and safe area with wonderful nature around the  corner.\n\nEasy access to citycenter.\nA few minutes walk takes you to the bus station \"Pilegården Göteborg\" with frequently departures.  Bus X2:  12 minutes to Linneplatsen. Bus 258: 10 min to Sahlgrenska and 14 min to Chalmers.                       \nBus 180: 21 min to Volvo. Bus 89: 5 min to Frölunda torg. Or take the bike to town along the nice green bikeway. All sorts of shops and service in the neighbourhood.\n\nI live in the apartment on topfloor with seperate entrance. I live by myself working as a nurse.\n\nFor your SAFETY: No deposit. No fees. Verified host.\nWELCOME to get in touch with me for more info.",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 9.0,
+    "rent": 5190,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Julaftonsgatan, Göteborg",
     "url": "https://qasa.com/p/1400887",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4573c5e6e5baedbd4aeb5dc27009b8023b2b4ad05a0ce7016f55fa4c858f1aa3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kullegårdsvägen, Göteborg",
-    "url": "https://qasa.com/p/1400600",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ef63696e8162b3270954fad6beb6c97a44fc8520935df5411ba70ef156f9e9f0.jpg",
-    "description": "Möblerad lägenhet hyrs ut  f.o.m   2026-09-01  I hyran  ingår bredband ,  Möblerad  på ca 20 kvm med kök ( full utrustning), WC/dusch, tvättmaskin,  torktumlare och uteplats. Lägenheten ligger i i villa området med egen ingång , nära skogen. 4 minuter gångavstånd till busshållplats,   1 månaders deposition . UTHYRES TILL 1 PERSON som är skötsam, ej rökare , ej husdjur. HYRAN 6900 KR/mån. LAMNAR EN  PRESENTATION MED INFO OCH VEM DU ÄR, JOBB, STUDIER  SÅ HÖR JAG AV MEJ\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T18:07:52+00:00", "clock": "18:07:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T18:51:35+00:00", "clock": "18:51:35"};
