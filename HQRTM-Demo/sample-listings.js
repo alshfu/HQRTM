@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Fiskebäcksvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1400508",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/336c1ee45c06bbcbc2b9522692197e35c03c8b7db6f9d128985ece79b24a1668.jpg",
+    "description": "Student till Göteborg i höst.\nLjust och fräscht möblerat rum uthyres till kvinnlig student. \nDu delar ett våningsplan med en annan kvinnlig student. Det består av två separata sovrum samt gemensamt kök, vardagsrum o badrum. \nRummet är beläget i en villa i Västra Göteborg. \nNära till havet och andra friluftsaktiviteter. \nGoda kommunikationer till både centrum och Eriksberg.",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 4574,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillekärr Södra, Hisings Kärra",
     "url": "https://qasa.com/p/1395828",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9808fe2978689bdea59c160087ca0402047e16ae344b271b612f9c61e45acde.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordhemsgatan, Göteborg",
-    "url": "https://qasa.com/p/1398595",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/90400944aef596a4413bc8cfd817ab2e6fb34e160a009d58a4432a3fe99fa1fd.jpg",
-    "description": "Ljus och mysig sekelskiftestvåa med balkong i hjärtat av Linné\nNu hyr jag ut min fina och välplanerade tvåa på 39 kvm på Nordhemsgatan i Linné, eftersom jag kommer att bo på annan ort under en period. \n\nLägenheten hyrs ut fullt möblerad och har ett separat sovrum, ett modernt kök med allt man behöver och ett ljust vardagsrum. Balkongen vetter mot en lugn innergård med grönska och är en perfekt plats för morgonkaffet eller en lugn sommarkväll.\n\nNordhemsgatan är en lugn gata i Linné, med stort utbud av härliga caféer, restauranger och butiker precis runt hörnet. På bara några minuter promenerar du till Slottsskogen, och med spårvagn och buss i närheten tar du dig enkelt till resten av Göteborg.\n\nI hyran ingår värme, vatten, bredband och el vid normal förbrukning. Jag söker en ansvarsfull hyresgäst som kommer att ta hand om lägenheten som om den vore sin egen. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 39.0,
-    "rent": 13200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T14:03:35+00:00", "clock": "14:03:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T15:05:19+00:00", "clock": "15:05:19"};
