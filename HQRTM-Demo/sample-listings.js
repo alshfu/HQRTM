@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Viktoriagatan, Göteborg",
+    "url": "https://qasa.com/p/1400971",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/038639aaa9ca161206d37af0dbeb5243edbc677942b836379114391e68c76263.jpg",
+    "description": "Centralt belägen bostad i Vasastan \nÄndå väldigt lugnt område, tyst med balkong åt sydväst med stor park.\n5 min promenad till Handels, universitetet, 10 min till Chalmers. 5 min promenad till avenyn \nAffärer o cafeer några minuter från bostad.\nTvå min till spårvagn o bussar\nRummet känns större än det är då det är tre meter till tak, o ligger i anslutning till dusch o toa. I köket som ligger avskilt finns gasspis, så din matlagning blir roligare o bättre.\nJag hyr ut då jag är pensionär o har en relativt stor bostad 95 kvadrat med 4 rum o kök\nÄr borta från fredag vid 14-tiden till söndag eftermiddag varje vecka, är hos särbo i Frölunda \nVi har sommarhus i Bovallstrand o hus i Spanien där vi vistas då o då.\nDu får en stor utdragslåda för torrvaror i kök\nEn hylla i kyl o en i frys.\nEn hylla i badrum o upphängning för handduk o badlakan.\nDu får vistas i lägenheten inklusive balkong mot väster, solläge. \nStor tvättstuga i bottenplan med två tvättmaskiner torktumlare o stort torkrum\nDen ligger i direkt anslutning till hiss i bottenplan. Föreningen har 23 medlemmar o dom flesta har tvättmaskin i sin lägenhet, så där är nästan alltid ledigt. Tvättlås finns.\nStädning o sopsortering är viktigt för o följa regler i boendet.\nUppträd trevligt o hälsa på andra boende i föreningen när ni möts i trapphus eller gården.\nVälkommen ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 6200,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rosensköldsgatan, Göteborg",
     "url": "https://qasa.com/p/1400961",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7778f18dfa17f03bd805ea78c1f124e33fadab714c405bc3e590c77a90694604.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skillingmyntsgatan, Göteborg",
-    "url": "https://qasa.com/p/1400677",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9cb54784bd61defc260115780025e878a756e59b2720b8bc7de3140cdbb98bbc.jpg",
-    "description": "Hyr ut min 1a på 35 kvadrat på max 1 års tid från 8 september 2026. \nLägenheten ligger på bottenplan, är funktionsanpassad och har stor, fin uteplats.\n\nHuset är byggt 2022, och har modernt kök med induktionsspis, varmluftsugn och inbyggd micro.  Lägenheten har även stort badrum med plats för tvättmaskin. \nI fastigheten finns stora gemensamhetsytor, t.ex bokningsbar takterrass med bl a el-grillar samt en stor bokningsbar lounge.\nI området finns även hyrbilspool avsedd endast för områdets boende. \nOmrådet ligger vid Västra kyrkogården, bara 10 minuters promenadavstånd till Axel Dahlströms Torg och 15 minuter till Majorna. Det går även regelbundet bussar både ut till Lindholmen och in till centrum (hållplats Sjupundsgatan).\n\nLägenheten hyrs ut delvis möblerad. Vid hyresperiodens början tas även ut en depositionsavgift på en månads hyra, som återbetalas vid hyresperiodens slut.\nRökförbud råder i hela bostadsområdet, och som hyresgäst förväntas du även att vara skötsam.\nOm detta verkar intressant, eller om du kanske känner någon intresserad, hör gärna av dig via PM så tar vi det därifrån.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 8500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T20:13:15+00:00", "clock": "20:13:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T20:53:35+00:00", "clock": "20:53:35"};
