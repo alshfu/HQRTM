@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norumshöjd, Göteborg",
+    "url": "https://qasa.com/p/1400609",
+    "image_url": null,
+    "description": "Lägenhet är fräsch och har mycket utrymme, stor kök, stor balkong,  fräscha möbler i skin, stor skärm tv , säng i två sovrum, väl möblerat. \nOmrådet är  jätte för den som vill handla och åka till centrum 15 min, buss är 1 min från lägenhete. ICA samt Willys 5 min promenad. \nÄr du intresserad så kan du besöka omgående för uthyrning.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stenkastsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1400981",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a3c8dba475d2016defab263ff6e1d3e30f768d14231bcbeb41a8c61d3dcb051.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Fiskebäcksvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1400508",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/336c1ee45c06bbcbc2b9522692197e35c03c8b7db6f9d128985ece79b24a1668.jpg",
-    "description": "Student till Göteborg i höst.\nLjust och fräscht möblerat rum uthyres till kvinnlig student. \nDu delar ett våningsplan med en annan kvinnlig student. Det består av två separata sovrum samt gemensamt kök, vardagsrum o badrum. \nRummet är beläget i en villa i Västra Göteborg. \nNära till havet och andra friluftsaktiviteter. \nGoda kommunikationer till både centrum och Eriksberg.",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 4574,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T21:56:59+00:00", "clock": "21:56:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T22:34:12+00:00", "clock": "22:34:12"};
