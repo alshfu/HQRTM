@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Julaftonsgatan, Göteborg",
+    "url": "https://qasa.com/p/1400887",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4573c5e6e5baedbd4aeb5dc27009b8023b2b4ad05a0ce7016f55fa4c858f1aa3.jpg",
+    "description": "Om bostaden\nRoom for rent in Kortedala area Göteborg\n\n✅ Rent: 3500SEK/month\n✅ You can register your address here.\n✅ Security deposit is required or to cover any possible damages (e.g. broken windows or utilities).\n=We can write contract\n✅ Available to move in right away! Empty and furnished ready to move in right away ...first come first served\n=Smoke free\n=Pet free\n\nKortedala area 15 minutes from Central Station by tram\n\nRum hyres inneboende i lägenhet omgående..\n=Hyra 3500kr/månader\n=Deposition (ifall du skada fönster , köket .etc)\n=Skriva address\n= Skriva kontrakt\nOm du vill flytta omgående kontakta mig , lämna din telefon jag ringer dig direkt,\nKortedala område, Göteborg\n15 minuter från centralstationen\n\nMobil nummer:",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 13.0,
+    "rent": 3305,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Jenny Lindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1400710",
+    "image_url": null,
+    "description": "1 rum och kök",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 11060,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Fiskebäcksvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1400508",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/336c1ee45c06bbcbc2b9522692197e35c03c8b7db6f9d128985ece79b24a1668.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bautastensgatan 9 B, Göteborg",
-    "url": "https://qasa.com/p/1400741",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4a64754f1a5433468729bdb18661bcef85d685b7688d29070e834819d7f7392.jpg",
-    "description": "Charmig etta i Sannegården med balkong och närhet till vattnet\n\n\nVälkommen till denna ljusa och moderna etta i hjärtat av Sannegården! Lägenheten renoverades 2014 och har en stilren standard med parkettgolv och en praktisk diskmaskin. Dessutom finns en liten balkong där du kan njuta av kaffet i lugn och ro.\n\nHär får du ett bekvämt boende i en trivsam miljö med närhet till både stad och natur – en perfekt kombination för dig som vill ha det bästa av två världar.\n\n\nGrönskande läge med smidiga kommunikationer\n\n\nSannegården bjuder på en levande och naturnära atmosfär med gångavstånd till älvstranden, mysiga caféer och vackra promenadstråk. Här finns även all service du kan tänkas behöva, från matbutiker till träningsanläggningar.\n\nKommunikationerna är utmärkta – ta spårvagn, buss eller varför inte Älvsnabben över älven för att snabbt nå centrala Göteborg? På båten kan du även ta med cykeln för extra smidig pendling.\n\n\nLåter det intressant?\n\n\nAnmäl ditt intresse redan idag!\nAlla intresseanmälningar görs via HomeQ. Vi tar tyvärr inte emot ansökningar via telefon, mejl eller personliga besök.\nUrvalet sker utifrån de vägledande köpoängen i HomeQ och processen påverkas därför inte genom att kontakta oss direkt. Tack för din förståelse och lycka till med din ansökan!\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 32.0,
-    "rent": 6344,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kapellgången, Göteborg",
-    "url": "https://qasa.com/p/1400572",
-    "image_url": null,
-    "description": "Rum uthyres i centrala Landala – 3 min till Chalmers & GU\nEtt fräscht rum uthyres i en 2-rumslägenhet med toppenläge i centrala Landala, endast 3 minuters gångavstånd till både Chalmers och Göteborgs universitet.\n\nJag söker en skötsam och renlig tjej, gärna student eller någon som pendlar. Vi kommer att dela kök och badrum, men planlösningen är mycket bra och lägenheten känns rymlig. Jag kommer själv att pendla och därför bara vara hemma ibland, främst på helger.\n\nUthyres till 1 person (ej par)\n\nTillgång till kök, badrum och gemensamma ytor\nGarageplats, internet och el ingår i hyran\n\nCentralt och lugnt område med nära till kommunikationer, caféer och butiker\n\nDet kan eventuellt finnas möjlighet att hyra hela lägenheten längre fram, om det skulle vara intressant.\n\nLåter det som något för dig? Hör gärna av dig och berätta lite om dig själv! 🌿",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T15:57:54+00:00", "clock": "15:57:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T16:49:40+00:00", "clock": "16:49:40"};
