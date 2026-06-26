@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rosensköldsgatan, Göteborg",
+    "url": "https://qasa.com/p/1400961",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7778f18dfa17f03bd805ea78c1f124e33fadab714c405bc3e590c77a90694604.png",
+    "description": "En nyrenoverad, välplanerad lägenhet med närhet till Chalmers, gym, mataffärer, restauranger och Göteborgs centrum. Bostaden kommer fullt möblerad och böcker etc.  kan lämnas kvar på begäran. \n\nLägenheten är på 4e våningen på en kulle och har därför väldigt bra utsikt. På sommaren är det kvällssol och det är därför en perfekt sommarlägenhet där man kan njuta av sommarvärmen från förmiddag till kväll/natt på balkongen. Sängen är 140 cm bred och är på ett loft. Det fungerar bra att sova två i den. Under loftet finns en \"walk in closet\" som ger möjlighet att både hänga upp kläder eller att vika undan i lådor. \n\nHyr ut lägenheten på 1 års basis och med anledning av att jag flyttar till Stockholm för jobb.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hults gata, Askim",
     "url": "https://qasa.com/p/1400930",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34e7407bc2e2aeef5113c39e451f9b6b0447725f68cb18280571d28c556477ee.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Olskroksgatan, Göteborg",
-    "url": "https://qasa.com/p/1400632",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/50a8208b70f50f99b688ba447a5525af2a4455703c38325c89ce583a737086aa.jpg",
-    "description": "Jag siktar på att flytta till Norge 1 September och letar därför en hyresgäst till min ljusa och charmig tvårummare om cirka 70 kvm i populära Olskroken.\n\nHär bor du i en klassisk fastighet med generös takhöjd, vackra originaldetaljer och gott om förvaring, i ett lugnt område med närhet till stadens puls.\n\nLägenheten har ett rymligt vardagsrum med fiskbensparkett, en dekorativ öppen spis och utgång till en mysig balkong där du kan njuta av kvällssolen under sommarhalvåret. Sovrummet är stort och har tre inbyggda garderober som erbjuder gott om förvaring. De stora fönstren, spegeldörrarna och takhöjden på cirka 2,70 meter ger ett härligt ljusinsläpp och en luftig känsla i hela bostaden. Till lägenheten hör även ett rymligt vindsförråd.\n\nI huset finns en tvättstuga på bottenplan i samma trappuppgång, där det sällan är svårt att hitta en ledig tvättid, samt ett praktiskt cykelförråd.\n\nLägenheten är inte handikappanpassad. Hissen nås via några trappsteg från entréplanet.\n\nOlskroken är ett omtyckt område med ett brett utbud av service. Här finns bland annat en stor ICA-butik, apotek, caféer och annan närservice. Med mycket goda kollektivtrafikförbindelser tar du dig snabbt till centrala Göteborg samtidigt som området erbjuder en lugn och trivsam miljö.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 70.0,
-    "rent": 10000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T19:28:55+00:00", "clock": "19:28:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T20:13:15+00:00", "clock": "20:13:15"};
