@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Fogelbergsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1400414",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/71fea810ef34f62efbf759085b1b08583c6c979f732a7c325b054f955e1be983.jpg",
+    "description": "1 oktober har ni möjligheten att flytta in i en fantastisk 2 ROK på Övre Fogelbergsgatan 1 i Vasastaden. \nLägenheten är belägen på våning 1 och är disponerad på 58 kvm. \nLägenheten är bland annat utrustad med:\nDiskmaskin\nTvättmaskin\nTorktumlare\nBadkar\nBadrumsskåp\nKlinket i badrum och parkett i hela lägenheten\n\nHär bor du med närhet till allt du kan tänkas behöva. \nAnsök redan idag!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 10661,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Flundregatan, Västra Frölunda",
     "url": "https://qasa.com/p/1400190",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8669be2b47a5d77c568bac1195e30f4d903426289e52151b8396675ad825046e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 28A, Göteborg",
-    "url": "https://qasa.com/p/1400031",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ccc2af43cc30ddf16969609a50cfab8b43edb79f50164130d306b2368477a8ea.jpg",
-    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 2 rum och kök på 63 kvm, belägen på våning 3 på Långströmsgatan 28 A.\n\nHär erbjuds ett modernt boende med ljusa ytskikt och en genomtänkt planlösning.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset.\n\nHyra: 10 197 kr/månad\nInflyttning: 2026-10-01\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Bilderna i annonsen är exempelbilder från liknande renoverade lägenheter. Planritningen är inte skalenlig och kan avvika från verkligt utförande.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 63.0,
-    "rent": 10197,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T06:31:37+00:00", "clock": "06:31:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T07:56:31+00:00", "clock": "07:56:31"};
