@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kullegårdsvägen, Göteborg",
+    "url": "https://qasa.com/p/1400600",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ef63696e8162b3270954fad6beb6c97a44fc8520935df5411ba70ef156f9e9f0.jpg",
+    "description": "Möblerad lägenhet hyrs ut  f.o.m   2026-09-01  I hyran  ingår bredband ,  Möblerad  på ca 20 kvm med kök ( full utrustning), WC/dusch, tvättmaskin,  torktumlare och uteplats. Lägenheten ligger i i villa området med egen ingång , nära skogen. 4 minuter gångavstånd till busshållplats,   1 månaders deposition . UTHYRES TILL 1 PERSON som är skötsam, ej rökare , ej husdjur. HYRAN 6900 KR/mån. LAMNAR EN  PRESENTATION MED INFO OCH VEM DU ÄR, JOBB, STUDIER  SÅ HÖR JAG AV MEJ\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kapellgången, Göteborg",
     "url": "https://qasa.com/p/1400572",
     "image_url": null,
@@ -28,6 +43,21 @@ window.HQRTM_SAMPLE = [
     "rent": 13200,
     "floor": null,
     "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Värmegatan 20, Göteborg",
+    "url": "https://qasa.com/p/1400612",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a01c75dafc1472e990c51752576bf753cb7115d69dc5ae8b6133920a47f62f3e.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror, gasspis och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 9139,
+    "floor": null,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Fogelbergsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1400414",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/71fea810ef34f62efbf759085b1b08583c6c979f732a7c325b054f955e1be983.jpg",
-    "description": "1 oktober har ni möjligheten att flytta in i en fantastisk 2 ROK på Övre Fogelbergsgatan 1 i Vasastaden. \nLägenheten är belägen på våning 1 och är disponerad på 58 kvm. \nLägenheten är bland annat utrustad med:\nDiskmaskin\nTvättmaskin\nTorktumlare\nBadkar\nBadrumsskåp\nKlinket i badrum och parkett i hela lägenheten\n\nHär bor du med närhet till allt du kan tänkas behöva. \nAnsök redan idag!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 10661,
-    "floor": 1,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Flundregatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1400190",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8669be2b47a5d77c568bac1195e30f4d903426289e52151b8396675ad825046e.jpg",
-    "description": "Vi hyr ut lägenhet i villa. Egen balkong och egen uteplats. Tio minuters promenad från Fiskebäcksbadet och ca fem minuter till närmsta skola. Lägenheten består av två våningar med tre sovrum (se bilder för planlösning). Kan hyras möblerad alternativt omöblerad. El, vatten, värme, internet och sophämtning ingår i hyran. Ca 125 kvm i boyta samt ca 25 kvm i biyta. Närmsta hållplats Fiskebäcksskolan är ca fem minuters promenad bort. \n\nIn kluderat i hyran är: värme, vatten, el, sophämtning och internet 600/600.\n\nRestider med bil:\nCentralstationen ca 20 min\nFrölunda torg 7-8 min\nMed kollektivtrafik:\nBrunnsparken/centralstationen ca 30 min\nFrölunda torg ca 15 min\n\nI Fiskebäck bor du nära både naturområden och staden. Du kan läsa mer  om området här\n\nFör vår egen del har båda våra barn gått ut grundskolan och i och med det har vi valt att köpa nytt boende närmare stan. Boendet är i ett tvåfamiljshus där vi äger halva huset. I och med det så är det komplicerat att genomföra en försäljning vilket gör att vi väljer att hyra ut tills vidare. \nFinns intresse att förvärva lägenheten kan det diskuteras.\n\nTillträde enligt överenskommelse. \n\n",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 125.0,
-    "rent": 21000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T10:29:12+00:00", "clock": "10:29:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T11:31:20+00:00", "clock": "11:31:20"};
