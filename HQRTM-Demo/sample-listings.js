@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skillingmyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1400677",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9cb54784bd61defc260115780025e878a756e59b2720b8bc7de3140cdbb98bbc.jpg",
+    "description": "Hyr ut min 1a på 35 kvadrat på max 1 års tid från 8 september 2026. \nLägenheten ligger på bottenplan, är funktionsanpassad och har stor, fin uteplats.\n\nHuset är byggt 2022, och har modernt kök med induktionsspis, varmluftsugn och inbyggd micro.  Lägenheten har även stort badrum med plats för tvättmaskin. \nI fastigheten finns stora gemensamhetsytor, t.ex bokningsbar takterrass med bl a el-grillar samt en stor bokningsbar lounge.\nI området finns även hyrbilspool avsedd endast för områdets boende. \nOmrådet ligger vid Västra kyrkogården, bara 10 minuters promenadavstånd till Axel Dahlströms Torg och 15 minuter till Majorna. Det går även regelbundet bussar både ut till Lindholmen och in till centrum (hållplats Sjupundsgatan).\n\nLägenheten hyrs ut delvis möblerad. Vid hyresperiodens början tas även ut en depositionsavgift på en månads hyra, som återbetalas vid hyresperiodens slut.\nRökförbud råder i hela bostadsområdet, och som hyresgäst förväntas du även att vara skötsam.\nOm detta verkar intressant, eller om du kanske känner någon intresserad, hör gärna av dig via PM så tar vi det därifrån.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 8500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Övre Olskroksgatan, Göteborg",
+    "url": "https://qasa.com/p/1400632",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/50a8208b70f50f99b688ba447a5525af2a4455703c38325c89ce583a737086aa.jpg",
+    "description": "Jag siktar på att flytta till Norge 1 September och letar därför en hyresgäst till min ljusa och charmig tvårummare om cirka 70 kvm i populära Olskroken.\n\nHär bor du i en klassisk fastighet med generös takhöjd, vackra originaldetaljer och gott om förvaring, i ett lugnt område med närhet till stadens puls.\n\nLägenheten har ett rymligt vardagsrum med fiskbensparkett, en dekorativ öppen spis och utgång till en mysig balkong där du kan njuta av kvällssolen under sommarhalvåret. Sovrummet är stort och har tre inbyggda garderober som erbjuder gott om förvaring. De stora fönstren, spegeldörrarna och takhöjden på cirka 2,70 meter ger ett härligt ljusinsläpp och en luftig känsla i hela bostaden. Till lägenheten hör även ett rymligt vindsförråd.\n\nI huset finns en tvättstuga på bottenplan i samma trappuppgång, där det sällan är svårt att hitta en ledig tvättid, samt ett praktiskt cykelförråd.\n\nLägenheten är inte handikappanpassad. Hissen nås via några trappsteg från entréplanet.\n\nOlskroken är ett omtyckt område med ett brett utbud av service. Här finns bland annat en stor ICA-butik, apotek, caféer och annan närservice. Med mycket goda kollektivtrafikförbindelser tar du dig snabbt till centrala Göteborg samtidigt som området erbjuder en lugn och trivsam miljö.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 70.0,
+    "rent": 10000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kullegårdsvägen, Göteborg",
     "url": "https://qasa.com/p/1400600",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ef63696e8162b3270954fad6beb6c97a44fc8520935df5411ba70ef156f9e9f0.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Toredalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1014852",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8b4d2ad50eda2ba32367d1e90076ae9d58bf4535e629ecf38966d491552c486.jpg",
-    "description": "Lägenhet med 4 rum + kök på plan 2 av huset och ligger i ett lugnt & barnvänligt område med gott om grönområden och service butiker i närheten. Gångavstånd till Spårvagnshållplats, Lundbybadet, Volvo penta och fina promenadstråk, På bara några minuter tar man sig till backaplan eller centrala Göteborg. \n Hyran är 15000 kr/månaden inkl el och internet (ifall man vill nyttja fastighetens fiber) Man kan nyttja trädgården så mycket man vill och det finns flera parkeringsplatser tillhörande huset. ",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 95.0,
-    "rent": 15000,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T11:31:20+00:00", "clock": "11:31:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T12:23:22+00:00", "clock": "12:23:22"};
