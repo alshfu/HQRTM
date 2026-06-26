@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lillekärr Södra, Hisings Kärra",
+    "url": "https://qasa.com/p/1395828",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9808fe2978689bdea59c160087ca0402047e16ae344b271b612f9c61e45acde.jpg",
+    "description": "hyr ut ett RUM\n\ndelat kök och badrum",
+    "district": "Hisings Kärra",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 3200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skillingmyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1400677",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9cb54784bd61defc260115780025e878a756e59b2720b8bc7de3140cdbb98bbc.jpg",
@@ -48,6 +63,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Bautastensgatan 9 B, Göteborg",
+    "url": "https://qasa.com/p/1400741",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4a64754f1a5433468729bdb18661bcef85d685b7688d29070e834819d7f7392.jpg",
+    "description": "Charmig etta i Sannegården med balkong och närhet till vattnet\n\n\nVälkommen till denna ljusa och moderna etta i hjärtat av Sannegården! Lägenheten renoverades 2014 och har en stilren standard med parkettgolv och en praktisk diskmaskin. Dessutom finns en liten balkong där du kan njuta av kaffet i lugn och ro.\n\nHär får du ett bekvämt boende i en trivsam miljö med närhet till både stad och natur – en perfekt kombination för dig som vill ha det bästa av två världar.\n\n\nGrönskande läge med smidiga kommunikationer\n\n\nSannegården bjuder på en levande och naturnära atmosfär med gångavstånd till älvstranden, mysiga caféer och vackra promenadstråk. Här finns även all service du kan tänkas behöva, från matbutiker till träningsanläggningar.\n\nKommunikationerna är utmärkta – ta spårvagn, buss eller varför inte Älvsnabben över älven för att snabbt nå centrala Göteborg? På båten kan du även ta med cykeln för extra smidig pendling.\n\n\nLåter det intressant?\n\n\nAnmäl ditt intresse redan idag!\nAlla intresseanmälningar görs via HomeQ. Vi tar tyvärr inte emot ansökningar via telefon, mejl eller personliga besök.\nUrvalet sker utifrån de vägledande köpoängen i HomeQ och processen påverkas därför inte genom att kontakta oss direkt. Tack för din förståelse och lycka till med din ansökan!\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 6344,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kapellgången, Göteborg",
     "url": "https://qasa.com/p/1400572",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmegatan 20, Göteborg",
-    "url": "https://qasa.com/p/1400612",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a01c75dafc1472e990c51752576bf753cb7115d69dc5ae8b6133920a47f62f3e.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror, gasspis och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 9139,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T12:23:22+00:00", "clock": "12:23:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-26T13:14:34+00:00", "clock": "13:14:34"};
