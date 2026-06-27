@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smithska Vägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1401244",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/939d56552dda237b5a181251310965f4f3579a9d70b6d82171ebb2d79d7a9fb4.jpg",
+    "description": "en nyrenoverad stuga ca. 25 kvm, med toalett, dusch och kök. tvättmaskin, ny kyl/frys, mikrovågsugn. 105 cm bred säng och skrivbord med stol.\n\nStugan nära havet. God tillgång med buss och spårvagn till Centrel, Chalmas och Göteborgs universitet",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 6300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hörlursgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1359671",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f108a69e7ed7d5086d0d9b7f396ff5de1a7194966a24ceb9f07784b483983009.jpg",
@@ -66,7 +81,7 @@ window.HQRTM_SAMPLE = [
     "title": "Stenkastsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1400981",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a3c8dba475d2016defab263ff6e1d3e30f768d14231bcbeb41a8c61d3dcb051.jpg",
-    "description": "En möblerad och inflyttningsklar 3a om 76 kvm i Frölunda\n\nNu finns möjligheten att hyra en rymlig och välplanerad trea om 76 kvm i Frölunda med möjlighet till inflyttning omgående. Lägenheten hyrs ut möblerad och har ett fullt utrustat kök, tillgång till tvättstuga, gott om förvaring med garderober och förråd samt en trevlig balkong.\n\nHär bor du i ett lugnt och välisolerat område med närhet till Frölunda Torg, Linné, Slottsskogen och Marklandsgatan med utmärkta kommunikationer. Mataffärer och annan service finns inom gångavstånd.\n\nVi söker skötsamma hyresgäster som önskar ett trivsamt och välskött boende. Välkommen att höra av dig med en kort presentation av dig själv och din boendesituation.",
+    "description": "**ENDAST 2 MÅNADER UTHYRNING**\n(Omgående inflyttning till 31 Augusti)\n\nEn möblerad och inflyttningsklar 3a om 76 kvm i Frölunda\n\nNu finns möjligheten att hyra en rymlig och välplanerad trea om 76 kvm i Frölunda med möjlighet till inflyttning omgående. Lägenheten hyrs ut möblerad och har ett fullt utrustat kök, tillgång till tvättstuga, gott om förvaring med garderober och förråd samt en trevlig balkong.\n\nHär bor du i ett lugnt och välisolerat område med närhet till Frölunda Torg, Linné, Slottsskogen och Marklandsgatan med utmärkta kommunikationer. Mataffärer och annan service finns inom gångavstånd.\n\nVi söker skötsamma hyresgäster som önskar ett trivsamt och välskött boende. Välkommen att höra av dig med en kort presentation av dig själv och din boendesituation.",
     "district": "Västra Frölunda",
     "rooms": 3.0,
     "area_m2": 76.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rosensköldsgatan, Göteborg",
-    "url": "https://qasa.com/p/1400961",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7778f18dfa17f03bd805ea78c1f124e33fadab714c405bc3e590c77a90694604.png",
-    "description": "En nyrenoverad, välplanerad lägenhet med närhet till Chalmers, gym, mataffärer, restauranger och Göteborgs centrum. Bostaden kommer fullt möblerad och böcker etc.  kan lämnas kvar på begäran. \n\nLägenheten är på 4e våningen på en kulle och har därför väldigt bra utsikt. På sommaren är det kvällssol och det är därför en perfekt sommarlägenhet där man kan njuta av sommarvärmen från förmiddag till kväll/natt på balkongen. Sängen är 140 cm bred och är på ett loft. Det fungerar bra att sova två i den. Under loftet finns en \"walk in closet\" som ger möjlighet att både hänga upp kläder eller att vika undan i lådor. \n\nHyr ut lägenheten på 1 års basis och med anledning av att jag flyttar till Stockholm för jobb.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T12:41:29+00:00", "clock": "12:41:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T13:13:19+00:00", "clock": "13:13:19"};
