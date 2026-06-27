@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Västerslänt, Angered",
     "url": "https://qasa.com/p/1400871",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc058b96ce4fa38c399dcfcc630dc8c3efb70b3ee7af1e8f4f3002b5fa896173.jpg",
-    "description": "Trevligt boende i ett lugnt och fint radhusområde! Och ett rum som du inte behöver flytta ifrån i första taget. Detta är inte en lägenhet som du måste flytta från efter max 1-2 års tid. \n\nHär kan du bo hur kort eller lång tid du än vill. Radhuset har 5 rum totalt och jag kommer själv bo i ett av rummen på nedervåningen. Vissa av sovrummen är väldigt små medan andra rum är mycket större. \n\nHuset håller på att renoveras de kommande åren. Och jag har hittills hunnit renovera köket, vardagsrummet, ett badrum, duschen och sovrummen. \n\nDet finns två stycken parkeringsplatser under taket. Eventuellt plats för några cyklar eller liknande. Dessutom så är det varmhyra och otroligt mycket ingår i hyran. Och så finns det en härlig trädgård på nedervåningen.",
+    "description": "Delat boende men med ditt egna rum! Här hittar du ett eget rum i ett lugnt och fint radhusområde. \n\nDetta är inte andrahands boende som du måste flytta ifrån efter 1-2 års tid. Du behöver inte bo tillfälligt här och du kan bo hur länge du än vill. \n\nRadhuset har 5 rum totalt och jag kommer själv bo i ett av rummen på nedervåningen. Dessutom så är det 3 stycken gifta par som bor i 3 st andra rum. \n\nVissa av sovrummen är väldigt små medan andra rum är mycket större. \n\nHuset håller på att renoveras de kommande åren. Och jag har hittills hunnit renovera köket, vardagsrummet, ett badrum, duschen och alla sovrummen. \n\nDet finns två stycken parkeringsplatser under taket. Eventuellt plats för några cyklar eller liknande. \n\nDessutom så är det varmhyra och otroligt mycket ingår i hyran. Och så finns det en härlig trädgård på nedervåningen.",
     "district": "Angered",
     "rooms": 1.0,
     "area_m2": 12.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T19:49:44+00:00", "clock": "19:49:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T20:18:46+00:00", "clock": "20:18:46"};
