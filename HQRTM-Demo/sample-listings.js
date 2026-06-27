@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gyllenkrooksgatan, Göteborg",
+    "url": "https://qasa.com/p/1400851",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8af0560ccfa9f93d76d6550fe500d93b8607e2a4742ac74d67080f89483db8a4.jpg",
+    "description": "Nu finns möjligheten att hyra min fina lägenhet i Johanneberg. Lägenheten är en smakfullt renoverad tvåa om 51 kvm, belägen högst upp i huset. Den är nyrenoverad (förutom badrummet) och erbjuder en öppen planlösning med gott om förvaring, härligt ljusinsläpp och en balkong med fantastisk utsikt.\n\nLägenheten ligger i attraktiva Johanneberg som är ett lugnt och trivsamt område med närhet till både grönområden och stadspuls. Här bor du med gångavstånd till Chalmers, Korsvägen, Liseberg och Avenyn, samtidigt som restauranger, caféer, matbutiker och goda kommunikationer finns i närområdet.\n\nLägenheten hyrs ut fullt möblerad med önskad inflytt omkring september. Tanken är att hyra ut den i cirka tre månader, men jag är lite flexibel kring både inflyttningsdatum och hyresperiod för rätt hyresgäst. Hyran är 17 000 kr per månad, där el, vatten och internet ingår.\n\nJag söker en ansvarsfull och skötsam hyresgäst med stabil ekonomi som kommer att ta väl hand om lägenheten. Hyresgästen behöver godkännas av bostadsrättsföreningen innan kontrakt kan tecknas. Referenser kommer att efterfrågas och en deposition motsvarande en månadshyra tas ut innan inflyttning. Rökning, husdjur och fester i lägenheten är inte tillåtna.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Hallegatan , Göteborg",
     "url": "https://qasa.com/p/1401029",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c63a84995b281cd0d7aa8d26fdb898ab2bc2da3e9097869b3c4cff72887bdb3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Julaftonsgatan, Göteborg",
-    "url": "https://qasa.com/p/1400887",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4573c5e6e5baedbd4aeb5dc27009b8023b2b4ad05a0ce7016f55fa4c858f1aa3.jpg",
-    "description": "Om bostaden\nRoom for rent in Kortedala area Göteborg\n\n✅ Rent: 3500SEK/month\n✅ You can register your address here.\n✅ Security deposit is required or to cover any possible damages (e.g. broken windows or utilities).\n=We can write contract\n✅ Available to move in right away! Empty and furnished ready to move in right away ...first come first served\n=Smoke free\n=Pet free\n\nKortedala area 15 minutes from Central Station by tram\n\nRum hyres inneboende i lägenhet omgående..\n=Hyra 3500kr/månader\n=Deposition (ifall du skada fönster , köket .etc)\n=Skriva address\n= Skriva kontrakt\nOm du vill flytta omgående kontakta mig , lämna din telefon jag ringer dig direkt,\nKortedala område, Göteborg\n15 minuter från centralstationen\n\nMobil nummer:",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 13.0,
-    "rent": 3305,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T06:04:46+00:00", "clock": "06:04:46"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T07:20:33+00:00", "clock": "07:20:33"};
