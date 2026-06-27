@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Träringen, Göteborg",
+    "url": "https://qasa.com/p/1401260",
+    "image_url": null,
+    "description": "2-rumslägenhet i Härlanda nära Härlanda tjärn uthyres från 15/8 2026 ca ett år, ev. med möjlighet till förlängning. Kök med matplats, stort vardagsrum och sovrum, delvis möblerat. Nyare badrum, rent och fräscht. Liten balkong i väster. Andra våningen i trevånings-, femtiotalshus. 9000,00  kronor per månad. Vatten,  värme , el och wifi ingår. Önskas skötsam person, rök och djurfri. Kreditupplysning och referenser önskas. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smithska Vägen, Västra Frölunda",
     "url": "https://qasa.com/p/1401244",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/939d56552dda237b5a181251310965f4f3579a9d70b6d82171ebb2d79d7a9fb4.jpg",
@@ -40,7 +55,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 51.0,
-    "rent": 17000,
+    "rent": 16046,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Viktoriagatan, Göteborg",
-    "url": "https://qasa.com/p/1400971",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/038639aaa9ca161206d37af0dbeb5243edbc677942b836379114391e68c76263.jpg",
-    "description": "Centralt belägen bostad i Vasastan \nÄndå väldigt lugnt område, tyst med balkong åt sydväst med stor park.\n5 min promenad till Handels, universitetet, 10 min till Chalmers. 5 min promenad till avenyn \nAffärer o cafeer några minuter från bostad.\nTvå min till spårvagn o bussar\nRummet känns större än det är då det är tre meter till tak, o ligger i anslutning till dusch o toa. I köket som ligger avskilt finns gasspis, så din matlagning blir roligare o bättre.\nJag hyr ut då jag är pensionär o har en relativt stor bostad 95 kvadrat med 4 rum o kök\nÄr borta från fredag vid 14-tiden till söndag eftermiddag varje vecka, är hos särbo i Frölunda \nVi har sommarhus i Bovallstrand o hus i Spanien där vi vistas då o då.\nDu får en stor utdragslåda för torrvaror i kök\nEn hylla i kyl o en i frys.\nEn hylla i badrum o upphängning för handduk o badlakan.\nDu får vistas i lägenheten inklusive balkong mot väster, solläge. \nStor tvättstuga i bottenplan med två tvättmaskiner torktumlare o stort torkrum\nDen ligger i direkt anslutning till hiss i bottenplan. Föreningen har 23 medlemmar o dom flesta har tvättmaskin i sin lägenhet, så där är nästan alltid ledigt. Tvättlås finns.\nStädning o sopsortering är viktigt för o följa regler i boendet.\nUppträd trevligt o hälsa på andra boende i föreningen när ni möts i trapphus eller gården.\nVälkommen ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 6200,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T13:13:19+00:00", "clock": "13:13:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T13:58:22+00:00", "clock": "13:58:22"};
