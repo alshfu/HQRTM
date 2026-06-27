@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Hallegatan , Göteborg",
+    "url": "https://qasa.com/p/1401029",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c63a84995b281cd0d7aa8d26fdb898ab2bc2da3e9097869b3c4cff72887bdb3.jpg",
+    "description": "Välkommen till Övre Hallegatan 54! \n\nDu välkomnas av en välplanerad och ljus 1,5:a på 35 kvm med vita väggar, och stora fönster som skapar ett härligt ljusinsläpp. Här erbjuds en gedigen känsla av kvalitativa- och stilfulla val. Lägenheten har alla bekvämligheter man kan önska sig i form av inbyggda förvaringsutrymmen, fullt utrustat kök och tvättmaskin. Vardagsrummet består av en öppen planlösning med avskildhet för sovalkov som rymmer en stor dubbelsäng. Lägenheten har även utsikt mot en lugn grönskande innergård med egen uteplats för odling av växter eller bara njuta av den friska morgon luften.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norumshöjd, Göteborg",
     "url": "https://qasa.com/p/1400609",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Jenny Lindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1400710",
-    "image_url": null,
-    "description": "1 rum och kök",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 11060,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T04:42:25+00:00", "clock": "04:42:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-27T06:04:46+00:00", "clock": "06:04:46"};
