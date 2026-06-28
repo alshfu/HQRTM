@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stadsvaktegatan, Göteborg",
+    "url": "https://qasa.com/p/1401854",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/640cf769abda21178475baf16ed9019af7aeebb1d431024cad77c9730a373b6a.jpg",
+    "description": "Beskrivning\n•\t3 större rum i 100 m2 lägenhet i charmig sekelskiftes villa i likaledes charmigt och lugnt område\n•\tSeparat ingång, 2 vån utan hiss, \n•\tRök- och pälsdjursfritt.\n•\tDuschrum med WC, \n•\tKök med diskmaskin, separat kyl resp. frys, mikro, \n•\t10 m balkong\n•\tTvättstuga i källaren, 2 tvättmaskiner, mangel och möjlighet till att hänga tvätt\n•\tP-plats på gård. \n•\tLägenheten kan vara delvis möblerad efter önskemål\n•\tVärme och vatten ingår i hyran\n•\tAvgift för hushållsel/el-överföring tillkommer\n•\tTV och Internet ordnas av hyresgäst\n\nKommunikationer\n•\tAvstånd till Busshållplats, Orrebacksgatan: ca 500 m\n•\tAvstånd till Spårvagnshållplats, Bellevue: ca 1,8 km\n•\tRestid från Orrebacksgatan till Central stn. ca 17 min\n•\tAvstånd till affär, Ica: ca 500 m\n\nLjus och välskött lägenhet uthyres till ett lugnt och skötsamt par utan barn.  Vi söker hyresgäster som är rökfria har ordnad ekonomi och kommer att ta väl hand om lägenheten. Lägenheten passar perfekt för ett par som uppskattar ett lugnt och trvsamt boende. Långtidsuthyrning prioriteras.\nVid intresse, skicka gärna en kort presentation om er själva med information om arbete eller studier.  Välkommen att höra av er för mer information eller visning. \nNuvarande hyresgäster ställer gärna upp som referens, dom kan ge en bild av både lägenheten och omgivning för dem som är intresserade.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 100.0,
+    "rent": 15900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Djupedalsgatan, Göteborg",
     "url": "https://qasa.com/p/1401677",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c87544e1ae332be4e1724f60084220af4ed30a39f7c26a80ba2d3cbc6c2f928.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Barbro Hörbergs Gata, Göteborg",
-    "url": "https://qasa.com/p/1401554",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d57eb30a420e9c94eefe229cadce90dd3349b812f36340a5ddb9c2b07fcc8daf.jpg",
-    "description": "Ljus och modern 2: a med fin utsikt med centralt läge uthyres.\n\nUthyrning p.g.a. arbete på annan ort. Jag hyr ut min välplanerade 2:a på 55 kvm, belägen på femte våningen av sex, med en fin utsikt.\nLägenheten, som byggdes 2017, har en öppen planlösning mellan kök och vardagsrum, och en stor kvadratisk inglasad balkong i väst-söderläge som fungerar som ett extra rum med sol från morgon till kväll. I sovrummet finns fyra rymliga garderober och en stor garderob i hallen. Badrummet är väl tilltaget och utrustat med tvättmaskin och torktumlare. Det ingår även ett källarförråd i hyran. \n\nOmrådet är lugnt och skönt.  Delsjöskogen ligger precis utanför dörren med 10 minuters promenadavstånd till sjön och badplats. Lägenheten ligger endast 5 minuters promenad från Bögatans station (vilket ger åtkomst till Avenyn och hela centrala Göteborg på kort tid), samt 15 minuters promenadavstånd till Liseberg och Korsvägen. \n\nLägenheten hyrs ut möblerad. I hyran ingår el, värme, vatten och bredband. Möjlighet till privat parkeringsgarage finns i källaren. \nLägenheten hyrs ut på ett år med möjlighet till förlängning, tillträde 2026 08 01 men kan diskuteras.  Uppsägning för hyrestagare 1 månad, uppsägning för hyresvärd 3månader. \n\nRenoveringar: Ommålning av alla rum 2024.\n\nVälkommen att höra av dig för mer information eller för att boka en visning!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 15200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T18:05:33+00:00", "clock": "18:05:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T18:37:53+00:00", "clock": "18:37:53"};
