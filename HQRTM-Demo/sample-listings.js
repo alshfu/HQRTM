@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Djupedalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1401677",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c87544e1ae332be4e1724f60084220af4ed30a39f7c26a80ba2d3cbc6c2f928.jpg",
+    "description": "Underbar sekelskifteslägenhet med takhöjd om ca 3m, samt balkong och stora fönster med fantastisk utsikt över takåsarna i populära Linné!\nPå en lugn återvändsgata i ett rofyllt kvarter mitt i Linné finner ni denna underbara lägenhet i ett charmigt sekelskifteshus.\nDet härliga sovrummet ger en mysig känsla samtidigt som takhöjden och de vackra trägolven skapar en atmosfär av lyx och harmoni. Ljuset flödar in genom fönstren och skapar en härlig atmosfär som får dig att känna dig hemma direkt.\n\nOBS! Inredning skiljer sig något från bilder.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Styrsö, Styrsö",
     "url": "https://qasa.com/p/1401642",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88cc3a2edaf7d29539c8bf196b2a0cff9908fe5b658880847d69ec61d8bd2fde.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Ågatan, Göteborg",
-    "url": "https://qasa.com/p/1400954",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cbef1cd34f5045215ea83d490b822599aca8bc7ecc326ad897fd50a4e600b261.jpg",
-    "description": "Hej, jag vill dela min bostad med två andra personer då det är alldeles för stort för mig ensam. \n Rummet däruppe är uthyrt.\n\nVill hyra ut det sovrummet  som är på nedre våningen som är 20 kvm, kostnaden är 6690 plus qasas avgft.\n\nDet är ett stort rum på övervåningen på 20 kvm som är uthyrt.\n\n\nDet finns två rum  på nedervåningen , ett på på 20kvm som ska hyras ut. samt ett på 7 kvm där jag bor nån gång i månaden. Lägenheten är 92 kvm. Det finns två toaletter med dusch, vardagsrum och kök. Finns en terrass och en balkong.  Vi delar på gemensamma områden.\n\nHyran delar vi på den ytan vi får. \nHyran delat i 92 och sen gångrar med kvadraten på rummen samt varsin tredjedel av resten.  Normalt påslag för möblerat. Hyran är kallhyra så vi delar El, värme och vatten i tre. Internet betalar jag. Det är ca 200 kronor påslag per person totalt. per månad \n\n2026 års hyra\n\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6690,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T12:49:52+00:00", "clock": "12:49:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T13:25:26+00:00", "clock": "13:25:26"};
