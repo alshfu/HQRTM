@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Styrsö, Styrsö",
+    "url": "https://qasa.com/p/1401642",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88cc3a2edaf7d29539c8bf196b2a0cff9908fe5b658880847d69ec61d8bd2fde.jpg",
+    "description": "FOR ENGLISH VERSION SEE BELOW\n\nMöblerad bostad uthyres på Styrsö \n\nMöblerad bostad, 3 rum och kök, cirka 60 kvm, med 2 sovrum, allrum/kök, toa/dusch.\n\nBostaden är ljus och fräsch och ligger på Styrsö i Göteborgs vackra södra skärgård. \n\nFin, lummig trädgård, stor veranda med ett stort uterum, cirka 25 kvm, som är användbart större delen av året, fräsch nyrenoverad dusch/toa med golvvärme, tvättmaskin, mikrovågsugn, TV, tillgång till internet via fiber, cirka 200 meter till vacker strand. Affärer, vårdcentral, bibliotek, gym, kaféer och restauranger inom gångavstånd. Huset innehåller en öppen spis för trivseleldning; dessutom finns en effektiv täljstenskamin som kan eldas med ved och spara uppvärmningskostnader. \n \nGoda allmänna kommunikationer med bekväma pendelförbindelser till Göteborgs centrum. Pendlingsavstånd: ca 25 minuter med passagerarfärja + ca 15 minuter med snabb-buss till Göteborgs centrum. Västtrafiks lokala taxa för Göteborg, eller månadskort för Göteborg, gäller från dörr till dörr. \n\nHyrestid: 1 september 2026 - 31 maj 2027. Datum kan justeras något åt ena eller andra hållet för att anpassas till läsåret 2026/2027. \n\nMånadshyra: 7 800 kronor plus självkostnad för el och vatten. \n\nUnikt tillfälle att hyra en bostad i Göteborgs södra skärgård. \n\nVisning efter överenskommelse.\n\n\n- - - - - - - - - - - - - - - - - - - - - - - - - \n\nFurnished home for rent on Styrsö\n\nFurnished residence, 3 rooms and kitchen, approximately 60 sqm, with 2 bedrooms, living room/kitchen, toilet/shower.\n\nThe home is bright and fresh and is located on Styrsö in Gothenburg's beautiful southern archipelago.\n\nNice, lush garden, large veranda with a large outdoor room, about 25 sqm, which is usable most of the year, fresh newly renovated shower/toilet with underfloor heating, washing machine, microwave, TV, internet access via fiber, approx. 200 meters to beautiful beach. Shops, health centre, library, gym, cafes and restaurants within walking distance. The house contains a fireplace for cosy fire; in addition, there is an efficient soapstone stove that can be fired with wood and save on heating costs.\n\nGood public transport with convenient shuttle connections to the center of Gothenburg. Commuting distance: approx. 25 minutes by passenger ferry + approx. 15 minutes by express bus to the center of Gothenburg. Västtrafik's local tariff for Gothenburg, or monthly pass for Gothenburg, applies from door to door.\n\nRental period: 1 September 2026 - 31 May 2027. Date can be adjusted slightly in one direction or the other to adapt to the academic year 2026/2027.\n\nMonthly rent: SEK 7,800 plus actual cost of electricity and water.\n\nUnique opportunity to rent a home in Gothenburg's southern archipelago.\n\nViewing by appointment.",
+    "district": "Styrsö",
+    "rooms": 3.0,
+    "area_m2": 60.0,
+    "rent": 7800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stenströmsgatan, Göteborg",
     "url": "https://qasa.com/p/1401641",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9cca39562f527f569929040461c2a4711bb3e4f9d93e8f10b145c49f7a5027ba.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hovås Bronsåldersväg, Hovås",
-    "url": "https://qasa.com/p/1401469",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ab72c5236550d83c9ce29996e5d67e6557f77f75a52756ce924b4782de0cfdc.jpg",
-    "description": "Separat lägenhet 1,5 rok  i villa med egen uteplats. och separat entré. Endast 1 person. \nUthyres från datum enligt överenskommelse. Hyra 8900 kr månad inkl: Möbler, el, vatten, värme, wifi, sophämtning,, carport och tvättmaskin. 300 meter till busshållplats med goda förbindelser, 15 minuter till \ncentrum. \nReferenser krävs, student eller arbete \n2 månaders uppsägning \n1 månads deposition",
-    "district": "Hovås",
-    "rooms": 1.5,
-    "area_m2": 50.0,
-    "rent": 9800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T12:14:59+00:00", "clock": "12:14:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T12:49:52+00:00", "clock": "12:49:52"};
