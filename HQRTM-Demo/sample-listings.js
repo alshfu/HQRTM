@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hovås Bronsåldersväg, Hovås",
+    "url": "https://qasa.com/p/1401469",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ab72c5236550d83c9ce29996e5d67e6557f77f75a52756ce924b4782de0cfdc.jpg",
+    "description": "Separat lägenhet 1,5 rok  i villa med egen uteplats. och separat entré. Endast 1 person. \nUthyres från datum enligt överenskommelse. Hyra 8900 kr månad inkl: Möbler, el, vatten, värme, wifi, sophämtning,, carport och tvättmaskin. 300 meter till busshållplats med goda förbindelser, 15 minuter till \ncentrum. \nReferenser krävs, student eller arbete \n2 månaders uppsägning \n1 månads deposition",
+    "district": "Hovås",
+    "rooms": 1.5,
+    "area_m2": 50.0,
+    "rent": 9800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Västerslänt, Angered",
     "url": "https://qasa.com/p/1400871",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc058b96ce4fa38c399dcfcc630dc8c3efb70b3ee7af1e8f4f3002b5fa896173.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Hallegatan , Göteborg",
-    "url": "https://qasa.com/p/1401029",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c63a84995b281cd0d7aa8d26fdb898ab2bc2da3e9097869b3c4cff72887bdb3.jpg",
-    "description": "Välkommen till Övre Hallegatan 54! \n\nDu välkomnas av en välplanerad och ljus 1,5:a på 35 kvm med vita väggar, och stora fönster som skapar ett härligt ljusinsläpp. Här erbjuds en gedigen känsla av kvalitativa- och stilfulla val. Lägenheten har alla bekvämligheter man kan önska sig i form av inbyggda förvaringsutrymmen, fullt utrustat kök och tvättmaskin. Vardagsrummet består av en öppen planlösning med avskildhet för sovalkov som rymmer en stor dubbelsäng. Lägenheten har även utsikt mot en lugn grönskande innergård med egen uteplats för odling av växter eller bara njuta av den friska morgon luften.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T06:39:11+00:00", "clock": "06:39:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T07:59:11+00:00", "clock": "07:59:11"};
