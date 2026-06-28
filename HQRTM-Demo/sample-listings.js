@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Ågatan, Göteborg",
+    "url": "https://qasa.com/p/1400954",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cbef1cd34f5045215ea83d490b822599aca8bc7ecc326ad897fd50a4e600b261.jpg",
+    "description": "Hej, jag vill dela min bostad med två andra personer då det är alldeles för stort för mig ensam. \n Rummet däruppe är uthyrt.\n\nVill hyra ut det sovrummet  som är på nedre våningen som är 20 kvm, kostnaden är 6690 plus qasas avgft.\n\nDet är ett stort rum på övervåningen på 20 kvm som är uthyrt.\n\n\nDet finns två rum  på nedervåningen , ett på på 20kvm som ska hyras ut. samt ett på 7 kvm där jag bor nån gång i månaden. Lägenheten är 92 kvm. Det finns två toaletter med dusch, vardagsrum och kök. Finns en terrass och en balkong.  Vi delar på gemensamma områden.\n\nHyran delar vi på den ytan vi får. \nHyran delat i 92 och sen gångrar med kvadraten på rummen samt varsin tredjedel av resten.  Normalt påslag för möblerat. Hyran är kallhyra så vi delar El, värme och vatten i tre. Internet betalar jag. Det är ca 200 kronor påslag per person totalt. per månad \n\n2026 års hyra\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6690,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hovås Bronsåldersväg, Hovås",
     "url": "https://qasa.com/p/1401469",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ab72c5236550d83c9ce29996e5d67e6557f77f75a52756ce924b4782de0cfdc.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gyllenkrooksgatan, Göteborg",
-    "url": "https://qasa.com/p/1400851",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8af0560ccfa9f93d76d6550fe500d93b8607e2a4742ac74d67080f89483db8a4.jpg",
-    "description": "Nu finns möjligheten att hyra min fina lägenhet i Johanneberg. Lägenheten är en smakfullt renoverad tvåa om 51 kvm, belägen högst upp i huset. Den är nyrenoverad (förutom badrummet) och erbjuder en öppen planlösning med gott om förvaring, härligt ljusinsläpp och en balkong med fantastisk utsikt.\n\nLägenheten ligger i attraktiva Johanneberg som är ett lugnt och trivsamt område med närhet till både grönområden och stadspuls. Här bor du med gångavstånd till Chalmers, Korsvägen, Liseberg och Avenyn, samtidigt som restauranger, caféer, matbutiker och goda kommunikationer finns i närområdet.\n\nLägenheten hyrs ut fullt möblerad med önskad inflytt omkring september. Tanken är att hyra ut den i cirka tre månader, men jag är lite flexibel kring både inflyttningsdatum och hyresperiod för rätt hyresgäst. Hyran är 17 000 kr per månad, där el, vatten och internet ingår.\n\nJag söker en ansvarsfull och skötsam hyresgäst med stabil ekonomi som kommer att ta väl hand om lägenheten. Hyresgästen behöver godkännas av bostadsrättsföreningen innan kontrakt kan tecknas. Referenser kommer att efterfrågas och en deposition motsvarande en månadshyra tas ut innan inflyttning. Rökning, husdjur och fester i lägenheten är inte tillåtna.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 16046,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T07:59:11+00:00", "clock": "07:59:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T09:14:38+00:00", "clock": "09:14:38"};
