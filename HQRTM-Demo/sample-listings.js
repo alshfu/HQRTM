@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Temperaturgatan 29, Göteborg",
+    "url": "https://qasa.com/p/1401956",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94dd581da22a7a6f5f619ece14df75cb4c469155a7a574c8c74a2cc85ba1742a.jpg",
+    "description": "1 oktober kan vi erbjuda en 4 rum och kök på Temperaturgatan 29.\nLägenheten ligger på våning 3 och är disponerad på 96 kvm.\n\nLägenheten är helrenoverad från 2018.\n\nVi erbjuder dig en fysisk visning med nuvarande hyresgäst!\nAnsök redan idag! ",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 96.0,
+    "rent": 11772,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Djupedalsgatan, Göteborg",
     "url": "https://qasa.com/p/1401677",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c87544e1ae332be4e1724f60084220af4ed30a39f7c26a80ba2d3cbc6c2f928.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Engelbrektsgatan, Göteborg",
-    "url": "https://qasa.com/p/1401514",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac96a7949b9c09aa034e1fb69233fb2ba8da2320831ba33abc14a77b5539be7e.jpg",
-    "description": "En trea på 82 kvm med stor balkong mot en grönskande gård. Rum med tv och anslutande klädkammare. Du delar lgh med en tjej från Portugal.  Ingår bredband och el.\n\nNära till spårvagn, universitet och mataffärer.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 17.0,
-    "rent": 6100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T19:44:31+00:00", "clock": "19:44:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-28T20:15:54+00:00", "clock": "20:15:54"};
