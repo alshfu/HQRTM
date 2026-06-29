@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Monsungatan, Göteborg",
+    "url": "https://qasa.com/p/1399876",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/254c0e57c66e2fda149f41dd333302167ff10445cd2f5e44aeadaa225e08ccd8.jpg",
+    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fjällbo Ängsväg, Göteborg",
+    "url": "https://qasa.com/p/1402065",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca4cc7a2532ab305df8acb6121feb71368c00e5a371d976ecbbbc8abedba7ae3.jpg",
+    "description": "Rymlig planlösning med 4 rum och kök med generös takhöjd, härligt ljusinsläpp, 3 sovrum, 2 badrum och uteplats i soligt västerläge!\n\n1. Master sovrum (+ walk-in closet)\n2. Barn sovrum (90x200cm säng)\n3. Office rum\n\n**omöblerad (endast barnsäng med en extra utdragbar säng tillgänglig, båda 90x200 cm)\n\n** Vi har tillstånd att hyra ut ett år i taget med godkännande från bostadsrättsföreningen. Det finns möjlighet till förlängning efter ettårsperioden.\n\nVarmt välkommen till Fjällbo park och detta nya och spännande området i Utby. Här finns närhet till skolor, service, naturomgivningar samt goda kommunikationer till både Göteborg och Partille centrum.\n\nFjällbo Park är perfekt för dig som vill bo nära grönskan och lugnet – på alldeles lagom avstånd från centrum. Såväl bostaden som området passar utmärkt för en växande familj. Området är lugnt och familjevänligt med stora möjligheter att utforska den vackra naturen runtomkring. Här har du gångavstånd till flera förskolor, skolor och kommunikationer. Fritidsaktiviteter och fin natur erbjuds där du har närhet till fotbollsplaner på Lemmingsvallen, gym, volleyboll, utomhushinderbana bland mycket annat på Prioritet Serneke arena i Kviberg samt fint naturområde vid Fjällbo ängar och fiske i Säveån. Goda kommunikationer mot både Göteborg och Partille via buss nära bostaden. Service finns i form av bland annat Ica Nära Utby, I love pizza, köpcentret Allum och Sävedalens köpgatan nås inom kort cykel- buss-, eller bilresa.",
+    "district": "Göteborg",
+    "rooms": 4.5,
+    "area_m2": 91.0,
+    "rent": 23000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stadsvaktegatan, Göteborg",
     "url": "https://qasa.com/p/1401854",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/640cf769abda21178475baf16ed9019af7aeebb1d431024cad77c9730a373b6a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Älvhålegatan, Göteborg",
-    "url": "https://qasa.com/p/1401604",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1fbe9bb38ae3cee05c2fde7d896d2c90574b3a59c73226d6b612981f0bc428a7.jpg",
-    "description": "Lägenhet i villa uthyres. Lägenheten består av tre rum och en gäststuga.\nFrån hallen går en trappa upp till rummen och toaletten. Köket ligger på entréplan.\n\nSnöröjning och gräsklippning ombesörjes av hyresgästen.\n\nTrädgård, balkong, altan och uterum tillhör lägenheten.\nBostaden ligger bra till, granne med naturen och ca 7 min till hållplats.\n\nKallhyra:11700kr/mån\nEl, vatten och renhållning tillkommer, abonnemang tecknas av hyresgästen.\nDeposition för hyra och betalning av flyttstädning erläggs vid tillträde.\n\nDelvis möblerat.\nDjurfritt och rökfritt.\n\nDet är en fördel om du tycker om trädgårdsarbete.\n\nTvättstuga i källaren.\n\nEtt krav är att den/de boende är ansvarsfulla och ordningssamma. Engagemang krävs till den tillhörande trädgården och snöröjning under vintern. \n\nVi ordnar med visning på dagtid, vardagar.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 75.0,
-    "rent": 11700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Intagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1401579",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e1773c8c5dd95eab642bc1b0c4925ed211f983626fc7d1c3f516c805f328061a.jpg",
-    "description": "Lägenhet med 1 sovrum, 1 vardagsrum,1  kök, 1 klädkammare, 1 badrum. \nPlatsbyggda garderober i sovrum. Ljus och fräsch, renoverad 2020. \nLigger i ett tryggt och lugnt område i göteborg. Närhet till spårvagn och buss med förbindelser till centrum. \nMataffärer på nära gångavstånd. \n\nKan även hyras ut delvis möblerad/omöblerad. \n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T05:12:30+00:00", "clock": "05:12:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T06:58:27+00:00", "clock": "06:58:27"};
