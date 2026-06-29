@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1401731",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80505da2d549d7f54d93a3170179873bf3ede571ec2f1703b8ae06e50e8456af.jpg",
+    "description": "\nVälkommen till en modern och stilren 2:a i attraktiva Lundby, Göteborg. Här bor du i ett bekvämt och välplanerat hem med hög standard och närhet till både city och natur.\n\nLägenheten om 50 kvm är byggd 2020 och uppdaterad med nytt kök och badrum (2024), vilket ger ett fräscht och modernt intryck. Bostaden erbjuder alla bekvämligheter för en smidig vardag, inklusive fullt utrustat kök, internet och TV.\n\nTill lägenheten hör parkeringsplats med möjlighet till elbilsladdning. I fastigheten finns även tvättstuga, cykelrum och återvinning. Säkerhetsdörr ger extra trygghet.\n\nHär bor du på Gamla Björlandavägen med goda kommunikationer och närhet till Göteborgs stadspuls. Samtidigt har du naturen runt hörnet med Keillers Park och fina promenadstråk.\n\nInflyttning från 1  aug 2026. Kontrakt till  1 sep  2028.\n\nPunktform \n📍 Läge: Lundby, Göteborg (Gamla Björlandavägen7)\n🏠 Typ: 2 rok, 50 kvm, plan 3\n🏗️ Byggår: tot rev 2020\n🔧 Renoverat: Kök & badrum 2024\n\n\nING\nDiskmaskin & mikrovågsugn\nInternet & TV\nParkeringsplats med elbilsladdning\nSäkerhetsdörr\nEL/ ELNÄT\nVatten och värme \n\nGemensamt:\nTvättstuga\nCykelrum\nÅtervinningsstation ( restavfall och blandad avfall)\n\nOmråde:\nNära kollektivtrafik (bussar inom gångavstånd)\nNära natur & Keillers Park\nSnabb access till centrala Göteborg\n\nÖvrigt:\n📅 Inflytt: 2026-08 01\n📄 Kontrakt: till 2028-0801",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11000,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1399876",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/254c0e57c66e2fda149f41dd333302167ff10445cd2f5e44aeadaa225e08ccd8.jpg",
@@ -25,7 +40,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 4.5,
     "area_m2": 91.0,
-    "rent": 23000,
+    "rent": 21800,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stenströmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1401641",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9cca39562f527f569929040461c2a4711bb3e4f9d93e8f10b145c49f7a5027ba.jpg",
-    "description": "Möblerad gaveltvåa i Kålltorp — nära natur och stad\n\nHärlig och ljus gaveltvåa om 53 kvm i mysiga Kålltorp. Lägenheten är totalrenoverad 2020,  har högt i tak och en härlig balkong i sydvästläge. Bostaden hyrs ut möblerad och passar perfekt för dig som vill ha närhet till både natur och stad.\n\nHär bor du med Skatås och Delsjöområdets natur precis i närheten, samtidigt som du når centrala Göteborg på cirka 10 minuter med spårvagnslinje 5 eller 3. Hållplatsen ligger endast någon minuts promenad bort och i området finns mysiga kvartersrestauranger, handelsträdgård, cykelbutik och annan service. \n\nHyra: 12500 kr/mån (inkl. el, värme och bredband)\nInflytt: mitten av mars, efter godkännande från bostadsrättsföreningen\nFörråd finns tillgängligt.\n\nSe bilder för planritning.\n\nJag söker en skötsam och ansvarsfull hyresgäst med stabil ekonomi. Berätta gärna lite om dig själv vid intresse!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T06:58:27+00:00", "clock": "06:58:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T08:45:08+00:00", "clock": "08:45:08"};
