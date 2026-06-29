@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Danska Vägen, Göteborg",
+    "url": "https://qasa.com/p/1402722",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b8a1aba4b331f49d02b37204e31cfd201533f81267d93fca531e73a3e6b1ffa.jpg",
+    "description": "SNÄLLA LÄS HELA ANNONSEN NOGA FÖRST INNAN NI SVARAR!\n----------------‐--------------------------------\n\nJag söker en inneboende som vill dela min bostad med mig så vi delar på samtliga utrymmen som kök, toalett/dusch finns bara ett vardagsrum och kök och hall och toalett, min lägenhet är en 1:A 35 kvm\n\nHyresgästen hyr ett rum och det är hela vardagsrummet som även blir sovrum\nCa 15 kvm typ \nRUMMET HAR INGEN EGEN DÖRR\nKÖKET HAR EGEN DÖRR! \nHar tillgång till köket,toalett/dusch/hall \n\nOBS***Jag har min arbetsplats och sovplats i ett eget hörn i köket så det blir min plats***\n\n\nOBS : Det är mycket lyhört i lägenheten så det gäller att hålla volymen väldigt låg och tyst från 22\nOrdning och reda och städat hemma är viktigt!\n  OBS : Det finns tvättstuga på gården\n\nHyresvärden\n\nJag är en skötsam kille på 43 år\nJobbar och sliter\nSnäll trevlig omtänksam\nJag jobbar mycket och är hos min flickvän mycket så är inte hemma så mycket!\nBåde jag och den inneboende kommer att ha mycket egentid ändå! \n\nLägenheten ligger ganska centralt\nNära till buss och spårvagn vid redbergsplatsen\n\nNära till affärer\n\nHyran 2500 kr, el ingår!\nInflyttning 10 juli men kan bli tidigare eller senare möjligtvis\n\nDeposit 30.000 kronor kontraktskrivning\nHyrengesten ska hyra hos mig under minst 1 år eller mer!\njag har inneboendekontrakt papper redo satt det finns att använda!\n\n\n\n------------------------------------\n\nPLEASE READ THE ENTIRE ADVERTISEMENT CAREFULLY BEFORE YOU REPLY!\n----------------‐--------------------------------\n\nI am looking for a roommate who wants to share my home with me so we share all the spaces such as kitchen, toilet/shower, there is only a living room and kitchen and hallway and toilet, my apartment is a 1:A 35 sqm\n\nThe tenant rents one room and it is the entire living room that also becomes a bedroom\nAbout 15 sqm\nHave access to the kitchen, toilet/shower/hall \n\n***I have my workplace and sleeping area in a separate corner in the kitchen so it becomes my place***\n\nNOTE: It is very sensitive in the apartment so it is important to keep the volume very low and quiet from 22\nOrder and order and cleanliness at home are important!\n NOTE: There is a laundry room in the yard\n\nLandlord\n\nI am a neat guy of 43 years\nWorks and struggles\nKind, nice, caring\nI work a lot and am with my girlfriend a lot so I am not home that much!\nBoth I and the tenant will have a lot of time to myself anyway! \n\nThe apartment is quite central\nClose to the bus and tram at Redbergsplatsen\n\nClose to shops\n\nThe rent is 2500 SEK, electricity included!\nMove-in July 10 but can be earlier or later possibly\n\nDeposit 30.000 SEK contract writing\nThe tenant will rent with me for at least 1 year or more!\nI have the tenant contract paper ready, it is available to use!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 2500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lillekärr södra, Hisings Kärra",
+    "url": "https://qasa.com/p/1402752",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a79d468c83371083cd4031e3ea82e3689ba4b2dae0b5e59540d83df244c4dad9.jpg",
+    "description": "Hej!\nJag hyr nu ut min mysiga och välmöblerade tvåa, då jag har flyttat in med min sambo i hans lägenhet. Lägenheten är perfekt för ett par eller en mindre familj som söker ett lugnt och barnvänligt område nära både stad och natur.\n\nOm lägenheten:\nHyra: 12 500 kr/mån\n\nIngår i hyran: Värme, varmvatten, el, parkering, bredband, möbler, städsaker, TV, köksutrustning (tallrikar, bestick), samt gott om förvaring. Eget förråd kan diskuteras.\nLeverantör för TV & bredband: Tele2/Comhem kopplat till föreningen.\nInflytt: Tidigast 1 juni\n\nStorlek: 62 kvm, ligger en trappa upp (utan hiss).\n\nBekvämligheter: Tvättmaskin, diskmaskin, inglasad balkong, badkar, och gott om förvaring i både hall och sovrum.\n\nLäge:\nLägenheten ligger på norra Hisingen med bra kommunikationer till Kungälv, Backaplan och Göteborgs centrum. Närmsta busshållplats till lägenheten är Kärra Kyrka och är några minuters promenad dit. Du har också nära till Bäckebol köpcentrum och natursköna omgivningar. \n\nÖvrigt:\nLägenheten är möblerad, men jag är öppen för att diskutera möbleringen om du har egna möbler. Hyran inkluderar parkering och du får även tillgång till en gemensam tvättstuga i byggnaden. Området är lugnt, barnvänligt och har en lekplats på innergården samt närhet till gröna områden.\n\nUthyrningsvillkor:\nLägenheten hyrs ut i andra hand med 2 månaders uppsägningstid.\n\n Hoppas att höra från dig/er snart!",
+    "district": "Hisings Kärra",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bratteråsgatan, Göteborg",
     "url": "https://qasa.com/p/1402684",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/425be5266f2225102e364d6d61c0ec249072270a399b26bf8b3ccd999f551a72.jpg",
@@ -18,17 +48,17 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Termometergatan, Göteborg",
-    "url": "https://qasa.com/p/1402635",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d4f77a55c6b589c241a063f84605a0057889d4cebd3d783eb7fb00060c6b201.jpg",
-    "description": "Bostaden är i bra skick. Det är en vila som är ren. Området är väldigt lugnt. Uteplatsen är stor och utsikten går till skogen. Parkering och förråd ingår. I villan ingår både kyl, frys, ugn, spis och mer (se nedan). Grannarna är väldigt trevliga. Och villan har vi sett till att den är fräsch. Villan är nära till busshållplatsen och ca 7 minuter till spårvagnarna. Den är även nära till skola och förskola, samt livsmedelsbutiker. Det ligger sportplatser i närheten med fotbollsplan.",
+    "title": "Lilla Tunnlandsgatan 7, Göteborg",
+    "url": "https://qasa.com/p/1402764",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/18c10bdb82912c478ba86e999ad55ba7ecaef9b142f9515b32c8d24059d67df0.jpg",
+    "description": "Välplanerad modern lägenhet med allt du behöver! Trevligt öppet kök/vardagsrum med utgång till den generösa balkongen med sol eftermiddag/kväll. Sovalkov med yteffektiv väggförvaring. \nHelkaklat badrum med dusch och tvättmaskin. Fastigheten som uppfördes 2014 ligger på kort promenadavstånd till Marklandsgatan som är knutpunkt för många av Västtrafiks linjer. \nDet finns parkeringsplatser både i garage och utomhus, men för närvarande är det fullt uthyrt och viss kö till. \nKostnaden för förbrukat varmvatten tillkommer. \n",
     "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 125.0,
-    "rent": 17500,
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 6940,
     "floor": null,
     "has_balcony": true,
-    "has_kitchen": null,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Atmosfärgatan 27, Göteborg",
-    "url": "https://qasa.com/p/1402714",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd9f5b40fc696ecbfecffb237fb0303611531af17afcfa77410126d54345c354.jpg",
-    "description": "Välkommen till Atmosfärgatan 27!\nHär erbjuder vi en välplanerad 2 rum och kök på 65 kvm med ljusa materialval.\n\nUnder totalrenoveringen 2019 har vi målat om samtliga väggar, tak och installerat en säkerhetsdörr. Hallen har får ett klinkergolv som är både snyggt och praktiskt och resten av hemmet ett parkettgolv i ek av hög kvalitet. Klinker återkommer tillsammans med kakel i badrummet som även försetts med handdukstork och spegel med LED-belysning. Egen tvättmaskin och torktumlare finns i badrummet. I köket, hemmets hjärta, finns inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kyl och frys.\n\nBra att veta om lägenheten:\nDet är inplanerat ett stambyte i denna fastighet under vintern 2027. Stamrenoveringen kommer inte medföra en hyreshöjning för denna lägenhet.\nVi kommer inte ha någon visning på lägenheten utan den kommer visas enligt planritning. Bilderna i annonsen är exempelbilder och och normalt slitage kan förekomma i lägenheten.\nAnnonserad hyra avser 2026 års hyrresnivå.\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder ska byggas och området kommer utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran, återkom i god tid om intresse finns att hyra en plats.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 9803,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Lundbygatan, Göteborg",
-    "url": "https://qasa.com/p/1402484",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dba6c912afceaadd7ba9947f29337165bf6a1826028453b153324dc0ef96ba5d.jpg",
-    "description": "Stor 2:a på 80 m2. De två rummen är lika stora, stort kök och badrum.\n med Tvätt och Torktumlare.\nMan går en halvtrappa upp till entren. Stor egen uteplats.\nNära Eketrägatan, där buss och spårvagnar finns.\n\nHuset har 3 st lägenheter totalt.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 80.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T15:01:17+00:00", "clock": "15:01:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T16:25:21+00:00", "clock": "16:25:21"};
