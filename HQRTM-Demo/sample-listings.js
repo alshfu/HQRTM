@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Amiralitetsgatan, Göteborg",
+    "url": "https://qasa.com/p/1371586",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b4e0fcb371ddc66670bddee2c1b4f476d638bd317b26101e66e077aae8586ea5.jpg",
+    "description": "Hörnlägenhet i funkishus med balkong mot Söderlingska parken.\n\nNära till matbutiker och kommunikationer. \n\nSocial planlösning mellan kök och allrum. \n\nUthyres pga samboprövning, ett år med möjlighet för längre. \n\nEl och internet ingår. \n\nFörråd kan hyras vid behov. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lindholmsallén, Göteborg",
     "url": "https://qasa.com/p/1402952",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b5c79ad8b36226d727dfca3939a6ba764c691b91d2d68d554678304a16ff7cb1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillekärr södra, Hisings Kärra",
-    "url": "https://qasa.com/p/1402752",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a79d468c83371083cd4031e3ea82e3689ba4b2dae0b5e59540d83df244c4dad9.jpg",
-    "description": "Hej!\nJag hyr nu ut min mysiga och välmöblerade tvåa, då jag har flyttat in med min sambo i hans lägenhet. Lägenheten är perfekt för ett par eller en mindre familj som söker ett lugnt och barnvänligt område nära både stad och natur.\n\nOm lägenheten:\nHyra: 12 500 kr/mån\n\nIngår i hyran: Värme, varmvatten, el, parkering, bredband, möbler, städsaker, TV, köksutrustning (tallrikar, bestick), samt gott om förvaring. Eget förråd kan diskuteras.\nLeverantör för TV & bredband: Tele2/Comhem kopplat till föreningen.\nInflytt: Tidigast 1 juni\n\nStorlek: 62 kvm, ligger en trappa upp (utan hiss).\n\nBekvämligheter: Tvättmaskin, diskmaskin, inglasad balkong, badkar, och gott om förvaring i både hall och sovrum.\n\nLäge:\nLägenheten ligger på norra Hisingen med bra kommunikationer till Kungälv, Backaplan och Göteborgs centrum. Närmsta busshållplats till lägenheten är Kärra Kyrka och är några minuters promenad dit. Du har också nära till Bäckebol köpcentrum och natursköna omgivningar. \n\nÖvrigt:\nLägenheten är möblerad, men jag är öppen för att diskutera möbleringen om du har egna möbler. Hyran inkluderar parkering och du får även tillgång till en gemensam tvättstuga i byggnaden. Området är lugnt, barnvänligt och har en lekplats på innergården samt närhet till gröna områden.\n\nUthyrningsvillkor:\nLägenheten hyrs ut i andra hand med 2 månaders uppsägningstid.\n\n Hoppas att höra från dig/er snart!",
-    "district": "Hisings Kärra",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T19:43:29+00:00", "clock": "19:43:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T20:27:57+00:00", "clock": "20:27:57"};
