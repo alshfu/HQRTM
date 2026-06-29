@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Termometergatan, Göteborg",
+    "url": "https://qasa.com/p/1402635",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d4f77a55c6b589c241a063f84605a0057889d4cebd3d783eb7fb00060c6b201.jpg",
+    "description": "Bostaden är i bra skick. Det är en vila som är ren. Området är väldigt lugnt. Uteplatsen är stor och utsikten går till skogen. Parkering och förråd ingår. I villan ingår både kyl, frys, ugn, spis och mer (se nedan). Grannarna är väldigt trevliga. Och villan har vi sett till att den är fräsch. Villan är nära till busshållplatsen och ca 7 minuter till spårvagnarna. Den är även nära till skola och förskola, samt livsmedelsbutiker. Det ligger sportplatser i närheten med fotbollsplan.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 125.0,
+    "rent": 17500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gamla Lundbygatan, Göteborg",
+    "url": "https://qasa.com/p/1402484",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dba6c912afceaadd7ba9947f29337165bf6a1826028453b153324dc0ef96ba5d.jpg",
+    "description": "Stor 2:a på 80 m2. De två rummen är lika stora, stort kök och badrum.\n med Tvätt och Torktumlare.\nMan går en halvtrappa upp till entren. Stor egen uteplats.\nNära Eketrägatan, där buss och spårvagnar finns.\n\nHuset har 3 st lägenheter totalt.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 80.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Flygplatsvägen, Torslanda",
     "url": "https://qasa.com/p/1402500",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/352f6a6704532d3ef60d90c69a04e69638a99eb6bbaab9cc5350748c48a10c3d.jpg",
@@ -27,6 +57,21 @@ window.HQRTM_SAMPLE = [
     "area_m2": 25.0,
     "rent": 4990,
     "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Atmosfärgatan 27, Göteborg",
+    "url": "https://qasa.com/p/1402615",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/434209ec096800536e035172bb53d508a28635b04c062097c1b73651604bbf52.jpg",
+    "description": "Välkommen till Atmosfärgatan 27! Här erbjuder vi en välplanerad 3 rum och kök på 83kvm med rymlig balkong. Under totalrenoveringen 2024 har vi målat om samtliga väggar, tak och installerat en säkerhetsdörr. Hallen har fått ett klinkergolv som är både snyggt och praktiskt och resten av hemmet ett parkettgolv i ek av hög kvalitet. Klinker återkommer tillsammans med kakel i badrummet som även försetts med handdukstork och spegel med LED-belysning. Det finns även klinkergolv på gäst-toaletten. Tvättmaskin/torktumlare finns i lägenheten. I köket, hemmets hjärta, finns inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kyl och frys. Bra att veta om lägenheten: Det är inplanerat ett stambyte i denna fastighet under vintern 2027. Stamrenoveringen kommer inte medföra en hyreshöjning för denna lägenhet Vi kommer inte ha någon visning på lägenheten utan den kommer visas enligt planritning. Bilder i annonsen är exempelbilder och normalt slitage kan förekomma i lägenheten. Annonserad hyra avser 2026 års hyresnivå. I hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder ska byggas och området kommer utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran. Hör av dig i god tid om du är intresserad av att hyra en plats.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 83.0,
+    "rent": 11833,
+    "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sandbanksvägen, Hisings Backa",
-    "url": "https://qasa.com/p/1379804",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/016b38ad09024fa752570e489c1cb9ffc39928c0f44e70d4d4ca65c18f6e998c.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/lra8qj3npimivzbinsg6/vastra-gotaland/hisings-backa/sandbanksvagen-92/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nI  lugna Skogome ligger detta mycket välplanerade 2-plansradhus, där en mysig känsla möter en funktionell planlösning. Bostaden har en delvis öppen planlösning mellan kök och vardagsrum som skapar en social och ljus atmosfär.\r\nPå entréplanet möts du av ett härligt vardagsrum med generöst ljusinsläpp från stora fönsterpartier i västerläge. Härifrån nås den soliga baksidan med en uteplats, som övergår i gräsmatta – en trivsam och lättskött utemiljö som passar både avkoppling och umgänge.\r\nKöket har en naturlig matplats vid fönstret samt en öppen kontakt mot vardagsrummet.  Entréplanet rymmer även en gästtoalett samt förvaringsmöjligheter under trappan och gott om garderober.\r\nÖvre planet är lika väl genomtänkt med tre sovrum, varav två har utsikt mot Tuve. Här finns också ett badrum, klädkammare samt en separat tvättstuga.\r\nSkogome erbjuder ett naturnära och lugnt boende med Hökälla våtmarkspark som granne, ett uppskattat naturområde med motionsspår och härliga promenadstråk. På kort gångavstånd ligger den moderna Skogomeskolan (F–åk 6), vilket gör området mycket barnvänligt och tryggt, med bilfria miljöer och parkeringsplatser.\r\nHär bor du dessutom med smidig kommunikation in till centrala Göteborg med både buss och bil. Inom några minuter når du Albatross och Sankt Jörgens Golfbana, där det även finns spa, träningsanläggning och restauranger i hög klass.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Hisings Backa",
-    "rooms": 4.0,
-    "area_m2": 104.0,
-    "rent": 18629,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Filmjölksgatan, Göteborg",
-    "url": "https://qasa.com/p/1402302",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/beb2f4aa49256a74b27eecb46644f66055559e0b768abfb10f23fe33721db48a.jpg",
-    "description": "🏠 Modern 2-rumslägenhet i Kallebäck – 54 kvm\n\nVälkommen till en ljus och välplanerad nybyggd lägenhet från 2022 i ett av Göteborgs mest trivsamma områden.\n\nLägenheten erbjuder:\n• 2 rum och kök på 54 kvm\n• Fullt utrustad med diskmaskin, tvättmaskin och torktumlare\n• Modern standard med hög kvalitet genomgående\n• Nybyggd 2022 – allt är fräscht och välskött\n• Bredband/Internet 250 ingår\n\nLäget:\nKallebäck är ett lugnt och välskött område med all service du behöver inom promenadavstånd. Direkt i närheten finns:\n• Nordic Wellness för träning\n• Mataffärer för vardagshandeln\n• Restauranger och caféer\n• Frisör\n\nHyrestid:\nJag hyr ut i 1–2 år då jag tillfälligt arbetar utomlands. Exakt längd kan diskuteras beroende på hur situationen utvecklar sig – så det finns viss flexibilitet.\n\nPerfekt för dig som vill bo modernt och bekvämt med ett aktivt och socialt område runt hörnet, och som söker ett tryggt boende på medellång sikt.\n\nVarmt välkommen att höra av dig för visning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 12305,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Basilikagatan 8, Angered",
-    "url": "https://qasa.com/p/1402474",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a208400ae8bada9f69618ca1d2dfc169abe244e31433d6b062e700984e1ecf0.jpg",
-    "description": "Trevlig fyrarumslägenhet i etage med takterass! \nKöket är ett vitt kvalitetskök från Vedum, självklart utrustat med diskmaskin och inbyggd mikro. Köket har en grå stenbänksskiva som även utgör stänkskyddet upp på väggen i anslutning till bänksskivan. I det helkaklade badrummet finns det tvättmaskin och torktumlare. Ett boende som erbjuder det lilla extra. \n\nbilderna i annonsen är tagna i ett annat projekt. ",
-    "district": "Angered",
-    "rooms": 4.0,
-    "area_m2": 89.0,
-    "rent": 16812,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T12:06:15+00:00", "clock": "12:06:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T13:46:17+00:00", "clock": "13:46:17"};
