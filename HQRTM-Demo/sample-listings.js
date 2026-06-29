@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ejdergatan, Göteborg",
+    "url": "https://qasa.com/p/1403074",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3878649f4393ad2b6439479e3243d544be289942d7e5d4db6a527ea365954dd6.jpg",
+    "description": "Planlösning:\nVi hyr ut vår tvåa som en välplanerad etta under perioden då vi är på utbytestermin. Ett av sovrummen kommer att användas som vårt privata förråd och kommer därför att vara låst under uthyrningstiden. Av den anledningen har vi också valt att sätta hyran på en nivå som motsvarar en etta.\n\nLägenheten nås via svalgång på våning 2. När du kommer in möts du av en rymlig hall med goda förvaringsmöjligheter. Vi har även satt upp flera väggmonterade hängare för ytterkläder och annan förvaring.\n\nRakt fram från hallen ligger ett stort och ljust vardagsrum som även fungerar som sovrum. Här kommer en 140 cm bred säng att stå placerad längs vänster vägg. Rummet har ett härligt ljusinsläpp och gott om plats för både avkoppling och arbete. Intill vardagsrummet finns ett extra förvaringsutrymme med klädställning och hyllor som erbjuder mycket förvaringsplats. Förbi detta ligger badrummet, som är utrustat med golvvärme.\n\nTill höger om hallen finns ett fullt utrustat kök. Vi som bor här älskar att laga mat, vilket innebär att köket är välutrustat med det mesta man kan behöva. Här finns även ett barbord med sittplatser för måltider. Köket har stort fönster mot innergården och ett fint ljusinsläpp.\n\nVad som ingår i hyran:\nLägenheten hyrs ut fullt möblerad. Hyran är 8 000 kr per månad och inkluderar hyra samt internet. El tillkommer och betalas av hyresgästen utifrån faktisk förbrukning.\n\nKommunikationer och område:\nLägenheten har ett mycket bra läge med goda kommunikationer. Det tar cirka 15 minuter att cykla in till centrala Göteborg (kungdportsplatsen). Precis utanför bostaden finns en spårvagnshållplats (Ejdergatan) där linje 6 och 8 tar dig till bland annat Korsvägen på cirka 12 minuter och Chalmers på 15 minuter. Om du vill ta dig till centrala Göteborg ligger Redbergsplatsen endast cirka 5 minuters promenad bort där både spårvagn 1,3 och buss 17 går. \n\nOmrådet är lugnt och trivsamt med närhet till grönområden, samtidigt som det finns ett härligt stadsliv runt Redbergsplatsen och slakthusbodarna med caféer, restauranger och barer. Det bor många studenter och unga vuxna i området, vilket bidrar till en väldigt trevlig och levande atmosfär.\n\nÖvrigt:\nFör den som uppskattar att vara utomhus finns en mysig och välskött innergård som kan nyttjas av de boende i föreningen. I uppgång A finns en gemensam tvättstuga utrustad med två tvättmaskiner, en torktumlare samt ett torkskåp. Det finns även två cykelförråd för smidig och säker förvaring av cyklar.\n\nVarför vi hyr ut bostaden:\nVi hyr ut vår lägenhet eftersom vi kommer att studera utomlands under en utbytestermin. Vi söker därför en ansvarsfull och skötsam hyresgäst som kan ta hand om vårt hem under tiden. En deposition motsvarande en månadshyra tas ut vid inflyttning och återbetalas efter utförd utflyttningsbesiktning, förutsatt att lägenheten återlämnas i gott skick.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 48.0,
+    "rent": 8000,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Amiralitetsgatan, Göteborg",
     "url": "https://qasa.com/p/1371586",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b4e0fcb371ddc66670bddee2c1b4f476d638bd317b26101e66e077aae8586ea5.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Danska Vägen, Göteborg",
-    "url": "https://qasa.com/p/1402722",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b8a1aba4b331f49d02b37204e31cfd201533f81267d93fca531e73a3e6b1ffa.jpg",
-    "description": "SNÄLLA LÄS HELA ANNONSEN NOGA FÖRST INNAN NI SVARAR!\n----------------‐--------------------------------\n\nJag söker en inneboende som vill dela min bostad med mig så vi delar på samtliga utrymmen som kök, toalett/dusch finns bara ett vardagsrum och kök och hall och toalett, min lägenhet är en 1:A 35 kvm\n\nHyresgästen hyr ett rum och det är hela vardagsrummet som även blir sovrum\nCa 15 kvm typ \nRUMMET HAR INGEN EGEN DÖRR\nKÖKET HAR EGEN DÖRR! \nHar tillgång till köket,toalett/dusch/hall \n\nOBS***Jag har min arbetsplats och sovplats i ett eget hörn i köket så det blir min plats***\n\n\nOBS : Det är mycket lyhört i lägenheten så det gäller att hålla volymen väldigt låg och tyst från 22\nOrdning och reda och städat hemma är viktigt!\n  OBS : Det finns tvättstuga på gården\n\nHyresvärden\n\nJag är en skötsam kille på 43 år\nJobbar och sliter\nSnäll trevlig omtänksam\nJag jobbar mycket och är hos min flickvän mycket så är inte hemma så mycket!\nBåde jag och den inneboende kommer att ha mycket egentid ändå! \n\nLägenheten ligger ganska centralt\nNära till buss och spårvagn vid redbergsplatsen\n\nNära till affärer\n\nHyran 2500 kr, el ingår!\nInflyttning 10 juli men kan bli tidigare eller senare möjligtvis\n\nDeposit 30.000 kronor kontraktskrivning\nHyrengesten ska hyra hos mig under minst 1 år eller mer!\njag har inneboendekontrakt papper redo satt det finns att använda!\n\n\n\n------------------------------------\n\nPLEASE READ THE ENTIRE ADVERTISEMENT CAREFULLY BEFORE YOU REPLY!\n----------------‐--------------------------------\n\nI am looking for a roommate who wants to share my home with me so we share all the spaces such as kitchen, toilet/shower, there is only a living room and kitchen and hallway and toilet, my apartment is a 1:A 35 sqm\n\nThe tenant rents one room and it is the entire living room that also becomes a bedroom\nAbout 15 sqm\nHave access to the kitchen, toilet/shower/hall \n\n***I have my workplace and sleeping area in a separate corner in the kitchen so it becomes my place***\n\nNOTE: It is very sensitive in the apartment so it is important to keep the volume very low and quiet from 22\nOrder and order and cleanliness at home are important!\n NOTE: There is a laundry room in the yard\n\nLandlord\n\nI am a neat guy of 43 years\nWorks and struggles\nKind, nice, caring\nI work a lot and am with my girlfriend a lot so I am not home that much!\nBoth I and the tenant will have a lot of time to myself anyway! \n\nThe apartment is quite central\nClose to the bus and tram at Redbergsplatsen\n\nClose to shops\n\nThe rent is 2500 SEK, electricity included!\nMove-in July 10 but can be earlier or later possibly\n\nDeposit 30.000 SEK contract writing\nThe tenant will rent with me for at least 1 year or more!\nI have the tenant contract paper ready, it is available to use!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 2500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T23:08:19+00:00", "clock": "23:08:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T23:35:50+00:00", "clock": "23:35:50"};
