@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sandbanksvägen, Hisings Backa",
+    "url": "https://qasa.com/p/1379804",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca883406dcd1a948d63ded8f3c56944f28214b2be0ef9170bd224acdd6eb3d91.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/lra8qj3npimivzbinsg6/vastra-gotaland/hisings-backa/sandbanksvagen-92/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nI  lugna Skogome ligger detta mycket välplanerade 2-plansradhus, där en mysig känsla möter en funktionell planlösning. Bostaden har en delvis öppen planlösning mellan kök och vardagsrum som skapar en social och ljus atmosfär.\r\nPå entréplanet möts du av ett härligt vardagsrum med generöst ljusinsläpp från stora fönsterpartier i västerläge. Härifrån nås den soliga baksidan med en uteplats, som övergår i gräsmatta – en trivsam och lättskött utemiljö som passar både avkoppling och umgänge.\r\nKöket har en naturlig matplats vid fönstret samt en öppen kontakt mot vardagsrummet.  Entréplanet rymmer även en gästtoalett samt förvaringsmöjligheter under trappan och gott om garderober.\r\nÖvre planet är lika väl genomtänkt med tre sovrum, varav två har utsikt mot Tuve. Här finns också ett badrum, klädkammare samt en separat tvättstuga.\r\nSkogome erbjuder ett naturnära och lugnt boende med Hökälla våtmarkspark som granne, ett uppskattat naturområde med motionsspår och härliga promenadstråk. På kort gångavstånd ligger den moderna Skogomeskolan (F–åk 6), vilket gör området mycket barnvänligt och tryggt, med bilfria miljöer och parkeringsplatser.\r\nHär bor du dessutom med smidig kommunikation in till centrala Göteborg med både buss och bil. Inom några minuter når du Albatross och Sankt Jörgens Golfbana, där det även finns spa, träningsanläggning och restauranger i hög klass.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Hisings Backa",
+    "rooms": 4.0,
+    "area_m2": 104.0,
+    "rent": 18629,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Filmjölksgatan, Göteborg",
+    "url": "https://qasa.com/p/1402302",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/beb2f4aa49256a74b27eecb46644f66055559e0b768abfb10f23fe33721db48a.jpg",
+    "description": "🏠 Modern 2-rumslägenhet i Kallebäck – 54 kvm\n\nVälkommen till en ljus och välplanerad nybyggd lägenhet från 2022 i ett av Göteborgs mest trivsamma områden.\n\nLägenheten erbjuder:\n• 2 rum och kök på 54 kvm\n• Fullt utrustad med diskmaskin, tvättmaskin och torktumlare\n• Modern standard med hög kvalitet genomgående\n• Nybyggd 2022 – allt är fräscht och välskött\n• Bredband/Internet 250 ingår\n\nLäget:\nKallebäck är ett lugnt och välskött område med all service du behöver inom promenadavstånd. Direkt i närheten finns:\n• Nordic Wellness för träning\n• Mataffärer för vardagshandeln\n• Restauranger och caféer\n• Frisör\n\nHyrestid:\nJag hyr ut i 1–2 år då jag tillfälligt arbetar utomlands. Exakt längd kan diskuteras beroende på hur situationen utvecklar sig – så det finns viss flexibilitet.\n\nPerfekt för dig som vill bo modernt och bekvämt med ett aktivt och socialt område runt hörnet, och som söker ett tryggt boende på medellång sikt.\n\nVarmt välkommen att höra av dig för visning!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 12305,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1401731",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80505da2d549d7f54d93a3170179873bf3ede571ec2f1703b8ae06e50e8456af.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Djupedalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1401677",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c87544e1ae332be4e1724f60084220af4ed30a39f7c26a80ba2d3cbc6c2f928.jpg",
-    "description": "Underbar sekelskifteslägenhet med takhöjd om ca 3m, samt balkong och stora fönster med fantastisk utsikt över takåsarna i populära Linné!\nPå en lugn återvändsgata i ett rofyllt kvarter mitt i Linné finner ni denna underbara lägenhet i ett charmigt sekelskifteshus.\nDet härliga sovrummet ger en mysig känsla samtidigt som takhöjden och de vackra trägolven skapar en atmosfär av lyx och harmoni. Ljuset flödar in genom fönstren och skapar en härlig atmosfär som får dig att känna dig hemma direkt.\n\nOBS! Inredning skiljer sig något från bilder.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 47.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styrsö, Styrsö",
-    "url": "https://qasa.com/p/1401642",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88cc3a2edaf7d29539c8bf196b2a0cff9908fe5b658880847d69ec61d8bd2fde.jpg",
-    "description": "FOR ENGLISH VERSION SEE BELOW\n\nMöblerad bostad uthyres på Styrsö \n\nMöblerad bostad, 3 rum och kök, cirka 60 kvm, med 2 sovrum, allrum/kök, toa/dusch.\n\nBostaden är ljus och fräsch och ligger på Styrsö i Göteborgs vackra södra skärgård. \n\nFin, lummig trädgård, stor veranda med ett stort uterum, cirka 25 kvm, som är användbart större delen av året, fräsch nyrenoverad dusch/toa med golvvärme, tvättmaskin, mikrovågsugn, TV, tillgång till internet via fiber, cirka 200 meter till vacker strand. Affärer, vårdcentral, bibliotek, gym, kaféer och restauranger inom gångavstånd. Huset innehåller en öppen spis för trivseleldning; dessutom finns en effektiv täljstenskamin som kan eldas med ved och spara uppvärmningskostnader. \n \nGoda allmänna kommunikationer med bekväma pendelförbindelser till Göteborgs centrum. Pendlingsavstånd: ca 25 minuter med passagerarfärja + ca 15 minuter med snabb-buss till Göteborgs centrum. Västtrafiks lokala taxa för Göteborg, eller månadskort för Göteborg, gäller från dörr till dörr. \n\nHyrestid: 1 september 2026 - 31 maj 2027. Datum kan justeras något åt ena eller andra hållet för att anpassas till läsåret 2026/2027. \n\nMånadshyra: 7 800 kronor plus självkostnad för el och vatten. \n\nUnikt tillfälle att hyra en bostad i Göteborgs södra skärgård. \n\nVisning efter överenskommelse.\n\n\n- - - - - - - - - - - - - - - - - - - - - - - - - \n\nFurnished home for rent on Styrsö\n\nFurnished residence, 3 rooms and kitchen, approximately 60 sqm, with 2 bedrooms, living room/kitchen, toilet/shower.\n\nThe home is bright and fresh and is located on Styrsö in Gothenburg's beautiful southern archipelago.\n\nNice, lush garden, large veranda with a large outdoor room, about 25 sqm, which is usable most of the year, fresh newly renovated shower/toilet with underfloor heating, washing machine, microwave, TV, internet access via fiber, approx. 200 meters to beautiful beach. Shops, health centre, library, gym, cafes and restaurants within walking distance. The house contains a fireplace for cosy fire; in addition, there is an efficient soapstone stove that can be fired with wood and save on heating costs.\n\nGood public transport with convenient shuttle connections to the center of Gothenburg. Commuting distance: approx. 25 minutes by passenger ferry + approx. 15 minutes by express bus to the center of Gothenburg. Västtrafik's local tariff for Gothenburg, or monthly pass for Gothenburg, applies from door to door.\n\nRental period: 1 September 2026 - 31 May 2027. Date can be adjusted slightly in one direction or the other to adapt to the academic year 2026/2027.\n\nMonthly rent: SEK 7,800 plus actual cost of electricity and water.\n\nUnique opportunity to rent a home in Gothenburg's southern archipelago.\n\nViewing by appointment.",
-    "district": "Styrsö",
-    "rooms": 3.0,
-    "area_m2": 60.0,
-    "rent": 7800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T08:45:08+00:00", "clock": "08:45:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-29T10:19:34+00:00", "clock": "10:19:34"};
