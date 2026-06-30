@@ -80,12 +80,12 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Temperaturgatan 87, Göteborg",
     "url": "https://qasa.com/p/1402960",
-    "image_url": null,
-    "description": "1 oktober kan vi erbjuda en 3 ROK på Temperaturgatan 87.\nLägenheten är belägen på våning 1 och är disponerad på 72 kvm.\n\nAnsök redan idag!",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aef0d96aa8c4bdbf0c48d768bd77dc6b4ba66c81096c48dda1b06a198c2a9a28.jpg",
+    "description": "1 oktober kan vi erbjuda en 3 ROK på Temperaturgatan 87.\nLägenheten är belägen på våning 1 och är disponerad på 72 kvm.\n\nI hyreskontraktet ingår en parkeringsplats på 400 kr/mån.\nHyran för parkeringsplatsen är inkluderad i hyran du ser på annonsen (10 234kr/mån)\n\nAnsök redan idag!",
     "district": "Göteborg",
     "rooms": 3.0,
     "area_m2": 72.0,
-    "rent": 9834,
+    "rent": 10234,
     "floor": 1,
     "has_balcony": null,
     "has_kitchen": null,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T04:50:31+00:00", "clock": "04:50:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T06:22:22+00:00", "clock": "06:22:22"};
