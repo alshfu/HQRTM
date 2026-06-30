@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sankt Sigfridsgatan , Göteborg",
+    "url": "https://qasa.com/p/1403625",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eaccc0f3b0e629e3ffdb29646bb385aad6770cb598545a64fe63c44b7d63ce4a.jpg",
+    "description": "Studentlägenhet i källarplan\nTvå sovrum (för totalt 3 personer), vardagsrum, kök, nyrenoverat badrum\n\nFullt utrustad lägenhet med diskmaskin, torktumlare, tvättmaskin och TV.\nAdress: Sankt Sigfridsgatan, i Örgryte\nBusshållplats utanför fastigheten\nMindre mataffär 50 meter från fastigheten.\nI hyran ingår :\nVärme\nVatten\nElektricitet\nWi-Fi\nTV, 30 kanaler\nSängkläder och handdukar\nSlutstädning vid utcheckning\n\nHyra kampanj just nu! \n16 999kr/mån exkl moms 12% moms (inkl moms 19 039kr)\n(ord. pris 18 999 SEK/månad exkl 12% moms. )\n\nParkeringsplats och städning varje vecka eller varannan vecka kan läggas till mot en extra kostnad.\n\nFör mer information om oss WOW Apartments hittar du på våran hemsida\n_________________________________\n\nStudent Apartment in lower ground floor\nTwo bedrooms (one room with double bed and one room with single bed/4 people), living room, kitchen, newly tiled bathroom and a nice balcony.\n\nFully equipped apartment with dishwasher, micro, dryer, washing mashine and TV. \n\nMonthly rent includes:\nHeating\nWater\nElectricity\nWi-Fi\nTV, 30 channels\nBed linens and towels\nFinal cleaning when check-out\n\nPrice per month: \nCampanj at the moment 16 999 sek excl 12 % VAT (19 039 sek incl)\n(ord. price 18 999 sek excl. 12% VAT )\n\nWeekly cleaning service and parking spot can be added for a extra cost. Bus stop outside the property\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 95.0,
+    "rent": 19039,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östanvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1403612",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/902fc3f978c2f672d68ae64ca1499740ed295287b0b3158cd8b1f80f096589e3.jpg",
+    "description": "Möblerat rum uthyres – 17 kvm med egen balkong\n\nHej!\n\nJag söker en lugn, skötsam och ansvarstagande kille, gärna student, som inneboende i min ljusa 2 på 50 kvm.\n\nRummet är lägenhetens största, cirka 17 kvm, har egen balkong och hyrs ut fullt möblerat.\n\nDetta ingår i hyran:\n\nEl och vatten\nBredband (WiFi)\nFullt utrustat kök med diskmaskin\nFräscht badrum\nTvättstuga i källaren\n\nJag är hos min särbo ett par dagar i veckan. Det innebär att du ofta kommer att ha lägenheten för dig själv.\n\nOm lägenheten och området\n\nLägenheten ligger på första våningen i ett lugnt och trevligt område. Huset är av äldre årgång, men lägenheten är ljus, trivsam och har fungerat utmärkt för mig under de åtta år jag bott här.\n\nMed gångavstånd når du:\n\nCoop, Willys och Apotek på cirka 5 minuter.\nBuss och spårvagn på cirka 5 minuter.\nCentrala Göteborg på cirka 10 minuter med kollektivtrafik.\nBackaplan på cirka 3 minuter med buss eller spårvagn.\n\nLåter det intressant? Skicka gärna ett meddelande och berätta lite om dig själv – vem du är, vad du studerar eller arbetar med och när du önskar flytta in.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 17.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hjalmar Brantingsgatan, Göteborg",
+    "url": "https://qasa.com/p/355584",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c1bb9453f2be342e1597b87a31d14a430d409bfd79718ede568e6c9992333a8.jpg",
+    "description": "Hej! Mina nuvarande hyresgäster har flyttat och jag söker ny hyresgäst. \nLägenheten är på 35 kvm med separat kök och matplats. Nyrenoverat kök 2020 med diskmaskin och inbyggd mikro. Helkaklat badrum med stor dusch och golvvärme. Mysig innergård med grill och gräsplats. Cykelförråd och cykelförvaring inne på innergården. Gemensam tvättstuga med två tvättmaskiner, en torktumlare och ett torkskåp. Festlokal med kök, biljard och bordtennis finns att tillgå. \n\nUthyres från och med 1/8/2026 till och med 31/07/2027. Går att få omöblerad/delvis möblerad, detta kan vi komma överens om.\nLägenheten ligger i Kvillebäcken. Du har två minuter till Willys, tre minuter till Coop och tio minuter till Hemköp.\nFem minuter till buss (buss 25) och spårvagn (5, 6, 10, 13) som tar dig in till centrum på 5-8 minuter.\n\n\nHyran är på 10.000/månad och inkluderar allt (värme, vatten, el, internet). Deposition på en månadshyra önskas (fås tillbaka vid slutet av uthyrningsperioden). \nUppsägningstiden är två månader.\n\nSkicka ett meddelande om du är intresserad, för mer bilder och en eventuell visning av lägenheten.\n\nInformation about this apartment can also be provided in English, just text me!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gustaf Dalénsgatan, Göteborg",
     "url": "https://qasa.com/p/1403553",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c631fc92a173cb665f13147c25afdca8cc46d40cdd4f8ffbf3570db5768009f.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket 1, Göteborg",
-    "url": "https://qasa.com/p/1403521",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c22d0db588e62c276a45a5b847be8b1f46d0321b2cd94ba23e9e3281f44d2e73.jpg",
-    "description": "Välkommen till Karlatornet – Nordens högsta och mest ikoniska byggnad, beläget i hjärtat av Karlastaden på Lindholmen i Göteborg. Med sina imponerande 246 meter och 74 våningar erbjuder Karlatornet en oslagbar utsikt över staden och skärgården.  \n\nLägenheterna är utformade med en genomtänkt design, där noggrant utvalda materialval och välplanerade planlösningar skapar en trivsam boendemiljö. Stora fönster från golv till tak, stilrena vitvaror och smarta förvaringslösningar bidrar till både funktion och komfort. \n\nOm bostaden: \nPå 57:e våningen ges du nu möjligheten att hyra denna lägenhet med milsvid utsikt över Göteborg. Din boendetid är garanterad till minst 6 månader från att bostaden tillträds. I hyresavgiften inkluderas uppvärmning, kall- och varmvatten samt el. \n\n- Balkong mot läppstiftet \n- Vardagsrum och kök om 41m² \n- Köksö med induktionshäll och diskho \n- Separerad kyl och frys \n- Diskmaskin \n- Badrum med tvättmaskin och torktumlare \n- Gäst-WC \n- Walk-in closet \n- Förråd i lägenhet samt externt \n\nPå planritningen kan du se vart i huset bostaden är belägen och i vilket väderstreck den ligger.\n\nAtt hyra i Karlatornet: \nLägenheterna hyrs ut i andra hand via Fastighets AB Balder med ett avstående från besittningsskydd. Din boendetid är garanterad till minst 12 månader och kan vara upp till 4 år. Bostaden hyrs ut omöblerad och skall nyttjas som bostad. \n\nOBS! - Vänligen notera att bilderna är tagna i Karlatornet, men de visar en annan lägenhet än den som avses i denna annons. Lägenheten hyrs ut på planritning och ingen visning kommer att erbjudas.\r\n\r\nOMGIVNING\r\nSom boende i Karlatornet har du tillgång till exklusiva gemensamma utrymmen, såsom biorum, bibliotek, takterrass, Pet Spa och gym. För den som önskar erbjuds även hotellservice och spa mot en extra kostnad.\r\n\r\nSERVICE\r\nSom boende i Karlatornet har du tillgång till exklusiva gemensamma utrymmen, såsom biograf, bibliotek, takterrass, Pet Spa och gym. För den som önskar erbjuds även hotellservice och spa mot en extra kostnad.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 108.0,
-    "rent": 23976,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket 1, Göteborg",
-    "url": "https://qasa.com/p/1403500",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/08fe5d764aeecfa750a12627cfcf358b6ca440495499df3a2f8cac9ba122054d.jpg",
-    "description": "Välkommen till Karlatornet – Nordens högsta och mest ikoniska byggnad, beläget i hjärtat av Karlastaden på Lindholmen i Göteborg. Med sina imponerande 246 meter och 74 våningar erbjuder Karlatornet en oslagbar utsikt över staden och skärgården.  \n\nLägenheterna är utformade med en genomtänkt design, där noggrant utvalda materialval och välplanerade planlösningar skapar en trivsam boendemiljö. Stora fönster från golv till tak, stilrena vitvaror och smarta förvaringslösningar bidrar till både funktion och komfort.  \n\nOm bostaden: \n\nPå 44:e våningen ges du nu möjligheten att hyra denna lägenhet med milsvid utsikt över Göteborg. I hyresavgiften inkluderar uppvärmning, kall- och varmvatten samt el. \n\nSocialt kök och vardagsrum \nInduktionshäll med inbyggd ugn \nMikrovågsugn  \nDiskmaskin   \nHelkaklat badrum \nKombimaskin \nFörråd i lägenhet \n\nPå planritningen kan du se vart i huset bostaden är belägen och i vilket väderstreck den ligger.\n\nAtt hyra bostad i Karlatornet: \nLägenheterna hyrs ut i andra hand via Fastighets AB Balder med ett avstående från besittningsskydd. Din boendetid är garanterad till minst 12 månader och kan vara upp till 4 år. Bostaden hyrs ut omöblerad och skall nyttjas som bostad. \n\nOBS! - Vänligen notera att bilderna är tagna i Karlatornet, men de visar en annan lägenhet än den som avses i denna annons. Lägenheten hyrs ut på planritning och bilder och ingen visning erbjuds.\r\n\r\nOMGIVNING\r\nSom boende i Karlatornet har du tillgång till exklusiva gemensamma utrymmen, såsom biorum, bibliotek, takterrass, Pet Spa och gym. För den som önskar erbjuds även hotellservice och spa mot en extra kostnad.\r\n\r\nSERVICE\r\nSom boende i Karlatornet har du tillgång till exklusiva gemensamma utrymmen, såsom biograf, bibliotek, takterrass, Pet Spa och gym. För den som önskar erbjuds även hotellservice och spa mot en extra kostnad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 14800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T12:07:22+00:00", "clock": "12:07:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T12:56:57+00:00", "clock": "12:56:57"};
