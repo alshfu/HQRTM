@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Dramatikgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1404144",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d56961682f9846f1b257d8875582321f0b805ce404a73221e8133c949e351c28.png",
+    "description": "Villan ligger i Hisings Backa med ett lugnt läge och goda kommunikationer. Närmaste busshållplats ligger cirka fem minuters promenad bort och du tar dig till centrala Göteborg på ungefär tio minuter med både bil och buss.\n\nBostaden har en öppen planlösning mellan vardagsrum och kök, vilket skapar stora och ljusa sällskapsytor. Den har 4 separata sovrum. Köket är fullt utrustat med bland annat diskmaskin och har gott om arbets- och förvaringsutrymme. Huset har två badrum, vilket gör vardagen smidig för både familjer och hushåll med flera personer.\n\nTvättmaskin finns i bostaden, både el och internet ingår. Från huset har du en fin utsikt över Göteborg, samtidigt som området erbjuder ett lugnt och trivsamt boende.",
+    "district": "Hisings Backa",
+    "rooms": 5.0,
+    "area_m2": 140.0,
+    "rent": 23597,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Konvaljegatan, Göteborg",
     "url": "https://qasa.com/p/1404101",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/162a8dfeaf027edb8c7290f2e67728cd6ebba6d7c6f402a64323a96fa968638a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kabelgatan, Göteborg",
-    "url": "https://qasa.com/p/1403755",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a10ba5a794cd884456ee00b6c57c62137d112a3272a0dc09c289cf0ec1828ac1.jpg",
-    "description": "Jag ska på praktik utomlands under hösten och hyr därför ut min fina lägenhet i Majorna. \n\nKort om lägenheten:\nStorlek: 1 rum och kök på 40 kvm.\nPeriod: Från början/mitten av Augusti till sista December.\nHyra: 11500 kr/månad. Då ingår allt: möbler, el, värme, vatten och bredband. \nOm lägenheten: Uthyres fullt möblerad. Lägenheten ligger centralt och har väldigt nära till mataffär, gym och spårvagn! \n\nJag söker en skötsam, djur- och rökfri person med stabil ekonomi som kommer att ta väl hand om min lägenhet. \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 11200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T21:01:59+00:00", "clock": "21:01:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T21:41:48+00:00", "clock": "21:41:48"};
