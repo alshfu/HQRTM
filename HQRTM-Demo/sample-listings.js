@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Konvaljegatan, Göteborg",
+    "url": "https://qasa.com/p/1404101",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/162a8dfeaf027edb8c7290f2e67728cd6ebba6d7c6f402a64323a96fa968638a.jpg",
+    "description": "Hej!\nJag hyr ut min välplanerade och trivsamma 1-rumslägenhet belägen på centrala Hisingen, vid Wieselgrensplatsen i Göteborg. Lägenheten är tillgänglig fr.o.m 1 oktober men inflytt tidigare fr. Augusti går att diskutera. Och uthyres t.o.m. 21 februari 2027. \n\nLägenheten är välplanerad på 35 kvm, fullt möblerad och har allt som behövs för ett bekvämt boende. Totalt renoverad 2018 och är väldigt fräsch. Här finns mycket ljusinsläpp, rymlig walk-in closet, balkong, fullt utrustat kök samt fräscht badrum. Trevligt område med goda förbindelser. Stor matbutik, apotek och restauranger bara några meter från lägenheten. \n\nHyra: 9000kr/mån + el tillkommer. Wi-Fi tecknas av hyresgästen. \nDeposition: 1 månadshyra \nInflytt: 1 september - 1 oktober 2026\n\nUthyres till skötsam, rökfri person. Inga husdjur. Lägenheten hyrs ut med kontrakt och referenser kan komma att efterfrågas.\n\nVid intresse, skicka gärna en kort presentation av dig själv. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hovås Allé, Hovås",
     "url": "https://qasa.com/p/1368758",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/953a6a55c7ee1f0f7b998cf9ad8a060c8f3ba065bae5271e420de91c3854ba3a.jpg",
@@ -21,12 +36,12 @@ window.HQRTM_SAMPLE = [
     "title": "Ostgatan, Göteborg",
     "url": "https://qasa.com/p/1404005",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/931ccee9a99dd425dd38b2cafc016b30f63f7454b4e6849562f70080667a5fad.jpg",
-    "description": "Uthyres från september 2026 i ca 6 månader med möjlighet till förlängning.\n\nFin och charmig tvåa om 42 m² på Ostgatan 20, Kallebäck mysig och mycket bra läge nära centrum och liseberg.\n\nLägenheten har separat kök, sovrum, badrum och gott om förvaring. Hyrs ut möblerad och passar bra för en /två personer \n\nSängen är 160  och TV 55” för referens. Cykelförråd utomhus och i källaren. Lugnt område. \n\nHyra: 11 500 kr/mån\nEl , parkering och wifi ingår\n\nSöker lugn och skötsam hyresgäst.",
+    "description": "Uthyres från september 2026 i ca 6 månader med möjlighet till förlängning.\n\nFin och charmig tvåa om 42 m² på Ostgatan 20, våning 6, Kallebäck mysig och mycket bra läge nära centrum och liseberg.\n\nLägenheten har separat kök, sovrum, badrum och gott om förvaring. Hyrs ut möblerad och passar bra för en /två personer \n\nSängen är 160  och TV 55” för referens. Cykelförråd utomhus och i källaren. Lugnt område. \n\nHyra: 11 500 kr/mån\nEl , parkering och wifi ingår\n\nSöker lugn och skötsam hyresgäst.",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 41.0,
     "rent": 11500,
-    "floor": null,
+    "floor": 6,
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stubbeledsgatan 18, Göteborg",
-    "url": "https://qasa.com/p/1403851",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bcb4e6d4f18b69496cb0f8bf070b4f36ad8a18f75cd404d8f80df6691879c2e.jpg",
-    "description": "Charmig vindslägenhet på Stubbeledsgatan 18\n\nMysig och ljus vindslägenhet i ett lugnt och trevligt område nära både natur och stad. Lägenheten är en 1:a men känns rymligare och luftigare tack vare den öppna planlösningen, samt det fina ljusinsläppet.\n\nKöket är praktiskt och modernt med bra förvaring och diskmaskin. Allrummet har charmiga snedtak, fina detaljer och plats för både säng, soffhörna och vardagsliv. Det finns även ett mindre tillhörande rum/förråd i lägenheten som ger extra förvaring och kan användas som exempelvis garderob, klädkammare. \n\nOmrådet är en av lägenhetens stora fördelar. Här bor du lugnt och grönt, men ändå med närhet till Göteborgs centrum. Slottsskogen ligger nära och erbjuder fina promenadvägar, natur och möjlighet att koppla av året runt. Samtidigt finns bra kommunikationer som gör det enkelt att ta sig till stan, jobb och universitet. Området passar perfekt för dig som vill ha en lugn hemmamiljö men ändå snabbt kunna ta del av Göteborgs restauranger, kultur och stadsliv.\n\nDet är ett litet och trivsamt hyreshus med gemensam trädgård där man kan njuta av lugnet, odla, fika eller umgås med grannar om man vill.\n\nEn charmig och personlig lägenhet för dig som söker ett lugnt boende med naturen nära och staden runt hörnet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 27.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T19:27:45+00:00", "clock": "19:27:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T20:16:12+00:00", "clock": "20:16:12"};
