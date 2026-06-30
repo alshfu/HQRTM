@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hovås Allé, Hovås",
+    "url": "https://qasa.com/p/1368758",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/953a6a55c7ee1f0f7b998cf9ad8a060c8f3ba065bae5271e420de91c3854ba3a.jpg",
+    "description": "Ljus och välplanerade lägenhet med bra förvaring. Stor härlig uteplats med kvällssol. Lugnt och trevligt område nära natur och hav. Goda kommunikationer och närhet till service. I hyran ingår bredband, varmvatten och el. Hyr ut på grund av jobb på annan ort. ",
+    "district": "Hovås",
+    "rooms": 1.5,
+    "area_m2": 46.0,
+    "rent": 10580,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ostgatan, Göteborg",
     "url": "https://qasa.com/p/1404005",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/931ccee9a99dd425dd38b2cafc016b30f63f7454b4e6849562f70080667a5fad.jpg",
@@ -70,7 +85,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 40.0,
-    "rent": 11500,
+    "rent": 11200,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sankt Sigfridsgatan , Göteborg",
-    "url": "https://qasa.com/p/1403625",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eaccc0f3b0e629e3ffdb29646bb385aad6770cb598545a64fe63c44b7d63ce4a.jpg",
-    "description": "Studentlägenhet i källarplan\nTvå sovrum (för totalt 3 personer), vardagsrum, kök, nyrenoverat badrum\n\nFullt utrustad lägenhet med diskmaskin, torktumlare, tvättmaskin och TV.\nAdress: Sankt Sigfridsgatan, i Örgryte\nBusshållplats utanför fastigheten\nMindre mataffär 50 meter från fastigheten.\nI hyran ingår :\nVärme\nVatten\nElektricitet\nWi-Fi\nTV, 30 kanaler\nSängkläder och handdukar\nSlutstädning vid utcheckning\n\nHyra kampanj just nu! \n16 999kr/mån exkl moms 12% moms (inkl moms 19 039kr)\n(ord. pris 18 999 SEK/månad exkl 12% moms. )\n\nParkeringsplats och städning varje vecka eller varannan vecka kan läggas till mot en extra kostnad.\n\nFör mer information om oss WOW Apartments hittar du på våran hemsida\n_________________________________\n\nStudent Apartment in lower ground floor\nTwo bedrooms (one room with double bed and one room with single bed/4 people), living room, kitchen, newly tiled bathroom and a nice balcony.\n\nFully equipped apartment with dishwasher, micro, dryer, washing mashine and TV. \n\nMonthly rent includes:\nHeating\nWater\nElectricity\nWi-Fi\nTV, 30 channels\nBed linens and towels\nFinal cleaning when check-out\n\nPrice per month: \nCampanj at the moment 16 999 sek excl 12 % VAT (19 039 sek incl)\n(ord. price 18 999 sek excl. 12% VAT )\n\nWeekly cleaning service and parking spot can be added for a extra cost. Bus stop outside the property\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 95.0,
-    "rent": 19039,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T18:04:44+00:00", "clock": "18:04:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T18:50:24+00:00", "clock": "18:50:24"};
