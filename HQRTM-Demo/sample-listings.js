@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Solventilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1403953",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d858d9369d40fa1fa09b0df65f03fe4df0584349fccdd7cc32bcb14ac1b9181b.jpg",
+    "description": "Hyr ut en etta med allt man behöver med fantadtisk balkong med utsikt över Göteborg. Enbart några fåtal minuter till knutpunkt Hjalmar Brantingsplatsen därifrån kan du enkelt ta dig runt om i Göteborg med omnejd. På Bacakplan finns det en del butiker och restauranger.\n\nI hyran ingår värme, vatten, bredband & tv.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 39.0,
+    "rent": 9200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Färgaregatan, Göteborg",
     "url": "https://qasa.com/p/1403869",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ea3714a8fa0c32e4b42c99b75b400ba2feeac496d026d01d0629c23797f2e989.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjalmar Brantingsgatan, Göteborg",
-    "url": "https://qasa.com/p/355584",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c1bb9453f2be342e1597b87a31d14a430d409bfd79718ede568e6c9992333a8.jpg",
-    "description": "Hej! Mina nuvarande hyresgäster har flyttat och jag söker ny hyresgäst. \nLägenheten är på 35 kvm med separat kök och matplats. Nyrenoverat kök 2020 med diskmaskin och inbyggd mikro. Helkaklat badrum med stor dusch och golvvärme. Mysig innergård med grill och gräsplats. Cykelförråd och cykelförvaring inne på innergården. Gemensam tvättstuga med två tvättmaskiner, en torktumlare och ett torkskåp. Festlokal med kök, biljard och bordtennis finns att tillgå. \n\nUthyres från och med 1/8/2026 till och med 31/07/2027. Går att få omöblerad/delvis möblerad, detta kan vi komma överens om.\nLägenheten ligger i Kvillebäcken. Du har två minuter till Willys, tre minuter till Coop och tio minuter till Hemköp.\nFem minuter till buss (buss 25) och spårvagn (5, 6, 10, 13) som tar dig in till centrum på 5-8 minuter.\n\n\nHyran är på 10.000/månad och inkluderar allt (värme, vatten, el, internet). Deposition på en månadshyra önskas (fås tillbaka vid slutet av uthyrningsperioden). \nUppsägningstiden är två månader.\n\nSkicka ett meddelande om du är intresserad, för mer bilder och en eventuell visning av lägenheten.\n\nInformation about this apartment can also be provided in English, just text me!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T16:31:26+00:00", "clock": "16:31:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T17:17:28+00:00", "clock": "17:17:28"};
