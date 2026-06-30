@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Hallegatan, Göteborg",
+    "url": "https://qasa.com/p/1403195",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/543d6a3a7ec4e57e369b0e6e5f0883cd8c33e5ce1bff03c4e11f10fd2cb43b47.jpg",
+    "description": "Hej, \n\nVi söker en inneboende till våran mysiga lägenhet vid ramberget på Hisingen. Lägenheten ligger i ett lugnt område med ca 5 min gång till Wieselgrensplatsen. \n\nJag jobbar som sjöman och är borta i långa perioder och min sambo kommer att jobba på vardagarna. \n\nLägenheten är 75 kvm, 3 RoK samt en härlig inglasad balkong som delas med oss. Du får ett eget rum på 10 kvm och tillgång till hela lägenheten förutom vårt sovrum. I lägenheten finns det;\n\nTvättmaskin\nInternet \nTV med streaming tjänster mm\nFullt utrustat kök med plats för ditt\nmm. (Fråga gärna om du undrar över något)\n\nRummet hyrs ut möblerat.\n\nVi söker en renlig och ordningsam person som också är rök och djurfri. \n\nOm du är intresserad så skriv gärna och berätta lite om dig själv. Personkemin kommer vara viktig för oss.\n\nHyran är på 5500kr. \n\nVi har tidigare hyresgäster som referenser.\n\nMvh Jonas och Angelica",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fyrklöversgatan, Göteborg",
+    "url": "https://qasa.com/p/1402887",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/15e8540fdf77a8eaf679b440d8772cd0fc5df94e330258be9b9f79ccdf25fcc8.jpg",
+    "description": "Lägenhet uthyres – Gothia Cup & Partille Cup (Göteborg)\n\nJag hyr ut min lägenhet under Gothia Cup och Partille Cup i Göteborg.\n\n📍 Adress: Fyrklöversgatan 88, 417 21 Göteborg\n📐 Storlek: 61 m²\n👥 Max antal gäster: upp till 5 personer\n\n✨ Om bostaden\n\nLjus och välskött lägenhet i ett lugnt och tryggt område. Perfekt för familjer, lag eller grupper som kommer till Göteborg för cuperna.\n\n* 1–2 sovrum (flexibel planlösning)\n* Soffa/soffbädd för 2 personer\n* Extra madrass finns för 1 person\n* Fullt utrustat kök\n* Badrum med dusch\n* WiFi ingår\n* Bra kommunikationer till centrala Göteborg, Ullevi, Heden och Kviberg\n\n📅 Tillgänglighet\n\nFrån 29 juni och framåt\nKan hyras per vecka eller hela perioden.\n\n💰 Pris\n\n900 – 1200 kr per dag beroende på antal gäster och datum.\n\n👌 Passar för\n\n* Familjer som besöker cuperna\n* Lag och tränare\n* Grupper som vill bo privat istället för hotell\n\n\nSkicka meddelande för mer info, exakt pris och bilder.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 61.0,
+    "rent": 1200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Solventilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1402804",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9bd4b678863bbc1608a950844f1777848c0daa9dc665d2f4f81b0d293d9e8b15.jpg",
+    "description": "🌟 Ljus 2-rumslägenhet med södervänd balkong i Göteborg\n\n📍 Solventilsgatan 7, Göteborg\n🛏️ 2 rum | 📐 52 m² | 🏢 2:a våningen | 🌞 Södervänd balkong\n\n✨ Om Lägenheten\n\nVälkommen till denna rymliga och välskötta lägenhet med 2 sovrum, belägen i en lugn och modern byggnad från 2015. Lägenheten ligger på andra våningen och har en solig balkong i söderläge, perfekt för morgonkaffe eller kvällsavkoppling.\n\n- Delvis möblerad\n- Öppen planlösning mellan vardagsrum och kök\n- Generöst naturligt ljusinsläpp hela dagen\n- Modernt badrum med tvättmaskin\n- Förvaringsutrymme ingår\n\nBilderna i annonsen är endast för referens. Avvikande möbler kan förväntas.\n\n💰 Hyra\n\n12 000 kr/månad. Vatten och elförbrukning separerad.\n\nInkluderar följande möbler: köksbord, 4 köksstolar, vardagsrumsbord och en soffa för 3 personer.  Mer eller färre möbler kan ordnas efter prisjustering och överenskommelse.\n\n🚶‍♂️ Område & Tillgänglighet\n\n- Lugnt bostadsområde med grönska\n- Gångavstånd till kollektivtrafik\n- Enkel tillgång till centrala Göteborg\n- Nära mataffärer, caféer och parker\n\n📅 Tillgänglighet\n\nTillgänglig från: 15 augusti 2026\nHyresperiod: 1 år",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 12000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ejdergatan, Göteborg",
     "url": "https://qasa.com/p/1403074",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3878649f4393ad2b6439479e3243d544be289942d7e5d4db6a527ea365954dd6.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styckjunkaregatan, Göteborg",
-    "url": "https://qasa.com/p/1397722",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc313198e428d5bff638a867925cc941240e941d0082ea8e00be7e5a020b42fd.jpg",
-    "description": "Jag hyr ut min lägenhet i Kviberg till slutet på november, med möjlighet till förlängning. Den är 36 kvm och består av ett rymligt rum, ett separat kök, badrum, balkong och ett utrymme för kläder/förvaring. Lägenheten är möblerad med säng, bäddsoffa, TV, och ett fullt utrustat kök inklusive mikrovågsugn. I hyran ingår el, värme och internet. \n\nFastigheten har en gemensam tvättstuga utrustad med tvättmaskiner, torktumlare och torkrum. Läget är bra med en hållplats för spårvagn och buss precis utanför lägenhetsområdet. Därifrån går det flera spårvagnslinjer (6:an, 7:an och 11:an) och buss, och tar bara 9 min till Centralstationen. \n\nJag söker en skötsam och ansvarsfull hyresgäst med ordnad ekonomi.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 6700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Temperaturgatan 87, Göteborg",
-    "url": "https://qasa.com/p/1402960",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aef0d96aa8c4bdbf0c48d768bd77dc6b4ba66c81096c48dda1b06a198c2a9a28.jpg",
-    "description": "1 oktober kan vi erbjuda en 3 ROK på Temperaturgatan 87.\nLägenheten är belägen på våning 1 och är disponerad på 72 kvm.\n\nI hyreskontraktet ingår en parkeringsplats på 400 kr/mån.\nHyran för parkeringsplatsen är inkluderad i hyran du ser på annonsen (10 234kr/mån)\n\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 72.0,
-    "rent": 10234,
-    "floor": 1,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lufttrycksgatan 11, Göteborg",
-    "url": "https://qasa.com/p/1402951",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56c6dba0e1b0b24aa9e6a9b4b6f46bd0b714a334c9006b2587a1c91c855c0694.jpg",
-    "description": "I oktober kan vi erbjuda en 2 rum & kök på Lufttrycksgatan 11 . Lägenheten ligger belägen på våning 3 och är disponerad på 65 kvm.\n\nI hyreskontraktet ingår en parkeringsplats med för närvarande hyra på 412 kr/mån och höjs med 3% kalenderårsvis. Parkeringens hyra är inkluderad i hyran ni ser på annonsen. \n\n Fastigheten ligger vid grönområden i Länsmansgården och har bra förbindelser till de centrala delarna i Göteborg. Lägenheten kommer att visas av nuvarande hyresgäst. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 9151,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T06:22:22+00:00", "clock": "06:22:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T07:44:32+00:00", "clock": "07:44:32"};
