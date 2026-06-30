@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gustaf Dalénsgatan, Göteborg",
+    "url": "https://qasa.com/p/1403553",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c631fc92a173cb665f13147c25afdca8cc46d40cdd4f8ffbf3570db5768009f.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/dyyhj0dcvwvx8q4rhupc/vastra-gotaland/goteborg/gustaf-dal-nsgatan-18/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nHej, Vi hyr nu ut vår lägenhet på Gustaf Dalénsgatan 18, Modern och ljusa tvårummaren med balkong i väst.\r\n\r\nHär erbjuds ni kök och vardagsrum i en öppen och social planlösning tillsammans med utgången till bostadens inglasade balkong. Rymligt sovrum med plats för dubbelsäng samt extra bekvämlighet med ett helkaklat badrum med egen tvätt utrustning. Här bor ni granne med Kville Saluhall och med all annan service på nära håll. \r\n\r\nTack vare närliggande Hjalmar Brantingsplatsen går det smidigt och snabbt att ta sig runt Göteborg eller in till Nordstan med bara en hållplats ifrån. Cykeln tar ni enkelt över Götaälvbron på några minuter.\r\n\r\nHall\r\nHär finns plats för avhängning samt förvaring i en garderob. Vitlaserat parkettgolv tillsammans med vita väggar vilket är genomgående i bostaden.\r\n\r\nKök/Vardagsrum\r\nVita skåpsluckor och lådor med rostfria beslag. Den maskinella utrustningen består av induktionshäll, ugn, fläkt, mikro, integrerad diskmaskin samt kyl/frys.\r\n\r\nVardagsrumsdelen inrymmer en soffgrupp med tillhörande möblemang samt ett matbord med fyra stolar. \r\n\r\nSovrum\r\nHär finns plats för dubbelsäng med tillhörande sängbord samt gott om förvaringsmöjligheter i garderob.\r\n\r\nBadrum\r\nHelkaklat badrum med svart klinkergolv med golvvärme och vitt kakel på väggarna. Utrusningen består av wc, handfatskommod med ovansittande spegelskåp, handdukstork samt dusch med glasvägg. Här finns även en kombimaskin med ovanliggande arbetsbänk samt skåp för förvaring.\r\n\r\nFörråd\r\nTill bostaden hör ett källarförråd.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 63.0,
+    "rent": 18452,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Erisgatan, Göteborg",
     "url": "https://qasa.com/p/1402974",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a9ce2a6914a896331d105e8d9070eef11821bb78bacc0d643a8084e66825199.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 19B, Göteborg",
-    "url": "https://qasa.com/p/1403437",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b23dd18ab0df6b182562481f3c93a0f469f362d6f7254be441387edf387db19.jpg",
-    "description": "Välkommen hem till Stenhuggaren!  \n\nHär ges möjlighet att bli den första hyresgästen att hyra en 2 rok på 42 kvm, med inflyttning 1 oktober. \n \nHyra: 7 407 kr/mån \nKombimaskin \nDiskmaskin\nFörråd på vinden \nBalkong\n\nLägenheten har individuell mätning och debitering (IMD). IMD gör det möjligt att mäta förbrukningen av kall- och varmvatten och värme i varje enskild lägenhet. Det innebär att du som hyresgäst endast betalar för din förbrukning. IMD ger hyresgäster möjlighet att själva påverka sina kostnader, rättvist för alla och bra för miljön. Du betalar i efterskott, för det vatten och värme som du faktiskt förbrukat. Förbrukningen debiteras med fem månaders eftersläpning. Hyran kommer alltså att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsgatan är ett mysigt och familjärt men också modernt och citynära bostadsområde. När du flyttar till Stenhuggaren så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. \n\nHisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 31 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 7407,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T11:18:12+00:00", "clock": "11:18:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T12:07:22+00:00", "clock": "12:07:22"};
