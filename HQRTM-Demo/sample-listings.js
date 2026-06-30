@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen 111 B, Göteborg",
+    "url": "https://qasa.com/p/1403314",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4ad4bd790b49a75d59fee014e97a982533bca6b6b1c3965fc16162c3f6b199e9.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. Den ena länken till 3D-visningen hittar ni i annonsen på HomeQ och är för första plan. Den andra 3D-skanningen för nedre plan hittar ni som länk här: https://my.matterport.com/models/z47ywxgAV4e \n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trerummare! Lägenheten har ett modernt kök med diskmaskin och spishäll. Genomgående trägolv i lägenheten. Badrummet är helkaklat förberett för diskmaskin. \n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran inkluderar värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 66.0,
+    "rent": 9829,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fyrklöversgatan, Göteborg",
     "url": "https://qasa.com/p/1402887",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/15e8540fdf77a8eaf679b440d8772cd0fc5df94e330258be9b9f79ccdf25fcc8.jpg",
@@ -51,7 +66,7 @@ window.HQRTM_SAMPLE = [
     "title": "Ejdergatan, Göteborg",
     "url": "https://qasa.com/p/1403074",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3878649f4393ad2b6439479e3243d544be289942d7e5d4db6a527ea365954dd6.jpg",
-    "description": "Planlösning:\nVi hyr ut vår tvåa som en välplanerad etta under perioden då vi är på utbytestermin. Ett av sovrummen kommer att användas som vårt privata förråd och kommer därför att vara låst under uthyrningstiden. Av den anledningen har vi också valt att sätta hyran på en nivå som motsvarar en etta.\n\nLägenheten nås via svalgång på våning 2. När du kommer in möts du av en rymlig hall med goda förvaringsmöjligheter. Vi har även satt upp flera väggmonterade hängare för ytterkläder och annan förvaring.\n\nRakt fram från hallen ligger ett stort och ljust vardagsrum som även fungerar som sovrum. Här kommer en 140 cm bred säng att stå placerad längs vänster vägg. Rummet har ett härligt ljusinsläpp och gott om plats för både avkoppling och arbete. Intill vardagsrummet finns ett extra förvaringsutrymme med klädställning och hyllor som erbjuder mycket förvaringsplats. Förbi detta ligger badrummet, som är utrustat med golvvärme.\n\nTill höger om hallen finns ett fullt utrustat kök. Vi som bor här älskar att laga mat, vilket innebär att köket är välutrustat med det mesta man kan behöva. Här finns även ett barbord med sittplatser för måltider. Köket har stort fönster mot innergården och ett fint ljusinsläpp.\n\nVad som ingår i hyran:\nLägenheten hyrs ut fullt möblerad. Hyran är 8 000 kr per månad och inkluderar hyra samt internet. El tillkommer och betalas av hyresgästen utifrån faktisk förbrukning.\n\nKommunikationer och område:\nLägenheten har ett mycket bra läge med goda kommunikationer. Det tar cirka 15 minuter att cykla in till centrala Göteborg (kungdportsplatsen). Precis utanför bostaden finns en spårvagnshållplats (Ejdergatan) där linje 6 och 8 tar dig till bland annat Korsvägen på cirka 12 minuter och Chalmers på 15 minuter. Om du vill ta dig till centrala Göteborg ligger Redbergsplatsen endast cirka 5 minuters promenad bort där både spårvagn 1,3 och buss 17 går. \n\nOmrådet är lugnt och trivsamt med närhet till grönområden, samtidigt som det finns ett härligt stadsliv runt Redbergsplatsen och slakthusbodarna med caféer, restauranger och barer. Det bor många studenter och unga vuxna i området, vilket bidrar till en väldigt trevlig och levande atmosfär.\n\nÖvrigt:\nFör den som uppskattar att vara utomhus finns en mysig och välskött innergård som kan nyttjas av de boende i föreningen. I uppgång A finns en gemensam tvättstuga utrustad med två tvättmaskiner, en torktumlare samt ett torkskåp. Det finns även två cykelförråd för smidig och säker förvaring av cyklar.\n\nVarför vi hyr ut bostaden:\nVi hyr ut vår lägenhet eftersom vi kommer att studera utomlands under en utbytestermin. Vi söker därför en ansvarsfull och skötsam hyresgäst som kan ta hand om vårt hem under tiden. En deposition motsvarande en månadshyra tas ut vid inflyttning och återbetalas efter utförd utflyttningsbesiktning, förutsatt att lägenheten återlämnas i gott skick.\n",
+    "description": "Planlösning:\nVi hyr ut vår tvåa som en välplanerad etta under perioden då vi är på utbytestermin. Ett av sovrummen kommer att användas som vårt privata förråd och kommer därför att vara låst under uthyrningstiden. Av den anledningen har vi också valt att sätta hyran på en nivå som motsvarar en etta.\n\nLägenheten nås via svalgång på våning 2. När du kommer in möts du av en rymlig hall med goda förvaringsmöjligheter. Vi har även satt upp flera väggmonterade hängare för ytterkläder och annan förvaring.\n\nRakt fram från hallen ligger ett stort och ljust vardagsrum som även fungerar som sovrum. Här kommer en 140 cm bred säng att stå placerad längs vänster vägg. Rummet har ett härligt ljusinsläpp och gott om plats för både avkoppling och arbete. Intill vardagsrummet finns ett extra förvaringsutrymme med klädställning och hyllor som erbjuder mycket förvaringsplats. Förbi detta ligger badrummet, som är utrustat med golvvärme.\n\nTill höger om hallen finns ett fullt utrustat kök. Vi som bor här älskar att laga mat, vilket innebär att köket är välutrustat med det mesta man kan behöva. Här finns även ett barbord med sittplatser för måltider. Köket har stort fönster mot innergården och ett fint ljusinsläpp.\n\nVad som ingår i hyran:\nLägenheten hyrs ut fullt möblerad. Hyran är 8 500 kr per månad och inkluderar hyra samt internet. El tillkommer och betalas av hyresgästen utifrån faktisk förbrukning.\n\nKommunikationer och område:\nLägenheten har ett mycket bra läge med goda kommunikationer. Det tar cirka 15 minuter att cykla in till centrala Göteborg (kungsportsplatsen). Precis utanför bostaden finns en spårvagnshållplats (Ejdergatan) där linje 6 och 8 tar dig till bland annat Korsvägen på cirka 12 minuter och Chalmers på 15 minuter. Om du vill ta dig till centrala Göteborg ligger Redbergsplatsen endast cirka 5 minuters promenad bort där både spårvagn 1,3 och buss 17 går. In till stan.\n\nOmrådet är lugnt och trivsamt med närhet till grönområden, samtidigt som det finns ett härligt stadsliv runt Redbergsplatsen och slakthusbodarna med caféer, restauranger och barer. Det bor många studenter och unga vuxna i området, vilket bidrar till en väldigt trevlig och levande atmosfär.\n\nHusdjur:\nHusdjur kan diskuteras. Vi ser gärna att eventuella husdjur är allergivänliga eller av en ras som inte fäller pga allergier. \n\nÖvrigt:\nFör den som uppskattar att vara utomhus finns en mysig innergård som kan nyttjas av de boende i föreningen. I uppgång A finns en gemensam tvättstuga utrustad med två tvättmaskiner, en torktumlare samt ett torkskåp. Det finns även två cykelförråd för smidig och säker förvaring av cyklar.\n\nVarför vi hyr ut bostaden:\nVi hyr ut vår lägenhet eftersom vi kommer att studera utomlands under en utbytestermin. Vi söker därför en ansvarsfull och skötsam hyresgäst som kan ta hand om vårt hem under tiden. En deposition motsvarande en månadshyra tas ut vid inflyttning och återbetalas efter utförd utflyttningsbesiktning, förutsatt att lägenheten återlämnas i gott skick.\n",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 48.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Konstapelsgatan, Göteborg",
-    "url": "https://qasa.com/p/1402836",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/06d3c8fbc10521d9fb7401d1ae1027bec133737fbda51f46089a8be65bc75f9d.jpg",
-    "description": "Nu hyr jag ut min trivsamma bostadsrätt i Gamlestaden då jag har flyttat ihop med min sambo.\n\nLägenheten är en välplanerad 3 rok om 54 kvm och ligger i ett lugnt område med mycket goda kommunikationer. Det är endast 4 minuters promenad till Bellevue hållplats, där spårvagnen tar dig till Göteborgs Centralstation på cirka 10 minuter.\n\nLägenheten hyrs ut tillsvidare med 2 månaders ömsesidig uppsägningstid. Planerad inflyttning är 1 september, men datumet kan diskuteras.\n\nLägenheten hyrs ut fullt möblerad, men möbleringen kan anpassas efter överenskommelse.\n\nDet här ingår och finns i lägenheten:\n\n3 rum och kök, 54 kvm\n2 sovrum\nFullt möblerad\nBredband ingår\nDiskmaskin\nTillgång till gemensam tvättstuga\nMysig innergård med flera gemensamma uteplatser\n\nÖvrigt: \n\nUthyres tillsvidare\n2 månaders uppsägningstid\nInflyttning från 1 september (flexibelt)\nHyreskontrakt skrivs efter att hyresgästen har blivit godkänd av bostadsrättsföreningen\nEl bekostas av hyresgästen\n\n\nBerätta gärna lite om dig själv när du hör av dig – vem du är, vad du arbetar eller studerar med, hur många ni är som ska bo i lägenheten och hur länge ni söker bostad. Jag ser fram emot att hitta en ansvarsfull hyresgäst som kommer att trivas i sitt nya hem.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 54.0,
-    "rent": 11400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T07:44:32+00:00", "clock": "07:44:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T08:49:36+00:00", "clock": "08:49:36"};
