@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ostgatan, Göteborg",
+    "url": "https://qasa.com/p/1404005",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/931ccee9a99dd425dd38b2cafc016b30f63f7454b4e6849562f70080667a5fad.jpg",
+    "description": "Uthyres från september 2026 i ca 6 månader med möjlighet till förlängning.\n\nFin och charmig tvåa om 42 m² på Ostgatan 20, Kallebäck mysig och mycket bra läge nära centrum och liseberg.\n\nLägenheten har separat kök, sovrum, badrum och gott om förvaring. Hyrs ut möblerad och passar bra för en /två personer \n\nSängen är 160  och TV 55” för referens. Cykelförråd utomhus och i källaren. Lugnt område. \n\nHyra: 11 500 kr/mån\nEl , parkering och wifi ingår\n\nSöker lugn och skötsam hyresgäst.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 41.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Solventilsgatan, Göteborg",
     "url": "https://qasa.com/p/1403953",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d858d9369d40fa1fa09b0df65f03fe4df0584349fccdd7cc32bcb14ac1b9181b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östanvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1403612",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/902fc3f978c2f672d68ae64ca1499740ed295287b0b3158cd8b1f80f096589e3.jpg",
-    "description": "Möblerat rum uthyres – 17 kvm med egen balkong\n\nHej!\n\nJag söker en lugn, skötsam och ansvarstagande kille, gärna student, som inneboende i min ljusa 2:a på 50 kvm.\n\nRummet som du hyr är lägenhetens största, cirka 17 kvm, har egen balkong och hyrs ut fullt möblerat.\n\nDetta ingår i hyran:\n\nEl och vatten\nBredband (WiFi)\nFullt utrustat kök med diskmaskin\nFräscht badrum\nTvättstuga i källaren\n\nJag är hos min särbo ett par dagar i veckan. Det innebär att du ofta kommer att ha lägenheten för dig själv.\n\nOm lägenheten och området\n\nLägenheten ligger på första våningen i ett lugnt och trevligt område. Huset är av äldre årgång, men lägenheten är ljus, trivsam och har fungerat utmärkt för mig under de åtta år jag bott här.\n\nMed gångavstånd når du:\n\nCoop, Willys och Apotek på cirka 5 minuter.\nBuss och spårvagn på cirka 5 minuter.\nCentrala Göteborg på cirka 10 minuter med kollektivtrafik.\nBackaplan på cirka 3 minuter med buss eller spårvagn.\n\nLåter det intressant? Skicka gärna ett meddelande och berätta lite om dig själv – vem du är, vad du studerar eller arbetar med och när du önskar flytta in.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 17.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T17:17:28+00:00", "clock": "17:17:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T18:04:44+00:00", "clock": "18:04:44"};
