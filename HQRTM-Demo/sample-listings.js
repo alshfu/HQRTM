@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övralidsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1404183",
+    "image_url": null,
+    "description": "Jag hyr ut en välplanerad lägenhet som kan beskrivas som en 1,5:a eller en mini-tvåa, med separat kök och en smart planlösning som passar både en person och ett par.\n\nI hyran ingår internet, el och värme, så du behöver inte tänka på några extra kostnader för dessa.\n\nLägenheten ligger i ett lugnt och trevligt område nära Selma Lagerlöfs torg, med mycket goda kommunikationer. Det finns flera busslinjer som gör det enkelt att ta sig till centrala Göteborg och andra delar av staden. I området finns även mataffärer, restauranger, caféer och annan service på bekvämt gångavstånd.\n\nJag hyr ut bostaden eftersom jag inte kommer att bo där under den aktuella perioden och söker därför en ansvarsfull hyresgäst som tar väl hand om lägenheten.",
+    "district": "Hisings Backa",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Dramatikgatan, Hisings Backa",
     "url": "https://qasa.com/p/1404144",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d56961682f9846f1b257d8875582321f0b805ce404a73221e8133c949e351c28.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karl Johansgatan, Göteborg",
-    "url": "https://qasa.com/p/1403849",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/455b232b1dda4c4eb9fcacd3bd42ead33e227b726cebd790cc0ebbd7d42fd2d8.jpg",
-    "description": "Mysig lägenhet i Majorna, 1 rum + kök hyrs ut i Augusti  och September, möjlighet till förlängnig finns. Lägenheten ligger ute till salu men blir den inte såld i Augusti/september så finns möjlighet att hyra 6 månader framåt.  Visningar kommer att hålla vid några tillfällen  och köparen måste vara ok med att lämna lägenhet vid visning.  Inflytt 1 Augusti (vill du flytta in några dagar tidigare går det att lösa.  \n\n- Lägenheten är 34m2. Välplanerad! \n- Inga extra kostnader,  hyra ingår  bredband + värme + vatten + möblerad.\n- Bra kommunikation in till stan, hållplats precis utanför. \n- Göteborgs mysigaste område. Nära Mariaplan, nära mataffär, nära gym, restauranger, caféer m.m \n- Lugnt och tyst \n- Fin innergård \n- Förråd finns \n- Nära till stan,  röda sten, havet och Slottskogen. \n- Hyra ut till rök/djurfri person. \n- Hyrs ut möblerad. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 10400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T22:13:20+00:00", "clock": "22:13:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T22:46:56+00:00", "clock": "22:46:56"};
