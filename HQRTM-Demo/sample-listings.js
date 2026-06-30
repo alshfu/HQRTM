@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kabelgatan, Göteborg",
+    "url": "https://qasa.com/p/1403755",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a10ba5a794cd884456ee00b6c57c62137d112a3272a0dc09c289cf0ec1828ac1.jpg",
+    "description": "Jag ska på praktik utomlands under hösten och hyr därför ut min fina lägenhet i Majorna. \n\nKort om lägenheten:\nStorlek: 1 rum och kök på 40 kvm.\nPeriod: Från början/mitten av Augusti till sista December.\nHyra: 11500 kr/månad. Då ingår allt: möbler, el, värme, vatten och bredband. \nOm lägenheten: Uthyres fullt möblerad. Lägenheten ligger centralt och har väldigt nära till mataffär, gym och spårvagn! \n\nJag söker en skötsam, djur- och rökfri person med stabil ekonomi som kommer att ta väl hand om min lägenhet. \n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sankt Sigfridsgatan , Göteborg",
     "url": "https://qasa.com/p/1403625",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eaccc0f3b0e629e3ffdb29646bb385aad6770cb598545a64fe63c44b7d63ce4a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T13:45:32+00:00", "clock": "13:45:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-06-30T14:41:53+00:00", "clock": "14:41:53"};
