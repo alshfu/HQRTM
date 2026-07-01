@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Eldaregatan, Göteborg",
+    "url": "https://qasa.com/p/1405014",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/832dfdbc9020e7fb2b62bb388b02a14f6daa88231a464b2b6fdb39897c8dc3ef.jpg",
+    "description": "LEDIGT RUM Centralt läge/Väst!\nTillgängligt möblerat rum 10 kvm med fantastisk “UTSIKT över stan”! \n Ingår i 4 r-lägenhet, 91 kvm, 1 vån! \n“Charmiga gamla Masthugget”, Västra Göteborg, Centralt läge! \nNaturen \"Inpå Knuten\",  Slottskogen, friskvård, hav och kontinenten!\nBra kommunikationer, nära Institutioner: Sahlgrenska, Chalmers...!\n\nBostaden inklusive;\n-  vatten, el, delat kök, badrum, tvättstuga i fastigheten\nHyra 4000 Kr/månad\n\nHandpenning enl ök\nRummet ledigt fr o m snarast möjligt\nKostnad  för surf tillkommer; Eget  wifi/delad  Fiberbredband, \nEgen Hemförsäkring\n\nSöker pålitlig icke-rökande/-allergisk, ansvarstagande, ordentlig, måttlighet med alkohol! \nKvinnlig (äldre) person/Kvinnlig Utlandssstudent\nEndast seriösa sökande beaktas! \nVisning av rummet helst fm, ej Tisdagar\n\nHygien gällande Covid 19!\nKan också hyra också ut enstaka nätter till Gothia Cup; \n1000 kr/natt !\n\nHälsningar Ingalill\nEnsamstående, Pensionerad Sjuksköterska/ Vårdlärare\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 4000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Utåkersgatan, Göteborg",
     "url": "https://qasa.com/p/1404850",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/577c5abf1bb96c893ef39f99449a91d68b7ac6f1a0c69149b202bb3da6c6eeda.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddvägen 54, Angered",
-    "url": "https://qasa.com/p/1404758",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/99c8baf57673960bc6b687c2eec3c5a428b23b61dff66164ea46aff53f9005cd.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong  på 12 kvm som erbjuder både morgon- och kvällsol. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen. \n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 12191,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T15:16:24+00:00", "clock": "15:16:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T16:11:10+00:00", "clock": "16:11:10"};
