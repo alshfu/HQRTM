@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Pimpinellagatan, Angered",
     "url": "https://qasa.com/p/1404425",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/949927802c3cdd2d5db4e6a76704e90353f828b90beed9d619780717437f3d27.jpg",
-    "description": "En charmig bostad med 5 rum och kök med uteplats.\nParkeringplats för 3 bilar. Nära naturen och fin och lugn område . 4 minuter att gå till Gårdsten centrum . Jag hyr ut den på grund av jag ska flytta till en stad pga ändrat liv situation.  ",
+    "description": "En charmig bostad med 5 rum och kök med uteplats.\nParkeringplats för 3 bilar. Nära naturen och fin och lugn område . 4 minuter att gå till Gårdsten centrum . Jag hyr ut den på grund av jag ska flytta till en stad pga ändrat liv situation.   Jag tar två månaders hyror deposition.",
     "district": "Angered",
     "rooms": 5.0,
     "area_m2": 103.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T08:31:02+00:00", "clock": "08:31:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T09:56:18+00:00", "clock": "09:56:18"};
