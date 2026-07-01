@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mellanvågsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1404760",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56812c252fc4f000b6d59a5df47ff4fc6c74fdb70a806eacd35a3526942b05d4.jpg",
+    "description": "Helt renoverade källare plan med eget ingång och lite uteplats om det önskas. Nära bad och köp. Ligger mellan Frölunda Torg och sisjön köpcentrum.  Lung , fint området",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Eldaregatan, Göteborg",
     "url": "https://qasa.com/p/1405014",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/832dfdbc9020e7fb2b62bb388b02a14f6daa88231a464b2b6fdb39897c8dc3ef.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vallgatan 6, Göteborg ",
-    "url": "https://qasa.com/p/1404769",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/667ca4a6d74f766a19f4638c4631e71c6aaf39b89b22d859b260aa68f491bd1f.png",
-    "description": "Charmig tvåa med centralt läge på Vallgatan\n\nNu finns möjlighet att hyra en trivsam lägenhet om 2 rum och kök på attraktiva Vallgatan 6, mitt i Göteborgs historiska innerstad. Lägenheten är belägen på våning 1 och erbjuder en välplanerad bostad med gott om ljus och närhet till stadens breda utbud av restauranger, caféer, butiker och kommunikationer.\n\nLägenheten är 35 kvm enligt avtal. Uppmätt yta enligt ritning är 44,2 kvm, vilket innebär att hyran kan komma att justeras från och med 2027-01-01. Månadshyran uppgår till 5 344 kronor enligt 2026 års hyresnivå. Bostaden är belägen på våning 1 och är tillgänglig för inflyttning 2026-09-01.\n\nEtt utmärkt boende för dig som vill kombinera stadsliv med en charmig och historisk miljö med allt Göteborg har att erbjuda precis utanför dörren.\n\n\n",
-    "district": "Göteborg ",
-    "rooms": 2.0,
-    "area_m2": 35.0,
-    "rent": 5344,
-    "floor": 1,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T16:11:10+00:00", "clock": "16:11:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T17:01:45+00:00", "clock": "17:01:45"};
