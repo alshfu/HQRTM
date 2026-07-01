@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mölndalsvägen, Göteborg",
+    "url": "https://qasa.com/p/1391072",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dee6b85c4b57b9a8e018246489093422216c1d43a44aa53fc2fc93841126361.jpg",
+    "description": "Mysig lägenhet med inglasad balkong. Ljus och välplanerad planlösning, samt goda kommunikationer.\n\nMataffärer som Willys och ICA Maxi är inom gångavstånd, liksom gym.\nMed bil, god förbindelse till E6:an och riksväg 40.\n\nLägenheten hyrs ut möblerad och passar utmärkt för en person som söker ett bekvämt boende med väldigt bra kommunikationer och nära till Liseberg, Svenska Mässan och Scandinavium.\n\nI hyran ingår värme, vatten, el, internet/tv och parkering.\n\nJag söker en ansvarsfull och skötsam hyresgäst med stabil ekonomi som kommer att ta väl hand om bostaden. Rökning och husdjur är inte tillåtna i lägenheten.\n\nJag hyr ut min bostad då jag har flyttat ihop med min sambo.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 48.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Pimpinellagatan, Angered",
     "url": "https://qasa.com/p/1404425",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/949927802c3cdd2d5db4e6a76704e90353f828b90beed9d619780717437f3d27.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hovås Allé, Hovås",
-    "url": "https://qasa.com/p/1368758",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf8915481046f0195fe33f8ad5a11b4d43998ecc70eb21b1986c298ae393be28.jpg",
-    "description": "Ljus och välplanerade lägenhet med bra förvaring. Stor härlig uteplats med kvällssol. Lugnt och trevligt område nära natur och hav. Goda kommunikationer och närhet till service. I hyran ingår bredband, varmvatten och el. Hyr ut på grund av jobb på annan ort. ",
-    "district": "Hovås",
-    "rooms": 1.5,
-    "area_m2": 46.0,
-    "rent": 9440,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T09:56:18+00:00", "clock": "09:56:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T11:12:14+00:00", "clock": "11:12:14"};
