@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Utåkersgatan, Göteborg",
+    "url": "https://qasa.com/p/1404850",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/577c5abf1bb96c893ef39f99449a91d68b7ac6f1a0c69149b202bb3da6c6eeda.png",
+    "description": "Fräsch 2a i Kålltorp uthyres! Lägenheten har nyrenoverat kök och badrum och rymliga ytor och gott om förvaring i lägenheten. \nLägenheten uthyres delvis möblerad, med stor soffa och köksmöbler. \n\nUthyres fram till och med maj 2027 pga studier på annan ort. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Östanvindsgatan, Göteborg",
     "url": "https://qasa.com/p/1404676",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6f3947fa0e24953004b7188eb4bbb09d1b731c8165a37e1bae2938c63f55b1fe.jpg",
@@ -48,6 +63,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Universumsgatan 24, Göteborg",
+    "url": "https://qasa.com/p/1404868",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6892e60994877b25a3063fcb762e335aea28a19d6d52bb37dc12d50bd7b469b6.jpg",
+    "description": "Här erbjuds en ljus och välplanerad lägenhet om 55 kvm, byggd 2022, med öppen planlösning och moderna materialval. \n \nFrån köket finns utgång till en rymlig balkong som passar bra för att njuta av frisk luft eller en kopp kaffe. Köket är utrustat med bland annat diskmaskin och mikrovågsugn, och i badrummet finns en kombinerad tvättmaskin och torktumlare som underlättar vardagen.  \n \nTill lägenheten hör även ett förråd i källaren.  \n \nI hyran som marknadsförts ingår inte kostnad för värme, el och vatten. Värme är uträknat enligt schablon och kostnaden för el och vatten kommer att variera beroende på din förbrukning\n  \nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från ca 530 kr/månad med 2026 års hyresnivå.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 8478,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vallgatan 6, Göteborg ",
     "url": "https://qasa.com/p/1404769",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/667ca4a6d74f766a19f4638c4631e71c6aaf39b89b22d859b260aa68f491bd1f.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mölndalsvägen, Göteborg",
-    "url": "https://qasa.com/p/1391072",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dee6b85c4b57b9a8e018246489093422216c1d43a44aa53fc2fc93841126361.jpg",
-    "description": "Mysig lägenhet med inglasad balkong. Ljus och välplanerad planlösning, samt goda kommunikationer.\n\nMataffärer som Willys och ICA Maxi är inom gångavstånd, liksom gym.\nMed bil, god förbindelse till E6:an och riksväg 40.\n\nLägenheten hyrs ut möblerad och passar utmärkt för en person som söker ett bekvämt boende med väldigt bra kommunikationer och nära till Liseberg, Svenska Mässan och Scandinavium.\n\nI hyran ingår värme, vatten, el, internet/tv och parkering.\n\nJag söker en ansvarsfull och skötsam hyresgäst med stabil ekonomi som kommer att ta väl hand om bostaden. Rökning och husdjur är inte tillåtna i lägenheten.\n\nJag hyr ut min bostad då jag har flyttat ihop med min sambo.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 48.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sysslomansgatan 44, Göteborg",
-    "url": "https://qasa.com/p/1404712",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/768b2eef8b8c71dc2a8103e28bbde671e4c0a6893df1e985dd2a34bf860ba944.jpg",
-    "description": "Nu kan vi erbjuda en 2 ROK på Sysslomansgatan 44 i Utby från 1 oktober.\nLägenheten är belägen på våning 5 och är disponerad på 59 kvm.\n\nLägenheten har bland annat:\nBalkong\nDiskmaskin\nKombimaskin (tvätt- och torktumlare i samma)\nKöksfläkt\nSäkerhetsdörr\nInbygd microvågsugn\nGolvvärme i badrum\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten samt hushållsel.\n\nAnsök redan idag! ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 10501,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T13:19:41+00:00", "clock": "13:19:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T14:11:41+00:00", "clock": "14:11:41"};
