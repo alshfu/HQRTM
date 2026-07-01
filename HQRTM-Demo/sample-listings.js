@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Pimpinellagatan, Angered",
+    "url": "https://qasa.com/p/1404425",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/949927802c3cdd2d5db4e6a76704e90353f828b90beed9d619780717437f3d27.jpg",
+    "description": "En charmig bostad med 5 rum och kök med uteplats.\nParkeringplats för 3 bilar. Nära naturen och fin och lugn område . 4 minuter att gå till Gårdsten centrum . Jag hyr ut den på grund av jag ska flytta till en stad pga ändrat liv situation.  ",
+    "district": "Angered",
+    "rooms": 5.0,
+    "area_m2": 103.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Pontus Wiknersgatan, Göteborg",
     "url": "https://qasa.com/p/1404311",
     "image_url": null,
@@ -11,6 +26,21 @@ window.HQRTM_SAMPLE = [
     "rooms": 1.0,
     "area_m2": 13.0,
     "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sommarvädersgatan 42, Göteborg",
+    "url": "https://qasa.com/p/1404349",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d48d86663523ed5f3aeb5334a14622759b75e62db419cacb7aab0ee4fedf733e.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 5 rum och kök i Biskopsgården! Lägenhet har genomgått ett willhemlyft (totalrenovering) år 2025. Här finner du ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Genomgående ekparkett med klinkers i hall och helkaklat badrum med förberedelse för tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran  inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 81.0,
+    "rent": 10971,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -65,46 +95,16 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Hovås Allé, Hovås",
     "url": "https://qasa.com/p/1368758",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/953a6a55c7ee1f0f7b998cf9ad8a060c8f3ba065bae5271e420de91c3854ba3a.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf8915481046f0195fe33f8ad5a11b4d43998ecc70eb21b1986c298ae393be28.jpg",
     "description": "Ljus och välplanerade lägenhet med bra förvaring. Stor härlig uteplats med kvällssol. Lugnt och trevligt område nära natur och hav. Goda kommunikationer och närhet till service. I hyran ingår bredband, varmvatten och el. Hyr ut på grund av jobb på annan ort. ",
     "district": "Hovås",
     "rooms": 1.5,
     "area_m2": 46.0,
-    "rent": 10580,
+    "rent": 9440,
     "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ostgatan, Göteborg",
-    "url": "https://qasa.com/p/1404005",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/931ccee9a99dd425dd38b2cafc016b30f63f7454b4e6849562f70080667a5fad.jpg",
-    "description": "Uthyres från september 2026 i ca 6 månader med möjlighet till förlängning.\n\nFin och charmig tvåa om 42 m² på Ostgatan 20, våning 6, Kallebäck mysig och mycket bra läge nära centrum och liseberg.\n\nLägenheten har separat kök, sovrum, badrum och gott om förvaring. Hyrs ut möblerad och passar bra för en /två personer \n\nSängen är 160  och TV 55” för referens. Cykelförråd utomhus och i källaren. Lugnt område. \n\nHyra: 11 500 kr/mån\nEl , parkering och wifi ingår\n\nSöker lugn och skötsam hyresgäst.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 41.0,
-    "rent": 11500,
-    "floor": 6,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sysslomansgatan 43, Göteborg",
-    "url": "https://qasa.com/p/1404116",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecb728eddc570347f69ca4dd36130b122938fe38c24d3b20ec4ea46bb54cff37.jpg",
-    "description": "1 oktober kan vi erbjuda en 3 ROK på Sysslomansgatan 43 i utby!\nLägenheten är belägen på våning 4 och är disponerad på 94 kvm.\nModern inredning som håller en mycket hög standard och är utrustad med bland annat:\n- Säkerhetsdörr\n- Balkong\n- Diskmaskin\n- Tvättmaskin\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten samt hushållsel. På kostnaden tillkommer moms. \n\nPlanritning finns men vi erbjuder dig gärna en fysisk visning.\nAnsök redan idag!\n \n\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 94.0,
-    "rent": 15145,
-    "floor": 4,
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T06:56:45+00:00", "clock": "06:56:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T08:31:02+00:00", "clock": "08:31:02"};
