@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Pontus Wiknersgatan, Göteborg",
+    "url": "https://qasa.com/p/1404311",
+    "image_url": null,
+    "description": "Det är ett studentrum 5 minuters promenad från Chalmers och nära GU också. Gemensamt kök badrum och toalett wifi ingår och allt som behövs till matlagning finns. 5 minuters promenad till Götaplatsen. Perfekt för Chalmersstudent. Lugn och ro på enkelriktad gata",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 13.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övralidsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1404183",
     "image_url": null,
@@ -36,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Konvaljegatan, Göteborg",
     "url": "https://qasa.com/p/1404101",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/162a8dfeaf027edb8c7290f2e67728cd6ebba6d7c6f402a64323a96fa968638a.jpg",
-    "description": "Hej!\nJag hyr ut min välplanerade och trivsamma 1-rumslägenhet belägen på centrala Hisingen, vid Wieselgrensplatsen i Göteborg. Lägenheten är tillgänglig fr.o.m 1 oktober men inflytt tidigare fr. Augusti går att diskutera. Och uthyres t.o.m. 21 februari 2027. \n\nLägenheten är välplanerad på 35 kvm, fullt möblerad och har allt som behövs för ett bekvämt boende. Totalt renoverad 2018 och är väldigt fräsch. Här finns mycket ljusinsläpp, rymlig walk-in closet, balkong, fullt utrustat kök samt fräscht badrum. Trevligt område med goda förbindelser. Stor matbutik, apotek och restauranger bara några meter från lägenheten. \n\nHyra: 9000kr/mån + el tillkommer. Wi-Fi tecknas av hyresgästen. \nDeposition: 1 månadshyra \nInflytt: 1 september - 1 oktober 2026\n\nUthyres till skötsam, rökfri person. Inga husdjur. Lägenheten hyrs ut med kontrakt och referenser kan komma att efterfrågas.\n\nVid intresse, skicka gärna en kort presentation av dig själv. ",
+    "description": "Hej!\nJag hyr ut min välplanerade och trivsamma 1-rumslägenhet belägen på centrala Hisingen, vid Wieselgrensplatsen i Göteborg. Lägenheten är tillgänglig för inflytt så snart som möjligt. Och uthyres 6 månader i taget. \n\nLägenheten är välplanerad på 35 kvm, fullt möblerad och har allt som behövs för ett bekvämt boende. Totalt renoverad 2018 och är väldigt fräsch. Här finns mycket ljusinsläpp, rymlig walk-in closet, balkong, fullt utrustat kök samt fräscht badrum. Trevligt område med goda förbindelser. Stor matbutik, apotek och restauranger bara några meter från lägenheten. \n\nHyra: 9000kr/mån + el tillkommer. Wi-Fi tecknas av hyresgästen. \nDeposition: 1 månadshyra \nInflytt: 1 september - 1 oktober 2026\n\nUthyres till skötsam, rökfri person. Inga husdjur. Lägenheten hyrs ut med kontrakt och referenser kan komma att efterfrågas.\n\nVid intresse, skicka gärna en kort presentation av dig själv. ",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 35.0,
@@ -78,33 +93,18 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Solventilsgatan, Göteborg",
-    "url": "https://qasa.com/p/1403953",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d858d9369d40fa1fa09b0df65f03fe4df0584349fccdd7cc32bcb14ac1b9181b.jpg",
-    "description": "Hyr ut en etta med allt man behöver med fantadtisk balkong med utsikt över Göteborg. Enbart några fåtal minuter till knutpunkt Hjalmar Brantingsplatsen därifrån kan du enkelt ta dig runt om i Göteborg med omnejd. På Bacakplan finns det en del butiker och restauranger.\n\nI hyran ingår värme, vatten, bredband & tv.",
+    "title": "Sysslomansgatan 43, Göteborg",
+    "url": "https://qasa.com/p/1404116",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecb728eddc570347f69ca4dd36130b122938fe38c24d3b20ec4ea46bb54cff37.jpg",
+    "description": "1 oktober kan vi erbjuda en 3 ROK på Sysslomansgatan 43 i utby!\nLägenheten är belägen på våning 4 och är disponerad på 94 kvm.\nModern inredning som håller en mycket hög standard och är utrustad med bland annat:\n- Säkerhetsdörr\n- Balkong\n- Diskmaskin\n- Tvättmaskin\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten samt hushållsel. På kostnaden tillkommer moms. \n\nPlanritning finns men vi erbjuder dig gärna en fysisk visning.\nAnsök redan idag!\n \n\n",
     "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 39.0,
-    "rent": 9200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Färgaregatan, Göteborg",
-    "url": "https://qasa.com/p/1403869",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ea3714a8fa0c32e4b42c99b75b400ba2feeac496d026d01d0629c23797f2e989.jpg",
-    "description": "Charmig möblerad lägenhet i centrala Göteborg – Tillgänglig från september\n\nHej!\n\nVi hyr ut vår moderna och fullt möblerade lägenhet på 72 kvm på grund av flytt. Lägenheten passar perfekt för en person, ett par eller en familj med ett barn som söker ett bekvämt boende i ett centralt men lugnt område.\n\nOm lägenheten:\n• Solig balkong med utsikt över en grön och lugn innergård\n• Rymligt vardagsrum. Tidigare hyresgäster har använt en vikbar rumsavdelare för att skapa ett extra sovrum eller arbetsrum, vilket gör lägenheten flexibel efter behov\n• Diskmaskin, tvättmaskin, TV och övriga nödvändiga möbler ingår\n• El, varmvatten och bredband ingår i hyran\n• Cykel- och barnvagnsförråd\n• Bastu som kan bokas kostnadsfritt\n• Två gästrum som kan hyras för 300 kr/natt\n• Lokal för konferenser eller privata tillställningar\n• Återvinningsstation på innergården\n\nLäge:\n• 7 minuters promenad till Göteborgs Centralstation\n• 3 minuters promenad till närmaste spårvagnshållplats\n• 8 minuters promenad till Trädgårdsföreningen\n\nHyra och villkor:\n• 20 000 kr/månad (inkl. el, bredband och varmvatten)\n• Deposition: en månadshyra\n• Intyg om inkomst krävs\n• Husdjur är välkomna 🐾\n\nLägenheten kan komma att säljas i framtiden. Därför är den initiala hyresperioden 6 månader, med möjlighet till förlängning upp till 1 år.\n\nIntresserad?\nKontakta oss gärna via Blocket. Skicka en kort presentation av dig själv, önskat inflyttningsdatum och hur länge du planerar att hyra lägenheten.\n\n------------------------ English Below ------------------------\n\nCharming Furnished Apartment in Central Gothenburg – Available from September\n\nHi!\n\nWe're renting out our modern, fully furnished 72 sqm apartment due to relocation. It's ideal for a single person, a couple, or a family with one child looking for comfort and convenience in a central yet peaceful location.\n\nAbout the apartment:\n• Sunny balcony overlooking a quiet, green courtyard\n• Spacious living room. Previous tenants have used a folding room divider to create an additional bedroom or home office, offering extra flexibility depending on your needs\n• Dishwasher, washing machine, TV, and essential furnishings included\n• Electricity, hot water, and broadband included in the rent\n• Bicycle and stroller storage\n• Sauna available free of charge\n• Two guest rooms available for 300 SEK/night\n• Venue available for conferences or private events\n• Recycling station in the courtyard\n\nLocation:\n• 7-minute walk to Gothenburg Central Station\n• 3-minute walk to the nearest tram stop\n• 8-minute walk to Trädgårdsföreningen Park\n\nRent and terms:\n• 20,000 SEK/month (includes electricity, broadband, and hot water)\n• One month's rent as deposit\n• Proof of income required\n• Pets welcome 🐾\n\nThe apartment may be sold in the future, so the initial rental period is 6 months, with the possibility of extending up to 1 year.\n\nInterested?\nPlease contact us via Blocket with a short introduction, your preferred move-in date, and the expected duration of your stay.",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 72.0,
-    "rent": 20000,
-    "floor": null,
+    "rooms": 3.0,
+    "area_m2": 94.0,
+    "rent": 15145,
+    "floor": 4,
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T05:24:43+00:00", "clock": "05:24:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-01T06:56:45+00:00", "clock": "06:56:45"};
