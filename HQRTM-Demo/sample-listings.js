@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Andra Långgatan, Göteborg",
+    "url": "https://qasa.com/p/1403323",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925dfbcd97771f0795f52b6234069ddfa2e152e2c7133eb6a42392b2223a83df.jpg",
+    "description": "Nu har du möjlighet att hyra en kvadratsmart tvårummare med öppen planlösning. Lägenheten är ljus och har flera fönster som vetter mot en lugn innergård. Kök och vardagsrum är integrerade, vilket skapar en trevlig miljö för middagar och umgänge.\n\nLäget är centralt med närhet till kaféer, restauranger och butiker. Saluhallen Briggen, som erbjuder olika delikatesser, ligger runt hörnet. Det är även nära till Slottsskogen, en stor park som erbjuder fina promenadstråk. Mycket nära Järntorget, med goda kommunikationer.\n\nKostnad för bredband (Tele2, fd comhem) och hushållsel tillkommer.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Mandolingatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1406274",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/31e8696a7ec9404875e481ede2d9fca2df17c4ef348973a254787cfb415a4215.jpg",
+    "description": "Möblerad etta hyrs ut i andrahand, Västra Frölunda.\n(Hållplats Frölunda Torg)\n\nInflyttning: 1 oktober  \nUtflytt: 31 januari\n\nSöker en pålitlig hyresgäst till fin, modern och möblerade etta på 35 m2. Balkong och fönster åt innergård.\n\nUthyres fullt möblerad inklusive köksutrustning så som mikro, brödrost, vattenkokare, bestick mm\n\nPlanritning bifogas i annonsen.\n\n(Soffan på bild har bytts till annan grå, soffa, övrigt blir som på fotona).\n\n ”Förrådet” på planritningen används idag som sovrum och har måttanpassad säng ståendes där, 160x185 cm.\n\nOm området:\nGångavstånd (2 min.) till Frölunda Torg och spårvagnar / bussar.  Utmärkta kommunikationer – med 15 min till Linnéplatsen och Sahlgrenska huvudentré, Chalmers\n(Spårvagn 1, 7, 8, 11)\n\nNärområde:\nRuddalens friluftsområde runt hörnet med skogsstigar, upplysta motionsspår och skridskobana vintertid.\nFrölunda Kulturhus ligger 2 minuter bort.\n\nSöker:\nEn skötsam hyresgäst med stabil ekonomi som trivs i ett lugnt och trevligt område.\nDu får inte ha betalningsanmärkningar, kreditupplysning kommer krävas.\nReferenser från tidigare boenden önskas.\n\nLägenheten är för max 2 personer.\nInga husdjur.\nRökning förbjuden i lägenhet och på balkong.\n\nIngår:\nBredband \nVarmvatten (normalförbrukning)\nTvättmaskin & torktumlare finns.\nEl\n\nDu måste själv teckna hemförsäkring.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 9200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Björnväktarens Gata, Göteborg",
     "url": "https://qasa.com/p/1406137",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/731a53068de26bc200d6fcdfe21b451dccd2f4fa4260e66d898580d939bc52bf.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nebulosagatan 12, Göteborg",
-    "url": "https://qasa.com/p/1406084",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac66426a25f80761513f7feb15001623c74fc0dd89073309426b400301cc073f.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med ljusa vitvaror och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nTill Hyran ingår värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 10228,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungsportsavenyen, Göteborg",
-    "url": "https://qasa.com/p/1405846",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa4b300036a8ef588b0881073e734e20ad40eed1abed7a879db6818fab29a520.jpg",
-    "description": "Studio på Avenyn intill Götaplatsen! \nEtt härligt boende med närhet till \"allt\" i Göteborg.  Öppen planlösning med vardagsrum, kök, hall, öppen spis och balkong med utsikt över Avenyn och Götaplatsen.  \nI hyran ingår el och wi fi och studion är fullt möblerad inklusive köksutrusning.\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 15400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-02T18:42:15+00:00", "clock": "18:42:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-02T20:09:37+00:00", "clock": "20:09:37"};
