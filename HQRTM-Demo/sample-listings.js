@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kvillepiren, Göteborg",
+    "url": "https://qasa.com/p/1016209",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1008a3cce0b423365b49191d0900c09c238700a5b35187659e81a9fe845bed10.jpg",
+    "description": "Precis intill vattnet och bara minuter från city ligger Waterfront Cabins. Vi erbjuder fullt utrustade studios på Kvillepiren – för dig, oavsett vem du är eller vad du behöver. Vi finns här genom livets olika faser och erbjuder både korta och längre vistelser. Det är smart, flexibelt och bekvämt.\n\nJUST NU har vi ett fåtal studios kvar inför sommaren som vi kan erbjuda från 8 500 kr/mån\n\nSamtliga studios är stilfullt möblerade, med ett fullt utrustat kök, rymligt badrum, kombinerad tvätt- och torkmaskin, sköna sängar och snabbt Wi-Fi. Kostnader för el, värme, AC och vattenförbrukning ingår självklart i vistelsen. Dessutom har vi personal på plats dygnet runt om du har frågor eller behöver hjälp. Det är vad vi kallar all-inclusive.\n\nObservera att priset i annonsen är ett från-pris och priset kan skilja sig mellan olika studios och bokningsperioder. \n\nDeposition och administrationsavgift tillkommer.\n\nVi vill att det ska vara både enkelt och bekvämt att välja Waterfront Cabins!\n\nVälkommen!\n(OBS: Bilderna är exempelbilder på hur en studiotyp kan se ut.)",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 9900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Wieselgrensgatan, Göteborg",
+    "url": "https://qasa.com/p/1405351",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0a323c6ae0129f4af9e5b92fd69aa8e7060f1a7cf16c4ecc54aad4f64c26fdaa.jpg",
+    "description": "\nJag hyr ut ett nybyggt attefallshus (2022) på min tomt i Hildedal på centrala Hisingen. Huset har 30 kvm boarea och en total golvyta på 45 kvm inklusive loft. Bostaden är fullt möblerad och hyrs ut tills vidare till en person.\n\nHuset har ett eget, fullt utrustat kök med induktionshäll, diskmaskin, kyl och frys, mikrovågsugn samt varmluftsugn. Det fräscha badrummet är utrustat med tvättmaskin och torktumlare. Bostaden erbjuder högt i tak, fint ljusinsläpp, smarta förvaringslösningar och en stor egen uteplats. Uppvärmning sker med golvvärme och luftvärmepump. Huset besiktigades av Stadsbyggnadskontoret 2022 utan anmärkningar.\n\nHildedal är ett lugnt och trivsamt område på centrala Hisingen, endast cirka 10 minuter med buss från Centralstationen. Här finns en blandning av charmiga äldre villor, nybyggda radhus och lägenheter samt fina promenad- och naturområden precis runt hörnet. Jag och min familj har bott här i över 12 år och trivs mycket bra.\n\nHyresvillkor:\n\n* Hyrs ut möblerad.\n* Uthyres tills vidare.\n* Två månaders deposition.\n* Tre månaders uppsägningstid.\n* El, vatten, internet och WiFi ingår i hyran.\n* Parkeringsplats på tomten finns.\n\nVid intresse är du välkommen att skicka ett meddelande och berätta lite om dig själv.\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gröna Annas Gata, Göteborg",
     "url": "https://qasa.com/p/1405012",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östanvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1404676",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6f3947fa0e24953004b7188eb4bbb09d1b731c8165a37e1bae2938c63f55b1fe.jpg",
-    "description": " Möblerat rum uthyres – 11 kvm inkl stor garderob.\n\nHej!\n\nJag söker en lugn, skötsam och ansvarstagande kille, gärna student, som inneboende i min ljusa 2:a på 50 kvm.\n\nRummet som du hyr är 11 kvm inkl stor garderob och hyrs ut fullt möblerat.\n\nDetta ingår i hyran:\n\nEl och vatten\nBredband (WiFi)\nFullt utrustat kök med diskmaskin\nFräscht badrum\nTvättstuga i källaren\n\nJag är hos min särbo ett par dagar i veckan. Det innebär att du ofta kommer att ha lägenheten för dig själv.\n\nOm lägenheten och området\n\nLägenheten ligger på första våningen i ett lugnt och trevligt område. Huset är av äldre årgång, men lägenheten är ljus, trivsam och har fungerat utmärkt för mig under de åtta år jag bott här.\n\nMed gångavstånd når du:\n\nCoop, Willys och Apotek på cirka 5 minuter.\nBuss och spårvagn på cirka 5 minuter.\nCentrala Göteborg på cirka 10 minuter med kollektivtrafik.\nBackaplan på cirka 3 minuter med buss eller spårvagn.\n\nLåter det intressant? Skicka gärna ett meddelande och berätta lite om dig själv – vem du är, vad du studerar eller arbetar med och när du önskar flytta in.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 11.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Studiegången, Göteborg",
-    "url": "https://qasa.com/p/1393201",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13f22a8e7c278d94f904d7956b2501881effdcabb922f88b03d15b19e9d4a137.jpg",
-    "description": "Totalrenoverad 2:a i Örgryte-Härlanda uthyres (1 sept – 1 dec)\nVälkommen till en ljus, modern och fullt möblerad lägenhet på Studiegången i Göteborg. Lägenheten disponeras som en välplanerad 2:a på 58 kvm (ett rum är låst för förvaring) och är perfekt för en person som söker ett bekvämt boende nära både natur och city.\nBostaden ligger på våning 2 (hiss finns).\nKort om bostaden:\nUtrustning: Fullt möblerad, modernt kök/badrum, samt mysig balkong och Wi-Fi.\nGemensamma faciliteter:\nFri tillgång gym, bast, tvättstuga och cykelrum.\nLäge: Lugnt område precis vid Delsjöns naturreservat (bad och motionsspår). Ca 26 minuter till Centralstationen och nära till Avenyn.\n(Värme, vatten, bredband och gym ingår).\n Krav: Stabil ekonomi, rökfri \nLåter det intressant? Skicka ett meddelande och berätta kort om vem du är!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 7600,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-02T04:46:48+00:00", "clock": "04:46:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-02T07:57:44+00:00", "clock": "07:57:44"};
