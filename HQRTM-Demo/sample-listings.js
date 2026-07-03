@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Vegagatan, Göteborg",
+    "url": "https://qasa.com/p/1407069",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/923f00f4b8ed9a84cff465e40bf239ed5612a49daec2ab871eb753367fc13b4b.jpg",
+    "description": "Nu hyr jag ut min fina och välplanerade 1,5:a om 37 kvm på Vegagatan 56 i hjärtat av Linné. Lägenheten hyrs ut fullt möblerad eftersom jag kommer att arbeta på annan ort under en period.\n\nTillgänglig: från mitten av juli (flexibelt tillträde)\nHyrestid: minst 6 månader\n\nHyra: 13 643 kr/månad. I hyran ingår möbler, el, värme, vatten, tv samt bredband.\n\nLägenheten ligger på andra våningen i ett hus med hiss och erbjuder ett separat sovrum, ett modernt och välutrustat kök samt ett ljust och trivsamt vardagsrum. Tvättstuga finns i källaren.\n\nFöreningen har en lugn och grönskande innergård – en perfekt plats för morgonkaffet eller en avkopplande sommarkväll.\n\nLäget är svårslaget. Vegagatan är en lugn gata mitt i Linné, med caféer, restauranger och mataffärer precis runt hörnet. På bara några minuters promenad når du både spårvagn och buss vilket gör det enkelt att ta sig runt i Göteborg.\n\nJag söker en skötsam, rök- och djurfri hyresgäst med stabil ekonomi. Vid intresse är du varmt välkommen att mejla och berätta lite om dig själv.\n\nMöbleringen har ändrats i lägenheten sedan fotografering, finns en 160 cm säng, tv samt en 3-sitssoffa.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 37.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kungshöjdsgatan, Göteborg",
     "url": "https://qasa.com/p/1407059",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2eb3d036865b62e6ef5ab24b75c5e52bb8a0e1876cb4f5aced6a401e81f5b178.jpg",
@@ -29,6 +44,21 @@ window.HQRTM_SAMPLE = [
     "floor": 9,
     "has_balcony": null,
     "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gyllenkrooksgatan 3, Göteborg",
+    "url": "https://qasa.com/p/1407075",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80885a7d61443f87ce44e4f95be63285f7dae465cfe264538a9f42ff5d67f701.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna charmiga 2 rum och kök på attraktiva Gyllenkrooksgatan! \n\nÖppen planlösning mellan vardagsrum och kök, diskmaskin finns installerat. Från sovrummet når du din alldeles egna uteplats. Toppmatad tvättmaskin installerat i badrummet.\n\nÖVRIGT\nCykelställ och soprum finns på innergården. Tvättstuga finns på våning ett, en trappa upp från entrén. Källarförråd ingår. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nBoendeparkering finns att ansöka hos Göteborgs Stad.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 34.0,
+    "rent": 8033,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Palmträgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1406862",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec6d567a4c18c67a38b7a2e46443e3946927c61e1b338f6a78232bb6de0daf29.jpg",
-    "description": "Mysig etta med inglasad balkong och stort badrum. Det som ingår i hyran är kall- och varmvatten samt internet 250/250 via fiber. Ligger 2 minuters gångavstånd från busshållplats. ",
-    "district": "Hisings Backa",
-    "rooms": 1.0,
-    "area_m2": 26.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Handelsmyntet 5, Göteborg",
-    "url": "https://qasa.com/p/1406897",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/76815691664d1319cd0ebef4aea683eb7d919c06954c36ba2fddf02f8b92a7a9.jpg",
-    "description": "Välplanerad lägenhet med modern standard som passar perfekt för den lilla familjen eller för dig som önskar ett extra arbets- eller gästrum.\n\nBostaden har en egen ingång med uteplats från innergården och en balkong med utgång från vardagsrummet.\n\nHallen har klinkergolv och en praktisk skjutdörrsgarderob, medan övriga rum har ekparkett. Köket är välutrustat med diskmaskin och mikrovågsugn.\n\nLägenheten har två helkaklade badrum, varav det ena är utrustat med tvättmaskin.\n\nGemensam tvättstuga och lägenhetsförråd finns i källarplan. Cykelrum och återvinningsrum nås från gården.\n\nFastigheten färdigställdes hösten 2019 och erbjuder moderna bostäder med hög standard. Samtliga lägenheter på Handelsmyntet hyrs ut med villkor om rökfrihet för att skapa en sund och trivsam boendemiljö. Rökning är därför inte tillåten i lägenheten, på balkong, uteplats, loftgång eller i anslutning till huset.\n\n\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 76.0,
-    "rent": 14288,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T15:26:59+00:00", "clock": "15:26:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T16:56:03+00:00", "clock": "16:56:03"};
