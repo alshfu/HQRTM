@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Västerslänt, Angered",
+    "url": "https://qasa.com/p/1407191",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38ab4d40223369f73fa2791e9033f4c1312b6aad553fb60eecdf854c19d8eaaf.png",
+    "description": "🇬🇧 Housing for a Project Team or a Family at Västerslänt, Angered (5 bedrooms)\n\nA practical, fully equipped 158 sqm house for construction crews or a large family. Up to nine separate single beds across four twin rooms and one single room – no bunkbeds.\n\nLocation:\n•\tVästerslänt, Angered (north Göteborg)\n•\t10 km / 11 minutes by car to Gothenburg Central Station\n•\tEasy access to E45 and project sites across the region\n•\tQuiet residential area, free parking for 1–2 cars in the carport\n•\tNearest bus stop a few minutes' walk down the hill\n\nThe house:\n•\t5 bedrooms (4 twin, 1 single) with 9 separate single beds\n•\t2 modern bathrooms, 2 toilets, shower and bathtub\n•\tSpacious modern kitchen, living room, plenty of storage\n•\tWashing machine, tumble dryer, dishwasher, high-speed Wi-Fi\n•\tGarden and outdoor area for breaks and summer barbecues\n•\tFully furnished and equipped\n•\tPets by agreement, no smoking indoors\n\nTerms for company clients:\n•\tFrom 1,129 SEK/night, all running costs included (electricity, water, heating, internet, waste collection) + 12% VAT\n•\tInvoiced directly to your company\n•\t30 days' notice period\n•\tSelf-care policy. Cleaning service upon request\n\nTerms for private tenants:\n•\tFirst-hand tenancy contract\n•\t19,900 SEK/month, excluding running costs\n•\t3 months' notice period\n•\tFurnishing according to agreement\n•\tProof of stable income and employment required, references will be requested\n\nExperienced and professional landlord.\n\nContact us to book a viewing!\n\n --\n\n🇸🇪 Boende för arbetslag eller en familj – Västerslänt, Angered (5 sovrum)\n\nEtt praktiskt och fullt utrustat hus på 158 kvm för ett byggteam eller en familj. Upp till nio separata enkelsängar fördelade på fyra tvåbäddsrum och ett enkelrum – inga våningssängar.\n\nLäge:\n•\t10 km / 11 min med bil till Göteborgs centralstation\n•\tNära E45 och projektorter i hela regionen\n•\tLugnt bostadsområde, fri parkering för 1–2 bilar i carport\n•\tNärmaste busshållplats några minuters promenad nedför backen\n\nHuset:\n•\t5 sovrum (4 tvåbäddsrum, 1 enkelrum) med 9 separata enkelsängar\n•\t2 moderna badrum, 2 toaletter, dusch och badkar\n•\tRymligt kök, vardagsrum, gott om förvaring\n•\tTvättmaskin, torktumlare, diskmaskin, snabbt wifi\n•\tTrädgård och uteplats för paus och sommargrillning\n•\tFullt möblerat och utrustat, ljusa ytskikt genomgående\n•\tHusdjur efter överenskommelse, rökning inomhus förbjuden\n\nVillkor för företagskunder:\n•\tFrån 1 129 kr/dygn med allt inkluderat (el, vatten, värme, internet, sophantering) + 12 % moms\n•\tFaktura ställs direkt till företaget\n•\t30 dagars uppsägningstid\n•\tSjälvhushållspolicy. Städtjänster på förfrågan\n\nVillkor för privatpersoner:\n•\tFörstahandskontrakt\n•\t19 900 kr/mån exklusive driftkostnader\n•\t3 månaders uppsägningstid\n•\tMöblering valfri\n•\tStabil ekonomi och anställning krävs, referenser kommer efterfrågas\n\nErfaren och professionell hyresvärd.\n\nKontakta oss för visning!",
+    "district": "Angered",
+    "rooms": 6.0,
+    "area_m2": 158.0,
+    "rent": 19000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Astris Gata, Göteborg",
     "url": "https://qasa.com/p/1407119",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d1186da6fc6995d0523fcaaa097879a7e488ec3fc9ca707e33030dab1c4ac527.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Godemansgatan, Göteborg",
-    "url": "https://qasa.com/p/1406990",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8b68a2db6b2cc865f95c40b696aa0ba3c931a861b8e219e8fb486daf5c98060.jpg",
-    "description": "Hej,\n\nJag hyr ut min lägenhet på Kvillebäcken i centrala Hisingen på 38 kvm2, våning 2. Lägenheten är en möblerad etta och ligger 2 min från busshållplatsen samt spårvagn stationen Vågmästareplatsen som ligger 5-8 min från Nordstan och centrala Göteborg.  Lägenheten har ett rum, separat kök och klädkammare samt gemensam tvättstuga. Hyran är inklusive TV-abonnemang, internet, värme och vatten.  Är lägenheten av intresse? Kontakta gärna mig med en beskrivning om dig själv och din situation. Vänligen notera att inga djur är tillåtna i lägenheten. \n\nTack!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 8900,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T19:53:04+00:00", "clock": "19:53:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T20:58:38+00:00", "clock": "20:58:38"};
