@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Anna Branzells Gata, Göteborg",
+    "url": "https://qasa.com/p/1406391",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/73c5407f0369cc45dd68f8ea5382ae5d880cefd61218986eacfe483e229cf815.jpg",
+    "description": "Hej!\n\nJag ska flytta till en annan stad och hyr därför ut min fina lägenhet i centrala Göteborg från och med 31 augusti.\n\n🏡 Om lägenheten:\n• 2,5 rum – 54 kvm\n• Våning 3 av 4\n• Stor balkong\n• Omöblerad\n• Diskmaskin\n• Kombinerad tvättmaskin och torktumlare (wash & dry)\n• Ljus, modern och välplanerad\n\n📍 Läge:\n• Centrala Göteborg – ca 10 minuter till Centralstationen\n• Gym och matbutik endast 10 meter från porten\n• Nära kommunikationer, restauranger och all service\n\n💰 Hyra: 15 000 kr/månad\n• 1 månads deposition\n• El, internet och varmvatten tillkommer och debiteras utifrån faktisk förbrukning.\n\n📅 Hyresperiod:\n• 1 år med möjlighet till förlängning\n\n🚭 Övrigt:\nLägenheten är rök- och djurfri, och jag önskar att den fortsätter vara det. Jag söker därför en skötsam hyresgäst som tar väl hand om bostaden.\n\nSkicka gärna ett meddelande och berätta lite om dig själv om du är intresserad eller har några frågor!",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 54.0,
+    "rent": 15000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Andra Långgatan, Göteborg",
     "url": "https://qasa.com/p/1403323",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925dfbcd97771f0795f52b6234069ddfa2e152e2c7133eb6a42392b2223a83df.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stenkastsgatan 12, Göteborg",
-    "url": "https://qasa.com/p/1406102",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6141a0adc02e19c2afb595ce6f34c0dc01695e4b3f22bf2456c726aa5d5d9745.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna fina två rum och kök med egen uteplats på Stenkastgatan 9. I köket finns diskmaskin installerad och tvättmaskin finns i badrummet. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 9126,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-02T23:46:25+00:00", "clock": "23:46:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T01:21:04+00:00", "clock": "01:21:04"};
