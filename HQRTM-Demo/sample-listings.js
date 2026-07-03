@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ulfsparregatan, Göteborg",
+    "url": "https://qasa.com/p/1407211",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ad592402f5a8eed9789a6bf5e89afe493b06e328559a111830a3a0da9e99e08d.jpg",
+    "description": "Mysig och möblerad 1,5:a i Lunden med balkong med fin utsikt över Göteborg. Jag söker dig som vill flytta in i min välplanerade och charmiga lägenhet på 37 kvm. Lägenheten kommer att hyras ut i andra hand under en längre period när jag bor utomlands (finns chans till förlängning). Lägenheten ligger i ett väldigt tryggt och trevligt område. Det finns mycket bra förbindelser till centrala Göteborg med 60-bussen precis utanför dörren, samt spårvagn från Redbergsplatsen. Här bor du även med närhet till restauranger, mataffärer, gym och trevliga grönområden. \n\nHyran inkluderar även internet, el, vatten och värme. \n\nLägenheten kommer att hyras ut fullt möblerad med: dubbelsäng (160 cm), soffa, soffbord, matbord, stolar, tv-bänk, TV, balkong-möbler. Porslin, bestick och köksredskap kan lämnas kvar om önskemål finns. \n\nInflytt: Augusti 2026 (datum kan kommas överens om)\nDeposition: Enligt överenskommelse\n\nHör av dig om du har några frågor eller vill komma på visning! ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 37.0,
+    "rent": 12800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Västerslänt, Angered",
     "url": "https://qasa.com/p/1407191",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38ab4d40223369f73fa2791e9033f4c1312b6aad553fb60eecdf854c19d8eaaf.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gyllenkrooksgatan 3, Göteborg",
-    "url": "https://qasa.com/p/1407075",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80885a7d61443f87ce44e4f95be63285f7dae465cfe264538a9f42ff5d67f701.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna charmiga 2 rum och kök på attraktiva Gyllenkrooksgatan! \n\nÖppen planlösning mellan vardagsrum och kök, diskmaskin finns installerat. Från sovrummet når du din alldeles egna uteplats. Toppmatad tvättmaskin installerat i badrummet.\n\nÖVRIGT\nCykelställ och soprum finns på innergården. Tvättstuga finns på våning ett, en trappa upp från entrén. Källarförråd ingår. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nBoendeparkering finns att ansöka hos Göteborgs Stad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 34.0,
-    "rent": 8033,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T22:12:42+00:00", "clock": "22:12:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T23:29:07+00:00", "clock": "23:29:07"};
