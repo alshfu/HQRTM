@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Astris Gata, Göteborg",
+    "url": "https://qasa.com/p/1407119",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d1186da6fc6995d0523fcaaa097879a7e488ec3fc9ca707e33030dab1c4ac527.jpg",
+    "description": "Jag hyr nu ut min ljusa och välplanerade lägenhet på Astris gata 60. Bostaden är 42 kvm och består av två rum, ett separat sovrum och en öppen social yta mellan vardagsrum och kök. Här finns även ett helkaklat badrum med tvättmaskin/torktumlare och en egen uteplats i lugnt och trivsamt läge.\n\nI hyran ingår värme, vatten, bredband och TV.\n\nKommunikationerna är mycket goda med direktbuss till Nordstan, Frölunda Torg samt Hjalmar Brantingsplatsen. I området finns dessutom mataffärer, restauranger, caféer, gym och fina promenadstråk längs vattnet.\n\nDet här hemmet passar perfekt för en person eller ett par som vill bo modernt och bekvämt i ett lugnt område nära stadens puls.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1407094",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4e0eac30d8c4a15eef9726f1eeded8a521b3e566efd9209b5a99b346d13661ce.jpg",
+    "description": "Möblerat rum uthyres i centralt belägen villa i Örgryte – Perfekt för student!\nVi hyr ut ett möblerat rum på ca 10 kvm i en stor och charmig villa i Örgryte – ett av Göteborgs mest eftertraktade områden.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 Endast studenter bor i huset, vilket skapar en lugn och trivsam miljö.\n\n🛏 Om lägenheten och rummet\nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång.\nDen består av fyra sovrum, kök, vardagsrum och badrum.\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vegagatan, Göteborg",
     "url": "https://qasa.com/p/1407069",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/923f00f4b8ed9a84cff465e40bf239ed5612a49daec2ab871eb753367fc13b4b.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Toredalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1386476",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/722242c4e1719d92702a4691f8324eff0c83f23e4a8724fbd5078e943458507b.jpg",
-    "description": "Centralt ,nära till alt .volvo Lundby ,Lindholmen  ,mycket fin attefall hus  med egen ingång .kök, badrum , stor terass.sov plats,,  Ledigt från 01 juli ,eller augusti om så önskas ,, ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 8200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tjärblomsgatan, Göteborg",
-    "url": "https://qasa.com/p/1406931",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dfbc731cd5f51b841cbf831117664aaad0bfc205dd34db033ed7cb4b35c3bc94.jpg",
-    "description": "Mysig och fullt möblerad etta i Kvillebäcken - perfekt för dig som söker ett bekvämt boende!\n\nNu har du chansen att hyra min ljusa och luftiga etta på 27 kvm i populära Kvillebäcken.\nLägenheten ligger på våning 2 och är optimalt planerad för att kännas rymlig trots sin storlek. Här finns allt du behöver för ett bekvämt boende!\n\nLägenheten hyrs ut fullt möblerad med alla\nnödvändiga möbler och även komplett köksutrustning - bara att flytta in och trivas.\nJag hyr ut lägenheten i andrahand i 10 månader med start 28 juli 2026 på grund av samboskap.\nUthyrningen sker i enlighet med\nFamiljebostäders regler. Hyran motsvarar min ordinarie hyra plus 15% för möblerna.\nElkostnaden tillkommer och betalas av hyresgästen.\n\nVad ingår?\n*   Fullt möblerad lägenhet\n*   Alla köksredskap och nödvändigheter i köket\n*   Ljus och luftig planlösning\n*   Attraktivt läge i Kvillebäcken (7 min från Göteborg centrum med spårvagn) \n\nVem söker jag?\nEn skötsam och ansvarsfull hyresgäst som vill ta hand om mitt hem under uthyrningsperioden.\n\nFlera bilder på lägenheten finns i annonsen.\nÄr du intresserad? Skicka ett meddelande och beratta lite om dig sjalv!\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 27.0,
-    "rent": 5300,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T16:56:03+00:00", "clock": "16:56:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-03T18:14:27+00:00", "clock": "18:14:27"};
