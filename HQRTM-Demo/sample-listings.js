@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Syrengården, Angered",
     "url": "https://qasa.com/p/1407471",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d9a0f2b76c6902cf25f04b6617ed87d346539209f5e8cc005ee5ecedec339052.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Enebergsvägen, Göteborg",
-    "url": "https://qasa.com/p/1407336",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/48223b78842e28719f00b1e6e83790e300846fdf8acb3ed89239f13b0c5073df.jpg",
-    "description": "Charmigt funkishus från 1937 i populära Krabbeliderna. Huset ligger mitt emellan citypuls och salta bad, med nära till service, skolor, lekplatser och natur. \n\nBoarean är 98 kvm + 49 kvm biarea (inredd källare), med totalt 6 rum varav 3–4 sovrum. Ljust vardagsrum med stora fönster och utsikt, 3 sovrum på övre plan samt gillestuga och badrum i källaren. Generös altan/uteplats och en lättskött tomt på ca 643 kvm med gräsmatta, fruktträd och plats för lek och odling, även lekstuga.\n\nHuset har genomgått flera renoveringar på senare år (bland annat kök, ytskikt, värme och fasad), har fiberbredband och bra standard. Ett hem att trivas i – både inne och ute!\n\nVisning inför försäljning av hus kommer ske maj 2027. Städning inför visning ordnas och bekostas av hyresvärd.",
-    "district": "Göteborg",
-    "rooms": 6.0,
-    "area_m2": 147.0,
-    "rent": 19200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjuviks bryggväg, Göteborg ",
-    "url": "https://qasa.com/p/1407330",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/348f99bb9079e20ae4231753c70143d93e7102319659c9636e52b4173ac090ff.jpg",
-    "description": "Hejsan! Hyr ut en lägenhet på ovanvåningen i vårt hus i Hjuvik (Torslanda), ett stenkast från hav och badplatser och bra bussförbindelser in till Göteborg. Nära till Volvo Torslanda.\nLägenheten är på ca 60 kvm, 3 rum och trinett/minikök. Det finns dusch och badkar samt egen balkong och förrådsutrymmen. Parkering, el, vatten och internet ingår. Lägenheten hyrs ut möblerad.\nHyran ligger på 10000\n\nHyres ut till en person med fast anställning, utan betalningsanmärkningar.\nInga husdjur.",
-    "district": "Göteborg ",
-    "rooms": 3.0,
-    "area_m2": 60.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T14:14:06+00:00", "clock": "14:14:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T15:33:41+00:00", "clock": "15:33:41"};
