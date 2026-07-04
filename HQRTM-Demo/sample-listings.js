@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hallegatan, Göteborg",
+    "url": "https://qasa.com/p/1407674",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c4146bce5876c7402bd85e8fdc8392f14d95af7b9c1d9682e5ab96701df7534.jpg",
+    "description": "Det är en väl placerad 1.5:a, precis vid hållplatsen Vågmästareplatsen. Lägenheten är 36.5 kvadratmeter, och det finns en inglasad balkong, samt en walk-in-closet. \nDet är en större tv-hylla som nästan skapar ett eget mindre sovrum bakom, vid ena garderoben. Det finns även en extra kyl och frys men kan flyttas vid behov. I badrummet så är det en duschkabin, toalett, handfat samt en smalare tvättmaskin.\n\nDet som ingår i hyran är kallvatten, varmvatten, värme, och internet, medans elen tillkommer som en extra del av hyran då det är gemensamt avtal i byggnaden.\n\nNära lägenheten så finns det både Willys och Ica, och en hållplats bort finns även stora Coop på Backaplan. Det finns flertalet bra restauranger runtomkring, både i Kville Saluhall, Kvilletorget, och mera.\n\nFrån Vågmästareplatsen går både bussar och spårvagnar med direktlinjer till stora delar av staden, och en stor del av centrala Göteborg tar inte mer än 15-20 minuter. \n\nJag hyr ut bostaden då jag och min katt ska provbo ihop med min flickvän i minst några månader, senare lär den även säljas. \n\nBilder kommer upp närmsta dagarna.\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Eriksbo Östergärde, Göteborg",
     "url": "https://qasa.com/p/1407084",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c1720e3f39d529558a6f66ce4e4f76e0a1be6616d31774235eebfee3bdda6188.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Majorsgatan, Göteborg",
-    "url": "https://qasa.com/p/1407458",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2949c62e6b8b8eeb6c412b5fea96904b6ec8dc3ab59dbbb3e5e279c70b5ad5bf.png",
-    "description": "2 rum och kök med separat kök, eldstad och balkong i Olivedal i Göteborg. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T21:06:52+00:00", "clock": "21:06:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T22:09:29+00:00", "clock": "22:09:29"};
