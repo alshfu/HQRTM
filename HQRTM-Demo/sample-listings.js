@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Eriksbo Östergärde, Göteborg",
+    "url": "https://qasa.com/p/1407084",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c1720e3f39d529558a6f66ce4e4f76e0a1be6616d31774235eebfee3bdda6188.jpg",
+    "description": "Söker hyresgäst till en lägenhet pga studier på annan ort. Det finns möjlighet till förlängning. El och varmvatten ingår inte i hyran. Balkongen är kattsäkrad men det går att ta bort om så önskas. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 6400,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Svartskärsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1407614",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/df01019a243b9d4d8d4243c120fe4a7f251b0fad229294f798d5fa720840726f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Monsungatan, Göteborg",
-    "url": "https://qasa.com/p/1407189",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7e2013d6c16cdb99b268c755d466689c4889152a7f565917368988f54fbe0eab.jpg",
-    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T19:57:44+00:00", "clock": "19:57:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T21:06:52+00:00", "clock": "21:06:52"};
