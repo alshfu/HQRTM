@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Svartskärsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1407614",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/df01019a243b9d4d8d4243c120fe4a7f251b0fad229294f798d5fa720840726f.jpg",
+    "description": "Ljus och välplanerad 2:a med egen entré i populära Fiskebäck\n\nVälkommen till denna trivsamma och välplanerade 2:a om ca 40 kvm med egen entré i ett lugnt villaområde i Fiskebäck.\n\nLägenheten ligger i husets ljusa bottenplan och erbjuder en öppen planlösning mellan kök och vardagsrum med stora fönster som ger ett fint ljusinsläpp. Här finns ett rymligt sovrum med goda förvaringsmöjligheter, ett helkaklat badrum med dusch samt tillgång till en egen tvättstuga.\n\nSamtliga driftskostnader ingår i hyran, inklusive el, värme, vatten, sophämtning och internet, vilket ger ett enkelt och bekymmersfritt boende.\n\nOm området\nFiskebäck är ett av Göteborgs mest attraktiva villaområden med närhet till hav, badplatser, småbåtshamn och vackra promenadstråk längs kusten. Här bor du i en lugn och trygg miljö samtidigt som centrala Göteborg nås på cirka 20 minuter med bil. Goda bussförbindelser, mataffärer, gym och annan service finns i närområdet.\n\nVi söker dig som\nVi söker en lugn, skötsam och ansvarstagande hyresgäst med ordnad ekonomi som uppskattar ett trivsamt boende. Vid intresse vill vi gärna att du berättar lite om dig själv, vad du arbetar eller studerar med, när du önskar flytta in och hur länge du planerar att hyra.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 11434,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hökällans väg, Hisings Backa",
+    "url": "https://qasa.com/p/1407200",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/58054d67aba66b5f544e9300286583de3e42eb666734a5da1de952c7a75e703d.jpg",
+    "description": "Välkommen till Hökällans väg, Hisings Backa\nLångtidsuthyrning av en nyrenoverad lägenhet i källaren i familjehus på 33 m2.\n\nDen nyrenoverade lägenheten ligger på källarvåningen i ett familjehus i Lillhagsparken, Hisingen. Lägenheten har egen ingång samt är helt nyrenoverat. Lägenheten hyrs möblerat med soffbord, bäddsoffa, barbord, barstolar, rymlig garderob, tvättmaskin, mikrovågsugn samt enkla köksredskap.\n\nVi söker en skötsam hyresgäst som planerar att hyra under en längre tid.\n\nLägenheten sitter ihop med ett familjehus vilket innebär att vi bor tätt inpå varandra därför söker vi någon som är skötsam och tänker på ljudnivån. \n\nI hyran ingår: en del möbler, vatten, värme, sophantering, parkering, elnät, elförbrukning, internet (finns ingen fiber i nyläget utan delar hushållets egna mobila nät). \n\nDet är golvvärme i hela lägenheten inklusive kök, badrum, rum. \n\nDet går en buss till Backaplan eller till Svingeln från bostaden ",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långrevsvägen, Torslanda",
-    "url": "https://qasa.com/p/1407311",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b8652c66f8aac849bec5c98ed11439186673e03c9b7067b08f591e925893cc3.jpg",
-    "description": "Välkommen till vårat härliga hus beläget i ett lugnt område med skogen som granne och nära till salta bad.\n\nHuset har 3 sovrum, 2 badrum, tvättstuga och stora sällskapsytor med öppet kök. \nTV rummet och middagsplatsen har fönster mot trädgården som bjuder på soliga och upplysta uteplatser, utemöbler,  grill, uppvärmd jacuzzi, bärland samt skogen som granne med löp och cykelstigar. \n\nNär det är varmt kan man hänga upp den stora hängmattan och njuta av färska bär från trädgården, eller sparka boll på den stora öppna gräsytan. Är det kallt kan man åka skridskor på dammen medan man grillar korv, eller åka pulka nerför slänten. Kamin, vedskjul och torkskåp finns och dessutom är det golvvärme i hela huset med bergvärme.\n\n5min gångväg till busshållplats.\n5min gångväg till lekplats.\n15min med bil till centrala Göteborg.\nVill man bada i havet finns både hällsvik badplats eller Hästeviks badplats. Annars kan man ta färjan till Öckerö, eller vara med på allsången på Seaside, Björkö. \n\nHuset hyrs ut minimum 10-12 mån eftersom vi testar att bo i Spanien med barnen 2 terminer. \n\nI hyran ingår vatten & sophämtning.",
-    "district": "Torslanda",
-    "rooms": 4.0,
-    "area_m2": 150.0,
-    "rent": 24000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bokgården, Angered",
-    "url": "https://qasa.com/p/1407370",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a895c27608ffa0a93dc0c76e03fce331f56d296dd5046a101116a2c5b508f4dd.jpg",
-    "description": "Hej! Jag hyr ut två rum i min stora lägenhet (ca 95 kvm) och söker nu skötsamma hyresgäster. \n\nOm rummen:\n* Rum 1 (mindre): 3 500 kr/mån. Ljus och med gott om förvaring.\n* Rum 2 (större): 4 000 kr/mån. Ljust och rymligt med egen balkong!\n* Möblering kan anpassas efter dina behov.\nLägenheten & området:\n* Delade ytor: Kök, vardagsrum, nyrenoverad badrum, separat WC och hall.\n* Goda kommunikationer till centrala Göteborg.\n* Nära till vardagsservice: ICA Maxi, Lidl och en utmärkt frukt- och grönsaksbutik vid torget.\n* Garageplats finns att hyra för 500 kr/mån om intresse finns.\n\nI hyran ingår: Värme, vatten, el, internet och möbler\nVem söker jag? Jag söker kvinnliga, ordningsamma och skötsamma hyresgäster (djur- och rökfri).\nUthyrningsperiod: Från juli eller enligt överenskommelse fram tills februari 2027. Möjlighet till förlängning finns.\n\nLåter detta som något för dig (eller dig och en vän)? Skicka ett PM och berätta lite om dig själv, så hörs vi!",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 3500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T17:42:37+00:00", "clock": "17:42:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-04T18:43:01+00:00", "clock": "18:43:01"};
