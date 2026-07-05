@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skomakaregården, Torslanda",
+    "url": "https://qasa.com/p/1407806",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a61defdba94dc141496829b64b797d752ce09ef01852f80062820a53d070fe8.jpg",
+    "description": "Rum i kollektiv i mysig villa\n\nNära stan har vi själva byggt ett hus i gammal stil, av återanvänt material, och det ligger beläget i naturen i en egen glänta i en liten kustnära skog. Här finns små vattenspeglar och bergstoppar med vidsträckt utsikt,  på kort promenadavstånd. På sommaren kvittrar fåglarna alldeles utanför utanför knuten. \n\nVi är ett par med livsstilen att odla  och snickra, och i bland läsa en intressant universitetskurs.\nHuset har nu blivit ganska stort, och vi har länge hyrt ut en lägenhet till ett mindre kollektiv, vi gillar trevliga grannar!\n\nLägenheten omfattar totalt ca 85 m² och  har  tre sovrum, gemensamt kök, badrum och en gemensam samlingspunkt. Nu vill vi hitta en ny person (eller ett par) till det största rummet. En elegant pardörr från förra sekelskiftet leder  till det ljusa rummet, som ligger centralt på andra våningen. Möblemang finns med dubbelsäng och soffgrupp. Utgångspunkten är att det är möblerat, men tavlor och  vissa möbler kan ju bytas ut mot egna, om det är att föredra.  \n\nI trädgården finns möjlighet att odla lite för den som vill, och här finns en egen uteplats. I trapphuset finns även en balkong  med en nära uteplats i anslutning till entrén. \n\nFör den som känner för det kan finnas möjlighet att låna lite verktyg och arbetsplats om man vill bejaka sin skapande sida.  \n\nHavet ligger några km bort med bad och fina paddelmöjligheter. \n\n\nTill busshållplatsen (Kvisljungeby) tar det ca 12 min att gå, med  linje 29 drygt 25 min in till Nordstan. \n\nVi tänker att 4500kr per månad är en rimlig hyra för ett par. En person 4100 kr. Till detta kommer el och värme, som i snitt ligger på ca 700 kr per månad. Wifi finns fritt. En månadshyra i deposition.\n\nHör av dig för att komma på en visning, och träffa dem som redan bor här! Rummet kan hyras från 1 september, eller enligt överenskommelse. Skriv några rader till oss och berätta lite om dig själv! \n\n",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hammarliden, Göteborg",
     "url": "https://qasa.com/p/1407490",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/268035e9ed4dcb9ed9e513da7a00ac9202058b74084c1fe57ce4ea444c39f604.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1407477",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ddf7b6df88b1888d9eabccf54d1648d3db25f79c106d873c87cde2eb9724b88e.png",
-    "description": "Möblerat rum uthyres i Örgryte\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 För närvarande bor endast studenter i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång.\nDen består av fyra sovrum, kök, vardagsrum och badrum.\nDu delar gemensamma utrymmen med tre studenter\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T09:58:59+00:00", "clock": "09:58:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T11:42:12+00:00", "clock": "11:42:12"};
