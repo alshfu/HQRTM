@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Grindstugegränd, Hisings Backa",
+    "url": "https://qasa.com/p/1407669",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/faf94e13fbcc440ea650f8d0110c914fd168978864cfdf09a86a70382d940829.jpg",
+    "description": "Välkommen till en hemtrevlig och mysig etta med liten uteplats. \nLägenheten är möblerad och kökssaker ingår. \n\nEtt stenkast från boendet finns busshållsplats med bra kommunikation mot stora delar av Göteborg. Hållplatsen heter Balladgatan och det tar ca 10min med buss till centrala stan. \n \nInom promenadavstånd finns även en ICA, Coop och Hemköp (Selma Lagerlöfs torg). Litteraturgatan erbjuder trevlig promenad och lättillgänglighet. \n\nLägenheten är en del i vårt parhus, och för tillfället har vi inte behov av denna extra yta, därför hyr vi ut den. \n\nDet finns en tvättmaskin i lägenheten. \n\nI hyran ingår Vatten, Värme, Sopor, internet \n\nIngår inte i hyran: TV, parkering och EL.\n\nKostnad för elförbrukning kommer tas ut som fast avgift på 500 kr/mån och per person. \n\nParkering finns inte tillgänglig. \n\n",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stobéegatan, Göteborg",
     "url": "https://qasa.com/p/1408259",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f19aa2fd644a7112450ed15ff094abc504c6a3b43c0f97de4afbe8cf1eea8ea3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1407783",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f10f81528e6c8931cce9f945d5e7fc7464851302bffcdf4542d2201352f4c9e.jpg",
-    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T19:45:09+00:00", "clock": "19:45:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T20:42:26+00:00", "clock": "20:42:26"};
