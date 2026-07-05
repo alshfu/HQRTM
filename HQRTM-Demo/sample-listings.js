@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Falkenbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1402122",
+    "image_url": null,
+    "description": "Ljus nyrenoverad lägenhet i fin miljö och med balkong i västerläge\nI hyran ingår hushållsel och bredband.\nEventuellt kan personbilsparkering också erbjudas.\nNära till kollektivtrafik.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 12710,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långströmsgatan, Göteborg",
     "url": "https://qasa.com/p/1389259",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skomakaregården, Torslanda",
-    "url": "https://qasa.com/p/1407806",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a61defdba94dc141496829b64b797d752ce09ef01852f80062820a53d070fe8.jpg",
-    "description": "Rum i kollektiv i mysig villa\n\nNära stan har vi själva byggt ett hus i gammal stil, av återanvänt material, och det ligger beläget i naturen i en egen glänta i en liten kustnära skog. Här finns små vattenspeglar och bergstoppar med vidsträckt utsikt,  på kort promenadavstånd. På sommaren kvittrar fåglarna alldeles utanför utanför knuten. \n\nVi är ett par med livsstilen att odla  och snickra, och i bland läsa en intressant universitetskurs.\nHuset har nu blivit ganska stort, och vi har länge hyrt ut en lägenhet till ett mindre kollektiv, vi gillar trevliga grannar!\n\nLägenheten omfattar totalt ca 85 m² och  har  tre sovrum, gemensamt kök, badrum och en gemensam samlingspunkt. Nu vill vi hitta en ny person (eller ett par) till det största rummet. En elegant pardörr från förra sekelskiftet leder  till det ljusa rummet, som ligger centralt på andra våningen. Möblemang finns med dubbelsäng och soffgrupp. Utgångspunkten är att det är möblerat, men tavlor och  vissa möbler kan ju bytas ut mot egna, om det är att föredra.  \n\nI trädgården finns möjlighet att odla lite för den som vill, och här finns en egen uteplats. I trapphuset finns även en balkong  med en nära uteplats i anslutning till entrén. \n\nFör den som känner för det kan finnas möjlighet att låna lite verktyg och arbetsplats om man vill bejaka sin skapande sida.  \n\nHavet ligger några km bort med bad och fina paddelmöjligheter. \n\n\nTill busshållplatsen (Kvisljungeby) tar det ca 12 min att gå, med  linje 29 drygt 25 min in till Nordstan. \n\nVi tänker att 4500kr per månad är en rimlig hyra för ett par. En person 4100 kr. Till detta kommer el och värme, som i snitt ligger på ca 700 kr per månad. Wifi finns fritt. En månadshyra i deposition.\n\nHör av dig för att komma på en visning, och träffa dem som redan bor här! Rummet kan hyras från 1 september, eller enligt överenskommelse. Skriv några rader till oss och berätta lite om dig själv! \n\n",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T17:05:04+00:00", "clock": "17:05:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T18:13:44+00:00", "clock": "18:13:44"};
