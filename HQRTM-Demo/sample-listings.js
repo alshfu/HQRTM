@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fruktträdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1408054",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5f542c3d54c28338b062d6e61532434fe24b2c6130d357e1d1a1f2fd084e49c4.jpg",
+    "description": "Hej! 👋\n\nVi hyr ut vår lägenhet i Hildedal, Göteborg, från september 2026 till sommaren 2027. Vi är flexibla med inflyttningsdatum och hyreslängd (6-12 månader). Det är en 2 rok, 53 kvm med öppen planlösning och en stor balkong. Den hyrs ut möblerad och parkeringsplats är tillgänglig (+558 kr)\n\nLägenheten ligger nära flera busslinjer och 20 minuter från centrum. Inom 5 minuter har du Hisingsparken! 🌳\n\nHyra: ca 12000 kr/månad. El och internet tillkommer.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hambovägen, Agnesberg",
     "url": "https://qasa.com/p/1407988",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f558d6b9a5443bc85f6bde41fbc216fb3e9256fea01a31c49658752a0576561a.jpg",
@@ -14,21 +29,6 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karlavagnsgatan, Göteborg",
-    "url": "https://qasa.com/p/1105968",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e5f1dbeb136fdfc40ed6cce0e03e4646095e58458bc678b01e4455687c047b9.jpg",
-    "description": "Ny 1rok på våning 8 i fantastisk byggnad med utsikt på karlastaden. Gemensam uteplats på taket (ovan våning 17) snygg o innovativ planlösning i öppen miljö med roliga ljusinsläpp.\nHyra ut minst 1år",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 39.0,
-    "rent": 13000,
-    "floor": 8,
-    "has_balcony": true,
-    "has_kitchen": null,
     "listing_type": "fcfs"
   },
   {
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T12:55:01+00:00", "clock": "12:55:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T14:43:39+00:00", "clock": "14:43:39"};
