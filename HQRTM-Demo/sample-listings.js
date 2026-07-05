@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stobéegatan, Göteborg",
+    "url": "https://qasa.com/p/1408259",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f19aa2fd644a7112450ed15ff094abc504c6a3b43c0f97de4afbe8cf1eea8ea3.jpg",
+    "description": "Jag hyr ut min bostad på Stobeegatan 16A (tredje våningen). Lägenheten är fullt möblerad och har allt som behövs, inklusive komplett köksutrustning. Hyr ut lägenheten från 2026-09-01 till och med 2027-08-31.\n\nOm bostaden:\n- 40 kvm\n- Fullt möblerad\n- Fullt utrustat kök med köksprylar\n- Gemensam tvättstuga med två tvättmaskiner och torktumlare\n- Källarförråd ingår\n- Gratis parkering i hela området\n\nKommunikationerna är mycket goda med smidig tillgång till stadskärnan. Buss 17 tar dig in till centrum på cirka 10 minuter, och dessutom finns spårvagnslinjerna 1, 3 och 5 i närheten.\n\nHyra: \n-  8 100 kr/månad (i hyran ingår el, internet och TV-kanaler).\n\nHör av er vid frågor eller funderingar!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 8100,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Bäringsvägen, Torslanda",
+    "url": "https://qasa.com/p/881423",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc21b20005c2db48b3b5e5479f2c41d018976302a918fcdd84255562c473dc31.jpg",
+    "description": "Välkommen att hyra vår stuga som ligger 150 från havet med strand och fin badplats i lugna och natursköna Andalen. \n\nStugan är möblerad och fullt utrustad med tillgång till delar av trädgård på gemensam tomt. Egen parkeringsplats ingår för en bil. OBS! Bil behövs då det 'är ca 2,5 km till buss.\n\nBostaden består av ett allrum/kök, sovrum och badrum. Vi hyr ut till aktsamma personer som ej röker eller har husdjur. Bostaden hyrs ut från 10 augusti och tillsvidare. \n\nHyra: 11500 kr/mån + el ",
+    "district": "Torslanda",
+    "rooms": 2.5,
+    "area_m2": 45.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Falkenbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1402122",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungsportsavenyen, Göteborg",
-    "url": "https://qasa.com/p/1406693",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bfc9f9ec212fb9378342778c1d023f36263353bb95ff9f2621fd848dc4053521.jpg",
-    "description": "Ett möblerat rum med fransk balkong mot Avenyn i större lägenhet (8 rok) på Avenyn uthyres. Hyran beräknad enligt konstens alla regler. Flexibel gällande hyran  för rätt person. Rummet uthyres för en (1) person. Tillgängligt from 1/9, eventuellt lite tidigare. Det är rum 3 på ritningen. Lägenheten är totalt ca 160kvm. \nMöbleringen består av enkelsäng, nattduksbord, hörnsoffa, mindre soffbord, garderober, smart-tv, tv-bänk, enkel hylla, eventuellt skrivbord och stol. I hyran ingår el, vatten, värme och bredband. Tillgång till delat fullt utrustat kök, balkong mot avenyn, 2st allrum, tvättstuga i källaren. Badrum och toa som är mellan rum 3-4 på ritningen delar främst dessa två hyresgäster på, eget badrumsskåp.\nDeposition på en månadshyra vid kontraktsskrivning. \nLite om oss som delar de gemensamma utrymmena. Tre yrkesverksamma män i åldrarna ca 30-55, jag är äldst. Två av oss jobbar en hel del hemifrån. Håller det lugnt, stilla och respektfullt här hemma. \nBilderna på rummet är inte uppdaterade då hyresgästen är bortrest. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ulfsparregatan, Göteborg",
-    "url": "https://qasa.com/p/1407942",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bca791fb38d86c932495165a32e6e68ff7b5bf62268fa8ab470d270e79087a07.jpg",
-    "description": "Välplanerad genomgångsetta med generös takhöjd, fint ljusinsläpp från två väderstreck och vackra trägolv. Lägenheten har ett separat kök med matplats för fyra personer samt en solig balkong i lugnt läge mot innergården.\n\nLägenheten ligger i en välskött bostadsrättsförening med trevliga grannar och tvättstuga. Källarförråd finns och kan delas, alternativt tömmas enligt överenskommelse. \n\nMycket bra kommunikationer med buss och spårvagn från Redbergsplatsen samt närhet till mataffärer, caféer, restauranger, gym och apotek. Även Delsjön och Skatås ligger på bekvämt gångavstånd.\n\nEl och internet ingår i hyran.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T18:13:44+00:00", "clock": "18:13:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T19:45:09+00:00", "clock": "19:45:09"};
