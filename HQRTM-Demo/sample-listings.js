@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1389259",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
+    "description": "Hyr ut 1 rum på 8 kvm.\nSängskåp med Emma resårmadrass av högsta kvalité .\nELFA garderobsystem.\nFällbart väggbord med förvaring.\n3st olika uppblåsbara fåtöljer med elektrisk pump. \n\n\n83kvm bostadsrätt, 4 rum.\n2 toaletter samt duschrum och tvätt/tork i ena.\nStor balkong på vån 7 i söderläge. Ska glasses in. \nVälutrustat kök.\n\nBusshållplats direkt utanför dörren. Dessutom inom el-scooter område samt gång/scooter avstånd till eketrägatan och spårvagnar.\n\nI hyran ingår el/vatten internet. Tillgång till gemensamma utrymmen så som vardagsrum, kök, badrum \n\nHyr ut rummet på obestämd tid för att dyra ut kassan :)\n\nMer info och bilder kommer uppdateras inom kort\n\nElcykel Scott Sub active unisex finns också för uthyrning under hela perioden. 250kr/mån. Kortar restider väsentligt\n\nViktigt är att personen som flyttar in är ordningsam och håller rent efter sig.\nViktigt är också att personen  ifråga tecknar en fullvärdig hemförsäkring.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 4500,
+    "floor": 7,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fruktträdsgatan, Göteborg",
     "url": "https://qasa.com/p/1408054",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5f542c3d54c28338b062d6e61532434fe24b2c6130d357e1d1a1f2fd084e49c4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hammarliden, Göteborg",
-    "url": "https://qasa.com/p/1407490",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/268035e9ed4dcb9ed9e513da7a00ac9202058b74084c1fe57ce4ea444c39f604.jpg",
-    "description": "Rum i villa uthyres till manlig rökfri studerande. Villan ligger i Johanneberg och det är gångavstånd till Chalmers och Universitetet.  Ett rum är nu ledigt. \n Kök, vardagsrum, dusch samt wc delas med två andra studerande. Tillgång till trädgård och uteplats. Vi hyr helst ut på minst två till tre år. \n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T15:53:31+00:00", "clock": "15:53:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T17:05:04+00:00", "clock": "17:05:04"};
