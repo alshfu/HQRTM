@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Björnbacken, Göteborg",
+    "url": "https://qasa.com/p/1407766",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b2b2a22e77395291af32b0ad82191c1db7c3b9b99821c9d2497ca04897cc2343.jpg",
+    "description": "Söker i första hand en person som hyresgäst, då är hyran 7900, om ni er 2 hyran är 8700. I hyran ingår; el, vatten , internet och värme. Frie parkering på gatan.Du kommer ha eget kök och badrum med tvättmaskin , torktumlare . \nSeparat  mindre sovrum. Bostaden finns i Gärdsås.\nBoarea ca 45m², Möbel på bilder ingår  i hyran!\n\nÖnskvärt är att du är:\n\n- Lugn och skötsam\n- Icke-rökare\n- Ej djurägare\n\n1 månadshyra ska betalas i förskott  medan vi skriver kontraktet innan du flyttar in, detta då en deposition + en månadshyra. Givetvis skrivs kontrakt mellan mig som hyresvärd och dig som hyresgäst så att vi båda vet vad som gäller. Det är 3 månaders uppsägningstid åt bodda håll.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 7900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Odinslundsgatan, Göteborg",
+    "url": "https://qasa.com/p/1317090",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b92c7a813be60ec5b73c6fde448693e6bc941c340c583d9691d0457e3ae7825.jpg",
+    "description": "English\nRoom for Rent in Central Gothenburg , Shared Male Accommodation\n\nWe are renting out a furnished room in a spacious 135 sqm apartment, shared with calm and responsible male tenants. We are looking for a quiet, non-smoking, and pet-free individual who values a peaceful and well-functioning home.\n\nAbout the Apartment:\n\nPrivate, lockable room furnished with a bed, desk, chair, mirror, bookshelf, and wardrobe. Shared kitchen, dining room, bathroom with shower, and an additional toilet. Fully equipped kitchen with utensils, washing machine, and dryer. Rent includes electricity, water, and internet.\nReady to move in.\n\nLocation:\n\nCentrally located with views over Gothenburg.\n5 minutes by train to the Central Station.\n10-minute walk to Liseberg, Korsvägen, and Scandinavium.\nClose to public transport – bus, tram, and train.\nBicycle racks available.\n\nPlease Note:\n\nNo smoking or pets allowed.\nFor everyone’s comfort, visits from friends or relatives are not permitted.\n\nAre you a responsible person looking for safe and well-organized housing? \n\nSend us a brief introduction about yourself, and we will get back to you as soon as possible.\n\n\nSvenska\nRum uthyres i centrala Göteborg, delat boende för män\n\nVi hyr nu ut ett möblerat rum i en välplanerad lägenhet på cirka 135 kvm. Boendet delas med andra lugna och ordningsamma män. Vi söker dig som är ansvarsfull, djur- och rökfri samt uppskattar ett stillsamt och välfungerande hem.\n\nOm bostaden:\n\nRummet är privat med egen nyckel, möblerat med säng, skrivbord, stol, spegel, bokhylla och garderob. Du delar kök, matsal, badrum med dusch samt en extra toalett. Fullt utrustat kök med husgeråd samt tvätt- och torkmaskin. Hyran inkluderar el, vatten och internet.\nFärdig för att flytta in.\n\nLäge:\n\nCentralt belägen med utsikt över Göteborg.\n5 minuter med tåg till Centralstationen.\n10 minuters promenad till Liseberg, Korsvägen och Scandinavium.\nNära till kollektivtrafik – buss, spårvagn och tåg.\nCykelställ finns att tillgå.\n\nObservera:\n\nRökning och husdjur är inte tillåtna.\nFör allas trivsel är besök från vänner och anhöriga inte tillåtet.\n\nÄr du en ansvarstagande person som söker ett tryggt och trivsamt boende?\nSkriv gärna några rader om dig själv, så hör vi av oss snarast.\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 23.0,
+    "rent": 6700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hallegatan, Göteborg",
     "url": "https://qasa.com/p/1407674",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c4146bce5876c7402bd85e8fdc8392f14d95af7b9c1d9682e5ab96701df7534.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Syrengården, Angered",
-    "url": "https://qasa.com/p/1407471",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d9a0f2b76c6902cf25f04b6617ed87d346539209f5e8cc005ee5ecedec339052.jpg",
-    "description": "Hej! Jag hyr ut 1 rum i min stora 3-a med 2 uteplatser från augusti månad tills vidare. Lägenheten ligger i natursköna och moderna Gårdsten, bara 10 min till Angered centrum och 25 min. till Stan.\nHyran 3500 + 2000 deposition. Ingår vatten, el, internet och delat badrum och kök. Jag är pensionär med liten katt. Vill gärna ha en inneboende, för att det känns så ensamt ibland. Ser gärna student, men det går bra med arbetare.",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 3500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T04:34:00+00:00", "clock": "04:34:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-05T07:46:19+00:00", "clock": "07:46:19"};
