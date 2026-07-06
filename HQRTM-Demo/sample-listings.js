@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Idtjärnsgatan, Angered",
+    "url": "https://qasa.com/p/1408371",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27d3f42e391ac0a4b11e7ef08491d01fca82dfb3c2ca30e3de15622ea066d4bd.jpg",
+    "description": "🏡 Uthyres – Egen bostadsdel i Rannebergen, ca 65 kvm\n\nLjus och möblerad bostadsdel på ca 65 kvm i lugnt område.\n\nEgen entré, kök, badrum och tvättmaskin. Tillgång till trädgård.\n\n📍 Ca 250 meter till busshållplats.\n\nI hyran ingår:\n\nVatten\n\nBredband\n\nEl tillkommer enligt överenskommelse. Parkering finns vid behov.\n\nHyra: 10 000 kr/månadDeposition: 1 månadshyraInflytt: Snarast\n\nPassar 1–2 personer. Inga husdjur.\n\nVid intresse, skicka gärna ett PM och berätta kort om dig själv, vem som ska bo i lägenheten och när du önskar flytta in.",
+    "district": "Angered",
+    "rooms": 2.5,
+    "area_m2": 65.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Grindstugegränd, Hisings Backa",
     "url": "https://qasa.com/p/1407669",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/faf94e13fbcc440ea650f8d0110c914fd168978864cfdf09a86a70382d940829.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hambovägen, Agnesberg",
-    "url": "https://qasa.com/p/1407988",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f558d6b9a5443bc85f6bde41fbc216fb3e9256fea01a31c49658752a0576561a.jpg",
-    "description": "\nNu finns en fin och välplanerad lägenhet att hyra i ett lugnt och trivsamt villaområde. Lägenheten har egen ingång och passar endast för en person som söker ett lugnt och bekvämt boende. Lägenheten är tillgänglig från och med nu för den som vill flytta in omgående.\n\nLägenheten består av:\n\n* Sovrum\n* Vardagsrum\n* Kök\n* Badrum\n* Egen ingång\n\nUtrustning:\n\n* Tvättmaskin\n* Torktumlare\n\nMycket bra läge:\n\n* Endast 10 meter till busshållplats\n* Ca 2 minuter till motorvägen\n* Endast 3 busshållplatser till Angered Centrum\n\nI hyran ingår:\n✔ El\n✔ Värme\n✔ Vatten\n✔ Internet\n✔ Parkeringsplats\n\nHyra: 8 500 kr/månad\n\n* Förstahandskontrakt\n* Långtidsuthyrning\n* Inflyttning omgående\n\nObservera: Lägenheten hyrs ut endast till en person.\n\nVid intresse, skicka ett meddelande och berätta kort om dig själv (arbete eller studier)",
-    "district": "Agnesberg",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-06T01:28:42+00:00", "clock": "01:28:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-06T06:06:57+00:00", "clock": "06:06:57"};
