@@ -66,7 +66,7 @@ window.HQRTM_SAMPLE = [
     "title": "Munspelsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1409043",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4328838099d055c2553e7b5ba7cf8f4074247be2e252896145246b50536540f0.jpg",
-    "description": "Fräsch och modern tvåa från 2020 högst upp i huset med:\n• Stor balkong \n• Hiss\n• Diskmaskin\n• Tvättmaskin/torktumlare i badrum\n• Källarförråd. \nHuset har även gym och bastu som ingår i hyran. \nLugnt läge nära Frölunda torg med gångavstånd till köpcentrumet och mataffärer.  Bra kollektivtrafik med snabba förbindelser till Linné, Järntorget, Chalmers och centrum via buss och spårvagn. \n\nBrf:en godkänner 12 månaders andrahandsuthyrning i taget, och hyresgästen behöver godkännas av bostadsrättsföreningen innan inflytt.\n\n🔌 Kostnader som ingår i hyran:\nEl, vatten, bredband \nBRF:s andrahandsavgift \nGarage/parkering finns men det tackas av dig/er. \n\nPerfekt för dig/er som vill bo modernt och lugnt med bekvämligheter som diskmaskin/tvättmaskin/micro/hiss/balkong. \n\nFör mig är det viktigt att du/ni tar väl hand om lägenheten och ordnad ekonomi är en självklarhet. \n\nVi flyttar till större då vi nyligen fått barn och ska nu hyra ut lägenheten då marknaden har varit trög. Visningar behöver vara okej för dig/er, och meddelas i god tid. \nVälkommen att ställa frågor! 😊",
+    "description": "Fräsch och modern tvåa från 2020 högst upp i huset med:\n• Stor balkong \n• Hiss\n• Diskmaskin\n• Tvättmaskin/torktumlare i badrum\n• Micro \n• Källarförråd. \nHuset har även gym och bastu som ingår i hyran. \nLugnt läge nära Frölunda torg med gångavstånd till köpcentrumet och mataffärer.  Bra kollektivtrafik med snabba förbindelser till Linné, Järntorget, Chalmers och centrum via buss och spårvagn. \n\nBrf:en godkänner 12 månaders andrahandsuthyrning i taget, och hyresgästen behöver godkännas av bostadsrättsföreningen innan inflytt.\n\n🔌 Kostnader som ingår i hyran:\n• El\n• Vatten\n• Bredband \n• BRF:s andrahandsavgift \n\nPerfekt för dig/er som vill bo modernt och lugnt med bekvämligheter. Garage/parkering finns men det tackas separat av dig/er. \n\nFör mig är det viktigt att du/ni tar väl hand om lägenheten och ordnad ekonomi är en självklarhet. \n\nVi flyttar till större då vi nyligen fått barn och ska nu hyra ut lägenheten då marknaden har varit trög. Eventuella visningar behöver vara okej för dig/er, då lägenheten ligger ute till försäljning, och meddelas i god tid. \nVälkommen att ställa frågor! 😊",
     "district": "Västra Frölunda",
     "rooms": 2.0,
     "area_m2": 51.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-06T19:13:29+00:00", "clock": "19:13:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-06T21:02:42+00:00", "clock": "21:02:42"};
