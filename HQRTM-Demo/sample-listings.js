@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Munspelsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1409043",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4328838099d055c2553e7b5ba7cf8f4074247be2e252896145246b50536540f0.jpg",
+    "description": "Fräsch och modern tvåa från 2020 högst upp i huset med:\n• Stor balkong \n• Hiss\n• Diskmaskin\n• Tvättmaskin/torktumlare i badrum\n• Källarförråd. \nHuset har även gym och bastu som ingår i hyran. \nLugnt läge nära Frölunda torg med gångavstånd till köpcentrumet och mataffärer.  Bra kollektivtrafik med snabba förbindelser till Linné, Järntorget, Chalmers och centrum via buss och spårvagn. \n\nBrf:en godkänner 12 månaders andrahandsuthyrning i taget, och hyresgästen behöver godkännas av bostadsrättsföreningen innan inflytt.\n\n🔌 Kostnader som ingår i hyran:\nEl, vatten, bredband \nBRF:s andrahandsavgift \nGarage/parkering finns men det tackas av dig/er. \n\nPerfekt för dig/er som vill bo modernt och lugnt med bekvämligheter som diskmaskin/tvättmaskin/micro/hiss/balkong. \n\nFör mig är det viktigt att du/ni tar väl hand om lägenheten och ordnad ekonomi är en självklarhet. \n\nVi flyttar till större då vi nyligen fått barn och ska nu hyra ut lägenheten då marknaden har varit trög. Visningar behöver vara okej för dig/er, och meddelas i god tid. \nVälkommen att ställa frågor! 😊",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Karl Gustavsgatan, Göteborg",
+    "url": "https://qasa.com/p/1408997",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f93b03f15a0773983510f24af38cfa72bb3197d35866ea4126227f216166cbea.jpg",
+    "description": "Nu finns möjlighet att hyra en trivsam och mysig bostad med ett attraktivt läge i Vasa. Här bor du i ett lugnt och omtyckt område med närhet till stadens stora utbud av restauranger, caféer, butiker, grönområden och goda kommunikationer.\nBostaden erbjuder en genomtänkt planlösning med högt i tak samt ljusa och rymliga ytor som passar såväl en ensamstående som ett par. Lägenheten har ett välutrustat kök, ett ljust vardagsrum, ett fräscht badrum samt goda förvaringsmöjligheter. De stora fönstren ger ett härligt ljusinsläpp och skapar en inbjudande atmosfär. \nLäget är utmärkt med gång- och cykelavstånd till centrala Göteborg samt närhet till kollektivtrafik som gör det enkelt att ta sig runt i staden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hammarkroken, Angered",
+    "url": "https://qasa.com/p/1408894",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/672bd5b9f24a9aaaad5010b785722a2e1f47cdb5693bb10e31178bf831c27916.jpg",
+    "description": "Radhus uthyres – 116 kvm på två våningar\n\nNu finns möjlighet att hyra ett rymligt och välplanerat radhus om 116 kvm fördelat på två våningar.\n\nBostaden består av:\n\n* 4 sovrum\n* Kök\n* Vardagsrum\n* Hall\n* 1 toalett\n* 1 badrum\n\nRadhuset passar utmärkt för företag eller en stor familj. Bostaden hyrs ut omöblerad, men kan även hyras möblerad om så önskas efter överenskommelse.\n\nVid intresse eller för mer information är du varmt välkommen att kontakta mig.",
+    "district": "Angered",
+    "rooms": 5.0,
+    "area_m2": 116.0,
+    "rent": 1600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Exportgatan, Hisings Backa",
     "url": "https://qasa.com/p/1408868",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff538a24ff61e98fbd1002711eca0a71e537b709c4994fb8c26a3ab30fefa263.jpg",
@@ -25,7 +70,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 53.0,
-    "rent": 13000,
+    "rent": 14000,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Toppsegelsgatan, Göteborg",
-    "url": "https://qasa.com/p/1408801",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/61c3facffd39221ff35130f4488fc601abf2db3d61018306ec293c75af028e7a.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/jsucmlrznhuse3pcer68/vastra-gotaland/goteborg/toppsegelsgatan-21/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\n3 rums lägenhet i funkishus från 1956 i centrala Göteborg. Köket är i original men med nya vitvaror såsom kyl, frys, spis, diskmaskin.  I sovrummet finns dubbelsäng och två mindre/smalare garderober. Vardagsrummet har balkong i västerläge som vetter mot lugnt och lummigt grönområde med endast en promenadstig där moped- och cykeltrafik inte är tillåten eller möjlig. Här är det lugnt och skönt att sitta både dagtid och på kvällarna. Lillarummet/hemmakontor har skrivbord och en enkelsäng samt garderob. Toaletten är helkaklad och relativt nyrenoverad. Lägenheten är lämplig för två eller tre personer. Ett litet utbud av leksaker finns då vi har ett barnbarn. \r\n\r\nFöreningen har en uteplats med tillhörande utemöbler och grill som man kan nyttja när man vill. Toppsegelsgatan är en återvändsgata som ligger vid foten av Gråberget och en bit upp från den större Såggatan vilket gör att det är ovanligt tyst för att vara så pass centralt samt att trafiken är avgränsad till endast de boende på gatan. Mariaplan med sitt härliga utbud av restauranger och pubar ligger endast 15 minuters promenad härifrån, och till Järntorget, med ett ännu större utbud av nöjen, går man på 20 min.  Nära till kollektivtrafik med linje 3, 9 och 11. Mataffärer som Hemköp, Willys, ICA och Coop finns i närområdet. Till Slottsskogen med sina vackra promenadvägar, djurpark och den stora lekplatsen Plikta går man på 10 minuter.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 65.0,
-    "rent": 18452,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Djurgårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1408776",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aacb07029844557003f9d7cc41b1dcefc540a0ae3d922f578dfca8776c181c80.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 15000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/0lm4jaakvwo8f0ywpect/vastra-gotaland/goteborg/djurgardsgatan-24/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLägenheten är en av mycket få treor i Brf Gatenhjelms tre gröna funkishus byggda 1939.\r\nDen ligger 1,5 trappor upp och är genomgående. Lägenheten är mycket ljus. Sovrum och kök har fönster mot den grönskande gården. De andra rummen vetter mot Djurgårdsgatan i sydväst. Vardagsrummet har utgång till den rejäla balkongen. \r\nInom gångavstånd har du t ex Slotsskogen, det nya sjöfartsmuséet med Sjömanshustrun. Ännu närmare finns flera bagerier, mataffärer, restauranger, caféer och pubar\r\nBrf Gatenhjelm är en mycket populär och trevlig bostadsrättsförening och har en serviceminded styrelse. \r\nDet finns bl a gästrum, gym, snickarrum, byteshyllor, grill och en lite ateljé\r\nPå www.brfgatenhjelm.se finns mycket information om husen, föreningen och området. \r\nLägenheten hyrs ut fullt möblerad och jag lämnar gärna all städ- och köksutrustning etc (och någon garderob med egna saker). Sådant kan vi diskutera. Ett bra vindsförråd finns också.\r\nBredband och kabel-TV ingår (men inga betalkanaler)\r\nEn normal hushållselförbrukning kan ingå i hyran. Om så önskas kan hyrestiden förlängas ett par veckor eller så både i början och slutet\r\nJag kommer inom kort lägga upp mycket mer bilder och info\r\nDigital- och irl-visning kan ordnas med stor flexibilitet.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 15000 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 76.0,
-    "rent": 14293,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Köldgatan 17, Göteborg",
-    "url": "https://qasa.com/p/1408932",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e45dfd92e9fe35ba0ee5b6d79554e5214ddb162045ab9d9c3ca34cbe013af47f.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna fyra! Modernt kök med rostfria vitvaror och kommer med diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum förberett för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 76.0,
-    "rent": 10848,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-06T14:33:25+00:00", "clock": "14:33:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-06T17:23:18+00:00", "clock": "17:23:18"};
