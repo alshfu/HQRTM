@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Astris Gata, Göteborg",
+    "url": "https://qasa.com/p/1410024",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6fe4684fcd056bb57f39e91bf2d69fabdeaffbf2f9af5b67834355823081ad2.jpg",
+    "description": "*English speakers are also welcome to get in touch.\nDiscounted rentprice for August startdate.\n\nBostadsbeskrivning: \n• Nyrenoverad tvåa på 63kvm.\n• Öppen planlösning – Kök och vardagsrum smälter samman i en luftig och inbjudande miljö. • Fullt utrustat kök – Stilrent med generösa arbetsytor, gott om förvaring och en elegant köksö som skapar en perfekt plats för matlagning och umgänge. • Rymligt vardagsrum – Plats för en bekväm soffgrupp och övrigt möblemang. • Rofyllt sovrum – Rymmer en större säng och har praktiska garderober för förvaring. • Fräscht badrum – Smart planerat med dusch, wc, handfat, tvätt/torkmaskin och  fönster som släpper in naturligt ljus.  \n\nOmrådet: \nHär bor du i ett lugnt och säkert område med närhet till allt. • Mataffär, vårdcentral och skolor – Allt på gångavstånd. • Bra kommunikationer – Bussförbindelser finns i närheten, och du når centrum innerstad på bara några minuter med färjan. \n\nEtt brett utbud av butiker, restauranger och utmärkta kommunikationer till Göteborg och övriga regionen.  \n\nÖvrigt: \n\n• Uthyrningstid: Minimum 1 år - tillsvidare.\n• Inga husdjur tillåtna (pga. allergi)\n• Rökning förbjuden\n• Boende för enbart 2 personer (+1 barn)\n\n• Bredband fiber & TV ingår. • Ute Parkering tillgänglig för 500:-.  Elbil med värmegarage 950:- • Källare ingår (storage room included)\n\nVid intresse, hör av dig för mer information.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 15573,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Töpelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1409392",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e4384dec5aa35cbf677b654b36b42a25494c1a277abc6eb2ce4d87ba0f77c35a.jpg",
+    "description": "Lägenheten är 1 rum med kök, men den är planerad så att köket är separat. Förutom sovrum/vardagsrum så finns en platsbyggd soffa i köket som man kan sova på. Lägenheten har en bekväm balkong där det är eftermiddags och kvällssol. Ett rymligt vindsförråd ingår i hyra och det finns möjlighet till privat parkering för extra kostnad. Badrummet är relativt nyrenoverat med dusch och liten tvättmaskin. Köket är av äldre modell men fungerar bra. Lägenheten i sig är i väldigt bra skick. Vissa möbler ingår men det kan diskuteras. Internet ingår i priset. Elkostnad tillkommer månadsvis. Läget är oslagbart då man går rakt upp i Delsjön från dörren. Tennisklubb och Nordic Wellness ligger mitt emot lägenheten. Hållplats till 5:ans spårvagn ligger 2 minuter bort, den tar dig till centrum på 15min, eller Östra Sjukhuset. Det tar ca 50minuter att gå till centrum. Lätt att ta sig till motorvägen via Munkebäck eller Sankt Sigfridsplan. Du som hyr måste bli godkänd av föreningen innan tillträde.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 39.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hemmansägaregatan, Göteborg",
-    "url": "https://qasa.com/p/1407999",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ddc4f10786bbdc08209318487e9cac938dc5bb63ff4eea270421f3453a0e3e90.jpg",
-    "description": "Attefallshus belägen på centrala Hisingen.\nSöker skötsam hyresgäst utan betalningsanmärkningar. Rökfri, inga husdjur tillåtet. \nHuset är möblerat samt fullt inrett kök.\nKombinerad tvättmaskin/ torktumlare.\nBadrum med WC, dusch och golvvärme.\nI uthyrningspriset ingår el, vatten och internet.\nBra kommunikation, bara 2 minuter från hållplats Toleredsgatan. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 6900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björnsonsgatan, Göteborg",
-    "url": "https://qasa.com/p/1409768",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d3f08aced3c1f85de426312d1bad17e3ebb5253adce35e9d090044a05e66af4e.jpg",
-    "description": "En mysig lägenhet i källarvåningen med egen ingång.\nBelägen i centrala Göteborg och Hisingen.\nNära till Lidl, välsorterad mataffär med färsk bröd 7 dagar i veckan.  \nStora köpcentrum Backaplan ligger en stenkast från busshållplatsen. \nDet är ca 100 meter att gå från lägenheten till busshållplatsen.\nAtt åka kollektivtrafik till centralstationen tar ca 15 minuter.\n\n*Lägenheten är ca 40 kvm.\n* 2,5 rum - Sovrum med garderob, vardagsrum, \nrum för matbord + köksskåp + kyl / frys.\n*Uteplats med utemöbler för avkoppling och njuter av solen.\n*Egen kök och tvättstuga, samt dusch och toalett. Tvättställ finns.\n\n*Hyran : 7200 kr\nIngår:  vatten och värme samt el.\n avfall - återvinningstation, trådlös wifi- egen router. \n\n\n \n\n\n",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 40.0,
-    "rent": 7200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T18:24:10+00:00", "clock": "18:24:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T20:23:54+00:00", "clock": "20:23:54"};
