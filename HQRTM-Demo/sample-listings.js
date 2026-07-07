@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bronsfatsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1410124",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a033b3e6fec422e5b0d1f6771ecdaa40ec534adfc4aa6b50ea537ae290870fa6.jpg",
+    "description": "Hej\n\nI hyran ingår: El, sophantering, vatten, värme, bredband och tillgång till pendel parkering. För information så är detta en lägenhets villa som är nyrenoverat år 2022. Med egen ingång och entré. Fullt möblerat med porslin, glas samt husgeråd. Bara att flytta in.\n\nInfo om lägenheten:\nGenomgående hall med stor klädkammare och bra förvaring. \nNytt och fräscht kök. Stort sovrum och bra yta för vardagsrum. Nytt och fräscht badrum.\n\nBusshållplats finns 100 m bort från bostaden. Mycket bra kommunikationer och endast ett stenkast till Frölunda Torg och salta havsbad, Askimsbadet.\n\nEj lämplig för barnfamiljer. Rökning ej tillåtet. Ej fester. Allmänna bostads regler finns.\n\nUthyrnings tid: Tillsvidare men prov först i 6 månader.\n\n",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 8100,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Astris Gata, Göteborg",
     "url": "https://qasa.com/p/1410024",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6fe4684fcd056bb57f39e91bf2d69fabdeaffbf2f9af5b67834355823081ad2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Eklandagatan, Göteborg",
-    "url": "https://qasa.com/p/1409870",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/77e1bc01148a96d8ff785a71c8be2e2ebc05452afd7050c48f1f4ad67cdd9ced.jpg",
-    "description": "I med studier så hyr jag ut min charmig 2a på 45kvm i Johanneberg. \n\nLägenheten har en fransk balkong med utsikt över ett blomstrande körsbärsträd i sovrummet. Har bra förvaring under säng samt soffa, och stor garderob.\nI sovrummet finns det även ett höj- och sänkbart skrivbord för dig som behöver jobba hemifrån eller plugga.\nVardagsrummet erhåller plats för både soffa och matgrupp. \n\nI hyran ingår: \nEl\nVatten\nVärme\nBredband\nMöbler\nHusgeråd - vid efterfrågan  ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T20:23:54+00:00", "clock": "20:23:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T21:52:41+00:00", "clock": "21:52:41"};
