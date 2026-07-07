@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Idrottsgatan, Göteborg",
+    "url": "https://qasa.com/p/1409972",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3e205ad172890d58044faf213094bcdcbc6202d4c74ffa2f36ea5f9819957b4d.jpg",
+    "description": "1st LEDIGA STUDENTRUM med pentry (kokplattor)  i centrala Göteborg.\nVi har 2 separata rum med eget pentry  med egen ingång i villa i Göteborg, nära Redbergsplatsen. Det ena rummet blir ledigt 1 Augusti 2026. Microvågsugn, Tvättmaskin, dusch och toalett delas mellan rummen. Möjlighet att hoppa på vårt wifi kostnadsfritt.\nTa sig runt gbg:\n-Cykel in till centralstation 12 min\n-Buss 7 min till centralstation\n-Chalmers med spårvagn direktvagn ca 17 min",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1409907",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c0fc4328eaf2fa1c2cf9d77cf04e6e62fc70296d1ac7427d8e127b361edb2ca1.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Svartskärsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1409742",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/04113e75533bb2e7af8d2155d9fada9aa4abb3e6fdfc99a562926cafd017167b.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13225 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/btnvrqblwimwzmtf8ycv/vastra-gotaland/vastra-frolunda/svartskarsvagen-25a/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus och välplanerad 2 i natursköna Fiskebäck\r\n\r\nNu finns möjlighet att hyra en ljus och välplanerad 2 om ca 40 kvm i husets bottenplan med egen entré. Lägenheten har en öppen planlösning mellan kök och vardagsrum, ett separat sovrum samt ett helkaklat badrum med dusch. I anslutning finns även tillgång till egen tvättstuga.\r\n\r\nBostaden ligger i ett lugnt och trivsamt villaområde i populära Fiskebäck med närhet till hav, badplatser, promenadstråk och natur. Goda kommunikationer tar dig smidigt till centrala Göteborg, samtidigt som mataffärer och annan service finns på bekvämt avstånd.\r\n\r\nI hyran ingår samtliga driftskostnader, inklusive el, vatten och avlopp, uppvärmning, sophämtning samt internet. Det innebär ett enkelt och bekymmersfritt boende utan några tillkommande driftkostnader.\r\n\r\nEn perfekt bostad för dig som söker ett lugnt och naturnära boende med närhet till både stad och skärgård.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13225 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 12602,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Korsåsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1409677",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/050861d414db3d195a5e894434aa46ff1d2cfc0f54f032a085e68bca964fdac9.png",
-    "description": "Möblerat radhus uthyres i Göteborg\n\nNu finns möjlighet att hyra ett trivsamt och välskött möblerat radhus i ett lugnt och familjevänligt område i Göteborg passar perfekt för exempelvis ett par, en familj eller någon som söker ett tillfälligt boende.\n\nRadhuset är fullt möblerat och inflyttningsklart med ljusa, rymliga ytor och ett fullt utrustat kök. Här finns även egen uteplats och trädgård, vilket ger ett bekvämt och trevligt boende.\n\nI hyran ingår:\n\nFullt möblerad bostad\n\nVärme\n\nVatten och avlopp\n\nSophämtning\n\nFiberbredband/Wi-Fi\n\nParkeringsplats med möjlighet till laddning \n\nEl vid normal förbrukning\n\nJag söker en skötsam och ansvarstagande hyresgäst med ordnad ekonomi som kommer att ta väl hand om bostaden. Rökning är inte tillåten inomhus. Husdjur kan diskuteras efter överenskommelse.\n\nVid intresse är du varmt välkommen att skicka en kort presentation om dig själv, vem som ska bo i bostaden, syftet med uthyrningen samt önskat inflyttningsdatum.",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 116.0,
-    "rent": 24500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Lillhagsvägen, Hisings Backa",
-    "url": "https://qasa.com/p/1409670",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f26b92eef728818326bcf40f0184bb978aa35fc7b08f003a87f5a12df0146808.jpg",
-    "description": "English below\n\nHej\n\nVi har ett nybyggt (2019) hus på 40m2 med loft som har full ståhöjd att hyra ut. \n\nHuset hyrs ut fullt möblerat med fyra sängplatser. En dubbelsäng i sovalkov (180x200) på nedervåningen och två bäddsoffor (90x2000) på loftet.\n\nTrappan är av sparmodell och lämpar sig inte enligt oss för små barn.\n\nKöksgeråd, mikrovågsugn, diskmaskin och tvättmaskin finns. TV finns att casta till. I hyran ingvärme, internet, sophämtning etc. Parkera kan man göra på gatan utanför.\n\nHushållsel ingår med 350kwh/månad. Högre förbrukning betalas med 2.50kr/ kwh. All belysning är led och golvvärmen ingår i hyran. Vitvarorna är också av enegieffektiva typer. Normal elförbrukning för 2 r o k är 200kwh/månad.\n\nHuset ligger i anslutning till vår tomt men i ett väldigt privat läge med ingång från vägen. \n\nHuset ligger nära St Jörgens park på Hisingen. 8 min med buss till Hjalmar Brantingsplatsen och ca 20 min till Brunnsparken. \n\nHör av dig vid intresse! \n\nVänliga hälsningar\n Kenny och Jessica\n\nHello\n\nWe have a newly built (2019) house, 40sqm with a loft that has full standing height to let. \n\nThe house is let fully furnished with four beds. A king size bed (180x200) in the sleeping area downstairs and two sofa beds (90x200) in the loft.\n\nThe stairs are steep and, in our opinion, it´s not suitable for small children.\n\nThe house is equipped with kitchen utensils, microwave, dishwasher and washing machine. TV is available for casting. The rent includes electricity, internet, garbage collection, etc. Parking is available on the street outside.\n\nHousehold electricity is included at 350 kwh/month. Higher consumption is paid at 2.50 kr/kwh monthly. All lights are LED and the underfloor heating is included in the rent. The electronics are also of energy-efficient types. Normal electricity consumption for a 2 room appartment is  200 kwh/month.\n\nThe house is situated in our back yard but in a very private location with an entrance from the road. \n\nThe house is close to St. Jörgens park on Hisingen. 8 minutes by bus to Hjalmar Brantingsplatsen and about 20 minutes to Brunnsparken. \n\nPlease contact us if you are interested! \n\nKind regards\nKenny and Jessica",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T16:16:37+00:00", "clock": "16:16:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T18:24:10+00:00", "clock": "18:24:10"};
