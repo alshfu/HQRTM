@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1350833",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5772475b3dfac563b4786544ca6f606072b97678efb5f0baba29e1b404c6737.jpg",
+    "description": "Ljus och modern lägenhet högt upp i ikoniska Karlatornet på våning 21. Här erbjuds en spektakulär utsikt över solnedgången som kan avnjutas från bostadens balkong Läget högt över staden ger ett fantastiskt ljusinsläpp och en svårslagen känsla av rymd. En unik bostad för dig som vill bo exklusivt med Göteborgs skyline som kuliss.\n\nKarlatornet’s faciliteter ingår så som gym, bio , gemensam kök",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 49.0,
+    "rent": 17500,
+    "floor": 21,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brottkärrs byväg, Hovås",
     "url": "https://qasa.com/p/1410021",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/196c82f65ae4585a5eae938a7cf5a6eb664c04903fc93cee5ae886ddb86dbe03.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Marconigatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1410445",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/407ed4a14aa9cba11ff99540ff7b15add98d0e50d39c63a63189c155bcd009eb.jpg",
-    "description": "🌿 Stort, ljust och möblerat rum uthyres vid Frölunda Torg\n\nVälkommen till ett ljust, rent och trivsamt hem!\n\nJag hyr ut ett mycket stort och ljust rum i min välskötta lägenhet på våning 9, precis vid Frölunda Torg.\n\n🌞 Rummet har stora fönster, härligt dagsljus och en fin utsikt.\n\n🚌 Endast 2 minuters promenad till buss- och spårvagnshållplats, samt till Frölunda Torg med mataffärer, restauranger, gym och all annan service.\n\nOm rummet\n\nRummet möbleras innan inflyttning med:\n\n✔ Bekväm enkelsäng\n✔ Madrass\n✔ Täcke och kudde\n✔ Sängkläder\n✔ Skrivbord och stol\n\nSoffan kan självklart tas bort om du önskar mer golvyta.\n\nDetta ingår\n\n✅ El\n✅ Värme\n✅ Vatten\n✅ Snabbt WiFi\n✅ Tillgång till kök\n✅ Tillgång till badrum\n✅ Tvättmöjligheter\n\nHyra\n\n💰 Hyra: 6 000 kr/månad\n\n💳 Deposition: 6 000 kr (återbetalas vid utflyttning om allt är i gott skick.)\n\n📅 Uthyres i 3 månader, med möjlighet till förlängning om vi båda trivs.\n\nPraktisk information\n\n* Hyran betalas i förskott.\n* Uppsägningstid är 1 månad för båda parter.\n* Uppsägning sker skriftligt.\n\nOm dig\n\nJag söker en lugn, ordningsam, ansvarsfull och rökfri person.\n\nBoendet passar perfekt för dig som arbetar eller studerar och söker ett tryggt, rent och trivsamt hem under en period.\n\n🐈 Jag har en snäll katt i bostaden, så du bör inte vara allergisk mot katter.\n\nJag tycker om ett lugnt och vänligt hem där man visar hänsyn och respekt för varandra. Jag hoppas hitta någon som kommer att trivas här och känna sig välkommen.\n\nEftersom vi kommer att dela bostaden är det viktigt för mig att vi har en öppen, respektfull och trevlig kommunikation.\n\nOm du är intresserad får du gärna skriva några rader om dig själv:\n\n* Vad du arbetar eller studerar med.\n* Hur länge du önskar hyra.\n* Lite kort om vem du är.\n\nJag ser fram emot att höra från dig! 🌿",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 6000,
-    "floor": 9,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T14:43:01+00:00", "clock": "14:43:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T16:22:15+00:00", "clock": "16:22:15"};
