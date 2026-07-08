@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Finlandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1410919",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7df1f6bf8ed82bc883f93a4eff8b3d828bd5feb8ec9282346030b1be850aef2b.jpg",
+    "description": "Då jag ska flytta till annat ort så hyr jag ut min stora härliga vindsvåning med närhet till Eriksbergskajen. \nLägenheten är fräsch, ljus och luftig. \nDiskmaskin ingår och har en egenköpt tvättmaskin som kommer lämnas kvar. \nParkering ingår, men kan uteslutas och därmed en något lägre månadskostnad. \n\nLägenheten kommer att hyras ut delvis möblerad. \nStor härlig soffa, byrå och en \"öppen brasa\" men även soffbord och matta och gardiner konmer finnas mm. \n\nI köket kommer köksmöbler att lämnas kvar med taklampor och en del husgeråd mm.\n\nI badrummet kommer en hylla med god förvaring att finnas mm. \n\nSovrummet kommer att lämnas tomt för egen säng att ta med. \n\nOmrådet är lugnt och skönt. \nUteplats med möjlighet till grill. \nBara 2 minuter ifrån ligger en park och vidare några minuter nedåt ligger havssköna Eriksberg. \n\nInternet ingår även samt ett förråd. \n\nMinst ett år, eventuellt längre och chans till att ta över kontraktet finns om man skött sig och hyresvärden godkänner.\n\nTidigast inflytt 26-08-30, senast 26-09-30 (enligt överenskommelse) \n",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 65.0,
+    "rent": 11800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kungshöjdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1410926",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c8571423a7df517692a2371d7a3b37828007b3e22cdd0584ea6e69f21b99cbc1.jpg",
+    "description": "Rum uthyres till student/ veckopendlare:\nVisning : 10/1 -11/1\n\nLjust på 8 kvm uthyres möblerat med säng, skrivbord och garderob. \nTillgång till fullt utrustat kök, vardagsrum, badrum samt tvättstuga.\nEl och internet ingår i hyran. \n\nVi söker dig som är ansvarsfull, skötsam, renlig och respektfull.\nDu är en person som förstår vikten av att hålla rent och snyggt i gemensamma utrymmen.\n\nVi som som bor här är jag Joana, Robbie och Tara som är en Rescue  dog på snart 7 år.\nDu bör vara bekväm med hundar  och helst ha erfarenhet av dem eller vilja lära känna vår.\n\nBerätta lite kort om dig, vem du är, vad du gör...\n Vi ser fram emot att höra från dig! \nJoana \n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lars Kaggsgatan, Göteborg",
     "url": "https://qasa.com/p/1410819",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2eb90736f07f605ec9089332600c23b3dc43f6c2585424115563e8cca30d0c90.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Riksdalersgatan, Göteborg",
-    "url": "https://qasa.com/p/1410505",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6eb7b50f637fd906d21206b28076077496ac0c6a2b4bd7f78b38e8ebfd5f37bf.jpg",
-    "description": "INNEBOENDE SÖKES\nLEDIGT RUM I HÖGSBO FRÅN 1 JULI\nENGLISH BELOW\n\nJag har ett ledigt rum i min lägenhet som jag vill hyra ut. Inflytt kan ske från 1 juli.\nHyran ligger på 3 900 SEK inkl. el, värme och internet. Rummet är på ca 12 kvm och helt möblerat. Rummet har också en mindre garderob inbyggd i väggen. Viss tillgång finns till vindsförråd.\nI huset finns gemensam tvättstuga med tre tvättmaskiner, två torktumlare och två stora torkrum. Det finns även ett cykelförråd.\nDelat kök och badrum.\n\nJag bor i Högsbo, nära hållplatsen Axel Dahlströms torg, (Linje 1, 2, 7 och 8.), ca 15 minuter från Chalmers. Det finns mataffär, restauranger, bibliotek och vårdcentral m.m i närheten.  På promenadavstånd finns fina skogsområden (Ruddalen, Änggårdsbergen och inte alltför långt bort: Slottsskogen)\nJag ser gärna att den som bor hos mig har någon form av aktivitet dagtid, utanför lägenheten, på veckorna, då jag jobbar hemma till stor del. \nVidare önskar jag hyra ut till en skötsam, drogfri person med god kommunikationsförmåga och lyhördhet samt tidigare erfarenhet av att bo ihop med andra. Jag respekterar mina inneboendes integritet och behov av ostördhet, och önskar detsamma tillbaka. Att umgås och samtala är också trevligt, jag är rätt sällskaplig av mig, och hittills har det alltid vuxit fram god vänskap mellan mig och dem som bott hos mig.\nJag är rätt avslappad och lugn och har efter många års erfarenhet lärt mig vad som funkar bäst när man bor ihop med andra.\n\n\nI have an extra room in my apartment, that I would like to rent to a student or similar. \nThe room is furnished and will be available from July 1. Wifi, electricity etc. is included in the rent.\nThere is a wardrobe in the room and possibilities for storage in the attic. There is a laundry room in the basement for all tenants in the building.\nWe share kitchen and bath room.\n\nI live in Högsbo, close to the tram stop Axel Dahlströms torg, (line 1, 2, 7, and 8), close to Chalmers (approx. 15 minutes).\nThere is a grocery shop, restaurants, public library och health care in the area.\n\nImportant is, that I would like to rent out the room to a caring, respectful and drug free person, with communication skills, and preferably previous experience from living together with others.\nI am respectful towards the integrity of the persons that live with me, and expect the same in return. I am also social and kind and appreciate having good conversations occasionally. With the former persons, that have been living here I have become good friends.\n\nI am relaxed, calm and helpful, and over the years I have learned what makes co-living function.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Basungatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1396106",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21954392df3f119155d418a3af97671bcc2346af8a1e3bfc9f7f664b5b1ec025.jpg",
-    "description": "Trevlig tvåa med balkong.\nStort sovrum med garderob, vardagsrum med plats för soffa och matbord.\nKök med mycket förvaringsmöjlighet, inbyggd micro, diskmaskin och plats för mindre köksbord.\nBadrum med dusch och liten tvättmaskin.\nVinds och källarförråd. \nEl, tv och wifi ingår i hyra.\nNära kollektivtrafik,  affärer och restauranger, men även nära  naturområde  och hav.\n",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 10900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T17:56:56+00:00", "clock": "17:56:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T19:41:22+00:00", "clock": "19:41:22"};
