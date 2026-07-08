@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Litteraturgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1381378",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fda651cb0c68d8259d9bdcbcd01437c2966d614ca037040dc8360a1f2fae272a.jpg",
+    "description": "Nyproducerad och ljus 2:a på 48 kvm uthyres i attraktiva Selma Stad, Hisings Backa.\n\n• 2 rum och kök\n\n• 48 kvm\n\n• Våning 1 av 2 (hiss finns)\n\n• Balkong med utsikt över torget\n\n• Uthyres omöblerad eller\n\ndelvis möblerad\n\n• Internet, kabel-TV och el ingår\n\n• Diskmaskin, tvättmaskin och torktumlare finns\n\n• Parkeringsplats kan ordnas mot extra kostnad\n\nUthyres: 2026-07-01-2027-07-01\n\nHyra: 10 600 kr/mån\n\nSelma Lagerlöfs Torg,\nHisings Backa\n\nNära kollektivtrafik, butiker, restauranger och grönområden.\nVid intresse -skriv gärna och\nberätta lite om dig själv.",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10600,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nordostpassagen, Göteborg",
+    "url": "https://qasa.com/p/1410279",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/00386020a27a637cfd7af07a4aaca627caf6438f80871c3cb3ab8ece02192a7e.jpg",
+    "description": "Hej!\n\nHyr ut min charmiga och rymliga lägenhet i hjärtat av Göteborg, Linné, med sovalkov, separat kök, separat badrum och hall. Söker efter en ansvarsfull person med god ekonomi och goda referenser som vill hyra lägenheten medan jag är på utbytestermin. \n\nKöket är välutrustat och förvaring finns i hallen. Den är fullt möblerad med soffa, matbord, säng osv. Renoverad för 5 år sedan så i toppen skick. El, vatten och internet ingår i hyran. \n\nOmrådet är så trevligt med många cafeér, restauranger, butiker och barer samt nära till natur i både Slottsskogen och Botaniska Trädgården. Bra förbindelser till spårvagn och buss. Buss 61 går vid gatan utanför och spårvagn 1 och 6 är nära från Prinsgatan samt Järntorget. Det finns även en mysig \"innergård\" med växter, bänkar samt en Willys 1 min bort.\n\nHör av dig om du är intresserad så pratar vi vidare!\n\n/ Alice :)",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 10300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stuxbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1410961",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/50072721bfc8f997d2f9c1c108e899e9f8b1c44bf4ddcdde64f2062a11b4a73d.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Syster Ainas Gata, Göteborg",
-    "url": "https://qasa.com/p/1410524",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9984c2cc531248db65a41eb19f0be42eaf373dd95204cffd586aa40a232deb61.jpg",
-    "description": "Ljus och välplanerad 3:a på 69 kvm med centralt läge vid Dr Fries torg. Endast 1 min promenad till hållplats: Dr Fries torg och nära torget med Hemköp, Nordic Wellness och flera restauranger. Med kollektivtrafik tar du dig till centrum och Slottskogen på cirka 15 minuter. Fina naturområden finns i direkt anslutning till området.\n\nRummet som hyrs ut är cirka 12 kvm och hyrs ut omöblerat. Lägenheten har en balkong som nås från både sovrummet och vardagsrummet. Övriga delar av lägenheten är möblerade och delas med hyresvärden. Katt finns i hemmet, så du bör inte vara kattallergisk.\n\nI hyran ingår el, vatten och internet.\n\nDeposition: 1 månadshyra\n\n> Endast tjejer. Jag söker en skötsam, lugn och respektfull person. Det är viktigt att du tar ansvar för gemensamma utrymmen och betalar hyran i tid.\n\n> Katt finns i hemmet\n_____________________\n\nBright 3 room apartment (69 sqm) in a central location at Dr Fries torg. Only a 1 minute walk to the Dr Fries torg tram stop, and close to Hemköp grocery store, Nordic Wellness gym and several restaurants. Public transport takes you to the city centre and Slottsskogen in approximately 15 minutes. Beautiful nature areas are located nearby.\n\nThe room for rent is approximately 12 sqm and is rented unfurnished. The apartment has a balcony that can be accessed from both the bedroom and the living room. The rest of the apartment is furnished and shared.\n\nRent includes: Electricity, water, and internet\n\nDeposit: 1 month’s rent\n\n> Female tenants only. I am looking for a responsible, calm, and respectful person who takes care of shared spaces and pays the rent on time.\n\n> Please note: There is a cat living in the apartment, so you should not be allergic to cats.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrskeppsvägen, Torslanda",
-    "url": "https://qasa.com/p/1406508",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e34122f2e3d67919ce59a6f833309ad3e6db87d67cdbd897d9ea73ef1393cdc.jpg",
-    "description": "Ljus lägenhet med uteplats och privat parkering i lugna och natursköna Hjuvik. Goda möjligheter att arbeta med snabbt wifi. Endast 300m från havet. Vackra  stigar i skogar samt klippor att springa och promenera på. Badbrygga för bad året runt finns. Hyresgästen har tillgång till en fin uppvuxen trädgård . Lägenheten hyrs ut möblerad med möjlighet att hyra delvis möblerad. Vi har även ett litet hus på tomten med mycket trevliga hyresgäster. \n\nLight apartment with a patio and private parking in the calm and scenic Hjuvik. Only 300m from the sea. Very good opportunities to work from home due to fast Wifi and undisturbed environment. Excellent opportunities for outdoor activities in the area along cliffs and in forests. A bathing bridge for year-round swimming is available. The tenant has access to a beautiful, mature garden. We also have a small house on the property with pleasant tenants. \n\nRumsbeskrivning:\nFloorplan:\n\nLägenheten är ca 45 kvadrat och har ett sovrum där det får plats en 180 cm säng, kombinerat kök med vardagsrum, hall med tvättstuga (tvättmaskin och torkskåp) samt ljust helkaklat badrum med dusch och toalett.  Hög hastighet på internet.\n\nThe apartment is approximately 45 square meters and consists of one bedroom with space for a 180 cm bed, a combined kitchen and living room, a hallway with a laundry room (washing machine and drying cabinet), and a fully tiled bathroom with shower and toilet. High-speed internet available.\n\nNärområde: \nNeighborhood:\n\n300 m\t- Småbåtshamn och badplats\n4 km\t- Torslandavallen med upplyst motionsspår, tennishall, fotbollsplaner etc.\n4,5 km\t- Amhult Torg med ICA Maxi, Willys, systembolag, apotek, gym, vårdcentral etc.\n\n300 m\t- Marina and swimming place\n4 km\t- Torslandavallen with jogging track, tennis hall, football fields etc.\n4.5 km\t- Amhult Torg shopping center with ICA Maxi supermarket, Willys, Systembolaget, pharmacy, Gym, medical center and more.\n\nKommunikationer:\nCommunications:\n\n300m   - hållplats ”Fyrskeppsvägen”. Buss 24 tar dig till centralen på ca 40 minuter. \n800m   - hållplats ”Majvik”. Röd Express tar dig till centrala Göteborg på dryga 30 minuter eller till Volvo på ca 20 minuter. \nBil        - Järntorget 24min, Lindholmen 19min, Volvo 15 min\n\n300m \t- bus stop “Fyrskeppsvägen”. Bus 24 to central Gothenburg in just over 40 min or to Volvo in 20 min. \n800m\t- bus stop “Majvik”. Red Express to central Gothenburg in just over 30 min or to Volvo Cars in 20min.\nCar \t- City Centre  24 min, Lindholmen Science Park 19 min, Volvo 15 min\n\nHyran inkluderar internet och VA/avlopp/renhållning. \nRent includes Internet and water/sewage/garbage\n\nVi önskar lugna hyresgäster som trivs att bo vid havet och en bit från Göteborgs innerstad.\nWe prefer quiet tenants who enjoy living by the sea and a bit away from the city center of Gothenburg.\n\nVi ser fram emot att höra från dig/er!\nWe look forward hearing from you!\n\nJohanna och Magnus\n\n\n",
-    "district": "Torslanda",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 9400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T20:46:56+00:00", "clock": "20:46:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T21:53:29+00:00", "clock": "21:53:29"};
