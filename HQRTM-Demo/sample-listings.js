@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gårdstensvägen 105, Angered",
+    "url": "https://qasa.com/p/1410190",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8e8c1a30f5deda925a00097e701902bd713f2b5a961c0a6979c190ec298061c8.jpg",
+    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med uteplats i sydväst på 9 kvm. På bilderna och planritningen kan du se i viket hus, samt vart i huset lägenheten är belägen. Filmen som visas för lägenheten är en film från en likadan lägenhet med samma planlösning, men i ett annat hus och ev. annat våningsplan.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare eller kombinerad tvätt och tork.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 13035,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sandlyckevägen, Västra Frölunda",
     "url": "https://qasa.com/p/1410148",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/90c4a12fc2f09f60c10de81a30c69f5d633b0efecb8182022137816e6c769704.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Idrottsgatan, Göteborg",
-    "url": "https://qasa.com/p/1409972",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3e205ad172890d58044faf213094bcdcbc6202d4c74ffa2f36ea5f9819957b4d.jpg",
-    "description": "1st LEDIGA STUDENTRUM med pentry (kokplattor)  i centrala Göteborg.\nVi har 2 separata rum med eget pentry  med egen ingång i villa i Göteborg, nära Redbergsplatsen. Det ena rummet blir ledigt 1 Augusti 2026. Microvågsugn, Tvättmaskin, dusch och toalett delas mellan rummen. Möjlighet att hoppa på vårt wifi kostnadsfritt.\nTa sig runt gbg:\n-Cykel in till centralstation 12 min\n-Buss 7 min till centralstation\n-Chalmers med spårvagn direktvagn ca 17 min",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T03:34:17+00:00", "clock": "03:34:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T06:15:10+00:00", "clock": "06:15:10"};
