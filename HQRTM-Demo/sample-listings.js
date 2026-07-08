@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brottkärrs byväg, Hovås",
+    "url": "https://qasa.com/p/1410021",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/196c82f65ae4585a5eae938a7cf5a6eb664c04903fc93cee5ae886ddb86dbe03.jpg",
+    "description": "Fin nyrenoverad möblerad lägenhet på 50 m2 på entréplan i Havsnära villa. Perfekt för singelperson eller ett par. \nLugnt och tryggt område med naturen direkt inpå. Stor terass med mycket sol.   \nVi hyr ut del av hus med egen ingång, kök och badrum. \n\nBoendet \nÖppen planlösning kök / vardagsrum.\nStort sovrum med en dubbelsäng (160 cm) samt garderob och skrivbord.\n\nKöket är komplett med kyl och frys, diskmaskin, ugn, spis och mikro. \n\nParkering, el&vatten och Wi-Fi ingår.  \n\nAvstånd 250m ner till T-bryggans badvänliga sandstrand i Hovås/Brottkärr.   \n\n300m till Hovås golfklubb.   \n\n500m till bussen in till centrala Göteborg.  1km till populära Nya Hovås med restauranger, butiker, Ica, systembolag, apotek, etc. \n\nVarmt välkomna!",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Syster Ainas Gata, Göteborg",
     "url": "https://qasa.com/p/1410524",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9984c2cc531248db65a41eb19f0be42eaf373dd95204cffd586aa40a232deb61.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hovås Allé, Göteborg",
-    "url": "https://qasa.com/p/1410447",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/26abae6f97b968cbc187c6c608524a0c59fc85f2680c7166420eebb73ee2140a.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 20999 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/8h5woodvsepndxzilyfg/vastra-gotaland/goteborg/hovas-all--11/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nCentral fyra i hjärtat av Nya Hovås. Nära till både trevliga restauranger, livsmedelsbutiker, caféer, salonger, frisör och kollektivtrafik precis utanför dörren med direktbuss in till stan. Promenadavstånd till både havet (bl.a. Amundön och Jerkholmen) och sjö (Oxsjön). Fönster i tre väderstreck, balkong i vänsterläge och öppen planlösning mellan kök och vardagsrum. Två badrum med dusch i båda varav det ena även innehar tvättmaskin och torktumlare.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 20999 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 90.0,
-    "rent": 20009,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T12:14:30+00:00", "clock": "12:14:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T14:43:01+00:00", "clock": "14:43:01"};
