@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Flöjtgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1410998",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a80cbf3e088a6daab1c439f3a9f8bc0b7060c0bf8597621f83ed019fe420246.jpg",
+    "description": "Möblerad 2-rumslägenhet uthyres – nära Ruddalen\n\nNu hyr jag ut min fina och fullt möblerade 2-rumslägenhet med ett lugnt och bra läge nära Ruddalen.\n\nLägenheten har:\n\n2 rum och kök\nBalkong\nFullt möblerad\nKök med det som behövs\n\nI hyran ingår:\n\nVärme\nVatten\nInternet (om det finns)\nÖvriga driftkostnader enligt överenskommelse\n\nEl ingår inte och betalas av hyresgästen.\n\nLägenheten passar perfekt för en person eller ett par. Goda kommunikationer finns i närheten och området är lugnt med närhet till natur och service.\n\nSkicka gärna ett meddelande och berätta lite om dig själv om du är intresserad.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 61.0,
+    "rent": 11260,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Litteraturgatan, Hisings Backa",
     "url": "https://qasa.com/p/1381378",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fda651cb0c68d8259d9bdcbcd01437c2966d614ca037040dc8360a1f2fae272a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brottkärrs byväg, Hovås",
-    "url": "https://qasa.com/p/1410021",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/196c82f65ae4585a5eae938a7cf5a6eb664c04903fc93cee5ae886ddb86dbe03.jpg",
-    "description": "Fin nyrenoverad möblerad lägenhet på 50 m2 på entréplan i Havsnära villa. Perfekt för singelperson eller ett par. \nLugnt och tryggt område med naturen direkt inpå. Stor terass med mycket sol.   \nVi hyr ut del av hus med egen ingång, kök och badrum. \n\nBoendet \nÖppen planlösning kök / vardagsrum.\nStort sovrum med en dubbelsäng (160 cm) samt garderob och skrivbord.\n\nKöket är komplett med kyl och frys, diskmaskin, ugn, spis och mikro. \n\nParkering, el&vatten och Wi-Fi ingår.  \n\nAvstånd 250m ner till T-bryggans badvänliga sandstrand i Hovås/Brottkärr.   \n\n300m till Hovås golfklubb.   \n\n500m till bussen in till centrala Göteborg.  1km till populära Nya Hovås med restauranger, butiker, Ica, systembolag, apotek, etc. \n\nVarmt välkomna!",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T21:53:29+00:00", "clock": "21:53:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T23:02:19+00:00", "clock": "23:02:19"};
