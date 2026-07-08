@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sandlyckevägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1410148",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/90c4a12fc2f09f60c10de81a30c69f5d633b0efecb8182022137816e6c769704.jpg",
+    "description": "Vi hyr ut vårt fina Attlefallshus som ligger i ett lugnt och fint villaområde ute på Näset nära hav och natur. Det är öppen planlösning med stor egen altan. Huset ör högt beläget med fin utsikt. Nyinköpta möbler och bostaden är i mycket fint skick. Parkering och wifi ingår. El tillkommer och egen elmätare finns till huset. Närmsta busshållplats är 4 min från bostaden. Fantastiska bad och promenader rumt hörnet. ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 8023,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bronsfatsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1410124",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a033b3e6fec422e5b0d1f6771ecdaa40ec534adfc4aa6b50ea537ae290870fa6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1409907",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c0fc4328eaf2fa1c2cf9d77cf04e6e62fc70296d1ac7427d8e127b361edb2ca1.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 18975 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/egzo6qeuseg3iislq7aq/vastra-gotaland/goteborg/lodjursstraket-1/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFantastisk lägenhet i Karlatornet - möblerade 2-rumslägenhet i Karlatornet, belägen på 24:e våningen med en enastående utsikt över Göteborgs hamninlopp. Här njuter du av magiska solnedgångar och kvällssol i ett hem utöver det vanliga.\r\n\r\nLägenheten hyrs ut delvis möblerad för minst ett år, med möjlighet till förlängning årsvis eller enligt överenskommelse.\r\nEndast rökfria hyresgäster utan husdjur.\r\n\r\nDet finns tillgång till gym, spa och hotellservice samt medlemskap i bilpool, kylrum på entréplan för exempelvis hemkörning av matkassar, bio-/aktivitetsrum samt lobby med reception.\r\n\r\nVälkommen att höra av dig vid intresse!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 18975 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 18081,
-    "floor": 24,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-07T23:57:56+00:00", "clock": "23:57:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T03:34:17+00:00", "clock": "03:34:17"};
