@@ -3,16 +3,16 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1350833",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5772475b3dfac563b4786544ca6f606072b97678efb5f0baba29e1b404c6737.jpg",
-    "description": "Ljus och modern lägenhet högt upp i ikoniska Karlatornet på våning 21. Här erbjuds en spektakulär utsikt över solnedgången som kan avnjutas från bostadens balkong Läget högt över staden ger ett fantastiskt ljusinsläpp och en svårslagen känsla av rymd. En unik bostad för dig som vill bo exklusivt med Göteborgs skyline som kuliss.\n\nKarlatornet’s faciliteter ingår så som gym, bio , gemensam kök",
+    "title": "Lars Kaggsgatan, Göteborg",
+    "url": "https://qasa.com/p/1410819",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2eb90736f07f605ec9089332600c23b3dc43f6c2585424115563e8cca30d0c90.jpg",
+    "description": "Female accommodation only. \n\n16m2 rum i delad lägenhet, uthyres till 1 person ( no couples). \n\n Gamlestaden : 1 hållplats  (6 minuter från Göteborgs Centralstation).\nGoda förbindelser med lokaltrafik : 6 spårvagnar samt tåg går ifrån Gamlestaden, flertalet bussar går också. \n\nMatbutik, gym, och vårdcentral finns i närområdet. Det finns gott om restauranger, cafeer och pubar. \n\nVi som bor här är heter Johanna och Carmen.\n Carmen jobbar heltid som produktionstekniker inom optomekanik, dansar samba och tycker om friluftsliv.\n Johanna jobbar som publikvärd på en teater, och frilansar som designer och konstnär.\n\nOrdning och renlighet är viktigt för oss, räkna med 15 till 30min dagligen på disk och städning i gemensamma ytor.\n\nI hyran ingår  värme och el, tillgång till ett fullt utrustat kök, badrum med badkar, hall, tvättstuga med torkrum och torkskåp på gården, samt innegård med grillplats. Wifi 100/10.\n\nBasvaror som ingår är toalett- och hushållspapper, handtvål, diskmedel, såpa, soppåse till kök och badrum, påse till sopsortering. \n\nFörråd ingår ej.\n\nInneboende får inte ha husdjur.\n\nUppsägningstid 3 månader enligt lag.\n\nInneboende är skriven på adressen enligt lag.\n\nInneboende har en egen hemförsäkring.\n\nFör visning:\nHa bild på dig själv i din profil samt skicka direktmeddelande där du presenterar dig med namn, ålder, sysselsättning - berätta om dig själv helt enkelt. ",
     "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 49.0,
-    "rent": 17500,
-    "floor": 21,
-    "has_balcony": true,
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 3233,
+    "floor": null,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T16:22:15+00:00", "clock": "16:22:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T17:56:56+00:00", "clock": "17:56:56"};
