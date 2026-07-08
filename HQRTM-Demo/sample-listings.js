@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stuxbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1410961",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/50072721bfc8f997d2f9c1c108e899e9f8b1c44bf4ddcdde64f2062a11b4a73d.jpg",
+    "description": "Hyr ut min övernattningslägenhet över Gothia Cup\nSplittans ny säng..Kök m enkel porslin . Ingen micro\nFri kaffe\nStor soffa, tv, bredband\nEgna sängkläder o handdukar medtages \nAlmedal spårvagn 600 m, ca 900 m från Liseberg \nBillig parkering ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Finlandsgatan, Göteborg",
     "url": "https://qasa.com/p/1410919",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7df1f6bf8ed82bc883f93a4eff8b3d828bd5feb8ec9282346030b1be850aef2b.jpg",
@@ -36,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Lars Kaggsgatan, Göteborg",
     "url": "https://qasa.com/p/1410819",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2eb90736f07f605ec9089332600c23b3dc43f6c2585424115563e8cca30d0c90.jpg",
-    "description": "Female accommodation only. \n\n16m2 rum i delad lägenhet, uthyres till 1 person ( no couples). \n\n Gamlestaden : 1 hållplats  (6 minuter från Göteborgs Centralstation).\nGoda förbindelser med lokaltrafik : 6 spårvagnar samt tåg går ifrån Gamlestaden, flertalet bussar går också. \n\nMatbutik, gym, och vårdcentral finns i närområdet. Det finns gott om restauranger, cafeer och pubar. \n\nVi som bor här är heter Johanna och Carmen.\n Carmen jobbar heltid som produktionstekniker inom optomekanik, dansar samba och tycker om friluftsliv.\n Johanna jobbar som publikvärd på en teater, och frilansar som designer och konstnär.\n\nOrdning och renlighet är viktigt för oss, räkna med 15 till 30min dagligen på disk och städning i gemensamma ytor.\n\nI hyran ingår  värme och el, tillgång till ett fullt utrustat kök, badrum med badkar, hall, tvättstuga med torkrum och torkskåp på gården, samt innegård med grillplats. Wifi 100/10.\n\nBasvaror som ingår är toalett- och hushållspapper, handtvål, diskmedel, såpa, soppåse till kök och badrum, påse till sopsortering. \n\nFörråd ingår ej.\n\nInneboende får inte ha husdjur.\n\nUppsägningstid 3 månader enligt lag.\n\nInneboende är skriven på adressen enligt lag.\n\nInneboende har en egen hemförsäkring.\n\nFör visning:\nHa bild på dig själv i din profil samt skicka direktmeddelande där du presenterar dig med namn, ålder, sysselsättning - berätta om dig själv helt enkelt. ",
+    "description": "Read the listing before reaching out!\n\nFemale accommodation only. \n\n16m2 rum i delad lägenhet, uthyres till 1 person ( no couples). \n\n Gamlestaden : 1 hållplats  (6 minuter från Göteborgs Centralstation).\nGoda förbindelser med lokaltrafik : 6 spårvagnar samt tåg går ifrån Gamlestaden, flertalet bussar går också. \n\nMatbutik, gym, och vårdcentral finns i närområdet. Det finns gott om restauranger, cafeer och pubar. \n\nVi som bor här är heter Johanna och Carmen.\n Carmen jobbar heltid som produktionstekniker inom optomekanik, dansar samba och tycker om friluftsliv.\n Johanna jobbar som publikvärd på en teater, och frilansar som designer och konstnär.\n\nOrdning och renlighet är viktigt för oss, räkna med 15 till 30min dagligen på disk och städning i gemensamma ytor.\n\nI hyran ingår  värme och el, tillgång till ett fullt utrustat kök, badrum med badkar, hall, tvättstuga med torkrum och torkskåp på gården, samt innegård med grillplats. Wifi 100/10.\n\nBasvaror som ingår är toalett- och hushållspapper, handtvål, diskmedel, såpa, soppåse till kök och badrum, påse till sopsortering. \n\nFörråd ingår ej.\n\nInneboende får inte ha husdjur.\n\nUppsägningstid 3 månader enligt lag.\n\nInneboende är skriven på adressen enligt lag.\n\nInneboende har en egen hemförsäkring.\n\nFör visning:\nHa bild på dig själv i din profil samt skicka direktmeddelande där du presenterar dig med namn, ålder, sysselsättning - berätta om dig själv helt enkelt. \n\nOm du läst så här långt ,  skicka en emoji som symboliserar sommaren 2026 för dig, så tar vi det därifrån! ",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 16.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Korsåsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1410546",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/674cab59c4b9ea6d77eca89ac275aff90eaddd45bd4f7597e9491dd96b65e13d.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 28001 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/f0cag9y5mlc70zjmcyns/vastra-gotaland/vastra-frolunda/korsasgatan-113/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMöblerat radhus uthyres i Göteborg!\r\n\r\nNu finns möjlighet att hyra ett trivsamt och välskött möblerat radhus i ett lugnt och familjevänligt område i Göteborg. Passar perfekt för exempelvis ett par, en familj eller någon som söker ett tillfälligt boende.\r\n\r\nRadhuset är fullt möblerat och inflyttningsklart med ljusa, rymliga ytor och ett fullt utrustat kök. Här finns även egen uteplats och trädgård, vilket ger ett bekvämt och trevligt boende.\r\n\r\nI hyran ingår:\r\n\r\nFullt möblerad bostad\r\n\r\nVärme\r\n\r\nEl\r\n\r\nVatten och avlopp\r\n\r\nSophämtning\r\n\r\nFiberbredband/Wi-Fi\r\n\r\nParkeringsplats med möjlighet till laddning \r\n\r\nJag söker en skötsam och ansvarstagande hyresgäst med ordnad ekonomi som kommer att ta väl hand om bostaden. Rökning är inte tillåten inomhus.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 28001 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 116.0,
-    "rent": 26428,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T19:41:22+00:00", "clock": "19:41:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-08T20:46:56+00:00", "clock": "20:46:56"};
