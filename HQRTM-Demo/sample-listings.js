@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Olskroksgatan, Göteborg",
+    "url": "https://qasa.com/p/1411714",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/465295a0ebe5061993bc710cb7079324af9ddada6ad604514395a3780402e87f.jpg",
+    "description": "2-rumslägenhet i Bagaregården med liten balkong. Ligger nära Redbergsplatsen med bra kommunikation till övriga Göteborg. Cirka 20-25 minuters promenadavstånd från Göteborg Central/Nordstan. \n\nLugnt och trevligt område med nära till grönska. \n\nI hyran ingår vatten, el och internet. \n\nLägenheten hyrs ut då jag ska ut och resa i några månader.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Beryllgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1411483",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0dada218d759e161bb30388278356f256ba8db8418d73fd8378a471ceea7bab7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mäster Bengtsgatan, Göteborg",
-    "url": "https://qasa.com/p/1411103",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21967f9c63812fb081143219166b539c2eae9e382ce30cdd40b1a01567cd7952.jpg",
-    "description": "Charmig och välplanerad 1 i attraktiva Göteborg – värme, vatten och el ingår\n\nVälkommen till denna ljusa och välplanerade etta om cirka 37 kvm på Mäster Bengtsgatan 12 i Göteborg. Här erbjuds ett trivsamt boende med en smart planlösning som passar perfekt för dig som söker ett bekvämt hem med närhet till stadens utbud.\n\nLägenheten erbjuder ett rymligt allrum med gott om plats för både säng, soffgrupp och matplats. Det funktionella köket ger goda möjligheter för matlagning, och bostaden har en genomgående ljus och trivsam känsla.\n\nHär bor du med närhet till goda kommunikationer, service, restauranger, caféer och grönområden, samtidigt som du enkelt tar dig till centrala Göteborg.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T16:34:09+00:00", "clock": "16:34:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T18:22:43+00:00", "clock": "18:22:43"};
