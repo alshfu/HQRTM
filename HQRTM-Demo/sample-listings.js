@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Beryllgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1411483",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0dada218d759e161bb30388278356f256ba8db8418d73fd8378a471ceea7bab7.jpg",
+    "description": "Uthyres: 2 rok med balkong och parkering – 67,5 kvm, Beryllgatan 44, Västra Frölunda\n\nNu hyr jag ut min välplanerade och ljusa bostadsrätt på Beryllgatan 44 på grund av studier i Malmö.\n\nOm lägenheten\n67,5 kvm\n2 rum och kök\n1 sovrum\nVåning 3 av 3\nHiss saknas \nBalkong\nHyrs ut omöblerad\nTvättmaskin och torktumlare i lägenheten\nGemensam tvättstuga finns i fastigheten\nParkeringsplats på inhägnat parkeringsdäck ingår\nDel av källarförråd kan disponeras efter överenskommelse\n\nHyra och kostnader\nHyra: 11 200 kr/månad\nVärme ingår i hyran\nEl och vatten debiteras efter egen förbrukning (IMD) och betalas i efterhand\nHyresgästen tecknar eget bredbandsabonnemang\nDeposition motsvarande två månadshyror erläggs vid kontraktsskrivning och återbetalas vid hyrestidens slut, under förutsättning att lägenheten återlämnas i godtagbart skick och att samtliga förpliktelser enligt hyresavtalet är uppfyllda.\n\nKommunikationer\nCirka 3 minuters promenad till busshållplats Beryllgatan\nCirka 9 minuter med direktbuss till Järnvågen/Järntorget\nCirka 6 minuter med buss till Frölunda Torg, knutpunkt för buss och spårvagn\n\nÖvrigt\nHyrs ut på ett år i taget med bostadsrättsföreningens godkännande\nInflyttning tidigast den 24 augusti. Viss flexibilitet finns kring inflyttningsdatum.\nRökning är inte tillåten\nHusdjur är tillåtna\n\nJag söker en skötsam hyresgäst med ordnad ekonomi. Vid intresse får du gärna skicka ett meddelande och berätta lite om dig själv, din sysselsättning, hur många som kommer att bo i lägenheten och hur länge du söker boende.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 67.0,
+    "rent": 11200,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan 21A, Göteborg",
+    "url": "https://qasa.com/p/1411509",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/3a92135ee1e431a93b5a2ebaf595860b4345500dc098cbf89543cb380dc6c3c5.pdf",
+    "description": "Välkommen hem till Bergskristallen! \n\n \nHär ges möjlighet att få hyra en 2 Rum och Kök på 42 kvm, en helt nyproducerad bostad från våren 2023.    \n\nHyra: 7 483 kr/mån \n\nSpishäll med inbyggd ugn \n\nDiskmaskin \n\nInbyggd micro \n\nKombinerad tvättmaskin och torktumlare \n\nFörråd på vinden \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. Där kan du även se om lägenheten har balkong, fransk balkong, uteplats eller om den saknar utemöjlighet.    \n\nI hyran som marknadsförts har vi inkluderat en kostnad för, kall- och varmvatten och beräknat detta på en schablon. Hyran kommer därför att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Bergskristallen så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. Hisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nSeparat kö.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 7483,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Drakenbergsgatan, Gteborg",
     "url": "https://qasa.com/p/1411318",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46b4e89e3761faaaed3c5311054765d4559f7008445f2047de58de14f3fa545c.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Örnehufvudsgatan 5, GÖTEBORG",
-    "url": "https://qasa.com/p/1411225",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/1e8f915db3e28f192f28937088c2cf5426e0e488e3ecdcdc3159e143b1594a27.pdf",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2017! Lägenheten om 63 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. \n\nNormalt slitage kan förekomma i lägenheten.\nDå ingen visning kommer att erbjudas rekommenderar vi att ni tar er en titt i området innan ni ansöker om lägenheten. \n\nOBS! Bilderna i annonsen är exempelbilder och kan skilja sig från verkligheten.\r\n\r\nOMGIVNING\r\nJohanneberg är en trivsam stadsdel i den södra delen av centrala Göteborg.  Utemljön består av mycket grönytor och har ett rikt utbud av butiker mm. Närheten till centrum samt den gröna omgivningen gör området väldigt omtyckt.\r\n\r\nKOMMUNIKATIONER\r\nFlera hållplatser finns inom några minuters gångavstånd.\nHärifrån går bussar med täta avgångar som snabbt tar dig in mot centrala Göteborg.\r\n\r\nSERVICE\r\nDu har all tänkbar service i närheten såsom matbutik, restauranger",
-    "district": "GÖTEBORG",
-    "rooms": 2.0,
-    "area_m2": 63.0,
-    "rent": 11957,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Åkeredsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/843239",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a542cd46020a4815cd12ebb3695895ddc3a16b6b683be79810a18d4ad4cf1259.jpg",
-    "description": "Rum uthyres i ett kärleksfullt kollektiv!\n \nDC COM (Dream Center Community) är ett kollektiv som ligger i vackra Åkered!\nKollektivet är ett boende som Drivs av Dream Center Göteborg\n \nBoendet står på Kristen grund och vi söker dig som är i behov av en bostad, du som studerar, du som är social och känner att du kan bidra med god stämning och gemenskap i kollektivet.\n \nÅkered är ett område som ligger i västra delen av Göteborg! Boendet ligger nära natur och hav, nära till affären och här tar man sig enkelt med buss/spårvagn till centrum via Frölunda Torg.\n \nDu hyr ett rum med gemensamma ytor som kök, vardagsrum, tv-rum, toalett och dusch.\nGemenskapen är en viktig del i boendet, och tillsammans hjälps vi åt med städ-sysslor i de allmänna utrymmen.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T11:15:56+00:00", "clock": "11:15:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T14:00:28+00:00", "clock": "14:00:28"};
