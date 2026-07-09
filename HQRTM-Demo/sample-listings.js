@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kvadrantgatan, Göteborg",
+    "url": "https://qasa.com/p/1411780",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9181490fd768a6a9e34d8a58a77f1bde65016cb68008c9c751e9fe3d0f20672.jpg",
+    "description": "Modern 4:a på 87 kvm med stor balkong – 12 500 kr/mån\n\nNu hyr jag ut min fina och välplanerade lägenhet på 87 kvm med 4 rum och kök. Lägenheten är ljus och fräsch med stora sociala ytor, modernt kök, rymligt badrum med tvättmaskin samt en stor balkong med utsikt mot grönska.\n\nInformation:\n\n💰 Hyra: 12 500 kr/mån\n⚡ El, energi och internet betalas av hyresgästen (nuvarande abonnemang kan övertas).\n📅 Tillträde: 1 juli 2026\n📝 Uthyres i 6 månader med möjlighet till förlängning.\n👨‍👩‍👧‍👦 Max 4 personer.\n🚭 Rökning och husdjur är inte tillåtet.\n💵 1 månads deposition.\n\nLägenheten ligger i ett lugnt område med ca 2 minuters promenad till buss och spårvagn som tar dig till centrala Göteborg på cirka 15 minuter. Mataffärer och annan service finns i närheten.\n\nVid intresse, skicka gärna en kort presentation om dig/er samt önskat inflyttningsdatum. Hör av dig om du har några frågor!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 87.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fjärdingsgatan, Göteborg",
+    "url": "https://qasa.com/p/1411705",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d77d5bc8cf7ba982a536332e02f2feb3fa72bee536a5f5836e5d1ba8f94fa35.jpg",
+    "description": "Hej på dig! 🌼\n\nHyr ut ett rum i minlägenhet endast till dig som är student. \nLägenheten är 63 kvm och rumshyran ligger på 4000 kr. I hyran ingår alla möjliga köksutrustningar så du kan få egna kastruller och stekpannor. Rummet är möblerat med eget skrivbord, en byrå och en säng. Lägenheten är gammalt byggd men den ligger ganska centralt, 15 minuters cykelavstånd till centrum. Uppsägningstiden är 2 månader. \n\nJag är nyinflyttad från Uppsala och börjar jobba i augusti som gymnasielärare i matematik och engelska. \n\nHar du några frågor är det bara att skicka iväg dem, jag försöker svara så snabbt jag kan. \n\nMvh, Noah\n\n\n\nHello! 🌸 \n\nI’m renting out two rooms in my apartment only to you who is a student.\nThe apartment is 63 square meters and the room rent is SEK 4000. The rent includes all possible kitchen equipments, so you can get your own pots and pans. The room is furnished with its own desk, a chest of drawers and a bed. The apartment is old built, but it is quite centrally located with 10 minutes away by a bike ride to the city center. A monthly rent is paid as a deposit and the notice period is 2 months.\n\nI'm newly moved from Uppsala to Gothenburg for work in August as a high school teacher majoring in math and English.\n\nIf you have any questions, just send them away, I'll try to answer as quickly as I can.\n\nBest regards, Noah",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 63.0,
+    "rent": 4000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nordhemsgatan, Göteborg",
+    "url": "https://qasa.com/p/1411731",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8fc13896d834e5bf645fe2469172aaa1eb22ec8afba32de41664ecae18bb72ec.jpg",
+    "description": "Charmig vindslägenhet med balkong i Linné – 48 kvm\n\nNu finns möjlighet att hyra en ljus och nyrenoverad vindslägenhet om 48 kvm på Nordhemsgatan i Linné. Lägenheten ligger högst upp i huset (våning 5/5) och har en härlig balkong mot gård med fin utsikt över takåsarna.\n\nBostaden är fullt möblerad och utrustad med bland annat säng, soffa, 65-tums TV, tvättmaskin samt ett välutrustat kök. Internet och värme ingår i hyran.\n\nLäget är mycket centralt med gångavstånd till caféer, restauranger och butiker i Linné samt nära till både Slottskogen och Haga. Goda kommunikationer finns i närheten med spårvagn och buss.\n\nLägenheten passar bäst för en person eller ett par.\n\n⸻\n\nFakta\n    •    48 kvm\n    •    2 rok\n    •    Våning 5/5\n    •    Balkong mot gård\n    •    Möblerad\n    •    Internet ingår\n    •    Värme ingår\n    •    Max 2 personer\n    •    Uthyres minst 12 månader\n\n⸻\n\nVid intresse, skriv gärna kort om:\n    •    vem/vilka som ska bo i lägenheten\n    •    sysselsättning/arbete\n    •    önskat inflyttningsdatum\n    •    hur länge ni planerar att hyra\n\nVi söker i första hand en lugn och skötsam hyresgäst med stabil ekonomi.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 18000,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Olskroksgatan, Göteborg",
     "url": "https://qasa.com/p/1411714",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/465295a0ebe5061993bc710cb7079324af9ddada6ad604514395a3780402e87f.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hästhovsgatan, Göteborg",
-    "url": "https://qasa.com/p/1411224",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ab363a4636b77d407183eee29813e9a8a9238080601883477bf1f1650312dff.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 20700 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/te8ricryvlobpltsailg/vastra-gotaland/goteborg/hasthovsgatan-19/6-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMöblerad lägenhet 2 plan - Östra centrum \r\n\r\nVälkommen till en genuint mysig och hemtrevlig lägenhet i centrala Göteborg. \r\n\r\nLägenheten finns i ett av Kålltorps bästa lägen, på lugna och trygga Hästhovsgatan, med Delsjöområdets naturreservat och Härlanda tjärn alldeles runt knuten. Alldeles i närheten finns också en nybyggd skola (Parkskolan) och förskola (Virginsgatan 19). I Kålltorp finns det för övrigt gott om kaféer, restauranger, butiker och andra verksamheter. Från Kålltorp tar man sig även lätt till övriga delar av Göteborg. Kommunikationerna är utmärkta. Spårvagnsresan till centrum tar 15 minuter.\r\n\r\nLägenheten består av sammanlagt 6 rum, uppdelade på 2 våningar med 3 våningar per plan.\r\n\r\nPå lägenhetens första plan (ca 65 kvm) finns kök, badrum, hall, vardagsrum och 2 sovrum. Vardagsrum och sovrum 2 ligger i fil, har golv med fiskbensekparkett och utgång till härlig balkong i söderläge. På våningen ovan (ca 50 kvm) finns toalett, 1 sovrum med 2 sovalkover, plus 2 rum till. Vardagsrum och sovrum 2 ligger i fil, har golv med fiskbensekparkett och utgång till härlig balkong i söderläge. Lägenheten är öppen, ljus och trivsam med fönster i alla riktningar, och utsikt över området och Delsjöområdets natur.\r\n\r\nKöket är praktiskt och fullutrustat, badrummet är helkaklat med dusch och i källaren finns full tillgång till tvätt och torkmöjligheter. Förvaringsmöjligheter finns.\r\n\r\nLägenheten hyrs ut möblerad tills vidare. \r\n\r\nI hyran inkluderas värme, vatten, hushållsel, bredband via fiber, TV Premium-paket med drygt 80 TV-kanaler, sophämtning, tillgång till trädgård/ utegym/ gunga/ lekstuga och privat parkering i garagenedfarten.\r\n\r\nRökning ej tillåten i lägenheten. Hyresvärden ser helst att hyresgästen ej har husdjur.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 20700 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 6.0,
-    "area_m2": 115.0,
-    "rent": 19538,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Fiskebäcksvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1400508",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b5e102653af64d63c6f4208fc612413ee0d817a399a7879279ca4e2052362e84.jpg",
-    "description": "Student till Göteborg i höst.\nLjust och fräscht möblerat rum uthyres till kvinnlig student. \nDu delar ett våningsplan med en annan kvinnlig student. Det består av två separata sovrum samt gemensamt kök, vardagsrum o badrum. \nRummet är beläget i en villa i Västra Göteborg. \nNära till havet och andra friluftsaktiviteter. \nGoda kommunikationer till både centrum och Eriksberg.",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 4574,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrklöversgatan, Göteborg",
-    "url": "https://qasa.com/p/1411116",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/60e430ea1cb64af35bae01ee8d96a6fd958f10261d9591ecf22de354c9c6bd41.jpg",
-    "description": "Rymlig och välplanerad 3 med attraktivt läge i Göteborg – långtidsuthyrning\n\nVälkommen till denna trivsamma och välplanerade trerumslägenhet på Fyrklöversgatan 11 i Göteborg. Här erbjuds ett bekvämt boende med generösa ytor och ett attraktivt läge med närhet till både service, kommunikationer och grönområden.\n\nLägenheten har en genomtänkt planlösning med ett ljust vardagsrum, två rymliga sovrum och ett funktionellt kök som passar både vardag och umgänge. De stora fönstren ger ett fint ljusinsläpp och bidrar till en trivsam boendemiljö.\n\nFastigheten ligger i ett lugnt och omtyckt område med goda kommunikationer till centrala Göteborg. I närområdet finns matbutiker, restauranger, skolor, förskolor och andra bekvämligheter, vilket gör bostaden idealisk för såväl par som familjer.\n\nFakta:\n\n3 rum och kök\n\nAdress: Fyrklöversgatan 11, Göteborg\n\nLångtidsuthyrnin\n\nVälkomna att höra av er vid intresse!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 18452,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T18:22:43+00:00", "clock": "18:22:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T20:15:56+00:00", "clock": "20:15:56"};
