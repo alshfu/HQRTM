@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Drakenbergsgatan, Gteborg",
+    "url": "https://qasa.com/p/1411318",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46b4e89e3761faaaed3c5311054765d4559f7008445f2047de58de14f3fa545c.jpg",
+    "description": "Det är 4 st. hyresgäster/studenter som delar på kök och badrum på en ovanvåning i en villa.  Det finns nu två rum ledigt från den 1/8. Det tar 5 min. till spårvagnshållplatsen och det tar ca 20 min att promenera in till centrum. Rummen  passar några som skall studera i Gbg. Städning en gång i veckan ingår i priset.\nDet bor två trevliga killar här redan. Så jag hoppas på att hitta två trevliga killar till.\nMed vänlig hälsning, Pia",
+    "district": "Gteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hästhovsgatan, Göteborg",
+    "url": "https://qasa.com/p/1411224",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ab363a4636b77d407183eee29813e9a8a9238080601883477bf1f1650312dff.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 20700 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/te8ricryvlobpltsailg/vastra-gotaland/goteborg/hasthovsgatan-19/6-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMöblerad lägenhet 2 plan - Östra centrum \r\n\r\nVälkommen till en genuint mysig och hemtrevlig lägenhet i centrala Göteborg. \r\n\r\nLägenheten finns i ett av Kålltorps bästa lägen, på lugna och trygga Hästhovsgatan, med Delsjöområdets naturreservat och Härlanda tjärn alldeles runt knuten. Alldeles i närheten finns också en nybyggd skola (Parkskolan) och förskola (Virginsgatan 19). I Kålltorp finns det för övrigt gott om kaféer, restauranger, butiker och andra verksamheter. Från Kålltorp tar man sig även lätt till övriga delar av Göteborg. Kommunikationerna är utmärkta. Spårvagnsresan till centrum tar 15 minuter.\r\n\r\nLägenheten består av sammanlagt 6 rum, uppdelade på 2 våningar med 3 våningar per plan.\r\n\r\nPå lägenhetens första plan (ca 65 kvm) finns kök, badrum, hall, vardagsrum och 2 sovrum. Vardagsrum och sovrum 2 ligger i fil, har golv med fiskbensekparkett och utgång till härlig balkong i söderläge. På våningen ovan (ca 50 kvm) finns toalett, 1 sovrum med 2 sovalkover, plus 2 rum till. Vardagsrum och sovrum 2 ligger i fil, har golv med fiskbensekparkett och utgång till härlig balkong i söderläge. Lägenheten är öppen, ljus och trivsam med fönster i alla riktningar, och utsikt över området och Delsjöområdets natur.\r\n\r\nKöket är praktiskt och fullutrustat, badrummet är helkaklat med dusch och i källaren finns full tillgång till tvätt och torkmöjligheter. Förvaringsmöjligheter finns.\r\n\r\nLägenheten hyrs ut möblerad tills vidare. \r\n\r\nI hyran inkluderas värme, vatten, hushållsel, bredband via fiber, TV Premium-paket med drygt 80 TV-kanaler, sophämtning, tillgång till trädgård/ utegym/ gunga/ lekstuga och privat parkering i garagenedfarten.\r\n\r\nRökning ej tillåten i lägenheten. Hyresvärden ser helst att hyresgästen ej har husdjur.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 20700 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 115.0,
+    "rent": 19538,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Fiskebäcksvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1400508",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b5e102653af64d63c6f4208fc612413ee0d817a399a7879279ca4e2052362e84.jpg",
@@ -48,6 +78,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Örnehufvudsgatan 5, GÖTEBORG",
+    "url": "https://qasa.com/p/1411225",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/1e8f915db3e28f192f28937088c2cf5426e0e488e3ecdcdc3159e143b1594a27.pdf",
+    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2017! Lägenheten om 63 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. \n\nNormalt slitage kan förekomma i lägenheten.\nDå ingen visning kommer att erbjudas rekommenderar vi att ni tar er en titt i området innan ni ansöker om lägenheten. \n\nOBS! Bilderna i annonsen är exempelbilder och kan skilja sig från verkligheten.\r\n\r\nOMGIVNING\r\nJohanneberg är en trivsam stadsdel i den södra delen av centrala Göteborg.  Utemljön består av mycket grönytor och har ett rikt utbud av butiker mm. Närheten till centrum samt den gröna omgivningen gör området väldigt omtyckt.\r\n\r\nKOMMUNIKATIONER\r\nFlera hållplatser finns inom några minuters gångavstånd.\nHärifrån går bussar med täta avgångar som snabbt tar dig in mot centrala Göteborg.\r\n\r\nSERVICE\r\nDu har all tänkbar service i närheten såsom matbutik, restauranger",
+    "district": "GÖTEBORG",
+    "rooms": 2.0,
+    "area_m2": 63.0,
+    "rent": 11957,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Åkeredsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/843239",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a542cd46020a4815cd12ebb3695895ddc3a16b6b683be79810a18d4ad4cf1259.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fastlagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1335400",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1dd33e1b0d5c23c91e66a2ee88855fa644f1fe453ed1e7cee2bb04750e4106bf.jpg",
-    "description": "Ljus och välplanerad 2:a med inglasad balkong i HSB Brf Krönet  Fastlagsgatan 13, Göteborg\n\nNu finns möjlighet att hyra en trivsam och välskött lägenhet i HSB Brf Krönet på Fastlagsgatan 13, 415 41 Göteborg. Lägenheten är ljus, hemtrevlig och smart planerad med separat sovrum, rymligt vardagsrum, stort kök, bra förvaring och inglasad balkong med fin utsikt mot grönområde.\n\nBostaden passar perfekt för en lugn och skötsam person eller ett par som söker ett bekvämt hem i ett trevligt område.\n\nOm lägenheten\n\t•\tLjus och välplanerad 2:a\n\t•\tFullt utrustat kök med goda arbetsytor och mycket förvaring\n\t•\tRymligt vardagsrum med plats för både soffgrupp och matplats\n\t•\tSovrum med stor garderobslösning och bra förvaringsmöjligheter\n\t•\tHelkaklat badrum med dusch och tvättmaskin\n\t•\tInglasad balkong som förlänger bostaden och ger extra yta\n\t•\tFina och neutrala ytskikt\n\t•\tBra förvaring både i lägenheten och genom garderobslösningar\n\t•\tTrevligt ljusinsläpp och lugn omgivning\n\t•\tUtsikt mot grönområde och innergård/lekyta\n\nOm området\nLägenheten ligger i HSB Brf Krönet, ett lugnt och omtyckt område med närhet till service, kommunikationer och grönområden. Här bor du i ett trivsamt område med god tillgång till vardagens bekvämligheter och smidig anslutning till övriga Göteborg.\n\nUthyres\nLägenheten hyrs ut i andra hand till ordningsam hyresgäst med stabil ekonomi. Jag söker någon som är rädd om bostaden och som vill bo lugnt och seriöst.\n\nViktigt att känna till\n\t•\t2 månaders deposition är ett krav\n\t•\tLägenheten är rökfri\n\t•\tLägenheten är djurfri\n\t•\tGoda referenser är meriterande\n\nPraktisk information\n\t•\tAdress: Fastlagsgatan 13, 415 41 Göteborg\n\t•\tFörening: HSB Brf Krönet\n\t•\tHyra: 12500\n\t•\tStorlek:54 kvm\n\t•\tAntal rum: 2\n\t•\tInflytt: omgående\n\t•\tUthyrningsperiod: 1 år intaget enligt HSB \n\t•\tMöblerad/omöblerad: möblerad\n\nVid intresse\nSkriv gärna en kort presentation om dig själv med:\n\t•\tvem du är\n\t•\tsysselsättning/arbete\n\t•\thur länge du önskar hyra\n\t•\tom du hyr ensam eller tillsammans med någon",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vårvindsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1411065",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0fcc82d4396de4328a2bd79afe2235a0111f733f4e5135021d769a60d00837fb.png",
-    "description": "\nHuset på Södra Vårvind 1 och grannhuset är rök- och djurfria fastigheter. Ingen rökning inom fastigheternas gränser är tillåten. Här ska allergiker kunna hitta ett hem.\n\nHuset på södra vårvindsgatan 1 och grannhuset är rök och djurfria ingen rökning inom fastighetens gränser är tillåten Här skall allergiker kunna hitta ett hem.\nKällsortering skall ske genom att glasflaskor, papper, tidningar och kartong lämnas vid återvinningsstation och ej i Moluckerna, Grillning (varken kol, gas eller el) får ske på balkongerna\nEventuella balkongskydden skall vara grå. \n\n\nTill lägenheten ingår en parkering , sök bara lägenheten om ni önskar lägenhet och parkering.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 15717,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Flöjtgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1410998",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a80cbf3e088a6daab1c439f3a9f8bc0b7060c0bf8597621f83ed019fe420246.jpg",
-    "description": "Möblerad 2-rumslägenhet uthyres – nära Ruddalen\n\nNu hyr jag ut min fina och fullt möblerade 2-rumslägenhet med ett lugnt och bra läge nära Ruddalen.\n\nLägenheten har:\n\n2 rum och kök\nBalkong\nFullt möblerad\nKök med det som behövs\n\nI hyran ingår:\n\nVärme\nVatten\nInternet (om det finns)\nÖvriga driftkostnader enligt överenskommelse\n\nEl ingår inte och betalas av hyresgästen.\n\nLägenheten passar perfekt för en person eller ett par. Goda kommunikationer finns i närheten och området är lugnt med närhet till natur och service.\n\nSkicka gärna ett meddelande och berätta lite om dig själv om du är intresserad.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 11260,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T08:00:50+00:00", "clock": "08:00:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-09T11:15:56+00:00", "clock": "11:15:56"};
