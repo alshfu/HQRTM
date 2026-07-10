@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fyrverkaregatan, Göteborg",
+    "url": "https://qasa.com/p/1412363",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5115623affbbac134821637cf811ca2d0f36f58370330f247012ef433522e4fb.jpg",
+    "description": "Välkommen till Fyrverkaregatan. Lägenheten är en välplanerad 1:a på plan 1,5 med separat allrum och kök som kopplas samman med en hall och badrum.\n\nOmrådet är lungt och har ligger 3 minuter gångväg från Wavrinskys Plats med bra kollektiva förbindelser.\n\nI hyran ingår allt förutom elanvändning som brukar landa på ca 300kr/mån\n\nJag hyr ut min bostad då jag ska plugga utomlands en termin.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 11500,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smörgatan, Göteborg",
     "url": "https://qasa.com/p/1412322",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46598eabd022ae4cfc0e08db97c788f6faacf6ae80285e7e8b95d19f261931de.jpg",
@@ -10,7 +25,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 15.0,
-    "rent": 5000,
+    "rent": 4500,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lars Kaggsgatan, Göteborg",
-    "url": "https://qasa.com/p/1412200",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c4c3f052a7ce41c2ee096a04e2aa1f99762c2901720c3e6ccbbb3a6cf6fe052d.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kmo9ry6kbcyc0nuharu9/vastra-gotaland/goteborg/lars-kaggsgatan-30a/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFin och mysig lägenhet i lugnt område. Balkong i söderläge. Nära till buss och spårvagn som tar dig till centrum på 10 min.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 10958,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-10T15:42:56+00:00", "clock": "15:42:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-10T17:29:57+00:00", "clock": "17:29:57"};
