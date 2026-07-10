@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Krokslätt, Mölndal",
+    "url": "https://qasa.com/p/1412108",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4aa187321c644324a722dd99672cba792b27ddb91a5ea6629081162f1f733cc9.jpg",
+    "description": "En mysig lägenhet i vackra Krokslätt med närhet till skog och buss! \nEtt stort rum med kök samt ett sovrum och badrum med tvättmaskin!\nVi söker främst en person alt ett skötsamt par. Vi hyr främst ut 6 månader men eventuellt förlängning! Lägenheten kan ev. möbleras mot en kostnad. \nDu delar uteplats och liten trädgård!\nVärme, el, vatten, avlopp och internet ingår. \nSkriv och berätta om dig själv så tar vi kontakt.\n",
+    "district": "Mölndal",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lars Kaggsgatan, Göteborg",
+    "url": "https://qasa.com/p/1412200",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c4c3f052a7ce41c2ee096a04e2aa1f99762c2901720c3e6ccbbb3a6cf6fe052d.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kmo9ry6kbcyc0nuharu9/vastra-gotaland/goteborg/lars-kaggsgatan-30a/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFin och mysig lägenhet i lugnt område. Balkong i söderläge. Nära till buss och spårvagn som tar dig till centrum på 10 min.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 10958,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Basilikagatan , Gårdsten",
     "url": "https://qasa.com/p/1412165",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c5d136910632fd9542e38715129a139f2faeed449324380c4d83899623f8ed3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1134405",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/af24f50ba3d163ebf5779b3b3176b4665c2544c3440df7ccd40ed87924d4037b.jpg",
-    "description": "Fullt möblerad 3:a uthyres i förstahand på Carlbergsgatan, Örgryte\n\nDenna charmiga och fullt möblerade trea ligger i det attraktiva området Örgryte, med gång- och cykelavstånd till Avenyn, Chalmers och Göteborgs universitet. Lägenheten erbjuder en bekväm och modern boendemiljö med alla nödvändiga bekvämligheter.\n\nDetaljer:\n\nAdress: Carlbergsgatan, Örgryte\nRum: 3\nHyra: 14 000 SEK/mån exklusive Qasa försäkring\nUthyres: Förstahand\nBekvämligheter:\n\n- Diskmaskin och tvättmaskin i lägenheten\n- Internet ingår\n- Gratis parkering på gatan utanför\n- Liten uteplats för avkoppling\n- Du bor på Prospect Hill!!!\n\nDenna lägenhet är perfekt för dig som söker ett bekvämt och centralt \nboende med närhet till stadens puls och viktiga institutioner.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 55.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1412029",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c542e8026cefcb36cf4b3c7c61df1c693046de068874d8dd6655936de9376787.jpg",
-    "description": "Förstahandskontrakt – Charmig 3:a med egen uteplats i centrala Göteborg, Örgryte\n\nNu finns möjlighet att hyra en välplanerad och hemtrevlig 3-rumslägenhet om cirka 55 m² i attraktiva Örgryte på Carlbergsgatan 31 i Göteborg. Lägenheten är belägen i bottenplan i ett trevåningshus och har egen ingång, vilket ger en privat och avskild känsla.\n\nBostaden erbjuder en trevlig uteplats som passar perfekt för avkoppling och umgänge under årets varmare månader. Här bor du i ett lugnt och eftertraktat område med endast cirka 15 minuters promenad till både Avenyn och Kungsgatan, där Göteborgs breda utbud av restauranger, caféer, shopping och nöjen väntar.\n\nLägenheten hyrs i första hand ut möblerad och är inflyttningsklar. Om du önskar hyra den omöblerad kan detta eventuellt diskuteras. I hyran ingår både el och internet, vilket ger ett bekvämt och enkelt boende utan extra kostnader att tänka på. Gratis parkering finns på gatan i direkt anslutning till bostaden.\n\nTidigare inflyttning kan vara möjlig enligt överenskommelse.\n\nFakta\n\n- Förstahandskontrakt\n- Adress: Carlbergsgatan 31, Göteborg\n- 3 rum och kök\n- Cirka 55 m²\n- 14 000 SEK/mån\n- Tvättmaskin i lägenheten\n- Egen ingång\n- Egen uteplats\n- Hyrs ut möblerad (omöblerad kan eventuellt diskuteras)\n- El ingår\n- Internet ingår\n- Gratis parkering på gatan\n- Cirka 15 minuters promenad till Avenyn och Kungsgatan\n- Tidigare inflyttning kan vara möjlig\n\nDetta är ett perfekt boende för dig som vill kombinera ett centralt läge med känslan av ett eget hus. Med egen entré, uteplats och närhet till Göteborgs bästa utbud erbjuds ett trivsamt och bekvämt boende i ett attraktivt område.\n\nVid intresse är du välkommen att skicka en kort presentation av dig själv och eventuella medboende. Visning sker efter överenskommelse.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 55.0,
-    "rent": 14000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-10T11:14:37+00:00", "clock": "11:14:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-10T13:21:02+00:00", "clock": "13:21:02"};
