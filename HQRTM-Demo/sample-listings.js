@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Jungmansgatan, Göteborg",
+    "url": "https://qasa.com/p/1410482",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/73d25d70f8ec659e54de33d2cfac33734cc023fc0ad39be04a12f4b485df5c43.jpg",
+    "description": "Hello, this is a WHITE LEGAL sublease of a first hand contract. My  land lord has processing time of up to 6 weeks. \n\nTHIS IS ONLY Jan 2027-Apr 2027. Possible move in 01 Jan 2027.\n\nRENT details below but it is:\n1. 14220 SEK/month..\n2. Then add Qasa service fee 703 SEK,\n3. internet 349 SEK \n4. and electricity use about 400 SEK (you pay actual use)\n5. Plus 15% of rent for fully furnished 2133 SEK. \n\nPossibly parking 1045 SEK, if you wish.\n\nHej, \n\nNOTERA: Endast dessa 4 månader,  januari 2027-april 2027\n\n3 RoK. Bygd ca 2018-2019, dvs modern stil och i mycket gott skick.\nFullt möblerad lgh. Två sovrum och ett vardagsrum med halvöppen planlösning mot kök. \n\nLgh högst upp i huset med underbar utsikt mot hamnen på ena sidan så och mot trevlig lugn innergård på balkongsida. Knäpptyst på vån 9! Stor hiss finns. Cykelrum.\n\nBadrum med dusch, toa, stort handfat/möbel, tvättmaskin, torktumlare.\n\nSovrum 1. Stor dubbelsäng, litet kontorshörn, garderober.\n\nSovrum 2. Stor enkelsäng (140 cm) och barnsäng, garderob, möbler.\n\nHall med entre, garderbob och förförvaringsmöbel.\n\nKök med kyl, frys, ugn, micro och all annan utrustning, gott om skåpsplats. Köksbord och stolar för 4. Barnstolar.\n\nVardagsrum med stor hörnsoffa, bord och TV på bänk.\n\nNOTERA: \nLgh uthyres i 4 månader VITT.  Dokument kan uppvisas men se foton på avi!\n\nKOSTNADER - per månad:\nSe ovan. \n\nDu har då en helt möblerad lägenhet. Du behöver inte köpa någon enda pryl. Bara flytta in. \n\nTILLÄGG EVENTUELLT: Parkering (garage i huset) 1045kr.\n\nDu måste själv betala: \nDu måste teckna hemförsäkring själv\n\nLägenheten hyrs ut i andra hand pga kortare utlandsvistelse. Därför går det i grunden INTE att använda HELA  förrådet. En del av förrådet frigörs vid behov. Vi prioriterar därför sökanden som inte behöver hela förrådet. Lägenheten kommer tömmas på privata ägodelar såsom kläder och saker, men anses fullt möblerad. Perfekt för ett par eller en liten barnfamilj med upp till två barn.\n\nFastighetsägaren kommer godkänna uthyrningen om allt är ”på ställ”.\n\nMaila för kontakt. \n\nVi ses!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 69.0,
+    "rent": 14220,
+    "floor": 9,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Linnéstaden , Göteborg",
+    "url": "https://qasa.com/p/1411914",
+    "image_url": null,
+    "description": "Uthyres endast under Gothia cup \nTre rum och kök uthyres under Gothia cup lördag till söndag 12-18 juli. Lägenheten ligger centralt med närhet till de mesta. Lägenheten har två sovrum med 180 säng och 140 säng sen finns de en soffa som man kan sova i, ca 6 sovplatser. Kök fullt utrustat med allt man behöver , badrum med badkar. Spårvagn som stannar precis utanför och Hemköp ligger precis intill. \nPromenad in till heden tar ca 10 min trevligt boende med närhet till allt.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kvadrantgatan, Göteborg",
     "url": "https://qasa.com/p/1411780",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9181490fd768a6a9e34d8a58a77f1bde65016cb68008c9c751e9fe3d0f20672.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 21A, Göteborg",
-    "url": "https://qasa.com/p/1411509",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/3a92135ee1e431a93b5a2ebaf595860b4345500dc098cbf89543cb380dc6c3c5.pdf",
-    "description": "Välkommen hem till Bergskristallen! \n\n \nHär ges möjlighet att få hyra en 2 Rum och Kök på 42 kvm, en helt nyproducerad bostad från våren 2023.    \n\nHyra: 7 483 kr/mån \n\nSpishäll med inbyggd ugn \n\nDiskmaskin \n\nInbyggd micro \n\nKombinerad tvättmaskin och torktumlare \n\nFörråd på vinden \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. Där kan du även se om lägenheten har balkong, fransk balkong, uteplats eller om den saknar utemöjlighet.    \n\nI hyran som marknadsförts har vi inkluderat en kostnad för, kall- och varmvatten och beräknat detta på en schablon. Hyran kommer därför att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Bergskristallen så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. Hisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 7483,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Drakenbergsgatan, Gteborg",
-    "url": "https://qasa.com/p/1411318",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46b4e89e3761faaaed3c5311054765d4559f7008445f2047de58de14f3fa545c.jpg",
-    "description": "Det är 4 st. hyresgäster/studenter som delar på kök och badrum på en ovanvåning i en villa.  Det finns nu två rum ledigt från den 1/8. Det tar 5 min. till spårvagnshållplatsen och det tar ca 20 min att promenera in till centrum. Rummen  passar några som skall studera i Gbg. Städning en gång i veckan ingår i priset.\nDet bor två trevliga killar här redan. Så jag hoppas på att hitta två trevliga killar till.\nMed vänlig hälsning, Pia",
-    "district": "Gteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-10T04:27:08+00:00", "clock": "04:27:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-10T07:59:35+00:00", "clock": "07:59:35"};
