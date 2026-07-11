@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stockholmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1406266",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dd3507cf52bd2a2de81f550677e400b3e9c430523a6ce3bbd3417198c3cc717.jpg",
+    "description": "Hyr ut min lägenhet i Bagaregården – ett av Göteborgs mest omtyckta områden!\n\nEn väldigt trevlig och social lägenhet med stort kök och otrolig innergård. De flesta som bor här är runt 30 årsåldern och alla hälsar på varandra vilket också bidrar till trygghet och trivsel.\n\nHär bor du i ett lugnt och trivsamt kvarter med närhet till både natur, restauranger, caféer och goda kommunikationer. Med spårvagn direkt utanför och vid Redbergsplatsen tar du dig enkelt till centrala Göteborg.\n\nInformation:\nTillträde: Från och med 11 Oktober.\nKostnader: Internet och vatten ingår, elkostnader tillkommer\nUthyres: Möblerad\nHyrestid: Tillsvidare, helst längre perioder. Kommer flytta till Stockholm så lär inte använda lägenheten på några år.\n\nHör gärna av dig vid intresse eller om du har några frågor!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östra Kopparkärrsvägen, Hovås",
+    "url": "https://qasa.com/p/1396747",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdff192157ffda2cf837475d5563b945e7c9805471b0c4a121f3b9491342a3a8.jpg",
+    "description": "Fin 1:a, helt separat lägenhet med egen ingång i villa i Sydvästra Göteborg nära Nya Hovås. Egen uteplats & parkering.  \nUthyres tillsvidare. \nUthyres till en person. Nybyggd 2017, fullt möblerad med bl. a. ställbar säng, golvvärme i hela lägenheten, full takhöjd, stora skjutdörrar ut till den egna altanen (kvällssol) som är under tak. Trinettkök med två kokplattor, kyl med frysfack och micro. Helkaklat badrum med dusch, tvättmaskin, handfat/lådor. Golvvärme i hela lägenheten.\nSEK 9000 månad inkl. ALLT.  (ingen serviceavgift tillkommer). Inklusive parkering, vatten/avlopp, sophämtning  & fiber/wi-fi,  kabel-tv/Com.  \nHuset beläget 25 meter från Sandsjöbacka naturreservat med mycket fin natur. Joggingspår runt flera sjöar. Ett par minuter med bil till Amundön och fantastiska havsbad, 10 minuter på cykel.\n5-7 min promenad till Nya Hovås/Ica samt busshållplats, Lyckhem-Brottkärr. Direktbuss till Linneplatsen/Järntorget (ca.20minuter) Sahlgrenska (17minuter), Chalmers (20min), Centralen (30min).\nNya Hovås - Liten \"småstad\" med den mesta servicen, välsorterad mataffär, fiskbil, bageri, restauranger, apotek, systembolag, vårdcentral, gym, affärer mm.  \n\nDu som hyr skall ha:\n-Fast inkomst\n-Inga betalningsanmärkningar\n-Djur och rökfri  \n- Hyran betalas i förskott.\n- 1 månads deposition krävs vid kontraktsskrivning, kontrakt skrivs ej via Blocket.  \n- Uppsägningstid 1 respektive 3 månader enligt lag.\n- Uthyres från 1/8. (ev. från 1/9)\n\nTacksam för endast seriösa svar där ovan önskemål stämmer. Maila kort om dig och kontaktuppgifter, från när du vill hyra och hur länge.\n\nVälkommen att titta på lägenheten!",
+    "district": "Hovås",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Virvelvindsgatan, Göteborg",
     "url": "https://qasa.com/p/1412640",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3edd6663f6131ca81ff9df380010b1e160e7546c6d94e44c88c58f57141e866e.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Hjällbogärdet, Angered",
-    "url": "https://qasa.com/p/1392529",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/274bb3dd2095862eea223356084296bd275dddf7f1fdaf5b411f9c387b8424e9.jpg",
-    "description": "Are you an international student in search of housing? We are now looking for a new tenant for our guesthouse. We have rented to international students in the past and it worked out well. That is why we are looking for a similar set up this time.\n\n \n\nThe furnished cottage has 26 square meters, which we rent to one person. It has a living room with a sleeping loft. In the living room there is a table with chairs, a couch, a wardrobe, and a large bookshelf with doors and drawers for storage.\n\n \n\nIn a separate room is a small kitchen/kitchenette with fridge, a small freezer, microwave, kitchen counter, hot plates, as well as a washing machine. In the bathroom is a massage shower and storage cabinets. On two sides of the cottage there is a porch.\n\n \n\nThe cottage suits somebody who likes to live in the countryside, but still close to the city. It’s next to a forest with the Lärje river and plenty of hiking trails. It takes 12 minutes by car, 25 minutes by public transportation (13 minutes’ walk plus 12 minutes by tram), or 30 minutes by bike to the Central Station.\n\n \n\nThe cottage is in the same yard as the main property which is why we are looking for a calm tenant who does not play loud music or have parties. A deposit will be required. Internet and electricity are not included in the rent. The moving in date can be discussed.\n\nElectricity costs are not included in the rent. Tenants are responsible for paying for electricity based on their actual consumption, as measured by a power meter.\n\nPS: If you just need a place to stay during the Gothia Cup, please contact us.\n ",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 26.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrverkaregatan, Göteborg",
-    "url": "https://qasa.com/p/1412363",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5115623affbbac134821637cf811ca2d0f36f58370330f247012ef433522e4fb.jpg",
-    "description": "Välkommen till Fyrverkaregatan. Lägenheten är en välplanerad 1:a på plan 1,5 med separat allrum och kök som kopplas samman med en hall och badrum.\n\nOmrådet är lungt och har ligger 3 minuter gångväg från Wavrinskys Plats med bra kollektiva förbindelser.\n\nI hyran ingår allt förutom elanvändning som brukar landa på ca 300kr/mån\n\nJag hyr ut min bostad då jag ska plugga utomlands en termin.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 11500,
-    "floor": 1,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T11:14:13+00:00", "clock": "11:14:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T12:08:09+00:00", "clock": "12:08:09"};
