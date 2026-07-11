@@ -10,7 +10,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 40.0,
-    "rent": 10000,
+    "rent": 10500,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -25,7 +25,7 @@ window.HQRTM_SAMPLE = [
     "district": "Hovås",
     "rooms": 1.0,
     "area_m2": 25.0,
-    "rent": 9000,
+    "rent": 8576,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T12:08:09+00:00", "clock": "12:08:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T13:52:19+00:00", "clock": "13:52:19"};
