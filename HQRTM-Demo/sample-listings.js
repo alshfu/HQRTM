@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Astrakangatan, Göteborg",
+    "url": "https://qasa.com/p/1412614",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9282fa224b6082e0a85caab951a684202a417c20437416d8bacd038944a0f568.webp",
+    "description": "—- In English below —-\n\nVi hyr ut vårt radhus om 4 rum och kök from 10 aug, eller enligt ök.\n\nRadhuset är renoverat för ett par år sedan, alla ytskikt inklusive badrum och kök. Hall, vardagsrum och kök ligger på bottenvåning, och badrum och övriga tre rum ligger på ovanvåning. Ett av rummen är mindre och kan användas som sovrum eller tex kontor. Vi hyr ut huset möblerat eller delvis möblerat.\n\nTill huset hör en liten trädgård på baksidan och en liten förträdgård på framsidan. Utöver hyra tillkommer kostnad för el, värme, vatten, sophämtning, internet till ca 2500 kr/mån. Deposition om en månadshyra. Källaren är en separat lägenhet med befintlig hyresgäst som har egen ingång från trädgårdssidan. Denna del ingår alltså inte i uthyrningen. \n\nHuset ligger i ett lugnt och trevligt område, precis intill Toleredstorget med bageri, närbutik m.m. Det är också nära till busshållplats toleredsgatan där buss 25 tar dig in till centrum på 15-20 minuter. \n\nDet är viktigt för oss att vi hittar rätt hyresgäst, så ligger annonsen kvar finns det fortfarande en chans att det är du :) beskriv gärna kort vem du är och varför detta hus passar dig. Vi kommer inte kunna svara på alla förfrågningar, utan svarar dem med seriös ansökan. \n\n———-\n\nWe are renting out our terraced house from 10 of August.\n\nOur house is newly renovated. It has entrance, kitchen and livingroom on ground floor and theee rooms plus bathroom with washing machine on upper floor. Two of the rooms are used as bed rooms, the smallest room can be used as another bedroom or office space. The basement  of the house is a separate apartment and is not included in this rental. \n\nThe house is situated in a quiet family oriented area close to nature areas such as Hisingsparken. Bus stop toleredsgatan is close and the bus 25 stop frequently and bring you into town in less than half an hour. \n\nBills such as heating, electricity, water, wifi are not included in the rent. It is about 2500 sek a month.\n\nPlease tell a bit av out you and why this house would suit you. We can only reply to serious applications.\n",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 70.0,
+    "rent": 15000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fänkålsgatan, Angered",
     "url": "https://qasa.com/p/1412476",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f97f18dd77611303f869cb2362b3c6bedab38e1aaeb20d8cc46bc0b0648a75df.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 16, Göteborg",
-    "url": "https://qasa.com/p/1412348",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cabf14d25411a7ee2e0b9ed0c2cea9812c2ab46ef0e2b979a8d7e0939102d85e.jpg",
-    "description": "OBS! Lägenheten hyrs endast ut genom bilder och som ett  Trygghetsboende och är reserverad för personer 70 år eller äldre* \n\nTrygghetsboenden är vanliga bostäder som anpassats för äldres behov och som erbjuder gemenskap på de boendes initiativ. Åtgärder för ökad tillgänglighet har utförts i lägenheten och i allmänna utrymmen, exempelvis spisvakt, stödhandtag i badrummet och automatiserad dörröppnare. Det finns även en samlingslokal med plats för måltider, samvaro, hobby och rekreation. \n\nOM LÄGENHETEN \nEn fin och välplanerad lägenhet på 1 rum och kokvrå. \n\nHYRAN \nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka! \n\nPARKERING \nFinns att söka på willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 45.0,
-    "rent": 5011,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T08:26:49+00:00", "clock": "08:26:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T10:00:19+00:00", "clock": "10:00:19"};
