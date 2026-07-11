@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kapellgatan, Göteborg",
+    "url": "https://qasa.com/p/1412804",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5fa00e103977fa34858c524712cb0390ee267d8b1c50136fc3ba7dd38cfd41e.jpg",
+    "description": "Hej,\nvi hyr ut ett ljust rymligt rum i charmerande lägenhet mitt i Göteborg, takvåning med utsikt över takåsarna i centrala Göteborg. (Bästa läget i stan) Kapellgatan (Vasastan) nära Chalmers ca:500m, Handelshögskolan, Sahlgrenska, Slottsskogen, Avenyn, mm mm. \nDet är ett lugnt område med tillgång till allt som mataffär, systembolag, gym, vårdcentral, apotek, restauranger och caféer precis utanför porten. \nRummet har tre garderober och är möblerat med 90cm säng, 2st stolar och ett litet bord, tv och en divan. El ingår.\nRummet lämpar sig bäst för studenter eller pendlare. Endast lugn och skötsam person. Rummet är bara för en person.\nJag förväntar att hyresgäst har arbete eller regelbundna studier.\n \nTillgång till kök, dusch (badkar), tvättmaskin (tvättstuga) och toalett. Balkonger finns i trappuppgång, hiss. \nInflyttning enligt överenskommelse.\n3 månaders uppsägningstid.\nVi som bor här är ett par som är lugna och skötsamma.\nKommunikationer\nMycket goda kommunikationer och nära till allt.\n\nHör av er om det verkar intressant. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hovås Allé , Hovås",
     "url": "https://qasa.com/p/1412785",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff7b18fe88f5b7492d9b672b74df85d7184506983db0f0e924149446962ea7e1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fänkålsgatan, Angered",
-    "url": "https://qasa.com/p/1412476",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f97f18dd77611303f869cb2362b3c6bedab38e1aaeb20d8cc46bc0b0648a75df.jpg",
-    "description": "Lägenhet i Lövgärdet/Angered  Göteborg. Från augusti nu till augusti 2027.\nLgh är i första våningen, har tre sovrum vardagsrum med balkong, kök, badrum med badkar, klädkammare. Tillgång till bra tvättstuga precis framför byggnaden. \nBusshållplats precis bakom byggnaden där buss 75 och 77 går tätt till Angered Centrum.\n• Från Angered Centrum går spårvagn 4, 8 och 9 direkt in till stan. Spårvagn 8 går direkt till Chalmers och Sahlgrenska universitetssjukhuset.\n• Direktbuss X77 går mellan Lövgärdet och Hjalmar Brantingsplatsen och fortsätter hela vägen till Volvo.\n• I Lövgärdets centrum finns Willys, vårdcentral, kaféer och pizzerior.\n• I Angered Centrum finns ett ännu större utbud med bl.a. ICA Maxi, Lidl, restauranger kaféer service, sjukhus, vårdcentraler mm ...\n Fint natur och sjöar med gångavstånd 6 minuters promenad. \nEftersom detta är mitt hem är det otroligt viktigt för mig att hitta en hyresgäst som är ärlig, renlig och som tar hand om lägenheten precis som om den vore deras egen. \nLägenheten passar perfekt för ett par, eller en skötsam mindre familj med max två barn, eller studenter som vill dela boende. \n• En månadshyra tas i deposition vid kontraktsskrivning.\nLåter det intressant? Skriv en kort rad och berätta om dig själv, din sysselsättning och vilka som ska bo i lägenheten, så hör jag av mig för visning!\nMed all respekt och vänliga hälsningar  🙏 ",
-    "district": "Angered",
-    "rooms": 4.0,
-    "area_m2": 82.0,
-    "rent": 9624,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T15:39:49+00:00", "clock": "15:39:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T16:35:18+00:00", "clock": "16:35:18"};
