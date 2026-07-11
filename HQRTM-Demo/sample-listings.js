@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fänkålsgatan, Angered",
+    "url": "https://qasa.com/p/1412476",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f97f18dd77611303f869cb2362b3c6bedab38e1aaeb20d8cc46bc0b0648a75df.jpg",
+    "description": "Lägenhet i Lövgärdet/Angered  Göteborg. Från augusti nu till augusti 2027.\nLgh är i första våningen, har tre sovrum vardagsrum med balkong, kök, badrum med badkar, klädkammare. Tillgång till bra tvättstuga precis framför byggnaden. \nBusshållplats precis bakom byggnaden där buss 75 och 77 går tätt till Angered Centrum.\n• Från Angered Centrum går spårvagn 4, 8 och 9 direkt in till stan. Spårvagn 8 går direkt till Chalmers och Sahlgrenska universitetssjukhuset.\n• Direktbuss X77 går mellan Lövgärdet och Hjalmar Brantingsplatsen och fortsätter hela vägen till Volvo.\n• I Lövgärdets centrum finns Willys, vårdcentral, kaféer och pizzerior.\n• I Angered Centrum finns ett ännu större utbud med bl.a. ICA Maxi, Lidl, restauranger kaféer service, sjukhus, vårdcentraler mm ...\n Fint natur och sjöar med gångavstånd 6 minuters promenad. \nEftersom detta är mitt hem är det otroligt viktigt för mig att hitta en hyresgäst som är ärlig, renlig och som tar hand om lägenheten precis som om den vore deras egen. \nLägenheten passar perfekt för ett par, eller en skötsam mindre familj med max två barn, eller studenter som vill dela boende. \n• En månadshyra tas i deposition vid kontraktsskrivning.\nLåter det intressant? Skriv en kort rad och berätta om dig själv, din sysselsättning och vilka som ska bo i lägenheten, så hör jag av mig för visning!\nMed all respekt och vänliga hälsningar  🙏 ",
+    "district": "Angered",
+    "rooms": 4.0,
+    "area_m2": 82.0,
+    "rent": 9624,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fänkålsgatan, Göteborg ",
+    "url": "https://qasa.com/p/1412455",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/33a02713d08ed153ef066ccb6019ec4019c036c04483cc8435bab2977cffbda1.jpg",
+    "description": "Jag hyr ut en lägenhet i Lövgärdet/Angered  Göteborg. Från augusti nu till augusti 2027.\nLgh är i första våningen, har tre sovrum vardagsrum med balkong, kök, badrum med badkar, klädkammare. Tillgång till bra tvättstuga precis framför byggnaden. \nBusshållplats precis bakom byggnaden där buss 75 och 77 går tätt till Angered Centrum.\n• Från Angered Centrum går spårvagn 4, 8 och 9 direkt in till stan. Spårvagn 8 går direkt till Chalmers och Sahlgrenska universitetssjukhuset.\n• Direktbuss X77 går mellan Lövgärdet och Hjalmar Brantingsplatsen och fortsätter hela vägen till Volvo.\n• I Lövgärdets centrum finns Willys, vårdcentral, kaféer och pizzerior.\n• I Angered Centrum finns ett ännu större utbud med bl.a. ICA Maxi, Lidl, restauranger kaféer service, sjukhus, vårdcentraler mm ...\n Fint natur och sjöar med gångavstånd 6 minuters promenad. \nEftersom detta är mitt hem är det otroligt viktigt för mig att hitta en hyresgäst som är ärlig, renlig och som tar hand om lägenheten precis som om den vore deras egen. \nLägenheten passar perfekt för ett par, eller en skötsam mindre familj med max två barn, eller studenter som vill dela boende. \n• En månadshyra tas i deposition vid kontraktsskrivning.\nLåter det intressant? Skriv en kort rad och berätta om dig själv, din sysselsättning och vilka som ska bo i lägenheten, så hör jag av mig för visning!\nMed all respekt och vänliga hälsningar  🙏 ",
+    "district": "Göteborg ",
+    "rooms": 4.5,
+    "area_m2": 82.0,
+    "rent": 9624,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Brunnehagen, Göteborg",
+    "url": "https://qasa.com/p/1412551",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/012050bd356f995e3c462fbab4c7562290c90758272221d1308e528270ae28cf.png",
+    "description": "Nu finns möjlighet att hyra ett välplanerat och trivsamt 2-plans radhus i Tuve, Göteborg. Radhuset hyrs ut omöblerat/delvis möblerat i perioder om 6 månader, med möjlighet till förlängning enligt överenskommelse.\n\nBostaden passar utmärkt för en familj eller andra som söker ett rymligt och bekvämt boende i ett lugnt och familjevänligt område.\n\nOm bostaden:\n\n* 118 kvm fördelat på två plan\n* 4 sovrum\n* Rymligt vardagsrum\n* Kök med gott om arbetsytor och förvaring\n* 2 nyrenoverade badrum\n* 2 uteplatser\n* Gratis parkering i området\n\nIngår i hyran:\n\n* Vatten\n* Internet\n\nIngår inte:\n\n* El (betalas av hyresgästen)\n\nRadhuset ligger i ett lugnt och trivsamt område i Tuve med närhet till skolor, förskolor, mataffärer, grönområden och goda kommunikationer till centrala Göteborg.\n\nHyra: 22 000 kr/månad.\n\nVi söker en skötsam och ansvarsfull hyresgäst. Referenser och kreditupplysning kan komma att efterfrågas. Rökfri hyresgäst är önskvärt. Deposition enligt överenskommelse.\n\nVid intresse är du välkommen att skicka ett meddelande och berätta lite om dig själv, vilka som kommer att bo i bostaden och önskat inflyttningsdatum.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 118.0,
+    "rent": 20500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nedre Hjällbogärdet, Angered",
     "url": "https://qasa.com/p/1392529",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/274bb3dd2095862eea223356084296bd275dddf7f1fdaf5b411f9c387b8424e9.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslottsgatan 10, Göteborg",
-    "url": "https://qasa.com/p/1412340",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b49a95878e95ed39f99d7bb67fee61e2718cf808007d525986755963c5093f4.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom bilder och planritningen i annonsen. *Ingen fysisk visning* \n\nOM LÄGENHETEN\nVälkommen till denna charmiga tvåa! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med tvättmaskin och torktumlare.\n\nÖVRIGT\nVärme och vatten ingår. El debiteras släpande på hyresavin via IMD. Bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka! \n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 12410,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Väderlekstorget 5A, Göteborg",
-    "url": "https://qasa.com/p/1412337",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b8290b9f6424dace0026abe22017e4133e45049967194672cc591aba79df3031.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna mysiga etta! En ljus, trevlig, lägenhet! Modernt kök med rostfria vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n \nVälkommen med er ansökan!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 6648,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 25, Göteborg",
-    "url": "https://qasa.com/p/1412334",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c1e53c0f523b068feb065e11d89e29027823aaf798eb7e84a651c6c560c6ac01.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 5rok! Modernt kök med rostfria vitvaror, gasspis och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum förberett för tvättmaskin. Gasspisen går ej att byta ut till elspis.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 79.0,
-    "rent": 11027,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T06:37:48+00:00", "clock": "06:37:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T08:26:49+00:00", "clock": "08:26:49"};
