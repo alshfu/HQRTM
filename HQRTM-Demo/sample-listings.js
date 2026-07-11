@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Pennygången, Göteborg",
+    "url": "https://qasa.com/p/1360564",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9b088731280b6b9cb81f9f1d9eca199efbba7e463693a9c1158571a4bfb8ef9f.jpg",
+    "description": "Hej, ett möblerat rum i nyrenoverad lägenhet som finns i ett lugnt och tyst hus uthyres.\nNära till buss, affär, ute- & innegym och naturområde.\nTillgång till kök, badrum och vardagsrum.  Internet, el, vatten och värme ingår. \nUthyres till lugn och trevlig person utan betalningsanmärkningar.\n\nVäl mött Anders & Theresa\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stockholmsgatan, Göteborg",
     "url": "https://qasa.com/p/1406266",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dd3507cf52bd2a2de81f550677e400b3e9c430523a6ce3bbd3417198c3cc717.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brunnehagen, Göteborg",
-    "url": "https://qasa.com/p/1412551",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/012050bd356f995e3c462fbab4c7562290c90758272221d1308e528270ae28cf.png",
-    "description": "Nu finns möjlighet att hyra ett välplanerat och trivsamt 2-plans radhus i Tuve, Göteborg. Radhuset hyrs ut omöblerat/delvis möblerat i perioder om 6 månader, med möjlighet till förlängning enligt överenskommelse.\n\nBostaden passar utmärkt för en familj eller andra som söker ett rymligt och bekvämt boende i ett lugnt och familjevänligt område.\n\nOm bostaden:\n\n* 118 kvm fördelat på två plan\n* 4 sovrum\n* Rymligt vardagsrum\n* Kök med gott om arbetsytor och förvaring\n* 2 nyrenoverade badrum\n* 2 uteplatser\n* Gratis parkering i området\n\nIngår i hyran:\n\n* Vatten\n* Internet\n\nIngår inte:\n\n* El (betalas av hyresgästen)\n\nRadhuset ligger i ett lugnt och trivsamt område i Tuve med närhet till skolor, förskolor, mataffärer, grönområden och goda kommunikationer till centrala Göteborg.\n\nHyra: 22 000 kr/månad.\n\nVi söker en skötsam och ansvarsfull hyresgäst. Referenser och kreditupplysning kan komma att efterfrågas. Rökfri hyresgäst är önskvärt. Deposition enligt överenskommelse.\n\nVid intresse är du välkommen att skicka ett meddelande och berätta lite om dig själv, vilka som kommer att bo i bostaden och önskat inflyttningsdatum.",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 118.0,
-    "rent": 20500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T13:52:19+00:00", "clock": "13:52:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T14:45:31+00:00", "clock": "14:45:31"};
