@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hovås Allé , Hovås",
+    "url": "https://qasa.com/p/1412785",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff7b18fe88f5b7492d9b672b74df85d7184506983db0f0e924149446962ea7e1.jpg",
+    "description": "I ett lugnt och attraktivt hörnläge i populära Nya Hovås väntar denna smakfullt planerade fyrarumslägenhet där ljus, rymd och funktion möts i perfekt balans. Här bor du med naturen som granne och havet på bekvämt avstånd, samtidigt som områdets charmiga kvartersliv med caféer, restauranger och småbutiker finns precis runt hörnet.\n\nBostaden om 89 välplanerade kvadratmeter präglas av ett generöst ljusinsläpp från flera väderstreck, vilket skapar en ljus och inbjudande atmosfär genom hela hemmet. Den öppna planlösningen mellan kök och vardagsrum ger en social och naturlig samlingspunkt där familj och vänner gärna möts – oavsett om det handlar om vardagsmiddagar eller festliga tillfällen.\n\nKöket är stilrent utformat i vinkel med goda arbetsytor, moderna vitvaror och gott om förvaring bakom släta, tidlösa luckor. Här finns alla förutsättningar för både matlagning och umgänge i en miljö där funktion och estetik samspelar.\n\nFrån vardagsrummet kliver du ut på den västvända balkongen – en självklar plats för avkoppling i eftermiddagssolen där du kan njuta av utsikten över den trivsamma omgivningen.\n\nSovrummen är samlade i en mer privat del av bostaden, vilket skapar en lugn och harmonisk atmosfär. Här finns tre rogivande rum som passar lika bra för barnfamiljen som för paret som önskar plats för hemmakontor eller gästrum. Den rymliga klädkammaren bidrar med generös förvaring och en välorganiserad vardag.\n\nBostaden erbjuder dessutom två stilfullt helkaklade badrum, varav det ena är utrustat med tvättmaskin, torktumlare och praktisk arbetsbänk – en uppskattad bekvämlighet i det dagliga livet.\n\nHär bor du i ett modernt hem med hög standard från 2022 där varje kvadratmeter är genomtänkt. Samtidigt väntar några av västkustens mest uppskattade natur- och badmiljöer i närheten, med Sandsjöbacka naturreservats vandringsleder och Amundöns salta bad bara en kort tur bort.",
+    "district": "Hovås",
+    "rooms": 4.0,
+    "area_m2": 89.0,
+    "rent": 20500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Pennygången, Göteborg",
     "url": "https://qasa.com/p/1360564",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9b088731280b6b9cb81f9f1d9eca199efbba7e463693a9c1158571a4bfb8ef9f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fänkålsgatan, Göteborg ",
-    "url": "https://qasa.com/p/1412455",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/33a02713d08ed153ef066ccb6019ec4019c036c04483cc8435bab2977cffbda1.jpg",
-    "description": "Jag hyr ut en lägenhet i Lövgärdet/Angered  Göteborg. Från augusti nu till augusti 2027.\nLgh är i första våningen, har tre sovrum vardagsrum med balkong, kök, badrum med badkar, klädkammare. Tillgång till bra tvättstuga precis framför byggnaden. \nBusshållplats precis bakom byggnaden där buss 75 och 77 går tätt till Angered Centrum.\n• Från Angered Centrum går spårvagn 4, 8 och 9 direkt in till stan. Spårvagn 8 går direkt till Chalmers och Sahlgrenska universitetssjukhuset.\n• Direktbuss X77 går mellan Lövgärdet och Hjalmar Brantingsplatsen och fortsätter hela vägen till Volvo.\n• I Lövgärdets centrum finns Willys, vårdcentral, kaféer och pizzerior.\n• I Angered Centrum finns ett ännu större utbud med bl.a. ICA Maxi, Lidl, restauranger kaféer service, sjukhus, vårdcentraler mm ...\n Fint natur och sjöar med gångavstånd 6 minuters promenad. \nEftersom detta är mitt hem är det otroligt viktigt för mig att hitta en hyresgäst som är ärlig, renlig och som tar hand om lägenheten precis som om den vore deras egen. \nLägenheten passar perfekt för ett par, eller en skötsam mindre familj med max två barn, eller studenter som vill dela boende. \n• En månadshyra tas i deposition vid kontraktsskrivning.\nLåter det intressant? Skriv en kort rad och berätta om dig själv, din sysselsättning och vilka som ska bo i lägenheten, så hör jag av mig för visning!\nMed all respekt och vänliga hälsningar  🙏 ",
-    "district": "Göteborg ",
-    "rooms": 4.5,
-    "area_m2": 82.0,
-    "rent": 9624,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T14:45:31+00:00", "clock": "14:45:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T15:39:49+00:00", "clock": "15:39:49"};
