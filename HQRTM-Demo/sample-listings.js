@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Vasagatan , Göteborg",
+    "url": "https://qasa.com/p/1412926",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aaefcfb4cce24b2f3d64864598f5598b841ace470c88507672590c77da54355c.jpg",
+    "description": "Stor fin  lgh med bästa läge i Vasastan , rummet vi hyr ut är ca 12 m2 övriga ytor som kan användas ca 50 m2 med delat kök och bad med annan \nInternet ingår el och vatten \nÖvrigt stor våning med högt i tak i hus byggt 1874 \nGång avstånd till universitetet, nära affärer mm med bästa kommunikationer \n\nVi hyr ut till studerande tjejj då vi vill bidra med ett fint rum som vi gjort i många år till behövande student \n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stockholmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1406266",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dd3507cf52bd2a2de81f550677e400b3e9c430523a6ce3bbd3417198c3cc717.jpg",
-    "description": "Hyr ut min lägenhet i Bagaregården – ett av Göteborgs mest omtyckta områden!\n\nEn väldigt trevlig och social lägenhet med stort kök och otrolig innergård. De flesta som bor här är runt 30 årsåldern och alla hälsar på varandra vilket också bidrar till trygghet och trivsel.\n\nHär bor du i ett lugnt och trivsamt kvarter med närhet till både natur, restauranger, caféer och goda kommunikationer. Med spårvagn direkt utanför och vid Redbergsplatsen tar du dig enkelt till centrala Göteborg.\n\nInformation:\nTillträde: Från och med 11 Oktober.\nKostnader: Internet och vatten ingår, elkostnader tillkommer\nUthyres: Möblerad\nHyrestid: Tillsvidare, helst längre perioder. Kommer flytta till Stockholm så lär inte använda lägenheten på några år.\n\nHör gärna av dig vid intresse eller om du har några frågor!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T20:34:37+00:00", "clock": "20:34:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T21:29:27+00:00", "clock": "21:29:27"};
