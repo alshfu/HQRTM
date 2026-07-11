@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Virvelvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1412640",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3edd6663f6131ca81ff9df380010b1e160e7546c6d94e44c88c58f57141e866e.jpg",
+    "description": "Hyr ut min bostadsrätt på Vågmästareplatsen.\n\nLägenheten ligger på vån 8 (hiss finns) är 36 kvm med sovalkov, inglasad balkong, 6 min till centrum med spårvagn. 200 m till spårvagnshållplats/buss. Stenkast till matbutiker, gym och restauranger. Lägenheten är delvis möblerad och har komplett köksutrustning. \n\nDet jag söker är rök-och djurfria,\nordningsamma hyresgäst/er\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 10000,
+    "floor": 8,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Astrakangatan, Göteborg",
     "url": "https://qasa.com/p/1412614",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9282fa224b6082e0a85caab951a684202a417c20437416d8bacd038944a0f568.webp",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörgatan, Göteborg",
-    "url": "https://qasa.com/p/1412322",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46598eabd022ae4cfc0e08db97c788f6faacf6ae80285e7e8b95d19f261931de.jpg",
-    "description": "Trivsamt rum i Kallebäck\n\nJag hyr ut ett rymligt och mycket fräscht sovrum med gott om förvaringsmöjligheter till ordningsam och lugn person som älskar katter :) (jag har två).\n\nEgen ingång till köket\nBadrum med dusch/badkar\n\nMycket trivsamt område, nära till stan (15 min. med buss) och nära till naturen (Delsjöområdet endast 5 minuter bort)\n\nHär finns matbutiker och flera olika restauranger samt ett trivsamt kafé\n\nJag som hyr ut är alltid trevlig, lugn och lättpratad :) \n\nIntresserad? Ange för och efternamn, skriv lite om dig själv, visa profilbild så hörs vi!\n\nVH\nJenni ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T10:00:19+00:00", "clock": "10:00:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T11:14:13+00:00", "clock": "11:14:13"};
