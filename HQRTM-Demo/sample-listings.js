@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Solarvsplan, Askim",
+    "url": "https://qasa.com/p/1412816",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b598a3c56c080cbcb28318c388654e8e28790a4e8a7eb7e3fc3f1d2ce9a87e1d.jpg",
+    "description": "Nu finns möjlighet att hyra en ljus och välplanerad lägenhet i ett lugnt och trivsamt område. Lägenheten har ett separat kök, en avskild sovalkov och en rymlig klädkammare som bidrar till en praktisk planlösning. Den generösa egna uteplatsen med hög häck ger ett insynsskyddat och privat läge. Till lägenheten hör även ett eget förråd, och det finns tillgång till tvättstuga med gott om tvättider.\n\nOmrådet erbjuder närhet till både natur och hav samt goda kommunikationer med kollektivtrafik. Med buss tar du dig till Linnéplatsen på cirka 15 minuter.\n\nUtemöbler och vissa övriga möbler kan lämnas kvar om så önskas.\n\nHyran inkluderar el, värme, vatten, internet/bredband samt övriga normala driftskostnader.\n\nLägenheten hyrs ut från september. Kontraktet förlängs löpande under förutsättning att allt fungerar bra för båda parter. \n\nVid intresse är ni varmt välkomna att höra av er och berätta lite om er själva.",
+    "district": "Askim",
+    "rooms": 1.5,
+    "area_m2": 42.0,
+    "rent": 11327,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kapellgatan, Göteborg",
     "url": "https://qasa.com/p/1412804",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5fa00e103977fa34858c524712cb0390ee267d8b1c50136fc3ba7dd38cfd41e.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Kopparkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/1396747",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdff192157ffda2cf837475d5563b945e7c9805471b0c4a121f3b9491342a3a8.jpg",
-    "description": "Fin 1:a, helt separat lägenhet med egen ingång i villa i Sydvästra Göteborg nära Nya Hovås. Egen uteplats & parkering.  \nUthyres tillsvidare. \nUthyres till en person. Nybyggd 2017, fullt möblerad med bl. a. ställbar säng, golvvärme i hela lägenheten, full takhöjd, stora skjutdörrar ut till den egna altanen (kvällssol) som är under tak. Trinettkök med två kokplattor, kyl med frysfack och micro. Helkaklat badrum med dusch, tvättmaskin, handfat/lådor. Golvvärme i hela lägenheten.\nSEK 9000 månad inkl. ALLT.  (ingen serviceavgift tillkommer). Inklusive parkering, vatten/avlopp, sophämtning  & fiber/wi-fi,  kabel-tv/Com.  \nHuset beläget 25 meter från Sandsjöbacka naturreservat med mycket fin natur. Joggingspår runt flera sjöar. Ett par minuter med bil till Amundön och fantastiska havsbad, 10 minuter på cykel.\n5-7 min promenad till Nya Hovås/Ica samt busshållplats, Lyckhem-Brottkärr. Direktbuss till Linneplatsen/Järntorget (ca.20minuter) Sahlgrenska (17minuter), Chalmers (20min), Centralen (30min).\nNya Hovås - Liten \"småstad\" med den mesta servicen, välsorterad mataffär, fiskbil, bageri, restauranger, apotek, systembolag, vårdcentral, gym, affärer mm.  \n\nDu som hyr skall ha:\n-Fast inkomst\n-Inga betalningsanmärkningar\n-Djur och rökfri  \n- Hyran betalas i förskott.\n- 1 månads deposition krävs vid kontraktsskrivning, kontrakt skrivs ej via Blocket.  \n- Uppsägningstid 1 respektive 3 månader enligt lag.\n- Uthyres från 1/8. (ev. från 1/9)\n\nTacksam för endast seriösa svar där ovan önskemål stämmer. Maila kort om dig och kontaktuppgifter, från när du vill hyra och hur länge.\n\nVälkommen att titta på lägenheten!",
-    "district": "Hovås",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 8576,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Virvelvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1412640",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3edd6663f6131ca81ff9df380010b1e160e7546c6d94e44c88c58f57141e866e.jpg",
-    "description": "Hyr ut min bostadsrätt på Vågmästareplatsen.\n\nLägenheten ligger på vån 8 (hiss finns) är 36 kvm med sovalkov, inglasad balkong, 6 min till centrum med spårvagn. 200 m till spårvagnshållplats/buss. Stenkast till matbutiker, gym och restauranger. Lägenheten är delvis möblerad och har komplett köksutrustning. \n\nDet jag söker är rök-och djurfria,\nordningsamma hyresgäst/er\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 36.0,
-    "rent": 10000,
-    "floor": 8,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Astrakangatan, Göteborg",
-    "url": "https://qasa.com/p/1412614",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9282fa224b6082e0a85caab951a684202a417c20437416d8bacd038944a0f568.webp",
-    "description": "—- In English below —-\n\nVi hyr ut vårt radhus om 4 rum och kök from 10 aug, eller enligt ök.\n\nRadhuset är renoverat för ett par år sedan, alla ytskikt inklusive badrum och kök. Hall, vardagsrum och kök ligger på bottenvåning, och badrum och övriga tre rum ligger på ovanvåning. Ett av rummen är mindre och kan användas som sovrum eller tex kontor. Vi hyr ut huset möblerat eller delvis möblerat.\n\nTill huset hör en liten trädgård på baksidan och en liten förträdgård på framsidan. Utöver hyra tillkommer kostnad för el, värme, vatten, sophämtning, internet till ca 2500 kr/mån. Deposition om en månadshyra. Källaren är en separat lägenhet med befintlig hyresgäst som har egen ingång från trädgårdssidan. Denna del ingår alltså inte i uthyrningen. \n\nHuset ligger i ett lugnt och trevligt område, precis intill Toleredstorget med bageri, närbutik m.m. Det är också nära till busshållplats toleredsgatan där buss 25 tar dig in till centrum på 15-20 minuter. \n\nDet är viktigt för oss att vi hittar rätt hyresgäst, så ligger annonsen kvar finns det fortfarande en chans att det är du :) beskriv gärna kort vem du är och varför detta hus passar dig. Vi kommer inte kunna svara på alla förfrågningar, utan svarar dem med seriös ansökan. \n\n———-\n\nWe are renting out our terraced house from 10 of August.\n\nOur house is newly renovated. It has entrance, kitchen and livingroom on ground floor and theee rooms plus bathroom with washing machine on upper floor. Two of the rooms are used as bed rooms, the smallest room can be used as another bedroom or office space. The basement  of the house is a separate apartment and is not included in this rental. \n\nThe house is situated in a quiet family oriented area close to nature areas such as Hisingsparken. Bus stop toleredsgatan is close and the bus 25 stop frequently and bring you into town in less than half an hour. \n\nBills such as heating, electricity, water, wifi are not included in the rent. It is about 2500 sek a month.\n\nPlease tell a bit av out you and why this house would suit you. We can only reply to serious applications.\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 70.0,
-    "rent": 15000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T16:35:18+00:00", "clock": "16:35:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T17:38:17+00:00", "clock": "17:38:17"};
