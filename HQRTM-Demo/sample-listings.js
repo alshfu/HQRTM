@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Hjällbogärdet, Angered",
+    "url": "https://qasa.com/p/1392529",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/274bb3dd2095862eea223356084296bd275dddf7f1fdaf5b411f9c387b8424e9.jpg",
+    "description": "Are you an international student in search of housing? We are now looking for a new tenant for our guesthouse. We have rented to international students in the past and it worked out well. That is why we are looking for a similar set up this time.\n\n \n\nThe furnished cottage has 26 square meters, which we rent to one person. It has a living room with a sleeping loft. In the living room there is a table with chairs, a couch, a wardrobe, and a large bookshelf with doors and drawers for storage.\n\n \n\nIn a separate room is a small kitchen/kitchenette with fridge, a small freezer, microwave, kitchen counter, hot plates, as well as a washing machine. In the bathroom is a massage shower and storage cabinets. On two sides of the cottage there is a porch.\n\n \n\nThe cottage suits somebody who likes to live in the countryside, but still close to the city. It’s next to a forest with the Lärje river and plenty of hiking trails. It takes 12 minutes by car, 25 minutes by public transportation (13 minutes’ walk plus 12 minutes by tram), or 30 minutes by bike to the Central Station.\n\n \n\nThe cottage is in the same yard as the main property which is why we are looking for a calm tenant who does not play loud music or have parties. A deposit will be required. Internet and electricity are not included in the rent. The moving in date can be discussed.\n\nElectricity costs are not included in the rent. Tenants are responsible for paying for electricity based on their actual consumption, as measured by a power meter.\n\nPS: If you just need a place to stay during the Gothia Cup, please contact us.\n ",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 26.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fyrverkaregatan, Göteborg",
     "url": "https://qasa.com/p/1412363",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5115623affbbac134821637cf811ca2d0f36f58370330f247012ef433522e4fb.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Krokslätt, Mölndal",
-    "url": "https://qasa.com/p/1412108",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4aa187321c644324a722dd99672cba792b27ddb91a5ea6629081162f1f733cc9.jpg",
-    "description": "En mysig lägenhet i vackra Krokslätt med närhet till skog och buss! \nEtt stort rum med kök samt ett sovrum och badrum med tvättmaskin!\nVi söker främst en person alt ett skötsamt par. Vi hyr främst ut 6 månader men eventuellt förlängning! Lägenheten kan ev. möbleras mot en kostnad. \nDu delar uteplats och liten trädgård!\nVärme, el, vatten, avlopp och internet ingår. \nSkriv och berätta om dig själv så tar vi kontakt.\n",
-    "district": "Mölndal",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T04:28:02+00:00", "clock": "04:28:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-11T06:37:48+00:00", "clock": "06:37:48"};
