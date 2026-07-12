@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kompassgatan, Göteborg",
+    "url": "https://qasa.com/p/1413163",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/745ac8880d6853726f0379847c750866348c148cdf71264137dc5c40712a15db.jpg",
+    "description": "Hyr ut min lägenhet tillsvidare pga jobb på annan ort. \nFlexibelt inflyttningsdatum:  aug/sept 2026. Anpassas med nuvarande hyresgäst som flyttar ut.\n\nLägenheten: Det är en ljus genomgångslägenhet med två rum och social planlösning med solig balkong, diskmaskin, tvättmaskin, torktumlare (finns även tvättstuga) mm. Matplats för många gäster i vardagsrummet och ett nyrenoverat kök med köksö. Badrummet har vitkalkade väggar och bra förvaring.  Finns lampa och nattduksbord på båda sidor om sängen. \n\nOmrådet: Ligger i Gamla Masthugget, ett supermysigt område granne med Slottskogen, Linné och Majorna. Trivs otroligt bra! Finns ett bageri, pizzeria och en mindre mataffär några minuter bort. Mycket parkeringar på gatorna och även en besöksparkering vid huset (gratis, tillhör föreningen). \n\nKommunikationer: Buss precis utanför (som går till Järntorget, Stenpiren, Domkyrkan, Vasa, Chalmers osv) samt 10-15min promenad till Järntorget och Linnéplatsen där många vagnar & bussar går. Många av Göteborgs universitets campus ligger inom promenadavstånd. \n\nHyran ligger på 15 000kr/mån - ingår vatten, värme och bredband. Tillkommande: el och gas. \nVarmt välkomna att höra av er för mer info/bilder!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 44.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lorensbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1411747",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6f238793cde38505e6de7bedee407e8a7d00034ed245ecc99d3bd771c4ce446d.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kapellgatan, Göteborg",
-    "url": "https://qasa.com/p/1412804",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5fa00e103977fa34858c524712cb0390ee267d8b1c50136fc3ba7dd38cfd41e.jpg",
-    "description": "Hej,\nvi hyr ut ett ljust rymligt rum i charmerande lägenhet mitt i Göteborg, takvåning med utsikt över takåsarna i centrala Göteborg. (Bästa läget i stan) Kapellgatan (Vasastan) nära Chalmers ca:500m, Handelshögskolan, Sahlgrenska, Slottsskogen, Avenyn, mm mm. \nDet är ett lugnt område med tillgång till allt som mataffär, systembolag, gym, vårdcentral, apotek, restauranger och caféer precis utanför porten. \nRummet har tre garderober och är möblerat med 90cm säng, 2st stolar och ett litet bord, tv och en divan. El ingår.\nRummet lämpar sig bäst för studenter eller pendlare. Endast lugn och skötsam person. Rummet är bara för en person.\nJag förväntar att hyresgäst har arbete eller regelbundna studier.\n \nTillgång till kök, dusch (badkar), tvättmaskin (tvättstuga) och toalett. Balkonger finns i trappuppgång, hiss. \nInflyttning enligt överenskommelse.\n3 månaders uppsägningstid.\nVi som bor här är ett par som är lugna och skötsamma.\nKommunikationer\nMycket goda kommunikationer och nära till allt.\n\nHör av er om det verkar intressant. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T11:48:05+00:00", "clock": "11:48:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T12:43:20+00:00", "clock": "12:43:20"};
