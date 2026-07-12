@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Grusbrantsvägen, Gunnilse",
+    "url": "https://qasa.com/p/1413434",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a84fb3f4c2b837b80e68d8b62e6e9b2c97b018d3186aa74e1fbbf7e19b0c9352.jpg",
+    "description": "Drömmer du om ett eget litet hus? Här har du chansen! 15 minuter med bil, 20 minuter med buss in till Göteborg, \n\nLjust och fräscht boende på 30 kvm. Välplanerad och genomtänkt planlösning där allt finns. Byggnaden är fristående med två egna soliga altaner.  Utemöbler ingår. Parkering finns tillgänglig. \n\nGunnilse är ett lugnt villaområde nära skog, natur och härliga badsjöar. I området finns Lärjeåns dalgång som erbjuder vackra promenadvägar. \n\nBra kommunikationer in till Göteborgs centrum (20 minuter till Göteborgs centrum, buss X 3, hållplats Angereds kyrka).\nDet tar ca. 5 minuter att gå från bostaden till busshållplatsen och ICA Gunnilse. \n\nNy soffa och byrå beställd. Finns på inflyttningsdatum.\n\n\n\n\n",
+    "district": "Gunnilse",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Mandolingatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1413424",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b93a3e8912b747200ff4685e34b3f243cd76d5f46305182c693f63f9c52fef19.png",
+    "description": "Hej!\n\nJag hyr ut min fina och välplanerade lägenhet på Mandolingatan 3 då jag ska flytta. Lägenheten är 47 m² och ligger på våning 10, vilket ger ett härligt ljusinsläpp och en fantastisk utsikt.\n\nLäget är mycket bra med närhet till Frölunda Torg, Slottskogen och goda kollektivtrafikförbindelser som gör det enkelt att ta sig runt i Göteborg.\n\nI hyran ingår allt utom el, inklusive parkering. Några av möblerna kan lämnas kvar om så önskas, efter överenskommelse.\n\nInflyttning är flexibel, och vi skriver ett 1-årskontrakt med god möjlighet till förlängning om båda parter är nöjda.\n\nJag söker en skötsam hyresgäst med ordnad ekonomi som kommer att ta väl hand om lägenheten.\n\nVid intresse är du varmt välkommen att höra av dig och berätta lite om dig själv.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 10850,
+    "floor": 10,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rördalsvägen, Bohus",
     "url": "https://qasa.com/p/1413314",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83aecd824f93f0099dacb6e2c05a6a8b1433ff92268f017c7d36069bf672297a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kapellgången, Göteborg",
-    "url": "https://qasa.com/p/1413124",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5db8bd65ced9d7e9ca7f7edf91a46ca074cff70c6af8ea3532bb2ec3b6f35179.jpg",
-    "description": "Möblerat rum uthyres centralt – nära Chalmers/GU\n\nMöblerat rum uthyres i central lägenhet. Endast 3 minuters promenad till Chalmers och nära Göteborgs universitet. Spårvagn precis i närheten.\n\nTillgång till kök, badrum, vardagsrum och stor balkong.\n\nSöker skötsam student eller pendlare.\n\nTillsvidare med 1 månads uppsägningstid\n\n\n\nFurnished room for rent – central Gothenburg\n\nFurnished room in a central apartment. Only 3 minutes’ walk to Chalmers and close to the University of Gothenburg. Tram nearby.\n\nAccess to kitchen, bathroom, living room and large balcony.\n\nLooking for a responsible student or commuter.\n\nLong-term rental with 1 month’s notice\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kompassgatan, Göteborg",
-    "url": "https://qasa.com/p/1413163",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/745ac8880d6853726f0379847c750866348c148cdf71264137dc5c40712a15db.jpg",
-    "description": "Hyr ut min lägenhet tillsvidare pga jobb på annan ort. \nFlexibelt inflyttningsdatum:  aug/sept 2026. Anpassas med nuvarande hyresgäst som flyttar ut.\n\nLägenheten: Det är en ljus genomgångslägenhet med två rum och social planlösning med solig balkong, diskmaskin, tvättmaskin, torktumlare (finns även tvättstuga) mm. Matplats för många gäster i vardagsrummet och ett nyrenoverat kök med köksö. Badrummet har vitkalkade väggar och bra förvaring.  Finns lampa och nattduksbord på båda sidor om sängen. \n\nOmrådet: Ligger i Gamla Masthugget, ett supermysigt område granne med Slottskogen, Linné och Majorna. Trivs otroligt bra! Finns ett bageri, pizzeria och en mindre mataffär några minuter bort. Mycket parkeringar på gatorna och även en besöksparkering vid huset (gratis, tillhör föreningen). \n\nKommunikationer: Buss precis utanför (som går till Järntorget, Stenpiren, Domkyrkan, Vasa, Chalmers osv) samt 10-15min promenad till Järntorget och Linnéplatsen där många vagnar & bussar går. Många av Göteborgs universitets campus ligger inom promenadavstånd. \n\nHyran ligger på 15 000kr/mån - ingår vatten, värme och bredband. Tillkommande: el och gas. \nVarmt välkomna att höra av er för mer info/bilder!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 44.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T19:47:13+00:00", "clock": "19:47:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T20:31:44+00:00", "clock": "20:31:44"};
