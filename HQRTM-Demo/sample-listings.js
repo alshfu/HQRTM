@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skillingmyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1413467",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b800be68e16edf6529b421e306967aecec26fa939ab2bc427119b21828b36efc.jpg",
+    "description": "Ljus och trivsam 2:a med balkong \n\nVälkommen till denna välplanerade 53 kvm lägenhet på Skillingmyntsgatan 6. Lägenheten är genomgående ljus med stora fönster och har en riktigt trevlig balkong där det är skönt att sitta och njuta av solen och innergården.\n\nDetta ingår för en bekväm vardag:\n•  Tvättmaskin och diskmaskin i lägenheten\n•  WiFi, el och vatten ingår i hyran\n•  Modernt kök och fräscht badrum\n•  Parkeringshus i byggnaden (Man får hyra parkeringsplats) \n\nLäget är oslagbart! Lägenheten ligger centralt men ändå lugnt, med bara några minuters promenad till Slottskogen. Här har du natur, motionsspår och grönska precis utanför dörren. Till Göteborgs centrum tar det ca 10–15 minuter antingen med cykel, spårvagn eller buss. Perfekt för dig som vill ha både citypuls och natur.\n\nGemensamma faciliteter: I området finns en fin gemensam lounge för avkoppling samt en takterrass med härlig utsikt – perfekt för grillkvällar eller bara för att njuta av utsikten.\nLägenheten passar utmärkt för ett par eller en ensamstående student som vill ha ett bekvämt och praktiskt boende på ett centralt men lugnt område.\nIntresserad? Skicka ett meddelande med lite information om er.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 13200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Grusbrantsvägen, Gunnilse",
     "url": "https://qasa.com/p/1413434",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a84fb3f4c2b837b80e68d8b62e6e9b2c97b018d3186aa74e1fbbf7e19b0c9352.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Silleskärsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1400543",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/186a779a7ac10343e67768ea6ad81b7375430a4e2f0033abd79598ce83862e78.jpg",
-    "description": "Renoverat stort trevligt radhus 10 min promenad från havet i vackra Önnered. Huset ligger i ett bilfritt bostadsområde nära förskolor och skolor, perfekt för barnfamiljen. Bra kommunikationer till centrala Göteborg, med buss (35 min), bil (10 min) och cykel (30 min). \n\nHuset har en härlig altan och trädgård i syd/västligt läge med grill, utemöbler och studsmatta. Tre sovrum, toalett och dusch, garderob och ett allrum på övervåningen. Nedervåningen har ett stort kök, tvättstuga, sovrum/kontor och vardagsrum med matsalsdel med öppen spis. Garage med laddbox finns vid områdets parkering.\n\nVi hyr ut huset under tre år för en utlandsvistelse.  I hyran ingår alla kostnader förutom el. ",
-    "district": "Västra Frölunda",
-    "rooms": 7.0,
-    "area_m2": 165.0,
-    "rent": 22653,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T22:26:17+00:00", "clock": "22:26:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T23:27:29+00:00", "clock": "23:27:29"};
