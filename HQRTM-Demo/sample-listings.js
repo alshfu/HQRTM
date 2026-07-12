@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kallebäcks Torggata, Göteborg",
+    "url": "https://qasa.com/p/1406115",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8fe77f90a443633f20c55e5ccc05001df85bf1af181a537595d514a32a7de134.jpg",
+    "description": "Nybyggd 1:a i området Kallebäcks Terrasser. Nära till restaurang, gym, natur och matbutik. Cirka 15 minuter med kollektivtrafik till centrala Göteborg.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 9141,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Silleskärsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1400543",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/186a779a7ac10343e67768ea6ad81b7375430a4e2f0033abd79598ce83862e78.jpg",
+    "description": "Renoverat stort trevligt radhus 10 min promenad från havet i vackra Önnered. Huset ligger i ett bilfritt bostadsområde nära förskolor och skolor, perfekt för barnfamiljen. Bra kommunikationer till centrala Göteborg, med buss (35 min), bil (10 min) och cykel (30 min). \n\nHuset har en härlig altan och trädgård i syd/västligt läge med grill, utemöbler och studsmatta. Tre sovrum, toalett och dusch, garderob och ett allrum på övervåningen. Nedervåningen har ett stort kök, tvättstuga, sovrum/kontor och vardagsrum med matsalsdel med öppen spis. Garage med laddbox finns vid områdets parkering.\n\nVi hyr ut huset under tre år för en utlandsvistelse.  I hyran ingår alla kostnader förutom el. ",
+    "district": "Västra Frölunda",
+    "rooms": 7.0,
+    "area_m2": 165.0,
+    "rent": 22653,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kapellgången, Göteborg",
+    "url": "https://qasa.com/p/1413124",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5db8bd65ced9d7e9ca7f7edf91a46ca074cff70c6af8ea3532bb2ec3b6f35179.jpg",
+    "description": "Möblerat rum uthyres centralt – nära Chalmers/GU\n\nMöblerat rum uthyres i central lägenhet. Endast 3 minuters promenad till Chalmers och nära Göteborgs universitet. Spårvagn precis i närheten.\n\nTillgång till kök, badrum, vardagsrum och stor balkong.\n\nSöker skötsam student eller pendlare.\n\nTillsvidare med 1 månads uppsägningstid\n\n\n\nFurnished room for rent – central Gothenburg\n\nFurnished room in a central apartment. Only 3 minutes’ walk to Chalmers and close to the University of Gothenburg. Tram nearby.\n\nAccess to kitchen, bathroom, living room and large balcony.\n\nLooking for a responsible student or commuter.\n\nLong-term rental with 1 month’s notice\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kompassgatan, Göteborg",
     "url": "https://qasa.com/p/1413163",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/745ac8880d6853726f0379847c750866348c148cdf71264137dc5c40712a15db.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solarvsplan, Askim",
-    "url": "https://qasa.com/p/1412816",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b598a3c56c080cbcb28318c388654e8e28790a4e8a7eb7e3fc3f1d2ce9a87e1d.jpg",
-    "description": "Nu finns möjlighet att hyra en ljus och välplanerad lägenhet i ett lugnt och trivsamt område. Lägenheten har ett separat kök, en avskild sovalkov och en rymlig klädkammare som bidrar till en praktisk planlösning. Den generösa egna uteplatsen med hög häck ger ett insynsskyddat och privat läge. Till lägenheten hör även ett eget förråd, och det finns tillgång till tvättstuga med gott om tvättider.\n\nOmrådet erbjuder närhet till både natur och hav samt goda kommunikationer med kollektivtrafik. Med buss tar du dig till Linnéplatsen på cirka 15 minuter.\n\nUtemöbler och vissa övriga möbler kan lämnas kvar om så önskas.\n\nHyran inkluderar el, värme, vatten, internet/bredband samt övriga normala driftskostnader.\n\nLägenheten hyrs ut från september. Kontraktet förlängs löpande under förutsättning att allt fungerar bra för båda parter. \n\nVid intresse är ni varmt välkomna att höra av er och berätta lite om er själva.",
-    "district": "Askim",
-    "rooms": 1.5,
-    "area_m2": 42.0,
-    "rent": 11327,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T12:43:20+00:00", "clock": "12:43:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T14:17:19+00:00", "clock": "14:17:19"};
