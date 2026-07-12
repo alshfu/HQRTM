@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rördalsvägen, Bohus",
+    "url": "https://qasa.com/p/1413314",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83aecd824f93f0099dacb6e2c05a6a8b1433ff92268f017c7d36069bf672297a.jpg",
+    "description": "Sommarstuga uthyres – 27 kvm | El & vatten ingår | Långtidsuthyrning möjlig\n\nNu finns möjlighet att hyra en mysig och välskött sommarstuga om 27 kvm i ett lugnt och naturnära område. Stugan passar utmärkt för en eller två personer och hyrs gärna ut under en längre period.\n\nStugan erbjuder:\n27 kvm boyta\nFullt utrustat kök\nVardagsrum och sovrum\nBadrum med dusch och WC\nEgen uteplats\nStor parkeringsyta med plats för flera bilar\nLugnt och trevligt läge nära naturen\n\nIngår i hyran:\nEl, Vatten och värme\n\nÖvrigt:\n\nLångtidsuthyrning är möjlig och prioriteras.\nHusdjur är tillåtna efter överenskommelse.\nInflyttning enligt överenskommelse.\n\nVid intresse, skicka gärna ett meddelande och berätta lite om dig själv, hur många ni är som ska bo i stugan, vad ni arbetar eller studerar med samt önskat inflyttningsdatum och hur länge ni önskar hyra.\n\nVälkommen att höra av dig för mer information eller för att boka en visning!",
+    "district": "Bohus",
+    "rooms": 2.0,
+    "area_m2": 27.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Smyckegatan , Västra Frölunda",
+    "url": "https://qasa.com/p/1413321",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fd56d0cab1af2b26ad9c276a5301c8d9448588ccc57c99b285f98425b3df32b9.jpg",
+    "description": "Jag hyr ut ett möblerat rum i min lägenhet i Västra Göteborg där vi delar kök och badrum. Huset ligger i ett grönt område nära mataffär och med 10 min cykelavstånd till havet. \nBuss till centralstationen tar ca 15 min.\n\nHyra 4 500 kr. El och wifi ingår.\nRök och djurfritt.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 13.0,
+    "rent": 4300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Smörgatan, Göteborg",
+    "url": "https://qasa.com/p/1413316",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f994ab99b6a40e9baa0244ca9b7df45197453742aa56ebb90eba3ce212dbca4a.jpg",
+    "description": "Hej!\n\nJag hyr ut ett möblerat rum i min trevliga trea på 70 kvm högt upp i huset och letar efter en go och glad inneboende. Lägenheten är belägen i ett lugnt område med närhet till kommunikationer och grönområden.\n\nLägenheten:\n- Rummet är möblerat med bäddsoffa (120 bädd), skrivbord och garderob.\n- Tillgång till gemensamt kök, vardagsrum,  badrum & balkong\n- Trådlöst internet och tvättmöjligheter finns.\n- Hyran inkluderar el, värme, vatten och bredband.\n\nOmrådet:\n- Nära till kommunikationer, affärer och restauranger.\n- Lugnt och tryggt område med nära till grönområden och promenadstråk.\n\nOm Dig:\n- Pålitlig, ordningsam och ansvarstagande.\n- Rök- och djurfri.\n- Ordnad ekonomi & stabil inkomst,  studerande går utmärkt.\n\nÖvrigt:\nHyran är 6300 kr/månad.\nTillträde efter överenskommelse.\nIntresserad? Kontakta mig för mer information och eventuell visning.\nSer fram emot att höra från dig!\n\nVänliga hälsningar,\nLovisa",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 6300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kallebäcks Torggata, Göteborg",
     "url": "https://qasa.com/p/1406115",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8fe77f90a443633f20c55e5ccc05001df85bf1af181a537595d514a32a7de134.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lorensbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1411747",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6f238793cde38505e6de7bedee407e8a7d00034ed245ecc99d3bd771c4ce446d.png",
-    "description": "Nu finns möjlighet att hyra en rymlig och välplanerad lägenhet om 112 kvm i ett av Göteborgs mest attraktiva områden, precis intill Avenyn.\n\nLägenheten hyrs ut på grund av arbete på annan ort och passar dig som söker ett bekvämt boende med centralt läge och generösa ytor. Här bor du med gångavstånd till restauranger, caféer, shopping, parker och goda kommunikationer.\n\nBostaden hyrs ut med befintlig inredning och erbjuder stora sociala ytor, ett välutrustat kök och en trivsam boendemiljö. Den hyrs ut under en överenskommen period och jag söker en skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten. Berätta gärna lite om dig själv när du hör av dig.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 112.0,
-    "rent": 20203,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gröna Annas Gata, Göteborg",
-    "url": "https://qasa.com/p/1405012",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
-    "description": "Hyresperiod: 1 september 2026 – 31 januari 2027\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad. I hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt parkeringsplats. \n\nLäget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 12000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vasagatan , Göteborg",
-    "url": "https://qasa.com/p/1412926",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aaefcfb4cce24b2f3d64864598f5598b841ace470c88507672590c77da54355c.jpg",
-    "description": "Stor fin  lgh med bästa läge i Vasastan , rummet vi hyr ut är ca 12 m2 övriga ytor som kan användas ca 50 m2 med delat kök och bad med annan \nInternet ingår el och vatten \nÖvrigt stor våning med högt i tak i hus byggt 1874 \nGång avstånd till universitetet, nära affärer mm med bästa kommunikationer \n\nVi hyr ut till studerande tjejj då vi vill bidra med ett fint rum som vi gjort i många år till behövande student \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T16:30:14+00:00", "clock": "16:30:14"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-12T17:36:49+00:00", "clock": "17:36:49"};
