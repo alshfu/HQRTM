@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lagmansgatan, Göteborg",
+    "url": "https://qasa.com/p/1414274",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/512caff102406b112cd7d732b135cb8b5eb55f9b03c07746d21ea033b6dacf71.jpg",
+    "description": "Mysig vindsvåning uthyres i andra hand (1 år) med möjlighet till förlängning\n\nNu hyr jag ut min mysiga och relativt nyrenoverade etta i Kålltorp i andra hand under ett år, med möjlighet till förlängning.\n\nLägenheten ligger i ett lugnt och trivsamt område med närhet till natur, matbutiker och goda kommunikationer. Det är endast fyra minuters promenad till närmaste spårvagnshållplats. Lägenheten är ljus och luftig med fint morgonljus.\n\nMöblering:\nLägenheten hyrs ut delvis möblerad. Bland annat följande ingår i hyran:\n\nSoffa\nSoffbord\nTV-bänk\nBokhylla\nSkoskåp och skohylla i hallen\nMatbord med fyra stolar\nSäng (140 cm)\nSpeglar\nGarderob\n\nVissa köksredskap kan eventuellt ingå efter överenskommelse. Hör gärna av dig om du undrar över något specifikt möblemang.\n\nVad som ingår i hyran:\nHyran är  9 900 kr per månad och inkluderar Internet & vatten. (Qasa tar ut extra avgift om man hyr genom dem) privat avtal kommer att skrivas.\n\nKostnad för el och varmvatten tillkommer månadsvis utifrån förbrukning.\n\nDeposition:\nEn deposition motsvarande två månadshyror ska betalas innan nycklar lämnas ut vid inflyttning till hyresvärden. Depositionen återbetalas helt i samband med utflytt enligt hyresavtalet, förutsatt att lägenheten återlämnas i överenskommet skick. \n\nOm uthyrningen:\nPå grund av ett nytt jobb i Danmark kommer jag att vara borta under en period och söker därför en ansvarsfull hyresgäst som tar hand om mitt hem lika väl som jag själv gör.\n\nVarmt välkommen att höra av dig om du har frågor eller vill boka en visning!\n\n\n\n----\n\n\nAbout the Property\nCozy Attic Apartment for Rent (1-Year Sublet) with Possibility of Extension\n\nI am renting out my cozy and recently renovated one-bedroom studio apartment in Kålltorp as a sublet for one year, with the possibility of extending the lease.\n\nThe apartment is located in a quiet and pleasant neighborhood, close to nature, grocery stores, and excellent public transportation. The nearest tram stop is only a four-minute walk away. The apartment is bright, airy, and filled with beautiful morning light.\n\nFurnishing\n\nThe apartment is rented out partially furnished. The following items are included:\n\nSofa\nCoffee table\nTV stand\nBookshelf\nShoe cabinet and shoe rack in the hallway\nDining table with four chairs\n140 cm bed\nMirrors\nWardrobe\n\nSome kitchen utensils may also be included upon agreement. Feel free to ask if you have any questions about specific furniture or household items.\n\nWhat's Included in the Rent\n\nThe monthly rent is SEK 9,900 and includes internet and water.\n\nPlease note that Qasa charges an additional service fee if you choose to rent through their platform. A private rental agreement will be signed between the landlord and tenant.\n\nElectricity and hot water are billed separately each month based on actual consumption.\n\nSecurity Deposit\n\nA security deposit equivalent to two months' rent must be paid to the landlord before the keys are handed over at move-in.\n\nThe full deposit will be refunded upon move-out in accorda",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 9900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Grevegårdsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1414238",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9c14e738cd7bf81829ed059293968aedf16758a808289b56c359a4a8a1af205.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sisjövägen, Askim",
-    "url": "https://qasa.com/p/1413837",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bfabb019cdb403ff0182442b54ef9e2fe2c32022660439c07354c1c2208ccbc5.jpg",
-    "description": "Hyr ut en komplett inredd källare på ca 45 kvm som är fullt möblerad med soffa, soffbord, tv, bokhyllor, säng, skrivbord, skrivbordsstol, stor byrå för kläder, klädhängare, bord och stolar. Utrymmet består av två rum, ett vardagsrum/sovrum och ett badrum. Badrummet renoverades 2017 och där finns toalett, badkar, kyl med frysfack och micro. Del i kök och tvättstuga på entreplanet. Söker efter ny inneboende med inflyttning från 1/8 och på obestämd tid framåt. \n\nBoendet befinner sig i ett lugnt område (Sisjön) i närheten av havet, sjöar, skog men också köpcenter. Busshållplatser (Gåsmossen, alt Sisjöbäckens väg) belägen 3 min från huset. Restid till Frölunda Torg 15 minuter. \n\nI hyran (5000:-/mån) ingår el, vatten, internet. Hemförsäkring ingår inte i hyran.\n\nDu är djurfri (jag har en katt) och helt rökfri. Jag är ensamstående med en son på 18 år boendes i ett 1 1/2 plans radhus.  \n\nHör av er för mer information.",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T20:44:03+00:00", "clock": "20:44:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T21:38:07+00:00", "clock": "21:38:07"};
