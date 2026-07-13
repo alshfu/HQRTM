@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Inägogatan, Göteborg",
+    "url": "https://qasa.com/p/1414061",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56d4d86bcf61ee4f2ccda7a488e3233f2117f4f78ed85fe4b8a0b73ed754b9b0.jpg",
+    "description": "Min lägenhete ligger i ett lungt område med närhet till kollektivtrafik. Du tar dig in till centrala göteborg på 15 min. Jag hyr ut ett av rummen i en tvårumslägenhet. Du har fri tillgång till kök och badrum. Rummet är möblerat med säng, skrivbord och förvaring. \n\nJag har tidigare hyrt ut rummet till studenter. \n\nI hyran ingår, el, vatten och internet. \n\nJag bor i det andra rummet i lägenheten. Arbetar som lärare och har en liten hund. \n\nMy apartment is located in a quiet area close to public transport; you can reach central Gothenburg in 15 minutes. I am renting out one of the rooms in a two-room apartment. You have full access to the kitchen and bathroom. The room is furnished with a bed, a desk, and storage space.\n\nI have previously rented the room to students.\n\nThe rent includes electricity, water, and internet.\n\nI live in the other room of the apartment. I work as a teacher and have a small dog.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 4800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ankargatan, Göteborg",
     "url": "https://qasa.com/p/1413836",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc1051b2585ed9fc9f562e35f6c042421b5bfe50965d80736056a7bcbbca97a5.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 50C, GÖTEBORG",
-    "url": "https://qasa.com/p/1413979",
-    "image_url": null,
-    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 3 rum och kök på 83 kvm, belägen på våning 3 på Långströmsgatan 50 C.\n\nLägenheten genomgår en renovering och kommer att stå inflyttningsklar den 1 November 2026. Här erbjuds ett modernt boende med ljusa ytskikt och väl genomtänkta materialval. Lägenheten har dessutom bra med förvaringsutrymmen.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset för extra förvaring.\n\nHyra: 12 400 kr/månad\nInflyttning: 2026-11-01\n\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Lägenheten är under renovering och ingen fysisk visning kommer att erbjudas. Bilderna i annonsen är exempelbilder från liknande renoverade lägenheter. Planritningen är inte skalenlig och kan avvika från verkligt utförande.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 12400,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T13:31:59+00:00", "clock": "13:31:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T16:07:47+00:00", "clock": "16:07:47"};
