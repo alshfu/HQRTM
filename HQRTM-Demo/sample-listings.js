@@ -3,13 +3,43 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1413298",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b970bd3f3f06d34304098c8731b9e160e760e4c57e4928fc4506b599cf84f6b.jpg",
+    "description": "Liten lgh med ett rum och kök ca:20m2 plus ett stort badrum som tillhör endast ettan. Ligger i en större villa med 4 lägenheter i. Ettan ligger i plan ett och nås via husets trapphus. Det stora badrummet och toaletten finns i källarplan där även den gemensamma tvättstugan ligger. En perfekt lägenhet för studenten då grannarna är lunga och skötsamma människor och även området är lugnt trots att det ligger centralt. Buss och spårvagn finns på gångavstånd lika så backaplan. I hyra ingår värme, vatten, el, internet via fiber, parkering, sophantering och förråd. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 17.0,
+    "rent": 4900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Häradsdomarevägen, Hisings Backa",
+    "url": "https://qasa.com/p/1345055",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c3cab86a3886407fbdc513ea3e83ef61eb529ea85ef875766197a11596eb5de.jpg",
+    "description": "Rymligt radhus om ca 220 kvm uthyres – perfekt för studenter eller familj\n\nNu finns möjlighet att hyra ett stort och funktionellt radhus i ett lugnt och barnvänligt område på Hisingen.\n\nHuset erbjuder ca 143 kvm boarea samt en fullt användbar källare, totalt ca 220 kvm fördelat över 3 plan. Här finns mycket generösa ytor och en flexibel planlösning som passar utmärkt för studenter och familj.\n\nBostaden består av:\n\n6 sovrum\n3 toaletter\nStort vardagsrum med fint ljusinsläpp\nKök i fungerande skick\nDusch och badkar\nUteplatser både fram och bak\nKällare med gott om förvaringsutrymme och extra rum\n\n\n\n📍 Läget:\n\n3 min gång till hållplats\nca 10 min gång till Backa skolan\nca 10 min till Backaplan och Bäckebol köpcenter\n5 min med bil till Selma Lagerlöfs Torg och Brunnsbo Torg\nca 15 min till centrala Göteborg\n\nFiber finns indraget.\n\nHyres antingen till en familj eller studenter. \n6 sovrum finns, 1 på entre plan, 3 på övre plan och 2 i källaren.\n\nHyra för dom små rummen ( ett på övre plan och ett på entre plan): 4500\nHyra för dom stora rummen ( övre plan ) : 6000\nHyra för dom stora källar rummen ( källar plan ) : 5500\nHyresvillkor:\n\nHyra: 23 900 kr/mån (kallhyra för familjer)\nStudenter se ovan.\nUthyrningstid: 1 år med möjlighet till förlängning\nTillträde: tidigast 23e Juli\n\nHyrs ut till seriösa hyresgäster.\n\nBostaden hyrs ut delvis möblerad (vitvaror samt viss möblering). Möbler kan tas bort vid behov.\n\nVid intresse – skicka gärna en kort presentation av er själva.",
+    "district": "Hisings Backa",
+    "rooms": 8.0,
+    "area_m2": 220.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Inägogatan, Göteborg",
     "url": "https://qasa.com/p/1414061",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56d4d86bcf61ee4f2ccda7a488e3233f2117f4f78ed85fe4b8a0b73ed754b9b0.jpg",
-    "description": "Min lägenhete ligger i ett lungt område med närhet till kollektivtrafik. Du tar dig in till centrala göteborg på 15 min. Jag hyr ut ett av rummen i en tvårumslägenhet. Du har fri tillgång till kök och badrum. Rummet är möblerat med säng, skrivbord och förvaring. \n\nJag har tidigare hyrt ut rummet till studenter. \n\nI hyran ingår, el, vatten och internet. \n\nJag bor i det andra rummet i lägenheten. Arbetar som lärare och har en liten hund. \n\nMy apartment is located in a quiet area close to public transport; you can reach central Gothenburg in 15 minutes. I am renting out one of the rooms in a two-room apartment. You have full access to the kitchen and bathroom. The room is furnished with a bed, a desk, and storage space.\n\nI have previously rented the room to students.\n\nThe rent includes electricity, water, and internet.\n\nI live in the other room of the apartment. I work as a teacher and have a small dog.\n",
+    "description": "Min lägenhet ligger i ett lungt område med närhet till kollektivtrafik. Du tar dig in till centrala göteborg på 15 min. Jag hyr ut ett av rummen i en tvårumslägenhet. Du har tillgång till kök och badrum. Rummet är möblerat med säng, skrivbord och förvaring. \n\nJag har tidigare hyrt ut rummet till studenter och det har funkat väldigt bra. Jag hyr endast ut till tjej. \n\nI hyran ingår, el, vatten och internet.\n\nJag bor i det andra rummet i lägenheten. Arbetar som lärare och har en liten hund. \n\nMy apartment is located in a quiet area close to public transport; you can reach central Gothenburg in 15 minutes. I am renting out one of the rooms in a two-room apartment. You have full access to the kitchen and bathroom. The room is furnished with a bed, a desk, and storage space.\n\nI have previously rented the room to students and its worked very well. I only rent out the room to a female. \n\nThe rent includes electricity, water, and internet.\n\nI live in the other room of the apartment. I work as a teacher and have a small dog.\n",
     "district": "Göteborg",
     "rooms": 1.0,
-    "area_m2": 15.0,
+    "area_m2": 10.0,
     "rent": 4800,
     "floor": null,
     "has_balcony": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ögontröstgatan, Göteborg",
-    "url": "https://qasa.com/p/1413852",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d4ec4cb4e2cf74f5cfd2c3be3825897c4ed533dd602e5e3dcd7857fc74f9989a.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13800 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/dydmzqmpsm3tkjdd63ca/vastra-gotaland/goteborg/ogontrostgatan-1c/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nSöker du en mysig tvårummare med närhet till det mesta? Då är detta lägenheten för\r\ndig. \r\n\r\nVälkommen till Ögontröstgatan 1C, här bjuds du på genomgående ljusa och fräscha\r\nytor, ett stilfullt kök från IKEA med moderna inslag samt ett välvårdat badrum utrustat\r\nmed ett avkopplande badkar. \r\nPå en fridfull gata, omgiven av charmiga villor och grönska hittar du denna lägenhet.\r\nPå bekvämt avstånd finns ett brett utbud av bekvämligheter, inklusive flertalet restauranger, gym samt den omtyckta Kville Saluhall. \r\n\r\nFör bilägaren finns gott om gratis parkeringsplatser precis utanför bostaden, det går också att hyra en privat parkeringsplats. \r\n\r\nDet tar endast några minuter att nå centrala Göteborg, antingen med spårvagn eller buss.\r\n\r\nI månadsavgiften ingår värme, vatten, kabel-TV (grundutbud) samt\r\ntillgång till tvättstuga och torkrum.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13800 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 13025,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 10B, GÖTEBORG",
-    "url": "https://qasa.com/p/1413997",
-    "image_url": null,
-    "description": "Välkommen till Långströmsgatan! \n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 3 rum och kök på 83 kvm, belägen på våning 2 på Långströmsgatan 10 B. \n\nLägenheten genomgår en renovering och kommer att stå inflyttningsklar den 1 Oktober 2026. Här erbjuds ett modernt boende med ljusa ytskikt och väl genomtänkta materialval. Lägenheten har dessutom bra med förvaringsutrymmen. \n\nBostaden är utrustad med: Balkong Diskmaskin \nMikrovågsugn \nTvättmaskin \nTorktumlare \nLägenhetsförråd finns i huset för extra förvaring. \n\nHyra: 12 400 kr/månad Inflyttning: 2026-10-01 I hyran ingår värme, vatten och kabel-TV. \n\nObservera: Lägenheten är under renovering och ingen fysisk visning kommer att erbjudas. Bilderna i annonsen är exempelbilder från liknande renoverade lägenheter. Planritningen är inte skalenlig och kan avvika från verkligt utförande.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 12400,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T16:07:47+00:00", "clock": "16:07:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T18:05:11+00:00", "clock": "18:05:11"};
