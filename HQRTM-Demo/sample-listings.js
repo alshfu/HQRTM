@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilla Grevegårdsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1414238",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9c14e738cd7bf81829ed059293968aedf16758a808289b56c359a4a8a1af205.png",
+    "description": "Ett rum med egen toalett \nOch eget kylskåp  i ett lägenhet uthyres.\nEndast rummet och tillgång till köket för matlagning ingår.\nInternet och el ingår i hyran.\nPassar en student eller arbetande person.\nDeposition: 1 månad.\nHyra: 5500 kr.\n1 minut till busshållplatsen och 3 minuter till Frölunda Torg.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nuddlavägen, Brännö",
+    "url": "https://qasa.com/p/1414230",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d76e870e3a4ab3f8b5272104eec68f42df0ece199600404f07ac626f1d3689fb.jpg",
+    "description": "Denna bostad ligger på Brännö, en ö i Göteborgs södra skärgård som nås via färjetrafik från Saltholmen. Färjeresan tar knappt 20 minuter, turerna går ungefär en gång i timman.\n\nHuset ligger högt och fritt, nära natur och hav. Gott om ljus, ingen insyn. Vardagsrum med modernt, fullutrustat kök, sovrum och kaklat badrum. Diskmaskin och tvättmaskin finns. Uterum för vår och höst, samt stort trädäck. Huset är möblerat. \n\nTio minuters promenad till färjan. Goda pendlingsmöjligheter in till stan, 18 minuter m båten till Saltholmen, ytterligare 21 min med snabbussen in till centrum. \n\nUtöver en fast hyra på 7.500 kr/månad tillkommer rörlig kostnad för el, som också värmer upp huset. Uppskattningsvis landar snittet på 1.500 kr/månad, utslaget över höst-vinter-vår. Därav det uppskattade totalhyran på 9.000 kr/mån.\n\nDet är viktigare för oss att hitta rätt hyresgäst än att ta ut en hög hyra. Vi letar efter någon som ser en fördel med att bo i skärgården och som kommer att ta väl hand om vårt hus. Ingen rökning, inga husdjur, max 2 personer.\n\nVid ansökan,  skriv något om dig själv och varför du vill bo på Brännö.",
+    "district": "Brännö",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1413298",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b970bd3f3f06d34304098c8731b9e160e760e4c57e4928fc4506b599cf84f6b.jpg",
@@ -21,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Häradsdomarevägen, Hisings Backa",
     "url": "https://qasa.com/p/1345055",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c3cab86a3886407fbdc513ea3e83ef61eb529ea85ef875766197a11596eb5de.jpg",
-    "description": "Rymligt radhus om ca 220 kvm uthyres – perfekt för studenter eller familj\n\nNu finns möjlighet att hyra ett stort och funktionellt radhus i ett lugnt och barnvänligt område på Hisingen.\n\nHuset erbjuder ca 143 kvm boarea samt en fullt användbar källare, totalt ca 220 kvm fördelat över 3 plan. Här finns mycket generösa ytor och en flexibel planlösning som passar utmärkt för studenter och familj.\n\nBostaden består av:\n\n6 sovrum\n3 toaletter\nStort vardagsrum med fint ljusinsläpp\nKök i fungerande skick\nDusch och badkar\nUteplatser både fram och bak\nKällare med gott om förvaringsutrymme och extra rum\n\n\n\n📍 Läget:\n\n3 min gång till hållplats\nca 10 min gång till Backa skolan\nca 10 min till Backaplan och Bäckebol köpcenter\n5 min med bil till Selma Lagerlöfs Torg och Brunnsbo Torg\nca 15 min till centrala Göteborg\n\nFiber finns indraget.\n\nHyres antingen till en familj eller studenter. \n6 sovrum finns, 1 på entre plan, 3 på övre plan och 2 i källaren.\n\nHyra för dom små rummen ( ett på övre plan och ett på entre plan): 4500\nHyra för dom stora rummen ( övre plan ) : 6000\nHyra för dom stora källar rummen ( källar plan ) : 5500\nHyresvillkor:\n\nHyra: 23 900 kr/mån (kallhyra för familjer)\nStudenter se ovan.\nUthyrningstid: 1 år med möjlighet till förlängning\nTillträde: tidigast 23e Juli\n\nHyrs ut till seriösa hyresgäster.\n\nBostaden hyrs ut delvis möblerad (vitvaror samt viss möblering). Möbler kan tas bort vid behov.\n\nVid intresse – skicka gärna en kort presentation av er själva.",
+    "description": "Rymligt radhus om ca 220 kvm uthyres – perfekt för studenter eller familj\n\nNu finns möjlighet att hyra ett stort och funktionellt radhus i ett lugnt och barnvänligt område på Hisingen.\n\nHuset erbjuder ca 143 kvm boarea samt en fullt användbar källare, totalt ca 220 kvm fördelat över 3 plan. Här finns mycket generösa ytor och en flexibel planlösning som passar utmärkt för studenter och familj.\n\nBostaden består av:\n\n6 sovrum\n3 toaletter\nStort vardagsrum med fint ljusinsläpp\nKök i fungerande skick\nDusch och badkar\nUteplatser både fram och bak\nKällare med gott om förvaringsutrymme och extra rum\n\n\n\n📍 Läget:\n\n3 min gång till hållplats\nca 10 min gång till Backa skolan\nca 10 min till Backaplan och Bäckebol köpcenter\n5 min med bil till Selma Lagerlöfs Torg och Brunnsbo Torg\nca 15 min till centrala Göteborg\n\nFiber finns indraget.\n\nHyres antingen till en familj eller studenter. \n6 sovrum finns, 1 på entre plan, 3 på övre plan och 2 i källaren.\n\nHyra för dom små rummen ( ett på övre plan och ett på entre plan): 4500\nHyra för dom stora rummen ( övre plan ) : 5500\nHyra för dom stora källar rummen ( källar plan ) : 5000\nHyresvillkor:\n\nHyra: 23 900 kr/mån (kallhyra för familjer)\nStudenter se ovan.\nUthyrningstid: 1 år med möjlighet till förlängning\nTillträde: tidigast 23e Juli\n\nHyrs ut till seriösa hyresgäster.\n\nBostaden hyrs ut delvis möblerad (vitvaror samt viss möblering). Möbler kan tas bort vid behov.\n\nVid intresse – skicka gärna en kort presentation av er själva.",
     "district": "Hisings Backa",
     "rooms": 8.0,
     "area_m2": 220.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rambergsvägen, Göteborg",
-    "url": "https://qasa.com/p/1413893",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e645c7c72bfda44a306d3a1f4e43e4b34d91479831924395306d93eda2b98a20.jpg",
-    "description": "Rum uthyres precis vid Ramberget. Lägenheten har två sovrum, badrum och kök och det är det större, möblerade sovrummet som hyrs ut.\nI hyran ingår allt, dvs alla räkningar, internet och tvättstuga. \nMed spårvagn tar man sig på ca 8 minuter till centrum, 4 hållplatser.\nOmrådet är lugnt och grönt med parken och Ramberget precis bredvid.\n\nFör mig så är renlighet viktigt, jag håller lägenheten ren och det är viktigt att du som hyresgäst också uppskattar det. För tillfället så bor jag ca 1-2 dagar i lägenheten per vecka så jag söker en person som är pålitlig och med ett ordnat liv.\n\nLåter detta intressant så skicka gärna ett meddelande och skriv lite om vem du är så tar vi det därifrån!\n\n—\n\nRoom for rent just next to Ramberget. The apartment has two bedrooms, a bathroom and a kitchen, and it’s the larger, fully furnished bedroom that will be rented. The rent includes everything; all bills, wifi and laundry.\nWith tram you can reach the city center in 8 minutes, it’s 4 stops.\nIt’s a green and quiet area with the park right next next to it. It's also a peaceful, residential area so it's well suited for someone just wanting to wind down after work/study. \n\nFor me cleanliness is very important, and I like to keep things clean at all times. If you're a person with similar preferences chances are it'll be a good match. I also live in the apartment only 1-2 days per week, so I seek someone who is reliable with their life in order.\n\nIf this sounds interesting please drop a line and tell a bit about yourself and we'll take it from there!\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5241,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bygdeborgsvägen , Göteborg",
-    "url": "https://qasa.com/p/1413774",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f727738119927095aaf6a3a6149eb319ce21dcc003839924ab76741864dfa434.jpg",
-    "description": "I källaren av vår villa har vi en renoverad lägenhet med 4 möblerade rum som vi hyr ut till studenter. Lägenheten ligger i ett lugnt villaområde nära busshållplatsen Bjurslättsliden. Goda förbindelser till city/universitetet och nära natur samt löparspår i Hisingsparken.\n\nLägenheten har en separat ingång och ni som hyr delar kök, matplats, allrum och badrum. Det finns diskmaskin och tvättmaskin. Vatten, el, värme och internet ingår i hyran.\n\nVi har ett rum ledigt på 12kvm med hyra på 5400kr/månad.\n\nVi hyr inte ut hela lägenheten och det är inte okej att dela på ett rum. Förskottsbetalning och 2 månaders uppsägning. Vi vill att den som hyr är rökfri och husdjur undanbedes. Det finns dessvärre inte möjlighet att parkera bil på gatan eller uppfarten vid huset. \n\nSkicka oss en kort presentation om du är intresserad så hör vi av oss om det blir aktuellt. \n\nMed vänlig hälsning \n\nAndreas och Therese",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T18:05:11+00:00", "clock": "18:05:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T19:44:59+00:00", "clock": "19:44:59"};
