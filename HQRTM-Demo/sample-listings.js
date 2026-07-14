@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stubbeledsgatan, Göteborg",
+    "url": "https://qasa.com/p/1415050",
+    "image_url": null,
+    "description": "Stor lägenhet, 100 KVM, med balkong, stor kök, med plats för bord och stolar, 4 sovrum (1 stor och 3 mindre storlek), toa med dusch och tvättstället, tillgång till tvättstuga, fri boende parkering på gatan framför huset, tillgång till trädgården framför huset (ej bakom huset). \nVarmhyra: 13500 kronor (ingår el, vatten, värme och sophämtning). \nDepositum: 13500 kronor vid kontrakt skrivning som lämnas tillbaka efter besiktning gjordes och lägenheten lämnades ren och i bra skick. ",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 100.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Turkosgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1414978",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d670b3d2bde47ccf48aaa54b85b3dcbbadf58e2b863ec3613f3a49f5f984876.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skummjölksgatan, Göteborg",
-    "url": "https://qasa.com/p/1414568",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f3cae6c1d52fc2d1b6ac3c4ae1eb4b4df0b94bf285a6e2d0e7bb6d5f3b7eb035.jpg",
-    "description": "Hej!\n\nVi hyr ut vår fina och nyproducerade 2:a på 55 kvm i Kallebäcks Terrasser.\n\nLägenheten är modern och välplanerad med öppen planlösning, stora fönster och ett härligt ljusinsläpp. Den stora balkongen sträcker sig längs nästan hela lägenheten och ger gott om extra utrymme under årets varmare månader. Lägenheten hyrs ut omöblerad och har gott om förvaring.\n\nKöket är fullt utrustat med bland annat diskmaskin, mikrovågsugn och induktionshäll. I lägenheten finns även tvättmaskin, torktumlare och handdukstork.\n\nOmrådet är modernt och trivsamt med busshållplats precis utanför huset. Restauranger, caféer, mataffär, gym, apotek, vårdcentral och annan service finns alldeles i närheten. Delsjöområdet och Lackarebäcksberget ligger nära för promenader, löpning och bad, och det är cykelavstånd till centrala Göteborg. I området finns även en gemensam innergård med pergola, grillplatser och cykelförråd.\n\nI hyran ingår värme, internet och ett grundutbud av tv-kanaler. El samt varm- och kallvatten debiteras separat varje månad efter faktisk förbrukning genom individuell mätning.\n\nVi hyr ut lägenheten eftersom vi flyttar till Stockholm på grund av jobb. Uthyrningen gäller i ett år, med möjlighet till förlängning i ytterligare ett år.\n\nEftersom det är en andrahandsuthyrning behöver hyresvärden godkänna den som ska hyra lägenheten.\n\nFastigheten är rökfri och rökning är därför inte tillåten i lägenheten, på balkongen eller i gemensamma utrymmen.\n\nVi har verkligen trivts här och hoppas hitta någon som kommer att uppskatta lägenheten lika mycket som vi har gjort. Berätta gärna lite om dig själv i din intresseanmälan, så hoppas vi att vi hörs snart!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 13340,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T20:05:25+00:00", "clock": "20:05:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T21:12:28+00:00", "clock": "21:12:28"};
