@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Turkosgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1414978",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d670b3d2bde47ccf48aaa54b85b3dcbbadf58e2b863ec3613f3a49f5f984876.jpg",
+    "description": "Rum uthyres\nRum uthyres i Västra Frölunda (Tynnered) från och med augusti. Rummet uthyres möblerat med gemensamt kök, badrum och tvättstuga. Området är tryggt, spårvagnshållplats ligger bara 3-4 minuter bort och mataffärer och naturen ligger också nära.\n\nPerfekt för dig som skall börja studera eller landat första jobbet i Göteborg! \n\nHyra: 4767. El, värme och internet ingår såklart.\nInflyttning: 3 augusti eller enligt överenskommelse \n\nIntresserad? Skriv ett meddelande, berätta vem du är, hur din ekonomi ser ut och varför du kommer bli den perfekta hyresgästen. \n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ernst Torulfsgatan, Göteborg",
     "url": "https://qasa.com/p/1408425",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64a676261254b0409c4095da21c7371c4e6257b87b3fbe3411af7d231b81d1da.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 52A, GÖTEBORG",
-    "url": "https://qasa.com/p/1414755",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/3ae66319daa01b1a6783bdfe9d27d6bb819a3e89b277acc9adccb6641b467b46.pdf",
-    "description": "Välkommen hem till Långströmsallén!\n\nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 52 A, 3 ROK på 83 kvm - våning 2. En ljus och välplanerad bostad med avtalstid från 1 November. \n\nHyran för 2026 ligger på 12 408 kr/mån.\n\nLägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys, mikrovågsugn, tvättmaskin och torktumlare. \n\nLägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV.\n\nOBS! Exempelbilder och planritningen är inte skalenlig\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 12408,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T17:45:00+00:00", "clock": "17:45:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T18:51:37+00:00", "clock": "18:51:37"};
