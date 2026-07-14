@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bangatan, Göteborg",
+    "url": "https://qasa.com/p/1414709",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fb548729e6ee9ff47e479a1395a48776081c045ccbeb81a82336ead37d311581.png",
+    "description": "Perfekt läge med 5min till Stigbergstorget, Masthugget, Majorna och Linné. \n\nLägenheten i sig har många garderober med bra möjligheter till förvaring. Det är ett stort vardagsrum och från vårt sovrum finns en liten balkong. I köket finns diskmaskin samt fullstor kyl och frys. Gästrummet använder vi idag både som gästrum och garderob. \nBadrummet är uppdelad i två rum varav ena är med handfat + toalett och det andra är tvättstuga med handfat, tvättmaskin, torktumlare och dusch! \n\nParkeringen är en egen p-plats i låst garage under lägenhetshusen. Ett tillhörande  källarförråd på ca 3x2 m2 finns i samma byggnad och kommer tömmas och vara fritt för användning! \n\nLägenheten hyrs ut möblerad och i hyran ingår värme, vatten, wifi och parkering. Eget elavtal och egen hemförsäkring tillkommer utöver. \n\nVi letar efter 1-3 personer som vill ta hand om vårt hem under viss period. Vi ska bosätta oss på Gotland och visar det sig att vi trivs finns möjlighet till förlängning även efter 30 juni! \n\nDet är något som gör att jag just nu inte kan ladda upp fler bilder så skriv vid intresse så finns det! \n\nAllt gott,",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 81.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skummjölksgatan, Göteborg",
     "url": "https://qasa.com/p/1414568",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f3cae6c1d52fc2d1b6ac3c4ae1eb4b4df0b94bf285a6e2d0e7bb6d5f3b7eb035.jpg",
@@ -13,6 +28,36 @@ window.HQRTM_SAMPLE = [
     "rent": 13340,
     "floor": null,
     "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan 52A, GÖTEBORG",
+    "url": "https://qasa.com/p/1414755",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/3ae66319daa01b1a6783bdfe9d27d6bb819a3e89b277acc9adccb6641b467b46.pdf",
+    "description": "Välkommen hem till Långströmsallén!\n\nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 52 A, 3 ROK på 83 kvm - våning 2. En ljus och välplanerad bostad med avtalstid från 1 November. \n\nHyran för 2026 ligger på 12 408 kr/mån.\n\nLägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys, mikrovågsugn, tvättmaskin och torktumlare. \n\nLägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV.\n\nOBS! Exempelbilder och planritningen är inte skalenlig\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
+    "district": "GÖTEBORG",
+    "rooms": 3.0,
+    "area_m2": 83.0,
+    "rent": 12408,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Luftvärnsvägen 8, Göteborg",
+    "url": "https://qasa.com/p/1414727",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3dfea75ec7be2343cb6c09a1f7666347f7a7fca144b3fd5f22a419ec51986010.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna Etta! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns.\n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 24.0,
+    "rent": 7583,
+    "floor": null,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslottsgatan 10, Göteborg",
-    "url": "https://qasa.com/p/1414524",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/df4b9ceb845497a18bc26c3e50a6893332a3ce13b6f95a189d2c2d526142a0b7.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 1 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. Lägenheten har en rymlig balkong.\n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt kombinerad tvätt- och torkmaskin. Köket är utrustat med rostfria vitvaror och diskmaskin. \n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\nOBS! Planlösningen och bilder är endast ett exempel, avvikelser kan förekomma. \nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 6205,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Meteorgatan 6, Göteborg",
-    "url": "https://qasa.com/p/1414509",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bac4e6fb349360823971751c18a7bf4f651c556d83ba1b17f2e01bcf458b3889.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna tvåa! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 63.0,
-    "rent": 7712,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Eklandagatan, Göteborg",
-    "url": "https://qasa.com/p/1386280",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c1b5a65dc9bc7a060070e2ca2d0c60dc03261c32b5eb6ca8924c02421268f80.jpg",
-    "description": "Mycket centralt och lugnt läge. Goda kommunikationer med Korsvägen 3 min till fots. Egen balkong. Tillgång till takterass.\nWifi.\nDel i kök. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5690,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T11:51:50+00:00", "clock": "11:51:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T13:11:06+00:00", "clock": "13:11:06"};
