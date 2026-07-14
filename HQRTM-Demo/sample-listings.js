@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Karl Gustavsgatan, Göteborg",
+    "url": "https://qasa.com/p/1300175",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3cde2f9d2dda57dd9793806f02151c1c21e9ed465eb4d8c5446608793a24b87c.jpg",
+    "description": "Hej! Jag söker en inneboende, (helst en veckopendlare),  till min lägenhet på 66 kvm. Den ligger i ett tryggt område mitt i hjärtat av stan med i princip gångavstånd till allt. Stilen är från förra sekelskiftet med högt i tak och stuckaturer.\nRummet som hyrs ut är ganska stort, ca 20 kvm, och har 3 garderober. Följande möbler finns i rummet(se bilder);\n- En 105cm bred säng från Kungsängen. Den är ställbar för både rygg och ben mha motor med fjärrkontroll.\n- En 90cm bred extrasäng som är ganska ny och i bra kvalité.\n- Ett enkelt vitt skrivbord.\n- En kontorsstol.\n- En bokhylla i två sektioner.\n- Två mattor\nJag har delat lägenhet under många år utan problem och har många referenser med nöjda hyresgäster ni kan kolla med, t.ex den senaste som stannade i 2 år. Själv är jag lätt att dela boende med, är ordningsam, spelar inte hög musik, är sällan i köket och lagar mat så där blir inte mycket krockar ;-)\nSkriv och berätta om dig själv och om du undrar över något.\n\nNågra viktiga punkter;\n- Berätta om ungefär hur många helger eller annat du tror du kommer att vara bortrest under hyrestiden. Hur bra det än funkar att dela en lägenhet så tycker jag att det är skönt att bo ensam lite då och då. Man kan säga att ju fler helger eller annat du planerar att vara bortrest ju större chans att jag hyr ut till dig. Själv brukar jag vara i Brasilien ett par månader i jan-feb.\n- Jag hyr alltså endast ut till EN person, tjej eller kille spelar ingen roll.\n- Du måste vara 100% rökfri!\n- Jag älskar djur men har inga själv pga mina resor. Det är alltså inga problem om du har husdjur om dom inte förstör saker såklart. \n\nSå länge annonsen ligger ute så har jag inte skrivit kontrakt med någon än.\nLycka till med bostadsletandet! :-)\nMvh Roger",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lagmansgatan, Göteborg",
     "url": "https://qasa.com/p/1414274",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/512caff102406b112cd7d732b135cb8b5eb55f9b03c07746d21ea033b6dacf71.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ankargatan, Göteborg",
-    "url": "https://qasa.com/p/1413836",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc1051b2585ed9fc9f562e35f6c042421b5bfe50965d80736056a7bcbbca97a5.png",
-    "description": "Mysig 2:a i Majorna uthyres i andra hand (1 år)\n\nJag hyr ut min lägenhet i Majorna, Göteborg, i andra hand under ett år på grund av tillfälligt arbete i Stockholm. Inflyttning från 1 september. Uthyrning sker efter godkännande från hyresvärden.\n\nLägenheten är en 2:a på 46 kvm med öppen och luftig planlösning, samt en walkin-closet i hallen. Den rymmer ett stort vardagsrum med plats för både soffgrupp och arbetsplats, ett avskilt sovrum med dubbelsäng, kök med matplats, samt hall med gott om förvaring, inklusive en walk-in closet. Badrummet har både toalett med handfat och ett separat kaklat duschutrymme.\n\nMöblering:\nLägenheten hyrs ut delvis möblerad. Med i hyran följer bland annat soffbord, mattor, bokhylla och skoskåp i hallen, litet avlastningsbord samt metallhylla i köket, matbord med stolar i vardagsrummet. Hör av dig om du undrar över något specifikt möblemang.\n\nVad som ingår i hyran\nHyran är 8 500 kr/månad och inkluderar el, vatten och bredband/wifi.\n\nJag svarar snabbt på meddelanden här via Qasa och finns tillgänglig för frågor både före och efter inflytt.\n\nMin nya tjänst i Stockholm kommer pågå under ett år och vill hyra ut mitt hem till någon som tar hand om det lika bra som jag gör, under tiden jag är borta.\n\nVarmt välkommen att höra av dig vid frågor eller för visning!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-13T23:33:40+00:00", "clock": "23:33:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T00:59:36+00:00", "clock": "00:59:36"};
