@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Södra Vägen, Göteborg",
+    "url": "https://qasa.com/p/1414441",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fac7d6a353eaa3e524b1cbb1f567ce11b510bcbcf413c3b4cedc93396bfbd8b2.png",
+    "description": "Ljus och mysig möblerad lägenhet i ett lugnt och centralt läge i Göteborg. Lägenheten är välplanerad och hyrs ut möblerad med soffa, säng, matplats samt grundläggande köksutrustning.\n\nBostaden passar bra för en skötsam person eller ett par som söker ett bekvämt boende med allt det viktigaste på plats. Lägenheten har en trevlig vardagsrumsdel med soffa och TV, matplats vid fönster samt separat sovdel/sovrum med större säng.\n\nHär finns fina ljusinsläpp, trägolv och en varm, hemtrevlig känsla. Lägenheten hyrs ut möblerad enligt inventarielista och jag söker därför en lugn och ansvarsfull hyresgäst som tar väl hand om hemmet.\n\nI hyran ingår:\nMöbler\nKöksutrustning\nEl\nBredband\n\nJag söker dig som är rökfri, har stabil ekonomi och vill hyra under en bestämd period. Inga fester eller störande beteende. Referenser är meriterande.\n\nUthyrningen sker med godkännande från hyresvärden och avtal skrivs via Qasa.\n\nVid intresse får du gärna skriva kort om dig själv, din sysselsättning, önskat inflyttningsdatum och hur länge du önskar hyra.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Regementsvägen, Göteborg",
+    "url": "https://qasa.com/p/1414280",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f36730495ce0ab24317122937788e31389084d6b2bdd1ddb72599c2db0b0919c.jpg",
+    "description": "Nyproducerad 1a på 32kvm med stor uteplats, \nI hyran ingår värme, vatten samt el och internet.\n\n8 minuter in till centralen med spårvagn och 1 min gång till spårvagn.\nHyrs ut pga samboprövning",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 8900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Eklandagatan, Göteborg",
+    "url": "https://qasa.com/p/1386280",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c1b5a65dc9bc7a060070e2ca2d0c60dc03261c32b5eb6ca8924c02421268f80.jpg",
+    "description": "Mycket centralt och lugnt läge. Goda kommunikationer med Korsvägen 3 min till fots. Egen balkong. Tillgång till takterass.\nWifi.\nDel i kök. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5690,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karl Gustavsgatan, Göteborg",
     "url": "https://qasa.com/p/1300175",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3cde2f9d2dda57dd9793806f02151c1c21e9ed465eb4d8c5446608793a24b87c.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Björlandavägen, Göteborg",
-    "url": "https://qasa.com/p/1413298",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b970bd3f3f06d34304098c8731b9e160e760e4c57e4928fc4506b599cf84f6b.jpg",
-    "description": "Liten lgh med ett rum och kök ca:20m2 plus ett stort badrum som tillhör endast ettan. Ligger i en större villa med 4 lägenheter i. Ettan ligger i plan ett och nås via husets trapphus. Det stora badrummet och toaletten finns i källarplan där även den gemensamma tvättstugan ligger. En perfekt lägenhet för studenten då grannarna är lunga och skötsamma människor och även området är lugnt trots att det ligger centralt. Buss och spårvagn finns på gångavstånd lika så backaplan. I hyra ingår värme, vatten, el, internet via fiber, parkering, sophantering och förråd. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 17.0,
-    "rent": 4900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Häradsdomarevägen, Hisings Backa",
-    "url": "https://qasa.com/p/1345055",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c3cab86a3886407fbdc513ea3e83ef61eb529ea85ef875766197a11596eb5de.jpg",
-    "description": "Rymligt radhus om ca 220 kvm uthyres – perfekt för studenter eller familj\n\nNu finns möjlighet att hyra ett stort och funktionellt radhus i ett lugnt och barnvänligt område på Hisingen.\n\nHuset erbjuder ca 143 kvm boarea samt en fullt användbar källare, totalt ca 220 kvm fördelat över 3 plan. Här finns mycket generösa ytor och en flexibel planlösning som passar utmärkt för studenter och familj.\n\nBostaden består av:\n\n6 sovrum\n3 toaletter\nStort vardagsrum med fint ljusinsläpp\nKök i fungerande skick\nDusch och badkar\nUteplatser både fram och bak\nKällare med gott om förvaringsutrymme och extra rum\n\n\n\n📍 Läget:\n\n3 min gång till hållplats\nca 10 min gång till Backa skolan\nca 10 min till Backaplan och Bäckebol köpcenter\n5 min med bil till Selma Lagerlöfs Torg och Brunnsbo Torg\nca 15 min till centrala Göteborg\n\nFiber finns indraget.\n\nHyres antingen till en familj eller studenter. \n6 sovrum finns, 1 på entre plan, 3 på övre plan och 2 i källaren.\n\nHyra för dom små rummen ( ett på övre plan och ett på entre plan): 4500\nHyra för dom stora rummen ( övre plan ) : 5500\nHyra för dom stora källar rummen ( källar plan ) : 5000\nHyresvillkor:\n\nHyra: 23 900 kr/mån (kallhyra för familjer)\nStudenter se ovan.\nUthyrningstid: 1 år med möjlighet till förlängning\nTillträde: tidigast 23e Juli\n\nHyrs ut till seriösa hyresgäster.\n\nBostaden hyrs ut delvis möblerad (vitvaror samt viss möblering). Möbler kan tas bort vid behov.\n\nVid intresse – skicka gärna en kort presentation av er själva.",
-    "district": "Hisings Backa",
-    "rooms": 8.0,
-    "area_m2": 220.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Inägogatan, Göteborg",
-    "url": "https://qasa.com/p/1414061",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56d4d86bcf61ee4f2ccda7a488e3233f2117f4f78ed85fe4b8a0b73ed754b9b0.jpg",
-    "description": "Min lägenhet ligger i ett lungt område med närhet till kollektivtrafik. Du tar dig in till centrala göteborg på 15 min. Jag hyr ut ett av rummen i en tvårumslägenhet. Du har tillgång till kök och badrum. Rummet är möblerat med säng, skrivbord och förvaring. \n\nJag har tidigare hyrt ut rummet till studenter och det har funkat väldigt bra. Jag hyr endast ut till tjej. \n\nI hyran ingår, el, vatten och internet.\n\nJag bor i det andra rummet i lägenheten. Arbetar som lärare och har en liten hund. \n\nMy apartment is located in a quiet area close to public transport; you can reach central Gothenburg in 15 minutes. I am renting out one of the rooms in a two-room apartment. You have full access to the kitchen and bathroom. The room is furnished with a bed, a desk, and storage space.\n\nI have previously rented the room to students and its worked very well. I only rent out the room to a female. \n\nThe rent includes electricity, water, and internet.\n\nI live in the other room of the apartment. I work as a teacher and have a small dog.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 4800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T06:25:06+00:00", "clock": "06:25:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T08:35:58+00:00", "clock": "08:35:58"};
