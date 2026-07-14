@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilla Björsaredsvägen, Olofstorp",
+    "url": "https://qasa.com/p/1415092",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba22946f64d9ce0815bf688ba16fd4c2f8afca728924f3b432e4c78afe4c7df5.jpg",
+    "description": "Känn dig som hemma – perfekt för längre vistelser\n\nVälkommen till ett bekvämt och fullt utrustat boende där du kan trivas under en längre tid. Oavsett om du flyttar till området för arbete, studier eller bara vill ha ett lugnt och bekvämt hem under en period, är denna lägenhet utformad för att ge dig en enkel och bekymmersfri vardag.\n\nLägenheten är ljus, modern och välplanerad med allt du behöver för att känna dig hemma från första dagen. Här finns ett fullt utrustat kök där du enkelt kan laga dina egna måltider, en bekväm vardagsrumsdel för avkoppling, snabbt Wi-Fi för arbete eller studier samt en trivsam sovplats som ger god komfort varje natt.\n\nBoendet passar perfekt för:\n\n* Företag och konsulter på tillfälliga uppdrag\n* Studenter\n* Gästforskare och projektanställda\n* Personer mellan två boenden\n* Långtidsturister och digitala nomader\n* Par eller ensamresenärer som söker ett bekvämt hem under en längre period\n\nDet här ingår\n\n* Fullt möblerad lägenhet\n* Fullt utrustat kök\n* Snabbt och stabilt Wi-Fi\n* TV\n* Tvättmöjligheter\n* Fräscha sängkläder och handdukar vid inflyttning\n* Gott om förvaringsutrymmen\n* Ett lugnt och tryggt område\n\nLägenhetens läge gör det enkelt att ta sig till arbete, universitet, restauranger, mataffärer och kollektivtrafik. Här får du det bästa av två världar – ett lugnt hem att koppla av i och närhet till allt du behöver i vardagen.\n\nVi värdesätter våra gästers trivsel och söker hyresgäster som uppskattar ett rent, välskött och lugnt boende. Vår ambition är att du ska känna dig lika hemma här som i ditt eget hem.\n\nVi ser fram emot att välkomna dig och hoppas att du kommer att trivas hos oss under din vistelse.",
+    "district": "Olofstorp",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stubbeledsgatan, Göteborg",
     "url": "https://qasa.com/p/1415050",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergöksgatan 1C, Västra Frölunda",
-    "url": "https://qasa.com/p/1414805",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/2c1a86dbc7e8c7e7aba79afc4433d6b70dbb31154eacf22742670e484b6b7615.pdf",
-    "description": "Välkommen till Lergöksgatan 1C!\nHär kommer du att bo i en välplanerad 2 rums lägenhet om 55kvadratmeter.\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin, induktions häll, inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas samt en kombinerad tvätt och torktumlare. \nLägenhetsförråd finns. \n\nDå ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på bilder samt planritning kan förekomma. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 11560,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T22:15:00+00:00", "clock": "22:15:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T23:13:49+00:00", "clock": "23:13:49"};
