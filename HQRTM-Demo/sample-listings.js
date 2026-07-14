@@ -3,9 +3,24 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skummjölksgatan, Göteborg",
+    "url": "https://qasa.com/p/1414568",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f3cae6c1d52fc2d1b6ac3c4ae1eb4b4df0b94bf285a6e2d0e7bb6d5f3b7eb035.jpg",
+    "description": "Hej!\n\nVi hyr ut vår fina och nyproducerade 2:a på 55 kvm i Kallebäcks Terrasser.\n\nLägenheten är modern och välplanerad med öppen planlösning, stora fönster och ett härligt ljusinsläpp. Den stora balkongen sträcker sig längs nästan hela lägenheten och ger gott om extra utrymme under årets varmare månader. Lägenheten hyrs ut omöblerad och har gott om förvaring.\n\nKöket är fullt utrustat med bland annat diskmaskin, mikrovågsugn och induktionshäll. I lägenheten finns även tvättmaskin, torktumlare och handdukstork.\n\nOmrådet är modernt och trivsamt med busshållplats precis utanför huset. Restauranger, caféer, mataffär, gym, apotek, vårdcentral och annan service finns alldeles i närheten. Delsjöområdet och Lackarebäcksberget ligger nära för promenader, löpning och bad, och det är cykelavstånd till centrala Göteborg. I området finns även en gemensam innergård med pergola, grillplatser och cykelförråd.\n\nI hyran ingår värme, internet och ett grundutbud av tv-kanaler. El samt varm- och kallvatten debiteras separat varje månad efter faktisk förbrukning genom individuell mätning.\n\nVi hyr ut lägenheten eftersom vi flyttar till Stockholm på grund av jobb. Uthyrningen gäller i ett år, med möjlighet till förlängning i ytterligare ett år.\n\nEftersom det är en andrahandsuthyrning behöver hyresvärden godkänna den som ska hyra lägenheten.\n\nFastigheten är rökfri och rökning är därför inte tillåten i lägenheten, på balkongen eller i gemensamma utrymmen.\n\nVi har verkligen trivts här och hoppas hitta någon som kommer att uppskatta lägenheten lika mycket som vi har gjort. Berätta gärna lite om dig själv i din intresseanmälan, så hoppas vi att vi hörs snart!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 13340,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kometgatan 13, Göteborg",
     "url": "https://qasa.com/p/1414590",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/772c18c3ddf2b90ca71e57b72519dc98b36046d10bcdce5543d3415031b63fbb.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b76f680185c7ea03d2c64cc2297a1af35fd9249f021a980d410f9923e25ada6c.jpg",
     "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
     "district": "Göteborg",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmegatan 24, Göteborg",
-    "url": "https://qasa.com/p/1414474",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0dd130303bd11631762fedb98036f57e0fa28c0fd428f1cb57e32e3aa9025a0d.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom planritning och exempelbilder.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna tvåa! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 6590,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T10:22:31+00:00", "clock": "10:22:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-14T11:51:50+00:00", "clock": "11:51:50"};
