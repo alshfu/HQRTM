@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Richertsgatan, Göteborg",
+    "url": "https://qasa.com/p/1415559",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e566d707a7616103eceb3d6f95afad429298971afce6b3c66167cd3c1171960d.jpg",
+    "description": "Välkommen till denna otroligt ljusa och välplanerade funkislägenhet om 58 kvm med 2 rum och kök, belägen i hjärtat av attraktiva Johanneberg. Här bor du i en genomgående bostad med en harmonisk planlösning där kök och sovrum vetter mot grönskande omgivningar, vilket skapar en lugn och avskild atmosfär. Från sovrummet nås dessutom den härliga balkongen – en perfekt plats för morgonkaffet eller en stunds avkoppling.\n\nDet rymliga vardagsrummet vetter mot gatan och erbjuder generösa ytor för både en stor soffgrupp och en separat matplats, vilket gör bostaden lika trivsam för vardagsliv som för sociala tillställningar. Lägenheten präglas av stora fönster, fint ljusinsläpp och den tidstypiska funkischarmen.\n\nHär finns också gott om förvaringsmöjligheter som bidrar till ett praktiskt och bekvämt boende.\n\nLäget är svårslaget – med endast en kort promenad till Götaplatsen och stadens rika utbud av restauranger, kultur och shopping. Precis utanför huset finns busshållplats med smidiga förbindelser i båda riktningarna, vilket gör det enkelt att ta sig runt i Göteborg.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 9439,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skillingmyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1400677",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9cb54784bd61defc260115780025e878a756e59b2720b8bc7de3140cdbb98bbc.jpg",
+    "description": "Hyr ut min 1a på 35 kvadrat på max 1 års tid från 14 september 2026. \nLägenheten ligger på bottenplan, är funktionsanpassad och har stor, fin uteplats.\n\nHuset är byggt 2022, och har modernt kök med induktionsspis, varmluftsugn och inbyggd micro.  Lägenheten har även stort badrum med plats för tvättmaskin. \nI fastigheten finns stora gemensamhetsytor, t.ex bokningsbar takterrass med bl a el-grillar samt en stor bokningsbar lounge.\nI området finns även hyrbilspool avsedd endast för områdets boende. \nOmrådet ligger vid Västra kyrkogården, bara 10 minuters promenadavstånd till Axel Dahlströms Torg och 15 minuter till Majorna. Det går även regelbundet bussar både ut till Lindholmen och in till centrum (hållplats Sjupundsgatan).\n\nLägenheten hyrs ut delvis möblerad. Vid hyresperiodens början tas även ut en depositionsavgift på en månads hyra, som återbetalas vid hyresperiodens slut.\nRökförbud råder i hela bostadsområdet, och som hyresgäst förväntas du även att vara skötsam.\nOm detta verkar intressant, eller om du kanske känner någon intresserad, hör gärna av dig via PM så tar vi det därifrån.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 8500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långströmsgatan, Göteborg",
     "url": "https://qasa.com/p/1415605",
     "image_url": null,
@@ -21,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Nolebrunnsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1415590",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca3109aacc3c166473c387fe0f32399fec7b528e482bd5128ccf4ccbe903bc5c.jpg",
-    "description": "Hej,\n\nJag har ett nyrenoverat småhus (enplans) i anslutning till min trädgård i ett lugnt å trevligt område i Påvelund. \nNuvarande hyresgäst har kontrakt till sista augusti men han kan flytta ut 9:e augusti så boendet är tillgängligt from. 11:e augusti. \n\n* Helt nyrenoverat\n* Nylagt ekparkettgolv\n* Modernt kök med kyl/frys och induktionshäll + mikro\n* Helkaklat badrum med dusch och golvvärme\n* Tvättmaskin\n* Fullt möblerat med soffa, TV-bord, 120 cm säng och vitrinskåp (och matta), men om du föredrar omöblerat så går det att lösa också.\n* 40 tums TV + bredband + el (enligt normal konsumtion) ingår i hyran\n* Naturskönt och lugnt område, utan trafik och buller, närhet till två skogar i både västlig och östlig riktning.\n* En dörr ut mot gatan och en in mot trädgården. Tillgång till poolen i trädgården går säkert att ordna enligt överenskommelse.\n* Fri parkering på gatan\n* Gångavstånd till hållplats Beryllgatan där buss X5 kör till Järntorget på ca 8 min. (Därefter hållplatserna Stenpiren, Brunnsparken)\n\nStorlek 27 kvm, hyra 6 500 kr eller ev. högstbjudande. Vid seriöst intresse kan jag skicka bilder. ",
+    "description": "Hej,\n\nJag har ett nyrenoverat småhus (enplans) i anslutning till min trädgård i ett lugnt å trevligt område i Påvelund. \nNuvarande hyresgäst har kontrakt till sista augusti men han kan flytta ut 9:e augusti så boendet är tillgängligt from. 11:e augusti. \n\n* Helt nyrenoverat\n* Nylagt ekparkettgolv\n* Modernt kök med kyl/frys och induktionshäll + mikro\n* Helkaklat badrum med dusch och golvvärme\n* Tvättmaskin\n* Fullt möblerat med soffa, TV-bord, 120 cm säng och vitrinskåp (och matta), men om du föredrar omöblerat så går det att lösa också.\n* 40 tums TV + bredband + el (enligt normal konsumtion) ingår i hyran\n* Naturskönt och lugnt område, utan trafik och buller, närhet till två skogar i både västlig och östlig riktning.\n* En dörr ut mot gatan och en in mot trädgården. Tillgång till poolen i trädgården går säkert att ordna enligt överenskommelse.\n* Fri parkering på gatan\n* Gångavstånd till hållplats Beryllgatan där buss X5 kör till Järntorget på ca 8 min. (Därefter hållplatserna Stenpiren, Brunnsparken)",
     "district": "Västra Frölunda",
     "rooms": 1.0,
     "area_m2": 27.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Universumsgatan 22, Göteborg",
-    "url": "https://qasa.com/p/1415614",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/68781f8b17e29c7b083f25061bfe54f91416f63dca57ff464a6ed2c6695b8dc7.pdf",
-    "description": "Välkommen hem till Bergsjö Höjd!\nHär kan vi nu erbjuda en välplanerad 2 rum och kök från 2022 med öppen planlösning och ljusa materialval. Lägenheten är på 55 kvm och är försedd med en rymlig balkong. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\n\nI lägenheten finns följande:\n-Diskmaskin \n-Mikrovågsugn  \n-Kombinerad tvättmaskin och torktumlare \n-Förråd i källaren\n\nVisning av lägenheten erbjuds inte utan den kommer visas enligt planritning. Bilder i annonsen är exempelbilder och avvikelser kan förekomma. Normalt slitage kan förekomma i lägenheten.\n\nI hyran som marknadsförts ingår inte kostnad för värme, el och vatten. Värme är uträknat enligt schablon och kostnaden för el och vatten kommer att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkering finns att hyra i mån av plats ca 5 minuter från bostaden.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 8313,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Universumsgatan 22, Göteborg",
-    "url": "https://qasa.com/p/1415611",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/1d5957b843226d4efff1388c4b5615d4bf7f0f9e1b7e46cd518bc3a948ee4e23.pdf",
-    "description": "Välkommen hem till Bergsjö Höjd!\nHär kan vi nu erbjuda en välplanerad 2 rum och kök från 2022 med öppen planlösning och ljusa materialval. Lägenheten är på 55 kvm och är försedd med en rymlig balkong. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\n\nI lägenheten finns följande:\n-Diskmaskin \n-Mikrovågsugn  \n-Kombinerad tvättmaskin och torktumlare \n-Förråd i källaren\n\nVisning av lägenheten erbjuds inte utan den kommer visas enligt planritning. Bilder i annonsen är exempelbilder och avvikelser kan förekomma. Normalt slitage kan förekomma i lägenheten.\n\nI hyran som marknadsförts ingår inte kostnad för värme, el och vatten. Värme är uträknat enligt schablon och kostnaden för el och vatten kommer att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkering finns att hyra i mån av plats ca 5 minuter från bostaden.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 8313,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-15T16:43:51+00:00", "clock": "16:43:51"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-15T17:57:38+00:00", "clock": "17:57:38"};
