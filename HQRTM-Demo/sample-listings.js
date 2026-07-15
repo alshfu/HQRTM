@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Backadalsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/905677",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bc0dbee69eeccadde2914d2c00c9dc416f5d3c2576328eb4c8c584cd304b26ce.jpg",
+    "description": "Studentrum/ övernattningsrum\n Det är ett rum ledigt i ett stor villa, det bor totalt 8 personer inklusive dig som delar badrum, toalett, kök, tvättstuga.   Ni har egen ingång via hall/ trappa. Ni har eget  fack i kyl och frys. Eget skåp i köket. Kök utrustat med alla bekvämligheter.  El. vatten, fiber ingår.  Gräsmatta med möjlighet till att grilla utomhus.\n\nRummet är trevligt möblerat med soffa, säng, garderob och skrivbord.  Rummet är avsett för en person. \n\n Lämna era uppgifter och berätta vem ni är så hör jag av mig. Rummet är bara avsett för en person , ingen rökning inne och inga fimpar ute.  \n\n",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Västra Arödsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/433649",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d949855d448f290d2ad475f1887a1426b1fd21cbc1d7b7d45f3673eb5456f5a2.jpg",
+    "description": "Studentrum/ övernattningsrum\nDet är ett rum ledigt i tvåfamiljshus, det bor totalt 4 personer som delar badrum, toalett, kök, tvättstuga.  Detta rummet ligger på andra våningen, har egen ingång via hall/ trappa. Ni har eget  fack i kyl och frys. Eget skåp i köket. Kök utrustat med alla bekvämligheter. El,vatten, fiber ingår.\nStor gräsmatta med möjlighet till att grilla\n\nRummet är trevligt möblerat med soffa, säng garderob och skrivbord. \n\n Lämna era uppgifter och berätta vem ni är så hör jag av mig. Rummet är bara avsett för en person , ingen rökning inne och inga fimpar ute. \n",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Björsaredsvägen, Olofstorp",
     "url": "https://qasa.com/p/1415092",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba22946f64d9ce0815bf688ba16fd4c2f8afca728924f3b432e4c78afe4c7df5.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bangatan, Göteborg",
-    "url": "https://qasa.com/p/1414709",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fb548729e6ee9ff47e479a1395a48776081c045ccbeb81a82336ead37d311581.png",
-    "description": "Perfekt läge med 5min till Stigbergstorget, Masthugget, Majorna och Linné. \n\nLägenheten i sig har många garderober med bra möjligheter till förvaring. Det är ett stort vardagsrum och från vårt sovrum finns en liten balkong. I köket finns diskmaskin samt fullstor kyl och frys. Gästrummet använder vi idag både som gästrum och garderob. \nBadrummet är uppdelad i två rum varav ena är med handfat + toalett och det andra är tvättstuga med handfat, tvättmaskin, torktumlare och dusch! \n\nParkeringen är en egen p-plats i låst garage under lägenhetshusen. Ett tillhörande  källarförråd på ca 3x2 m2 finns i samma byggnad och kommer tömmas och vara fritt för användning! \n\nLägenheten hyrs ut möblerad och i hyran ingår värme, vatten, wifi och parkering. Eget elavtal och egen hemförsäkring tillkommer utöver. \n\nVi letar efter 1-3 personer som vill ta hand om vårt hem under viss period. Vi ska bosätta oss på Gotland och visar det sig att vi trivs finns möjlighet till förlängning även efter 30 juni! \n\nDet är något som gör att jag just nu inte kan ladda upp fler bilder så skriv vid intresse så finns det! \n\nAllt gott,",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 81.0,
-    "rent": 15500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tamburingatan 3, Västra frölunda",
-    "url": "https://qasa.com/p/1414816",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/9a92384c932f3555307128aaa91646bcff25e118953d6779b551028b3dafc6d5.pdf",
-    "description": "Välkommen till Tamburingatan 3!\nHär kommer du att bo i en välplanerad 3 rums lägenhet om 80 kvadratmeter.\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin, två rymliga kyl och frys, induktions häll, inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.  \nLägenhetsförrådet finner ni i lägenheten. \n\nOBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på planritning kan förekomma.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. \n\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-15T03:30:31+00:00", "clock": "03:30:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-15T05:56:13+00:00", "clock": "05:56:13"};
