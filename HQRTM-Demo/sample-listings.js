@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Garverigatan, Göteborg",
+    "url": "https://qasa.com/p/1398889",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cbdad0b0229d8e848ce7120c14fb6af62f6ef702a610764baf81eb4563a6ca6f.jpg",
+    "description": "En fantastisk lägenhet som jag har renoverat en hel del själv eftersom jag är fastighetstekniker och allmänt händig. \nDetta gör att precis hela lägenheten är i toppskick.\n\n• Fullutrustad med allt från strykjärn, hårtork och allt som behövs för städning och rengöring. Och köket har allt man behöver och lite till såsom tex kaffebryggare.\n•Verktygslåda mm mm.\n\n• Generöst med garderober plus en stor byrå för kläder i sovrummet och många förvaringsutrymmen utrymme mellan kök och hall.\n\n• I lägenheten ingår bla 65\" TV + extra ljudanläggning vardagsrum.\n55\" TV sovrum. \n• 2 balkongstolar + bord\n•I köket har jag installerat en egen exklusiv spis/ugn med många smarta funktioner. \n• Vissa mindre personliga prydnadssaker kommer avlägsnas men inget som påverkar standarden eller funktionalitet. \nDetta ger utrymme för lite .er personlig touch. \n•Sängen är 180*200.\n•Mysig innergård där man kan grilla där det finns bänk och stolar. \n•Även ett cykelställ med tak. Gården är låst med grind.\n•Parkering finns att hyra för 700kr och ingår ej i hyran då jag inte har en sådan i dagsläget. \n• El och bredband ingår i hyran.",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 64.0,
+    "rent": 10482,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Marstrandsgatan, Göteborg",
     "url": "https://qasa.com/p/1415406",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9908875922901fb0267d05f5b56a220455e38be9d38c7c5a744516047eb12e73.jpg",
@@ -63,48 +78,33 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Arkivgatan, Göteborg",
-    "url": "https://qasa.com/p/1415387",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2484eecbd4cf13a6db5da3f2959ded881a80dc2d8af56eacda6e1b48a6c4c6e0.jpg",
-    "description": "Rum att hyra kortare perioder för en person. Finns eget kylskåp/frys och skafferi. Rummet har öppen garderob och goda förvarings möjligheter. TV med crome cast, 120 säng, och skrivbord. WiFi och städning ingår  med viss egen städning i egna rummet. Rummet är mot inne gården och i anslutning till det gemensamma köket. Finns 2 toaletter en med dusch. Egna badrumsskåp, hyllor och krokar. Rummet är på ca 7kvm. För 1 person, ej rökning eller husdjur. Integritet och gott uppförande är självklart. Förutom mig själv, halvtids arbetande egen företagare, man på 65,  i särboförhållande med Berit, som bor ibland. Välkommen med frågor.",
+    "title": "Ljusstöparegatan 10, Göteborg",
+    "url": "https://qasa.com/p/1415495",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/15c91668b32fac6c56eafdffa6154aae8a25bce06885988284d26a962a34af59.jpg",
+    "description": "Studentrummet är delvis möblerat och är ett rum i en villafastighet. Här bor totalt 10 st studenter och alla har var sitt rum. Det är gemensamt kök, uteplats och trädgård samt 3 wc/dusch. 10 minuters väg till Chalmers och 15 minuters gångväg till Avenyn. I närområdet finns affärer och kollektivtrafik. ",
     "district": "Göteborg",
     "rooms": 1.0,
-    "area_m2": 7.0,
-    "rent": 4700,
+    "area_m2": 17.0,
+    "rent": 6095,
     "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Utlandagatan 31, Göteborg",
+    "url": "https://qasa.com/p/1415492",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/321c4d4fcf28cac542aae11da9b8d13aa48b80995eb9bf236557c7dfb7f37266.jpg",
+    "description": "Området Krokslätt ligger centralt med gångavstånd till Chalmers och det tar bara 15 minuter att gå in till Avenyn. Rummet ligger i bottenvåningen av ett fyravåningshus och man bor 4 studenter med ett gemensamt utrustat kök. Inne i rummet är det möblerat och varje rum har eget kyl/frys och wc/dusch. \n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 17.0,
+    "rent": 5201,
+    "floor": 0,
     "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Universumsgatan 24, Göteborg",
-    "url": "https://qasa.com/p/1415357",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/584b0d52aa3ceaa5b94550cd41d701f216bea2528a14814202881360d461ea76.pdf",
-    "description": "Välkommen hem till Bergsjö Höjd! \n \nHär erbjuds en ljus och välplanerad lägenhet om 38 kvm, byggd 2022, med öppen planlösning och moderna materialval. \n \nFrån köket finns utgång till en rymlig balkong som passar bra för att njuta av frisk luft eller en kopp kaffe. Köket är utrustat med diskmaskin och mikrovågsugn, och i badrummet finns en kombinerad tvättmaskin och torktumlare som underlättar vardagen.  \n \nTill lägenheten hör även ett förråd i källaren.  \n \nI hyran som marknadsförts ingår inte kostnad för el och vatten då du betalar för din faktiska förbrukning.  \n  \nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 6424,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prospect Hillgatan, Göteborg",
-    "url": "https://qasa.com/p/1415053",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b25c21a67264317d95d5621c90af268adb3391778f22511299e512bc3dccbec.jpg",
-    "description": "Välkommen till charmig sekelskiftesvilla med panoramautsikt över hela Göteborg. Ett rum erbjuds med fri tillgång till gemensamt kök och badrum, uteplats och tvättstuga. Hyran inkluderar el, vatten, värme, sophämtning, internet. Gratis parkering finns på gatan i direkt anslutning till fastigheten. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-15T11:53:18+00:00", "clock": "11:53:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-15T13:26:18+00:00", "clock": "13:26:18"};
