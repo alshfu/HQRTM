@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Turkosgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1416479",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a097d263df781db75a7defdecf2d84349a34c13b042653eaee8380b9819b6986.png",
+    "description": "Tre rum och kök uthyras bilderna är innan renoveringen det är tre rum och kök med dörr badrum med badkar och nya kylskåp och frys nya parkett ",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Guldkällegatan, Göteborg",
     "url": "https://qasa.com/p/1416467",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8b82ccf669580b1323dff18ca3155489946af033ac511f04b3610fddfc2910c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tröskaregatan, Göteborg",
-    "url": "https://qasa.com/p/1416225",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/569742bb56c451f7b78a6076fe46608669103efb1109d6918f6081e54848b8b5.jpg",
-    "description": "-Lämpas för studenter.\nRenoverat utrymme på ca 12m2 uthyres till en person.\n- 5 950 á månad vid minst 3 månader.\n- 5 500kr á månad för veckopendlare (3-4 nätter i veckan, ej helger).\n- 7 300kr á 1+1 månad.\nDeposition för 1 månad krävs vid inflytt.\nEndast för en person.\n\nService avgiften från Blocket Bostad x Qasa läggs inte till.\n\nDet finns ej rinnande vatten i rummet. Toalett samt bad finns i huvudbyggnaden och delas med en annan hyresgäst.\n\nKommunikation från Wieselgrensplatsen:\nHjalmar brantingsplatsen: 3 minuter\nCentralstation: 6 minuter\nBrunnsparken: 7 minuter\nChalmers: 16 minuter\nLindholmen: 25 minuter\n\nIngår: -städartiklar tvättstugan ink tvättmedelartiklar\n- värme, vatten och el\n- wi-fi\n- eget kylskåp med frysfack\n- micro\n- vattenkokare\n- kaffemaskin\n- porslin och bestick\n- 1 set sänglinnen\n- handduk och diskhandduk\n- induktionsplatta\nKök för större tillagning samt dusch och toalett finns tillgängligt i huvudbyggnaden.\n\nÖnskemål:\n- ingen rökning eller djur\n\n-----------------------\n\nSuitable for students.\nRenovated space of approximately 12m2 for rent to one person.\n5,950 SEK per month for a minimum of 3 months.\n5,500 SEK per month for weekly commuters (3-4 nights a week, excluding weekends).\n7,300 SEK for a 1+1 month lease.\n\nService fee from Blocket Bostad x Qasa will not be added.\nDeposit equivalent to 1 month's rent required upon move-in.\nThere is no running water in the room. Toilet and bath facilities are available in the main building and shared with another tenant.\n\nCommunication from Wieselgrensplatsen:\nHjalmar Brantingsplatsen: 3 minutes\nCentral Station: 6 minutes\nBrunnsparken: 7 minutes\nChalmers: 16 minutes\nLindholmen: 25 minutes\n\nIncluded:\n\nCleaning supplies in the laundry room including laundry detergent\nHeating, water, and electricity\nWi-Fi\nPersonal refrigerator with freezer compartment\nMicrowave\nKettle\nCoffee machine\nTableware and cutlery\n1 set of bed linen\nTowel and dish towel\nInduction hotplate\nKitchen for larger cooking and shower and toilet facilities are available in the main building.\n\nPreferences:\n\nNo smoking or pets",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5950,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T20:44:32+00:00", "clock": "20:44:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T21:47:59+00:00", "clock": "21:47:59"};
