@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Örebrogatan, Göteborg",
+    "url": "https://qasa.com/p/1416333",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75e67ed8093779af75d7153c664db758d4132c2a58ff0cfe7013d9fe6177fcb0.jpg",
+    "description": "Ett eget mysigt fristående relativt nybyggt hus i två våningar. Två badrum med dusch och toalett i varje badrum. Öppen planlösning på bottenvåning med kök och vardagsrum. Vardagsrummet har stora fönster från golvet och dörr ut till uteplatsen. Två sovrum på övre plan och badrum.  Bra förbindelse med spårvagn eller buss till centrum. Endast en minuts gångavstånd till spårvagn och buss. Fullt möblerat hus, el, värme och internet ingår. Vi bor i stora huset på samma tomt. ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 18000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Götaverksgatan, Göteborg",
     "url": "https://qasa.com/p/1416322",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c7f8cd9fd36c3e7cd651cc766566647aa4002b31a7ba8f8956085ad6c1965af.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bjurslätts torg 4, Göteborg",
-    "url": "https://qasa.com/p/1416222",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8e0856eae19bc00e53adb9806181fdf1f0f2e07ab803559691a6a267e639912f.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med fräscha vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 9116,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T16:07:59+00:00", "clock": "16:07:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T17:39:12+00:00", "clock": "17:39:12"};
