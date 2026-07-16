@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Götaverksgatan, Göteborg",
+    "url": "https://qasa.com/p/1416322",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c7f8cd9fd36c3e7cd651cc766566647aa4002b31a7ba8f8956085ad6c1965af.jpg",
+    "description": "Götverksgatan 20\nDet är svårt att inte göra annat än att fullkomligen älska denna enastående och välplanerad 1:a med sovalkov (34,5 kvm) belägen med absolut bästa utsikt emot fina Göteborgs stad och en guldkant med vy mot Karlatornet , våningsplan 16 av 16. Här bor du helt utan insyn och från den rymliga balkongen får du fri utsikt mot Göteborgs stad, älvsborgsbron och den glittrande älven. Dessutom får du sol från förmiddag till kväll med fantastisk utsikt utan något som skymmer. Förutom att man skapat ett vackert hem, med magnifika sällskapsytor och otroligt mysig atmosfär, har man även lyckats få en funktionell, bekväm och avslappnande miljö.\n\nENTRÉN - HALL \nInbjudande hall genom säkerhetsdörr med gott om plats för avhängning av ytterkläder och skor bakom den rymliga skjutdörrsgarderoben. Väggarna är målade i härlig kulör och på\ngolvet finner ett vackert parkettgolv av ek som fortlöper enhetligt genom hela bostaden.\n\nKÖK \nStilrent och modernt kök från Marbodal. Lingröna släta luckor och laminat bänkskiva i ljus marmor som lyses upp av spotlights. Maskinparken består utav rostfri kyl/frys, induktionshäll, fläktkåpa, inbyggd varmluftsugn och inbyggd mikro samt integrerad\ndiskmaskin. Samtliga vitvaror är av märket Siemens.\n\nVARDAGSRUM MED UTGẢNG TILL BALKONG \nSocial och öppen planlösning mellan kök och sovrum/ vardagsrum. Vackert parkettgolv och väggar i vitt samt elegant fondvägg i lindblomsgrön kulör som tillsammans med fönster och balkongdörrar ger ett härligt ljus i lägenheten. Balkong med en enastående utsikt frản vảning 16 som blickar ut över Göteborg stad.\n\nBADRUM \nStort badrum med ljusgrått klinkergolv och vita kaklade väggar. Utrustningen bestar utav wc, handfat med kommod, spegelskảp, handdukstork samt dusch med vikbara dörrar. Praktisk tvättavdelning med kombinerad tvättmaskin och torktumlare. Snygg belysning via inbyggda spotlights i taket.\n\nOMRÅDET\nDirekt anslutning till bostaden finns ett flertal bussar som tar dig till centrala Göteborg på ca 10 min. Utöver bussarna har du också gratis färja som tar dig över älven på 5 minuter. Närhet till Lindholmen Science Park. Även här finns Chalmers, Göteborgs Universitet och flertalet gymnasieskolor. Gångavstånd till mataffär (ICA), gym, restauranger, barer och kaféer.\n\nKONTRAKT\nUthyres pga studier på annan ort.\nLägenheten hyrs ut årsvis och är tillgänglig från 11 september. Går att förlänga vid överenskommelse.\nLägenheten hyrs ut fullt möblerad inklusive tv (65 tum).\nSängstommen är 140 cm lång och har lådor till förvaring undertill. \nI köket ingår alla nödvändiga köksredskap. Såsom grytor, stekpannor, knivar, bestick, glas och tallrikar + dammsugare.\nMörkläggande plissegardiner på balkong och fönster.\nAvgift för el och vatten ingår\nbredband från Telia ingår. \n\nHör av er vid intresse för visning. \nReferenser tas före kontraktsskrivning. \nHälsningar,  Jan Nilsson",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 12600,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kullegårdsvägen, Göteborg",
     "url": "https://qasa.com/p/1416171",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ad939251ddd79783b88d9a176331fa10b95f6e5f0430a8c3ffbac73f8727be8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 4B, GÖTEBORG",
-    "url": "https://qasa.com/p/1416157",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/5212be61ba0f26d688e332d8d24bf792352057032f03fb6cb8b42d2fab442a70.pdf",
-    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 3 rum och kök på 83 kvm, belägen på våning 2 på Långströmsgatan 4 B.\n\nHär erbjuds ett modernt boende med ljusa ytskikt och väl genomtänkta materialval. Lägenheten har dessutom bra med förvaringsutrymmen.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset för extra förvaring.\n\nHyra: 12 413 kr/månad\nInflyttning: 2026-11-01\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat Kö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 12413,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T14:50:25+00:00", "clock": "14:50:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T16:07:59+00:00", "clock": "16:07:59"};
