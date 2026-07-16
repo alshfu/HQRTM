@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Näverlursgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1416383",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2bf639ec120aee35fccc9c469166afb101626fea3fdbb3a2389885d04bc4d6fb.jpg",
+    "description": "Då vår nuvarande inneboende flyttar ut söker vi någon ny som känns trygg att dela lägenhet med. Vi önskar hyra ut till en kvinna.\n\nHyr ut ett sovrum (Sovrum 1 på planlösningen) i vår 115 kvm stora femma. Rummet är möblerat med en stor säng och klädförvaring, bokhylla, bord och stol. Sängen är inte bäddad på bilderna men det finns såklart täcke och kuddar och allt. Möbleringen kan anpassas om det behövs. Internet går att få både trådat och trådlöst. Det tillkommer inga fler kostnader för dig som hyr.\n\nDu kommer också ha tillgång till alla gemensamma rum såklart såsom två toaletter,  badrum med dusch och tvättmaskin och torktumlare, kök, vardagsrum.\n\nHär bor vi två vuxna och tre barn. Barnen är 6, 11 och 13 år gamla. Vi gillar bland annat att spela dator-/TV- och brädspel och baka kakor. 😀\n\nLägenheten ligger väldigt nära Frölunda torg med buss- och spårvagnshållplats. Det ingår ingen parkeringsplats.\n\nHyr ut för att spara pengar (För perspektiv så är hyran för hela lägenheten 15100 kr). \nVeganer har förtur 🌱",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5689,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Örebrogatan, Göteborg",
     "url": "https://qasa.com/p/1416333",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75e67ed8093779af75d7153c664db758d4132c2a58ff0cfe7013d9fe6177fcb0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ögontröstgatan 4A, GÖTEBORG",
-    "url": "https://qasa.com/p/1416223",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf7830a17844edb2dae9186a4598bff59ba342b0549da08ac72fcad00d1e1506.png",
-    "description": "Välkommen hem till Ögontröstgatan! \nHär ges möjlighet att hyra en lägenhet på Ögontröstgatan 4 A, 3 ROK på 89 kvm. En ljus och välplanerad bostad med avtalstid från 1 Oktober. \n\nTidigare inflytt är möjligt.\n\nHyran för 2026 ligger på 12 986kr/mån. I lägenheten finns fina trägolv och god förvaring. Lägenheten är placerad på bottenvåning och har en sprialtrappa ner till källarvåningens rum. På husets baksida finns en stor gräsyta med grillplats. \nLägenheten har en äldre standard och hyrs ut i befintligt skick. Lägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig\r\n\r\nOMGIVNING\r\nHär bor du i området Kvillebäcken på Hisingen med närhet till Backaplan Köpcentrums butiker och mataffärer. I närheten finns också härliga naturområden med långa promenadslingor.\r\n\r\nKOMMUNIKATIONER\r\nFrån hållplatserna Swedenborgsplatsen och Björnsonsgatan är du inne i centrum på drygt 10 minuter. Med bil tar du dig smidigt över Hisingsbron och befinner dig mitt i stan på några minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 89.0,
-    "rent": 12986,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T17:39:12+00:00", "clock": "17:39:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T18:47:05+00:00", "clock": "18:47:05"};
