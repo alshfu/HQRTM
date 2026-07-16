@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Saléns Gata, Göteborg",
+    "url": "https://qasa.com/p/1416023",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d9d72b8c9b354e2f90906f2828158f866bc888e6bb142c831f31b24391e68d3.jpg",
+    "description": "Trevligt rum med stor balkong. Liten hall, toalett med handfat samt klädkammare.\nGångavstånd till buss och spårvagnen (Wavrinskys Plats), Chalmers, Sahlgrenska, centrum och torg med butiker.\nVi delar kök och badrum.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hjällbogärdet, Angered",
+    "url": "https://qasa.com/p/1416011",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d33770c9af4c75ad95dc9eb98031b61dadd69f6b6963f3ec2cdb4f8485f742b8.jpg",
+    "description": "Hej!\nJag hyr ut en fantastiskt 3a på 71 kvm med ett stort vardagsrum samt stor balkong. Hyran ligger på 12.000kr/månad där väldigt mycket ingår.\nI hyran ingår El , vatten , värme , beredband , samt tv paket via telia.\nLägenheten har nya fräscha golv på hela lägenheten samt badrummet är helt nytt renoverad. Lägenheten hyrs ut omöblerad.\nDet är ett fantastiskt områgde med väldigt trevliga grannar\nAdress hjällbogärdet 36 \ninflyttning sker from 1 oktober \nHusdjur är ej tillåtet i lägenheten samt rökning är ej tillåtet.\nunder uthyrningen skiver vi ett kontrakt som trygghet för dig och mig.\nFör mer info skriv Pm hade gott så länge!\n",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 71.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tofsvipegatan, Hisings Backa",
     "url": "https://qasa.com/p/1415947",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2321a164bbbe68b748155995ac699328f3d80bb722dfbc15a1708029faf44c4a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Meteorgatan 6, Göteborg",
-    "url": "https://qasa.com/p/1415894",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e95551735b3e5d616f0b83253d9b9237739691a105e3f5caa6dc37f0e9d8cf36.jpg",
-    "description": "OBS! Lägenheten renoveras och kommer därför inte att visas. \n\n *Bilderna är exempel för att visa ungefärligt skick och materialval - utgå alltså från planritningen*\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Bergsjön! Efter renovering kommer det vara ett modernt kök utrustat med rostfria vitvaror. Genomgående ekparkett med vinylklinker i hall och helkaklat badrum med förberedelse för tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 10509,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1415687",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ddd6be45a5e73a72181bc9033bebac07e0f80da45a0f1dc186c88149e7b7ef00.jpg",
-    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om boendet Villan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i lägenheten\n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T09:03:15+00:00", "clock": "09:03:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T11:07:54+00:00", "clock": "11:07:54"};
