@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Guldkällegatan, Göteborg",
+    "url": "https://qasa.com/p/1416467",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8b82ccf669580b1323dff18ca3155489946af033ac511f04b3610fddfc2910c.jpg",
+    "description": "Modern och rymlig lägenhet i Fixfabriken uthyres – 117 kvm med två balkonger\n\nVi hyr ut vår fina och moderna lägenhet i attraktiva Fixfabriken under perioden 1 september 2026 till 28 februari 2027.\n\nLägenheten är på hela 117 kvm och erbjuder ett bekvämt boende med genomtänkt planlösning, stora sociala ytor och mycket ljus tack vare sitt fina genomgångsläge. Här finns två balkonger där du kan njuta av både morgon- och kvällssol, med utsikt mot den lugna och grönskande innergården.\n\nBostaden har ett stilrent och välutrustat kök med en rymlig matplats som passar perfekt för middagar och umgänge. Här finns gott om plats för familj och vänner, samtidigt som lägenheten erbjuder en lugn och trivsam atmosfär.\n\nFör extra bekvämlighet finns egen tvättutrustning i lägenheten, generösa förvaringsmöjligheter och en rymlig klädkammare.\n\nHyra: 25 000 kr/månad\nI hyran ingår: allt – inklusive el, bredband och övriga löpande kostnader.\nParkering: möjlighet finns eventuellt att hyra parkeringsplats separat.\n\nFixfabriken är ett mycket omtyckt område med närhet till restauranger, caféer, butiker, grönområden och fina promenadstråk. Med goda kommunikationer tar du dig snabbt in till centrala Göteborg, samtidigt som havet och badplatser nås på cirka 10–15 minuter.\n\nVi söker en skötsam och ansvarsfull hyresgäst som kan uppvisa stabil inkomst och är utan betalningsanmärkningar.\nDeposition motsvarande två månadshyror tas ut vid avtalsskrivning.\n\nVälkommen att höra av dig med en kort presentation av dig själv och varför du söker boende.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 117.0,
+    "rent": 25000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Näverlursgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1416383",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2bf639ec120aee35fccc9c469166afb101626fea3fdbb3a2389885d04bc4d6fb.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skytteskogsgatan, Göteborg",
-    "url": "https://qasa.com/p/1415802",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2cf38d739360e8f423916592c7b514bfb2d2a9abf5dc3c0b364f45cadff08dc.jpg",
-    "description": "Möblerad Central tvåa bredvid slottskogen och Majorna. Nära till både trevliga restauranger, livsmedelsbutiker och grönområden. Nära till busscentrum, spårvagnar och botaniska trädgården.\n\nBalkongen ger utsikt över både Slottskogen och den lokala parken precis utanför i bostadsrättsföreningen. Det är en mycket ljus lägenhet med stora fönster och en inbjudande känsla.\n\nSkriv gärna om ni har några frågor :) finns möjlighet att få hyra med viss extra utrustning om önskat",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T19:51:04+00:00", "clock": "19:51:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T20:44:32+00:00", "clock": "20:44:32"};
