@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skytteskogsgatan, Göteborg",
+    "url": "https://qasa.com/p/1415802",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2cf38d739360e8f423916592c7b514bfb2d2a9abf5dc3c0b364f45cadff08dc.jpg",
+    "description": "Möblerad Central tvåa bredvid slottskogen och Majorna. Nära till både trevliga restauranger, livsmedelsbutiker och grönområden. Nära till busscentrum, spårvagnar och botaniska trädgården.\n\nBalkongen ger utsikt över både Slottskogen och den lokala parken precis utanför i bostadsrättsföreningen. Det är en mycket ljus lägenhet med stora fönster och en inbjudande känsla.\n\nSkriv gärna om ni har några frågor :) finns möjlighet att få hyra med viss extra utrustning om önskat",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan 4B, GÖTEBORG",
+    "url": "https://qasa.com/p/1416157",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/5212be61ba0f26d688e332d8d24bf792352057032f03fb6cb8b42d2fab442a70.pdf",
+    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 3 rum och kök på 83 kvm, belägen på våning 2 på Långströmsgatan 4 B.\n\nHär erbjuds ett modernt boende med ljusa ytskikt och väl genomtänkta materialval. Lägenheten har dessutom bra med förvaringsutrymmen.\n\nBostaden är utrustad med:\n\nBalkong\nDiskmaskin\nMikrovågsugn\nTvättmaskin\nTorktumlare\n\nLägenhetsförråd finns i huset för extra förvaring.\n\nHyra: 12 413 kr/månad\nInflyttning: 2026-11-01\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat Kö.",
+    "district": "GÖTEBORG",
+    "rooms": 3.0,
+    "area_m2": 83.0,
+    "rent": 12413,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Saléns Gata, Göteborg",
     "url": "https://qasa.com/p/1416023",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d9d72b8c9b354e2f90906f2828158f866bc888e6bb142c831f31b24391e68d3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrklöversgatan, Göteborg",
-    "url": "https://qasa.com/p/1411116",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/60e430ea1cb64af35bae01ee8d96a6fd958f10261d9591ecf22de354c9c6bd41.jpg",
-    "description": "Rymlig och välplanerad 3 med attraktivt läge i Göteborg – långtidsuthyrning\n\nVälkommen till denna trivsamma och välplanerade trerumslägenhet på Fyrklöversgatan 11 i Göteborg. Här erbjuds ett bekvämt boende med generösa ytor och ett attraktivt läge med närhet till både service, kommunikationer och grönområden.\n\nLägenheten har en genomtänkt planlösning med ett ljust vardagsrum, två rymliga sovrum och ett funktionellt kök som passar både vardag och umgänge. De stora fönstren ger ett fint ljusinsläpp och bidrar till en trivsam boendemiljö.\n\nFastigheten ligger i ett lugnt och omtyckt område med goda kommunikationer till centrala Göteborg. I närområdet finns matbutiker, restauranger, skolor, förskolor och andra bekvämligheter, vilket gör bostaden idealisk för såväl par som familjer.\n\nFakta:\n\n3 rum och kök\n\nAdress: Fyrklöversgatan 11, Göteborg\n\nLångtidsuthyrnin\n\nVälkomna att höra av er vid intresse!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 17909,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mäster Bengtsgatan, Göteborg",
-    "url": "https://qasa.com/p/1411103",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21967f9c63812fb081143219166b539c2eae9e382ce30cdd40b1a01567cd7952.jpg",
-    "description": "Charmig och välplanerad 1 i attraktiva Göteborg – värme, vatten och el ingår\n\nVälkommen till denna ljusa och välplanerade etta om cirka 37 kvm på Mäster Bengtsgatan 12 i Göteborg. Här erbjuds ett trivsamt boende med en smart planlösning som passar perfekt för dig som söker ett bekvämt hem med närhet till stadens utbud.\n\nLägenheten erbjuder ett rymligt allrum med gott om plats för både säng, soffgrupp och matplats. Det funktionella köket ger goda möjligheter för matlagning, och bostaden har en genomgående ljus och trivsam känsla.\n\nHär bor du med närhet till goda kommunikationer, service, restauranger, caféer och grönområden, samtidigt som du enkelt tar dig till centrala Göteborg.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 10958,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T11:07:54+00:00", "clock": "11:07:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T12:49:08+00:00", "clock": "12:49:08"};
