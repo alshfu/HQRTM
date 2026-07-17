@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Karolinernasgata, Hisings Backa",
+    "url": "https://qasa.com/p/1416965",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/40cd68461c2297ccc4c164a2c182f2c84b966466f59ee2e15bd9c545a170db53.jpg",
+    "description": "Ljus och välplanerad lägenhet på tredje våningen med hiss. Belägen i lugnt område med närhet till kommunikationer – busshållplatsen Akkas gata ligger precis utanför huset och det tar endast 18 minuter med buss till Brunnsparken. 7 minuters promenad till Hemköp och övriga butiker vid Selma Lagerlöfs torg.\n\nOm lägenheten:\n\t•\tStorlek: 64 kvm\n\t•\tRum: 2.5 rum och Separate kök (vardagsrum + sovrum)\n\t•\tBalkong\n\t•\tBadrum\n\nFaciliteter i föreningen:\n    • Tvättstuga och torkrum bokas enkelt via app\n\t•\tGym i källaren (lågt månadspris)\n\t•\tGratis bastu, biljardrum och tvättstuga – bokas enkelt via app\n\t•\tParkeringsplats kan ansökas via föreningen\n\nInflyttning enligt överenskommelse.\nVid intresse – skriv gärna och berätta lite om dig själv!\n",
+    "district": "Hisings Backa",
+    "rooms": 2.5,
+    "area_m2": 64.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Virvelvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1410923",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/29667130da908382bf22f9519c11d33abe0019d5b25cfb4d03a01f325805a7ee.jpg",
+    "description": "Lägenheten ligger på 5e våningen. Inglasad balkong med anslutning från vardagsrummet med öst-söderläge mot Keillerspark/Ramberget.\nHallen och vardagsrummet och köket har vitmålade väggar. Mycket ljusinsläpp\nSovrummet är vitt med en varm blå/grå fondvägg som matchar fint med den stora bruna garderoben.\nI köket finns det en pinnsoffa med bord och stolar.  \nInduktionshäll och ugn samt en mycket tyst diskmaskin.\nKöket är av ek med ny bänkbelysning.\nBadrummet är fräscht med golvvärme och handdukstork. Nytt handfat med kommod och högskåp. Mycket förvaring. Dusch med duschvägg.\nPlejd finns installerat för hall, vardagsrum och kök. \n\nLägenheten hyrs ut möblerad inkl TV.  bäddmadrass ingår ej.\nVatten, värme och wifi ingår i hyran. \n\nNärmaste busshållplats ligger 100 meter från huset. \nMindre än 10 minuters promenad till Wieselgrensplatsen för fler bussar och även spårvagnar.\n\nJag hyr ut min lägenhet då jag ska studera på annan ort i två år.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 11774,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fridkullagatan, Göteborg",
     "url": "https://qasa.com/p/1416929",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8aa14c7bc658efaae0d96788b3d03424ab20c704c94b04c46ccf95ed54b896f.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Atmosfärgatan 7, Göteborg",
-    "url": "https://qasa.com/p/1416765",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/66057ad1610497353c97215b6556e4258593a0a5551ba3ed0bfc234f43d2ba68.pdf",
-    "description": "Välkommen till Atmosfärgatan 7!\n(Just nu finns det en bugg på HomeQ så bilderna syns inte, vi hänvisar er till Balders hemsida för att se bilder + planritning).\n\nHär erbjuder vi en välplanerad 4 rum och kök på 96kvm med rymlig balkong.\n\nUnder totalrenoveringen 2022 har vi målat om samtliga väggar, tak och installerat en säkerhetsdörr. Hallen har fått ett klinkergolv som är både snyggt och praktiskt och resten av hemmet ett parkettgolv i ek av hög kvalitet. Klinker återkommer tillsammans med kakel i badrummet som även försetts med handdukstork och spegel med LED-belysning. Det finns även klinkergolv på gäst-toaletten.\nTvättmaskin/torktumlare finns i lägenheten. I köket, hemmets hjärta, finns inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kyl och frys.\n\nBra att veta om lägenheten:\nDet är inplanerat ett stambyte i denna fastighet under vintern 2027. Stamrenoveringen kommer inte medföra en hyreshöjning för denna lägenhet\n\nVi kommer inte ha någon visning på lägenheten utan den kommer visas enligt planritning. Bilder i annonsen är exempelbilder och normalt slitage kan förekomma i lägenheten.\nAnnonserad hyra avser 2026 års hyresnivå.\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder ska byggas och området kommer utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran. \nFinns att hyra, hör av dig i god tid.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 96.0,
-    "rent": 160068,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjorthagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1416654",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d724c9a9a39490382730a573287e83bb9873d42929e737872e74b306a9ff5dd.jpg",
-    "description": "Två rum och kök som präglas av rymd och ljus tack vare fönster i två väderstreck och läget högt uppe på berget. \nLägenheten är belägen på våning ett, men med högt läge vilket innebär att det är insynsfritt. \n\nLägenheten är belägen i ett tyst och lugnt område med supertrevliga grannar. Slottskogen ligger precis runt hörnet, och det är gångavstånd till Linnéstaden. \nLägenheten hyrs ut delvis möblerad. Jag kommer lämna kvar sängen, och soffan, i övrigt kommer lägenheten att tömmas. Jag kan lämna kvar matbordet om önskas. \n\nI avgiften ingår allt.  Lägenheten hyrs ut till en början i 6 månader, med eventuellt möjlighet till förlängning med ytterligare 6 månader.\n När du skriver får du gärna berätta lite om dig själv. \n\nOBS! \nDet är för tillfället en byggnadsställning runt hela byggnaden, pga fasadrenovering. Denna skall tas bort någon gång i augusti-september, så tills dess är det en något begränsad vy utåt. \nByggarbetarna behöver ett kort tillträde till lägenheten i augusti pga besiktning, så jag söker någon som är OK med detta. \n\nSer framemot att höra från dig :) ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 41.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T15:24:20+00:00", "clock": "15:24:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T16:40:29+00:00", "clock": "16:40:29"};
