@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fridkullagatan, Göteborg",
+    "url": "https://qasa.com/p/1416929",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8aa14c7bc658efaae0d96788b3d03424ab20c704c94b04c46ccf95ed54b896f.jpg",
+    "description": "Lägenhet uthyres – 15 minuter från Liseberg\nLjus och välplanerad etage lägenhet i andra våning om 50 kvm, med 1,5 rum, öppet kök och ett stort badrum.\n\n* Endast 15 minuter från Liseberg\n* Öppet kök och vardagsrum\n* Rymligt badrum\n* Internet ingår\n* Parkeringsplats ingår\n\nHyra: 4 000 kr per vecka, betalas i förskott.\nVid intresse är du välkommen att höra av dig för mer information.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 53.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergsjösvängen, Göteborg",
     "url": "https://qasa.com/p/1416872",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/08a121ef29aa3a70e101da520e78dc8f834c837eb2faa4a338ae03c1eb1a4170.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Atmosfärgatan 15, Göteborg",
-    "url": "https://qasa.com/p/1416750",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/b6feb1849ff4a4e97d33839e481875a1799df69e62b48113bba3baf29f20fe8c.pdf",
-    "description": "Välkommen till Atmosfärgatan 15!\nHär erbjuder vi en välplanerad 2 rum och kök på 65 kvm med ljusa materialval & inglasad balkong.\n\nUnder totalrenoveringen 2021 har vi målat om samtliga väggar, tak och installerat en säkerhetsdörr. Hallen har får ett klinkergolv som är både snyggt och praktiskt och resten av hemmet ett parkettgolv i ek av hög kvalitet. Klinker återkommer tillsammans med kakel i badrummet som även försetts med handdukstork och spegel med LED-belysning. Egen tvättmaskin och torktumlare finns i badrummet. I köket, hemmets hjärta, finns inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kyl och frys.\n\nBra att veta om lägenheten:\nDet är inplanerat ett stambyte i denna fastighet under vintern 2027. Stamrenoveringen kommer inte medföra en hyreshöjning för denna lägenhet.\n\nVi kommer inte ha någon visning på lägenheten utan den kommer visas enligt planritning. Bilderna i annonsen är exempelbilder och och normalt slitage kan förekomma i lägenheten.\nAnnonserad hyra avser 2026 års hyrresnivå.\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder ska byggas och området kommer utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkering ingår inte i hyran.\nFinns att hyra, hör av dig i god tid.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 9803,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T14:02:57+00:00", "clock": "14:02:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T15:24:20+00:00", "clock": "15:24:20"};
