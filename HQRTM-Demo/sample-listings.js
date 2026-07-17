@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Askims Kyrkväg, Hovås",
+    "url": "https://qasa.com/p/1416508",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4aeeaeba93f7f33570ab46827c55f0375584b9d51e5b45feef29b9763327879f.jpg",
+    "description": "Vår lägenhet i huset vi själva också bor i står snart ledig igen och behöver ny hyresgäst.\nLägenheten ligger på andra våningen i en villa i Hovås i ett lugnt fint område med 10 minuters gångväg ner till havet, 15 minuter med bil in till centrum i Göteborg eller 20 minuter med buss. \nNära till butiker, simhall, havet, centrum och härlig natur! \nLägenheten är nybyggd i ett hus byggt 2020.\n\nI lägenheten finns ett litet trevligt modernt kök och vardagsrum i ett, samt ett fräscht badrum med dusch och tvättmaskin. Sovrummet har en 140 säng och en rymlig garderob.\nLgh är bra planerad på 40kvm \n\nPris 10.500kr/månad är inkl el, vatten och internet. \nTillgång från och med 1/9 eventuellt tidigare. Möblerad eller omöblerad.\nGärna långtidsuthyrning \n\nHör av er om ni har frågor \nMed vänlig hälsning, Angelica ",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Turkosgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1416479",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a097d263df781db75a7defdecf2d84349a34c13b042653eaee8380b9819b6986.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1415780",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10de3d744eaa33ab0d90fb377f23d9213b1dc8abe0b7d87dadcc7da5ef93badd.jpg",
-    "description": "Rum uthyres i centralt belägen villa i Örgryte – Perfekt för studenter\nVi hyr ut ett möblerat rum på ca 12 kvm. \n\nOm boendet\n🏡 Villan är 352 kvm, fördelad på tre våningar med källare, där varje våning är en separat lägenhet med egen entré och rummet som hyrs ut är på första våningen. Villan har en stor altan på 40 kvm, som alla boende kan använda för avkoppling och socialt umgänge.\n\nOm lägenheten & rummet\n-Lägenhet cirka 130 kvm. Ligger  första våningen, med egen entré.\n-Lägenheten har fyra sovrum, kök, vardagsrum och badrum.\n-Du delar köket, vardagsrummet och badrummet med tre andra studenter.\n-Rummet är ca 12 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n👩‍🎓För närvarande bor endast studenter i huset.\n\n📍 Utmärkt läge med goda kommunikationer:\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset, där det finns en välsorterad mataffär, apotek och Systembolaget.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-16T23:41:13+00:00", "clock": "23:41:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T01:12:33+00:00", "clock": "01:12:33"};
