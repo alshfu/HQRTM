@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Chapmansgatan, Göteborg",
+    "url": "https://qasa.com/p/1416767",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f63624b086ef1fae0ec0132c4b62fe49a4ac7d59f2754688e61f4e5bc06953e.jpg",
+    "description": "En vacker och mysig 66 kvm lägenhet på 6:e våningen med en fantastisk utsikt över staden och Älvsborgsbron belägen i Majorna. 3 min promenad till närmsta hållplats vid Chapmans torg. Många restauranger,  livsmedelsbutiker, gym och apotek finns på gångavstånd.\n\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 66.0,
+    "rent": 10000,
+    "floor": 6,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1415781",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa08a7c653d3a60832efd6e68299441988a00645708e66ef624a6f93f89455dd.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Atmosfärgatan 23, Göteborg",
-    "url": "https://qasa.com/p/1416737",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/17778aafe8bc45af3f91e4f0ebb2df77c0fb1128b5e723fa8fb8eb0bda32051b.pdf",
-    "description": "Välkommen till Atmosfärgatan 23! \n(Just nu finns det en bugg på HomeQ så bilderna syns inte, vi hänvisar er till Balders hemsida för att se bilder + planritning).\n\nUnder totalrenoveringen 2023 har vi målat om samtliga väggar, tak och installerat en säkerhetsdörr. Hallen har fått ett klinkergolv som är både snyggt och praktiskt och resten av hemmet ett parkettgolv i ek av hög kvalitet. Klinker återkommer tillsammans med kakel i badrummet som även försetts med handdukstork och spegel med LED-belysning. Det finns även klinkergolv på gäst-toaletten. Tvättmaskin/torktumlare finns i lägenheten. I köket, hemmets hjärta, finns inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kyl och frys. \n\nBra att veta om lägenheten: Det är inplanerat ett stambyte i denna fastighet under vintern 2027. Stamrenoveringen kommer inte medföra en hyreshöjning för denna lägenhet Vi kommer inte ha någon visning på lägenheten utan den kommer visas enligt planritning. Bilder i annonsen är exempelbilder och normalt slitage kan förekomma i lägenheten. Annonserad hyra avser 2026 års hyresnivå. \n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder ska byggas och området kommer utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran. \nFinns att hyra, hör av dig i god tid.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 11833,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T10:55:10+00:00", "clock": "10:55:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T12:09:40+00:00", "clock": "12:09:40"};
