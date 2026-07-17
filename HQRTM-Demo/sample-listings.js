@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergsjösvängen, Göteborg",
+    "url": "https://qasa.com/p/1416872",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/08a121ef29aa3a70e101da520e78dc8f834c837eb2faa4a338ae03c1eb1a4170.png",
+    "description": "Välkommen till detta charmiga och välplanerade radhus i ett lugnt och grönskande område i Bergsjön, Göteborg.\n\nBostaden erbjuder 5 rum och 115 kvm boyta fördelade på ett praktiskt och ljust sätt. Med 4 sovrum finns gott om plats för en familj eller de som önskar mer utrymme. Radhuset är möblerat och inflyttningsklart.\n\nLäget är unikt — omgivet av natur med Bergsjönbadet ett stenkast bort, perfekt för bad, fiske och picknick sommartid. Trots det lugna gröna läget är kommunikationerna utmärkta: busshållplats 5 minuter till fots och 21 minuter till Göteborgs centralstation.\n\nI hyran ingår:\n• Fullt möblerat boende\n• Välutrustat kök\n• Mysig uteplats\n• Tillgång till förvaring\n• Garage ingår i hyran\n\nBostaden passar perfekt för en familj eller par som söker ett trivsamt hem med naturnära läge men ändå nära city. Tillträde 1 juni 2026, uthyrning sker på minst 6mån-24mån, eventuellt längre period.\n\nHyran är 17 900 kr/månad exklusive el — hyresgästen tecknar eget elavtal.\n\nVälkommen att höra av dig med frågor!",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 115.0,
+    "rent": 17900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Chapmansgatan, Göteborg",
     "url": "https://qasa.com/p/1416767",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f63624b086ef1fae0ec0132c4b62fe49a4ac7d59f2754688e61f4e5bc06953e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Atmosfärgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1416742",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/531c7862271505ff59ed37d154474a7535403eebf374e97c38da4b4b1745e7fe.pdf",
-    "description": "Välkommen till Atmosfärgatan 1! \n(Just nu finns det en bugg på HomeQ så bilderna syns inte, vi hänvisar er till Balders hemsida för att se bilder + planritning).\n\nHär erbjuder vi en välplanerad 3 rum och kök på 83kvm med rymlig balkong. \n\nUnder totalrenoveringen 2021 har vi målat om samtliga väggar, tak och installerat en säkerhetsdörr. Hallen har fått ett klinkergolv som är både snyggt och praktiskt och resten av hemmet ett parkettgolv i ek av hög kvalitet. Klinker återkommer tillsammans med kakel i badrummet som även försetts med handdukstork och spegel med LED-belysning. Det finns även klinkergolv på gäst-toaletten. Tvättmaskin/torktumlare finns i lägenheten. I köket, hemmets hjärta, finns inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kyl och frys. \n\nBra att veta om lägenheten: Det är inplanerat ett stambyte i denna fastighet under vintern 2027. Stamrenoveringen kommer inte medföra en hyreshöjning för denna lägenhet Vi kommer inte ha någon visning på lägenheten utan den kommer visas enligt planritning. Bilder i annonsen är exempelbilder och normalt slitage kan förekomma i lägenheten. Annonserad hyra avser 2026 års hyresnivå. \n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder ska byggas och området kommer utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran. \nFinns att hyra, hör av dig i god tid.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 11833,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T12:09:40+00:00", "clock": "12:09:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T14:02:57+00:00", "clock": "14:02:57"};
