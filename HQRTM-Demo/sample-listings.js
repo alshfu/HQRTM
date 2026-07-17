@@ -9,7 +9,7 @@ window.HQRTM_SAMPLE = [
     "description": "Hyr ut min bostadsrätt pga utlandsstationering!!\n\nVälkommen till ett nyproducerat modernt och bekvämt boende !Denna charmiga lägenhet erbjuder en perfekt kombination av stil och funktionalitet, med alla nödvändiga bekvämligheter för en stressfri vardag. Bredband ingår i priset! \n\nOm hemmet\nDenna rymliga tvåa, på sammanlagt 56 kvadratmeter, är ideal för ett par eller en liten familj. Lägenheten är nyproducerad, vilket säkerställer en modern och fräsch arbetsplats respektive avkopplingsyta. Boendet inkluderar praktiska faciliteter som kylskåp och frys, diskmaskin, tvättmaskin och torktumlare. \n\nFör både barnfamiljer och cykelentusiaster erbjuds en barnvagns- och cykelförråd samt säkerhetsdörr för trygg in- och utpassage. Ni har också tillgång till en gemensam tvättstuga och torkrum i byggnaden. Njut av en stund i solen på er egna franska balkong. \n\nOmrådet och kommunikationer\nBeläget på Litteraturgatan i det populära Hisings Backa, har ni nära till allt som stadsdelen har att erbjuda. Med utmärkt kommunikation kan ni smidigt ta del av Göteborgs puls tack vare flera busslinjer i närheten. Strax intill finner ni den vackra Hisingsparken, en perfekt plats för picnic och fritidsaktiviteter. Därtill finns affärer, restauranger och andra bekvämligheter alldeles i närheten för att underlätta er dagliga tillvaro. \n\nDenna lägenhet är en perfekt balanserad oas med den stadens alla fördelar, utan att kompromissa med lugn och naturskönhet. Missa inte chansen till ett bekvämt boende i ett av stadens mest omtyckta områden!\n\n",
     "district": "Hisings Backa",
     "rooms": 2.0,
-    "area_m2": 50.0,
+    "area_m2": 56.0,
     "rent": 11500,
     "floor": null,
     "has_balcony": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T18:43:53+00:00", "clock": "18:43:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T19:51:13+00:00", "clock": "19:51:13"};
