@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fryxellsgatan, Göteborg",
+    "url": "https://qasa.com/p/1417095",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dfb7412d6f40712e8e5a63f52665a345b96baf69816632fd7d0df53406446fe.jpg",
+    "description": "Trevlig trerummare centralt på Backaplan. \nHyrs helst ut på årsbasis.\n\nUteplats samt odlingsmöjligheter finns. \nParkering finns på gatan alt kan man hyra egen av oss.  Deposition kan behövas. \n\n\nAvgift: 12000sek\nIngår: Vä & Va\nTillkommer: El & wifi 900sek, möblering 500sek. ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 90.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Litteraturgatan, Hisings Backa",
     "url": "https://qasa.com/p/1417037",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8b0d23a8192c1e4f0e2e457d69d8fabf8cc7933cf2e7284e9b5009bcc91a05d6.jpg",
@@ -10,7 +25,7 @@ window.HQRTM_SAMPLE = [
     "district": "Hisings Backa",
     "rooms": 2.0,
     "area_m2": 56.0,
-    "rent": 12000,
+    "rent": 12300,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karolinernasgata, Hisings Backa",
-    "url": "https://qasa.com/p/1416965",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/40cd68461c2297ccc4c164a2c182f2c84b966466f59ee2e15bd9c545a170db53.jpg",
-    "description": "Ljus och välplanerad lägenhet på tredje våningen med hiss. Belägen i lugnt område med närhet till kommunikationer – busshållplatsen Akkas gata ligger precis utanför huset och det tar endast 18 minuter med buss till Brunnsparken. 7 minuters promenad till Hemköp och övriga butiker vid Selma Lagerlöfs torg.\n\nOm lägenheten:\n\t•\tStorlek: 64 kvm\n\t•\tRum: 2.5 rum och Separate kök (vardagsrum + sovrum)\n\t•\tBalkong\n\t•\tBadrum\n\nFaciliteter i föreningen:\n    • Tvättstuga och torkrum bokas enkelt via app\n\t•\tGym i källaren (lågt månadspris)\n\t•\tGratis bastu, biljardrum och tvättstuga – bokas enkelt via app\n\t•\tParkeringsplats kan ansökas via föreningen\n\nInflyttning enligt överenskommelse.\nVid intresse – skriv gärna och berätta lite om dig själv!\n",
-    "district": "Hisings Backa",
-    "rooms": 2.5,
-    "area_m2": 64.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T21:35:54+00:00", "clock": "21:35:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T22:28:44+00:00", "clock": "22:28:44"};
