@@ -10,7 +10,7 @@ window.HQRTM_SAMPLE = [
     "district": "Hisings Backa",
     "rooms": 2.0,
     "area_m2": 56.0,
-    "rent": 11500,
+    "rent": 12000,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T20:42:18+00:00", "clock": "20:42:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T21:35:54+00:00", "clock": "21:35:54"};
