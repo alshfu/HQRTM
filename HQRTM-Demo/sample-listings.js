@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergums Furåsväg, Olofstorp",
+    "url": "https://qasa.com/p/1417005",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/296b747a7340cc70d6fd37d89932a0a528f9cbfd53a29ea2053813c4331bca71.jpg",
+    "description": "Stadsnära hus i skogsglänta lämpligt för 3-4 vänner eller familj, \nuthyres från 15 augusti under 1 år med möjlighet till förlängning. \n\nVi hyr ut ett bostadshus på 145 kvm med närhet till Olofstorp och Lerum.\nHuset är fullt utrustat med tre sovrum, gott om förvaring, stora rymliga sociala ytor, och två badrum. För mysfaktorn finns rejäla täljstenskaminer och bastu, och altan i söderläge.  Plats för 2-3 bilar, eller cyklar om man föredrar det.\n\nHuset är perfekt för en familj med två barn som vill pröva att bo i detta populära område, eller några vänner / studenter som vill pröva att dela hushåll. Det går bra att pendla in till Göteborg med buss eller bil, ca 30 min till centrala GBG.      \nOmrådet är lugnt och samtidigt byggs det en del nytt. Till närmsta badsjö är det 20 min promenad, och huset är omringat av höga träd.  \nUthyres delvis möblerat. \n \nHuset har legat ute för försäljning men vi har valt att avvakta med försäljning av olika skäl.  \n\nHyra är 15,000 inklusive el, vatten, värme och bredband.  \n\nVi som hyr ut föredrar stabilitet och lugna hyresgäster. Uppsägningstid är ömsesidigt tre månader under förutsättning att kontraktet efterföljs. \n\nVänliga hälsningar Lisa och Erik \n",
+    "district": "Olofstorp",
+    "rooms": 6.0,
+    "area_m2": 145.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1416968",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d2d188c5eb9b44e40e77c7cc91de16c0c9b17be36bec22b8c247145915afb73f.jpg",
+    "description": "Möblerat rum uthyres i centralt belägen villa i Örgryte – Perfekt för student!\nVi hyr ut ett möblerat rum på ca 10 kvm i en stor och charmig villa i Örgryte – ett av Göteborgs mest eftertraktade områden.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 För närvarande bor endast studenter i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång.\nDen består av fyra sovrum, kök, vardagsrum och badrum.\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karolinernasgata, Hisings Backa",
     "url": "https://qasa.com/p/1416965",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/40cd68461c2297ccc4c164a2c182f2c84b966466f59ee2e15bd9c545a170db53.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1415781",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa08a7c653d3a60832efd6e68299441988a00645708e66ef624a6f93f89455dd.png",
-    "description": "Möblerat rum uthyres i Örgryte\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 För närvarande bor endast studenter i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång.\nDen består av fyra sovrum, kök, vardagsrum och badrum.\nDu delar gemensamma utrymmen med tre studenter\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karlatornet, Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1416465",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/416dfbc60349c6fb1b82a0026172b26efad68fde4112873aa6613cbf702c1715.jpg",
-    "description": "Upptäck boende på Karlatornet, Nordens högsta skyskrapa, i hjärtat av Göteborg, ett stenkast från Lindholmen Science Park. Detta dynamiska område är ett nav av innovation och är värd för en mängd företag, universitet, skolor, kaféer och restauranger. Bekväma transportalternativ, gör pendlingen enkel. Som hyresgäst får du tillgång till ett antal lyxiga bekvämligheter, inklusive en takterrass med skybar, fri tillgång till gym och samåkningstjänster. Andra kostnadsfria faciliteter som finns att boka för de boende är: ett konferensrum, ett aktivitetsrum, ett privat bio rum, ett stort möblerat party rum inklusive ett fullt utrustat kök med vacker utsikt över staden och havet. Månadsavgiften täcker uppvärmning, utvändig fönsterputsning och alla ovan nämnda bekvämligheter. Alla vitvaror i lägenheten (kyl, frys, tvättmaskin, torktumlare, diskmaskin, ugn, induktionshäll, mikrovågsugn) är av märket Electrolux. Utsikten är mot Göta Älv och Göteborgs centrum. Lägenheten har också ett externt förråd.\n\nIn English\nDiscover living at Karlatornet, the tallest skyscraper in the Nordics, in the heart of Gothenburg, steps away from the Lindholmen Science Park. This dynamic area is a hub of innovation, hosting a myriad of companies, universities, schools, cafes and restaurants. Convenient transport options, make commuting easy. As a resident, you'll gain access to a number of luxurious amenities, including a rooftop terrace with a sky bar, free access to gym facilities and carpool services. Other free of charge facilities available for booking for the residents are: a conference room, an activity room, a private cinema room, a big furnished party room including a fully equipped kitchen with a beautiful view over the city and the sea. The monthly fee covers heating, exterior window cleaning, and all above mentioned amenities. All appliances in the apartment (fridge, freeze, washing machine, dryer, dish-machine, oven, stove, microwave) are from Electrolux brand. The view of the apartment is towards the Göta Älv river and Gothenburg Centre. The apartment also has an external storage room.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 20000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T16:40:29+00:00", "clock": "16:40:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-17T17:46:26+00:00", "clock": "17:46:26"};
