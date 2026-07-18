@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ekedalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1417078",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/add527e574cc65bb6b0d92f60c9ad3ca3474a5fad0eca44ec7339044a7462e28.jpg",
+    "description": "Fräsh 1:a i Kungsladugård - ett stenkast från Slottskogen. Lägenheten är nytapetserad och generellt sett i bra skick. Separat kök. Lugnt område och lugnt i uppgången.\n\nLägenheten är möblerad med säng (120), soffa, soffbord, matta, Tv bord, Tv (50”), bredband, skrivbord, Byrå, hylla, köksbord samt grundläggande köksredskap.\n\nHyrestiden är till en början satt till 6 månader, men kan ev finnas möjlighet till förlägning. Hyr ut den pga utlandavistelse.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 39.0,
+    "rent": 6570,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Önskevädersgatan, Göteborg",
     "url": "https://qasa.com/p/1417275",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fb439554a0919f62372042c01b6adb774c7a6c4399b1ab34f5dda870a87c4bf1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gröna Annas Gata, Göteborg",
-    "url": "https://qasa.com/p/1405012",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
-    "description": "Hyresperiod: 1 september 2026 – 31 januari 2027\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad. I hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt parkeringsplats. \n\nLäget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 12000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T11:44:26+00:00", "clock": "11:44:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T12:39:34+00:00", "clock": "12:39:34"};
