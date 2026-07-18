@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lådämnesgatan, Göteborg",
+    "url": "https://qasa.com/p/1417156",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/78596ba9bc9346a08ed5f33a410940a784b5b661ae19e7dba3f21468b67e602e.png",
+    "description": "Ljus och välplanerad 3:a med parkering plats och balkong i söderläge,  ett stenkast från Härlanda Tjärn | Uthyres 1/8 2026\n\nVälkommen till en fantastisk möjlighet att hyra en trivsam och välplanerad 3-rumslägenhet parkerings plats på Lådämnesgatan, Göteborg  ett hem som kombinerar stadens bekvämligheter med ett av Göteborgs mest naturnära lägen.\n\nHär bor du med Härlanda Tjärn och Skatås friluftsområde precis runt hörnet. På bara någon minuts promenad når du badstrand, kiosk, utegym, motionsspår och hela Skatås träningscenter. Oavsett om du tycker om att springa, promenera, cykla eller bara njuta av naturen finns allt du behöver precis utanför dörren.\n\nLägenheten erbjuder:\n\n* 3 rum och kök\n* 68m²\n* Ljus och välplanerad planlösning\n* Balkong i härligt söderläge med utsikt över Trätorget\n* Lugnt och trivsamt område med närhet till både natur och stad\n\n\nEtt område med allt du behöver\n\nPå charmiga Trätorget, precis intill bostaden, hittar du ett brett serviceutbud med bland annat:\n\n* Nyöppnad fransk bistro med fantastiska maträtter, cocktails och noggrant utvalda viner\n* Pizzeria\n* Coop\n* Café och konditori med nybakat bröd varje morgon\n* Klädbutik\n* Frisör\n* Massör\n* Godisbutik\n* Yogastudio\n\n\nFör barnfamiljer är området extra attraktivt med en nybyggd naturskola intill Härlanda Tjärn. Kombinationen av skog, bad, lekplatser och trygga promenadstråk gör området till en fantastisk plats att bo på. Samtidigt tar du dig enkelt in till centrala Göteborg på bara några minuter.\n\nDen här bostaden passar lika bra för barnfamiljen som för det yngre eller äldre paret som söker ett lugnt och naturnära boende utan att ge avkall på närheten till stadens puls.\n\nPraktisk information\n\nAdress: Lådämnesgatan, Göteborg\n\nHyra: 14000/månad\n\nTillträde: 1 augusti 2026\n\nHyresperiod: 1 augusti 2026 – 1 augusti 2029\n\nDeposition: 3 månadshyror\n\n\nÄr du intresserad? Skicka gärna en kort presentation av dig själv eller er som vill hyra, med information om arbete, studier och hur många som kommer att bo i lägenheten. Jag söker skötsamma hyresgäster som kommer att trivas och ta väl hand om bostaden under hyresperioden.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 68.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ärlegatan, Göteborg",
     "url": "https://qasa.com/p/1417415",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c388bbc9caca97e859b87cc30ee73e84e778d244cabb59e6f3edcbd65b8af9d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T17:16:51+00:00", "clock": "17:16:51"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T18:11:32+00:00", "clock": "18:11:32"};
