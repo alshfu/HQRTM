@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gröna Annas Gata, Göteborg",
+    "url": "https://qasa.com/p/1405012",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
+    "description": "Hyresperiod: 1 september 2026 – 31 januari 2027\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad. I hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt parkeringsplats. \n\nLäget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 12000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fryxellsgatan, Göteborg",
     "url": "https://qasa.com/p/1417095",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dfb7412d6f40712e8e5a63f52665a345b96baf69816632fd7d0df53406446fe.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1416968",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d2d188c5eb9b44e40e77c7cc91de16c0c9b17be36bec22b8c247145915afb73f.jpg",
-    "description": "Möblerat rum uthyres i centralt belägen villa i Örgryte – Perfekt för student!\nVi hyr ut ett möblerat rum på ca 10 kvm i en stor och charmig villa i Örgryte – ett av Göteborgs mest eftertraktade områden.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 För närvarande bor endast studenter i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång.\nDen består av fyra sovrum, kök, vardagsrum och badrum.\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T06:16:34+00:00", "clock": "06:16:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T08:12:12+00:00", "clock": "08:12:12"};
