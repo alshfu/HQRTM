@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stengetsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1417246",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb4f004d6220c3f72a4fc48a50fd5e34af17782282d8688fd9ac1f8fca1ca697.jpg",
+    "description": "RUM UTHYRES  I LÄGENHET / \nNÄRA NYA VARVET /LÅNGEDRAG \nHyr ut till en person. Skriv om dig själv och lämna referenser jag vill gärna träffa dig innan vi skriver hyresavtal \nJag bor i en 3:a med min dotter ( 20 år)\n\nHyr ett mysigt rum i ett lugnt område \nCa: 10 min att gå till spårvagn: 11:an från Hagen \n9:an 11:an och bussar från Kungsten \nBuss 91 går från Nya Varvets torg som går till Järntorget & Frölunda Torg. Vid Nya Varvets torg finns även  ICA-butik, fiskaffär restaurang som har jättegoda stenugnsbakade pizzor. \n11:ans spårvagn går också till Saltholmen där det finns kallbad och du kan ta färjan ut till olika öar i skärgården \nI rummet finns Säng, garderob, skrivbord, fåtölj vattenkokare, finns sängkläder och handdukar, du har eget tvättmedel, toa & hushållspapper, El & Wifi ingår i hyran. \nDu har tillgång att laga mat i vårt kök \nHylla för torrvaror och hylla i kylskåpet, Badrum med dusch och tvättmaskin & torktumlare du kan äta i vårt kök men inte tillgång till vardagsrummet, jobbar hemifrån vissa dagar och du sköter dig själv \nStädar efter dig i kök och badrum och håller ditt rum fräscht. Du är lugn och ordentlig \nEn månads deposition…betalas vid inflyttning. \nVälkommen till oss…\n\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tallboängen, Askim",
     "url": "https://qasa.com/p/1417199",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19178c46e2e1739ecf832f71deed6e7b916f30252b3d14bbe04325b1931c3054.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrmästaregången, Göteborg",
-    "url": "https://qasa.com/p/1417021",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66cffecee9301b0554cbe7843ace44e9ba9fdfc5893981c2de5f083a275d3d8f.jpg",
-    "description": "Möblerad 1a med sovalkov och stor västbalkong på Masthuggsberget uthyres\n\nJag hyr ut min fina och välplanerade etta på 35 kvm på Masthuggsberget under tiden jag är på utbyte.\n\n\n\nOm lägenheten:\n\n- 35 kvm\n\n- Etta med sovalkov\n\n- Möblerad\n\n- Belägen på tredje våningen\n\n- Möblerad balkong på 7 kvm i västerläge med eftermiddags- och kvällssol\n\n- Bredband, el och värme ingår i hyran\n\n- Hyra: 12 000 kr/månad\n\n\n\nUthyrningsperiod: 10 augusti – 15 december\n\n\n\nLägenheten ligger på Masthuggsberget med närhet till Linné, Järntorget och Slottsskogen. Här bor du i ett lugnt område med gångavstånd till restauranger, caféer, matbutiker och goda kommunikationer.\n\n\n\nJag söker en skötsam och rökfri hyresgäst som tar väl hand om lägenheten under uthyrningsperioden. Berätta gärna lite om dig själv när du hör av dig, till exempel vad du arbetar eller studerar med och varför du söker boende under denna period.\n\n\n\nHör gärna av dig om du är intresserad eller har några frågor!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrklöversgatan, Göteborg",
-    "url": "https://qasa.com/p/1417020",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e32be79307c4c913e978a7b7642140c7267cd989d4ee285295743dcc652ebcb8.jpg",
-    "description": "Nybyggd lägenhet med stort badrum och stor balkong i söderläge. Nymålad 2026. \nI hyran ingår värme, varmvatten, el och bredband. \n\nMed buss nr 25 tar du dig in till stan på 10 minuter. Busshållplatsen heter Wieselgrensgatan. \n\nÖnskar hyra ut till en skötsam person i ett år. \nVid intresse skriv ett meddelande och berätta om dig själv. Bostadsrättföreningen behöver godkänna dig som hyresgäst innan du får tillträde. \n\n//Linda ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 43.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Chalmersgatan, Göteborg",
-    "url": "https://qasa.com/p/1417012",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8b629a3251d7fd280148952d999276023d9b6955dabd18ee8c4e21deafb7e8f1.jpg",
-    "description": "Hej!\n\nJag och min sambo kommer att hyra ut vår fina och välplanerade 3:a på 79 kvm i Lorensberg, centrala Göteborg, medan vi är utomlands. Lägenheten är väldigt mysig med halvöppen planlösning till köket.\n\nHyresperiod: 1 oktober – 30 april (vi är flexibla med både in- och utflyttningsdatum).\n\nHyra: 18 500 kr/månad, inkl. alla kostnader\n\nLägenheten erbjuder bland annat:\n• Balkong i västerläge\n• Tvättmaskin och diskmaskin\n• Våning 3 med hiss\n• 1 min gångavstånd till Avenyn\n\nVi söker skötsamma hyresgäster som är rädda om vårt hem. Referenser är meriterande.\n\nVid intresse, skicka gärna ett meddelande och berätta lite om er, så skickar vi mer info & bilder 😊",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 79.0,
-    "rent": 18000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T09:46:31+00:00", "clock": "09:46:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T10:51:26+00:00", "clock": "10:51:26"};
