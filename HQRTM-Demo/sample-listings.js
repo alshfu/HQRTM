@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ärlegatan, Göteborg",
+    "url": "https://qasa.com/p/1417415",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c388bbc9caca97e859b87cc30ee73e84e778d244cabb59e6f3edcbd65b8af9d.jpg",
+    "description": "Här kommer ni in i en ljus och öppen etta med loft. 4 meter högt i tak. Med mycket möjlighet till förvaring i lägenheten. Lägenheten är ny sedan 4 år tillbaka. Köket är fint och nytt och har allt ni kan behöva, med diskmaskin, ugn, induktionshäll, mikro, kyl och frys. Köket och vardagsrummet är kombinerat men känns mycket större än planlösningen visar, med tanke på höjden i taket. Det finns både ett hopfällbart matbord som kan njutas av flera eller vikas ihop för att utöka vardagsrummet. \n\nLägenheten är placerad på 5 våningen av 5. Detta möjliggör en gigantisk utsikt i västligt riktning. Balkongen är rymlig och har en mycket mysig lounge fåtölj där utsikten över Älvsborgsbron och hamninloppet kan avnjutas, såväl som solnedgångar. \n\nDen höga takhöjden möjliggör ett loft med en 220 säng, som är placerad över ett kontor. \n\nBadrummet är fräscht och nytt, med dusch och tvättmaskin. I huset finns även cykelförråd, tvättstuga och gemenskapsutrymmen som går att boka.  \n\nI hyran ingår Internet, el och värme. Från lägenhetsbyggnaden tar du en enkel promenad ner för en trappa, som tar dig till Mariaplan på 5 minuter. Med enkla kommunikationer på 15-20 minuter från närliggande Mariaplan till centrum. Vid Mariaplan finns flertal goda restauranger och butiker, i en charmig och gemytlig atmosfär. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 8000,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ekedalsgatan, Göteborg",
     "url": "https://qasa.com/p/1417078",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/add527e574cc65bb6b0d92f60c9ad3ca3474a5fad0eca44ec7339044a7462e28.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tallboängen, Askim",
-    "url": "https://qasa.com/p/1417199",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19178c46e2e1739ecf832f71deed6e7b916f30252b3d14bbe04325b1931c3054.jpg",
-    "description": "Uthyres en härlig hybel med öppen planlösning, en 1:a på ca 26 kvm i ett populärt området i Askim. Lägenheten är en del av villa med separat entre, helt  möblerat, har fräsch badrum, välutrustat litet kök och Tvättmaskin. Goda kommunala förbindelser. Läder bäddsoffa samt vägghängd platt tv. Bredband, Vatten, sophantering och öppen parkering på gatan inkluderat i hyran. El kostnader tillkommer. Passar bra till 1 pers el pendlare. Ca 10 minuter till närmaste busshållsplats. Obs! Lgh ligger i Askim.\n\nRenting an apartment approx. 25 sqm in a popular area in Askim, Gothenburg. The apt. Is a part of a House with  separate entry, is completely furnished, with a newly renovated toilet/bathroom (2014), a washing machine and a kithenet. Leather couch, a wall mounted tv.\nBroadband, water, and a street parking is included in the rent. Electricity as per its consumption. About 10 minutes walk to the nearest buss stop. Suits well for a single person.\n",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T16:12:19+00:00", "clock": "16:12:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T17:16:51+00:00", "clock": "17:16:51"};
