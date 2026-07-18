@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tallboängen, Askim",
+    "url": "https://qasa.com/p/1417199",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19178c46e2e1739ecf832f71deed6e7b916f30252b3d14bbe04325b1931c3054.jpg",
+    "description": "Uthyres en härlig hybel med öppen planlösning, en 1:a på ca 26 kvm i ett populärt området i Askim. Lägenheten är en del av villa med separat entre, helt  möblerat, har fräsch badrum, välutrustat litet kök och Tvättmaskin. Goda kommunala förbindelser. Läder bäddsoffa samt vägghängd platt tv. Bredband, Vatten, sophantering och öppen parkering på gatan inkluderat i hyran. El kostnader tillkommer. Passar bra till 1 pers el pendlare. Ca 10 minuter till närmaste busshållsplats. Obs! Lgh ligger i Askim.\n\nRenting an apartment approx. 25 sqm in a popular area in Askim, Gothenburg. The apt. Is a part of a House with  separate entry, is completely furnished, with a newly renovated toilet/bathroom (2014), a washing machine and a kithenet. Leather couch, a wall mounted tv.\nBroadband, water, and a street parking is included in the rent. Electricity as per its consumption. About 10 minutes walk to the nearest buss stop. Suits well for a single person.\n",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gröna Annas Gata, Göteborg",
     "url": "https://qasa.com/p/1405012",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bergums Furåsväg, Olofstorp",
-    "url": "https://qasa.com/p/1417005",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/296b747a7340cc70d6fd37d89932a0a528f9cbfd53a29ea2053813c4331bca71.jpg",
-    "description": "Stadsnära hus i skogsglänta lämpligt för 3-4 vänner eller familj, \nuthyres från 15 augusti under 1 år med möjlighet till förlängning. \n\nVi hyr ut ett bostadshus på 145 kvm med närhet till Olofstorp och Lerum.\nHuset är fullt utrustat med tre sovrum, gott om förvaring, stora rymliga sociala ytor, och två badrum. För mysfaktorn finns rejäla täljstenskaminer och bastu, och altan i söderläge.  Plats för 2-3 bilar, eller cyklar om man föredrar det.\n\nHuset är perfekt för en familj med två barn som vill pröva att bo i detta populära område, eller några vänner / studenter som vill pröva att dela hushåll. Det går bra att pendla in till Göteborg med buss eller bil, ca 30 min till centrala GBG.      \nOmrådet är lugnt och samtidigt byggs det en del nytt. Till närmsta badsjö är det 20 min promenad, och huset är omringat av höga träd.  \nUthyres delvis möblerat. \n \nHuset har legat ute för försäljning men vi har valt att avvakta med försäljning av olika skäl.  \n\nHyra är 15,000 inklusive el, vatten, värme och bredband.  \n\nVi som hyr ut föredrar stabilitet och lugna hyresgäster. Uppsägningstid är ömsesidigt tre månader under förutsättning att kontraktet efterföljs. \n\nVänliga hälsningar Lisa och Erik \n",
-    "district": "Olofstorp",
-    "rooms": 6.0,
-    "area_m2": 145.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T08:12:12+00:00", "clock": "08:12:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T09:46:31+00:00", "clock": "09:46:31"};
