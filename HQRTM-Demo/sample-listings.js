@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fagerdalsvägen, Hisings Kärra",
+    "url": "https://qasa.com/p/1417538",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eaddf80dac8a2b70a4c631a2fe284ee7303043bb5f2b3cc8bfd50aaaa55e23c9.jpg",
+    "description": "Charmigt och lantligt hus uthyres i Gerrebacka – inflytt 1 september\n\nVi hyr ut vårt trevliga och välskötta hus med stor trädgård från 1 september 2026. Perfekt för dig som söker ett lugnt och naturnära boende med närhet till skolor, service och goda kommunikationer in till Göteborg.\n\n🏡 Om huset\n• Huset har en välplanerad 1,5-planslösning med två sovrum, kök/vardagsrum i öppen planlösning och en källare med tv-rum och tvättstuga. \n• Totalrenoverat 2018/2019 med modern standard\n• Entréplan: hall, helkaklat badrum, kök/vardagsrum i öppen planlösning\n• Övervåning: två sovrum och liten hall\n• Källare: tv-rum, tvättstuga, pannrum/förråd\n• Fräscht kök med bra arbetsytor och nya vitvaror (2018/2019) + (diskmaskin 2025)\n• Tvättmaskin och torktumlare\n• Uteplats i soligt läge\n• Stor trädgård med fruktträd, växthus och odlingslott\n• Egen uppfart med parkering\n\n📍 Läget\nHuset ligger i Gerrebacka, ett lugnt och familjevänligt område med naturen precis utanför dörren. Tomten är 1500 kvm och gränsar direkt mot svamp- och bärtät skog, vilket ger en unik känsla av avskildhet. På tomten finns trädkoja, gungställning, äppel- och plommonträd, bärbuskar, växthus och odlingslott.\n\nTrots det lantliga läget har du goda förbindelser till centrala Göteborg – ca 700 meter till busshållplats Fyrspannsvägen.\n\n💰 Hyra och villkor\n• Månadshyra: 16 792 kr/mån exkl el\n• Ingår: vatten, avlopp, sophämtning, fiber\n• Deposition: 2 månadshyror\n• Uthyrningstid: minst 12 månader, gärna längre\n• Rökfri bostad\n• Husdjur tillåtet \n• God ekonomi och ordnad livssituation önskas\n\n📅 Inflytt\n1 september 2026.\n\n📩 Intresseanmälan\nSkriv några rader om dig/er, sysselsättning och hur länge ni önskar hyra. Vi återkommer med visning.\n\nMed vänlig hälsning,\nKarin",
+    "district": "Hisings Kärra",
+    "rooms": 4.0,
+    "area_m2": 80.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Silvandersgatan, Göteborg",
     "url": "https://qasa.com/p/1417529",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f3acb4790239231a3c9f20e6e57288ddecd16d2b6582c59a1513feb3c2c79623.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ekedalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1417078",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/add527e574cc65bb6b0d92f60c9ad3ca3474a5fad0eca44ec7339044a7462e28.jpg",
-    "description": "Fräsh 1:a i Kungsladugård - ett stenkast från Slottskogen. Lägenheten är nytapetserad och generellt sett i bra skick. Separat kök. Lugnt område och lugnt i uppgången.\n\nLägenheten är möblerad med säng (120), soffa, soffbord, matta, Tv bord, Tv (50”), bredband, skrivbord, Byrå, hylla, köksbord samt grundläggande köksredskap.\n\nHyrestiden är till en början satt till 6 månader, men kan ev finnas möjlighet till förlägning. Hyr ut den pga utlandavistelse.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 39.0,
-    "rent": 6570,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T20:24:11+00:00", "clock": "20:24:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T21:21:41+00:00", "clock": "21:21:41"};
