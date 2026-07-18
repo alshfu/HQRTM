@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Önskevädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1417275",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fb439554a0919f62372042c01b6adb774c7a6c4399b1ab34f5dda870a87c4bf1.jpg",
+    "description": "Välkommen till denna ljusa och rymliga 4-rummare på Önskevädersgatan 45. Här erbjuds vacker parkett, tre sovrum, stort vardagsrum och ett stilrent kök med moderna apparater. Den inglasade balkongen med utsikt mot gården ger extra charm. Beläget nära affärer, hållplats och med utsikt mot Karlatornet – en perfekt bostad för dig!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 85.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kärnvedsgatan , Göteborg",
+    "url": "https://qasa.com/p/1417242",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/647401035d169e5a3edf03f735c1449bc00b153c0c3359f6d34ef0cb1c346fb3.jpg",
+    "description": "Stort möblerat rum med egen ingång.Egen dusch och toalett. Kylskåp m frysfack, micro, vattenkokare o brödrost. Glas, porslin o bestick.  Täcke o kuddar.\nVårt hus ligger i lummigt villaområde nära skog , badsjö och löpslingor.\nTillgång till kök och tvättmaskin. Ca 5 minuter till busshållplats  o  ca 15 min till centrum med buss. \nVi hyr ut rummet endast till kvinnlig student som studerar på Göteborgs Universitet eller Chalmers . Rummet kan tillträdas vid terminsstart ht- 26 ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 5600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stengetsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1417246",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb4f004d6220c3f72a4fc48a50fd5e34af17782282d8688fd9ac1f8fca1ca697.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fryxellsgatan, Göteborg",
-    "url": "https://qasa.com/p/1417095",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dfb7412d6f40712e8e5a63f52665a345b96baf69816632fd7d0df53406446fe.jpg",
-    "description": "Trevlig trerummare centralt på Backaplan. \nHyrs helst ut på årsbasis.\n\nUteplats samt odlingsmöjligheter finns. \nParkering finns på gatan alt kan man hyra egen av oss.  Deposition kan behövas. \n\n\nAvgift: 12000sek\nIngår: Vä & Va\nTillkommer: El & wifi 900sek, möblering 500sek. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 90.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Litteraturgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1417037",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8b0d23a8192c1e4f0e2e457d69d8fabf8cc7933cf2e7284e9b5009bcc91a05d6.jpg",
-    "description": "Hyr ut min bostadsrätt pga utlandsstationering!!\n\nVälkommen till ett nyproducerat modernt och bekvämt boende !Denna charmiga lägenhet erbjuder en perfekt kombination av stil och funktionalitet, med alla nödvändiga bekvämligheter för en stressfri vardag. Bredband ingår i priset! \n\nOm hemmet\nDenna rymliga tvåa, på sammanlagt 56 kvadratmeter, är ideal för ett par eller en liten familj. Lägenheten är nyproducerad, vilket säkerställer en modern och fräsch arbetsplats respektive avkopplingsyta. Boendet inkluderar praktiska faciliteter som kylskåp och frys, diskmaskin, tvättmaskin och torktumlare. \n\nFör både barnfamiljer och cykelentusiaster erbjuds en barnvagns- och cykelförråd samt säkerhetsdörr för trygg in- och utpassage. Ni har också tillgång till en gemensam tvättstuga och torkrum i byggnaden. Njut av en stund i solen på er egna franska balkong. \n\nOmrådet och kommunikationer\nBeläget på Litteraturgatan i det populära Hisings Backa, har ni nära till allt som stadsdelen har att erbjuda. Med utmärkt kommunikation kan ni smidigt ta del av Göteborgs puls tack vare flera busslinjer i närheten. Strax intill finner ni den vackra Hisingsparken, en perfekt plats för picnic och fritidsaktiviteter. Därtill finns affärer, restauranger och andra bekvämligheter alldeles i närheten för att underlätta er dagliga tillvaro. \n\nDenna lägenhet är en perfekt balanserad oas med den stadens alla fördelar, utan att kompromissa med lugn och naturskönhet. Missa inte chansen till ett bekvämt boende i ett av stadens mest omtyckta områden!\n\n",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 12300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T10:51:26+00:00", "clock": "10:51:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-18T11:44:26+00:00", "clock": "11:44:26"};
