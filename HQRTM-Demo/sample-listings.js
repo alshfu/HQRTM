@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stenkleveliden, Torslanda",
+    "url": "https://qasa.com/p/1412057",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/559fdaebab8b41433dd6499dcb6c6dfdb4b868494812de7b2edb59f3979c5543.jpg",
+    "description": "Vi söker en ny student som vill hyra vår stuga. Stugan är 19 kvadratmeter med egen uteplats och utemöbler för två. I stugan finns det en säng 105 cm bred, köksbord med två stolar och ett klädskåp. Du kan använda våra möbler eller använda dina egna om du hellre önskar det. Det finns ett fullt utrustat mindre kök med kylskåp, två spisplattor, mikrovågsugn och en mini-ugn. Dusch, toalett och tvättmaskin finns i badrummet. I hyran ingår sophämtning, vatten och trådlöst internet. El tillkommer.  Bra kommunikation finns till centrala Göteborg. Det är knappt tio minuters promenad till busshålls-platsen ( Batterivägen) sedan tar X6 dig till stan på 35 minuter. Boendet är havsnära, det tar 10-15 minuter att promenera ner till Hästeviksbadet.\nDet finns gott om fina stigar och vägar i berg och skog för friluftsliv och motion. ",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 19.0,
+    "rent": 6350,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mölndalsvägen, Göteborg",
     "url": "https://qasa.com/p/1418072",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/783ee141acac2678ac9958c1c4ca85440df4106c4e84f0a1a95b01fe25707b76.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "harald stakegatan, Göteborg",
-    "url": "https://qasa.com/p/1417780",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3f0a16e79a16346af2e1708e597ab6028530f9bdc5250139644e3ec33955e0c.jpg",
-    "description": "Om lägenheten:\nHyr ut en mycket fin och välplanerad tvåa på 51 kvm med separat kök. Lägenheten har ett härligt ljusinsläpp, rymligt vardagsrum, ett mysigt sovrum samt ett fullt utrustat kök med goda förvaringsmöjligheter.\n\nLäge och kommunikationer:\nLägenheten ligger i ett lugnt och trevligt område i Gamlestaden . Det är mycket nära till goda kommunikationer (buss/spårvagn) som tar dig till centrala staden på bara 11 minuter. Gångavstånd till mataffärer, gym, caféer och grönområden.\n\nInformation om uthyrningen:\n\nStorlek: 2 rum och kök (51 kvm)\n\nHyra: 9500 kr/månad\n\nDeposition: En månadshyra tillämpas.\n\nVem söker jag?\nJag söker en skötsam, rökfri och djurfri hyresgäst (eller ett par) med stabil ekonomi (inga betalningsanmärkningar).\n\nÄr du intresserad? Skriv en kort presentation om dig själv, vad du arbetar med/studerar och hur länge du önskar hyra, så återkommer jag för att boka en visning!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T19:34:48+00:00", "clock": "19:34:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T20:27:03+00:00", "clock": "20:27:03"};
