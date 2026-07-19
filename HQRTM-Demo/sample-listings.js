@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Harald Hjärnesgatan, Göteborg",
+    "url": "https://qasa.com/p/1417592",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83567bbb1d35f196f098511a3dfc18fa44ec5ede46b9ecef691d68137717b9ca.jpg",
+    "description": "Ljus och fin lägenhet med renoverat kök och badrum (elburen golvvärme), fräscht och modernt. Stora fönster som ger gott om naturligt ljus genom hela lägenheten. Du har också en klädkammare (dörren mitt emot entrédörren), för förvaring av kläder och annat\n\nHyran är: 12000 kr/månad. \nEl, vatten och bredband ingår i hyra. \n\nLägenheten ligger ett stenkast från Backaplan med tillgång till shopping och restauranger. Bara några meter bort hittar du ett Nordic Wellness-gym, perfekt för dig som gillar träning. \n\nKommunikationer: Goda kollektivtrafikförbindelser med buss och spårvagn som snabbt tar dig in till centrala Göteborg.\n\nVi söker skötsamma hyresgäster som uppskattar sitt hem. Vi ser helst att du/ni som söker vill ha något långsiktigt. Men självklart öppen för dialog, det ska helt enkelt kännas rätt för båda parter. Boende är en plats för trygghet. \n\nVälkommen med att höra av dig. \n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nordhemsgatan, Göteborg",
     "url": "https://qasa.com/p/1297763",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7efdd90538e467dceca9ac0f128cfa1a48b40a5b2b03d83c7de1e62b31369e5f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lådämnesgatan, Göteborg",
-    "url": "https://qasa.com/p/1417156",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/78596ba9bc9346a08ed5f33a410940a784b5b661ae19e7dba3f21468b67e602e.png",
-    "description": "Ljus och välplanerad 3:a med parkering plats och balkong i söderläge,  ett stenkast från Härlanda Tjärn | Uthyres 1/8 2026\n\nVälkommen till en fantastisk möjlighet att hyra en trivsam och välplanerad 3-rumslägenhet parkerings plats på Lådämnesgatan, Göteborg  ett hem som kombinerar stadens bekvämligheter med ett av Göteborgs mest naturnära lägen.\n\nHär bor du med Härlanda Tjärn och Skatås friluftsområde precis runt hörnet. På bara någon minuts promenad når du badstrand, kiosk, utegym, motionsspår och hela Skatås träningscenter. Oavsett om du tycker om att springa, promenera, cykla eller bara njuta av naturen finns allt du behöver precis utanför dörren.\n\nLägenheten erbjuder:\n\n* 3 rum och kök\n* 68m²\n* Ljus och välplanerad planlösning\n* Balkong i härligt söderläge med utsikt över Trätorget\n* Lugnt och trivsamt område med närhet till både natur och stad\n\n\nEtt område med allt du behöver\n\nPå charmiga Trätorget, precis intill bostaden, hittar du ett brett serviceutbud med bland annat:\n\n* Nyöppnad fransk bistro med fantastiska maträtter, cocktails och noggrant utvalda viner\n* Pizzeria\n* Coop\n* Café och konditori med nybakat bröd varje morgon\n* Klädbutik\n* Frisör\n* Massör\n* Godisbutik\n* Yogastudio\n\n\nFör barnfamiljer är området extra attraktivt med en nybyggd naturskola intill Härlanda Tjärn. Kombinationen av skog, bad, lekplatser och trygga promenadstråk gör området till en fantastisk plats att bo på. Samtidigt tar du dig enkelt in till centrala Göteborg på bara några minuter.\n\nDen här bostaden passar lika bra för barnfamiljen som för det yngre eller äldre paret som söker ett lugnt och naturnära boende utan att ge avkall på närheten till stadens puls.\n\nPraktisk information\n\nAdress: Lådämnesgatan, Göteborg\n\nHyra: 14000/månad\n\nTillträde: 1 augusti 2026\n\nHyresperiod: 1 augusti 2026 – 1 augusti 2029\n\nDeposition: 3 månadshyror\n\n\nÄr du intresserad? Skicka gärna en kort presentation av dig själv eller er som vill hyra, med information om arbete, studier och hur många som kommer att bo i lägenheten. Jag söker skötsamma hyresgäster som kommer att trivas och ta väl hand om bostaden under hyresperioden.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T06:30:20+00:00", "clock": "06:30:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T08:55:45+00:00", "clock": "08:55:45"};
