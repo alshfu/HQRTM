@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mölndalsvägen, Göteborg",
+    "url": "https://qasa.com/p/1418072",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/783ee141acac2678ac9958c1c4ca85440df4106c4e84f0a1a95b01fe25707b76.jpg",
+    "description": "Modern och välplanerad 1,5 rok i attraktiva Almedal – nära Korsvägen, med inglasad balkong och gemensam takterrass.\n\nNu finns möjlighet att hyra en modern och välplanerad 1,5 rum och kök på 38 kvm i attraktiva Almedal. Nära till Korsvägen, Avenyn och Delsjön. \n\nBostaden erbjuder en genomtänkt planlösning och fina bekvämligheter. Här finns en inglasad balkong samt tillgång till en gemensam takterrass med fin utsikt över grönområden, perfekt för avkoppling och sociala stunder.\n\nLägenheten är utrustad med:\n\n* Diskmaskin\n* Tvättmaskin och torktumlare\n* Moderna vitvaror\n* Helkaklat badrum med golvvärme\n\nLäget är mycket attraktivt och ett stenkast från spårvagnen. I området finns flera mataffärer, olika gym, restauranger och annan service. Området är väldigt lugnt och tryggt. \n\nEtt perfekt boende för dig som söker ett modernt och bekvämt hem med närhet till stadens utbud och samtidigt lugna omgivningar.\n\nI hyran ingår:\n\n* Wi-Fi\n* Varmt och kallt vatten \n\nHyresgästen tecknar själv:\n\n* Eget elavtal\n* Hemförsäkring\n\nDeposition: Två månadshyra betalas vid kontraktsskrivning.\n\nHyresgäst:\nJag söker en ordningsam och ansvarsfull person eller ett par som tar väl hand om lägenheten och ser den som sitt hem.\nRökning är inte tillåtet. \n\nJag hyr ut lägenheten då jag skall studera och inte kommer befinna mig i Göteborg.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 38.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1389259",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
+    "description": "Hyr ut 1 rum på 8 kvm.\nSängskåp med Emma resårmadrass av högsta kvalité .\nELFA garderobsystem.\nFällbart väggbord med förvaring.\n3st olika uppblåsbara fåtöljer med elektrisk pump. \n\n\n83kvm bostadsrätt, 4 rum.\n2 toaletter samt duschrum och tvätt/tork i ena.\nStor balkong på vån 7 i söderläge. Ska glasses in. \nVälutrustat kök.\n\nBusshållplats direkt utanför dörren. Dessutom inom el-scooter område samt gång/scooter avstånd till eketrägatan och spårvagnar.\n\nI hyran ingår el/vatten internet. Tillgång till gemensamma utrymmen så som vardagsrum, kök, badrum \n\nHyr ut rummet på obestämd tid för att dyra ut kassan :)\n\nMer info och bilder kommer uppdateras inom kort\n\nElcykel Scott Sub active unisex finns också för uthyrning under hela perioden. 250kr/mån. Kortar restider väsentligt\n\nViktigt är att personen som flyttar in är ordningsam och håller rent efter sig.\nViktigt är också att personen  ifråga tecknar en fullvärdig hemförsäkring.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 4500,
+    "floor": 7,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergums Prästgårdsbacke, Olofstorp",
     "url": "https://qasa.com/p/1418045",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ef4572da453341bf026a6257454ae75571cf3fadba4494e28d817ec7d296651.jpg",
@@ -10,7 +40,7 @@ window.HQRTM_SAMPLE = [
     "district": "Olofstorp",
     "rooms": 4.0,
     "area_m2": 89.0,
-    "rent": 13000,
+    "rent": 15000,
     "floor": 0,
     "has_balcony": null,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Litteraturgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1381378",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b833fd12522c4d80c68c608d0faeb65ffbcbf8b6cca5164dab096f6d3fd12448.jpg",
-    "description": "Modern och ljus 2:a med balkong uthyres i attraktiva Selma Stad, Hisings Backa\n\nNu finns chansen att hyra en fin och välplanerad tvåa på 48 kvm med ett utmärkt läge vid Selma Lagerlöfs Torg.\n\nLägenheten erbjuder:\n• 2 rum och kök – 48 kvm\n• Våning 1 av 2 (hiss finns)\n• Rymlig balkong med utsikt över torget\n• Uthyres omöblerad eller delvis möblerad\n• Diskmaskin, tvättmaskin och torktumlare\n• Internet, kabel-TV och el ingår i hyran\n• Parkeringsplats kan ordnas mot extra kostnad\n\nHyresperiod: 2026-08-06 – 2027-07-01\nHyra: 10 600 kr/månad\n\nLägenheten har ett fantastiskt läge med gångavstånd till kollektivtrafik, mataffärer, restauranger, caféer, gym och grönområden.\n\nSkicka gärna ett PM vid intresse och berätta lite om dig själv – exempelvis vem du är, vad du arbetar eller studerar med och vem som kommer att bo i lägenheten.",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 10600,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmsallen, Göteborg",
-    "url": "https://qasa.com/p/1417764",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f8fa77459445a117aa1f403b2a81215f3bc00ce4e77666845e630f91285feb5.jpg",
-    "description": "\nMöblerad lägenhet uthyres i Lindholmen – 4 månader**\n\nJag hyr ut min fullt möblerade och välutrustade lägenhet i **Lindholmen** under **4 månader** på grund av resa.\n\nLägenheten ligger i ett av Göteborgs mest attraktiva områden, precis intill **Karlatornet**, med närhet till restauranger, caféer, gym, matbutiker och vackra promenadstråk längs vattnet.\n\nEn stor fördel är att du kan ta den **kostnadsfria Älvsnabben-färjan** över älven till centrala Göteborg på bara några minuter.\n\n* Fullt möblerad och inflyttningsklar\n* Fullt utrustat kök med allt som behövs\n* Hyran inkluderar internet och kallvatten\n* El och varmvatten debiteras separat enligt månadsfaktura\n* Miljövänlig fastighet med fokus på hållbarhet\n* Hyran: 18000 kr per månad \nPassar perfekt för dig som söker ett bekvämt och trivsamt boende under en begränsad period.\n\nVid intresse är du varmt välkommen att skicka ett meddelande för mer information eller visning.\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 95.0,
-    "rent": 18000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T18:13:19+00:00", "clock": "18:13:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T19:34:48+00:00", "clock": "19:34:48"};
