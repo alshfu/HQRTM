@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Litteraturgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1381378",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b833fd12522c4d80c68c608d0faeb65ffbcbf8b6cca5164dab096f6d3fd12448.jpg",
+    "description": "Modern och ljus 2:a med balkong uthyres i attraktiva Selma Stad, Hisings Backa\n\nNu finns chansen att hyra en fin och välplanerad tvåa på 48 kvm med ett utmärkt läge vid Selma Lagerlöfs Torg.\n\nLägenheten erbjuder:\n• 2 rum och kök – 48 kvm\n• Våning 1 av 2 (hiss finns)\n• Rymlig balkong med utsikt över torget\n• Uthyres omöblerad eller delvis möblerad\n• Diskmaskin, tvättmaskin och torktumlare\n• Internet, kabel-TV och el ingår i hyran\n• Parkeringsplats kan ordnas mot extra kostnad\n\nHyresperiod: 2026-08-06 – 2027-07-01\nHyra: 10 600 kr/månad\n\nLägenheten har ett fantastiskt läge med gångavstånd till kollektivtrafik, mataffärer, restauranger, caféer, gym och grönområden.\n\nSkicka gärna ett PM vid intresse och berätta lite om dig själv – exempelvis vem du är, vad du arbetar eller studerar med och vem som kommer att bo i lägenheten.",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10600,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lindholmsallen, Göteborg",
     "url": "https://qasa.com/p/1417764",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f8fa77459445a117aa1f403b2a81215f3bc00ce4e77666845e630f91285feb5.jpg",
@@ -50,8 +65,8 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Nordhemsgatan, Göteborg",
     "url": "https://qasa.com/p/1297763",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7efdd90538e467dceca9ac0f128cfa1a48b40a5b2b03d83c7de1e62b31369e5f.jpg",
-    "description": "Pga nytt arbete i en annan stad hyr jag ut min fina och välskötta lägenhet och söker en ansvarsfull hyresgäst som kommer att trivas lika bra här som jag har gjort.\n\nLägenheten är en välplanerad nybyggd 2,5:a med en walk-in-closet med glasdörrar som även kan användas som ett extrarum. Den har öppen planlösning mellan kök och vardagsrum, fransk balkong med fantastisk utsikt över Göteborg samt tvättmaskin, torktumlare och diskmaskin. I fastigheten finns även flera gemensamma utrymmen, inklusive en takterrass.\n\nLäget är svårslaget med endast 1-2 minuters promenad till Järntorget och Järnvågen, mitt i hjärtat av Göteborg. Samtidigt har du smidig anslutning till E45 och motorvägsnätet samt stenpiren med färjorna till Hisingen. Parkeringshus finns i närheten mot en extra kostnad.\n\nLägenheten hyrs ut delvist möblerad till 1-2 personer. Den som hyr lägenheten måste även godkännas av byggnadens styrelse för uthyrning. Hyrs till en början ut i 3-6 månader med god chans till förlängning. ",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/52f4cebf914709676681c9980a465fa61c5af7d2b1e9720b88996ae5738e4927.png",
+    "description": "Pga nytt arbete i en annan stad hyr jag ut min fina och välskötta lägenhet och söker en ansvarsfull hyresgäst som kommer att trivas lika bra här som jag har gjort.\n\nLägenheten är en välplanerad nybyggd 2,5:a med en walk-in-closet med glasdörrar som även kan användas som ett extrarum. Den har öppen planlösning mellan kök och vardagsrum, fransk balkong med fantastisk utsikt över Göteborg samt tvättmaskin, torktumlare och diskmaskin. I fastigheten finns även flera gemensamma utrymmen, inklusive en takterrass.\n\nLäget är svårslaget med endast 1-2 minuters promenad till Järntorget och Järnvågen, mitt i hjärtat av Göteborg. Samtidigt har du smidig anslutning till E45 och motorvägsnätet samt stenpiren med färjorna till Hisingen. Parkeringshus finns i närheten mot en extra kostnad.\n\nLägenheten hyrs ut delvist möblerad (med soffa, soffbord, tv, säng, garderob, matbord och stolar)  till 1-2  personer, med el, vatten och bredband inkluderad i kostnaden. Hyrs till en början ut i 3-6 månader med god chans till förlängning. ",
     "district": "Göteborg",
     "rooms": 2.5,
     "area_m2": 51.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lasarettsgatan, Göteborg",
-    "url": "https://qasa.com/p/1333929",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7b36060423731160b1e484eb6429facc5c1067e10efc3b21760f08e24486c6c9.jpg",
-    "description": "På grund av studier utomlands hyr jag ut min lägenhet. Det är en centralt belägen 2:a på 48m2 med separat kök på 7e våningen.  Bra förbindelser med 5 -7 minuter till Domkyrkan, Stenpiren och Järntorget. Lägenheten har bl.a. diskmaskin och balkong. \n\nI hyran ingår allt som internet, el och såklart värme och vatten. Lägenheten hyrs ut möblerad men ifall något önskas bort så är det inga konstigheter då jag kommer förvara vissa saker i förråd (dock inte större grejer som soffa eller säng). \n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T11:40:29+00:00", "clock": "11:40:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T12:36:57+00:00", "clock": "12:36:57"};
