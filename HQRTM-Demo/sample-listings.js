@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordhemsgatan, Göteborg",
+    "url": "https://qasa.com/p/1297763",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7efdd90538e467dceca9ac0f128cfa1a48b40a5b2b03d83c7de1e62b31369e5f.jpg",
+    "description": "Pga nytt arbete i en annan stad hyr jag ut min fina och välskötta lägenhet och söker en ansvarsfull hyresgäst som kommer att trivas lika bra här som jag har gjort.\n\nLägenheten är en välplanerad nybyggd 2,5:a med en walk-in-closet med glasdörrar som även kan användas som ett extrarum. Den har öppen planlösning mellan kök och vardagsrum, fransk balkong med fantastisk utsikt över Göteborg samt tvättmaskin, torktumlare och diskmaskin. I fastigheten finns även flera gemensamma utrymmen, inklusive en takterrass.\n\nLäget är svårslaget med endast 1-2 minuters promenad till Järntorget och Järnvågen, mitt i hjärtat av Göteborg. Samtidigt har du smidig anslutning till E45 och motorvägsnätet samt stenpiren med färjorna till Hisingen. Parkeringshus finns i närheten mot en extra kostnad.\n\nLägenheten hyrs ut delvist möblerad till 1-2 personer. Den som hyr lägenheten måste även godkännas av byggnadens styrelse för uthyrning. Hyrs till en början ut i 3-6 månader med god chans till förlängning. ",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 51.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fagerdalsvägen, Hisings Kärra",
     "url": "https://qasa.com/p/1417538",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eaddf80dac8a2b70a4c631a2fe284ee7303043bb5f2b3cc8bfd50aaaa55e23c9.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ärlegatan, Göteborg",
-    "url": "https://qasa.com/p/1417415",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c388bbc9caca97e859b87cc30ee73e84e778d244cabb59e6f3edcbd65b8af9d.jpg",
-    "description": "Här kommer ni in i en ljus och öppen etta med loft. 4 meter högt i tak. Med mycket möjlighet till förvaring i lägenheten. Lägenheten är ny sedan 4 år tillbaka. Köket är fint och nytt och har allt ni kan behöva, med diskmaskin, ugn, induktionshäll, mikro, kyl och frys. Köket och vardagsrummet är kombinerat men känns mycket större än planlösningen visar, med tanke på höjden i taket. Det finns både ett hopfällbart matbord som kan njutas av flera eller vikas ihop för att utöka vardagsrummet. \n\nLägenheten är placerad på 5 våningen av 5. Detta möjliggör en gigantisk utsikt i västligt riktning. Balkongen är rymlig och har en mycket mysig lounge fåtölj där utsikten över Älvsborgsbron och hamninloppet kan avnjutas, såväl som solnedgångar. \n\nDen höga takhöjden möjliggör ett loft med en 220 säng, som är placerad över ett kontor. \n\nBadrummet är fräscht och nytt, med dusch och tvättmaskin. I huset finns även cykelförråd, tvättstuga och gemenskapsutrymmen som går att boka.  \n\nI hyran ingår Internet, el och värme. Från lägenhetsbyggnaden tar du en enkel promenad ner för en trappa, som tar dig till Mariaplan på 5 minuter. Med enkla kommunikationer på 15-20 minuter från närliggande Mariaplan till centrum. Vid Mariaplan finns flertal goda restauranger och butiker, i en charmig och gemytlig atmosfär. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 8000,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T00:10:53+00:00", "clock": "00:10:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T03:55:06+00:00", "clock": "03:55:06"};
