@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergums Prästgårdsbacke, Olofstorp",
+    "url": "https://qasa.com/p/1418045",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ef4572da453341bf026a6257454ae75571cf3fadba4494e28d817ec7d296651.jpg",
+    "description": "Välkommen till Bergums Prästgårdsbacke 17 - Ett ovanligt tillfälle att förvärva en fyrarummare på markplan i centrala Olofstorp!\n\nBostaden är nyproducerad 2017 och erbjuder genomgående stilfulla och moderna materialval så som parkettgolv och ljusa väggar. Köket är byggt med en halvt öppen planlösning mot vardagsrummet som ger en social känsla samtidigt som kökets storlek tillåter er att sitta avskilt vid köksbordet. Tre rymliga sovrum där det minsta kan lämpa sig väl som ett kontor vid behov. Ett stort kaklat badrum som kombineras med tvättmaskin och torktumlare ligger vid entrén, den extra toaletten är guld värd och har placerats vid sovrummen. Förvaring finns ypperligt med i klädkammaren eller det separata förrådet som finns på utsidan.\n\nHär bor ni på trivsamt läge med på gångbekvämt avstånd till Olofstorps utbud av aktiviteter och skola. Bostaden ligger i ett naturnära och familjevänligt område som ständigt expanderar, samtidigt som du har nära till bra kommunikationer in till centrala Göteborg.\n\nViktigt: Jag håller på att sälja lägenheten, vilket innebär att du behöver vara tillgänglig för visningar under uthyrningstiden. Visningarna planeras i god tid och sker i samråd med dig.\n\n",
+    "district": "Olofstorp",
+    "rooms": 4.0,
+    "area_m2": 89.0,
+    "rent": 13000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Stampgatan, Göteborg",
+    "url": "https://qasa.com/p/1418017",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a0b2afa6d350a90ed9a469c20d03d77aa3369b5f125c43fcc399c91131e2611e.jpg",
+    "description": "På våning fyra hittar ni denna stilrena och välplanerade trea med en öppen, social planlösning där kök och vardagsrum . \nModernt köke med generös köksö, inglasad balkong som härlig plats att njuta av sol och utsikt i höjd med trädkronorna. Två rogivande sovrum, gott om förvaring och ett rymligt badrum gör detta till ett hem som kombinerar komfort, funktion och trivsel på bästa sätt.\n \n I Stampen bor ni mycket centralt i ett expansivt område som de senaste åren har fräschats upp med nya butiker, restauranger och mindre trafik. \n\nKommunikationerna i området är mycket goda, från närmaste hållplats Ullevi Norra avgår flertalet spårvagns- och busslinjer samt närhet till knutpunkten Svingeln där det även avgår flera expressbussar. Ni når även Centralstationen, utfartslederna och hela centrums utbud på några få minuter. Kring Stampen erbjuds mataffärer, gym, butiker och restauranger. \n\nI hyran ingår vatten/el/värme. \n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fagottgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1418002",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c093ead60ae1ea76ce5808ada018b40d262f415e7e4be9af2bf9c7f20b235d2.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norumshöjd, Göteborg",
-    "url": "https://qasa.com/p/1417712",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2be83e534d5b1fd28a03c1f01106cff2ec14b59ce35b0a13f9633596e66f7aa5.jpg",
-    "description": "Stor lägeheten med mycket fönster och  och bra fmailje område \n\nIca och willys hemma nöra med 5 min avstånd .\n\nBussen bara 1 min avstånd .\n\n75 kvadrat med stor vardag och balkong \n\nMöblerat och klart stor söbg stor tv skinn soffor \nJag hyr ut för jag måstte jobba i annan stad.",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 75.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Harald Hjärnesgatan , Göteborg",
-    "url": "https://qasa.com/p/1036518",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f810dd26cc5544525df0f98dddbcfd2b22278108c2d77dd7abfaa958f4e2c6b.jpg",
-    "description": "Ljus och modern lägenhet med renoverat kök och badrum. \n\nVi hyr ut vår fina och välplanerade lägenhet med stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade i en modern stil, och badrummet har dessutom elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare, praktiskt belägen mitt emot entrédörren – perfekt för kläder och annat.\n\nHyra: 12 000 kr/månad (inklusive el, vatten och bredband).\n\nLäge & Området\nLägenheten har ett utmärkt läge, bara ett stenkast från Backaplan med ett brett utbud av shopping och restauranger. För dig som gillar träning finns ett Nordic Wellness-gym bara några meter bort.\n\nKommunikationer\nHär bor du med utmärkta kollektivtrafikförbindelser – både buss och spårvagn tar dig snabbt och smidigt till centrala Göteborg.\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.\nVi ser gärna att du/ni letar efter ett långsiktigt boende, men är självklart öppna för dialog – det viktigaste är att det känns rätt för båda parter.\n\nBoende ska vara en plats för trygghet och trivsel.\n\nVälkommen att höra av dig vid intresse!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T17:18:57+00:00", "clock": "17:18:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T18:13:19+00:00", "clock": "18:13:19"};
