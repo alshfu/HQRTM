@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fagottgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1418002",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c093ead60ae1ea76ce5808ada018b40d262f415e7e4be9af2bf9c7f20b235d2.jpg",
+    "description": "Lugnt område nära natur ,spårvagn, gym o köpcentrum .\nVi delar kök o badrum .\nI kostnaden ingår fiber , el o vatten.\nEndast kvinnliga sökande \nEj rökare \n\n\nNice area, close to the nature, the tram, the gym , bus and the shoppingmall.\nWe share kitchen and bathroom..\nWi-Fi ,electricity and water are included.\nOnly female non smoking ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Marklandsgatan, Göteborg",
     "url": "https://qasa.com/p/1417937",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dcc8ec0750f094709861898ff90a764b0cb89defa204cbbd3f7e908f7c4f304d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordhemsgatan, Göteborg",
-    "url": "https://qasa.com/p/1297763",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/52f4cebf914709676681c9980a465fa61c5af7d2b1e9720b88996ae5738e4927.png",
-    "description": "Pga nytt arbete i en annan stad hyr jag ut min fina och välskötta lägenhet och söker en ansvarsfull hyresgäst som kommer att trivas lika bra här som jag har gjort.\n\nLägenheten är en välplanerad nybyggd 2,5:a med en walk-in-closet med glasdörrar som även kan användas som ett extrarum. Den har öppen planlösning mellan kök och vardagsrum, fransk balkong med fantastisk utsikt över Göteborg samt tvättmaskin, torktumlare och diskmaskin. I fastigheten finns även flera gemensamma utrymmen, inklusive en takterrass.\n\nLäget är svårslaget med endast 1-2 minuters promenad till Järntorget och Järnvågen, mitt i hjärtat av Göteborg. Samtidigt har du smidig anslutning till E45 och motorvägsnätet samt stenpiren med färjorna till Hisingen. Parkeringshus finns i närheten mot en extra kostnad.\n\nLägenheten hyrs ut delvist möblerad (med soffa, soffbord, tv, säng, garderob, matbord och stolar)  till 1-2  personer, med el, vatten och bredband inkluderad i kostnaden. Hyrs till en början ut i 3-6 månader med god chans till förlängning. ",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 51.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T16:13:38+00:00", "clock": "16:13:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T17:18:57+00:00", "clock": "17:18:57"};
