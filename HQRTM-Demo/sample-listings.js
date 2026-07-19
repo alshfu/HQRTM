@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lindholmsallen, Göteborg",
+    "url": "https://qasa.com/p/1417764",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f8fa77459445a117aa1f403b2a81215f3bc00ce4e77666845e630f91285feb5.jpg",
+    "description": "\nMöblerad lägenhet uthyres i Lindholmen – 4 månader**\n\nJag hyr ut min fullt möblerade och välutrustade lägenhet i **Lindholmen** under **4 månader** på grund av resa.\n\nLägenheten ligger i ett av Göteborgs mest attraktiva områden, precis intill **Karlatornet**, med närhet till restauranger, caféer, gym, matbutiker och vackra promenadstråk längs vattnet.\n\nEn stor fördel är att du kan ta den **kostnadsfria Älvsnabben-färjan** över älven till centrala Göteborg på bara några minuter.\n\n* Fullt möblerad och inflyttningsklar\n* Fullt utrustat kök med allt som behövs\n* Hyran inkluderar internet och kallvatten\n* El och varmvatten debiteras separat enligt månadsfaktura\n* Miljövänlig fastighet med fokus på hållbarhet\n* Hyran: 18000 kr per månad \nPassar perfekt för dig som söker ett bekvämt och trivsamt boende under en begränsad period.\n\nVid intresse är du varmt välkommen att skicka ett meddelande för mer information eller visning.\n",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norumshöjd, Göteborg",
     "url": "https://qasa.com/p/1417712",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2be83e534d5b1fd28a03c1f01106cff2ec14b59ce35b0a13f9633596e66f7aa5.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamlestads Brygga, Göteborg",
-    "url": "https://qasa.com/p/1417531",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d20ffdbe2e803e498fef96760902dfc7c3ff8da2405f99b32158b4f24e67a348.jpg",
-    "description": "Nyproducerat (2020) 2:a uthyres!\n\nLägenheten har en social planlösning, öppet mellan kök och vardagsrum, sovrum med gott om förvaring i form av platsbyggd garderob. Välutrustad med tvätt, tork och diskmaskin.  Lägenheten har även en inglasad balkong i anslutning till vardagsrummet samt en mindre klädkammare vid ingången. \n\nUthyres omöblerad från och med augusti 2026. \nEl, vatten, värme och bredband ingår i hyran. Ypperlig kommunikation med ett stenkast från buss, spårvagn och tåghållplats.  \n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T10:36:05+00:00", "clock": "10:36:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T11:40:29+00:00", "clock": "11:40:29"};
