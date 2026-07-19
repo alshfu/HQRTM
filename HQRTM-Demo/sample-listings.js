@@ -3,14 +3,29 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Harald Hjärnesgatan, Göteborg",
-    "url": "https://qasa.com/p/1417592",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83567bbb1d35f196f098511a3dfc18fa44ec5ede46b9ecef691d68137717b9ca.jpg",
-    "description": "Ljus och fin lägenhet med renoverat kök och badrum (elburen golvvärme), fräscht och modernt. Stora fönster som ger gott om naturligt ljus genom hela lägenheten. Du har också en klädkammare (dörren mitt emot entrédörren), för förvaring av kläder och annat\n\nHyran är: 12000 kr/månad. \nEl, vatten och bredband ingår i hyra. \n\nLägenheten ligger ett stenkast från Backaplan med tillgång till shopping och restauranger. Bara några meter bort hittar du ett Nordic Wellness-gym, perfekt för dig som gillar träning. \n\nKommunikationer: Goda kollektivtrafikförbindelser med buss och spårvagn som snabbt tar dig in till centrala Göteborg.\n\nVi söker skötsamma hyresgäster som uppskattar sitt hem. Vi ser helst att du/ni som söker vill ha något långsiktigt. Men självklart öppen för dialog, det ska helt enkelt kännas rätt för båda parter. Boende är en plats för trygghet. \n\nVälkommen med att höra av dig. \n\n",
+    "title": "Norumshöjd, Göteborg",
+    "url": "https://qasa.com/p/1417712",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2be83e534d5b1fd28a03c1f01106cff2ec14b59ce35b0a13f9633596e66f7aa5.jpg",
+    "description": "Stor lägeheten med mycket fönster och  och bra fmailje område \n\nIca och willys hemma nöra med 5 min avstånd .\n\nBussen bara 1 min avstånd .\n\n75 kvadrat med stor vardag och balkong \n\nMöblerat och klart stor söbg stor tv skinn soffor \nJag hyr ut för jag måstte jobba i annan stad.",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 75.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Harald Hjärnesgatan , Göteborg",
+    "url": "https://qasa.com/p/1036518",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f810dd26cc5544525df0f98dddbcfd2b22278108c2d77dd7abfaa958f4e2c6b.jpg",
+    "description": "Ljus och modern lägenhet med renoverat kök och badrum. \n\nVi hyr ut vår fina och välplanerade lägenhet med stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade i en modern stil, och badrummet har dessutom elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare, praktiskt belägen mitt emot entrédörren – perfekt för kläder och annat.\n\nHyra: 12 000 kr/månad (inklusive el, vatten och bredband).\n\nLäge & Området\nLägenheten har ett utmärkt läge, bara ett stenkast från Backaplan med ett brett utbud av shopping och restauranger. För dig som gillar träning finns ett Nordic Wellness-gym bara några meter bort.\n\nKommunikationer\nHär bor du med utmärkta kollektivtrafikförbindelser – både buss och spårvagn tar dig snabbt och smidigt till centrala Göteborg.\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.\nVi ser gärna att du/ni letar efter ett långsiktigt boende, men är självklart öppna för dialog – det viktigaste är att det känns rätt för båda parter.\n\nBoende ska vara en plats för trygghet och trivsel.\n\nVälkommen att höra av dig vid intresse!\n",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 50.0,
-    "rent": 12000,
+    "rent": 11434,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Valthornsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1417523",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/33b47dfefd254c0d2ffc931100f6cfef5daf364658b18a933d753c6b07e53575.jpg",
-    "description": "Möblerad 1:a i nyproduktion uthyres – Västra Frölunda\n\nJag hyr ut min moderna och fullt möblerade 1:a om 36 kvm i en nyproducerad fastighet i Västra Frölunda. Lägenheten passar perfekt för dig som studerar i Göteborg eller söker ett bekvämt, inflyttningsklart boende.\n\nOm lägenheten\n36 kvm\nFullt möblerad\nStor balkong med eftermiddags- och kvällssol\nNyproduktion med modern standard\n120 cm säng\nBäddsoffa\nStor Smart-TV med Apple TV\nStor garderob med skjutdörrar samt byrå i hallen och allrum.\n\nFullt utrustat kök:\nDiskmaskin\nKyl och frys\nMikrovågsugn\nKaffebryggare\nBrödrost\nMixer\nKastruller och stekpannor\nTallrikar, skålar, glas och bestick\nKöksredskap\nUgnsformar\n\nBadrum:\nDusch\nGoda förvaringsmöjligheter\nKombinerad tvätt- och torkmaskin\n\nBalkong:\nDen stora balkongen är möblerad med soffa och bord och erbjuder härlig eftermiddags- och kvällssol. På grund av tidigare problem med duvor finns ett skyddsnät monterat på balkongen.\n\nLägenheten har ett mycket attraktivt läge med:\nCirka 5 minuters promenad till buss och spårvagn\nCirka 5 minuters promenad till Frölunda Torg med ett stort utbud av shopping, restauranger och service\nCirka 15 minuter till Göteborgs centrum med kollektivtrafik\nDirektbuss till badstrand under sommarsäsongen\nNära Ruddalen, ett av Göteborgs största naturområden med fina promenadstråk, motionsspår, utegym och goda möjligheter till friluftsliv året om\n\nIngår i hyran:\nEl\nVatten och varmvatten\nBredband/WiFi\n\nObservera att förråd inte ingår, men cykelförråd finns precis utanför entrén.\n\nLägenheten passar utmärkt för dig som ska börja studera i Göteborg, redan studerar eller söker ett bekvämt och fullt möblerat boende med goda kommunikationer.\n\nUppsägningstid: 3 månader.\n\nVid intresse, hör gärna av dig och berätta lite om dig själv!",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T08:55:45+00:00", "clock": "08:55:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T10:36:05+00:00", "clock": "10:36:05"};
