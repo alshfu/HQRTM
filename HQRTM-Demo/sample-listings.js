@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Marklandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1417937",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dcc8ec0750f094709861898ff90a764b0cb89defa204cbbd3f7e908f7c4f304d.jpg",
+    "description": "Lägenheten är perfekt belägen mellan havet och centrala Göteborg, på 57 kvm med inglasad balkong i västerläge.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 12300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "harald stakegatan, Göteborg",
+    "url": "https://qasa.com/p/1417780",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3f0a16e79a16346af2e1708e597ab6028530f9bdc5250139644e3ec33955e0c.jpg",
+    "description": "Om lägenheten:\nHyr ut en mycket fin och välplanerad tvåa på 51 kvm med separat kök. Lägenheten har ett härligt ljusinsläpp, rymligt vardagsrum, ett mysigt sovrum samt ett fullt utrustat kök med goda förvaringsmöjligheter.\n\nLäge och kommunikationer:\nLägenheten ligger i ett lugnt och trevligt område i Gamlestaden . Det är mycket nära till goda kommunikationer (buss/spårvagn) som tar dig till centrala staden på bara 11 minuter. Gångavstånd till mataffärer, gym, caféer och grönområden.\n\nInformation om uthyrningen:\n\nStorlek: 2 rum och kök (51 kvm)\n\nHyra: 9500 kr/månad\n\nDeposition: En månadshyra tillämpas.\n\nVem söker jag?\nJag söker en skötsam, rökfri och djurfri hyresgäst (eller ett par) med stabil ekonomi (inga betalningsanmärkningar).\n\nÄr du intresserad? Skriv en kort presentation om dig själv, vad du arbetar med/studerar och hur länge du önskar hyra, så återkommer jag för att boka en visning!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Litteraturgatan, Hisings Backa",
     "url": "https://qasa.com/p/1381378",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b833fd12522c4d80c68c608d0faeb65ffbcbf8b6cca5164dab096f6d3fd12448.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fagerdalsvägen, Hisings Kärra",
-    "url": "https://qasa.com/p/1417538",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eaddf80dac8a2b70a4c631a2fe284ee7303043bb5f2b3cc8bfd50aaaa55e23c9.jpg",
-    "description": "Charmigt och lantligt hus uthyres i Gerrebacka – inflytt 1 september\n\nVi hyr ut vårt trevliga och välskötta hus med stor trädgård från 1 september 2026. Perfekt för dig som söker ett lugnt och naturnära boende med närhet till skolor, service och goda kommunikationer in till Göteborg.\n\n🏡 Om huset\n• Huset har en välplanerad 1,5-planslösning med två sovrum, kök/vardagsrum i öppen planlösning och en källare med tv-rum och tvättstuga. \n• Totalrenoverat 2018/2019 med modern standard\n• Entréplan: hall, helkaklat badrum, kök/vardagsrum i öppen planlösning\n• Övervåning: två sovrum och liten hall\n• Källare: tv-rum, tvättstuga, pannrum/förråd\n• Fräscht kök med bra arbetsytor och nya vitvaror (2018/2019) + (diskmaskin 2025)\n• Tvättmaskin och torktumlare\n• Uteplats i soligt läge\n• Stor trädgård med fruktträd, växthus och odlingslott\n• Egen uppfart med parkering\n\n📍 Läget\nHuset ligger i Gerrebacka, ett lugnt och familjevänligt område med naturen precis utanför dörren. Tomten är 1500 kvm och gränsar direkt mot svamp- och bärtät skog, vilket ger en unik känsla av avskildhet. På tomten finns trädkoja, gungställning, äppel- och plommonträd, bärbuskar, växthus och odlingslott.\n\nTrots det lantliga läget har du goda förbindelser till centrala Göteborg – ca 700 meter till busshållplats Fyrspannsvägen.\n\n💰 Hyra och villkor\n• Månadshyra: 16 792 kr/mån exkl el\n• Ingår: vatten, avlopp, sophämtning, fiber\n• Deposition: 2 månadshyror\n• Uthyrningstid: minst 12 månader, gärna längre\n• Rökfri bostad\n• Husdjur tillåtet \n• God ekonomi och ordnad livssituation önskas\n\n📅 Inflytt\n1 september 2026.\n\n📩 Intresseanmälan\nSkriv några rader om dig/er, sysselsättning och hur länge ni önskar hyra. Vi återkommer med visning.\n\nMed vänlig hälsning,\nKarin",
-    "district": "Hisings Kärra",
-    "rooms": 4.0,
-    "area_m2": 80.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Silvandersgatan, Göteborg",
-    "url": "https://qasa.com/p/1417529",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f3acb4790239231a3c9f20e6e57288ddecd16d2b6582c59a1513feb3c2c79623.jpg",
-    "description": "Ljus och fräsch lägenhet i nedre plan i funkisvilla i Örgryte. Egen entré med access till vardagsrummet med kök, öppen planlösning, sort sovrum med garderober. Badrum med tvätt och tork. \nNära till 5:ans spårvagn och Bö centrum. Delsjön naturreservat alldeles inpå med fina bad, vandringsleder, tennis, gym och cykelstigar. \nKallhyra 8500kr/månad\nTotal hyra 9750kr/månad\nDetta inkluderar vatten, värme, avlopp,internet, tv.\nFri parkering i området\nDeposition 1 månadshyra\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 9750,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T14:10:06+00:00", "clock": "14:10:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-19T15:14:52+00:00", "clock": "15:14:52"};
