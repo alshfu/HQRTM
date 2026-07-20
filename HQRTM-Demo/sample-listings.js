@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Åbogårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1418242",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a9082e6bb8c4637cfe21471f9f09bfd9b697de52c56d20cd0b37dd6359c428fb.jpg",
+    "description": "Nyrenoverad källarlägenhet på drygt 30 m2 i ett trevligt område.\nParkering finns tillgängligt och en trevlig uteplats med grill. \n\nNärheten till kommunikation (buss o spårvagn) till Göteborg samt köpcenter ligger ca 100 m ifrån huset, Eriksbergs centrum.\n\nEgen toalett och badrum men ligger inte i lägenheten utan på andra sidan i korridoren (5m från lägenheten). \n\nÄr du inte intresserad av källarlägenhet och dusch o toalett utanför lägenheten så är detta boendet inget för dig. \n\nVälkommen att höra av er!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Oterdahlsgatan, Göteborg",
+    "url": "https://qasa.com/p/1418102",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37eac95f8f650d04bc0ae463993c78647d9ef5e2741a7e70ea87704f491c78de.jpg",
+    "description": "Mysig lägenhet, 1 rum och kök med fönster åt två håll. Lägenheten ligger på 3 våningen i stabil och välskött HSB-förening från 1940-talet. Lugnt område, nära till grönområde med fina promenadstråk.\nTrägolv i alla rum. Badrummet nyrenoverat och fräscht, med golvvärme. Balkong med eftermiddags-kvällssol. Innergård med grillplats och sittgrupper.\nNybyggt Hemköp finns ca. 2 min bort, liksom spårvagnshållplats. Ett större Coop samt Willys ca. 5 min promenad.\nEl, vatten, värme, internet och basutbud TV ingår i hyran.\nLägenheten hyrs ut på längre sikt, men hyreskontraktet behöver förnyas varje år pga bostadsrättsföreningens regler. Hyrs ut omöblerad. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 9500,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stenkleveliden, Torslanda",
     "url": "https://qasa.com/p/1412057",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/559fdaebab8b41433dd6499dcb6c6dfdb4b868494812de7b2edb59f3979c5543.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fagottgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1418002",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c093ead60ae1ea76ce5808ada018b40d262f415e7e4be9af2bf9c7f20b235d2.jpg",
-    "description": "Lugnt område nära natur ,spårvagn, gym o köpcentrum .\nVi delar kök o badrum .\nI kostnaden ingår fiber , el o vatten.\nEndast kvinnliga sökande \nEj rökare \n\n\nNice area, close to the nature, the tram, the gym , bus and the shoppingmall.\nWe share kitchen and bathroom..\nWi-Fi ,electricity and water are included.\nOnly female non smoking ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4700,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Marklandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1417937",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dcc8ec0750f094709861898ff90a764b0cb89defa204cbbd3f7e908f7c4f304d.jpg",
-    "description": "Lägenheten är perfekt belägen mellan havet och centrala Göteborg, på 57 kvm med inglasad balkong i västerläge.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 57.0,
-    "rent": 12300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T04:51:10+00:00", "clock": "04:51:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T07:50:58+00:00", "clock": "07:50:58"};
