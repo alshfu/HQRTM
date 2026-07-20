@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mandolingatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1418724",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cfc26e3266460aea49e6c125770fb9949c8ca722d6cc1a3078f7a29c2d6ad058.jpg",
+    "description": "Två Mysigt rum i en 3:a uthyres. Rummet är möblerat och har  samt tillgång till kök & vardagsrum, toalett Lägenheten  ligger i frölunda torg nära spårvagn & buss. \nEl, vatten och internet ingår i hyran\nHyra: 4500\nEn månads deposition erläggs i samband med uthyrning  \nSöker endast kvinnliga uthyresgäs",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 18.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lantmätaregatan, Göteborg",
     "url": "https://qasa.com/p/1418030",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d4554796617c5487328907972a0828e7b576515329ee7a9af66e55314743be53.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karlavagnsgatan, Göteborg",
-    "url": "https://qasa.com/p/1418409",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/deeb48e41d00075b7134242dabd837d5a23b2ff1b854015dd01d851cd30c0109.webp",
-    "description": "Ny modern lägenhet i en av Sveriges mest attraktiva gator Karlastaden. Balkong i västerläge och stora ljusinsläpp hela dagarna. Denna lägenhet är i toppskick och är av de bäst planerade 2or i byggnaden. Fina nya lindholmsallèn precis över gatan och ca 30sek promenad till lindholmens buss/spårvagnshållsplats. Massa restauranger i området samt att STC gym finns i samma byggnad. Lägenheten är i toppskick.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 15500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T20:13:02+00:00", "clock": "20:13:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T21:34:23+00:00", "clock": "21:34:23"};
