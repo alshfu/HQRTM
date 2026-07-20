@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lantmätaregatan, Göteborg",
+    "url": "https://qasa.com/p/1418030",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d4554796617c5487328907972a0828e7b576515329ee7a9af66e55314743be53.jpg",
+    "description": "Jag hyr nu ut min lägenhet i andra hand på grund av arbete i utlandet 1 år. (Kan bli förlängt eventuellt +1 år). \n\nMöblerad 2:a i attraktiva Kvillebäcken – 60 kvm med balkong i soligt läge inflytt  1 augusti, eller efter avtal. \n\nNu finns möjligheten att hyra en ljus och välplanerad tvåa om 60 kvm i populära Kvillebäcken. Lägenheten hyrs ut fullt möblerad och är inflyttningsklar – perfekt för dig som söker ett bekvämt boende där allt redan finns på plats. Jag söker en eller två personer som vill bo här, och önskar att det inte är barn i hushållet.\n\nBostaden erbjuder ett separat sovrum, ett rymligt vardagsrum, ett nyrenoverat badrum, ett praktiskt kök med matplats för fyra personer samt en välkomnande hall. Från balkongen, som har sol större delen av dagen, kan du njuta av härliga stunder från morgon till kväll.\n\nKvillebäcken är ett av Göteborgs mest uppskattade områden med en härlig blandning av stadspuls och lugna kvarter. Här bor du lugnt och skönt med närhet till allt i närheten som restauranger, caféer och delikatessbutiker. I området finns dessutom matbutiker, shopping, gym och annan service inom bekvämt gångavstånd. Tack vare de goda kollektivtrafikförbindelserna tar du dig snabbt och smidigt till centrala Göteborg och övriga delar av staden. Hållplats Vågmästareplatsen till centralstationen = 7 minuter. \n\nFakta om bostaden:\n\n• 60 kvm\n• 2 rum och kök\n• Mysigt boende i lugnt område\n• Nyrenoverat badrum\n• Balkong med soligt läge större delen av dagen\n• Fullt möblerad\n• Kök med matplats för fyra personer\n\nHyra:\n12 000 kr/månad\n\nI hyran ingår:\n\n• El \n• Vatten\n• Värme\n• Internet\n• TV\n\nDet här är ett komplett boende där du bara behöver flytta in och känna dig hemma.\n\nVid intresse är du varmt välkommen att höra av dig och berätta lite om dig själv!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Putsegårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1418541",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b951fbaa8ad7b533ae7d46cf4c952eaee33c588cad0aec24420681befb9ba911.jpg",
+    "description": "OBS! Endast företag!\nLetar ni efter boende åt er personal? Eller är ni möjligtvis en grupp som flyttat till Göteborg i jobb syfte? \nVi har ett stort ljus och  nyrenoverad lägenhet med 4 sovrum och en stort vardagsrum. Kök, två badrum, tvättrum och två ingångar. \n\nKylar och frysar finns, samt full utrustat kök. \n\nPris är per person. ",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 140.0,
+    "rent": 28000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nylösegatan, Göteborg",
     "url": "https://qasa.com/p/1418505",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65202b2870ef89634b4672601a047772e311e2842ee58dbd78d26e741acc437c.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brottkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/1303204",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46ded1b8db11e03c474d6132109c397618db57a3cc9890392f79f5a380278379.jpg",
-    "description": "Mysig och fräsch tvåa med uteplats i populära Nya Hovås – möblerad\n\nLetar du efter ett trivsamt och bekvämt boende i ett av Göteborgs mest eftertraktade områden? \n\nDenna ljusa och välplanerade tvåa erbjuder ett modernt kök, rymligt vardagsrum och sovrum med gott om förvaring. Lägenheten hyrs ut fullt möblerad (förutom möblerna i barnrummet). Det extra rummet fungerar idag som walk-in closet, men kan enkelt användas som hemmakontor, klädförvaring eller barnrum – perfekt för den som behöver lite extra yta och flexibilitet.\n\nHär finns även en mysig uteplats där du kan njuta av morgonkaffet eller umgås med vänner under sommarkvällarna.\n\nFakta:\n• Hyra: 14 000 kr/mån exklusive blockets serviceavgift (värme, vatten, el och bredband) \n• Tillträde: Flexibelt men snarast möjligt\n• Uthyrning: Möblerad (ej barnrummet)\n• Läge: Nya Hovås – nära butiker, caféer, restauranger, service och bra kommunikationer till Göteborgs centrum\n• Uteplats: Ja, på markplan \n\nPerfekt för dig som vill bo bekvämt, med närhet till både stad och hav.\n\nIntresserad? Hör av dig med en kort presentation om dig själv och hur länge du önskar hyra.",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 14000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Åbogårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1418242",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a9082e6bb8c4637cfe21471f9f09bfd9b697de52c56d20cd0b37dd6359c428fb.jpg",
-    "description": "Nyrenoverad källarlägenhet på drygt 30 m2 i ett trevligt område.\nParkering finns tillgängligt och en trevlig uteplats med grill. \n\nNärheten till kommunikation (buss o spårvagn) till Göteborg samt köpcenter ligger ca 100 m ifrån huset, Eriksbergs centrum.\n\nEgen toalett och badrum men ligger inte i lägenheten utan på andra sidan i korridoren (5m från lägenheten). \n\nÄr du inte intresserad av källarlägenhet och dusch o toalett utanför lägenheten så är detta boendet inget för dig. \n\nVälkommen att höra av er!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 32.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T12:54:49+00:00", "clock": "12:54:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T15:11:45+00:00", "clock": "15:11:45"};
