@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brottkärrsvägen, Hovås",
+    "url": "https://qasa.com/p/1303204",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46ded1b8db11e03c474d6132109c397618db57a3cc9890392f79f5a380278379.jpg",
+    "description": "Mysig och fräsch tvåa med uteplats i populära Nya Hovås – möblerad\n\nLetar du efter ett trivsamt och bekvämt boende i ett av Göteborgs mest eftertraktade områden? \n\nDenna ljusa och välplanerade tvåa erbjuder ett modernt kök, rymligt vardagsrum och sovrum med gott om förvaring. Lägenheten hyrs ut fullt möblerad (förutom möblerna i barnrummet). Det extra rummet fungerar idag som walk-in closet, men kan enkelt användas som hemmakontor, klädförvaring eller barnrum – perfekt för den som behöver lite extra yta och flexibilitet.\n\nHär finns även en mysig uteplats där du kan njuta av morgonkaffet eller umgås med vänner under sommarkvällarna.\n\nFakta:\n• Hyra: 14 000 kr/mån exklusive blockets serviceavgift (värme, vatten, el och bredband) \n• Tillträde: Flexibelt men snarast möjligt\n• Uthyrning: Möblerad (ej barnrummet)\n• Läge: Nya Hovås – nära butiker, caféer, restauranger, service och bra kommunikationer till Göteborgs centrum\n• Uteplats: Ja, på markplan \n\nPerfekt för dig som vill bo bekvämt, med närhet till både stad och hav.\n\nIntresserad? Hör av dig med en kort presentation om dig själv och hur länge du önskar hyra.",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 14000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Åbogårdsgatan, Göteborg",
     "url": "https://qasa.com/p/1418242",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a9082e6bb8c4637cfe21471f9f09bfd9b697de52c56d20cd0b37dd6359c428fb.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stampgatan, Göteborg",
-    "url": "https://qasa.com/p/1418017",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a0b2afa6d350a90ed9a469c20d03d77aa3369b5f125c43fcc399c91131e2611e.jpg",
-    "description": "På våning fyra hittar ni denna stilrena och välplanerade trea med en öppen, social planlösning där kök och vardagsrum . \nModernt köke med generös köksö, inglasad balkong som härlig plats att njuta av sol och utsikt i höjd med trädkronorna. Två rogivande sovrum, gott om förvaring och ett rymligt badrum gör detta till ett hem som kombinerar komfort, funktion och trivsel på bästa sätt.\n \n I Stampen bor ni mycket centralt i ett expansivt område som de senaste åren har fräschats upp med nya butiker, restauranger och mindre trafik. \n\nKommunikationerna i området är mycket goda, från närmaste hållplats Ullevi Norra avgår flertalet spårvagns- och busslinjer samt närhet till knutpunkten Svingeln där det även avgår flera expressbussar. Ni når även Centralstationen, utfartslederna och hela centrums utbud på några få minuter. Kring Stampen erbjuds mataffärer, gym, butiker och restauranger. \n\nI hyran ingår vatten/el/värme. \n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 15500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T07:50:58+00:00", "clock": "07:50:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-20T10:38:51+00:00", "clock": "10:38:51"};
