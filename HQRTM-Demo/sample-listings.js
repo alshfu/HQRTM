@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Järnmyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1419714",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e7c8fbd040384ec7468695a339d09b7e7890c723b85fbf21f338fdb4c705d0ef.jpg",
-    "description": "Lugn och skötsam hyresgäst sökes för omedelbar ansökan om inflytt from 1/8.\n\nFin vindslägenhet med högt i tak i rummet och snedtak i köket. Badrum, balkong och sovalkov med sängbredd 160cm.\nBalkongen ligger åt ett eget håll och det är lugnt i området, trappuppgången och grannarna är trevliga. Köket är litet men sött, från hallen ligger badrum och en walking closet/stor garderob. Största ytan är lagd på rummet och därifrån finns sovalkov och balkong.\n\nHyra 5007:- plus kostnad för varmvatten. Bredband kostar 249:-/månad. El betalar du efter egen förbrukning. Hemförsäkring behöver du teckna egen.\n\nNedanför ligger spårvagnshållplats och det tar ca 15 minuter in till stan. Det är två hållplatser till Slottsskogen och Botaniska trädgården. Centralt men ändå lugnt.\nTvättstuga finns i uppgången intill och om så önskas finns här en liten tvättmaskin jag kan lämna kvar.\n\nJag ska flytta ut på landet under ett års tid så därav jag hyr ut i andrahand.",
+    "description": "Lugn och skötsam hyresgäst sökes för omedelbar ansökan om inflytt from 1/8. Bilder kommer imorgon kväll, ville ha upp annonsen fort.\n\nFin vindslägenhet med högt i tak i rummet och snedtak i köket. Badrum, balkong och sovalkov med sängbredd 160cm.\nBalkongen ligger åt ett eget håll och det är lugnt i området, trappuppgången och grannarna är trevliga. Köket är litet men sött, från hallen ligger badrum och en walking closet/stor garderob. Största ytan är lagd på rummet och därifrån finns sovalkov och balkong.\nNedanför på torget ligger en ica-butik, Nordic Wellness gym, Apotek, cafe, pizzeria, Thai Mat, bibliotek och en tobaksaffär.\n\nHyra 5007:- plus kostnad för varmvatten. Bredband kostar 249:-/månad. El betalar du efter egen förbrukning. Hemförsäkring behöver du teckna egen.\n\nNedanför ligger spårvagnshållplats och det tar ca 15 minuter in till stan. Det är två hållplatser till Slottsskogen och Botaniska trädgården. Centralt men ändå lugnt.\nTvättstuga finns i uppgången intill och om så önskas finns här en liten tvättmaskin jag kan lämna kvar.\n\nJag ska flytta ut på landet under ett års tid så därav jag hyr ut i andrahand.",
     "district": "Göteborg",
     "rooms": 1.5,
     "area_m2": 42.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T22:54:06+00:00", "clock": "22:54:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T23:54:40+00:00", "clock": "23:54:40"};
