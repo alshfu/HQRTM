@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sisjövägen, Askim",
+    "url": "https://qasa.com/p/1419019",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce5e4eb1e48dc4aaab948b3a229c46083b97f893011fbfc65a2949fcd53af9ba.jpg",
+    "description": "Rum i nyrenoverad källare med fönster. Hyrs ut till student. Till rummet på ca 25kvm tillkommer ytorna; mindre hall, egen toalett,  pentrykök och badkar m dusch. Tvättmaskin/torktumlare i pentryt delas med familjen i huset. I hyran ingår el, wi-fi, vatten, värme, möbler/köksutrustning. Det tar ca 30 min med buss från hpl Sisjöbäckens väg till Chalmers, 10 min gångväg till naturreservat och bad i Sisjön samt 10 min gångväg till Sisjöns handelsområde med bla gym, bank, apotek, vårdcentral, mataffärer. 15 min med cykel till havet, lugnt naturskönt område i västra Göteborg. ",
+    "district": "Askim",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 5700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Zirkongatan 25D, Västra Frölunda",
+    "url": "https://qasa.com/p/1419025",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cad0cfb9f824cd2c777dd72c981072a6f0631f29f9a836c088922e3ada51b577.jpg",
+    "description": "Välkommen till denna charmiga 2:a belägen i det nya populära bostadsområdet på Opaltorget!\n\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita luckor och eleganta handtag på lådorna, samt en tålig laminatbänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med vitt kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och en tvättmaskin samt torktumlare. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\n\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök, samtliga med balkong eller uteplats. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 11802,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mandolingatan, Västra Frölunda",
     "url": "https://qasa.com/p/1418724",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cfc26e3266460aea49e6c125770fb9949c8ca722d6cc1a3078f7a29c2d6ad058.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smuttenstigen, Köpstadsö",
-    "url": "https://qasa.com/p/1222754",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/57ee2792b90d3c18f90dcd448c2af5d0af15b51a3c6675f4fe2ae531a9312b18.jpg",
-    "description": "Hus beläget på västra Köpstadsö (Kössö) med fin utsikt mot Styrsö och Brännö. 150 m från strandkant. Fantastisk utsikt mot väster. \nHuset ligger avskilt och utan insyn. Kössö saknar affärer, mat inköp etc för göras i stan. \nHuset består av 1 stort rum med kök. Mindre sovrum med våningssängsamt sovloft med säng för 2. Stora altaner på både framsida och baksida. Stort matbord med plats för 10 sittande. \nDirektverkande el-element för uppvärmning.\nFrån huset till skärgårds båten är det ca 10 minuter promenad. Därefter tar skärgårdsbåten antingen 8 eller 15 min till saltholmen och därifrån går spårvagn eller snabbuss (ö-snabben) som tar 20 min till centrum. Kärra för bagage finns att låna.\nVatten och soptömning ingår\nHyran avser kallhyra, el tillkommer efter avläsning av elmätare och aktuell rörligt eltaxa.\nTV finns men kräver chromecast/appleTV anslutning. \n",
-    "district": "Köpstadsö",
-    "rooms": 2.5,
-    "area_m2": 45.0,
-    "rent": 7300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Svindalsvägen, Billdal",
-    "url": "https://qasa.com/p/1418452",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9259500b898a1da816586d65d48e0504e6835ffc5969125bc376aa5dcfbd1642.jpg",
-    "description": "Stuga på 50 kvm med altan på ca 20 kvm. Fullt modern och fullt utrustad. Ligger på promenadavstånd ca 15 min från Hovås centrum med butiker och restauranger. Stugan har helkaklat badrum med värmegolv och dusch, tvättmaskin och torktumlare. Kök i öppen planlösning mot vardagsrum och tak upp i nock med infälld belysning samt dubbeldörrar ut mot insynsskyddad altan med grill. Sovrum med tak upp i nock infälld belysning och klädskåp. Hall med garderober och städskåp. Promenadavstånd Billdalspark ca 5 min och havet Billdalsbadet ca 15-20 min. Busshållplats ca 10 min promenad. Buss till Göteborg ca 15 min till linneplatsen.  I hyran ingår el, värme vatten sophämtning, Wi-Fi samt parkering. ",
-    "district": "Billdal",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T04:27:51+00:00", "clock": "04:27:51"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T07:12:55+00:00", "clock": "07:12:55"};
