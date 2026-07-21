@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Pilegårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1419633",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ebff539e3e9d161bab3cf361216f4bd88ef9b9b54de12fa1f2b71d7d18cd5e86.jpg",
+    "description": "Välkommen till Pilegårdsgatan 18D - Göteborg\n\nTotalrenoverade 2022!!! Här erbjuds ett stilfullt fullutrustat kök, separat sovrum, just och härligt vardagsrum samt ett helkaklat badrum med bäde golvvärme och egen tvättutrustning. I andra änden av hemmet ligger allrummet som rymmer soffa och matbord. Har slas man av ljuset som sträcker sig in i bostaden.\nHär bor ni med bara ett stenkast från Eriksbergskajen med allt de har att erbjuda. Njut av kajpromenader, caféer och välrenommerade restauranger. Alldeles i närheten finner ni även Eriksbergs köpcentrum med Coop, SATS, Systembolaget, blomsteraffär och mycket mer.\nPrecis utanför huset tar bussen er in till Göteborgs central pả ca 15 min. Från Eriksbergstorget går även Älvsnabben som snabbt och smidigt tar er in till stan.\n\n34Kvm\n1,5 rok\nOmoblerat\nVåning 2 av 2, hiss finns ej\nVatten, värme och WIFI ingår\nel, hemförsäkring ingår ej\nQasas service avgift ingår inte\n \nRenoveringar\n• Köket är nyrenoverat (0-5 ar)\n• Badrummet är nyrenoverat (0-5 ar)\nDin hyresvärd\nPORTUCALE FASTIGHETER AB\n\n\n\nWelcome to Pilegårdsgatan - Gothenburg\n\nTotally renovated 2022 !!! It offers a stylish fully equipped kitchen, separate bedroom, just and lovely living room and a fully tiled bathroom with both underfloor heating and own washing equipment. At the other end of the home is the living room which holds sofa and dining table. If you are slipped by the light that extends into the home. \nHere you live with just a stone's throw from the Eriksberg quay with everything they have to offer. Enjoy quay walks, cafes and reputable restaurants. Right close you will also find Eriksberg's shopping center with Coop, SATS, Systembolaget, flower shop and much more.\nJust outside the house, the bus takes you to Gothenburg Central Pả about 15 min. From Eriksbergstorget also goes Älvsnabben which quickly and smoothly takes you into town.\n\n34 sqm\n1.5 rok\nUnfurnished\nFloor 2 of 2, no elevator\nWater, heat and WIFI included\nelectricity, home insurance is not included\nQasas service fee is not included\n\nRenovations\n• The kitchen is newly renovated (0-5 years)\n• The bathroom is newly renovated (0-5 years)\n\nYour landlord,\nPortucale Real Estate",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 34.0,
+    "rent": 10950,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Slätskäddegatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1419337",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59ee8d26434b1bd226b003f18054f8817df05f9d0665a50a22cdf3859c98538c.jpg",
+    "description": "En smart planerad lägenhet på 1 våningen i vår villa. Det är ett stort allt i ett rum med plats för kök och matplats och soffa( vardagsrum) . Man kan även få plats med ett litet skrivbord om det skulle behövas. Beläget i Väldigt lugnt villa kvarter. Det är möblerat på ett funktionellt sätt. \nVi hyr ut till en person som har ordnad ekonomi, arbete eller studier. Det är avsett och prissatt för en singel person. ",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 8500,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Första Långgatan, Göteborg",
     "url": "https://qasa.com/p/1415700",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d90750fb81786e4aaf2c813dfcd884ca17b9e9941a4d52b69593646fe59fc3d1.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kosmosgatan 33, Göteborg",
-    "url": "https://qasa.com/p/1419471",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/5e14310b56b6ea1ccbe658b4444c69edf4f263163ecca0a5e986689bccfbf9ba.pdf",
-    "description": "Välkommen hem till denna ljusa och stilrena lägenhet om 69 välplanerade kvadratmeter. Här erbjuds ett stilrent och modernt boende där varje detalj är noggrant utvald för att skapa en trivsam och funktionell vardag. \n\nLägenheten har genomgått en renovering år 2025 där samtliga väggar och tak målats i ljusa färger. En ny säkerhetsdörr är installerad för att ge dig en extra trygg känsla i vardagen. I hallen möts du av ett snyggt och praktiskt klinkergolv som både tål slitage och ger ett välkomnande intryck. I resten av hemmet ligger ett elegant ekparkettgolv som ger både värme och karaktär åt bostaden. \n\nDet helkaklade badrummet är utrustat med både klinker och kakel, handdukstork, golvvärme samt en spegel med stämningsfull LED-belysning. I grovköket finns även en egen tvättmaskin och torktumlare för maximal bekvämlighet. \n\nKöket, hemmets hjärta, är välutrustat med inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kombinerad kyl och frys. Här finns gott om utrymme för både matlagning och gemenskap. I anslutning hittar du även balkongen – perfekt för dig som gillar att sitta ute och njuta av vädret och utsikten.\n\nI hyran ingår värme, vatten och kabel-TV. \nObservera att bilderna i annonsen är exempelbilder och digitalt stylade. Avvikelser från planritningen kan förekomma. Visning sker enligt planritning.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkering finns i området och kan hyras genom separat avtal.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 69.0,
-    "rent": 10028,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordhemsgatan, Göteborg",
-    "url": "https://qasa.com/p/1416668",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4e54a01642e60ffb33845622940028e1ac71e978dd09b07d5c934a050696a0f6.jpg",
-    "description": "Ljus och smakfullt renoverad mini-tvåa med enskilt sovrum om 37 kvm i hjärtat av Linnéstaden. Högt upp i huset med lugnt läge, modern öppen planlösning, exklusiva materialval, fullt utrustat kök och helkaklat badrum med golvvärme och tvättmaskin. Perfekt läge med restauranger, caféer och butiker runt hörnet samt gångavstånd till Slottsskogen och Botaniska trädgården. En trivsam bostad med hög standard och ett fantastiskt läge. Även nära till Handelshögskolan (gång 8 min) samt nära till kollektivtrafik. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 37.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T18:00:02+00:00", "clock": "18:00:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T19:44:44+00:00", "clock": "19:44:44"};
