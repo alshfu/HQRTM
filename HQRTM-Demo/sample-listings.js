@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Arkivgatan, Göteborg",
+    "url": "https://qasa.com/p/1416335",
+    "image_url": null,
+    "description": "Hyr ut en välplanerad och fullt möblerad 1,5 på 43 kvm i Lorensberg. Lägenheten ligger på fjärde våningen med hiss och har en stor balkong. Läget är svårslaget, bara ett stenkast från Götaplatsen med närhet till restauranger, caféer, matbutiker, kollektivtrafik. \n\nSöker i första hand en lugn och skötsam person eller ett par som tar hand om lägenheten som om den vore deras egen! \n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 43.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sisjövägen, Askim",
     "url": "https://qasa.com/p/1419019",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce5e4eb1e48dc4aaab948b3a229c46083b97f893011fbfc65a2949fcd53af9ba.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Uggleväg, Askim, Sweden",
-    "url": "https://qasa.com/p/1418478",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bb102c73b6786c518e339d06cd6f7dcd550b8135329dad8d3511e0dfeb793e02.jpg",
-    "description": "Vi är en kristen familj som bor i ett härligt hus med havsutsikt i Askim, en mil väster om Göteborg. Bra kommunikation till Göteborg, ca 15 min med buss\nVåra fyra pojkar har flyttat hemifrån, kvar är en  katt. Vi söker efter en skötsam kille som helst studerar. I vår bottenvåning hyr vi ut tre fräscha rum, varav två är uthyrda. Där finns spis och kylskåp, dusch, bastu, tvättstuga och TV-rum med öppen spis, samt egen ingång.\nTillgång till trädgård, altan med havsutsikt och utegrill finns samt fem minuter till havet.\nHyran är 5000:-\nVälkommen att höra av dig!\n",
-    "district": "Askim, Sweden",
-    "rooms": 1.5,
-    "area_m2": 15.0,
-    "rent": 5000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T07:12:55+00:00", "clock": "07:12:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T09:41:57+00:00", "clock": "09:41:57"};
