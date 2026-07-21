@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordhemsgatan, Göteborg",
+    "url": "https://qasa.com/p/1416668",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4e54a01642e60ffb33845622940028e1ac71e978dd09b07d5c934a050696a0f6.jpg",
+    "description": "Ljus och smakfullt renoverad mini-tvåa med enskilt sovrum om 37 kvm i hjärtat av Linnéstaden. Högt upp i huset med lugnt läge, modern öppen planlösning, exklusiva materialval, fullt utrustat kök och helkaklat badrum med golvvärme och tvättmaskin. Perfekt läge med restauranger, caféer och butiker runt hörnet samt gångavstånd till Slottsskogen och Botaniska trädgården. En trivsam bostad med hög standard och ett fantastiskt läge. Även nära till Handelshögskolan (gång 8 min) samt nära till kollektivtrafik. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 37.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Arkivgatan, Göteborg",
     "url": "https://qasa.com/p/1416335",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nylösegatan, Göteborg",
-    "url": "https://qasa.com/p/1418505",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65202b2870ef89634b4672601a047772e311e2842ee58dbd78d26e741acc437c.png",
-    "description": "El, bredband och värme ingår i hyran.  \n\nHyr ut min fina lägenhet i Gamlestan under 1 år för att bli sambo. \nLägenheten är i funkisstil har en stor inglasad balkong, bra läge med lite insyn.\nLägenheten ligger på högsta våningen.\n Är fräsch och relativt nymålad. Nyrenoverat badrum sen två år tillbaka. \nHyr ut lägenheten möblerad men kan diskuteras om du vill ta bort några av möblerna. Tallrikar, glas, kastruller och enklare köksredskap finns om du önskar att jag lämnar.  \n\nNärmsta hållplats SKF och Gamlestadstorget med bra kommunikation till hela stan. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T09:41:57+00:00", "clock": "09:41:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T11:29:54+00:00", "clock": "11:29:54"};
