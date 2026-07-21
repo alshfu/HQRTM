@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Första Långgatan, Göteborg",
+    "url": "https://qasa.com/p/1415700",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d90750fb81786e4aaf2c813dfcd884ca17b9e9941a4d52b69593646fe59fc3d1.jpg",
+    "description": "Jag hyr ut ett trevligt rum i min hyrestrea. Inga sunkiga möbler. Rummet möblerat med Ikeafotölj, ikea bäddsoffa, litet soffbord, skrivbord, byrå samt klädhängare. Stort linneskåp samt  litet utrymme som används som garderob.\nrummet kan hyras ut tills vidare om så önskas.\nInga husdjur eller rökning tillåtet. Du har tillgång till badrum samt kök och gemensam tvättstuga.\nFastigheten ligger mitt i smeten med 1 minuts väg till kommunikationer i alla riktningar! ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Borstbindaregatan, Göteborg",
+    "url": "https://qasa.com/p/1419544",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d820e2920b1dafb5ace39deeb08e4931732b48c6a25cdff3f46b157b8dde9a8.jpg",
+    "description": "En välplanerad 2a på 59 kvadratmeter. Boende i föreningen har tillgång till takterrassen med kök och grill. \n\nLigger ca 2 min från Hjalmar brantingsplatsen och tar 4 min till nordstan (centralstationen) med kollektivtrafiken \n\nHyresgäst\nHa en stabil inkomst \nInga betalningsanmärkningar \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 59.0,
+    "rent": 13700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Prilyckegatan, Hisings Kärra",
     "url": "https://qasa.com/p/1419485",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e65ff023fb93eada414606d891c8d0e799678d3b598cac43be950c93405db0d9.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Arkivgatan, Göteborg",
-    "url": "https://qasa.com/p/1416335",
-    "image_url": null,
-    "description": "Hyr ut en välplanerad och fullt möblerad 1,5 på 43 kvm i Lorensberg. Lägenheten ligger på fjärde våningen med hiss och har en stor balkong. Läget är svårslaget, bara ett stenkast från Götaplatsen med närhet till restauranger, caféer, matbutiker, kollektivtrafik. \n\nSöker i första hand en lugn och skötsam person eller ett par som tar hand om lägenheten som om den vore deras egen! \n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 43.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sisjövägen, Askim",
-    "url": "https://qasa.com/p/1419019",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce5e4eb1e48dc4aaab948b3a229c46083b97f893011fbfc65a2949fcd53af9ba.jpg",
-    "description": "Rum i nyrenoverad källare med fönster. Hyrs ut till student. Till rummet på ca 25kvm tillkommer ytorna; mindre hall, egen toalett,  pentrykök och badkar m dusch. Tvättmaskin/torktumlare i pentryt delas med familjen i huset. I hyran ingår el, wi-fi, vatten, värme, möbler/köksutrustning. Det tar ca 30 min med buss från hpl Sisjöbäckens väg till Chalmers, 10 min gångväg till naturreservat och bad i Sisjön samt 10 min gångväg till Sisjöns handelsområde med bla gym, bank, apotek, vårdcentral, mataffärer. 15 min med cykel till havet, lugnt naturskönt område i västra Göteborg. ",
-    "district": "Askim",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 5700,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T15:10:43+00:00", "clock": "15:10:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-21T18:00:02+00:00", "clock": "18:00:02"};
