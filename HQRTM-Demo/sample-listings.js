@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lasarettsgatan, Göteborg",
+    "url": "https://qasa.com/p/1350999",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ce9a598a36098023245ac7c387d656639b34962c5579bd50e54df71a46894d8.jpg",
+    "description": "Ljus 1,5:a med ca 3 m takhöjd i centrala Göteborg uthyres i minst ett år.\n\nHej!\nJag ska jobba på annan ort och hyr därför ut min lägenhet i centrala Göteborg under minst ett år, med god chans till förlängning.\nLägenheten har en öppen planlösning och hyrs ut möblerad. I möbleringen ingår soffa, säng, köksbord, stolar, barstolar, TV, samt porslin och köksutrustning. Sovalkoven är smart avskärmad med ljuddämpande glasdörrar.\nDet finns väldigt bra förvaring i lägenheten: dels en stor förvaringsmöbel i vardagsrummet, dels en hallgarderob med ett rejält förvaringssystem. Det finns även en fast kontorsyta (inkl. monitor) med extra förvaring, vilket passar bra för hemarbete. Som boende har du också tillgång till en gemensam takterrass i huset.\n\nLäge och kommunikationer:\nLäget är väldigt smidigt. Lägenheten ligger mitt emellan Stenpiren, Domkyrkan och Järntorget, så det är nära till i stort sett alla spårvagnar, bussar och båtar.\n\nPraktisk info:\n* Uthyrningstid: Minst 1 år.\n* Ingår i hyran: Bredband och vatten.\n* Tillkommer: El (faktureras efter faktisk förbrukning).\n\nJag söker en skötsam person eller ett par med stabil ekonomi som är rök- och djurfria.\n\nHör gärna av dig och berätta lite kort om vem du är om det låter intressant!",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 52.0,
+    "rent": 14800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Pilhäcksgatan, Göteborg",
     "url": "https://qasa.com/p/1420194",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/81903c2da3813c9d2fe280441bfeeab9f04c6cdbcd78a3d15413f720b8e0eaa7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Seglaregatan, Göteborg",
-    "url": "https://qasa.com/p/1420078",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8e7fec1d15a3d1506496743b1cda2c82bb1277b66b658464316c9e14bb5a19fd.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 18400 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/c4lsrcjqo3tvma1dtguk/vastra-gotaland/goteborg/seglaregatan-21/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFin och välplanerad tvåa högst upp i huset med fantastisk utsikt över Älvsborgsbron och hamninloppet i underbara Majorna. Nära till buss och spårvagn, caféer och matbutiker. Lägenheten ligger på Gråberget i ett lugnt och omtyckt område, nära till såväl Röda sten som Slottsskogen.\r\n\r\nVardagsrum och inglasad balkong med kvällssol. Sovrum med garderober och fönster ut mot balkongen. Fullt utrustat kök och badrum med badkar. Tvättmaskin finns i lägenheten och tvättstuga i huset. Hiss finns.\r\n\r\nLägenheten är på 64 kvadratmeter och hyrs ut möblerad. Vi behåller en klädkammare för förvaring av personliga saker.\r\n\r\nTillgänglig från oktober. Uthyrning under 1 år med möjlighet till förlängning. Exakta datum kan diskuteras.\r\n\r\nI bostadsrättsföreningen finns även ett litet gym och bastu.\r\n\r\nRökning i lägenheten, på balkong eller loftgång är inte tillåtetet.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 18400 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 17367,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T14:26:49+00:00", "clock": "14:26:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T16:01:32+00:00", "clock": "16:01:32"};
