@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smörkärnegatan, Göteborg",
+    "url": "https://qasa.com/p/1420464",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb26a83c7c077b44eaad61f01d66e42c16fc79a07321b0fb4308094881de0dbe.jpg",
+    "description": "Jättebra planlösning med enskild sovalkov. Bra förvaring. Fräscha lokaler och mysig uteplats.lugnt och tryggt område med 15 minuter buss till stan.\n\nVatten, el, internet tillkommer. Beräknas efter användning.\n\nHyr ut bostad i 6 månader till att börja med och eventuellt förlängning ytterligare 6 månader.\n\nHyran varierar beroende på om det är omöblerat eller ej.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 9218,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Borgaregatan, Göteborg",
+    "url": "https://qasa.com/p/1420462",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1fddde6d66ad76524f8328af5b2358402820e3cb4a1ee1f438d3f40585f0bd5f.jpg",
+    "description": "Rum i trerumslägenhet uthyres till student med tillgång till kök, badrum och vardagsrum.   Allting ingår i hyran såsom el, internet och vatten. \n3 min till hållplats, Olskrokstorget,  stor ICA affär, apotek mm.  5 min med buss till Centralstationen. \n2 månadshyror i deposition. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 50.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Lindhs Gata, Göteborg",
     "url": "https://qasa.com/p/1367701",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f83d611af386ed8412bf1b84452be04391f24444906094e0ed6d5a3f111016f.png",
@@ -48,6 +78,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Kryddvägen 58, Angered",
+    "url": "https://qasa.com/p/1420511",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6791fcb82273a630c5d93ae63c28657fba5e6b7f7abf7f5cb8e7bc3fb17f3444.jpg",
+    "description": "Fina nyproducerade lägenheter i Gårdsten!\n\nNu släpper vi ytterligare 31 välplanerade och nyproducerade hyresrätter med balkong eller uteplats på Kryddvägen 58. På bofaktabladet kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\n\nKÖK\nKöksluckor och lådor är stilrent vita och samtliga lägenheter är utrustade med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och med plats för mikrovågsugn.\n\nBADRUM\nSamtliga badrum har klinker i svart, kakel i vitt och badrumsskåp med belysning. Alla lägenheter är även utrustade med kombimaskin eller tvättmaskin och torktumlare.\n\nBALKONG/UTEPLATS\nAlla lägenheter har antingen balkong eller uteplats.\n\nEL\nI fastigheten har varje lägenhet individuell mätning för el, kall samt varmvattenförbrukning.\n\nBREDBAND, TV, TELEFONI\nFastigheten kommer att anslutas till fibernätet. Som hyresgäst kan du själv teckna abonnemang.\n\nFÖRRÅD- OCH CYKELFÖRRÅD\nAlla lägenheter har tillgång till förråd på vinden alt. i källaren. På gården och i källaren finns cykelförråd.\n\nPARKERING\nTill fastigheten finns 79 st bilparkeringar samt 2 st MC-parkeringar i garage under byggnaderna som går att hyra.\n\nInflyttningsstart är 20 maj.",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 9697,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lasarettsgatan, Göteborg",
     "url": "https://qasa.com/p/1350999",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ce9a598a36098023245ac7c387d656639b34962c5579bd50e54df71a46894d8.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Pilhäcksgatan, Göteborg",
-    "url": "https://qasa.com/p/1420194",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/81903c2da3813c9d2fe280441bfeeab9f04c6cdbcd78a3d15413f720b8e0eaa7.jpg",
-    "description": "Öppen och ljus 60-talsvilla med stora sällskapsytor. Sällskapsrum finns på både bottenvåningen och ovanvåningen, båda med fungerande öppen spis. Vardagsrummet på ovanvåningen har utgång mot trädgården och balkong. Köket är modernt med gott om förvaringsutrymmen. Sovrummen lämpar sig för 4-5 personer. Ena sovrummet har utgång mot trädgården. I anslutning till bastun finns ett nyligen renoverat duschrum. Tvättmaskin och torktumlare är nya. Huset ligger på en lugn gata utan genomfartstrafik och trädgården är uppvuxen med staket som för att den lämpar sig för familj med hund. Huset har ett stort garage med plats för både bil och MC/moped/cyklar. Ca 10 min promenad till Eketrägatans hållplats med 12 min med spårvagn till Nordstan. Hyresgästen skaffar eget el-, vatten- och internetabonnemang. ",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 180.0,
-    "rent": 23000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Båtsman Rems Gata, Hisings Backa",
-    "url": "https://qasa.com/p/1420240",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c1c0c35020189994ebc7f7dac3b0a25df5ab559f64353eae80c2b0e440c1bcc.jpg",
-    "description": "Ett rymligt hem på 135 kvm – perfekt för familjer eller vänner som vill kombinera lugn och närhet till stadspuls. Här finns 4 bekväma sovrum, 2 fräscha badrum och ett öppet vardagsrum med gott om plats för umgänge. Njut av morgonkaffet på den stora uteplatsen, omgiven av grönska. Bara 10 km från Göteborgs centrum (heden) och 2 minuters promenad till närmsta busshållplats . Gratis parkering. Wifi, diskmaskin och tvättmaskin ingår. Bara att flytta in och känna sig som hemma!",
-    "district": "Hisings Backa",
-    "rooms": 6.0,
-    "area_m2": 135.0,
-    "rent": 22500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gibraltargatan, Göteborg",
-    "url": "https://qasa.com/p/1420133",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8581b3fcf7a0f57492f3fbf12dd6dcf5565439d09463de87c4d3367f26eb8fba.jpg",
-    "description": "Nu hyr vi ut vår ljusa etta på våning 5 med funkiskaraktär, högt i tak och balkong. Lägenheten har gångavstånd till Chalmers, Avenyn, mataffärer och goda kommunikationer.\n\nLägenheten hyrs ut möblerad, och både internet och el ingår i hyran.\n\nUthyrningen gäller från 1 september till slutet på januari, med god möjlighet till förlängning till och med juni 2027.\n\nVi söker en hyresgäst som är rökfri, djurfri och har ordnad ekonomi. Om du är intresserad, skriv ett meddelande och berätta om dig själv.\n\nHör gärna av dig om du har några frågor eller vill veta mer",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 11800,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T18:46:24+00:00", "clock": "18:46:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T20:01:30+00:00", "clock": "20:01:30"};
