@@ -3,10 +3,40 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Pilhäcksgatan, Göteborg",
+    "url": "https://qasa.com/p/1420194",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/81903c2da3813c9d2fe280441bfeeab9f04c6cdbcd78a3d15413f720b8e0eaa7.jpg",
+    "description": "Öppen och ljus 60-talsvilla med stora sällskapsytor. Sällskapsrum finns på både bottenvåningen och ovanvåningen, båda med fungerande öppen spis. Vardagsrummet på ovanvåningen har utgång mot trädgården och balkong. Köket är modernt med gott om förvaringsutrymmen. Sovrummen lämpar sig för 4-5 personer. Ena sovrummet har utgång mot trädgården. I anslutning till bastun finns ett nyligen renoverat duschrum. Tvättmaskin och torktumlare är nya. Huset ligger på en lugn gata utan genomfartstrafik och trädgården är uppvuxen med staket som för att den lämpar sig för familj med hund. Huset har ett stort garage med plats för både bil och MC/moped/cyklar. Ca 10 min promenad till Eketrägatans hållplats med 12 min med spårvagn till Nordstan. Hyresgästen skaffar eget el-, vatten- och internetabonnemang. ",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 180.0,
+    "rent": 23000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Båtsman Rems Gata, Hisings Backa",
+    "url": "https://qasa.com/p/1420240",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c1c0c35020189994ebc7f7dac3b0a25df5ab559f64353eae80c2b0e440c1bcc.jpg",
+    "description": "Ett rymligt hem på 135 kvm – perfekt för familjer eller vänner som vill kombinera lugn och närhet till stadspuls. Här finns 4 bekväma sovrum, 2 fräscha badrum och ett öppet vardagsrum med gott om plats för umgänge. Njut av morgonkaffet på den stora uteplatsen, omgiven av grönska. Bara 10 km från Göteborgs centrum (heden) och 2 minuters promenad till närmsta busshållplats . Gratis parkering. Wifi, diskmaskin och tvättmaskin ingår. Bara att flytta in och känna sig som hemma!",
+    "district": "Hisings Backa",
+    "rooms": 6.0,
+    "area_m2": 135.0,
+    "rent": 22500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gibraltargatan, Göteborg",
     "url": "https://qasa.com/p/1420133",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8581b3fcf7a0f57492f3fbf12dd6dcf5565439d09463de87c4d3367f26eb8fba.jpg",
-    "description": "Nu hyr vi ut vår ljusa etta på våning 5 med funkiskaraktär, högt i tak och balkong. Lägenheten har gångavstånd till Chalmers, Avenyn, mataffärer och goda kommunikationer.\n\nLägenheten hyrs ut möblerad, och både internet och el ingår i hyran.\n\nUthyrningen gäller från 1 september till slutet på januari, med god möjlighet till förlängning till och med juni 2027.\n\nVi söker en hyresgäst som är rökfri, djurfri och har ordnad ekonomi.\n\nHör gärna av dig om du har några frågor eller vill veta mer!",
+    "description": "Nu hyr vi ut vår ljusa etta på våning 5 med funkiskaraktär, högt i tak och balkong. Lägenheten har gångavstånd till Chalmers, Avenyn, mataffärer och goda kommunikationer.\n\nLägenheten hyrs ut möblerad, och både internet och el ingår i hyran.\n\nUthyrningen gäller från 1 september till slutet på januari, med god möjlighet till förlängning till och med juni 2027.\n\nVi söker en hyresgäst som är rökfri, djurfri och har ordnad ekonomi. Om du är intresserad, skriv ett meddelande och berätta om dig själv.\n\nHör gärna av dig om du har några frågor eller vill veta mer",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 31.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Färgaregatan, Göteborg",
-    "url": "https://qasa.com/p/1420038",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a8b8d0517c11ee72ff0ab39c89278bd6021e70d2ee41ce449ec38ce8909c269.jpg",
-    "description": "Jag  hyr ut en välplanerad och fin tvåa på 59 kvm i centrala Göteborg, Stampen endast 5 minuter från Centralstationen. Lägenheten har ett centralt läge med närhet till restauranger, butiker, och kollektivtrafik.\n\nOm lägenheten:\n- 2 rum och kök\n- Våning 4 med hiss\n- Balkong\n- Diskmaskin, tvättstuga i fastigheten\n- Möblerad (omöblerad kan diskuteras)\n\nHyra: El, värme och vatten ingår i hyran. Garageplats med laddmöjlighet hyrs ut tillsammans med lägenheten, där eventuell laddning debiteras efter förbrukning.\n\nTillträde:\nFrån 1 oktober 2026 – 30 september 2027. Flexibel inflyttning i slutet av september kan diskuteras.\n\nKrav:\n- God och stabil ekonomi med fast anställning\n- Inga betalningsanmärkningar\n- Djur- och rökfri\n- Deposition motsvarande 1 månadshyra",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 13200,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Soldathemsgatan, Göteborg",
-    "url": "https://qasa.com/p/1419983",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/12f975f2fb7e57bbc61cd59a7e33abfe9c60545877185d6a8eaccc784c981b38.jpg",
-    "description": "Uthyrs möblerad. Mycket luftig planlösning med kök och vardagsrum i ett. Den stora balkongen ger ett extra rum med fin utsikt över innergården. Sovrummet är stort och har dubbelsäng samt garderob med skjutdörrar. Lägenheten håller en skön temperatur året runt och är mycket tyst. Gångavstånd till närmsta spårvagnshållplats är ca 4 min och sedan tar det ca 10 min med spårvagn eller buss in till Drottningtorget i Göteborg. \nHyr ut bostaden pga studier på annan ort under 3 års tid. \nTillgänglig från 1/8.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 11750,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T12:13:39+00:00", "clock": "12:13:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T14:26:49+00:00", "clock": "14:26:49"};
