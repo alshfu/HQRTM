@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Beryllgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1420558",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/23ab872bbe0a4577799d3be3c7ef43384d4f60715ed18978c6119ee73508857a.jpg",
+    "description": "Jag hyr ut min lägenhet på grund av dubbelt boende under perioden augusti-oktober 2026.\n\nOm lägenheten:\n\n* 1 rum, 22 kvm\n* Våning 3\n* Delvis Möblerad\n* Hiss\n\nLägenheten ligger i Västra Frölunda, Göteborg, 20 minuter med kollektivtrafik till Centralstationen.\n\nHyra: 6 500 kr inklusive el, vatten och internet.\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 22.0,
+    "rent": 6500,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smörkärnegatan, Göteborg",
     "url": "https://qasa.com/p/1420464",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb26a83c7c077b44eaad61f01d66e42c16fc79a07321b0fb4308094881de0dbe.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lasarettsgatan, Göteborg",
-    "url": "https://qasa.com/p/1350999",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ce9a598a36098023245ac7c387d656639b34962c5579bd50e54df71a46894d8.jpg",
-    "description": "Ljus 1,5:a med ca 3 m takhöjd i centrala Göteborg uthyres i minst ett år.\n\nHej!\nJag ska jobba på annan ort och hyr därför ut min lägenhet i centrala Göteborg under minst ett år, med god chans till förlängning.\nLägenheten har en öppen planlösning och hyrs ut möblerad. I möbleringen ingår soffa, säng, köksbord, stolar, barstolar, TV, samt porslin och köksutrustning. Sovalkoven är smart avskärmad med ljuddämpande glasdörrar.\nDet finns väldigt bra förvaring i lägenheten: dels en stor förvaringsmöbel i vardagsrummet, dels en hallgarderob med ett rejält förvaringssystem. Det finns även en fast kontorsyta (inkl. monitor) med extra förvaring, vilket passar bra för hemarbete. Som boende har du också tillgång till en gemensam takterrass i huset.\n\nLäge och kommunikationer:\nLäget är väldigt smidigt. Lägenheten ligger mitt emellan Stenpiren, Domkyrkan och Järntorget, så det är nära till i stort sett alla spårvagnar, bussar och båtar.\n\nPraktisk info:\n* Uthyrningstid: Minst 1 år.\n* Ingår i hyran: Bredband och vatten.\n* Tillkommer: El (faktureras efter faktisk förbrukning).\n\nJag söker en skötsam person eller ett par med stabil ekonomi som är rök- och djurfria.\n\nHör gärna av dig och berätta lite kort om vem du är om det låter intressant!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 52.0,
-    "rent": 14800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T21:17:50+00:00", "clock": "21:17:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T22:28:38+00:00", "clock": "22:28:38"};
