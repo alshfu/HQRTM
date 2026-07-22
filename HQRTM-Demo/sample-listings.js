@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Lindhs Gata, Göteborg",
+    "url": "https://qasa.com/p/1367701",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f83d611af386ed8412bf1b84452be04391f24444906094e0ed6d5a3f111016f.png",
+    "description": "Välvårdad 1 RoK på 2:a våningen.\nInglasad balkong, fräsch toalett/duschrum, bra bänkyta och två stora diskhoar, bra förvaringsutrymmen i lägenheten samt i vindsförråd. \n\nLägenheten uthyres full utrustad med 180cm säng, skrivbord, matbord, full köksutrustning, TV, dammsugare, etc.\n\nFöljande ingår i månadshyran;\n* Värme och vatten.\n* El för 300kr/månad, motsvarar normal förbrukning för en person.\n* Bostadsrättsförsäkring\n* Tillgång till Brf gym\n* Bredband 1000/1000Mbit/S, digital Tv-box med basutbud på 19 kanaler.\n\nTillkommande kostnad är hyresgästens hemförsäkring, uppskattad kostnad 100kr/mån.\n\nFöreningen har fin tvättstuga med gott om tvättider, cykelrum samt hobbyrum.\nDet finns även möjlighet att hyra gästrum och gemensamhetslokal. \n\nMycket välskött och trevlig förening med bra faciliteter. Lungt och säkert område på återvändsgata.\n\n5min promenad till Sahlgrenska och spårvagn, 15min promenad till universitetet och 30min promenad till centrum eller 7 min med spårvagn. Mataffär, pizzeria inom 5min promenad.\n\nUthyres till en person eller ett par. Max två personer. \nAbsolut krav är att man följer BRF trivselregler ( Hänsyn till grannar, inte störa med hög musik, fester etc)\nRökning och husdjur ej tillåtet i lägenheten.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 13120,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hisingsgatan, Göteborg",
+    "url": "https://qasa.com/p/1414323",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ef6f5e7728f58b6f1e916aeade105278ec877ef117f1c885115c53138ce32b1f.jpg",
+    "description": "Nu hur jag ut min nybyggda, fantastiska insatslägenhet på Hisinggatan 10, Göteborg\n\nLägenheten ligger på högsta våningen och har en balkong med utsikt som sträcker sig över stan och karlatornet som bara ligger några minuter bort. Den har allt man kan tänkas behöva, diskmaskin, tvättmaskin, torktumlare mm. Alla möbler som syns på bilden ingår i hyran, även el, vatten och TV med bredband.\nFör den som önskar finns även garageplats med laddstation i huset\n\nLägenheten ligger ca 5 minuter från city med spårvagn eller buss och backaplan ligger runt hörnet.\n\nInflyttning redan från november 2025, uthyrning i ett år med möjlighet till förlängning. Perfekt om du som söker ett tryggt, bekvämt och centrumnära boende.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 42.0,
+    "rent": 12200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hällsviksvägen, Torslanda",
+    "url": "https://qasa.com/p/1420431",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/98ad91ff8ae8c5cfe5a36c3bacc17fd55192cf439ffe319b25409f1458d1e701.jpg",
+    "description": "Havs- och naturnära.  Fin lägenhet som utbyggnad av hus, 2 r o k, 45 m2. Stor altan. Tillgång till 20 m2 gymdel som delas med hyresvärd. Möblerad. Buss ca 20 min till järnvågen. \n\nUthyres tillsvidare från 1 mars.\nSöker skötsam person/par el 2 studentkompisar -hälsoinriktade som tar väl hand om sitt boende. \n\nHyra: 11 000 kr/mån inkl möblering.\n\n",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lasarettsgatan, Göteborg",
     "url": "https://qasa.com/p/1350999",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ce9a598a36098023245ac7c387d656639b34962c5579bd50e54df71a46894d8.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vallareleden , Göteborg",
-    "url": "https://qasa.com/p/1420118",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/461d0151ba05242b7fe99813995fee440d00e849db4fc7c7edfca8e9e9951b7d.jpg",
-    "description": "Vi hyr ut ett möblerat rum i vårt trevliga hus i ett lugnt och grönt område i Göteborg. Rummet passar både studenter och personer som arbetar och söker ett tryggt och långsiktigt boende.\n\nHuset ligger i ett tyst villaområde med mycket grönska, frisk luft och fina promenadstråk. I närheten finns parker, motionsområden och träningsmöjligheter.\n\nDet är enkelt att ta sig till centrala Göteborg. Med buss tar resan cirka 15–20 minuter till centrum. Busshållplatsen ligger nära huset. En ICA-butik, öppen 08.00–22.00, ligger bara cirka 5 minuters promenad bort.\n\nVi (värdparet) bor på övervåningen och har vårt eget badrum. På entréplanet finns två uthyrningsrum som delar ett rymligt badrum med dusch och toalett.\n\nHyresgästerna har tillgång till:\n\n* stort och fullt utrustat kök\n* två kylskåp\n* snabbt Wi-Fi\n* tvättmöjligheter\n* förråd och låsbart cykelförråd ; uteplats \n\n\nI hyran ingår allt – el, vatten, uppvärmning, Wi-Fi och övriga driftkostnader. Inga extra avgifter tillkommer.\n\nVi söker en lugn, ansvarsfull och rökfri hyresgäst som vill hyra under en längre tid.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1420113",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5e2500f295071d9c68f70037a0ceed601071cc642d1e069cd0e0081ecefcff55.jpg",
-    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Dybecksgatan, Göteborg",
-    "url": "https://qasa.com/p/1420081",
-    "image_url": null,
-    "description": "3rok i Örgryte/Skår. Delsjöreservatet börjar på baksidan av huset, det är 200 meter till 17e hålet på Delsjöns golfbana, två badsjöar inom promenadavstånd och många mil löp- och promenadstråk med början från baksidan av huset. Gratis 24 timmars parkering på gatan. Ett mycket lugnt område. Liseberg 2 km och avenyn 3 km. En gigantisk altan och tillgång till tvättstuga två ggr per vecka ingår.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 90.0,
-    "rent": 20000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T17:36:31+00:00", "clock": "17:36:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T18:46:24+00:00", "clock": "18:46:24"};
