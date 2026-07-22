@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lindholmsallén, Göteborg",
+    "url": "https://qasa.com/p/1419784",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/39affe8feba08d52fffee59b7bc1cb60d431c470260b81310741f669da8e428c.jpg",
+    "description": "Lägenhetsbeskrivning\n\nVälkommen till ett hem där modern arkitektur, hög komfort och ett attraktivt läge möts på bästa sätt. Här bor du i en Svanenmärkt fastighet från 2020 med genomtänkta materialval, energieffektiva lösningar och en planlösning som passar såväl vardagen som sociala tillfällen. De två balkongerna ger möjlighet att följa solen under dagen och skapar en naturlig förlängning av bostaden – perfekta för morgonkaffet, en middag i kvällssolen eller en stunds avkoppling med utsikt över den levande stadsmiljön.\n\nBostaden präglas av ett generöst ljusinsläpp och en öppen planlösning där kök och vardagsrum samspelar på ett naturligt sätt. De stora fönsterpartierna skapar rymd och ger ett hem som känns både ljust och inbjudande året om. Här finns gott om plats för både umgänge och lugna kvällar hemma, samtidigt som den genomtänkta planlösningen gör bostaden funktionell och lätt att trivas i.\n\nFastigheten erbjuder ett bekymmersfritt boende med modern teknik såsom vattenburen golvvärme, FTX-ventilation, sedumtak och solceller. Energiklass B ger dessutom möjlighet till grönt bolån hos flera banker, vilket kan innebära lägre boendekostnader. Föreningen äger marken, vilket ger långsiktigt stabila förutsättningar för ekonomin.\n\nSom boende får du tillgång till ett av föreningens mest uppskattade mervärden – det cirka 154 kvadratmeter stora orangeriet med fullt utrustat kök och plats för omkring 60 gäster. Här kan du samla familj och vänner för större middagar, födelsedagar eller andra högtider utan att vara begränsad av bostadens storlek. Föreningen erbjuder dessutom garage med laddplatser för elbil, MC-parkering, generösa cykelförråd och andra praktiska gemensamhetsutrymmen som förenklar vardagen.\n\nLäget på Lindholmen är ett av Göteborgs mest attraktiva och expansiva. Utanför porten väntar kajpromenader, småbåtshamn, restauranger, caféer och grönområden som tillsammans skapar en levande men samtidigt rofylld stadsmiljö. Jubileumsparken med bad, bastu och aktivitetsytor ligger på bekvämt promenadavstånd, liksom Karlatornet och hela den snabbt växande stadsdelen längs Norra Älvstranden.\n\nFör den som arbetar i området är vardagen extra smidig med närhet till Lindholmen Science Park och flera av Göteborgs största arbetsgivare. Till centrala Göteborg tar du dig enkelt med buss, cykel eller den kostnadsfria färjan Älvsnabben som på bara några minuter tar dig över älven till Stenpiren. Här finns alla förutsättningar för ett bekvämt vardagsliv där bilen ofta kan stå kvar i garaget.\n\nDetta är ett hem som erbjuder betydligt mer än en välplanerad bostad. Här får du ett modernt, hållbart och bekymmersfritt boende där den höga boendekvaliteten, föreningens unika mervärden och det vattennära läget tillsammans skapar en livsstil som är svår att hitta någon annanstans.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Arkivgatan, Göteborg",
+    "url": "https://qasa.com/p/1419796",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/30a4eb3fa729827c67895d63e8dcd18018d6c0b33f4e7b45dfbcee9e1f0a7b94.jpg",
+    "description": "Rum att hyra kortare perioder för en person. Finns eget kylskåp/frys och skafferi. Rummet har öppen garderob och goda förvarings möjligheter. TV med crome cast, 120 säng, och skrivbord. WiFi och städning ingår med viss egen städning i egna rummet. Rummet är mot inne gården och i anslutning till det gemensamma köket. Finns 2 toaletter en med dusch. Egna badrumsskåp, hyllor och krokar. För 1 person, ej rökning eller husdjur. Integritet och gott uppförande är självklart. Förutom mig själv, halvtids arbetande egen företagare, man på 65,  i särboförhållande med Berit. Välkommen med frågor.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 7.0,
+    "rent": 4700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östra Torpavägen 105, Göteborg",
+    "url": "https://qasa.com/p/1419773",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4ea39b49816e9da752db3299cebdb4e544effd0108d12d224da23b4a57d7dcbd.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna tvåa! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11996,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Järnmyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1419714",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e7c8fbd040384ec7468695a339d09b7e7890c723b85fbf21f338fdb4c705d0ef.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borstbindaregatan, Göteborg",
-    "url": "https://qasa.com/p/1419544",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d820e2920b1dafb5ace39deeb08e4931732b48c6a25cdff3f46b157b8dde9a8.jpg",
-    "description": "En välplanerad 2a på 59 kvadratmeter. Boende i föreningen har tillgång till takterrassen med kök och grill. \n\nLigger ca 2 min från Hjalmar brantingsplatsen och tar 4 min till nordstan (centralstationen) med kollektivtrafiken \n\nHyresgäst\nHa en stabil inkomst \nInga betalningsanmärkningar \n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 13700,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prilyckegatan, Hisings Kärra",
-    "url": "https://qasa.com/p/1419485",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e65ff023fb93eada414606d891c8d0e799678d3b598cac43be950c93405db0d9.jpg",
-    "description": "Lägenheten:\nSöker långvarig hyresgäst, minst 1 år.\nStor egen 1a på 45m2, samt stor inglasad balkong på ytterligare 6m2 ca. Våning 6/6 med hiss. Genomgångslägenhet.\n\nKöket är helt nytt med mikrovågsugn, spishäll, spis, diskmaskin, kyl och frys m.m..\nLägenheten är fullt möblerad med TV på 55 tum samt Chromecast. \nNyare Säng 160cm (2 x 80cm).  Soffa och soffbord etc. Se bilder.\n\nFöljande ingår i priset:\nEl, \nVatten\nVärme.\nBasutbud kanaler i HD kanal 1-10, samt kanal 12.\nFiber internet.\nPersonlig parkeringsplats utomhus finns ca 70 meter från hissen.  Man kan ansöka om Elbilsladdning också.\n\nÖvrigt:\nDet finns ett köpcentrum med gym, simhall, restauranger, café och ICA ligger ca 500m bort. \n\nOmråde:\nLugnt bostadsrätts och villa område.  Fin natur och nära till Ikea och Bäckebol Köpcentrum.\nBussarna går på motorväg varje kvart och kommer in till stan på ca 15 minuter. Den fortsätter sedan mot stenpiren och uppför linnegatan.\n\nBadrummet är äldre, men funktionellt med duschkabin. Tvättstuga finns i bottenvåningen i samma byggnad. ",
-    "district": "Hisings Kärra",
-    "rooms": 1.0,
-    "area_m2": 45.0,
-    "rent": 7950,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ängsäters Gränd, Hovås",
-    "url": "https://qasa.com/p/1419474",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1de481841940675ae83fa2bc193c0ae341c0027b64d84e28afbd28df31e09420.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14582 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/j93kderjxoe8y9umincd/vastra-gotaland/hovas/angsaters-grand-3/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till en trivsam och välplanerad 3 rok i populära Hovås. Bostaden erbjuder ljusa och fina ytor med en genomtänkt planlösning som passar både par och mindre familjer. Här finns ett rymligt vardagsrum, två bra sovrum och ett funktionellt kök som skapar en bekväm och hemtrevlig boendemiljö.\r\n\r\nOmrådet i Hovås är lugnt, naturnära och mycket uppskattat med närhet till havet, fina promenadstråk och grönområden. Här finns god service med mataffärer, restauranger, skolor och förskolor i närheten. Med bra kommunikationer tar du dig enkelt till centrala Göteborg samtidigt som du får njuta av ett lugnare område med småstadskänsla och närhet till natur och bad.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14582 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Hovås",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 13895,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T05:36:12+00:00", "clock": "05:36:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-22T07:57:45+00:00", "clock": "07:57:45"};
