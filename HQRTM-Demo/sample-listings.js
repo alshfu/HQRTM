@@ -65,7 +65,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Östra Torpavägen 103, Göteborg",
     "url": "https://qasa.com/p/1420713",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8a9870467117ce23d3b43b7c79bc13029fb5ddc716cbf191e67057319502847.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/06719471b1d323d605489c9a39ec38c8557d31150e64016131290260c5a2b749.jpg",
     "description": "OBS! Lägenheten hyrs ut genom fysisk visning.\n*Fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna Fyra! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen.  \n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
     "district": "Göteborg",
     "rooms": 4.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T11:30:39+00:00", "clock": "11:30:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T13:08:32+00:00", "clock": "13:08:32"};
