@@ -66,11 +66,11 @@ window.HQRTM_SAMPLE = [
     "title": "Guldkällegatan , Göteborg",
     "url": "https://qasa.com/p/1421162",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0452207ec9ccfe8e0ddab01001d1171b234e1d8ae06c54300c7358e17b13cfa6.jpg",
-    "description": "Välkommen till en ljus och välplanerad 1,5-rumslägenhet i hjärtat av Majörna.\nLägenheten är i nyskick och erbjuder ett modernt och trivsamt boende med fantastisk utsikt över Älvsborgsbron ,särskilt vacker när bron lyser upp på kvällarna och skapar en romantisk atmosfär.\n Den separata sovdelen ger en avskild känsla, medan vardagsrummet och köket skapar en öppen och inbjudande miljö.\n\nLägenheten passar perfekt för en person eller högst ett par som söker ett lugnt och bekvämt boende i ett av Göteborgs mest omtyckta områden. Här bor du med närhet till caféer, restauranger, matbutiker, grönområden och mycket goda kommunikationer.\nVid intresse är du varmt välkommen att höra av dig. Berätta gärna lite om dig själv, hur många ni är och vilken hyresperiod ni söker.\nEn månads deposition samt referenser tas ut.\n",
+    "description": "Välkommen till en ljus och välplanerad 1,5-rumslägenhet i hjärtat av Majörna. Hyran är 8500 kr inklusive el. \nLägenheten är i nyskick och erbjuder ett modernt och trivsamt boende med fantastisk utsikt över Älvsborgsbron ,särskilt vacker när bron lyser upp på kvällarna och skapar en romantisk atmosfär.\n Den separata sovdelen ger en avskild känsla, medan vardagsrummet och köket skapar en öppen och inbjudande miljö.\n\nLägenheten passar perfekt för en person eller högst ett par som söker ett lugnt och bekvämt boende i ett av Göteborgs mest omtyckta områden. Här bor du med närhet till caféer, restauranger, matbutiker, grönområden och mycket goda kommunikationer.\nVid intresse är du varmt välkommen att höra av dig. Berätta gärna lite om dig själv,  lämna telefonnummer, hur många ni är och vilken hyresperiod ni söker. \nUppsägningstiden är tre månader för båda parter. Lägenhet kan hyras ut även i augusti.\nUnder augusti och september månad kan lägenheten komma att visas för potentiella köpare vid cirka 4–5 tillfällen, enligt överenskommelse med er. Varje visning beräknas ta cirka 45 minuter och planeras i god tid samt anpassas så långt som möjligt.\nEn eventuell försäljning innebär inte att ni behöver flytta omgående, eftersom uppsägningstiden är tre månader. Samtliga villkor kommer att regleras i kontraktet. \n\nEn månads deposition samt referenser tas ut.\n",
     "district": "Göteborg",
     "rooms": 1.5,
     "area_m2": 35.0,
-    "rent": 8500,
+    "rent": 8000,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T19:49:01+00:00", "clock": "19:49:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T20:47:08+00:00", "clock": "20:47:08"};
