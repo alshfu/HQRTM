@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sisjövägen, Askim",
+    "url": "https://qasa.com/p/1420715",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ef828001725a608d18be9f222e6f1413af05505647decbdbe08f4a12656174d2.jpg",
+    "description": "Rum i nyrenoverad källare med fönster. Hyrs ut till student. Till rummet på ca 25kvm tillkommer ytorna; mindre hall, egen toalett,  pentrykök och badkar m dusch. Tvättmaskin/torktumlare i pentryt delas med familjen i huset. I hyran ingår el, wi-fi, vatten, värme, möbler/köksutrustning. Det tar ca 30 min med buss från hpl Sisjöbäckens väg till Chalmers, 10 min gångväg till naturreservat och bad i Sisjön samt 10 min gångväg till Sisjöns handelsområde med bla gym, bank, apotek, vårdcentral, mataffärer. 15 min med cykel till havet, lugnt naturskönt område i västra Göteborg.  Vi har hyrt ut rummet i 10 års tid vilket funkar bra som ett första steg med bostad för våra studenthyresgäster.  Mvh Erik & Andrea ",
+    "district": "Askim",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 5700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1420346",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e9e4af76cd8652032486a8a7b4bc1dedb695c929c1502c52c66c1303f1dd4e15.jpg",
@@ -14,6 +59,21 @@ window.HQRTM_SAMPLE = [
     "floor": 2,
     "has_balcony": true,
     "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östra Torpavägen 103, Göteborg",
+    "url": "https://qasa.com/p/1420713",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8a9870467117ce23d3b43b7c79bc13029fb5ddc716cbf191e67057319502847.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom fysisk visning.\n*Fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna Fyra! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen.  \n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 76.0,
+    "rent": 16569,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -45,66 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 109, Angered",
-    "url": "https://qasa.com/p/1420628",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5beebe3b8e4952fbe4b6fe267eef82f9753328581a350321529c1711e1c2d981.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong i sydväst på 7 kvm. På bilderna och planritningen kan du se i viket hus, samt vart i huset lägenheten är belägen. Filmen som visas för lägenheten är en film från en likadan lägenhet med samma planlösning, men ev. annat våningsplan, utsikt och ev. spegelvänt.\nVi använder oss inte av köpoäng – den som har möjlighet till snabbast inflyttning prioriteras.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare eller kombinerad tvätt och tork.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 7773,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddvägen 58, Angered",
-    "url": "https://qasa.com/p/1420626",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/85ae36341ad19bccd0f592750e7f1f9412e97bed5d8e3766ef9f216d4d4a9380.jpg",
-    "description": "Här erbjuds en fin, välplanerad hyresrätt med balkong på 7 kvm som stod inflyttningsklar i maj 2024. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen. \n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 7402,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Beryllgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1420558",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/23ab872bbe0a4577799d3be3c7ef43384d4f60715ed18978c6119ee73508857a.jpg",
-    "description": "Jag hyr ut min lägenhet på grund av dubbelt boende under perioden augusti-oktober 2026.\n\nOm lägenheten:\n\n* 1 rum, 22 kvm\n* Våning 3\n* Delvis Möblerad\n* Hiss\n\nLägenheten ligger i Västra Frölunda, Göteborg, 20 minuter med kollektivtrafik till Centralstationen.\n\nHyra: 6 500 kr inklusive el, vatten och internet.\n",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 22.0,
-    "rent": 6500,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörkärnegatan, Göteborg",
-    "url": "https://qasa.com/p/1420464",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb26a83c7c077b44eaad61f01d66e42c16fc79a07321b0fb4308094881de0dbe.jpg",
-    "description": "Jättebra planlösning med enskild sovalkov. Bra förvaring. Fräscha lokaler och mysig uteplats.lugnt och tryggt område med 15 minuter buss till stan.\n\nVatten, el, internet tillkommer. Beräknas efter användning.\n\nHyr ut bostad i 6 månader till att börja med och eventuellt förlängning ytterligare 6 månader.\n\nHyran varierar beroende på om det är omöblerat eller ej.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 9218,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T07:11:43+00:00", "clock": "07:11:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T09:37:20+00:00", "clock": "09:37:20"};
