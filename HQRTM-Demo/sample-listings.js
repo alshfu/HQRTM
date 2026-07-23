@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Björsaredsvägen, Göteborg",
+    "url": "https://qasa.com/p/1413134",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/54e551bf8fc436b2317f445f6579ddf23404893ceebf47040c27119314c8cdf0.jpg",
+    "description": "2,5 rum och kök i källarplan med egen ingång. Tillgång till stor trädgård samt egen altan i söderläge.\nBadrum med egen toalett, dusch samt tvättmaskin. Plan finns på badrumsrenovering inom närtid.\nObservera att bostaden uthyres omöblerad!\n\nBadsjö med sandstrand och badbrygga finns 10 minuters promenad från bostaden. Likaså vandringsleder, löparspår etc. i lugn skogsmiljö. \n\nBusshållplats finns 10 minuters promenad från bostaden. Bussen tar 25 min in till centralstationen i Göteborg. \n\nI Björsared finns bensinstation med postservice samt pizzeria.\n\nMöjlighet att ha med husdjur finns. \nBostaden är rökfri- rökning utomhus tillåtet. \n\nKallhyra. Kostnad för elförbrukning står hyresgästen själv för i enlighet med separat elmätare för bostaden. \n\nHantering av hushållssopor & matavfall samt avgift till områdets vägförening ingår i hyran. Hyresgästen ansvarar för sortering av återvinning i rätt kärl från Göteborgs stad, som finns på tomten.\n\nParkeringsplats för 1 bil finns tillgänglig.\n\nBostaden lämpar sig för max 2 personer.\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 55.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Färgfabriksgatan, Göteborg",
+    "url": "https://qasa.com/p/1421286",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca5abe2f4225b0528d2f81f593c7526698b1fdfa307c5cd15a6949aa8118ed7a.jpg",
+    "description": "Hej! Vi önskar hyra ut vår lägenhet då vi nyligen köpt hus. Lägenheten ligger ute till försäljning därför önskar vi skriva kontrakt på 3 mån med chans till förlängning. \n\nLägenheten har en öppen planlösning, men har rundgång vid köksdelen vilket gränsar av kök och vardagsrum på ett trevligt sätt. Balkongen är stor och vetter mot en grön innergård. Sovrummet vetter mot Färgfabriksgatan och har god ljudisolering mot gatan. Finns även en stor walk-in closet i sovrummet. \n\nDet finns även möjlighet att hyra en gästlägenhet som tillhör föreningen för 400 kr/natten. \n\nBackaplan ligger ett stenkast från bostaden och du har mataffärer som Willys och Lidl, gym (både Nordic Wellness och Friskis), Alkemisten som är ett mysigt café, inom gångavstånd. Förbindelser med kollektivtrafik är också toppen och du tar dig in till centralen på ca 7 min med spårvagn. \n\nI hyran ingår allt så som vatten, el, tv och fiber. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Doktor Allards Gata, Göteborg",
+    "url": "https://qasa.com/p/1421293",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/671cf315cdc15e6d2c3253b863df336914dfb143fc1d33af3407257465504c0c.jpg",
+    "description": "Hyr ut min nyproducerade tvåa belägen i Guldheden med ca 5 minuters promenad till Chalmers och med bra kollektivförbindelser till exempelvis Brunnsparken, Linnéplatsen och Korsvägen. \nLägenheten har ett fullt utrustat kök med diskmaskin, bra förvaringsmöjligheter med skjutdörrsgarderober både i hallen och i sovrummet och stora fönster i två riktningar som gör att lägenheten får ett fantastiskt ljusinsläpp. I föreningen finns även ett fint och välutrustat gym, flera gemensamhetslokaler, trevliga innegårdar med grillplatser och en stor, rymlig tvättstuga.  \n\nI hyran ingår bredbandsavgift, däremot tillkommer kostnad för el och varmvatten. \n\nMer info och fler bilder finns vid intresse!\nParkering finns även tillgänglig.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gunnilse Ljungbacke, Gunnilse",
     "url": "https://qasa.com/p/1421213",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ff163eee515832152950a95caca38f2835986ad27f5d8c953e97e9884663efc.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Delfingatan, Göteborg",
-    "url": "https://qasa.com/p/1421048",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/190a524f375f88ebfe8ca2c2cefaa6ca672151dc5c86aff8e68057e1988b1eb9.jpg",
-    "description": "Rum i en 3a uthyres i Kungsladugård / Majorna. \nDelad badrum, vardagsrum, kök och balkong. \n\nVäldigt bra läge med kollektivtrafiken:\n15 min till centrala Göteborg. \n10 Minuter till havet /Askimsbadet.\n10 minuter till Frölunda Torg /galleria. \n20 minuter till Saltholmen ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Uggleberget, Hovås",
-    "url": "https://qasa.com/p/1421036",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f3c54e243befe2fc3eb7d2a206a533ebc8fe5237bfa6d7066f7d0c60cf954d78.jpg",
-    "description": "Välkommen till denna ljusa och moderna tvåa högt upp i huset i attraktiva Nya Hovås. Lägenheten erbjuder en öppen och välplanerad planlösning med genomgående ekparkett, stora fönsterpartier och ett stilrent Marbodalkök utrustat med vitvaror från Siemens.\n\nDen rymliga balkongen i söderläge bjuder på sol större delen av dagen och fin utsikt över den grönskande omgivningen. Sovrummet har en praktisk klädkammare och det helkaklade badrummet är utrustat med kombinerad tvättmaskin och torktumlare.\n\nOmgivning\n\nNya Hovås erbjuder ett attraktivt boende med närhet till restauranger, caféer, butiker, gym, natur och hav. Goda kommunikationer tar dig till centrala Göteborg på cirka 20 minuter.",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 13167,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörgatan 100, Göteborg",
-    "url": "https://qasa.com/p/1421070",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b853e18904596e4c1d5202247a98535fe001dacf8df4157b948379445c9a5221.jpg",
-    "description": "Trevlig lägenhet med  öppen social planlösning med balkong i nord/västläge. Belägen högt upp i huset med fantastisk utsikt över Göteborg. \nKallebäck är en expansiv stadsdel med promenadavstånd till Delsjöns grönområde. \nParkeringsplats finns att hyra utanför huset.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 12401,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T18:14:28+00:00", "clock": "18:14:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T19:49:01+00:00", "clock": "19:49:01"};
