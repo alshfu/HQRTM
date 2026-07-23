@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gunnilse Ljungbacke, Gunnilse",
+    "url": "https://qasa.com/p/1421213",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ff163eee515832152950a95caca38f2835986ad27f5d8c953e97e9884663efc.jpg",
+    "description": "Ett trivsamt och lugnt rum uthyres i en rymlig villa som ligger mitt i naturen, perfekt för dig som vill bo naturnära men ändå ha snabb tillgång till stadens puls. Här bor du med skog och grönområden runt knuten, samtidigt som du når centrala Göteborg på 15 minuter med bil eller cirka 30 minuter med buss.\n\nRummet är ljust, välplanerat och passar för studier. Du delar gemensamma ytor som kök och vardagsrum med hushållet, och huset erbjuder en harmonisk och trygg boendemiljö.\nRummet uthyres endast till studenter, vilket skapar en lugn och studievänlig atmosfär.\n\nVi har bestämt oss för att sälja huset, och processen kan gå ganska snabbt. Tanken är att vi kommer prata med den nya ägaren så att alla avtal och kontrakt kan föras över smidigt. Om det inte går att lösa direkt kommer vi behöva ett tillträde på 3–6 månader, eftersom vi också måste hinna hitta ett nytt boende. Så den som vill hyra behöver vara medveten om detta.\n\n\n\n\n🌿 Ingår i hyran\n\n• El\n• Varmvatten\n• WiFi\n\n\n🚗 Parkering\n\nParkering finns att tillgå för dig som har bil.\n\n",
+    "district": "Gunnilse",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Guldkällegatan , Göteborg",
     "url": "https://qasa.com/p/1421162",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0452207ec9ccfe8e0ddab01001d1171b234e1d8ae06c54300c7358e17b13cfa6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T15:23:39+00:00", "clock": "15:23:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-23T16:55:57+00:00", "clock": "16:55:57"};
