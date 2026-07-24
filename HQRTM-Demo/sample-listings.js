@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hjälmavägen, Torslanda",
+    "url": "https://qasa.com/p/1422189",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e50f74cdc96e8dbac7ed001f43c921478224709f357f1fdacb1a89cad279c87a.jpg",
+    "description": "Nybyggt gästhus i Nolvik Torslanda.\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\nNytt kök med all utrustning\n\n- Fristående\n- Möblerat\n\nPassar bäst upp till 2 personer.\n\nVärme ingår i hyran. Vatten, el och bredband kan diskuteras.\n\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 12800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kromvägen, Torslanda",
     "url": "https://qasa.com/p/1422177",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c254d5a52440f78d7636fc64ce172bf4a20346851fdff351d67367606308a9ec.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Danagatan, Göteborg",
-    "url": "https://qasa.com/p/1421819",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/802023451503bf8692f59e5209edcf15593f99136618bb768106b06ad4364149.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11756 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/waktrlcgq0aiqhrs4ris/vastra-gotaland/goteborg/danagatan-14/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nTrevlig, välplanerad och välhållen 2:a med stort, välutrustat kök samt balkong i västerläge för skön kvällssol . Badrummet har både golvvärme och handdukstork.\r\n\r\nFastigheten i sig  och området häromkring  är mycket välskött.  På nära avstånd finns både trevliga promenadstråk  och vacker natur. På nära avstånd finner du samtidigt alla övriga bekvämligheter man kan tänkas behöva för såväl vardag som helg. Dessutom så är det bara ca 5 minuters promenad ner till älven och den livliga  Eriksbergskajen. Där finner du ett brett utbud av butiker, caféer och restauranger. Därifrån tar man sig även enkelt vidare in till centrum med hjälp av buss eller en kort tripp över älven med  Älvsnabben färjan..\r\n\r\nSammanfattningsvis en väldigt trivsam stadsdel att bo och leva i.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11756 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 11202,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T20:50:35+00:00", "clock": "20:50:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T21:53:08+00:00", "clock": "21:53:08"};
