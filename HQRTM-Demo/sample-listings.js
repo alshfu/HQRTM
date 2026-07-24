@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Varpmossevägen, Askim",
+    "url": "https://qasa.com/p/1421922",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bc8438b697d56726914fb021e80238cb3d09aac12a318a69a87f5039e23c64d.jpg",
+    "description": "I natursköna Sisjön hittar ni denna välplanerade Attefallshus.\n1 st parkeringsplats precis utanför dörren\n1 st liten stenlagd uteplats för sol och trevliga grillkvällar.\n1 st plantering som man kan pyssla med om man vill, idag underhållsfria blomstrande lavende växter.\nEgen ingång från gatan.\n\nBusshållplats 3-5 min promenad \nBadsjö 10 min promenad\nSisjöns shoppingcenter 2 Km\nGöteborgs central 12 km\n\nEl ingår upp till 6000 kw/ år, ej elbilsladdning.\nVid normal elanvändning är det mycket god marginl. ",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 25.0,
+    "rent": 9950,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bokgården, Angered",
     "url": "https://qasa.com/p/1421900",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc8433eeb78b6bf465c8b94ad6bfb4d3e835c23578a79cbe367304f94b7ba54a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Wieselgrensgatan, Göteborg",
-    "url": "https://qasa.com/p/1421577",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b00004ccbbe0b8d30f8be80e5a74f4a4d7d098ef0a3f64d139b90f96db858f39.jpg",
-    "description": "\nJag hyr ut ett nybyggt attefallshus (2022) på min tomt i Hildedal på centrala Hisingen. Huset har 30 kvm boarea och en total golvyta på 45 kvm inklusive loft. Bostaden är fullt möblerad och hyrs ut tills vidare till en person.\n\nHuset har ett eget, fullt utrustat kök med induktionshäll, diskmaskin, kyl och frys, mikrovågsugn samt varmluftsugn. Det fräscha badrummet är utrustat med tvättmaskin och torktumlare. Bostaden erbjuder högt i tak, fint ljusinsläpp, smarta förvaringslösningar och en stor egen uteplats. Uppvärmning sker med golvvärme och luftvärmepump. Huset besiktigades av Stadsbyggnadskontoret 2022 utan anmärkningar.\n\nHildedal är ett lugnt och trivsamt område på centrala Hisingen, endast cirka 10 minuter med buss från Centralstationen. Här finns en blandning av charmiga äldre villor, nybyggda radhus och lägenheter samt fina promenad- och naturområden precis runt hörnet. Jag och min familj har bott här i över 12 år och trivs mycket bra.\n\nHyresvillkor:\n\n* Hyrs ut möblerad.\n* Uthyres tills vidare.\n* Två månaders deposition.\n* Tre månaders uppsägningstid.\n* El, vatten, internet och WiFi ingår i hyran.\n* Parkeringsplats på tomten finns.\n\nVid intresse är du välkommen att skicka ett meddelande och berätta lite om dig själv.\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T12:54:55+00:00", "clock": "12:54:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T14:55:25+00:00", "clock": "14:55:25"};
