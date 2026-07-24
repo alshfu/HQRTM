@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ordonnansgatan, Göteborg",
+    "url": "https://qasa.com/p/1419550",
+    "image_url": null,
+    "description": "Nu finns möjlighet att hyra en fin och öppen tvåa i våning 2 med en smart planlösning. Lägenheten har en rymlig balkong på 8 kvm där du kan njuta av härlig kvällssol.\n\nLäget är utmärkt med närhet till både kommunikationer, service och träning:\n\n- Endast 8 minuter till Drottningtorget med spårvagn eller buss.\n- Cirka 8 minuters promenad till Kvibergs Arena och Nordic Wellness.\n- 5 minuters promenad till 24/7 Gym.\n- 5 minuters promenad till Lidl.\n- 5 minuters promenad till vårdcentral.\n\n**I hyran ingår:**\n- El\n- Värme\n- Varmvatten\n- Kallvatten\n- Bredband\n\nJag hyr ut lägenheten eftersom jag ska flytta ihop med min sambo. Det finns goda möjligheter till förlängning för rätt hyresgäst.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 14000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Blackevägen, Göteborg",
+    "url": "https://qasa.com/p/1379931",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c3e2f5b524c7eeec98992280039809f89b71befb6e20a637eb2d6788dbee0a04.jpg",
+    "description": "Välkommen till ett rymligt och fridfullt hem i Tolered, perfekt för familj eller delad bostad. Övervåningen i ett charmigt rödmålat trähus på Blackevägen, med egen ingång och privat uteplats.\n\nPLANLÖSNING (95 m², 4 rum + kök) Högt i tak! \n• Ljust vardagsrum med modulär sofflounge, smart-TV och öppen vägghylla\n• Fullt utrustat kök med matplats för 4 personer (kyl, frys, ugn, spishäll, diskmaskin, mikrovågsugn)\n• 3 separata sovrum:\n  – Huvudsovrum med dubbelsäng\n  – Sovrum 2 (familjevänligt, med skrivbord/läshörna)\n  – Sovrum 3 (mindre, fungerar som gästrum eller barnrum)\n• Eget badrum med dusch\n• Tvättstuga med egen tvättmaskin och torktumlare\n• Dedikerad arbetsyta för hemarbete\n\nVAD SOM INGÅR I HYRAN\n• Grunduppvärmning\n• Gratis parkering inom fastigheten (laddbox för elbil tillgänglig)\n• Fullt möblerat hem (linne, hushållsutrustning, mat- och köksredskap ingår)\n• Trädgård och gemensam uteplats\n\nHyran är 22 450 kr/månad. El betalas separat som fast månadstillägg om 900 kr (snittberäkning för 4–5 personer, ca 4 500 kWh/år).\n\nKOMMUNIKATION & OMRÅDE\nTolered är ett av Hisingens lugnaste områden med småhuskaraktär och grönska runt knuten. Du har:\n• Spårvagn 5–7 minuters promenad bort (linje 5/10, ca 20 min till Göteborgs centralstation)\n• Buss inom kort avstånd\n• Närbutik (ICA/Hemköp) inom 5 minuters gångavstånd\n• Förskolor, skolor och vårdcentral i området\n• Parker, motionsspår och nära till Hisingsparken\n• Bil: ca 10 min till E6 och västra Göteborg\n\nVARFÖR JAG HYR UT\nJag är fastighetsägare som tidigare hyrt ut huset på korttidsmarknaden (Airbnb, 4,9★ Superhost) och vill nu erbjuda en stabil, längre hyresperiod till en mer permanent hyresgäst. Jag är lättillgänglig, svarar inom timmar och har erfarenhet av att lösa praktiska frågor snabbt.\n\nHYRESGÄST OCH AVTAL\n• Långtidsuthyrning, tillträde 1 september 2026\n• Tillsvidare, 3 månaders ömsesidig uppsägning\n• Max 6 personer\n• Rökfritt\n• Husdjur kan diskuteras\n• Trygg uthyrning genom Qasa med hyresgaranti och depositionsgaranti\n\nVälkommen att höra av dig med frågor eller boka visning!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 22450,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skogsvägen, Göteborg",
+    "url": "https://qasa.com/p/1421696",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0a37342462a8dffb4e813c6911893365dc7e38a10d799484658ce5f763b4bdbc.jpg",
+    "description": "Ett möblerat rum på 16 m2 i en\nTvå våning nybygget villa som ligger i Helgered på Hisingen Göteborg. \nMycket natur, 2 minuter till busshållplatsen, 15 minuter till centrum och väldigt nära badstränder vid Torslanda. \nStort komplett kök, komplett tvättstugan, en stor vardagsrum, 4stora sovrum, allrum och 2 badrum. \nAllting ingår. \nDet finns möjlighet till att förlänga kontraktet ett år i taget. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Valåsgatan 2, Göteborg",
     "url": "https://qasa.com/p/1421622",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7e97f87c963533697f21fa1f337e1caf58b847b6897c26874391e0dbe587a133.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gunnilse Ljungbacke, Gunnilse",
-    "url": "https://qasa.com/p/1421217",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9179b8d33e509003cdf90ae45d03a2461fdc8fd1910492401e06fc966bf5ef0a.jpg",
-    "description": "Ett trivsamt och lugnt rum uthyres i en rymlig villa som ligger mitt i naturen – perfekt för dig som vill bo naturnära men ändå ha snabb tillgång till stadens puls. Här bor du med skog och grönområden runt knuten, samtidigt som du når centrala Göteborg på 15 minuter med bil eller cirka 30 minuter med buss.\n\nRummet är ljust, välplanerat och passar utmärkt för studier. Du delar gemensamma ytor som kök och vardagsrum med hushållet, och huset erbjuder en harmonisk och trygg boendemiljö.\n\nRummet uthyres endast till studenter, vilket skapar en lugn och studievänlig atmosfär.\n\nVi har bestämt oss för att sälja huset, och processen kan gå ganska snabbt. Tanken är att vi kommer prata med den nya ägaren så att alla avtal och kontrakt kan föras över smidigt. Om det inte går att lösa direkt kommer vi behöva ett tillträde på 3–6 månader, eftersom vi också måste hinna hitta ett nytt boende. Så den som vill hyra behöver vara medveten om detta.\n\n\n🌿 Ingår i hyran\n\n• El\n• Varmvatten\n• WiFi\n\n🚗 Parkering\n\nParkering finns att tillgå för dig som har bil.",
-    "district": "Gunnilse",
-    "rooms": 1.0,
-    "area_m2": 11.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 105, Angered",
-    "url": "https://qasa.com/p/1421463",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/799b910c6fcbfecd94251fdcba7afc1ee30c819dcd7f65f71c32bdff9036f711.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med terrass i nordöst på 39 kvm. På bilderna och planritningen kan du se i viket hus, samt vart i huset lägenheten är belägen. Filmen som visas för lägenheten är en film från en likadan lägenhet med samma planlösning, men i ett annat hus och ev. annat våningsplan.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare eller kombinerad tvätt och tork.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 13089,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björsaredsvägen, Göteborg",
-    "url": "https://qasa.com/p/1413134",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/54e551bf8fc436b2317f445f6579ddf23404893ceebf47040c27119314c8cdf0.jpg",
-    "description": "2,5 rum och kök i källarplan med egen ingång. Tillgång till stor trädgård samt egen altan i söderläge.\nBadrum med egen toalett, dusch samt tvättmaskin. Plan finns på badrumsrenovering inom närtid.\nObservera att bostaden uthyres omöblerad!\n\nBadsjö med sandstrand och badbrygga finns 10 minuters promenad från bostaden. Likaså vandringsleder, löparspår etc. i lugn skogsmiljö. \n\nBusshållplats finns 10 minuters promenad från bostaden. Bussen tar 25 min in till centralstationen i Göteborg. \n\nI Björsared finns bensinstation med postservice samt pizzeria.\n\nMöjlighet att ha med husdjur finns. \nBostaden är rökfri- rökning utomhus tillåtet. \n\nKallhyra. Kostnad för elförbrukning står hyresgästen själv för i enlighet med separat elmätare för bostaden. \n\nHantering av hushållssopor & matavfall samt avgift till områdets vägförening ingår i hyran. Hyresgästen ansvarar för sortering av återvinning i rätt kärl från Göteborgs stad, som finns på tomten.\n\nParkeringsplats för 1 bil finns tillgänglig.\n\nBostaden lämpar sig för max 2 personer.\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 55.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T09:37:41+00:00", "clock": "09:37:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T11:23:26+00:00", "clock": "11:23:26"};
