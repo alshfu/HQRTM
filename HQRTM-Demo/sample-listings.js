@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bokgården, Angered",
+    "url": "https://qasa.com/p/1421900",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc8433eeb78b6bf465c8b94ad6bfb4d3e835c23578a79cbe367304f94b7ba54a.jpg",
+    "description": "Rum uthyres i stor och trivsam lägenhet (ca 95 kvm)\n\nENDAST KVINNOR!\n\nHej! Jag hyr ut ett ljust och trivsamt rum i min stora lägenhet (ca 95 kvm) och söker nu en skötsam kvinnlig hyresgäst.\n\nOm rummet:\nLjust och trevligt rum med gott om förvaring.\nHyra: **4 000 kr/mån.\nMöblering kan anpassas efter dina behov.\n\nLägenheten & området:\nDelade ytor: kök, vardagsrum, nyrenoverat badrum, separat WC och hall.\nGoda kommunikationer till centrala Göteborg.\nNära till vardagsservice med ICA Maxi, Lidl och en uppskattad frukt- och grönsaksbutik vid torget.\nGarageplats finns att hyra för **750 kr/mån** om intresse finns.\n\nI hyran ingår:\nVärme\nVatten\nEl\nInternet\nMöbler\n\nVem söker jag?\nJag söker en kvinnlig, ordningsam och skötsam hyresgäst som är rök- och djurfri.\n\nUthyrningsperiod:\nFrån juli, eller enligt överenskommelse, till och med februari 2027. Möjlighet till förlängning finns.\n\nLåter detta intressant? Skicka gärna ett PM och berätta lite om dig själv, så hörs vi!",
+    "district": "Angered",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Danagatan, Göteborg",
+    "url": "https://qasa.com/p/1421819",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/802023451503bf8692f59e5209edcf15593f99136618bb768106b06ad4364149.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11756 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/waktrlcgq0aiqhrs4ris/vastra-gotaland/goteborg/danagatan-14/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nTrevlig, välplanerad och välhållen 2:a med stort, välutrustat kök samt balkong i västerläge för skön kvällssol . Badrummet har både golvvärme och handdukstork.\r\n\r\nFastigheten i sig  och området häromkring  är mycket välskött.  På nära avstånd finns både trevliga promenadstråk  och vacker natur. På nära avstånd finner du samtidigt alla övriga bekvämligheter man kan tänkas behöva för såväl vardag som helg. Dessutom så är det bara ca 5 minuters promenad ner till älven och den livliga  Eriksbergskajen. Där finner du ett brett utbud av butiker, caféer och restauranger. Därifrån tar man sig även enkelt vidare in till centrum med hjälp av buss eller en kort tripp över älven med  Älvsnabben färjan..\r\n\r\nSammanfattningsvis en väldigt trivsam stadsdel att bo och leva i.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11756 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 11202,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ordonnansgatan, Göteborg",
     "url": "https://qasa.com/p/1419550",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Högtrycksgatan, Göteborg",
-    "url": "https://qasa.com/p/1421174",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b448d2906c4d68f13571f29ee3c4ded9ab932b5061b91b9c625445a36773d121.jpg",
-    "description": "Lägenhet uthyres –  Högtrycksgatan 10, Göteborg\n\nJag hyr ut min lägenhet på Högtrycksgatan 10 i Göteborg. Lägenheten är 65 kvm, omöblerad och består av ett rymligt vardagsrum, ett sovrum, kök, badrum och balkong.\n\nEl, värme och internet ingår i hyran.\n\nLägenheten är inflyttningsklar omgående och hyrs ut tillsvidare.\n\nHör gärna av dig och berätta lite om dig själv om du är intresserad eller har några frågor",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 8800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vindragaregatan, Göteborg",
-    "url": "https://qasa.com/p/1408693",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27f33da8afe4fda4cb20b024644ed249ed4bc22815a834b6001909b3cbd27976.jpg",
-    "description": "Hyr ut min mysiga lilla bostad med start i slutet på augusti och tillsvidare.\nLägenheten ligger i ett trivsamt område med gångavstånd till caféer, barer och restauranger!\nRamberget med härliga grönområden och Göteborgs finaste utsikt är en kort promenad bort.\nBra kommunikations avstånd till Göteborgs centrum på 5 minuter med spårvagn, 10 minuter med cykel eller en härlig promenad på 25 minuter om man vill gå. \nLägenheten inkluderar möbler såsom;\nSäng 120\nSoffa\nSoffbord\nTV (chromecast)\nköksbord med stolar \nGarderober och en liten klädkammare \nSkohylla\nOm man vill kan möbler tas bort för att få plats med lite egna.\n\nI hyran ingår värme, vatten och internet. El tillkommer som man får teckna själv. \nRökfritt.\n\nHör av dig med en presentation om dig själv om du är intresserad.\nVälkommen!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T11:23:26+00:00", "clock": "11:23:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T12:54:55+00:00", "clock": "12:54:55"};
