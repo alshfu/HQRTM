@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Träkilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1419093",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b0353fd4ee71259654cf14b80344df5ec0575951eabf6ad12d8511609554920.png",
+    "description": "Jag hyr ut min ljusa och välplanerade 2:a i Björkekärr under höstterminen 2026 eftersom jag ska studera utomlands.\n\nLägenheten är 55 kvm och ligger på våning 4 av 8. Den har en öppen och social planlösning mellan kök och vardagsrum, ett separat sovrum samt ett helkaklat badrum med dusch och kombinerad tvättmaskin och torktumlare. Det finns dessutom mycket goda förvaringsmöjligheter i både hall och sovrum.\n\nKöket är fullt utrustat med diskmaskin, induktionshäll, ugn, mikro samt kyl och frys. Lägenheten hyrs ut fullt möblerad och är redo för inflyttning.\n\nEn av bostadens stora fördelar är den rymliga vinkelbalkongen på cirka 12 kvm, där du kan njuta av eftermiddags- och kvällssol. De stora fönstren och det höga läget ger lägenheten ett fint ljusinsläpp och en härligt öppen känsla.\n\nBostaden ligger i ett lugnt och trivsamt område med goda kommunikationer. Närmaste busshållplats ligger cirka tre minuters promenad bort och erbjuder smidiga förbindelser till centrala Göteborg och övriga delar av staden.\n\nI hyran ingår:\n- Möbler\n- Bredband\n- TV\n- Värme\n- El\n- Varm- och kallvatten\n\nJag söker en skötsam och ansvarsfull hyresgäst som gärna vill hyra under hela uthyrningsperioden och som tar väl hand om bostaden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 13300,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Västra Andersgårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1422097",
+    "image_url": null,
+    "description": "Hyran är 7582kr och jag kommer ta extra betalt för att jag vill hyra ut lägenheten möblerad. Möbeltillägg på 1137kr så hyran blir cirka 8719kr per månad.\n\nDu som hyr behöver betala hyran, för möblerna, el och elnät. Du behöver ha en hemförsäkring. Du kan betala mig och använda det bredband/wifi jag redan har tecknat om du vill.\n\nLägenheten är ljus och fräsch. Bra planlösning. Ett sovrum och i sovrummet finns en walk in closet. Vardagsrummet och köket är i ett stort rum. På toaletten finns det badkar.\n\nInflytt och utflytt sker enligt överenskommelse men jag tänker från 6-12 månader. Max 12 månader.\n\nKommunikationen är mycket god, nära till buss och spårvagn.\nJag vill hyra ut till en kvinna och ser gärna att du är rök och djurfri.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 8719,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Varpmossevägen, Askim",
     "url": "https://qasa.com/p/1421922",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bc8438b697d56726914fb021e80238cb3d09aac12a318a69a87f5039e23c64d.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skogsvägen, Göteborg",
-    "url": "https://qasa.com/p/1421696",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0a37342462a8dffb4e813c6911893365dc7e38a10d799484658ce5f763b4bdbc.jpg",
-    "description": "Ett möblerat rum på 16 m2 i en\nTvå våning nybygget villa som ligger i Helgered på Hisingen Göteborg. \nMycket natur, 2 minuter till busshållplatsen, 15 minuter till centrum och väldigt nära badstränder vid Torslanda. \nStort komplett kök, komplett tvättstugan, en stor vardagsrum, 4stora sovrum, allrum och 2 badrum. \nAllting ingår. \nDet finns möjlighet till att förlänga kontraktet ett år i taget. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Valåsgatan 2, Göteborg",
-    "url": "https://qasa.com/p/1421622",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7e97f87c963533697f21fa1f337e1caf58b847b6897c26874391e0dbe587a133.jpg",
-    "description": "Charmig 1,5 RoK med egen entré i sekelskiftesvilla – Örgryte\nNu söker vi en ny hyresgäst till en ljus och välplanerad 1,5 rok om 33 kvm med egen entré, belägen i en liten och trivsam bostadsrättsförening på attraktiva Valåsgatan 2 i Örgryte.\n\n💰 Hyra: 9 900 kr/mån\n📅 Inflyttning: 1 oktober 2026\n📄 Tillsvidarekontrakt med sedvanlig uppsägningstid\n\nOm bostaden\nHär bor du i ett lugnt och grönskande kvarter med känslan av villa, samtidigt som du har stadens utbud nära. Delsjöområdets natur ligger runt hörnet och du når Korsvägen, Liseberg och centrala Göteborg på bara några minuter.1,5 rok med egen entré i Örgryte/Bö – 33 m² nära Korsvägen & Delsjön\n\nLägenheten ligger i entreplan/källarplan och passar dig som söker ett praktiskt boende med bra läge och enkelt vardagsliv.\n\nDetta får du:\n- Egen entré – praktiskt och privat.\n- Vardagsrum med plats för både soffa och matplats.\n- Sovalkov med plats för säng.\n- Kök med grundläggande utrustning.\n- Badrum med dusch.\n- Tillgång till tvättstuga\n\nLäget – Örgryte/Bö:\nÖrgryte är en central och lugn stadsdel i Göteborg som erbjuder en fin balans mellan närhet till city och natursköna områden som Delsjön och Skatås. Här finns gott om fritidsmöjligheter som golf, ridning och motionsspår.\n\nParkering\nDet finns gratis och lättillgänglig parkering i området för både boende och besökare.\n\nKommunikationer\nMycket goda kommunikationer med buss och spårvagn. Det tar cirka fem minuter till Korsvägen, Liseberg och Universeum.\n\nNatur & fritid\nNära till Delsjön, Skatås, ridvägar och fina promenadstråk. Perfekt för den som gillar friluftsliv, löpning och bad.\n\nService & restauranger\nHär finns matbutiker som ICA Focus och ICA Kvantum, samt flera kvartersbutiker, kaféer och restauranger.\n\nKultur & nöjen\nLiseberg, Universeum, Svenska Mässan och konserthallar ligger inom promenad- eller cykelavstånd.\n\nÖvrigt\nÖrgryte är ett område med lång och rik historia, känt för sina charmiga kvarter och trivsamma miljöer.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 9900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T16:43:01+00:00", "clock": "16:43:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T18:06:04+00:00", "clock": "18:06:04"};
