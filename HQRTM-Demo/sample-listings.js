@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gunnilse Ljungbacke, Gunnilse",
+    "url": "https://qasa.com/p/1421217",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9179b8d33e509003cdf90ae45d03a2461fdc8fd1910492401e06fc966bf5ef0a.jpg",
+    "description": "Ett trivsamt och lugnt rum uthyres i en rymlig villa som ligger mitt i naturen – perfekt för dig som vill bo naturnära men ändå ha snabb tillgång till stadens puls. Här bor du med skog och grönområden runt knuten, samtidigt som du når centrala Göteborg på 15 minuter med bil eller cirka 30 minuter med buss.\n\nRummet är ljust, välplanerat och passar utmärkt för studier. Du delar gemensamma ytor som kök och vardagsrum med hushållet, och huset erbjuder en harmonisk och trygg boendemiljö.\n\nRummet uthyres endast till studenter, vilket skapar en lugn och studievänlig atmosfär.\n\nVi har bestämt oss för att sälja huset, och processen kan gå ganska snabbt. Tanken är att vi kommer prata med den nya ägaren så att alla avtal och kontrakt kan föras över smidigt. Om det inte går att lösa direkt kommer vi behöva ett tillträde på 3–6 månader, eftersom vi också måste hinna hitta ett nytt boende. Så den som vill hyra behöver vara medveten om detta.\n\n\n🌿 Ingår i hyran\n\n• El\n• Varmvatten\n• WiFi\n\n🚗 Parkering\n\nParkering finns att tillgå för dig som har bil.",
+    "district": "Gunnilse",
+    "rooms": 1.0,
+    "area_m2": 11.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gårdstensvägen 105, Angered",
+    "url": "https://qasa.com/p/1421463",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/799b910c6fcbfecd94251fdcba7afc1ee30c819dcd7f65f71c32bdff9036f711.jpg",
+    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med terrass i nordöst på 39 kvm. På bilderna och planritningen kan du se i viket hus, samt vart i huset lägenheten är belägen. Filmen som visas för lägenheten är en film från en likadan lägenhet med samma planlösning, men i ett annat hus och ev. annat våningsplan.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare eller kombinerad tvätt och tork.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 13089,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Björsaredsvägen, Göteborg",
     "url": "https://qasa.com/p/1413134",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/54e551bf8fc436b2317f445f6579ddf23404893ceebf47040c27119314c8cdf0.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Aveskärsgatan, Göteborg",
-    "url": "https://qasa.com/p/1421133",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d2783714ceb5285cf5e30cef53c1ea4ed379baf133a4b7b2750ac888c086d59.jpg",
-    "description": "Möblerat studentrum med egen ingång uthyres i västra Göteborg\n\nLägenheten är möblerad och har två sovrum, kök samt badrum. Nu är båda våra hyresgäster klarar med sina studier och har flyttat. Hyresperiod är från 1/8  Lägenheten är en separat del av en villa och du delar badrum och kök med den andra hyresgästen. \nGratis parkering, egen ingång samt uteplats. El, värme, vatten, bredband ingår och om man så önskar sängkläder samt handdukar. Tvättmaskin och torktumlare finns i lägenheten. Dörren till rummen är försedd med ett kodlås. \nDet är 100 m till hållplats och 500 m till havet.\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Körkarlens Gata, Hisings Backa",
-    "url": "https://qasa.com/p/1421121",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c845128bad910b444bed46da4cc5541471dee9caa236e3fe61704d7bcd346de9.jpg",
-    "description": "Fräsch och välplanerad 2:a uthyres – Allt ingår!\nTrevlig och fullt möblerad 2-rumslägenhet uthyres till skötsam hyresgäst. Lägenheten har en väldigt bra planlösning med separat sovrum, rymligt vardagsrum, separat kök, stor balkong samt ett praktiskt förråd/klädkammare.\nOm lägenheten:\n Planlösning: 2 rum och kök (separat sovrum, vardagsrum och kök), balkong samt förråd.\n Badrum: Fräscht badrum utrustat med egen tvättmaskin och torktumlare.\n Möblering: Uthyres helt möblerad.\n Gemensamma utrymmen: Tillgång till gemensam tvättstuga och låsbart cykelrum.\nVad som ingår i hyran:\n Värme & vatten\n El\n Internet / Bredband\n Egen parkeringsplats\nLäge & Kommunikationer:\n Närhet till busshållplats med goda förbindelser.\n Nära till matbutiker och grönområden.",
-    "district": "Hisings Backa",
-    "rooms": 2.5,
-    "area_m2": 65.0,
-    "rent": 12200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T04:34:13+00:00", "clock": "04:34:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T07:14:31+00:00", "clock": "07:14:31"};
