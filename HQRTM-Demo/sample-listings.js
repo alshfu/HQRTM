@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kromvägen, Torslanda",
+    "url": "https://qasa.com/p/1422177",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c254d5a52440f78d7636fc64ce172bf4a20346851fdff351d67367606308a9ec.jpg",
+    "description": "Bostaden har allt du behöver för en enkel vardag. Boendet ligger i lummiga Lilleby med närhet till motionsspår och hav. Pendling till Göteborg sker enklast med bil eller elcykel, eller en kombination med buss. Kollektivtrafiken går även på den större vägen utanför. Köket är rymligt med plats för matbord för fyra personer. Vardagsrummet är möblerat med stor soffa, tv samt soffbord. Större sovrummet har en 160-säng, det mindre har en 120-säng. Badrummet planerar vi att göra om med egen tvättmaskin för enkelhetens skull. ",
+    "district": "Torslanda",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lundgatan, Göteborg",
     "url": "https://qasa.com/p/1421632",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0ab4e576fc59d21246d77f9a81fe5731f0ca1e5a6eeab42cd7ef5a97f6d99a4.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ordonnansgatan, Göteborg",
-    "url": "https://qasa.com/p/1419550",
-    "image_url": null,
-    "description": "Nu finns möjlighet att hyra en fin och öppen tvåa i våning 2 med en smart planlösning. Lägenheten har en rymlig balkong på 8 kvm där du kan njuta av härlig kvällssol.\n\nLäget är utmärkt med närhet till både kommunikationer, service och träning:\n\n- Endast 8 minuter till Drottningtorget med spårvagn eller buss.\n- Cirka 8 minuters promenad till Kvibergs Arena och Nordic Wellness.\n- 5 minuters promenad till 24/7 Gym.\n- 5 minuters promenad till Lidl.\n- 5 minuters promenad till vårdcentral.\n\n**I hyran ingår:**\n- El\n- Värme\n- Varmvatten\n- Kallvatten\n- Bredband\n\nJag hyr ut lägenheten eftersom jag ska flytta ihop med min sambo. Det finns goda möjligheter till förlängning för rätt hyresgäst.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 14000,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T19:43:44+00:00", "clock": "19:43:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T20:50:35+00:00", "clock": "20:50:35"};
