@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lundgatan, Göteborg",
+    "url": "https://qasa.com/p/1421632",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0ab4e576fc59d21246d77f9a81fe5731f0ca1e5a6eeab42cd7ef5a97f6d99a4.png",
+    "description": "Jag bor i en fin trerumslägenhet på 77 kvadratmeter i Lunden som jag önskar dela med en annan kvinna under tiden jag slutför mina studier.\n\nJag söker en kvinnlig, ordningsam och skötsam samt rök- och djurfri inneboende. Det är viktigt för mig att vi båda kan trivas i lägenheten och att det är städat och trevligt hemma.\n\nDu får tillgång till ett eget sovrum på ca 9 kvadratmeter med rymliga garderober. Det är det tomma rummet bland bilderna. Detta kommer att möbleras. De gemensamma utrymmena består av fullt utrustat kök, vardagsrum, badrum med badkar och tvättmaskin samt balkong i söderläge. Det finns tvättstuga och torkrum på bottenvåningen i huset samt cykelparkering på gården.\n\nI hyran ingår:\nEl\nVärme\nVatten\nInternet\nMöbler\n\nNärmaste hållplatsen är Ingeborgsgatan och där går buss 60 (ca 20 min till Chalmers och 10 min till Drottningtorget). Det är gångavstånd till Olskrokstorget och Redbergsplatsen där det går både spårvagnar och bussar. \n\nI närområdet finns ICA, Lidl, Gym och andra butiker samt grönområden.\n\nLåter det intressant så skriv ett PM och berätta om dig själv.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 6000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Träkilsgatan, Göteborg",
     "url": "https://qasa.com/p/1419093",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b0353fd4ee71259654cf14b80344df5ec0575951eabf6ad12d8511609554920.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blackevägen, Göteborg",
-    "url": "https://qasa.com/p/1379931",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c3e2f5b524c7eeec98992280039809f89b71befb6e20a637eb2d6788dbee0a04.jpg",
-    "description": "Välkommen till ett rymligt och fridfullt hem i Tolered, perfekt för familj eller delad bostad. Övervåningen i ett charmigt rödmålat trähus på Blackevägen, med egen ingång och privat uteplats.\n\nPLANLÖSNING (95 m², 4 rum + kök) Högt i tak! \n• Ljust vardagsrum med modulär sofflounge, smart-TV och öppen vägghylla\n• Fullt utrustat kök med matplats för 4 personer (kyl, frys, ugn, spishäll, diskmaskin, mikrovågsugn)\n• 3 separata sovrum:\n  – Huvudsovrum med dubbelsäng\n  – Sovrum 2 (familjevänligt, med skrivbord/läshörna)\n  – Sovrum 3 (mindre, fungerar som gästrum eller barnrum)\n• Eget badrum med dusch\n• Tvättstuga med egen tvättmaskin och torktumlare\n• Dedikerad arbetsyta för hemarbete\n\nVAD SOM INGÅR I HYRAN\n• Grunduppvärmning\n• Gratis parkering inom fastigheten (laddbox för elbil tillgänglig)\n• Fullt möblerat hem (linne, hushållsutrustning, mat- och köksredskap ingår)\n• Trädgård och gemensam uteplats\n\nHyran är 22 450 kr/månad. El betalas separat som fast månadstillägg om 900 kr (snittberäkning för 4–5 personer, ca 4 500 kWh/år).\n\nKOMMUNIKATION & OMRÅDE\nTolered är ett av Hisingens lugnaste områden med småhuskaraktär och grönska runt knuten. Du har:\n• Spårvagn 5–7 minuters promenad bort (linje 5/10, ca 20 min till Göteborgs centralstation)\n• Buss inom kort avstånd\n• Närbutik (ICA/Hemköp) inom 5 minuters gångavstånd\n• Förskolor, skolor och vårdcentral i området\n• Parker, motionsspår och nära till Hisingsparken\n• Bil: ca 10 min till E6 och västra Göteborg\n\nVARFÖR JAG HYR UT\nJag är fastighetsägare som tidigare hyrt ut huset på korttidsmarknaden (Airbnb, 4,9★ Superhost) och vill nu erbjuda en stabil, längre hyresperiod till en mer permanent hyresgäst. Jag är lättillgänglig, svarar inom timmar och har erfarenhet av att lösa praktiska frågor snabbt.\n\nHYRESGÄST OCH AVTAL\n• Långtidsuthyrning, tillträde 1 september 2026\n• Tillsvidare, 3 månaders ömsesidig uppsägning\n• Max 6 personer\n• Rökfritt\n• Husdjur kan diskuteras\n• Trygg uthyrning genom Qasa med hyresgaranti och depositionsgaranti\n\nVälkommen att höra av dig med frågor eller boka visning!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 95.0,
-    "rent": 22450,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T18:06:04+00:00", "clock": "18:06:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-24T19:43:44+00:00", "clock": "19:43:44"};
