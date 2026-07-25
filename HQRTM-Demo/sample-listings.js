@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Näsbovägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1422497",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5889ceb693d01e66d9de54715acb0f9a05fc5d1c43e19b200ded7141b4826069.jpg",
+    "description": "En fin möblerad övernattningslägenhet i källarplan i västra Göteborg med närhet till det mesta. Egen uteplats och parkering. Lugnt och fint område, med badrocksavstånd till havet och privat badvik. Trådlöst internet ingår, städning kan köpas till. Uthyres veckovis, eller månadsvis. Hyra per termin är också möjligt, specialpris. Kan faktureras.\n\nSöker primärt efter gäst som vill hyra över längre tid.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 10700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergsgatan, Göteborg",
     "url": "https://qasa.com/p/1422368",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42c399786449a7c3572dd0a93ea5ff2913e149ef1a9324d77bb95db9ff79152e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Västra Andersgårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1422097",
-    "image_url": null,
-    "description": "Hyran är 7582kr och jag kommer ta extra betalt för att jag vill hyra ut lägenheten möblerad. Möbeltillägg på 1137kr så hyran blir cirka 8719kr per månad.\n\nDu som hyr behöver betala hyran, för möblerna, el och elnät. Du behöver ha en hemförsäkring. Du kan betala mig och använda det bredband/wifi jag redan har tecknat om du vill.\n\nLägenheten är ljus och fräsch. Bra planlösning. Ett sovrum och i sovrummet finns en walk in closet. Vardagsrummet och köket är i ett stort rum. På toaletten finns det badkar.\n\nInflytt och utflytt sker enligt överenskommelse men jag tänker från 6-12 månader. Max 12 månader.\n\nKommunikationen är mycket god, nära till buss och spårvagn.\nJag vill hyra ut till en kvinna och ser gärna att du är rök och djurfri.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 8719,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T12:45:50+00:00", "clock": "12:45:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T14:04:47+00:00", "clock": "14:04:47"};
