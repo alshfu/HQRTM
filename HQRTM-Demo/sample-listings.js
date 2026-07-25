@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Donsö bryggväg, Donsö",
+    "url": "https://qasa.com/p/1422539",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a2b1af95fb8823869f68afa5191798c163d98508db28fcbd19663c1ccf8599f.jpg",
+    "description": "Mysigt småhus på vackra Donsö i Göteborgs södra skärgård med ett sovrum, ett vardagsrum/allrum samt nyrenoverad köksvrå och badrum med dusch. Uthyres möblerat, gärna till studerande. Köket är fullt utrustat med spis, kyl och frys, micro, kaffebryggare och diskmaskin. I sovrummet finns en 140 cm dubbelsäng och i vardagsrummet finns en bäddsoffa.\nDet finns en liten uteplats med möbler i trädgården.  Wifi, el, värme och vatten ingår i månadshyran.\nMed snabbåten från Saltholmen till Donsö tar det ca 18 min och från/till centrala Gbg tar det ca 55 min med kollektivtrafiken. Från huset är det endast en kort promenad, 5-10 min, till mataffär och färja. Till badplats är det ca 15 min promenad. På Donsö finns det fina naturpromenader, mataffär och restaurang. Det går också en bro över till Styrsö som har fler butiker, restauranger samt natursköna stigar.",
+    "district": "Donsö",
+    "rooms": 2.5,
+    "area_m2": 42.0,
+    "rent": 7100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Olivedalsgatan, Göteborg",
     "url": "https://qasa.com/p/1422579",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1edadf01f88dfe5370d488c3ceca564fbcbb8968a310bb4a8c370c6b6fff6917.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gröna Annas Gata, Göteborg",
-    "url": "https://qasa.com/p/1405012",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
-    "description": "Hyresperiod: 1 september 2026 – 31 januari 2027\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad. I hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt parkeringsplats. \n\nLäget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 11232,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T20:30:02+00:00", "clock": "20:30:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T21:28:32+00:00", "clock": "21:28:32"};
