@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1422368",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42c399786449a7c3572dd0a93ea5ff2913e149ef1a9324d77bb95db9ff79152e.jpg",
+    "description": "Eget rum i stor 2:a (82kvm) med högt i tak i fint sekelskiftshus mitt i Linné. Lägenheten ligger vid Prinsgatans hållplats med närhet till allt man kan tänkas vilja nå. Enkelt att ta sig överallt och det mesta finns inom gångavstånd. \n\nLägenheten är fräsch och fin, högt i tak, stora fönster, fin utsikt och marmorskivor i kök och badrum. Det finns diskmaskin, tvättmaskin och torktumlare i lägenheten.\n\nLägenheten har stort ett jättestort kök med köksö som kan användas både som kök och vardagsrum. \n\nKöket ligger mellan vardagsrummet (mitt rum) och sovrummet (rummet som ska hyras ut) så planlösningen funkar bra för delat boende. Jag jobbar vanligtvis 9-19 vardagar.\n\nRummet hyrs ut möblerat med säng, skrivbord, nattduksbord och fotölj/soffa - kan anpassas för hyresgästen. \n\nInflyttsdatum är något flexibelt, möjligt fr.o.m 22 augusti, men även 1 september skulle funka. \n\nEl, vatten, bredband ingår i hyran. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 8300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gröna Annas Gata, Göteborg",
+    "url": "https://qasa.com/p/1405012",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2994a3436dd60fc35d03f6cfcc30e1272b1dd8352ae1000a33dcb4554412daa.jpg",
+    "description": "Hyresperiod: 1 september 2026 – 31 januari 2027\n\nHyr ut en modern och välplanerad tvårumslägenhet på 60 kvm, belägen på våning 3 med balkong. Tack vare genomgångsplanlösningen får lägenheten ett härligt ljusinsläpp från två väderstreck.\n\nLägenheten hyrs ut möblerad. I hyran ingår värme, vatten, Telia Bas TV-paket, snabbt bredband (500/500) samt parkeringsplats. \n\nLäget erbjuder närhet till mysiga caféer, restauranger och saluhall, samtidigt som du har smidig tillgång till kollektivtrafik. På bara några minuter når du centrala Göteborg med buss, spårvagn eller cykel.\n\nVälkommen att höra av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 11232,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hjälmavägen, Torslanda",
     "url": "https://qasa.com/p/1422189",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e50f74cdc96e8dbac7ed001f43c921478224709f357f1fdacb1a89cad279c87a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Varpmossevägen, Askim",
-    "url": "https://qasa.com/p/1421922",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bc8438b697d56726914fb021e80238cb3d09aac12a318a69a87f5039e23c64d.jpg",
-    "description": "I natursköna Sisjön hittar ni denna välplanerade Attefallshus.\n1 st parkeringsplats precis utanför dörren\n1 st liten stenlagd uteplats för sol och trevliga grillkvällar.\n1 st plantering som man kan pyssla med om man vill, idag underhållsfria blomstrande lavende växter.\nEgen ingång från gatan.\n\nBusshållplats 3-5 min promenad \nBadsjö 10 min promenad\nSisjöns shoppingcenter 2 Km\nGöteborgs central 12 km\n\nEl ingår upp till 6000 kw/ år, ej elbilsladdning.\nVid normal elanvändning är det mycket god marginl. ",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 25.0,
-    "rent": 9950,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bokgården, Angered",
-    "url": "https://qasa.com/p/1421900",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc8433eeb78b6bf465c8b94ad6bfb4d3e835c23578a79cbe367304f94b7ba54a.jpg",
-    "description": "Rum uthyres i stor och trivsam lägenhet (ca 95 kvm)\n\nENDAST KVINNOR!\n\nHej! Jag hyr ut ett ljust och trivsamt rum i min stora lägenhet (ca 95 kvm) och söker nu en skötsam kvinnlig hyresgäst.\n\nOm rummet:\nLjust och trevligt rum med gott om förvaring.\nHyra: **4 000 kr/mån.\nMöblering kan anpassas efter dina behov.\n\nLägenheten & området:\nDelade ytor: kök, vardagsrum, nyrenoverat badrum, separat WC och hall.\nGoda kommunikationer till centrala Göteborg.\nNära till vardagsservice med ICA Maxi, Lidl och en uppskattad frukt- och grönsaksbutik vid torget.\nGarageplats finns att hyra för **750 kr/mån** om intresse finns.\n\nI hyran ingår:\nVärme\nVatten\nEl\nInternet\nMöbler\n\nVem söker jag?\nJag söker en kvinnlig, ordningsam och skötsam hyresgäst som är rök- och djurfri.\n\nUthyrningsperiod:\nFrån juli, eller enligt överenskommelse, till och med februari 2027. Möjlighet till förlängning finns.\n\nLåter detta intressant? Skicka gärna ett PM och berätta lite om dig själv, så hörs vi!",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T08:21:02+00:00", "clock": "08:21:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T10:04:51+00:00", "clock": "10:04:51"};
