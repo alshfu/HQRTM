@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Älghagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1422590",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/531114dedb65f976bc3f031ea98bbf254a86a9f7f103a57defc01c653f983217.jpg",
+    "description": "Ljus tvårummare med balkong högst upp i Gamla Masthugget\n\nÄlghagsgatan 1C | Gamla Masthugget, Göteborg\n\nJag hyr ut min fina lägenhet på 42 kvm belägen högst upp i huset på tredje våningen eftersom jag flyttar till Paris för studier till hösten.\n\nLägenheten ligger precis vid gränsen till Slottsskogen och har fri sikt ända ner mot havet. Med fönster åt både väst och öst får lägenheten fantastiskt ljusinsläpp hela dagen, med morgonsol in i sovrummet och eftermiddags-/kvällssol på balkongen i västerläge.\n\nOm lägenheten:\n- 2 rum och kök, 42 kvm\n- Hyrs ur möblerad, inklusive köksgeråd\n- Balkong i västerläge\n- Högst upp i huset, med utsikt över västra Göteborg\n- Lugnt och tyst område med gångavstånd till Linné, Majorna och centrum\n\nPraktiskt:\n- El, vatten och bredband ingår i hyran.\n- Uthyrningsperiod: från 1 september. Till en början 1 år, med möjlighet till förlängning upp till 2 år efter godkännande av föreningens styrelse\n\nViktigt att känna till:\nFöreningen planerar ett stambyte som beräknas starta våren 2027 och pågå i etapper (cirka 10-12 veckor per trapphus). Du kan bo kvar i lägenheten under arbetet, men vattnet kommer vara avstängt och det kommer finnas tillfälliga lösningar för dusch/toalett. Under de veckor som lägenheten berörs sänks hyran med 50%. Jag söker en hyresgäst som är bekväm med detta och gärna flexibel kring perioden.\n\nOm du är intresserad av lägenheten får du gärna höra av dig och berätta lite om dig själv!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 12790,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Askims Domarringsväg, Askim",
     "url": "https://qasa.com/p/1422569",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7980db11251f0db7b37c9a94024a08cd5a9a02b5e4cd8f9e3c41705526b0c702.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kromvägen, Torslanda",
-    "url": "https://qasa.com/p/1422177",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c254d5a52440f78d7636fc64ce172bf4a20346851fdff351d67367606308a9ec.jpg",
-    "description": "Bostaden har allt du behöver för en enkel vardag. Boendet ligger i lummiga Lilleby med närhet till motionsspår och hav. Pendling till Göteborg sker enklast med bil eller elcykel, eller en kombination med buss. Kollektivtrafiken går även på den större vägen utanför. Köket är rymligt med plats för matbord för fyra personer. Vardagsrummet är möblerat med stor soffa, tv samt soffbord. Större sovrummet har en 160-säng, det mindre har en 120-säng. Badrummet planerar vi att göra om med egen tvättmaskin för enkelhetens skull. ",
-    "district": "Torslanda",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T16:14:33+00:00", "clock": "16:14:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T17:18:20+00:00", "clock": "17:18:20"};
