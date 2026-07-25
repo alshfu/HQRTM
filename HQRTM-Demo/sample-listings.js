@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Askims Domarringsväg, Askim",
+    "url": "https://qasa.com/p/1422569",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7980db11251f0db7b37c9a94024a08cd5a9a02b5e4cd8f9e3c41705526b0c702.jpg",
+    "description": "Välkommen till vårt trivsamma radhus i lugna och gröna Askim i Göteborg! Här hyr vi ut en möblerad gillestuga med egen avskild del av huset, vilket passar perfekt för en student eller annan person som söker ett lugnt och tryggt boende.\n\nDu delar kök, badrum och tvättmöjligheter med vår familj. Vi är en familj på tre personer – två vuxna och vår glada 11-årige son – och värdesätter en vänlig och respektfull atmosfär.\n\nOmrådet erbjuder fina promenadstråk, närhet till havet, mataffärer och goda kommunikationer till centrala Göteborg och universiteten. Wi-Fi, värme och el ingår i hyran.\n\nVi söker i första hand en inneboende för en termin, med möjlighet till förlängning om allt fungerar bra för båda parter.\n\nVi ser fram emot att välkomna dig!",
+    "district": "Askim",
+    "rooms": 1.5,
+    "area_m2": 20.0,
+    "rent": 5430,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Teleskopgatan, Göteborg",
     "url": "https://qasa.com/p/1422525",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b30e2c42fa1fb09dcb80c575379f68c9d9ac37c1cdb9d7054118c2b550dceb3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lundgatan, Göteborg",
-    "url": "https://qasa.com/p/1421632",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0ab4e576fc59d21246d77f9a81fe5731f0ca1e5a6eeab42cd7ef5a97f6d99a4.png",
-    "description": "Jag bor i en fin trerumslägenhet på 77 kvadratmeter i Lunden som jag önskar dela med en annan kvinna under tiden jag slutför mina studier.\n\nJag söker en kvinnlig, ordningsam och skötsam samt rök- och djurfri inneboende. Det är viktigt för mig att vi båda kan trivas i lägenheten och att det är städat och trevligt hemma.\n\nDu får tillgång till ett eget sovrum på ca 9 kvadratmeter med rymliga garderober. Det är det tomma rummet bland bilderna. Detta kommer att möbleras. De gemensamma utrymmena består av fullt utrustat kök, vardagsrum, badrum med badkar och tvättmaskin samt balkong i söderläge. Det finns tvättstuga och torkrum på bottenvåningen i huset samt cykelparkering på gården.\n\nI hyran ingår:\nEl\nVärme\nVatten\nInternet\nMöbler\n\nNärmaste hållplatsen är Ingeborgsgatan och där går buss 60 (ca 20 min till Chalmers och 10 min till Drottningtorget). Det är gångavstånd till Olskrokstorget och Redbergsplatsen där det går både spårvagnar och bussar. \n\nI närområdet finns ICA, Lidl, Gym och andra butiker samt grönområden.\n\nLåter det intressant så skriv ett PM och berätta om dig själv.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 6000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T15:16:44+00:00", "clock": "15:16:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T16:14:33+00:00", "clock": "16:14:33"};
