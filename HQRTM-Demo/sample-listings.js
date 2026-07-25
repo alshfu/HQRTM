@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Olivedalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1422579",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1edadf01f88dfe5370d488c3ceca564fbcbb8968a310bb4a8c370c6b6fff6917.jpg",
+    "description": "Bästa området i Göteborg. Ingen genomfartstrafik på Olivedalsgatan. Många restauranger från världens alla hörn. Slottsskogen runt hörnan. Lika nära till Järntorget och utelivet. Mycket centralt. 10 minuter med buss till havet från Linnéplatsen.  Mycket bra kommunikationer. Lägenheten är en stor trea med balkong. Hyresgäst kommer att ha det största sovrummet samt tillgång till hela lägenheten själv under stora delar av tiden då hyresvärd pendlar till Stockholm. Bäddsoffa finns också för övernattning av gäster. Väldigt trevliga grannar. Kvarterskrogen Oliven på hörnan är samlingsplatsen för många i kvarteret. Rummet är möblerat om hyresgästen vill: bra säng, garderob, två byråer, hyllor och skrivbord. Internet, el, TV ingår i hyran. En person eller ev par enligt överenskommelse om hyresnivå. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Älghagsgatan, Göteborg",
     "url": "https://qasa.com/p/1422590",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/531114dedb65f976bc3f031ea98bbf254a86a9f7f103a57defc01c653f983217.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjälmavägen, Torslanda",
-    "url": "https://qasa.com/p/1422189",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e50f74cdc96e8dbac7ed001f43c921478224709f357f1fdacb1a89cad279c87a.jpg",
-    "description": "Nybyggt gästhus i Nolvik Torslanda.\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\nNytt kök med all utrustning\n\n- Fristående\n- Möblerat\n\nPassar bäst upp till 2 personer.\n\nVärme ingår i hyran. Vatten, el och bredband kan diskuteras.\n\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
-    "district": "Torslanda",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 12800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T18:12:57+00:00", "clock": "18:12:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T19:36:56+00:00", "clock": "19:36:56"};
