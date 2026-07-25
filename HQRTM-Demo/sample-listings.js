@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Teleskopgatan, Göteborg",
+    "url": "https://qasa.com/p/1422525",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b30e2c42fa1fb09dcb80c575379f68c9d9ac37c1cdb9d7054118c2b550dceb3.jpg",
+    "description": "2 rum o kök 74 kvm, 4 våning, hiss,  går att sätta upp en enkel vägg då blir den 3 rumslägenhet\nHyran är 6096 kr, ingår Bredband och tv, bränsle.\nDet är en bostadsrätt,  kolla Booli  där finns rekommenderade priser.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 74.0,
+    "rent": 6092,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Näsbovägen, Västra Frölunda",
     "url": "https://qasa.com/p/1422497",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5889ceb693d01e66d9de54715acb0f9a05fc5d1c43e19b200ded7141b4826069.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Träkilsgatan, Göteborg",
-    "url": "https://qasa.com/p/1419093",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b0353fd4ee71259654cf14b80344df5ec0575951eabf6ad12d8511609554920.png",
-    "description": "Jag hyr ut min ljusa och välplanerade 2:a i Björkekärr under höstterminen 2026 eftersom jag ska studera utomlands.\n\nLägenheten är 55 kvm och ligger på våning 4 av 8. Den har en öppen och social planlösning mellan kök och vardagsrum, ett separat sovrum samt ett helkaklat badrum med dusch och kombinerad tvättmaskin och torktumlare. Det finns dessutom mycket goda förvaringsmöjligheter i både hall och sovrum.\n\nKöket är fullt utrustat med diskmaskin, induktionshäll, ugn, mikro samt kyl och frys. Lägenheten hyrs ut fullt möblerad och är redo för inflyttning.\n\nEn av bostadens stora fördelar är den rymliga vinkelbalkongen på cirka 12 kvm, där du kan njuta av eftermiddags- och kvällssol. De stora fönstren och det höga läget ger lägenheten ett fint ljusinsläpp och en härligt öppen känsla.\n\nBostaden ligger i ett lugnt och trivsamt område med goda kommunikationer. Närmaste busshållplats ligger cirka tre minuters promenad bort och erbjuder smidiga förbindelser till centrala Göteborg och övriga delar av staden.\n\nI hyran ingår:\n- Möbler\n- Bredband\n- TV\n- Värme\n- El\n- Varm- och kallvatten\n\nJag söker en skötsam och ansvarsfull hyresgäst som gärna vill hyra under hela uthyrningsperioden och som tar väl hand om bostaden.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 13300,
-    "floor": 4,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T14:04:47+00:00", "clock": "14:04:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T15:16:44+00:00", "clock": "15:16:44"};
