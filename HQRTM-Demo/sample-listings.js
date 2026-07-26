@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ernst Torulfsgatan, Göteborg",
+    "url": "https://qasa.com/p/1422764",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2c3a59d1b466017bc2b7550a4789a447b5eaf26d15920d0de49cce57e65c64d7.jpg",
+    "description": "Ljusa 3rum och kök i funkisstil, södervänt balkong, och 4st generösa inbyggda förvaringsmöjligheter inom lägenheten. Enkel tillgång till lugn och trevlig uteplats. Köket lämnar inga önskemål ang. plats för köksredskåp och skafferi. Bänkdiskmaskin och mikrovågnsugnen finns, kan dock tas bort om så önskas. \n\nUtmärkt läge mellan natur och centrum med mycket bra  kommunikationsmöjligheter: tågstation, spårvagns- och busshållplats i gångavstånd. Nära till mataffärer, gym, frisör, massage, djuraffär och ett varierande utbud av restauranger. Massage, BVC och vårdcentral finns i gångavstånd, Östra sjukhuset kan också nås inom få minuter med spårvagn. \n\nI hyran ingår värme, sophämtning, rymlig vind och källarförråd, åtkomst till tvättstugan (2 tvättmaskiner, 1 torktumlare) och torkrummet. \nCyklar och barnvagn kan parkeras i källaren. \nDelvis möblerat - ett stort garderob och köksbordet ingår. Bilderna som tillhör annonsen visar bara inredningsförslag för sovrummen och vardagsrummet. \n\nIngår inte: el och internet. \nDjurfritt.\nParkering kan möjligtvis hyras med BRF-styrelsensen godkännande. \n\n\nLägenheten hyrs ut pga låg köpefterfrågan på marknaden.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Blendas gata, Hisings Backa",
     "url": "https://qasa.com/p/1422725",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Näsbovägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1422497",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5889ceb693d01e66d9de54715acb0f9a05fc5d1c43e19b200ded7141b4826069.jpg",
-    "description": "En fin möblerad övernattningslägenhet i källarplan i västra Göteborg med närhet till det mesta. Egen uteplats och parkering. Lugnt och fint område, med badrocksavstånd till havet och privat badvik. Trådlöst internet ingår, städning kan köpas till. Uthyres veckovis, eller månadsvis. Hyra per termin är också möjligt, specialpris. Kan faktureras.\n\nSöker primärt efter gäst som vill hyra över längre tid.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 10700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T04:43:01+00:00", "clock": "04:43:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T07:25:12+00:00", "clock": "07:25:12"};
