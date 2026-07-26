@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brödragatan, Göteborg",
+    "url": "https://qasa.com/p/1419307",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7476000eff52b9616f729074de2bab400d3696f11fe6cc40699da945b6fc4196.jpg",
+    "description": "Välkommen till detta mysiga och välplanerade boende i Örgryte, ett av Göteborgs mest eftertraktade och centrala områden. \n\nBoendet ligger i ett lugnt och stilla område men ändå mycket centralt; du har nära till utmärkta kommunikationer, butiker, kaféer och alla Göteborgs sevärdheter. \n\nLägenheten ligger i bottenplanet av ett funkisradhus ritat av arkitekt Ingrid Wallberg med tidstypiska originaldetaljer.\n\nLägenheten är fullt möblerad och har en enkelsäng (90 cm), en bäddsoffa (140 cm), ett modernt badrum, tvättmaskin samt ett välutrustat pentry. \n\nDet moderna och nyrenoverade badrummet är fräscht och praktiskt och det finns även tvättmaskin.\n\nPentryt är utrustat med allt som behövs för enklare måltider, inklusive kylskåp med frysfack och en portabel induktionshäll.\n\nKliv ut på din egen privata uteplats som badar i härlig morgonsol den perfekta platsen för att njuta av morgonkaffet, frisk luft och en lugn start på dagen, eller för att koppla av på kvällen efter att ha utforskat staden.\n\nDu har full och privat tillgång till bostaden.\n\nDet ingår el, vatten och sopphämtning i hyran.\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 65.0,
+    "rent": 12000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skiljemyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1421197",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dafbe52f83a38fc5ed256738c1ac09f4f123f9c26d71ff7158d78e8c4fab698.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Älghagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1422590",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/531114dedb65f976bc3f031ea98bbf254a86a9f7f103a57defc01c653f983217.jpg",
-    "description": "Ljus tvårummare med balkong högst upp i Gamla Masthugget\n\nÄlghagsgatan 1C | Gamla Masthugget, Göteborg\n\nJag hyr ut min fina lägenhet på 42 kvm belägen högst upp i huset på tredje våningen eftersom jag flyttar till Paris för studier till hösten.\n\nLägenheten ligger precis vid gränsen till Slottsskogen och har fri sikt ända ner mot havet. Med fönster åt både väst och öst får lägenheten fantastiskt ljusinsläpp hela dagen, med morgonsol in i sovrummet och eftermiddags-/kvällssol på balkongen i västerläge.\n\nOm lägenheten:\n- 2 rum och kök, 42 kvm\n- Hyrs ur möblerad, inklusive köksgeråd\n- Balkong i västerläge\n- Högst upp i huset, med utsikt över västra Göteborg\n- Lugnt och tyst område med gångavstånd till Linné, Majorna och centrum\n\nPraktiskt:\n- El, vatten och bredband ingår i hyran.\n- Uthyrningsperiod: från 1 september. Till en början 1 år, med möjlighet till förlängning upp till 2 år efter godkännande av föreningens styrelse\n\nViktigt att känna till:\nFöreningen planerar ett stambyte som beräknas starta våren 2027 och pågå i etapper (cirka 10-12 veckor per trapphus). Du kan bo kvar i lägenheten under arbetet, men vattnet kommer vara avstängt och det kommer finnas tillfälliga lösningar för dusch/toalett. Under de veckor som lägenheten berörs sänks hyran med 50%. Jag söker en hyresgäst som är bekväm med detta och gärna flexibel kring perioden.\n\nOm du är intresserad av lägenheten får du gärna höra av dig och berätta lite om dig själv!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 12790,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T11:05:47+00:00", "clock": "11:05:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T12:13:59+00:00", "clock": "12:13:59"};
