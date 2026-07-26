@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gånglåten, Västra Frölunda",
+    "url": "https://qasa.com/p/1423212",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/91bedae3f261f1b0c3772c67a9c5f093b65682b86953e57fac36f72be4c7757f.jpg",
+    "description": "Trivsamt delvis möblerat rum på ca 10 kvm uthyres i en tre rums lägenhet. Till rummet hör även en klädkammare som ger extra förvarings utrymme . Lägenheten ligger i ett lugnt område , endast 7 minuter promenad från Frölunda Torg med mycket goda kommunikationer ( spårvagnar och bussar) affärer , restauranger och vårdcentraler . \nKök , vardagsrum och badrum delas med mig som är en ordningsam 65 år kvinna och bor ensam . \nHyran : 5500 kr och hyrestiden är tom 2027-05-30 , el och internet ingår i hyran\nDepositionen är en månad hyran\nJag söker en lugn och ansvarsfull och rökfri KVINNA ( föredrar studenter) \nHusdjur är inte tillåtna . ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Askims ängsväg, Askim",
+    "url": "https://qasa.com/p/1423137",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dff46cfde09087d443a81ee3901897db5106ef17d51e358ce225d5ac48fc5a01.jpg",
+    "description": "Källarlägenhet i Askim (Göteborg)\n\nKällarvåning för en till två (1-2) personer i villa i Askim (20 min från staden med buss). Ett större sovrum med fungerande öppen spis, ett mindre sovrum, kök, vardagsrum och tvättrum inklusive;\n\n-\tEgen ingång\n- \tDelvis möblerad\n-\tEl, värme, vatten, internet (fiber)\n-\tKök med ugn/micro, kyl/frys, diskmaskin\n-\tTvättmaskin/torkrum\n-\tLåg takhöjd, 210 cm\n-\tUteplats emot baksida\n-\t7-10 min till buss där X2 eller 258 når centrum på 15 min\n-\tGångavstånd till pizzeria, sushi, thai, kinesiskt och indiskt\n-\tNära till hav (Askimsbadet) och joggingspår (Sandsjöbacka naturreservat)\n\nPassar gissningsvis två studerande vänner och är flexibel kring kontraktstid.\n",
+    "district": "Askim",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brödragatan, Göteborg",
     "url": "https://qasa.com/p/1419307",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7476000eff52b9616f729074de2bab400d3696f11fe6cc40699da945b6fc4196.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Donsö bryggväg, Donsö",
-    "url": "https://qasa.com/p/1422539",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a2b1af95fb8823869f68afa5191798c163d98508db28fcbd19663c1ccf8599f.jpg",
-    "description": "Mysigt småhus på vackra Donsö i Göteborgs södra skärgård med ett sovrum, ett vardagsrum/allrum samt nyrenoverad köksvrå och badrum med dusch. Uthyres möblerat, gärna till studerande. Köket är fullt utrustat med spis, kyl och frys, micro, kaffebryggare och diskmaskin. I sovrummet finns en 140 cm dubbelsäng och i vardagsrummet finns en bäddsoffa.\nDet finns en liten uteplats med möbler i trädgården.  Wifi, el, värme och vatten ingår i månadshyran.\nMed snabbåten från Saltholmen till Donsö tar det ca 18 min och från/till centrala Gbg tar det ca 55 min med kollektivtrafiken. Från huset är det endast en kort promenad, 5-10 min, till mataffär och färja. Till badplats är det ca 15 min promenad. På Donsö finns det fina naturpromenader, mataffär och restaurang. Det går också en bro över till Styrsö som har fler butiker, restauranger samt natursköna stigar.",
-    "district": "Donsö",
-    "rooms": 2.5,
-    "area_m2": 42.0,
-    "rent": 7100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Olivedalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1422579",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1edadf01f88dfe5370d488c3ceca564fbcbb8968a310bb4a8c370c6b6fff6917.jpg",
-    "description": "Bästa området i Göteborg. Ingen genomfartstrafik på Olivedalsgatan. Många restauranger från världens alla hörn. Slottsskogen runt hörnan. Lika nära till Järntorget och utelivet. Mycket centralt. 10 minuter med buss till havet från Linnéplatsen.  Mycket bra kommunikationer. Lägenheten är en stor trea med balkong. Hyresgäst kommer att ha det största sovrummet samt tillgång till hela lägenheten själv under stora delar av tiden då hyresvärd pendlar till Stockholm. Bäddsoffa finns också för övernattning av gäster. Väldigt trevliga grannar. Kvarterskrogen Oliven på hörnan är samlingsplatsen för många i kvarteret. Rummet är möblerat om hyresgästen vill: bra säng, garderob, två byråer, hyllor och skrivbord. Internet, el, TV ingår i hyran. En person eller ev par enligt överenskommelse om hyresnivå. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T17:28:10+00:00", "clock": "17:28:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T18:35:08+00:00", "clock": "18:35:08"};
