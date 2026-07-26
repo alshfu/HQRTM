@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Blendas gata, Hisings Backa",
+    "url": "https://qasa.com/p/1422725",
+    "image_url": null,
+    "description": "En fin tvåa i Hisingsbacka väldigt nära Selma Lagerlöfs och backaplan  buss till stan tas på 12 minuter.  \nStor tvåa  på 62kv med inglasad balkongen ",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 4685,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Donsö bryggväg, Donsö",
     "url": "https://qasa.com/p/1422539",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a2b1af95fb8823869f68afa5191798c163d98508db28fcbd19663c1ccf8599f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1422368",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42c399786449a7c3572dd0a93ea5ff2913e149ef1a9324d77bb95db9ff79152e.jpg",
-    "description": "Eget rum i stor 2:a (82kvm) med högt i tak i fint sekelskiftshus mitt i Linné. Lägenheten ligger vid Prinsgatans hållplats med närhet till allt man kan tänkas vilja nå. Enkelt att ta sig överallt och det mesta finns inom gångavstånd. \n\nLägenheten är fräsch och fin, högt i tak, stora fönster, fin utsikt och marmorskivor i kök och badrum. Det finns diskmaskin, tvättmaskin och torktumlare i lägenheten.\n\nLägenheten har stort ett jättestort kök med köksö som kan användas både som kök och vardagsrum. \n\nKöket ligger mellan vardagsrummet (mitt rum) och sovrummet (rummet som ska hyras ut) så planlösningen funkar bra för delat boende. Jag jobbar vanligtvis 9-19 vardagar.\n\nRummet hyrs ut möblerat med säng, skrivbord, nattduksbord och fotölj/soffa - kan anpassas för hyresgästen. \n\nInflyttsdatum är något flexibelt, möjligt fr.o.m 22 augusti, men även 1 september skulle funka. \n\nEl, vatten, bredband ingår i hyran. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 8300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-25T23:34:19+00:00", "clock": "23:34:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T01:11:19+00:00", "clock": "01:11:19"};
