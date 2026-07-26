@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skiljemyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1421197",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dafbe52f83a38fc5ed256738c1ac09f4f123f9c26d71ff7158d78e8c4fab698.jpg",
+    "description": "En rymlig och ljus 2:a med balkong i ett lugnt område. Gott om förvaring i hall och kök, inbyggd garderob i sovrummet och en klädkammare. Gemensam tvättstuga i källaren, stort cykelrum i porten bredvid. Uthyres möblerad eftersom jag flyttar ihop med min flickvän. \n\nI hyran ingår möbler (säng, soffa, bokhyllor, skrivbord, köksbord och stolar), el, bredband (wifi) och varmvatten. Övrigt kan ingå efter överenskommelse (t.ex. TV, Moccamaster, porslin och husgeråd).\n\nLägenheten ligger i Högsbo, väldigt nära Axel Dahlströms torg med ett ICA, Nordic Wellness, restauranger och spårvagnshållplats (15-20 minuter till Brunnsparken, 5 minuter till Frölunda torg). Det är också promenadavstånd till Majorna och Slottsskogen.\n\nInflyttningsdatum är flexibelt. Vi ansöker om andrahandsuthyrning i ett år hos Familjebostäder.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Österlyckan, Göteborg",
     "url": "https://qasa.com/p/1422799",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c50a9e7ee2d99e67b9987808b786403e111a995c38d87c5756596f4f9c8cc82.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Domarringsväg, Askim",
-    "url": "https://qasa.com/p/1422569",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7980db11251f0db7b37c9a94024a08cd5a9a02b5e4cd8f9e3c41705526b0c702.jpg",
-    "description": "Välkommen till vårt trivsamma radhus i lugna och gröna Askim i Göteborg! Här hyr vi ut en möblerad gillestuga med egen avskild del av huset, vilket passar perfekt för en student eller annan person som söker ett lugnt och tryggt boende.\n\nDu delar kök, badrum och tvättmöjligheter med vår familj. Vi är en familj på tre personer – två vuxna och vår glada 11-årige son – och värdesätter en vänlig och respektfull atmosfär.\n\nOmrådet erbjuder fina promenadstråk, närhet till havet, mataffärer och goda kommunikationer till centrala Göteborg och universiteten. Wi-Fi, värme och el ingår i hyran.\n\nVi söker i första hand en inneboende för en termin, med möjlighet till förlängning om allt fungerar bra för båda parter.\n\nVi ser fram emot att välkomna dig!",
-    "district": "Askim",
-    "rooms": 1.5,
-    "area_m2": 20.0,
-    "rent": 5430,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T09:32:56+00:00", "clock": "09:32:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T11:05:47+00:00", "clock": "11:05:47"};
