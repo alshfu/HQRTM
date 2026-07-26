@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Saltholmsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1423264",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/919a185a4ae5298400aee4447d9d2237574373dcf6d68370ab1fa512ff543c0d.jpg",
+    "description": "CHARMIG TVÅA MED UTEPLATS I LÅNGEDRAG – 85 KVM\n\nNu hyr vi ut en rymlig och charmig lägenhet på Saltholmsgatan 3 i Västra Frölunda.\n\nLägenheten är 85 kvm och ligger på bottenvåningen i en mindre fastighet med endast tre lägenheter. Den hyrs ut omöblerad.\n\nLägenheten består av:\n\n• Stort kök med matplats\n• Rymligt sovrum med klädkammare\n• Stort badrum med tvättmaskin och torktumlare\n• Uteplats i soligt söderläge\n• Bredband\n• Parkeringsplats\n\nFastigheten ligger i attraktiva Långedrag, med spårvagnshållplats alldeles i närheten och goda kommunikationer in till centrala Göteborg.\n\nVärme ingår i hyran. Hyresgästen betalar hushållsel samt elförbrukningen för två golvvärmeslingor och en varmluftsfläkt.\n\nHyra: 12 000 kr per månad\nTillgänglig från: 1 september 2026\n\nVälkommen att höra av dig med en kort presentation av dig själv, din sysselsättning och hur många personer som önskar bo i lägenheten.\n",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 85.0,
+    "rent": 12000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skolgatan, Göteborg",
+    "url": "https://qasa.com/p/1423272",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d3f467983631765570bc1679b9b25f93d7b1c0d974b4a814adf7364a950edd3.jpg",
+    "description": "Trevligt övernattningsrum i centrala Haga uthyres med fördel till veckopendlare, student eller liknande under perioden 1 augusti - 30 november 2026 (med möjlighet till förlängning).   \n\nOm boendet:  • (1) st rum (kommet vara fullt möblerat vid inflytt/ möblering pågår)  • tillgång till kök (för enklare matlagning)  • bredband & el ingår  • Täcke, kudde, sängkläder, handduk och köksgeråd ingår   Hyra: 6 300 kr + 1 st månadshyra i deposition vid kontraktsskrivning. \n\nAnsökan: skriv och berätta lite om dig själv (sysselsättning, boendebehov, intressen, ålder m.m.).   \n\nObs! Rummet uthyres till en (1 st) person ej par, försörjningsstöd godkänns ej som inkomst.  Endast kompletta ansökningar med ifylld Blocket-profil och personligt svar behandlas. Vi har endast möjlighet att återkoppla om du går vidare i processen. Om annonsen finns kvar är rummet fortfarande ledigt.   \n\nVälkommen med din ansökan!   \n\n/ Niklas \n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 6300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gånglåten, Västra Frölunda",
     "url": "https://qasa.com/p/1423212",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/91bedae3f261f1b0c3772c67a9c5f093b65682b86953e57fac36f72be4c7757f.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ernst Torulfsgatan, Göteborg",
-    "url": "https://qasa.com/p/1422764",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2c3a59d1b466017bc2b7550a4789a447b5eaf26d15920d0de49cce57e65c64d7.jpg",
-    "description": "Ljusa 3rum och kök i funkisstil, södervänt balkong, och 4st generösa inbyggda förvaringsmöjligheter inom lägenheten. Enkel tillgång till lugn och trevlig uteplats. Köket lämnar inga önskemål ang. plats för köksredskåp och skafferi. Bänkdiskmaskin och mikrovågnsugnen finns, kan dock tas bort om så önskas. \n\nUtmärkt läge mellan natur och centrum med mycket bra  kommunikationsmöjligheter: tågstation, spårvagns- och busshållplats i gångavstånd. Nära till mataffärer, gym, frisör, massage, djuraffär och ett varierande utbud av restauranger. Massage, BVC och vårdcentral finns i gångavstånd, Östra sjukhuset kan också nås inom få minuter med spårvagn. \n\nI hyran ingår värme, sophämtning, rymlig vind och källarförråd, åtkomst till tvättstugan (2 tvättmaskiner, 1 torktumlare) och torkrummet. \nCyklar och barnvagn kan parkeras i källaren. \nDelvis möblerat - ett stort garderob och köksbordet ingår. Bilderna som tillhör annonsen visar bara inredningsförslag för sovrummen och vardagsrummet. \n\nIngår inte: el och internet. \nDjurfritt.\nParkering kan möjligtvis hyras med BRF-styrelsensen godkännande. \n\n\nLägenheten hyrs ut pga låg köpefterfrågan på marknaden.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 67.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blendas gata, Hisings Backa",
-    "url": "https://qasa.com/p/1422725",
-    "image_url": null,
-    "description": "En fin tvåa i Hisingsbacka väldigt nära Selma Lagerlöfs och backaplan  buss till stan tas på 12 minuter.  \nStor tvåa  på 62kv med inglasad balkongen ",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 4685,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T18:35:08+00:00", "clock": "18:35:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-26T19:49:21+00:00", "clock": "19:49:21"};
