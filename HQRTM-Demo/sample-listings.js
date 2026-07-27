@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Toleredsgatan, Göteborg",
+    "url": "https://qasa.com/p/1413336",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a61b9b913634cff07fe9f48e38ff18bdd66b1ee7139091d2e7c962d41581259f.jpg",
+    "description": "Hyr ut min bostadsrätt då jag ska jobba på annan ort. Härligt område med en familjär känsla. Skola och dagis finns inom 100 meter.\n\nSkriv väldigt kort om vad ni har för arbete, årsinkomst, hur många som ska bo där, om ni har betalningsanmärkningar och vilka ni är. Kort och koncist tack!\nÄr ni intressanta så hör jag av mig, försök då att svara omgående annars går jag vidare med andra intressenter.\n\n\n- 55 kvm\n- längst upp (tredje våningen), ingen hiss\n- Fantastisk stor och inglasad balkong med söderläge\n- Busshållplats inom cirka 100 meter\n- Fullt möblerat.\n- en månadshyra i deposition kommer att tas innan inflytt.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carnegiegatan, Göteborg",
     "url": "https://qasa.com/p/1423791",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/034c5ffcede6ccd22629cf8e9e0a5982db34312ed1b5360d95e436cd6009066f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backadalen 14, Göteborg",
-    "url": "https://qasa.com/p/1423748",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d1dc8330808b18c5e50fc6e63f229407bbd189c62b147aeb66bc350f1e321f63.jpg",
-    "description": "Nyproducerad 1RoK för dig som är 70+ Välkommen till en modern och ljus 1 RoK om 34 kvm – ett bekvämt och välplanerat boende i ett tryggt seniorhus för dig som är 70 år eller äldre. Lägenheten erbjuder en öppen planlösning mellan kök och vardagsrum, vilket skapar härliga sociala ytor och gott om ljusinsläpp. Från vardagsrummet nås en trivsam balkong där du kan njuta av morgonkaffet eller kvällssolen. Köket är fullt utrustat med diskmaskin, och i badrummet finns kombinerad tvättmaskin och torktumlare. Det finns gott om förvaring både i hallen och i tillhörande förråd på vind- eller källarplan. Fastigheten stod klar 2021 och präglas av moderna materialval och fräscha ytskikt. Huset är tillgänglighetsanpassat, och på varje våningsplan finns plats för förvaring av rullatorer och rullstolar. Som boende i detta trygghetsboende får du tillgång till gemensamhetslokaler med trygghetsvärdar på plats. Här finns möjlighet att delta i olika aktiviteter – allt från fikastunder och filmkvällar till promenader, gymnastik eller gemensamma utflykter. Du väljer själv hur aktiv du vill vara. I fastigheten finns även gemensam tvättstuga, cykelförråd och möjlighet att hyra garageplats i källarplan. Övrigt Bredband och el debiteras tillsammans med hyran. Hyran avser 2026 års nivå. Bilderna i annonsen är exempelbilder och kan avvika från den aktuella lägenheten. Inkomstkrav: Ensamstående: Hyra + 5 717 kr (normalbelopp 2023) Makar/sambor: Hyra + 9 445 kr (normalbelopp 2023) Urval och visningar sker vid bestämda tider under dagtid. Mer information ges till dig som blir erbjuden visning. Observera att vi inte accepterar betalningsanmärkningar.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 7162,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T14:50:07+00:00", "clock": "14:50:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T16:51:08+00:00", "clock": "16:51:08"};
