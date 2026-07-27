@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Soldathemsgatan, Göteborg",
+    "url": "https://qasa.com/p/1424082",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dd82fd6e883af4fa7dc457f51990877018d5df653f0b4a544b8d15248cda69c4.jpg",
+    "description": "Uthyrs möblerad. Mycket luftig planlösning med kök och vardagsrum i ett. Den stora balkongen ger ett extra rum med fin utsikt över innergården. Sovrummet är stort och har dubbelsäng samt garderob med skjutdörrar. Lägenheten håller en skön temperatur året runt och är mycket tyst. Gångavstånd till närmsta spårvagnshållplats är ca 4 min och sedan tar det ca 10 min med spårvagn eller buss in till Drottningtorget i Göteborg. \nHyr ut bostaden pga studier på annan ort under 3 års tid. \nTillgänglig från 1/8.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 46.0,
+    "rent": 11750,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Toleredsgatan, Göteborg",
     "url": "https://qasa.com/p/1413336",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a61b9b913634cff07fe9f48e38ff18bdd66b1ee7139091d2e7c962d41581259f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Paradisgatan, Göteborg",
-    "url": "https://qasa.com/p/1423584",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a24705c4938600848f351546488d40d80d653cf46724cf43055cbccb1258f035.jpg",
-    "description": "Härlig ljus etta på toppen av Gamla Masthugget med en fantastisk utsikt och Slottsskogen som närmaste granne.\n\nLägenheten har pentry samt mindre badrum med ”Stockholmsdusch” \n\nInnergården bjuder på flera härliga uteplatser och härligt umgänge med grannar (om man vill)\n\nTvättstugan erbjuder 8 bokningsbara tvättmaskiner med tillhörande torkrum. Utöver dem finns 3 obokningsbara tvättmaskiner samt torktumlare.\n\nGästlägenhet samt lokal finns att låna i föreningen.\n\nDet finns busshållplatser runt hörnen från bostaden där buss 61 tar dig till stora knutpunkter i centrala Göteborg. \n\nEn backe ner erbjuder affär, pizzeria, surdegsbageri mm. Några backar längre ner har du Linnégatan som är full av restauranger mm.\n\nI hyran ingår el och bredband.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 24.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T16:51:08+00:00", "clock": "16:51:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T18:17:36+00:00", "clock": "18:17:36"};
