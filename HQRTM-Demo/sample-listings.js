@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Östra Eriksbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1424213",
+    "image_url": null,
+    "description": "Fin 3a på 68kvm på Östra Eriksbergsgatan 81 hyrs ut fullt möblerad i 6-18 månader enligt överenskommelse då jag ska provbo med min partner. \n\nLägenheten är på femte våningen, men ”markplan” med terrass då lägenheterna är belägna på ett parkeringshus. \n\nLägenheten är fullt möblerad med bland annat soffa, säng, 77” TV, matbord osv. Exakt vilka möbler som lämnas kvar kan diskuteras. \n\nDet finns även ett förråd som ingår i hyran. ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 68.0,
+    "rent": 17800,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Soldathemsgatan, Göteborg",
     "url": "https://qasa.com/p/1424082",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dd82fd6e883af4fa7dc457f51990877018d5df653f0b4a544b8d15248cda69c4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/1058767",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b77582ba8d996fcabe8ebdf12a8dc5cffede9c3d836715304924f237d4be609.jpg",
-    "description": "Centralt trevligt vindsrum till rök- och spritfri kvinna 40m2. Jag kan dessvärre inte hyra ut till studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi, kylskåp, micro. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T19:59:44+00:00", "clock": "19:59:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T21:19:56+00:00", "clock": "21:19:56"};
