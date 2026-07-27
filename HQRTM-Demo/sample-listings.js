@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carnegiegatan, Göteborg",
+    "url": "https://qasa.com/p/1423791",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/034c5ffcede6ccd22629cf8e9e0a5982db34312ed1b5360d95e436cd6009066f.jpg",
+    "description": "En hyreslägenhet med 2 rum och kök på 48 kvadratmeter, i Majorna/Kungsladugård, Göteborg. Nära Mariaplan och gångavstånd till kollektivtrafik samt mataffär. Lägenheten är omringad av landshövdingehus och nära Klippan, ett område med Röda Sten, Älvsborgsbron och vattendrag som separerar Majorna och Eriksberg. Vardagsrum och kök nytapetserade sen 1 år tillbaka. Vardagsrum och sovrum har ett varsitt förråd med hylla, krokar och belysning. Badrum har kaklade väggar. \nI hyran ingår vatten och värme. \nLägenheten är möblerad med en 3-sits soffa, höj- och sänkbart skrivbord, köksbord med två stolar, pax-garderober med utdragslådor och klädstång, och tv-bänk.\nJag hyr ut min hyresrätt för att jag ska studera i en annan ort.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backadalen 14, Göteborg",
-    "url": "https://qasa.com/p/1423738",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4d4d128bb28242d7997f28992e5f292a9db72765d9d316fa7d6d238c4ac7c331.jpg",
-    "description": "Nyproducerad 2RoK för dig som är 70+! Välplanerad och ljus lägenhet med öppna ytor och balkong. Rymligt sovrum med förvaring, öppen planlösning mellan vardagsrum och kök och hallen är väl tilltagen samt här återfinns gott med förvaringsutrymme. Lägenheten är fullt utrustad med diskmaskin och kombinerad tvättmaskin och torktumlare. Fastigheten stod klar 2021 och ytskikt så väl som materialval återspeglar detta. I detta trygghetsboende välkomnar vi dig som är 70+. Fastigheten inrymmer gemensamhetslokaler med anställda trygghetsvärdar där aktiviteter och planering kan, om intresset finns, bli en del av vardagen. Ta en fika, spela spel, ut och gå stavgång, utöva gymnastik, åk med på utflykter eller se en film är en del av det utbud som brukar stå på schemat! Fastigheten är tillgänglighetsanpassad och på varje våningsplan återfinns rum för förvaring av rullatorer och rullstolar. Övriga bekvämligheter i fastigheten är gemensam tvättstuga samt cykelförråd och till varje lägenhet hör ett förråd i vind- eller källarplan. Bilderna i annonsen är exempelbilder och är inte bilder från lägenheten. Parkeringsmöjligheter I källarplan finns garage med möjlighet att hyra parkeringsplats separat. Övrigt Bredband och el debiteras i samband med hyran. Hyran avser 2026 års nivå. Inkomstkrav sätts i förhållande till Normalbeloppet för 2023: Hyra + 5 717kr för ensamstående vuxen Hyra + 9 445kr för samlevande makar och sambor Urval och visningar vid bestämd tid och under dagtid, mer information kommer för dig som blir erbjuden en visning. Vi accepterar inga betalningsanmärkningar.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 10050,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T11:57:22+00:00", "clock": "11:57:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T14:50:07+00:00", "clock": "14:50:07"};
