@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Börsåsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1423365",
+    "image_url": null,
+    "description": "Jätte fin och fräsch i lugn område med få bostäder och nära till centrum och affärer. Mycket trevligt och fin utsikt. Nära och bra trafik förbindelse både kommunalt och med bil. Stort bo yta med en inglasad altan. Egen trädgård för de som gillar. Drift ingår i hyran samt internet. \n\nVi tänker flytta för att bo närmare min dotters skolan.",
+    "district": "Hisings Backa",
+    "rooms": 4.0,
+    "area_m2": 130.0,
+    "rent": 19500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Saltholmsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1423264",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/919a185a4ae5298400aee4447d9d2237574373dcf6d68370ab1fa512ff543c0d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Österlyckan, Göteborg",
-    "url": "https://qasa.com/p/1422799",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4c50a9e7ee2d99e67b9987808b786403e111a995c38d87c5756596f4f9c8cc82.jpg",
-    "description": " Möblerad lägenhet på ca 20 kvm  med tillsvidarekontrakt. I hyran  ingår bredband och El .    Med kök ( full utrustning), WC/dusch, tvättmaskin,  torktumlare ,  uteplats. Lägenheten ligger i källaren med egen ingång . Lugnt villaområde nära skogen. 4 minuter gångavstånd till busshållplats, TILLTRÄDE  1 september. En månads uppsägningstid. 1 månaders deposition . UTHYRES TILL 1 PERSON som är skötsam, ej rökare , ej husdjur. HYRAN 6800 KR/mån. LAMNA EN  PRESENTATION MED INFO OCH VEM DU ÄR, JOBB, STUDIER  SÅ HÖR JAG AV MEJ\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T01:20:00+00:00", "clock": "01:20:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-27T04:57:47+00:00", "clock": "04:57:47"};
