@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Jakobsdalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1424906",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc3be4f0825f015b846e6e4012c0bac7b377b3674b7bcd431d31dce6ecdecfd6.jpg",
+    "description": "Välkommen till en charmig och extremt rymlig 2:a på 79 kvm i eftertraktade Skår/Örgryte med milsvid utsikt! Fönster i öster och väster ger ett fantastiskt ljusinsläpp hela dagen.\n\nOmrådet kombinerar det bästa av två världar: ett lugnt, tryggt premiumområde med Delsjöns natur runt knuten, samt minuter till Liseberg, Korsvägen och evenemangsstråket.\n\n📐 PLANLÖSNING & STANDARD\n- Vardagsrum (34 kvm): Luftigt rum med generös takhöjd, vacker fiskbensparkett och utsikt över Örgryte.\n\n- Sovrum (18 kvm): Gott om plats för dubbelsäng med inbyggda garderober, samt utgång till mysig balkong mot lugn innergård.\n\n- Kök (18 kvm): Stort och charmigt kök med utmärkta förvaringsmöjligheter och plats för stort matbord.\n\n- Standard: Byggt 1938 med fin karaktär. Kök och badrum håller en äldre men fullt fungerande standard.\n\n🚌 KOMMUNIKATIONER & SERVICE\n- Kollektivtrafik: Sankt Sigfrids Plan och Liseberg Station precis runt hörnet.\n\n- Service & Natur: Gångavstånd till ICA Focus, apotek och närservice. Delsjöns naturreservat nära för motion och bad.\n\n🏢 FASTIGHETEN\n- Hiss finns.\n\n- Gemensam tvättstuga (två tvättmaskiner, torktumlare, torkskåp, mangel).\n\n- Fiber finns installerat.\n\nℹ️ HYRESVILLKOR & ANSÖKAN\n- Hyra: 10 517 kr/månad (2026 års nivå).\n\n- Ingår i hyran: Värme och vatten.\n\n- Tecknas av andrahandshyresgäst: Hemförsäkring, elavtal och bredband.\n\n- Möblering: Omöblerad (delvis möblering kan diskuteras mot tillägg).\n\n- Period: Start slutet av aug / början av sept 2026, 1 år framåt (12 mån) med möjlighet till förlängning.\n\n- Anledning: Jag har blivit erbjuden en ny tjänst i Stockholm med start 1 september och hyr därför ut lägenheten i andra hand under ett år för att prova på tjänsten.\n\n- Process för godkännande: Uthyrningen sker officiellt enligt hyresvärdens regler. När vi är överens skickar vi direkt in en komplett ansökan med osignerat avtalsförslag till hyresvärden (handläggningstid ca 4 veckor).\n\n👤 VEM SÖKER VI?\n- En eller två skötsamma hyresgäster med fast inkomst och utan betalningsanmärkningar. Rökfria. Husdjur kan diskuteras.\n\n- Vid intresse, skicka en kort presentation av dig/er, vad ni arbetar/studerar med samt nuvarande boendesituation. Referenser uppskattas!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 79.0,
+    "rent": 10517,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Snorregatan, Göteborg",
     "url": "https://qasa.com/p/1424829",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b2102f3b9fd318013906eeb2dde3bc447db52e650ab7f6a4cb6a5bfec4a75c95.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sofiagatan, Göteborg",
-    "url": "https://qasa.com/p/1424633",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/478bca5bb9a5dc9ecf464b12672f0a47812a15c17f2bb3dcc2c5550d940dc158.png",
-    "description": "Jag hyr ut min fina etta på 40 kvm i Strömmensberg då jag och min partner ska ut och resa fram till nästa sommar. Det är en väldigt mysig lägenhet i en charmig förening med landshövdingehus, härlig utsikt och kolonilotter precis mitt emot.\n\nFöreningen är lugn och trivsam och har flera bra gemensamma utrymmen som bastu, gym, hobbyrum, gästlägenhet och föreningslokal.\n\nNär jag köpte lägenheten för fem år sedan renoverade vi köket i en stil som passar väldigt bra med husets tidstypiska känsla med pärlspont, spegeldörrar och kalkstensbänkskiva. Vi tog också fram de fina brädgolven i kök och hall och byggde en platsbyggd garderob i hallen för att få bättre förvaring. Köket har dessutom ett praktiskt skafferi. Badrummet har golvvärme.\n\nDet kombinerade vardagsrummet och sovrummet är väldigt lätt att trivas i. Här finns en stor säng (så det går bra att bo två), soffa, mycket garderobsförvaring, 70-tums TV, Sonos-ljudsystem, piano och ett litet skrivbord. Det är också härifrån man har den bästa utsikten som sträcker sig från Munkebäck till Partille.\n\nLägenheten hyrs ut möblerad. Eftersom det är en bostadsrätt och uthyrningen är möblerad motsvarar hyran mina kostnader.\n\nHärlanda hållplats ligger närmast och därifrån tar man sig smidigt vidare till resten av stan. Parkeringen på gatan nedanför är gratis. Om man gillar natur finns Härlanda Tjärn, Skatås och Delsjön på nära håll, perfekt för promenader, löpturer eller ett dopp.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-28T15:40:36+00:00", "clock": "15:40:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-28T17:09:22+00:00", "clock": "17:09:22"};
