@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Träkilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1424657",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1bdcfe3d6a4a1bcc28700ae4e37c85ece76190a54bddb0103e9144c66ca03e4a.webp",
+    "description": "Hur ut min bostad då jag ska sambopröva!  Lägenheten är nybyggd sen några år tillbaka och är belägen endast 15 minuter med buss in till Göteborg central. \n\nFin utsikt med sol på balkongen från eftermiddag tills den går ner.  I hyran ingår, el, vatten, värme och wifi. Lägenheten är inredd och möblerad, möjlighet till ändringar finns! Finns möjlighet till hyrning av parkeringsplats i garaget under huset, (i mån av lediga platser).",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 11400,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sofiagatan, Göteborg",
     "url": "https://qasa.com/p/1424633",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/478bca5bb9a5dc9ecf464b12672f0a47812a15c17f2bb3dcc2c5550d940dc158.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stafettgatan, Göteborg",
-    "url": "https://qasa.com/p/1424394",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/86d6bccfce0d9ca2f688c13fa9e429a0a3f228f9f6faa6ede5d3a62b3efc186c.png",
-    "description": "Jag ska nu hyra ut min supermysiga etta i Lunden, perfekt för studerande/jobbande. Det ligger centralt med gångavstånd till Ica på 4 min, busshållplats 2 min som tar er till centrala Gbg på 10-15 min. Parkering omkring i området är gratis på \"rätt\" ställen. \nDet är en smart planerad etta med sovalkov högt uppe i huset, kök med kyl/frys, spis, ugn, diskmaskin, badrum samt en kläd-garderob.\nBostaden kommer hyras ut möblerad med säng/soffa/matbord/stolar/soffbord samt TV. \n\nUthyrningen sker i ett 1år fr.o.m. 1e sept 2026 med chans till förlängning.\nBostaden kommer att delvis ligga ute till försäljning under hyresperioden, så därför värnar vi om en hyresgäst där vi har god kommunikation och får möjlighet att visa lägenheten för intressenter.  Vi vill göra det så smidigt för alla som möjligt så detta blir ett samspel och vi kommer såklart i god tid meddela så att allting känns bra. Samma sak vid en eventuell försäljning, god kommunikation och vi kommer värna för att hyresgäst har möjlighet att titta vidare om det skulle bli fallet.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 26.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-28T11:47:11+00:00", "clock": "11:47:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-28T13:21:26+00:00", "clock": "13:21:26"};
