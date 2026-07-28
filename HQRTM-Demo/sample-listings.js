@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Såggatan, Göteborg",
+    "url": "https://qasa.com/p/1425162",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8e6f9699e021b8eec8f22806fd940cbadbba2803076ea97d7b7096af0eead6a2.jpg",
+    "description": "Ett ljust charmigt rum i landshövdingahus. Med Ljusa trägolv och högt i tak. Med entré i stengolv och spotlights i tak som leder till två separata rum med dörrar. Gemensamma köket har stort fönster in mot gården. Renoverade badrummet är placerad i hallen. Wi-Fi och el ingår i hyran. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Thorburnsgatan, Göteborg",
     "url": "https://qasa.com/p/1410563",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b094539c01e874eec7a82cc4c49dff9d81633599c02a38b7b3723299d06c5ca.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergöksgatan 1L, Västra Frölunda",
-    "url": "https://qasa.com/p/1424845",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/fabf64948e91f53b36343a116b8cd7dc99c817a39e02224bf1eb7ad2c2596e82.pdf",
-    "description": "Här ges möjlighet att hyra en 2 Rum och Kök på 55 kvm, en nyproducerad bostad från 2024 med nära till det mesta!   \n\n-Diskmaskin    \n\n-Spishäll med inbyggd ugn    \n\n-Inbyggd mikrovågsugn    \n\n-kombimaskin\n\n-Balkong    \n\n-Externt förråd  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.   \n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning. Just nu upplever vi tekniska problem med bildöverföringen. Därför hyrs bostaden enbart ut på planritning.  \n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nMer information ges vid intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 11582,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-28T20:08:32+00:00", "clock": "20:08:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-28T21:29:39+00:00", "clock": "21:29:39"};
