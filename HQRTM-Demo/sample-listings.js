@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hemstigen, Göteborg",
+    "url": "https://qasa.com/p/1425968",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c6f5a25647d392cb759543115b5b502e743196ce6f8d27abd97332ed5c00dd5.jpg",
+    "description": "Möblerad 3 ROK ( samtliga 3 rummen kan nyttjas som sov rum) med kort promenad till Liseberg samt Gothia Towers samt Delsjö badet. Mindre än 5 min avstånd till  spårvagnsstation.  Fastigheten är ansluten till beredband. Det finns tillgång till sommarveranda med grillutrustning samt egen balkong. Parkering är avgiftsfri på gatan. Lämpligt för er som vill bo i stan men har närhet till naturen. Vänligen o svara annonsen med vilka ni är samt hyresperioden ni önska ha lägenheten",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 130.0,
+    "rent": 19500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ankarhjelmsvägen , Göteborg",
+    "url": "https://qasa.com/p/1425925",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0e246f1026e8899b304e7c356897a7cecb7606490a53a8bad4e453bbff8a65d2.jpg",
+    "description": "Toppfräsch lägenhet på ca 35 kvm. \nUthyres endast till 1 person. \n1 månads hyra i deposition.\nKontraktet är tillsvidare, förlängs automatiskt 3 månader åt gången. \nLägenheten uthyres möblerad.\nKlinkers i hallen med skoställ, hatthylla, sittbänk, spegel och städskåp. \nHelkaklat badrum med tvättmaskin. \nKök i vitt med guldknoppar med induktionshäll, ugn, Micro, kyl/frys samt bord och industripallar. Infällbart köksbord och stolar. \nVardagsrum/ sovrum med soffa och soffbord. \nKlädkammare med 4 st trådbackar, klädställning,  samt gott om förvaring.\nI månadshyran ingår el, värme, vatten, sopor, tv med ca 70 kanaler samt fiber-internet. \nLägenheten ligger på bottenvåningen av en villa i Tuve på Hisingen. \n2 minuters promenad till Tuve torg där det finns busshållplats, Ica, Willys , apotek, vårdcentral, tandläkare, konditori och blomsteraffär. Bussen går från Tuve torg till nordstan på 15 minuter. \n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 9000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1425910",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce3185a2bc9a063d7aa26a7395978172dbf96d1d1bf0967860bcca93aa25af3c.jpg",
+    "description": "Hej, \n\nVi hyr ut våran möblerade 2:a i Karlatornet. Lägenheten är modern och välplanerad, med stilrena materialval och fantastisk utsikt! \n\nLägenheten erbjuder:\n* Öppen planlösning mellan kök och vardagsrum\n* Fullt utrustat kök med diskmaskin\n* Tvättmaskin och torktumlare\n* Fantastisk utsikt från hög våning (se bild 2!)\n* Balkong i sovrummet \n* Gym \n\nVi söker en lugn och skötsam hyresgäst med ordnad ekonomi som tar väl hand om lägenheten. Rökfri och djurfri är ett krav. 😊",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 49.0,
+    "rent": 17500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Saffransgatan , Göteborg",
     "url": "https://qasa.com/p/1425770",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89f6d92a30df1a542b5fd7e8b23c194c60367a466c4cff7eef08e8f21418d912.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Exportgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1408868",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff538a24ff61e98fbd1002711eca0a71e537b709c4994fb8c26a3ab30fefa263.jpg",
-    "description": "Unik villa på vattnet med egen brygga och cirka 400 m² privata uteytor.\n\nNu finns möjlighet att hyra ett av Göteborgs mest unika boenden. Tillgänglig från 5 september 2026, med önskad hyrestid om minst 12 månader.\n\nBakom den låsta grinden väntar en privat bryggmiljö där vattnet, lugnet och utsikten sätter tonen för vardagen. Här bor du bokstavligen på vattnet med svanar, segelbåtar och Göteborgs skyline som närmaste grannar.\n\nBostaden erbjuder en ljus och öppen planlösning med stora fönster mot vattnet, fullt utrustat kök med vinkyl, stor platsbyggd kökssoffa med generös förvaring samt vardagsrum med fantastisk utsikt över älven.\n\nHuset rymmer tre sovrum/sovytor:\n\nTvå separata sovrum, ett större öppet sovrum på övre plan med utsikt över vattnet.\n\nDet stora badrummet på undervåningen har golvvärme, tvättmaskin, torktumlare och gott om förvaring. Modern luftvärmepump ger både värme och kyla året runt.\n\nUteplatser utöver det vanliga\nCa 300 kvm privat däcksyta\nCa 80 kvm flytbrygga/soldäck\nBalkong med utsikt över älven\nFlera uteplatser för grill, middagar och umgänge\nSol från morgon till kväll\n\nHär kan du bada, fiska, lägga till med egen båt eller bara njuta av livet på vattnet.\n\nPå bryggan finns dessutom ett fristående kontor/studio med egen luftvärmepump – perfekt för dig som arbetar hemifrån eller driver eget företag. (Byggnaden är inte godkänd som bostad.)\n\nPassar utmärkt för företag, konsulter, expats eller privatpersoner som söker ett boende utöver det vanliga.\n\nI hyran ingår parkering, vatten, avlopp, sophämtning, Trådlöst bredband ingår.\nOBS! El tillkommer och debiteras enligt faktisk förbrukning. Som lägst 700kr / månad, som högst ca 6-7000 värsta vintermånaden. Snitt på året är ca 2500 per månad. Vid önskamål om varmhyra så kan vi justera hyran till 19500 kr / månad fast avgift inklusive allt isället.\n\nCentralt läge med närhet till allt\nTrots den avskilda känslan bor du med mycket goda kommunikationer och nära Göteborgs stora handelsområden.\n\nBuss ca 5 minuters promenad\nGöteborg Central ca 20 minuter med buss\nBackaplan ca 5 minuter\nBäckebol/IKEA ca 5 minuter med bil\nNordstan ca 10 minuter med bil\nAvenyn ca 10 minuter med bil\nLiseberg ca 10 minuter med bil\nUber/Bolt till centrala Göteborg ca 120 kr\n\nDet här är ett boende för dig som vill kombinera storstadens närhet med känslan av att bo på vattnet, med natur, båtliv och frihet precis utanför dörren.\n(Obs, motorbåten på bilden ingår ej och går ej att låna)",
-    "district": "Hisings Backa",
-    "rooms": 4.5,
-    "area_m2": 140.0,
-    "rent": 14500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Fogelbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1356257",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53ecf4d4a4175940e0321f752942cd4361f8ba7de1c6b66a93e359ea68dbb82f.png",
-    "description": "Charmig och ljus, fullt möblerad 3:a om 82 kvm i hjärtat av Vasastaden. Lägenheten har högt i tak, vackra originaldetaljer som stuckatur och kakelugn samt genomgående brädgolv. Generöst vardagsrum i fil med matsal/sovrum och utgång till rymlig balkong mot lugn innergård. Fullt utrustat och stilrent renoverat kök med goda förvaringsmöjligheter.\n\nBra planlösning med 1 sovrum, och ett rum som används som matsal gott om garderober och ett helkaklat badrum (vid önskemål om tre personer kan matsal rummet hyras ut omöblerat och göras om till barnrum av hyresgästen). Centralt läge med närhet till restauranger, caféer, grönområden och goda kommunikationer.\n\nVid frågor tveka inte att höra av er! :) ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 28316,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ättehögsgatan, Göteborg",
-    "url": "https://qasa.com/p/1425582",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/741f679d47e57ac4a68a1762ec079ca5b790648cd33685c61ac762248009c106.jpg",
-    "description": "Lägenhet i bottenplan\nTillgång till trädgård \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 5650,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T18:36:30+00:00", "clock": "18:36:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T19:58:41+00:00", "clock": "19:58:41"};
