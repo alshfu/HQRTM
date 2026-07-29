@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Saffransgatan , Göteborg",
+    "url": "https://qasa.com/p/1425770",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89f6d92a30df1a542b5fd7e8b23c194c60367a466c4cff7eef08e8f21418d912.jpg",
+    "description": " Lägenhet uthyrs tillsvidare!\n Stor och ljus 3:a på 99,5 kvm högst upp i huset. Inglasad balkong i soligt läge och underbar utsikt. Gott om förvaring och perfekt planlösning. Lägenheten är genomgäende i mycket fint skick och är helt nyrenoverad! Lyx badrum med tvättmaskin & torktumlare och modern kök som är utrustat med diskmaskin och vinkyl. Finns hiss och parkering.  Lugnt familj område och du hittar lekplats, lokal, förskola, pizzeria precis utanför lägenheten. El, värme, internet och parkering ingår i hyran. Närmaste busshållplatsen är typ 50 meter från bostaden. Du måste ha stabil ekonomi och inga betalning anmärkningar.\nSkicka ett meddelande vid intresse! Mvh ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 100.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bratteråsgatan, Göteborg",
     "url": "https://qasa.com/p/1425782",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aac77e3b432879ed5ced2487f3c279dd46470c016996dc9a62ad9dade9621cbd.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Doktor Sven Johanssons Backe, Göteborg",
-    "url": "https://qasa.com/p/1425422",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4cc03dfe1c92bbd471a81304778814cfc6c8b6e8deb593505f68aec3c4023543.jpg",
-    "description": "Gästrummet i min bostad uthyres till kvinnlig student med behov av tillfälligt boende i början av terminen. Gångavstånd till Sahlgrenska och Chalmers Johanneberg. Sovrummet är ca 6 kvm men har ett stort fönster med utsikt över Göteborg. Du kommer att ha tillgång till ett stort och luftigt kök/vardagsrum (ca 30 kvm), delad toalett/dusch utrustad med tvättmaskin och torktumlare och en stor balkong med sol hela dagen.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 6.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T16:06:20+00:00", "clock": "16:06:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T17:34:40+00:00", "clock": "17:34:40"};
