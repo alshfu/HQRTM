@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1425972",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b658d7c42923f82d722191f35ef7e77323539bb8a6694551622da9495bbb057e.jpg",
+    "description": "Uthyres omöblerad 3-rum och kök \nbelägen på bottenplan i villa med egen ingång. Tillgång till trädgården samt fri parkering.\nUtrustad med diskmaskin i kök och tvättmaskin med torktumlare i separat tvättrum.\nHyran: 14500:-/mån, el ingår i hyran.\nInför kontraktsskrivning kommer arbetsintyg att efterfrågas samt en månads deposition begäras.\nHuset är belägen på Gamla Björlandavägen, Hisingen.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 86.0,
+    "rent": 14500,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hemstigen, Göteborg",
     "url": "https://qasa.com/p/1425968",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c6f5a25647d392cb759543115b5b502e743196ce6f8d27abd97332ed5c00dd5.jpg",
@@ -35,7 +50,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1425910",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce3185a2bc9a063d7aa26a7395978172dbf96d1d1bf0967860bcca93aa25af3c.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/201d64744b3c53fb6221e1295985be98d58e2d230ae29f834cdac30c8a6968d8.jpg",
     "description": "Hej, \n\nVi hyr ut våran möblerade 2:a i Karlatornet. Lägenheten är modern och välplanerad, med stilrena materialval och fantastisk utsikt! \n\nLägenheten erbjuder:\n* Öppen planlösning mellan kök och vardagsrum\n* Fullt utrustat kök med diskmaskin\n* Tvättmaskin och torktumlare\n* Fantastisk utsikt från hög våning (se bild 2!)\n* Balkong i sovrummet \n* Gym \n\nVi söker en lugn och skötsam hyresgäst med ordnad ekonomi som tar väl hand om lägenheten. Rökfri och djurfri är ett krav. 😊",
     "district": "Göteborg",
     "rooms": 2.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Flunsåsliden, Göteborg",
-    "url": "https://qasa.com/p/1425696",
-    "image_url": null,
-    "description": "Möblerat rum I enplansvilla med egen ingång i lugnt område på Hisingen i Göteborg. Delat badrum och kök.  Kyl, frys , Micro och kokplatta på rummet. Fri parkering på gatan. Wifi. Ingår. Företrädesvis till manlig student . Villan har gott om utrymme för mig och min fru.\nCa 700 meter till 3 spåvagnslinjer och ca 900 m till buss.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T19:58:41+00:00", "clock": "19:58:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T21:06:18+00:00", "clock": "21:06:18"};
