@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bratteråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1425782",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aac77e3b432879ed5ced2487f3c279dd46470c016996dc9a62ad9dade9621cbd.jpg",
+    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Arvesgärde, Göteborg",
+    "url": "https://qasa.com/p/1425370",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b702ceb025b5de710c3e325997089ff2676dd975ce6085b343bb11348cd7c97c.jpg",
+    "description": "Läs hela annonsen!\n\nVarmt välkommen till denna välplanerade etta i populära Tuve med hiss på våning 5/5 med balkong.\n \n Arvesgärde 26 är centralt belägen i Tuve, ett område som kombinerar stadslivets pulserande energi med naturens lugn. En snabb och enkel bussresa med linje 17 tar dig direkt in till centrala stan. Gångavstånd från bostaden finner du Hisingsparken med sina grönområden och promenadstråk. Ett stenkast från bostaden finner ni Tuve Torg som erbjuder alla bekvämligheter du kan tänka dig, så som livsmedelsbutiker, servicebutiker, gym, vårdcentral, restauranger, frisör och konditori. \n\nParkering, el, värme, vatten… ingår.\n\n!!!Bostaden ligger ute till försäljning så eventuella visningar kommer att förekomma, då förväntas lägenheten vara i visningsskick!!!\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 8004,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Flunsåsliden, Göteborg",
     "url": "https://qasa.com/p/1425696",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ebbe Lieberathsgatan, Göteborg",
-    "url": "https://qasa.com/p/1425494",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2b47ab0a4dd18be5b47d2fc6f8be6a59f68c56d12d25cdf036a1536d5f32199.jpg",
-    "description": "1,5 rum med öppen planlösning. Komplett kök, generöst badrum och rymlig sovalkov med plats för 180 säng. Stor balkong i söderläge. Spårvagn 4 och 12 går utanför dörren. Centralt och gångavstånd till både Ica maxi, Willys, apotek och flertalet gym. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 34.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karlagatan, Göteborg",
-    "url": "https://qasa.com/p/1425474",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ebdb443c1a9ab974c73ec2620890a84173823b08063e8be566c838d4bf82354f.jpg",
-    "description": "Möblerat rum 10 kvm centralt. \n\nHar ett mysigt nyrenoverat rum (möblerat) som jag hyr ut efter överenskommelse då min minsta dotter flyttade för ca 4 år sedan. Fram till årsskiftet 2025-26 bodde en dam här i ca 6 månader från Italien och innan henne bodde det en kvinnlig student från Oman i ca 2 år. Båda har nu lägenhet i Göteborg.\n\nRummet finns centralt i en 3:a i Olskroken/Lunden och ca 150 meter till Redbergsplatsen med 15 min gångavstånd till Centralen och Avenyn. Nära till butiker, restauranger och kollektivtrafik. Hyran är på  4 900:- och då ingår el, värme, WI-FI och nyttjande av befintlig köks utrustning. Rummet ligger direkt i anslutning till ytterdörren.\n\nDeposition är 1 månadshyra. Du måste vara rökfri och inte ha några husdjur eller betalningsanmärkningar samt att du behärskar svenska och/eller engelska språket i tal och skrift.  \n\nÄr du intresserad så hör gärna av dig så berättar jag mer om mig  och området där jag bor.\n\nFurnished room 10 sqm centrally located. \n\nI have a cozy newly renovated room (furnished) that I rent out by agreement when my youngest daughter moved about 4 years ago. Until the turn of the year 2025-26, a lady lived here for about 6 months from Italy and before her, a female student from Oman lived here for about 2 years. Both now have apartments in Gothenburg.\n\nThe room is in an apartment with 3room and kitchen centrally located in 2nd floor in Olskroken/Lunden and about 150 meters to Redbergsplatsen with a 15 minute walk to Centrail station and the parade street \"Avenyn\". Close to shops, restaurants and public transport. The rent is 4,900 SEK and includes electricity, heating, WI-FI and use of existing kitchen equipment. The room is located directly next to the front door.\n\nDeposit is 1 month's rent. You must be non-smoking and have no pets or payment complaints and that you are fluent in Swedish and/or English in speech and writing.\n\nIf you are interested, please contact me and I will tell you more about me and the area where I live.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 4900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T14:34:30+00:00", "clock": "14:34:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T16:06:20+00:00", "clock": "16:06:20"};
