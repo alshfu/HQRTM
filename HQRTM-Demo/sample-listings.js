@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skanstorget, Göteborg",
+    "url": "https://qasa.com/p/1425352",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/67d80020b1c8f464c3e332635dafd4eed53750502e2285262018df8de40048ce.jpg",
+    "description": "Ljus sekelskiftestvåa med stor balkong och kakelugn (ej fungerande) uthyres ett år med möjlighet till förlängning.\n\nMycket bra läge i ett populärt område nära Linnégatans café- och restaurangutbud, Haga med alla dess butiker, samt Vasastaden och allén som tar dig till Avenyn. Längs med gatan finner du trevliga restauranger och caféer, såsom Spanska köket, Benne Pasta, Mucho Macho samt Skanshof. Även nära Skansen Kronan, Slottsskogens grönområden och kommunikation som buss och spårvagn.\n\nMöbler: Uthyres möblerad\nPlanlösning: Öppen planlösning mellan kök och vardagsrum. Stort sovrum med plats för dubbelsäng\nBalkong: Mysig balkong som vetter mot en tyst innergård.\nKök & Badrum: Fräscht kök och badrum med gott om förvaring\nFörvaring: Gott om förvaring i både hall, kök och badrum. Tillgång till vindsförråd.\nLäge: Mycket centralt, men ändå tyst och ostört läge mot lugn innergård.\nHusdjur: Kan diskuteras.\n\nVatten, el, värme och internet ingår.\n\nUthyres pga studier och arbete på annan ort.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lergöksgatan 1B, Västra Frölunda",
+    "url": "https://qasa.com/p/1425406",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/86e0541edc0a3f4ee21d3f9367e0b6a98c9f23ae00f2846271ef12b5bc330f9d.pdf",
+    "description": "Välkommen till Lergöksgatan 1B!\nHär kommer du att bo i en välplanerad 2 rums lägenhet om 48 kvadratmeter.\n\nBostaden erbjuder en hög komfort i form av fullutrustat kök med diskmaskin, induktions häll, inbyggd mikrovågsugn. Badrummet är helkaklat med duschväggar i glas samt en kombinerad tvätt och torktumlare. \nFörrådsutrymme finns i lägenheten. \n\nDå ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\nAnnonserad hyra avser 2026 års hyresnivå avvikelser på bilder samt planritning kan förekomma. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Anmäl ditt intresse på Balder.se/parkering!",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10755,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Heidenstams Gata, Hisings Backa",
     "url": "https://qasa.com/p/1424966",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13d9ac979dc1e538f7f0519a9fda01f104a56c83c47e1acd00d3bd064a59efce.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Såggatan, Göteborg",
-    "url": "https://qasa.com/p/1425162",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8e6f9699e021b8eec8f22806fd940cbadbba2803076ea97d7b7096af0eead6a2.jpg",
-    "description": "Ett ljust charmigt rum i landshövdingahus. Med Ljusa trägolv och högt i tak. Med entré i stengolv och spotlights i tak som leder till två separata rum med dörrar. Gemensamma köket har stort fönster in mot gården. Renoverade badrummet är placerad i hallen. Wi-Fi och el ingår i hyran. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Thorburnsgatan, Göteborg",
-    "url": "https://qasa.com/p/1410563",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b094539c01e874eec7a82cc4c49dff9d81633599c02a38b7b3723299d06c5ca.jpg",
-    "description": "Lägenheten ligger 100 meter från hållplats Almedal där 4an och 12an går. \nDet är en liten 2a på 35m2 där du har ett sovrum separat och en öppen planlösning på kök och vardagsrum i ett, samt en hall och ett litet badrum. \nTvättstuga finns där det finns gott om bokningstider. \nInkluderat i priset är baskanaler, wifi, möbler, vatten och el. \nFler bilder kommer. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 35.0,
-    "rent": 10800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T07:23:10+00:00", "clock": "07:23:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-29T10:05:02+00:00", "clock": "10:05:02"};
