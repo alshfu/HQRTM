@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lergoksgatan , Goteborg",
     "url": "https://qasa.com/p/1425938",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5b6a7d5136c603da7d0a1802b5486cff38c5dd4afa24b0e85b15892aeef6f31d.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hemstigen, Göteborg",
-    "url": "https://qasa.com/p/1425968",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c6f5a25647d392cb759543115b5b502e743196ce6f8d27abd97332ed5c00dd5.jpg",
-    "description": "Möblerad 3 ROK ( samtliga 3 rummen kan nyttjas som sov rum) med kort promenad till Liseberg samt Gothia Towers samt Delsjö badet. Mindre än 5 min avstånd till  spårvagnsstation.  Fastigheten är ansluten till beredband. Det finns tillgång till sommarveranda med grillutrustning samt egen balkong. Parkering är avgiftsfri på gatan. Lämpligt för er som vill bo i stan men har närhet till naturen. Vänligen o svara annonsen med vilka ni är samt hyresperioden ni önska ha lägenheten",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 130.0,
-    "rent": 19500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ankarhjelmsvägen , Göteborg",
-    "url": "https://qasa.com/p/1425925",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0e246f1026e8899b304e7c356897a7cecb7606490a53a8bad4e453bbff8a65d2.jpg",
-    "description": "Toppfräsch lägenhet på ca 35 kvm. \nUthyres endast till 1 person. \n1 månads hyra i deposition.\nKontraktet är tillsvidare, förlängs automatiskt 3 månader åt gången. \nLägenheten uthyres möblerad.\nKlinkers i hallen med skoställ, hatthylla, sittbänk, spegel och städskåp. \nHelkaklat badrum med tvättmaskin. \nKök i vitt med guldknoppar med induktionshäll, ugn, Micro, kyl/frys samt bord och industripallar. Infällbart köksbord och stolar. \nVardagsrum/ sovrum med soffa och soffbord. \nKlädkammare med 4 st trådbackar, klädställning,  samt gott om förvaring.\nI månadshyran ingår el, värme, vatten, sopor, tv med ca 70 kanaler samt fiber-internet. \nLägenheten ligger på bottenvåningen av en villa i Tuve på Hisingen. \n2 minuters promenad till Tuve torg där det finns busshållplats, Ica, Willys , apotek, vårdcentral, tandläkare, konditori och blomsteraffär. Bussen går från Tuve torg till nordstan på 15 minuter. \n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 9000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T08:49:42+00:00", "clock": "08:49:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T10:54:51+00:00", "clock": "10:54:51"};
