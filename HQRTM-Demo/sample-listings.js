@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Wengbergs Gata, Göteborg",
+    "url": "https://qasa.com/p/1417309",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/47d569acbc84db148df20d3c73cf050c050243021a0ced1b53967d9772dfc4d2.jpg",
+    "description": "Omgående Inflyttning, hyrs ut tillsvidare.  \n\nEn perfekt bostad för dig som söker ett lugnt, bekvämt och naturnära boende med närhet till både city och Sahlgrenska.\n\nÄr ni intresserade , är det viktigt att Ni skriver ett kort svar om följande: Er livssitustion, exempelvis, Fast tjänst eller student, telefon nr, vilket datum ni kan tänka er att flytta, och för hur länge? Samt, varför just Ni är rätt kandidat. Detta för att förenkla urvalsprocessen. Lägenheten hyrs ut till max 2 personer.  Vi ser helst en långtids hyresgäst. \n\nJag och min tjej kommer att kika på det och kontaktar bäst lämpliga kandidater för visning så snart så möjligt. \n\nJag hyr ut min bostad tillsvidare, för jag behöver ta hand om mina föräldrar som bor i närheten. Därmed bor jag hos dem förtillfället. \n\nCharmig och välplanerad tvåa med fantastisk balkong och naturnära läge – gångavstånd till Sahlgrenska, samt perfekt springrunda till Slottskogen. \n\nLägenheten har ett unikt läge högst upp på berget – helt utan insyn och med rogivande utsikt mot naturen. Här kan du njuta av många härliga soltimmar på eftermiddagen på den stora, supermysiga balkongen – perfekt för avkoppling efter jobbet eller studierna.\n\nLägenheten är i mycket fint skick med  öppen planlösning, fräscht kök och stor badrum. Badrummet är modernt och utrustat med inglasad dusch. I vardagsrum, hall och kök finns stilren parkett som ger en varm och hemtrevlig känsla.\n\nBostaden hyrs ut fullt möblerad och här finns allt du behöver i både kök, sovrum och vardagsrum – det är bara att flytta in. Det finns även praktiskt förrådsutrymme för mindre saker som väskor och annan förvaring.\n\nOmrådet är lugnt och trivsamt med trevliga grannar, samtidigt som du har nära till stadens puls. Med mycket bra kommunikationer från tre olika hållplatser tar du dig enkelt till både Vasaplatsen och Avenyn via spårvagn eller buss till Linnegatan. På gångavstånd finns dessutom matbutiker, restauranger, bibliotek och gymmet Nordic Wellness. \n\nSom extra bonus finns gemensam uteplats med grillmöjligheter för härliga sommarkvällar.\n\nEl och internet ingår i hyran. Hyran kan självklart variera lite om man är själv eller två. Disposition baserad på överensstämmelse, minst 2 månader. \n\nInflyttning förväntas ske omgående. \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -28,6 +43,21 @@ window.HQRTM_SAMPLE = [
     "rent": 3800,
     "floor": null,
     "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Blidvädersgatan 56, Göteborg",
+    "url": "https://qasa.com/p/1426459",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2fd10c4b7b225f581489e01b69b5d06605b7559f012288b2cf56f1019e36062a.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna 1 rum och kök med balkong i Biskopsgården! \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se Vill du få tips via mejl på lediga parkeringsplatser där du bor kan du lägga upp en bevakning",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 5899,
+    "floor": null,
+    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 43, Göteborg",
-    "url": "https://qasa.com/p/1426113",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e85515d67a70a1da58246ba4e2a4542842f6925bfafb09b0a2474feaf5e8692.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna charmiga trea! Modernt kök med gasspis och diskmaskin som ingår. Helkaklat badrum, förberett för tvättmaskin.  \n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!\n \n************\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10822,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Björlandavägen, Göteborg",
-    "url": "https://qasa.com/p/1425972",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b658d7c42923f82d722191f35ef7e77323539bb8a6694551622da9495bbb057e.jpg",
-    "description": "Uthyres omöblerad 3-rum och kök \nbelägen på bottenplan i villa med egen ingång. Tillgång till trädgården samt fri parkering.\nUtrustad med diskmaskin i kök och tvättmaskin med torktumlare i separat tvättrum.\nHyran: 14500:-/mån, el ingår i hyran.\nInför kontraktsskrivning kommer arbetsintyg att efterfrågas samt en månads deposition begäras.\nHuset är belägen på Gamla Björlandavägen, Hisingen.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 86.0,
-    "rent": 14500,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T10:54:51+00:00", "clock": "10:54:51"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T12:28:20+00:00", "clock": "12:28:20"};
