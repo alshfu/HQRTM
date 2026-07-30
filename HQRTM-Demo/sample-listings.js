@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1389259",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
+    "description": "Hyr ut 1 rum på 8 kvm.\nSängskåp med Emma resårmadrass av högsta kvalité .\nELFA garderobsystem.\nFällbart väggbord med förvaring.\n3st olika uppblåsbara fåtöljer med elektrisk pump. \n\n\n83kvm bostadsrätt, 4 rum.\n2 toaletter samt duschrum och tvätt/tork i ena.\nStor balkong på vån 7 i söderläge. Ska glasses in. \nVälutrustat kök.\n\nBusshållplats direkt utanför dörren. Dessutom inom el-scooter område samt gång/scooter avstånd till eketrägatan och spårvagnar.\n\nI hyran ingår el/vatten internet. Tillgång till gemensamma utrymmen så som vardagsrum, kök, badrum \n\nHyr ut rummet på obestämd tid för att dyra ut kassan :)\n\nMer info och bilder kommer uppdateras inom kort\n\nElcykel Scott Sub active unisex finns också för uthyrning under hela perioden. 250kr/mån. Kortar restider väsentligt\n\nViktigt är att personen som flyttar in är ordningsam och håller rent efter sig.\nViktigt är också att personen  ifråga tecknar en fullvärdig hemförsäkring.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 4500,
+    "floor": 7,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hålskogsgatan, Angered",
+    "url": "https://qasa.com/p/1426578",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/35b6e2293fd225dc88e7eed91cf9fbac2ae09a104342381a2298b93087390adb.jpg",
+    "description": "Hej, \nVi hyr ut vårt fina hus som är både barnvänligt och handikappanpassad med stort uteplats, glasrum, stor altan och stort tomt. Carport finns, och plats för minst tre bilar. Ca 200 m  till Storås hållplats och 5 minuter till Angered centrum. \nFullt möblerat. \nInflytt-och utflyttningsdatum kan diskuteras.",
+    "district": "Angered",
+    "rooms": 4.0,
+    "area_m2": 140.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Wengbergs Gata, Göteborg",
     "url": "https://qasa.com/p/1417309",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/47d569acbc84db148df20d3c73cf050c050243021a0ced1b53967d9772dfc4d2.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Altplatsen 3, Göteborg",
-    "url": "https://qasa.com/p/1426227",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a10326df2d785f455146614b40d8f5d932a10d179c21d1bdfaf0a06373a268f.jpg",
-    "description": "Välplanerad tvåa med balkong!\nDenna rymliga och välplanerade tvåa om 58,7 kvm innehar stora öppna ytor och rikligt med ljusinsläpp.\nEn avgränsande hall med mycket god möbleringsförmåga och gott om förvaring för dig vidare in mot kök och vardagsrum, samtliga med ljusa moderna ytskikt. \nDet separata sovrummet innehar även det rikligt med förvaring och härligt ljusinsläpp. \n \nStandardinfo om lägenheten:\nVäggarna är vitmålade och golven består av parkett i samtliga rum.\nBadrummet är helkaklat i en ljusgrå ton och är utrustat med kombinerad tvättmaskin och torktumlare. Köket har vita skåpsluckor med grå bänkskiva, installerat finns också diskmaskin. \nBalkong eller uteplats finns i samtliga lägenheter oavsett storlek. \n \nFastighetsägaren tillämpar individuell mätning och debitering av varmvatten och el. Hyresgästen skall betala utifrån sin förbrukning till självkostnadspris. \n \nInformation om fastigheten\nFastigheten uppförs och stod klar i början på 2024.\nI bottenplan etablerar sig Willys hemma och Nordic Wellness. I anslutning till bostadshuset byggs ett äldreboende som kommer att drivas i privat regi.\n \nFör att vi ska kunna erbjuda dig en välmående boendemiljö råder rökförbud i hela fastigheten. Lägenheter, gemensamhetsutrymmen, balkonger och gårdar är samtliga rökfria. Då avtal tecknas accepteras dessa villkor. \nHusdjur är tillåtna. \n \nOmråde\nMed promenadavstånd till natursköna Ruddalen och ett stenkast från butikerna på Frölunda Torg samt Frölunda kulturhus blir möjligheterna oändliga för dig som boende. På Ruddalens idrottscentrum återfinns motionsspår, frisbeegolf och fotbollsplaner. Vintertid anläggs även isbanor för skridskoåkning. Då Willys Hemma och Nordic Wellness öppnar i bottenplan blir det direktanslutning till så väl livsmedel som gym.\n \nEtt par minuters promenad bort finns spårvagns- och busshållplats. \n \nÖvrigt\nErbjudande skickas ut löpande. Det erbjuds inga fysiska visningar. \nFör att bli godkänd som hyresgäst ställs följande krav:\n \n•\tDu ska ha fyllt 18 år\n•\tDu ska ha svenskt personnummer\n•\tAvtal skrivs endast med den person som har sökt lägenheten och denne ska ha lägenheten som stadigvarande bostad\n•\tVi accepterar inga betalningsanmärkningar\n•\tBoendereferens ska lämnas innan Du kan godkännas som intressent\n•\tInkomstkrav sätts i förhållande till Normalbeloppet för 2023. Med inkomst avses inkomst av tjänst eller studiemedel\n•\tHyresvärden anpassar regler för trångboddhet utefter storleken på Din lägenhet\n•\tVi tar ej emot personliga intresseanmälningar eller förfrågningar gällande uthyrningsprocessen av lägenheten via telefon eller mail.\n \nVälkommen med en intresseanmälan!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 11857,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backadalen 14, Göteborg",
-    "url": "https://qasa.com/p/1426219",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b5536ec614c377d37e93f61497c0624038b20752fae440183a73833bbece5ac7.jpg",
-    "description": "Nyproducerad 2RoK för dig som är 70+! Välplanerad och ljus lägenhet med öppna ytor och balkong. Rymligt sovrum med förvaring, öppen planlösning mellan vardagsrum och kök och hallen är väl tilltagen samt här återfinns gott med förvaringsutrymme. Lägenheten är fullt utrustad med diskmaskin och kombinerad tvättmaskin och torktumlare. Fastigheten stod klar 2021 och ytskikt så väl som materialval återspeglar detta. I detta trygghetsboende välkomnar vi dig som är 70+. Fastigheten inrymmer gemensamhetslokaler med anställda trygghetsvärdar där aktiviteter och planering kan, om intresset finns, bli en del av vardagen. Ta en fika, spela spel, ut och gå stavgång, utöva gymnastik, åk med på utflykter eller se en film är en del av det utbud som brukar stå på schemat! Fastigheten är tillgänglighetsanpassad och på varje våningsplan återfinns rum för förvaring av rullatorer och rullstolar. Övriga bekvämligheter i fastigheten är gemensam tvättstuga samt cykelförråd och till varje lägenhet hör ett förråd i vind- eller källarplan. Bilderna i annonsen är exempelbilder och är inte bilder från lägenheten. Parkeringsmöjligheter I källarplan finns garage med möjlighet att hyra parkeringsplats separat. Övrigt Bredband och el debiteras i samband med hyran. Hyran avser 2026 års nivå. Inkomstkrav sätts i förhållande till Normalbeloppet för 2023: Hyra + 5 717kr för ensamstående vuxen Hyra + 9 445kr för samlevande makar och sambor Urval och visningar vid bestämd tid och under dagtid, mer information kommer för dig som blir erbjuden en visning. Vi accepterar inga betalningsanmärkningar.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 9690,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T12:28:20+00:00", "clock": "12:28:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T14:52:10+00:00", "clock": "14:52:10"};
