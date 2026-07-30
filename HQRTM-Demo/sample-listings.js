@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gulsparvsgatan, Göteborg",
+    "url": "https://qasa.com/p/1426717",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f17a31c39457ab748721e46cc874dcdc79adf692a725a45092ee273afce800fd.jpg",
+    "description": "Källarlägenhet i radhus. \nLägenheten är en stor etta med kök, badrum/tvättstuga, förråd/ walk in closet, toalett, kök och ett stort rum. \nDet är fönster i alla rum utom förrådet. \nI köket är det inte fönster men där är entrédörren direkt ut. \nHuset ligger 3 minuter gång till busshållsplats, där bussen går direkt in till korsvägen, heden & sen Brunnsparken. Det är även gångavstånd till centrum. \nI hyran ingår allt (wifi, värme, el & vatten) \nBilderna är stylade med ai för uppfattning om hur lägenheten är möblerad ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 54.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långströmsgatan, Göteborg",
     "url": "https://qasa.com/p/1389259",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1adffd9b84c4c2abd450dc782c0be9fc49c151af1d4575b12745b8e429feac7a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergoksgatan , Goteborg",
-    "url": "https://qasa.com/p/1425938",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5b6a7d5136c603da7d0a1802b5486cff38c5dd4afa24b0e85b15892aeef6f31d.jpg",
-    "description": "\n• Lägenhetsbeskrivning: 2 sovrum; 1 walk in closet; 1 badrum (dusch, tvättmaskin och torktumlare); Vardagsrum; Hall; Fullt utrustat kök (diskmaskin, kyl, frys, ugn, mikrovågsugn); Inglasad balkong.\n• Plats: Closets busshållplatser: Rud (30m bort) och Bergkristallsgatan (250m bort). 15 minuter från stan med bil och 25 minuter med buss. 15 min promenad till Frölunda Torg och dess allmänna kommunikationer (buss och spårvagn). 15 min promenad till Frölundas bibliotek, badhus och kulturhuset.  1 min promenad till 3 gym (Nordic Wellness, 24/7, och Friskis&Svettis). 500m från LIDL, en Vårdcentral och restauranger. Området har lekplatser, basketplan, fotbollsplan och det är 5 min promenad till Ruddalen (skog med sjö, utegym, lekplats och bra för vandring).\nHyran startar från 1 september 2024, med möjlighet att hyra i två år.\nLägenheten har egen parkeringsplats, 3 boxar för trädgårdsarbete och ett stort förråd.\nPris per månad: 17 000 kr - allt ingår (vatten, värme, el, internet, parkeringsplats och 3 trädgårdsboxar)",
-    "district": "Goteborg",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 18500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T16:21:15+00:00", "clock": "16:21:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T17:54:41+00:00", "clock": "17:54:41"};
