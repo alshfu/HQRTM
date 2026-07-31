@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergakärrsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1427612",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a7d37911921eceb37a48b26e16c74cdfef7d2cedae434d9968f1f5515f3d274.jpg",
+    "description": "Vi har ett rum på nedre våningen i en 1,5 plans villa i ett lugnt område i Påvelund. Bredvid en idrottsplan och skog. En suite toalett & handfat, och egen dusch i samma korridor. Fem minuter till hållplatsen eller 25 minuter på cykel in till stan. 3500 SEK per månad.\nHuset är från 70-talet och är varken lyxigt eller modernt. \n\"Vi\" är en 61-årig forskare/lärare på GU, och en fem-årig katt som heter Moltas. Och ibland en eller flera av mina tre vuxna döttrar är här på besök. Du delar köket med oss så måste klara av vårt sällskap.\nIbland är jag bortrest (till exempel forskningsresor till Kambodja) och då är det bara du och katten i huset, så du måste klara av ensamhet och ansvaret.\nVi har hyrt ut rummet i 20 år så du kan kontakta förra detta hyresgäster för referenser. \nHör gärna av dig om det kan vara av intresse\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 14.0,
+    "rent": 3500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skäpplandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1230361",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9015d1fb0898b25eb63b27325c9708a55676e5af1957dacbc5f0c1b68bddcb55.jpg",
+    "description": "Söker en inneboende/någon att dela  min fina centrala trea med. Som boende här har du utöver ditt eget rum självklart tillgång till bostadens vardagsrum, kök, badrum och balkong. \nOch här får du inte bara bo i en bostad utan i ett hem. Du får gärna vilja bo en längre tid.  \nFantastiskt läge! Med vagn typ tre -åtta min resa, till mysiga Majorna, en fika i Linne, handling på Frölunda torg eller studier på Chalmers eller GU. Bara en kort bussresa till havet eller insjön, och parker och naturområden, och till och med berg finns på gångavstånd! \nGrymt läge med 2 min till hållplats, 1.5 -2 min till mataffär, gym, frisör och pizzeria. Härifrån går bussar och vagnar till hela stan. Bekväma cykelavstånd, bra cykelvägar och lånecyklar finns. Stenkast ifrån parker och flera naturområden. Knappt 10 min promenad till bibliotek, apotek och annan samhällsservice. Uteplats utanför huset.\n\nJag ser fram emot ditt personliga meddelande - att du berättar om dig, och vem du är! Prefabricerade meddelanden eller AI-genererade texter bortses ifrån. Ser fram emot att höra om  hur du fungerar med andra, varför du är intresserad av att bo just här, vad du sysselsätter dig med, intressen, hur du bor idag etc.\n\nRummet är möblerat ungefär enligt vad som finns på bilderna, men vissa förändringar i möblemanget kan ha skett. Sängen är en 140 cm säng. Skrivbord finnes i vardagsrummet, men som vi som bor här tillsammans delar på, men som kan användas när det är ledigt, och självklart kan du använda köksbordet för studier när så möjligt med.  \nBra tvättstuga med lätt att få tider. Vid besök kan finnas möjlighet att hyra in sig i fastighetens gästrum.\nOm hyra etc: I hyran ingår, snabbt internet, el, värme, vatten, även vissa förbrukningsvaror. Du betalar en månads deposition.\n\nIbland är vår supermysiga katt där, katten är en av de raser som räknas som låg-allergena eller allergivänliga.\n\nLite om dig: \nJag söker dig som respekterar och är varsam med mitt hem och det som är här. Dig som söker den privata sfären och lugnet. Som uppskattar samvaron och det sociala! Du håller god ordning, rent och fräscht runt dig, är trygg med dig själv och stabil, har stadig inkomst/studiemedel, röker inte och har inga djur, använder inte droger. Inga fester i bostaden.  Du är öppen och bra på att kommunicera, och vill samarbeta, ömsesidig tillit och respekt är viktigt. Är du vegetarian, veckopendlare eller utbytesstudent är det en fördel.\n\nBilder också på uteplats med blomsterprakt, och närliggande odlingsområde med möjlighet till fikastund.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5050,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Barken Storegrunds Gata, Göteborg",
     "url": "https://qasa.com/p/1427342",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc3e201998aca415ff48c9bed5f4cd0e9e34a67e402a731fad082fb62f4fbff7.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Säve Kyrkväg, Säve",
-    "url": "https://qasa.com/p/1427320",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2c9ec5c3eab300251ca9673ffad5a13b5e64494ef2beed91b3d9d206f38c1756.jpg",
-    "description": "Vi hyr ut ett övernattningsrum/arbetsrum på 15 kvm med wc och litet pentry. OBS! Detta ingår i ett lägenhetshotell så det är inget förstahandskontrakt men det går att hyra under längre tid om man önskar. Det finns ingen egen dusch eller tvättmaskin. Det är endast ett övernattningsrum med en bäddsoffa och ett litet bord.",
-    "district": "Säve",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borraregatan, Göteborg",
-    "url": "https://qasa.com/p/1424269",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/235d2cf5337e2f6e8b02cdc139ff9374ce9d17ef308416080c9489c2537c8d08.jpg",
-    "description": "Hej,\n\nJag har en ljus trea om 86 kvadratmeter med inglasad balkong, modernt kök och badrum. Eftersom jag själv veckopendlar från Göteborg letar jag någon som veckopendlar till Göteborg, dvs en inneboende som bara bor där under veckodagarna. Ibland är jag bortrest flera veckor i sträck och ibland är jag borta även på helgerna och då kan du vara kvar förstås. \n\nJag behåller mitt sovrum och är där på helgerna och ibland lediga vardagar. Du hyr det andra sovrummet med 120 cm säng, skrivbord och bokhyllor (som inte finns med på bilden) men du kan förstås ta med dina egna möbler om du föredrar det.\n\nDet rymliga badrummet med tvättmaskin och torktumlare samt resten av lägenheten som är 54 kvadrat öppet kök, matplats och vardagsrum har du fri tillgång till. \n\nLäget är mycket bra bredvid Chalmers, motionsslinga, gym och restauranger med cykelavstånd till det mesta och busshållplatsen på andra sidan vägen bara.\n\nBerätta gärna mer om dig själv i ett mail, så kan vi sedan pratas vid i telefon innan vi bestämmer om en visning. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 68.0,
-    "rent": 13100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T17:08:33+00:00", "clock": "17:08:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T18:43:59+00:00", "clock": "18:43:59"};
