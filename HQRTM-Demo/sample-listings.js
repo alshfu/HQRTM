@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Säve Kyrkväg, Säve",
+    "url": "https://qasa.com/p/1427320",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2c9ec5c3eab300251ca9673ffad5a13b5e64494ef2beed91b3d9d206f38c1756.jpg",
+    "description": "Vi hyr ut ett övernattningsrum/arbetsrum på 15 kvm med wc och litet pentry. OBS! Detta ingår i ett lägenhetshotell så det är inget förstahandskontrakt men det går att hyra under längre tid om man önskar. Det finns ingen egen dusch eller tvättmaskin. Det är endast ett övernattningsrum med en bäddsoffa och ett litet bord.",
+    "district": "Säve",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Borraregatan, Göteborg",
     "url": "https://qasa.com/p/1424269",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/235d2cf5337e2f6e8b02cdc139ff9374ce9d17ef308416080c9489c2537c8d08.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prilyckegatan, Hisings Kärra",
-    "url": "https://qasa.com/p/1426937",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7a5cb5f9fde5c5e88479e315157cf5107068e6aae83ab53a5adf05640cabbad.jpg",
-    "description": "Hej!\n\nVår vackra lägenhet är tillgänglig för uthyrning. Den inkluderar en inglasad balkong, två sovrum, ett kontorsrum, ett rymligt vardagsrum, badrum, kök samt hall och korridor. \n\nMöblering för en familj på 4-5 personer tillhandahålls, vilket har fungerat utmärkt för oss, en familj bestående av två vuxna och två barn. Möbleringen kan anpassas vid behov i den mån det går. Kontorsrum kan bli sovrum också. \n\nDet är ca 20 minuter till Göteborgs Centralstation och 5 minuter till Bäckebol , 10 min till Backaplan och Wieselgrensplatsen. \nDirekt utanför finns lekplats, och med bara 2-3 minuters promenad når du både busshållplats och Kärra Centrum. Besöksparkeringen finns. \n\n El, vatten, uppvärmning, varmvatten, internet ingår i hyran, utan individuell avläsning av förbrukningen. \nIngen lägenhet finns under oss. Dessutom finns möjligheten att boka föreningens bastu, snickarrum och tvättstuga, även om lägenheten själv är utrustad med tvättmaskin.\n\nBoendeområdet är lugnt och familjevänligt, med nära till förskolor och skolor. \nVi hyr ut pga längre resa. \nFlexibl utflyttningsdatum.",
-    "district": "Hisings Kärra",
-    "rooms": 3.5,
-    "area_m2": 75.0,
-    "rent": 13350,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T11:39:23+00:00", "clock": "11:39:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T13:19:16+00:00", "clock": "13:19:16"};
