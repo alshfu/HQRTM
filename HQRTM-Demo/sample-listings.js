@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Sydows Gata, Göteborg",
+    "url": "https://qasa.com/p/1426923",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/743ba500d57656851f606ecbcdf1a8d5554296ebd74a61df6d874bcac7472931.jpg",
+    "description": "Jag söker en lugn och trevlig inneboende till en trea i Guldheden. Rummet som hyrs ut är ca 12 kvm,  möblerat med bädsoffa, tv-bänk och skrivbord. Vi delar badrum, kök och vardagsrum. Badrummet kommer med badkar. Köket har gasspis, gasugn, bänkdiskmaskin samt airfryer\n\nFinns tillgång till tvättstuga i källaren. Vardagsrummet är fullt möblerat och inkluderar tv\n\nHyran är på 5000 och då ingår el, gas och bredband.\n\nLägenheten ligger i ett väldigt lugnt område, bara ett par minuters gångavstånd till spårvagn och busshållplats. Väldigt bra läge med bra förbindelse till Centrum, Korsvägen, Chalmers och Sahlgrenska. \n\nLite om mig och vad jag söker: Jag är en natt-arbetare, så jobbar natt och sover under dagen, så det är en fördel om ditt schema funkar med mitt, antingen om du är borta under dagen eller själv jobbar natt. Söker efter någon som inte är pälsallergiker och gillar katter, då jag har en katt, samt att du är HBTQIA-vänlig, då jag är en särbo i ett queer förhållande. Om du inte gillar katter eller helhjärtat stödjer/accepterar HBTQIA folk bör du söka vidare.  \n\nSkicka gärna ett meddelande där du berättar lite om dig själv (ålder, vad du gör, hur länge du söker boende osv).\n\n\nLooking for a roommate for a 3-room appartment in Guldheden, 10 minute walking distance to Chalmers.I am letting a partially furnished room of approx. 12 m² bedroom with a sofa bed, TV bench and desk. We share the bathroom, living room and kitchen; the bathroom has a bath, and the kitchen has a gas hob. The living room is fully decorated and has a tv. There is access to a laundry room in the basement\n\nRent is 5000kr. Gas, electricity and internet is included. \nThe appartment is in a calm area, close to a nature reserve and within few minutes walking distance to public transportation. Well-situated with good connections to downtown, Korsvägen, Chalmers and Sahlgrenska. \n\nA little info about me and what I'm looking for: I'm a nightshift worker, I work nights full time so it's important that your schedule works with mine. Preferably you either also work nights or your schedule means you're gone during the day when I sleep. It is also important that you like cats and are not allergic, as I have a cat. It's also important that you are LGBTQ-friendly as I am in a queer relationship \n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gulsparvsgatan, Göteborg",
     "url": "https://qasa.com/p/1426717",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f17a31c39457ab748721e46cc874dcdc79adf692a725a45092ee273afce800fd.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 56, Göteborg",
-    "url": "https://qasa.com/p/1426459",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2fd10c4b7b225f581489e01b69b5d06605b7559f012288b2cf56f1019e36062a.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna 1 rum och kök med balkong i Biskopsgården! \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se Vill du få tips via mejl på lediga parkeringsplatser där du bor kan du lägga upp en bevakning",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 5899,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-30T23:59:03+00:00", "clock": "23:59:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T03:42:54+00:00", "clock": "03:42:54"};
