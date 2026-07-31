@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Solslättsvägen, Göteborg",
+    "url": "https://qasa.com/p/1427260",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b43cf4faaa53231c3865d78c65533ce77238b492b5ad792d385c24b10f36669.jpg",
+    "description": "Modernt fristående minihus med egen uteplats – nära Göteborgs centrum\n\nVälkommen till detta moderna fristående minihus med egen entré och uteplats i ett lugnt villaområde på Hisingen, endast cirka 4 km från Göteborgs centrum. Minihuset stod färdigt 2025 och erbjuder ett modernt boende med hög standard och genomtänkta materialval.\n\nTrots sina kvadratmeter känns huset rymligt tack vare den smarta planlösningen. På entréplanet finns ett separat sovrum med en bekväm dubbelsäng (140 cm), ett ljust allrum med fullt utrustat kök samt ett modernt badrum med dusch och egen tvättmaskin.\n\nHuset har dessutom två rymliga sovloft med ståhöjd och fast trappa. På varje loft finns en 90 cm säng, vilket gör bostaden särskilt väl lämpad för två studenter eller två personer som vill dela boende och samtidigt ha varsin egen sovplats. Loften fungerar även utmärkt som arbetsplats eller extra förvaring.\n\nMinihuset håller en hög standard med vattenburen golvvärme i hela bostaden, vilket ger en jämn och behaglig inomhustemperatur året runt. Köket är fullt utrustat med induktionshäll, ugn, mikrovågsugn, diskmaskin, kyl och frys, kaffebryggare samt airfryer. Snabbt Wi-Fi via ett separat gästnätverk ingår, liksom TV med Chromecast.\n\nDetta ingår i hyran\n\n* El\n* Värme\n* Vatten\n* Wi-Fi\n* TV med Chromecast\n* Sophämtning\n* Parkeringsplats\n\nLaddning av elbil finns möjlighet till mot ersättning.\n\nKommunikation\n\nKommunikationerna är mycket goda. Flera busslinjer finns inom några minuters promenad och tar dig snabbt till centrala Göteborg, Lindholmen, Chalmers, Göteborgs universitet, Volvo och övriga delar av staden. Med cykel når du centrum på cirka 15–20 minuter.\n\nOmrådet\n\nI närområdet finns mataffärer, restauranger, gym och all tänkbar service. Du har nära till Slätta Damm med fina promenad- och motionsspår samt Nordic Wellness Arena och Lundby Badet, Backaplan, Lindholmen och centrala Göteborg ligger också på bekvämt avstånd, vilket gör läget attraktivt för både studenter och yrkesverksamma.\n\nVarför jag hyr ut\n\nJag hyr ut minihuset eftersom jag vill att någon ska få glädje av det när det inte används av familjen. Jag söker en ansvarsfull hyresgäst som uppskattar ett välskött hem och en lugn boendemiljö.\n\nMinihuset passar utmärkt för en eller två studenter, en pendlare eller ett par som söker ett modernt, fristående boende med hög standard och närhet till Göteborgs stad.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 28.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östra Kopparkärrsvägen, Hovås",
+    "url": "https://qasa.com/p/1396747",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdff192157ffda2cf837475d5563b945e7c9805471b0c4a121f3b9491342a3a8.jpg",
+    "description": "Fin 1:a, helt separat lägenhet med egen ingång i villa i Sydvästra Göteborg nära Nya Hovås. Egen uteplats & parkering.  \nUthyres tillsvidare. \nUthyres till en person. Nybyggd 2017, fullt möblerad med bl. a. ställbar säng, golvvärme i hela lägenheten, full takhöjd, stora skjutdörrar ut till den egna altanen (kvällssol) som är under tak. Trinettkök med två kokplattor, kyl med frysfack och micro. Helkaklat badrum med dusch, tvättmaskin, handfat/lådor. Golvvärme i hela lägenheten.\nSEK 9000 månad inkl. ALLT.  (ingen serviceavgift tillkommer). Inklusive parkering, vatten/avlopp, sophämtning  & fiber/wi-fi,  kabel-tv/Com.  \nHuset beläget 25 meter från Sandsjöbacka naturreservat med mycket fin natur. Joggingspår runt flera sjöar. Ett par minuter med bil till Amundön och fantastiska havsbad, 10 minuter på cykel.\n5-7 min promenad till Nya Hovås/Ica samt busshållplats, Lyckhem-Brottkärr. Direktbuss till Linneplatsen/Järntorget (ca.20minuter) Sahlgrenska (17minuter), Chalmers (20min), Centralen (30min).\nNya Hovås - Liten \"småstad\" med den mesta servicen, välsorterad mataffär, fiskbil, bageri, restauranger, apotek, systembolag, vårdcentral, gym, affärer mm.  \n\nDu som hyr skall ha:\n-Fast inkomst\n-Inga betalningsanmärkningar\n-Djur och rökfri  \n- Hyran betalas i förskott.\n- 1 månads deposition krävs vid kontraktsskrivning, kontrakt skrivs ej via Blocket.  \n- Uppsägningstid 1 respektive 3 månader enligt lag.\n- Uthyres från 1/8. (ev. från 1/9)\n\nTacksam för endast seriösa svar där ovan önskemål stämmer. Maila kort om dig och kontaktuppgifter, från när du vill hyra och hur länge.\n\nVälkommen att titta på lägenheten!",
+    "district": "Hovås",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 8576,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Johan Gertssons Gata, Göteborg",
+    "url": "https://qasa.com/p/1427484",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6904537c43dd7b93db31352e84e386ea99fc4fd91406fc4b70d7796fa27fc788.jpg",
+    "description": "Jag hyr ut min ljusa och moderna nyproduktionslägenhet i Gamlestaden, byggd 2022. \nLägenheten är 37 kvm och har en smart planlösning med öppen planlösning mellan vardagsrum och kök, en separat sovalkov och en skön balkong på cirka 7 kvm. \nBostaden hyrs främst ut möblerad men kan även hyras ut omöblerad eller delvis möblerat anpassad efter önskemål.\n\nKöket är modernt och utrustat med induktionshäll, inbyggnadsugn, kyl/frys och diskmaskin. \nBadrummet är rymligt med egen tvättmaskin och gott om förvaring. \nI hallen finns flera garderober och praktiska förvaringslösningar.\n\nI dagsläget är lägenheten smakfullt möblerad med säng, soffa, soffbord, tv, tv-bänk, köksbord och stolar, mattor och gardiner. \nEnklare köksredskap ingår och badrummet är färdiginrett. \nSom extra bonus ingår ett kanalpaket samt tillgång till Netflix- och HBO Max-konto – redo för mysiga filmkvällar från första dagen. \nI stort sett bara att packa upp dina personliga saker.\n\nLäget är oslagbart för dig som vill bo med staden nära men ändå ha ett lugnt hem. \nDet är bara något stenkast till spårvagnar och bussar med täta avgångar mot centrala Göteborg och övriga staden. \nRunt hörnet finns restauranger, caféer, mataffärer och annan service. \nPrecis utanför entrén ligger Swedbank och Nordic Wellness – perfekt för smidig vardagslogistik. \nOmrådet är populärt och växer, med en skön blandning av stadsliv och närhet till grönområden.\n\nLägenheten passar perfekt för en ensamstående person eller ett par som söker ett lättskött, modernt och bekvämt boende.\n\nHyran är 12 000 kr/månad och el, internet samt övriga driftkostnader tillkommer. \nInflyttning tidigast 1 september och uthyrningsperioden anpassas efter överenskommelse.\n\nHör gärna av dig vid frågor eller intresse för visning!",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 37.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Säve Kyrkväg, Säve",
     "url": "https://qasa.com/p/1427320",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2c9ec5c3eab300251ca9673ffad5a13b5e64494ef2beed91b3d9d206f38c1756.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Delsjövägen, Göteborg",
-    "url": "https://qasa.com/p/1427209",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9776690817b70ccd78314b1eb11700622ce362cca205be0f7b96a0ee93640fbe.jpg",
-    "description": "Källarlägenhet i Skår uthyres\nI en tvåfamiljsvilla i attraktiva Skår är en rymlig källarlägenhet ledig för uthyrning.\n\nLägenheten har egen ingång och ligger cirka 100 meter från spårvagnshållplatsen för linje 5. Minsta hyrestid är sex månader.\n\nBostaden är delvis möblerad, se bilder, och har:\n- eget kök\n- egen toalett och dusch\n- egen ingång\n\nLägenheten passar bra för en person eller ett par. Den kan även vara ett bra alternativ som övernattningslägenhet för dig som pendlar.\n\nDetta ingår i hyran\nVatten, värme, internet, sophantering samt elabonnemang.\n\nElförbrukningen ingår inte utan betalas av hyresgästen.\n\nHyresgästen ansvarar även för hemförsäkring och flyttstädning vid avflyttning. Flyttstädningen utförs av hyresvärdens städbolag. Kostnaden var i maj 2026 cirka 3 000 kronor.\n\nHyra\n1 boende: 7 900 kr per månad\n2 boende: 8 500 kr per månad\n\nHyresform: Inneboende\nMinsta hyrestid: 6 månader\n\nEnglish\nBasement apartment for rent in Skår\n\nA spacious basement apartment in a two-family house in the attractive Skår area is available for rent.\n\nThe apartment has a private entrance and is located approximately 100 metres from the tram stop for line 5. The minimum rental period is six months.\n\nThe apartment is partly furnished, as shown in the photos, and includes:\n- a private kitchen\n- a private bathroom with shower\n- a private entrance\n\nIt is well suited for one person or a couple. It may also be a convenient weekday or overnight apartment for someone commuting to Gothenburg.\n\nIncluded in the rent\nWater, heating, internet, waste collection.\n\nElectricity consumption is not included and is paid separately by the tenant.\n\nThe tenant is also responsible for home insurance and professional move-out cleaning. The cleaning is arranged through the landlord’s cleaning company. The cost was approximately SEK 3,000 in May 2026.\n\nRent\n1 tenant: SEK 7,900 per month\n2 tenants: SEK 8,500 per month\n\nRental arrangement: Lodger agreement / furnished rooms rental\nMinimum rental period: 6 months",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 7900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Orrebacksgatan, Göteborg",
-    "url": "https://qasa.com/p/1427192",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83ed42a94431936206e079508d19a5421d94efd8470c038c44825bcd4504bf1b.png",
-    "description": "Vi hyr ut möblerat.  \nLgh ligger våning 2 utan hiss. Nära busshållplatsen, 15 min till centralt Göteborg.\nEn månadsdeposition. drift tillkommer",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 7500,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordenskiöldsgatan, Göteborg",
-    "url": "https://qasa.com/p/1427099",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b89a0f276a7b10a990c5a972b2ce4cfd35cc828dfc041ef9f6e3cb9c92488f67.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 29900 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/wvtaklmst3gjldjxxvfp/vastra-gotaland/goteborg/nordenskioldsgatan-21a/3.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nEn ljus och rymlig 3,5-rumslägenhet om 108 m² på attraktiva Nordenskiöldsgatan. Lägenheten är en vindsvåning och erbjuder högt i tak, en fungerande öppen spis, balkong i söderläge och generösa sällskapsytor. Den är fullt möblerad med en modern och stilren inredning och passar perfekt för dig som söker ett inflyttningsklart hem med både charm och komfort.\r\n\r\nLägenheten ligger mitt i Linnéstaden, ett av Göteborgs mest populära områden, med restauranger, caféer, butiker och Slottsskogen bara några minuters promenad bort. Samtidigt finns goda kommunikationer som gör det enkelt att ta sig runt i staden.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 29900 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 108.0,
-    "rent": 28221,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T13:19:16+00:00", "clock": "13:19:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T15:33:21+00:00", "clock": "15:33:21"};
