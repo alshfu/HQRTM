@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Barken Storegrunds Gata, Göteborg",
+    "url": "https://qasa.com/p/1427342",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc3e201998aca415ff48c9bed5f4cd0e9e34a67e402a731fad082fb62f4fbff7.jpg",
+    "description": "Stor 2: med inglasad uteplats. Med utsikt över Sannegårdshamnen och Karlatornet ifrån sovrummet.\nStor öppen planlöst vardagsrum och kök.\nIngår internet, temperatur är perfekt året runt.\nParkering finns extra ca 150-200m iväg, samma som busshållplats.\nNärhet till 3 gym, ICA Kvantum, Coop, Normal, Arken Zoo, Systembolaget och mycket mer.\nBageri, Frisör och Pizzeria rakt över gatan!\n\nHelst hyrs den ut omöblerad. Fasta hyllor, soffa på uteplats och sängbord och liknande kommer lämnas.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fyrverkaregatan, Göteborg",
+    "url": "https://qasa.com/p/1414909",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a48bb97d68c9bcc64ab48b857749a5429548b5f6f9c3067e6852c6a3232feaa.jpg",
+    "description": "Mindre lägenhet på 1 RKV/20 kvm på Fyrverkaregatan i Landala med tillträde 1 september.\n\nPerfekt studentlägenhet i charmigt landshövdingehus med trädgård i Landala precis ovanför Chalmers med bra centralt läge. \n\n1 RKV/20 kvm\nTillträde 2026-09-01\nTidsbestämt hyresavtal t.o.m. 2027-03-31\nUppsägningstid 3 månader (från hyregäst sida)\nHyra 4 500 kr\n1 månadshyra i deposition\nVärme, varmvatten samt Tv basutbud via Tele2 ingår\nHyresgäst tecknar eget avtal för el samt bredband (via Göteborg Energi och Tele2 respektive)\n4 våning (ej hiss)\nDuschrum som endast tillhör denna lägenhet i källaren\nHyrs ut delvis möblerad\nFörråd vind\nGemensam tvättstuga i källaren\nTillgång till trädgård\n\nFör hyresgäster som studerar eller är under 25 år, behöver man ha en borgensman som står med på hyresavtalet.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4500,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Solslättsvägen, Göteborg",
     "url": "https://qasa.com/p/1427260",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b43cf4faaa53231c3865d78c65533ce77238b492b5ad792d385c24b10f36669.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kobbarnas väg, Göteborg",
-    "url": "https://qasa.com/p/1257439",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b337e24b715c8a9d92f4c0f180bb9121e2ec531071cdf9d6d6ccb90d17c1f18a.jpg",
-    "description": "1 rum uthyres i stor lägenhet i Olskroken – 6800/mån per rum\n\nPå grund av en separation hyr jag nu ut ett möblerat rum i min stora lägenhet (110 kvm) i Olskroken, Göteborg. Läget är mycket bra – ett lugnt område med nära till , kollektivtrafik och affärer och bara 15 min promenad till centrum.\n\nNi kommer ha tillgång till egen toalett samt en kyl och frys som delas. Köket delar ni med mig. Lägenheten är nyrenoverad, ljus och trivsam.\n\nJag som bor här är en lugn och skötsam tjej och söker dig/er som också är ordnade, rökfria och letar efter ett tryggt och trevligt boende.\n\nÄr du/ni intresserade? Skriv gärna några rader om dig själv/er så hör jag av mig!\n\nEn månadshyra i deposition vid kontraktshyrning. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 18.0,
-    "rent": 6800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mejerigatan, Göteborg",
-    "url": "https://qasa.com/p/1427191",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e2abc0bd56b11f684e6ba4ab42f2cd7862b58accff062de0b37f3c6c152d265a.jpg",
-    "description": "2 rum och kök,  välplanerad ljus lägenhet, naturnära område. Nära till hållplats/buss, 2 minuters gångväg, ca 20 min till centrum.  Möbler ingår såsom bland annat soffa, bord, mattor, belysning, säng, sängkläder, köksgeråd  etc. Allt som behövs finns. Uthyrs pga. studier på annan ort, 6 månader till att börja med, förlängning med 6 månader kan bli möjligt. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T15:33:21+00:00", "clock": "15:33:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T17:08:33+00:00", "clock": "17:08:33"};
