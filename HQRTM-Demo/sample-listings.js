@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brungatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1321123",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3700076a79e7402ae02e659b7f5013481f87248772ea71646365c0583f7ede69.jpg",
+    "description": "Mysig och nybyggt gäststuga uthyres from  omgående,  och tillsvidare (kan hyras som semester/sommarboende, för upp till 4 personer. Se priser nedanför).  Möblerat. ett separat sovrum med dubbel säng, sovloft,  och kök/vardagsrum. Eget badrum, egen toalett och egna tvättmaskin och torktumlare. Snabb internet via fiber/kabel.  Passar 1-2 personer vid långsiktig uthyrning och upp till 4 personer vid kort uthyrning (ex. under sommaren). Nära kollektiv trafik (2 min till hållplatsen, 20-25 min till centrum). Lugnt och trevligt område (Västra Göteborg, Näset). Nära havet (400 m från havet) och nära Göteborgs största köpcentrum. Månadshyra: 9500 kr. I  hyran ingår el, internet via fiber, vatten/varmt vatten, uppvärmning, sophantering.  Kontakta oss för mer information \n\nOBS!\nKan även hyras ut som sommarboende under juni-augusti .  i så fall är priserna enligt nedan\n1 vecka: 5900 kr/vecka\n1-6 dagar: 900 kr/natt\n\nEnglish\nA guest Cottage (gäststuga) is available for rent from now and onwards. Furnished. One sleeping room, kitchen/sittingroom, it has its own bathroom, own washing machine and a dryer. Switable for 1-2 persons for långstaying tenants,  and upp to 4 persons for shortstaying tenants (during summer for instance). Near to the public transport (2 min to the bus stop, and 20-25 min to the city center). Calm, located in one of the best locations in Gothernburg, Näset. Near to the sea (400 m), and near to  the biggest shoping center in Gothernburg. Monthly rent 9500 kr. The rent includes electricity use, internet via fiber, water, warm water, heating, garbage disposal  (all charges are inkludering).  Please kontact us for more information\n\nOBS!\nCan even be rented as summer house under the months June-August\nin that case prices are as follows:\n\n1 week: 5900 kr/week\n1-6 days: 900 kr/per night\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 33.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergakärrsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1427612",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a7d37911921eceb37a48b26e16c74cdfef7d2cedae434d9968f1f5515f3d274.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Johan Gertssons Gata, Göteborg",
-    "url": "https://qasa.com/p/1427484",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6904537c43dd7b93db31352e84e386ea99fc4fd91406fc4b70d7796fa27fc788.jpg",
-    "description": "Jag hyr ut min ljusa och moderna nyproduktionslägenhet i Gamlestaden, byggd 2022. \nLägenheten är 37 kvm och har en smart planlösning med öppen planlösning mellan vardagsrum och kök, en separat sovalkov och en skön balkong på cirka 7 kvm. \nBostaden hyrs främst ut möblerad men kan även hyras ut omöblerad eller delvis möblerat anpassad efter önskemål.\n\nKöket är modernt och utrustat med induktionshäll, inbyggnadsugn, kyl/frys och diskmaskin. \nBadrummet är rymligt med egen tvättmaskin och gott om förvaring. \nI hallen finns flera garderober och praktiska förvaringslösningar.\n\nI dagsläget är lägenheten smakfullt möblerad med säng, soffa, soffbord, tv, tv-bänk, köksbord och stolar, mattor och gardiner. \nEnklare köksredskap ingår och badrummet är färdiginrett. \nSom extra bonus ingår ett kanalpaket samt tillgång till Netflix- och HBO Max-konto – redo för mysiga filmkvällar från första dagen. \nI stort sett bara att packa upp dina personliga saker.\n\nLäget är oslagbart för dig som vill bo med staden nära men ändå ha ett lugnt hem. \nDet är bara något stenkast till spårvagnar och bussar med täta avgångar mot centrala Göteborg och övriga staden. \nRunt hörnet finns restauranger, caféer, mataffärer och annan service. \nPrecis utanför entrén ligger Swedbank och Nordic Wellness – perfekt för smidig vardagslogistik. \nOmrådet är populärt och växer, med en skön blandning av stadsliv och närhet till grönområden.\n\nLägenheten passar perfekt för en ensamstående person eller ett par som söker ett lättskött, modernt och bekvämt boende.\n\nHyran är 12 000 kr/månad och el, internet samt övriga driftkostnader tillkommer. \nInflyttning tidigast 1 september och uthyrningsperioden anpassas efter överenskommelse.\n\nHör gärna av dig vid frågor eller intresse för visning!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 37.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T20:11:15+00:00", "clock": "20:11:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-07-31T21:28:18+00:00", "clock": "21:28:18"};
