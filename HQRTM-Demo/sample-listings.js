@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ulfsparregatan, Göteborg",
+    "url": "https://qasa.com/p/1428332",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c522076c3b9da3bf748e3eb567f7cd86847c368e0e093ce66e81ed8414aae44.jpg",
+    "description": "Jag hyr ut min ljusa och välplanerade genomgångslägenhet eftersom jag har sysselsättning på annan ort.\nLägenheten har ett fint ljusinsläpp, charmiga trägolv och en balkong med härlig eftermiddags- och kvällssol – en perfekt plats att koppla av och njuta av solen.\n\nFastigheten omges av en grön och lummig gård med flera grillplatser samt trevliga sittgrupper med både matbord och solstolar. En lugn och trivsam miljö som bjuder in till avkoppling.\n\nLäget är mycket bra med goda kommunikationer. På några minuters promenad når du Redbergsplatsen och femmans spårvagn, och Centralstationen ligger endast cirka 10–15 minuter bort. För dig som uppskattar natur och friluftsliv finns det vackra Delsjöområdet på bekvämt avstånd.\n\nLägenheten passar utmärkt för studenter, pendlare eller dig som söker ett trivsamt och välskött boende med en hemtrevlig känsla.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 10300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smörslottsgatan, Göteborg",
     "url": "https://qasa.com/p/1428313",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64f10dd57f545d03d5a94d3b8d3ed516484aa3ef2a47328562186e5e82938920.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sventorpsliden , Göteborg",
-    "url": "https://qasa.com/p/1428112",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/efdcb35ebd2a7c3a169ff7578639b80a070e3141fa87465c6fa5f4e93163ba26.jpg",
-    "description": "Trevlig lägenhet perfekt för 1 person centralt belägen.\n\nLägenheten ligger på bottenplan på en 3 våningsvilla. Egen privat ingång. Rymlig hall, garderob, säng, sängbord, mindre skrivbord ingår. Vill man hyra utan möbler så går det att lösa. I hyran så ingår, el, värme, vatten, sophämtning, gratis parkering finns på gatan. Fiber uppkoppling ingår också. \n\nDet är ett centralt läge i Örgryte i ett tryggt villaområde.  Bara några minuters promenad ner till Korsvägen och Liseberg. \nBra kommunikation till Chalmers teknisk högskola, Göteborg universitet, Götaplatsen, Sahlgrenska sjukhuset. Delsjö naturreservat ligger också på promenad avstånd. Lägenheten har ett modernt kök, rymligt badrum. \n\nDu som hyresgäst ska vara rökfri, djurfri, skötsam, god ekonomi samt kunna uppge referenser vid eventuell förfrågan. Lägenhet passar perfekt för en person. \n  \nVi kan också ordna med extra förråd och förvaring om du har mycket lådor eller behov av förvaring.  \n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 8500,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T21:03:46+00:00", "clock": "21:03:46"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T22:07:00+00:00", "clock": "22:07:00"};
