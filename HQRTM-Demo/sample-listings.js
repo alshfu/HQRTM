@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Teatergatan, Göteborg",
+    "url": "https://qasa.com/p/1427694",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f01a3b27eb9246e26b53fee84473e2ea936713f40ed1482c5ac05a490417de74.jpg",
+    "description": "Välkommen med din ansökan! Berätta lite om dig/er och nuvarande boendesituation så återkommer jag till dig/er så snart som möjligt.\n\nBostadsfakta:\n+ Gata: Teatergatan (super centralt!)\n+ Boarea: 64 kvm\n+ Antal rum: 2 rok + balkong i sydväst mot gården\n+ Våning: 4 av 7, hiss finns\n+ Hyra: 16750 kr/månad\n+ Ingår i hyran: bredband, vatten, värme\n+ Hela lägenheten nymålad juni 2025\n+ Tillgänglig: långtidsuthyrning tills vidare\n+ Deposition: en månadshyra\n+ Tvättstuga: finns på första våningen i samma byggnad\n+ Vänligen observera att bilderna är inte aktuella\n+ Kan hyras ut möblerad eller omöblerad \n\nCity tvåa med balkong i sydväst mot grönskande innergård. Kanonbra läge med direkt närhet till Avenyn och allt vad stan har att erbjuda och ligger ett stenkast från Valand station. Trots det centrala läget är lägenheten tyst och behaglig då balkong och fönster vetter mot föreningens grönskande innergård med fina planteringar och uteplatser.\n\nPlanlösning:\nHall med parkettgolv och vita tapetserade väggar.\n\nLjust och luftigt vardagsrum med parkettgolv och vitmålade väggar. Utgång till balkong med lugnt och trevligt läge mot grönskande innergård. Vid fint väder kan man på balkongen njuta av solen från mitt på dagen till sen kväll. På balkongen finns plats för ett mindre bord med tillhörande stolar.\n\nKök med plastmatta på golvet och vitmålade väggar. Köket är stort och rymligt med matplats vid fönster. Släta vita skåpsluckor och skåpstommar. Brunt kakel ovanför diskbänken. Bänkskivor modell Perstorpsplatta. I köket finns spis med ugn, fläkt och kombinerad kyl/frys.\n\nSovrum med plastmatta på golvet och gula tapetserade väggar. Här finns en dubbelsäng som plats för arbetshörna. Tre garderober och två linneskåp för bra förvaring.\n===========================================\nKrav:\n- Ingen rökning eller husdjur tillåtet\n- Hyres ut till max två personer\n- Ett år kontrakt,\n- Skriftliga inkomstuppgifter samt goda referenser behövs (en kreditupplysning får beställas)\n- Airbnb eller liknande andrahandsuthyrning är inte tillåtet\n===========================================\nProperty Details:\n+ Street: Teatergatan (very central)\n+ Living area: 64 sqm\n+ Rooms: 2 rooms and kitchen + balcony facing southwest towards the courtyard\n+ Floor: 4th of 7 (elevator available)\n+ Rent: SEK 16750/month\n+ Included in rent: internet, water, heating\n+ Available for 1 year, and possible extension.\n+ Deposit: one month's rent\n+ Laundry room: available on the first floor of the same building\n+ Please note the pics are not current\n+ Furnished or unfurnished works\n\nDescription:\nCity apartment (one-bedroom) with a southwest-facing balcony overlooking a lush courtyard. Excellent location, close to Avenyn and all the city has to offer, just steps away from Valand station. Despite the central location, the apartment remains quiet and comfortable, as the balcony and windows face the green inner courtyard with pleasant plantings and outdoor seating areas.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 16950,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sventorpsliden , Göteborg",
     "url": "https://qasa.com/p/1428112",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/efdcb35ebd2a7c3a169ff7578639b80a070e3141fa87465c6fa5f4e93163ba26.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brungatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1321123",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3700076a79e7402ae02e659b7f5013481f87248772ea71646365c0583f7ede69.jpg",
-    "description": "Mysig och nybyggt gäststuga uthyres from  omgående,  och tillsvidare (kan hyras som semester/sommarboende, för upp till 4 personer. Se priser nedanför).  Möblerat. ett separat sovrum med dubbel säng, sovloft,  och kök/vardagsrum. Eget badrum, egen toalett och egna tvättmaskin och torktumlare. Snabb internet via fiber/kabel.  Passar 1-2 personer vid långsiktig uthyrning och upp till 4 personer vid kort uthyrning (ex. under sommaren). Nära kollektiv trafik (2 min till hållplatsen, 20-25 min till centrum). Lugnt och trevligt område (Västra Göteborg, Näset). Nära havet (400 m från havet) och nära Göteborgs största köpcentrum. Månadshyra: 9500 kr. I  hyran ingår el, internet via fiber, vatten/varmt vatten, uppvärmning, sophantering.  Kontakta oss för mer information \n\nOBS!\nKan även hyras ut som sommarboende under juni-augusti .  i så fall är priserna enligt nedan\n1 vecka: 5900 kr/vecka\n1-6 dagar: 900 kr/natt\n\nEnglish\nA guest Cottage (gäststuga) is available for rent from now and onwards. Furnished. One sleeping room, kitchen/sittingroom, it has its own bathroom, own washing machine and a dryer. Switable for 1-2 persons for långstaying tenants,  and upp to 4 persons for shortstaying tenants (during summer for instance). Near to the public transport (2 min to the bus stop, and 20-25 min to the city center). Calm, located in one of the best locations in Gothernburg, Näset. Near to the sea (400 m), and near to  the biggest shoping center in Gothernburg. Monthly rent 9500 kr. The rent includes electricity use, internet via fiber, water, warm water, heating, garbage disposal  (all charges are inkludering).  Please kontact us for more information\n\nOBS!\nCan even be rented as summer house under the months June-August\nin that case prices are as follows:\n\n1 week: 5900 kr/week\n1-6 days: 900 kr/per night\n",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 33.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T13:50:26+00:00", "clock": "13:50:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T14:50:13+00:00", "clock": "14:50:13"};
