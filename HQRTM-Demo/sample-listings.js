@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1428298",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be4b06b948dedfe6631716b5f72344daff86775ab86ce7a4610d65e992978d09.jpg",
+    "description": "Välkommen till ett helt nybyggt och modernt attefallshus på 30 kvm med hög standard. Bostaden har en smart planlösning, nya vitvaror och kan hyras möblerad, delvis möblerad eller omöblerad enligt överenskommelse.\nTill huset hör en stor privat uteplats med altan och tillgång till en rymlig tomt på cirka 200 kvm – perfekt för avkoppling eller umgänge utomhus.\nI hyran ingår el, vatten, sophämtning och parkering. Bostaden ligger på Gamla Björlandavägen i ett lugnt och trivsamt område med närhet till kollektivtrafik, service, natur och goda kommunikationer till centrala Göteborg.\nVi söker en skötsam hyresgäst med ordnad ekonomi. Rökning inomhus är inte tillåten.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ögontröstgatan, Göteborg",
     "url": "https://qasa.com/p/1428232",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/568809e72c8d535777f9460bf0778ec20b61921077dae3deaba44e8e880238d1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T18:43:38+00:00", "clock": "18:43:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T19:58:42+00:00", "clock": "19:58:42"};
