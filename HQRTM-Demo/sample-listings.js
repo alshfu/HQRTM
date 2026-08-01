@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Koppargatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1427874",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/91098e4c565bcb2adebf24dbf83a1d405bb09d32821a33e8a5484a1dfd69fc56.jpg",
+    "description": "Möblerad studentlägenhet för en person\n\nEndast för 1 person att hyra.\nHyra: SEK 8950 / månad.\n\nI källarplan på en villa med soligt läge samt egen entré, WC, dusch, kök mm. Uthyres 6 månader (eller enligt överenskommelse) till student eller liknande med goda referenser. \n\nI hyran ingår, möbler, tvätt-/torkmaskin, köksutrustning, TV, el, vatten, värme och Wi-Fi. Detaljer nedan.\n\nLägenheten är avsedd för 1 vuxen person.\nLägenheten är lokaliserad på cykelavstånd till centrum och till havet (Nya Varvet, Tångudden, Käringberget, Långedrag och Saltholmen). \n\nNärhet till affär (300m). 11ans spårvagnshållplats endast 2 min\npromenad från huset. 9ans spårvagn och Kungstens busshållplats 4min.\n\nLägenheten är ca 23,5 m2. Kök, sovrum och matplats ryms i öppen planlösning. Se bilder.\n\nRökning och husdjur är ej tillåtet.\n\nLägenhetens utrustning:\n--------------------------------\nIngår i hyra:\nToa, dusch, tvättmaskin, torktumlare, diskmaskin, spis, ugn, micro, köksfläkt, vattenkokare, bestick, tallrikar, glas, muggar, kastruller, stekpanna, strykjärn, strykbräda, säng 105x200, täcke,\nkudde, rumsavdelare mellan matplats och säng, köksbord med 4 stolar, platt-TV, ministereo med högtalare, dammsugare/städutrustning, uteplats med bord och tre stolar.\n\nWi-fi, vatten-, el-, värme- och sopavgifter ingår också i hyran.\n\nIngår inte:\nTelefon, parkering, sängkläder, handdukar, förbrukningsmaterial\n\nAvstånd:\n- 11 spårvagnshållplats - 200m\n- 9 spårvagnshållplats samt Kungstens busshållplats - 400m\n- ICA - 300m\n- Närmaste restaurant - 300m\n- Närmaste pizzeria - 300m\n\nAvstånd/tid med kollektivtrafik (spårvagn/buss):\n(lägg till ca 2-5 min för promenad till hållplats. Notera att tid kan variera beroende på tid för avgång):\n- Volvo PV Torslanda - 20 min\n- AstraZeneca i Mölndal - 22 min\n- SCA i Mölndalsbro - 30 min\n- Nils Ericson terminalen - 20 min\n- Centralstationen - 18 min\n- Chalmers Guldheden - 21 min\n- Lindholmsallén (Sience Parc, Chalmers, Ericsson etc) - 14 min\n- Järntorget - 14 min\n- Saltholmen - 9 min\n- Göteborgsoperan 15 min\n- Vasaplatsen 20 min\n- Liseberg 40 min\n- Linnéplatsen - 30 min\n- Handelshögskolan 32 min\n- Restaurant - 300m\n- Pizzeria - 250m\n- Bankomat 300m\n- Blomaffär 300m\n- Frisersalong - 250m\n\nDepositionsavgift à en månadshyra tillkommer vid kontraktsskrivning och återfås i samband med utflyttning och när flyttstädning samt inspektion av lägenheten är utförd utan anmärkning.\n\nHyran betalas senast den 27:e i varje månad för efterkommande månad.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 23.0,
+    "rent": 8950,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Wieselgrensgatan, Göteborg",
+    "url": "https://qasa.com/p/1427876",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a1a0a52f1a25891d0abe818c41fd8fda96153eb5a84565b3452adde7f931b86.jpg",
+    "description": "\nJag hyr ut ett nybyggt attefallshus (2022) på min tomt i Hildedal på centrala Hisingen till en person. Huset har 30 kvm boarea och en total golvyta på 45 kvm inklusive loft. Bostaden är fullt möblerad och hyrs ut tills vidare till en person.\n\nHuset har ett eget, fullt utrustat kök med induktionshäll, diskmaskin, kyl och frys, mikrovågsugn samt varmluftsugn. Det fräscha badrummet är utrustat med tvättmaskin och torktumlare. Bostaden erbjuder högt i tak, fint ljusinsläpp, smarta förvaringslösningar och en stor egen uteplats. Uppvärmning sker med golvvärme och luftvärmepump. Huset besiktigades av Stadsbyggnadskontoret 2022 utan anmärkningar.\n\nHildedal är ett lugnt och trivsamt område på centrala Hisingen, endast cirka 10 minuter med buss från Centralstationen. Här finns en blandning av charmiga äldre villor, nybyggda radhus och lägenheter samt fina promenad- och naturområden precis runt hörnet. Jag och min familj har bott här i över 12 år och trivs mycket bra.\n\nHyresvillkor:\n\n* Hyrs ut möblerad.\n* Uthyres tills vidare.\n* Två månaders deposition.\n* Tre månaders uppsägningstid.\n* El, vatten, internet och WiFi ingår i hyran.\n* Parkeringsplats på tomten finns.\n\nVid intresse är du välkommen att skicka ett meddelande och berätta lite om dig själv.\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Österlyckan, Göteborg",
     "url": "https://qasa.com/p/1341896",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09be383f333640cafde78370e38d8bff9b02879f363142a80ea96c4cea66868c.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrverkaregatan, Göteborg",
-    "url": "https://qasa.com/p/1414909",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a48bb97d68c9bcc64ab48b857749a5429548b5f6f9c3067e6852c6a3232feaa.jpg",
-    "description": "Mindre lägenhet på 1 RKV/20 kvm på Fyrverkaregatan i Landala med tillträde 1 september.\n\nPerfekt studentlägenhet i charmigt landshövdingehus med trädgård i Landala precis ovanför Chalmers med bra centralt läge. \n\n1 RKV/20 kvm\nTillträde 2026-09-01\nTidsbestämt hyresavtal t.o.m. 2027-03-31\nUppsägningstid 3 månader (från hyregäst sida)\nHyra 4 500 kr\n1 månadshyra i deposition\nVärme, varmvatten samt Tv basutbud via Tele2 ingår\nHyresgäst tecknar eget avtal för el samt bredband (via Göteborg Energi och Tele2 respektive)\n4 våning (ej hiss)\nDuschrum som endast tillhör denna lägenhet i källaren\nHyrs ut delvis möblerad\nFörråd vind\nGemensam tvättstuga i källaren\nTillgång till trädgård\n\nFör hyresgäster som studerar eller är under 25 år, behöver man ha en borgensman som står med på hyresavtalet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4500,
-    "floor": 4,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solslättsvägen, Göteborg",
-    "url": "https://qasa.com/p/1427260",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b43cf4faaa53231c3865d78c65533ce77238b492b5ad792d385c24b10f36669.jpg",
-    "description": "Modernt fristående minihus med egen uteplats – nära Göteborgs centrum\n\nVälkommen till detta moderna fristående minihus med egen entré och uteplats i ett lugnt villaområde på Hisingen, endast cirka 4 km från Göteborgs centrum. Minihuset stod färdigt 2025 och erbjuder ett modernt boende med hög standard och genomtänkta materialval.\n\nTrots sina kvadratmeter känns huset rymligt tack vare den smarta planlösningen. På entréplanet finns ett separat sovrum med en bekväm dubbelsäng (140 cm), ett ljust allrum med fullt utrustat kök samt ett modernt badrum med dusch och egen tvättmaskin.\n\nHuset har dessutom två rymliga sovloft med ståhöjd och fast trappa. På varje loft finns en 90 cm säng, vilket gör bostaden särskilt väl lämpad för två studenter eller två personer som vill dela boende och samtidigt ha varsin egen sovplats. Loften fungerar även utmärkt som arbetsplats eller extra förvaring.\n\nMinihuset håller en hög standard med vattenburen golvvärme i hela bostaden, vilket ger en jämn och behaglig inomhustemperatur året runt. Köket är fullt utrustat med induktionshäll, ugn, mikrovågsugn, diskmaskin, kyl och frys, kaffebryggare samt airfryer. Snabbt Wi-Fi via ett separat gästnätverk ingår, liksom TV med Chromecast.\n\nDetta ingår i hyran\n\n* El\n* Värme\n* Vatten\n* Wi-Fi\n* TV med Chromecast\n* Sophämtning\n* Parkeringsplats\n\nLaddning av elbil finns möjlighet till mot ersättning.\n\nKommunikation\n\nKommunikationerna är mycket goda. Flera busslinjer finns inom några minuters promenad och tar dig snabbt till centrala Göteborg, Lindholmen, Chalmers, Göteborgs universitet, Volvo och övriga delar av staden. Med cykel når du centrum på cirka 15–20 minuter.\n\nOmrådet\n\nI närområdet finns mataffärer, restauranger, gym och all tänkbar service. Du har nära till Slätta Damm med fina promenad- och motionsspår samt Nordic Wellness Arena och Lundby Badet, Backaplan, Lindholmen och centrala Göteborg ligger också på bekvämt avstånd, vilket gör läget attraktivt för både studenter och yrkesverksamma.\n\nVarför jag hyr ut\n\nJag hyr ut minihuset eftersom jag vill att någon ska få glädje av det när det inte används av familjen. Jag söker en ansvarsfull hyresgäst som uppskattar ett välskött hem och en lugn boendemiljö.\n\nMinihuset passar utmärkt för en eller två studenter, en pendlare eller ett par som söker ett modernt, fristående boende med hög standard och närhet till Göteborgs stad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 28.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T07:14:41+00:00", "clock": "07:14:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T09:24:52+00:00", "clock": "09:24:52"};
