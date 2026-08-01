@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ögontröstgatan, Göteborg",
+    "url": "https://qasa.com/p/1428232",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/568809e72c8d535777f9460bf0778ec20b61921077dae3deaba44e8e880238d1.jpg",
+    "description": "Välkommen till Ögontröstgatan 1C, här bjuds du på genomgående ljusa och fräscha\n ytor, ett stilfullt kök från IKEA med moderna inslag samt ett välvårdat badrum utrustat\n med ett avkopplande badkar. \n På en fridfull gata, omgiven av charmiga villor och grönska hittar du denna lägenhet.\n På bekvämt avstånd finns ett brett utbud av bekvämligheter, inklusive flertalet restauranger, gym samt den omtyckta Kville Saluhall. \n \n För bilägaren finns gott om gratis parkeringsplatser precis utanför bostaden, det går också att hyra en privat parkeringsplats. \n \n Det tar endast några minuter att nå centrala Göteborg, antingen med spårvagn eller buss.\n \n I månadsavgiften ingår värme, vatten, kabel-TV (grundutbud) samt\n tillgång till tvättstuga och torkrum.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11434,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Aspirantgatan, Göteborg",
     "url": "https://qasa.com/p/1392914",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Koppargatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1427874",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/91098e4c565bcb2adebf24dbf83a1d405bb09d32821a33e8a5484a1dfd69fc56.jpg",
-    "description": "Möblerad studentlägenhet för en person\n\nEndast för 1 person att hyra.\nHyra: SEK 8950 / månad.\n\nI källarplan på en villa med soligt läge samt egen entré, WC, dusch, kök mm. Uthyres 6 månader (eller enligt överenskommelse) till student eller liknande med goda referenser. \n\nI hyran ingår, möbler, tvätt-/torkmaskin, köksutrustning, TV, el, vatten, värme och Wi-Fi. Detaljer nedan.\n\nLägenheten är avsedd för 1 vuxen person.\nLägenheten är lokaliserad på cykelavstånd till centrum och till havet (Nya Varvet, Tångudden, Käringberget, Långedrag och Saltholmen). \n\nNärhet till affär (300m). 11ans spårvagnshållplats endast 2 min\npromenad från huset. 9ans spårvagn och Kungstens busshållplats 4min.\n\nLägenheten är ca 23,5 m2. Kök, sovrum och matplats ryms i öppen planlösning. Se bilder.\n\nRökning och husdjur är ej tillåtet.\n\nLägenhetens utrustning:\n--------------------------------\nIngår i hyra:\nToa, dusch, tvättmaskin, torktumlare, diskmaskin, spis, ugn, micro, köksfläkt, vattenkokare, bestick, tallrikar, glas, muggar, kastruller, stekpanna, strykjärn, strykbräda, säng 105x200, täcke,\nkudde, rumsavdelare mellan matplats och säng, köksbord med 4 stolar, platt-TV, ministereo med högtalare, dammsugare/städutrustning, uteplats med bord och tre stolar.\n\nWi-fi, vatten-, el-, värme- och sopavgifter ingår också i hyran.\n\nIngår inte:\nTelefon, parkering, sängkläder, handdukar, förbrukningsmaterial\n\nAvstånd:\n- 11 spårvagnshållplats - 200m\n- 9 spårvagnshållplats samt Kungstens busshållplats - 400m\n- ICA - 300m\n- Närmaste restaurant - 300m\n- Närmaste pizzeria - 300m\n\nAvstånd/tid med kollektivtrafik (spårvagn/buss):\n(lägg till ca 2-5 min för promenad till hållplats. Notera att tid kan variera beroende på tid för avgång):\n- Volvo PV Torslanda - 20 min\n- AstraZeneca i Mölndal - 22 min\n- SCA i Mölndalsbro - 30 min\n- Nils Ericson terminalen - 20 min\n- Centralstationen - 18 min\n- Chalmers Guldheden - 21 min\n- Lindholmsallén (Sience Parc, Chalmers, Ericsson etc) - 14 min\n- Järntorget - 14 min\n- Saltholmen - 9 min\n- Göteborgsoperan 15 min\n- Vasaplatsen 20 min\n- Liseberg 40 min\n- Linnéplatsen - 30 min\n- Handelshögskolan 32 min\n- Restaurant - 300m\n- Pizzeria - 250m\n- Bankomat 300m\n- Blomaffär 300m\n- Frisersalong - 250m\n\nDepositionsavgift à en månadshyra tillkommer vid kontraktsskrivning och återfås i samband med utflyttning och när flyttstädning samt inspektion av lägenheten är utförd utan anmärkning.\n\nHyran betalas senast den 27:e i varje månad för efterkommande månad.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 23.0,
-    "rent": 8950,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T16:42:20+00:00", "clock": "16:42:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T17:44:10+00:00", "clock": "17:44:10"};
