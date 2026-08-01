@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Österlyckan, Göteborg",
+    "url": "https://qasa.com/p/1341896",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09be383f333640cafde78370e38d8bff9b02879f363142a80ea96c4cea66868c.jpg",
+    "description": "🏠 Studentrum i modern villa – allt ingår!\nHyra: 4950 kr/mån\nYta: ca 10–15 kvm\nTillgängligt: Enligt överenskommelse\n \nLetar du efter ett tryggt, möblerat boende under studietiden? Vi erbjuder ljusa och välutrustade studentrum i en rymlig och modern villa med hög standard och trevliga gemensamma ytor.\n \n🛏️ Om boendet\nRummen är ca 10–15 kvm stora och möblerade med:\n \nSäng\n \nSkrivbord & stol\n \nGarderob\n \nEget kylskåp och mikrovågsugn\n \nRullgardin, gardinstång och papperskorg\n \nLåsbar dörr\n \n🍽️ Gemensamma utrymmen\nFullt utrustat kök med spis, mikro, frys (ett fack per person), arbetsytor och matplats\n \nTvå låsbara skåp per rum i köket\n \nGemensam toalett och dusch\n \nTvättmaskin och kondenstumlare finns\n \nGemensamma ytor städas av hyresgäster enligt städschema (ca var 6:e vecka per person)\n \n📶 Ingår i hyran\nVärme, el, vatten\n \nSophantering\n \nWiFi via fiber (1000 Mbit/s)\n \n🚍 Restider med Västtrafik\nChalmers: 22 min\n \nBrunnsparken: 19 min\n \nHandelshögskolan & Lindholmen: ca 34 min\n \n💰 Villkor\nHyra: 4 950 kr/mån\n \nDeposition: 1 månadshyra\n \nUthyres endast till studenter\n \nVisning enligt överenskommelse – digital visning kan ordnas\n \n-------------------------------------------------------------------\n \n🏠 Student Room in Modern Villa – All Inclusive!\nRent: 4,950 SEK/month\nSize: approx. 10–15 sqm\nAvailable: By agreement\n \nLooking for a safe, fully furnished place to stay during your studies? We offer bright and well-equipped student rooms in a modern villa with high standards and welcoming shared facilities.\n \n🛏️ About the Room\nEach room is approx. 10–15 sqm and comes furnished with:\n \nBed\n \nDesk & chair\n \nWardrobe\n \nPrivate fridge and microwave\n \nRoller blind, curtain rod, and waste bin\n \nLockable door\n \n🍽️ Shared Facilities\nFully equipped kitchen with stove, microwave, freezer (1 compartment per person), work surfaces, and dining area\n \nTwo lockable cabinets per room in the kitchen\n \nShared toilet and shower\n \nWashing machine and condenser dryer\n \nShared areas are cleaned by tenants according to a cleaning schedule (approx. every 6 weeks per person)\n \n📶 Included in Rent\nHeating, electricity, water\n \nWaste management\n \nFast fiber WiFi (1000 Mbit/s)\n \n🚍 Travel Times (Västtrafik)\nChalmers University: 22 min\n \nBrunnsparken (city center): 19 min\n \nSchool of Business, Economics and Law & Lindholmen: approx. 34 min\n \n💰 Terms\nRent: 4,950 SEK/month\n \nDeposit: One month’s rent\n \nFor students only\n \nViewings by appointment – digital viewing available\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4950,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brungatan, Västra Frölunda",
     "url": "https://qasa.com/p/1321123",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3700076a79e7402ae02e659b7f5013481f87248772ea71646365c0583f7ede69.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Kopparkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/1396747",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdff192157ffda2cf837475d5563b945e7c9805471b0c4a121f3b9491342a3a8.jpg",
-    "description": "Fin 1:a, helt separat lägenhet med egen ingång i villa i Sydvästra Göteborg nära Nya Hovås. Egen uteplats & parkering.  \nUthyres tillsvidare. \nUthyres till en person. Nybyggd 2017, fullt möblerad med bl. a. ställbar säng, golvvärme i hela lägenheten, full takhöjd, stora skjutdörrar ut till den egna altanen (kvällssol) som är under tak. Trinettkök med två kokplattor, kyl med frysfack och micro. Helkaklat badrum med dusch, tvättmaskin, handfat/lådor. Golvvärme i hela lägenheten.\nSEK 9000 månad inkl. ALLT.  (ingen serviceavgift tillkommer). Inklusive parkering, vatten/avlopp, sophämtning  & fiber/wi-fi,  kabel-tv/Com.  \nHuset beläget 25 meter från Sandsjöbacka naturreservat med mycket fin natur. Joggingspår runt flera sjöar. Ett par minuter med bil till Amundön och fantastiska havsbad, 10 minuter på cykel.\n5-7 min promenad till Nya Hovås/Ica samt busshållplats, Lyckhem-Brottkärr. Direktbuss till Linneplatsen/Järntorget (ca.20minuter) Sahlgrenska (17minuter), Chalmers (20min), Centralen (30min).\nNya Hovås - Liten \"småstad\" med den mesta servicen, välsorterad mataffär, fiskbil, bageri, restauranger, apotek, systembolag, vårdcentral, gym, affärer mm.  \n\nDu som hyr skall ha:\n-Fast inkomst\n-Inga betalningsanmärkningar\n-Djur och rökfri  \n- Hyran betalas i förskott.\n- 1 månads deposition krävs vid kontraktsskrivning, kontrakt skrivs ej via Blocket.  \n- Uppsägningstid 1 respektive 3 månader enligt lag.\n- Uthyres från 1/8. (ev. från 1/9)\n\nTacksam för endast seriösa svar där ovan önskemål stämmer. Maila kort om dig och kontaktuppgifter, från när du vill hyra och hur länge.\n\nVälkommen att titta på lägenheten!",
-    "district": "Hovås",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 8576,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T04:39:02+00:00", "clock": "04:39:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T07:14:41+00:00", "clock": "07:14:41"};
