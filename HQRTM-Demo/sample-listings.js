@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Aspirantgatan, Göteborg",
+    "url": "https://qasa.com/p/1392914",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
+    "description": "Välkommen till en välplanerad 2:a med gavelläge och stor balkong. Bostaden har en öppen och social planlösning, kök från Marbodal, goda möjligheter till förvaring med två skjutdörrsgarderober i fullhöjd samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\nLägenheten är belägen i ett modernt, stilrent kvarter i Bellevue, Kviberg. Här bor du tryggt, med goda kommunikationsmöjligheter och har allt du behöver nära till hands. Med spårvagn eller bil tar du dig till Göteborgs centrum på bara 10 minuter. Precis utanför porten finns hållplatsen Bellevue, där linjerna 6, 7, 11 och bussarna 21, 56, 510 passerar med täta avgångar. Ett stenkast åt andra hållet väntar grönska, här finner du ett rofyllt skogsparti med ett harmoniskt promenadstråk jämte Säveån. På bekvämt gångavstånd når du Gamlestaden, ett livfullt område med butiker, service och topprecenserade restauranger som Rolling Bistros, Tycho Mat & Möte, Mugworts, Dubbelhakan m.fl. Både Lidl och Coop finns inom en radie av 500 meter från lägenheten, likaså multisportcentret Prioritet Serneke Arena.\n\nHyran inkluderar:\n- Möblerad lägenhet\n- Elförbrukning\n- Uppvärmning\n- Varmvatten\n- Bredband 100Mbit/s och digital-TV via Telia Triple play\n\nMöblemang kan diskuteras vid önskemål. \n\nLägenheten hyrs ut på grund av arbete på annan ort. Jag söker en (eller max två) ordningssam, rök- och djurfri hyresgäst med långsiktigt boendebehov. Kontrakt skrivs på 6-12 månader i taget, med möjlighet till förlängning.\n\nVälkommen att höra av dig, berätta gärna lite om dig själv i din första kontakt!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 14050,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1428191",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1fb93124be4491bb6e5c29534a9c5b12560b40b365a71962c9a8532ce3b73ea6.jpg",
+    "description": "Fantastisk lägenhet i Karlatornet - möblerade 2-rumslägenhet i Karlatornet, belägen på 24:e våningen med en enastående utsikt över Göteborgs hamninlopp. Här njuter du av magiska solnedgångar och kvällssolen i ett hem utöver det vanliga. \n\nDet finns tillgång till gym, spa och hotellservice samt medlemskap i bilpool, kylrum på entréplan för exempelvis hemkörning av matkassar, bio-/aktivitetsrum samt lobby med reception.\n\nLägenheten hyrs ut delvis möblerad för en period om minst ett år, med möjlighet till årsvis förlängning eller enligt överenskommelse. Vid behov kan lägenheten hyras ut fullt möblerad. För närvarande saknas säng och skrivbord i sovrummet.\n\nEndast rökfria hyresgäster utan husdjur. Fast anställning och stabil inkomst är ett krav. Arbetsgivarintyg eller anställningsavtal önskas.\n\nPS. Om uthyrningen går snabbt är jag öppen för att diskutera en lite lägre hyra.\n\nVälkommen att höra av dig om du är intresserad!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 16500,
+    "floor": 24,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Teatergatan, Göteborg",
     "url": "https://qasa.com/p/1427694",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f01a3b27eb9246e26b53fee84473e2ea936713f40ed1482c5ac05a490417de74.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Wieselgrensgatan, Göteborg",
-    "url": "https://qasa.com/p/1427876",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a1a0a52f1a25891d0abe818c41fd8fda96153eb5a84565b3452adde7f931b86.jpg",
-    "description": "\nJag hyr ut ett nybyggt attefallshus (2022) på min tomt i Hildedal på centrala Hisingen till en person. Huset har 30 kvm boarea och en total golvyta på 45 kvm inklusive loft. Bostaden är fullt möblerad och hyrs ut tills vidare till en person.\n\nHuset har ett eget, fullt utrustat kök med induktionshäll, diskmaskin, kyl och frys, mikrovågsugn samt varmluftsugn. Det fräscha badrummet är utrustat med tvättmaskin och torktumlare. Bostaden erbjuder högt i tak, fint ljusinsläpp, smarta förvaringslösningar och en stor egen uteplats. Uppvärmning sker med golvvärme och luftvärmepump. Huset besiktigades av Stadsbyggnadskontoret 2022 utan anmärkningar.\n\nHildedal är ett lugnt och trivsamt område på centrala Hisingen, endast cirka 10 minuter med buss från Centralstationen. Här finns en blandning av charmiga äldre villor, nybyggda radhus och lägenheter samt fina promenad- och naturområden precis runt hörnet. Jag och min familj har bott här i över 12 år och trivs mycket bra.\n\nHyresvillkor:\n\n* Hyrs ut möblerad.\n* Uthyres tills vidare.\n* Två månaders deposition.\n* Tre månaders uppsägningstid.\n* El, vatten, internet och WiFi ingår i hyran.\n* Parkeringsplats på tomten finns.\n\nVid intresse är du välkommen att skicka ett meddelande och berätta lite om dig själv.\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Österlyckan, Göteborg",
-    "url": "https://qasa.com/p/1341896",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09be383f333640cafde78370e38d8bff9b02879f363142a80ea96c4cea66868c.jpg",
-    "description": "🏠 Studentrum i modern villa – allt ingår!\nHyra: 4950 kr/mån\nYta: ca 10–15 kvm\nTillgängligt: Enligt överenskommelse\n \nLetar du efter ett tryggt, möblerat boende under studietiden? Vi erbjuder ljusa och välutrustade studentrum i en rymlig och modern villa med hög standard och trevliga gemensamma ytor.\n \n🛏️ Om boendet\nRummen är ca 10–15 kvm stora och möblerade med:\n \nSäng\n \nSkrivbord & stol\n \nGarderob\n \nEget kylskåp och mikrovågsugn\n \nRullgardin, gardinstång och papperskorg\n \nLåsbar dörr\n \n🍽️ Gemensamma utrymmen\nFullt utrustat kök med spis, mikro, frys (ett fack per person), arbetsytor och matplats\n \nTvå låsbara skåp per rum i köket\n \nGemensam toalett och dusch\n \nTvättmaskin och kondenstumlare finns\n \nGemensamma ytor städas av hyresgäster enligt städschema (ca var 6:e vecka per person)\n \n📶 Ingår i hyran\nVärme, el, vatten\n \nSophantering\n \nWiFi via fiber (1000 Mbit/s)\n \n🚍 Restider med Västtrafik\nChalmers: 22 min\n \nBrunnsparken: 19 min\n \nHandelshögskolan & Lindholmen: ca 34 min\n \n💰 Villkor\nHyra: 4 950 kr/mån\n \nDeposition: 1 månadshyra\n \nUthyres endast till studenter\n \nVisning enligt överenskommelse – digital visning kan ordnas\n \n-------------------------------------------------------------------\n \n🏠 Student Room in Modern Villa – All Inclusive!\nRent: 4,950 SEK/month\nSize: approx. 10–15 sqm\nAvailable: By agreement\n \nLooking for a safe, fully furnished place to stay during your studies? We offer bright and well-equipped student rooms in a modern villa with high standards and welcoming shared facilities.\n \n🛏️ About the Room\nEach room is approx. 10–15 sqm and comes furnished with:\n \nBed\n \nDesk & chair\n \nWardrobe\n \nPrivate fridge and microwave\n \nRoller blind, curtain rod, and waste bin\n \nLockable door\n \n🍽️ Shared Facilities\nFully equipped kitchen with stove, microwave, freezer (1 compartment per person), work surfaces, and dining area\n \nTwo lockable cabinets per room in the kitchen\n \nShared toilet and shower\n \nWashing machine and condenser dryer\n \nShared areas are cleaned by tenants according to a cleaning schedule (approx. every 6 weeks per person)\n \n📶 Included in Rent\nHeating, electricity, water\n \nWaste management\n \nFast fiber WiFi (1000 Mbit/s)\n \n🚍 Travel Times (Västtrafik)\nChalmers University: 22 min\n \nBrunnsparken (city center): 19 min\n \nSchool of Business, Economics and Law & Lindholmen: approx. 34 min\n \n💰 Terms\nRent: 4,950 SEK/month\n \nDeposit: One month’s rent\n \nFor students only\n \nViewings by appointment – digital viewing available\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4950,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T15:48:44+00:00", "clock": "15:48:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T16:42:20+00:00", "clock": "16:42:20"};
