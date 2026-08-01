@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sventorpsliden , Göteborg",
+    "url": "https://qasa.com/p/1428112",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/efdcb35ebd2a7c3a169ff7578639b80a070e3141fa87465c6fa5f4e93163ba26.jpg",
+    "description": "Trevlig lägenhet perfekt för 1 person centralt belägen.\n\nLägenheten ligger på bottenplan på en 3 våningsvilla. Egen privat ingång. Rymlig hall, garderob, säng, sängbord, mindre skrivbord ingår. Vill man hyra utan möbler så går det att lösa. I hyran så ingår, el, värme, vatten, sophämtning, gratis parkering finns på gatan. Fiber uppkoppling ingår också. \n\nDet är ett centralt läge i Örgryte i ett tryggt villaområde.  Bara några minuters promenad ner till Korsvägen och Liseberg. \nBra kommunikation till Chalmers teknisk högskola, Göteborg universitet, Götaplatsen, Sahlgrenska sjukhuset. Delsjö naturreservat ligger också på promenad avstånd. Lägenheten har ett modernt kök, rymligt badrum. \n\nDu som hyresgäst ska vara rökfri, djurfri, skötsam, god ekonomi samt kunna uppge referenser vid eventuell förfrågan. Lägenhet passar perfekt för en person. \n  \nVi kan också ordna med extra förråd och förvaring om du har mycket lådor eller behov av förvaring.  \n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 8500,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bergakärrsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1427612",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a7d37911921eceb37a48b26e16c74cdfef7d2cedae434d9968f1f5515f3d274.jpg",
-    "description": "Vi har ett rum på nedre våningen i en 1,5 plans villa i ett lugnt område i Påvelund. Bredvid en idrottsplan och skog. En suite toalett & handfat, och egen dusch i samma korridor. Fem minuter till hållplatsen eller 25 minuter på cykel in till stan. 3500 SEK per månad.\nHuset är från 70-talet och är varken lyxigt eller modernt. \n\"Vi\" är en 61-årig forskare/lärare på GU, och en fem-årig katt som heter Moltas. Och ibland en eller flera av mina tre vuxna döttrar är här på besök. Du delar köket med oss så måste klara av vårt sällskap.\nIbland är jag bortrest (till exempel forskningsresor till Kambodja) och då är det bara du och katten i huset, så du måste klara av ensamhet och ansvaret.\nVi har hyrt ut rummet i 20 år så du kan kontakta förra detta hyresgäster för referenser. \nHör gärna av dig om det kan vara av intresse\n",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 14.0,
-    "rent": 3500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T12:05:58+00:00", "clock": "12:05:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T13:50:26+00:00", "clock": "13:50:26"};
