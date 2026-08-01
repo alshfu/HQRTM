@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smörslottsgatan, Göteborg",
+    "url": "https://qasa.com/p/1428313",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64f10dd57f545d03d5a94d3b8d3ed516484aa3ef2a47328562186e5e82938920.png",
+    "description": "På grund av arbete på annan ort hyr vi ut vår stora trea i Björkekärr, precis intill Östra sjukhuset. Promenadavstånd till Härlanda tjärn och en bra utgångspunkt för att nå Delsjöarna och Skatås. \n\nLägenheten är ny och fräsch (huset byggdes 2020), har en inglasad balkong och en fransk balkong, diskmaskin, tvättmaskin och torktumlare.  Ett större sovrum och ett mindre rum, som kan användas till sovrum, barnrum eller kontor. Den öppna planlösningen med ett stort vardagsrum och kök ger stora ytor och rymd. \n\nLägenheten hyrs ut omöblerad, förutom en mindre dubbelsäng på 145 cm, som finns i det större sovrummet.\n\nBra kommunikationer med buss 17 precis utanför porten och precis runt hörnet går expressbuss X5 från Backvägen in till centralstationen på 12 minuter. Från Östra sjukhuset går bland annat ettans spårvagn. \n\nI hyran ingår el, varmvatten, tv och internet. \n\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 15990,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1428298",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be4b06b948dedfe6631716b5f72344daff86775ab86ce7a4610d65e992978d09.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T19:58:42+00:00", "clock": "19:58:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T21:03:46+00:00", "clock": "21:03:46"};
