@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Koppargatan, Västra Frölunda",
     "url": "https://qasa.com/p/1427874",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/91098e4c565bcb2adebf24dbf83a1d405bb09d32821a33e8a5484a1dfd69fc56.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skäpplandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1230361",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9015d1fb0898b25eb63b27325c9708a55676e5af1957dacbc5f0c1b68bddcb55.jpg",
-    "description": "Söker en inneboende/någon att dela  min fina centrala trea med. Som boende här har du utöver ditt eget rum självklart tillgång till bostadens vardagsrum, kök, badrum och balkong. \nOch här får du inte bara bo i en bostad utan i ett hem. Du får gärna vilja bo en längre tid.  \nFantastiskt läge! Med vagn typ tre -åtta min resa, till mysiga Majorna, en fika i Linne, handling på Frölunda torg eller studier på Chalmers eller GU. Bara en kort bussresa till havet eller insjön, och parker och naturområden, och till och med berg finns på gångavstånd! \nGrymt läge med 2 min till hållplats, 1.5 -2 min till mataffär, gym, frisör och pizzeria. Härifrån går bussar och vagnar till hela stan. Bekväma cykelavstånd, bra cykelvägar och lånecyklar finns. Stenkast ifrån parker och flera naturområden. Knappt 10 min promenad till bibliotek, apotek och annan samhällsservice. Uteplats utanför huset.\n\nJag ser fram emot ditt personliga meddelande - att du berättar om dig, och vem du är! Prefabricerade meddelanden eller AI-genererade texter bortses ifrån. Ser fram emot att höra om  hur du fungerar med andra, varför du är intresserad av att bo just här, vad du sysselsätter dig med, intressen, hur du bor idag etc.\n\nRummet är möblerat ungefär enligt vad som finns på bilderna, men vissa förändringar i möblemanget kan ha skett. Sängen är en 140 cm säng. Skrivbord finnes i vardagsrummet, men som vi som bor här tillsammans delar på, men som kan användas när det är ledigt, och självklart kan du använda köksbordet för studier när så möjligt med.  \nBra tvättstuga med lätt att få tider. Vid besök kan finnas möjlighet att hyra in sig i fastighetens gästrum.\nOm hyra etc: I hyran ingår, snabbt internet, el, värme, vatten, även vissa förbrukningsvaror. Du betalar en månads deposition.\n\nIbland är vår supermysiga katt där, katten är en av de raser som räknas som låg-allergena eller allergivänliga.\n\nLite om dig: \nJag söker dig som respekterar och är varsam med mitt hem och det som är här. Dig som söker den privata sfären och lugnet. Som uppskattar samvaron och det sociala! Du håller god ordning, rent och fräscht runt dig, är trygg med dig själv och stabil, har stadig inkomst/studiemedel, röker inte och har inga djur, använder inte droger. Inga fester i bostaden.  Du är öppen och bra på att kommunicera, och vill samarbeta, ömsesidig tillit och respekt är viktigt. Är du vegetarian, veckopendlare eller utbytesstudent är det en fördel.\n\nBilder också på uteplats med blomsterprakt, och närliggande odlingsområde med möjlighet till fikastund.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 5050,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Barken Storegrunds Gata, Göteborg",
-    "url": "https://qasa.com/p/1427342",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc3e201998aca415ff48c9bed5f4cd0e9e34a67e402a731fad082fb62f4fbff7.jpg",
-    "description": "Stor 2: med inglasad uteplats. Med utsikt över Sannegårdshamnen och Karlatornet ifrån sovrummet.\nStor öppen planlöst vardagsrum och kök.\nIngår internet, temperatur är perfekt året runt.\nParkering finns extra ca 150-200m iväg, samma som busshållplats.\nNärhet till 3 gym, ICA Kvantum, Coop, Normal, Arken Zoo, Systembolaget och mycket mer.\nBageri, Frisör och Pizzeria rakt över gatan!\n\nHelst hyrs den ut omöblerad. Fasta hyllor, soffa på uteplats och sängbord och liknande kommer lämnas.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 15500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T09:24:52+00:00", "clock": "09:24:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-01T10:57:45+00:00", "clock": "10:57:45"};
