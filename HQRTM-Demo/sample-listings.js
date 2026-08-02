@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kobbeslätten, Askim",
+    "url": "https://qasa.com/p/1428650",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e9a877e61c7200e2e0358c9c0c5730e398f654f83bf06a772d0c6b07c0f229b.jpg",
+    "description": "Gavellägenhet med otroligt ljusinsläpp. Modernt kök i öppen planlösning. 2 rymliga sovrum och klädkammare.\nHelkaklat badrum med dusch. \nMöblerbar loftgång utan passage.\nEl, vatten och bredband ingår.",
+    "district": "Askim",
+    "rooms": 3.0,
+    "area_m2": 79.0,
+    "rent": 19000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Konvaljegatan, Göteborg",
     "url": "https://qasa.com/p/1428489",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e5f8dc5c638fc7f7eca1518185aab5865c5f03232c5f88e19396a88ebbad5c8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ögontröstgatan, Göteborg",
-    "url": "https://qasa.com/p/1428232",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/568809e72c8d535777f9460bf0778ec20b61921077dae3deaba44e8e880238d1.jpg",
-    "description": "Välkommen till Ögontröstgatan 1C, här bjuds du på genomgående ljusa och fräscha\n ytor, ett stilfullt kök från IKEA med moderna inslag samt ett välvårdat badrum utrustat\n med ett avkopplande badkar. \n På en fridfull gata, omgiven av charmiga villor och grönska hittar du denna lägenhet.\n På bekvämt avstånd finns ett brett utbud av bekvämligheter, inklusive flertalet restauranger, gym samt den omtyckta Kville Saluhall. \n \n För bilägaren finns gott om gratis parkeringsplatser precis utanför bostaden, det går också att hyra en privat parkeringsplats. \n \n Det tar endast några minuter att nå centrala Göteborg, antingen med spårvagn eller buss.\n \n I månadsavgiften ingår värme, vatten, kabel-TV (grundutbud) samt\n tillgång till tvättstuga och torkrum.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T12:44:44+00:00", "clock": "12:44:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T14:17:09+00:00", "clock": "14:17:09"};
