@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hålskogsgatan, Angered",
+    "url": "https://qasa.com/p/1428631",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a70668a550ecb1b51898459b968763bf2356d01c3f8c3a89448cf0977b171ec.jpg",
+    "description": "\nkällarvåning uthyres – 3 sovrum, 2 badrum, 1 kök\nRenoverad 2026, ca 100 m², med egen ingång och separat uteplats. Mycket bra läge – endast ca 250 m till spårvagn (3 linjer).\n\nIngår:\n• 3 sovrum (ca 10–15 m²)\n• 2 dusch/WC\n• 1 fullt utrustat kök\n• Vardagsrum\n• Diskmaskin, tvättmaskin, torktumlare\n\n--Hyra: 15 000 kr/mån utan övriga kostnader\n--Hyra +El+ sophantering +internet +parkeringsplats är 19000kr/mån \n\nVillkor:\nDjur- och rökfritt, huvudsaklig sysselsättning arbete, inga betalningsanmärkningar, referenser är ett plus.\n\nVid intresse – skicka gärna:\n• Sysselsättning\n• Kort om dig själv\n• Ålder\n• Inflyttningsdatum\n• Hyresperiod\n",
+    "district": "Angered",
+    "rooms": 4.0,
+    "area_m2": 98.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lindholmsallen, Göteborg",
+    "url": "https://qasa.com/p/1417764",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5ad235041540207eb6bb9dd7d46b1bb0f417fc74b2b262e016ccb9af6eae656.jpg",
+    "description": "\nMöblerad lägenhet uthyres i Lindholmen\n\nJag hyr ut min fullt möblerade och välutrustade lägenhet i lindholmen \n\nLägenheten ligger i ett av Göteborgs mest attraktiva områden, precis intill **Karlatornet**, med närhet till restauranger, caféer, gym, matbutiker och vackra promenadstråk längs vattnet.\n\nEn stor fördel är att du kan ta den **kostnadsfria Älvsnabben-färjan** över älven till centrala Göteborg på bara några minuter.\n\n* Fullt möblerad och inflyttningsklar\n* Fullt utrustat kök med allt som behövs\n* Hyran inkluderar internet och kallvatten\n* El och varmvatten debiteras separat enligt månadsfaktura\n* Miljövänlig fastighet med fokus på hållbarhet\n* Hyran: 18000 kr per månad \nPassar perfekt för dig som söker ett bekvämt och trivsamt boende under en begränsad period.\n\nVid intresse är du varmt välkommen att skicka ett meddelande för mer information eller visning.\n",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kobbeslätten, Askim",
     "url": "https://qasa.com/p/1428650",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e9a877e61c7200e2e0358c9c0c5730e398f654f83bf06a772d0c6b07c0f229b.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ulfsparregatan, Göteborg",
-    "url": "https://qasa.com/p/1428332",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c522076c3b9da3bf748e3eb567f7cd86847c368e0e093ce66e81ed8414aae44.jpg",
-    "description": "Jag hyr ut min ljusa och välplanerade genomgångslägenhet eftersom jag har sysselsättning på annan ort.\nLägenheten har ett fint ljusinsläpp, charmiga trägolv och en balkong med härlig eftermiddags- och kvällssol – en perfekt plats att koppla av och njuta av solen.\n\nFastigheten omges av en grön och lummig gård med flera grillplatser samt trevliga sittgrupper med både matbord och solstolar. En lugn och trivsam miljö som bjuder in till avkoppling.\n\nLäget är mycket bra med goda kommunikationer. På några minuters promenad når du Redbergsplatsen och femmans spårvagn, och Centralstationen ligger endast cirka 10–15 minuter bort. För dig som uppskattar natur och friluftsliv finns det vackra Delsjöområdet på bekvämt avstånd.\n\nLägenheten passar utmärkt för studenter, pendlare eller dig som söker ett trivsamt och välskött boende med en hemtrevlig känsla.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 10300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslottsgatan, Göteborg",
-    "url": "https://qasa.com/p/1428313",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64f10dd57f545d03d5a94d3b8d3ed516484aa3ef2a47328562186e5e82938920.png",
-    "description": "På grund av arbete på annan ort hyr vi ut vår stora trea i Björkekärr, precis intill Östra sjukhuset. Promenadavstånd till Härlanda tjärn och en bra utgångspunkt för att nå Delsjöarna och Skatås. \n\nLägenheten är ny och fräsch (huset byggdes 2020), har en inglasad balkong och en fransk balkong, diskmaskin, tvättmaskin och torktumlare.  Ett större sovrum och ett mindre rum, som kan användas till sovrum, barnrum eller kontor. Den öppna planlösningen med ett stort vardagsrum och kök ger stora ytor och rymd. \n\nLägenheten hyrs ut omöblerad, förutom en mindre dubbelsäng på 145 cm, som finns i det större sovrummet.\n\nBra kommunikationer med buss 17 precis utanför porten och precis runt hörnet går expressbuss X5 från Backvägen in till centralstationen på 12 minuter. Från Östra sjukhuset går bland annat ettans spårvagn. \n\nI hyran ingår el, varmvatten, tv och internet. \n\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 15990,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T14:17:09+00:00", "clock": "14:17:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T15:31:39+00:00", "clock": "15:31:39"};
