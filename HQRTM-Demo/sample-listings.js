@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brödragatan, Göteborg",
+    "url": "https://qasa.com/p/1419307",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7476000eff52b9616f729074de2bab400d3696f11fe6cc40699da945b6fc4196.jpg",
+    "description": "Välkommen till detta mysiga och välplanerade boende i Örgryte, ett av Göteborgs mest eftertraktade och centrala områden. \n\nBoendet ligger i ett lugnt och stilla område men ändå mycket centralt; du har nära till utmärkta kommunikationer, butiker, kaféer och alla Göteborgs sevärdheter. \n\nLägenheten ligger i bottenplanet av ett funkisradhus ritat av arkitekt Ingrid Wallberg med tidstypiska originaldetaljer.\n\nLägenheten är fullt möblerad och har en enkelsäng (90 cm), en bäddsoffa (140 cm), ett modernt badrum, tvättmaskin samt ett välutrustat pentry. \n\nDet moderna och nyrenoverade badrummet är fräscht och praktiskt och det finns även tvättmaskin.\n\nPentryt är utrustat med allt som behövs för enklare måltider, inklusive kylskåp med frysfack och en portabel induktionshäll.\n\nKliv ut på din egen privata uteplats som badar i härlig morgonsol den perfekta platsen för att njuta av morgonkaffet, frisk luft och en lugn start på dagen, eller för att koppla av på kvällen efter att ha utforskat staden.\n\nDu har full och privat tillgång till bostaden.\n\nDet ingår el, vatten och sopphämtning i hyran.\n\nVi hyr ut med möjlighet till förlängning.\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 65.0,
+    "rent": 11950,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ulfsparregatan, Göteborg",
     "url": "https://qasa.com/p/1428332",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c522076c3b9da3bf748e3eb567f7cd86847c368e0e093ce66e81ed8414aae44.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Teatergatan, Göteborg",
-    "url": "https://qasa.com/p/1427694",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f01a3b27eb9246e26b53fee84473e2ea936713f40ed1482c5ac05a490417de74.jpg",
-    "description": "Välkommen med din ansökan! Berätta lite om dig/er och nuvarande boendesituation så återkommer jag till dig/er så snart som möjligt.\n\nBostadsfakta:\n+ Gata: Teatergatan (super centralt!)\n+ Boarea: 64 kvm\n+ Antal rum: 2 rok + balkong i sydväst mot gården\n+ Våning: 4 av 7, hiss finns\n+ Hyra: 16750 kr/månad\n+ Ingår i hyran: bredband, vatten, värme\n+ Hela lägenheten nymålad juni 2025\n+ Tillgänglig: långtidsuthyrning tills vidare\n+ Deposition: en månadshyra\n+ Tvättstuga: finns på första våningen i samma byggnad\n+ Vänligen observera att bilderna är inte aktuella\n+ Kan hyras ut möblerad eller omöblerad \n\nCity tvåa med balkong i sydväst mot grönskande innergård. Kanonbra läge med direkt närhet till Avenyn och allt vad stan har att erbjuda och ligger ett stenkast från Valand station. Trots det centrala läget är lägenheten tyst och behaglig då balkong och fönster vetter mot föreningens grönskande innergård med fina planteringar och uteplatser.\n\nPlanlösning:\nHall med parkettgolv och vita tapetserade väggar.\n\nLjust och luftigt vardagsrum med parkettgolv och vitmålade väggar. Utgång till balkong med lugnt och trevligt läge mot grönskande innergård. Vid fint väder kan man på balkongen njuta av solen från mitt på dagen till sen kväll. På balkongen finns plats för ett mindre bord med tillhörande stolar.\n\nKök med plastmatta på golvet och vitmålade väggar. Köket är stort och rymligt med matplats vid fönster. Släta vita skåpsluckor och skåpstommar. Brunt kakel ovanför diskbänken. Bänkskivor modell Perstorpsplatta. I köket finns spis med ugn, fläkt och kombinerad kyl/frys.\n\nSovrum med plastmatta på golvet och gula tapetserade väggar. Här finns en dubbelsäng som plats för arbetshörna. Tre garderober och två linneskåp för bra förvaring.\n===========================================\nKrav:\n- Ingen rökning eller husdjur tillåtet\n- Hyres ut till max två personer\n- Ett år kontrakt,\n- Skriftliga inkomstuppgifter samt goda referenser behövs (en kreditupplysning får beställas)\n- Airbnb eller liknande andrahandsuthyrning är inte tillåtet\n===========================================\nProperty Details:\n+ Street: Teatergatan (very central)\n+ Living area: 64 sqm\n+ Rooms: 2 rooms and kitchen + balcony facing southwest towards the courtyard\n+ Floor: 4th of 7 (elevator available)\n+ Rent: SEK 16750/month\n+ Included in rent: internet, water, heating\n+ Available for 1 year, and possible extension.\n+ Deposit: one month's rent\n+ Laundry room: available on the first floor of the same building\n+ Please note the pics are not current\n+ Furnished or unfurnished works\n\nDescription:\nCity apartment (one-bedroom) with a southwest-facing balcony overlooking a lush courtyard. Excellent location, close to Avenyn and all the city has to offer, just steps away from Valand station. Despite the central location, the apartment remains quiet and comfortable, as the balcony and windows face the green inner courtyard with pleasant plantings and outdoor seating areas.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 16950,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T08:56:35+00:00", "clock": "08:56:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T10:43:14+00:00", "clock": "10:43:14"};
