@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Konvaljegatan, Göteborg",
+    "url": "https://qasa.com/p/1428489",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e5f8dc5c638fc7f7eca1518185aab5865c5f03232c5f88e19396a88ebbad5c8.jpg",
+    "description": "Jag hyr ut min fina, rymliga etta på centrala Hisingen. Nyrenoverat kök, fräscht badrum med badkar, fönster i två väderstreck. Bra kommunikation in till stan, 4 min gång till hållplats Wieselgrensplatsen. 1 min till Willys, Coop finns också. Lugna grannar. \n\nHyra 7800 kr/månad\nIngår i hyran: möblerat, vatten, el, internet. Fullt utrustat kök.\nDu behöver teckna en egen hemförsäkring. \nIngår inte tillgång till källarförråd, behöver ha egna grejer där.\n\nHyr ut till en person, alternativt ett par. Krav på rökfritt men husdjur går bra. \n\nAnledning till uthyrning: ska flytta till Uppsala för att studera. Hyr ut 6 månader till en början, med möjlighet till förlängning. \n\nHör gärna av dig och berätta lite om dig själv och varför du vill hyra, och om du har några frågor. \n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 7800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kristinehöjdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1428581",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e683240c29ba77dde250d66ca5bd3115e7e957f02b65afc5edb017d5ea409e2b.jpg",
+    "description": "Mysig liten 2:a med balkong i lugnt område vid Carlanders parken, nära Göteborgs Universitet och promenadavstånd till Avenyn. Goda kommunikationer. I området finns dessutom gott om restauranger, mataffär, service m m. Lägenheten uthyrs pga studier på annan ort.  ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 12980,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Torholmsvägen, Donsö",
     "url": "https://qasa.com/p/1428578",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6a89865bc452046c3d4ab7cb6179f398ce82626f70fdbbf4d386ac2b420c7b78.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Aspirantgatan, Göteborg",
-    "url": "https://qasa.com/p/1392914",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
-    "description": "Välkommen till en välplanerad 2:a med gavelläge och stor balkong. Bostaden har en öppen och social planlösning, kök från Marbodal, goda möjligheter till förvaring med två skjutdörrsgarderober i fullhöjd samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\nLägenheten är belägen i ett modernt, stilrent kvarter i Bellevue, Kviberg. Här bor du tryggt, med goda kommunikationsmöjligheter och har allt du behöver nära till hands. Med spårvagn eller bil tar du dig till Göteborgs centrum på bara 10 minuter. Precis utanför porten finns hållplatsen Bellevue, där linjerna 6, 7, 11 och bussarna 21, 56, 510 passerar med täta avgångar. Ett stenkast åt andra hållet väntar grönska, här finner du ett rofyllt skogsparti med ett harmoniskt promenadstråk jämte Säveån. På bekvämt gångavstånd når du Gamlestaden, ett livfullt område med butiker, service och topprecenserade restauranger som Rolling Bistros, Tycho Mat & Möte, Mugworts, Dubbelhakan m.fl. Både Lidl och Coop finns inom en radie av 500 meter från lägenheten, likaså multisportcentret Prioritet Serneke Arena.\n\nHyran inkluderar:\n- Möblerad lägenhet\n- Elförbrukning\n- Uppvärmning\n- Varmvatten\n- Bredband 100Mbit/s och digital-TV via Telia Triple play\n\nMöblemang kan diskuteras vid önskemål. \n\nLägenheten hyrs ut på grund av arbete på annan ort. Jag söker en (eller max två) ordningssam, rök- och djurfri hyresgäst med långsiktigt boendebehov. Kontrakt skrivs på 6-12 månader i taget, med möjlighet till förlängning.\n\nVälkommen att höra av dig, berätta gärna lite om dig själv i din första kontakt!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 14050,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1428191",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1fb93124be4491bb6e5c29534a9c5b12560b40b365a71962c9a8532ce3b73ea6.jpg",
-    "description": "Fantastisk lägenhet i Karlatornet - möblerade 2-rumslägenhet i Karlatornet, belägen på 24:e våningen med en enastående utsikt över Göteborgs hamninlopp. Här njuter du av magiska solnedgångar och kvällssolen i ett hem utöver det vanliga. \n\nDet finns tillgång till gym, spa och hotellservice samt medlemskap i bilpool, kylrum på entréplan för exempelvis hemkörning av matkassar, bio-/aktivitetsrum samt lobby med reception.\n\nLägenheten hyrs ut delvis möblerad för en period om minst ett år, med möjlighet till årsvis förlängning eller enligt överenskommelse. Vid behov kan lägenheten hyras ut fullt möblerad. För närvarande saknas säng och skrivbord i sovrummet.\n\nEndast rökfria hyresgäster utan husdjur. Fast anställning och stabil inkomst är ett krav. Arbetsgivarintyg eller anställningsavtal önskas.\n\nPS. Om uthyrningen går snabbt är jag öppen för att diskutera en lite lägre hyra.\n\nVälkommen att höra av dig om du är intresserad!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 16500,
-    "floor": 24,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T11:46:33+00:00", "clock": "11:46:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T12:44:44+00:00", "clock": "12:44:44"};
