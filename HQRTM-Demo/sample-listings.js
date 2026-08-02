@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Torholmsvägen, Donsö",
+    "url": "https://qasa.com/p/1428578",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6a89865bc452046c3d4ab7cb6179f398ce82626f70fdbbf4d386ac2b420c7b78.jpg",
+    "description": "Ett mysigt skärgårdshus nära naturen och nära havet med egen altan och trädgård på ön Donsö i Göteborgs södra skärgård.\nHuset har tvättrum och två badrum, varav ett har dusch. Här finns ett vardagsrum med öppen spis med utgång till altanen på baksidan. Villan har 3 - 4 sovrum, möjlighet för kontor och ett helt nyrenoverat kök. \nPå tomten finns även ett litet separat cykelgarage.\n\nDet går färjor från Donsö med totalt cirka 1 timme kollektivtrafik till centrala Göteborg.\nPå ön finns ingen vanlig biltrafik, vanligaste färdmedlen på ön är cyklar eller små elbilar.\n",
+    "district": "Donsö",
+    "rooms": 5.0,
+    "area_m2": 120.0,
+    "rent": 18500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brödragatan, Göteborg",
     "url": "https://qasa.com/p/1419307",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7476000eff52b9616f729074de2bab400d3696f11fe6cc40699da945b6fc4196.jpg",
@@ -44,21 +59,6 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Björlandavägen, Göteborg",
-    "url": "https://qasa.com/p/1428298",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be4b06b948dedfe6631716b5f72344daff86775ab86ce7a4610d65e992978d09.jpg",
-    "description": "Välkommen till ett helt nybyggt och modernt attefallshus på 30 kvm med hög standard. Bostaden har en smart planlösning, nya vitvaror och kan hyras möblerad, delvis möblerad eller omöblerad enligt överenskommelse.\nTill huset hör en stor privat uteplats med altan och tillgång till en rymlig tomt på cirka 200 kvm – perfekt för avkoppling eller umgänge utomhus.\nI hyran ingår el, vatten, sophämtning och parkering. Bostaden ligger på Gamla Björlandavägen i ett lugnt och trivsamt område med närhet till kollektivtrafik, service, natur och goda kommunikationer till centrala Göteborg.\nVi söker en skötsam hyresgäst med ordnad ekonomi. Rökning inomhus är inte tillåten.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
     "listing_type": "fcfs"
   },
   {
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T10:43:14+00:00", "clock": "10:43:14"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T11:46:33+00:00", "clock": "11:46:33"};
