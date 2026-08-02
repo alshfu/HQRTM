@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Höjdhopparegången, Göteborg",
+    "url": "https://qasa.com/p/1429007",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8453b391153c18360b167d7e1217984d338b57b21ed4b5f57da0d40a4f90962a.jpg",
+    "description": "Huset är ett modernt och välskött tvåplansboende med ljus träfasad och stora fönster som släpper in rikligt med dagsljus. Den öppna planlösningen ger en rymlig känsla och passar både familjer och par som söker ett bekvämt hem. På entréplanet finns generösa sociala ytor medan övervåningen erbjuder lugna sovrum med bra förvaring. Den trädgården och uteplatsen gör det enkelt att njuta av soliga dagar och avkoppling utomhus. Fastigheten ligger i ett tryggt och naturnära område med goda kommunikationer och närhet till service. 5 minuter promenad till spårvagn, mataffärer, vårdcentralen och Svartmösse.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 117.0,
+    "rent": 17100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Distansgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1428996",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee396f461d0084e1221979ac65a075331c4dde1182700c1f6fd725ba8c3b9b09.jpg",
+    "description": "Tvåa, 50kvm, ligger i Flatås.\n- Lugnt område\n- Nyrenoverad\n- Parkering ingår\n- Diskmaskin\n- Tvättmaskin\n- Internet ingår\n- El ingår\n- Uteplats med kvällssol och utemöbler\n\n11.000kr / månad inkl:\nParkering, Internet & El\n\n1 minut promenad till busshållplats:\nSynhållsgatan\n\n8 minuter promenad till spårvagn:\nLantmilsgatan / Marklandsgatan\n\nUthyres 1år",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Handelsmyntet, Göteborg",
     "url": "https://qasa.com/p/1428980",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c15f7d0b63c9b457b8bb90f503693e444f7e9b12393d0c3fd3b47784fc6a0f71.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Spåntorget, Göteborg",
-    "url": "https://qasa.com/p/1428788",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b2d76dc396771cfdb4e9abef72dbbad5801db38101a49aa64c575a5fa123303.jpg",
-    "description": "Lägenhet är 63kvm och har två sovrum vardagsrum kök hall och en balkong\nDelas med mig och min katt, vi är vana att bo ihop med andra \nSöker endast att bo ihop med tjej/kvinna\n\nLägenheten ligger på tredje våningen och det finns ingen hiss\nRummet som uthyres är 8kvm och möblerat med en 80-säng\nEl och internet inkluderat i hyran\nEn månadshyra i deposition\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 4700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hålskogsgatan, Angered",
-    "url": "https://qasa.com/p/1428631",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a70668a550ecb1b51898459b968763bf2356d01c3f8c3a89448cf0977b171ec.jpg",
-    "description": "\nkällarvåning uthyres – 3 sovrum, 2 badrum, 1 kök\nRenoverad 2026, ca 100 m², med egen ingång och separat uteplats. Mycket bra läge – endast ca 250 m till spårvagn (3 linjer).\n\nIngår:\n• 3 sovrum (ca 10–15 m²)\n• 2 dusch/WC\n• 1 fullt utrustat kök\n• Vardagsrum\n• Diskmaskin, tvättmaskin, torktumlare\n\n--Hyra: 15 000 kr/mån utan övriga kostnader\n--Hyra +El+ sophantering +internet +parkeringsplats är 19000kr/mån \n\nVillkor:\nDjur- och rökfritt, huvudsaklig sysselsättning arbete, inga betalningsanmärkningar, referenser är ett plus.\n\nVid intresse – skicka gärna:\n• Sysselsättning\n• Kort om dig själv\n• Ålder\n• Inflyttningsdatum\n• Hyresperiod\n",
-    "district": "Angered",
-    "rooms": 4.0,
-    "area_m2": 98.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T20:51:17+00:00", "clock": "20:51:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T21:44:14+00:00", "clock": "21:44:14"};
