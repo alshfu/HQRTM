@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Spåntorget, Göteborg",
+    "url": "https://qasa.com/p/1428788",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b2d76dc396771cfdb4e9abef72dbbad5801db38101a49aa64c575a5fa123303.jpg",
+    "description": "Lägenhet är 63kvm och har två sovrum vardagsrum kök hall och en balkong\nDelas med mig och min katt, vi är vana att bo ihop med andra \nSöker endast att bo ihop med tjej/kvinna\n\nLägenheten ligger på tredje våningen och det finns ingen hiss\nRummet som uthyres är 8kvm och möblerat med en 80-säng\nEl och internet inkluderat i hyran\nEn månadshyra i deposition\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 4800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hålskogsgatan, Angered",
     "url": "https://qasa.com/p/1428631",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a70668a550ecb1b51898459b968763bf2356d01c3f8c3a89448cf0977b171ec.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brödragatan, Göteborg",
-    "url": "https://qasa.com/p/1419307",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7476000eff52b9616f729074de2bab400d3696f11fe6cc40699da945b6fc4196.jpg",
-    "description": "Välkommen till detta mysiga och välplanerade boende i Örgryte, ett av Göteborgs mest eftertraktade och centrala områden. \n\nBoendet ligger i ett lugnt och stilla område men ändå mycket centralt; du har nära till utmärkta kommunikationer, butiker, kaféer och alla Göteborgs sevärdheter. \n\nLägenheten ligger i bottenplanet av ett funkisradhus ritat av arkitekt Ingrid Wallberg med tidstypiska originaldetaljer.\n\nLägenheten är fullt möblerad och har en enkelsäng (90 cm), en bäddsoffa (140 cm), ett modernt badrum, tvättmaskin samt ett välutrustat pentry. \n\nDet moderna och nyrenoverade badrummet är fräscht och praktiskt och det finns även tvättmaskin.\n\nPentryt är utrustat med allt som behövs för enklare måltider, inklusive kylskåp med frysfack och en portabel induktionshäll.\n\nKliv ut på din egen privata uteplats som badar i härlig morgonsol den perfekta platsen för att njuta av morgonkaffet, frisk luft och en lugn start på dagen, eller för att koppla av på kvällen efter att ha utforskat staden.\n\nDu har full och privat tillgång till bostaden.\n\nDet ingår el, vatten och sopphämtning i hyran.\n\nVi hyr ut med möjlighet till förlängning.\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 65.0,
-    "rent": 11950,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T15:31:39+00:00", "clock": "15:31:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T16:31:26+00:00", "clock": "16:31:26"};
