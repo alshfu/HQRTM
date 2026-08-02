@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mandolingatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1422693",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02fca60b3492ac32154c3bed192fb6480dddce6dda850f891d1600b08353a8b6.jpg",
+    "description": "Hyr ut min lägenhet pga samboprovboende. Kan hyras ut minst 6 mån med goda chanser till förlängning upp till 1 år. I hyran ingår el, vatten och bredband. \n\nLägenheten är ljus och trevlig i nyproducerat kvarter, med närhet till butiker, gym, apotek, vårdcentral mm (Frölunda Torg ca 5 min gång) samt goda kommunikationer (spårvagnshållplats ca 3 min gång). \n\nÖppen planlösning med separat matplats i kök. Lägenheten är på 2 rum och kök men då förrådet finns inne i lägenheten med egen dörr, el och fönster kan detta fungera som ett andra sovrum vid behov. \n\nEgen ingång via loftgång (säkerhetsdörr), fönster i två väderstreck, balkong i sydvästläge med sol stora delar av dagen. Delar av fastigheten/närliggande fastigheter på gården är trygghetsboende dvs för personer 70+, vilket gör området väldigt lugnt och tryggt. Här bor även mycket barnfamiljer. ",
+    "district": "Västra Frölunda",
+    "rooms": 2.5,
+    "area_m2": 68.0,
+    "rent": 13250,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lotsarnas väg , Vrångö",
+    "url": "https://qasa.com/p/1428383",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b50ebb2a3b4e14dc060f4bd6035c4c8c2d7b0f9178208881c0e708095487b3f5.jpg",
+    "description": "Mysig lägenhet på Vrångö i Göteborgs södra skärgård. Ligger på första våningen i gröna huset på bilden med balkong på framsidan.\n2 rum och litet kök. Toalett och handfat i lägenheten samt egen dusch i källaren.\n\nBas möblerat med 140cm säng, byrå, garderob, matbord och 4 stolar, soffa, soffbord och 2 hyllor. OBS! Lite annan uppsättning av möbler jämfört med bilderna\n\nPå ön finns en Tempo matbutik som är öppet året runt samt flera restauranger på sommaren och 1 fiskrestaurang/butik som har öppet nästan året runt.\n\nLÄS DETTA INNAN DU SVARAR\n1. Hyrs bara ut till 1 hyresgäst\n2. Vrångö är en ö med ca 350 åretrunt boende utan bilar. Pendling sker med båt till Saltholmen - ca 30 min - och sedan spårvagn 11 eller direktbuss 114 till Brunnsparken (ca 20 min).\n3. El och wifi tillkommer utöver hyra. Delas enligt överenskommen splitt.",
+    "district": "Vrångö",
+    "rooms": 2.0,
+    "area_m2": 38.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kråkeskärsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1428875",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89323de15914ef7a9907086dcddc267d107b7e6f94b713744d92979c2b3e69c3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kobbeslätten, Askim",
-    "url": "https://qasa.com/p/1428650",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e9a877e61c7200e2e0358c9c0c5730e398f654f83bf06a772d0c6b07c0f229b.jpg",
-    "description": "Gavellägenhet med otroligt ljusinsläpp. Modernt kök i öppen planlösning. 2 rymliga sovrum och klädkammare.\nHelkaklat badrum med dusch. \nMöblerbar loftgång utan passage.\nEl, vatten och bredband ingår.",
-    "district": "Askim",
-    "rooms": 3.0,
-    "area_m2": 79.0,
-    "rent": 19000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Konvaljegatan, Göteborg",
-    "url": "https://qasa.com/p/1428489",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e5f8dc5c638fc7f7eca1518185aab5865c5f03232c5f88e19396a88ebbad5c8.jpg",
-    "description": "Jag hyr ut min fina, rymliga etta på centrala Hisingen. Nyrenoverat kök, fräscht badrum med badkar, fönster i två väderstreck. Bra kommunikation in till stan, 4 min gång till hållplats Wieselgrensplatsen. 1 min till Willys, Coop finns också. Lugna grannar. \n\nHyra 7800 kr/månad\nIngår i hyran: möblerat, vatten, el, internet. Fullt utrustat kök.\nDu behöver teckna en egen hemförsäkring. \nIngår inte tillgång till källarförråd, behöver ha egna grejer där.\n\nHyr ut till en person, alternativt ett par. Krav på rökfritt men husdjur går bra. \n\nAnledning till uthyrning: ska flytta till Uppsala för att studera. Hyr ut 6 månader till en början, med möjlighet till förlängning. \n\nHör gärna av dig och berätta lite om dig själv och varför du vill hyra, och om du har några frågor. \n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 7800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T18:40:06+00:00", "clock": "18:40:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T19:54:00+00:00", "clock": "19:54:00"};
