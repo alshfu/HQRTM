@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kråkeskärsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1428875",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89323de15914ef7a9907086dcddc267d107b7e6f94b713744d92979c2b3e69c3.jpg",
+    "description": "Hej! \nVi har en lägenhet,  källarplan i vårt hus i Önnered, Västra Frölunda, med promenadavstånd till havet. Vi söker nu en lugn, ”städad” hyresgäst utan husdjur till lägenheten som är 1 r o k, ca 25kvm, delvis möblerad samt badrum med dusch. \nEn liten uteplats finns till för förfogande för hyresgästen. Parkeringsmöjlighet finns för en bil. Hyran ligger på 9000kr och då ingår wifi, el och vatten. \n\nVår nuvarande hyresgäst flyttar sista augusti, därefter är lägenheten är ledig.\n\nLåter detta intressant, hör gärna av dig! \nHälsningar Johan och Karin ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stilla Gatan, Göteborg",
     "url": "https://qasa.com/p/1428798",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64780d6e294103ea62349dc0b9998c98402770ad7d7cc8de6a26edeece320938.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kristinehöjdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1428581",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e683240c29ba77dde250d66ca5bd3115e7e957f02b65afc5edb017d5ea409e2b.jpg",
-    "description": "Mysig liten 2:a med balkong i lugnt område vid Carlanders parken, nära Göteborgs Universitet och promenadavstånd till Avenyn. Goda kommunikationer. I området finns dessutom gott om restauranger, mataffär, service m m. Lägenheten uthyrs pga studier på annan ort.  ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 12980,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T17:38:38+00:00", "clock": "17:38:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T18:40:06+00:00", "clock": "18:40:06"};
