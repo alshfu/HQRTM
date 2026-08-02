@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Handelsmyntet, Göteborg",
+    "url": "https://qasa.com/p/1428980",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c15f7d0b63c9b457b8bb90f503693e444f7e9b12393d0c3fd3b47784fc6a0f71.jpg",
+    "description": "-En mycket fin lägenhet med högt i tak och stor loft med balkong och utsikt. \n-Fullt möblerad. \n-50m till spårvagnen.\n-Tv och internet ingår i hyran. \n-Nära till mataffär och gym.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 43.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mandolingatan, Västra Frölunda",
     "url": "https://qasa.com/p/1422693",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02fca60b3492ac32154c3bed192fb6480dddce6dda850f891d1600b08353a8b6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmsallen, Göteborg",
-    "url": "https://qasa.com/p/1417764",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5ad235041540207eb6bb9dd7d46b1bb0f417fc74b2b262e016ccb9af6eae656.jpg",
-    "description": "\nMöblerad lägenhet uthyres i Lindholmen\n\nJag hyr ut min fullt möblerade och välutrustade lägenhet i lindholmen \n\nLägenheten ligger i ett av Göteborgs mest attraktiva områden, precis intill **Karlatornet**, med närhet till restauranger, caféer, gym, matbutiker och vackra promenadstråk längs vattnet.\n\nEn stor fördel är att du kan ta den **kostnadsfria Älvsnabben-färjan** över älven till centrala Göteborg på bara några minuter.\n\n* Fullt möblerad och inflyttningsklar\n* Fullt utrustat kök med allt som behövs\n* Hyran inkluderar internet och kallvatten\n* El och varmvatten debiteras separat enligt månadsfaktura\n* Miljövänlig fastighet med fokus på hållbarhet\n* Hyran: 18000 kr per månad \nPassar perfekt för dig som söker ett bekvämt och trivsamt boende under en begränsad period.\n\nVid intresse är du varmt välkommen att skicka ett meddelande för mer information eller visning.\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 95.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T19:54:00+00:00", "clock": "19:54:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T20:51:17+00:00", "clock": "20:51:17"};
