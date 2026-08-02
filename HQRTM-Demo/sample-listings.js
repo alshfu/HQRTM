@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stilla Gatan, Göteborg",
+    "url": "https://qasa.com/p/1428798",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64780d6e294103ea62349dc0b9998c98402770ad7d7cc8de6a26edeece320938.jpg",
+    "description": "Nu finns möjlighet för KVINNA att hyra ett ljust och smakfullt inrett rum på ca 12 m² i en trivsam lägenhet på Stilla gatan i Kungsladugård.\nRummet är fullt möblerat och har en ombonad känsla. Du har tillgång till kök, badrum och tvättmöjligheter. El, värme och bredband ingår i hyran. Det gör även förbrukningsvaror; toalett- hushållspapper, städmaterial, diskmedel, glödlampor, tvättmedel etc.\nLäget är mycket bra, med kort gångavstånd till Mariaplan och Älvsborgsplan. Här finns spårvagnar, mataffärer, caféer, restauranger och grönområden. Det är också nära till Slottsskogen och centrala Göteborg.\nDu har tillgåmg till en härlig innergård.\nJag söker en lugn, ordningsam och rökfri hyresgäst\n\nDitt eget  rum är 12 m2 men du har även fri tillgång till hall, kök, badrum som dock delas med oss.  Ditt rum är tänkt att ha även en fåtölj och ytterligare klädförvaring. Tanken är att vi pratar och kommer överens om möblering innan kontraktet skrivs. I bostaden finns katter och jag(kvinna på 50 och ett barn på 10.\n\nOm du är intresserad; skriv och berätta om dig själv.  Jag behöver ha någon referens ifrån tidigare boende.\nRummet uthyres med en månadshyra extra som deposition. ( exakta regler kommer att gås igenom vid skrivande av kontrakt ).",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Spåntorget, Göteborg",
     "url": "https://qasa.com/p/1428788",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b2d76dc396771cfdb4e9abef72dbbad5801db38101a49aa64c575a5fa123303.jpg",
@@ -10,7 +25,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 8.0,
-    "rent": 4800,
+    "rent": 4700,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Torholmsvägen, Donsö",
-    "url": "https://qasa.com/p/1428578",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6a89865bc452046c3d4ab7cb6179f398ce82626f70fdbbf4d386ac2b420c7b78.jpg",
-    "description": "Ett mysigt skärgårdshus nära naturen och nära havet med egen altan och trädgård på ön Donsö i Göteborgs södra skärgård.\nHuset har tvättrum och två badrum, varav ett har dusch. Här finns ett vardagsrum med öppen spis med utgång till altanen på baksidan. Villan har 3 - 4 sovrum, möjlighet för kontor och ett helt nyrenoverat kök. \nPå tomten finns även ett litet separat cykelgarage.\n\nDet går färjor från Donsö med totalt cirka 1 timme kollektivtrafik till centrala Göteborg.\nPå ön finns ingen vanlig biltrafik, vanligaste färdmedlen på ön är cyklar eller små elbilar.\n",
-    "district": "Donsö",
-    "rooms": 5.0,
-    "area_m2": 120.0,
-    "rent": 18500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T16:31:26+00:00", "clock": "16:31:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-02T17:38:38+00:00", "clock": "17:38:38"};
