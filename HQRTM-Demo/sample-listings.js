@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Junigatan, Göteborg",
+    "url": "https://qasa.com/p/1429734",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba500b01a9998035e683ff3217ef465b9139ef9680ce865cb2f8222fca072aa5.jpg",
+    "description": "Hyr ut ett rum i en femrumslägenhet i villa. Lägenheten har separat ingång från resten av huset. Ljust rum med morgonsolen.  Tillgång till gemensam uteplats på altanen. Lugnt område. \nLägenhet är fräsch och fin, har fem sovrum, kök, tre badrum och förråd.  Du kommer att dela kök och badrum med andra hyresgäster. Internet, värme, vatten, avfall och avlopp inkluderad i hyran. El exkluderad.  \n\nNärmsta spårvagns hållplatser är Januarigatan och Aprilgatan. Spårvagnar 6,7 och 11. Närmsta mataffären ligger ca 1,2 km bort.   \n\nSöker någon som är hänsynstagande och har förmåga att dela utrymmen med andra. Passar bra för studenter.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 5800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Donsögatan , Göteborg",
     "url": "https://qasa.com/p/1429594",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8f7f630677aef47cfc1b67e588a4be47647f63ad01786335885a2fedecd2d317.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Logatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1429467",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/705d6ab8e5430899fd9ab0207e4945503e68c668b859b3c3d91008ce2d0d0a31.jpg",
-    "description": "En trevlig lägenhet centralt belägen i lugna Hagen. Här har du när till allt! \n\n-\t2 min gång (200 meter) till hållplats för spårvagn och buss \n-\t5 min gång till Matbutik, Fiskvagn, delikates butik och restaurang \n-      10 min gång till Majorna med mysiga restauranger och caféer  \n-      10 min med buss till Järntorget\n-      15 min med buss till Lindholmen  \n-      15 min gång till vattnet \n\nLjus och fin lägenhet, Ytskikten i alla rum är helt nya från Maj 2023, Kök i bra standard med diskmaskin. Nyrenoverat badrum med egen tvättmaskin. Lägenheten är i ett separat hus med egen ingång på en villatomt. Parkering finns på gatan utanför. \n\nKomplett möblerad. Stor dubbel säng, bra förvaring med garderob och byrå, TV, fullt utrustat kök, kyl/frys, micro, kaffebryggare, Tekokare, Tallrikar, Bestick och andra köksgeråd. Egen Tvättmaskin & Diskmaskin i lägenheten. Praktisk skrivbord och fin inredning. Allt ingår, bara att flytta in. Passar perfekt för den som tex veckopendlar. \n\nI hyran ingår \n•\tVärme\n•\tVarmvatten \n•\tEl\n•\tInternet/Wifi \n\nLedig från 2026-08-10. Hyra  8500 kr/månad. Deposition en månadshyra (8500kr)\n\nHyresperiod: Upp till 2 år (Kontrakt på ett år som därefter förlängs med ytterligare ett år)\n\nSkriv gärna in telefonnummer i svar så vi kan kontakta er enklare\n",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 7934,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T14:27:12+00:00", "clock": "14:27:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T16:56:43+00:00", "clock": "16:56:43"};
