@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Jägaregatan, Göteborg",
+    "url": "https://qasa.com/p/1429920",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a5fc0de5d94250ff9f536dda2ac6ab7a006a941cf4af9142f4f72ead6f0015f2.jpg",
+    "description": "Färggrann 2a i Kville!!  Hyres ut delvis möblerad. Lägligt placerad med både närhet till natur (Ramberget) men också nära till Hjalmar Brantingsplatsen (gångväg ca 8 min) där det tar ca 5 min med spårvagn/buss att ta sig till Brunnsparken. Nära till en liten Willys (ca 5 min gångväg) och även Backaplan (ca 8 min gångväg) där det finns flertalet affärer.\n\nVatten, värme, El och internet ingår i hyran. \n\nNotera att alla möbler som syns på bilderna inte kommer att finnas i lägenheten när den hyrs ut. \nMöbler som kommer finnas: säng, sängbord, garderob, köksbord, 4st köksstolar, hallspegel, krokar/hylla i hallen samt diverse hyllor. \n\nDå jag själv har renoverat hela lägenheten och lagt mycket tid på att att fixa alla ytskikt söker jag en hyresgäst som kan ta hand om lägenheten väl under tiden jag hyr ut den. Så att du tar ansvar och sköter lägenheten väl är hög prio för mig :)",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 12200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ängemarken, Göteborg",
     "url": "https://qasa.com/p/1429883",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/45fb07f1e65ddcaf4972f21d237956a24047b49ab61a3f7df7f40411b0506354.jpg",
@@ -20,7 +35,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Majtorpsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1429813",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1deeae56e4b544104ad34f3cd4c879359ce24baa24cc94d7b40d5d8407ac8b2e.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d41ac9b5f1df0b7b614b3d85f3e86ed1a468377bfe3114487dc5deb34891a23.jpg",
     "description": "\n​Ljus och trevlig 3:a i lugna Hisings Backa (Åketorp) – Uthyres tills vidare!\n\n​Nu finns tillfälle att hyra ett trivsamt radhus i bottenvåning om 3 rum och kök (76 kvm) i det populära och lugna området Åketorp i Hisings Backa.  \n​Om bostaden:\n​Våningsplan: Bottenvåning.\n​Inflyttning: 1 september (uthyres tills vidare).\n​Egen ingång för privat känsla.  \n​Planlösning: 2 sovrum, ett rymligt vardagsrum samt ett stort, fullt utrustat kök.  \n​Utemiljö: Tillgång till trädgård i söderläge med utemöbler, samt utgång från vardagsrummet till en baksida där du kan njuta av kvällssolen.  \n​Bekvämligheter: Badrum och egen tvättstuga.  \n​Möblering: Uthyres möblerad eller omöblerad – efter dina önskemål!  \n​Område & Kommunikationer:\nHär bor du med närhet till allt du behöver: matbutiker, gym, vårdcentral, St. Jörgen Spa, golfbana och härliga grönområden.  \n​Busshållplats ligger precis tvärs över gatan (ca 50 m).  \n​Cirka 7 km till Göteborgs centrum.  \n​Hyra & Villkor:\n​Hyra: 13 900 kr/mån (avsett för 2 personer).  \n​Deposition: 2 månadshyror krävs.\n​Ingår i hyran: Internet, sophämtning och vanlig parkeringsplats.  \n​Garage & Laddning: Möjlighet till garage med elbilsladdare finns mot en extra kostnad.\n​Tillkommer: El och vatten.  \n​Krav på hyresgäst: Fast inkomst och inga husdjur.  \n\n​English version\n​Bright & Charming 2-Bedroom Terraced House in Peaceful Hisings Backa (Åketorp) – Long-term rent!\n​A lovely 76 sqm ground-floor terraced house (3 rooms + kitchen) is now available for long-term rent in the quiet and popular area of Åketorp, Hisings Backa.  \n​About the Home:\n​Floor: Ground floor.\n​Move-in date: September 1st (rented until further notice / long-term).\n​Private entrance for added privacy.  \n​Layout: 2 bedrooms, a spacious living room, and a large, fully equipped kitchen.  \n​Outdoor Space: Access to a south-facing garden with outdoor furniture, plus access from the living room to a backyard perfect for enjoying the evening sun.  \n​Amenities: Bathroom and dedicated laundry room.  \n​Furnishing: Can be rented furnished or unfurnished, based on your preferences.  \n​Location & Transport:\nGreat location close to everyday essentials: grocery stores, gyms, a medical center, St. Jörgen Spa, a golf course, and beautiful green areas.  \n​Bus stop right across the street (approx. 50 meters).  \n​Only 7 km to Gothenburg city center.  \n​Rental Terms:\n​Rent: 13,900 SEK/month (intended for 2 people).  \n​Deposit: 2 months' rent required.\n​Included: Internet, waste collection, and regular parking space.  \n​Garage & EV Charging: Option for a garage with EV charging available for an additional fee.\n​Additional: Electricity and water costs.  \n​Requirements: Steady income and no pets allowed.  ",
     "district": "Hisings Backa",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rösebergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1429485",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80e60b27cf4dea4ab61569179a8186336748d76d72e45cf808edf6032c52df9d.jpg",
-    "description": "Hej! Jag heter Nisse och söker nya betjänter. Jag är en väldigt sällskaplig sexårig utekatt med tillgång till hela mitt hus, så jag kommer gärna förbi på besök titt som tätt. Min huvudbetjänt bor på undervåningen och har sin fyraåring måndagar, tisdagar och varannan helg. De är lugna och skötsamma förutom på torsdagar när hon bjuder hem och sjunger med sin kör på kvällen.\nHuset ligger högt beläget med fantastisk utsikt över staden. Entrén är gemensam men rymlig, och övervåningen nås via den första trappan till höger innanför entrén. Övervåningen hyrs ut som egen bostad med två stora sovrum om cirka 18 m² golvyta vardera, ett nybyggt kök i öppen planlösning med vardagsrum och matplats, duschrum med WC, tvättstuga samt förråd. Rummen är möblerade men det finns gott om utrymme att sätta sin egen prägel på boendet.\nI hyran ingår vatten, el, sophämtning, Wi‑Fi och parkering. Möjlighet till elbilsladdning finns mot extra kostnad.\nEketrägatan är närmsta knutpunkt med gott om kommunikation och du är i centrum på en kvart. För den som vill ha kortare gångavstånd finns även hållplats Skeppsbyggaregatan i närheten.\nPassar en lugn person, ett par eller två vänner som vill dela boende. Berätta gärna lite om dig själv vid intresse. 😊",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T20:21:47+00:00", "clock": "20:21:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T21:36:34+00:00", "clock": "21:36:34"};
