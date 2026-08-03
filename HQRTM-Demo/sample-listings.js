@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Majtorpsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1429813",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1deeae56e4b544104ad34f3cd4c879359ce24baa24cc94d7b40d5d8407ac8b2e.jpg",
+    "description": "\n​Ljus och trevlig 3:a i lugna Hisings Backa (Åketorp) – Uthyres tills vidare!\n\n​Nu finns tillfälle att hyra ett trivsamt radhus i bottenvåning om 3 rum och kök (76 kvm) i det populära och lugna området Åketorp i Hisings Backa.  \n​Om bostaden:\n​Våningsplan: Bottenvåning.\n​Inflyttning: 1 september (uthyres tills vidare).\n​Egen ingång för privat känsla.  \n​Planlösning: 2 sovrum, ett rymligt vardagsrum samt ett stort, fullt utrustat kök.  \n​Utemiljö: Tillgång till trädgård i söderläge med utemöbler, samt utgång från vardagsrummet till en baksida där du kan njuta av kvällssolen.  \n​Bekvämligheter: Badrum och egen tvättstuga.  \n​Möblering: Uthyres möblerad eller omöblerad – efter dina önskemål!  \n​Område & Kommunikationer:\nHär bor du med närhet till allt du behöver: matbutiker, gym, vårdcentral, St. Jörgen Spa, golfbana och härliga grönområden.  \n​Busshållplats ligger precis tvärs över gatan (ca 50 m).  \n​Cirka 7 km till Göteborgs centrum.  \n​Hyra & Villkor:\n​Hyra: 13 900 kr/mån (avsett för 2 personer).  \n​Deposition: 2 månadshyror krävs.\n​Ingår i hyran: Internet, sophämtning och vanlig parkeringsplats.  \n​Garage & Laddning: Möjlighet till garage med elbilsladdare finns mot en extra kostnad.\n​Tillkommer: El och vatten.  \n​Krav på hyresgäst: Fast inkomst och inga husdjur.  \n\n​English version\n​Bright & Charming 2-Bedroom Terraced House in Peaceful Hisings Backa (Åketorp) – Long-term rent!\n​A lovely 76 sqm ground-floor terraced house (3 rooms + kitchen) is now available for long-term rent in the quiet and popular area of Åketorp, Hisings Backa.  \n​About the Home:\n​Floor: Ground floor.\n​Move-in date: September 1st (rented until further notice / long-term).\n​Private entrance for added privacy.  \n​Layout: 2 bedrooms, a spacious living room, and a large, fully equipped kitchen.  \n​Outdoor Space: Access to a south-facing garden with outdoor furniture, plus access from the living room to a backyard perfect for enjoying the evening sun.  \n​Amenities: Bathroom and dedicated laundry room.  \n​Furnishing: Can be rented furnished or unfurnished, based on your preferences.  \n​Location & Transport:\nGreat location close to everyday essentials: grocery stores, gyms, a medical center, St. Jörgen Spa, a golf course, and beautiful green areas.  \n​Bus stop right across the street (approx. 50 meters).  \n​Only 7 km to Gothenburg city center.  \n​Rental Terms:\n​Rent: 13,900 SEK/month (intended for 2 people).  \n​Deposit: 2 months' rent required.\n​Included: Internet, waste collection, and regular parking space.  \n​Garage & EV Charging: Option for a garage with EV charging available for an additional fee.\n​Additional: Electricity and water costs.  \n​Requirements: Steady income and no pets allowed.  ",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 76.0,
+    "rent": 13900,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Almgården, Angered",
+    "url": "https://qasa.com/p/1429809",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/de0147ccbc729f879b7d79b7b0b4fbb0fbe215a4be85ce24429d050208c28deb.jpg",
+    "description": "Ljus och välplanerad 2:a på 65,1 kvm i Gårdsten uthyres.\n\nLägenheten ligger i ett lugnt och trivsamt område med närhet till både natur och goda kommunikationer. Med buss tar du dig enkelt till centrala Göteborg, samtidigt som du har grönområden, motionsspår och service på bekvämt avstånd.\n\nLägenheten är delvis möblerad och har ett rymligt vardagsrum, separat sovrum, kök med bra förvaring samt en balkong. Planlösningen är praktisk och passar både en ensamstående och ett par.",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Erik Dahlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1429787",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/32bf1b6edfa3dad64c1c51ea661febcd0af488a586567c39b2d7f99378904eb6.jpg",
+    "description": "Lägenheten befinner sig mitt i centrala Göteborg vid dem mest attraktiva adresser. Från porten har ni några meter till folklivet på Vasagatan samt mataffär. Runt hörnet ligger Avenyn, där ni nås av Göteborgs levande shopping, nöjes- och restaurang liv. \n\nLägenheten är en ytters välplanerat tvåa belägen på fjärde våningen och präglas av både ljus och rymd. Den är belägen mot innergården vilket ger en väldig lugn och tyst miljö. Lägenheten har ett fullt utrustat kök med matplats, rymligt vardagsrum samt sovrum. Helkaklat badrum med golvvärme och dusch. Det finns en gemensam tvättstuga i samma byggnad av huset, där man lätt hittat bokningsbara tider. Lägenheten hyrs ut möblerad tillsvidare.  \n\nDet är viktigt att du som hyr har god ekonomi, betalar hyran i tid (senast 28 varje månad) samt är lugn och skötsam. En hyras deposition. \n\n\nSå länge annonsens är ute är lägenheten tillgänglig. \nDå lägenheten fortfarande är uthyrd ber vi att endast seriösa intressenter kontaktar oss. Visningar behöver samordnas med nuvarande hyresgäster, och vi uppskattar därför er förståelse.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 15400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Junigatan, Göteborg",
     "url": "https://qasa.com/p/1429734",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba500b01a9998035e683ff3217ef465b9139ef9680ce865cb2f8222fca072aa5.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1429496",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ce7eb7c9000992320ca2e18efb8529f3304820f250d48cb6631060f37978d3a.jpg",
-    "description": "Möblerat rum uthyres i centralt belägen villa i Örgryte – Perfekt för student! Vi hyr ut ett möblerat rum på ca 24 kvm.\n\n🏡 Om boendet Villan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n\n👩‍🎓För närvarande bor endast studenter i huset.\n\n🛏 Om lägenheten och rummet \nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. \nDen består av fyra sovrum, kök, vardagsrum och badrum. \nDu delar gemensamma utrymmen med tre studenter. \nRummet är ca 24 kvm, möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 24.0,
-    "rent": 7500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1429489",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3647116e81207ba5b6b23e8a1a3a4d4be6055c4934b27a6936d075320b36d4eb.jpg",
-    "description": "Möblerat rum uthyres i centralt belägen villa i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm i en stor och charmig villa i Örgryte – ett av Göteborgs mest eftertraktade områden.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 Endast studenter bor i huset\n\n🛏 Om lägenheten och rummet\nLägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång.\nDen består av fyra sovrum, kök, vardagsrum och badrum.\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Haggårdsvägen, Brännö",
-    "url": "https://qasa.com/p/1429453",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/202d127f553e0069efe6c1f3bbf7b4f63ef240a8e93c5927ef1d3e99c20f60f0.jpg",
-    "description": "Detta är ett mindre boende på 26 kvm med ett loft med 2 bäddar som passar för 2 personer.  Härlig uteplats med havsutsikt.\nI hyran ingår El, Vatten, Sophämtning och Internet.\nBoendet är på Brännö som man tar sig lättast till med Skärgårdsbåten,(Västtrafik);  som går regelbundet. Boendet är ca 5min gångavstånd till hamnen där båtar avgår till Saltholmen som tar ca 20 min.  ",
-    "district": "Brännö",
-    "rooms": 1.5,
-    "area_m2": 26.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T16:56:43+00:00", "clock": "16:56:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T18:52:39+00:00", "clock": "18:52:39"};
