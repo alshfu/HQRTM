@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ängemarken, Göteborg",
+    "url": "https://qasa.com/p/1429883",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/45fb07f1e65ddcaf4972f21d237956a24047b49ab61a3f7df7f40411b0506354.jpg",
+    "description": "En etta med planlösning likt bilden i annonsen. Lägenheten ligger högst upp i huset med egen balkong med sol på eftermiddagen. \n\nCirka 2min gång till knutpunkten vid Wavrinsky .  Lägenheten kan hyras ut med med möbler som i annons eller omöblerat. Ta kontakt vid frågor.\n\nLägenheten hyrs ut då jag arbetar i Oslo och bor där. Ta kontakt vid frågor.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Majtorpsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1429813",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1deeae56e4b544104ad34f3cd4c879359ce24baa24cc94d7b40d5d8407ac8b2e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1429497",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/666b297705e67d3e95733dad6dd844288330bc9090ca749b190b5b9d3f0fd9e6.png",
-    "description": "Rum uthyres i villa i Örgryte, Göteborg. Huset är delat i tre våningar med en suterräng.\n\nRum uthyres –  Vi hyr nu ut ett möblerat rum på ca 20 kvm, med egen entrédörr, i en suterrängvåning. Du delar våningen (med kök, vardagsrum och badrum med), som är 105 kvm, med en annan student. \n\nStor gemensam altan på 40 kvm. El, vatten, värme och internet ingår i hyran. Endast studenter bor i huset – lugn och trivsam miljö. \n\nLäge och kommunikationer: 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuter till Focushuset (mataffär, apotek, Systembolag).\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 24.0,
-    "rent": 8350,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T18:52:39+00:00", "clock": "18:52:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T20:21:47+00:00", "clock": "20:21:47"};
