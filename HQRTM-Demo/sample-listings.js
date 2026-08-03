@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sergelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1429932",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bba5aaaee5b7d4356c5f935e2ad86684f9a53e674dae84ef0b4b9c2af6cf98f0.jpg",
+    "description": "Lägenheten ligger belägen i Lunden nära Danska Vägen, med 50 meter från 60 bussens hållplats eller så tar man en kortare promenad ner till Redbergsplatsen där många bussar och spårvagnar går. Vid Redbergsplatsen finns det även restauranger, fik, butiker, mataffärer med mera att tillgå. Lägenheten är belägen i ett lugnt område med närhet till olika promenadstråk och grönområden. \n\nLägenheten är en fräsch 2:a på tredje våningen med renoverat kök (2018), nyrenoverat golv (2023). Balkongen har fantastisk utsikt med eftermiddag- och kvällssol. Lägenheten hyrs ut fullt möblerad. Allt förutom elektricitet ingår i hyran. \n\nParkeringsplats finns att tillgå i föreningen antingen med eller utan laddstolpe (kostnad tillkommer i så fall),  det är naturligtvis ett kösystem för detta.\n\nDet finns även övernattningsrum i föreningen man kan hyra för ca 300 kr/natt ifall man får gäster på besök.\n\nLägenheten hyrs ut till max 2 vuxna med barn.\n\nJag hyr ut bostaden då jag har sysselsättning på annan ort.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 13140,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Jägaregatan, Göteborg",
     "url": "https://qasa.com/p/1429920",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a5fc0de5d94250ff9f536dda2ac6ab7a006a941cf4af9142f4f72ead6f0015f2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Donsögatan , Göteborg",
-    "url": "https://qasa.com/p/1429594",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8f7f630677aef47cfc1b67e588a4be47647f63ad01786335885a2fedecd2d317.jpg",
-    "description": "Min far hyr ut ett möblerat rum i sin lägenhet i Majorna. Boendet passar perfekt för en lugn och skötsam person.\n\n📍 Om bostaden\n\t•\tStorlek: ca 80 kvm (rum: 15 kvm)\n\t•\tAntal rum i bostaden: 3+kök+badrum+hall\n\t•\tVåning: 3\n\t•\tFullt utrustat kök, badrum och diskmaskin\n\n🛏️ Rummet\n\t•\tMöblerat med säng, skrivbord, garderob\n\t•\tLjust och trevligt\n\t•\tTillgång till gemensamma ytor\n\n📍 Läget\n\t•\tNära spårvagn och busshållplats – ca [X] min till [centrum/universitet]\n\t•\tGångavstånd till matbutik, gym, natur etc\n\n💰 Hyra\n\t•  4500 kr/månad\n\t•\tIngår: el, vatten, bredband etc\n\t•\tDeposition: en månadshyra\n\n📅 Tillgänglighet\n\t•\tInflytt: enligt överenskommelse\n\t•\tUthyrningsperiod: flexibelt tillsvidare / tidsbegränsat \n\nHan har hyrt ut till hyresgäster tidigare och det har funkat superbra med studenter eller arbetande människor.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T21:36:34+00:00", "clock": "21:36:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-03T22:38:23+00:00", "clock": "22:38:23"};
