@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kallebäcksvägen, Göteborg",
+    "url": "https://qasa.com/p/1427308",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b989b046e804f9d70b04608d315f5bcfad5d1c21ab519be4a410cb5804d10e5c.png",
+    "description": "Delvis möblerat rum med balkong och garderob i tvårumslägenhet med delat möblerat kök och badrum. I hyran ingår värme, VA och internet. Elförbrukning/Elnätsavgift tillkommer som separat avgift och delas mellan de boende. \n\nLugnt och lummigt område med goda kommunikationer under hela dygnet och med cykelavstånd in till centrala Göteborg. I området finns närhet till mataffär, gym och vårdcentral. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 11.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Aschebergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1430828",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e394ee705bbcd75ceaa80d6df19d70594609fb2cc151d7725c3871bdfb347144.jpg",
+    "description": "En mycket representativ och rymlig lägenhet i ett hus från 1910-talet, belägen mitt i centrala Göteborg. Nära Vasaplatsen, som är en knutpunkt för bussar och spårvagnar. Stadens puls och liv finns precis utanför dörren, med ett flertal prisbelönta restauranger i närområdet. Lägenheten, som har två ingångar, ligger en trappa upp från gatan och består av fem rum, ett rymligt kök och ett badrum. Tre av rummen ligger i fil mot gatan, medan två rum och köket vetter mot innergården. Lägenheten har en klassisk stil med högt i tak, stora och luftiga rum, fina ekparkettgolv samt platsbyggd bokhylla.\nBadrum och kök renoverades 2024. Lägenheten är utrustad med kyl, frys, induktionshäll, varmluftsugn, tvättmaskin, torktumlare och badkar.\nParkeringsplats finns att tillgå mot en extra kostnad.\nHyrs ut möblerad eller delvis möblerad, det är upp till dig. \nInternet ingår i hyran.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 160.0,
+    "rent": 25000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hålskogsgatan, Angered",
     "url": "https://qasa.com/p/1430818",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/461f5ce1eb1adcbd8295d5fe9a107e0ec1e417cea7c5e222870c287ae0e03292.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 119, Angered",
-    "url": "https://qasa.com/p/1430743",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/171685234e300c8a0498cce3765ad76d8bc5f187d023a3278f8612c4770acad0.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 12 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen. Hyran kommer att höjas januari 2025 efter förhandling med hyresgästföreningen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 71.0,
-    "rent": 13028,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddvägen 58, Angered",
-    "url": "https://qasa.com/p/1430740",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0c595456409636a53db28eaf03cfb4c0f2f6619b46440eb073142920a37d915.jpg",
-    "description": "Här erbjuds en fin, välplanerad hyresrätt med balkong på 8 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen. Köket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare. På vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren. Varje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang. OMRÅDET På gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj. KOMMUNIKATIONER Busshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min.\n\n",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 65.0,
-    "rent": 12161,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T20:02:45+00:00", "clock": "20:02:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T21:22:18+00:00", "clock": "21:22:18"};
