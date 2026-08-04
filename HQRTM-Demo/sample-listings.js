@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Riksdalersgatan, Göteborg",
+    "url": "https://qasa.com/p/1429036",
+    "image_url": null,
+    "description": "Välplanerad 3:a med närhet till kommunikationer (buss och spårvagn) i ett lugnt område med närhet till skog och mark.\nLägenheten har två sovrum, ett vardagsrum samt kök och toalett.\nBalkong finns också.\nTvättstuga med cykelrum ryms även det i huset.\nPå gångavstånd finns ett torg med mataffär, gym, apotek. med mera och ett köpcentrum några spårvagnshållplatser bort.\nI hyran ingår el och vatten.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 9400,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Viktoriagatan, Göteborg",
     "url": "https://qasa.com/p/1430656",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49eba9ebc2cbb24129306f005bff755c2cba78e57a3836fc5b4b18fbc5336d42.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Torpavägen 105, Göteborg",
-    "url": "https://qasa.com/p/1430465",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/84f7a6bc108db973d6eda6f75362b4feffa43865b33d52d8b7be3544fb66f3bf.jpg",
-    "description": "OBS! Lägenheten hyrs ut baserat på planritning och en digital 3D skanning av lägenheten. Observera att ingen fysisk visning kommer att hållas. \n\nOM LÄGENHETEN\nVälkommen till denna 4 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. Badrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin. Bra förvaring med garderober i hallen och förråd/klädkammare i lägenheten.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. Björkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran inkluderar värme och vatten. Individuell mätning tillkommer på elen. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 71.0,
-    "rent": 16012,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T16:32:22+00:00", "clock": "16:32:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T18:14:44+00:00", "clock": "18:14:44"};
