@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kopparslagaregatan, Göteborg",
+    "url": "https://qasa.com/p/1429964",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ac7efde304778716f992fa1333c81b90eab3157676009253a230438df065b6f.jpg",
+    "description": "Hyr ut min charmiga och centrala etta på 30 kvm med egen uteplats i lugna Johanneberg. Lägenheten hyrs ut helt omöblerad under ett år. \n\nLägenheten är smart planerad och har ett rymligt allrum med plats för både säng, soffa och arbetsplats. Köket är fullt utrustat med bland annat diskmaskin och plats för matbord. Det stora badrummet har golvvärme samt kombinerad tvättmaskin och torktumlare. Det finns även bra förvaring i platsbyggda garderober.\n\nHär bor du i ett lugnt och trivsamt område med gångavstånd till Willys, busshållplats, Chalmers, Korsvägen, Avenyn, restauranger och caféer.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sergelsgatan, Göteborg",
     "url": "https://qasa.com/p/1429932",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bba5aaaee5b7d4356c5f935e2ad86684f9a53e674dae84ef0b4b9c2af6cf98f0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Junigatan, Göteborg",
-    "url": "https://qasa.com/p/1429734",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba500b01a9998035e683ff3217ef465b9139ef9680ce865cb2f8222fca072aa5.jpg",
-    "description": "Hyr ut ett rum i en femrumslägenhet i villa. Lägenheten har separat ingång från resten av huset. Ljust rum med morgonsolen.  Tillgång till gemensam uteplats på altanen. Lugnt område. \nLägenhet är fräsch och fin, har fem sovrum, kök, tre badrum och förråd.  Du kommer att dela kök och badrum med andra hyresgäster. Internet, värme, vatten, avfall och avlopp inkluderad i hyran. El exkluderad.  \n\nNärmsta spårvagns hållplatser är Januarigatan och Aprilgatan. Spårvagnar 6,7 och 11. Närmsta mataffären ligger ca 1,2 km bort.   \n\nSöker någon som är hänsynstagande och har förmåga att dela utrymmen med andra. Passar bra för studenter.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 5800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T01:10:35+00:00", "clock": "01:10:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T04:31:23+00:00", "clock": "04:31:23"};
