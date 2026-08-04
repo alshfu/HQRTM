@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Viktoriagatan, Göteborg",
+    "url": "https://qasa.com/p/1430656",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49eba9ebc2cbb24129306f005bff755c2cba78e57a3836fc5b4b18fbc5336d42.jpg",
+    "description": "Centralt läge i Göteborg.\nNära till universiteten och Kungsportsavenyen. Goda kommunikationer.\nStort rum med högt i tak. Eget badrum. \nDelat kök. \nSchäferhund finns\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 7800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ångaren Indias Gata, Göteborg",
     "url": "https://qasa.com/p/1430541",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d728e75f7200e78f27f3e475e4684f08bdeb9d1e2c8a85bed8acdee19b9fb36.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hackeliden, Göteborg",
-    "url": "https://qasa.com/p/1429889",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a6ad61dee2f9576d39b97609cfe7c0a2491c1e0555c54377cbc5f3501fcd429.jpg",
-    "description": "\n\n\n\nHej!\nVi har en möblerad 3 rums- lägenhet på ovanvåningen i vårt hus med separat ingång och rymlig hall. Den passar 2 kompisar. Det finns 2 separata enkelsovrum samt vardagsrum /kök med öppen planlösning. Full köksutrustning med  frys, kyl, ugn, micro, diskmaskin porslin mm. Linne, handdukar och sängkläder finns. Badrum med tvättmaskin/ torktumlare.\nDet finns gott om garderober.\nKostnad: I hyran ingår värme vatten och wifi. Vi bor 5 minuter promenad från hållplats Bjurslättsliden. Ca 20 minuter till Brunnsparken.  Hisingsparken  ligger nära. Uthyres enbart möblerad.\n\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 55.0,
-    "rent": 11800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T14:42:55+00:00", "clock": "14:42:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T16:32:22+00:00", "clock": "16:32:22"};
