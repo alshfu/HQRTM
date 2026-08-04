@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Låssbyvägen, Torslanda",
+    "url": "https://qasa.com/p/1430891",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/396eb94ea7cacc86f01a6a4e866a2b96aa169ff0b2a8c8f09b02c9ec3b82fc57.png",
+    "description": "Drömboende på landet – Modernt, bekvämt & allt inkluderat!\nLängtar du efter lugnet på landsbygden men vill ha nära till stadens puls? Den 7e september blir denna nybyggda pärla ledig – ett hem för dig som värdesätter hög kvalitet och en bekymmersfri vardag.\nOm hemmet\nHär kliver du in i en ljus och luftig lägenhet med genomgående hög standard och en härlig rymd. Allt är noga utvalt för att skapa en modern och trivsam atmosfär:\n* Stilrent kök: Fullutrustat med induktionshäll, mikrovågsugn, varmluftsugn och diskmaskin som gör vardagsbestyren till ett nöje.\n* Lyxigt badrum: Helkaklat och rymligt, utrustat med en skön takdusch och egen tvättmaskin.\n* Lantlig miljö: Njut av frisk luft och natursköna omgivningar direkt utanför dörren.\nEnkelt och bekvämt\nFör att göra ditt boende så smidigt som möjligt är hyran \"all-inclusive\". Du behöver inte tänka på extra fakturor eller dolda kostnader.\nI hyran ingår:\n* Värme & vatten\n* Hushållsel\n* Sophämtning\n* Parkeringsplats\nKommunikationer\nTrots det lugna läget är du aldrig långt borta. På bara 5 minuters promenad når du busshållplatsen (Låssbyvägen). Därifrån tar direktbussen dig in till centrum på ca 25 minuter – perfekt för både jobbpendling och nöjen.\nSnabba fakta:\n* Tillgänglig: 7 september  \n* Månadshyra: 12 800 kr\n* Deposition: En månadshyra\nVälkommen att höra av dig med en kort presentation av vem du är, så bokar vi in en visning!",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 12197,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kallebäcksvägen, Göteborg",
     "url": "https://qasa.com/p/1427308",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b989b046e804f9d70b04608d315f5bcfad5d1c21ab519be4a410cb5804d10e5c.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Riksdalersgatan, Göteborg",
-    "url": "https://qasa.com/p/1429036",
-    "image_url": null,
-    "description": "Välplanerad 3:a med närhet till kommunikationer (buss och spårvagn) i ett lugnt område med närhet till skog och mark.\nLägenheten har två sovrum, ett vardagsrum samt kök och toalett.\nBalkong finns också.\nTvättstuga med cykelrum ryms även det i huset.\nPå gångavstånd finns ett torg med mataffär, gym, apotek. med mera och ett köpcentrum några spårvagnshållplatser bort.\nI hyran ingår el och vatten.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 9400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T22:33:57+00:00", "clock": "22:33:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T23:38:05+00:00", "clock": "23:38:05"};
