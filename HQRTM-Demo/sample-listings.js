@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Dahlströms Gata, Göteborg",
+    "url": "https://qasa.com/p/1431883",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
+    "description": "Jag hyr ut min ljusa och välplanerade tvåa på Doktor Dahlströms gata under en period på tre månader. Lägenheten ligger i ett nybyggt hus och har öppen planlösning mellan kök och vardagsrum, separat sovrum, modernt badrum och gott om förvaring. Bostaden hyrs ut möblerad.\n\nFrån vardagsrummet når man den stora balkongen med morgonsol och fin, fri utsikt – perfekt för frukost eller avkoppling. Lägenheten har ett lugnt läge samtidigt som det är nära till Chalmers, Sahlgrenska och centrala Göteborg. Goda kollektivtrafikförbindelser samt mataffärer, gym och grönområden finns i närheten.\n\nJag söker en lugn och skötsam hyresgäst. Skriv gärna några rader om dig själv, din sysselsättning och varför du söker boende under perioden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 14124,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Torgny Segerstedtsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1431891",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3613d6eb35ce409e5bbf43b245dc420999566efbcd16a8bb51509f53ccc49dcd.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/l4poeq8tjredwdnmczkg/vastra-gotaland/vastra-frolunda/torgny-segerstedtsgatan-64/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nKvalitativ tvåa på 50 kvadratmeter belägen på Torgny Segerstedtsgatan 64, Västra Frölunda. Lägenheten erbjuder en modern och ljus atmosfär med grönområden i närheten. Goda kommunikationer med spårvagn inom gångavstånd, vilket ger en smidig resa till centrala Göteborg på cirka 20 minuter. Uteplats för avkoppling och umgänge.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 10958,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lundgrensgatan, Göteborg",
+    "url": "https://qasa.com/p/1430178",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c7857ad71decce5090bbfc55386673b823ec1483d816ba864793d8386f00e8dc.jpg",
+    "description": "Välplanerad pärla på Lundgrensgatan – Perfekt läge nära Chalmers, GU & Korsvägen!\n\nSöker du ett boende med Göteborgs absolut bästa läge? Denna charmiga och smart planerade lägenhet ligger på lugna Lundgrensgatan i Johanneberg/Lorensberg – perfekt för studenten, dig som behöver en bekväm övernattningslägenhet eller helt enkelt vill bo mitt i smeten med närhet till allt!\n\nOm bostaden & planlösning:\n\nÖppen & yteffektiv planlösning: \nKombinerat allrum med plats för både en rejäl dubbelsäng och en mysig sitthörna/soffa.\n\nFullt utrustat kök: \nModernt kök med bra förvaring (överskåp hela vägen upp till tak), diskmaskin, ugn, häll samt kyl och frys.\n\nFräscht badrum: \nHelkaklat och stilrent duschrum samt separat toalett med kommod och bra belysning.\n\nDetaljer & känsla: \nVackra sekelskiftesdetaljer som ståtlig takstuckatur, takrosett och fina mönstrade tapeter som ger lägenheten en unik och ombonad karaktär.\n\nLäge & Kommunikationer:\n\nLäget blir knappast bättre! Här bor du med gångavstånd till både Chalmers tekniska högskola och flera av Göteborgs Universitets fakulteter. Ett stenkast bort ligger Korsvägen, en av stadens största knutpunkter, vilket gör det supersmidigt att ta sig var som helst med spårvagn eller buss (samt direktbuss till flygplatsen). Dessutom har du Avenyn, matbutiker, caféer, restauranger och Grönområden alldeles runt hörnet.\n\nPassar dig som:\nVill ha ett smidigt, tryggt och centralt boende med hög standard i ett av Göteborgs mest populära områden.\n\nUthyrning sker då jag till hösten ska på utbytesstudier i Kina.\n\nVarmt välkommen att höra av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 11810,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gullrisgatan, Göteborg",
     "url": "https://qasa.com/p/1431787",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe7b9881e14ecb921affd2e10e6df47830d2fb284d5b6a5822c06e33b3345018.jpg",
@@ -51,7 +96,7 @@ window.HQRTM_SAMPLE = [
     "title": "Fjällbo Ängsväg, Göteborg",
     "url": "https://qasa.com/p/1431714",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42cbf61e2b5f55cede3eadc3ed1ce1b03be9ef7892bac28a21c0f785a39f0121.jpg",
-    "description": "Generös 1:a i hjärtat av Fjällbo Park med vacker natur. Lägenhet med känsla av liten villa tack vare uteplatsen i sydvästläge.\nHärifrån tar du dig smidigt in till centrum på 30minuter med buss eller cykel.\nGratis gatuparkering i närheten.\nDu ska vara rök- och djurfri. Hyresperioden kan diskuteras.",
+    "description": "Generös 1:a i hjärtat av trygga Fjällbo Park med vacker natur. Lägenhet med känsla av liten villa tack vare uteplatsen i sydvästläge.\nHärifrån tar du dig smidigt in till centrum på 30minuter med buss eller cykel.\nGratis gatuparkering i närheten.\nDu ska vara rök- och djurfri. Hyresperioden kan diskuteras.",
     "district": "Göteborg",
     "rooms": 1.5,
     "area_m2": 35.0,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norumsgärde, Göteborg",
-    "url": "https://qasa.com/p/1430413",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65e93defa1f1f5612d1da2a860240475e7e4b0ee76a23bef34843703a3a3f265.jpg",
-    "description": "Modern och välplanerad 2:a (Attefallshus) med loft och altan i Tuve\n\nVälkommen till ett modernt och yteffektivt boende i ett lugnt och naturnära område med utmärkta förbindelser till centrala Göteborg. Detta fullt möblerade attefallshus på 30 m² med ett sovloft på 8 m² är perfekt för en person eller ett par.\n\nBoendet\nHuset är smart planerat med ett ljust allrum, ett separat rum som passar utmärkt som hemmakontor samt ett mysigt sovloft. Från allrummet når du altanen på 9 m² i soligt söderläge.\n\nBekvämligheter som ingår:\n- Fullt möblerat: Inflyttningsklart med allt från soffa och säng till skrivbord.\n- Komplett kök: Utrustat med spis, ugn, mikrovågsugn och husgeråd.\n- Egen tvättutrustning: Badrummet har en kombinerad tvättmaskin och torktumlare.\n- Internet: Fiber (100/100 Mbit/s) ingår i hyran.\n\nOmrådet\nHär bor du med naturen runt hörnet och all tänkbar service på bekvämt avstånd.\n- Nära naturen: En kort promenad tar dig till Hisingsparken, Göteborgs största park, med fina motionsspår.\n- Utmärkta kommunikationer: Buss 17 tar dig till centrum på cirka 20 minuter, med avgångar var fjärde minut under rusningstid.\n- Service: Gångavstånd till både ICA och Willys, samt apotek, gym, bibliotek och restauranger.\n\nVi söker dig som är rökfri och djurfri.\n\nOm detta låter som ett boende för dig, hör av dig och berätta lite om dig själv.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 8800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T17:09:59+00:00", "clock": "17:09:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T18:52:27+00:00", "clock": "18:52:27"};
