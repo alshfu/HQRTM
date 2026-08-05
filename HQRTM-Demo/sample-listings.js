@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Johan Gertssons Gata, Göteborg",
+    "url": "https://qasa.com/p/1431904",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe76060b1ef5e11f13e832272cbade5f823004a64f5509257cdefe3c34f6b164.jpg",
+    "description": "Ljus och modern 2-rumslägenhet i Gamlestaden – 54 kvm\nLetar du efter ett bekvämt och stilrent boende? Denna 2-rumslägenhet på Johan Gertssons Gata 1 erbjuder 54 kvm välplanerad yta i hjärtat av Gamlestaden. Lägenheten har en privat balkong och tillgång till en gemensam terrass i byggnaden.\n\nLäget är perfekt med restauranger, caféer och kollektivtrafik bara 3 minuter bort. Här bor du nära allt med smidig pendling till centrala Göteborg.\n\nKontakta mig för mer information och visning!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Dahlströms Gata, Göteborg",
     "url": "https://qasa.com/p/1431883",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
@@ -20,7 +35,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Torgny Segerstedtsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1431891",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3613d6eb35ce409e5bbf43b245dc420999566efbcd16a8bb51509f53ccc49dcd.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b74e5ee4f9aae3bfe86dc3ef2f3eaeb9328abf134007e1efe5c8976398b56c1f.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/l4poeq8tjredwdnmczkg/vastra-gotaland/vastra-frolunda/torgny-segerstedtsgatan-64/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nKvalitativ tvåa på 50 kvadratmeter belägen på Torgny Segerstedtsgatan 64, Västra Frölunda. Lägenheten erbjuder en modern och ljus atmosfär med grönområden i närheten. Goda kommunikationer med spårvagn inom gångavstånd, vilket ger en smidig resa till centrala Göteborg på cirka 20 minuter. Uteplats för avkoppling och umgänge.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Västra Frölunda",
     "rooms": 2.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fjällbo Ängsväg, Göteborg",
-    "url": "https://qasa.com/p/1431714",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42cbf61e2b5f55cede3eadc3ed1ce1b03be9ef7892bac28a21c0f785a39f0121.jpg",
-    "description": "Generös 1:a i hjärtat av trygga Fjällbo Park med vacker natur. Lägenhet med känsla av liten villa tack vare uteplatsen i sydvästläge.\nHärifrån tar du dig smidigt in till centrum på 30minuter med buss eller cykel.\nGratis gatuparkering i närheten.\nDu ska vara rök- och djurfri. Hyresperioden kan diskuteras.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T18:52:27+00:00", "clock": "18:52:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T20:21:06+00:00", "clock": "20:21:06"};
