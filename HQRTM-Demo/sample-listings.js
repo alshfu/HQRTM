@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nansensgatan, Göteborg",
+    "url": "https://qasa.com/p/1430931",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/775a3e7f8e7495bd10910c1cb286e502b24f9dbaba5f48f9ffb7a002812ff65a.jpg",
+    "description": "Källarlägenhet. Etta med egen ingång mot gatan och eget kök. Delad dusch och toalett med en annan hyresgäst. Internet ingår \nUthyres till en tjej, ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 6200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Låssbyvägen, Torslanda",
     "url": "https://qasa.com/p/1430891",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/396eb94ea7cacc86f01a6a4e866a2b96aa169ff0b2a8c8f09b02c9ec3b82fc57.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1429516",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/981ab6d5433a22841a1bf9e1863cc143b08940afab1cbe635a973be3d0ab287e.jpg",
-    "description": "Rum uthyres i centralt belägen villa i Örgryte – Perfekt för studenter Vi hyr ut ett möblerat rum på ca 12 kvm i en stor och charmig villa i Örgryte, ett av Göteborgs mest populära områden.  \n\n 🏡 Villan är 352 kvm, fördelad på tre våningar med källare, där varje våning är en separat lägenhet med egen entré. 👩‍🎓 För närvarande bor endast studenter i huset.  Villan har en stor altan på 40 kvm, som alla boende kan använda för avkoppling och socialt umgänge. \n\nOm lägenheten & rummet -Rummet ligger i en 130 kvm stor lägenhet på andra våningen, med egen entré. -Lägenheten har fyra sovrum, kök, vardagsrum och badrum. -Du delar köket, vardagsrummet och badrummet med tre studenter. \n\nRummet är ca 10 kvm, möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran. \n \n📍 Utmärkt läge med goda kommunikationer: 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset, där det finns en välsorterad mataffär, apotek och Systembolaget.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T04:23:33+00:00", "clock": "04:23:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T07:11:24+00:00", "clock": "07:11:24"};
