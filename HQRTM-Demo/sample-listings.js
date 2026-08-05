@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Gunnestorpsvägen 129, Göteborg",
+    "url": "https://qasa.com/p/1430895",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/952572f8d1911bafad6fe6d223349f3687a55aa8be3da53a5587cc5fc0a68f84.jpg",
+    "description": "Från 1 november kan vi erbjuda en 2 ROK på Gunnestorpsvägen 129 i Tuve.\nLägenheten är belägen på våning 1 och är disponerad på 39.5 kvm.\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten, vilken tillkommer på hyran.\n\nVi erbjuder dig fysisk visning.\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 39.0,
+    "rent": 8778,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kallebäcksvägen, Göteborg",
     "url": "https://qasa.com/p/1427308",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b989b046e804f9d70b04608d315f5bcfad5d1c21ab519be4a410cb5804d10e5c.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1429499",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b05b608b23d0496c33fbafa266c43de92a4f06803ee54f0084bb6d8e571c594.jpg",
-    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om boendet Villan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i lägenheten\n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-04T23:38:05+00:00", "clock": "23:38:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T01:03:36+00:00", "clock": "01:03:36"};
