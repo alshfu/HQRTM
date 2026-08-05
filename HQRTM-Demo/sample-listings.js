@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Havsörnsgatan, Göteborg",
+    "url": "https://qasa.com/p/1431988",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c4d1875b8fd63912413d66d515b6598a6270e5e23decf02820331d0ed961919.jpg",
+    "description": "Nymålad trea med balkong i trevliga Örgryte!\nHyrs ut tillsvidare, omöblerad \nVatten och värme ingår\nParkeringsplats finns att hyra\nHyrs direkt utan Qasa. Hyran är 15.500 kr/mån\nHyrs enbart till företag\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Johan Gertssons Gata, Göteborg",
     "url": "https://qasa.com/p/1431904",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe76060b1ef5e11f13e832272cbade5f823004a64f5509257cdefe3c34f6b164.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smuttenstigen , Göteborg ",
-    "url": "https://qasa.com/p/1431724",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13d9bd0691abafbd811a199f1ae7666757b3c1d382d7623ae9cdd56d9d0fcb40.jpg",
-    "description": "\nHus beläget på västra Köpstadsö (Kössö) med fin utsikt mot styrsö ( mycket båttrafik) 150 m från strandkant. Huset består av 3 lika stora huskroppar a 25 m2, totalt 75 m2, som klättrar på berget i olika nivåer. Möblerat med en del nautiska föremål. 2 år gammalt kök och badrum och nyrenoverat sovrum och sovavdelning, 5 sängplatser plus 1 bäddsoffa. Stora altaner på både framsida och baksida. Utekök på altanen mot havet. Stort matbord med plats för 10 sittande plus loungeavdelning. 2 nyinsatta kaminer i sovrum och kök som spar uppvärmningskostnader. Luftvärmepumpen i sovrummet i lägsta belägna byggnaden (byggnaderna hänger samman, inga dörrar emellan dem) är dimensionerad för 140 m2  och i översta byggnaden sitter ytterligare en luftvärmepump med kapacitet för 140 m2. (Tillsammans en kapacitet som normalt värmer 280 m2, trots att huset är på 75 m2) Tvättmaskin och diskmaskin finns. Tv finns i 2 rum, 1 är en smart-tv. Skärgårdsbåten tar antingen 8 eller 15 min till saltholmen och därifrån går spårvagn eller snabbuss (ö-snabben) som tar 20 min till centrum. 2 kärror för bagage finns. Vatten och soptömning och bra internet ingår. Kallhyra, el tillkommer. Inflyttningsdatum kan diskuteras.",
-    "district": "Göteborg ",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 6900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T21:40:20+00:00", "clock": "21:40:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T22:42:21+00:00", "clock": "22:42:21"};
