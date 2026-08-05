@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gullrisgatan, Göteborg",
+    "url": "https://qasa.com/p/1431787",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe7b9881e14ecb921affd2e10e6df47830d2fb284d5b6a5822c06e33b3345018.jpg",
+    "description": "Notera att lägenheten ligger ute till försäljning. Det är krav på att ni som hyresgäst kan ställa upp på att det sker visningar. Det innebär att det behöver vara städat inför visning.\n\nEn ljus och fräsch 1:a som varit löpande renoverad med fönster i två väderstreck (Norr & Söder). Balkongen är i söderläge.\nPlanlösningen är välplanerad med ett stort separat kök och ett vardagsrum som rymmer både soffa och säng. \nBadrummet är rymligt med en stor dusch och bra förvaringsmöjligheter.\nDet finns även en mindre walk-in closet på ca 1kvm som bidrar till mycket förvaring i lägenheten.\n\nTvättstugan finns nära i samma trappuppgång.\n\nDet finns bra kommunikationsmöjligheter. Ca 4-6 minuter promenad till spårvagn på Vågmästareplatsen eller Hjalmarbrantingplatsen som kan ta er runt hela stan. Det finns även en busshållsplats ca 1 minut från ytterdörren där ni kommer åt buss 17 som går direkt in till stan på 10 minuter. \n\nVärme, vatten och internet ingår i hyran.\nHyrs ut omöblerad. Bilderna ni ser är exempelbilder på möblering.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 7400,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Parkgatan, Göteborg",
+    "url": "https://qasa.com/p/1431768",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e898db7fbd52a44d518af5e03c39e610f852d9312f4cbb37e638479be73b9cbc.jpg",
+    "description": "Söker en inneboende för en kortade period, du ska ha ett arbete och visa intyg på detta.  Jag har ett rum ledigt med en 120säng. Och garderober finns  oxå för kläder.Inga möbler får flyttas hit.  Finns 2 toaletter en med dusch och 2 balkonger.  Stort vardagsrum som givetvis får användas och även köket så klart.  Det ska vara rent och fint hemma ganska enkelt.  Ingen fest lägenhet och ingen annan får sova här förutom du som eventuellt vill hyra. Hör av er om detta låter intressant. Mvh Tero\n",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 100.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smuttenstigen , Göteborg ",
     "url": "https://qasa.com/p/1431724",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13d9bd0691abafbd811a199f1ae7666757b3c1d382d7623ae9cdd56d9d0fcb40.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Maj På Malös Gata, Göteborg",
-    "url": "https://qasa.com/p/1431590",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e3ba9afab26e856b789ee64faaade54bf2945c671a25f4677f67ecb824b79b2.jpg",
-    "description": "Looking for the perfect place while studying or working in Gothenburg?\n\nI am seeking a reliable flatmate from September until the end of the year, as I will be traveling for work on weekdays. Located in one of Eriksberg's newest neighborhoods, this fully furnished ground-floor home combines a fresh, high-end feel with unbeatable convenience.\n\nHighlights:\n\nFully furnished (large double bed, sofa bed, spacious wardrobes)\n\nModern kitchen with top-tier appliances & bright parquet flooring\n\nGenerous bathroom with private washer and dryer\n\nPrivate balcony with evening sun\n\nAll-inclusive rent: Internet, water, and electricity included\n\nEasy 20-minute commute to central Gothenburg via bus or Älvsnabben ferry\n\nWalking distance to ICA Kvantum, Coop, gyms, parks, and parking directly outside\n\nLooking for a clean, respectful tenant who will treat the space with care. Welcome to book a viewing—I look forward to meeting you!\n\nEn bostad perfekt för en person som studerar eller arbetar i närheten. \n\nUnder perioden september till årsskiftet är jag iväg på arbete på en annan ort under veckodagarna därför söker jag nu efter någon att dela mitt boende med. \n\nBostaden har nyskicks känsla och en trevlig balkong med kvällssol. Bostaden hyrs ut fullt möblerad med en stor dubbelsäng samt en soffa som går att bädda ut. Gott om förvaringsutrymme i garderoberna. \n\nHär finner du bland annat ljusa väggar, vitvaror i fint skick, parkettgolv, kanonfint stort badrum med egen tvättmaskin och torktumlare,  kvadratsmart planlösning.\n\nBostaden ligger i ett av dom nyare kvarteren i Eriksberg  och nyskicks känslan är verkligen påtaglig. Här har ni direkt närhet till allt som centrum har att erbjuda såsom restauranger och lunchställen mm. \n\nNärhet till motionsspår och grönområden, flera gym, matbutiker och både Älvsnabben samt bussförbindelser som tar en in till centrala Göteborg på bara 20 minuter.\n\nLjus och härlig lägenhet i markplan. \n\nEtt stort badrum med både tvättmaskin och torktumlare och kök med kyl/frys. I hyran ingår både internet och vattenförbrukning samt el. \n\nBostaden är inredd i jordnära färger, grått vitt och beige. \n\nHar du bil så finns parkeringsmöjligheter precis utanför. \n\nNärhet till buss hållplats. Ica Kvantum Sannegården gångavstånd, samt Coop Eriksberg. \n\nPerfekt läge i ett mycket trevligt område. \n\nDu som hyr bostaden ska sköta om bostaden på bästa sätt genom att hålla allting rent efter dig. \n\nHoppas att du ska trivas i ditt nya hem! Ser fram emot att träffas, välkommen på en rundtur! \n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 9958,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Åbogårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1431614",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/286850e34766a464632478d734dd24f9ea1eefc57fd7cc08c95816f179f68034.jpg",
-    "description": "Nyrenoverad källarlägenhet på drygt 30 m2 i ett trevligt område.\nParkering finns tillgängligt och en trevlig uteplats med grill. \n\nNärheten till kommunikation (buss o spårvagn) till Göteborg samt köpcenter ligger ca 100 m ifrån huset, Eriksbergs centrum.\n\nEgen toalett och badrum (delas ej med andra..) men ligger inte i lägenheten utan på andra sidan i korridoren (5m från lägenheten). \n\nÄr du inte intresserad av källarlägenhet och dusch o toalett utanför lägenheten så är detta boendet inget för dig. \n\nVälkommen att höra av er!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 32.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T15:40:01+00:00", "clock": "15:40:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T17:09:59+00:00", "clock": "17:09:59"};
