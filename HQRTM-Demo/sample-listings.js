@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Putsegårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1432086",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6453e8127d11d7d6c88169d35d0e8c30cd6fa8bc9f28325f43889de169141451.jpg",
+    "description": "Hej,\nNu finns det en stor lägenhet att hyra till erat personal. \n4 sovrum. Två badrum. Kök ",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 120.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Prilyckegatan, Hisings Kärra",
+    "url": "https://qasa.com/p/1431986",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f348107645cd8ecad58fc7791f52bb80a479a7c6aac40c99c5a2f6629ae7bcf7.jpg",
+    "description": "Hej!\n\nVår vackra lägenhet är tillgänglig för uthyrning. Den inkluderar en stor inglasad balkong, två sovrum, kök och matplats, ett kontorsrum, ett rymligt vardagsrum, badrum, samt en väl tilltagen hall och korridor. Stort tv, alla köksapparater som behövs finns, tvätt- och torkmaskin, diskmaskin, garderober etc. \n\nMöblering för en familj på 4-5 personer tillhandahålls, vilket har fungerat utmärkt för oss, en familj bestående av två vuxna och två barn. Möbleringen kan anpassas vid behov i den mån det går. Kontorsrum kan bli sovrum också. \n\nDet är ca 20 minuter till Göteborgs Centralstation och 5 minuter till Bäckebok, 10 till Backa Plan och Wieselgrensplatsen. \nDirekt utanför finns lekplats, och med bara 2-3 minuters promenad når du både busshållplats och Kärra Centrum. besöksparkeringen finns. \n\n El, vatten, uppvärmning, varmvatten, internet ingår i hyran, utan individuell avläsning av förbrukningen och parkering Carport med elbox för laddning av elbilar. \n\nIngen lägenhet under oss. Dessutom finns möjligheten att boka föreningens bastu, snickarrum och tvättstuga, även om lägenheten själv är utrustad med tvättmaskin.\n\nBoendeområdet är lugnt och familjevänligt, med nära till förskolor och skolor. \nVi hyr ut pga resa. \nFlexibla gällande inflyttning-och utflyttningsdatum.",
+    "district": "Hisings Kärra",
+    "rooms": 3.5,
+    "area_m2": 75.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Havsörnsgatan, Göteborg",
     "url": "https://qasa.com/p/1431988",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c4d1875b8fd63912413d66d515b6598a6270e5e23decf02820331d0ed961919.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lundgrensgatan, Göteborg",
-    "url": "https://qasa.com/p/1430178",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c7857ad71decce5090bbfc55386673b823ec1483d816ba864793d8386f00e8dc.jpg",
-    "description": "Välplanerad pärla på Lundgrensgatan – Perfekt läge nära Chalmers, GU & Korsvägen!\n\nSöker du ett boende med Göteborgs absolut bästa läge? Denna charmiga och smart planerade lägenhet ligger på lugna Lundgrensgatan i Johanneberg/Lorensberg – perfekt för studenten, dig som behöver en bekväm övernattningslägenhet eller helt enkelt vill bo mitt i smeten med närhet till allt!\n\nOm bostaden & planlösning:\n\nÖppen & yteffektiv planlösning: \nKombinerat allrum med plats för både en rejäl dubbelsäng och en mysig sitthörna/soffa.\n\nFullt utrustat kök: \nModernt kök med bra förvaring (överskåp hela vägen upp till tak), diskmaskin, ugn, häll samt kyl och frys.\n\nFräscht badrum: \nHelkaklat och stilrent duschrum samt separat toalett med kommod och bra belysning.\n\nDetaljer & känsla: \nVackra sekelskiftesdetaljer som ståtlig takstuckatur, takrosett och fina mönstrade tapeter som ger lägenheten en unik och ombonad karaktär.\n\nLäge & Kommunikationer:\n\nLäget blir knappast bättre! Här bor du med gångavstånd till både Chalmers tekniska högskola och flera av Göteborgs Universitets fakulteter. Ett stenkast bort ligger Korsvägen, en av stadens största knutpunkter, vilket gör det supersmidigt att ta sig var som helst med spårvagn eller buss (samt direktbuss till flygplatsen). Dessutom har du Avenyn, matbutiker, caféer, restauranger och Grönområden alldeles runt hörnet.\n\nPassar dig som:\nVill ha ett smidigt, tryggt och centralt boende med hög standard i ett av Göteborgs mest populära områden.\n\nUthyrning sker då jag till hösten ska på utbytesstudier i Kina.\n\nVarmt välkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 11810,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gullrisgatan, Göteborg",
-    "url": "https://qasa.com/p/1431787",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe7b9881e14ecb921affd2e10e6df47830d2fb284d5b6a5822c06e33b3345018.jpg",
-    "description": "Notera att lägenheten ligger ute till försäljning. Det är krav på att ni som hyresgäst kan ställa upp på att det sker visningar. Det innebär att det behöver vara städat inför visning.\n\nEn ljus och fräsch 1:a som varit löpande renoverad med fönster i två väderstreck (Norr & Söder). Balkongen är i söderläge.\nPlanlösningen är välplanerad med ett stort separat kök och ett vardagsrum som rymmer både soffa och säng. \nBadrummet är rymligt med en stor dusch och bra förvaringsmöjligheter.\nDet finns även en mindre walk-in closet på ca 1kvm som bidrar till mycket förvaring i lägenheten.\n\nTvättstugan finns nära i samma trappuppgång.\n\nDet finns bra kommunikationsmöjligheter. Ca 4-6 minuter promenad till spårvagn på Vågmästareplatsen eller Hjalmarbrantingplatsen som kan ta er runt hela stan. Det finns även en busshållsplats ca 1 minut från ytterdörren där ni kommer åt buss 17 som går direkt in till stan på 10 minuter. \n\nVärme, vatten och internet ingår i hyran.\nHyrs ut omöblerad. Bilderna ni ser är exempelbilder på möblering.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 7400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-06T04:27:35+00:00", "clock": "04:27:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-06T07:18:37+00:00", "clock": "07:18:37"};
