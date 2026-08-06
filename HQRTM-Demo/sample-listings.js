@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Wieselgrensplatsen 27, Göteborg",
+    "url": "https://qasa.com/p/1431997",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/519d3fc85936d194ebab50db9b070438330265e7e51f3a7fab33a87c1fbf09f4.jpg",
+    "description": "Från 1 november kan vi erbjuda en 1 RKV på Wieselgrensplatsen 27.\nLägenheten är belägen på våning 5 och är disponerad på 20 kvm.\n\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 3714,
+    "floor": 5,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Johan Gertssons Gata, Göteborg",
     "url": "https://qasa.com/p/1431904",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe76060b1ef5e11f13e832272cbade5f823004a64f5509257cdefe3c34f6b164.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Parkgatan, Göteborg",
-    "url": "https://qasa.com/p/1431768",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e898db7fbd52a44d518af5e03c39e610f852d9312f4cbb37e638479be73b9cbc.jpg",
-    "description": "Söker en inneboende för en kortade period, du ska ha ett arbete och visa intyg på detta.  Jag har ett rum ledigt med en 120säng. Och garderober finns  oxå för kläder.Inga möbler får flyttas hit.  Finns 2 toaletter en med dusch och 2 balkonger.  Stort vardagsrum som givetvis får användas och även köket så klart.  Det ska vara rent och fint hemma ganska enkelt.  Ingen fest lägenhet och ingen annan får sova här förutom du som eventuellt vill hyra. Hör av er om detta låter intressant. Mvh Tero\n",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 100.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-05T23:40:36+00:00", "clock": "23:40:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-06T01:05:58+00:00", "clock": "01:05:58"};
