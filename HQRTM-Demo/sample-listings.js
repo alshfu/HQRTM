@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bratteråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1433053",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42e34174cea690546f942a76cd520aeaf0c00dce7cadb6375acbe5ddacd6db7d.jpg",
+    "description": "Nu finns möjlighet att hyra en modern och välplanerad tvåa i attraktiva Eriksberg. Lägenheten hyrs ut fullt möblerad då jag ska arbeta utomlands under en period och söker därför en skötsam hyresgäst.\n\nBostaden har en öppen planlösning mellan kök och vardagsrum, ett rymligt sovrum med gott om förvaring samt ett stort helkaklat badrum med tvättmaskin. Det stilrena köket är fullt utrustat och vardagsrummet erbjuder ett härligt ljusinsläpp samt utgång till uteplats.\n\nEriksberg erbjuder ett lugnt läge nära vattnet med restauranger, caféer, matbutiker, gym och fina promenadstråk. Goda kommunikationer med buss och färja gör det enkelt att ta sig till centrala Göteborg.\n\nLägenheten hyrs ut fullt möblerad och passar perfekt för en person eller ett par som söker ett bekvämt hem med hög standard.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 12570,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillekärr Södra, Hisings Kärra",
     "url": "https://qasa.com/p/1432933",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb61eea0c87bc6554fdbe6a757c52bde252cad11da06a238787b2a9ec6326db6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Batterigatan 13F, Göteborg",
-    "url": "https://qasa.com/p/1432910",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c60b27504665744b55e01ddedd676c96d230e46657ace44c441c5aee66f7de03.jpg",
-    "description": "Nu kan vi erbjuda en 2 rum & kök på Batterigatan 13F i Göteborg med inflytt 1 november. \nLägenheten ligger belägen i Gamlestaden och är disponerad på 56 kvm.\n\nLåter detta intressant, välkommen med din ansökan redan idag.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 8367,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T08:41:54+00:00", "clock": "08:41:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T09:42:53+00:00", "clock": "09:42:53"};
