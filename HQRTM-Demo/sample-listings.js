@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bohusgatan, Göteborg",
+    "url": "https://qasa.com/p/1433494",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb87df0a5bc73cd091d06d0fb2099fdb778e190e978f8fb786d72ce25fe3d4cf.png",
+    "description": "Möblerad 2 om 48 kvm uthyres på Bohusgatan 7 i centrala Göteborg. Lägenheten ligger på våning 5 med hiss och har öppen planlösning mellan kök och vardagsrum, balkong, fullt utrustat kök, badrum med kombinerad tvättmaskin/torktumlare samt goda förvaringsmöjligheter. Bredband ingår.\n\nFastigheten är nyproducerad och föreningen erbjuder bland annat cykelförvaring, bilpool och gemensam takterrass. Centralt läge med gångavstånd till Avenyn, Ullevi, restauranger, butiker och kollektivtrafik.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 15000,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Släktledsgatan, Göteborg",
     "url": "https://qasa.com/p/1433445",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6f0d117f56a259561f27bcb1ecc67224497d9237264b62790642c36c6c30afe.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T15:38:05+00:00", "clock": "15:38:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T16:32:48+00:00", "clock": "16:32:48"};
