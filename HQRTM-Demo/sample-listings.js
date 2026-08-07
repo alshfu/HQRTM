@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Släktledsgatan, Göteborg",
+    "url": "https://qasa.com/p/1433445",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6f0d117f56a259561f27bcb1ecc67224497d9237264b62790642c36c6c30afe.png",
+    "description": "🌿 Egen privat del i villa på Hisingen – perfekt för student, pendlare eller två som vill dela!\n\nVälkommen till ett lugnt och bekvämt boende i ett trivsamt villaområde på Hisingen i Göteborg. Här hyr du en egen privat del av bottenvåningen (ca 40 m²) – ett perfekt alternativ för dig som vill ha känslan av en egen liten lägenhet.\n\nBoendet erbjuder:\n✨ Eget sovrum\n✨ Litet vardagsrum med pentry\n✨ Egen dusch och toalett\n✨ Samma entré, men din del är låsbar med egen nyckel\n\nDelen är smart planerad och avskild, vilket ger dig både integritet och trygghet i vardagen.\n\nVi som bor i huset är en familj med 2 vuxna och 2 barn, och vi bor på övervåningen.\n\nOmrådet är mycket lugnt och grönt, samtidigt som du har nära till Göteborgs stadsliv, kollektivtrafik och service. Perfekt för dig som vill kombinera studiero eller pendling med enkel tillgång till stan.\n\n👤 Passar bra för: Student eller pendlare – även två studenter/vänner som vill dela på hyran. Alla seriösa och skötsamma hyresgäster är varmt välkomna att söka.\n📍 Läge: Hisingen, Göteborg\n\nDet här är ett boende för dig som söker något mer än bara ett rum – här får du ett eget hem i ett tryggt och harmoniskt område.\n\nVälkommen att höra av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 40.0,
+    "rent": 9900,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1433347",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9703e876ef2686f409b19321e576ee11a2a367d7900cb0a94e60471efaaed88e.jpg",
@@ -29,21 +44,6 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mölnesjögatan, Angered",
-    "url": "https://qasa.com/p/1433183",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fff055163500b3faf348dd0996c42d517804b9ac637ec3e414df82f15d2b4a52.jpg",
-    "description": "Uthyres – Rymlig och renoverad tvåplansvilla på 135 kvm i Rannebergen, Angered\n\nNu finns möjlighet att hyra en rymlig och välskött tvåplansvilla på 135 kvm i ett lugnt och familjevänligt område i Rannebergen, Angered.\n\nVillan har ett fantastiskt läge med Mölnesjön precis bakom huset, vilket ger en vacker utsikt och en härlig känsla av lugn och närhet till naturen. Här bor du med gångavstånd till förskola, skola, lekplatser och goda kommunikationer. Det är endast 3 minuters promenad till förskola och cirka 4 minuter till busshållplats, samtidigt som Angered Centrum ligger bara några minuter bort med buss eller bil.\n\nHuset har genomgått omfattande renoveringar under de senaste åren, bland annat takbyte, fasadrenovering, fönsterbyte, köksrenovering, två helrenoverade badrum samt renoverade ytskikt.\n\nOm bostaden\n\n135 kvm fördelat på två våningar\n4 rymliga sovrum\nStort och ljust vardagsrum med utgång till en rymlig balkong\nFullt utrustat kök med kyl, frys, spis, ugn och mikrovågsugn samt gott om arbetsytor och plats för matbord\nTvå nyrenoverade badrum – ett med badkar och ett med dusch\nTvättstuga/groventré med tvättmaskin, torktumlare och grovho\nRymlig klädkammare\nFörråd på nedervåningen\nStort vindsförråd\nDelvis möblerad\n\nUteplatser\n\nAltan i olika etage på baksidan\nBalkong på övre våningen mot baksidan\nAltan på framsidan\n\nParkering\n\nGarage ingår \nMöjlighet att hyra en extra parkeringsplats för 150 kr/månad\n\nHyresinformation\n\nHyra: 14 000 kr/månad\nInflyttning: 1 september eller enligt överenskommelse\nHyrestid: 1 år, med möjlighet till förlängning\nEl tecknas av hyresgästen\nBredband tecknas av hyresgästen\nFöreningsavgift tillkommer var tredje månad enligt överenskommelse\nDeposition: En månadshyra\n\nVi söker en skötsam hyresgäst med ordnad ekonomi som tar väl hand om bostaden.\n\nVid intresse är du varmt välkommen att skicka ett meddelande och berätta lite om dig själv, vilka som kommer att bo i huset samt önskat inflyttningsdatum.",
-    "district": "Angered",
-    "rooms": 5.0,
-    "area_m2": 135.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T14:42:23+00:00", "clock": "14:42:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T15:38:05+00:00", "clock": "15:38:05"};
