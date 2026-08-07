@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Önskevädersgatan , Göteborg",
+    "url": "https://qasa.com/p/1433270",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/db2ba263feb74453e7b9ff415c756fe88345bbdfd4eafe4d88b9e00a45d9434c.jpg",
+    "description": "Lugn och mysig lägenhet med balkong.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 14300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Mölnesjögatan, Angered",
+    "url": "https://qasa.com/p/1433183",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fff055163500b3faf348dd0996c42d517804b9ac637ec3e414df82f15d2b4a52.jpg",
+    "description": "Uthyres – Rymlig och renoverad tvåplansvilla på 135 kvm i Rannebergen, Angered\n\nNu finns möjlighet att hyra en rymlig och välskött tvåplansvilla på 135 kvm i ett lugnt och familjevänligt område i Rannebergen, Angered.\n\nVillan har ett fantastiskt läge med Mölnesjön precis bakom huset, vilket ger en vacker utsikt och en härlig känsla av lugn och närhet till naturen. Här bor du med gångavstånd till förskola, skola, lekplatser och goda kommunikationer. Det är endast 3 minuters promenad till förskola och cirka 4 minuter till busshållplats, samtidigt som Angered Centrum ligger bara några minuter bort med buss eller bil.\n\nHuset har genomgått omfattande renoveringar under de senaste åren, bland annat takbyte, fasadrenovering, fönsterbyte, köksrenovering, två helrenoverade badrum samt renoverade ytskikt.\n\nOm bostaden\n\n135 kvm fördelat på två våningar\n4 rymliga sovrum\nStort och ljust vardagsrum med utgång till en rymlig balkong\nFullt utrustat kök med kyl, frys, spis, ugn och mikrovågsugn samt gott om arbetsytor och plats för matbord\nTvå nyrenoverade badrum – ett med badkar och ett med dusch\nTvättstuga/groventré med tvättmaskin, torktumlare och grovho\nRymlig klädkammare\nFörråd på nedervåningen\nStort vindsförråd\nDelvis möblerad\n\nUteplatser\n\nAltan i olika etage på baksidan\nBalkong på övre våningen mot baksidan\nAltan på framsidan\n\nParkering\n\nGarage ingår \nMöjlighet att hyra en extra parkeringsplats för 150 kr/månad\n\nHyresinformation\n\nHyra: 14 000 kr/månad\nInflyttning: 1 september eller enligt överenskommelse\nHyrestid: 1 år, med möjlighet till förlängning\nEl tecknas av hyresgästen\nBredband tecknas av hyresgästen\nFöreningsavgift tillkommer var tredje månad enligt överenskommelse\nDeposition: En månadshyra\n\nVi söker en skötsam hyresgäst med ordnad ekonomi som tar väl hand om bostaden.\n\nVid intresse är du varmt välkommen att skicka ett meddelande och berätta lite om dig själv, vilka som kommer att bo i huset samt önskat inflyttningsdatum.",
+    "district": "Angered",
+    "rooms": 5.0,
+    "area_m2": 135.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Grevegårdsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1433230",
     "image_url": null,
@@ -63,48 +93,18 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Bratteråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1433053",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42e34174cea690546f942a76cd520aeaf0c00dce7cadb6375acbe5ddacd6db7d.jpg",
-    "description": "Nu finns möjlighet att hyra en modern och välplanerad tvåa i attraktiva Eriksberg. Lägenheten hyrs ut fullt möblerad då jag ska arbeta utomlands under en period och söker därför en skötsam hyresgäst.\n\nBostaden har en öppen planlösning mellan kök och vardagsrum, ett rymligt sovrum med gott om förvaring samt ett stort helkaklat badrum med tvättmaskin. Det stilrena köket är fullt utrustat och vardagsrummet erbjuder ett härligt ljusinsläpp samt utgång till uteplats.\n\nEriksberg erbjuder ett lugnt läge nära vattnet med restauranger, caféer, matbutiker, gym och fina promenadstråk. Goda kommunikationer med buss och färja gör det enkelt att ta sig till centrala Göteborg.\n\nLägenheten hyrs ut fullt möblerad och passar perfekt för en person eller ett par som söker ett bekvämt hem med hög standard.",
+    "title": "Smörslottsgatan 10, Göteborg",
+    "url": "https://qasa.com/p/1433300",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56c32764125835d6de9e35d6a3d25cc752845e29506284272f085e4a4e3425da.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom bilderna i annonsen.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna tvåa! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med tvättmaskin och torktumlare.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nVärme och vatten ingår. El debiteras släpande på hyresavin via IMD. Bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
     "district": "Göteborg",
     "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12570,
+    "area_m2": 46.0,
+    "rent": 10194,
     "floor": null,
-    "has_balcony": true,
+    "has_balcony": null,
     "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillekärr Södra, Hisings Kärra",
-    "url": "https://qasa.com/p/1432933",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb61eea0c87bc6554fdbe6a757c52bde252cad11da06a238787b2a9ec6326db6.jpg",
-    "description": "Välkommen till denna lägenhet belägen på andra våningen i Hisings Kärra! Med sin boyta på 65 kvadratmeter erbjuds 2 rum och kök samt ett fräscht badrum med egen tvättmaskin. Här finns även bekvämligheter som diskmaskin i köket samt en gemensam, stor tvättstuga bara några steg bort.\n \n Lägenheten hyrs ut omöblerad och erbjuder därför de kommande hyresgästerna möjligheten att inreda efter eget tycke och smak. En generös balkong med eftermiddagssol ger extra utrymme för avkoppling och häng utomhus.\n \n Fastigheten är bra placerad med närhet till tät kollektivtrafik, vilket gör det enkelt att pendla. Det finns även skolor, parker, träningsanläggningar och flera butiker samt restauranger i närområdet, vilket skapar en trivsam och praktisk livsmiljö för både barn och vuxna. \n \n Lägenheten är utrustad med hiss för enkel tillgång och är mycket barnvänlig, vilket gör den till ett utmärkt val för familjer. I området finns gott om barn i alla åldrar, och allt från lekplatser till aktiviteter finns. \n\nHusdjur är tillåtna, och boende har access till tjänster som el, värme, vatten, sophämtning, och internet, samt en fast parkeringsplats ca 150 meter bort för bekvämlighet.",
-    "district": "Hisings Kärra",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sjupundsgatan, Göteborg",
-    "url": "https://qasa.com/p/1432839",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/39fe6d6502794f544923708fa7e7ed6c9861e53d2736062cab5e8c9ac32837d9.jpg",
-    "description": "Hej på er!\nPå grund av samboskap hyr vi ut min pojkväns etta i högsbohöjd från 1a oktober.\nDet är en öppen planlösning på 35kvm på våning fyra. Nybyggd fastighet sedan 2022.\n\nLägenheten hyres ut omöblerad. ÖNSKAS delvist möblerad, finns sängstomme etc som vi kan prata närmare om isåfall.\nBadrummet är förberett för tvättmaskin, annars finns det i huset enkelt att boka.\n\nLägenheten har en stor balkong mot innergården, utöver det finns det en stor takterrass, lounge och utegård för fri användning som hyresgäst. \n\nPrecis utanför finns ICA, gym, naturnära stråk, samt nära till Axel Dahlströms torg och Frölunda torg.\n\nBuss 16 mitt utanför dörren och nära anknytning till Marklandsplatsen där många förbindelser i kollektivtrafiken finns att ta sig runt hela Göteborg.\n\n\nInflytt från 1a oktober. \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 9100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T11:30:10+00:00", "clock": "11:30:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T12:24:43+00:00", "clock": "12:24:43"};
