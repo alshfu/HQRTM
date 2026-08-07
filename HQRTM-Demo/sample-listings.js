@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lillekärr Södra, Hisings Kärra",
+    "url": "https://qasa.com/p/1432933",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb61eea0c87bc6554fdbe6a757c52bde252cad11da06a238787b2a9ec6326db6.jpg",
+    "description": "Välkommen till denna lägenhet belägen på andra våningen i Hisings Kärra! Med sin boyta på 65 kvadratmeter erbjuds 2 rum och kök samt ett fräscht badrum med egen tvättmaskin. Här finns även bekvämligheter som diskmaskin i köket samt en gemensam, stor tvättstuga bara några steg bort.\n \n Lägenheten hyrs ut omöblerad och erbjuder därför de kommande hyresgästerna möjligheten att inreda efter eget tycke och smak. En generös balkong med eftermiddagssol ger extra utrymme för avkoppling och häng utomhus.\n \n Fastigheten är bra placerad med närhet till tät kollektivtrafik, vilket gör det enkelt att pendla. Det finns även skolor, parker, träningsanläggningar och flera butiker samt restauranger i närområdet, vilket skapar en trivsam och praktisk livsmiljö för både barn och vuxna. \n \n Lägenheten är utrustad med hiss för enkel tillgång och är mycket barnvänlig, vilket gör den till ett utmärkt val för familjer. I området finns gott om barn i alla åldrar, och allt från lekplatser till aktiviteter finns. \n\nHusdjur är tillåtna, och boende har access till tjänster som el, värme, vatten, sophämtning, och internet, samt en fast parkeringsplats ca 150 meter bort för bekvämlighet.",
+    "district": "Hisings Kärra",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sjupundsgatan, Göteborg",
+    "url": "https://qasa.com/p/1432839",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/39fe6d6502794f544923708fa7e7ed6c9861e53d2736062cab5e8c9ac32837d9.jpg",
+    "description": "Hej på er!\nPå grund av samboskap hyr vi ut min pojkväns etta i högsbohöjd från 1a oktober.\nDet är en öppen planlösning på 35kvm på våning fyra. Nybyggd fastighet sedan 2022.\n\nLägenheten hyres ut omöblerad. ÖNSKAS delvist möblerad, finns sängstomme etc som vi kan prata närmare om isåfall.\nBadrummet är förberett för tvättmaskin, annars finns det i huset enkelt att boka.\n\nLägenheten har en stor balkong mot innergården, utöver det finns det en stor takterrass, lounge och utegård för fri användning som hyresgäst. \n\nPrecis utanför finns ICA, gym, naturnära stråk, samt nära till Axel Dahlströms torg och Frölunda torg.\n\nBuss 16 mitt utanför dörren och nära anknytning till Marklandsplatsen där många förbindelser i kollektivtrafiken finns att ta sig runt hela Göteborg.\n\n\nInflytt från 1a oktober. \n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 9100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bondegärdet, Angered",
     "url": "https://qasa.com/p/1433007",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7cf1bb0f7ccd7c4be549ad9bc6933e8eda199b1fa842a1f085b93684bf3c260a.jpg",
@@ -48,51 +78,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Temperaturgatan 87, Göteborg",
-    "url": "https://qasa.com/p/1432903",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b86a46611fb52961c86806f78543a6329720ef76396709c4fc146955ee7e2094.jpg",
-    "description": "Den 1 november har du möjlighet att flytta in i en 3 rum & kök på Temperaturgatan 87.\nLägenheten är belägen på bottenvåning och är disponerad på 72 kvm. \n\nI hyreskontraktet ingår en parkeringsplats med för närvarande hyra på: 400kr/mån.\nHyran för parkeringsplatsen är inkluderad i hyran ni ser i denna annons (10 124:-).\n\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 72.0,
-    "rent": 10124,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stobéegatan 14C, Göteborg",
-    "url": "https://qasa.com/p/1432904",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bb66ec57c8e203116225e2a78f34a5caa51efe0224ed01927943dbfe7b24fdb9.jpg",
-    "description": "Nu kan vi erbjuda en 1 ROK på Stobéegatan 14C i Kålltorp från 1 oktober. \nLägenheten är belägen på våning 2 och är disponerad på 38 kvm. \n\nEL ingår i hyran (6 368kr/mån) \n\nVi erbjuder dig gärna en visning! Ansök redan idag!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 6368,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hisingsgatan 19A, Göteborg",
-    "url": "https://qasa.com/p/1432905",
-    "image_url": null,
-    "description": "Från 1 november kan vi erbjuda en 1 ROK på Hisingsgatan 19A.\nLägenheten är belägen på våning 2 och är disponerad på 33 kvm.\n\nVi erbjuder dig gärna visning med nuvarande hyresgäst!\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 5105,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Temperaturgatan 85, Göteborg",
     "url": "https://qasa.com/p/1432908",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd9f4367a1b24515389bc3626d82dbd966a2e43f6498ffd229753537f87486b2.jpg",
@@ -105,6 +90,21 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Batterigatan 13F, Göteborg",
+    "url": "https://qasa.com/p/1432910",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c60b27504665744b55e01ddedd676c96d230e46657ace44c441c5aee66f7de03.jpg",
+    "description": "Nu kan vi erbjuda en 2 rum & kök på Batterigatan 13F i Göteborg med inflytt 1 november. \nLägenheten ligger belägen i Gamlestaden och är disponerad på 56 kvm.\n\nLåter detta intressant, välkommen med din ansökan redan idag.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 8367,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T07:47:53+00:00", "clock": "07:47:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T08:41:54+00:00", "clock": "08:41:54"};
