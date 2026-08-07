@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1433347",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9703e876ef2686f409b19321e576ee11a2a367d7900cb0a94e60471efaaed88e.jpg",
+    "description": "Exklusiv Möblerad Lägenhet i Karlatornet – Göteborgs Nya Landmärke\n\nAdress: Lodjursstråket 1, Göteborg\nTyp: Möblerad lägenhet\nStorlek: 2 rum och kök, 46 kvm\nHyra: 16 000 kr/månad\nTillträde: 1 september 2026\nHyresperiod: 1 år, med möjlighet till förlängning\nDeposition: 16 000 kr\n\n⸻\n\nBeskrivning\n\nVälkommen till ett av Göteborgs mest exklusiva boenden – Karlatornet. Denna stilrena 2-rumslägenhet på 46 kvm ligger högt upp i byggnaden och erbjuder storslagen utsikt över staden. Lägenheten är ljus och väldisponerad, med moderna materialval och generösa fönsterpartier som ger ett fantastiskt ljusinsläpp.\n\n⸻\n\nDetta ingår i hyran\n• Värme\n• Internet 300 / 300\n• Två gymkort\nFritt tillträde till:\n• Gym\n• Biorum\n• Spelrum\n• Kontorsrum\n• Festlokal\n• Takterrass\n• Kylrum\n• Övriga gemensamma utrymmen\n\n⸻\n\nFaciliteter i byggnaden\n• Gym & wellness – Fullt utrustat gym med bastu och spa\n• Kontorsrum – Bokningsbara arbetsrum för studier, distansarbete eller möten\n• Biorum & pingisrum – Kostnadsfri bokning via internt system\n• Takterrass – Med panoramavy över hela Göteborg\n• Skybar på våning 69 – Öppnar snart, perfekt för kvällsdrinkar\n• Festlokal på våning 15 – Med kök och utsikt, idealisk för tillställningar\n• Gemensamma utrymmen – För arbete, umgänge och avkoppling\n\n⸻\n\nLäge\n\nKarlatornet ligger i hjärtat av det nya området Karlastaden – ett pulserande kvarter med närhet till restauranger, butiker och kollektivtrafik. Här bor du med citylivet utanför dörren och all bekvämlighet du kan önska dig inomhus.\n\n⸻\n\nHyresvillkor\n• Uthyrning sker möblerat\n• Passar upp till 3 personer\n• Rökning och husdjur är ej tillåtet\n• Föreningens godkännande krävs innan kontraktsskrivning\n\n⸻\n\nIntresserad?\n\nVälkommen att höra av dig för mer information eller för att boka en visning.\nBerätta gärna kort om dig själv och din nuvarande boendesituation.\n\nVälkommen till ett unikt hem i Nordens högsta byggnad – Karlatornet!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 46.0,
+    "rent": 15246,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Önskevädersgatan , Göteborg",
     "url": "https://qasa.com/p/1433270",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/db2ba263feb74453e7b9ff415c756fe88345bbdfd4eafe4d88b9e00a45d9434c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslottsgatan 10, Göteborg",
-    "url": "https://qasa.com/p/1433300",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56c32764125835d6de9e35d6a3d25cc752845e29506284272f085e4a4e3425da.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom bilderna i annonsen.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna tvåa! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med tvättmaskin och torktumlare.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nVärme och vatten ingår. El debiteras släpande på hyresavin via IMD. Bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 10194,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T12:24:43+00:00", "clock": "12:24:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-07T13:49:16+00:00", "clock": "13:49:16"};
