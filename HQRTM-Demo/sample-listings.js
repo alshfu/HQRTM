@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Donsö bryggväg, Donsö",
+    "url": "https://qasa.com/p/1432327",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2a8d30d7f921e161e81836368887374fd8d1ec3f93b18d615fd0d674316e6339.jpg",
+    "description": "Litet ombonat och trevligt hus på vackra Donsö i Göteborgs södra skärgård. Uthyres from 24/8- 31/5 2027, gärna till student. \n\nHuset har 1 sovrum, köksvrå och vardagsrum, hall och badrum med dusch. Det är fullt möblerat samt fullt köksutrustat med kyl, frys, spis, ugn, mikro, porslin, kastruller etc. El, vatten & wifi ingår i hyran. \n\nPendlingstid till centrala Göteborg är ca 50 min, färja till Saltholmen tar ca 20 min. Huset ligger nära färja och ICA butik,  5-10 min promenad. \nPå Donsö och Styrsö finns fina badvikar och naturstigar, det går en bro över till Styrsö.\n\nCharming little house on beautiful Donsö island for rent from August 24th to May 31st 2027, ideal for a student studying in Gothenburg. \n\nThe house has one bedroom, a living room, small kitchen and bathroom w shower. It is fully furnished and kitchen is fully equipped with fridge, freezer, oven, microwave, coffee maker and kitchen ware. \nElectricity, water and wifi is included in the rent.\n\nCommuting to central Gothenburg takes approx 50 minutes and ferry to Saltholmen takes approx 20 minutes. The house is close to the ferry and to the local foodstore.\nDonsö and its neighbour island Styrsö both have lovely nature trails and beaches , there is a bridge connecting the two islands.\n",
+    "district": "Donsö",
+    "rooms": 2.5,
+    "area_m2": 42.0,
+    "rent": 6700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hedtångsvägen, Hovås",
     "url": "https://qasa.com/p/1433746",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac3080634d4c454972c2566109f7ee2a58e66186f086a473a92002fc5ed89bd2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Önskevädersgatan , Göteborg",
-    "url": "https://qasa.com/p/1433270",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/db2ba263feb74453e7b9ff415c756fe88345bbdfd4eafe4d88b9e00a45d9434c.jpg",
-    "description": "Lugn och mysig lägenhet med balkong.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 14300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T09:47:18+00:00", "clock": "09:47:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T10:16:05+00:00", "clock": "10:16:05"};
