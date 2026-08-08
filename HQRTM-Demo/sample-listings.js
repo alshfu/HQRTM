@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carl Grimbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1433610",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a1d698d3ec569e6617652ad033e12a35a440f7b13e938cb30cfd71e47f6118e2.jpg",
+    "description": "Stort och ljust rum med utsikt till den intima balkongen vilken vetter mot lugn och fridfull gata med vackra trädgårdar och kulturhistoriska byggnader från slutet av 1800-talet. Promenadavstånd till allt, Götaplatsen med Stadsbiblioteket, Stadsteatern, Konserthuset och Göteborgs konstmuseum, Avenyn och Röhsska museet eller Slottskogen med Botaniska trädgården och Änggårdsbergen. Cykelväg ut till havet. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bohusgatan, Göteborg",
     "url": "https://qasa.com/p/1433494",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb87df0a5bc73cd091d06d0fb2099fdb778e190e978f8fb786d72ce25fe3d4cf.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T08:08:25+00:00", "clock": "08:08:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T08:58:30+00:00", "clock": "08:58:30"};
