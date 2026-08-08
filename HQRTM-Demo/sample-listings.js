@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Briljantgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1433759",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59bd38f68e6b59aa1b1cd379aece5333273ee31e36926cf0d00d977b147b44d2.jpg",
+    "description": "Jättefin lägenhet, nära Frölunda Torg, tryggt område. Fräsch lgh,  balkong med le o mycket sol, nice grannar. Fina utsikten alla rum. ",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Trädesgatan, Göteborg",
     "url": "https://qasa.com/p/1433198",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bfdc54852f3244f894f311e24ac7720fe3a78650eb02d3fa8d370b3ac33313f5.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carl Grimbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1433610",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ab849921b0dca747ffdbb73598724742d68fc383d9dbd6fc20a5647c4c4e17f6.jpg",
-    "description": "Stort och ljust rum med utsikt till den intima balkongen vilken vetter mot lugn och fridfull gata med vackra trädgårdar och kulturhistoriska byggnader från slutet av 1800-talet. Promenadavstånd till allt, Götaplatsen med Stadsbiblioteket, Stadsteatern, Konserthuset och Göteborgs konstmuseum, Avenyn och Röhsska museet eller Slottskogen med Botaniska trädgården och Änggårdsbergen. Cykelväg ut till havet. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T11:28:44+00:00", "clock": "11:28:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T11:56:38+00:00", "clock": "11:56:38"};
