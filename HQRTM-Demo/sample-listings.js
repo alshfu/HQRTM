@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Trädesgatan, Göteborg",
+    "url": "https://qasa.com/p/1433198",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bfdc54852f3244f894f311e24ac7720fe3a78650eb02d3fa8d370b3ac33313f5.png",
+    "description": "En charmig etta i landshövdingehus uthyres på centrala Hisingen.\nEndast 5 minuters promenad till spårvagnshållplats.\nLägenheten genom gick en fullständig renovering (kök, badrum och alla ytskikt) för ett par år sedan och är således i mycket gott skick Lägenheten är möblerad och lättare köksinredning såsom bestik, tallrikar  kastrull och stekpanna kommer finnas. Önskas mer får hyresgästen komplettera. Hyresgästen står för sängkläder, handdukar och dylikt.\nMysig innergård med uteplats ovh grillmöjligheter.\nVärme, vatten, internet (100 mbit) och TV-kanaler ingår i hyran. Elabonnemang tecknas och betalas av hyresgäst.\nEn månadshyra i deposition.\nJag kommer inte ha behov av lägenheten under det kommande året men kommer troligtvis hyra ut längre än så.\nGivetvis ordnas med visning innan hyreskontrakt undertecknas.\nSkriv gärna några rader om er själva och varför ni skulle vilja hyra lägenheten. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 9445,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Dybecksgatan, Göteborg",
     "url": "https://qasa.com/p/1433763",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8ab5257f3e6b04665af18a491e30b12b59f63331ddd19ed7c313b6e7374ef82a.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bohusgatan, Göteborg",
-    "url": "https://qasa.com/p/1433494",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb87df0a5bc73cd091d06d0fb2099fdb778e190e978f8fb786d72ce25fe3d4cf.png",
-    "description": "Möblerad 2 om 48 kvm uthyres på Bohusgatan 7 i centrala Göteborg. Lägenheten ligger på våning 5 med hiss och har öppen planlösning mellan kök och vardagsrum, balkong, fullt utrustat kök, badrum med kombinerad tvättmaskin/torktumlare samt goda förvaringsmöjligheter. Bredband ingår.\n\nFastigheten är nyproducerad och föreningen erbjuder bland annat cykelförvaring, bilpool och gemensam takterrass. Centralt läge med gångavstånd till Avenyn, Ullevi, restauranger, butiker och kollektivtrafik.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 15000,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T10:55:01+00:00", "clock": "10:55:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T11:28:44+00:00", "clock": "11:28:44"};
