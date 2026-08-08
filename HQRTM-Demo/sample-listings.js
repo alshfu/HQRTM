@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Forselius Backe, Göteborg",
+    "url": "https://qasa.com/p/1434044",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4184c6f86fd47849f2ae3dbba6063befe205a3b08c5ee5fb78d504821a16d8cb.jpg",
+    "description": "Lyxig Studiolägenhet för en person centralt belägen\n\nBo i en lyxig ”studio” på cirka 18 Kvm med egen ingång. På gång/cykelavstånd från (3min) Chalmers och (2min)Sahlgrenska Sjukhuset. \n1 min från ”Studion” finns hyr cyklar via Styr & Ställ Så du tar dig snabbt till centrala Gbg eller Linnè på cirka 10 min. På samma ställe går det bussar åt alla håll vart 6e minut om man hellre vill åka buss. \n6 min till Linnéplatsen \n15 min till kungsports avenyn (H) Valand\n22 min till Centralstationen \n\nInrett som ett lyxigt hotellrum finner du allt som du behöver för att kunna laga en god middag, studera, arbeta hemifrån och såklart sova gott i sängen med hotellstandard.\n\nPerfekt boende för studenter eller någon som veckopendlar som vill bo bekvämt och centralt.\n\nStudion har egen ingång och den ligger ostört i samma fastighet som vårt radhus\n\nHär nedan finner du en lista på allt som ingår i Studion\n\nDiskmaskin\nTvättmaskin (egen)\nGolvvärme\nKyl med Frysfack\nVarmluftsugn (fullsize)\nMicro\nSmart Tv\nInternet (Wi-fi)\nFast USB ladd uttag vid barbordet\nDammsugare\nRymlig Spegelskjutdörr Garderob\nBadlakan & Handdukar\nMörkläggningsgardiner\nFullt utrustat kök med porslin och redskap\nSmart Kodlås på dörren (Yale-Doorman)\n\nBoendet är rökfritt och djurfritt och är endast avsett för varaktigt boende för en person. \n\nVi har avsiktligt valt att inte ange exakt adress i annonsen. Bostaden ligger inom ca femhundra meters radie från den angivna adressen.\n\nDu får reda på adressen när vi valt ut de hyresgäster som går vidare\n\nÄr du intresserad så vill vi att du skickar en intresseanmälan via annonsen. \nDär du kort beskriver vem du är och vad du gör och hur långe du vill hyra. \nVi kollar dina uppgifter på UC och om allt ser bra ut så skriver vi kontrakt på ett läsår i taget. \n\nUnder sommarmånaderna hyr vi ut via Airbnb men om vi är nöjda med varandra så har du automatiskt förlängt kontrakt igen när höstterminen börjar.  Vilka start och slutdatum ditt läsår har tar vi som det kommer. Så inga datum är exakta. \n\nDu är självklart välkommen att förlänga hur många år du vill. Vi ombesörjer kostnadsfritt att magasinera dina grejor på vår vind under sommartid när du inte bor där isf.\n\nHyran är 7.200kr plus EL 200kr/ mån. \nVärme, vatten, soptömning, internet, tvätt av sängkläder och lakan 2ggr/mån. ingår i hyran. \n\nVi vill ha två månadshyror i deposition utöver första hyran som du kan betala efter att du har flyttat in. \n\nVi ställer också krav på att du tecknar en hemförsäkring på boendet. Trygg-Hansa Pris fr cirka 95 kr/mån.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 7200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Charles Väg, Hovås",
     "url": "https://qasa.com/p/1434011",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64a6ff640643e21f04eb0b61efa6e84c1af6e35c1507a4c069778030080febe7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Trädesgatan, Göteborg",
-    "url": "https://qasa.com/p/1433198",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bfdc54852f3244f894f311e24ac7720fe3a78650eb02d3fa8d370b3ac33313f5.png",
-    "description": "En charmig etta i landshövdingehus uthyres på centrala Hisingen.\nEndast 5 minuters promenad till spårvagnshållplats.\nLägenheten genom gick en fullständig renovering (kök, badrum och alla ytskikt) för ett par år sedan och är således i mycket gott skick Lägenheten är möblerad och lättare köksinredning såsom bestik, tallrikar  kastrull och stekpanna kommer finnas. Önskas mer får hyresgästen komplettera. Hyresgästen står för sängkläder, handdukar och dylikt.\nMysig innergård med uteplats ovh grillmöjligheter.\nVärme, vatten, internet (100 mbit) och TV-kanaler ingår i hyran. Elabonnemang tecknas och betalas av hyresgäst.\nEn månadshyra i deposition.\nJag kommer inte ha behov av lägenheten under det kommande året men kommer troligtvis hyra ut längre än så.\nGivetvis ordnas med visning innan hyreskontrakt undertecknas.\nSkriv gärna några rader om er själva och varför ni skulle vilja hyra lägenheten. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 9445,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T20:01:22+00:00", "clock": "20:01:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T20:42:50+00:00", "clock": "20:42:50"};
