@@ -3,9 +3,39 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hedtångsvägen, Hovås",
+    "url": "https://qasa.com/p/1433746",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac3080634d4c454972c2566109f7ee2a58e66186f086a473a92002fc5ed89bd2.jpg",
+    "description": "Helt nybyggd (2023) ägarlägenhet i populära Nya Hovås. Belägen på våning 6 av 7 med en stor balkong. Parkering i garage under huset ingår i hyran.\n\nBra kommunikationer in till Göteborg centrum och nära till havet.\n\nIngår i hyran: parkering i garage, bredband,\nKallvatten samt uppvärmning av lägenhet. Hushållsel betalas av hyresgästen.\n\nNotera att jag helst hyr ut under en längre period, minst 6 månader och mer. Då det är en ägarlägenhet så får jag hyra ut så länge jag vill, dvs det finns ej någon främre gräns för uthyrningen. Lägenheten är perfekt för det mindre hushållet.",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 13000,
+    "floor": 6,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Badvädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1433733",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b2ab1fa7bdf3a6aa3c752bd843adf65b22abaedc99c7c432820bf6b9e23034d3.jpg",
+    "description": "Hej! 🏡\n\nJag hyr ut min fina och trivsamma 2:a  på 53 kvm på Badvädersgatan på Hisingen.\n\nLägenheten är möblerad och har inglasad balkong på våning 5 med hiss och tvättstuga i samma byggnad helt perfekt.\n\n📅 Inflyttning: 1 oktober💰 Hyra: 12 000 kr/mån⏳ Hyrestid: 1 år med möjlighet till förlängning\n\nI månadsavgiften ingår:\n\nVärme\nVatten\nBredband\nTillgång till gym och bastu\n\nLägenheten ligger i ett bra område med spårvagn och buss på nära avstånd, vilket gör det enkelt att ta sig till centrala Göteborg och andra delar av stan.\n\nJag söker en skötsam, ansvarsfull och pålitlig person som tar väl hand om lägenheten och gärna vill bo långsiktigt.\n\nEn månads deposition betalas innan inflyttning.\n\nÄr du intresserad? 😊Skicka gärna ett PM och berätta lite om dig själv,  så återkommer jag om intresset finns!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 12000,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carl Grimbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1433610",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a1d698d3ec569e6617652ad033e12a35a440f7b13e938cb30cfd71e47f6118e2.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ab849921b0dca747ffdbb73598724742d68fc383d9dbd6fc20a5647c4c4e17f6.jpg",
     "description": "Stort och ljust rum med utsikt till den intima balkongen vilken vetter mot lugn och fridfull gata med vackra trädgårdar och kulturhistoriska byggnader från slutet av 1800-talet. Promenadavstånd till allt, Götaplatsen med Stadsbiblioteket, Stadsteatern, Konserthuset och Göteborgs konstmuseum, Avenyn och Röhsska museet eller Slottskogen med Botaniska trädgården och Änggårdsbergen. Cykelväg ut till havet. ",
     "district": "Göteborg",
     "rooms": 1.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Grevegårdsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1433230",
-    "image_url": null,
-    "description": "RUM UTHYRES\nJag har 1 rum som jag hyr ut möblerat.\nRummet är ganska stort. 20-30 kv\nI hyran ingår el .Trådlöst internet . \nSängkläder. Handdukar.\nDu har också tillgång till kök och badrum.\nJag hyr ut det för 4800\nOch jag hyr ut det FRÅN OMGÅENDE. Perfekt för dig som studerar.\nDet är nära till hållplatsen där både linje ett och sju tar dig till Centrum på c.a 20 min och spårvagn 8 går från Frölunda Torg till korsvägen.\nFrölunda Torg är det stora shoppingcentret som ligger två hållplatser bort.\nDu har också nära till havet och den fina naturen bara ett stenkast bort .Det går även bussar till havet/badet.\nJag vill gärna träffa den som eventuellt flyttar in. Så man lär känna varandra lite.\nOch att visa rummet som jag hyr ut, Jag har därför inga bilder.\nJag jobbar i vården och är tacksam ifall man mailar. Så svarar jag så fort jag kan.\nDå jag inte har någon chans att prata i mob. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nolhöjdsvägen, Torslanda",
-    "url": "https://qasa.com/p/1433215",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/42ed231aa9dd2b0ff8260881bb155077dbe111791c43fe30d2135d5d4ce6d132.jpg",
-    "description": "Nybyggd fristående garagelägenhet i två plan  i Nolvik, Björlanda. \n\nNedre plan, ca 22 kvm kök & badrum. Övre plan ca 25kvm golv med snedtak, för vardagsrum samt sovrum på var sin sida av trappan. \n\nFullt utrustat kök med kyl, frys, diskmaskin, ugn och spis samt köksö. \nBadrum med dusch samt tvättmaskin. \n\nI dagsläget omöblerat, kan möbleras enligt ö.k mot hyrestillägg enligt standard. \n\nMysigt naturområde, nära till skog & hav inkl privata ön Grågåseholmen. \nParkering ingår.",
-    "district": "Torslanda",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T08:58:30+00:00", "clock": "08:58:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T09:47:18+00:00", "clock": "09:47:18"};
