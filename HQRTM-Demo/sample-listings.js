@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordostpassagen, Göteborg",
+    "url": "https://qasa.com/p/1433928",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f3a87c67f6e13a2827554562568e60063eb0eb0187cf44a5edc1064fd378839.jpg",
+    "description": "BOSTADEN\nHelt nyproducerad, välplanerad tre-rummare i toppskick i centrala Göteborg. \nEtt stort, ljust vardagsrum med öppet fullt utrustat kök. \nEtt stort sovrum med plats för t ex skrivbord eler tv-bänk.\nEtt mindre sovrum med plats för t ex skrivbord. \nEtt badum med duschvägg. Tvättmaskin och torktumlare.\nEn stor klädkammare/förråd.\nVackra trägolv i alla rum, stengolv i hall och badrum. \nGott om garderober och förvaring.\n\nOBS! Det är andra möbler och inredning i lägenheten idag än på bilderna.\n\nOMRÅDET\nUtanför fönstren ligger en stor öppen plats med vackra rabatter, bänkar och solstolar. Välskött område med mycket grönska och lekplatser.\nUtmärkt läge mellan Linnégatan, Långgatorna och Slottsskogen. \n\nKOMMUNIKATIONER\n* Buss 61 stannar precis invid huset och går till Järntorget, Stenpiren, city mm. \n* Några minuters promenad till flera olika spårvagnshållplatser såsom t ex Järntorget. \n* Snabb och enkel resa till city, Chalmers, Sahlgrenska och Lindholmen. \n\nINGÅR I HYRAN\nEl, värme, wifi. \n\nDEPOSITION\nPå två månadshyror erfordras.\n\nHYRESGÄST SÖKES\n* Helst en eller två personer.\n* Rök-och djurfri hyresgäst med förmågan att vårda lägenheten väl.\n\nVid intresse, vänligen kontakta mig med en kort beskrivning av dig själv samt ditt telefonnummer.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skummjölksgatan, Göteborg",
     "url": "https://qasa.com/p/1418003",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bb9010c7be33452441931c3d8bbb24f85bd065789df95c086b869ac3682453f2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borraregatan, Göteborg",
-    "url": "https://qasa.com/p/1428526",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe27ce5a8f275d3d56a5aaca09ead28236dab0122a0abed34e14c2b68f64a1e2.jpg",
-    "description": "obs! bilderna visas inte i sin helhet när man \"swipear\". Tryck på \"visa alla bilder\" för att se hela bilden på fotona i liggande format. \n\nHej,\n\nJag hyr ut till en person.\n\nOm du är intresserade skriv ett mail om dig själv så kan jag skicka fler bilder / videon och så kan vi pratas vid avseende hyresform och pris innan en visning.\n\nMed vänlig hälsning, Anahita\n\nLäge:\nGångavstånd till centrum och skog, cykelavstånd till sjö och hav.  Bredvid Chalmers, 1,5 km från Sahlgrenska och 2,5 km från Handelshögskolan. Fysikens gym / gruppträning och Klätterlabb 500 meter på vardera sida om lägenheten. Motionsspår med utegym 100 meter bort.  Safjället med skog och motionsspår 2 km bort.\nLugnt område, men aldrig öde.\nBusshållsplats på andra sidan gatan, spårvagn från Chalmers hållplats.\nPizzerior, thaimat, sushi, barer och café på krypavstånd och Willys mataffär på 500 meters.\n\nBalkong: Solig, inglasad men går att öppna helt. 9 kvadratmeter med soffgrupp. Dörrar mot sovrum 1 och kök.\n\nBadrum: Toalett, duschkabin, tvättmaskin, torktumlare, 3 meter stor \"arbetsyta\" med flera skåp och två stora \"byrålådor\" under vasken. Liten inbyggd klädställning och uppvärmd handdukstork.\n\nSovrum 1: 180 cm säng \nSovrum 2: 120 cm säng\n\nKök: Fullt utrustat med 3 diskhon och ett litet fönster. Köks-ö med den tredje diskhon, spis och \"bar\". Separat \"helt\" kylskåp och frys, varmluftsugn och micro. Matplats med matbord och stolar för 8 personer.\n\nVardagsrum: Mycket ljus eftersom det är glas istället för vägg mot balkongen. och fönster åt andra hållet. Stor divansoffa.\n\nHall: Stor \"garderob\" med spegel-skjutdörrar, skoskåp och liten fällbar väggfast pall.\n\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 14700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T14:54:07+00:00", "clock": "14:54:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T15:26:30+00:00", "clock": "15:26:30"};
