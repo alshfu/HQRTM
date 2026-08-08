@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Haggårdsvägen, Brännö",
+    "url": "https://qasa.com/p/1433831",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3bb9b3d0700d90576f4d96e027ac472aab8f83bbd59165bb761c34d354a4b3de.jpg",
+    "description": "Bo lugnt nära hav och natur och med bra kommunikationer in till centrum!\nFin, ljus stuga nära färjeläget ”Brännö Rödsten”, vardagsrum med kokvrå, sovrum med två 90 cm sängar, duschrum, sovloft med en extrasäng, altan och liten egen trädgård. \nSnabbuss eller spårvagn går in till centrum från ”Saltholmen”.  Enkelt för pendling.\nAffär och värdshus finns på ön. Här bor nästan tusen fastboende. Du har stugan för dig själv och grannar i närheten. Bad, fina promenad/löpvägar, natursköna platser har du runt dig. Aktiviteter ordnas då och då på ön, även vintertid.\nEl, internet, sophämtning mm ingår i hyran. \n\n\n",
+    "district": "Brännö",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Briljantgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1433759",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59bd38f68e6b59aa1b1cd379aece5333273ee31e36926cf0d00d977b147b44d2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Badvädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1433733",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b2ab1fa7bdf3a6aa3c752bd843adf65b22abaedc99c7c432820bf6b9e23034d3.jpg",
-    "description": "Hej! 🏡\n\nJag hyr ut min fina och trivsamma 2:a  på 53 kvm på Badvädersgatan på Hisingen.\n\nLägenheten är möblerad och har inglasad balkong på våning 5 med hiss och tvättstuga i samma byggnad helt perfekt.\n\n📅 Inflyttning: 1 oktober💰 Hyra: 12 000 kr/mån⏳ Hyrestid: 1 år med möjlighet till förlängning\n\nI månadsavgiften ingår:\n\nVärme\nVatten\nBredband\nTillgång till gym och bastu\n\nLägenheten ligger i ett bra område med spårvagn och buss på nära avstånd, vilket gör det enkelt att ta sig till centrala Göteborg och andra delar av stan.\n\nJag söker en skötsam, ansvarsfull och pålitlig person som tar väl hand om lägenheten och gärna vill bo långsiktigt.\n\nEn månads deposition betalas innan inflyttning.\n\nÄr du intresserad? 😊Skicka gärna ett PM och berätta lite om dig själv,  så återkommer jag om intresset finns!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 12000,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T12:56:21+00:00", "clock": "12:56:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T13:48:28+00:00", "clock": "13:48:28"};
