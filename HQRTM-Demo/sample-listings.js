@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Charles Väg, Hovås",
+    "url": "https://qasa.com/p/1434011",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64a6ff640643e21f04eb0b61efa6e84c1af6e35c1507a4c069778030080febe7.jpg",
+    "description": "Välplanerad lägenhet i lugnt villaområde i Hovås (ca 45 kvm)\n\nVi önskar hyra ut vår lägenhet i vår villa under hösten/våren. Nu finns möjlighet att hyra en fin, fullt utrustada lägenhet i bottenplanet på vårt bostadshus i eftertraktade Hovås. Lämpligt för t.ex. student eller arbetspendlare.\n\nOm lägenheten:\n\nCa 45 kvm med delad entré.\nVälplanerad med ett litet kök, en mysig sovalkov utrustad med dubbelsäng samt ett allrum med en bekväm bäddsoffa (perfekt för gäster).\nStort badrum med dusch samt ett praktiskt litet förråd/klädkammare direkt i lägenheten.\n\nOmrådet och läget:\nLägenheten ligger i ett lugnt och tryggt villaområde med naturen runt hörnet.\n\nTa cykeln ner till havet för ett svalkande dopp eller njut av de fina promenadstråken i närliggande naturområden.\nMycket goda förbindelser in till centrala Göteborg. Expressbussen tar dig smidigt in till stan på ca 15–20 minuter.\nEgen parkeringsplats ingår/finns tillgänglig.\n\nEtt perfekt boende för dig som vill bo bekvämt och naturnära men ändå ha snabb och enkel tillgång till storstadens utbud.\n\nVärme, vatten, el och internet ingår.\n---\n\nVälkommen att höra av dig med en kort presentation av dig själv vid intresse!",
+    "district": "Hovås",
+    "rooms": 1.5,
+    "area_m2": 45.0,
+    "rent": 8500,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nordostpassagen, Göteborg",
     "url": "https://qasa.com/p/1433928",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f3a87c67f6e13a2827554562568e60063eb0eb0187cf44a5edc1064fd378839.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Dybecksgatan, Göteborg",
-    "url": "https://qasa.com/p/1433763",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8ab5257f3e6b04665af18a491e30b12b59f63331ddd19ed7c313b6e7374ef82a.png",
-    "description": "Örgryte/Skår. Stuga 2 rok. 35 m2. Granne med naturen. 100 meter till 17e hålet på Delsjöns golfbana. Nära badsjö(Delsjön). Egen altan. Diskret, insynsskyddat. 3km till Avenyn. 15m2 loft för förvaring.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 35.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T18:14:02+00:00", "clock": "18:14:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T19:01:44+00:00", "clock": "19:01:44"};
