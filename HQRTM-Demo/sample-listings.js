@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skummjölksgatan, Göteborg",
+    "url": "https://qasa.com/p/1418003",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bb9010c7be33452441931c3d8bbb24f85bd065789df95c086b869ac3682453f2.jpg",
+    "description": "Bostaden ligger i Kallebäck och är på 33 kvm. Bostaden har balkong, tvättmaskin torktumlare samt diskmaskin! \n\nLägenheten kommer att hyras ut fullt möblerad med wifi. El och vatten debiteras efter användning månadsvis.\n\nKommer att hålla i visningar löpandes. \n\nAnledningen till uthyrningen är för att jag ska studera i Paris. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 9600,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Norra Breviksvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1433902",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66ff549d9402a2e87ca9c7735017524f50fb9bec35279643132bfaaba0093ff2.jpg",
+    "description": "Liten lägenhet på Näset i Göteborg hyrs ut till student. Den ligger i källarplan och är på 25 kvm. Lägenhet har egen ingång, toa och dusch, köksvrå och stort sovrum/allrum. ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 4600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Haggårdsvägen, Brännö",
     "url": "https://qasa.com/p/1433831",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3bb9b3d0700d90576f4d96e027ac472aab8f83bbd59165bb761c34d354a4b3de.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Donsö bryggväg, Donsö",
-    "url": "https://qasa.com/p/1432327",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2a8d30d7f921e161e81836368887374fd8d1ec3f93b18d615fd0d674316e6339.jpg",
-    "description": "Litet ombonat och trevligt hus på vackra Donsö i Göteborgs södra skärgård. Uthyres from 24/8- 31/5 2027, gärna till student. \n\nHuset har 1 sovrum, köksvrå och vardagsrum, hall och badrum med dusch. Det är fullt möblerat samt fullt köksutrustat med kyl, frys, spis, ugn, mikro, porslin, kastruller etc. El, vatten & wifi ingår i hyran. \n\nPendlingstid till centrala Göteborg är ca 50 min, färja till Saltholmen tar ca 20 min. Huset ligger nära färja och ICA butik,  5-10 min promenad. \nPå Donsö och Styrsö finns fina badvikar och naturstigar, det går en bro över till Styrsö.\n\nCharming little house on beautiful Donsö island for rent from August 24th to May 31st 2027, ideal for a student studying in Gothenburg. \n\nThe house has one bedroom, a living room, small kitchen and bathroom w shower. It is fully furnished and kitchen is fully equipped with fridge, freezer, oven, microwave, coffee maker and kitchen ware. \nElectricity, water and wifi is included in the rent.\n\nCommuting to central Gothenburg takes approx 50 minutes and ferry to Saltholmen takes approx 20 minutes. The house is close to the ferry and to the local foodstore.\nDonsö and its neighbour island Styrsö both have lovely nature trails and beaches , there is a bridge connecting the two islands.\n",
-    "district": "Donsö",
-    "rooms": 2.5,
-    "area_m2": 42.0,
-    "rent": 6700,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hedtångsvägen, Hovås",
-    "url": "https://qasa.com/p/1433746",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac3080634d4c454972c2566109f7ee2a58e66186f086a473a92002fc5ed89bd2.jpg",
-    "description": "Helt nybyggd (2023) ägarlägenhet i populära Nya Hovås. Belägen på våning 6 av 7 med en stor balkong. Parkering i garage under huset ingår i hyran.\n\nBra kommunikationer in till Göteborg centrum och nära till havet.\n\nIngår i hyran: parkering i garage, bredband,\nKallvatten samt uppvärmning av lägenhet. Hushållsel betalas av hyresgästen.\n\nNotera att jag helst hyr ut under en längre period, minst 6 månader och mer. Då det är en ägarlägenhet så får jag hyra ut så länge jag vill, dvs det finns ej någon främre gräns för uthyrningen. Lägenheten är perfekt för det mindre hushållet.",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 13000,
-    "floor": 6,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T14:19:05+00:00", "clock": "14:19:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T14:54:07+00:00", "clock": "14:54:07"};
