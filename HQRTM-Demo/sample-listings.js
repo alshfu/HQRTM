@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Splintvedsgatan, Göteborg",
+    "url": "https://qasa.com/p/1434075",
+    "image_url": null,
+    "description": "Radhus i Björkekärr med 4 sovrum och 1 badrum på övervåningen. Kök, vardagsrum, tv-rum och toalett på första våningen.  I Björkekärr finns skog och sjöar, matbutiker och alla bekvämligheter. Bussen går precis utanför dörren och tar er in till centrum. Alla fyra sovrum har dubbelsäng (vissa utdragbara till 160cm). Tvättmaskin och torktumlare. Fullt utrustat kök. Vi hyr ut fullt möblerat under 6 veckor då vi är bortresta. Porslin, bestick, glas och alla köksmaskiner står även kvar. Leksaker för barn 2-6 år finns om önskas, även spjälsäng och barnstol. I hyran ingår el, värme och internet.",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 120.0,
+    "rent": 19500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Forselius Backe, Göteborg",
     "url": "https://qasa.com/p/1434044",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4184c6f86fd47849f2ae3dbba6063befe205a3b08c5ee5fb78d504821a16d8cb.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Briljantgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1433759",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59bd38f68e6b59aa1b1cd379aece5333273ee31e36926cf0d00d977b147b44d2.jpg",
-    "description": "Jättefin lägenhet, nära Frölunda Torg, tryggt område. Fräsch lgh,  balkong med le o mycket sol, nice grannar. Fina utsikten alla rum. ",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T21:12:57+00:00", "clock": "21:12:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T21:48:03+00:00", "clock": "21:48:03"};
