@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Dybecksgatan, Göteborg",
+    "url": "https://qasa.com/p/1433763",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8ab5257f3e6b04665af18a491e30b12b59f63331ddd19ed7c313b6e7374ef82a.png",
+    "description": "Örgryte/Skår. Stuga 2 rok. 35 m2. Granne med naturen. 100 meter till 17e hålet på Delsjöns golfbana. Nära badsjö(Delsjön). Egen altan. Diskret, insynsskyddat. 3km till Avenyn. 15m2 loft för förvaring.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 35.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Borraregatan, Göteborg",
+    "url": "https://qasa.com/p/1428526",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe27ce5a8f275d3d56a5aaca09ead28236dab0122a0abed34e14c2b68f64a1e2.jpg",
+    "description": "obs! bilderna visas inte i sin helhet när man \"swipear\". Tryck på \"visa alla bilder\" för att se hela bilden på fotona i liggande format. \n\nHej,\n\nJag hyr ut till en person.\n\nOm du är intresserade skriv ett mail om dig själv så kan jag skicka fler bilder / videon och så kan vi pratas vid avseende hyresform och pris innan en visning.\n\nMed vänlig hälsning, Anahita\n\nLäge:\nGångavstånd till centrum och skog, cykelavstånd till sjö och hav.  Bredvid Chalmers, 1,5 km från Sahlgrenska och 2,5 km från Handelshögskolan. Fysikens gym / gruppträning och Klätterlabb 500 meter på vardera sida om lägenheten. Motionsspår med utegym 100 meter bort.  Safjället med skog och motionsspår 2 km bort.\nLugnt område, men aldrig öde.\nBusshållsplats på andra sidan gatan, spårvagn från Chalmers hållplats.\nPizzerior, thaimat, sushi, barer och café på krypavstånd och Willys mataffär på 500 meters.\n\nBalkong: Solig, inglasad men går att öppna helt. 9 kvadratmeter med soffgrupp. Dörrar mot sovrum 1 och kök.\n\nBadrum: Toalett, duschkabin, tvättmaskin, torktumlare, 3 meter stor \"arbetsyta\" med flera skåp och två stora \"byrålådor\" under vasken. Liten inbyggd klädställning och uppvärmd handdukstork.\n\nSovrum 1: 180 cm säng \nSovrum 2: 120 cm säng\n\nKök: Fullt utrustat med 3 diskhon och ett litet fönster. Köks-ö med den tredje diskhon, spis och \"bar\". Separat \"helt\" kylskåp och frys, varmluftsugn och micro. Matplats med matbord och stolar för 8 personer.\n\nVardagsrum: Mycket ljus eftersom det är glas istället för vägg mot balkongen. och fönster åt andra hållet. Stor divansoffa.\n\nHall: Stor \"garderob\" med spegel-skjutdörrar, skoskåp och liten fällbar väggfast pall.\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 14700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Donsö bryggväg, Donsö",
     "url": "https://qasa.com/p/1432327",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2a8d30d7f921e161e81836368887374fd8d1ec3f93b18d615fd0d674316e6339.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Släktledsgatan, Göteborg",
-    "url": "https://qasa.com/p/1433445",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6f0d117f56a259561f27bcb1ecc67224497d9237264b62790642c36c6c30afe.png",
-    "description": "🌿 Egen privat del i villa på Hisingen – perfekt för student, pendlare eller två som vill dela!\n\nVälkommen till ett lugnt och bekvämt boende i ett trivsamt villaområde på Hisingen i Göteborg. Här hyr du en egen privat del av bottenvåningen (ca 40 m²) – ett perfekt alternativ för dig som vill ha känslan av en egen liten lägenhet.\n\nBoendet erbjuder:\n✨ Eget sovrum\n✨ Litet vardagsrum med pentry\n✨ Egen dusch och toalett\n✨ Samma entré, men din del är låsbar med egen nyckel\n\nDelen är smart planerad och avskild, vilket ger dig både integritet och trygghet i vardagen.\n\nVi som bor i huset är en familj med 2 vuxna och 2 barn, och vi bor på övervåningen.\n\nOmrådet är mycket lugnt och grönt, samtidigt som du har nära till Göteborgs stadsliv, kollektivtrafik och service. Perfekt för dig som vill kombinera studiero eller pendling med enkel tillgång till stan.\n\n👤 Passar bra för: Student eller pendlare – även två studenter/vänner som vill dela på hyran. Alla seriösa och skötsamma hyresgäster är varmt välkomna att söka.\n📍 Läge: Hisingen, Göteborg\n\nDet här är ett boende för dig som söker något mer än bara ett rum – här får du ett eget hem i ett tryggt och harmoniskt område.\n\nVälkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 40.0,
-    "rent": 9900,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1433347",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9703e876ef2686f409b19321e576ee11a2a367d7900cb0a94e60471efaaed88e.jpg",
-    "description": "Exklusiv Möblerad Lägenhet i Karlatornet – Göteborgs Nya Landmärke\n\nAdress: Lodjursstråket 1, Göteborg\nTyp: Möblerad lägenhet\nStorlek: 2 rum och kök, 46 kvm\nHyra: 16 000 kr/månad\nTillträde: 1 september 2026\nHyresperiod: 1 år, med möjlighet till förlängning\nDeposition: 16 000 kr\n\n⸻\n\nBeskrivning\n\nVälkommen till ett av Göteborgs mest exklusiva boenden – Karlatornet. Denna stilrena 2-rumslägenhet på 46 kvm ligger högt upp i byggnaden och erbjuder storslagen utsikt över staden. Lägenheten är ljus och väldisponerad, med moderna materialval och generösa fönsterpartier som ger ett fantastiskt ljusinsläpp.\n\n⸻\n\nDetta ingår i hyran\n• Värme\n• Internet 300 / 300\n• Två gymkort\nFritt tillträde till:\n• Gym\n• Biorum\n• Spelrum\n• Kontorsrum\n• Festlokal\n• Takterrass\n• Kylrum\n• Övriga gemensamma utrymmen\n\n⸻\n\nFaciliteter i byggnaden\n• Gym & wellness – Fullt utrustat gym med bastu och spa\n• Kontorsrum – Bokningsbara arbetsrum för studier, distansarbete eller möten\n• Biorum & pingisrum – Kostnadsfri bokning via internt system\n• Takterrass – Med panoramavy över hela Göteborg\n• Skybar på våning 69 – Öppnar snart, perfekt för kvällsdrinkar\n• Festlokal på våning 15 – Med kök och utsikt, idealisk för tillställningar\n• Gemensamma utrymmen – För arbete, umgänge och avkoppling\n\n⸻\n\nLäge\n\nKarlatornet ligger i hjärtat av det nya området Karlastaden – ett pulserande kvarter med närhet till restauranger, butiker och kollektivtrafik. Här bor du med citylivet utanför dörren och all bekvämlighet du kan önska dig inomhus.\n\n⸻\n\nHyresvillkor\n• Uthyrning sker möblerat\n• Passar upp till 3 personer\n• Rökning och husdjur är ej tillåtet\n• Föreningens godkännande krävs innan kontraktsskrivning\n\n⸻\n\nIntresserad?\n\nVälkommen att höra av dig för mer information eller för att boka en visning.\nBerätta gärna kort om dig själv och din nuvarande boendesituation.\n\nVälkommen till ett unikt hem i Nordens högsta byggnad – Karlatornet!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 15246,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T10:16:05+00:00", "clock": "10:16:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-08T10:55:01+00:00", "clock": "10:55:01"};
