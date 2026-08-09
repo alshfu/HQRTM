@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hängestensvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1434257",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb951264e780bb134a8c714116b81c5eb72cc7e16f53a3fe663277bc9fda78ab.jpg",
+    "description": "Lägenhet på Näset i förstahand med nyrenoverat kök,  1,5 rum & kök på ca 36 kvm med egen uteplats på ca: 20 kvm. \nLägenheten har golvvärme i samtliga rum, det finns stor garderobsförvaring och fönster som vetter åt två väderstreck. \nKöket är nybyggt 2022, med diskmaskin, micro, ugn/häll, kyl/frys.\nBadrum har dusch, vägghängd wc, tvättmaskin, handdukstork.\n\nI hyran ingår: värme, vatten, sopor, bredband via fiber 250/250, Tv utbud.\nKostnad för el tillkommer.\nLägenheten ligger på en lugn gata som angränsar till natur, hav och strövområden. Det finns många badplatser i området, närmast badmöjlighet finns på 500 meters avstånd. Det finns goda kommunikationer med buss, närmaste busshållplats är Hammarvägen.  Närhet till sportarena, restaurang och mataffär. \n\nBostaden är djur och rökfri.\n\nEn deposition tas ut vid kontraktskrivning och betalas tillbaka vid utflytt.\nDet finns även möjlighet att hyra bostaden fullt möblerad om så önskas.\n\n ",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 8900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1434218",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0490a13ec69684ee8b668da83d3d47b9582a9234053e5e54e9e9d422e5e22ca1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skummjölksgatan, Göteborg",
-    "url": "https://qasa.com/p/1418003",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bb9010c7be33452441931c3d8bbb24f85bd065789df95c086b869ac3682453f2.jpg",
-    "description": "Bostaden ligger i Kallebäck och är på 33 kvm. Bostaden har balkong, tvättmaskin torktumlare samt diskmaskin! \n\nLägenheten kommer att hyras ut fullt möblerad med wifi. El och vatten debiteras efter användning månadsvis.\n\nKommer att hålla i visningar löpandes. \n\nAnledningen till uthyrningen är för att jag ska studera i Paris. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 9600,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T10:16:21+00:00", "clock": "10:16:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T10:56:23+00:00", "clock": "10:56:23"};
