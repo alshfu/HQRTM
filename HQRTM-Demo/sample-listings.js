@@ -3,10 +3,40 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fänriksgatan, Göteborg",
+    "url": "https://qasa.com/p/1434384",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/39e3e8b234964f8597f9f41341cd9a18a9f398ac22daa41b2a03ad624e48489d.png",
+    "description": "Möblerad 52 kvm i Bellevue – balkong, natur och ca 10 min till centrum!\n\nVi hyr ut vår trivsamma och fullt möblerade 2a: på 52 kvm i Bellevue, Göteborg. Här bor du i ett lugnt och grönt läge med väldigt bra kommunikationer och samtidigt nära till både service, träning och centrala Göteborg. Vi söker en långvarig hyresgäst.\n\nKort sammanfattat:\n52 kvm\nFullt möblerad, Internet och värme ingår\nBalkong i söder/sydväst med utsikt mot grönska och Bunkeberget\nCa 1 minut till buss och spårvagn\nCa 10 minuter till Göteborgs centrum\nCoop och Lidl inom gångavstånd\nRestauranger, vårdcentral, tandläkare och förskolor i närområdet\nKviberg Park, Skidome, Klätterdomen, gym och simhall nära\nNära Säveån och fina promenad-/naturområden\nKvibergs Marknad och flera second hand-butiker i närheten\n\nLägenheten hyrs ut fullt möblerad och bra internet ingår. Balkongen ligger i söder/sydväst, vilket ger fint solläge under eftermiddag och kväll, och har en härlig utsikt mot grönska och Bunkeberget.\n\nLäget är en av lägenhetens stora fördelar. Hållplatsen Bellevue ligger ungefär en minuts promenad bort, med både spårvagn och buss. Spårvagn går direkt via centrum, och resan till Göteborgs centralstation/drottningtorget tar omkring tio minuter.\n\nI närområdet finns det mesta man behöver i vardagen: bland annat Lidl och Coop, restauranger, vårdcentral och BVC, tandläkare, flera förskolor samt flera second hand-butiker. Distriktsläkarna Kviberg ligger vid Bellevue och det finns även tandläkare och kommunala förskolor i Kviberg.\n\nFör den som gillar träning och friluftsliv är området svårt att slå. På kort gångavstånd ligger Kviberg Park, med ett stort utbud av idrott och aktiviteter. Där finns bland annat Beach Center, fotbollsplaner, ishall och Skidome, där man kan åka längdskidor året runt. I Kviberg ligger också Klätterdomen, ett av Sveriges största klättergym.\n\nDet finns dessutom flera stora gym i området, bland annat Nordic Wellness Kviberg och Fitness24Seven, och Kristinedals Träningscenter med både gym och simhall ligger också i närheten.\nFör den som hellre vill vara ute finns fina promenad- och cykelstråk längs Säveån, grönområden runt Kviberg samt Bunkeberget med ekskog och utsiktsplatser över Gamlestaden.\n\nPå helgerna ligger även Kvibergs Marknad nära, med marknad varje lördag och söndag.\nBellevue/Kviberg är ett område som utvecklas snabbt, med nya bostäder, service och verksamheter, samtidigt som man har kvar närheten till natur och stora rekreationsområden.\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Memoargatan, Hisings Backa",
+    "url": "https://qasa.com/p/1434389",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c1f019a1f7e1a0f1795b818ae5b992524e299e311c6b2e13ce459d66230aecf.jpg",
+    "description": "Möblerat rum i ljus 3:a med fantastisk utsikt\n\nRymligt, möblerat rum uthyres i min trevliga 3-rumslägenhet. Lägenheten är ljus och öppen med en fantastisk utsikt. Du delar kök och badrum med mig.\n\nJag är en lugn man på 42 år som jobbar varje dag, tränar och lagar mat ibland. Besöker familjen ofta, så du får mycket privatliv. Rummet har tidigare hyrts av både tjejer och killar och det har alltid funkat mycket bra – för mig är det viktigt att vi visar respekt för varandra, är lugna och tar hand om lägenheten.\n\nHyra: 5000 kr/mån (el och Wi-Fi ingår – inga dolda kostnader)\n\nLäget är bra med nära till kollektivtrafik och butiker.\n\nIntresserad? Berätta lite om dig själv så hör jag av mig för mer info eller visning!",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4750,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skanstorget, Göteborg",
     "url": "https://qasa.com/p/1434346",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a78e4bacbca6c2836a1426d82e375c6c8633d92bdaf464acd65d5646fca11e1.jpg",
-    "description": "Hej! Jag hyr ut min sekelskifteslägenhet i Haga under 1 år pga provsamboende.  Lägenheten, som är en hyresrätt, är ljus med fönster i två vädersträck. Den har hall, allrum och ett kök samt badrum, med fönster i varje rum. \nLägenheten hyrs ut halvmöblerad, men jag är flexiblel med vilka av möblerna som önskas ha kvar. Lägenheten är nu möblerad med säng, matbord, 2 stolar, bokhylla, TV, tv-bord, soffa, fåtölj, pall till hallen. Lägenheten har en kakelugn och takrosett som är K-märkta, kakelugnen får inte användas. I köket finns en mikro och vattenkokare och en kyl under diskbänk med ett rejält frysfack. \n\nLägenheten har gemensam uteplats på en lummig innergård som är fri att användas. \n\nInfo och villkor: \n- Uthyriningsperiod: 1 oktober 2026 - 31 augusti 2027 (inflyttsdatum flexibelt)\n- Uppsägningstid: 3 månader för både hyresgäst och hyresvärd. Max tid att hyra är dock tom. 31 augusti 2027. \n- Storlek: 29,5 kvm (1 rum och kök)\n- Möblering: delvis möblerad. Vissa möbler kan tas bort efter önskemål (se beskrivning ovan för vilka möbler som ingår)\n- Hyra: 4650 kr exkl el. I hyran ingår hyresavgift, möbelpåslag med 15% på hyran, bredband och kallvatten. Varmvatten + el är rörligt. Fakturorna bifogas för varje månad i efterhand (betalas månaden efter användning, t ex oktobers elanvändning betalas 27 november). Det beror på att lägenheten har direktverkande el och varmvattenberedare då det är ett äldre hus. Elräkningen brukar snitta på ca 900kr/mån i genomsnitt under ett år.\n- Deposition: 1 månadshyra (4 650 kr). Depositionen återbetalas vid utflyttning. \n- Kontrakt: Lägenheten är en hyresrätt varför vi gemensamt måste ansöka till hyresvärden om andrahandsuthyrning. Handläggningstiden kan dröja upp till 8 veckor. \n\nJag söker en skötsam hyresgäst, gärna student, med stabil ekonomi och utan betalningsanmärkningar samt minst en bra referens. Du behöver teckna en egen hemförsäkring.  Hör gärna av dig och berätta lite kort om dig själv!\n\nVänliga hälsningar, Ellen\n",
+    "description": "Hej! Jag hyr ut min sekelskifteslägenhet i Haga under 1 år pga provsamboende.  Lägenheten, som är en hyresrätt, är ljus med fönster i två vädersträck. Den har hall, allrum och ett kök samt badrum, med fönster i varje rum. \nLägenheten hyrs ut halvmöblerad, men jag är flexiblel med vilka av möblerna som önskas ha kvar. Lägenheten är nu möblerad med säng, matbord, 2 stolar, bokhylla, TV, tv-bord, soffa, fåtölj, pall till hallen. Lägenheten har en kakelugn och takrosett som är K-märkta, kakelugnen får inte användas. I köket finns en mikro och vattenkokare och en kyl under diskbänk med ett rejält frysfack. \n\nLägenheten har gemensam uteplats på en lummig innergård som är fri att användas. \n\nInfo och villkor: \n- Uthyrningsperiod: 1 oktober 2026 - 31 augusti 2027 (inflyttsdatum kan tidigareläggas till tidigast 1 september)\n- Uppsägningstid: 3 månader för både hyresgäst och hyresvärd. Max tid att hyra är dock tom. 31 augusti 2027. \n- Storlek: 29,5 kvm (1 rum och kök)\n- Möblering: delvis möblerad. Vissa möbler kan tas bort efter önskemål (se beskrivning ovan för vilka möbler som ingår)\n- Hyra: 4650 kr exkl el. I hyran ingår hyresavgift, möbelpåslag med 15% på hyran, bredband och kallvatten. Varmvatten + el är rörligt. Fakturorna bifogas för varje månad i efterhand (betalas månaden efter användning, t ex oktobers elanvändning betalas 27 november). Det beror på att lägenheten har direktverkande el och varmvattenberedare då det är ett äldre hus. Elräkningen brukar snitta på ca 900kr/mån i genomsnitt under ett år.\n- Deposition: 1 månadshyra (4 650 kr). Depositionen återbetalas vid utflyttning. \n- Kontrakt: Lägenheten är en hyresrätt varför vi gemensamt måste ansöka till hyresvärden om andrahandsuthyrning. Handläggningstiden kan dröja upp till 8 veckor. \n\nJag söker en skötsam hyresgäst, gärna student, med stabil ekonomi och utan betalningsanmärkningar samt minst en bra referens. Du behöver teckna en egen hemförsäkring.  Hör gärna av dig och berätta lite kort om dig själv!\n\nVänliga hälsningar, Ellen\n",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 29.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1434059",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38c9a9b4c04e0366df2c35c1cea001eea02b3d94df26c4b198d344c3f47f8903.jpg",
-    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Splintvedsgatan, Göteborg",
-    "url": "https://qasa.com/p/1434075",
-    "image_url": null,
-    "description": "Radhus i Björkekärr med 4 sovrum och 1 badrum på övervåningen. Kök, vardagsrum, tv-rum och toalett på första våningen.  I Björkekärr finns skog och sjöar, matbutiker och alla bekvämligheter. Bussen går precis utanför dörren och tar er in till centrum. Alla fyra sovrum har dubbelsäng (vissa utdragbara till 160cm). Tvättmaskin och torktumlare. Fullt utrustat kök. Vi hyr ut fullt möblerat under 6 veckor då vi är bortresta. Porslin, bestick, glas och alla köksmaskiner står även kvar. Leksaker för barn 2-6 år finns om önskas, även spjälsäng och barnstol. I hyran ingår el, värme och internet.",
-    "district": "Göteborg",
-    "rooms": 6.0,
-    "area_m2": 120.0,
-    "rent": 19500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T13:56:45+00:00", "clock": "13:56:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T14:39:25+00:00", "clock": "14:39:25"};
