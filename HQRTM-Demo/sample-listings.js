@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Dahlströms Gata, Göteborg",
+    "url": "https://qasa.com/p/1431883",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
+    "description": "Jag hyr ut min ljusa och välplanerade tvåa på Doktor Dahlströms gata under en period på tre månader. Lägenheten ligger i ett nybyggt hus och har öppen planlösning mellan kök och vardagsrum, separat sovrum, modernt badrum och gott om förvaring. Bostaden hyrs ut möblerad.\n\nFrån vardagsrummet når man den stora balkongen med morgonsol och fin, fri utsikt – perfekt för frukost eller avkoppling. Lägenheten har ett lugnt läge samtidigt som det är nära till Chalmers, Sahlgrenska och centrala Göteborg. Goda kollektivtrafikförbindelser samt mataffärer, gym och grönområden finns i närheten.\n\nJag söker en lugn och skötsam hyresgäst. Skriv gärna några rader om dig själv, din sysselsättning och varför du söker boende under perioden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 14124,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karl Gustavsgatan, Göteborg",
     "url": "https://qasa.com/p/1434041",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7e342e8a852aeb78f8a4cbcc64479ee9202c24ae7ef8d55be53ef3e4788849a4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Charles Väg, Hovås",
-    "url": "https://qasa.com/p/1434011",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/64a6ff640643e21f04eb0b61efa6e84c1af6e35c1507a4c069778030080febe7.jpg",
-    "description": "Välplanerad lägenhet i lugnt villaområde i Hovås (ca 45 kvm)\n\nVi önskar hyra ut vår lägenhet i vår villa under hösten/våren. Nu finns möjlighet att hyra en fin, fullt utrustada lägenhet i bottenplanet på vårt bostadshus i eftertraktade Hovås. Lämpligt för t.ex. student eller arbetspendlare.\n\nOm lägenheten:\n\nCa 45 kvm med delad entré.\nVälplanerad med ett litet kök, en mysig sovalkov utrustad med dubbelsäng samt ett allrum med en bekväm bäddsoffa (perfekt för gäster).\nStort badrum med dusch samt ett praktiskt litet förråd/klädkammare direkt i lägenheten.\n\nOmrådet och läget:\nLägenheten ligger i ett lugnt och tryggt villaområde med naturen runt hörnet.\n\nTa cykeln ner till havet för ett svalkande dopp eller njut av de fina promenadstråken i närliggande naturområden.\nMycket goda förbindelser in till centrala Göteborg. Expressbussen tar dig smidigt in till stan på ca 15–20 minuter.\nEgen parkeringsplats ingår/finns tillgänglig.\n\nEtt perfekt boende för dig som vill bo bekvämt och naturnära men ändå ha snabb och enkel tillgång till storstadens utbud.\n\nVärme, vatten, el och internet ingår.\n---\n\nVälkommen att höra av dig med en kort presentation av dig själv vid intresse!",
-    "district": "Hovås",
-    "rooms": 1.5,
-    "area_m2": 45.0,
-    "rent": 8500,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T11:32:05+00:00", "clock": "11:32:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T11:58:45+00:00", "clock": "11:58:45"};
