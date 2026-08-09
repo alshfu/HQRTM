@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1434218",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0490a13ec69684ee8b668da83d3d47b9582a9234053e5e54e9e9d422e5e22ca1.jpg",
+    "description": "Välkommen till Karlatornet, Lodjursstråket i Göteborg\nNy modern 2:a tillgänglig för uthyrning på våning 3 i Karlatornet.\n\nLägenheten ligger i sydvästra hörnet. Med en yta på 55 kvm erbjuder denna välplanerade lägenhet en perfekt kombination av komfort och funktionalitet. Lägenheten är utrustad med moderna bekvämligheter och högkvalitativa materialval för att skapa en trivsam boendemiljö. Clarion Hotell Karlatornet ger tillgång till gym, spa, och restaurang/bar.\nOmrådet är centralt och nära till butiker, restauranger kollektivtrafik med mera. Belägen i en central del av staden erbjuder Karlatornet närhet till olika bekvämligheter. Detta är det perfekta lägenheten för företaget som vill erbjuda sin medarbetare ett eget boende under en kortare eller längre vistelse i Göteborg.\n\n*Lägenheten är fullt möblerat.\n*I hyran är el, värme, vatten, tv, o wifi inkluderat\n*Medlemskap med möjlighet att boka gym och spa ingår.\n*Deposition.\n\nKarlatornet har:\n> Lobby\n> Post- & paketrum\n> Skötselrum för hund (hund-spa)\n> Kylrum\n> Mötesrum & kontorsplatser\n> Spel- Bio & aktivitetsrum\n> Gym & Spa\n> Tillgång till Hotellets spa\n> Gemensamt bokningsbar Kök o samlingslokal\n> Takterrass",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 17850,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1434059",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38c9a9b4c04e0366df2c35c1cea001eea02b3d94df26c4b198d344c3f47f8903.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Breviksvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1433902",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66ff549d9402a2e87ca9c7735017524f50fb9bec35279643132bfaaba0093ff2.jpg",
-    "description": "Liten lägenhet på Näset i Göteborg hyrs ut till student. Den ligger i källarplan och är på 25 kvm. Lägenhet har egen ingång, toa och dusch, köksvrå och stort sovrum/allrum. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 4600,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T08:56:18+00:00", "clock": "08:56:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T09:42:00+00:00", "clock": "09:42:00"};
