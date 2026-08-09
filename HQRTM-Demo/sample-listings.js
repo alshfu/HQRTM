@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skanstorget, Göteborg",
+    "url": "https://qasa.com/p/1434346",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a78e4bacbca6c2836a1426d82e375c6c8633d92bdaf464acd65d5646fca11e1.jpg",
+    "description": "Hej! Jag hyr ut min sekelskifteslägenhet i Haga under 1 år pga provsamboende.  Lägenheten, som är en hyresrätt, är ljus med fönster i två vädersträck. Den har hall, allrum och ett kök samt badrum, med fönster i varje rum. \nLägenheten hyrs ut halvmöblerad, men jag är flexiblel med vilka av möblerna som önskas ha kvar. Lägenheten är nu möblerad med säng, matbord, 2 stolar, bokhylla, TV, tv-bord, soffa, fåtölj, pall till hallen. Lägenheten har en kakelugn och takrosett som är K-märkta, kakelugnen får inte användas. I köket finns en mikro och vattenkokare och en kyl under diskbänk med ett rejält frysfack. \n\nLägenheten har gemensam uteplats på en lummig innergård som är fri att användas. \n\nInfo och villkor: \n- Uthyriningsperiod: 1 oktober 2026 - 31 augusti 2027 (inflyttsdatum flexibelt)\n- Uppsägningstid: 3 månader för både hyresgäst och hyresvärd. Max tid att hyra är dock tom. 31 augusti 2027. \n- Storlek: 29,5 kvm (1 rum och kök)\n- Möblering: delvis möblerad. Vissa möbler kan tas bort efter önskemål (se beskrivning ovan för vilka möbler som ingår)\n- Hyra: 4650 kr exkl el. I hyran ingår hyresavgift, möbelpåslag med 15% på hyran, bredband och kallvatten. Varmvatten + el är rörligt. Fakturorna bifogas för varje månad i efterhand (betalas månaden efter användning, t ex oktobers elanvändning betalas 27 november). Det beror på att lägenheten har direktverkande el och varmvattenberedare då det är ett äldre hus. Elräkningen brukar snitta på ca 900kr/mån i genomsnitt under ett år.\n- Deposition: 1 månadshyra (4 650 kr). Depositionen återbetalas vid utflyttning. \n- Kontrakt: Lägenheten är en hyresrätt varför vi gemensamt måste ansöka till hyresvärden om andrahandsuthyrning. Handläggningstiden kan dröja upp till 8 veckor. \n\nJag söker en skötsam hyresgäst, gärna student, med stabil ekonomi och utan betalningsanmärkningar samt minst en bra referens. Du behöver teckna en egen hemförsäkring.  Hör gärna av dig och berätta lite kort om dig själv!\n\nVänliga hälsningar, Ellen\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 4650,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Dahlströms Gata, Göteborg",
     "url": "https://qasa.com/p/1431883",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Doktor Forselius Backe, Göteborg",
-    "url": "https://qasa.com/p/1434044",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4184c6f86fd47849f2ae3dbba6063befe205a3b08c5ee5fb78d504821a16d8cb.jpg",
-    "description": "Lyxig Studiolägenhet för en person centralt belägen\n\nBo i en lyxig ”studio” på cirka 18 Kvm med egen ingång. På gång/cykelavstånd från (3min) Chalmers och (2min)Sahlgrenska Sjukhuset. \n1 min från ”Studion” finns hyr cyklar via Styr & Ställ Så du tar dig snabbt till centrala Gbg eller Linnè på cirka 10 min. På samma ställe går det bussar åt alla håll vart 6e minut om man hellre vill åka buss. \n6 min till Linnéplatsen \n15 min till kungsports avenyn (H) Valand\n22 min till Centralstationen \n\nInrett som ett lyxigt hotellrum finner du allt som du behöver för att kunna laga en god middag, studera, arbeta hemifrån och såklart sova gott i sängen med hotellstandard.\n\nPerfekt boende för studenter eller någon som veckopendlar som vill bo bekvämt och centralt.\n\nStudion har egen ingång och den ligger ostört i samma fastighet som vårt radhus\n\nHär nedan finner du en lista på allt som ingår i Studion\n\nDiskmaskin\nTvättmaskin (egen)\nGolvvärme\nKyl med Frysfack\nVarmluftsugn (fullsize)\nMicro\nSmart Tv\nInternet (Wi-fi)\nFast USB ladd uttag vid barbordet\nDammsugare\nRymlig Spegelskjutdörr Garderob\nBadlakan & Handdukar\nMörkläggningsgardiner\nFullt utrustat kök med porslin och redskap\nSmart Kodlås på dörren (Yale-Doorman)\n\nBoendet är rökfritt och djurfritt och är endast avsett för varaktigt boende för en person. \n\nVi har avsiktligt valt att inte ange exakt adress i annonsen. Bostaden ligger inom ca femhundra meters radie från den angivna adressen.\n\nDu får reda på adressen när vi valt ut de hyresgäster som går vidare\n\nÄr du intresserad så vill vi att du skickar en intresseanmälan via annonsen. \nDär du kort beskriver vem du är och vad du gör och hur långe du vill hyra. \nVi kollar dina uppgifter på UC och om allt ser bra ut så skriver vi kontrakt på ett läsår i taget. \n\nUnder sommarmånaderna hyr vi ut via Airbnb men om vi är nöjda med varandra så har du automatiskt förlängt kontrakt igen när höstterminen börjar.  Vilka start och slutdatum ditt läsår har tar vi som det kommer. Så inga datum är exakta. \n\nDu är självklart välkommen att förlänga hur många år du vill. Vi ombesörjer kostnadsfritt att magasinera dina grejor på vår vind under sommartid när du inte bor där isf.\n\nHyran är 7.200kr plus EL 200kr/ mån. \nVärme, vatten, soptömning, internet, tvätt av sängkläder och lakan 2ggr/mån. ingår i hyran. \n\nVi vill ha två månadshyror i deposition utöver första hyran som du kan betala efter att du har flyttat in. \n\nVi ställer också krav på att du tecknar en hemförsäkring på boendet. Trygg-Hansa Pris fr cirka 95 kr/mån.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 7200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T13:07:27+00:00", "clock": "13:07:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T13:56:45+00:00", "clock": "13:56:45"};
