@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bratteråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1434443",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f839e78a10f54e87bedaf4fd21db0bf56b1b6fe78257702c4fd34fd0622f626.jpg",
+    "description": "Bratteråsgata, Göteborg\nLägenhet\n\n/\n\n1.5 rum\n\n/\n\n40 m²\n\nmöblerat enligt bilden\n\n\n\nHej, Hyr ut en möblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg. Uthyrning börjar omgående, ett år med chans till förlängning. Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten. Deposition på två månadshyror. , allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.\n\nBekvämligheter\nBalkong\n\nCykelrum\n\nDiskmaskin\n\nHiss\n\nFrys\n\nKylskåp\n\nInternet\n\nUgn\n\nÅtervinningsrum\n\nEgen dusch\n\nSpis\n\nTV\n\n\n\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fänriksgatan, Göteborg",
     "url": "https://qasa.com/p/1434384",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/39e3e8b234964f8597f9f41341cd9a18a9f398ac22daa41b2a03ad624e48489d.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1434218",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0490a13ec69684ee8b668da83d3d47b9582a9234053e5e54e9e9d422e5e22ca1.jpg",
-    "description": "Välkommen till Karlatornet, Lodjursstråket i Göteborg\nNy modern 2:a tillgänglig för uthyrning på våning 3 i Karlatornet.\n\nLägenheten ligger i sydvästra hörnet. Med en yta på 55 kvm erbjuder denna välplanerade lägenhet en perfekt kombination av komfort och funktionalitet. Lägenheten är utrustad med moderna bekvämligheter och högkvalitativa materialval för att skapa en trivsam boendemiljö. Clarion Hotell Karlatornet ger tillgång till gym, spa, och restaurang/bar.\nOmrådet är centralt och nära till butiker, restauranger kollektivtrafik med mera. Belägen i en central del av staden erbjuder Karlatornet närhet till olika bekvämligheter. Detta är det perfekta lägenheten för företaget som vill erbjuda sin medarbetare ett eget boende under en kortare eller längre vistelse i Göteborg.\n\n*Lägenheten är fullt möblerat.\n*I hyran är el, värme, vatten, tv, o wifi inkluderat\n*Medlemskap med möjlighet att boka gym och spa ingår.\n*Deposition.\n\nKarlatornet har:\n> Lobby\n> Post- & paketrum\n> Skötselrum för hund (hund-spa)\n> Kylrum\n> Mötesrum & kontorsplatser\n> Spel- Bio & aktivitetsrum\n> Gym & Spa\n> Tillgång till Hotellets spa\n> Gemensamt bokningsbar Kök o samlingslokal\n> Takterrass",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 17850,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T15:05:55+00:00", "clock": "15:05:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T15:44:09+00:00", "clock": "15:44:09"};
