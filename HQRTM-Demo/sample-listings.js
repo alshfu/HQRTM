@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1434059",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38c9a9b4c04e0366df2c35c1cea001eea02b3d94df26c4b198d344c3f47f8903.jpg",
+    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Splintvedsgatan, Göteborg",
     "url": "https://qasa.com/p/1434075",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Haggårdsvägen, Brännö",
-    "url": "https://qasa.com/p/1433831",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3bb9b3d0700d90576f4d96e027ac472aab8f83bbd59165bb761c34d354a4b3de.jpg",
-    "description": "Bo lugnt nära hav och natur och med bra kommunikationer in till centrum!\nFin, ljus stuga nära färjeläget ”Brännö Rödsten”, vardagsrum med kokvrå, sovrum med två 90 cm sängar, duschrum, sovloft med en extrasäng, altan och liten egen trädgård. \nSnabbuss eller spårvagn går in till centrum från ”Saltholmen”.  Enkelt för pendling.\nAffär och värdshus finns på ön. Här bor nästan tusen fastboende. Du har stugan för dig själv och grannar i närheten. Bad, fina promenad/löpvägar, natursköna platser har du runt dig. Aktiviteter ordnas då och då på ön, även vintertid.\nEl, internet, sophämtning mm ingår i hyran. \n\n\n",
-    "district": "Brännö",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T08:01:47+00:00", "clock": "08:01:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T08:56:18+00:00", "clock": "08:56:18"};
