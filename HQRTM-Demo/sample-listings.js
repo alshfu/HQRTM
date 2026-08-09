@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Karl Gustavsgatan, Göteborg",
+    "url": "https://qasa.com/p/1434041",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7e342e8a852aeb78f8a4cbcc64479ee9202c24ae7ef8d55be53ef3e4788849a4.jpg",
+    "description": "Jag ska bli sambo och därför hyr jag nu ut min fina lägenhet. Lägenheten är en otroligt fin och ljus 1,5:a på 38 kvm med bästa tänkbara läge på Karl Gustavsgatan. Här bor du i ett av Göteborgs mest populära områden med direkt närhet till kaféer, restauranger, grönområden och smidiga kommunikationer.\n\nLägenheten ligger på våning 1 (ej markplan, hiss finns) och har en mycket genomtänkt planlösning med separat kök, trevlig sovalkov och generöst ljusinsläpp.\n\nInformation & Villkor:\n* Uthyrningsperiod: 14 september 2026 – 31 augusti 2027 (kan vara flexibel med inlyttningsdatum)\n* Storlek: 38 kvm (1,5 rum och kök)\n* Möblering: Delvis möblerad\n* Hyra: 12 000 kr/månad\n* Vad som ingår: Allt ingår i hyran (värme, vatten, el och bredband)\n* Bekvämligheter: Både diskmaskin och tvättmaskin finns i lägenheten\n* Deposition: 1 månadshyra (återfås vid utflytt enligt avtal)\n\nVem söker jag?\nJag söker en skötsam hyresgäst (eller ett par) med stabil ekonomi och utan betalningsanmärkningar. Du behöver också teckna en egen hemförsäkring samt bli godkänd av bostadsrättsföreningen.\n\nLåter det intressant? Hör gärna av dig och berätta lite kort om dig själv!\n\nMed vänlig hälsning,\nSofia",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 38.0,
+    "rent": 12000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hängestensvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1434257",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb951264e780bb134a8c714116b81c5eb72cc7e16f53a3fe663277bc9fda78ab.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordostpassagen, Göteborg",
-    "url": "https://qasa.com/p/1433928",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f3a87c67f6e13a2827554562568e60063eb0eb0187cf44a5edc1064fd378839.jpg",
-    "description": "BOSTADEN\nHelt nyproducerad, välplanerad tre-rummare i toppskick i centrala Göteborg. \nEtt stort, ljust vardagsrum med öppet fullt utrustat kök. \nEtt stort sovrum med plats för t ex skrivbord eler tv-bänk.\nEtt mindre sovrum med plats för t ex skrivbord. \nEtt badum med duschvägg. Tvättmaskin och torktumlare.\nEn stor klädkammare/förråd.\nVackra trägolv i alla rum, stengolv i hall och badrum. \nGott om garderober och förvaring.\n\nOBS! Det är andra möbler och inredning i lägenheten idag än på bilderna.\n\nOMRÅDET\nUtanför fönstren ligger en stor öppen plats med vackra rabatter, bänkar och solstolar. Välskött område med mycket grönska och lekplatser.\nUtmärkt läge mellan Linnégatan, Långgatorna och Slottsskogen. \n\nKOMMUNIKATIONER\n* Buss 61 stannar precis invid huset och går till Järntorget, Stenpiren, city mm. \n* Några minuters promenad till flera olika spårvagnshållplatser såsom t ex Järntorget. \n* Snabb och enkel resa till city, Chalmers, Sahlgrenska och Lindholmen. \n\nINGÅR I HYRAN\nEl, värme, wifi. \n\nDEPOSITION\nPå två månadshyror erfordras.\n\nHYRESGÄST SÖKES\n* Helst en eller två personer.\n* Rök-och djurfri hyresgäst med förmågan att vårda lägenheten väl.\n\nVid intresse, vänligen kontakta mig med en kort beskrivning av dig själv samt ditt telefonnummer.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T10:56:23+00:00", "clock": "10:56:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T11:32:05+00:00", "clock": "11:32:05"};
