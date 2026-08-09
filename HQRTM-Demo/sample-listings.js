@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Segelmakaregatan, Göteborg",
+    "url": "https://qasa.com/p/1434686",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75e10076673ce05d81bfadd87a85eda37a1a6ee00c509a555ae39bdd06b034c7.jpg",
+    "description": "Lägenhet uthyres i naturnära utby \n\nEn lägenhet i anslutning till vår villa (egen entré) uthyres i Utby. Lägenheten hyrs ut från och med första februari men om man vill flytta in tidigare är vi flexibla. Buss hållplats finns 2 minuter från lägenheten med anslutningar till Göteborg Centralstation. \nLägenheten hyrs ut fullt möblerad med : \n\nSäng 90cm \nBäddsoffa (dubbel) \nFullt utrustat kök \nTv \nByrå\nTvättmaskin \nEgetbadrum med dusch\nWifi \nMicro \nDammsugare \nEl och värme ingår i hyran \n\n\nLägenheten är 24kvm med sovalkov och passar för 1 person. Vi ser gärna att man tecknar egen hemförsäkring.\n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bratteråsgatan, Göteborg",
     "url": "https://qasa.com/p/1434443",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f839e78a10f54e87bedaf4fd21db0bf56b1b6fe78257702c4fd34fd0622f626.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hängestensvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1434257",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb951264e780bb134a8c714116b81c5eb72cc7e16f53a3fe663277bc9fda78ab.jpg",
-    "description": "Lägenhet på Näset i förstahand med nyrenoverat kök,  1,5 rum & kök på ca 36 kvm med egen uteplats på ca: 20 kvm. \nLägenheten har golvvärme i samtliga rum, det finns stor garderobsförvaring och fönster som vetter åt två väderstreck. \nKöket är nybyggt 2022, med diskmaskin, micro, ugn/häll, kyl/frys.\nBadrum har dusch, vägghängd wc, tvättmaskin, handdukstork.\n\nI hyran ingår: värme, vatten, sopor, bredband via fiber 250/250, Tv utbud.\nKostnad för el tillkommer.\nLägenheten ligger på en lugn gata som angränsar till natur, hav och strövområden. Det finns många badplatser i området, närmast badmöjlighet finns på 500 meters avstånd. Det finns goda kommunikationer med buss, närmaste busshållplats är Hammarvägen.  Närhet till sportarena, restaurang och mataffär. \n\nBostaden är djur och rökfri.\n\nEn deposition tas ut vid kontraktskrivning och betalas tillbaka vid utflytt.\nDet finns även möjlighet att hyra bostaden fullt möblerad om så önskas.\n\n ",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 36.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T20:47:24+00:00", "clock": "20:47:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T21:16:55+00:00", "clock": "21:16:55"};
