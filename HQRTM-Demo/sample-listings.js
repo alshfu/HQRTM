@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kvartsekelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1435081",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/96a6d649082cf744eeddce1219bd02953838b60295b1aa2976138057cb5d5d62.jpg",
+    "description": "1 rum uthyres, rummet är cirka 10kvm med säng, garderob och stol/bord. Balkong med utsikt över större delen av Göteborg.\n\nGemensamt kök och 2 toaletter/badrum finns. Wifi och el/värme och vatten ingår i hyran.\n\nCirka 50-100 meter till Kortedala Torg med massa affärer och bra kommunikationer till Göteborg.\n\nBra om det kan lämnas 2 månaders deposition. Inflyttning är snarast eller efter överenskommelse.\n\nSkicka ett mail/meddelande och berätta lite om dig själv.\n\nSå länge annonsen finns kvar så finns rummet kvar.\nMvh Magnus",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 3335,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hjällbogärdet, Angered",
     "url": "https://qasa.com/p/1435050",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c5ec54b75c2700e17fef1ca442de604b98e8848832b3a82ba9e318a8f4502f8a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmegatan 19, Göteborg",
-    "url": "https://qasa.com/p/1435028",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0c9861025b94c7e7fb95b7be7cb1ce3c0c31b8cc6da1fce78b7d7406c3c5e1fa.jpg",
-    "description": "OBS! lägenheten hyrs ut via planritning och bilder, ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök i Biskopsgården! Modernt kök med rostfria vitvaror och diskmaskin installerat. Genomgående parkett i lägenheten. Helkaklat badrum förberett för tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 9263,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T10:04:26+00:00", "clock": "10:04:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T11:18:23+00:00", "clock": "11:18:23"};
