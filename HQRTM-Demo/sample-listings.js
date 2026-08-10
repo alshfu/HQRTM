@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Fogelbergsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1434706",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/86d70542deef13de9b899abaff39c7a9a8e57ef8df0e1d7ee20d4e25e48f08a3.jpg",
+    "description": "1 december blir 2 ROK på Övre Fogelbergsgatan i centrala Göteborg ledig.\nLägenheten är belägen på våning 6 och är disponerad på 62 kvm.\n\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 10997,
+    "floor": 6,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Segelmakaregatan, Göteborg",
     "url": "https://qasa.com/p/1434686",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75e10076673ce05d81bfadd87a85eda37a1a6ee00c509a555ae39bdd06b034c7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karl Gustavsgatan, Göteborg",
-    "url": "https://qasa.com/p/1434041",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7e342e8a852aeb78f8a4cbcc64479ee9202c24ae7ef8d55be53ef3e4788849a4.jpg",
-    "description": "Jag ska bli sambo och därför hyr jag nu ut min fina lägenhet. Lägenheten är en otroligt fin och ljus 1,5:a på 38 kvm med bästa tänkbara läge på Karl Gustavsgatan. Här bor du i ett av Göteborgs mest populära områden med direkt närhet till Chalmers, Göteborgs Universitet, kaféer, restauranger, grönområden och smidiga kommunikationer.\n\nLägenheten ligger på våning 1 (ej markplan, hiss finns) och har en mycket genomtänkt planlösning med separat kök, trevlig sovalkov och generöst ljusinsläpp.\n\nInformation & Villkor:\n* Uthyrningsperiod: 14 september 2026 – 31 augusti 2027 (kan vara flexibel med inlyttningsdatum)\n* Storlek: 38 kvm (1,5 rum och kök)\n* Möblering: Delvis möblerad\n* Hyra: 12 000 kr/månad\n* Vad som ingår: Allt ingår i hyran (värme, vatten, el och bredband)\n* Bekvämligheter: Både diskmaskin och tvättmaskin finns i lägenheten\n* Deposition: 1 månadshyra (återfås vid utflytt enligt avtal)\n\nVem söker jag?\nJag söker en skötsam hyresgäst (eller ett par) med stabil ekonomi och utan betalningsanmärkningar. Du behöver också teckna en egen hemförsäkring samt bli godkänd av bostadsrättsföreningen.\n\nLåter det intressant? Hör gärna av dig och berätta lite kort om dig själv!\n\nMed vänlig hälsning,\nSofia",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 38.0,
-    "rent": 12000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-09T23:39:28+00:00", "clock": "23:39:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T00:04:31+00:00", "clock": "00:04:31"};
