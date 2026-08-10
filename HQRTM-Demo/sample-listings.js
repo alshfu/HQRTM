@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lövmånadsgatan, Göteborg",
+    "url": "https://qasa.com/p/1355718",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e3b69a8fe5a3cb0fc16626dd4b9ece5076aa74fc52b9ebb35beca02523255ee.jpg",
+    "description": "1:a uthyres i Kortedala\nI hyran ingår:\n\nInternet, \nvatten, \nel(normal konsumtion), \nvärme, \nParkering \nSophämtning\nTV finns\nEgen Balkong\n(Hiss finns)\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 8995,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kvartsekelsgatan, Göteborg",
     "url": "https://qasa.com/p/1435081",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/96a6d649082cf744eeddce1219bd02953838b60295b1aa2976138057cb5d5d62.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Herregårdsgärdet, Angered",
-    "url": "https://qasa.com/p/1434915",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6a961504d1db40fff79f4dd5a5d8e73987a175860c57cc6f121980e22e6d1816.jpg",
-    "description": "A room for a master student (or similar) with bathroom and kitchenette. Shared entrance with the host. Access to washing machine and dryer. 8 minutes walk to tram. 12 minutes tram to Central station.",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 19.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T13:38:34+00:00", "clock": "13:38:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T14:42:49+00:00", "clock": "14:42:49"};
