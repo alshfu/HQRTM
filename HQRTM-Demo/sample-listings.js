@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hovås Allé, Hovås",
+    "url": "https://qasa.com/p/1435711",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5c740ed0c951e31fa0828d707d0551d2aeed76914beb58fb58d4127c77d3be5.jpg",
+    "description": "Charmigt boende om två rum och kök/pentry i naturskön miljö i Nya Hovås i södra Göteborg. Passar bra för student, övernattningslägenhet eller permanent boende för en person.\nHär bor du privat i eget litet hus, välplanerat och väldigt mysigt. Möblerat inkl. porslin, köksgeråd, tork/tvättmaskin.\nSovrum med säng och byrå för förvaring samt klädhängare. (Går att komplettera med två sängar mot tillägg, max 2 vuxna, inga barn). Vardagsrum med soffa, soffbord, byrå med TV, Bord med extra utfällbar del samt stolar. Toalett och dusch. Hav, sjöar, skog och vandringsleder mm inpå knuten. 5 minuters promenad till Nya Hovås centrum med bl.a. ICA Kvantum, Systembolaget, Restauranger, Apotek, Pizzeria, Butiker, Gym, Buss mm. 15 minuter till centrala Göteborg. Avser kallhyra. Snabbt bredband/Wi-Fi mot tillägg. Fri parkering för 1 bil ingår.",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 7394,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Varpevägen, Brännö",
     "url": "https://qasa.com/p/1396120",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e83a45c555c808f979c939d03e78263de74ed2297dc1895d536d852c7033412f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjällbogärdet, Angered",
-    "url": "https://qasa.com/p/1435050",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c5ec54b75c2700e17fef1ca442de604b98e8848832b3a82ba9e318a8f4502f8a.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13800 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/utzfsunwl9elomfm8dol/vastra-gotaland/angered/hjallbogardet-42/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nRymlig trea i barnvänligt område i Eriksbo. Fullt utrustat kök. Ett större sovrum och ett lite mindre. Stort och fint vardagsrum! Badrummet renoverades 2019. Grönt område med många förskolor, lekplatser och parker. Lärjeleden ligger precis utanför dörren med vackra promenadstråk. Gångväg till affärer, apotek, vårdcentral och goda kommunikationer i Hjällbo.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13800 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13025,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T20:19:02+00:00", "clock": "20:19:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T21:06:36+00:00", "clock": "21:06:36"};
