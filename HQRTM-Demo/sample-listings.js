@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tunnlandsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1406654",
+    "image_url": null,
+    "description": "Välplanerad 3 på 78 kvm uthyres på Tunnlandsgatan i Västra Frölunda. Lägenheten ligger på våning 3 och har en ljus och rymlig planlösning.\nLägenheten passar bra för en skötsam hyresgäst, par eller mindre familj. Uthyrningen sker enligt överenskommelse och med godkännande från bostadsrättsföreningen.\nOmrådet är barnvänligt med förskolor och skolor i närheten. Det finns även goda kommunikationer samt närhet till Frölunda Torg och Slottsskogen.",
+    "district": "Västra Frölunda",
+    "rooms": 3.5,
+    "area_m2": 78.0,
+    "rent": 13940,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lövmånadsgatan, Göteborg",
     "url": "https://qasa.com/p/1355718",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e3b69a8fe5a3cb0fc16626dd4b9ece5076aa74fc52b9ebb35beca02523255ee.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrklöversgatan, Göteborg",
-    "url": "https://qasa.com/p/1411116",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/60e430ea1cb64af35bae01ee8d96a6fd958f10261d9591ecf22de354c9c6bd41.jpg",
-    "description": "Rymlig och välplanerad 3 med attraktivt läge i Göteborg – långtidsuthyrning\n\nVälkommen till denna trivsamma och välplanerade trerumslägenhet på Fyrklöversgatan 11 i Göteborg. Här erbjuds ett bekvämt boende med generösa ytor och ett attraktivt läge med närhet till både service, kommunikationer och grönområden.\n\nLägenheten har en genomtänkt planlösning med ett ljust vardagsrum, två rymliga sovrum och ett funktionellt kök som passar både vardag och umgänge. De stora fönstren ger ett fint ljusinsläpp och bidrar till en trivsam boendemiljö.\n\nFastigheten ligger i ett lugnt och omtyckt område med goda kommunikationer till centrala Göteborg. I närområdet finns matbutiker, restauranger, skolor, förskolor och andra bekvämligheter, vilket gör bostaden idealisk för såväl par som familjer.\n\nFakta:\n\n3 rum och kök\n\nAdress: Fyrklöversgatan 11, Göteborg\n\nLångtidsuthyrnin\n\nVälkomna att höra av er vid intresse!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 16824,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T14:42:49+00:00", "clock": "14:42:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T15:41:29+00:00", "clock": "15:41:29"};
