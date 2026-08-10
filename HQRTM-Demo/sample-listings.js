@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Varpevägen, Brännö",
+    "url": "https://qasa.com/p/1396120",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e83a45c555c808f979c939d03e78263de74ed2297dc1895d536d852c7033412f.jpg",
+    "description": "Ditt eget skärgårdsparadis på Brännö\nDrömmer du om att vakna till havsutsikt, salt luft och tystnad avbruten bara av måsar och vågskvalp? Nu finns chansen att kalla Brännö ditt hem.\nDenna charmiga stuga ligger högt och avskilt på klippan, med en av öns finaste utsikter över Göteborgs skärgård. Här bor du granne med berg, hav och vild natur – ändå bara en kort färjeresa från stadens puls.\nStugan är komplett för det goda livet: fullt utrustat kök, mysigt sovrum i nedre plan med dubbelsäng, plus ytterligare en sovplats på loftet med TV. Nytt uterum med infravärme gör att du kan njuta av kvällarna långt in på hösten. Skönt golvvärme och luftvärmepump håller stugan varm och behaglig året runt.\nBrännö är bilfritt – här är det cykel, promenad och havsdoft som gäller. Ändå har du nära till matbutik på ön och smidiga förbindelser in till Göteborg med färja och snabbuss eller spårvagn.\nEl, vatten, Wi-Fi (100 Mbit) och sophämtning ingår – bara att flytta in och njuta.\nPerfekt för en eller två personer som söker lugn, natur och en alldeles egen plats i skärgården. Studenter varmt välkomna!",
+    "district": "Brännö",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 11400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Storhöjdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1415702",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925e9b1e1ba7478b340dabf685f1ebef675daae690280e71c59ad1c57ffe0527.jpg",
+    "description": "Ljus och hemtrevlig 2 högst upp med balkong\n\nJag hyr ut min ljusa och hemtrevliga lägenhet om 43 m², belägen högst upp i huset med balkong och härlig, lång utsikt. Lägenheten är välplanerad med gott om ljusinsläpp och en mysig känsla.\n\nLägenheten hyrs ut fullt möblerad och är redo att flytta in i. Här finns allt som behövs för ett bekvämt och trivsamt boende.\n\nOm området\n\nLägenheten ligger i ett lugnt och trivsamt område med flera hållplatser och mataffärer inom gångavstånd. Det finns goda kommunikationer till centrala Göteborg, och även Redbergsplatsen ligger på bekvämt gångavstånd med ett stort utbud av spårvagns- och bussförbindelser.\n\nI närområdet och vidare ner mot Olskroken finns dessutom ett stort utbud av restauranger, caféer och annan service, vilket gör att det mesta finns inom bekvämt gångavstånd. Samtidigt ligger lägenheten lite mer avskilt och lugnt från de mer livliga delarna av området.\n\nKort om lägenheten\n\n2 rum och kök, 43 m²\nHögst upp i huset\nBalkong med lång utsikt\nFullt möblerad\nLjus och välplanerad\nMataffärer och hållplatser inom gångavstånd\nNära Redbergsplatsen och Olskroken\nGoda kommunikationer till centrala Göteborg\nRestauranger, caféer och service i närområdet\n\nOm dig som hyresgäst\n\nJag söker en skötsam och ansvarsfull hyresgäst som kommer att ta väl hand om lägenheten. Lägenheten hyrs ut till maximalt två personer. Jag söker ett barnfritt hushåll och lägenheten är rökfri.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 43.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nordostpassagen, Göteborg",
     "url": "https://qasa.com/p/1435587",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmsallén, Göteborg",
-    "url": "https://qasa.com/p/1435018",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/310784231f30c9ec9422ca630d5a26f6624957bc542e444c3d1b92befc28aa8c.jpg",
-    "description": "Vi hyr ut vår ljusa och moderna 2-rumslägenhet i det praktiska och trendiga området Lindholmen, eftersom vi arbetar utanför Göteborg. Lägenheten är väl ansluten till staden via bussar, spårvagnar och färjor – inklusive en gratisfärja till Stenpiren som tar dig direkt till centrum.\n\nPerfekt för en eller två personer, lägenheten erbjuder:\n\n1 sovrum\n\n1 badrum\n\nEtt rymligt vardagsrum som är öppet mot fullt utrustat kök\n\nEn stor balkong mot innergården, perfekt för avkoppling i solen och lugn och ro\n\nRökning är inte tillåten.\n\nHyra inkluderar: värme, vatten och internet.\nHyresgästens ansvar: el och hemförsäkring ska tecknas av hyresgästen.\n--------------------------------------------------------------------\nIn English:\n\n2-Room Apartment for Rent in Stylish Lindholmen\n\nWe are renting out our bright and modern 2-room apartment in the convenient and trendy Lindholmen area, as we are working outside of Gothenburg. The apartment is well connected to the city by buses, trams, and ferries—including a free ferry to Stenpiren, taking you straight into the city center.\n\nIdeal for one or two occupants, the apartment features:\n\n1 bedroom\n\n1 bathroom\n\nA spacious living room connected to a fully equipped kitchen\n\nA large balcony facing the courtyard, perfect for relaxing in the sun and enjoying peace and quiet\n\nSmoking is not allowed.\n\nIncluded in the rent: heating, water, and internet.\nTenant responsibilities: electricity and home insurance must be set up by the tenant.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T19:33:49+00:00", "clock": "19:33:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T20:19:02+00:00", "clock": "20:19:02"};
