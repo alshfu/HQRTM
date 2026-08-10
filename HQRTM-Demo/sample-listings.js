@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sandrevelsvägen, Hisings Backa",
+    "url": "https://qasa.com/p/1434609",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a458dc205ceb1964bfe0fec62a6b40bd23aae11cc27bdaa82f78ef687ebc4ccd.jpg",
+    "description": "Hyr ut en mysig lägenhet på 63 kvm i Skogome med underbar eftermiddags/kvällsol på inglasad balkong med öppningsbara fönster. I hyran ingår el,vatten,internet,tv och parkeringsplats. \n\nSkogome är ett område som är lugnt, nära naturen och väldigt barnvänligt. Lägenheten hyrs ut omöblerad. \n\nCa 15 min in till centrala Göteborg med buss. \n\n(I planritningen där det står walk in closet kan med fördel använda som sovrum om så önskas.)\n\nVid frågor, tveka inte att höra av er :)",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 12300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Häradsdomarevägen, Hisings Backa",
+    "url": "https://qasa.com/p/1434430",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1d23859f26f9ef7a4aedaa1dbcdaf95e20c069f3911390570007f8da04d280e2.jpg",
+    "description": "Välkommen till ett rymligt och välplanerat radhus i Hisings Backa. Bostaden erbjuder 123 m² fördelat på 6 rum och 3 våningsplan, samt en generös uteplats om ca 73 m².\n\nHär finns ett stort och ljust vardagsrum med generösa glaspartier och gott om plats för både umgänge och avkoppling. Köket är rymligt med bra arbetsytor, mycket förvaring och separat matplats.\n\nBostaden har flera sovrum med möjlighet att även använda något rum som hemmakontor eller gästrum. Här finns dessutom två badrum, varav ett större med badkar och dubbla handfat, samt en separat tvättstuga med tvättmaskin och torktumlare.\n\nDen stora uteplatsen ger gott om utrymme för utemöbler, grill och trevliga sommarkvällar.\n\nEtt trivsamt och rymligt familjeboende med närhet till service, skolor, kommunikationer och Göteborgs centrum.\n\nUthyres för långtidsboende.",
+    "district": "Hisings Backa",
+    "rooms": 6.0,
+    "area_m2": 199.0,
+    "rent": 25000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Altplatsen 3, Göteborg",
+    "url": "https://qasa.com/p/1434817",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a35c1b211d9e934fde433851507900182c21e709a0c7ea836fc3863ced58e1d.jpg",
+    "description": "Välplanerad etta med balkong! \nDenna välplanerade och ljusa etta om 32,3 kvm innehar stora öppna ytor och rikligt med ljusinsläpp.\nDu välkomnas av en hall med goda förvaringsmöjligheter som ansluter till kök och toalett, båda med moderna ytskikt. \nI anslutning till köket förs du vidare till vardagsrummet som har rikligt med ljusinsläpp och tillgång till balkong. Förvaringsrum i form av förråd i stålgaller finns att tillgå på vindsplan. \n\nStandardinfo om lägenheten:\nVäggarna är vitmålade och golven består av parkett i samtliga rum.\nBadrummet är helkaklat i en ljusgrå ton och är utrustat med kombinerad tvättmaskin och torktumlare. Köket har vita skåpsluckor med grå bänkskiva, installerat finns också diskmaskin. \nBalkong eller uteplats finns i samtliga lägenheter oavsett storlek. \n \nFastighetsägaren tillämpar individuell mätning och debitering av varmvatten och el. Hyresgästen skall betala utifrån sin förbrukning till självkostnadspris. \n \nInformation om fastigheten\nFastigheten uppförs och står klar i slutet på 2023 / början på 2024.\nI bottenplan etablerar sig Willys hemma och Nordic Wellness. I anslutning till bostadshuset byggs ett äldreboende som kommer att drivas i privat regi.\n \nFör att vi ska kunna erbjuda dig en välmående boendemiljö råder rökförbud i hela fastigheten. Lägenheter, gemensamhetsutrymmen, balkonger och gårdar är samtliga rökfria. Då avtal tecknas accepteras dessa villkor. \nHusdjur är tillåtna. \n \nOmråde\nMed promenadavstånd till natursköna Ruddalen och ett stenkast från butikerna på Frölunda Torg samt Frölunda kulturhus blir möjligheterna oändliga för dig som boende. På Ruddalens idrottscentrum återfinns motionsspår, frisbeegolf och fotbollsplaner. Vintertid anläggs även isbanor för skridskoåkning. Då Willys Hemma och Nordic Wellness öppnar i bottenplan blir det direktanslutning till så väl livsmedel som gym.\n \nEtt par minuters promenad bort finns spårvagns- och busshållplats. \n \nÖvrigt\nI etapp 1 kommer uthyrning att ske på ritning då fastigheten då ännu inte är färdigställd. Erbjudande skickas ut löpande. \nFör att bli godkänd som hyresgäst ställs följande krav:\n \n•\tDu ska ha fyllt 18 år\n•\tDu ska ha svenskt personnummer\n•\tAvtal skrivs endast med den person som har sökt lägenheten och denne ska ha lägenheten som stadigvarande bostad\n•\tVi accepterar inga betalningsanmärkningar\n•\tBoendereferens ska lämnas innan Du kan godkännas som intressent\n•\tInkomstkrav sätts i förhållande till Normalbeloppet för 2023. Med inkomst avses inkomst av tjänst eller studiemedel\n•\tHyresvärden anpassar regler för trångboddhet utefter storleken på Din lägenhet\n•\tVi tar ej emot personliga intresseanmälningar eller förfrågningar gällande uthyrningsprocessen av lägenheten via telefon eller mail.\n \nVälkommen med en intresseanmälan!\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 8267,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Fogelbergsgatan 1, Göteborg",
     "url": "https://qasa.com/p/1434706",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/86d70542deef13de9b899abaff39c7a9a8e57ef8df0e1d7ee20d4e25e48f08a3.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Memoargatan, Hisings Backa",
-    "url": "https://qasa.com/p/1434389",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c1f019a1f7e1a0f1795b818ae5b992524e299e311c6b2e13ce459d66230aecf.jpg",
-    "description": "Möblerat rum i ljus 3:a med fantastisk utsikt\n\nRymligt, möblerat rum uthyres i min trevliga 3-rumslägenhet. Lägenheten är ljus och öppen med en fantastisk utsikt. Du delar kök och badrum med mig.\n\nJag är en lugn man på 42 år som jobbar varje dag, tränar och lagar mat ibland. Besöker familjen ofta, så du får mycket privatliv. Rummet har tidigare hyrts av både tjejer och killar och det har alltid funkat mycket bra – för mig är det viktigt att vi visar respekt för varandra, är lugna och tar hand om lägenheten.\n\nHyra: 5000 kr/mån (el och Wi-Fi ingår – inga dolda kostnader)\n\nLäget är bra med nära till kollektivtrafik och butiker.\n\nIntresserad? Berätta lite om dig själv så hör jag av mig för mer info eller visning!",
-    "district": "Hisings Backa",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4750,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skanstorget, Göteborg",
-    "url": "https://qasa.com/p/1434346",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1a78e4bacbca6c2836a1426d82e375c6c8633d92bdaf464acd65d5646fca11e1.jpg",
-    "description": "Hej! Jag hyr ut min sekelskifteslägenhet i Haga under 1 år pga provsamboende.  Lägenheten, som är en hyresrätt, är ljus med fönster i två vädersträck. Den har hall, allrum och ett kök samt badrum, med fönster i varje rum. \nLägenheten hyrs ut halvmöblerad, men jag är flexiblel med vilka av möblerna som önskas ha kvar. Lägenheten är nu möblerad med säng, matbord, 2 stolar, bokhylla, TV, tv-bord, soffa, fåtölj, pall till hallen. Lägenheten har en kakelugn och takrosett som är K-märkta, kakelugnen får inte användas. I köket finns en mikro och vattenkokare och en kyl under diskbänk med ett rejält frysfack. \n\nLägenheten har gemensam uteplats på en lummig innergård som är fri att användas. \n\nInfo och villkor: \n- Uthyrningsperiod: 1 oktober 2026 - 31 augusti 2027 (inflyttsdatum kan tidigareläggas till tidigast 1 september)\n- Uppsägningstid: 3 månader för både hyresgäst och hyresvärd. Max tid att hyra är dock tom. 31 augusti 2027. \n- Storlek: 29,5 kvm (1 rum och kök)\n- Möblering: delvis möblerad. Vissa möbler kan tas bort efter önskemål (se beskrivning ovan för vilka möbler som ingår)\n- Hyra: 4650 kr exkl el. I hyran ingår hyresavgift, möbelpåslag med 15% på hyran, bredband och kallvatten. Varmvatten + el är rörligt. Fakturorna bifogas för varje månad i efterhand (betalas månaden efter användning, t ex oktobers elanvändning betalas 27 november). Det beror på att lägenheten har direktverkande el och varmvattenberedare då det är ett äldre hus. Elräkningen brukar snitta på ca 900kr/mån i genomsnitt under ett år.\n- Deposition: 1 månadshyra (4 650 kr). Depositionen återbetalas vid utflyttning. \n- Kontrakt: Lägenheten är en hyresrätt varför vi gemensamt måste ansöka till hyresvärden om andrahandsuthyrning. Handläggningstiden kan dröja upp till 8 veckor. \n\nJag söker en skötsam hyresgäst, gärna student, med stabil ekonomi och utan betalningsanmärkningar samt minst en bra referens. Du behöver teckna en egen hemförsäkring.  Hör gärna av dig och berätta lite kort om dig själv!\n\nVänliga hälsningar, Ellen\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 4650,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Doktor Dahlströms Gata, Göteborg",
-    "url": "https://qasa.com/p/1431883",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
-    "description": "Jag hyr ut min ljusa och välplanerade tvåa på Doktor Dahlströms gata under en period på tre månader. Lägenheten ligger i ett nybyggt hus och har öppen planlösning mellan kök och vardagsrum, separat sovrum, modernt badrum och gott om förvaring. Bostaden hyrs ut möblerad.\n\nFrån vardagsrummet når man den stora balkongen med morgonsol och fin, fri utsikt – perfekt för frukost eller avkoppling. Lägenheten har ett lugnt läge samtidigt som det är nära till Chalmers, Sahlgrenska och centrala Göteborg. Goda kollektivtrafikförbindelser samt mataffärer, gym och grönområden finns i närheten.\n\nJag söker en lugn och skötsam hyresgäst. Skriv gärna några rader om dig själv, din sysselsättning och varför du söker boende under perioden.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 12985,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T05:48:35+00:00", "clock": "05:48:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T07:00:40+00:00", "clock": "07:00:40"};
