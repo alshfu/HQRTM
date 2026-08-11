@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Erik Dahlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1436615",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c41ebbf6149a9c633542425f2f3aac136e972dae0ef410f7b853589fb83ba6e4.jpg",
+    "description": "Härlig, ljus och luftig lägenhet i fastighet byggd 1921. Trevlig bostadsrättsförening. Lägenheten har balkong som vätter in mot fin grönskande bakgård med gemensam uteplats. Stor entréhall, ljust härligt kök och fungerande kakelugn. Med sina 115 kvm och högt i tak känns bostaden väldigt ”luftig”\nGångavstånd till det mesta! Mycket centralt läge men ändå lugnt & revligt område. ",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 115.0,
+    "rent": 22900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Prilyckegatan, Hisings Kärra",
+    "url": "https://qasa.com/p/1431986",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f348107645cd8ecad58fc7791f52bb80a479a7c6aac40c99c5a2f6629ae7bcf7.jpg",
+    "description": "Hej!\n\nVår vackra lägenhet är tillgänglig för uthyrning. Den inkluderar en stor inglasad balkong, två sovrum, kök och matplats, ett kontorsrum, ett rymligt vardagsrum, badrum, samt en väl tilltagen hall och korridor. Stort tv, alla köksapparater som behövs finns, tvätt- och torkmaskin, diskmaskin, garderober etc. \n\nMöblering för en familj på 4-5 personer tillhandahålls, vilket har fungerat utmärkt för oss, en familj bestående av två vuxna och två barn. Möbleringen kan anpassas vid behov i den mån det går. Kontorsrum kan bli sovrum också. \n\nDet är ca 20 minuter till Göteborgs Centralstation och 5 minuter till Bäckebok, 10 till Backa Plan och Wieselgrensplatsen. \nDirekt utanför finns lekplats, och med bara 2-3 minuters promenad når du både busshållplats och Kärra Centrum. besöksparkeringen finns. \n\n El, vatten, uppvärmning, varmvatten, internet ingår i hyran, utan individuell avläsning av förbrukningen och parkering Carport med elbox för laddning av elbilar. \n\nIngen lägenhet under oss. Dessutom finns möjligheten att boka föreningens bastu, snickarrum och tvättstuga, även om lägenheten själv är utrustad med tvättmaskin.\n\nBoendeområdet är lugnt och familjevänligt, med nära till förskolor och skolor. \nVi hyr ut pga resa. \nFlexibla gällande inflyttning-och utflyttningsdatum.",
+    "district": "Hisings Kärra",
+    "rooms": 3.5,
+    "area_m2": 75.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Harald Hjärnesgatan , Göteborg",
     "url": "https://qasa.com/p/1036518",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f810dd26cc5544525df0f98dddbcfd2b22278108c2d77dd7abfaa958f4e2c6b.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lammelyckan, Göteborg",
-    "url": "https://qasa.com/p/1435686",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/232c6729715efd6ff49250d6cef44f558eda92f1606e645814332e3c5a12b3ab.jpg",
-    "description": "Perfekt lägenhet för två med snabba förbindelser till centrala Göteborg! En fin tvåa med fräscht badrum och kök samt nyrenoverat ytskikt. Läget är mycket bra när det kommer till kommunala förbindelser. Området är lugnt och mycket tyst. Pallkragar med bland annat jordgubbar ingår. Det finns även en mysig uteplats med grillmöjlighet. Huset tas om hand av en liten engagerad förening. \n\nLägenheten hyrs ut möblerad. Datum för inflytt kan diskuteras mer i detalj. Hyrs preliminärt ut till maj 2027. Vi ska ut på längre resa.\n\n/Erik och Moa",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 47.0,
-    "rent": 11300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Virveltorget, Göteborg",
-    "url": "https://qasa.com/p/1435985",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2402b7e8bc1ab6b0f5da2994e6b2406a2c8c9ab7473df25e2daa374f69165c6.jpg",
-    "description": "Modern och rymlig 2:a – 61 kvm, centralt, omoblerat (eller delvis möblerat)\n\nVi hyr ut en ljus och modern 2:a på centrala Hisingen i ett naturnära område nära Keillers park, endast 10 minuter till Göteborgs centrum med spårvagn (2:an,5:an,6:an) och buss (25:an).\n\nLägenheten (från 2016) ligger på våning 4 och har en rymlig balkong i soligt söderläge, helkaklat badrum med tvättmaskin och torktumlare, modernt kök med diskmaskin samt ett stort sovrum med generös garderob och extra förvaring i hallen.\n\nLugnt område med närhet till Ramberget och gångavstånd till Willys, Coop och gym.\n\nHyra: 13 500 kr\nAllt ingår i hyran: Värme, vatten, bredband och hushållsel. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 13500,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T21:58:26+00:00", "clock": "21:58:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T22:52:51+00:00", "clock": "22:52:51"};
