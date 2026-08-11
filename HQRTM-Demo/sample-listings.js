@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Olivedalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1436098",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/07ce2fb83d23695f8c3722b2297990e5142168fb31cbfa55fc2948c30713b791.jpg",
+    "description": "Bästa området i Göteborg. Ingen genomfartstrafik på Olivedalsgatan. Många restauranger från världens alla hörn. Slottsskogen runt hörnan. Lika nära till Järntorget och utelivet. Mycket centralt. 10 minuter med buss till havet från Linnéplatsen.  Mycket bra kommunikationer. Lägenheten är en stor trea med balkong. Hyresgäst kommer att ha det största sovrummet samt tillgång till hela lägenheten själv under stora delar av tiden då hyresvärd pendlar till Stockholm. Bäddsoffa finns också för övernattning av gäster. Väldigt trevliga grannar. Kvarterskrogen Oliven på hörnan är samlingsplatsen för många i kvarteret. Rummet är möblerat om hyresgästen vill: bra säng, garderob, två byråer, hyllor och skrivbord. Internet, el, TV ingår i hyran. En person eller ev par enligt överenskommelse om hyresnivå. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Askims Domarringsväg, Askim",
     "url": "https://qasa.com/p/1436039",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80cf7d109ae74d696eee76f033200164a412e4b30347bf468878a20ab0a87ca2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hovås Allé, Hovås",
-    "url": "https://qasa.com/p/1435711",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5c740ed0c951e31fa0828d707d0551d2aeed76914beb58fb58d4127c77d3be5.jpg",
-    "description": "Charmigt boende om två rum och kök/pentry i naturskön miljö i Nya Hovås i södra Göteborg. Passar bra för student, övernattningslägenhet eller permanent boende för en person.\nHär bor du privat i eget litet hus, välplanerat och väldigt mysigt. Möblerat inkl. porslin, köksgeråd, tork/tvättmaskin.\nSovrum med säng och byrå för förvaring samt klädhängare. (Går att komplettera med två sängar mot tillägg, max 2 vuxna, inga barn). Vardagsrum med soffa, soffbord, byrå med TV, Bord med extra utfällbar del samt stolar. Toalett och dusch. Hav, sjöar, skog och vandringsleder mm inpå knuten. 5 minuters promenad till Nya Hovås centrum med bl.a. ICA Kvantum, Systembolaget, Restauranger, Apotek, Pizzeria, Butiker, Gym, Buss mm. 15 minuter till centrala Göteborg. Avser kallhyra. Snabbt bredband/Wi-Fi mot tillägg. Fri parkering för 1 bil ingår.",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 7394,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T10:02:45+00:00", "clock": "10:02:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T11:01:06+00:00", "clock": "11:01:06"};
