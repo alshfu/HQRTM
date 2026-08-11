@@ -33,21 +33,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Steken, Agnesberg",
-    "url": "https://qasa.com/p/1436498",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4df000760b2c99afc4cc515b3a49ebeaa1dba867048e491eaabe78c11f890d00.jpg",
-    "description": "Hyr ut min lägenhet med tre rum på 66 kvm som ligger på tredje våningen. Det finns nytt dubbelsäng och klädförråd att utnyttja. \nI hyran ingår Wifi, El, förråd, parkering samt det finns tillgång till balkong, bastu och gym utan extra kostnad. \n\nLägenheten kan hyras ut både på kort och långsikt. Exempelvis som fast boende pga jobb/studier eller över praktikperiod. ",
-    "district": "Agnesberg",
-    "rooms": 2.0,
-    "area_m2": 14.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Klarinettgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1436250",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55bfcb8177c1f80df9287a2e8a9113bde9149560b1eca18da110e748cf3c409d.jpg",
@@ -105,6 +90,21 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Virveltorget, Göteborg",
+    "url": "https://qasa.com/p/1435985",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2402b7e8bc1ab6b0f5da2994e6b2406a2c8c9ab7473df25e2daa374f69165c6.jpg",
+    "description": "Modern och rymlig 2:a – 61 kvm, centralt, omoblerat (eller delvis möblerat)\n\nVi hyr ut en ljus och modern 2:a på centrala Hisingen i ett naturnära område nära Keillers park, endast 10 minuter till Göteborgs centrum med spårvagn (2:an,5:an,6:an) och buss (25:an).\n\nLägenheten (från 2016) ligger på våning 4 och har en rymlig balkong i soligt söderläge, helkaklat badrum med tvättmaskin och torktumlare, modernt kök med diskmaskin samt ett stort sovrum med generös garderob och extra förvaring i hallen.\n\nLugnt område med närhet till Ramberget och gångavstånd till Willys, Coop och gym.\n\nHyra: 13 500 kr\nAllt ingår i hyran: Värme, vatten, bredband och hushållsel. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 61.0,
+    "rent": 13500,
+    "floor": 4,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T20:07:38+00:00", "clock": "20:07:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T21:02:03+00:00", "clock": "21:02:03"};
