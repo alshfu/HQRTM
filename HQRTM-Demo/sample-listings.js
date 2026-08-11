@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordostpassagen, Göteborg",
+    "url": "https://qasa.com/p/1436352",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff2565c71f75d238b662e66de19b96c1c95ff2242225882fafbcd303a2f01cb1.jpg",
+    "description": "\nEn fin 1:a på 30 kvm centralt i attraktivt område. En välplanerad lägenhet med plats för matbord, skrivbord, soffa och säng. En stor kokvrå där du kan laga mycket mat! Lägenheten är ljus och trivsam med närhet till allt:  Slottsskogen, centrum, restauranger, caféer, universitet, mataffärer och kollektivtrafik.\nSka plugga på annan ort varför lägenheten hyrs ut.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 10700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Prilyckegatan, Hisings Kärra",
+    "url": "https://qasa.com/p/1436362",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f732c13d0ddbbb3bf35063a14a28a5baa8f70319231790bf415a04b4f3d20efc.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16100 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/s3kachayurdsk93itluk/vastra-gotaland/hisings-karra/prilyckegatan-71/3.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVår vackra lägenhet är tillgänglig för uthyrning. Den inkluderar en inglasad balkong, två sovrum, ett kontorsrum, ett rymligt vardagsrum, badrum, samt en väl tilltagen hall och korridor.   Möblering för en familj på 4-5 personer tillhandahålls, vilket har fungerat utmärkt för oss, en familj bestående av två vuxna och två barn.   Direkt utanför finns lekplats, och med bara 2-3 minuters promenad når du både busshållplats och Kärra Centrum. Parkering tillhörande lägenhet lättillgänglig i gården, besöksparkeringen finns också.   Nyligen har lägenheten genomgått en delvis renovering med ny målning, nya golvlister, delvis ny eldragning och belysning, inrättande av ett kontorsrum, installation av en ny innerdörr till köket, samt nytt laminatgolv i kontorsrummet och en uppfräschad balkong.   el, vatten, uppvärmning, varmvatten, internet ingår i hyran, utan individuell avläsning av förbrukningen.  Ingen lägenhet under oss. Dessutom finns möjligheten att boka föreningens bastu, snickarrum och tvättstuga, även om lägenheten själv är utrustad med tvättmaskin.  Boendeområdet är lugnt och familjevänligt, med nära till förskolor och skolor.  Vi hyr ut pga resa utomlands  Flexibla gällande inflyttning-och utflyttningsdatum.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16100 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Hisings Kärra",
+    "rooms": 3.5,
+    "area_m2": 75.0,
+    "rent": 15196,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Arsenalsgatan, Göteborg",
     "url": "https://qasa.com/p/1436228",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dee3081408aecd16b1b55d1a6ee8839857f08b0fcd4354b9ddcbe00b35a4756.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordostpassagen, Göteborg",
-    "url": "https://qasa.com/p/1435975",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4ab45aab59c38b96560f6962c9ae75be5d70fcb9d558598fecaab79787ac9f03.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 27000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cjgrn5caj6asnktocxy0/vastra-gotaland/goteborg/nordostpassagen-19/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\n[ENGLISH BELOW]\r\n· Fullt möblerad, ljus gavellägenhet om 4 rum och 2 badrum i ett av Göteborgs mest eftertraktade områdena.\r\n· Belägen på 5:e våningen med ett läge som ger maximalt naturligt ljus och eftermiddagssol.\r\n· Lugnt bilfritt område med mycket goda kommunikationer.\r\n· 5 minuters promenad till Slottsskogen, Linnégatan och Järntorget. Flera förskolor, grundskola och mataffär inom 200 meter.\r\n· Tre sovrum, samtliga med arbetsplats.\r\n· Kök renoverat 2025, med fullstor kyl och fullstor frys.\r\n· Två kompletta badrum, varav ett med tvättmaskin och torktumlare. Tvättstuga finns också tillgänglig.\r\n· Stort burspråk i vardagsrummet.\r\n· Inglasad balkong med skjutbara glaspartier som kan öppnas helt, samt infravärme.\r\n· Uppgraderad säkerhetsdörr.\r\n· Snabbt WiFi och TV ingår i hyran. Parkeringsplats finns att hyra separat, med möjlighet till elbilsladdning.\r\n\r\nProperty description in English:\r\n· Fully furnished 4-room, 2-bathroom corner apartment in one of Gothenburg’s most sought-after areas.\r\n· Located on the 5th floor and oriented to maximize natural light and afternoon sun.\r\n· Quiet pedestrian area with excellent transport connections.\r\n· A 5-minute walk from Slottsskogen park, Linnégatan and Järntorget. Several pre-schools, primary school and supermarket within 200 metres.\r\n· Three bedrooms, each with a work desk.\r\n· Kitchen renovated in 2025, with full-sized fridge and full-sized freezer.\r\n· Two full bathrooms, one with washing machine and dryer. Laundry room also available.\r\n· Wide bay window in the living room.\r\n· Glazed balcony with sliding panels that can be fully opened, and infrared heating.\r\n· Upgraded security door.\r\n· Hi-speed WiFi and TV included in the rent.\r\n· Parking space available to rent separately, with option for EV charging.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 27000 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 85.0,
-    "rent": 25727,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Fogelbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1356257",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53ecf4d4a4175940e0321f752942cd4361f8ba7de1c6b66a93e359ea68dbb82f.png",
-    "description": "Ljus och charmig 3:a i Vasastaden hyrs ut fullt möblerad under ett år, med möjlighet till förlängning.\n\nLägenheten har högt i tak, brädgolv, stuckatur och kakelugn som ger mycket karaktär. Det finns ett stort vardagsrum med gott om plats för både umgänge och avkoppling samt en rymlig balkong mot den lugna innergården.\n\nKöket är renoverat, fullt utrustat och har bra med förvaring. Lägenheten har ett separat sovrum med garderober samt ytterligare ett rum som idag används som matsal. Det rummet kan vid behov lämnas omöblerat och användas som exempelvis barnrum, arbetsrum eller gästrum.\n\nLägenheten hyrs ut fullt möblerad och i hyran ingår el och wifi.\n\nHär bor du centralt i Vasastaden med restauranger, caféer, butiker, grönområden och bra kommunikationer på nära avstånd, samtidigt som lägenheten har ett lugnt läge mot innergården.\n\nBostaden passar bra för ett par, en mindre familj eller någon som söker ett bekvämt och hemtrevligt boende under en längre period.\n\nVi söker någon som vill ta hand om lägenheten som sitt eget hem under uthyrningsperioden. Hör gärna av dig och berätta lite om dig/er om bostaden känns intressant.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 28316,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T14:07:25+00:00", "clock": "14:07:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T15:14:05+00:00", "clock": "15:14:05"};
