@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Litteraturgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1435768",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fbd37ebab6b0448562441382668c41ab2f662bbc061feb35cf678b6f41f9626f.jpg",
+    "description": "Välkommen till en modern och stilren tvåa med ljusa, fina ytor och genomtänkta detaljer. Lägenheten erbjuder ett bekvämt och trivsamt boende med modern standard, fint kök och ett härligt vardagsrum. Perfekt för dig som söker ett fräscht och bekvämt hem i en nyproducerad lägenhet.\n",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 10900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hovås Allé, Hovås",
     "url": "https://qasa.com/p/1435711",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5c740ed0c951e31fa0828d707d0551d2aeed76914beb58fb58d4127c77d3be5.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kvartsekelsgatan, Göteborg",
-    "url": "https://qasa.com/p/1435081",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/96a6d649082cf744eeddce1219bd02953838b60295b1aa2976138057cb5d5d62.jpg",
-    "description": "1 rum uthyres, rummet är cirka 10kvm med säng, garderob och stol/bord. Balkong med utsikt över större delen av Göteborg.\n\nGemensamt kök och 2 toaletter/badrum finns. Wifi och el/värme och vatten ingår i hyran.\n\nCirka 50-100 meter till Kortedala Torg med massa affärer och bra kommunikationer till Göteborg.\n\nBra om det kan lämnas 2 månaders deposition. Inflyttning är snarast eller efter överenskommelse.\n\nSkicka ett mail/meddelande och berätta lite om dig själv.\n\nSå länge annonsen finns kvar så finns rummet kvar.\nMvh Magnus",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 3335,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-10T23:55:33+00:00", "clock": "23:55:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T01:49:39+00:00", "clock": "01:49:39"};
