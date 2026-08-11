@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordostpassagen, Göteborg",
+    "url": "https://qasa.com/p/1435975",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/532046493ef0735fdb0f13c94d956e637d3b277323bc0a2922468b3dfe994db5.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 27000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cjgrn5caj6asnktocxy0/vastra-gotaland/goteborg/nordostpassagen-19/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\n[ENGLISH BELOW]\r\nFullt möblerad, ljus gavellägenhet om 4 rum i ett av Göteborgs mest eftertraktade områden. Belägen på 5:e våningen med ett läge som ger maximalt naturligt ljus och eftermiddagssol. Lugnt bilfritt område med mycket goda kommunikationer. 5 minuters promenad till Slottsskogen, Linnégatan och Järntorget. Skola och mataffär inom 200 meter. Tre sovrum, samtliga med arbetsplats. Kök renoverat 2025, med fullstor kyl och fullstor frys. Två kompletta badrum, varav ett med tvättmaskin och torktumlare. Tvättstuga finns också tillgänglig. Stort burspråk i vardagsrummet. Inglasad balkong med skjutbara glaspartier som kan öppnas helt, samt infravärme. Uppgraderad säkerhetsdörr. Snabbt WiFi och TV ingår i hyran. Parkeringsplats finns att hyra separat, med möjlighet till elbilsladdning.\r\n\r\nProperty description in English:\r\nFully furnished 4-room corner apartment in one of Gothenburg’s most sought-after areas. Located on the 5th floor and oriented to maximize natural light and afternoon sun. Quiet pedestrian area with excellent transport connections. A 5-minute walk from Slottsskogen park, Linnégatan and Järntorget. School and supermarket within 200 metres. Three bedrooms, each with a work desk. Kitchen renovated in 2025, with full-sized fridge and full-sized freezer. Two full bathrooms, one with washing machine and dryer. Laundry room also available. Wide bay window in the living room. Glazed balcony with sliding panels that can be fully opened, and infrared heating. Upgraded security door. Hi-speed WiFi and TV included in the rent. Parking space available to rent separately, with option for EV charging.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 27000 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 85.0,
+    "rent": 25483,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nedre Fogelbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1356257",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53ecf4d4a4175940e0321f752942cd4361f8ba7de1c6b66a93e359ea68dbb82f.png",
+    "description": "Ljus och charmig 3:a i Vasastaden hyrs ut fullt möblerad under ett år, med möjlighet till förlängning.\n\nLägenheten har högt i tak, brädgolv, stuckatur och kakelugn som ger mycket karaktär. Det finns ett stort vardagsrum med gott om plats för både umgänge och avkoppling samt en rymlig balkong mot den lugna innergården.\n\nKöket är renoverat, fullt utrustat och har bra med förvaring. Lägenheten har ett separat sovrum med garderober samt ytterligare ett rum som idag används som matsal. Det rummet kan vid behov lämnas omöblerat och användas som exempelvis barnrum, arbetsrum eller gästrum.\n\nLägenheten hyrs ut fullt möblerad och i hyran ingår el och wifi.\n\nHär bor du centralt i Vasastaden med restauranger, caféer, butiker, grönområden och bra kommunikationer på nära avstånd, samtidigt som lägenheten har ett lugnt läge mot innergården.\n\nBostaden passar bra för ett par, en mindre familj eller någon som söker ett bekvämt och hemtrevligt boende under en längre period.\n\nVi söker någon som vill ta hand om lägenheten som sitt eget hem under uthyrningsperioden. Hör gärna av dig och berätta lite om dig/er om bostaden känns intressant.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 82.0,
+    "rent": 28316,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rosensköldsgatan, Göteborg",
     "url": "https://qasa.com/p/1434526",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/421589dd8b157f09bade1f753e1dea73a70c7c8da74ce3a17de5cba8ff80e695.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Storhöjdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1415702",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925e9b1e1ba7478b340dabf685f1ebef675daae690280e71c59ad1c57ffe0527.jpg",
-    "description": "Ljus och hemtrevlig 2 högst upp med balkong\n\nJag hyr ut min ljusa och hemtrevliga lägenhet om 43 m², belägen högst upp i huset med balkong och härlig, lång utsikt. Lägenheten är välplanerad med gott om ljusinsläpp och en mysig känsla.\n\nLägenheten hyrs ut fullt möblerad och är redo att flytta in i. Här finns allt som behövs för ett bekvämt och trivsamt boende.\n\nOm området\n\nLägenheten ligger i ett lugnt och trivsamt område med flera hållplatser och mataffärer inom gångavstånd. Det finns goda kommunikationer till centrala Göteborg, och även Redbergsplatsen ligger på bekvämt gångavstånd med ett stort utbud av spårvagns- och bussförbindelser.\n\nI närområdet och vidare ner mot Olskroken finns dessutom ett stort utbud av restauranger, caféer och annan service, vilket gör att det mesta finns inom bekvämt gångavstånd. Samtidigt ligger lägenheten lite mer avskilt och lugnt från de mer livliga delarna av området.\n\nKort om lägenheten\n\n2 rum och kök, 43 m²\nHögst upp i huset\nBalkong med lång utsikt\nFullt möblerad\nLjus och välplanerad\nMataffärer och hållplatser inom gångavstånd\nNära Redbergsplatsen och Olskroken\nGoda kommunikationer till centrala Göteborg\nRestauranger, caféer och service i närområdet\n\nOm dig som hyresgäst\n\nJag söker en skötsam och ansvarsfull hyresgäst som kommer att ta väl hand om lägenheten. Lägenheten hyrs ut till maximalt två personer. Jag söker ett barnfritt hushåll och lägenheten är rökfri.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 43.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordostpassagen, Göteborg",
-    "url": "https://qasa.com/p/1435587",
-    "image_url": null,
-    "description": "Vackert rum i centrala Göteborg, nära Universitet och andra utbildnings inrättningar, nära till spårvagnar och buss  och affärer uthyres till en kvinnlig student, icke rökare. \nI hyran ingår el,internet,tv, tvättstuga i källaren,kök och badrum, cykelrum.\nHyran är 4500 kr i mån.\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T07:54:23+00:00", "clock": "07:54:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T08:56:34+00:00", "clock": "08:56:34"};
