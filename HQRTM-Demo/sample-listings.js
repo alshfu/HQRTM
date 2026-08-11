@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Harald Hjärnesgatan , Göteborg",
+    "url": "https://qasa.com/p/1036518",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f810dd26cc5544525df0f98dddbcfd2b22278108c2d77dd7abfaa958f4e2c6b.jpg",
+    "description": "Ljus och modern lägenhet med renoverat kök och badrum. \n\nVi hyr ut vår fina och välplanerade lägenhet med stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade i en modern stil, och badrummet har dessutom elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare, praktiskt belägen mitt emot entrédörren – perfekt för kläder och annat.\n\nHyra: 12 000 kr/månad (inklusive el, vatten och bredband).\n\nLäge & Området\nLägenheten har ett utmärkt läge, bara ett stenkast från Backaplan med ett brett utbud av shopping och restauranger. För dig som gillar träning finns ett Nordic Wellness-gym bara några meter bort.\n\nKommunikationer\nHär bor du med utmärkta kollektivtrafikförbindelser – både buss och spårvagn tar dig snabbt och smidigt till centrala Göteborg.\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.\nVi ser gärna att du/ni letar efter ett långsiktigt boende, men är självklart öppna för dialog – det viktigaste är att det känns rätt för båda parter.\n\nBoende ska vara en plats för trygghet och trivsel.\n\nVälkommen att höra av dig vid intresse!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11434,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Aspirantgatan, Göteborg",
+    "url": "https://qasa.com/p/1392914",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7138d8f3d1475a1b42a9c4a42eb1c2484793aa7c63cc278e1ff59b6924583841.jpg",
+    "description": "Välkommen till en välplanerad 2:a med gavelläge och stor balkong. Bostaden har en öppen och social planlösning, kök från Marbodal, goda möjligheter till förvaring med två skjutdörrsgarderober i fullhöjd samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\nLägenheten är belägen i ett modernt, stilrent kvarter i Bellevue, Kviberg. Här bor du tryggt, med goda kommunikationsmöjligheter och har allt du behöver nära till hands. Med spårvagn eller bil tar du dig till Göteborgs centrum på bara 10 minuter. Precis utanför porten finns hållplatsen Bellevue, där linjerna 6, 7, 11 och bussarna 21, 56, 510 passerar med täta avgångar. Ett stenkast åt andra hållet väntar grönska, här finner du ett rofyllt skogsparti med ett harmoniskt promenadstråk jämte Säveån. På bekvämt gångavstånd når du Gamlestaden, ett livfullt område med butiker, service och topprecenserade restauranger som Rolling Bistros, Tycho Mat & Möte, Mugworts, Dubbelhakan m.fl. Både Lidl och Coop finns inom en radie av 500 meter från lägenheten, likaså multisportcentret Prioritet Serneke Arena.\n\nHyran inkluderar:\n- Möblerad lägenhet, fullt utrustat kök\n- Elförbrukning\n- Uppvärmning\n- Varmvatten\n- Bredband 100Mbit/s och digital-TV via Telia Triple play\n\nMöblemang kan diskuteras vid önskemål. \n\nLägenheten hyrs ut på grund av arbete på annan ort. Jag söker en (eller max två) ordningssam, rök- och djurfri hyresgäst med långsiktigt boendebehov. Kontrakt skrivs på 6-12 månader i taget, med möjlighet till förlängning.\n\nVälkommen att höra av dig, berätta gärna lite om dig själv i din första kontakt!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 13150,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Steken, Agnesberg",
+    "url": "https://qasa.com/p/1436498",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4df000760b2c99afc4cc515b3a49ebeaa1dba867048e491eaabe78c11f890d00.jpg",
+    "description": "Hyr ut min lägenhet med tre rum på 66 kvm som ligger på tredje våningen. Det finns nytt dubbelsäng och klädförråd att utnyttja. \nI hyran ingår Wifi, El, förråd, parkering samt det finns tillgång till balkong, bastu och gym utan extra kostnad. \n\nLägenheten kan hyras ut både på kort och långsikt. Exempelvis som fast boende pga jobb/studier eller över praktikperiod. ",
+    "district": "Agnesberg",
+    "rooms": 2.0,
+    "area_m2": 14.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Klarinettgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1436250",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55bfcb8177c1f80df9287a2e8a9113bde9149560b1eca18da110e748cf3c409d.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Virveltorget, Göteborg",
-    "url": "https://qasa.com/p/1435985",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2402b7e8bc1ab6b0f5da2994e6b2406a2c8c9ab7473df25e2daa374f69165c6.jpg",
-    "description": "Modern och rymlig 2:a – 61 kvm, centralt, omoblerat (eller delvis möblerat)\n\nVi hyr ut en ljus och modern 2:a på centrala Hisingen i ett naturnära område nära Keillers park, endast 10 minuter till Göteborgs centrum med spårvagn (2:an,5:an,6:an) och buss (25:an).\n\nLägenheten (från 2016) ligger på våning 4 och har en rymlig balkong i soligt söderläge, helkaklat badrum med tvättmaskin och torktumlare, modernt kök med diskmaskin samt ett stort sovrum med generös garderob och extra förvaring i hallen.\n\nLugnt område med närhet till Ramberget och gångavstånd till Willys, Coop och gym.\n\nHyra: 13 500 kr\nAllt ingår i hyran: Värme, vatten, bredband och hushållsel. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 13500,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordostpassagen, Göteborg",
-    "url": "https://qasa.com/p/1436352",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff2565c71f75d238b662e66de19b96c1c95ff2242225882fafbcd303a2f01cb1.jpg",
-    "description": "\nEn fin 1:a på 30 kvm centralt i attraktivt område. En välplanerad lägenhet med plats för matbord, skrivbord, soffa och säng. En stor kokvrå där du kan laga mycket mat! Lägenheten är ljus och trivsam med närhet till allt:  Slottsskogen, centrum, restauranger, caféer, universitet, mataffärer och kollektivtrafik.\nSka plugga på annan ort varför lägenheten hyrs ut.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 10700,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prilyckegatan, Hisings Kärra",
-    "url": "https://qasa.com/p/1436362",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59d200dfe0d25fe21240356b771b7470dfc1d49113ca3421104c90098d350670.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/s3kachayurdsk93itluk/vastra-gotaland/hisings-karra/prilyckegatan-71/3.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVår vackra lägenhet är tillgänglig för uthyrning. Den inkluderar en inglasad balkong, två sovrum, ett kontorsrum, ett rymligt vardagsrum, badrum, samt en väl tilltagen hall och korridor.   Möblering för en familj på 4-5 personer tillhandahålls, vilket har fungerat utmärkt för oss, en familj bestående av två vuxna och två barn.   Direkt utanför finns lekplats, och med bara 2-3 minuters promenad når du både busshållplats och Kärra Centrum. Parkering tillhörande lägenhet lättillgänglig i gården, besöksparkeringen finns också.   Nyligen har lägenheten genomgått en delvis renovering med ny målning, nya golvlister, delvis ny eldragning och belysning, inrättande av ett kontorsrum, installation av en ny innerdörr till köket, samt nytt laminatgolv i kontorsrummet och en uppfräschad balkong.   el, vatten, uppvärmning, varmvatten, internet ingår i hyran, utan individuell avläsning av förbrukningen.  Ingen lägenhet under oss. Dessutom finns möjligheten att boka föreningens bastu, snickarrum och tvättstuga, även om lägenheten själv är utrustad med tvättmaskin.  Boendeområdet är lugnt och familjevänligt, med nära till förskolor och skolor.  Vi hyr ut pga resa utomlands  Flexibla gällande inflyttning-och utflyttningsdatum.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Hisings Kärra",
-    "rooms": 3.5,
-    "area_m2": 75.0,
-    "rent": 14111,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T18:08:52+00:00", "clock": "18:08:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T19:18:23+00:00", "clock": "19:18:23"};
