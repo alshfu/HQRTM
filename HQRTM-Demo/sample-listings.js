@@ -5,8 +5,8 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Klarinettgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1436250",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd7ca3e3ef30e9e766edc5787606d69f9f3402c8421df4dddca18e481bbc7155.jpg",
-    "description": "En fantastiskt trevlig och lugn lägenhet med två rum och ett rymligt kök. Med utsiken av Ruddalsskogen från sovrum och kök får lägenheten en alldeles egen lantlig prägel. Det blir som att bo i ett torp i skogen med lyxen av Göteborgs storstadsliv. Planlösningen är smart och relativt öppen utan att kök och vardagsrum hänger ihop. Lägenheten blev renoverad sommaren 2022 med nytt modernt kök, nya golv och väggar. Badrummet är helkaklat och fräsht och blev därför inte renoverat samtidigt.\n3min gångväg till spårvagnshållplatsen Musikvägen där linje 1, 7, 8 går, så du kan ta dig till de flesta av Göteborgs hörn.\n\nEl, vatten och internet ingår i hyran.  En tvättmaskin finns i badrummet och en tvättstuga finns tillgänglig att boka för lite större tvättdagar. Ett mindre förråd kommer finnas tillgänglig för att lasta av saker. \nLägenheten hyrs ut möblerad men hemmabiosystem (högtalare, tv) och kaffekokare kommer att tas med. \n\nJag kommer under sommaren prova på sambolivet och vill därför hyra ut den under tiden.\n\nVill gärna ha en lugn hyresgäst med stabil inkomst, är rökfri samt ej husdjur.\n\nEn månads deposition kommer att tas ut.",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/55bfcb8177c1f80df9287a2e8a9113bde9149560b1eca18da110e748cf3c409d.jpg",
+    "description": "En fantastiskt trevlig och lugn lägenhet med två rum och ett rymligt kök. Med utsiken av Ruddalsskogen från sovrum och kök får lägenheten en alldeles egen lantlig prägel. Det blir som att bo i ett torp i skogen med lyxen av Göteborgs storstadsliv. Planlösningen är smart och relativt öppen utan att kök och vardagsrum hänger ihop. Lägenheten blev renoverad sommaren 2022 med nytt modernt kök, nya golv och väggar. Badrummet är helkaklat och fräsht och blev därför inte renoverat samtidigt.\n3min gångväg till spårvagnshållplatsen Musikvägen där linje 1, 7, 8 går, så du kan ta dig till de flesta av Göteborgs hörn.\n\nEl, vatten och internet ingår i hyran.  En tvättmaskin finns i badrummet och en tvättstuga finns tillgänglig att boka för lite större tvättdagar. Ett mindre förråd kommer finnas tillgänglig för att lasta av saker. \nLägenheten hyrs ut möblerad men hemmabiosystem (högtalare, tv) och kaffekokare kommer att tas med. \n\nJag kommer under sommaren och september månad prova på sambolivet och vill därför hyra ut den under tiden.\n\nVill gärna ha en lugn hyresgäst med stabil inkomst, är rökfri samt ej husdjur.\n\nEn månads deposition kommer att tas ut.",
     "district": "Västra Frölunda",
     "rooms": 2.0,
     "area_m2": 54.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T17:14:21+00:00", "clock": "17:14:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T18:08:52+00:00", "clock": "18:08:52"};
