@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Klarinettgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1436250",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd7ca3e3ef30e9e766edc5787606d69f9f3402c8421df4dddca18e481bbc7155.jpg",
+    "description": "En fantastiskt trevlig och lugn lägenhet med två rum och ett rymligt kök. Med utsiken av Ruddalsskogen från sovrum och kök får lägenheten en alldeles egen lantlig prägel. Det blir som att bo i ett torp i skogen med lyxen av Göteborgs storstadsliv. Planlösningen är smart och relativt öppen utan att kök och vardagsrum hänger ihop. Lägenheten blev renoverad sommaren 2022 med nytt modernt kök, nya golv och väggar. Badrummet är helkaklat och fräsht och blev därför inte renoverat samtidigt.\n3min gångväg till spårvagnshållplatsen Musikvägen där linje 1, 7, 8 går, så du kan ta dig till de flesta av Göteborgs hörn.\n\nEl, vatten och internet ingår i hyran.  En tvättmaskin finns i badrummet och en tvättstuga finns tillgänglig att boka för lite större tvättdagar. Ett mindre förråd kommer finnas tillgänglig för att lasta av saker. \nLägenheten hyrs ut möblerad men hemmabiosystem (högtalare, tv) och kaffekokare kommer att tas med. \n\nJag kommer under sommaren prova på sambolivet och vill därför hyra ut den under tiden.\n\nVill gärna ha en lugn hyresgäst med stabil inkomst, är rökfri samt ej husdjur.\n\nEn månads deposition kommer att tas ut.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 10382,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "A R Lorents gata, Göteborg",
+    "url": "https://qasa.com/p/1434663",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc06db9b2f23420fcad4d5179821abccab19dd0dd44c02227209eba4ce614333.jpg",
+    "description": "Ett fint rum i en etagelägenhet med bra standard. Inflyttning från 1 september eller 15 september 2026.  Jag söker i första hand en pendlare och företrädesvis kvinnliga sökande. Rummet är möblerat med 1.20 eller 1.60 säng, skrivbord, byrå och tv och 2 garderober. Du har tillgång till kök, badrum och tvättmöjligheter i lägenheten. WiFi ingår.  Både spårvagn och buss finns runt hörnet. Då lägenheten ligger nära vattnet finns det mycket fina promenadstråk där även caféer och restauranger. \nEndast för en person. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rödkullegatan, Hisings Backa",
     "url": "https://qasa.com/p/1436353",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/349693b419433c3507be4fec4b365c1e7d9f26b8875f6c27dba2a17f41bc7908.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Arsenalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1436228",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dee3081408aecd16b1b55d1a6ee8839857f08b0fcd4354b9ddcbe00b35a4756.jpg",
-    "description": "Panoramautsikten mitt i centrala Göteborg. Rymlig balkongen med fantastisk utsikt över staden, fullt möblerad och utrustad.\n\nLägenheten har ett fullt utrustat kök, ett bekvämt sovrum och ett stilrent badrum. Perfekt för både arbete och avkoppling, med bara några steg till populära sevärdheter, restauranger och kollektivtrafik.\n\nEtt perfekt boende för dig som söker en stilfull lägenhet mitt i staden!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 41.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lilla Danska Vägen, Göteborg",
-    "url": "https://qasa.com/p/1436245",
-    "image_url": null,
-    "description": "4a med balkong promenadavstånd från Liseberg",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 120.0,
-    "rent": 21500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T16:12:16+00:00", "clock": "16:12:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T17:14:21+00:00", "clock": "17:14:21"};
