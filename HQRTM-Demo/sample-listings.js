@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Zirkongatan 25D, Västra Frölunda",
+    "url": "https://qasa.com/p/1435850",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4d3bb311480562edb20831862c221523c097dbea1e1f4ee54192fdd492ab85fb.jpg",
+    "description": "Välkommen till denna charmiga 2:a belägen i det nya populära bostadsområdet på Opaltorget!\n\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita luckor och eleganta handtag på lådorna, samt en tålig laminatbänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med vitt kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och en tvättmaskin samt torktumlare. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\n\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök, samtliga med balkong eller uteplats. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 11802,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Litteraturgatan, Hisings Backa",
     "url": "https://qasa.com/p/1435768",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fbd37ebab6b0448562441382668c41ab2f662bbc061feb35cf678b6f41f9626f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lövmånadsgatan, Göteborg",
-    "url": "https://qasa.com/p/1355718",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2e3b69a8fe5a3cb0fc16626dd4b9ece5076aa74fc52b9ebb35beca02523255ee.jpg",
-    "description": "1:a uthyres i Kortedala\nI hyran ingår:\n\nInternet, \nvatten, \nel(normal konsumtion), \nvärme, \nParkering \nSophämtning\nTV finns\nEgen Balkong\n(Hiss finns)\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 8995,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T05:43:11+00:00", "clock": "05:43:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T06:38:48+00:00", "clock": "06:38:48"};
