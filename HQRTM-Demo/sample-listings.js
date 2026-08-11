@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rosensköldsgatan, Göteborg",
+    "url": "https://qasa.com/p/1434526",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/421589dd8b157f09bade1f753e1dea73a70c7c8da74ce3a17de5cba8ff80e695.jpg",
+    "description": "Fin 2a i Johanneberg precis bredvid Chalmers, Lägenheten har nyrenoverat kök och badrum. Stor lugn balkong i väst. Gott om bra inbyggd förvaring runtom i lägenheten.\n\nRosensköldsgatan 9\n42m2\nVåning 2\n2 rum med separat kök\nTV, Internet, varmvatten samt el ingår\nMöblerad\n\nHyr ut min bostaden för att bli sambo.\n\nMvh Markus\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 13500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Zirkongatan 25D, Västra Frölunda",
     "url": "https://qasa.com/p/1435850",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4d3bb311480562edb20831862c221523c097dbea1e1f4ee54192fdd492ab85fb.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tunnlandsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1406654",
-    "image_url": null,
-    "description": "Välplanerad 3 på 78 kvm uthyres på Tunnlandsgatan i Västra Frölunda. Lägenheten ligger på våning 3 och har en ljus och rymlig planlösning.\nLägenheten passar bra för en skötsam hyresgäst, par eller mindre familj. Uthyrningen sker enligt överenskommelse och med godkännande från bostadsrättsföreningen.\nOmrådet är barnvänligt med förskolor och skolor i närheten. Det finns även goda kommunikationer samt närhet till Frölunda Torg och Slottsskogen.",
-    "district": "Västra Frölunda",
-    "rooms": 3.5,
-    "area_m2": 78.0,
-    "rent": 13940,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T06:38:48+00:00", "clock": "06:38:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T07:54:23+00:00", "clock": "07:54:23"};
