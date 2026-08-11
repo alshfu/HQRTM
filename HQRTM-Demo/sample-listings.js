@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Amhultsvägen, Torslanda",
+    "url": "https://qasa.com/p/1436079",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/434f9bf4d52b79e52075923f092e6d6fb70b644fd94d2ed72b092cd97b5b4f4e.jpg",
+    "description": "Mysig gäststuga i Torslanda – naturen som närmaste granne\n\nHär bor du i en charmig bakstuga från 1928, ombyggd och helrenoverad sommaren 2019. Taket är öppet ända till nock, vilket ger husets 35 kvm en härlig luftighet. Den gamla bakugnen står kvar som ett vackert tidsvittne (den får tyvärr inte eldas i) och genom fönstren ser du ut över ängen och fårhagen.\n\nOm huset\n\nStugan passar perfekt för en eller två personer och hyrs ut fullt möblerad. Här finns fyra bra sovplatser: två sängar på sovloftet om 8,5 kvm och en bekväm bäddsoffa på nedervåningen – gott om plats även när gästerna kommer. Köket är välutrustat med stenbänkskiva, induktionshäll och micro. Badrummet är helkaklat och har både tvättmaskin och torktumlare. Ytskikt, golv och fönster är nya sedan ombyggnaden.\n\nUtanför dörren finns en liten uteplats och gräsmatta med eftermiddags- och kvällssol. Egen ingång från gång- och cykelbanan ger dig full frihet och ett mindre förvaringsutrymme finns för det som inte får plats inne.\n\nLäget\n\n500 meter till Amhult centrum med restauranger, affärer och expressbussar som tar dig till centrala Göteborg på 20 minuter. Havet och friluftsområdena ligger runt hörnet. Nära allt, men med lugnet kvar.\n\nPraktiskt\n\n *Kallhyra på 9 850 kr/månad (vid kontraktskrivning via Qasa - valfritt - så tillkommer deras avgift på 5,95 % vilket är 586 kr/månad)\n* Huset värms med luft-luftvärmepump; genomsnittsförbrukning inklusive hushållsel de senaste åren är 470 kWh/månad.\n* El faktureras till självkostnadspris, för närvarande 2 kr/kWh.\n* WiFi, vatten och sophämtning ingår i hyran.\n* Parkeringsplats finns inte till huset, tidigare hyresgäster har hyrt boendeparkering separat av grannen Bostadsbolaget.",
+    "district": "Torslanda",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 9386,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Olivedalsgatan, Göteborg",
     "url": "https://qasa.com/p/1436098",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/07ce2fb83d23695f8c3722b2297990e5142168fb31cbfa55fc2948c30713b791.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Litteraturgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1435768",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fbd37ebab6b0448562441382668c41ab2f662bbc061feb35cf678b6f41f9626f.jpg",
-    "description": "Välkommen till en modern och stilren tvåa med ljusa, fina ytor och genomtänkta detaljer. Lägenheten erbjuder ett bekvämt och trivsamt boende med modern standard, fint kök och ett härligt vardagsrum. Perfekt för dig som söker ett fräscht och bekvämt hem i en nyproducerad lägenhet.\n",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 10900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T11:01:06+00:00", "clock": "11:01:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T11:52:19+00:00", "clock": "11:52:19"};
