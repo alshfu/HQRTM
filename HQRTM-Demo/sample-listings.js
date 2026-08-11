@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Arsenalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1436228",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dee3081408aecd16b1b55d1a6ee8839857f08b0fcd4354b9ddcbe00b35a4756.jpg",
+    "description": "Panoramautsikten mitt i centrala Göteborg. Rymlig balkongen med fantastisk utsikt över staden, fullt möblerad och utrustad.\n\nLägenheten har ett fullt utrustat kök, ett bekvämt sovrum och ett stilrent badrum. Perfekt för både arbete och avkoppling, med bara några steg till populära sevärdheter, restauranger och kollektivtrafik.\n\nEtt perfekt boende för dig som söker en stilfull lägenhet mitt i staden!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 41.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Danska Vägen, Göteborg",
+    "url": "https://qasa.com/p/1436245",
+    "image_url": null,
+    "description": "4a med balkong promenadavstånd från Liseberg",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 120.0,
+    "rent": 21500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Amhultsvägen, Torslanda",
     "url": "https://qasa.com/p/1436079",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/434f9bf4d52b79e52075923f092e6d6fb70b644fd94d2ed72b092cd97b5b4f4e.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rosensköldsgatan, Göteborg",
-    "url": "https://qasa.com/p/1434526",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/421589dd8b157f09bade1f753e1dea73a70c7c8da74ce3a17de5cba8ff80e695.jpg",
-    "description": "Fin 2a i Johanneberg precis bredvid Chalmers, Lägenheten har nyrenoverat kök och badrum. Stor lugn balkong i väst. Gott om bra inbyggd förvaring runtom i lägenheten.\n\nRosensköldsgatan 9\n42m2\nVåning 2\n2 rum med separat kök\nTV, Internet, varmvatten samt el ingår\nMöblerad\n\nHyr ut bostaden för att bli sambo.\n\nMvh Markus\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 13500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Zirkongatan 25D, Västra Frölunda",
-    "url": "https://qasa.com/p/1435850",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4d3bb311480562edb20831862c221523c097dbea1e1f4ee54192fdd492ab85fb.jpg",
-    "description": "Välkommen till denna charmiga 2:a belägen i det nya populära bostadsområdet på Opaltorget!\n\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita luckor och eleganta handtag på lådorna, samt en tålig laminatbänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med vitt kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och en tvättmaskin samt torktumlare. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\n\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök, samtliga med balkong eller uteplats. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 11802,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T12:45:03+00:00", "clock": "12:45:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T14:07:25+00:00", "clock": "14:07:25"};
