@@ -3,14 +3,29 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Askims Domarringsväg, Askim",
+    "url": "https://qasa.com/p/1436039",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80cf7d109ae74d696eee76f033200164a412e4b30347bf468878a20ab0a87ca2.jpg",
+    "description": "Fint område nära till grönområde med sjö och löparspår. Närhet till Sisjön centrum. \nKällarvåning i mitt egna radhus. Egen ingång från baksidan av bostaden med egen uteplats som har eftermiddagssol. 2 rum(sovrum + vardagsrum/kök) toalett med dusch och egen tvättstuga.\nNära till busshållplats som tar dig antingen till Marklandsgatan eller Frölunda torg för smidig förbindelse till Göteborgs centrala delar.\n\nSkötsam och tyst hyresgäst sökes. Rökfri student för kortare kontraktslängd med möjlighet till förlängning.\n\nIngår i hyran: vatten, el och internet. ",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nordostpassagen, Göteborg",
     "url": "https://qasa.com/p/1435975",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/532046493ef0735fdb0f13c94d956e637d3b277323bc0a2922468b3dfe994db5.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 27000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cjgrn5caj6asnktocxy0/vastra-gotaland/goteborg/nordostpassagen-19/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\n[ENGLISH BELOW]\r\nFullt möblerad, ljus gavellägenhet om 4 rum i ett av Göteborgs mest eftertraktade områden. Belägen på 5:e våningen med ett läge som ger maximalt naturligt ljus och eftermiddagssol. Lugnt bilfritt område med mycket goda kommunikationer. 5 minuters promenad till Slottsskogen, Linnégatan och Järntorget. Skola och mataffär inom 200 meter. Tre sovrum, samtliga med arbetsplats. Kök renoverat 2025, med fullstor kyl och fullstor frys. Två kompletta badrum, varav ett med tvättmaskin och torktumlare. Tvättstuga finns också tillgänglig. Stort burspråk i vardagsrummet. Inglasad balkong med skjutbara glaspartier som kan öppnas helt, samt infravärme. Uppgraderad säkerhetsdörr. Snabbt WiFi och TV ingår i hyran. Parkeringsplats finns att hyra separat, med möjlighet till elbilsladdning.\r\n\r\nProperty description in English:\r\nFully furnished 4-room corner apartment in one of Gothenburg’s most sought-after areas. Located on the 5th floor and oriented to maximize natural light and afternoon sun. Quiet pedestrian area with excellent transport connections. A 5-minute walk from Slottsskogen park, Linnégatan and Järntorget. School and supermarket within 200 metres. Three bedrooms, each with a work desk. Kitchen renovated in 2025, with full-sized fridge and full-sized freezer. Two full bathrooms, one with washing machine and dryer. Laundry room also available. Wide bay window in the living room. Glazed balcony with sliding panels that can be fully opened, and infrared heating. Upgraded security door. Hi-speed WiFi and TV included in the rent. Parking space available to rent separately, with option for EV charging.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 27000 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4ab45aab59c38b96560f6962c9ae75be5d70fcb9d558598fecaab79787ac9f03.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 27000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cjgrn5caj6asnktocxy0/vastra-gotaland/goteborg/nordostpassagen-19/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\n[ENGLISH BELOW]\r\n· Fullt möblerad, ljus gavellägenhet om 4 rum och 2 badrum i ett av Göteborgs mest eftertraktade områdena.\r\n· Belägen på 5:e våningen med ett läge som ger maximalt naturligt ljus och eftermiddagssol.\r\n· Lugnt bilfritt område med mycket goda kommunikationer.\r\n· 5 minuters promenad till Slottsskogen, Linnégatan och Järntorget. Flera förskolor, grundskola och mataffär inom 200 meter.\r\n· Tre sovrum, samtliga med arbetsplats.\r\n· Kök renoverat 2025, med fullstor kyl och fullstor frys.\r\n· Två kompletta badrum, varav ett med tvättmaskin och torktumlare. Tvättstuga finns också tillgänglig.\r\n· Stort burspråk i vardagsrummet.\r\n· Inglasad balkong med skjutbara glaspartier som kan öppnas helt, samt infravärme.\r\n· Uppgraderad säkerhetsdörr.\r\n· Snabbt WiFi och TV ingår i hyran. Parkeringsplats finns att hyra separat, med möjlighet till elbilsladdning.\r\n\r\nProperty description in English:\r\n· Fully furnished 4-room, 2-bathroom corner apartment in one of Gothenburg’s most sought-after areas.\r\n· Located on the 5th floor and oriented to maximize natural light and afternoon sun.\r\n· Quiet pedestrian area with excellent transport connections.\r\n· A 5-minute walk from Slottsskogen park, Linnégatan and Järntorget. Several pre-schools, primary school and supermarket within 200 metres.\r\n· Three bedrooms, each with a work desk.\r\n· Kitchen renovated in 2025, with full-sized fridge and full-sized freezer.\r\n· Two full bathrooms, one with washing machine and dryer. Laundry room also available.\r\n· Wide bay window in the living room.\r\n· Glazed balcony with sliding panels that can be fully opened, and infrared heating.\r\n· Upgraded security door.\r\n· Hi-speed WiFi and TV included in the rent.\r\n· Parking space available to rent separately, with option for EV charging.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 27000 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 4.0,
     "area_m2": 85.0,
-    "rent": 25483,
+    "rent": 25727,
     "floor": 5,
     "has_balcony": true,
     "has_kitchen": true,
@@ -36,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Rosensköldsgatan, Göteborg",
     "url": "https://qasa.com/p/1434526",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/421589dd8b157f09bade1f753e1dea73a70c7c8da74ce3a17de5cba8ff80e695.jpg",
-    "description": "Fin 2a i Johanneberg precis bredvid Chalmers, Lägenheten har nyrenoverat kök och badrum. Stor lugn balkong i väst. Gott om bra inbyggd förvaring runtom i lägenheten.\n\nRosensköldsgatan 9\n42m2\nVåning 2\n2 rum med separat kök\nTV, Internet, varmvatten samt el ingår\nMöblerad\n\nHyr ut min bostaden för att bli sambo.\n\nMvh Markus\n",
+    "description": "Fin 2a i Johanneberg precis bredvid Chalmers, Lägenheten har nyrenoverat kök och badrum. Stor lugn balkong i väst. Gott om bra inbyggd förvaring runtom i lägenheten.\n\nRosensköldsgatan 9\n42m2\nVåning 2\n2 rum med separat kök\nTV, Internet, varmvatten samt el ingår\nMöblerad\n\nHyr ut bostaden för att bli sambo.\n\nMvh Markus\n",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 42.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Varpevägen, Brännö",
-    "url": "https://qasa.com/p/1396120",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e83a45c555c808f979c939d03e78263de74ed2297dc1895d536d852c7033412f.jpg",
-    "description": "Ditt eget skärgårdsparadis på Brännö\nDrömmer du om att vakna till havsutsikt, salt luft och tystnad avbruten bara av måsar och vågskvalp? Nu finns chansen att kalla Brännö ditt hem.\nDenna charmiga stuga ligger högt och avskilt på klippan, med en av öns finaste utsikter över Göteborgs skärgård. Här bor du granne med berg, hav och vild natur – ändå bara en kort färjeresa från stadens puls.\nStugan är komplett för det goda livet: fullt utrustat kök, mysigt sovrum i nedre plan med dubbelsäng, plus ytterligare en sovplats på loftet med TV. Nytt uterum med infravärme gör att du kan njuta av kvällarna långt in på hösten. Skönt golvvärme och luftvärmepump håller stugan varm och behaglig året runt.\nBrännö är bilfritt – här är det cykel, promenad och havsdoft som gäller. Ändå har du nära till matbutik på ön och smidiga förbindelser in till Göteborg med färja och snabbuss eller spårvagn.\nEl, vatten, Wi-Fi (100 Mbit) och sophämtning ingår – bara att flytta in och njuta.\nPerfekt för en eller två personer som söker lugn, natur och en alldeles egen plats i skärgården. Studenter varmt välkomna!",
-    "district": "Brännö",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 11400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T08:56:34+00:00", "clock": "08:56:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-11T10:02:45+00:00", "clock": "10:02:45"};
