@@ -33,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Södra Vårvindsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1436873",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3901955832314bab42aeb2170e6cc6e15781bc41a18c08cf06347c3d23642688.jpg",
+    "description": "\n\nHuset på södra vårvindsgatan 1 och grannhuset är rök och djurfria ingen rökning inom fastighetens gränser är tillåten Här skall allergiker kunna hitta ett hem.\nKällsortering skall ske genom att glasflaskor, papper, tidningar och kartong lämnas vid återvinningsstation och ej i Moluckerna, Grillning (varken kol, gas eller el) får ske på balkongerna\nEventuella balkongskydden skall vara grå. \n\nTill lägenheten ingår ingen parkering , önskar ni parkering tillkommer 1500:-.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 55.0,
+    "rent": 14217,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tredje Långgatan, Göteborg",
     "url": "https://qasa.com/p/1436512",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/695fbff18c91bc6625c4b60598fdd850446fb615df1bc488e8dc23fd761574cc.jpg",
@@ -51,7 +66,7 @@ window.HQRTM_SAMPLE = [
     "title": "Kristinehöjdsgatan 15, Göteborg",
     "url": "https://qasa.com/p/1436739",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b6bd2aef3b53a7b38fe45e484560efb1a3737771ca1868b660bf24c4e3b297d8.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna välplanerade lägenhet i Johanneberg! Separat vardagsrum och kök. halvkaklat badrum. Fint och modernt kök med diskmaskin installerat samt plats för ett litet matbord.\n\nÖVRIGT\nCykelställ och soprum finns på innergården. Tvättstuga finns i källaren. Källarförråd ingår.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nBoendeparkering finns att ansöka hos Göteborgs Stad.",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna välplanerade lägenhet i Johanneberg! Separat vardagsrum och kök. halvkaklat badrum. Kök i ljusa vitvaror med plats för litet matbord.\n\nÖVRIGT\nCykelställ och soprum finns på innergården. Tvättstuga finns i källaren. Källarförråd ingår.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nBoendeparkering finns att ansöka hos Göteborgs Stad.",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 55.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Erik Dahlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1436615",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c41ebbf6149a9c633542425f2f3aac136e972dae0ef410f7b853589fb83ba6e4.jpg",
-    "description": "Härlig, ljus och luftig lägenhet i fastighet byggd 1921. Trevlig bostadsrättsförening. Lägenheten har balkong som vätter in mot fin grönskande bakgård med gemensam uteplats. Stor entréhall, ljust härligt kök och fungerande kakelugn. Med sina 115 kvm och högt i tak känns bostaden väldigt ”luftig”\nGångavstånd till det mesta! Mycket centralt läge men ändå lugnt & revligt område. ",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 115.0,
-    "rent": 22900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T07:58:58+00:00", "clock": "07:58:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T09:19:35+00:00", "clock": "09:19:35"};
