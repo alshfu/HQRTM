@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Solvarvsgatan, Göteborg",
+    "url": "https://qasa.com/p/1437117",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34c6b36f60a4b7d57d0a4ba45ccc00b875cee0321091fbf7d47f6a8b72438067.jpg",
+    "description": "Inneboende sökes – perfekt för dig som behöver en pendellägenhet\n\nJag söker en lugn, skötsam och pålitlig inneboende som kanske är i behov av en pendellägenhet eller ett flexibelt boende i Göteborg. Kanske arbetar du i Göteborg några dagar i veckan, har en partner eller familj på annan ort, eller helt enkelt behöver ett eget ställe att landa på utan att ha en permanent bostad här. Detta är alltså inte en lägenhet för dig som vill bo heltid i Göteborg.\n\nJag bor tillsammans med mitt barn, som är en toddler. Det innebär såklart en del energi, lek och ibland lite högre ljudnivå under dagarna. Han går på förskola på vardagarna, så om du exempelvis jobbar natt har du lägenheten för dig själv under dagtid när han är på förskolan.\n\nDet är därför viktigt att du trivs med att bo i ett hem där det finns ett litet barn och har förståelse för att det ibland kan vara lite mer liv och rörelse under dagarna.\n\nJag hyr  ut 1 rum i vår trea med balkong i södra Kortedala. Lägenheten och fastigheten är totalrenoverad under 2017 . Lägenheten är mycket ljus och tyst. Här bor du med goda kommunikationer till centrala Göteborg.\nDet är också nära till Kortedala torg som erbjuder all närservice du kan tänkas behöva.  Det som ingår i hyran är ett sovrum som är delvis möblerat med säng och klädförvaring och fri användning av dom allmänna ytorna.\n\nJag ser helst att boendet används främst under vardagar och att du inte bor i lägenheten under helgerna. Därför tror jag att upplägget passar extra bra för dig som har din permanenta bostad på annan ort och främst behöver någonstans att bo under arbetsveckan.\n\nKrav: Du behöver kunna tala och förstå svenska flytande.\n\nLåter det som något som skulle passa dig? Hör gärna av dig och berätta lite om dig själv, vad du söker och hur du tänker kring ett sådant upplägg. 😊\n\n(Mer bilder kommer)",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 11.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kyrkåsgatan, Göteborg",
     "url": "https://qasa.com/p/1437019",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c77b52ef7af0d08839a6fba3e2eb35c0a3aafb1b522ffb5ee6b9a45b17a339d0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kristinehöjdsgatan 15, Göteborg",
-    "url": "https://qasa.com/p/1436739",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b6bd2aef3b53a7b38fe45e484560efb1a3737771ca1868b660bf24c4e3b297d8.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna välplanerade lägenhet i Johanneberg! Separat vardagsrum och kök. halvkaklat badrum. Kök i ljusa vitvaror med plats för litet matbord.\n\nÖVRIGT\nCykelställ och soprum finns på innergården. Tvättstuga finns i källaren. Källarförråd ingår.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran inkluderar värme och vatten.\n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nBoendeparkering finns att ansöka hos Göteborgs Stad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 10275,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T12:10:11+00:00", "clock": "12:10:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T13:46:47+00:00", "clock": "13:46:47"};
