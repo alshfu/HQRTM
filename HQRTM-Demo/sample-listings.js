@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Regnvädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1437387",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56a6d8f35fc4015b035fef02291fe4938b6165e6b99d06631ebdd2878a3e4b1f.jpg",
+    "description": "Hyr ut lägenheten som består av en stor etta med kök och badrum. Lägenheten är öppen, ljus och hemtrevligt ligger i anslutning till vårt hus i ett lugnt villaområde och nära till naturen. Internet och Bredband ingår i månadshyra! Lägenheten hyrs ut till endast en person!\n\nÖnskar endast hyresgäster med goda referenser, fasta jobb och utan betalningsanmärkningar. Även rökfritt samt djurfritt. Deposition 1 månadshyra vid inflyt. Uthyres från början av oktober och tillsvidare. PM vid intresse:)\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 8460,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Godemansgatan, Göteborg",
+    "url": "https://qasa.com/p/1437093",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2ceadf7d9188517e693b2489bdb6dc570d03e997f93c7cc717d072320353f25f.jpg",
+    "description": "En charmig och välplanerad tvåa på 53 kvm i ett centralt och populärt område. Lägenheten är i ett landshövdningshus med orginalgolv, ett mysigt sovrum med plats för dubbelsäng och garderob, ett vardagsrum, klädkammare och ett kök. Badrummet är helt nyrenoverat från 2023 med golvvärme.\n\nHär bor du med närhet till restauranger, service och allt du behöver i vardagen. Utanför bostaden finns mycket goda kommunikationer med flera spårvagnar och bussar som går regelbundet, vilket gör det enkelt att ta sig runt i Göteborg.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1437338",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/981bd197005a48e79f1c64ae28af8c7ab13f956bcd40afc5dc0c00ec716fae6a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gröna gatan, Göteborg",
-    "url": "https://qasa.com/p/1436961",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ed01627ac5f1ba46cd07e486e974432083905dc65538b1aa820cecfdc7eb616.jpg",
-    "description": "Kvinna med 8'årig son hyr ut ett rum i en tvåa nära hållplatsen Jaegersdorfsplatsen. \nUthyrning av rummet är enbart aktuellt för kvinnor. \nJag söker en lugn inneboende som är ordningsam och som kommer ha respekt för våra gemensamma utrymmen då vi delar på hall, kök och badrum. Lägenheten lämpar sig inte för fester. Rummet är möblerat med en säng, ett skriv/smink-bord och goda förvaringsmöjligheter. Husdjur är ok. Rökfritt. Vi talar svenska, engelska och yoruba. \nSnar inflyttning på grund av resa utomlands.\n\nWoman with an 8-year-old son is renting out a room in a two-bedroom apartment near Jaegersdorfsplatsen tramstop.\nThe room is available to women only.\nI am looking for a quiet and tidy lodger who will respect our shared spaces, as we share the hallway, kitchen and bathroom. \nThe apartment is not suitable for partys.\nThe room is furnished with a bed, a desk/vanity table, and plenty of storage space.\nPets are welcome. No smoking.\nWe speak Swedish, English and Yoruba.\nSwift move-in due to upcoming travel abroad.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Strängnäsgatan, Göteborg",
-    "url": "https://qasa.com/p/1387315",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a9f0d0487e1289ff3ed59fd3056411f36800be133463da7d5456c212b6c615d.jpg",
-    "description": "Attefallshus på 25 kvm med loft som ligger i ett lugnt villaområde i Tollered. \nAttefallshuset har egen uteplats,  kök med ugn och spis, tvättmaskin/torktumlare, parkering samt ladd-box för elbil.  Närmaste spårvagnshållplats är  Eketrägatans hållplats som ligger 10 minuters promenad bort. \n\nI hyran ingår: El, vatten, värme, sopor, wifi, parkering med laddbox för elbil samt egen uteplats. \n\nOBS:  Vi sätter hyran beroende på vilket avtal vi skriver. Om det hyrs möblerat eller inte, låg eller kort tid. Priset i  annonsen är ca pris.  ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T17:41:21+00:00", "clock": "17:41:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T18:37:23+00:00", "clock": "18:37:23"};
