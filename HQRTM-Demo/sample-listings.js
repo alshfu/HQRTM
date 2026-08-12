@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1437338",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/981bd197005a48e79f1c64ae28af8c7ab13f956bcd40afc5dc0c00ec716fae6a.jpg",
+    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med dubbelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Styrfarten, Göteborg",
     "url": "https://qasa.com/p/1437283",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T16:38:54+00:00", "clock": "16:38:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T17:41:21+00:00", "clock": "17:41:21"};
