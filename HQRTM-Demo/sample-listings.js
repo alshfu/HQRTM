@@ -25,7 +25,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 53.0,
-    "rent": 11500,
+    "rent": 12000,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T19:46:10+00:00", "clock": "19:46:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T20:25:56+00:00", "clock": "20:25:56"};
