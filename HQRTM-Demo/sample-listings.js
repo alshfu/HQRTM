@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Styrfarten, Göteborg",
+    "url": "https://qasa.com/p/1437283",
+    "image_url": null,
+    "description": "Utsikt mot göta älv, två balkonger, stort vardagsrum och stort kök, många fönster, två sovrum i mindre storlek, stor klädkammare, stort badrum. Uthyres möblerat. Finns parkering om man vill ha det.\n\nHyr ut pga jobb på annan ort.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 85.0,
+    "rent": 16300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Solvarvsgatan, Göteborg",
     "url": "https://qasa.com/p/1437117",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34c6b36f60a4b7d57d0a4ba45ccc00b875cee0321091fbf7d47f6a8b72438067.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vårvindsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1436873",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3901955832314bab42aeb2170e6cc6e15781bc41a18c08cf06347c3d23642688.jpg",
-    "description": "\n\nHuset på södra vårvindsgatan 1 och grannhuset är rök och djurfria ingen rökning inom fastighetens gränser är tillåten Här skall allergiker kunna hitta ett hem.\nKällsortering skall ske genom att glasflaskor, papper, tidningar och kartong lämnas vid återvinningsstation och ej i Moluckerna, Grillning (varken kol, gas eller el) får ske på balkongerna\nEventuella balkongskydden skall vara grå. \n\nTill lägenheten ingår ingen parkering , önskar ni parkering tillkommer 1500:-.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 55.0,
-    "rent": 14217,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T15:43:12+00:00", "clock": "15:43:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T16:38:54+00:00", "clock": "16:38:54"};
