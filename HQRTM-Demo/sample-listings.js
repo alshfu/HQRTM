@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kyrkåsgatan, Göteborg",
+    "url": "https://qasa.com/p/1437019",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c77b52ef7af0d08839a6fba3e2eb35c0a3aafb1b522ffb5ee6b9a45b17a339d0.jpg",
+    "description": "Mysig uthyrningslägenhet i villa – 3.5 rok, egen ingång.\nLjus och rymlig lägenhet med 2 sovrum, vardagsrum + stort separat rum med skjutdörrar (kan användas som ett sovrum eller kontor), kök och badrum (med kombinerad tvättmaskin torktumlare).\nUtrustat kök, fräscht badrum och bra förvaring.\n\nMed ett mycket centralt läge i Kålltorp ligger denna rymliga lägenhet i villa – ganska nära till Virginsgatan hållplats med smidig spårvagn till Korsvägen/Liseberg på 10–15 minuter. Lägenheten ligger nära Delsjön, med fina badplatser, vandrings- och löpspår samt möjligheter till paddling och naturupplevelser, samt Skatås motionscentrum med gym, bastu och utomhusaktiviteter. I området finns även Göteborgs Lawn Tennisklubb (GLTK) med tennis och padel. I närområdet finns även caféer och restauranger (t.ex. Oizo, Sannegårdens Pizzeria) samt bagerier för frukost och fika. Lägenheten ligger i mitten av några av Göteborgs bästa skolor (Kärralundsskolan, Parkskolan, Lundenskolan).\n\nKostnader som ingår i hyran:\nUppvärmning, parkering och vatten/avlopp ingår i hyran upp till en rimlig månadsgräns. \nKostnader som inte ingår i hyran: \nEl, bredband, elkostnad till elbilsladdare tillkommer som en fast månads avgift. Laddning av elbil betalas separat enligt faktisk förbrukning.\nEn månads deposition krävs.",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 103.0,
+    "rent": 21500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gröna gatan, Göteborg",
+    "url": "https://qasa.com/p/1436961",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ed01627ac5f1ba46cd07e486e974432083905dc65538b1aa820cecfdc7eb616.jpg",
+    "description": "Kvinna med 8'årig son hyr ut ett rum i en tvåa nära hållplatsen Jaegersdorfsplatsen. \nUthyrning av rummet är enbart aktuellt för kvinnor. \nJag söker en lugn inneboende som är ordningsam och som kommer ha respekt för våra gemensamma utrymmen då vi delar på hall, kök och badrum. Lägenheten lämpar sig inte för fester. Rummet är möblerat med en säng, ett skriv/smink-bord och goda förvaringsmöjligheter. Husdjur är ok. Rökfritt. Vi talar svenska, engelska och yoruba. \nSnar inflyttning på grund av resa utomlands.\n\nWoman with an 8-year-old son is renting out a room in a two-bedroom apartment near Jaegersdorfsplatsen tramstop.\nThe room is available to women only.\nI am looking for a quiet and tidy lodger who will respect our shared spaces, as we share the hallway, kitchen and bathroom. \nThe apartment is not suitable for partys.\nThe room is furnished with a bed, a desk/vanity table, and plenty of storage space.\nPets are welcome. No smoking.\nWe speak Swedish, English and Yoruba.\nSwift move-in due to upcoming travel abroad.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Strängnäsgatan, Göteborg",
     "url": "https://qasa.com/p/1387315",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a9f0d0487e1289ff3ed59fd3056411f36800be133463da7d5456c212b6c615d.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Torpavägen 105, Göteborg",
-    "url": "https://qasa.com/p/1436716",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c5e3db52f5224229d28288053bf313145b67d6b08d17a64c2663fed68d40227e.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna 4 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. \n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. \n\nKöket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin. Bra förvaring med garderober i hallen och förråd/klädkammare i lägenheten.\n\nDenna lägenhet hyrs ut via en digital skanning och planritning, ingen fysisk visning.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. Björkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran inkluderar värme och vatten. Individuell mätning tillkommer på elen. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 71.0,
-    "rent": 16012,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kristinehöjdsgatan 4, Göteborg",
-    "url": "https://qasa.com/p/1436662",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecf8784e1f78d304792f5e99f67232565696fe1c8a3f0b0e79cd7bc3d5800573.jpg",
-    "description": "1 oktober kan vi erbjuda denna fina 1 ROK på Kristinehöjdsgatan 4 i Göteborg.\nLägenheten är belägen på våning 4 och är disponerad på 42 kvm. \n\nUppfräshning där vi bland annat har gjort följande:\nNytt parkettgolv i hela lägenheten. Ommålat. \n\nFinns möjlighet till inflytt redan 1 september.\n\nVi erbjuder fysisk visning av lägenheten.\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 6714,
-    "floor": 4,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T11:24:50+00:00", "clock": "11:24:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T12:10:11+00:00", "clock": "12:10:11"};
