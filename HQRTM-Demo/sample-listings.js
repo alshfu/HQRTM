@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Ugglegården 36, Göteborg",
+    "url": "https://qasa.com/p/1437183",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9625aa3b3f6ea9293049c7f2b4775f73e38444128992b3e7965f1c9c1ff19117.jpg",
+    "description": "Lägenhet om 2 rum och kök fördelat på 60 kvadratmeter. Helkaklat badrum med tvättmaskin och torktumlare samt handdukstork. Köket är utrustat med inbyggd mikrovågsugn samt diskmaskin. Balkong med havsutsikt. Genomgående i lägenheten finns ekparkett samt vitmålade väggar.\n\nInflyttningsdatum 1 oktober 2026",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 12133,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kyrkåsgatan, Göteborg",
     "url": "https://qasa.com/p/1437019",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c77b52ef7af0d08839a6fba3e2eb35c0a3aafb1b522ffb5ee6b9a45b17a339d0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tredje Långgatan, Göteborg",
-    "url": "https://qasa.com/p/1436512",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/695fbff18c91bc6625c4b60598fdd850446fb615df1bc488e8dc23fd761574cc.jpg",
-    "description": "En fyrarummare i två plan med townhousekänsla på den lugnare delen av Tredje långgatan. Ett sovloft ger flexibilitet. Badrum och extra toalett en halvtrappa upp. Generös takhöjd. Bo centralt i en renoverad gammal Smedja med egen uteplats (mot innergården). \n\nVi hyr ut lägenheten januari till och med mars då vi är utomlands. \n\nEl, värme och vatten betalas retroaktivt enligt egen förbrukning (separata fakturor tillkommer två månader retroaktivt). ",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 73.0,
-    "rent": 19000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T13:46:47+00:00", "clock": "13:46:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T14:46:26+00:00", "clock": "14:46:26"};
