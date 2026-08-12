@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tredje Långgatan, Göteborg",
+    "url": "https://qasa.com/p/1436512",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/695fbff18c91bc6625c4b60598fdd850446fb615df1bc488e8dc23fd761574cc.jpg",
+    "description": "En fyrarummare i två plan med townhousekänsla på den lugnare delen av Tredje långgatan. Ett sovloft ger flexibilitet. Badrum och extra toalett en halvtrappa upp. Generös takhöjd. Bo centralt i en renoverad gammal Smedja med egen uteplats (mot innergården). \n\nVi hyr ut lägenheten januari till och med mars då vi är utomlands. \n\nEl, värme och vatten betalas retroaktivt enligt egen förbrukning (separata fakturor tillkommer två månader retroaktivt). ",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 73.0,
+    "rent": 19000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kristinehöjdsgatan 4, Göteborg",
+    "url": "https://qasa.com/p/1436662",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecf8784e1f78d304792f5e99f67232565696fe1c8a3f0b0e79cd7bc3d5800573.jpg",
+    "description": "1 oktober kan vi erbjuda denna fina 1 ROK på Kristinehöjdsgatan 4 i Göteborg.\nLägenheten är belägen på våning 4 och är disponerad på 42 kvm. \n\nUppfräshning där vi bland annat har gjort följande:\nNytt parkettgolv i hela lägenheten. Ommålat. \n\nVi erbjuder fysisk visning av lägenheten.\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 6714,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Erik Dahlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1436615",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c41ebbf6149a9c633542425f2f3aac136e972dae0ef410f7b853589fb83ba6e4.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "A R Lorents gata, Göteborg",
-    "url": "https://qasa.com/p/1434663",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cc06db9b2f23420fcad4d5179821abccab19dd0dd44c02227209eba4ce614333.jpg",
-    "description": "Ett fint rum i en etagelägenhet med bra standard. Inflyttning från 1 september eller 15 september 2026.  Jag söker i första hand en pendlare och företrädesvis kvinnliga sökande. Rummet är möblerat med 1.20 eller 1.60 säng, skrivbord, byrå och tv och 2 garderober. Du har tillgång till kök, badrum och tvättmöjligheter i lägenheten. WiFi ingår.  Både spårvagn och buss finns runt hörnet. Då lägenheten ligger nära vattnet finns det mycket fina promenadstråk där även caféer och restauranger. \nEndast för en person. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rödkullegatan, Hisings Backa",
-    "url": "https://qasa.com/p/1436353",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/349693b419433c3507be4fec4b365c1e7d9f26b8875f6c27dba2a17f41bc7908.jpg",
-    "description": "Lägenheten ligger i en villa på vån två. Den har en inglasad balkong som ligger mot trädgården med pool. Den får inte användas och ska stängas nu inför hösten. I hyran ingår möbler sängar och skrivbord för den som är student. Garderober. I köket finns bord, stolar och en kökssoffa. Komplett utrustning för matlagning i köket som har kyl/frys mm. I vardagsrummet finns en soffa och bord samt ett matsalsbord med 6 stolar. Huset ligger nära till bussar som tar ca 10 min till centrala stan. Med cykel tar det ca 15 min utmed älven. Nära till matbutiker och en restaurang på andra sidan gatan samt en bensinmack som har lättare mat att handla. Lägenheten får hyras ut till max tre personer med stabil inkomst eller studielån. Ingen rökare och inga husdjur. Hemförsäkring krävs. Uppsägningstiden är två månader. En hyra i deposition vid inflyttningen då kontraktet skrivs på av hyresgästen och hyresvärden. ",
-    "district": "Hisings Backa",
-    "rooms": 4.0,
-    "area_m2": 90.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T05:02:43+00:00", "clock": "05:02:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-12T06:23:47+00:00", "clock": "06:23:47"};
