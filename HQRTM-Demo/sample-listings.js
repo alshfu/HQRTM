@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rubingatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1438078",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e39366a5ed1557d2e90e683f1acd22f71bf4bf5b607225f75e92c65588d8be76.jpg",
+    "description": "Ljus och välplanerad 2:a i Västra Frölunda\n\nVälkommen till denna trevliga och välplanerade 2:a med kök på Rubingatan 23 i Västra Frölunda, som nu uthyres omöblerad.\n\nLägenheten är belägen på andra våningen i ett hus från 1968, utan hiss. Bostaden är smakfullt renoverad och har genomgått stambyte samt fått ett nytt, fräscht badrum. Köket är funktionellt och praktiskt utformat, och det finns även tvättmaskin i lägenheten. För extra bekvämlighet finns dessutom tillgång till gemensam tvättstuga.\n\nHär bor du med ett mycket bra läge, endast cirka 5 minuters promenad till spårvagnen och 10 minuter till Opaltorget. I närområdet finns både förskolor, service och goda kommunikationer som gör vardagen enkel och smidig.\n\nEn hemtrevlig och praktisk bostad i ett attraktivt läge – varmt välkommen att höra av dig! 🌿",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kungsladugårdsgatan, Göteborg",
     "url": "https://qasa.com/p/1438041",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/758963d45761692e78e38d66ed6aa03496b4f2fbee0f434a87f59841bd082212.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T14:00:42+00:00", "clock": "14:00:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T15:08:07+00:00", "clock": "15:08:07"};
