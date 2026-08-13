@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lillekärr Norra, Hisings Kärra",
+    "url": "https://qasa.com/p/1430999",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb8819b241969727bfc0ee108bea68fb1e6bc0ca3b1d5e5403720d1887da1bac.jpg",
+    "description": "Trevlig och rymlig 2:a med fönster mot öst och väst (morgonsol i kök + loftgång samt eftermiddag/kvälls sol på balkong + vardagsrum). Litet förråd finns i lägenhet. \nStor platsbyggd garderob finns i sovrum med mycket förvaringsmöjligheter. Diskmaskin + tvättmaskin finns i lägenheten, tvättstuga + cyckelrum finns i källaren. \nNära till busshållplats med bra förbindelser (X2), nära till lekplats, natur och park. \n\nIngår i hyra: \nEl, varmvatten, internet(fiber genom bredband 2), tillgång till parkering. \n\nAnledning till att jag hyr ut: \nSamboprövning med min partner i deras lägenhet. ",
+    "district": "Hisings Kärra",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Famngatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1437926",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba7305ddd30ea1412801e754e3d248d3353eb271e931bbbf3ec990b4d9ae6fb0.jpg",
+    "description": "Bra planerad 1:a med balkong mot innergård. \n2min till närmsta spårvagnshållplats, där går 7:an, 8:an och 1:an. \nNära till Frölunda Torg och Marklandsgatan. \nLägenheten ligger ute till försäljning, så uthyrningen är tillsvidare med 3 månader uppsägningstid. \nLägenheten är enbart 4 år gammal, och har både diskmaskin och tvättmaskin/torktumlare. \nParkeringsgarage i samma hus finns som man kan hyra, dock fåtal platser. ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 8500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Smörslottsgatan 10, Göteborg",
+    "url": "https://qasa.com/p/1437956",
+    "image_url": null,
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum.\n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt kombimaskin. Köket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin. \n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 44.0,
+    "rent": 9861,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Herman Anderssons väg, Göteborg",
     "url": "https://qasa.com/p/1437675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ae3c72a5cb5f0a95ed85fbb96d32cff900f44b401ea5982e82e65ca6c17f06bd.png",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långängen, Göteborg",
-    "url": "https://qasa.com/p/1437712",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dd323fad4b956b9e26a232a08e888f32b010700e7b3b47e52e685e6fe3fe9892.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 12075 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kszxetd1k51jplmzgrb9/vastra-gotaland/goteborg/langangen-8/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMysig etta i Centrala Göteborg med en uteplats, ca 5-7 min med vagn och buss till Brunnsparken från Hjalmar Brantingsplatsen.  10 min gångavstånd till diverse matbutiker, gym och bibliotek. \r\n\r\nFriskis och Svettis, Ica Nära Kvillebäcken, Swedbank, Lundby bibliotek en gata bort, Nordic Wellness, 24/7 Fitness samt andra träningscenter finns med rimlig gångavstånd. \r\n\r\nHyrs ut omöblerad, kan ev hyras ut delvis möblerad.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 12075 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 11506,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 28C, Göteborg",
-    "url": "https://qasa.com/p/1437863",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/39da58da459f787b73a612661035306121313b4f29701619787947ce484d0f16.jpg",
-    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 2 rum och kök på 63 kvm, belägen på våning 2 på Långströmsgatan 28 C.\n\nLägenhetsförråd finns i huset.\n\nHyra: 10 312 kr/månad\nInflyttning: 2026-11-01\n\nI hyran ingår värme, vatten och kabel-TV.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 63.0,
-    "rent": 10312,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 24B, Göteborg",
-    "url": "https://qasa.com/p/1437854",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1ba4e923706cf7e59b99195a9bd523d0b76c3c829647ea605b5a8b324e064f8a.jpg",
-    "description": "Välkommen hem till Långströmsallén! \nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 24 B, 1 ROK på 41 kvm - bottenvåning. En ljus och välplanerad bostad med avtalstid från 1 November. Hyran för 2026 ligger på 7 318 kr/mån. Lägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys och mikrovågsugn. Lägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 41.0,
-    "rent": 7318,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T11:30:51+00:00", "clock": "11:30:51"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T12:28:15+00:00", "clock": "12:28:15"};
