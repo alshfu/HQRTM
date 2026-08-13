@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Madängsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1437531",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5e5442c256d762b83005cf6e93e6c063466d6a896cd19412119befc87d89300.jpg",
+    "description": "Vi kan med glädje meddela att vi har en studentlägenhet som blir ledig från 1 december.\n\nStudentlägenheten är disponerad på 31 kvm och belägen på våning 2. \n\nI hyran ingår värme, varmvatten & el.\n\nMadängsgatan 1 ligger perfekt placerad bakom Backaplan och här har du närhet till såväl skolor, köpcentrum samt Nordstan. \n\nFöretaget har som krav att man ska studera minst halvfart, studierna ska pågå i minst 2 år och krav på en borgensman. Lägg gärna till info om din borgen i din profil på HomeQ så går ansökningsprocessen snabbare. \n\n\nVarmt välkommen med din ansökan redan idag!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 6041,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Regnvädersgatan, Göteborg",
     "url": "https://qasa.com/p/1437387",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56a6d8f35fc4015b035fef02291fe4938b6165e6b99d06631ebdd2878a3e4b1f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kyrkåsgatan, Göteborg",
-    "url": "https://qasa.com/p/1437019",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c77b52ef7af0d08839a6fba3e2eb35c0a3aafb1b522ffb5ee6b9a45b17a339d0.jpg",
-    "description": "Mysig uthyrningslägenhet i villa – 3.5 rok, egen ingång.\nLjus och rymlig lägenhet med 2 sovrum, vardagsrum + stort separat rum med skjutdörrar (kan användas som ett sovrum eller kontor), kök och badrum (med kombinerad tvättmaskin torktumlare).\nUtrustat kök, fräscht badrum och bra förvaring.\n\nMed ett mycket centralt läge i Kålltorp ligger denna rymliga lägenhet i villa – ganska nära till Virginsgatan hållplats med smidig spårvagn till Korsvägen/Liseberg på 10–15 minuter. Lägenheten ligger nära Delsjön, med fina badplatser, vandrings- och löpspår samt möjligheter till paddling och naturupplevelser, samt Skatås motionscentrum med gym, bastu och utomhusaktiviteter. I området finns även Göteborgs Lawn Tennisklubb (GLTK) med tennis och padel. I närområdet finns även caféer och restauranger (t.ex. Oizo, Sannegårdens Pizzeria) samt bagerier för frukost och fika. Lägenheten ligger i mitten av några av Göteborgs bästa skolor (Kärralundsskolan, Parkskolan, Lundenskolan).\n\nKostnader som ingår i hyran:\nUppvärmning, parkering och vatten/avlopp ingår i hyran upp till en rimlig månadsgräns. \nKostnader som inte ingår i hyran: \nEl, bredband, elkostnad till elbilsladdare tillkommer som en fast månads avgift. Laddning av elbil betalas separat enligt faktisk förbrukning.\nEn månads deposition krävs.",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 103.0,
-    "rent": 21500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T05:20:53+00:00", "clock": "05:20:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T06:52:46+00:00", "clock": "06:52:46"};
