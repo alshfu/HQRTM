@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Salsavägen, Angered",
+    "url": "https://qasa.com/p/1438148",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a6b59b926718b211bad59fe64e9839c5dbe081f0286cb35ac42fb2f37c83cec.jpg",
+    "description": "Room in a Shared House – Available Now!  \nWe’re looking for a calm, clean, pet-free, and non-smoking male tenant to rent a fully furnished room in our spacious 160 m² house. You’ll share the kitchen, living room, and bathroom with two other tenants.  \n\nAbout Us: \nWe’re friendly, respectful, and have full-time jobs or studies. The house is ideally located near trams, buses, grocery stores, gyms, the library, and nature. 15 minutes to the central station by tram, with departures every 10 minutes.\n\nUpper Floor:  \n- Three bedrooms (Only two available for rent)  \n- Hallway  \n- Bathroom( Only two tenants in total will be sharing)\n\nEntrance Floor:  \n- Kitchen, living room, bathroom, hallway, laundry room  \n- Large glazed space (extra living area)  \n- Outdoor garden with BBQ access  \n\nMonthly Rent: 6,000 SEK\nIncludes:\n- Electricity, heating, water, high-speed Wi-Fi  \n- Washing machine, fully equipped kitchen  \n- Furnished room and shared common spaces\n- Private Parking(+300SEK if access is desired) or guest free parking outside the house are avilable too.\n\nWe speak Swedish, English, and Spanish. Contact me for more info!  \n--------------------------\nVi erbjuder ett fullt möblerat rum i vårt fina hus, beläget i ett av Angereds mest attraktiva villaområden – Storås Ängar. Området är lugnt och mysigt, med bara 5 minuters promenad till Angered Centrum.\n\nÖvervåning:\nTre fullt möblerade sovrum (endast två sovrum till uthyrning)\nGemensamt badrum (toalett och dusch som delar två personer totalt) \nHall\n\nEntrévåning:\nHall, vardagsrum, fullt utrustat kök, badrum, tvättrum med tvättmaskin och torkskåp\nInglasat utrymme med utsikt mot trädgården\n\nUtomhus:\nEn fin trädgård på baksidan där du kan sola dig, njuta av en kopp kaffe eller grilla på sommaren\nAltan på framsidan, perfekt för frukost i solskenet\nEgen parkeringsplats bredvid huset\n\nOm oss:\nHuset är ca 160 kvm, alla sovrum har eget privat nyckel till sina rum. Vi är lugna, pålitliga personer med heltidsjobb, så vi är oftast borta under dagarna och kommer hem på eftermiddagen.\n\nVi håller gemensamma utrymmen rena och ordningsamma för en trivsam miljö\nIngen rökning eller djur tillåts inomhus\n\nMånadshyra: 6 000 kr\nHyran inkluderar:\nEl, värme, vatten, internet, tvättmöjligheter\nFullt möblerat rum och fullt utrustat kök\nPrivat Parkering(+300kr om tillgång önskas) eller så finns det gratis gäst parkering precis utanför huset.\n\nVi talar, Svenska, Engelska och Spanska\n\nÄr du intresserad eller har frågor? Kontakta mig gärna för mer information!",
+    "district": "Angered",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5660,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Åslyckevägen, Göteborg",
+    "url": "https://qasa.com/p/1438181",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f92cd94fcbf5a46587079e7a96c2aeccdc656dc44622ac8bd5ee824a60d09a41.jpg",
+    "description": "Källare uthyres – trivsamma Tuve\n\nVi hyr ut vår källare på Åslyckevägen 12B i trivsamma Tuve för 9 500 kr/mån.\n\nHär bor du i ett lugnt och trevligt område med nära till mataffärer, service, restauranger och annan vardagsservice. Samtidigt är det smidigt att ta sig in till centrala Göteborg – stan når du på cirka 20 minuter.\n\nI hyran ingår allt – värme, el, internet och parkering, så du slipper tänka på flera extra kostnader varje månad.\n\nDet finns även uteplats som kan användas för att koppla av, grilla eller umgås med vänner.\n\nHyra: 9 500 kr/mån\nVärme, el och internet ingår\nParkering ingår\nUteplats finns\nNära affärer och service\nCirka 20 minuter till centrala Göteborg\n\nVid intresse, skicka gärna ett meddelande för mer information och visning.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 90.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rubingatan, Västra Frölunda",
     "url": "https://qasa.com/p/1438078",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e39366a5ed1557d2e90e683f1acd22f71bf4bf5b607225f75e92c65588d8be76.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Herman Anderssons väg, Göteborg",
-    "url": "https://qasa.com/p/1437675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ae3c72a5cb5f0a95ed85fbb96d32cff900f44b401ea5982e82e65ca6c17f06bd.png",
-    "description": "Read english below: \n\nNy lägenhet med egen diskmaskin och tvätt/torktumlare, +vindsförråd. Fint och lungt område med tysta grannar. Alltid känt oss säkra här även sent på natten. Balkongen ger alltid eftermiddagssol, men också förmiddgssol beroende på årstid!\nTillgång till:\n- Bokningsbar tvättstuga (två tvättmaskiner, 1 torktumlare, 1 torkskåp)\n- Cykelförvaring på vind\n- Cykelparkering inomhus\n- Parkering (måste ansökas)\n\nI området:\n- Busshållplats 20 sekunder bort (Brunnehagen, buss 17), tar ca 20 minuter in till Nordstan och Centralen\n- 6 minuter promenad från ICA, Willys, blomsterhandel, konditori, vårdcentral, apotek m.m\n- Nära till Hisingsparken och vandringsleder\n- Nära till både skola och förskola. \n\nJag hyr ut lägenheten under längre period (kan bli upp till 3 år eller längre) pga utlandsarbete. \nSöker trygg och stabil hyresgäst. Utöver hyran betalar du själv för hemförsäkring, el och bredband/tv. \nFör tillfället bor jag med två barn och har låga kostnader på ovan nämnda utgifter. \n\nBuss 17 och 44 går utanför dörren med bra förbindelser. \n\nICA, Willys, restauranger, vårdcentral, tandläkare och bibliotek finns inom kort räckhåll till fots. \n\nBalkong. Stora fönster med bra ljusinsläpp. \n\n\nNew apartment with its own dishwasher and washer/dryer, + attic storage. Nice and quiet area with quiet neighbors. Always felt safe here even late at night. The balcony always gives afternoon sun, but also morning sun depending on the season!\nAccess to:\n- Bookable laundry room (two washing machines, 1 dryer, 1 drying cabinet)\n- Bicycle storage in the attic\n- Indoor bicycle parking\n- Parking (must be applied for)\n\nIn the area:\n- Bus stop 20 seconds away (Brunnehagen, bus 17), takes about 20 minutes to Nordstan and Centralen\n- 6 minutes walk from ICA, Willys, flower shop, pastry shop, health center, pharmacy etc.\n- Close to Hisingsparken and hiking trails\n- Close to both school and preschool.\n\nI am renting out the apartment for a longer period (can be up to 3 years or longer) due to working abroad.\nLooking for a safe and stable tenant. In addition to the rent, you pay for home insurance, electricity and broadband/TV yourself.\nI currently live with two children and have low costs for the above-mentioned expenses.\n\nBuses 17 and 44 stop outside the door with good connections.\n\nICA, Willys, restaurants, health center, dentist and library are within short walking distance.\n\nBalcony. Large windows with good light.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 12747,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kosmosgatan 33, Göteborg",
-    "url": "https://qasa.com/p/1437874",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8723c9e4d0fab78761e9acd459f2aca4e5b3053cf8214302827aab4fdb40d74.png",
-    "description": "Välkommen till ditt nya HEM – ett rymligt, totalrenoverat boende på hela 99 kvm!\n \nLetar du efter ett hem med både stil, komfort och smarta lösningar? Då har du hittat rätt! Lägenheten totalrenoverades 2026 och erbjuder ett modernt, bekvämt boende där du kan trivas direkt från första dagen.\n \nHela lägenheten har målats om i ljusa, harmoniska färger och fått en ny säkerhetsdörr för extra trygghet. I hallen möts du av ett praktiskt och snyggt klinkergolv som tål vardagens slitage, medan övriga rum pryds av ett exklusivt ekparkettgolv som ger både värme och karaktär.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel, handdukstork samt en spegel med stämningsfull LED-belysning. Här finns även en egen tvättmaskin och torktumlare för maximal bekvämlighet.\n \nI det välplanerade köket, som verkligen är hemmets hjärta, finns inbyggnadsugn, häll, fläktkåpa, diskmaskin samt kyl och frys – allt du behöver för både vardagsmat och helgmiddag.\n \nI hyran ingår värme, vatten och kabel-TV, vilket ger dig full kontroll på dina boendekostnader.\n \nObservera: Bilderna i annonsen är exempelbilder. Normalt slitage samt avvikelser från planritningen kan förekomma.\n\nOMGIVNING\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde. \n\nKOMMUNIKATIONER\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\n\nSERVICE\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\n\nPARKERING\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 99.0,
-    "rent": 13605,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T16:08:24+00:00", "clock": "16:08:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T17:10:32+00:00", "clock": "17:10:32"};
