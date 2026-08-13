@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Borraregatan, Göteborg",
+    "url": "https://qasa.com/p/1437468",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cac64877a24170199289f28da966f0e75ac4c8641af30ece27390c72037eebb1.jpg",
+    "description": "obs! bilderna visas inte i sin helhet när man \"swipear\". Tryck på \"visa alla bilder\" för att se hela bilden på fotona i liggande format. \n\nHej,\n\nJag hyr ut min mycket ljusa och moderna hörnlägenhet i en lugn byggnad med innergård, pga arbete på annan ort. Uthyres till max 2 vuxna + 1 barn. Optimalt läge och jättebra planlösning, vg se detaljer nedan:\n\nHyra inkluderar internet, uppvärmning och el- och vattenförbrukning inom rimliga gränser. Parkering finns ej, men man kan parkera gratis på vissa gator runtomkring och Gröna mossens parkeringshus ligger 300 meter bort.\n\nOm ni är intresserade skriv ett mail om er själva och så kan jag skicka fler bilder / videon.\n\nMed vänlig hälsning, Anahita\n\nLäge:\nGångavstånd till centrum och skog, cykelavstånd till sjö och hav.  Bredvid Chalmers, 1,5 km från Sahlgrenska och 2,5 km från Handelshögskolan. Fysikens gym / gruppträning och Klätterlabb 500 meter på vardera sida om lägenheten. Motionsspår med utegym 100 meter bort.  Safjället med skog och motionsspår 2 km bort.\nLugnt område, men aldrig öde.\nBusshållsplats på andra sidan gatan, spårvagn från Chalmers hållplats.\nPizzerior, thaimat, sushi, barer och café på krypavstånd och Willys mataffär på 500 meters.\n\nBalkong: Solig, inglasad men går att öppna helt. 9 kvadratmeter med soffgrupp. Dörrar mot sovrum 1 och kök.\n\nBadrum: Toalett, duschkabin, tvättmaskin, torktumlare, 3 meter stor \"arbetsyta\" med flera skåp och två stora \"byrålådor\" under vasken. Liten inbyggd klädställning och uppvärmd handdukstork.\n\nSovrum 1: 180 cm säng och klädkammare \"walk-in-closet\"\nSovrum 2: 120 cm säng\n\nKök: Fullt utrustat med 3 diskhon och ett litet fönster. Köks-ö med den tredje diskhon, spis och \"bar\". Separat \"helt\" kylskåp och frys, varmluftsugn och micro. Matplats med matbord och stolar för 8 personer.\n\nVardagsrum: Mycket ljus eftersom det är glas istället för vägg mot balkongen. och fönster åt andra hållet. Stor divansoffa.\n\nHall: Stor \"garderob\" med spegel-skjutdörrar, skoskåp och liten fällbar väggfast pall.\n\nGemensamma utrymmen: gym, tvättstuga, cykelrum, barnvagnsrum. Solig innergård med grill- och matplats, sandlåda, gräsmatta, bänkar och cykelställ.\n\nViss inredning stämmer in med bilderna, tex mattor och dekorationer.\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lundgrensgatan, Göteborg",
+    "url": "https://qasa.com/p/1437620",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba16e2279b7ab7bea669a2ebed5614673476f643de0128b080bb2c2e2e69ce53.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/l1yck2mggkdvt9y9mpct/vastra-gotaland/goteborg/lundgrensgatan-12/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälplanerad pärla på Lundgrensgatan – Perfekt läge nära Chalmers, GU & Korsvägen!  Söker du ett boende med Göteborgs absolut bästa läge? Denna charmiga och smart planerade lägenhet ligger på lugna Lundgrensgatan i Johanneberg/Lorensberg – perfekt för studenten, dig som behöver en bekväm övernattningslägenhet eller helt enkelt vill bo mitt i smeten med närhet till allt!  Om bostaden & planlösning:  Öppen & yteffektiv planlösning:  Kombinerat allrum med plats för både en rejäl dubbelsäng och en mysig sitthörna/soffa.  Fullt utrustat kök:  Modernt kök med bra förvaring (överskåp hela vägen upp till tak), diskmaskin, ugn, häll samt kyl och frys.  Fräscht badrum:  Helkaklat och stilrent duschrum samt separat toalett med kommod och bra belysning.  Detaljer & känsla:  Vackra sekelskiftesdetaljer som ståtlig takstuckatur, takrosett och fina mönstrade tapeter som ger lägenheten en unik och ombonad karaktär.  Läge & Kommunikationer:  Läget blir knappast bättre! Här bor du med gångavstånd till både Chalmers tekniska högskola och flera av Göteborgs Universitets fakulteter. Ett stenkast bort ligger Korsvägen, en av stadens största knutpunkter, vilket gör det supersmidigt att ta sig var som helst med spårvagn eller buss (samt direktbuss till flygplatsen). Dessutom har du Avenyn, matbutiker, caféer, restauranger och Grönområden alldeles runt hörnet.  Passar dig som: Vill ha ett smidigt, tryggt och centralt boende med hög standard i ett av Göteborgs mest populära områden.  Uthyrning sker då jag till hösten ska på utbytesstudier i Kina.  Varmt välkommen att höra av dig vid intresse!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13000 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 12270,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hovås Allé, Göteborg ",
+    "url": "https://qasa.com/p/1437526",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19ffb258cb6a05c0d445da0c2fefd9049b2868344ca3b88562efa1929c5444d8.png",
+    "description": "Ljus och fin 3:a på andra våningen med en stor och härlig balkong och utsikt över en grönskande park. Lägenheten hyrs ut omöblerad och erbjuder ett trivsamt boende i det lugna och attraktiva området Hovås i Göteborg.\n\nHär bor du med närhet till det mesta du behöver i vardagen. På bekvämt avstånd finns mysiga caféer, mataffär och restauranger, samtidigt som havet finns nära för härliga promenader och avkoppling. Kollektivtrafik finns precis utanför och tar dig smidigt in till centrala Göteborg på cirka 20 minuter.\n\nI hyran ingår el, värme, vatten och bredband. Det finns även närliggande parkeringsplatser som går att hyra om så önskas.",
+    "district": "Göteborg ",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Madängsgatan 1, Göteborg",
     "url": "https://qasa.com/p/1437531",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5e5442c256d762b83005cf6e93e6c063466d6a896cd19412119befc87d89300.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styrfarten, Göteborg",
-    "url": "https://qasa.com/p/1437283",
-    "image_url": null,
-    "description": "Utsikt mot göta älv, två balkonger, stort vardagsrum och stort kök, många fönster, två sovrum i mindre storlek, stor klädkammare, stort badrum. Uthyres möblerat. Finns parkering om man vill ha det.\n\nHyr ut pga jobb på annan ort.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 85.0,
-    "rent": 16300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solvarvsgatan, Göteborg",
-    "url": "https://qasa.com/p/1437117",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34c6b36f60a4b7d57d0a4ba45ccc00b875cee0321091fbf7d47f6a8b72438067.jpg",
-    "description": "Inneboende sökes – perfekt för dig som behöver en pendellägenhet\n\nJag söker en lugn, skötsam och pålitlig inneboende som kanske är i behov av en pendellägenhet eller ett flexibelt boende i Göteborg. Kanske arbetar du i Göteborg några dagar i veckan, har en partner eller familj på annan ort, eller helt enkelt behöver ett eget ställe att landa på utan att ha en permanent bostad här. Detta är alltså inte en lägenhet för dig som vill bo heltid i Göteborg.\n\nJag bor tillsammans med mitt barn, som är en toddler. Det innebär såklart en del energi, lek och ibland lite högre ljudnivå under dagarna. Han går på förskola på vardagarna, så om du exempelvis jobbar natt har du lägenheten för dig själv under dagtid när han är på förskolan.\n\nDet är därför viktigt att du trivs med att bo i ett hem där det finns ett litet barn och har förståelse för att det ibland kan vara lite mer liv och rörelse under dagarna.\n\nJag hyr  ut 1 rum i vår trea med balkong i södra Kortedala. Lägenheten och fastigheten är totalrenoverad under 2017 . Lägenheten är mycket ljus och tyst. Här bor du med goda kommunikationer till centrala Göteborg.\nDet är också nära till Kortedala torg som erbjuder all närservice du kan tänkas behöva.  Det som ingår i hyran är ett sovrum som är delvis möblerat med säng och klädförvaring och fri användning av dom allmänna ytorna.\n\nJag ser helst att boendet används främst under vardagar och att du inte bor i lägenheten under helgerna. Därför tror jag att upplägget passar extra bra för dig som har din permanenta bostad på annan ort och främst behöver någonstans att bo under arbetsveckan.\n\nKrav: Du behöver kunna tala och förstå svenska flytande.\n\nLåter det som något som skulle passa dig? Hör gärna av dig och berätta lite om dig själv, vad du söker och hur du tänker kring ett sådant upplägg. 😊\n\n(Mer bilder kommer)",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 11.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ugglegården 36, Göteborg",
-    "url": "https://qasa.com/p/1437183",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9625aa3b3f6ea9293049c7f2b4775f73e38444128992b3e7965f1c9c1ff19117.jpg",
-    "description": "Lägenhet om 2 rum och kök fördelat på 60 kvadratmeter. Helkaklat badrum med tvättmaskin och torktumlare samt handdukstork. Köket är utrustat med inbyggd mikrovågsugn samt diskmaskin. Balkong med havsutsikt. Genomgående i lägenheten finns ekparkett samt vitmålade väggar.\n\nInflyttningsdatum 1 oktober 2026",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 12133,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T06:52:46+00:00", "clock": "06:52:46"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T08:14:11+00:00", "clock": "08:14:11"};
