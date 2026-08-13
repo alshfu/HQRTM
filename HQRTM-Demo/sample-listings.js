@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mölndalsvägen, Göteborg",
+    "url": "https://qasa.com/p/1438262",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/422e0e82e05f21b7441d78bbc1f39460a4e235b427eaea98fef66ccb703c25eb.jpg",
+    "description": "Lägenheten är en ljus och välplanerad tvåa med en stor möblerad inglasad balkong. Genomgående ligger vit askparkett och de ljusa ytskikten ger bostaden en modern och luftig känsla.\n\nHallen erbjuder bra förvaring med skjutdörrsgarderob. Vardagsrum och kök ligger i öppen planlösning med gott om plats, både med soffgrupp och matbord samt utgång till den inglasade balkongen.\n\nDet stilrena köket har vita luckor, laminatbänkskiva och rostfria vitvaror med bland annat inbyggnadsugn, mikro och kombinerad kyl/frys. Här finns även en integrerad diskmaskin.\n\nSovrummet är rymligt med dubbelsäng och en praktisk skjutdörrsgarderob. Det finns även robotdammsugare för att förenkla skötseln. Det helkaklade badrummet har dusch, wc, kommod och spegel med belysning samt kombinerad tvättmaskin och torktumlare från Siemens. \n\nEtt modernt och bekvämt boende med närhet till centrala Göteborg, spårvagn direkt utanför porten och fina promenadstråk.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Salsavägen, Angered",
+    "url": "https://qasa.com/p/1438266",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b63f31d788482c5187bd95991f2e748e63d03c6c4be0468182aaa2352d51b59.jpg",
+    "description": "Room in a Shared House – Available Now!\nWe’re looking for a calm, clean, pet-free, and non-smoking male tenant to rent a fully furnished room in our spacious 160 m² house. You’ll share the kitchen, living room, and bathroom with two other tenants.\n(Bathroom will only be shared with one Tenant)\n\nAbout Us:\nWe’re friendly, respectful, and have full-time jobs or studies. The house is ideally located near trams, buses, grocery stores, gyms, the library, and nature. 15 minutes to the central station by tram, with departures every 10 minutes.\n\nUpper Floor:\n- Three bedrooms (two available)\n- Hallway\n- Bathroom\n\nEntrance Floor:\n- Kitchen, living room, bathroom, hallway, laundry room\n- Large glazed space (extra living area)\n- Outdoor garden with BBQ access\n\nMonthly Rent: 6,000 SEK\nIncludes:\n- Electricity, heating, water, high-speed Wi-Fi\n- Washing machine, fully equipped kitchen\n- Furnished room and shared common spaces\n- Parking(+200SEK if access is desired)\nOr guest free parking place is available outside the house. \n\nWe speak Swedish, English, and Spanish. Contact me for more info!\n--------------------------\nVi erbjuder ett fullt möblerat rum i vårt fina hus, beläget i ett av Angereds mest attraktiva villaområden – Storås Ängar. Området är lugnt och mysigt, med bara 5 minuters promenad till Angered Centrum.\n\nÖvervåning:\nTre fullt möblerade sovrum (två lediga just nu)\nGemensamt badrum (toalett och dusch)\nHall\n\nEntrévåning:\nHall, vardagsrum, fullt utrustat kök, badrum, tvättrum med tvättmaskin och torkskåp\nInglasat utrymme med utsikt mot trädgården\n\nUtomhus:\nEn fin trädgård på baksidan där du kan sola dig, njuta av en kopp kaffe eller grilla på sommaren\nAltan på framsidan, perfekt för frukost i solskenet\nEgen parkeringsplats bredvid huset\n\nOm oss:\nHuset är ca 160 kvm och för närvarande bor två inneboende här, var och en med sitt eget rum och privat nyckel. Det tredje rummet är ledigt just nu (med egen nyckel). Vi är lugna, pålitliga personer med heltidsjobb, så vi är oftast borta under dagarna och kommer hem på eftermiddagen.\n\nVi håller gemensamma utrymmen rena och ordningsamma för en trivsam miljö\nIngen rökning eller djur tillåts inomhus\n\nMånadshyra: 6 000 kr\nHyran inkluderar:\nEl, värme, vatten, internet, tvättmöjligheter\nFullt möblerat rum och fullt utrustat kök\nPrivat Parkering(+300kr om tillgång önskas), annars finns gratis gäst parkering precis utanför huset i mån av plats.\nVi talar, Svenska, Engelska och Spanska\n\nÄr du intresserad eller har frågor? Kontakta mig gärna för mer information!",
+    "district": "Angered",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5660,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Salsavägen, Angered",
     "url": "https://qasa.com/p/1438148",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a6b59b926718b211bad59fe64e9839c5dbe081f0286cb35ac42fb2f37c83cec.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillekärr Norra, Hisings Kärra",
-    "url": "https://qasa.com/p/1430999",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb8819b241969727bfc0ee108bea68fb1e6bc0ca3b1d5e5403720d1887da1bac.jpg",
-    "description": "Trevlig och rymlig 2:a med fönster mot öst och väst (morgonsol i kök + loftgång samt eftermiddag/kvälls sol på balkong + vardagsrum). Litet förråd finns i lägenhet. \nStor platsbyggd garderob finns i sovrum med mycket förvaringsmöjligheter. Diskmaskin + tvättmaskin finns i lägenheten, tvättstuga + cyckelrum finns i källaren. \nNära till busshållplats med bra förbindelser (X2), nära till lekplats, natur och park. \n\nIngår i hyra: \nEl, varmvatten, internet(fiber genom bredband 2), tillgång till parkering. \n\nAnledning till att jag hyr ut: \nSamboprövning med min partner i deras lägenhet. ",
-    "district": "Hisings Kärra",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Famngatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1437926",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba7305ddd30ea1412801e754e3d248d3353eb271e931bbbf3ec990b4d9ae6fb0.jpg",
-    "description": "Bra planerad 1:a med balkong mot innergård. \n2min till närmsta spårvagnshållplats, där går 7:an, 8:an och 1:an. \nNära till Frölunda Torg och Marklandsgatan. \nLägenheten ligger ute till försäljning, så uthyrningen är tillsvidare med 3 månader uppsägningstid. \nLägenheten är enbart 4 år gammal, och har både diskmaskin och tvättmaskin/torktumlare. \nParkeringsgarage i samma hus finns som man kan hyra, dock fåtal platser. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T18:07:19+00:00", "clock": "18:07:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T19:17:37+00:00", "clock": "19:17:37"};
