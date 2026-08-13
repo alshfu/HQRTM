@@ -33,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Värmegatan 7, Göteborg",
+    "url": "https://qasa.com/p/1438237",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b60a16565220fd30a101ddaa967177770db87ce60cbd5c02569ab63ec375d1e4.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom planritning  (som är på ingång) och exempelbilder. *Ingen fysisk visning* \n\nDenna lägenhet hyrs ut med snabb inflytt, tillträdesdatum går ej att ändra på.\n\nOM LÄGENHETEN\nVälkommen till denna rymliga 5rok på 91kvm! \n\n**Lägenheten har inga riktiga bilder utan endast exempelbilder då det genomförs ett willhemlyft (en totalrenovering)**. \n\nExempelbilderna visar på hur väggar, golv och vitvaror kommer att se ut men går inte efter den sanna planritningen. Lägenheten kommer att ha ett modernt kök med rostfria vitvaror och en gashäll, alltså inte en spishäll som syns på exempelbilden. Gasspisen går ej att få utbytt till en vanlig spis. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin. Balkongen hittar man från badrummet. \n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering. \n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband, gas och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 91.0,
+    "rent": 12050,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rubingatan, Västra Frölunda",
     "url": "https://qasa.com/p/1438078",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e39366a5ed1557d2e90e683f1acd22f71bf4bf5b607225f75e92c65588d8be76.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslottsgatan 10, Göteborg",
-    "url": "https://qasa.com/p/1437956",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7a62c2d31b4646d5c436bf9134cd63229addb657b2a54536ac767dfa7405402a.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum.\n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt kombimaskin. Köket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin. \n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 44.0,
-    "rent": 9861,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T17:10:32+00:00", "clock": "17:10:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T18:07:19+00:00", "clock": "18:07:19"};
