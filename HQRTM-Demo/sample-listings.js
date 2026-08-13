@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kungsladugårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1438041",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/758963d45761692e78e38d66ed6aa03496b4f2fbee0f434a87f59841bd082212.jpg",
+    "description": "Vindsvåning med uteplats i mysigt område vid Slottsskogen nära kommunikationer till centrum.\n\nTvårumslägenhet uthyres i andra hand i ett hus med trädgård i Kungsladugård (läget är fantastiskt - bredvid Slottsskogen, ICA, spårvagn och med cykelavstånd till bland annat Chalmers och Sahlgrenska).\n\nUthyrning sker från 1 september 2026.\n\nLägenheten uthyres möblerad. Värme och el ingår i hyran.\n\nBredband kan ordnas vid behov till extra kostnad.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 12300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillekärr Norra, Hisings Kärra",
     "url": "https://qasa.com/p/1430999",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb8819b241969727bfc0ee108bea68fb1e6bc0ca3b1d5e5403720d1887da1bac.jpg",
@@ -35,7 +50,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Smörslottsgatan 10, Göteborg",
     "url": "https://qasa.com/p/1437956",
-    "image_url": null,
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7a62c2d31b4646d5c436bf9134cd63229addb657b2a54536ac767dfa7405402a.jpg",
     "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum.\n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt kombimaskin. Köket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin. \n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
     "district": "Göteborg",
     "rooms": 2.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T12:28:15+00:00", "clock": "12:28:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-13T14:00:42+00:00", "clock": "14:00:42"};
