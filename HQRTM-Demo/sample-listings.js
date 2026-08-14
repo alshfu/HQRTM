@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Högsbogatan, Göteborg",
+    "url": "https://qasa.com/p/1438658",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/086d91f0bd09b6af0f441668f9a4cb5e835ab62d116508fe3fa4eebca8e96a96.png",
+    "description": "Nu kommer denna natursköna pärla med citykänsla att erbjudas i populära Högsbo. En 60 kvadratmeters gaveltvåa.\n\nDet smakfulla kvalitétsköket från Marbodal som går i\nen klassisk och stilren design. Här finns gott om arbetsyta samt förvaringsmöjligheter för kökets alla redskap.\nKökets maskinella utrustning består utav vitvaror från märket Bosch och innefattar kyl/frys, varmluftsugn och mikro i arbetshöjd, induktionshäll samt diskmaskin. Invid kökets halvvägg finns en\nnaturlig plats att inreda för ett större matbord dukat till ca 4-6 sällskap.\nI anslutning till köket ligger vardagsrummet och man slås direkt utav den öppna och sociala planlösningen mellan de två rummen.\nLoggian, som är en förlängning av vardagsrummet med fönster åt tre olika väderstreck, kan användas som hobbyrum, sovrum, ateljé eller bara en trevlig plats att avnjuta ett glas vin på.\nLägenhetens trivsamma sovrum, med ingång från hallen, har plats för en större säng med kompletterande nattduksbord. Gott om förvaring erbjuds i form av tre stora garderober.\nFrån entrén nås även det stilrena badrummet som är fräscht och utformat i en tidlös design, inredningen är från Vedum. Ytan är väldisponerad med både en tvättmaskin och torktumlare för att underlätta i vardagen. Den övriga utrustningen består utav handfat med kommod och ovansittande spegelskåp, wc, handdukstork, dusch med badkar samt golvvärme som både torkar upp och värmer gott under fötterna.\n\nOm bostaden\nByggnaden byggdes år 2008.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 12200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Orrebacksgatan, Göteborg",
+    "url": "https://qasa.com/p/1438560",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94f04656ba52b69f49f7ad63223dfb0d70567357a80acec1aa2e393533a9bf37.jpg",
+    "description": "Bostaden uthyres i 2:a hand pga av studier. Det kan bli längre än 1 år. Studierna är planerade att pågå i USA till 2028\nBostaden är 1 rum och kök med eget badrum. \nDet finns wifi för normal användning inte för spel. \nDet är inte tillåtet att röka eller ha husdjur. \nDet är en liten lägenhet för 1 person. \nI hyran ingår allt , inkl el , wifi och möbler. Om så önskas kan några möbler flyttas bort om ni önskar ta med eget. Det kan vi diskutera. \nTvättstuga i källaren. \n\nVi ser gärna lugna hyresgäster som  vill ha lugn o ro. Det är idag väldigt tyst o i ett villa område. Parkering kan erbjudas för  400 kr / mån \nDet är av intresse om någon ”händig” vill bo i lägenheten och vill jobba lite extra i fastigheten som har fler lägenheter. Det kan vara snöskottning, lite trädgårdsarbete, städa trapphus etc ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 7300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Breviksvagen, Goteborg",
     "url": "https://qasa.com/p/1438577",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f16ca995d7f08ebd1a6cef01a799587d7c3ab7dcdd054f73f60132b00ba1e46.jpg",
@@ -28,6 +58,21 @@ window.HQRTM_SAMPLE = [
     "rent": 15500,
     "floor": null,
     "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Solrosgatan 13 A, GÖTEBORG",
+    "url": "https://qasa.com/p/1438688",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/62178b385f57c5c0082917ca69d393b6539ce1f3ef16a40a57d8b9249d5ac902.jpg",
+    "description": "Här ges möjlighet att hyra en etagelägenhet med 4 rum och kök på 106 kvadratmeter. Lägenheten renoverades enligt Balders HEM-koncept år 2021 med ett välutrustat kök och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett.\n\nObservera att bilderna i annonsen är exempelbilder.\n\n",
+    "district": "GÖTEBORG",
+    "rooms": 4.0,
+    "area_m2": 106.0,
+    "rent": 14803,
+    "floor": null,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 63, Göteborg",
-    "url": "https://qasa.com/p/1438613",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cd414ba979d6fc7c2ad8df2ed37599854c704cd1ddd0d79288a1d1f600e06223.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten är under renovering och kommer ej att visas. Lägenheten renoveras enligt Willhemlyftet och kommer att få ett uppdaterat badrum. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin. Det kommer även installeras nya ytskikt och ekparkett samt klinker i hall - allt noga utvalt och varsamt installerat av våra proffsiga hantverkare. Det kommer även finnas ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. \n\nOBS! Denna lägenhet annonseras med snabb inflyttning. Inflyttningsdatumet är fast och kan inte ändras.\n\nOM OMRÅDET\nHär bor du ett stenkast från centrala Göteborg dit du enkelt tar dig på en kvart med kollektivtrafiken. I Biskopsgården finns närhet till grönområden, matbutik och restauranger.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå där värme och vatten ingår. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.  \n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10841,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bohusgatan, Göteborg",
-    "url": "https://qasa.com/p/1438413",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/950f7e8c7d861b40ed5d84bbc7319719797d69633711c17486d04312d60934c8.jpg",
-    "description": "Ljus och modern 2:a med balkong – centrala Göteborg\n\nLjus och välplanerad, helt nyproducerad 2:a om 38 kvm på 9:e våningen, med fin utsikt över Göteborg. Öppen planlösning mellan kök och vardagsrum, separat sovrum med inbyggda garderober samt rymlig balkong.\n\nLägenheten är helt ny med fullt utrustat kök, bra förvaring och badrum med kombinerad tvättmaskin/torktumlare. Bredband ingår i hyran.\n\nCentralt läge med gångavstånd till Avenyn, Ullevi, restauranger och kollektivtrafik.\n\nMöblering: flexibelt och kan anpassas efter önskemål\nHyresperiod: Långsiktigt, gärna minst ett år",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 38.0,
-    "rent": 13500,
-    "floor": 9,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Volrat Thamsgatan, Göteborg",
-    "url": "https://qasa.com/p/1438441",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca38a7bda81fdb76a71e132c10f6c32faa25828e66d48f281be7e74117e459ab.jpg",
-    "description": "Hyr ut ett rum i min lägenhet. Tillgång till badrum, kök och vardagsrum ingår också. \n\nJag kommer inte vistas särskilt mycket i bostaden under perioden, du kommer mestadels ha lägenheten för dig själv. \n\nMöjlighet till förlängning finns ej. Passar utmärkt till en student som behöver något kortvarigt i väntan på permanent bostad. \n\nRummet är delvis möblerat (bilderna är gamla). ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T10:43:26+00:00", "clock": "10:43:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T11:31:13+00:00", "clock": "11:31:13"};
