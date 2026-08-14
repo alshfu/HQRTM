@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Drivhusgatan, Göteborg",
+    "url": "https://qasa.com/p/1438515",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9689e883056de70b2da826ef2edadc0b0ce83c52740148e8939ffe92d8cd3515.jpg",
+    "description": "Hejsan! jag hyr ut min fin tvåa, här får ni beskrivningen: \n\nHögst upp på Drivhusgatan 7 i Brf Drivhusgatan välkomnas ni in i denna välbevarade tvåa! När ni kliver in i hallen slås ni av den hemtrevliga känslan som präglar detta hem.\n\nHär finns gott om plats för både avhängning, och avlastningsmöbel. De vita väggarna möter en ljus parkett.\n\nRakt fram från hallen når ni det trivsamma köket! Köket pryds av en vit nyans tillsammans med en praktisk bänkskiva i ek som möts av vitt kakel på väggen mellan bänkskivan och skåpen som stänkskydd. Köket är utrustat med kyl/frys, induktionshäll, ugn, kolfilterfläkt och bänkdiskmaskin. \n\nFrån köksfönstret där matbordet har sin givna plats, följer ni väder och årstider och tack vare läget mot den lummiga innergården får ni en trevlig överblick över den ljuvliga innergården. Gedigen plankgolv ger ett vackert intryck!\n\nTill höger från hallen nås hemmets hjärta, nämligen det trivsamma vardagsrummet. Vacker slipad fiskbensparkett i original kombinerat med den vita nyansen på rummets väggar berikar hemmet med charm. Det rymliga rummet är lätt att möblera. \nHär får ni plats med såväl soffgrupp med tillhörande möblemang samt bokhyllor och avlastningsmöbel. \nFramför det stora fönstret som bjuder på ett ljuvligt ljusinsläpp får även ett rymligt matsalsbord plats. Här har man chans att skapa oförglömliga minnen i goda vänners lag!\n\nPå andra sidan bostaden, med ett stort fönster beläget in mot den mysiga innergården, finns sovrummet. Ännu ett härligt rum med ett rofyllt lugn. Väggarna pryds av en lugnande kulör. Slipad fiskbensparkett löper även i detta rum. Här ryms dubbelsäng med nattduksbord och klädförvaringen har sin plats i garderober. \n\nFrån hallen nås också badrummet som går i smakfulla färg- och materialval, renoverat av föreningen 2014. Helkaklat i diskret färgsättning gör det enkelt att inreda. Här finns dusch med smidig fast glasvägg, wc-stol, handfat med tillhörande kommod samt extra förvaring i vägghängt skåp.\n\nTill bostaden hör två förråd! Ett på vinden och ett i källaren, det råder således inte brist på förvaring till denna bostad!\n\nI omtyckta Almedal ligger denna välplanerade tvåa. Ljusa ytskikt, tjusigt kök och renoverat badrum i föreningens regi. \nEn bostad i ypperligt skick! Lummig, gemensam innergård landshövdingeanda med grillplats och utemöbler. \nI samma uppgång finns tvättstuga/torkrum samt vinds- och källarförråd. Någon minuts promenad till buss- och spårvagnshållplats som trafikeras av flertalet linjer med några få minuters resväg till city. \nKnappa 10 minuters promenad till Liseberg och både Chalmers och Avenyn inom behagligt promenadavstånd. Flertalet matvarubutiker i närområdet såsom Willys, ICA Maxi, Coop samt till träningsanläggningar. Södra Centrum är ett växande kvarter där restauranglivet, butiker och café har expanderat sina verksamheter senaste två åren.\n\nVälkommen att uppleva denna landshövdingedröm!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bohusgatan, Göteborg",
     "url": "https://qasa.com/p/1438413",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/950f7e8c7d861b40ed5d84bbc7319719797d69633711c17486d04312d60934c8.jpg",
@@ -26,6 +41,36 @@ window.HQRTM_SAMPLE = [
     "rooms": 1.0,
     "area_m2": 20.0,
     "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Platågatan 3B, GÖTEBORG",
+    "url": "https://qasa.com/p/1438549",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe78db498a8bf9c668c9564695eb41d54d83e3ea045101f88c1d7314cd435f6f.jpg",
+    "description": "Här ges möjlighet att hyra en lägenhet med 2 rum och kök på 46 kvm. Lägenheten renoverades enligt Balders HEM-koncept år 2024 med ett välutrustat kök och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett. Observera att bilderna i annonsen är exempelbilder.\n\nOMGIVNING\nPlatågatan 3 B ligger i hjärtat av lunden. För att ta sig upp till lägenheten så är det en ganska brant backe, därav namnet platå. Stadsdelen är en gammal stadsdel och tillhör Örgryte-Härlanda, gränsar mellan Olskroken och Bagaregården. Med närhet till både centrum och grönområden. Med gångavstånd till stora grönområden finns tillgång till promenadstigar och en idrottsanläggning.\n\nKOMMUNIKATIONER\nLunden har goda kommunikationsmöjligheter med hjälp av buss med gångavstånd till närmsta hållplats får du tillgång till 60 bussen som går minst var 10:e minut. På bara några minuter tar dig in till centrum från hållplatsen Ingeborgsgatan. Vill du mot populära Redbergsplatsen/olskroken så tar det endast 5 minuter med kollektivtrafiken.\n\nSERVICE\nIca Nära Lunden ligger runt husknuten. Gym, populära glasscafet Lejonet & björnen, caféer, restauranger och skolor finns i närheten.",
+    "district": "GÖTEBORG",
+    "rooms": 2.0,
+    "area_m2": 46.0,
+    "rent": 10067,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ugglegården 36, Göteborg",
+    "url": "https://qasa.com/p/1438529",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff981cc6ce6d5568a95c3bf80bb5b6655d9fd7cddaae50cb9c8aa58ce088f1ca.jpg",
+    "description": "Lägenhet om 4 rum och kök fördelat på 98 kvadratmeter. Helkaklat badrum med tvättmaskin och torktumlare samt handdukstork. Köket är utrustat med inbyggd mikrovågsugn samt diskmaskin. Genomgående i lägenheten finns ekparkett samt vitmålade väggar.\n\nInflyttningsdatum 1oktober 2026\n\n",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 98.0,
+    "rent": 17817,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Harald Hjärnesgatan , Göteborg",
-    "url": "https://qasa.com/p/1036518",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8aa0c68ca8629dc2ad3aa55241a52b8c5a459904ad549e01e24dead1c15670a1.jpg",
-    "description": "En välplanerade lägenhet med stort vardagsrum och stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade och badrummet har elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare,  belägen mitt emot entrédörren. \n\nI hyran ingår: El, vatten och bredband\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.  \nGärna att du/ni letar efter ett långsiktigt boende, men är öppen för dialog. \n\nVälkommen att höra av dig vid intresse!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mölndalsvägen, Göteborg",
-    "url": "https://qasa.com/p/1438262",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/422e0e82e05f21b7441d78bbc1f39460a4e235b427eaea98fef66ccb703c25eb.jpg",
-    "description": "Lägenheten är en ljus och välplanerad tvåa med en stor möblerad inglasad balkong. Genomgående ligger vit askparkett och de ljusa ytskikten ger bostaden en modern och luftig känsla.\n\nHallen erbjuder bra förvaring med skjutdörrsgarderob. Vardagsrum och kök ligger i öppen planlösning med gott om plats, både med soffgrupp och matbord samt utgång till den inglasade balkongen.\n\nDet stilrena köket har vita luckor, laminatbänkskiva och rostfria vitvaror med bland annat inbyggnadsugn, mikro och kombinerad kyl/frys. Här finns även en integrerad diskmaskin.\n\nSovrummet är rymligt med dubbelsäng och en praktisk skjutdörrsgarderob. Det finns även robotdammsugare för att förenkla skötseln. Det helkaklade badrummet har dusch, wc, kommod och spegel med belysning samt kombinerad tvättmaskin och torktumlare från Siemens. \n\nEtt modernt och bekvämt boende med närhet till centrala Göteborg, spårvagn direkt utanför porten och fina promenadstråk.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 14500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Salsavägen, Angered",
-    "url": "https://qasa.com/p/1438266",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b63f31d788482c5187bd95991f2e748e63d03c6c4be0468182aaa2352d51b59.jpg",
-    "description": "Room in a Shared House – Available Now!\nWe’re looking for a calm, clean, pet-free, and non-smoking male tenant to rent a fully furnished room in our spacious 160 m² house. You’ll share the kitchen, living room, and bathroom with two other tenants.\n(Bathroom will only be shared with one Tenant)\n\nAbout Us:\nWe’re friendly, respectful, and have full-time jobs or studies. The house is ideally located near trams, buses, grocery stores, gyms, the library, and nature. 15 minutes to the central station by tram, with departures every 10 minutes.\n\nUpper Floor:\n- Three bedrooms (two available)\n- Hallway\n- Bathroom\n\nEntrance Floor:\n- Kitchen, living room, bathroom, hallway, laundry room\n- Large glazed space (extra living area)\n- Outdoor garden with BBQ access\n\nMonthly Rent: 6,000 SEK\nIncludes:\n- Electricity, heating, water, high-speed Wi-Fi\n- Washing machine, fully equipped kitchen\n- Furnished room and shared common spaces\n- Parking(+200SEK if access is desired)\nOr guest free parking place is available outside the house. \n\nWe speak Swedish, English, and Spanish. Contact me for more info!\n--------------------------\nVi erbjuder ett fullt möblerat rum i vårt fina hus, beläget i ett av Angereds mest attraktiva villaområden – Storås Ängar. Området är lugnt och mysigt, med bara 5 minuters promenad till Angered Centrum.\n\nÖvervåning:\nTre fullt möblerade sovrum (två lediga just nu)\nGemensamt badrum (toalett och dusch)\nHall\n\nEntrévåning:\nHall, vardagsrum, fullt utrustat kök, badrum, tvättrum med tvättmaskin och torkskåp\nInglasat utrymme med utsikt mot trädgården\n\nUtomhus:\nEn fin trädgård på baksidan där du kan sola dig, njuta av en kopp kaffe eller grilla på sommaren\nAltan på framsidan, perfekt för frukost i solskenet\nEgen parkeringsplats bredvid huset\n\nOm oss:\nHuset är ca 160 kvm och för närvarande bor två inneboende här, var och en med sitt eget rum och privat nyckel. Det tredje rummet är ledigt just nu (med egen nyckel). Vi är lugna, pålitliga personer med heltidsjobb, så vi är oftast borta under dagarna och kommer hem på eftermiddagen.\n\nVi håller gemensamma utrymmen rena och ordningsamma för en trivsam miljö\nIngen rökning eller djur tillåts inomhus\n\nMånadshyra: 6 000 kr\nHyran inkluderar:\nEl, värme, vatten, internet, tvättmöjligheter\nFullt möblerat rum och fullt utrustat kök\nPrivat Parkering(+300kr om tillgång önskas), annars finns gratis gäst parkering precis utanför huset i mån av plats.\nVi talar, Svenska, Engelska och Spanska\n\nÄr du intresserad eller har frågor? Kontakta mig gärna för mer information!",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5660,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T07:44:00+00:00", "clock": "07:44:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T08:49:31+00:00", "clock": "08:49:31"};
