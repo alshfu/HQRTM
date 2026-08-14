@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Slätten, Göteborg",
+    "url": "https://qasa.com/p/1435570",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/da7c390c42290478bce2f8293fb14528d403837b30ccd46401ab6952fdc2596d.png",
+    "description": "Ljus och välplanerad 1:a på ca 31 kvm i Lunden. Lägenheten är en trivsam vindslägenhet med kök i öppen anslutning till rummet och separat badrum. Den är i bra skick och hyrs ut delvis möblerad. Möbleringen kan anpassas efter behov och det finns möjlighet att ta med egna möbler. Passar bra för en person eller ett par.\n\nDet finns bra förvaringsmöjligheter och förråd hör till lägenheten. I fastigheten finns även gemensam tvättstuga. Värme och vatten ingår i hyran, medan el och internet ordnas separat av hyresgästen.\n\nJag planerar att hyra ut lägenheten i andra hand under ungefär ett år, med planerad inflyttning omkring 1 november. Exakt datum kan diskuteras. Uthyrningen sker under förutsättning att hyresvärden godkänner andrahandsuthyrningen.\n\nJag söker gärna någon lugn och pålitlig som vill trivas i lägenheten och ta väl hand om den under hyresperioden.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kvillegatan, Göteborg",
+    "url": "https://qasa.com/p/1438875",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5f429fed27b10004b4a066ee64e0e2ae97960387802a4724a2052378b16ab83.jpg",
+    "description": "Härlig 2-rumslägenhet i Kvillebäcken. Stor vardagsrum med bord, soffan, köksbord. Sovrum med garderoben och stor säng. \nKöket nyrenoverat med spis, kyl/frys, micro.\nBadrum med dush, tvättmaskin och torktumlare. \nBra förbindelsen från Backaplan, enkelt att ta sig till staden, 5 min med buss, spårvagn, cykeln.\n\nVatten och el tillkommer efter eget förbrukning.  Ca. 300 kr/månaden.\nInternet ingår i hyran.\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hansebräckavägen, Styrsö",
     "url": "https://qasa.com/p/1438801",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f9962e2911d2c46733ec5fa4a690e472f69cd779395cb8430067fcafe367594.jpg",
@@ -48,21 +78,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Högsbogatan, Göteborg",
-    "url": "https://qasa.com/p/1438658",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/086d91f0bd09b6af0f441668f9a4cb5e835ab62d116508fe3fa4eebca8e96a96.png",
-    "description": "Nu kommer denna natursköna pärla med citykänsla att erbjudas i populära Högsbo. En 60 kvadratmeters gaveltvåa.\n\nDet smakfulla kvalitétsköket från Marbodal som går i\nen klassisk och stilren design. Här finns gott om arbetsyta samt förvaringsmöjligheter för kökets alla redskap.\nKökets maskinella utrustning består utav vitvaror från märket Bosch och innefattar kyl/frys, varmluftsugn och mikro i arbetshöjd, induktionshäll samt diskmaskin. Invid kökets halvvägg finns en\nnaturlig plats att inreda för ett större matbord dukat till ca 4-6 sällskap.\nI anslutning till köket ligger vardagsrummet och man slås direkt utav den öppna och sociala planlösningen mellan de två rummen.\nLoggian, som är en förlängning av vardagsrummet med fönster åt tre olika väderstreck, kan användas som hobbyrum, sovrum, ateljé eller bara en trevlig plats att avnjuta ett glas vin på.\nLägenhetens trivsamma sovrum, med ingång från hallen, har plats för en större säng med kompletterande nattduksbord. Gott om förvaring erbjuds i form av tre stora garderober.\nFrån entrén nås även det stilrena badrummet som är fräscht och utformat i en tidlös design, inredningen är från Vedum. Ytan är väldisponerad med både en tvättmaskin och torktumlare för att underlätta i vardagen. Den övriga utrustningen består utav handfat med kommod och ovansittande spegelskåp, wc, handdukstork, dusch med badkar samt golvvärme som både torkar upp och värmer gott under fötterna.\n\nOm bostaden\nByggnaden byggdes år 2008.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 12200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Orrebacksgatan, Göteborg",
     "url": "https://qasa.com/p/1438560",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94f04656ba52b69f49f7ad63223dfb0d70567357a80acec1aa2e393533a9bf37.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Breviksvagen, Goteborg",
-    "url": "https://qasa.com/p/1438577",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f16ca995d7f08ebd1a6cef01a799587d7c3ab7dcdd054f73f60132b00ba1e46.jpg",
-    "description": "Hyr ut till kvinnlig student ett nybyggt hus som är del av en gård från 1800-talet. Öppen planlösning med kök och vardagsrum och sovdel en trappa upp. 10 minuter till badplats och 10 km till centrum. ",
-    "district": "Goteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 6300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T13:53:25+00:00", "clock": "13:53:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T14:46:35+00:00", "clock": "14:46:35"};
