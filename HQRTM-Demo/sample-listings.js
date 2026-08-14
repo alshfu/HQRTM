@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bohusgatan, Göteborg",
+    "url": "https://qasa.com/p/1438413",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/950f7e8c7d861b40ed5d84bbc7319719797d69633711c17486d04312d60934c8.jpg",
+    "description": "Ljus och modern 2:a med balkong – centrala Göteborg\n\nLjus och välplanerad, helt nyproducerad 2:a om 38 kvm på 9:e våningen, med fin utsikt över Göteborg. Öppen planlösning mellan kök och vardagsrum, separat sovrum med inbyggda garderober samt rymlig balkong.\n\nLägenheten är helt ny med fullt utrustat kök, bra förvaring och badrum med kombinerad tvättmaskin/torktumlare. Bredband ingår i hyran.\n\nCentralt läge med gångavstånd till Avenyn, Ullevi, restauranger och kollektivtrafik.\n\nMöblering: flexibelt och kan anpassas efter önskemål\nHyresperiod: Långsiktigt, gärna minst ett år",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 38.0,
+    "rent": 13500,
+    "floor": 9,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Volrat Thamsgatan, Göteborg",
+    "url": "https://qasa.com/p/1438441",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca38a7bda81fdb76a71e132c10f6c32faa25828e66d48f281be7e74117e459ab.jpg",
+    "description": "Hyr ut ett rum i min lägenhet. Tillgång till badrum, kök och vardagsrum ingår också. \n\nJag kommer inte vistas särskilt mycket i bostaden under perioden, du kommer mestadels ha lägenheten för dig själv. \n\nMöjlighet till förlängning finns ej. Passar utmärkt till en student som behöver något kortvarigt i väntan på permanent bostad. \n\nRummet är delvis möblerat (bilderna är gamla). ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Föreningsgatan, Göteborg",
+    "url": "https://qasa.com/p/1438392",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d42b5e78cab449129556bba55573ec51707fc6454ff81bff2eb4e96ccd08d46.jpg",
+    "description": "Ljus och välplanerad etta på 34 m² med öppen planlösning där kök, vardagsrum och sovdel bildar en trivsam och funktionell helhet.\nLägenheten ligger på bottenvåningen med ingång från innergården. Bostaden är centralt belägen i Vasastan med närhet till restauranger, caféer, butiker och goda kommunikationer.\nI hyran ingår el, värme och bredband.\nBostaden passar bäst för en person som söker ett bekvämt och centralt boende med närhet till det mesta Göteborg har att erbjuda.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 10800,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Badvädersgatan, Göteborg",
     "url": "https://qasa.com/p/1438373",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c34a4f8ecb618f981d8dfbf9905b72297b8946e423d3f855e38c5b4cc5fd6f9.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Salsavägen, Angered",
-    "url": "https://qasa.com/p/1438148",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a6b59b926718b211bad59fe64e9839c5dbe081f0286cb35ac42fb2f37c83cec.jpg",
-    "description": "Room in a Shared House – Available Now!  \nWe’re looking for a calm, clean, pet-free, and non-smoking male tenant to rent a fully furnished room in our spacious 160 m² house. You’ll share the kitchen, living room, and bathroom with two other tenants.  \n\nAbout Us: \nWe’re friendly, respectful, and have full-time jobs or studies. The house is ideally located near trams, buses, grocery stores, gyms, the library, and nature. 15 minutes to the central station by tram, with departures every 10 minutes.\n\nUpper Floor:  \n- Three bedrooms (Only two available for rent)  \n- Hallway  \n- Bathroom( Only two tenants in total will be sharing)\n\nEntrance Floor:  \n- Kitchen, living room, bathroom, hallway, laundry room  \n- Large glazed space (extra living area)  \n- Outdoor garden with BBQ access  \n\nMonthly Rent: 6,000 SEK\nIncludes:\n- Electricity, heating, water, high-speed Wi-Fi  \n- Washing machine, fully equipped kitchen  \n- Furnished room and shared common spaces\n- Private Parking(+300SEK if access is desired) or guest free parking outside the house are avilable too.\n\nWe speak Swedish, English, and Spanish. Contact me for more info!  \n--------------------------\nVi erbjuder ett fullt möblerat rum i vårt fina hus, beläget i ett av Angereds mest attraktiva villaområden – Storås Ängar. Området är lugnt och mysigt, med bara 5 minuters promenad till Angered Centrum.\n\nÖvervåning:\nTre fullt möblerade sovrum (endast två sovrum till uthyrning)\nGemensamt badrum (toalett och dusch som delar två personer totalt) \nHall\n\nEntrévåning:\nHall, vardagsrum, fullt utrustat kök, badrum, tvättrum med tvättmaskin och torkskåp\nInglasat utrymme med utsikt mot trädgården\n\nUtomhus:\nEn fin trädgård på baksidan där du kan sola dig, njuta av en kopp kaffe eller grilla på sommaren\nAltan på framsidan, perfekt för frukost i solskenet\nEgen parkeringsplats bredvid huset\n\nOm oss:\nHuset är ca 160 kvm, alla sovrum har eget privat nyckel till sina rum. Vi är lugna, pålitliga personer med heltidsjobb, så vi är oftast borta under dagarna och kommer hem på eftermiddagen.\n\nVi håller gemensamma utrymmen rena och ordningsamma för en trivsam miljö\nIngen rökning eller djur tillåts inomhus\n\nMånadshyra: 6 000 kr\nHyran inkluderar:\nEl, värme, vatten, internet, tvättmöjligheter\nFullt möblerat rum och fullt utrustat kök\nPrivat Parkering(+300kr om tillgång önskas) eller så finns det gratis gäst parkering precis utanför huset.\n\nVi talar, Svenska, Engelska och Spanska\n\nÄr du intresserad eller har frågor? Kontakta mig gärna för mer information!",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5660,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Åslyckevägen, Göteborg",
-    "url": "https://qasa.com/p/1438181",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f92cd94fcbf5a46587079e7a96c2aeccdc656dc44622ac8bd5ee824a60d09a41.jpg",
-    "description": "Källare uthyres – trivsamma Tuve\n\nVi hyr ut vår källare på Åslyckevägen 12B i trivsamma Tuve för 9 500 kr/mån.\n\nHär bor du i ett lugnt och trevligt område med nära till mataffärer, service, restauranger och annan vardagsservice. Samtidigt är det smidigt att ta sig in till centrala Göteborg – stan når du på cirka 20 minuter.\n\nI hyran ingår allt – värme, el, internet och parkering, så du slipper tänka på flera extra kostnader varje månad.\n\nDet finns även uteplats som kan användas för att koppla av, grilla eller umgås med vänner.\n\nHyra: 9 500 kr/mån\nVärme, el och internet ingår\nParkering ingår\nUteplats finns\nNära affärer och service\nCirka 20 minuter till centrala Göteborg\n\nVid intresse, skicka gärna ett meddelande för mer information och visning.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 90.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmegatan 7, Göteborg",
-    "url": "https://qasa.com/p/1438237",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b60a16565220fd30a101ddaa967177770db87ce60cbd5c02569ab63ec375d1e4.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom planritning  (som är på ingång) och exempelbilder. *Ingen fysisk visning* \n\nDenna lägenhet hyrs ut med snabb inflytt, tillträdesdatum går ej att ändra på.\n\nOM LÄGENHETEN\nVälkommen till denna rymliga 5rok på 91kvm! \n\n**Lägenheten har inga riktiga bilder utan endast exempelbilder då det genomförs ett willhemlyft (en totalrenovering)**. \n\nExempelbilderna visar på hur väggar, golv och vitvaror kommer att se ut men går inte efter den sanna planritningen. Lägenheten kommer att ha ett modernt kök med rostfria vitvaror och en gashäll, alltså inte en spishäll som syns på exempelbilden. Gasspisen går ej att få utbytt till en vanlig spis. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin. Balkongen hittar man från badrummet. \n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering. \n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband, gas och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 91.0,
-    "rent": 12050,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T05:59:09+00:00", "clock": "05:59:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T07:44:00+00:00", "clock": "07:44:00"};
