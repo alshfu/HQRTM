@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brödragatan, Göteborg",
+    "url": "https://qasa.com/p/1438739",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c95c104d8aa6a28aefb208954dedb8e1989fba004eb0b6abe5480124fc7b4d96.jpg",
+    "description": "Rum med hall och toalett i gammal villa med stor trädgård lugn miljö nära centrala staden, våning 1. Egen ingång. Kokmöjligheter i separat källarrum med tillgång till kyl, liten fryslåda, tvättmaskin. Uteplats. Internet. Bra kommunikationer, spårvagn, buss.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 20.0,
+    "rent": 4800,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Longitudvägen, Torslanda",
+    "url": "https://qasa.com/p/1436853",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3300b03afcaea99db1082c8d478f82d9ffee64ca69ea3929106b351add761b89.jpg",
+    "description": "Naturskönt boende i skärgården.\nEtt tillfälle att hyra ett charmigt boende i den natursköna Andalen. Detta hem är beläget i ett lugnt och eftertraktat område med närhet till både natur och bekvämligheter.\nPå två våningar erbjuder detta boende en balkong och en trevlig uteplats där du kan njuta av den vackra omgivande naturen och koppla av under sommarkvällarna. Med närheten till badplatser och en golfbana finns det också möjlighet till olika fritidsaktiviteter.\nBoendet har två badrum och två sovrum, vilket ger bekvämlighet och tillräckligt med utrymme för en liten familj eller ett par. Dessutom har bostaden genomgått en nyrenovering för att säkerställa moderna bekvämligheter och en trivsam atmosfär.\nSammanfattningsvis är detta boende en utmärkt möjlighet för dig som söker en lugn tillflyktsort nära naturen. Med dess bekväma läge och välkomnande atmosfär kan det bli ditt perfekta tillfälliga hem.\n\nBostaden fungerar för max 3 vuxna eller 2 vuxna med 2 barn.\n\nTill bostaden finns även särskild elbilsladdare.\n\nI hyran ingår värme, vatten, sophämtning och wifi.\nKostnad för hushållsel och ev billaddning tillkommer.\n\nKommunikationer:\nNärmaste busshållplats: Gossbydalsvägen (cykla 6 minuter, gå 23 minuter). Därifrån:\n- till Järnvågen 20 minuter\n- till Sörredsmotet 10 minuter\nAmhults resecentrum - Lindholmen 17 minuter\nGo by car to Volvo City: 17 minutes\nGo by bike to Volvo City: 29 minutes\n",
+    "district": "Torslanda",
+    "rooms": 4.0,
+    "area_m2": 110.0,
+    "rent": 16500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Högsbogatan, Göteborg",
     "url": "https://qasa.com/p/1438658",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/086d91f0bd09b6af0f441668f9a4cb5e835ab62d116508fe3fa4eebca8e96a96.png",
@@ -26,6 +56,21 @@ window.HQRTM_SAMPLE = [
     "rooms": 1.0,
     "area_m2": 30.0,
     "rent": 7300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ahrenbergsgatan 10 B, Göteborg",
+    "url": "https://qasa.com/p/1438730",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/85b149e6e6af3b7c63d0e8a4b4e96c8d49e27565369c2e60c1113016a40417c5.jpg",
+    "description": "Här erbjuds en 2 rok som just nu genomgår en omfattande renovering. Lägenheten renoveras enligt Balders HEM-koncept med ett välutrustat kök från Noblessa och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett. Observera att bilderna i annonsen är exempelbilder.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 9127,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solrosgatan 13 A, GÖTEBORG",
-    "url": "https://qasa.com/p/1438688",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/62178b385f57c5c0082917ca69d393b6539ce1f3ef16a40a57d8b9249d5ac902.jpg",
-    "description": "Här ges möjlighet att hyra en etagelägenhet med 4 rum och kök på 106 kvadratmeter. Lägenheten renoverades enligt Balders HEM-koncept år 2021 med ett välutrustat kök och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett.\n\nObservera att bilderna i annonsen är exempelbilder.\n\n",
-    "district": "GÖTEBORG",
-    "rooms": 4.0,
-    "area_m2": 106.0,
-    "rent": 14803,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Drivhusgatan, Göteborg",
-    "url": "https://qasa.com/p/1438515",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9689e883056de70b2da826ef2edadc0b0ce83c52740148e8939ffe92d8cd3515.jpg",
-    "description": "Hejsan! jag hyr ut min fin tvåa, här får ni beskrivningen: \n\nHögst upp på Drivhusgatan 7 i Brf Drivhusgatan välkomnas ni in i denna välbevarade tvåa! När ni kliver in i hallen slås ni av den hemtrevliga känslan som präglar detta hem.\n\nHär finns gott om plats för både avhängning, och avlastningsmöbel. De vita väggarna möter en ljus parkett.\n\nRakt fram från hallen når ni det trivsamma köket! Köket pryds av en vit nyans tillsammans med en praktisk bänkskiva i ek som möts av vitt kakel på väggen mellan bänkskivan och skåpen som stänkskydd. Köket är utrustat med kyl/frys, induktionshäll, ugn, kolfilterfläkt och bänkdiskmaskin. \n\nFrån köksfönstret där matbordet har sin givna plats, följer ni väder och årstider och tack vare läget mot den lummiga innergården får ni en trevlig överblick över den ljuvliga innergården. Gedigen plankgolv ger ett vackert intryck!\n\nTill höger från hallen nås hemmets hjärta, nämligen det trivsamma vardagsrummet. Vacker slipad fiskbensparkett i original kombinerat med den vita nyansen på rummets väggar berikar hemmet med charm. Det rymliga rummet är lätt att möblera. \nHär får ni plats med såväl soffgrupp med tillhörande möblemang samt bokhyllor och avlastningsmöbel. \nFramför det stora fönstret som bjuder på ett ljuvligt ljusinsläpp får även ett rymligt matsalsbord plats. Här har man chans att skapa oförglömliga minnen i goda vänners lag!\n\nPå andra sidan bostaden, med ett stort fönster beläget in mot den mysiga innergården, finns sovrummet. Ännu ett härligt rum med ett rofyllt lugn. Väggarna pryds av en lugnande kulör. Slipad fiskbensparkett löper även i detta rum. Här ryms dubbelsäng med nattduksbord och klädförvaringen har sin plats i garderober. \n\nFrån hallen nås också badrummet som går i smakfulla färg- och materialval, renoverat av föreningen 2014. Helkaklat i diskret färgsättning gör det enkelt att inreda. Här finns dusch med smidig fast glasvägg, wc-stol, handfat med tillhörande kommod samt extra förvaring i vägghängt skåp.\n\nTill bostaden hör två förråd! Ett på vinden och ett i källaren, det råder således inte brist på förvaring till denna bostad!\n\nI omtyckta Almedal ligger denna välplanerade tvåa. Ljusa ytskikt, tjusigt kök och renoverat badrum i föreningens regi. \nEn bostad i ypperligt skick! Lummig, gemensam innergård landshövdingeanda med grillplats och utemöbler. \nI samma uppgång finns tvättstuga/torkrum samt vinds- och källarförråd. Någon minuts promenad till buss- och spårvagnshållplats som trafikeras av flertalet linjer med några få minuters resväg till city. \nKnappa 10 minuters promenad till Liseberg och både Chalmers och Avenyn inom behagligt promenadavstånd. Flertalet matvarubutiker i närområdet såsom Willys, ICA Maxi, Coop samt till träningsanläggningar. Södra Centrum är ett växande kvarter där restauranglivet, butiker och café har expanderat sina verksamheter senaste två åren.\n\nVälkommen att uppleva denna landshövdingedröm!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ernst Torulfsgatan, Göteborg",
-    "url": "https://qasa.com/p/1438501",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0bf8f79c1ec90f3475dd2530cd98e7fcbcbd6fd3161063925c349508f7f37be4.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13628 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/tfd9viitc6ujk6gha10c/vastra-gotaland/goteborg/ernst-torulfsgatan-1a/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nJag hyr ut min fina lägenhet i Munkebäck.\r\n\r\n📍 43 kvm\r\n\r\n🌿 Balkong\r\n\r\n🛋️ Fullt möblerad\r\n\r\n🚋 Ca 1 minut till spårvagn/buss\r\n\r\n📅 Uthyres 6–12 månader\r\n\r\n📺 TV och internet ingår i hyran\r\n\r\n\r\nLägenheten passar dig som söker ett bekvämt och smidigt boende med bra kommunikationer.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13628 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 43.0,
-    "rent": 12986,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T11:31:13+00:00", "clock": "11:31:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T12:25:15+00:00", "clock": "12:25:15"};
