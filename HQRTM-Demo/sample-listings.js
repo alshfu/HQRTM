@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Grästuvevägen, Göteborg",
+    "url": "https://qasa.com/p/1439032",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/633912f979cdc11f82219a3da512baa0f6c3ac1b9f0934f69e7bf6e22cb5ad2e.jpg",
+    "description": "Förstahandskontrakt på centrala Hisingen!\nEn källarlägenhet med nyrenoverat och fullt utrustat kök, ett stort vardagsrum/sovrum, ett badrum och ett stort förrådsrum.\n\n8000kr/mån och då ingår: sophantering, försäkring, parkering, vatten,  vattenburen värme, wifi, möblering, etc. Den enda kostnad som tillkommer är för hushållsel.\n\nUpplägg: lägenheten ligger i källaren till vårt bostadshus, men är helt fristående bostadshuset, dvs egen ingång, eget kök, egen dusch, etc. Ingen genomgång från bostadshuset till lägenheten.\n\nPlus:\n+ Förstahandskontrakt på centrala Hisingen! Möjlighet att hyra i 2+ år.\n+ Lägenheten har ett väldigt funktionellt och fräscht kök.\n+ Cykelväg precis utanför lägenheten. Bra cykelavstånd till Volvo, Lindholmen och centrala Göteborg.\n+ Väldigt bra kommunikationer med buss 17 precis utanför lägenheten.\n+ Lägenheten ligger precis intill Hisingsparken med väldigt fina löpspår\n+ Bostadshuset har en stor tomt med tillhörande uteplats, grill, etc, som hyresgäst kan använda i samråd med hyresvärd\n+ Närhet till FANTASTISK hyresvärd (som bor i bostadshuset ovanför lägenheten)\n\nMinus:\n- Bristande ljudisolering mellan våningsplanen\n- Endast källarfönster i lägenheten (dock två av dem i söderläge)\n\nVid intresse: svara på annonsen med en liten beskrivning om vem du är och om din situation.\n\nVäl mött!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Halsviksvägen, Styrsö",
+    "url": "https://qasa.com/p/1383123",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c5408053306cb443643df879923888551e44c117abb3b40bd6ba90f6652781c.jpg",
+    "description": "Trevlig, möblerad och välutrustad lägenhet i renoverat kaptenshus från 1909. Mindre än 50 meter till havet, fantastisk utsikt. Närhet till skola, drottsanläggning och vandringsstigar. Privatbilar inte tillåtna på ön men golfbilar. Styrsö är ett fungerande samhälle med två mataffärer, förskola, skola, vårdcentral, tandläkare, bibliotek mm och ett rikt föreningsliv. 20 minuters promemad till skärgårdsbåten som tar dig till fastlandet  och spårvagn eller buss på 20 minuter. \nJag bor själv i bostaden men kommer att bo i Göteborg under uthyrningsperioden. Sommaren 2027 kommer jag tillbaka och från hösten 27 hyr jag ut helårsvis.\nI hyran ingår vatten, sophämtning och wifi. Kostnad för el tillkommer, ca 2000-2500 kronor i månaden. Lägenheten är renoverad, välisolerad med treglasfönster och värms upp huvudsakligen av en luftvärmepump. Stor hall. Stor tvättstuga med tvättmaskin. Stort badrum med dusch och toalett. Köket har öppen planlösning med en stor veranda med stor altan utanför. Sovrum med 140-säng och 90-säng. Bäddsoffa i vardagsrummet. Trädgård med gräsmatta. Lägenheten passar en liten familj, max 4 personer, eller studenter. Hyran är 9500 kronor + el per månad. Hyresgästen behöver en egen hemförsäkring. \nKontakta mig gärna för ett besök, om intresse finns. \nHälsningar Karin Ipsen ",
+    "district": "Styrsö",
+    "rooms": 2.5,
+    "area_m2": 70.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Thorburnsgatan, Göteborg",
     "url": "https://qasa.com/p/1433848",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brödragatan, Göteborg",
-    "url": "https://qasa.com/p/1438739",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c95c104d8aa6a28aefb208954dedb8e1989fba004eb0b6abe5480124fc7b4d96.jpg",
-    "description": "Rum med hall och toalett i gammal villa med stor trädgård lugn miljö nära centrala staden, våning 1. Egen ingång. Kokmöjligheter i separat källarrum med tillgång till kyl, liten fryslåda, tvättmaskin. Uteplats. Internet. Bra kommunikationer, spårvagn, buss.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 20.0,
-    "rent": 4800,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Longitudvägen, Torslanda",
-    "url": "https://qasa.com/p/1436853",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3300b03afcaea99db1082c8d478f82d9ffee64ca69ea3929106b351add761b89.jpg",
-    "description": "Naturskönt boende i skärgården.\nEtt tillfälle att hyra ett charmigt boende i den natursköna Andalen. Detta hem är beläget i ett lugnt och eftertraktat område med närhet till både natur och bekvämligheter.\nPå två våningar erbjuder detta boende en balkong och en trevlig uteplats där du kan njuta av den vackra omgivande naturen och koppla av under sommarkvällarna. Med närheten till badplatser och en golfbana finns det också möjlighet till olika fritidsaktiviteter.\nBoendet har två badrum och två sovrum, vilket ger bekvämlighet och tillräckligt med utrymme för en liten familj eller ett par. Dessutom har bostaden genomgått en nyrenovering för att säkerställa moderna bekvämligheter och en trivsam atmosfär.\nSammanfattningsvis är detta boende en utmärkt möjlighet för dig som söker en lugn tillflyktsort nära naturen. Med dess bekväma läge och välkomnande atmosfär kan det bli ditt perfekta tillfälliga hem.\n\nBostaden fungerar för max 3 vuxna eller 2 vuxna med 2 barn.\n\nTill bostaden finns även särskild elbilsladdare.\n\nI hyran ingår värme, vatten, sophämtning och wifi.\nKostnad för hushållsel och ev billaddning tillkommer.\n\nKommunikationer:\nNärmaste busshållplats: Gossbydalsvägen (cykla 6 minuter, gå 23 minuter). Därifrån:\n- till Järnvågen 20 minuter\n- till Sörredsmotet 10 minuter\nAmhults resecentrum - Lindholmen 17 minuter\nGo by car to Volvo City: 17 minutes\nGo by bike to Volvo City: 29 minutes\n",
-    "district": "Torslanda",
-    "rooms": 4.0,
-    "area_m2": 110.0,
-    "rent": 16500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T18:28:29+00:00", "clock": "18:28:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T19:30:53+00:00", "clock": "19:30:53"};
