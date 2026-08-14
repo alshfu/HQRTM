@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Breviksvagen, Goteborg",
+    "url": "https://qasa.com/p/1438577",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7f16ca995d7f08ebd1a6cef01a799587d7c3ab7dcdd054f73f60132b00ba1e46.jpg",
+    "description": "Hyr ut till kvinnlig student ett nybyggt hus som är del av en gård från 1800-talet. Öppen planlösning med kök och vardagsrum och sovdel en trappa upp. 10 minuter till badplats och 10 km till centrum. ",
+    "district": "Goteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 6300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Folkungagatan, Göteborg",
+    "url": "https://qasa.com/p/1438546",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dab9978bba9202070a5d21f2f2c683fabc27c951517e76884063bfea5205388.jpg",
+    "description": "En hyresrätt som känns som en bostadsrätt\nGammalt möter nytt\nNyrenoverat kök och badrum, nymålat i hela lägenheten\nFiskbensparkett\nStuckatur\nGenomgående\nHögt i tak\nSmal balkong ut mot Folkungagatan\n\n1 kök med diskmaskin\nBadrum med tvättmaskin\nSovrum 1 fönster mot innergården\nSovrum 2 mindre och fönster mot gatan\nStort vargdagsrum\nMellanrum mellan vardagsrum och sovrum\nInbyggda garderober\n\nMysig innergård \nLiten lekplats för de minsta\n\nGöteborg centralstation: 8min gångväg \nUllevi Norra: 1 min gångväg\nHeden: 15 min \n\nOBS! hyresgästen ska bli godkänd av vår hyresvärd Skandia Fastigheter.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Drivhusgatan, Göteborg",
     "url": "https://qasa.com/p/1438515",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9689e883056de70b2da826ef2edadc0b0ce83c52740148e8939ffe92d8cd3515.jpg",
@@ -11,6 +41,21 @@ window.HQRTM_SAMPLE = [
     "rooms": 2.0,
     "area_m2": 50.0,
     "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Höstvädersgatan 63, Göteborg",
+    "url": "https://qasa.com/p/1438613",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c479af52c165038abd83e5ae4d4b5612b294d3e7f412121a0de911b31e2aa05.jpg",
+    "description": "OM LÄGENHETEN\nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten är under renovering och kommer ej att visas. Lägenheten renoveras enligt Willhemlyftet och kommer att få ett uppdaterat badrum. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin. Det kommer även installeras nya ytskikt och ekparkett samt klinker i hall - allt noga utvalt och varsamt installerat av våra proffsiga hantverkare. Det kommer även finnas ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. \n\nOBS! Denna lägenhet annonseras med snabb inflyttning. Inflyttningsdatumet är fast och kan inte ändras.\n\nOM OMRÅDET\nHär bor du ett stenkast från centrala Göteborg dit du enkelt tar dig på en kvart med kollektivtrafiken. I Biskopsgården finns närhet till grönområden, matbutik och restauranger.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå där värme och vatten ingår. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.  \n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 79.0,
+    "rent": 10841,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ugglegården 36, Göteborg",
-    "url": "https://qasa.com/p/1438529",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ff981cc6ce6d5568a95c3bf80bb5b6655d9fd7cddaae50cb9c8aa58ce088f1ca.jpg",
-    "description": "Lägenhet om 4 rum och kök fördelat på 98 kvadratmeter. Helkaklat badrum med tvättmaskin och torktumlare samt handdukstork. Köket är utrustat med inbyggd mikrovågsugn samt diskmaskin. Genomgående i lägenheten finns ekparkett samt vitmålade väggar.\n\nInflyttningsdatum 1oktober 2026\n\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 98.0,
-    "rent": 17817,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Föreningsgatan, Göteborg",
-    "url": "https://qasa.com/p/1438392",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d42b5e78cab449129556bba55573ec51707fc6454ff81bff2eb4e96ccd08d46.jpg",
-    "description": "Ljus och välplanerad etta på 34 m² med öppen planlösning där kök, vardagsrum och sovdel bildar en trivsam och funktionell helhet.\nLägenheten ligger på bottenvåningen med ingång från innergården. Bostaden är centralt belägen i Vasastan med närhet till restauranger, caféer, butiker och goda kommunikationer.\nI hyran ingår el, värme och bredband.\nBostaden passar bäst för en person som söker ett bekvämt och centralt boende med närhet till det mesta Göteborg har att erbjuda.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 10800,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Badvädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1438373",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c34a4f8ecb618f981d8dfbf9905b72297b8946e423d3f855e38c5b4cc5fd6f9.jpg",
-    "description": "En möblerad lägenhet med två sovrum, ett badrum och ett kök. Lägenheten är utrustad med möbler, TV, Wi-Fi och köksutrustning.\nI området finns en gemensam tvättstuga med tvättmaskiner och torktumlare. Det är enkelt att boka tvättid.\nLägenheten ligger nära centrum, med goda kommunikationer. Spårvagnar och bussar tar dig till centralstationen på cirka 17 minuter. I närheten finns mataffärer, apotek och bensinstation.\nOmrådet erbjuder även fina naturstigar för promenader, lekplats för barn samt en pizzeria.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 67.0,
-    "rent": 12999,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T08:49:31+00:00", "clock": "08:49:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T09:47:08+00:00", "clock": "09:47:08"};
