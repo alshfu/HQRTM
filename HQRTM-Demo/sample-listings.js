@@ -48,9 +48,24 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Ernst Torulfsgatan, Göteborg",
+    "url": "https://qasa.com/p/1438501",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0bf8f79c1ec90f3475dd2530cd98e7fcbcbd6fd3161063925c349508f7f37be4.png",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13628 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/tfd9viitc6ujk6gha10c/vastra-gotaland/goteborg/ernst-torulfsgatan-1a/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nJag hyr ut min fina lägenhet i Munkebäck.\r\n\r\n📍 43 kvm\r\n\r\n🌿 Balkong\r\n\r\n🛋️ Fullt möblerad\r\n\r\n🚋 Ca 1 minut till spårvagn/buss\r\n\r\n📅 Uthyres 6–12 månader\r\n\r\n📺 TV och internet ingår i hyran\r\n\r\n\r\nLägenheten passar dig som söker ett bekvämt och smidigt boende med bra kommunikationer.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13628 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 43.0,
+    "rent": 12986,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Höstvädersgatan 63, Göteborg",
     "url": "https://qasa.com/p/1438613",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c479af52c165038abd83e5ae4d4b5612b294d3e7f412121a0de911b31e2aa05.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cd414ba979d6fc7c2ad8df2ed37599854c704cd1ddd0d79288a1d1f600e06223.jpg",
     "description": "OM LÄGENHETEN\nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten är under renovering och kommer ej att visas. Lägenheten renoveras enligt Willhemlyftet och kommer att få ett uppdaterat badrum. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin. Det kommer även installeras nya ytskikt och ekparkett samt klinker i hall - allt noga utvalt och varsamt installerat av våra proffsiga hantverkare. Det kommer även finnas ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. \n\nOBS! Denna lägenhet annonseras med snabb inflyttning. Inflyttningsdatumet är fast och kan inte ändras.\n\nOM OMRÅDET\nHär bor du ett stenkast från centrala Göteborg dit du enkelt tar dig på en kvart med kollektivtrafiken. I Biskopsgården finns närhet till grönområden, matbutik och restauranger.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå där värme och vatten ingår. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.  \n\nVälkommen att söka!",
     "district": "Göteborg",
     "rooms": 4.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Platågatan 3B, GÖTEBORG",
-    "url": "https://qasa.com/p/1438549",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe78db498a8bf9c668c9564695eb41d54d83e3ea045101f88c1d7314cd435f6f.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet med 2 rum och kök på 46 kvm. Lägenheten renoverades enligt Balders HEM-koncept år 2024 med ett välutrustat kök och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett. Observera att bilderna i annonsen är exempelbilder.\n\nOMGIVNING\nPlatågatan 3 B ligger i hjärtat av lunden. För att ta sig upp till lägenheten så är det en ganska brant backe, därav namnet platå. Stadsdelen är en gammal stadsdel och tillhör Örgryte-Härlanda, gränsar mellan Olskroken och Bagaregården. Med närhet till både centrum och grönområden. Med gångavstånd till stora grönområden finns tillgång till promenadstigar och en idrottsanläggning.\n\nKOMMUNIKATIONER\nLunden har goda kommunikationsmöjligheter med hjälp av buss med gångavstånd till närmsta hållplats får du tillgång till 60 bussen som går minst var 10:e minut. På bara några minuter tar dig in till centrum från hållplatsen Ingeborgsgatan. Vill du mot populära Redbergsplatsen/olskroken så tar det endast 5 minuter med kollektivtrafiken.\n\nSERVICE\nIca Nära Lunden ligger runt husknuten. Gym, populära glasscafet Lejonet & björnen, caféer, restauranger och skolor finns i närheten.",
-    "district": "GÖTEBORG",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 10067,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T09:47:08+00:00", "clock": "09:47:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T10:43:26+00:00", "clock": "10:43:26"};
