@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hansebräckavägen, Styrsö",
+    "url": "https://qasa.com/p/1438801",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f9962e2911d2c46733ec5fa4a690e472f69cd779395cb8430067fcafe367594.jpg",
+    "description": "Välkomna till ett av Styrsös bästa läge, 500 m till färjeläget Styrsö Tången, där Tångbaren och Restaurang Båtebacken återfinns, med 200 m till ICA och en lekplats samt närhet till ett flertal badplatser. Lägenheten finns på våning 2 i ett helt nyrenoverat hus, renoveringen färdigställdes under våren 2026. Det är en optimal planlösning med två sovrum och två dubbelsängar samt en bäddsoffa finns att tillgå i vardagsrummet. Badrummet har tvättmaskin och balkongen har morgonsol och havsutsikt!\n\nBoendet\nHuset är helt nyrenoverat! Boendet har två sovrum samt och öppet kök och vardagsrum. I vardagsrummet finns en bäddsoffa. 6 bäddar inkluderar bäddsoffan. Badrummet är rymligt och har dusch och tvättmaskin. Köket är utrustat med köksutrustning och ligger i anslutning till balkongen.\n\nBoendet hyrs ut under perioden 1 Sept - 31 Maj. Hyresvärden bor på våningen under och finns enkelt tillgänglig vid behov.\n\nEl och vatten tillkommer till självkostnadspris.",
+    "district": "Styrsö",
+    "rooms": 3.0,
+    "area_m2": 65.0,
+    "rent": 10850,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brödragatan, Göteborg",
     "url": "https://qasa.com/p/1438739",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c95c104d8aa6a28aefb208954dedb8e1989fba004eb0b6abe5480124fc7b4d96.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Folkungagatan, Göteborg",
-    "url": "https://qasa.com/p/1438546",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dab9978bba9202070a5d21f2f2c683fabc27c951517e76884063bfea5205388.jpg",
-    "description": "En hyresrätt som känns som en bostadsrätt\nGammalt möter nytt\nNyrenoverat kök och badrum, nymålat i hela lägenheten\nFiskbensparkett\nStuckatur\nGenomgående\nHögt i tak\nSmal balkong ut mot Folkungagatan\n\n1 kök med diskmaskin\nBadrum med tvättmaskin\nSovrum 1 fönster mot innergården\nSovrum 2 mindre och fönster mot gatan\nStort vargdagsrum\nMellanrum mellan vardagsrum och sovrum\nInbyggda garderober\n\nMysig innergård \nLiten lekplats för de minsta\n\nGöteborg centralstation: 8min gångväg \nUllevi Norra: 1 min gångväg\nHeden: 15 min \n\nOBS! hyresgästen ska bli godkänd av vår hyresvärd Skandia Fastigheter.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 15500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T12:25:15+00:00", "clock": "12:25:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T13:53:25+00:00", "clock": "13:53:25"};
