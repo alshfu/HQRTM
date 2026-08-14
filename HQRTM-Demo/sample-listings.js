@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Thorburnsgatan, Göteborg",
+    "url": "https://qasa.com/p/1433848",
+    "image_url": null,
+    "description": "Jag hyr ut min lägenhet då jag ska på utbytesår. Lägenheten är uppdelad i 3 sektioner med hall, kök och sov/vardagsrum. Det är nära till Maxi, Willys, Liseberg, Gothia Towers och Campus Johanneberg. \n\nHyresgäst bestämd.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skånegatan , Göteborg",
+    "url": "https://qasa.com/p/1439011",
+    "image_url": null,
+    "description": "Öster om heden . Mitt i centrum, spårvagn, buss , ica 2 min. Allt som stan har att erbjuda . Stor balkong i sydväst. Har liten och snäll hund. \nEtt par som jobbar skift. Ibland borta på helger och hela sommaren. Ett rum som står tomt . ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 11.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Slätten, Göteborg",
     "url": "https://qasa.com/p/1435570",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/da7c390c42290478bce2f8293fb14528d403837b30ccd46401ab6952fdc2596d.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Orrebacksgatan, Göteborg",
-    "url": "https://qasa.com/p/1438560",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94f04656ba52b69f49f7ad63223dfb0d70567357a80acec1aa2e393533a9bf37.jpg",
-    "description": "Bostaden uthyres i 2:a hand pga av studier. Det kan bli längre än 1 år. Studierna är planerade att pågå i USA till 2028\nBostaden är 1 rum och kök med eget badrum. \nDet finns wifi för normal användning inte för spel. \nDet är inte tillåtet att röka eller ha husdjur. \nDet är en liten lägenhet för 1 person. \nI hyran ingår allt , inkl el , wifi och möbler. Om så önskas kan några möbler flyttas bort om ni önskar ta med eget. Det kan vi diskutera. \nTvättstuga i källaren. \n\nVi ser gärna lugna hyresgäster som  vill ha lugn o ro. Det är idag väldigt tyst o i ett villa område. Parkering kan erbjudas för  400 kr / mån \nDet är av intresse om någon ”händig” vill bo i lägenheten och vill jobba lite extra i fastigheten som har fler lägenheter. Det kan vara snöskottning, lite trädgårdsarbete, städa trapphus etc ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 7300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ahrenbergsgatan 10 B, Göteborg",
-    "url": "https://qasa.com/p/1438730",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/85b149e6e6af3b7c63d0e8a4b4e96c8d49e27565369c2e60c1113016a40417c5.jpg",
-    "description": "Här erbjuds en 2 rok som just nu genomgår en omfattande renovering. Lägenheten renoveras enligt Balders HEM-koncept med ett välutrustat kök från Noblessa och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett. Observera att bilderna i annonsen är exempelbilder.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 9127,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T17:32:13+00:00", "clock": "17:32:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T18:28:29+00:00", "clock": "18:28:29"};
