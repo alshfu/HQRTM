@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Badvädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1438373",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3c34a4f8ecb618f981d8dfbf9905b72297b8946e423d3f855e38c5b4cc5fd6f9.jpg",
+    "description": "En möblerad lägenhet med två sovrum, ett badrum och ett kök. Lägenheten är utrustad med möbler, TV, Wi-Fi och köksutrustning.\nI området finns en gemensam tvättstuga med tvättmaskiner och torktumlare. Det är enkelt att boka tvättid.\nLägenheten ligger nära centrum, med goda kommunikationer. Spårvagnar och bussar tar dig till centralstationen på cirka 17 minuter. I närheten finns mataffärer, apotek och bensinstation.\nOmrådet erbjuder även fina naturstigar för promenader, lekplats för barn samt en pizzeria.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 12999,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Harald Hjärnesgatan , Göteborg",
+    "url": "https://qasa.com/p/1036518",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8aa0c68ca8629dc2ad3aa55241a52b8c5a459904ad549e01e24dead1c15670a1.jpg",
+    "description": "En välplanerade lägenhet med stort vardagsrum och stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade och badrummet har elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare,  belägen mitt emot entrédörren. \n\nI hyran ingår: El, vatten och bredband\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.  \nGärna att du/ni letar efter ett långsiktigt boende, men är öppen för dialog. \n\nVälkommen att höra av dig vid intresse!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11434,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mölndalsvägen, Göteborg",
     "url": "https://qasa.com/p/1438262",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/422e0e82e05f21b7441d78bbc1f39460a4e235b427eaea98fef66ccb703c25eb.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rubingatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1438078",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e39366a5ed1557d2e90e683f1acd22f71bf4bf5b607225f75e92c65588d8be76.jpg",
-    "description": "Ljus och välplanerad 2:a i Västra Frölunda\n\nVälkommen till denna trevliga och välplanerade 2:a med kök på Rubingatan 23 i Västra Frölunda, som nu uthyres omöblerad.\n\nLägenheten är belägen på andra våningen i ett hus från 1968, utan hiss. Bostaden är smakfullt renoverad och har genomgått stambyte samt fått ett nytt, fräscht badrum. Köket är funktionellt och praktiskt utformat, och det finns även tvättmaskin i lägenheten. För extra bekvämlighet finns dessutom tillgång till gemensam tvättstuga.\n\nHär bor du med ett mycket bra läge, endast cirka 5 minuters promenad till spårvagnen och 10 minuter till Opaltorget. I närområdet finns både förskolor, service och goda kommunikationer som gör vardagen enkel och smidig.\n\nEn hemtrevlig och praktisk bostad i ett attraktivt läge – varmt välkommen att höra av dig! 🌿",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungsladugårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1438041",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/758963d45761692e78e38d66ed6aa03496b4f2fbee0f434a87f59841bd082212.jpg",
-    "description": "Vindsvåning med uteplats i mysigt område vid Slottsskogen nära kommunikationer till centrum.\n\nTvårumslägenhet uthyres i andra hand i ett hus med trädgård i Kungsladugård (läget är fantastiskt - bredvid Slottsskogen, ICA, spårvagn och med cykelavstånd till bland annat Chalmers och Sahlgrenska).\n\nUthyrning sker från 1 september 2026.\n\nLägenheten uthyres möblerad. Värme och el ingår i hyran.\n\nBredband kan ordnas vid behov till extra kostnad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 12300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T04:27:59+00:00", "clock": "04:27:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T05:59:09+00:00", "clock": "05:59:09"};
