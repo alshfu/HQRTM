@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Flöjtgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1439008",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/07de0748be4d613b72ddfa3beccbc5cfc1750b86a38c50237a41d3fb79d1c4b7.jpg",
+    "description": "Lägenheten hyrs ut möblerad och har hall med mindre förråd/klädkammare, badrum med badkar,  kök med matplats, vardagsrum med utgång till balkong i västerläge och stort sovrum med gott om garderobsförvaring. \n\nI hyran ingår allt; värme, vatten, el, internet och parkeringsplats på inhägnat område utomhus.\n\nLägenheten befinner sig i ett lugnt område med 5 min till närmaste spårvagnshållplats där linje 1, 7 och 8 trafikerar. 300m till närmaste mataffär.\n\nBostadsrätten hyrs ut till en person eller ett par pga tillfälligt arbete på annan ort. Andrahandsuthyrningen behöver godkännas av bostadsrättsföreningens styrelse. Uthyrningen gäller cirka ett år, med eventuellt möjlighet till förlängning upp till max två år.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Häggvägen, Torslanda",
+    "url": "https://qasa.com/p/1286597",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/de6e3f0043a2b2e4d5d11ae97bbec0b7347db056d68996e2c3ec5d5b0755d0c5.jpg",
+    "description": "En rum uthyres i populära Lilleby området i Torslanda. \nRum har egen entrén, kök och badrum, fullt utrustat med ugn, spishäll, kyl, tvättmaskin och garderober. Rum renovera från 2021. \n\nGolvvärme i badrum, luftluftvärmpump i rum. \n\n10 min promenad till buss hållplatsen svart\n30 min buss/10km till Göteborg centrum\n4 km till populär sillvik bad\n3 km till Torslanda centrum \n6 km till Amhult Ica Maxi. \n\nIngår i hyran: \n- internet\n- vatten\n- Sop\n- parkering \n-el(utan uppvärmning)\n",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 22.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1439145",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/106bcd18a01807f06f033df3a8c91ca89e128b4a3c5fc3b448143a0f24f106fd.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Thorburnsgatan, Göteborg",
-    "url": "https://qasa.com/p/1433848",
-    "image_url": null,
-    "description": "Jag hyr ut min lägenhet då jag ska på utbytesår. Lägenheten är uppdelad i 3 sektioner med hall, kök och sov/vardagsrum. Det är nära till Maxi, Willys, Liseberg, Gothia Towers och Campus Johanneberg. \n\nHyresgäst bestämd.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skånegatan , Göteborg",
-    "url": "https://qasa.com/p/1439011",
-    "image_url": null,
-    "description": "Öster om heden . Mitt i centrum, spårvagn, buss , ica 2 min. Allt som stan har att erbjuda . Stor balkong i sydväst. Har liten och snäll hund. \nEtt par som jobbar skift. Ibland borta på helger och hela sommaren. Ett rum som står tomt . ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 11.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T06:50:43+00:00", "clock": "06:50:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T07:20:29+00:00", "clock": "07:20:29"};
