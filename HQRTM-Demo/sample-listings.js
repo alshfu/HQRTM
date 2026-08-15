@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brahegatan, Göteborg",
+    "url": "https://qasa.com/p/1420296",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a4af41a9140de0c1992734f4678bf621588ec9df46f91f13a90ef8cf043d7d0.jpg",
+    "description": "Ljus och fräsch lägenhet i hjärtat av Gamlestaden, fullt möblerad och redo att flytta in i direkt. ✨\n\nJag har fått jobb i Stockholm och bor numera där.\n\n🔑 67 kvm, våning 2\n🛏️ Sovrum med walk-in closet + kontorshörna\n🛁 Fräscht badrum med badkar\n🌿 Lugn innergård & ljudisolerande fönster\n✅ El och 1 Gbit bredband ingår\n\nNära Gamlestads Torg – spårvagn, buss och tåg in till centrala Göteborg på nolltid. 🌳\n\nI hyran ingår allt (el, internet etc)",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 67.0,
+    "rent": 12387,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Trollåsvägen, Askim",
     "url": "https://qasa.com/p/1439348",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e0179a7e5c7038ec2cc31caf818f4160e241df4895244277ee30d9a8e0e1d403.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Briljantgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1439276",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0145283ea91515727449c47fe5408f0386a25da774043e5ff6caada0f6d3b676.jpg",
-    "description": "Korttids boende Premium 2:a i bottenplan, nära Frölunda Torg - Allt ingår!  OBS :läs hela annonsen \n\n**Beskrivning:**\nUthyres fräsch och ljus 2:a på 55 kvm i eftertraktade Frölunda. Lägenheten från 2016 har hög standard och ligger i bottenplan med separat ingång. Perfekt för den som söker kvalitetsboende nära alla bekvämligheter.\n\n**Lägenheten erbjuder:**\n• Vardagsrum med öppen planlösning mot kök\n• Fullt utrustat kök med moderna apparater\n• Rymligt sovrum med stor klädkammare\n• Fräscht badrum med dusch\n• Möblerat och inrett - redo att flytta in\n• Två barnsängar ingår för den som önskar\n\n**Inkluderat i hyran:**\n• Värme och kallt vatten \n( El och internet är ej inkluderade )\n\n**Läge och område:**\n• 5 min promenad till Frölunda Torg\n• Barnvänligt område med lekplatser\n• Nära kommunikationer och cykelvägar\n• Grönområden och innergårdar i närområdet\n\n**Praktisk information:**\n• Hyra: 12000/månad\n• Yta: 55 kvm\n• Tillträde: 11 september \n• Hyresperiod: till 2 november \n**Krav på hyresgäst:**\n• Goda referenser och skuldfrihet\n• Ingen rökning i lägenheten\n• Inga husdjur",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T15:56:57+00:00", "clock": "15:56:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T16:30:08+00:00", "clock": "16:30:08"};
