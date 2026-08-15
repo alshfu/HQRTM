@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Liljeforsgatan, Göteborg",
+    "url": "https://qasa.com/p/1273691",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/76f8d6a362bbe5d1947324e8631683b62abec2f0f22abb306e1da55c1aaef725.jpg",
+    "description": "Lägenhet 56 kvm , vån 2 i ett hus  med totalt fyra lgh .Uthyres möblerad ,sovrum, öppen planlösning mellan kök o vardagsrum med fransk balkong.Wifi o TV samt el ingår. Gemensam tvättstuga o bastu",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 13000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Flöjtgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1439008",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/07de0748be4d613b72ddfa3beccbc5cfc1750b86a38c50237a41d3fb79d1c4b7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Halsviksvägen, Styrsö",
-    "url": "https://qasa.com/p/1383123",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c5408053306cb443643df879923888551e44c117abb3b40bd6ba90f6652781c.jpg",
-    "description": "Trevlig, möblerad och välutrustad lägenhet i renoverat kaptenshus från 1909. Mindre än 50 meter till havet, fantastisk utsikt. Närhet till skola, drottsanläggning och vandringsstigar. Privatbilar inte tillåtna på ön men golfbilar. Styrsö är ett fungerande samhälle med två mataffärer, förskola, skola, vårdcentral, tandläkare, bibliotek mm och ett rikt föreningsliv. 20 minuters promemad till skärgårdsbåten som tar dig till fastlandet  och spårvagn eller buss på 20 minuter. \nJag bor själv i bostaden men kommer att bo i Göteborg under uthyrningsperioden. Sommaren 2027 kommer jag tillbaka och från hösten 27 hyr jag ut helårsvis.\nI hyran ingår vatten, sophämtning och wifi. Kostnad för el tillkommer, ca 2000-2500 kronor i månaden. Lägenheten är renoverad, välisolerad med treglasfönster och värms upp huvudsakligen av en luftvärmepump. Stor hall. Stor tvättstuga med tvättmaskin. Stort badrum med dusch och toalett. Köket har öppen planlösning med en stor veranda med stor altan utanför. Sovrum med 140-säng och 90-säng. Bäddsoffa i vardagsrummet. Trädgård med gräsmatta. Lägenheten passar en liten familj, max 4 personer, eller studenter. Hyran är 9500 kronor + el per månad. Hyresgästen behöver en egen hemförsäkring. \nKontakta mig gärna för ett besök, om intresse finns. \nHälsningar Karin Ipsen ",
-    "district": "Styrsö",
-    "rooms": 2.5,
-    "area_m2": 70.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T09:10:57+00:00", "clock": "09:10:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T09:41:58+00:00", "clock": "09:41:58"};
