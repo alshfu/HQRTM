@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Penselgatan, Göteborg",
+    "url": "https://qasa.com/p/1439266",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b216c1344abdb1a48906310bd3956c42efa50a2d581d0535b6287ee19887c61.jpg",
+    "description": "Ljus och modern gaveltvåa på 51 kvm i hjärtat av Kvillebäcken, ett av Hisingens mest populära och expansiva bostadsområden. Lägenheten ligger på våning 4 av 10 i en välskött förening från 2013, med hiss.\n\nPlanlösningen är öppen och luftig med vardagsrum och kök i ett, genomgående ekparkett och ljusa ytor. Köket är utrustat med induktionshäll, ugn, inbyggd mikro, diskmaskin samt kyl och frys i fullstorlek. Sovrummet är rymligt med plats för dubbelsäng och bra garderobsförvaring. Badrummet är helkaklat med egen tvättmaskin och torktumlare.\n\nHöjdpunkten är den stora inglasade hörnbalkongen med fri och insynsskyddad utsikt över grönskan och Kvillebäcken nedanför – fungerar som ett extra rum stora delar av året och är perfekt för morgonkaffet eller en lugn kväll.\n\nTill lägenheten hör ett källarförråd. Cykelrum finns i uppgången, och garageplats för bil/MC går att hyra separat vid intresse.\n\nLäget är svårslaget: runt hörnet hittar du restauranger, caféer, gym och Kville Saluhall, och Backaplans stora handelsutbud ligger på gångavstånd. Med spårvagn eller buss är du inne i centrala Göteborg på bara några minuter – ett perfekt läge för den som vill ha både stadspuls och lugn och ro.\n\nJag ser fram emot att hitta en trevlig och ansvarsfull hyresgäst som kommer trivas lika bra här som jag har gjort. Hör gärna av dig med en kort presentation av dig själv!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 13300,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Briljantgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1439276",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0145283ea91515727449c47fe5408f0386a25da774043e5ff6caada0f6d3b676.jpg",
+    "description": "Korttids boende Premium 2:a i bottenplan, nära Frölunda Torg - Allt ingår!  OBS :läs hela annonsen \n\n**Beskrivning:**\nUthyres fräsch och ljus 2:a på 55 kvm i eftertraktade Frölunda. Lägenheten från 2016 har hög standard och ligger i bottenplan med separat ingång. Perfekt för den som söker kvalitetsboende nära alla bekvämligheter.\n\n**Lägenheten erbjuder:**\n• Vardagsrum med öppen planlösning mot kök\n• Fullt utrustat kök med moderna apparater\n• Rymligt sovrum med stor klädkammare\n• Fräscht badrum med dusch\n• Möblerat och inrett - redo att flytta in\n• Två barnsängar ingår för den som önskar\n\n**Inkluderat i hyran:**\n• Värme och kallt vatten \n( El och internet är ej inkluderade )\n\n**Läge och område:**\n• 5 min promenad till Frölunda Torg\n• Barnvänligt område med lekplatser\n• Nära kommunikationer och cykelvägar\n• Grönområden och innergårdar i närområdet\n\n**Praktisk information:**\n• Hyra: 12000/månad\n• Yta: 55 kvm\n• Tillträde: 11 september \n• Hyresperiod: till 2 november \n**Krav på hyresgäst:**\n• Goda referenser och skuldfrihet\n• Ingen rökning i lägenheten\n• Inga husdjur",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 12000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Liljeforsgatan, Göteborg",
     "url": "https://qasa.com/p/1273691",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/76f8d6a362bbe5d1947324e8631683b62abec2f0f22abb306e1da55c1aaef725.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Monsungatan, Göteborg",
-    "url": "https://qasa.com/p/1438325",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3579ae5d5f9dca062ee8cb3ce09f29646a43932d455da93f24cef19e465ae381.jpg",
-    "description": "Mysig och modern 54 kvm lägenhet i Eriksberg, fullt möblerad och med stor balkong. Lägenheten har bland annat en 75-tums TV och är redo för ett bekvämt boende. El och vatten ingår i hyran. Här bor du nära Eriksbergskajen, vattnet, restauranger, caféer och bra kommunikationer med buss och båt – ett perfekt läge för dig som vill bo bekvämt nära både stad och vatten.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 13340,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Grästuvevägen, Göteborg",
-    "url": "https://qasa.com/p/1439032",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/633912f979cdc11f82219a3da512baa0f6c3ac1b9f0934f69e7bf6e22cb5ad2e.jpg",
-    "description": "Förstahandskontrakt på centrala Hisingen!\nEn källarlägenhet med nyrenoverat och fullt utrustat kök, ett stort vardagsrum/sovrum, ett badrum och ett stort förrådsrum.\n\n8000kr/mån och då ingår: sophantering, försäkring, parkering, vatten,  vattenburen värme, wifi, möblering, etc. Den enda kostnad som tillkommer är för hushållsel.\n\nUpplägg: lägenheten ligger i källaren till vårt bostadshus, men är helt fristående bostadshuset, dvs egen ingång, eget kök, egen dusch, etc. Ingen genomgång från bostadshuset till lägenheten.\n\nPlus:\n+ Förstahandskontrakt på centrala Hisingen! Möjlighet att hyra i 2+ år.\n+ Lägenheten har ett väldigt funktionellt och fräscht kök.\n+ Cykelväg precis utanför lägenheten. Bra cykelavstånd till Volvo, Lindholmen och centrala Göteborg.\n+ Väldigt bra kommunikationer med buss 17 precis utanför lägenheten.\n+ Lägenheten ligger precis intill Hisingsparken med väldigt fina löpspår\n+ Bostadshuset har en stor tomt med tillhörande uteplats, grill, etc, som hyresgäst kan använda i samråd med hyresvärd\n+ Närhet till FANTASTISK hyresvärd (som bor i bostadshuset ovanför lägenheten)\n\nMinus:\n- Bristande ljudisolering mellan våningsplanen\n- Endast källarfönster i lägenheten (dock två av dem i söderläge)\n\nVid intresse: svara på annonsen med en liten beskrivning om vem du är och om din situation.\n\nVäl mött!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T10:32:25+00:00", "clock": "10:32:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T10:53:23+00:00", "clock": "10:53:23"};
