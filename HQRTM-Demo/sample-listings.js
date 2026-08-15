@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hults Gata, Askim",
+    "url": "https://qasa.com/p/1439448",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b41a4f69b92e20d1371e4137d143818b9e97fae292b832d78476472cc58a520.jpg",
+    "description": "Möblerad lägenhet med egen ingång – nära havet och Göteborg\n\nVälkommen till en trivsam och möblerad lägenhet med egen ingång, belägen i källarplanet på ett hus.\n\nLägenheten har en praktisk planlösning med ett sovrum, kök och vardagsrum samt ett badrum med dusch. Det finns även egen tvättmaskin och torktumlare.\n\nLägenheten erbjuder:\n\n* Möblerad\n* Ett sovrum\n* Kök och vardagsrum\n* Badrum med dusch\n* Egen tvättmaskin och torktumlare\n* Egen ingång\n* Parkeringsplats\n\nI hyran ingår parkering, WiFi och el, vilket gör boendet enkelt och bekvämt utan extra kostnader.\n\nDet finns goda bussförbindelser till centrala Göteborg. Havet ligger bara cirka 10 minuters promenad bort, och i närområdet finns fina promenadstråk och härliga naturområden.\n\nEtt perfekt boende för dig som vill ha ett bekvämt, möblerat hem med närhet till både hav, natur och Göteborgs centrum",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brahegatan, Göteborg",
     "url": "https://qasa.com/p/1420296",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a4af41a9140de0c1992734f4678bf621588ec9df46f91f13a90ef8cf043d7d0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Penselgatan, Göteborg",
-    "url": "https://qasa.com/p/1439266",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b216c1344abdb1a48906310bd3956c42efa50a2d581d0535b6287ee19887c61.jpg",
-    "description": "Ljus och modern gaveltvåa på 51 kvm i hjärtat av Kvillebäcken, ett av Hisingens mest populära och expansiva bostadsområden. Lägenheten ligger på våning 4 av 10 i en välskött förening från 2013, med hiss.\n\nPlanlösningen är öppen och luftig med vardagsrum och kök i ett, genomgående ekparkett och ljusa ytor. Köket är utrustat med induktionshäll, ugn, inbyggd mikro, diskmaskin samt kyl och frys i fullstorlek. Sovrummet är rymligt med plats för dubbelsäng och bra garderobsförvaring. Badrummet är helkaklat med egen tvättmaskin och torktumlare.\n\nHöjdpunkten är den stora inglasade hörnbalkongen med fri och insynsskyddad utsikt över grönskan och Kvillebäcken nedanför – fungerar som ett extra rum stora delar av året och är perfekt för morgonkaffet eller en lugn kväll.\n\nTill lägenheten hör ett källarförråd. Cykelrum finns i uppgången, och garageplats för bil/MC går att hyra separat vid intresse.\n\nLäget är svårslaget: runt hörnet hittar du restauranger, caféer, gym och Kville Saluhall, och Backaplans stora handelsutbud ligger på gångavstånd. Med spårvagn eller buss är du inne i centrala Göteborg på bara några minuter – ett perfekt läge för den som vill ha både stadspuls och lugn och ro.\n\nJag ser fram emot att hitta en trevlig och ansvarsfull hyresgäst som kommer trivas lika bra här som jag har gjort. Hör gärna av dig med en kort presentation av dig själv!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 13800,
-    "floor": 4,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T17:20:02+00:00", "clock": "17:20:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T17:41:17+00:00", "clock": "17:41:17"};
