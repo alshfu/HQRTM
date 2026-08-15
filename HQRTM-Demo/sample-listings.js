@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1439145",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/106bcd18a01807f06f033df3a8c91ca89e128b4a3c5fc3b448143a0f24f106fd.jpg",
+    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med enkelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skånegatan, Göteborg",
+    "url": "https://qasa.com/p/1388065",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/469b19ac2f12c1b8c064cbca3a3a1c52d1a5f98da112228419efe0843658ccc1.jpg",
+    "description": "\nCharmig 2:a med Balkong på 4 våningen i Lorensberg\n\nVälkommen till denna stilfulla och fullt inredda 2:an belägen på eftertraktade fjärde våningen i hjärtat av Lorensberg. Lägenheten erbjuder en harmonisk kombination av komfort och elegans, med högkvalitativa möbler som ger varje rum en sofistikerad touch.\n\nBostadsfakta:\n\nBalkong: Härlig balkong med utsikt över den lugna innergården, perfekt för morgonkaffet eller avkoppling efter en lång dag.\nMöblering: Lägenheten är fullt möblerad med smakfullt utvalda möbler som säkerställer både funktionalitet och estetik.\nKök: Modernt och fullutrustat kök med diskmaskin, vilket gör matlagning och städning till ett nöje.\nEspresso bar: I trapphuset finns en charmig espresso bar, ett bekvämt och lyxigt inslag som förhöjer vardagen.\nBo i en av Göteborgs mest attraktiva stadsdelar, nära till allt som staden har att erbjuda men ändå i en lugn och trivsam omgivning. Denna bostad är idealisk för dig som söker ett hem med både stil och bekvämlighet.\n\nHoppas detta passar! Om du har fler detaljer eller önskemål, tveka inte att höra av er.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 18000,
+    "floor": 4,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1438325",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3579ae5d5f9dca062ee8cb3ce09f29646a43932d455da93f24cef19e465ae381.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Slätten, Göteborg",
-    "url": "https://qasa.com/p/1435570",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/da7c390c42290478bce2f8293fb14528d403837b30ccd46401ab6952fdc2596d.png",
-    "description": "Ljus och välplanerad 1:a på ca 31 kvm i Lunden. Lägenheten är en trivsam vindslägenhet med kök i öppen anslutning till rummet och separat badrum. Den är i bra skick och hyrs ut delvis möblerad. Möbleringen kan anpassas efter behov och det finns möjlighet att ta med egna möbler. Passar bra för en person eller ett par.\n\nDet finns bra förvaringsmöjligheter och förråd hör till lägenheten. I fastigheten finns även gemensam tvättstuga. Värme och vatten ingår i hyran, medan el och internet ordnas separat av hyresgästen.\n\nJag planerar att hyra ut lägenheten i andra hand under ungefär ett år, med planerad inflyttning omkring 1 november. Exakt datum kan diskuteras. Uthyrningen sker under förutsättning att hyresvärden godkänner andrahandsuthyrningen.\n\nJag söker gärna någon lugn och pålitlig som vill trivas i lägenheten och ta väl hand om den under hyresperioden.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kvillegatan, Göteborg",
-    "url": "https://qasa.com/p/1438875",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5f429fed27b10004b4a066ee64e0e2ae97960387802a4724a2052378b16ab83.jpg",
-    "description": "Härlig 2-rumslägenhet i Kvillebäcken. Stor vardagsrum med bord, soffan, köksbord. Sovrum med garderoben och stor säng. \nKöket nyrenoverat med spis, kyl/frys, micro.\nBadrum med dush, tvättmaskin och torktumlare. \nBra förbindelsen från Backaplan, enkelt att ta sig till staden, 5 min med buss, spårvagn, cykeln.\n\nVatten och el tillkommer efter eget förbrukning.  Ca. 300 kr/månaden.\nInternet ingår i hyran.\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T05:57:55+00:00", "clock": "05:57:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T06:50:43+00:00", "clock": "06:50:43"};
