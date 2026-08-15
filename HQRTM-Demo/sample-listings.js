@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Källstigen, Köpstadsö",
+    "url": "https://qasa.com/p/1439515",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/93730f99034f412b1d8e4c0007a9bffaface843b44a3d96a6e3006f6360976a4.jpg",
+    "description": "Hus uthyres på ön Köpstadsö \"Kössö\". Boytan är på 50m2 fördelat på två hus omgivna av stora altaner. Husen är byggda 2012 och har två sovrum, ett allrum med kök och ett helkaklat badrum. Husen är vinterisolerade och utrustat med alla moderna faciliteter som diskmaskin, tvättmaskin, induktionshäll etc. Köpstadsö har mycket bra kommunikationer, från Köpstadsö till centrum med lokaltrafik tar ca 35min. Elkostnaden ingår ej i hyran.",
+    "district": "Köpstadsö",
+    "rooms": 3.0,
+    "area_m2": 50.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hults Gata, Askim",
     "url": "https://qasa.com/p/1439448",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b41a4f69b92e20d1371e4137d143818b9e97fae292b832d78476472cc58a520.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/1058767",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b77582ba8d996fcabe8ebdf12a8dc5cffede9c3d836715304924f237d4be609.jpg",
-    "description": "Centralt trevligt vindsrum till rök- och spritfri kvinna 40m2. Jag kan dessvärre inte hyra ut till studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi, kylskåp, micro. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T19:29:43+00:00", "clock": "19:29:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T19:48:57+00:00", "clock": "19:48:57"};
