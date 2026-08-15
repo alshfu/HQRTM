@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Trollåsvägen, Askim",
+    "url": "https://qasa.com/p/1439348",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e0179a7e5c7038ec2cc31caf818f4160e241df4895244277ee30d9a8e0e1d403.jpg",
+    "description": "Vi söker dig positiva kille till rum i korridor, rummet uthyres där toalett och kök delas med ett par andra killar. Egen ingång nära till buss, havsbad, sjöbad, motionsslinga, i ett bra område. Bra läge med endast 15 min buss till Chalmers, allt ingår såsom wi-fi, el, vatten, sopp-hämtning, kök och toalett osv! \n",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 11.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760704",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Liljeforsgatan, Göteborg",
-    "url": "https://qasa.com/p/1273691",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/76f8d6a362bbe5d1947324e8631683b62abec2f0f22abb306e1da55c1aaef725.jpg",
-    "description": "Lägenhet 56 kvm , vån 2 i ett hus  med totalt fyra lgh .Uthyres möblerad ,sovrum, öppen planlösning mellan kök o vardagsrum med fransk balkong.Wifi o TV samt el ingår. Gemensam tvättstuga o bastu",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 13000,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T12:37:12+00:00", "clock": "12:37:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T13:16:11+00:00", "clock": "13:16:11"};
