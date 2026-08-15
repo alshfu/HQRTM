@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Monsungatan, Göteborg",
+    "url": "https://qasa.com/p/1438325",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3579ae5d5f9dca062ee8cb3ce09f29646a43932d455da93f24cef19e465ae381.jpg",
+    "description": "Mysig och modern 54 kvm lägenhet i Eriksberg, fullt möblerad och med stor balkong. Lägenheten har bland annat en 75-tums TV och är redo för ett bekvämt boende. El och vatten ingår i hyran. Här bor du nära Eriksbergskajen, vattnet, restauranger, caféer och bra kommunikationer med buss och båt – ett perfekt läge för dig som vill bo bekvämt nära både stad och vatten.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 13340,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Grästuvevägen, Göteborg",
     "url": "https://qasa.com/p/1439032",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/633912f979cdc11f82219a3da512baa0f6c3ac1b9f0934f69e7bf6e22cb5ad2e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hansebräckavägen, Styrsö",
-    "url": "https://qasa.com/p/1438801",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f9962e2911d2c46733ec5fa4a690e472f69cd779395cb8430067fcafe367594.jpg",
-    "description": "Välkomna till ett av Styrsös bästa läge, 500 m till färjeläget Styrsö Tången, där Tångbaren och Restaurang Båtebacken återfinns, med 200 m till ICA och en lekplats samt närhet till ett flertal badplatser. Lägenheten finns på våning 2 i ett helt nyrenoverat hus, renoveringen färdigställdes under våren 2026. Det är en optimal planlösning med två sovrum och två dubbelsängar samt en bäddsoffa finns att tillgå i vardagsrummet. Badrummet har tvättmaskin och balkongen har morgonsol och havsutsikt!\n\nBoendet\nHuset är helt nyrenoverat! Boendet har två sovrum samt och öppet kök och vardagsrum. I vardagsrummet finns en bäddsoffa. 6 bäddar inkluderar bäddsoffan. Badrummet är rymligt och har dusch och tvättmaskin. Köket är utrustat med köksutrustning och ligger i anslutning till balkongen.\n\nBoendet hyrs ut under perioden 1 Sept - 31 Maj. Hyresvärden bor på våningen under och finns enkelt tillgänglig vid behov.\n\nEl och vatten tillkommer till självkostnadspris.",
-    "district": "Styrsö",
-    "rooms": 3.0,
-    "area_m2": 65.0,
-    "rent": 10850,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-14T23:59:48+00:00", "clock": "23:59:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T01:44:00+00:00", "clock": "01:44:00"};
