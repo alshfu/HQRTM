@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smörgatan 100, Göteborg",
+    "url": "https://qasa.com/p/1439561",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5cfc8e9bb64ebdbd5d83e688644c7b00f8ec5785ddaf134a819c26ccf09d1335.jpg",
+    "description": "Trevlig lägenhet med  öppen social planlösning kök/vardagsrum med utgång till balkong i nord/västläge med utsikt över Göteborg. \nKallebäck är en expansiv stadsdel med närhet till stan och promenadavstånd till Delsjöns naturområde.\nParkeringsplats finns att hyra utanför huset.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 11920,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Källstigen, Köpstadsö",
     "url": "https://qasa.com/p/1439515",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/93730f99034f412b1d8e4c0007a9bffaface843b44a3d96a6e3006f6360976a4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/839646",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63a05915e7ba7976cb6073e582809142d13f1d211d1915c8743fab53c79568f8.jpg",
-    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-15T23:53:06+00:00", "clock": "23:53:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T00:58:29+00:00", "clock": "00:58:29"};
