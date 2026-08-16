@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergtallsvägen, Askim",
+    "url": "https://qasa.com/p/1439481",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ced8e32c305e34294d9257924a4ebc0260aa1fde8b00f63ce31745407c44c041.jpg",
+    "description": "En  lägenhet på 55 m2 i sutterängdelen i vårt hus uthyres. Lägenheten har separat ingång och egen uteplats i söderläge. Det är ett större rum som fungerar som kombinerat sovrum/allrum, en stor garderob, en liten toalett och två mindre rum med kök och dusch. El, vatten, internet och parkering ingår i hyran. Det är ca 700 meter till närmaste busshållplats. Lägenheten ligger på en återvändsgata i ett lugnt område nära naturreservat.",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 55.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smörgatan 100, Göteborg",
     "url": "https://qasa.com/p/1439561",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5cfc8e9bb64ebdbd5d83e688644c7b00f8ec5785ddaf134a819c26ccf09d1335.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T08:00:37+00:00", "clock": "08:00:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T08:40:47+00:00", "clock": "08:40:47"};
