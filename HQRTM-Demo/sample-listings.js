@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mittviksvägen, Vrångö, Göteborg",
+    "url": "https://qasa.com/p/1439741",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee0a6e17d4832b05c6ca6a76c5c08437b4af65cc5e4c2e82993038f69a52a5c8.jpg",
+    "description": " Stuga på Vrångö i Göteborgs Södra Skärgården uthyres från 1 September eventuelltjan hyras .o.m 31 maj 2027 med möjlighet att komma tillbacka efter sommaren.\n\nPassar utmärkt till 1-2 personer\n\nFullt utrustat kök med spis, ugn, micro, kyl och frys, tvättmaskin.m.m\n\nEgen uteplats med grill och trädgårdsmöbler.\n\nHyra är 8500 kr. El, värme,  vatten, wi-fi  ingår\n\n\n\nOBS!!\nPendelavstånd till Göteborg centrum ca 1 timme med färja och buss. \nKolla gärna läget innan ni kontaktar oss.\n\nUthyres endast till skötsamma personer med ordnat ekonomi och utan betalningsanmärkningar.\n\nVänligen skriv en kort presentation och berätta vad du sysslar med.\nVi svarar tyvärr endast till gäster som känns passande för oss\n\nMvH Viktoriya och Joachim \n\n\n",
+    "district": "Vrångö, Göteborg",
+    "rooms": 3.0,
+    "area_m2": 50.0,
+    "rent": 8500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Snörpåsvägen, Torslanda",
+    "url": "https://qasa.com/p/1439745",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b93415c0d91542ed35be500e6ac0060334ab3d230d0a05e5f77a53d7f2e4f0b.jpg",
+    "description": "Välplanerat och fristående attefallshus på ca 35 kvm (inklusive sovloft) uthyres i ett lugnt och tryggt villaområde på Snörpåsvägen i Torslanda. Passar utmärkt för 1–2 personer, studenter eller veckopendlare/företagskonsulter som söker ett funktionellt boende med egen altan och goda kommunikationer.\n\nOm bostaden:\nHuset erbjuder en öppen och luftig planlösning med generös takhöjd upp i nock, synliga bjälkar och fint ljusinsläpp. Ytskikten håller en enklare standard med normalt slitage, men allt är funktionellt och praktiskt.\n\nAllrum: Plats för soffgrupp/dagbädd, liten matplats och arbetshörna.\n\nSovloft: Mysigt loft med fönster (ca 1,5 meter brett med låg takhöjd), anpassat för golvmadrass/säng, samt förvaring i inbyggda kattvindar.\n\nKök: Utrustat med spis, fläkt och kyl/frys och köksö.\n\nBadrum: Helkaklat badrum med dusch, toalett och kommod.\n\nUtemiljö: Egen, solig träaltan (ca 9 kvm) i lummigt läge med plats för utemöbler.\n\nMöblering: Huset kan hyras ut delvis möblerat eller omöblerat efter hyresgästens önskemål och överenskommelse.\n\nDetta ingår i hyran:\n\nVärme och hushållsel (normalförbrukning)\n\nVatten (fastigheten har egen brunn; vatten ingår vid normal och ansvarsfull hushållsanvändning)\n\nWi-Fi / Bredband\n\nEgen parkeringsplats\n\nTillgång till tvättstuga i huvudbyggnadens källarplan efter överenskommelse\n\nOmråde och kommunikationer:\nBeläget i ett lugnt och grönt villaområde i Torslanda med närhet till natur och hav. Endast ca 5 minuters promenad till närmsta busshållplats (linje 36) som snabbt tar dig vidare till knutpunkten Skra Bro för direktbussar till Volvo, Lindholmen och centrala Göteborg.\n\nVi söker en lugn, rökfri och skötsam hyresgäst. Vi ser gärna en längre uthyrningsperiod (gärna minst 1 år). Tillträde snarast eller enligt överenskommelse.",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 9200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Godemansgatan, Göteborg",
     "url": "https://qasa.com/p/1439732",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66717cf5265821eb757a6614f8c8859d870f43527969ede94420655866edb5ac.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bergtallsvägen, Askim",
-    "url": "https://qasa.com/p/1439481",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ced8e32c305e34294d9257924a4ebc0260aa1fde8b00f63ce31745407c44c041.jpg",
-    "description": "En  lägenhet på 55 m2 i sutterängdelen i vårt hus uthyres. Lägenheten har separat ingång och egen uteplats i söderläge. Det är ett större rum som fungerar som kombinerat sovrum/allrum, en stor garderob, en liten toalett och två mindre rum med kök och dusch. El, vatten, internet och parkering ingår i hyran. Det är ca 700 meter till närmaste busshållplats. Lägenheten ligger på en återvändsgata i ett lugnt område nära naturreservat.",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 55.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörgatan 100, Göteborg",
-    "url": "https://qasa.com/p/1439561",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5cfc8e9bb64ebdbd5d83e688644c7b00f8ec5785ddaf134a819c26ccf09d1335.jpg",
-    "description": "Trevlig lägenhet med  öppen social planlösning kök/vardagsrum med utgång till balkong i nord/västläge med utsikt över Göteborg. \nKallebäck är en expansiv stadsdel med närhet till stan och promenadavstånd till Delsjöns naturområde.\nParkeringsplats finns att hyra utanför huset.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 11920,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T11:37:16+00:00", "clock": "11:37:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T11:55:15+00:00", "clock": "11:55:15"};
