@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långedragsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1439908",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/82f22125b27edacdc677b2060ea1679de915b7184e685ca2f4db9af8708910ae.jpg",
+    "description": "Vi har ett mysigt litet hus med egen uteplats och egen parkering att hyra ut från 2 oktober (eller enligt överenskommelse) och tillsvidare i fina omgivningar, Hagen/Långedrag (förstahandskontrakt). Ombonat med värmegolv i hela huset, helkaklat badrum med tvättmaskin. Fullt utrustat kök med induktionshäll, micro och diskmaskin. Huset är på 25 kvm plus ett stort sovloft (ca 15 kvm). Det är anpassat för en person. Det finns förvaring, såsom garderob med spegel, byrå, hatthylla, skoställ och längsgående hyllplan i hall/vardagsrum, högt badrumsskåp och flera hurtsar på sovloftet. Köket är möblerat med ett litet klaffbord och två stolar (se bilder). Finns även en liten utemöbelgrupp på den egna uteplatsen.\n\nHuset har bra kommunikationer, med\n•\t50 meter till buss och spårvagn (linje 11 med täta turer till stan och linje 13 som har morgonturer till Chalmers och Sahlgrenska utan byte, dvs <20 minuter)\n•\t100 meter till stort hemköp, fiskvagn, riktigt bra sushi och pizzeria\n•\tGym, motionsspår, frisör och vårdcentraler ligger också inom gångavstånd\n•\tPå sommaren är det inte långt till salta bad (1 km till havet)\n\nHyran är på 9500:- inklusive el, värme, vatten, sopor, bredband.\nHyrs ut delvis möblerat i första hand.\n\n/Tomas & Cecilia",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 9030,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hjälmavägen, Torslanda",
     "url": "https://qasa.com/p/1422189",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e50f74cdc96e8dbac7ed001f43c921478224709f357f1fdacb1a89cad279c87a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Snörpåsvägen, Torslanda",
-    "url": "https://qasa.com/p/1439745",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b93415c0d91542ed35be500e6ac0060334ab3d230d0a05e5f77a53d7f2e4f0b.jpg",
-    "description": "Välplanerat och fristående attefallshus på ca 35 kvm (inklusive sovloft) uthyres i ett lugnt och tryggt villaområde på Snörpåsvägen i Torslanda. Passar utmärkt för 1 person, student eller veckopendlare/företagskonsult som söker ett funktionellt boende med egen altan och goda kommunikationer.\n\nOm bostaden:\nHuset erbjuder en öppen och luftig planlösning med generös takhöjd upp i nock, synliga bjälkar och fint ljusinsläpp. Ytskikten håller en enklare standard med normalt slitage, men allt är funktionellt och praktiskt.\n\nAllrum: Plats för soffgrupp/dagbädd, liten matplats och arbetshörna.\n\nSovloft: Mysigt loft med fönster (ca 1,5 meter brett med låg takhöjd), anpassat för golvmadrass/säng, samt förvaring i inbyggda kattvindar.\n\nKök: Utrustat med spis, fläkt och kyl/frys och köksö.\n\nBadrum: Helkaklat badrum med dusch, toalett och kommod.\n\nUtemiljö: Egen, solig träaltan (ca 9 kvm) i lummigt läge med plats för utemöbler.\n\nMöblering: Huset kan hyras ut delvis möblerat eller omöblerat efter hyresgästens önskemål och överenskommelse.\n\nDetta ingår i hyran:\n\nVärme och hushållsel (normalförbrukning)\n\nVatten (fastigheten har egen brunn; vatten ingår vid normal och ansvarsfull hushållsanvändning)\n\nWi-Fi / Bredband\n\nEgen parkeringsplats\n\nTillgång till tvättstuga i huvudbyggnadens källarplan efter överenskommelse\n\nOmråde och kommunikationer:\nBeläget i ett lugnt och grönt villaområde i Torslanda med närhet till natur och hav. Endast ca 5 minuters promenad till närmsta busshållplats (linje 36) som snabbt tar dig vidare till knutpunkten Skra Bro för direktbussar till Volvo, Lindholmen och centrala Göteborg.\n\nVi söker en lugn, rökfri och skötsam hyresgäst. Vi ser gärna en längre uthyrningsperiod (gärna minst 1 år). Tillträde snarast eller enligt överenskommelse.",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 9200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T14:37:42+00:00", "clock": "14:37:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T14:57:53+00:00", "clock": "14:57:53"};
