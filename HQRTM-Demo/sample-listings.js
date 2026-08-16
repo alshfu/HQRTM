@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sveagatan, Göteborg",
+    "url": "https://qasa.com/p/1439965",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a9943b2e517978faf635faca7a39981ebc39bca0873961594c92ccd0229512a.jpg",
+    "description": "English text follows below.\nStort rum (uppskattningsvis 17 kvadratmeter) med högt-till-tak och med enskilt läge inom mysig sekelskifteslägenhet (hus byggt omkring år 1910) på 3 rum och kök med absolut bästa läge i Linnéstaden i centrala Göteborg uthyres till lugn, rökfri och skötsam person. Rummet vetter mot innergård så ingen störande trafik. Cykelställ under tak på låst innergård.\n\nOmråde: Området vimlar av restauranger och kaféer med uteserveringar. Ca 200 meter från Linnégatan och ca 400 meter till Slottsskogen. Ca 4 minuters promenad till Handelshögskolan.\n\nKommunikationer: Spårvagn linje 1, 2 och 6. Hållplats ligger ca 200 meter från bostaden.  Busshållplats på Linnéplatsen, ca 400 meter från bostaden.\n~4 minuters gångväg till Handelshögskolan.\n~10 minuter på spårvagn linje 6 till Chalmers campus Johanneberg.\n2 hållplatser på spårvagn linje 6 till Sahlgrenska Universitetsjukhuset.\n\nIngår i uthyrningen: Tillgång till badrum med dusch och badkar. Kök med egen plats i kyl och i frys. Eget förvaringsskåp och kökslåda. Egen plats i skafferiskåp. Tillgång till mikrovågsugn, spis och diskbänk. En garderob i rummet. Tillgång till tvättstuga som inkluderar tvättmaskiner, torkmaskin och torkrum.\n\nTillgång till snabbt Internet via WiFi och kabel-TV.\n-----------------------------------------\n\nA large room (approximately 17 square meters) in a private location within a cozy two bedroom apartment (house built around year 1910). The apartment has an outstanding location within the popular area \"Linnéstaden\" in central Gothenburg (Göteborg). The room faces an inner yard so the room is quiet and is not disturbed by any traffic noise. There is a protected parking area for bicycles.\n\nYou are calm, conscientious, drug-free and a non-smoker.\n\nLocation: This area of Gothenburg is crowded of restaurants and cafes --  open air in spring and summer. The popular promenade street Linnégatan is ~200 meters away. Gothenburg's big (biggest perhaps?) recreational park \"Slottsskogen\" is ~400 meters away. \n\nCommunications:\n~200 meters to tram stop with tram lines number 1, 2 and 6. \n~400 meters to bus stop.\n~4 minutes walk to Gothenburg University campus Handelshögskolan.\n~10 minutes fare on tram line number 6 to Chalmers campus Johanneberg.\n2 stops on tram line number 6 to Sahlgrenska Universitety Hospital.\n\nIncluded in rent:\nAccess to bathroom with both shower and bathtub.\nAccess to kitchen for storage and preparation of food. In the kitchen you have your own space in the fridge and freezer, your own cupboard and your own draw. Access to microwave oven, stove and sink.\nOne wardrobe within the room.\nAccess to fast Internet via Wi-Fi (fiber, currently 250Mbps/250 Mbps).\nAccess to cable-TV antenna outlet.\nAccess to vacuum cleaner and ironing board.\nAccess to laundry room that includes washing machines, tumble dryer and a drying room.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 17.0,
+    "rent": 4400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Smörgatan, Göteborg",
+    "url": "https://qasa.com/p/1439796",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c78ad95fbd17de74d51b5a38db990bd24a4b33b5aaecd0cc632db86846d7379e.jpg",
+    "description": "Jag hyr ut mitt mycket rymliga sovrum med gott om förvaringsutrymmen med egen ingång till köket Lägenheten är ljus och trivsam och välplanerad.  Jag har 2 jättesnälla katter så hyr endast ut till djurälskare :) \n\nJag hyr ut till någon som antingen jobbar eller studerar heltid eftersom jag jobbar hemifrån och behöver lugn och ro :)\n\nVill du få svar behöver du skriva lite om dig själv och ange ditt fullständiga namn. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Dahlströms Gata, Göteborg",
     "url": "https://qasa.com/p/1431883",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mittviksvägen, Vrångö",
-    "url": "https://qasa.com/p/1439758",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3e1f0f81e457c7335fe689b5d72b2370f7177482dce25e4392e6991aa2e25c1.jpg",
-    "description": "Stuga på Vrångö i Göteborgs Södra Skärgården uthyres omgående t.o.m 31 maj 2026 med möjlighet att komma tillbacka efter sommaren.\n\nPassar utmärkt till 1-2 personer\n\nFullt utrustat kök med spis, ugn, micro, kyl och frys, m.m. Tvättmaskin.\n\nEgen uteplats med grill och trädgårdsmöbler.\n\nHyra är 7700 kr. El, värme, vatten ingår\n\nOBS!!\nPendelavstånd till Göteborg centrum ca 1 timme med färja och buss.\nKolla gärna läget innan ni kontaktar oss.\n\nUthyres endast till skötsamma personer med ordnat ekonomi och utan betalningsanmärkningar.\n\nVänligen skriv en kort presentation och berätta vad du sysslar med.\nVi svarar tyvärr endast till gäster som känns passande för oss\n\nMvH Viktoriya\n",
-    "district": "Vrångö",
-    "rooms": 2.5,
-    "area_m2": 45.0,
-    "rent": 7700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Husargatan, Göteborg",
-    "url": "https://qasa.com/p/1439815",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4bd1909e81831a5c7b4c8db761b8478e0ea9faacb31c9fc9d68710ac1452234c.jpg",
-    "description": "Jag är en kvinna på 60+ som jobbar dagtid. Som inneboende hos mig delar du kök och badrum med mig.\nLägenheten ligger i en trevlig förening i mysiga Haga, centralt i Göteborg.\nInternet, el&vatten, hemförsäkring och förbrukningsartiklar som toapapper och diskmedel ingår i hyran.\nRummet är möblerat, men möblemanget kan anpassas efter behov.\nJag söker i första hand en student som stannar minst en termin. Tjej, kille eller annat - bara du är en sittkissare.\nTidigare inneboende kan kontaktas för referenser.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 13.0,
-    "rent": 4750,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T16:07:39+00:00", "clock": "16:07:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T16:40:32+00:00", "clock": "16:40:32"};
