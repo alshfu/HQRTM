@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Villavallen, Angered",
+    "url": "https://qasa.com/p/1439785",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/79b6f06a7adac857fd6c5af3f3732049befe4f4ab73c3f434e8bee37310024d6.jpg",
+    "description": "Lägenhet i villa uthyres till vidare. \nDet är en lägenhet på ca 75kvm med två rejäla och sovrum med bra förvaringsmöjligheter samt vardagsrum och kök. Det finns en egen tvättstuga.\nLägenheten finns i ett lugnt område med fin grönska. \nI hyran ingår el, vatten, värme och internet. Lägenheten är också fullt möblerad. \n\nVänliga hälsningar",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 14300,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mittviksvägen, Vrångö, Göteborg",
     "url": "https://qasa.com/p/1439741",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee0a6e17d4832b05c6ca6a76c5c08437b4af65cc5e4c2e82993038f69a52a5c8.jpg",
@@ -21,7 +36,7 @@ window.HQRTM_SAMPLE = [
     "title": "Snörpåsvägen, Torslanda",
     "url": "https://qasa.com/p/1439745",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b93415c0d91542ed35be500e6ac0060334ab3d230d0a05e5f77a53d7f2e4f0b.jpg",
-    "description": "Välplanerat och fristående attefallshus på ca 35 kvm (inklusive sovloft) uthyres i ett lugnt och tryggt villaområde på Snörpåsvägen i Torslanda. Passar utmärkt för 1–2 personer, studenter eller veckopendlare/företagskonsulter som söker ett funktionellt boende med egen altan och goda kommunikationer.\n\nOm bostaden:\nHuset erbjuder en öppen och luftig planlösning med generös takhöjd upp i nock, synliga bjälkar och fint ljusinsläpp. Ytskikten håller en enklare standard med normalt slitage, men allt är funktionellt och praktiskt.\n\nAllrum: Plats för soffgrupp/dagbädd, liten matplats och arbetshörna.\n\nSovloft: Mysigt loft med fönster (ca 1,5 meter brett med låg takhöjd), anpassat för golvmadrass/säng, samt förvaring i inbyggda kattvindar.\n\nKök: Utrustat med spis, fläkt och kyl/frys och köksö.\n\nBadrum: Helkaklat badrum med dusch, toalett och kommod.\n\nUtemiljö: Egen, solig träaltan (ca 9 kvm) i lummigt läge med plats för utemöbler.\n\nMöblering: Huset kan hyras ut delvis möblerat eller omöblerat efter hyresgästens önskemål och överenskommelse.\n\nDetta ingår i hyran:\n\nVärme och hushållsel (normalförbrukning)\n\nVatten (fastigheten har egen brunn; vatten ingår vid normal och ansvarsfull hushållsanvändning)\n\nWi-Fi / Bredband\n\nEgen parkeringsplats\n\nTillgång till tvättstuga i huvudbyggnadens källarplan efter överenskommelse\n\nOmråde och kommunikationer:\nBeläget i ett lugnt och grönt villaområde i Torslanda med närhet till natur och hav. Endast ca 5 minuters promenad till närmsta busshållplats (linje 36) som snabbt tar dig vidare till knutpunkten Skra Bro för direktbussar till Volvo, Lindholmen och centrala Göteborg.\n\nVi söker en lugn, rökfri och skötsam hyresgäst. Vi ser gärna en längre uthyrningsperiod (gärna minst 1 år). Tillträde snarast eller enligt överenskommelse.",
+    "description": "Välplanerat och fristående attefallshus på ca 35 kvm (inklusive sovloft) uthyres i ett lugnt och tryggt villaområde på Snörpåsvägen i Torslanda. Passar utmärkt för 1 person, student eller veckopendlare/företagskonsult som söker ett funktionellt boende med egen altan och goda kommunikationer.\n\nOm bostaden:\nHuset erbjuder en öppen och luftig planlösning med generös takhöjd upp i nock, synliga bjälkar och fint ljusinsläpp. Ytskikten håller en enklare standard med normalt slitage, men allt är funktionellt och praktiskt.\n\nAllrum: Plats för soffgrupp/dagbädd, liten matplats och arbetshörna.\n\nSovloft: Mysigt loft med fönster (ca 1,5 meter brett med låg takhöjd), anpassat för golvmadrass/säng, samt förvaring i inbyggda kattvindar.\n\nKök: Utrustat med spis, fläkt och kyl/frys och köksö.\n\nBadrum: Helkaklat badrum med dusch, toalett och kommod.\n\nUtemiljö: Egen, solig träaltan (ca 9 kvm) i lummigt läge med plats för utemöbler.\n\nMöblering: Huset kan hyras ut delvis möblerat eller omöblerat efter hyresgästens önskemål och överenskommelse.\n\nDetta ingår i hyran:\n\nVärme och hushållsel (normalförbrukning)\n\nVatten (fastigheten har egen brunn; vatten ingår vid normal och ansvarsfull hushållsanvändning)\n\nWi-Fi / Bredband\n\nEgen parkeringsplats\n\nTillgång till tvättstuga i huvudbyggnadens källarplan efter överenskommelse\n\nOmråde och kommunikationer:\nBeläget i ett lugnt och grönt villaområde i Torslanda med närhet till natur och hav. Endast ca 5 minuters promenad till närmsta busshållplats (linje 36) som snabbt tar dig vidare till knutpunkten Skra Bro för direktbussar till Volvo, Lindholmen och centrala Göteborg.\n\nVi söker en lugn, rökfri och skötsam hyresgäst. Vi ser gärna en längre uthyrningsperiod (gärna minst 1 år). Tillträde snarast eller enligt överenskommelse.",
     "district": "Torslanda",
     "rooms": 1.0,
     "area_m2": 35.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Lundbygatan 17, Göteborg",
-    "url": "https://qasa.com/p/1439755",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/22ea743d875182cebf6c6a4e420655445e80bdcef162a73dca2d6b668b58ef1d.jpg",
-    "description": "En fin lägenhet i nedre botten, sekelskifteshus. trägolv, kök i öppen planlösning, bastu och öppen spis som går att elda i. \n(kallhyra) bredband (333:-) och el tillkommer . \n\nVälkommen att söka.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T11:55:15+00:00", "clock": "11:55:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T12:38:49+00:00", "clock": "12:38:49"};
