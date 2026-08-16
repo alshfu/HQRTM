@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Godemansgatan, Göteborg",
+    "url": "https://qasa.com/p/1439732",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66717cf5265821eb757a6614f8c8859d870f43527969ede94420655866edb5ac.jpg",
+    "description": "Fint renoverad tvåa i kvillebäcken med 5 minuter gångavstånd till vågmästareplatsen där buss eller spårvagn tar dig till brunnsparken på 6 minuter. I närområdet finns backaplan och hisingsparken.\n\nLägenheten är renoverad 2020 med nytt kök (all utrusting finns) och nya ytskikt, badrummet renoverades av förra ägaren och är i fint skick.\nLägenheten har separat kök med matplats, en hall med inbyggd garderob, sovrum med garderob samt ett härligt vardagsrum i hörnläge med fiskbensparkett och pardörrar i klassisk stil.\n\nLägenheten är omöblerad och hyrs ut från omedelbart till och med Juli 2027. Tillträde möjligt från början av november.\n\nI föreningen finns festlokal att hyra samt gästlägenhet, föreningen ingår i HSB och erbjuder en lugn och stabil grannsamverkan.\n\nI hyran ingår internet, värme, vatten. El samt hemförsäkring organiseras av hyresgästen.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergkristallsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1437490",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5671ad2995ec15545726a0bc846a3a9e78aca8d68d3487fc50ee5acb5a392e24.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hults Gata, Askim",
-    "url": "https://qasa.com/p/1439448",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b41a4f69b92e20d1371e4137d143818b9e97fae292b832d78476472cc58a520.jpg",
-    "description": "Möblerad lägenhet med egen ingång – nära havet och Göteborg\n\nVälkommen till en trivsam och möblerad lägenhet med egen ingång, belägen i källarplanet på ett hus.\n\nLägenheten har en praktisk planlösning med ett sovrum, kök och vardagsrum samt ett badrum med dusch. Det finns även egen tvättmaskin och torktumlare.\n\nLägenheten erbjuder:\n\n* Möblerad\n* Ett sovrum\n* Kök och vardagsrum\n* Badrum med dusch\n* Egen tvättmaskin och torktumlare\n* Egen ingång\n* Parkeringsplats\n\nI hyran ingår parkering, WiFi och el, vilket gör boendet enkelt och bekvämt utan extra kostnader.\n\nDet finns goda bussförbindelser till centrala Göteborg. Havet ligger bara cirka 10 minuters promenad bort, och i närområdet finns fina promenadstråk och härliga naturområden.\n\nEtt perfekt boende för dig som vill ha ett bekvämt, möblerat hem med närhet till både hav, natur och Göteborgs centrum",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T10:52:30+00:00", "clock": "10:52:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T11:13:15+00:00", "clock": "11:13:15"};
