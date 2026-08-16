@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Dahlströms Gata, Göteborg",
+    "url": "https://qasa.com/p/1431883",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
+    "description": "Jag hyr ut min ljusa och välplanerade tvåa på Doktor Dahlströms gata under en period på tre månader. Lägenheten ligger i ett nybyggt hus och har öppen planlösning mellan kök och vardagsrum, separat sovrum, modernt badrum och gott om förvaring. Bostaden hyrs ut möblerad.\n\nFrån vardagsrummet når man den stora balkongen med morgonsol och fin, fri utsikt – perfekt för frukost eller avkoppling. Lägenheten har ett lugnt läge samtidigt som det är nära till Chalmers, Sahlgrenska och centrala Göteborg. Goda kollektivtrafikförbindelser samt mataffärer, gym och grönområden finns i närheten.\n\nJag söker en lugn och skötsam hyresgäst. Skriv gärna några rader om dig själv, din sysselsättning och varför du söker boende under perioden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 12985,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ättehögsgatan, Göteborg",
     "url": "https://qasa.com/p/1439898",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7274dec4ea7c9acd13dc5432a8f842356451ec424d076c676523bd934b0fb8bf.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Villavallen, Angered",
-    "url": "https://qasa.com/p/1439785",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/79b6f06a7adac857fd6c5af3f3732049befe4f4ab73c3f434e8bee37310024d6.jpg",
-    "description": "Lägenhet i villa uthyres till vidare. \nDet är en lägenhet på ca 75kvm med två rejäla och sovrum med bra förvaringsmöjligheter samt vardagsrum och kök. Det finns en egen tvättstuga.\nLägenheten finns i ett lugnt område med fin grönska. \nI hyran ingår el, vatten, värme och internet. Lägenheten är också fullt möblerad. \n\nVänliga hälsningar",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 14300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T15:49:27+00:00", "clock": "15:49:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T16:07:39+00:00", "clock": "16:07:39"};
