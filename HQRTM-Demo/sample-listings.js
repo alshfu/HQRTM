@@ -63,6 +63,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Gamla Lundbygatan 17, Göteborg",
+    "url": "https://qasa.com/p/1439755",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/22ea743d875182cebf6c6a4e420655445e80bdcef162a73dca2d6b668b58ef1d.jpg",
+    "description": "En fin lägenhet i nedre botten, sekelskifteshus. trägolv, kök i öppen planlösning, bastu och öppen spis som går att elda i. \n(kallhyra) bredband (333:-) och el tillkommer . \n\nVälkommen att söka.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergtallsvägen, Askim",
     "url": "https://qasa.com/p/1439481",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ced8e32c305e34294d9257924a4ebc0260aa1fde8b00f63ce31745407c44c041.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Källstigen, Köpstadsö",
-    "url": "https://qasa.com/p/1439515",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/93730f99034f412b1d8e4c0007a9bffaface843b44a3d96a6e3006f6360976a4.jpg",
-    "description": "Hus uthyres på ön Köpstadsö \"Kössö\". Boytan är på 50m2 fördelat på två hus omgivna av stora altaner. Husen är byggda 2012 och har två sovrum, ett allrum med kök och ett helkaklat badrum. Husen är vinterisolerade och utrustat med alla moderna faciliteter som diskmaskin, tvättmaskin, induktionshäll etc. Köpstadsö har mycket bra kommunikationer, från Köpstadsö till centrum med lokaltrafik tar ca 35min. Elkostnaden ingår ej i hyran.",
-    "district": "Köpstadsö",
-    "rooms": 3.0,
-    "area_m2": 50.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T11:13:15+00:00", "clock": "11:13:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T11:37:16+00:00", "clock": "11:37:16"};
