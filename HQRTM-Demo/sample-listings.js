@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Husargatan, Göteborg",
+    "url": "https://qasa.com/p/1439815",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4bd1909e81831a5c7b4c8db761b8478e0ea9faacb31c9fc9d68710ac1452234c.jpg",
+    "description": "Jag är en kvinna på 60+ som jobbar dagtid. Som inneboende hos mig delar du kök och badrum med mig.\nLägenheten ligger i en trevlig förening i mysiga Haga, centralt i Göteborg.\nInternet, el&vatten, hemförsäkring och förbrukningsartiklar som toapapper och diskmedel ingår i hyran.\nRummet är möblerat, men möblemanget kan anpassas efter behov.\nJag söker i första hand en student som stannar minst en termin. Tjej, kille eller annat - bara du är en sittkissare.\nTidigare inneboende kan kontaktas för referenser.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 13.0,
+    "rent": 4750,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Villavallen, Angered",
     "url": "https://qasa.com/p/1439785",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/79b6f06a7adac857fd6c5af3f3732049befe4f4ab73c3f434e8bee37310024d6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Filmjölksgatan, Göteborg",
-    "url": "https://qasa.com/p/1439689",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46e79a970b99af4ce598f076f44098b11705133f42fd34bf281df3fc44fe3301.jpg",
-    "description": "🏠 Modern 2-rumslägenhet i Kallebäck – 54 kvm\n\nVälkommen till en ljus och välplanerad nybyggd lägenhet från 2022 i ett av Göteborgs mest trivsamma områden.\n\nLägenheten erbjuder:\n• 2 rum och kök på 54 kvm\n• Fullt utrustad med diskmaskin, tvättmaskin och torktumlare\n• Modern standard med hög kvalitet genomgående\n• Nybyggd 2022 – allt är fräscht och välskött\n• Bredband/Internet 250 ingår\n\nLäget:\nKallebäck är ett lugnt och välskött område med all service du behöver inom promenadavstånd. Direkt i närheten finns:\n• Nordic Wellness för träning\n• Mataffärer för vardagshandeln\n• Restauranger och caféer\n• Frisör\n\nHyrestid:\nJag hyr ut i 1–2 år då jag tillfälligt arbetar utomlands. Exakt längd kan diskuteras beroende på hur situationen utvecklar sig – så det finns viss flexibilitet.\n\nPerfekt för dig som vill bo modernt och bekvämt med ett aktivt och socialt område runt hörnet, och som söker ett tryggt boende på medellång sikt.\n\nVarmt välkommen att höra av dig för visning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 12305,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T12:38:49+00:00", "clock": "12:38:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T13:18:11+00:00", "clock": "13:18:11"};
