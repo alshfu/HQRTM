@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergkristallsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1437490",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5671ad2995ec15545726a0bc846a3a9e78aca8d68d3487fc50ee5acb5a392e24.jpg",
+    "description": "Ljus och fräsch hörnlägenhet med 2 rum och kök. Centralt belägen i Frölunda med närhet till både härliga havsbad i Fiskebäck och mysiga promenadslingor, ishall och fotbollsplaner i Ruddalen. Gångavstånd till Frölunda Torg och på 20 min kommer man till centrala Göteborg med X5. Hållplatsen ligger 5 min från hemmet. \nTrevlig innergård med grill och stor uteplats under tak. \n\nGemensam tvättstuga.\nIngen diskmaskin. \nInhängnad parkering. \n\n3 månader uppsägningstid (kalendermånader) \nDjur- och rökfritt. ",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 59.0,
+    "rent": 8274,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Konstapelsgatan, Göteborg",
     "url": "https://qasa.com/p/1439673",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0bbff42dd1832682ff1498eb46ee0fe58bf8d09603cb508d8fff6f3df4e869af.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brahegatan, Göteborg",
-    "url": "https://qasa.com/p/1420296",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a4af41a9140de0c1992734f4678bf621588ec9df46f91f13a90ef8cf043d7d0.jpg",
-    "description": "Ljus och fräsch lägenhet i hjärtat av Gamlestaden, fullt möblerad och redo att flytta in i direkt. ✨\n\nJag har fått jobb i Stockholm och bor numera där.\n\n🔑 67 kvm, våning 2\n🛏️ Sovrum med walk-in closet + kontorshörna\n🛁 Fräscht badrum med badkar\n🌿 Lugn innergård & ljudisolerande fönster\n✅ El och 1 Gbit bredband ingår\n\nNära Gamlestads Torg – spårvagn, buss och tåg in till centrala Göteborg på nolltid. 🌳\n\nI hyran ingår allt (el, internet etc)",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 67.0,
-    "rent": 12387,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T10:29:44+00:00", "clock": "10:29:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T10:52:30+00:00", "clock": "10:52:30"};
