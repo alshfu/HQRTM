@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Konstapelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1439673",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0bbff42dd1832682ff1498eb46ee0fe58bf8d09603cb508d8fff6f3df4e869af.png",
+    "description": "Hyr ut rum i bostad där kök, hall och badrum är gemensamt. Ytan ligger på 27kvm (rummet 12.8 kvm). Nära till mataffärer och kollektivtrafik.  Fint och lugnt område med restauranger i närheten. Nära till Kvibergs park med möjlighet till motion inom och utomhus. 12 min med spårvagn till centralstationen.\n\nOBS! Hyr endast ut till 1 person och ser helst att sökande är kvinna. \nEn månads deposition krävs, lämnas tillbaka vid avslut. \n\nEl betalas separat och baseras på månadsförbrukningen. Internet ingår.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 27.0,
+    "rent": 5560,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Filmjölksgatan, Göteborg",
     "url": "https://qasa.com/p/1439689",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46e79a970b99af4ce598f076f44098b11705133f42fd34bf281df3fc44fe3301.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Trollåsvägen, Askim",
-    "url": "https://qasa.com/p/1439348",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e0179a7e5c7038ec2cc31caf818f4160e241df4895244277ee30d9a8e0e1d403.jpg",
-    "description": "Vi söker dig positiva kille till rum i korridor, rummet uthyres där toalett och kök delas med ett par andra killar. Egen ingång nära till buss, havsbad, sjöbad, motionsslinga, i ett bra område. Bra läge med endast 15 min buss till Chalmers, allt ingår såsom wi-fi, el, vatten, sopp-hämtning, kök och toalett osv! \n",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 11.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T09:57:36+00:00", "clock": "09:57:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T10:29:44+00:00", "clock": "10:29:44"};
