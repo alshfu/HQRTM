@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ättehögsgatan, Göteborg",
+    "url": "https://qasa.com/p/1439898",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7274dec4ea7c9acd13dc5432a8f842356451ec424d076c676523bd934b0fb8bf.jpg",
+    "description": "Hyr ut min 2:a i andra hand eftersom jag flyttat ihop med min flickvän. \nlägenheten har ett stort sovrum, stort kök med köksbord och sex stolar. Badrummet är också stort med stor dusch, tvättmaskin och Bastu med plats för tre personer. Det finns också tvättmaskin i badrummet men också tillgång till tvättrum nere i källaren.\nLägenheten ligger längst upp i en villa som har 3 andra lägenheter i sig. Tomten delas med de andra boende i huset. Alltså går det fint att grilla /hänga där. Närmsta hållplatsen är qvidingsgatan (200m) där buss 17 går var tionde minut på morgon och eftermiddag. Vill man ta spårvagn (1an eller 5an) går man till munkebäckstorget. (600m)\n\nJag hyr ut i andra hand i ett års tid. Har man skött sig bra, betalat hyra i tid, inte stör grannar eller skräpar ner på tomten osv. Så kommer man ha möjlighet att ta över hyreskontraktet efter ett år.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 9250,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långedragsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1439908",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/82f22125b27edacdc677b2060ea1679de915b7184e685ca2f4db9af8708910ae.jpg",
@@ -10,7 +25,7 @@ window.HQRTM_SAMPLE = [
     "district": "Västra Frölunda",
     "rooms": 1.5,
     "area_m2": 40.0,
-    "rent": 9030,
+    "rent": 9052,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mittviksvägen, Vrångö, Göteborg",
-    "url": "https://qasa.com/p/1439741",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee0a6e17d4832b05c6ca6a76c5c08437b4af65cc5e4c2e82993038f69a52a5c8.jpg",
-    "description": " Stuga på Vrångö i Göteborgs Södra Skärgården uthyres från 1 September eventuelltjan hyras .o.m 31 maj 2027 med möjlighet att komma tillbacka efter sommaren.\n\nPassar utmärkt till 1-2 personer\n\nFullt utrustat kök med spis, ugn, micro, kyl och frys, tvättmaskin.m.m\n\nEgen uteplats med grill och trädgårdsmöbler.\n\nHyra är 8500 kr. El, värme,  vatten, wi-fi  ingår\n\n\n\nOBS!!\nPendelavstånd till Göteborg centrum ca 1 timme med färja och buss. \nKolla gärna läget innan ni kontaktar oss.\n\nUthyres endast till skötsamma personer med ordnat ekonomi och utan betalningsanmärkningar.\n\nVänligen skriv en kort presentation och berätta vad du sysslar med.\nVi svarar tyvärr endast till gäster som känns passande för oss\n\nMvH Viktoriya och Joachim \n\n\n",
-    "district": "Vrångö, Göteborg",
-    "rooms": 3.0,
-    "area_m2": 50.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T14:57:53+00:00", "clock": "14:57:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T15:28:40+00:00", "clock": "15:28:40"};
