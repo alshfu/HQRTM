@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Filmjölksgatan, Göteborg",
+    "url": "https://qasa.com/p/1439689",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46e79a970b99af4ce598f076f44098b11705133f42fd34bf281df3fc44fe3301.jpg",
+    "description": "🏠 Modern 2-rumslägenhet i Kallebäck – 54 kvm\n\nVälkommen till en ljus och välplanerad nybyggd lägenhet från 2022 i ett av Göteborgs mest trivsamma områden.\n\nLägenheten erbjuder:\n• 2 rum och kök på 54 kvm\n• Fullt utrustad med diskmaskin, tvättmaskin och torktumlare\n• Modern standard med hög kvalitet genomgående\n• Nybyggd 2022 – allt är fräscht och välskött\n• Bredband/Internet 250 ingår\n\nLäget:\nKallebäck är ett lugnt och välskött område med all service du behöver inom promenadavstånd. Direkt i närheten finns:\n• Nordic Wellness för träning\n• Mataffärer för vardagshandeln\n• Restauranger och caféer\n• Frisör\n\nHyrestid:\nJag hyr ut i 1–2 år då jag tillfälligt arbetar utomlands. Exakt längd kan diskuteras beroende på hur situationen utvecklar sig – så det finns viss flexibilitet.\n\nPerfekt för dig som vill bo modernt och bekvämt med ett aktivt och socialt område runt hörnet, och som söker ett tryggt boende på medellång sikt.\n\nVarmt välkommen att höra av dig för visning!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 12305,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergtallsvägen, Askim",
     "url": "https://qasa.com/p/1439481",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ced8e32c305e34294d9257924a4ebc0260aa1fde8b00f63ce31745407c44c041.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T09:37:15+00:00", "clock": "09:37:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T09:57:36+00:00", "clock": "09:57:36"};
