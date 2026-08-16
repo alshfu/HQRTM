@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bua Västergårdsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/603459",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27e5c41fc5a461150ad50408914688bbd6d0e1315463023a868984de6f17b66b.jpg",
+    "description": "Huset på näset är 35 kvadrat och fullt utrustat med kök och badrum.  Det ligger nära fina bad, bland annat Smittska udden och Stegerholmens badplats . Det är dessutom nära till kommunikationer, som tar dig till Frölunda torg på 10 minuter och centrum på 25 minuter. Från huset går det en stig upp på Valeberget till en gammal Tullstuga, där man har milsvid utsikt över skärgård och ända in till centrum.\nJag som hyr ut är intresserad av att hyra ut till någon som även tycker om att ta hand om sin del av trädgården där man även får lov att odla.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 35.0,
+    "rent": 10250,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fiolgatan , Västra Frölunda",
     "url": "https://qasa.com/p/1438197",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f415476b853bc8576cfd56b747b14c393d15a572b660058bc61ffee3aaaf1ec8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörgatan, Göteborg",
-    "url": "https://qasa.com/p/1439796",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c78ad95fbd17de74d51b5a38db990bd24a4b33b5aaecd0cc632db86846d7379e.jpg",
-    "description": "Jag hyr ut mitt ljusa och trevliga sovrum med gott om förvaringsutrymmen plus egen ingång till köket. Lägenheten är ljus och trivsam och välplanerad.\n Jag har 2 jättesnälla katter så hyr endast ut till djurälskare :) \n\nJag hyr ut till någon som antingen jobbar eller studerar heltid eftersom jag jobbar hemifrån och behöver lugn och ro :)\n\nVill du få svar behöver du skriva lite kort om dig själv och ange ditt fullständiga namn. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T22:20:30+00:00", "clock": "22:20:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T22:42:40+00:00", "clock": "22:42:40"};
