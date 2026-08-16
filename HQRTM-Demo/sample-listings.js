@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mittviksvägen, Vrångö",
+    "url": "https://qasa.com/p/1439758",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3e1f0f81e457c7335fe689b5d72b2370f7177482dce25e4392e6991aa2e25c1.jpg",
+    "description": "Stuga på Vrångö i Göteborgs Södra Skärgården uthyres omgående t.o.m 31 maj 2026 med möjlighet att komma tillbacka efter sommaren.\n\nPassar utmärkt till 1-2 personer\n\nFullt utrustat kök med spis, ugn, micro, kyl och frys, m.m. Tvättmaskin.\n\nEgen uteplats med grill och trädgårdsmöbler.\n\nHyra är 7700 kr. El, värme, vatten ingår\n\nOBS!!\nPendelavstånd till Göteborg centrum ca 1 timme med färja och buss.\nKolla gärna läget innan ni kontaktar oss.\n\nUthyres endast till skötsamma personer med ordnat ekonomi och utan betalningsanmärkningar.\n\nVänligen skriv en kort presentation och berätta vad du sysslar med.\nVi svarar tyvärr endast till gäster som känns passande för oss\n\nMvH Viktoriya\n",
+    "district": "Vrångö",
+    "rooms": 2.5,
+    "area_m2": 45.0,
+    "rent": 7700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Husargatan, Göteborg",
     "url": "https://qasa.com/p/1439815",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4bd1909e81831a5c7b4c8db761b8478e0ea9faacb31c9fc9d68710ac1452234c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Konstapelsgatan, Göteborg",
-    "url": "https://qasa.com/p/1439673",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0bbff42dd1832682ff1498eb46ee0fe58bf8d09603cb508d8fff6f3df4e869af.png",
-    "description": "Hyr ut rum i bostad där kök, hall och badrum är gemensamt. Ytan ligger på 27kvm (rummet 12.8 kvm). Nära till mataffärer och kollektivtrafik.  Fint och lugnt område med restauranger i närheten. Nära till Kvibergs park med möjlighet till motion inom och utomhus. 12 min med spårvagn till centralstationen.\n\nOBS! Hyr endast ut till 1 person och ser helst att sökande är kvinna. \nEn månads deposition krävs, lämnas tillbaka vid avslut. \n\nEl betalas separat och baseras på månadsförbrukningen. Internet ingår.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 27.0,
-    "rent": 5560,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T13:18:11+00:00", "clock": "13:18:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T13:48:22+00:00", "clock": "13:48:22"};
