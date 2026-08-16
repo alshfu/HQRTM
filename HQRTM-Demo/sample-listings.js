@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fiolgatan , Västra Frölunda",
+    "url": "https://qasa.com/p/1438197",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f415476b853bc8576cfd56b747b14c393d15a572b660058bc61ffee3aaaf1ec8.jpg",
+    "description": "Trivsam 2:a  omöblerat i lugna Ruddalen. Ljus och välplanerad 2-rumslägenhet på Fiolgatan 6, belägen i ett lugnt och familjevänligt område med både natur och service nära. Lägenheten ligger i bottenvåning, den är 55,5 kvm . \n\nPå bara några minuters promenad finns Willys, förskola och Nordic Wellness. Ruddalens motionsområde och skog ligger runt hörnet och Frölunda Torg samt Positivparken nås enkelt till fots.\n\nMycket bra kollektivtrafik med spårvagn och buss i närheten, med smidiga förbindelser till Frölunda Torg och centrala Göteborg.\n\nPerfekt för dig som vill bo lugnt och naturnära men samtidigt ha shopping, gym, mataffär och kollektivtrafik på kort gångavstånd.\nI hyran ingår TV, internet och parkering med laddningstolpe.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 12130,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Utlandagatan, Göteborg",
     "url": "https://qasa.com/p/1440025",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1125fb6c0e7dcac79f38be063f8f19e2e4dfcb29b0d85a389b40905e05262e37.jpg",
@@ -55,7 +70,7 @@ window.HQRTM_SAMPLE = [
     "district": "Angered",
     "rooms": 2.0,
     "area_m2": 54.0,
-    "rent": 9000,
+    "rent": 8500,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -81,7 +96,7 @@ window.HQRTM_SAMPLE = [
     "title": "Smörgatan, Göteborg",
     "url": "https://qasa.com/p/1439796",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c78ad95fbd17de74d51b5a38db990bd24a4b33b5aaecd0cc632db86846d7379e.jpg",
-    "description": "Jag hyr ut mitt mycket rymliga sovrum med gott om förvaringsutrymmen med egen ingång till köket Lägenheten är ljus och trivsam och välplanerad.  Jag har 2 jättesnälla katter så hyr endast ut till djurälskare :) \n\nJag hyr ut till någon som antingen jobbar eller studerar heltid eftersom jag jobbar hemifrån och behöver lugn och ro :)\n\nVill du få svar behöver du skriva lite om dig själv och ange ditt fullständiga namn. ",
+    "description": "Jag hyr ut mitt ljusa och trevliga sovrum med gott om förvaringsutrymmen plus egen ingång till köket. Lägenheten är ljus och trivsam och välplanerad.\n Jag har 2 jättesnälla katter så hyr endast ut till djurälskare :) \n\nJag hyr ut till någon som antingen jobbar eller studerar heltid eftersom jag jobbar hemifrån och behöver lugn och ro :)\n\nVill du få svar behöver du skriva lite kort om dig själv och ange ditt fullständiga namn. ",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 15.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Doktor Dahlströms Gata, Göteborg",
-    "url": "https://qasa.com/p/1431883",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/214c79c2d530f7a35c159c1895948d9d85690e16155119d09677f6f973b54051.jpg",
-    "description": "Jag hyr ut min ljusa och välplanerade tvåa på Doktor Dahlströms gata under en period på tre månader. Lägenheten ligger i ett nybyggt hus och har öppen planlösning mellan kök och vardagsrum, separat sovrum, modernt badrum och gott om förvaring. Bostaden hyrs ut möblerad.\n\nFrån vardagsrummet når man den stora balkongen med morgonsol och fin, fri utsikt – perfekt för frukost eller avkoppling. Lägenheten har ett lugnt läge samtidigt som det är nära till Chalmers, Sahlgrenska och centrala Göteborg. Goda kollektivtrafikförbindelser samt mataffärer, gym och grönområden finns i närheten.\n\nJag söker en lugn och skötsam hyresgäst. Skriv gärna några rader om dig själv, din sysselsättning och varför du söker boende under perioden.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 12985,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T20:01:20+00:00", "clock": "20:01:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T20:33:28+00:00", "clock": "20:33:28"};
