@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mejramgatan, Angered",
+    "url": "https://qasa.com/p/1440035",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fdd4af04422d18f664a59c7d20395deccda0167a773782715b8a43591e0615e.jpg",
+    "description": "🏡 2:a med balkong uthyres – Angered\n\nLjus och fräsch 2:a på 54 kvm på Mejramgatan 18 uthyres.\n\n🏠 2 rum & kök\n🌿 Balkong\n🧺 Tvättstuga i byggnaden\n💰 Hyra: 9 000 kr/mån\n⚡ El tillkommer\n🌐 Eget bredband tecknas av hyresgästen\n📅 Tillträde enligt överenskommelse\n\nDen förmånliga hyran beror på att lägenheten ligger ute till försäljning och visningar kan ske ca 1–2 gånger/månad, alltid med framförhållning.\n\nÖmsesidig uppsägningstid: 2 månader, oavsett försäljning.\n\nSöker en skötsam hyresgäst med stabil ekonomi. Vid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sveagatan, Göteborg",
     "url": "https://qasa.com/p/1439965",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a9943b2e517978faf635faca7a39981ebc39bca0873961594c92ccd0229512a.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rörstrandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1439885",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/03d744e4a7fbc9f63df2fc8eec43d4b7bc085b3e4e9b52ee3acf482ae7008ed5.jpg",
-    "description": "Jag hyr ut min välplanerade 2:a på 50 kvm med balkong på Rörstrandsgatan i Brämaregården.\n\nLägenheten ligger i ett lugnt och trevligt område med gott om kaféer, restauranger och service. Balkongen vetter mot hamninloppet och föreningen har en fin, välskött innergård. Källarförråd ingår.\n\nLägenheten hyrs ut i princip omöblerad, men de möbler som finns kan ingå om det önskas.\n\nCirka 5 minuters promenad till Hjalmar Brantingsplatsen och Jubileumsparken med utmärkta kollektivförbindelser till hela Göteborg. Det tar bara 3–4 minuter med spårvagn till Nordstan/Centralstationen, och Lindholmen ligger på bekvämt promenadavstånd.\n\nOm du vill måla om eller sätta din egen prägel på lägenheten är det helt okej.\n\n📅 Uthyres i 1 år med möjlighet till förlängning.\n💰 Hyra: 12 000 kr/månad. Varm hyra med internet, vatten och el täckt.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T17:28:28+00:00", "clock": "17:28:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T17:48:34+00:00", "clock": "17:48:34"};
