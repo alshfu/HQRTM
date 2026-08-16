@@ -3,10 +3,25 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lars Kaggsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440042",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8fcdeb2fc75de9d3b1305db01f1b751771945f48b5259451fedeb0cd7369cae.jpg",
+    "description": "Uthyres: Ett möblerat rum i nyrenoverad 2-rumslägenhet (46 kvm) – inflytt omgående\n\nEtt rum på cirka 16 kvm uthyres i en nyrenoverad och fräsch lägenhet på totalt 46 kvm. Rummet är möblerat, men det går även bra att ta med egna möbler om så önskas.\n\nLägenheten ligger i ett mycket bra område, nära till butiker, service och kommunikationer. Endast cirka 5 minuter till centrum.\n\nHyresvillkor:\n\n* 1 månads deposition\n* 1 månads uppsägningstid för båda parter\n* Tillgång till gemensamt kök och badrum\n* Vi delar på övriga utrymmen i lägenheten\n* Allt ingår\n* Hyra: 5 500 kr/månad\n\nJag söker en lugn, skötsam och ansvarsfull person med fast inkomst och stabil livssituation. Det är viktigt att du håller rent, deltar i städning och respekterar en lugn och trivsam boendemiljö.\n\nRökning och fester undanbedes. Inflyttning kan ske omgående.\n\nVid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 5200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mejramgatan, Angered",
     "url": "https://qasa.com/p/1440035",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fdd4af04422d18f664a59c7d20395deccda0167a773782715b8a43591e0615e.jpg",
-    "description": "🏡 2:a med balkong uthyres – Angered\n\nLjus och fräsch 2:a på 54 kvm på Mejramgatan 18 uthyres.\n\n🏠 2 rum & kök\n🌿 Balkong\n🧺 Tvättstuga i byggnaden\n💰 Hyra: 9 000 kr/mån\n⚡ El tillkommer\n🌐 Eget bredband tecknas av hyresgästen\n📅 Tillträde enligt överenskommelse\n\nDen förmånliga hyran beror på att lägenheten ligger ute till försäljning och visningar kan ske ca 1–2 gånger/månad, alltid med framförhållning.\n\nÖmsesidig uppsägningstid: 2 månader, oavsett försäljning.\n\nSöker en skötsam hyresgäst med stabil ekonomi. Vid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
+    "description": "🏡 2:a med balkong uthyres – Angered\n\nLjus och fräsch 2:a på 54 kvm på Mejramgatan 18 uthyres.\n\n🏠 2 rum & kök\n🌿 Balkong\n🧺 Tvättstuga i byggnaden\n💰 Hyra: 9 000 kr/mån\n⚡ El tillkommer\n🌐 Eget bredband tecknas av hyresgästen\n📅 Tillträde enligt överenskommelse\n\nDen förmånliga hyran beror på att lägenheten ligger ute till försäljning och visningar kan ske ca 1–2 gånger/månad, alltid med framförhållning. Hyrs ut minst 6 månader. \n\nÖmsesidig uppsägningstid: 2 månader, oavsett försäljning.\n\nSöker en skötsam hyresgäst med stabil ekonomi. Vid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
     "district": "Angered",
     "rooms": 2.0,
     "area_m2": 54.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjälmavägen, Torslanda",
-    "url": "https://qasa.com/p/1422189",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e50f74cdc96e8dbac7ed001f43c921478224709f357f1fdacb1a89cad279c87a.jpg",
-    "description": "Nybyggt gästhus i Nolvik Torslanda.\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\nNytt kök med all utrustning\n\n- Fristående\n- Möblerat\n\nPassar till 1-2 personer.\n\nVärme, vatten och EL ingår i hyran. \n\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
-    "district": "Torslanda",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 10900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T17:48:34+00:00", "clock": "17:48:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T18:08:00+00:00", "clock": "18:08:00"};
