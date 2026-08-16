@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Utlandagatan, Göteborg",
+    "url": "https://qasa.com/p/1440025",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1125fb6c0e7dcac79f38be063f8f19e2e4dfcb29b0d85a389b40905e05262e37.jpg",
+    "description": "Möblerad 2:a i Johanneberg uthyres 1 september – 31 januari 🏡\n\nVi hyr ut vår fina och fullt möblerade lägenhet på Utlandagatan i Johanneberg under perioden september–januari.\n\nLägenheten är 54 kvm och ligger på 5:e våningen med hiss. Den har balkong, diskmaskin och tillgång till tvättmaskin och torkrum i källaren. Närmaste hållplats, Utlandagatan, ligger bara ca 40 meter bort med smidiga förbindelser in till stan. Willys ligger precis nedanför lägenheten. \n\nHyra: 11 800 kr/månad\nI hyran ingår el, bredband, värme och vatten.\n\nHör gärna av dig vid intresse eller om du vill veta mer! 🌸",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 11900,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Föreningsgatan, Göteborg",
+    "url": "https://qasa.com/p/1419614",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c3e245c06bfa2e57c4871df25b48c99115e653f731a01c340523f0eb06ed715e.jpg",
+    "description": "Mysig 1.5-rumslägenhet uthyres med fantastiskt läge i Vasastan!\n\nHär bor du med mysiga kaféer, restauranger och bra kommunikationer via Vasaplatsen precis runt hörnet, i en bostad som känns både modern och hemtrevlig. Chalmers och Göteborgs universitet kan båda nås från lägenheten med 5-10 minuters promenad.\n\nLägenheten hyrs ut fullt möblerad och är perfekt för 1-2 personer. Köket är modernt med alla vitvaror du behöver, inklusive diskmaskin. Lägenheten är utrustad med kombimaskin (tvätt och tork) och det finns även möjlighet att boka en tvättstuga vid behov.\n\nI hyran ingår värme, vatten och bredband. Söker rök- och djurfri hyresgäst.\n\nHör gärna av er vid frågor!",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 41.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lars Kaggsgatan, Göteborg",
     "url": "https://qasa.com/p/1440042",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8fcdeb2fc75de9d3b1305db01f1b751771945f48b5259451fedeb0cd7369cae.jpg",
@@ -21,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Mejramgatan, Angered",
     "url": "https://qasa.com/p/1440035",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fdd4af04422d18f664a59c7d20395deccda0167a773782715b8a43591e0615e.jpg",
-    "description": "🏡 2:a med balkong uthyres – Angered\n\nLjus och fräsch 2:a på 54 kvm på Mejramgatan 18 uthyres.\n\n🏠 2 rum & kök\n🌿 Balkong\n🧺 Tvättstuga i byggnaden\n💰 Hyra: 9 000 kr/mån\n⚡ El tillkommer\n🌐 Eget bredband tecknas av hyresgästen\n📅 Tillträde enligt överenskommelse\n\nDen förmånliga hyran beror på att lägenheten ligger ute till försäljning och visningar kan ske ca 1–2 gånger/månad, alltid med framförhållning. Hyrs ut minst 6 månader. \n\nÖmsesidig uppsägningstid: 2 månader, oavsett försäljning.\n\nSöker en skötsam hyresgäst med stabil ekonomi. Vid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
+    "description": "🏡 2:a med balkong uthyres – Angered\n\nLjus och fräsch 2:a på 54 kvm på Mejramgatan 18 uthyres.\n\n🏠 2 rum & kök\n🌿 Balkong\n🧺 Tvättstuga i byggnaden\n💰 Hyra: 9 000 kr/mån\n⚡ El tillkommer\n🌐 Eget bredband tecknas av hyresgästen\n📅 Tillträde enligt överenskommelse\n\nDen förmånliga hyran beror på att lägenheten ligger ute till försäljning och visningar kan ske ca 1–2 gånger/månad cirka 30min lång, alltid med framförhållning. Hyrs ut minst 6 månader. \n\nÖmsesidig uppsägningstid: 2 månader, oavsett försäljning.\n\nSöker en skötsam hyresgäst med stabil ekonomi. Vid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
     "district": "Angered",
     "rooms": 2.0,
     "area_m2": 54.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ättehögsgatan, Göteborg",
-    "url": "https://qasa.com/p/1439898",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7274dec4ea7c9acd13dc5432a8f842356451ec424d076c676523bd934b0fb8bf.jpg",
-    "description": "Hyr ut min 2:a i andra hand eftersom jag flyttat ihop med min flickvän. \nlägenheten har ett stort sovrum, stort kök med köksbord och sex stolar. Badrummet är också stort med stor dusch, tvättmaskin och Bastu med plats för tre personer. Det finns också tvättmaskin i badrummet men också tillgång till tvättrum nere i källaren.\nLägenheten ligger längst upp i en villa som har 3 andra lägenheter i sig. Tomten delas med de andra boende i huset. Alltså går det fint att grilla /hänga där. Närmsta hållplatsen är qvidingsgatan (200m) där buss 17 går var tionde minut på morgon och eftermiddag. Vill man ta spårvagn (1an eller 5an) går man till munkebäckstorget. (600m)\n\nJag hyr ut i andra hand i ett års tid. Har man skött sig bra, betalat hyra i tid, inte stör grannar eller skräpar ner på tomten osv. Så kommer man ha möjlighet att ta över hyreskontraktet efter ett år.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 9250,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långedragsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1439908",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/82f22125b27edacdc677b2060ea1679de915b7184e685ca2f4db9af8708910ae.jpg",
-    "description": "Vi har ett mysigt litet hus med egen uteplats och egen parkering att hyra ut från 2 oktober (eller enligt överenskommelse) och tillsvidare i fina omgivningar, Hagen/Långedrag (förstahandskontrakt). Ombonat med värmegolv i hela huset, helkaklat badrum med tvättmaskin. Fullt utrustat kök med induktionshäll, micro och diskmaskin. Huset är på 25 kvm plus ett stort sovloft (ca 15 kvm). Det är anpassat för en person. Det finns förvaring, såsom garderob med spegel, byrå, hatthylla, skoställ och längsgående hyllplan i hall/vardagsrum, högt badrumsskåp och flera hurtsar på sovloftet. Köket är möblerat med ett litet klaffbord och två stolar (se bilder). Finns även en liten utemöbelgrupp på den egna uteplatsen.\n\nHuset har bra kommunikationer, med\n•\t50 meter till buss och spårvagn (linje 11 med täta turer till stan och linje 13 som har morgonturer till Chalmers och Sahlgrenska utan byte, dvs <20 minuter)\n•\t100 meter till stort hemköp, fiskvagn, riktigt bra sushi och pizzeria\n•\tGym, motionsspår, frisör och vårdcentraler ligger också inom gångavstånd\n•\tPå sommaren är det inte långt till salta bad (1 km till havet)\n\nHyran är på 9500:- inklusive el, värme, vatten, sopor, bredband.\nHyrs ut delvis möblerat i första hand.\n\n/Tomas & Cecilia",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 9052,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T18:08:00+00:00", "clock": "18:08:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T18:45:20+00:00", "clock": "18:45:20"};
