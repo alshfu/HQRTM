@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hjälmavägen, Torslanda",
+    "url": "https://qasa.com/p/1422189",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e50f74cdc96e8dbac7ed001f43c921478224709f357f1fdacb1a89cad279c87a.jpg",
+    "description": "Nybyggt gästhus i Nolvik Torslanda.\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\nNytt kök med all utrustning\n\n- Fristående\n- Möblerat\n\nPassar till 1-2 personer.\n\nVärme, vatten och EL ingår i hyran. \n\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
+    "district": "Torslanda",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 10900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Rörstrandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1439885",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/03d744e4a7fbc9f63df2fc8eec43d4b7bc085b3e4e9b52ee3acf482ae7008ed5.jpg",
+    "description": "Jag hyr ut min välplanerade 2:a på 50 kvm med balkong på Rörstrandsgatan i Brämaregården.\n\nLägenheten ligger i ett lugnt och trevligt område med gott om kaféer, restauranger och service. Balkongen vetter mot hamninloppet och föreningen har en fin, välskött innergård. Källarförråd ingår.\n\nLägenheten hyrs ut i princip omöblerad, men de möbler som finns kan ingå om det önskas.\n\nCirka 5 minuters promenad till Hjalmar Brantingsplatsen och Jubileumsparken med utmärkta kollektivförbindelser till hela Göteborg. Det tar bara 3–4 minuter med spårvagn till Nordstan/Centralstationen, och Lindholmen ligger på bekvämt promenadavstånd.\n\nOm du vill måla om eller sätta din egen prägel på lägenheten är det helt okej.\n\n📅 Uthyres i 1 år med möjlighet till förlängning.\n💰 Hyra: 12 000 kr/månad. Varm hyra med internet, vatten och el täckt.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mittviksvägen, Vrångö",
     "url": "https://qasa.com/p/1439758",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3e1f0f81e457c7335fe689b5d72b2370f7177482dce25e4392e6991aa2e25c1.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Godemansgatan, Göteborg",
-    "url": "https://qasa.com/p/1439732",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66717cf5265821eb757a6614f8c8859d870f43527969ede94420655866edb5ac.jpg",
-    "description": "Fint renoverad tvåa i kvillebäcken med 5 minuter gångavstånd till vågmästareplatsen där buss eller spårvagn tar dig till brunnsparken på 6 minuter. I närområdet finns backaplan och hisingsparken.\n\nLägenheten är renoverad 2020 med nytt kök (all utrusting finns) och nya ytskikt, badrummet renoverades av förra ägaren och är i fint skick.\nLägenheten har separat kök med matplats, en hall med inbyggd garderob, sovrum med garderob samt ett härligt vardagsrum i hörnläge med fiskbensparkett och pardörrar i klassisk stil.\n\nLägenheten är omöblerad och hyrs ut från omedelbart till och med Juli 2027. Tillträde möjligt från början av november.\n\nI föreningen finns festlokal att hyra samt gästlägenhet, föreningen ingår i HSB och erbjuder en lugn och stabil grannsamverkan.\n\nI hyran ingår internet, värme, vatten. El samt hemförsäkring organiseras av hyresgästen.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bergkristallsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1437490",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5671ad2995ec15545726a0bc846a3a9e78aca8d68d3487fc50ee5acb5a392e24.jpg",
-    "description": "Ljus och fräsch hörnlägenhet med 2 rum och kök. Centralt belägen i Frölunda med närhet till både härliga havsbad i Fiskebäck och mysiga promenadslingor, ishall och fotbollsplaner i Ruddalen. Gångavstånd till Frölunda Torg och på 20 min kommer man till centrala Göteborg med X5. Hållplatsen ligger 5 min från hemmet. \nTrevlig innergård med grill och stor uteplats under tak. \n\nGemensam tvättstuga.\nIngen diskmaskin. \nInhängnad parkering. \n\n3 månader uppsägningstid (kalendermånader) \nDjur- och rökfritt. ",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 8274,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T14:09:35+00:00", "clock": "14:09:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-16T14:37:42+00:00", "clock": "14:37:42"};
