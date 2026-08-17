@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Olivedalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440785",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cbbf2eb4bb75225edcabefcbf877ecf7b91c7c8f68b80da866accbe6509ed9c5.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 35001 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cpkp6pfuto0oekwl9u68/vastra-gotaland/goteborg/olivedalsgatan-10/3.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nRymlig lägenhet på 152 kvadratmeter i trevliga Linnéstaden. Belägen i hörnet Linnégatan/Olivedalsgatan med närhet till restauranger, Slottskogen, service och lokaltrafik. Här finns ett stort utbud av restauranger, caféer, butiker och annan service alldeles i närheten. Samtidigt är det nära till grönområden och promenadstråk, vilket ger en fin kombination av cityliv och avkoppling.\r\n\r\nLäget passar perfekt för den som vill ha stadens puls precis utanför dörren och samtidigt smidigt kunna ta sig runt i Göteborg.\r\n\r\nLägenheten har två sovrum, stort vardagsrum, stort kök och salong med fungerande öppen spis. Två badrum, varav ett ansluter direkt till huvudsovrummet. \r\n\r\nUthyres möblerad.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 35001 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 154.0,
+    "rent": 33035,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Torggatan, Göteborg",
+    "url": "https://qasa.com/p/1440737",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b8c9b6b73f29194b789f3db2dc30f90dc905809a7f9b4cb18f1e98dd3de14991.jpg",
+    "description": "Hej, Maria heter jag och jag är 61 år gammal. Jag har i 15 år hyrt ut ett rum i min för stora lägenhet som ligger helt centralt, några minuter från centralstationen och Nordstan. Här har du all kommunikation till alla universitet och skolor någon minut bort, (såvida du inte vill cykla eller gå).  lägenheten är en 3 rum och kök i halvetage. Rummet jag hyr ut ligger på andra våningen där även ett i stort sätt eget badrum finns. Du har dessutom tillgång till kök, eget hyllplan i kyl och frys samt förvaringsutrymme i köket.  Jag önskar hyra ut till någon som är lugn och håller ordning runt sig. Du behöver inte vara rökfri MEN ingen rökning inomhus. Tyvärr kan jag inte ta emot djur. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Föreningsgatan , Göteborg",
     "url": "https://qasa.com/p/1440732",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21cf656368ad5350d0bf257e74ed230985334e5cbf6753be73f406716bdcf805.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Universumsgatan 24, Göteborg",
-    "url": "https://qasa.com/p/1440728",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/92ef8980eb3b8632f6e4fc8f09c71ebf9064a1ddef5ba087db9e34ed30fc3d34.jpg",
-    "description": "Välkommen till Bergsjö Höjd! \n \nHär erbjuds en ljus och välplanerad lägenhet om 55 kvm, byggd 2022, med öppen planlösning och moderna materialval. \n \nFrån köket finns utgång till en rymlig balkong som passar bra för att njuta av frisk luft eller en kopp kaffe. Köket är utrustat med bland annat diskmaskin och mikrovågsugn, och i badrummet finns en kombinerad tvättmaskin och torktumlare som underlättar vardagen.  \n \nTill lägenheten hör även ett förråd i källaren.  \n \nI hyran som marknadsförts ingår inte kostnad för el och vatten då du betalar för din faktiska förbrukning.  \n  \nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Normalt slitage kan förekomma i lägenheten. Visning sker enligt planritning.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 8478,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Onyxgatan 2, Västra frölunda",
-    "url": "https://qasa.com/p/1440719",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/94830cda724c513ff208f557f4b957732ddf5020ec5dda35f7484872c550c6e6.jpg",
-    "description": "Vi välkomnar dig till en fin 4a på ca 93 kvm på Onyxgatan 2 i Tynnered. Lägenheten ligger på våning 2. Debitering för el, varm- och kallvatten tillkommer efter förbrukning. Egna avtal för detta behövs inte skrivas utan tecknas i samband med kontraktsskrivning. Kv Parkhuset är belägen utmed Ametistgatan vid nya Opalparken, mellan Frölunda torg och havet i Tynnered i Göteborg. \n\n\n\nFastigheten är uppkopplad mot ett mobilt låssystem vilket innebär att du som hyresgäst låser upp trapphusdörrarna med mobil access. Du låser enkelt upp dörren med en knapptryckning via bluetooth, så internetuppkoppling är inte nödvändig. Till lägenheten kommer fysiska nycklar kvitteras ut. Lägenheten genomgående 3 stavs ekparkett, takhöjd om 2,5 meter och ljusa väggar. Badrummet har klinkergolv och kaklade väggar med duschvägg samt kombimaskin. I köket möts du av släta luckor samt stänkskydd och bänkskiva i laminat med infälld vask, mikro, diskmaskin, inbyggnadsugn och induktionshäll. Lägenheten har även balkong. Lägenheten har ett tillhörande förråd placerat i lägenheten eller i källarplan (se planritning). \n\n\n\nObservera att bilderna i annonsen är exempelbilder. Sveaviken PM tillämpar bakgrundskontroll vid uthyrning. Hyran är baserad på 2026 års framförhandlade nivå. Om tillträdesdagen infaller på en helgdag så sker tillträdet den första vardagen efter.",
-    "district": "Västra frölunda",
-    "rooms": 4.0,
-    "area_m2": 93.0,
-    "rent": 16707,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T14:13:45+00:00", "clock": "14:13:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T14:47:11+00:00", "clock": "14:47:11"};
