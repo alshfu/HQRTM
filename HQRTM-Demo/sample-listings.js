@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Surbrunnsgatan, Göteborg",
+    "url": "https://qasa.com/p/1441089",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c0479344736378e04e4a4fee711ab9baf48e2d4feaed23e79106818a2986239e.jpg",
+    "description": "Sekelskiftslägenhet med attraktivt läge mitt i centrala Göteborg, mellan Järntorget och Stenpiren.\n\nLägenheten erbjuder ett generöst kök och ett rymligt vardagsrum med klassiska sekelskiftesdetaljer som skapar en varm och inbjudande atmosfär. Förvaringsmöjligheterna är mycket goda med gott om plats i både hall, kök och sovrum. Finns tvättmaskin och diskmaskin. En rymlig balkong med sol under dagarna.\n\nJag är på utbyte under en termin och tänkte därför hyra ut helt möblerat om så önskas. Alla köksredskap finns som kan tänkas behövas.\nHyran inkluderar samtliga driftskostnader såsom el, vatten, TV och internet/WiFi.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 20500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Jordhyttegatan, Göteborg",
     "url": "https://qasa.com/p/1441067",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/290b8a7654eaa5bbe69ee0695726c303ab7acf9645cd7fcf679bc87e1e758f31.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långedragsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1440799",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf6ae8c70836e71a281b7a5015cd365ff79cae886936cc06a7d8bc067177561e.jpg",
-    "description": "Mysigt fristående hus på 60 kvm uthyres\nMysigt och välplanerat fristående hus på ca 60 kvm uthyres. Huset har egen uteplats/trädgård och balkong samt egen parkering.\nEtt mycket bra läge med både spårvagn och buss i närheten. Härifrån tar du dig smidigt till både Volvo och Astra, och det är enkelt att pendla vidare mot Göteborg och Mölndal. Cirka 10 minuter med spårvagn till Järntorget.\nEtt perfekt boende för dig som söker ett lugnt och bekvämt hem med närhet till kommunikationer och arbetsplatser.\nHuset måste ses!",
-    "district": "Västra Frölunda",
-    "rooms": 2.5,
-    "area_m2": 60.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T20:44:31+00:00", "clock": "20:44:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T21:10:12+00:00", "clock": "21:10:12"};
