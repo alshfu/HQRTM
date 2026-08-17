@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mattsonsliden, Göteborg",
+    "url": "https://qasa.com/p/1440552",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b739fc363e05d3b7d5a5c1bfbd36376803e19bb9acbb98690cf055d620fa0b72.jpg",
+    "description": "Centralt boende med ingång från Andra Långgatan 48. Nära till spårvagn med tre olika linjer, mataffär, gym och restauranger. Lugnt område med närhet till slottsskogen. Tyst lägenhet utan ljud från grannar. \n\nLägenheten har stort badrum, nyrenoverat kök från Härjedalskök med moderna vitvaror, stora fönster med utsikt över älven och Karlatornet. Tvättstuga på samma plan några meter bort. Hiss hela vägen från Andra Långgatan. Stort förråd samt cykelrum. \n\nUthyres omöblerad. Internet 1000/1000 ingår i hyran. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 10505,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Dragspelsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1440428",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bua Västergårdsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/603459",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27e5c41fc5a461150ad50408914688bbd6d0e1315463023a868984de6f17b66b.jpg",
-    "description": "Huset på näset är 35 kvadrat och fullt utrustat med kök och badrum.  Det ligger nära fina bad, bland annat Smittska udden och Stegerholmens badplats . Det är dessutom nära till kommunikationer, som tar dig till Frölunda torg på 10 minuter och centrum på 25 minuter. Från huset går det en stig upp på Valeberget till en gammal Tullstuga, där man har milsvid utsikt över skärgård och ända in till centrum.\nJag som hyr ut är intresserad av att hyra ut till någon som även tycker om att ta hand om sin del av trädgården där man även får lov att odla.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 35.0,
-    "rent": 10250,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T11:15:22+00:00", "clock": "11:15:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T11:44:24+00:00", "clock": "11:44:24"};
