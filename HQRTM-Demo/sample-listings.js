@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Generalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440349",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/288e89d929b762d72575271f2c162d8cd99b91a73a01e3cda4a1575078b653b3.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16901 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/1pvzuf4guf6d8nsxhcsj/vastra-gotaland/goteborg/generalsgatan-8/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nCentral trea i hjärtat av Kviberg/Gamlestaden. Nära till både trevliga restauranger, livsmedelsbutiker och grönområden.\r\nHållplatsen strax utanför lägenheten tar dig på sju minuter med spårvagn till Göteborgs Centralstation. \r\nLägenheten är en hörnlägenhet med två balkonger (varav en inglasad) och en välplanerad öppen planlösning.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16901 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 69.0,
+    "rent": 16104,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Munspelsgatan 10, Västra frölunda",
     "url": "https://qasa.com/p/1440252",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/400098e9f2cdd816d4ec9ec50a7d07002190ecf4db3855eda4b3cb71a9cda557.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mejramgatan, Angered",
-    "url": "https://qasa.com/p/1440035",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fdd4af04422d18f664a59c7d20395deccda0167a773782715b8a43591e0615e.jpg",
-    "description": "🏡 2:a med balkong uthyres – Angered\n\nLjus och fräsch 2:a på 54 kvm på Mejramgatan 18 uthyres.\n\n🏠 2 rum & kök\n🌿 Balkong\n🧺 Tvättstuga i byggnaden\n💰 Hyra: 9 000 kr/mån\n⚡ El tillkommer\n🌐 Eget bredband tecknas av hyresgästen\n📅 Tillträde enligt överenskommelse\n\nDen förmånliga hyran beror på att lägenheten ligger ute till försäljning och visningar kan ske ca 1–2 gånger/månad cirka 30min lång, alltid med framförhållning. Hyrs ut minst 6 månader. \n\nÖmsesidig uppsägningstid: 2 månader, oavsett försäljning.\n\nSöker en skötsam hyresgäst med stabil ekonomi. Vid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T07:12:08+00:00", "clock": "07:12:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T08:01:48+00:00", "clock": "08:01:48"};
