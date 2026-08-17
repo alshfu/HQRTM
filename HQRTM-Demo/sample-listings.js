@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Munspelsgatan 10, Västra frölunda",
+    "url": "https://qasa.com/p/1440252",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/400098e9f2cdd816d4ec9ec50a7d07002190ecf4db3855eda4b3cb71a9cda557.jpg",
+    "description": "Här ges möjlighet att hyra en nyrenoverad lägenhet som HEM renoveras nu, 2026. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett.\n\nI det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål.\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.\n\nVitvarorna i lägenheten är av märket Cylinda och lägenhetsförrådet finner ni i lägenheten.\n \nLägenheten hyrs ut på ritning p.ga pågående renovering.\n\nHyran avser 2026 års hyresnivå.\n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13105,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bua Västergårdsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/603459",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27e5c41fc5a461150ad50408914688bbd6d0e1315463023a868984de6f17b66b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sveagatan, Göteborg",
-    "url": "https://qasa.com/p/1439965",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a9943b2e517978faf635faca7a39981ebc39bca0873961594c92ccd0229512a.jpg",
-    "description": "English text follows below.\nStort rum (uppskattningsvis 17 kvadratmeter) med högt-till-tak och med enskilt läge inom mysig sekelskifteslägenhet (hus byggt omkring år 1910) på 3 rum och kök med absolut bästa läge i Linnéstaden i centrala Göteborg uthyres till lugn, rökfri och skötsam person. Rummet vetter mot innergård så ingen störande trafik. Cykelställ under tak på låst innergård.\n\nOmråde: Området vimlar av restauranger och kaféer med uteserveringar. Ca 200 meter från Linnégatan och ca 400 meter till Slottsskogen. Ca 4 minuters promenad till Handelshögskolan.\n\nKommunikationer: Spårvagn linje 1, 2 och 6. Hållplats ligger ca 200 meter från bostaden.  Busshållplats på Linnéplatsen, ca 400 meter från bostaden.\n~4 minuters gångväg till Handelshögskolan.\n~10 minuter på spårvagn linje 6 till Chalmers campus Johanneberg.\n2 hållplatser på spårvagn linje 6 till Sahlgrenska Universitetsjukhuset.\n\nIngår i uthyrningen: Tillgång till badrum med dusch och badkar. Kök med egen plats i kyl och i frys. Eget förvaringsskåp och kökslåda. Egen plats i skafferiskåp. Tillgång till mikrovågsugn, spis och diskbänk. En garderob i rummet. Tillgång till tvättstuga som inkluderar tvättmaskiner, torkmaskin och torkrum.\n\nTillgång till snabbt Internet via WiFi och kabel-TV.\n-----------------------------------------\n\nA large room (approximately 17 square meters) in a private location within a cozy two bedroom apartment (house built around year 1910). The apartment has an outstanding location within the popular area \"Linnéstaden\" in central Gothenburg (Göteborg). The room faces an inner yard so the room is quiet and is not disturbed by any traffic noise. There is a protected parking area for bicycles.\n\nYou are calm, conscientious, drug-free and a non-smoker.\n\nLocation: This area of Gothenburg is crowded of restaurants and cafes --  open air in spring and summer. The popular promenade street Linnégatan is ~200 meters away. Gothenburg's big (biggest perhaps?) recreational park \"Slottsskogen\" is ~400 meters away. \n\nCommunications:\n~200 meters to tram stop with tram lines number 1, 2 and 6. \n~400 meters to bus stop.\n~4 minutes walk to Gothenburg University campus Handelshögskolan.\n~10 minutes fare on tram line number 6 to Chalmers campus Johanneberg.\n2 stops on tram line number 6 to Sahlgrenska Universitety Hospital.\n\nIncluded in rent:\nAccess to bathroom with both shower and bathtub.\nAccess to kitchen for storage and preparation of food. In the kitchen you have your own space in the fridge and freezer, your own cupboard and your own draw. Access to microwave oven, stove and sink.\nOne wardrobe within the room.\nAccess to fast Internet via Wi-Fi (fiber, currently 250Mbps/250 Mbps).\nAccess to cable-TV antenna outlet.\nAccess to vacuum cleaner and ironing board.\nAccess to laundry room that includes washing machines, tumble dryer and a drying room.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 17.0,
-    "rent": 4400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T05:29:58+00:00", "clock": "05:29:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T06:02:45+00:00", "clock": "06:02:45"};
