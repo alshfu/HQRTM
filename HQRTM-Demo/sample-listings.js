@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bergsjösvängen, Göteborg",
+    "url": "https://qasa.com/p/1440981",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/90b5e0e016c39e57eb0505d82b0cae49e424cb1e1000fe12a1953b157fbf8a4b.jpg",
+    "description": "Rymligt 3-våningsradhus i lugnt område\n\nVälkommen till ett rymligt och trivsamt radhus i ett lugnt och familjevänligt område. Huset är fördelat över tre våningar och erbjuder gott om plats för både familjer och större sällskap.\n\nEntréplan:\nHär finns ett ljust vardagsrum, ett fullt utrustat kök samt ett praktiskt tvättstuga med duschkabin. På samma våning finns även en separat gästtoalett.\n\nNedre plan:\nPå nedervåningen finns ett stort och mysigt allrum med en säng, en stor soffa och en Smart-TV – perfekt för avkoppling, filmkvällar eller extra sovplatser.\n\nÖvre plan:\nHär finns fyra sovrum, varav två har direkt tillgång till balkong. På våningen finns även ett helt nytt och fräscht badrum.\n\nEtt perfekt boende för dig som söker ett rymligt, bekvämt och välutrustat hem i en lugn miljö.",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 141.0,
+    "rent": 25000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Seglaregatan, Göteborg",
     "url": "https://qasa.com/p/1440990",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1184efb7068280d33fcc5f7e4a7fcb70b688b352c463baf4227294f003670ec6.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Föreningsgatan , Göteborg",
-    "url": "https://qasa.com/p/1440732",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21cf656368ad5350d0bf257e74ed230985334e5cbf6753be73f406716bdcf805.jpg",
-    "description": "Centralt rum, ca 15 m2\nRum, ca 15 m2, i lugn miljö i lägenhet på 96 m2 finns att hyra centralt i Vasastan med gångavstånd till Göteborgs Universitet och Chalmers tekniska. Högskola . \nTillgång till kök för matlagning, badrum/ toalett samt tvättstuga. El och wifi ingår också i hyran.\nDu är ordningsam visar hänsyn och är ansvarsfull.\nRummet är ledigt från mitten/slutet av augusti enl ök. Skriv gärna och berätta lite om dig själv.\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T18:52:48+00:00", "clock": "18:52:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T19:22:11+00:00", "clock": "19:22:11"};
