@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Seglaregatan, Göteborg",
+    "url": "https://qasa.com/p/1440990",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1184efb7068280d33fcc5f7e4a7fcb70b688b352c463baf4227294f003670ec6.png",
+    "description": "SVENSKA\nLjus och trivsam genomgångstvåa med fantastisk utsikt över Älvsborgsbron! \n\nVälkommen till denna fina och välplanerade tvåa med ljusinsläpp från två väderstreck. Belägen högt upp i huset med en slående utsikt där du kan njuta av magiska solnedgångar över Älvsborgsbron under eftermiddagar och kvällar. Internet ingår i avgiften!\n\nLägenheten har ett luftigt vardagsrum med stora fönster som ger ett generöst ljusinsläpp och en vacker vy. Från hallen når du bostadens alla rum samt en rymlig klädkammare – förutom sovrummet, som har ingång både från köket och vardagsrummet. En trivsam och ljus bostad med smart planlösning!\n\nENGLISH\nBright and Cozy Two-Room Apartment with Stunning Views of Älvsborg Bridge\n\nWelcome to this lovely and well-planned two-room apartment with natural light from two directions. Located on a high floor with sweeping views, you can enjoy breathtaking sunsets over the Älvsborg Bridge in the afternoons and evenings. Internet is included in the monthly fee!\n\nThe spacious living room features large windows that let in plenty of light and offer a beautiful view. From the hallway, you have access to all rooms and a generous walk-in closet – except for the bedroom, which is accessible from both the kitchen and the living room. A bright and inviting home with a smart layout!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 14800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sanatoriegatan, Göteborg",
+    "url": "https://qasa.com/p/1440985",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b974032084d0f2e5493d48f1cdb410ab283f2a3afa3f12da8ee8b157c2aaae7f.jpg",
+    "description": "Två rum och kök på Sanatoriegatan i Kålltorp. Lägenheten ligger i ett tvåfamiljsradhus på andra våningen.\n\nLjus och fräsch lägenhet i gott skick med bra standard på utrusting. Tvättmaskin, torktumlare,  diskmaskin etc.  \n\nKålltorp är ett centralt men lugnt område, känns som en småstad mitt i staden. Gott om matbutiker och bra med restauranger, caféer, gym etc. \n\nBra kommunikationer, spårvagn 3 och 5 stannar på gatan, spårvagn 1 och buss 17 finns på fem minuters promenadavstånd. \n\nVill man cykla tar det 10 minuter till korsvägen eller 15 minuter till nordstan. Bil funkar också, parkering på gatan är gratis i området. \n\nNära till naturen i Skatås och Delsjön, man promenerar till skogen på fem minuter.\n\nVärme, vatten, sophämtning ingår.\n \nLägenheten har egen elmätare.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sjupundsgatan, Göteborg",
     "url": "https://qasa.com/p/1440922",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0a972ad2d63a5ea798f2b522d6c10dbb6b1acb97ff31dee9e156f8309d81df3a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sunnanvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1440610",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6c7dcf0421d3d98850551ac2158d5a5fa8397412376a85e82346f3e00efb4ff.jpg",
-    "description": "Denna genomgångslägenhet om två rum och kök är belägen med fönster i två väderstreck. Bostaden har ljusa ytskikt och balkong i västerläge mot grönområde.\n\nKöket har uppdaterats med nytt kakel och ny bänkskiva samt utrustats med diskmaskin installerad 2025. I anslutning till köket ligger sovrummet, som har inbyggd förvaring i flera garderober och utgång till balkongen.\n\nVardagsrummet rymmer både soffgrupp och matbord. Badrummet är helkaklat och försett med badrumsmöbler från 2026.\n\nFastigheten är belägen nära naturområden, matbutiker, gym och skolor. Kollektivtrafik finns i anslutning till området. 10-15 min från lägenheten till Nordstan med spårvagn.\n\nLägenheten hyrs ut då vi ska flytta till större boende under hösten 2026.\nLägenheten hyrs ut delvis möblerad, enligt överenskommelse.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 11800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Toleredsgatan, Göteborg",
-    "url": "https://qasa.com/p/1440633",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7b5ab652d8b7322382f077e130f288e9d73164108481597822ba8a5f8297b309.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 12650 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/3y84fzkyocmbuit59i5n/vastra-gotaland/goteborg/toleredsgatan-26/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till denna charmiga tvåa belägen i hjärtat av centrala Göteborg! Denna stilfulla lägenhet kombinerar modern komfort med klassisk charm.\r\nKöket är modernt och fullt utrustat med diskmaskin, spis, kyl/frys och gott om arbetsyta samt förvaring.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 12650 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 11940,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T18:01:22+00:00", "clock": "18:01:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T18:52:48+00:00", "clock": "18:52:48"};
