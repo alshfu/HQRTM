@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sunnanvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440610",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6c7dcf0421d3d98850551ac2158d5a5fa8397412376a85e82346f3e00efb4ff.jpg",
+    "description": "Denna genomgångslägenhet om två rum och kök är belägen med fönster i två väderstreck. Bostaden har ljusa ytskikt och balkong i västerläge mot grönområde.\n\nKöket har uppdaterats med nytt kakel och ny bänkskiva samt utrustats med diskmaskin installerad 2025. I anslutning till köket ligger sovrummet, som har inbyggd förvaring i flera garderober och utgång till balkongen.\n\nVardagsrummet rymmer både soffgrupp och matbord. Badrummet är helkaklat och försett med badrumsmöbler från 2026.\n\nFastigheten är belägen nära naturområden, matbutiker, gym och skolor. Kollektivtrafik finns i anslutning till området. 10-15 min från lägenheten till Nordstan med spårvagn.\n\nLägenheten hyrs ut då vi ska flytta till större boende under hösten 2026.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 46.0,
+    "rent": 11800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Toleredsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440633",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7b5ab652d8b7322382f077e130f288e9d73164108481597822ba8a5f8297b309.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 12650 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/3y84fzkyocmbuit59i5n/vastra-gotaland/goteborg/toleredsgatan-26/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till denna charmiga tvåa belägen i hjärtat av centrala Göteborg! Denna stilfulla lägenhet kombinerar modern komfort med klassisk charm.\r\nKöket är modernt och fullt utrustat med diskmaskin, spis, kyl/frys och gott om arbetsyta samt förvaring.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 12650 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 11940,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mattsonsliden, Göteborg",
     "url": "https://qasa.com/p/1440552",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b739fc363e05d3b7d5a5c1bfbd36376803e19bb9acbb98690cf055d620fa0b72.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Arves Marias väg 20, Göteborg",
-    "url": "https://qasa.com/p/1440389",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b55ecce18a7b2a653316ae38737affd076ef7f245d1bcf584c5563a39be8bd75.jpg",
-    "description": "Välkommen till denna fina 3 rum och kök på Arves marias väg 20 i Tuve som blir ledig 1 oktober.\nLägenheten är belägen på våning 3 och är disponerad på 75.5 kvm. \n\nLägenheten är bland annat utrustad med: \nSäkerhetsdörr\nKöksfläkt\nDiskmaskin\nBadrumsskåp med spegel\nFörberett för tvättmaskin/torktumlare\nBalkong\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten, vilken tillkommer på hyran.\n\nPlanritning finns men vi erbjuder dig gärna fysisk visning också!\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 13043,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Munspelsgatan 10, Västra frölunda",
-    "url": "https://qasa.com/p/1440252",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/400098e9f2cdd816d4ec9ec50a7d07002190ecf4db3855eda4b3cb71a9cda557.jpg",
-    "description": "Här ges möjlighet att hyra en nyrenoverad lägenhet som HEM renoveras nu, 2026. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett.\n\nI det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål.\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.\n\nVitvarorna i lägenheten är av märket Cylinda och lägenhetsförrådet finner ni i lägenheten.\n \nLägenheten hyrs ut på ritning p.ga pågående renovering.\n\nHyran avser 2026 års hyresnivå.\n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T12:02:08+00:00", "clock": "12:02:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T13:01:57+00:00", "clock": "13:01:57"};
