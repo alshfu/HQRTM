@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kärrhöksgatan, Göteborg",
+    "url": "https://qasa.com/p/1441029",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63fd6768a3b9f7dded8e9afff47ad57c776e0acc919e75d074cee33f8615426b.png",
+    "description": "Ljus och välplanerad tvåa med balkong i västerläge och eftermiddags-/kvällssol.\n\nBostaden\nModernt kök i öppen planlösning mot vardagsrummet – socialt och luftigt.\nBalkong i västerläge, nås från vardagsrummet.\nSovrum med bra förvaring.\nHelkaklat badrum.\nKällarförråd ingår.\nOmöblerad.\nBilderna är från lägenhetens säljannons och skiljer sig således från hur bostaden hyrs ut.\n\nHyra och villkor\nTillträde: 2026-09-01\nDeposition: 5000 kr\nRökning och husdjur tillåts ej.\nFöreningens godkännande krävs för hyresgäst.\nUthyrningsperiod: t.o.m. 2026-11-30, med möjlighet till förlängning. Hyrestiden är satt utifrån att göra lägenheten mer attraktiv för en eventuell försäljning. Om lägenheten inte är såld senast 2026-09-30 kan ett nytt kontrakt tecknas för att förlänga uthyrningsperioden.\n\nBrf Kranskötaren är en välskött förening med fin gemensam innergård som blir en grön oas sommartid. Kålltorp erbjuder natursköna omgivningar med promenadavstånd till Delsjön, Skatås och Härlanda tjärn. Bra dagligservice med butiker och caféer i närheten samt goda kommunikationer till övriga Göteborg.\n\nJag och min sambo har redan flyttat till vår nya lägenhet i Björkekärr och hyr nu ut den här lägenheten i andra hand i väntan på att den säljs.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 10666,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bergsjösvängen, Göteborg",
     "url": "https://qasa.com/p/1440981",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/90b5e0e016c39e57eb0505d82b0cae49e424cb1e1000fe12a1953b157fbf8a4b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Torggatan, Göteborg",
-    "url": "https://qasa.com/p/1440737",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b8c9b6b73f29194b789f3db2dc30f90dc905809a7f9b4cb18f1e98dd3de14991.jpg",
-    "description": "Hej, Maria heter jag och jag är 61 år gammal. Jag har i 15 år hyrt ut ett rum i min för stora lägenhet som ligger helt centralt, några minuter från centralstationen och Nordstan. Här har du all kommunikation till alla universitet och skolor någon minut bort, (såvida du inte vill cykla eller gå).  lägenheten är en 3 rum och kök i halvetage. Rummet jag hyr ut ligger på andra våningen där även ett i stort sätt eget badrum finns. Du har dessutom tillgång till kök, eget hyllplan i kyl och frys samt förvaringsutrymme i köket.  Jag önskar hyra ut till någon som är lugn och håller ordning runt sig. Du behöver inte vara rökfri MEN ingen rökning inomhus. Tyvärr kan jag inte ta emot djur. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T19:22:11+00:00", "clock": "19:22:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T19:48:48+00:00", "clock": "19:48:48"};
