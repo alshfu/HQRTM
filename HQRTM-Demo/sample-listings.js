@@ -3,9 +3,24 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långedragsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1440799",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf6ae8c70836e71a281b7a5015cd365ff79cae886936cc06a7d8bc067177561e.jpg",
+    "description": "Mysigt fristående hus på 60 kvm uthyres\nMysigt och välplanerat fristående hus på ca 60 kvm uthyres. Huset har egen uteplats/trädgård och balkong samt egen parkering.\nEtt mycket bra läge med både spårvagn och buss i närheten. Härifrån tar du dig smidigt till både Volvo och Astra, och det är enkelt att pendla vidare mot Göteborg och Mölndal. Cirka 10 minuter med spårvagn till Järntorget.\nEtt perfekt boende för dig som söker ett lugnt och bekvämt hem med närhet till kommunikationer och arbetsplatser.\nHuset måste ses!",
+    "district": "Västra Frölunda",
+    "rooms": 2.5,
+    "area_m2": 60.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Olivedalsgatan, Göteborg",
     "url": "https://qasa.com/p/1440785",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cbbf2eb4bb75225edcabefcbf877ecf7b91c7c8f68b80da866accbe6509ed9c5.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc0b5a0a3f29fa5fe7ac8ee35b06299f22f9690c6b338a05e237b6304b6e4405.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 35001 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cpkp6pfuto0oekwl9u68/vastra-gotaland/goteborg/olivedalsgatan-10/3.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nRymlig lägenhet på 152 kvadratmeter i trevliga Linnéstaden. Belägen i hörnet Linnégatan/Olivedalsgatan med närhet till restauranger, Slottskogen, service och lokaltrafik. Här finns ett stort utbud av restauranger, caféer, butiker och annan service alldeles i närheten. Samtidigt är det nära till grönområden och promenadstråk, vilket ger en fin kombination av cityliv och avkoppling.\r\n\r\nLäget passar perfekt för den som vill ha stadens puls precis utanför dörren och samtidigt smidigt kunna ta sig runt i Göteborg.\r\n\r\nLägenheten har två sovrum, stort vardagsrum, stort kök och salong med fungerande öppen spis. Två badrum, varav ett ansluter direkt till huvudsovrummet. \r\n\r\nUthyres möblerad.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 35001 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 3.5,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kosmosgatan 4, Göteborg",
-    "url": "https://qasa.com/p/1440735",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc6c658db4a3b8ce6c8e36658c402ef53aa35fe102a8ca07a1027e8dbddad990.png",
-    "description": "Välkommen hem till denna ljusa och stilrena lägenhet om 56 välplanerade kvadratmeter, som renoverades år 2022! Här erbjuds ett stilrent och modernt boende där varje detalj är noggrant utvald för att skapa en trivsam och funktionell vardag.\n \nLägenheten har genomgått en renovering där samtliga väggar och tak målats i ljusa färger. En säkerhetsdörr är installerad för att ge dig en extra trygg känsla i vardagen. I hallen möts du av ett snyggt och praktiskt klinkergolv som både tål slitage och ger ett välkomnande intryck. I resten av hemmet ligger ett elegant ekparkettgolv som ger både värme och karaktär åt bostaden.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel. Köket, hemmets hjärta, är välutrustat med inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kombinerad kyl och frys. Här finns gott om utrymme för både matlagning och gemenskap. I direkt anslutning hittar du även balkongen – perfekt för dig som gillar att sitta ute och njuta av vädret och utsikten.\n \nI hyran ingår värme, vatten och kabel-TV.\nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Visning sker enligt planritning.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 8932,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T14:47:11+00:00", "clock": "14:47:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T15:11:10+00:00", "clock": "15:11:10"};
