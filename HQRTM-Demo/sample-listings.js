@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Jordhyttegatan, Göteborg",
+    "url": "https://qasa.com/p/1441067",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/290b8a7654eaa5bbe69ee0695726c303ab7acf9645cd7fcf679bc87e1e758f31.jpg",
+    "description": "Charmig, ljus möblerad lägenhet med balkong och badkar. Ett fint vardagsrum med balkong och morgonsol, ett sovrum med garderober, och ett kök med stort kallskafferi. Högst upp i huset så lugnt och skönt. Ca 3 min till hållplatsen och 5 min till Majornas trevligaste bageri, butik och barer. Uthyres i ett år pga av sambo prövning. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 9160,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kärrhöksgatan, Göteborg",
     "url": "https://qasa.com/p/1441029",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63fd6768a3b9f7dded8e9afff47ad57c776e0acc919e75d074cee33f8615426b.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Olivedalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1440785",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc0b5a0a3f29fa5fe7ac8ee35b06299f22f9690c6b338a05e237b6304b6e4405.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 35001 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cpkp6pfuto0oekwl9u68/vastra-gotaland/goteborg/olivedalsgatan-10/3.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nRymlig lägenhet på 152 kvadratmeter i trevliga Linnéstaden. Belägen i hörnet Linnégatan/Olivedalsgatan med närhet till restauranger, Slottskogen, service och lokaltrafik. Här finns ett stort utbud av restauranger, caféer, butiker och annan service alldeles i närheten. Samtidigt är det nära till grönområden och promenadstråk, vilket ger en fin kombination av cityliv och avkoppling.\r\n\r\nLäget passar perfekt för den som vill ha stadens puls precis utanför dörren och samtidigt smidigt kunna ta sig runt i Göteborg.\r\n\r\nLägenheten har två sovrum, stort vardagsrum, stort kök och salong med fungerande öppen spis. Två badrum, varav ett ansluter direkt till huvudsovrummet. \r\n\r\nUthyres möblerad.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 35001 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 154.0,
-    "rent": 33035,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T19:48:48+00:00", "clock": "19:48:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T20:11:08+00:00", "clock": "20:11:08"};
