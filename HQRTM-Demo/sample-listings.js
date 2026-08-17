@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Dragspelsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1440428",
+    "image_url": null,
+    "description": "Fin och ljus etta med balkong som vetter mot den lugna och gröna skogen! 🌿\n\nEn lägenhet med många möjligheter att verkligen skapa ett mysigt och personligt hem. Här får du ett lugnt läge med mycket grönska och natur precis runt hörnet, samtidigt som du har Nordens största köpcentrum alldeles i närheten.\n\nJag har själv vuxit upp i området och har alltid älskat det – det är en perfekt kombination av lugn, natur och närhet till allt man behöver. Stranden ä bara 15 min med bil \n\nEn perfekt lägenhet för dig som vill ha ett lugnt och grönt hem, men samtidigt ha stadens utbud och bekvämligheter nära till hands.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Generalsgatan, Göteborg",
     "url": "https://qasa.com/p/1440349",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/288e89d929b762d72575271f2c162d8cd99b91a73a01e3cda4a1575078b653b3.jpg",
@@ -14,6 +29,21 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sysslomansgatan 43, Göteborg",
+    "url": "https://qasa.com/p/1440467",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/313fe2049cdf71add8eb7761e17201bb1cfc86f39669c87663491a207994e45d.jpg",
+    "description": "1 december blir denna 3 ROK ledig på Sysslomansgatan 43 i Utby.\nLägenheten är belägen på våning 3 och är disponerad på 84 kvm.\n\nDet finns bland annat detta i lägenheten:\nSäkerhetsdörr\nDiskmaskin\nKöksfläkt\nTvättmaskin\nTorktumlare\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten samt hushållsel. På kostnaden tillkommer moms. \n\nPlanritning finns!\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 84.0,
+    "rent": 13716,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fiolgatan , Västra Frölunda",
-    "url": "https://qasa.com/p/1438197",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f415476b853bc8576cfd56b747b14c393d15a572b660058bc61ffee3aaaf1ec8.jpg",
-    "description": "Trivsam 2:a  omöblerat i lugna Ruddalen. Ljus och välplanerad 2-rumslägenhet på Fiolgatan 6, belägen i ett lugnt och familjevänligt område med både natur och service nära. Lägenheten ligger i bottenvåning, den är 55,5 kvm . \n\nPå bara några minuters promenad finns Willys, förskola och Nordic Wellness. Ruddalens motionsområde och skog ligger runt hörnet och Frölunda Torg samt Positivparken nås enkelt till fots.\n\nMycket bra kollektivtrafik med spårvagn och buss i närheten, med smidiga förbindelser till Frölunda Torg och centrala Göteborg.\n\nPerfekt för dig som vill bo lugnt och naturnära men samtidigt ha shopping, gym, mataffär och kollektivtrafik på kort gångavstånd.\nI hyran ingår TV, internet och parkering med laddningstolpe.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12130,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Utlandagatan, Göteborg",
-    "url": "https://qasa.com/p/1440025",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1125fb6c0e7dcac79f38be063f8f19e2e4dfcb29b0d85a389b40905e05262e37.jpg",
-    "description": "Möblerad 2:a i Johanneberg uthyres 1 september – 31 januari 🏡\n\nVi hyr ut vår fina och fullt möblerade lägenhet på Utlandagatan i Johanneberg under perioden september–januari.\n\nLägenheten är 54 kvm och ligger på 5:e våningen med hiss. Den har balkong, diskmaskin och tillgång till tvättmaskin och torkrum i källaren. Närmaste hållplats, Utlandagatan, ligger bara ca 40 meter bort med smidiga förbindelser in till stan. Willys ligger precis nedanför lägenheten. \n\nHyra: 11 800 kr/månad\nI hyran ingår el, bredband, värme och vatten.\n\nHör gärna av dig vid intresse eller om du vill veta mer! 🌸",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 11900,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T08:55:12+00:00", "clock": "08:55:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T09:41:23+00:00", "clock": "09:41:23"};
