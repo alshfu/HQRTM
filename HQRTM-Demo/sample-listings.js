@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sjupundsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440922",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0a972ad2d63a5ea798f2b522d6c10dbb6b1acb97ff31dee9e156f8309d81df3a.jpg",
+    "description": "Jag hyr ut ett rum i min fyra (nyproducerad och fräsch) till en lugn, skötsam och ansvarstagande person. Främst önskar jag att hyra ut till någon som studerar på Chalmers, Göteborgs Universitet eller liknande. Buss 64:s hållplats finns precis utanför med 12 minuter till Chalmers och 16 minuter till Vasaplatsen. Samtidigt är det nära till mataffär och Ruddalens friluftsområde.\nRummet ligger direkt vid lägenhetens hall och är cirka åtta kvadratmeter. Det är möblerat med en 120-säng (täcke och kudde), skrivbord, kontorsstol, bokhylla och garderob. Du har tillgång till delat kök, delat badrum med dusch och tvättmaskin samt cykelförråd i källaren.\nI lägenheten bor jag och ibland min särbo, ibland sover någon av mina vuxna barn över.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 5250,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långedragsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1440799",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf6ae8c70836e71a281b7a5015cd365ff79cae886936cc06a7d8bc067177561e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kosmosgatan 3, Göteborg",
-    "url": "https://qasa.com/p/1440739",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2d5d0b386fd528cfbb9780a46e63fae193ef6d78ea46f0e8c6f44d468bd75994.png",
-    "description": "Välkommen hem till denna ljusa och stilrena lägenhet om 56 välplanerade kvadratmeter, som renoverades år 2025! Här erbjuds ett stilrent och modernt boende där varje detalj är noggrant utvald för att skapa en trivsam och funktionell vardag.\n \nLägenheten har genomgått en renovering där samtliga väggar och tak målats i ljusa färger. En säkerhetsdörr är installerad för att ge dig en extra trygg känsla i vardagen. I hallen möts du av ett snyggt och praktiskt klinkergolv som både tål slitage och ger ett välkomnande intryck. I resten av hemmet ligger ett elegant ekparkettgolv som ger både värme och karaktär åt bostaden.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel. Köket, hemmets hjärta, är välutrustat med inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kombinerad kyl och frys. Här finns gott om utrymme för både matlagning och gemenskap. I direkt anslutning hittar du även balkongen – perfekt för dig som gillar att sitta ute och njuta av vädret och utsikten.\n \nI hyran ingår värme, vatten och kabel-TV.\nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Visning sker enligt planritning.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 8932,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T17:01:31+00:00", "clock": "17:01:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T17:37:24+00:00", "clock": "17:37:24"};
