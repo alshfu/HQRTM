@@ -18,6 +18,36 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Sommarvädersgatan 32, Göteborg",
+    "url": "https://qasa.com/p/1440395",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/23f5d92eeafc210179a389c5a7b704a6d3312f4ac4752dca442845aa9b1234de.jpg",
+    "description": "OM LÄGENHETEN\nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten är under renovering och kommer ej att visas. Lägenheten renoveras enligt Willhemlyftet och kommer att få ett uppdaterat badrum. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin. Det kommer även installeras nya ytskikt och ekparkett samt klinker i hall. Det kommer även finnas ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. \n\nOBS! Denna lägenhet annonseras med snabb inflyttning. Inflyttningsdatumet är fast och kan inte ändras.\n\nOM OMRÅDET\nHär bor du ett stenkast från centrala Göteborg dit du enkelt tar dig på en kvart med kollektivtrafiken. I Biskopsgården finns närhet till grönområden, matbutik och restauranger.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå där värme och vatten ingår. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.  \n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 81.0,
+    "rent": 10793,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Arves Marias väg 20, Göteborg",
+    "url": "https://qasa.com/p/1440389",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b55ecce18a7b2a653316ae38737affd076ef7f245d1bcf584c5563a39be8bd75.jpg",
+    "description": "Välkommen till denna fina 3 rum och kök på Arves marias väg 20 i Tuve som blir ledig 1 oktober.\nLägenheten är belägen på våning 3 och är disponerad på 75.5 kvm. \n\nLägenheten är bland annat utrustad med: \nSäkerhetsdörr\nKöksfläkt\nDiskmaskin\nBadrumsskåp med spegel\nFörberett för tvättmaskin/torktumlare\nBalkong\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten, vilken tillkommer på hyran.\n\nPlanritning finns men vi erbjuder dig gärna fysisk visning också!\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 13043,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Munspelsgatan 10, Västra frölunda",
     "url": "https://qasa.com/p/1440252",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/400098e9f2cdd816d4ec9ec50a7d07002190ecf4db3855eda4b3cb71a9cda557.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Föreningsgatan, Göteborg",
-    "url": "https://qasa.com/p/1419614",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c3e245c06bfa2e57c4871df25b48c99115e653f731a01c340523f0eb06ed715e.jpg",
-    "description": "Mysig 1.5-rumslägenhet uthyres med fantastiskt läge i Vasastan!\n\nHär bor du med mysiga kaféer, restauranger och bra kommunikationer via Vasaplatsen precis runt hörnet, i en bostad som känns både modern och hemtrevlig. Chalmers och Göteborgs universitet kan båda nås från lägenheten med 5-10 minuters promenad.\n\nLägenheten hyrs ut fullt möblerad och är perfekt för 1-2 personer. Köket är modernt med alla vitvaror du behöver, inklusive diskmaskin. Lägenheten är utrustad med kombimaskin (tvätt och tork) och det finns även möjlighet att boka en tvättstuga vid behov.\n\nI hyran ingår värme, vatten och bredband. Söker rök- och djurfri hyresgäst.\n\nHör gärna av er vid frågor!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 41.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lars Kaggsgatan, Göteborg",
-    "url": "https://qasa.com/p/1440042",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8fcdeb2fc75de9d3b1305db01f1b751771945f48b5259451fedeb0cd7369cae.jpg",
-    "description": "Uthyres: Ett möblerat rum i nyrenoverad 2-rumslägenhet (46 kvm) – inflytt omgående\n\nEtt rum på cirka 16 kvm uthyres i en nyrenoverad och fräsch lägenhet på totalt 46 kvm. Rummet är möblerat, men det går även bra att ta med egna möbler om så önskas.\n\nLägenheten ligger i ett mycket bra område, nära till butiker, service och kommunikationer. Endast cirka 5 minuter till centrum.\n\nHyresvillkor:\n\n* 1 månads deposition\n* 1 månads uppsägningstid för båda parter\n* Tillgång till gemensamt kök och badrum\n* Vi delar på övriga utrymmen i lägenheten\n* Allt ingår\n* Hyra: 5 500 kr/månad\n\nJag söker en lugn, skötsam och ansvarsfull person med fast inkomst och stabil livssituation. Det är viktigt att du håller rent, deltar i städning och respekterar en lugn och trivsam boendemiljö.\n\nRökning och fester undanbedes. Inflyttning kan ske omgående.\n\nVid intresse, skicka gärna ett meddelande och berätta lite om dig själv.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 5200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T08:01:48+00:00", "clock": "08:01:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-17T08:55:12+00:00", "clock": "08:55:12"};
