@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ängskogsvägen, Göteborg",
+    "url": "https://qasa.com/p/1433775",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5fe0758ed4fb1a07293beb0ba9372d1ab32398ee4b60de21504b5b381b2a8a5.png",
+    "description": "Öppen och mysig lägenhet med sänghörna och uteplats på entréplan. I hyran ingår vatten och värme. Tuve Centrum busshållplats är 5 minuter bort där 17 går var väldigt ofta. I Tuve Centrum finns pizzeria, postombud och 2 livsmedelsbutiker.\n\nFinns möjlighet till omöblerad också. \n\nLägenheten hyrs ut medan den ska säljas vilket innebär att det uppskattas att vi kan komma överens om ett tillfälle för visning i ett par timmar i framtiden.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 41.0,
+    "rent": 8350,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brottkärrsvägen, Hovås",
     "url": "https://qasa.com/p/1303204",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46ded1b8db11e03c474d6132109c397618db57a3cc9890392f79f5a380278379.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 29, Göteborg",
-    "url": "https://qasa.com/p/1441631",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c47328d8409857bf956aeb3482483b0c19660cba05253bc83194c97b72b58282.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 4 rum och kök i Biskopsgården! I köket finns diskmaskin och separat kyl och frys. Genomgående ekparkett, helkaklat badrum - förberett för tvättmaskin. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10712,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T14:19:21+00:00", "clock": "14:19:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T14:57:24+00:00", "clock": "14:57:24"};
