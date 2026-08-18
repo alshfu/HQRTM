@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hårdvallsgatan, Göteborg",
+    "url": "https://qasa.com/p/1441194",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec19f16111c12b9377d5cc9467c252f912ba68c581ad4d13620eb31686959567.jpg",
+    "description": "Hej! \nIntressekoll för att hyra min 27m2 vindslägenhet (+4m2 snedtak \"biarea\"). \n\nNybyggd 2024. \n\nLyxiga materialval i kök och badrum. \n\nHyra: 9000kr + el/vatten/tv/bredband. \n\n1min att gå till Willys. \nVäldigt nära Wieselgrensplatsens hållplats. 3min att gå ca. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 27.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nedre Fogelbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1356257",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53ecf4d4a4175940e0321f752942cd4361f8ba7de1c6b66a93e359ea68dbb82f.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Torpavägen 105, Göteborg",
-    "url": "https://qasa.com/p/1441319",
-    "image_url": null,
-    "description": "OBS! Lägenheten hyrs ut genom planritning och en digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna härliga lägenhet! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med både tvättmaskin och torktumlare. Njut av balkongen!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran avser 2026 års hyresnivå, värme ingår. El debiteras via IMD. Bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns ej. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 15150,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T08:57:36+00:00", "clock": "08:57:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T09:39:47+00:00", "clock": "09:39:47"};
