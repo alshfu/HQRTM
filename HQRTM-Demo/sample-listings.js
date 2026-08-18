@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hjällbogärdet, Angered",
+    "url": "https://qasa.com/p/1441570",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/947971d7d637d666dccd195d2d1cf3b08b8939f63671292ba09b630da1f4d975.jpg",
+    "description": "det är en fyrarumslägenhet med ett vardagsrum, kök och två toaletter. det är som ett kollektivboende.\n\nvi bor nu 3 studenter . rummet som är ledigt är för den fjärde personen.\n\nvi delar de gemensamma utrymmena, som kök, toaletter och vardagsrum.",
+    "district": "Angered",
+    "rooms": 4.5,
+    "area_m2": 115.0,
+    "rent": 3200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brottkärrsvägen, Hovås",
     "url": "https://qasa.com/p/1303204",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46ded1b8db11e03c474d6132109c397618db57a3cc9890392f79f5a380278379.jpg",
@@ -33,9 +48,24 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Långströmsgatan 48A, GÖTEBORG",
+    "url": "https://qasa.com/p/1441648",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb558c5e3ca55dfb32af0fbf67ae7674601a72b0b8b550d05fcd5e9d22d5cbec.jpg",
+    "description": "Välkommen hem till Långströmsallén! \n\nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 48 A, 1 ROK på 35 kvm - bottenvåning. En ljus och välplanerad bostad med avtalstid från 1 december, det finns möjlighet till tidigare inflytt. \n\nHyran för 2026 ligger på 7 466kr/mån. Lägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys och mikrovågsugn. \n\nLägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö. kontakta förvaltingen",
+    "district": "GÖTEBORG",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 7466,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Meteorgatan 10, Göteborg",
     "url": "https://qasa.com/p/1441641",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c31ce0ab9f64304270b47602d7ba66d74b45efe5193e74b294b71d0e5ddc81df.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba73aa98ac62bf274c8f5b6aa2abc584e4d8643afd9b6b9a39405e5f6f716b0f.jpg",
     "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Bergsjön! Modernt kök med diskmaskin och separat kyl & frys. Helkaklat badrum förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
     "district": "Göteborg",
     "rooms": 3.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrklöversgatan, Göteborg",
-    "url": "https://qasa.com/p/1441400",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/489d233192bf8732d4d594c2d92ae3c2641b4e8cfd3fc28ec9a1f452c7a41a31.jpg",
-    "description": "Trivsam och välplanerade lägenhet med två rum och kök. Lägenheten har genomgående svagt gråtonade väggar och ekparkettgolv som tillsammans ger ett stilrent intryck. I hallen möts du av grå klinker. Den öppna planlösningen mellan vardagsrum och kök ger en social och luftig känsla. Köket är modernt utrustat med beigegrå skåpsluckor och grått marmorkakel, grå laminatbänkskiva, micro, induktionshäll, varmluftsugn och spiskåpa (ej fläkt). Diskmaskin finns. Helkaklat badrum i grå marmor med mörkgrått klinkergolv, glasade duschväggar och svart vägg kommod med bra förvaring. Elektrisk handdukstork och golvvärme ger extra komfort. Egen tvättmaskin/torktumlare med bänkskiva och skåp med luckor för förvaring. \n\nHär bor man med ett centralt men lugnt läge på Hisingen med goda kommunikationer in till city. Brunnsparken nås med buss på ca 15 minuter. Från lägenheten har du en promenad på några minuter till Hisingsparken, en lugn oas och fantastisk natur. Här finns bra motionsspår och trevliga grillplatser. Samtidigt nås Kvillebäcken och Backaplan med dess utbud på ett enkelt sätt vare sig du går, cyklar, åker kollektivt eller bil.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 14670,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjälmavägen, Torslanda",
-    "url": "https://qasa.com/p/1441390",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec5d7ee3e468ae83565f3ad80415dc6763238a5b36f3e5d2634126208e4093d7.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 12650 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/qwt8gyesatdmuearujao/vastra-gotaland/torslanda/hjalmavagen-84/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nHej! \r\nVill du hyra mitt fina  mindre hus. \r\nTillträde från februari 2026 eller enligt överenskommelse\r\n\r\nEtt fantastiskt läge med natur och havsutsikt.\r\nMysig trädgård med sol hela dagen.\r\nLäget passar de flesta.\r\nHaft samma hyresgäst en längre tid och de var väldigt nöjda.\r\n \r\nYta: 60 m2 , det känns dock större.\r\nTvå sovrum, allrum kök och badrum.\r\nMen även en inglasad balkong även den med vidunderlig havsutsikt.\r\nStor öppen spis med hög mysfaktor.\r\nNybesiktad för många varma timmar .\r\n \r\nAdress Hjälmavägen 84\r\nBjörlanda \r\n \r\nHyresperiod gärna  6 månader i taget till att börja med.\r\nViktigt att vi alla trivs.\r\n\r\nMen har inga missnöjda hyresgäster ännu kanske pga det fantastiska läget. \r\n\r\nLigger på en höjd och med trevliga grannar. \r\nNära till hav / affärer pizzeria o restaurang eller den mysiga hamnen med alla faciliteter såsom beach volley /padel / minigolf / nolvik med badplatser och nära till den stora båthamnen i Björlanda kilé.\r\n En av Skandinaviens största hamn https://goteborg.se/wps/portal/enhetssida/grefab/hamnar/bjorlanda-kile\r\n\r\nObs vissa av bilderna är från tidigare hyresgäst för att få bilder när det möblerat.\r\n\r\nHar ej bild på den inglasade balkongen.\r\nMen den gör att det faktiskt känns större.\r\n\r\nFriheten att bo här är enorm . \r\n\r\nVälkomna på visning.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 12650 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Torslanda",
-    "rooms": 3.0,
-    "area_m2": 60.0,
-    "rent": 11940,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T13:00:12+00:00", "clock": "13:00:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T13:50:12+00:00", "clock": "13:50:12"};
