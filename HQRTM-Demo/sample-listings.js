@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Askekärrsvägen, Säve",
+    "url": "https://qasa.com/p/1441159",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/44d6c1697bf03792cbdb3e4b3f999769f13f7939249bf927e6ce389fa42ac914.jpg",
+    "description": "Vi planerar nu att hyra ut vår stuga som står i utkanten av vår tomt med möjlighet att flytta in från november då vår nuvarande hyresgäst ska flytta till annan ort, hyreskontraktet kommer att gälla med 6 månader i taget. Vi bor själva på fastigheten med boningshus intill. \nEn månadshyra i deposition.\nStugan är om ca 28 kvm med sovalkov, tv-hörna, matplats, kök och badrum med tvättmaskin. Stugan kommer att hyras ut möblerad med soffa, tv, 120 cm säng, matsalsbord och stolar med plats för 4 personer.\n\nTill huset hör även egen carport med plats för 1 bil, altan och en liten gräsyta att nyttja. På altanen finns det tillgång till utemöbler med plats för 4 personer.\nHyran avser kallhyra och huset värms upp med luft/luft värmepump samt direktverkande el. Vattnet värms upp med en varmvattenberedare.\nTillkommande utöver hyran:\n•\tInternet\nVi vill att stugan hålls både djur och rökfri.\nViktigt att du som hyresgäst tar hand om den dagliga skötseln av byggnaden så som gräsklippning, dammsuga filter och renhållning kring stugan m.m.\n\nStugan är belägen i utkanten av Säve, i lantliga omgivningar. Kommunikationer är något begränsade så det är gynnsamt med körkort och egen bil. Med bil når du Kungälv centrum på ca 10 min.\n\nKontakta oss via mail eller blocket meddelanden och ge en beskrivning av dig själv så hör vi av oss så snart vi kan.\n\nHyran ligger på 7900 kr inkl driftkostnader.\n\n",
+    "district": "Säve",
+    "rooms": 1.5,
+    "area_m2": 28.0,
+    "rent": 7900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Surbrunnsgatan, Göteborg",
     "url": "https://qasa.com/p/1441089",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c0479344736378e04e4a4fee711ab9baf48e2d4feaed23e79106818a2986239e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sjupundsgatan, Göteborg",
-    "url": "https://qasa.com/p/1440922",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0a972ad2d63a5ea798f2b522d6c10dbb6b1acb97ff31dee9e156f8309d81df3a.jpg",
-    "description": "Jag hyr ut ett rum i min fyra (nyproducerad och fräsch) till en lugn, skötsam och ansvarstagande person. Främst önskar jag att hyra ut till någon som studerar på Chalmers, Göteborgs Universitet eller liknande. Buss 64:s hållplats finns precis utanför med 12 minuter till Chalmers och 16 minuter till Vasaplatsen. Samtidigt är det nära till mataffär och Ruddalens friluftsområde.\nRummet ligger direkt vid lägenhetens hall och är cirka åtta kvadratmeter. Det är möblerat med en 120-säng (täcke och kudde), skrivbord, kontorsstol, bokhylla och garderob. Du har tillgång till delat kök, delat badrum med dusch och tvättmaskin samt cykelförråd i källaren.\nI lägenheten bor jag och ibland min särbo, ibland sover någon av mina vuxna barn över.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 5250,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T05:37:23+00:00", "clock": "05:37:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T06:00:11+00:00", "clock": "06:00:11"};
