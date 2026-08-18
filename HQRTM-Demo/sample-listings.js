@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Fogelbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1356257",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53ecf4d4a4175940e0321f752942cd4361f8ba7de1c6b66a93e359ea68dbb82f.png",
+    "description": "Ljus och charmig 3:a i Vasastaden hyrs ut fullt möblerad under ett år, med möjlighet till förlängning.\n\nLägenheten har högt i tak, brädgolv, stuckatur och kakelugn som ger mycket karaktär. Det finns ett stort vardagsrum med gott om plats för både umgänge och avkoppling samt en rymlig balkong mot den lugna innergården.\n\nKöket är renoverat, fullt utrustat och har bra med förvaring. Lägenheten har ett separat sovrum med garderober samt ytterligare ett rum som idag används som matsal. Det rummet kan vid behov lämnas omöblerat och användas som exempelvis barnrum, arbetsrum eller gästrum.\n\nLägenheten hyrs ut fullt möblerad och i hyran ingår el och wifi.\n\nHär bor du centralt i Vasastaden med restauranger, caféer, butiker, grönområden och bra kommunikationer på nära avstånd, samtidigt som lägenheten har ett lugnt läge mot innergården.\n\nBostaden passar bra för ett par, en mindre familj eller någon som söker ett bekvämt och hemtrevligt boende under en längre period.\n\nVi söker någon som vill ta hand om lägenheten som sitt eget hem under uthyrningsperioden. Hör gärna av dig och berätta lite om dig/er om bostaden känns intressant.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 82.0,
+    "rent": 28316,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Toleredsgatan, Göteborg",
     "url": "https://qasa.com/p/1441226",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/da307ff9735c70fdd2eee3406e220a0c17beae3b9d85e37d37ad9aa7526fc1fe.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 19C, Göteborg",
-    "url": "https://qasa.com/p/1441242",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d2358ad8e552c7716ed26ad323248b9dda12dfcef7dbf935930d8cdee922e96.jpg",
-    "description": "Välkommen hem till Stenhuggaren! \n\nHär ges möjlighet att hyra en nyproducerad lägenhet från 2022, en 4 rok på 87 kvm. Detta är en nyproducerad bostad med inflyttning i December 2026. \n\n-Hyra: 12 131SEK/mån\n-Tvättmaskin och Torktumlare\n-Förråd på vinden\n-Extra WC\n\nSe planritningen för att se om just denna lägenhet har balkong, terrass eller fransk balkong. På planritningen kan du även se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\n\nI hyran som marknadsförts har vi inkluderat en kostnad för kall- och varmvatten samt värme och beräknat detta på en schablon. Hyran kommer därför att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Stenhuggaren så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. \n\nHisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 31 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nSeparat kö, kontakta förvaltningen.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 87.0,
-    "rent": 12131,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 19C, Göteborg",
-    "url": "https://qasa.com/p/1441240",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be167efeb10e533c930a454b0a1a57351e7bf5c257cb73a74a91c8d8ccede9ad.jpg",
-    "description": "Välkommen hem till Stenhuggaren! \n\nHär ges möjlighet att hyra en nyproducerad lägenhet från 2022, en 4 rok på 87 kvm. Detta är en nyproducerad bostad med inflyttning i December 2026. \n\n-Hyra: 12 000SEK/mån\n-Tvättmaskin och Torktumlare\n-Förråd på vinden\n-Extra WC\n\nSe planritningen för att se om just denna lägenhet har balkong, terrass eller fransk balkong. På planritningen kan du även se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\n\nI hyran som marknadsförts har vi inkluderat en kostnad för kall- och varmvatten samt värme och beräknat detta på en schablon. Hyran kommer därför att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Stenhuggaren så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. \n\nHisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 31 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nKontakta förvaltningen för separat kö",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 81.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sysslomansgatan 37, Göteborg",
-    "url": "https://qasa.com/p/1441229",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f87c94de1339e6d82694a7a0cc14b88ec5aa2a5fb5d7760779121fa636c44c9.jpg",
-    "description": "Den 1 december har vi en ledig bostad om 2 rum & kök ute på trivsamma Sysslomansgatan 37!\nHär bor du i en fantastisk miljö med fina omgivningar.\n\nLägenheten har bland annat:\nklinkers golv i hall och parkettgolv i hela lägenheten.\nTvättmaskin & torktumlare\nDiskmaskin\nSäkerhetsdörr\n\nAnsök redan idag! \n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 10423,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T07:45:24+00:00", "clock": "07:45:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T08:16:57+00:00", "clock": "08:16:57"};
