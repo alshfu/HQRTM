@@ -93,18 +93,18 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Askekärrsvägen, Säve",
-    "url": "https://qasa.com/p/1441159",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/44d6c1697bf03792cbdb3e4b3f999769f13f7939249bf927e6ce389fa42ac914.jpg",
-    "description": "Vi planerar nu att hyra ut vår stuga som står i utkanten av vår tomt med möjlighet att flytta in från november då vår nuvarande hyresgäst ska flytta till annan ort, hyreskontraktet kommer att gälla med 6 månader i taget. Vi bor själva på fastigheten med boningshus intill. \nEn månadshyra i deposition.\nStugan är om ca 28 kvm med sovalkov, tv-hörna, matplats, kök och badrum med tvättmaskin. Stugan kommer att hyras ut möblerad med soffa, tv, 120 cm säng, matsalsbord och stolar med plats för 4 personer.\n\nTill huset hör även egen carport med plats för 1 bil, altan och en liten gräsyta att nyttja. På altanen finns det tillgång till utemöbler med plats för 4 personer.\nHyran avser kallhyra och huset värms upp med luft/luft värmepump samt direktverkande el. Vattnet värms upp med en varmvattenberedare.\nTillkommande utöver hyran:\n•\tInternet\nVi vill att stugan hålls både djur och rökfri.\nViktigt att du som hyresgäst tar hand om den dagliga skötseln av byggnaden så som gräsklippning, dammsuga filter och renhållning kring stugan m.m.\n\nStugan är belägen i utkanten av Säve, i lantliga omgivningar. Kommunikationer är något begränsade så det är gynnsamt med körkort och egen bil. Med bil når du Kungälv centrum på ca 10 min.\n\nKontakta oss via mail eller blocket meddelanden och ge en beskrivning av dig själv så hör vi av oss så snart vi kan.\n\nHyran ligger på 7900 kr inkl driftkostnader.\n\n",
-    "district": "Säve",
-    "rooms": 1.5,
-    "area_m2": 28.0,
-    "rent": 7900,
+    "title": "Östra Torpavägen 105, Göteborg",
+    "url": "https://qasa.com/p/1441319",
+    "image_url": null,
+    "description": "OBS! Lägenheten hyrs ut genom planritning och en digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna härliga lägenhet! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med både tvättmaskin och torktumlare. Njut av balkongen!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n \nÖVRIGT\nHyran avser 2026 års hyresnivå, värme ingår. El debiteras via IMD. Bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns ej. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 15150,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T08:16:57+00:00", "clock": "08:16:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T08:57:36+00:00", "clock": "08:57:36"};
