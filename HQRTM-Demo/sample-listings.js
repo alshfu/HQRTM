@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lindholmshamnen, Göteborg",
+    "url": "https://qasa.com/p/1441027",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca2bd64b2601804ef6f3997dffa9526070ff34a26d04b1d2af75725138220426.webp",
+    "description": "Ljus nybyggd lägenhet med egen uteplats ett stenkast från vattnet.\nÖppen planlösning och sovrum på loft (ej ståhöjd). \nEl, wifi, vatten och värme ingår i hyran.\nLägenheten går att hyra möblerad alternativt omöblerad. \n2 minuters promenad till spårvagn och buss. 3 minuters promenad till Älvsnabben. \nUthyres pga arbete på annan ort. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Askekärrsvägen, Säve",
     "url": "https://qasa.com/p/1441159",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/44d6c1697bf03792cbdb3e4b3f999769f13f7939249bf927e6ce389fa42ac914.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sanatoriegatan, Göteborg",
-    "url": "https://qasa.com/p/1440985",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b974032084d0f2e5493d48f1cdb410ab283f2a3afa3f12da8ee8b157c2aaae7f.jpg",
-    "description": "Två rum och kök på Sanatoriegatan i Kålltorp. Lägenheten ligger i ett tvåfamiljsradhus på andra våningen.\n\nLjus och fräsch lägenhet i gott skick med bra standard på utrusting. Tvättmaskin, torktumlare,  diskmaskin etc.  \n\nKålltorp är ett centralt men lugnt område, känns som en småstad mitt i staden. Gott om matbutiker och bra med restauranger, caféer, gym etc. \n\nBra kommunikationer, spårvagn 3 och 5 stannar på gatan, spårvagn 1 och buss 17 finns på fem minuters promenadavstånd. \n\nVill man cykla tar det 10 minuter till korsvägen eller 15 minuter till nordstan. Bil funkar också, parkering på gatan är gratis i området. \n\nNära till naturen i Skatås och Delsjön, man promenerar till skogen på fem minuter.\n\nVärme, vatten, sophämtning ingår.\n \nLägenheten har egen elmätare.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 14500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T06:00:11+00:00", "clock": "06:00:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T06:57:59+00:00", "clock": "06:57:59"};
