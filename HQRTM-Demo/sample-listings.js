@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Vegagatan, Göteborg",
+    "url": "https://qasa.com/p/1441960",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9a048894a4daf2a5e0ef8bff332fc4278c9f140564cab84411fabce9729dd1db.jpg",
+    "description": "Ett möblerat RUM uthyres  i delad lägenhet.\n\n --- Vänligen läs hela annonstexten ---\n\nEn bostad i bästa läge i Linné mot lummig grön gård. Slottskogen, Långgatorna och Järntorget ligger på några minuters gångavstånd. Buss 61 intill huset och kort promenad till spårvagn 1, 2 och 6 på Linnégatan.\n\nEl, bredband, tv och förbrukningsartiklar för hushållet är inkluderat för cirka 350 kr/mån. i hyran.\n\nDu får utöver rummet även tillgång till en klädkammare och ett delat vardagsrum / badrum / kök.\n\nVi söker en ambitiös person som studerar eller arbetar på heltid.  Det är mycket viktigt med nattro mellan cirka 22:30 och 07:00 på vardagar. \n\nVi är två personer på 40 (kvinna, forskare i statsvetenskap) och 58 (man, samhällsbyggare) som är lugna, ansvarsfulla och ordentliga. Vi arbetar mer än heltid på dagtid och vardagar. Jag, mannen, arbetar på annan ort och kommer hem vissa helger.\n\nVi vill att bostaden ska vara en lugn plats för återhämtning. Vi gillar ärlighet och uppriktighet och behandlar varandra respektfullt. Vi städar noga efter oss i kök efter matlagning. Vi är väldigt noga med hygien och håller oss friska. Vi tar hänsyn till varandra. Vi slår inte i dörrar och musik har vi i lurar.. Vi håller inte fest. En mogen och lugn miljö helt enkelt. Vi håller oss för det mesta för oss själva. Köket blir ibland en kort mötesplats.\n\nVi har det rent, modernt, centralt och ekonomiskt men till priset av att dela lägenhet med två andra individer 😊\n\nRummet som hyrs ut är nummer 2 i planlösningen. Det är drygt 20 kvadratmeter stort.  I rummet finns en bekväm kontinentalsäng som är 140 cm bred. Den har tvättbara skydd för kuddar och madrass. Det finns en ergonomisk skrivbordstol till ett höj- och sänkbart skrivbord i rummet, En bokhylla, en stor byrå, ett nattduksbord och diverse lampor.\n\nRummet har kodlås i dörrhandtaget och bara du känner till koden då den ställs om med dig när du flyttar in.\n\nLägenheten har två toaletter varav ett med badkar, I köket finns diskmaskin, mikrovågsugn, varmluftsugn, ett väl utrustat kök med köksmaskiner.\n\nI fastigheten finns tvättstuga, förråd och garage med tvättplats. Kö till garage. Rätt till boendeparkering i område M om du skriver dig på adressen.\n\nSkriv lite om dig själv, om vad du gör, hur du försörjer dig och om du har några frågor som jag inte har besvarat här. \n\nSkriv när du vill flytta in och för hur länge du tänker dig att du vill hyra. Rummet är för närvarande uthyrt till och med november men kan hyras ut från 1 november efter överenskommelse.\n\nJag ber om överseende med att jag inte kan svara alla som jag vet lägger ner stor energi på att skriva men varje ansökan läses och beaktas.\n\nJag kan visa bostaden helgen kring 29 augusti.\n\nHälsningar Lars Krantz",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 6213,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Styrsö hamnväg, Styrsö",
+    "url": "https://qasa.com/p/1441962",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf77c1561fcf061bb989fae911352f29f0765d115d53dc3afb6f4fc33d5f8ed1.jpg",
+    "description": "Trivsamt möblerat hus för par eller mindre familj\nNu finns möjlighet att hyra ett möblerat hus på ca 110 m² på Styrsö Tången, med närhet till havet, egen uteplats och balkong med havsutsikt.\nHuset passar bra för ett par eller en mindre familj som vill bo bekvämt i Göteborgs södra skärgård, med enkel möjlighet att ta sig till Göteborg.\n\nEtt lugnt skärgårdsboende\nHär bor du med skärgården precis utanför dörren, samtidigt som färjeläget ligger bara cirka 2 minuters promenad från huset.\nFrån balkongen finns havsutsikt, och det finns även en uteplats där man kan njuta av soliga dagar och lugna kvällar.\n\nHuset\nPå entréplan finns:\n•\trymligt vardagsrum\n•\tmindre matrum\n•\tkök med spis, ugn, kyl/frys, diskmaskin och kaffebryggare\n•\tbadrum med badkar och dusch\n•\ttvättmaskin\nPå övervåningen finns:\n•\tsovrum med dubbelsäng\n•\tsovrum med två enkelsängar\n•\tytterligare sovplatser i två mindre utrymmen som kan avskärmas med gardiner\n\nHuset passar mycket bra för ett par eller en mindre familj som vill ha gott om utrymme.\nHuset hyrs ut möblerat.\nNära Göteborg – men ändå långt från stadens stress\nMed färjan bara några minuter bort är det enkelt att ta sig till Göteborg för arbete, skola eller aktiviteter. När du kommer hem väntar istället lugnet på Styrsö, med hav, natur och skärgårdsmiljö.\n\nUthyrning\nTillgängligt från: 1 september 2026\nStorlek: ca 110 m²\nUthyres: möblerat\nLäge: Styrsö Tången\nPassar: par eller mindre familj\nHyra: 21 900 kr/mån\nEl tillkommer enligt faktisk förbrukning.\nVid längre hyresperiod kan villkoren diskuteras.\nVälkommen att höra av dig för mer information, bilder eller visning!\n",
+    "district": "Styrsö",
+    "rooms": 6.0,
+    "area_m2": 110.0,
+    "rent": 20000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smuttenstigen, Köpstadsö",
     "url": "https://qasa.com/p/1441951",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecc6bcce7171a524b4759533f8f85cbab7f85e97d1fb3cf945c2fd939960700e.jpg",
@@ -10,7 +40,7 @@ window.HQRTM_SAMPLE = [
     "district": "Köpstadsö",
     "rooms": 4.0,
     "area_m2": 100.0,
-    "rent": 9800,
+    "rent": 9400,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamlestadsvägen 10 D, Göteborg",
-    "url": "https://qasa.com/p/1441690",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b336efd0ed83de6ab596231e32f0903f7485e65b74936398fb075f2b64f29e5.jpg",
-    "description": "Intill Gamlestads Torg har Wikowia låtit uppföra 56 moderna hyreslägenheter med en gemensam grönskande innergård. \n\nLägenheten är en genomgångslägenhet, vilket innebär att de har utsikt åt två håll, och därmed kontakt med såväl gatuvimlet som livet på innergården. Den lummiga innergården är indelad i tre zoner. På bruksytan kan du plantera dina växter eller fixa med cykeln. De funktionella ytorna rymmer cykelparkering, förråd och upplysta gångar. På det upphöjda trädäcket kan du fånga dagens sista solstrålar. \n\nLägenheten håller hög standard och är välutrustad med diskmaskin och micro i köket samt tvättmaskin, torktumlare och handdukstork i de ljusa, helkaklade badrummen. Övriga rum har ekparkett och vackert ljusgrå väggar. Kök och badrumsinredning kommer från Marbodal. Lägenheten har balkong. \n\nHyran är 2026 års hyra.\n\nVälkommen med din ansökan!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 10757,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 48A, GÖTEBORG",
-    "url": "https://qasa.com/p/1441648",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b49b054734619a725e079606b3f3b70a77ae8bc4e25258165309177a0eca7b1e.png",
-    "description": "Välkommen hem till Långströmsallén! \n\nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 48 A, 1 ROK på 35 kvm - bottenvåning. En ljus och välplanerad bostad med avtalstid från 1 december, det finns möjlighet till tidigare inflytt. \n\nHyran för 2026 ligger på 7 466kr/mån. Lägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys och mikrovågsugn. \n\nLägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö. kontakta förvaltingen",
-    "district": "GÖTEBORG",
-    "rooms": 1.0,
-    "area_m2": 35.0,
-    "rent": 7466,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T18:58:44+00:00", "clock": "18:58:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T19:33:31+00:00", "clock": "19:33:31"};
