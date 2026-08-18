@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hjälmavägen, Torslanda",
+    "url": "https://qasa.com/p/1441390",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec5d7ee3e468ae83565f3ad80415dc6763238a5b36f3e5d2634126208e4093d7.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 12650 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/qwt8gyesatdmuearujao/vastra-gotaland/torslanda/hjalmavagen-84/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nHej! \r\nVill du hyra mitt fina  mindre hus. \r\nTillträde från februari 2026 eller enligt överenskommelse\r\n\r\nEtt fantastiskt läge med natur och havsutsikt.\r\nMysig trädgård med sol hela dagen.\r\nLäget passar de flesta.\r\nHaft samma hyresgäst en längre tid och de var väldigt nöjda.\r\n \r\nYta: 60 m2 , det känns dock större.\r\nTvå sovrum, allrum kök och badrum.\r\nMen även en inglasad balkong även den med vidunderlig havsutsikt.\r\nStor öppen spis med hög mysfaktor.\r\nNybesiktad för många varma timmar .\r\n \r\nAdress Hjälmavägen 84\r\nBjörlanda \r\n \r\nHyresperiod gärna  6 månader i taget till att börja med.\r\nViktigt att vi alla trivs.\r\n\r\nMen har inga missnöjda hyresgäster ännu kanske pga det fantastiska läget. \r\n\r\nLigger på en höjd och med trevliga grannar. \r\nNära till hav / affärer pizzeria o restaurang eller den mysiga hamnen med alla faciliteter såsom beach volley /padel / minigolf / nolvik med badplatser och nära till den stora båthamnen i Björlanda kilé.\r\n En av Skandinaviens största hamn https://goteborg.se/wps/portal/enhetssida/grefab/hamnar/bjorlanda-kile\r\n\r\nObs vissa av bilderna är från tidigare hyresgäst för att få bilder när det möblerat.\r\n\r\nHar ej bild på den inglasade balkongen.\r\nMen den gör att det faktiskt känns större.\r\n\r\nFriheten att bo här är enorm . \r\n\r\nVälkomna på visning.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 12650 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Torslanda",
+    "rooms": 3.0,
+    "area_m2": 60.0,
+    "rent": 11940,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hårdvallsgatan, Göteborg",
     "url": "https://qasa.com/p/1441194",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec19f16111c12b9377d5cc9467c252f912ba68c581ad4d13620eb31686959567.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmshamnen, Göteborg",
-    "url": "https://qasa.com/p/1441027",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca2bd64b2601804ef6f3997dffa9526070ff34a26d04b1d2af75725138220426.webp",
-    "description": "Ljus nybyggd lägenhet med egen uteplats ett stenkast från vattnet.\nÖppen planlösning och sovrum på loft (ej ståhöjd). \nEl, wifi, vatten och värme ingår i hyran.\nLägenheten går att hyra möblerad alternativt omöblerad. \n2 minuters promenad till spårvagn och buss. 3 minuters promenad till Älvsnabben. \nUthyres pga arbete på annan ort. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T09:39:47+00:00", "clock": "09:39:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T10:03:39+00:00", "clock": "10:03:39"};
