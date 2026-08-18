@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smuttenstigen, Köpstadsö",
+    "url": "https://qasa.com/p/1441951",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecc6bcce7171a524b4759533f8f85cbab7f85e97d1fb3cf945c2fd939960700e.jpg",
+    "description": "Ett öppet fint sommarhus som fungerar perfekt året runt. Härlig terrass och gräsmatta, samt med närhet till badplats. \nHuset har tre sovrum med dubbelsängar och en våningssäng.\nHuset ligger på Köpstadsö i Göteborgs södra skärgård. Ön är bilfri och har ingen affär. \nHuset ligger 10 minuter från färjeläget och färjan tar ca. 15 minuter in till Saltholmen. \nI hyran ingår el och vatten. \n",
+    "district": "Köpstadsö",
+    "rooms": 4.0,
+    "area_m2": 100.0,
+    "rent": 9800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Nordfjällsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1441941",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6a64453530c9087493c681f42d80d14ca46acc02733a9d54a1c26c616131e1c6.jpg",
+    "description": "Nybyggt fristående Attefallshus om 30 m² med 20 m² altan i soligt söderläge – i lugnt villaområde utanför Göteborg.\n\nHuset ligger på samma fastighet som vårt hem, men är placerat utan insyn mellan husen, vilket ger en privat och avskild känsla.\n\nPerfekt för en person eller ett par som söker ett tryggt, naturnära och lugnt boende.\n\nOm huset:\n– Stort vardagsrum med ekparkett och golvvärme\n– Fullt utrustat kök med Micro \n- Vardagsrum med bäddsoffa, laminofotölj, bord samt golvmatta. \n- vit byrå samt möbel för enkel förvaring av kläder och saker.\n– Helkaklat badrum med dusch, WC, kombinerad tvätt/torkmaskin, golvvärme och handdukstork\n– Sovloft med 160 cm madrass (ej ståhöjd)\n– Möblerad altan med cafébord och två stolar\n- Projektor eller TV (nytt)\n\n\n\nI hyran ingår V/A, internet, sophämtning och fri parkering.\nEl debiteras separat enligt faktisk förbrukning (ca 300–800 kr/månad).\n\nMöblemang: Bäddsoffa, vardagsrums bord, byrå, köksbord med två stolar, ”öppen”, garderob/hyllor, skohyllor, madrass och bäddmadrass 160cm.\nNytt om så önskas: Projektor eller TV, fåtölj, bokhylla\n\nKommunikationer:\nBusshållplats finns i närheten (550m). Till centrala Göteborg tar man sig med buss och spårvagn. Under morgonrusningen finns även direktbuss till järntorget, vilket gör pendlingen smidig.\n\n\nTillträde 1/10 eller enl överenskommelse, \nVi söker en lugn och ansvarsfull hyresgäst. Möjlighet till viss hyresreduktion kan diskuteras, exempelvis vid hjälp med kattpassning.\n\nBerätta gärna lite om dig/er och era framtidsplaner.\n\nFysisk visning eller digitalt.\n\nVi värdesätter ömsesidig respekt och en smidig kommunikation mellan hyresvärd och hyresgäst.\n\nVarmt välkommen,\nJohan & Reina",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 8825,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ängskogsvägen, Göteborg",
     "url": "https://qasa.com/p/1433775",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5fe0758ed4fb1a07293beb0ba9372d1ab32398ee4b60de21504b5b381b2a8a5.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Meteorgatan 10, Göteborg",
-    "url": "https://qasa.com/p/1441641",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba73aa98ac62bf274c8f5b6aa2abc584e4d8643afd9b6b9a39405e5f6f716b0f.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Bergsjön! Modernt kök med diskmaskin och separat kyl & frys. Helkaklat badrum förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 10491,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Temperaturgatan 69, Göteborg",
-    "url": "https://qasa.com/p/1441640",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/199f6f9493d5fd6a7fcd3bd4ceb0baefc9ad401002555712122acbb27bc4d0b2.jpg",
-    "description": "1 oktober blir denna fina 4 ROK på Temperaturgatan 69 ledig.\nVi håller just nu på att totalrenovera hela lägenheten:\n\nHALL:\n-\tNytt parkettgolv\n-\tMålning\n\nBADRUM:\n-\tTotalrenovering\n-\tKlinker \n-\tKakel på väggar\n-\tEl golvvärme\n-\tDuschväggar\n-\tFörbereda för TM\n-\tNy innerdörr\n-\tÖppna dörröppning till nya standardmått\n-\tNy WC stol\n-\tNy kommod med spegelskåp och belysning\n-\tMålning tak/fönster\n\n\nLILLA WC:\n-\tKlinker med 4 målade väggar, sockel i samma som golvet \n-\tNy WC stol\n-\tNytt handfat med spegel \n-\tMålning väggar/tak\n-\tÖppna dörröppning till nya standardmått\n\nKÖK:\n-\tNytt komplett kök, vita luckor med draglådor\n-\tHandtag silver, borstade\n-\tNy kyl/frys\n-\tNy diskmaskin\n-\tNy spis\n-\tMålning väggar/tak\n-\tInbyggd microvågsugn\n\nSOVRUM 1:\n-\tNy innerdörr \n-\tDörröppning enl. dagens standard\n-\tNytt parkettgolv\n-\tMålning väggar/tak/fönster\n\nSOVRUM 2: \n-\tNy innerdörr \n-\tDörröppning enl. dagens standard\n-\tNytt parkettgolv\n-\tMålning väggar/tak/fönster\n\nSOVRUM 3:\n-\tNy innerdörr \n-\tDörröppning enl. dagens standard\n-\tNytt parkettgolv\n-\tMålning väggar/tak/fönster\n\nVARDAGSRUM:\n-\tNytt parkettgolv\n-\tMålning väggar/tak/fönster/balkongdörr\n\nEL:\n-\tUppdaterad el i hela lgh med ny elcentral (jordad)\n\nI hyreskontraktet ingår en garageplats på 750 kr/mån och är inkluderad i hyran du ser på annonsen. ",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 93.0,
-    "rent": 12543,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T18:12:53+00:00", "clock": "18:12:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T18:58:44+00:00", "clock": "18:58:44"};
