@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kilenvägen, Donsö",
+    "url": "https://qasa.com/p/1441993",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/362aab75b4d67d7124fa41ac348b8677d0ecd5eb2bd6ee0f0997e54686b055b8.jpg",
+    "description": "Trevlig villa på 1,5 plan samt källare och trädgård med gräsmattor och klippor.  På entréplan finns hall, ett sovrum med balkong, vardagsrum, badrum och kök med balkongdörr till altanen. På övre plan finns 2,5 sovrum, WC och hall. Från huset är det 10 minuters gångväg till Donsö hamn. Färjan tar mellan 20-35 minuter till Saltholmen och därifrån går spårvagn och vid rusningstrafik expressbuss. På ön finns en välsorterad livsmedelsbutik ICA, café och restaurang. Vanligt färdmedel är cykel och golfbil. Utöver hyran tillkommer kostnad för el. Det finns ett par naturstigar och flera badplatser.\n",
+    "district": "Donsö",
+    "rooms": 4.5,
+    "area_m2": 105.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vegagatan, Göteborg",
     "url": "https://qasa.com/p/1441960",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9a048894a4daf2a5e0ef8bff332fc4278c9f140564cab84411fabce9729dd1db.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Store Udds väg, Torslanda",
-    "url": "https://qasa.com/p/1441260",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e6df4d2faad1a8c5e3ca0b59a9973827af24256d07598bf71aa34fe8eb1cb3c3.jpg",
-    "description": "Möblerad, helt separat gästbostad i Björlanda Kile - företagsboende med havsutsikt nära Volvo Torslanda och Volvo Tuve.\n\nVÄLKOMMEN TILL STORE UDD! \nNyrenoverad, ljus och ombonad gästbostad med året-runt-standard i Björlanda Kile. Här rår du dig själv högst upp på vår bergstomt och har en härlig utsikt över hav, vikar och småbåtshamn. Stugan har öppen planlösning och en egen möblerad altan med sol hela dagen och kvällen. \n\nBOENDET/PLANLÖSNING:\n• 25 välplanerade kvadratmeter med öppen planlösning och utrustad med det mesta du kan tänkas behöva.\n• En avskärmande sovalkov (finns två sängar som kan ställas ihop till en dubbelsäng, 160 cm, om så önskas och man vill ha mer utrymme dagtid staplas de enkelt ovanpå varandra).\n• En trevlig vardagsrumsyta med soffa, soffbord och tv samt matplats för två vid stora fönstret med utsikt över viken.\n• Ett välutrustat kökspentry med kyl/frys, två induktionsplattor, airfryer, micro, kaffebryggare, vattenkokare, brödrost mm. Även tillgång till gasolgrill på värdens altan.\n• Ett badrum med dusch, toalett och handfat.\n\nKOMMUNIKATIONER:\n25 min. med buss eller bil till centrala Göteborg.\n• 700 m. till busshållplats Björlanda Kile och buss 38 till Skra Bro och byte till buss 29 alt. 129 in till Göteborg\n• 1,2 km till busshållplats Skra Bro och buss 29 eller 129 in till Göteborg (pendelparkering finns på Skra Bro).\n• 15 minuter med bil och 25 minuter med cykel till Volvo Cars Torslanda och Volvo Trucks Tuve.\n\nTILLGÄNGLIGHET:\n• Gästbostaden är för eget bruk med egen ingång. Här bor du ostört och avskilt två trappor upp, högst upp på vår bergstomt som du når via värdens altandäck.\n• Värden bor i huvudbyggnaden på plan två och föräldrar till värden bor i separat lägenhet på markplan (vi har ett så kallat generationsboende). \n• Då gästbostaden är högt beläget och har flera trappor lämpar sig inte boendet för små barn eller personer med rörelsehinder.\n\nINGÅR i MÅNADSHYRA:\nEl, vatten, uppvärmning, wifi och TV\nTvättmaskin och torktumlare finns att nyttja kostnadsfritt i hyresvärdens tvättstuga. ",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 8500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T20:17:48+00:00", "clock": "20:17:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T20:43:44+00:00", "clock": "20:43:44"};
