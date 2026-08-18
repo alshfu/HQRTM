@@ -3,21 +3,6 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Hjällbogärdet, Angered",
-    "url": "https://qasa.com/p/1441570",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/947971d7d637d666dccd195d2d1cf3b08b8939f63671292ba09b630da1f4d975.jpg",
-    "description": "det är en fyrarumslägenhet med ett vardagsrum, kök och två toaletter. det är som ett kollektivboende.\n\nvi bor nu 3 studenter . rummet som är ledigt är för den fjärde personen.\n\nvi delar de gemensamma utrymmena, som kök, toaletter och vardagsrum.",
-    "district": "Angered",
-    "rooms": 4.5,
-    "area_m2": 115.0,
-    "rent": 3200,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Brottkärrsvägen, Hovås",
     "url": "https://qasa.com/p/1303204",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46ded1b8db11e03c474d6132109c397618db57a3cc9890392f79f5a380278379.jpg",
@@ -48,9 +33,24 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Gamlestadsvägen 10 D, Göteborg",
+    "url": "https://qasa.com/p/1441690",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b336efd0ed83de6ab596231e32f0903f7485e65b74936398fb075f2b64f29e5.jpg",
+    "description": "Intill Gamlestads Torg har Wikowia låtit uppföra 56 moderna hyreslägenheter med en gemensam grönskande innergård. \n\nLägenheten är en genomgångslägenhet, vilket innebär att de har utsikt åt två håll, och därmed kontakt med såväl gatuvimlet som livet på innergården. Den lummiga innergården är indelad i tre zoner. På bruksytan kan du plantera dina växter eller fixa med cykeln. De funktionella ytorna rymmer cykelparkering, förråd och upplysta gångar. På det upphöjda trädäcket kan du fånga dagens sista solstrålar. \n\nLägenheten håller hög standard och är välutrustad med diskmaskin och micro i köket samt tvättmaskin, torktumlare och handdukstork i de ljusa, helkaklade badrummen. Övriga rum har ekparkett och vackert ljusgrå väggar. Kök och badrumsinredning kommer från Marbodal. Lägenheten har balkong. \n\nHyran är 2026 års hyra.\n\nVälkommen med din ansökan!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 10757,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långströmsgatan 48A, GÖTEBORG",
     "url": "https://qasa.com/p/1441648",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb558c5e3ca55dfb32af0fbf67ae7674601a72b0b8b550d05fcd5e9d22d5cbec.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b49b054734619a725e079606b3f3b70a77ae8bc4e25258165309177a0eca7b1e.png",
     "description": "Välkommen hem till Långströmsallén! \n\nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 48 A, 1 ROK på 35 kvm - bottenvåning. En ljus och välplanerad bostad med avtalstid från 1 december, det finns möjlighet till tidigare inflytt. \n\nHyran för 2026 ligger på 7 466kr/mån. Lägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys och mikrovågsugn. \n\nLägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö. kontakta förvaltingen",
     "district": "GÖTEBORG",
     "rooms": 1.0,
@@ -95,7 +95,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Höstvädersgatan 29, Göteborg",
     "url": "https://qasa.com/p/1441631",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bb0042efa3237a715c70025ab7a5d3038244558e057c1f16bb7546ae957584ec.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c47328d8409857bf956aeb3482483b0c19660cba05253bc83194c97b72b58282.jpg",
     "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 4 rum och kök i Biskopsgården! I köket finns diskmaskin och separat kyl och frys. Genomgående ekparkett, helkaklat badrum - förberett för tvättmaskin. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
     "district": "Göteborg",
     "rooms": 4.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T13:50:12+00:00", "clock": "13:50:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T14:19:21+00:00", "clock": "14:19:21"};
