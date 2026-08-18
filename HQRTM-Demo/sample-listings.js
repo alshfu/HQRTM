@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fyrklöversgatan, Göteborg",
+    "url": "https://qasa.com/p/1441400",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/489d233192bf8732d4d594c2d92ae3c2641b4e8cfd3fc28ec9a1f452c7a41a31.jpg",
+    "description": "Trivsam och välplanerade lägenhet med två rum och kök. Lägenheten har genomgående svagt gråtonade väggar och ekparkettgolv som tillsammans ger ett stilrent intryck. I hallen möts du av grå klinker. Den öppna planlösningen mellan vardagsrum och kök ger en social och luftig känsla. Köket är modernt utrustat med beigegrå skåpsluckor och grått marmorkakel, grå laminatbänkskiva, micro, induktionshäll, varmluftsugn och spiskåpa (ej fläkt). Diskmaskin finns. Helkaklat badrum i grå marmor med mörkgrått klinkergolv, glasade duschväggar och svart vägg kommod med bra förvaring. Elektrisk handdukstork och golvvärme ger extra komfort. Egen tvättmaskin/torktumlare med bänkskiva och skåp med luckor för förvaring. \n\nHär bor man med ett centralt men lugnt läge på Hisingen med goda kommunikationer in till city. Brunnsparken nås med buss på ca 15 minuter. Från lägenheten har du en promenad på några minuter till Hisingsparken, en lugn oas och fantastisk natur. Här finns bra motionsspår och trevliga grillplatser. Samtidigt nås Kvillebäcken och Backaplan med dess utbud på ett enkelt sätt vare sig du går, cyklar, åker kollektivt eller bil.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 65.0,
+    "rent": 14670,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hjälmavägen, Torslanda",
     "url": "https://qasa.com/p/1441390",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec5d7ee3e468ae83565f3ad80415dc6763238a5b36f3e5d2634126208e4093d7.jpg",
@@ -28,6 +43,36 @@ window.HQRTM_SAMPLE = [
     "rent": 9000,
     "floor": null,
     "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gårdstensvägen 119, Angered",
+    "url": "https://qasa.com/p/1441428",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/69799988fdfa9e82ec6b7896751e930035195074669341c55cc7679408e108b3.jpg",
+    "description": "Här erbjuds en fin, välplanerad hyresrätt med balkong i sydväst på 7 kvm som stod inflyttningsklar i maj 2024. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen. \n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 10628,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gårdstensvägen 119, Angered",
+    "url": "https://qasa.com/p/1441424",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4975365d01e2fee50b91d7e2ed70aece231744d7e65198819fc5eff587da45b6.jpg",
+    "description": "Här erbjuds en fin, välplanerad hyresrätt med uteplats på 12 kvm. På planritningen kan du se i vilket hus samt vart i huset lägenheten är belägen. \n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10374,
+    "floor": null,
+    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Toleredsgatan, Göteborg",
-    "url": "https://qasa.com/p/1441226",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/da307ff9735c70fdd2eee3406e220a0c17beae3b9d85e37d37ad9aa7526fc1fe.jpg",
-    "description": "Bostaden ligger på 3:e våningen utan hiss med inglasad balkong.Lungt och fint område nära park med utmärkta promenadvägar samt nära till kollektivtrafik.Jag hyr ut p.g.a semester utomlands och det kan bli förlängning av denna.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 8500,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjällbogärdet , Göteborg",
-    "url": "https://qasa.com/p/1305990",
-    "image_url": null,
-    "description": "Lägenheten är i mycket gott skick och renoverades för fem år sedan, då både kök och badrum förnyades samt nya tapeter och golv lades in. Läget är centralt med smidiga kommunikationer – bussen tar dig till Hjällbo på bara tre minuter. I närområdet finns flera förskolor, och nästa år står en helt ny skola (F–9) klar.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T10:03:39+00:00", "clock": "10:03:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T10:41:34+00:00", "clock": "10:41:34"};
