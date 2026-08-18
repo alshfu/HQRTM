@@ -33,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Lergöksgatan 1G, Västra Frölunda",
+    "url": "https://qasa.com/p/1441508",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e78fd2b00fc05259d62682144f3db0fc018000f9117277e49a8268aae781e206.jpg",
+    "description": "Här ges möjlighet att hyra en 1 Rum och Kök på 35 kvm, i en nyproducerad bostad från 2024.\n \n-Diskmaskin  \n-Spishäll med inbyggd ugn  \n-Inbyggd mikrovågsugn  \n-Kombinerad tvättmaskin och torktumlare  \n-Balkong  \n-Externt förråd  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergökstatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö, kontakta förvaltningen för intresseanmälan",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 8698,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hårdvallsgatan, Göteborg",
     "url": "https://qasa.com/p/1441194",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec19f16111c12b9377d5cc9467c252f912ba68c581ad4d13620eb31686959567.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T11:03:34+00:00", "clock": "11:03:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-18T11:35:35+00:00", "clock": "11:35:35"};
