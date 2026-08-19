@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Djuråsvägen, Göteborg",
+    "url": "https://qasa.com/p/1320387",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec32476803d491d525bab4af8c67adc330d05db52a98865ad413b4e0cca88175.jpg",
+    "description": "Rum uthyres i villa i Torslanda – delat boende\n\nNu finns möjlighet att hyra ett rum i en villa i lugna och trevliga Torslanda.\n\n🔹 Observera: Detta gäller uthyrning av ett enskilt rum – inte hela huset.\n\nVillan består av totalt 4 rum som hyrs ut separat, vilket innebär att du delar gemensamma utrymmen med andra hyresgäster.\n\nOm boendet:\n\nEget privat rum\nTillgång till gemensamt kök, badrum och vardagsrum\nLugnt område med bra kommunikationer\nNärhet till natur, service och hav\n\nOm dig:\nVi söker en skötsam och ansvarstagande person som trivs med att bo tillsammans med andra. Rökfri och ordningsam är ett plus.\n\nÖvrigt:\n\nInflytt enligt överenskommelse\nHyra: [ange hyra]\nDeposition kan komma att tas ut\n\nPassar perfekt för dig som söker ett prisvärt och socialt boende.\n\nVid intresse – skicka ett meddelande och berätta lite om dig själv!\n\nRoom for rent in a villa in Torslanda – shared accommodation\n\nA room is now available for rent in a villa located in the quiet and pleasant area of Torslanda.\n\n🔹 Please note: This listing is for one private room – not the entire house.\n\nThe villa consists of a total of 4 rooms, each rented out separately. This means you will share common areas with other tenants.\n\nAbout the accommodation:\n\nPrivate room\nAccess to shared kitchen, bathroom, and living room\nLocated in a calm area with good public transport connections\nClose to nature, services, and the sea\n\nAbout you:\nWe are looking for a responsible and tidy person who is comfortable living with others. Non-smoker is preferred.\n\nAdditional information:\n\nMove-in date: by agreement\nRent: [insert rent]\nDeposit may be required\n\nPerfect for someone looking for affordable and social living.\n\nIf you are interested, please send a message and tell us a bit about yourself!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4875,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Brottkärrsvägen, Hovås",
+    "url": "https://qasa.com/p/777691",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7550a3d80cf835ec9de782d17e7a320c0b62918d1747741fa3da7758a68126dc.jpg",
+    "description": "\nHej! Jag hyr ut min lght i Nya Hovås, 1.5 rum med sovalkov.\nLägenheten är 39 kvm, med en stor balkong som löper längst med lägenheten mot den mysiga innergården. Max 3 minuter gång till gym, ICA, restauranger och nya Hovås mysiga butiker och caféer. Ca 15 min promenad till havet. Bussförbindelser precis utanför porten, ca 30 min med buss till Vasaplatsen i Göteborg. Möjlighet att hyra under en längre tid. Bostaden hyrs ut möblerad, fiber (internet) och tv utbud ingår. El tillkommer per månad, i enlighet med förbrukning.\nVid behov av parkering finns parkeringshus i närheten.",
+    "district": "Hovås",
+    "rooms": 1.5,
+    "area_m2": 39.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hållstamsvägen , Askim",
     "url": "https://qasa.com/p/1442858",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa3b1093465c8699ff31f44df8ebb61bb78fd6457a699354d5259a11fc371db3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Båtyxegatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1320898",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38dd766f36bbfd4ce75fc6ce70566a6a09a8f509c3b2e57291befdea52b53e5e.jpg",
-    "description": "En hyresgäst sökes till fin vindsvåning i villa i Ängås, Västra Frölunda. Huset ligger i ett lugnt villaområde, nära till både havet, naturreservat och Frölunda Torg. \n\nOm lägenheten: Övervåning i en villa som är uppdelad i två lägenheter. Vindsvåningen har har 3 rum med trägolv och takbjälkar. Egen ytterdörr, hall och stort badrum (med dusch, toalett och badkar) på entréplan. Egen del av trädgård i anslutning till entrén. Uthyres omöblerad. \n\nKöket ligger på entrévåningen och delas med oss. Där finns egna skåp och lådor för förvaring av kökssaker samt låsbar dörr. Matplats finns inte i köket utan i respektive lägenhet. Tvättstuga och cykelgarage delas på källarplan. \n\nHyra 8675:- Elkostnad tillkommer och varierar. \nInflytt 1 september. Tillsvidarekontrakt enligt överenskommelse. Ömsesidig uppsägningstid på 3 månader. \nVi lägger stor vikt vid att du är en pålitlig hyresgäst. Vi söker dig som är lugn, trevlig och tar hand om huset och trädgården.\n\nOm oss: \nVi heter Gabriella och Pontus och är 37 år. Vi arbetar med kultur och arkitektur och bor i husets andra lägenhet med vår lilla bebis.",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 58.0,
-    "rent": 8675,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1442674",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d467de7a398ac9d7783a77747328d3d39711c45af6ce2bb79e779011f9881ae.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 20125 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kpdqhir4rhbgbyho1hnn/vastra-gotaland/goteborg/lodjursstraket-1/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till denna pärla belägen i Göteborgs första skyskrapa Karlatornet! \r\n\r\nBostaden är en trea på våning 41 med balkong där utsikten är spektakulär. \r\n\r\nKarlatornet erbjuder även en uppsjö av exklusiva bekvämligheter såsom en reception med möjlighet till Roomservice och bokning av städning. Vidare finns det gym, spa, restaurang och en Skybar. Allt för att göra din tillvaro så bekväm som möjligt!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 20125 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 85.0,
-    "rent": 18995,
-    "floor": 41,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T17:44:35+00:00", "clock": "17:44:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T18:02:32+00:00", "clock": "18:02:32"};
