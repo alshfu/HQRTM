@@ -3,9 +3,24 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Önskevädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1442422",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/726944158a934eeb7fb1ecad79d3839845a1048ffc7239fb698f5f041809f6df.jpg",
+    "description": "Lägenhet uthyres för längre period. (Över 1 år)\n\n\n*Hyr ut helst till 2 personer / par men ensam funkar med.\n*Du som hyr ska ha stabil inkomst och inte vara jobbsökande.\n\n55 kvm + balkong på ca 7 kvm\nLägenheten renoverades 2017.\n\n-Vad som ingår i hyran?\nKall & varm vatten.\nUppvärmning av lägenhet\nInternet och tv kanaler\nDiverse möbler: Soffa, dubbelsäng, tv-bänk, soffbord, köksbord, mikro och lite köksredskap.\n\n-Vad som behöver betalas extra varje månad?\nElen man förbrukat\n\nDet finns möjlighet att hyra parkeringsplats. I närheten av lägenheten, cirka 500 meter bort, finns en mataffär, en spelbutik och en restaurang. Spårvagnar finns också i närheten och resan till stadens centrum tar cirka 15 minuter med kollektivtrafik. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 10550,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Jöns Rundbäcks Plats, Göteborg",
     "url": "https://qasa.com/p/1442406",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d1f9530446cd16e4617afb9284156a16308f819d7714cfe5f4e73dc5eb79fdf.png",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/71855bd570bb45df69a8c186076b1f22069658d9d80e988bacbd864af3b12059.png",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/x9idjv8mnxftvzdx1h8y/vastra-gotaland/goteborg/jons-rundbacks-plats-1/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMysig och välutrustad etta i centrala Hisingen\r\n\r\nVälkommen till en mysig, välutrustad och välplanerad etta i centrala Hisingen, med ett bekvämt läge nära restauranger, livsmedelsbutiker och goda kommunikationer. Här bor du med närhet till det mesta du behöver i vardagen, samtidigt som kollektivtrafiken enkelt tar dig vidare till andra delar av Göteborg.\r\n\r\nLägenheten hyrs ut fullt möblerad och erbjuder bland annat säng (vid önskemål), bäddsoffa, matgrupp, TV med TV-bord, diskmaskin samt kombinerad tvätt- och torkmaskin.\r\n\r\nFör den som önskar finns även möjlighet att inkludera köksartiklar, vilket gör bostaden redo att flytta in i direkt.\r\n\r\nEn perfekt lägenhet för dig som söker ett bekvämt och trivsamt boende med ett centralt läge!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 1.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backadalen 14, Göteborg",
-    "url": "https://qasa.com/p/1442167",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c9bd9a1a2ccef814e64ff791a22344f9b0a850eb2133f4bb2eecb50602e1b8af.jpg",
-    "description": "Nyproducerad 1RoK för dig som är 70+! Välplanerad och ljus lägenhet med öppna ytor och balkong. Rymlig planlösning med sovalkov, öppet mellan vardagsrum och kök och hallen är väl tilltagen samt här återfinns gott med förvaringsutrymme. Lägenheten är fullt utrustad med diskmaskin och kombinerad tvättmaskin och torktumlare. Fastigheten stod klar 2021 och ytskikt så väl som materialval återspeglar detta. Bilderna i annonsen visar ej lägenheten det avser utan en liknande, i samma hus och standard. I detta trygghetsboende välkomnar vi dig som är 70+. Fastigheten inrymmer gemensamhetslokaler med anställda trygghetsvärdar där aktiviteter och planering kan, om intresset finns, bli en del av vardagen. Ta en fika, spela spel, ut och gå stavgång, utöva gymnastik, åk med på utflykter eller se en film är en del av det utbud som brukar stå på schemat! Fastigheten är tillgänglighetsanpassad och på varje våningsplan återfinns rum för förvaring av rullatorer och rullstolar. Övriga bekvämligheter i fastigheten är gemensam tvättstuga samt cykelförråd och till varje lägenhet hör ett förråd i vind- eller källarplan. Parkeringsmöjligheter I källarplan finns garage med möjlighet att hyra parkeringsplats separat. Övrigt Bredband och el debiteras i samband med hyran. Hyran avser 2026 års nivå. Inkomstkrav sätts i förhållande till Normalbeloppet för 2022: Hyra + 5 157kr för ensamstående vuxen Hyra + 8 520kr för samlevande makar och sambor Urval och visningar sker löpande och dagtid. Mer information kommer för dig som blir erbjuden en visning. Vi accepterar inga betalningsanmärkningar.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 6848,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T11:16:48+00:00", "clock": "11:16:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T11:44:40+00:00", "clock": "11:44:40"};
