@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tamburingatan 1, Västra frölunda",
+    "url": "https://qasa.com/p/1442121",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e963325bb9c5ddd3b06e9c612ebf5049d08040fe2f333c0e0ffac5a18e38764.jpg",
+    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2021. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n\nHyran avser 2026 års hyresnivå. \n \nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag. \n\nOBS! Normalt slitage kan förekomma i lägenheten.\n \n\nHELT NYA HEM\nHär ges möjlighet att hyra en nyrenoverad lägenhet som HEM renoveras nu, 2024. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett.\n \nI det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål.\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.   \n \nVitvarorna i lägenheten är av märket Cylinda och lägenhetsförrådet finner ni i lägenheten.\n \nLägenheten hyrs ut på ritning p.ga pågående renovering.\n\nHyran avser 2026 års hyresnivå.\n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 13105,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Tamburingatan 7, Västra frölunda",
+    "url": "https://qasa.com/p/1442123",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7eac98d9651eb4de8ea654f70efd68d65c2ac1582de5a9bbbfbdf6978b0a1211.jpg",
+    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2022. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n\nHyran avser 2026 års hyresnivå. \n \nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag. \n\nOBS! Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13105,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Temperaturgatan 57, Göteborg",
+    "url": "https://qasa.com/p/1442103",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/470b781ad8652b5b45883eab70e789e8bf794185b4563541cd229ef4a909600e.jpg",
+    "description": "1 december kan vi erbjuda 1 ROK på Temperaturgatan 57.\nLägenheten är belägen på våning 1 och är disponerad på 49 kvm.\n\nI hyreskontraktet ingår en parkeringsplats med för närvarande hyra: 400 kr/mån.\nHyran för parkeringsplatsen är inkluderad i hyran du ser på annonsen (7 222 kr/mån).\n\nAnsök redan idag!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 49.0,
+    "rent": 7222,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kilenvägen, Donsö",
     "url": "https://qasa.com/p/1441993",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/362aab75b4d67d7124fa41ac348b8677d0ecd5eb2bd6ee0f0997e54686b055b8.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lilla Nordfjällsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1441941",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6a64453530c9087493c681f42d80d14ca46acc02733a9d54a1c26c616131e1c6.jpg",
-    "description": "Nybyggt fristående Attefallshus om 30 m² med 20 m² altan i soligt söderläge – i lugnt villaområde utanför Göteborg.\n\nHuset ligger på samma fastighet som vårt hem, men är placerat utan insyn mellan husen, vilket ger en privat och avskild känsla.\n\nPerfekt för en person eller ett par som söker ett tryggt, naturnära och lugnt boende.\n\nOm huset:\n– Stort vardagsrum med ekparkett och golvvärme\n– Fullt utrustat kök med Micro \n- Vardagsrum med bäddsoffa, laminofotölj, bord samt golvmatta. \n- vit byrå samt möbel för enkel förvaring av kläder och saker.\n– Helkaklat badrum med dusch, WC, kombinerad tvätt/torkmaskin, golvvärme och handdukstork\n– Sovloft med 160 cm madrass (ej ståhöjd)\n– Möblerad altan med cafébord och två stolar\n- Projektor eller TV (nytt)\n\n\n\nI hyran ingår V/A, internet, sophämtning och fri parkering.\nEl debiteras separat enligt faktisk förbrukning (ca 300–800 kr/månad).\n\nMöblemang: Bäddsoffa, vardagsrums bord, byrå, köksbord med två stolar, ”öppen”, garderob/hyllor, skohyllor, madrass och bäddmadrass 160cm.\nNytt om så önskas: Projektor eller TV, fåtölj, bokhylla\n\nKommunikationer:\nBusshållplats finns i närheten (550m). Till centrala Göteborg tar man sig med buss och spårvagn. Under morgonrusningen finns även direktbuss till järntorget, vilket gör pendlingen smidig.\n\n\nTillträde 1/10 eller enl överenskommelse, \nVi söker en lugn och ansvarsfull hyresgäst. Möjlighet till viss hyresreduktion kan diskuteras, exempelvis vid hjälp med kattpassning.\n\nBerätta gärna lite om dig/er och era framtidsplaner.\n\nFysisk visning eller digitalt.\n\nVi värdesätter ömsesidig respekt och en smidig kommunikation mellan hyresvärd och hyresgäst.\n\nVarmt välkommen,\nJohan & Reina",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 8825,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ängskogsvägen, Göteborg",
-    "url": "https://qasa.com/p/1433775",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d5fe0758ed4fb1a07293beb0ba9372d1ab32398ee4b60de21504b5b381b2a8a5.png",
-    "description": "Öppen och mysig lägenhet med sänghörna och uteplats på entréplan. I hyran ingår vatten och värme. Tuve Centrum busshållplats är 5 minuter bort där 17 går var väldigt ofta. I Tuve Centrum finns pizzeria, postombud och 2 livsmedelsbutiker.\n\nFinns möjlighet till omöblerad också. \n\nLägenheten hyrs ut medan den ska säljas vilket innebär att det uppskattas att vi kan komma överens om ett tillfälle för visning i ett par timmar i framtiden.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 41.0,
-    "rent": 8350,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brottkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/1303204",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46ded1b8db11e03c474d6132109c397618db57a3cc9890392f79f5a380278379.jpg",
-    "description": "Mysig och fräsch tvåa med uteplats i populära Nya Hovås – möblerad\n\nLetar du efter ett trivsamt och bekvämt boende i ett av Göteborgs mest eftertraktade områden? \n\nDenna ljusa och välplanerade tvåa erbjuder ett modernt kök, rymligt vardagsrum och sovrum med gott om förvaring. Lägenheten hyrs ut fullt möblerad (förutom möblerna i barnrummet). Det extra rummet fungerar idag som walk-in closet, men kan enkelt användas som hemmakontor, klädförvaring eller barnrum – perfekt för den som behöver lite extra yta och flexibilitet.\n\nHär finns även en mysig uteplats där du kan njuta av morgonkaffet eller umgås med vänner under sommarkvällarna.\n\nFakta:\n• Hyra: 15 000 kr/mån exklusive blockets serviceavgift (värme, vatten, el och bredband) \n• Tillträde: Flexibelt men snarast möjligt\n• Uthyrning: Möblerad (ej barnrummet)\n• Läge: Nya Hovås – nära butiker, caféer, restauranger, service och bra kommunikationer till Göteborgs centrum\n• Uteplats: Ja, på markplan \n\nPerfekt för dig som vill bo bekvämt, med närhet till både stad och hav.\n\nIntresserad? Hör av dig med en kort presentation om dig själv och hur länge du önskar hyra.",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 15000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T05:50:28+00:00", "clock": "05:50:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T06:21:19+00:00", "clock": "06:21:19"};
