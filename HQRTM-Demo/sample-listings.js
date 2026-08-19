@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Backadalen 14, Göteborg",
+    "url": "https://qasa.com/p/1442167",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c9bd9a1a2ccef814e64ff791a22344f9b0a850eb2133f4bb2eecb50602e1b8af.jpg",
+    "description": "Nyproducerad 1RoK för dig som är 70+! Välplanerad och ljus lägenhet med öppna ytor och balkong. Rymlig planlösning med sovalkov, öppet mellan vardagsrum och kök och hallen är väl tilltagen samt här återfinns gott med förvaringsutrymme. Lägenheten är fullt utrustad med diskmaskin och kombinerad tvättmaskin och torktumlare. Fastigheten stod klar 2021 och ytskikt så väl som materialval återspeglar detta. Bilderna i annonsen visar ej lägenheten det avser utan en liknande, i samma hus och standard. I detta trygghetsboende välkomnar vi dig som är 70+. Fastigheten inrymmer gemensamhetslokaler med anställda trygghetsvärdar där aktiviteter och planering kan, om intresset finns, bli en del av vardagen. Ta en fika, spela spel, ut och gå stavgång, utöva gymnastik, åk med på utflykter eller se en film är en del av det utbud som brukar stå på schemat! Fastigheten är tillgänglighetsanpassad och på varje våningsplan återfinns rum för förvaring av rullatorer och rullstolar. Övriga bekvämligheter i fastigheten är gemensam tvättstuga samt cykelförråd och till varje lägenhet hör ett förråd i vind- eller källarplan. Parkeringsmöjligheter I källarplan finns garage med möjlighet att hyra parkeringsplats separat. Övrigt Bredband och el debiteras i samband med hyran. Hyran avser 2026 års nivå. Inkomstkrav sätts i förhållande till Normalbeloppet för 2022: Hyra + 5 157kr för ensamstående vuxen Hyra + 8 520kr för samlevande makar och sambor Urval och visningar sker löpande och dagtid. Mer information kommer för dig som blir erbjuden en visning. Vi accepterar inga betalningsanmärkningar.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 6848,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tamburingatan 1, Västra frölunda",
     "url": "https://qasa.com/p/1442121",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e963325bb9c5ddd3b06e9c612ebf5049d08040fe2f333c0e0ffac5a18e38764.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smuttenstigen, Köpstadsö",
-    "url": "https://qasa.com/p/1441951",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecc6bcce7171a524b4759533f8f85cbab7f85e97d1fb3cf945c2fd939960700e.jpg",
-    "description": "Ett öppet fint sommarhus som fungerar perfekt året runt. Härlig terrass och gräsmatta, samt med närhet till badplats. \nHuset har tre sovrum med dubbelsängar och en våningssäng.\nHuset ligger på Köpstadsö i Göteborgs södra skärgård. Ön är bilfri och har ingen affär. \nHuset ligger 10 minuter från färjeläget och färjan tar ca. 15 minuter in till Saltholmen. \nI hyran ingår el och vatten. \n",
-    "district": "Köpstadsö",
-    "rooms": 4.0,
-    "area_m2": 100.0,
-    "rent": 9400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T06:21:19+00:00", "clock": "06:21:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T07:12:43+00:00", "clock": "07:12:43"};
