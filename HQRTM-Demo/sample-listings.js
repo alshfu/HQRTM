@@ -48,6 +48,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Östra Torpavägen 103, Göteborg",
+    "url": "https://qasa.com/p/1442454",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/355b5b2672b37286dc8500970b23060b66bcc5b4b7e373169d3247e26feceef9.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. \n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med ljusa vitvaror och diskmaskin.\n\nLägenheten erbjuder även bra förvaring med garderober i hall och sovrum samt en klädkammare/förråd intill badrummet.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet.. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\nOBS! Planlösningen och bilder är endast ett exempel, avvikelser kan förekomma. \n\nVälkommen att söka!\n\nPARKERING\nDet finns många lediga parkeringsplatser på adressen, för att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 12407,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Källsprångsgatan, Göteborg",
     "url": "https://qasa.com/p/1442298",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c9d6bc5719e6a1ee7c715f268c41dbb4fcd6963a5bd0d78fe2a0c9cd50ee9ff3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ametistgatan 16A, Västra Frölunda",
-    "url": "https://qasa.com/p/1442213",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c8f7836b063f4e02267b3cc5d2206979142a6a37684a249231ed76b2345c750.jpg",
-    "description": "Välkommen till Ametistgatan, Västra Frölunda\n\nVälkommen till denna charmiga 4:a belägen i bostadsområdet Opaltorget!\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita luckor och eleganta handtag på lådorna, samt en tålig bänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och tvättmaskin samt torktumlare. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 72.0,
-    "rent": 15770,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T11:44:40+00:00", "clock": "11:44:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T12:13:23+00:00", "clock": "12:13:23"};
