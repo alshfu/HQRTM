@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Älvsborgsplan, Göteborg",
+    "url": "https://qasa.com/p/1435005",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59686ce236ff7a8aea0fdc5d354c22aaf87b5db06f6767fe8fd85cd0a50a1141.jpg",
+    "description": "1:a på 40 kvm i härliga Majorna uthyres!\n\nLägenhet i kungsladugård uthyres fr o m mitten av September 2026 fram till mitten av Mars 2027 (med ev. möjlighet till förlängning). 1a i landshövdingehus med mysig innergård. Närhet till caféer och restauranger, 2 min till spårvagnen (Mariaplan eller Sannaplan). Badrum samt Kök nyrenoverade.\n\nEl, vatten, internet etc. ingår i hyran!\n\nPassar bra för 1 person eller ett par, uthyres möblerad.\nUthyres på grund av tillfälligt arbete på annan ort\n\nHör av er till mig det låter intressant så ger jag ut mer information!\n\nEmma",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Önskevädersgatan, Göteborg",
     "url": "https://qasa.com/p/1442422",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/726944158a934eeb7fb1ecad79d3839845a1048ffc7239fb698f5f041809f6df.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nebulosagatan 2, Göteborg",
-    "url": "https://qasa.com/p/1442296",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2197bece38fcb7f99eb920ae9bcc95d55470343aaa6d01f799cc54a26cf4fe98.jpg",
-    "description": "Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna 2ROK i Bergsjön! En ljus, trevlig, lägenhet! Lägenheten har ett kök med ljusa vitvaror och förberett för diskmaskin. Badrummet är helkaklatkaklat med utrymme för en tvättmaskin. Maskinerna ingår inte i lägenheten, men kommer att lämnas kvar för det fall att den kommande hyresgästen önskar ta över ansvaret för dem. Balkongen nås via sovrummet.\n\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n\n\nOM OMRÅDET\nNär du bor i Bergsjön har du nära till naturområden men även centrala Göteborg, dit du enkelt tar dig med någon av spårvagnslinjerna. Nära lägenheten finns närlivs, barberare och pizzeria. Samt förskola och mycket grönområden. Finns även busshållplats med bra förbindelser till Göteborg centrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n  \nVälkommen med er ansökan!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 8282,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T12:13:23+00:00", "clock": "12:13:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T13:12:03+00:00", "clock": "13:12:03"};
