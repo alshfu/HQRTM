@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hålskogsgatan, Angered",
+    "url": "https://qasa.com/p/1428631",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/321ff6110a531f04df3efab9a7b615b2b3c274c11a1d7ee7bb97b2974eafe3df.jpg",
+    "description": "Rymlig 4:a om ca 100 m² med egen ingång och uteplats\n\nRymlig källarlägenhet om ca 100 m² med 3 sovrum, vardagsrum, fullt utrustat kök och 2 badrum, samt egen ingång och separat uteplats.\n\nBostaden färdigställdes tidigare, men flera delar har renoverats och uppdaterats under 2026, vilket ger ett fräscht och modernt intryck.\n\nMycket bra läge med endast ca 250 meter till spårvagnshållplats med tre linjer.\n\nBostaden erbjuder:\n\n* 3 sovrum om ca 10–15 m²\n* Rymligt vardagsrum\n* Fullt utrustat kök\n* 2 badrum med dusch/WC\n* Diskmaskin\n* Tvättmaskin och torktumlare\n* Egen ingång\n* Separat uteplats\n* Möjlighet till parkeringsplats\n\nHyra:\n15 000 kr/mån i grundhyra\n\n4 000 kr/mån för el, internet, sophantering och parkeringsplats\n\nTotalt: 19 000 kr/mån inklusive samtliga ovanstående kostnader\n\nBostaden är djur- och rökfri. Vi söker en skötsam och långsiktig hyresgäst med stabil huvudsaklig sysselsättning och utan betalningsanmärkningar. Referenser är meriterande.\n\nVid intresse, skicka gärna:\n\n* Sysselsättning\n* Kort presentation av dig/er\n* Ålder\n* Önskat inflyttningsdatum\n* Önskad hyresperiod\n\nOm bostaden\nByggnaden är från 2018. Bostaden färdigställdes tidigare och delar av lägenheten har renoverats och uppdaterats under 2026.",
+    "district": "Angered",
+    "rooms": 4.0,
+    "area_m2": 98.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Båtyxegatan, Västra Frölunda",
     "url": "https://qasa.com/p/1320898",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38dd766f36bbfd4ce75fc6ce70566a6a09a8f509c3b2e57291befdea52b53e5e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Jöns Rundbäcks Plats, Göteborg",
-    "url": "https://qasa.com/p/1442406",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/71855bd570bb45df69a8c186076b1f22069658d9d80e988bacbd864af3b12059.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/x9idjv8mnxftvzdx1h8y/vastra-gotaland/goteborg/jons-rundbacks-plats-1/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMysig och välutrustad etta i centrala Hisingen\r\n\r\nVälkommen till en mysig, välutrustad och välplanerad etta i centrala Hisingen, med ett bekvämt läge nära restauranger, livsmedelsbutiker och goda kommunikationer. Här bor du med närhet till det mesta du behöver i vardagen, samtidigt som kollektivtrafiken enkelt tar dig vidare till andra delar av Göteborg.\r\n\r\nLägenheten hyrs ut fullt möblerad och erbjuder bland annat säng (vid önskemål), bäddsoffa, matgrupp, TV med TV-bord, diskmaskin samt kombinerad tvätt- och torkmaskin.\r\n\r\nFör den som önskar finns även möjlighet att inkludera köksartiklar, vilket gör bostaden redo att flytta in i direkt.\r\n\r\nEn perfekt lägenhet för dig som söker ett bekvämt och trivsamt boende med ett centralt läge!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 39.0,
-    "rent": 10854,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T15:48:15+00:00", "clock": "15:48:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T16:14:52+00:00", "clock": "16:14:52"};
