@@ -3,17 +3,32 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Styrfarten, Göteborg",
-    "url": "https://qasa.com/p/1442308",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a834c360ad357bff1472de339c03736e06808f25d8259e657192ee0099ce79f.jpg",
-    "description": "Hejsan det är så här att jag har min 1a lägenhet i centrala Göteborg som jag vill hyra ut\n\nLägenheten är fullmöblerad \n\nSmart Tv \nBäddsoffa \nSoffbord \nDubbelsäng \nKöksbord \nKöksredskap \nALLT SOM DU BEHÖVER I DIN VARDAG HAR DU I LÄGENHETEN \n\nHyran i inkluderar även vatten värme El \n\nHyreskontrakt Andrahand ett år I taget \nOch det är på grund av att vi vill gärna se hur hyresgästen sköter hyrorna \n\nÄr det så att man sköter sig med hyran regelbundet då kommer man att det förlängt \n\nBostadsrättsföreningen har även godkänt så vi kan hyra ut den med Andrahand  \n\nTyvärr så kan vi inte hålla visning för alla intresserade men ska göra så gått jg kan \n\nEftersom jag jobbar så har jag lite svårt att svar i Telefonen så kontakta mig gärna via messenger \n\nSka man hyra lägenheten så behöver ni skicka era kontaktuppgifter \n\nEftersom jag endast har en video så skickar jag den till endast Intresserade",
+    "title": "Jöns Rundbäcks Plats, Göteborg",
+    "url": "https://qasa.com/p/1442406",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d1f9530446cd16e4617afb9284156a16308f819d7714cfe5f4e73dc5eb79fdf.png",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/x9idjv8mnxftvzdx1h8y/vastra-gotaland/goteborg/jons-rundbacks-plats-1/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nMysig och välutrustad etta i centrala Hisingen\r\n\r\nVälkommen till en mysig, välutrustad och välplanerad etta i centrala Hisingen, med ett bekvämt läge nära restauranger, livsmedelsbutiker och goda kommunikationer. Här bor du med närhet till det mesta du behöver i vardagen, samtidigt som kollektivtrafiken enkelt tar dig vidare till andra delar av Göteborg.\r\n\r\nLägenheten hyrs ut fullt möblerad och erbjuder bland annat säng (vid önskemål), bäddsoffa, matgrupp, TV med TV-bord, diskmaskin samt kombinerad tvätt- och torkmaskin.\r\n\r\nFör den som önskar finns även möjlighet att inkludera köksartiklar, vilket gör bostaden redo att flytta in i direkt.\r\n\r\nEn perfekt lägenhet för dig som söker ett bekvämt och trivsamt boende med ett centralt läge!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 1.0,
-    "area_m2": 32.0,
-    "rent": 8,
+    "area_m2": 39.0,
+    "rent": 10854,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Smögengatan, Göteborg",
+    "url": "https://qasa.com/p/1442375",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f616a32d83f4f626eb71aa45e0734b09ece6a9d919a70bef72820df51e26db87.jpg",
+    "description": "3 rumslägenhet i Björkekärr hyrs ut från oktober tillsvidare.  Vår familj ska flytta utomlands och kommer därför hyra ut vår fina lägenhet på Smögengatan i Göteborg / Björkekärr. \nEtt stenkast från Härlanda tjärn och naturen samt östra sjukhuset med bra förbindelser till stan.\n\nLägenheten är 80 kvadrat med dubbla badrum, samt tvättmaskin och torktumlare i lägenheten. Fin takhöjd och ljusinsläpp samt en stor balkong med kvällssol. \nVårt andra sovrum är ganska litet, men går bra att göra till ett mindre barnrum eller gästrum/kontor. \n\nVi är måna om att hitta rätt hyresgäster.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
     "listing_type": "fcfs"
   },
   {
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tamburingatan 1, Västra frölunda",
-    "url": "https://qasa.com/p/1442121",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1e963325bb9c5ddd3b06e9c612ebf5049d08040fe2f333c0e0ffac5a18e38764.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2021. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n\nHyran avser 2026 års hyresnivå. \n \nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag. \n\nOBS! Normalt slitage kan förekomma i lägenheten.\n \n\nHELT NYA HEM\nHär ges möjlighet att hyra en nyrenoverad lägenhet som HEM renoveras nu, 2024. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett.\n \nI det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål.\nBadrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare.   \n \nVitvarorna i lägenheten är av märket Cylinda och lägenhetsförrådet finner ni i lägenheten.\n \nLägenheten hyrs ut på ritning p.ga pågående renovering.\n\nHyran avser 2026 års hyresnivå.\n\nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T10:51:55+00:00", "clock": "10:51:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T11:16:48+00:00", "clock": "11:16:48"};
