@@ -3,9 +3,24 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Styrfarten, Göteborg",
+    "url": "https://qasa.com/p/1442308",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a834c360ad357bff1472de339c03736e06808f25d8259e657192ee0099ce79f.jpg",
+    "description": "Hejsan det är så här att jag har min 1a lägenhet i centrala Göteborg som jag vill hyra ut\n\nLägenheten är fullmöblerad \n\nSmart Tv \nBäddsoffa \nSoffbord \nDubbelsäng \nKöksbord \nKöksredskap \nALLT SOM DU BEHÖVER I DIN VARDAG HAR DU I LÄGENHETEN \n\nHyran i inkluderar även vatten värme El \n\nHyreskontrakt Andrahand ett år I taget \nOch det är på grund av att vi vill gärna se hur hyresgästen sköter hyrorna \n\nÄr det så att man sköter sig med hyran regelbundet då kommer man att det förlängt \n\nBostadsrättsföreningen har även godkänt så vi kan hyra ut den med Andrahand  \n\nTyvärr så kan vi inte hålla visning för alla intresserade men ska göra så gått jg kan \n\nEftersom jag jobbar så har jag lite svårt att svar i Telefonen så kontakta mig gärna via messenger \n\nSka man hyra lägenheten så behöver ni skicka era kontaktuppgifter \n\nEftersom jag endast har en video så skickar jag den till endast Intresserade",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 9150,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Källsprångsgatan, Göteborg",
     "url": "https://qasa.com/p/1442298",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e0857d2df20dd79c4af0b70579fc19d83db076529927819f35a055932890f67b.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c9d6bc5719e6a1ee7c715f268c41dbb4fcd6963a5bd0d78fe2a0c9cd50ee9ff3.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/y8ac3q3prpdzyfreyige/vastra-gotaland/goteborg/kallsprangsgatan-2/2.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLigger centralt i fina Göteborg. Nära till alla kommunikation gångavstånd, nära kollektiv trafik, i grönt och lugnt område, öppen planlösning, med balkong. Uthyres möblerad och tillsvidare.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 2.5,
@@ -36,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Nebulosagatan 2, Göteborg",
     "url": "https://qasa.com/p/1442296",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2197bece38fcb7f99eb920ae9bcc95d55470343aaa6d01f799cc54a26cf4fe98.jpg",
-    "description": "Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna 2ROK i Bergsjön! En ljus, trevlig, lägenhet! Lägenheten har ett kök med ljusa vitvaror och förberett för diskmaskin. Badrummet är helkaklatkaklat med utrymme för en tvättmaskin. Maskinerna ingår inte i lägenheten men stanna kvar i lägenheten ifall kommande hyresgäst önskar ta över ansvaret för dem. Balkong finns via sovrummet. \n\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n\n\nOM OMRÅDET\nNär du bor i Bergsjön har du nära till naturområden men även centrala Göteborg, dit du enkelt tar dig med någon av spårvagnslinjerna. Nära lägenheten finns närlivs, barberare och pizzeria. Samt förskola och mycket grönområden. Finns även busshållplats med bra förbindelser till Göteborg centrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n  \nVälkommen med er ansökan!",
+    "description": "Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna 2ROK i Bergsjön! En ljus, trevlig, lägenhet! Lägenheten har ett kök med ljusa vitvaror och förberett för diskmaskin. Badrummet är helkaklatkaklat med utrymme för en tvättmaskin. Maskinerna ingår inte i lägenheten, men kommer att lämnas kvar för det fall att den kommande hyresgästen önskar ta över ansvaret för dem. Balkongen nås via sovrummet.\n\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n\n\nOM OMRÅDET\nNär du bor i Bergsjön har du nära till naturområden men även centrala Göteborg, dit du enkelt tar dig med någon av spårvagnslinjerna. Nära lägenheten finns närlivs, barberare och pizzeria. Samt förskola och mycket grönområden. Finns även busshållplats med bra förbindelser till Göteborg centrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n  \nVälkommen med er ansökan!",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 64.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tamburingatan 7, Västra frölunda",
-    "url": "https://qasa.com/p/1442123",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7eac98d9651eb4de8ea654f70efd68d65c2ac1582de5a9bbbfbdf6978b0a1211.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2022. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n\nHyran avser 2026 års hyresnivå. \n \nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag. \n\nOBS! Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T09:15:59+00:00", "clock": "09:15:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T09:52:35+00:00", "clock": "09:52:35"};
