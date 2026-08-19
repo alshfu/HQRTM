@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1442674",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d467de7a398ac9d7783a77747328d3d39711c45af6ce2bb79e779011f9881ae.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 20125 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kpdqhir4rhbgbyho1hnn/vastra-gotaland/goteborg/lodjursstraket-1/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till denna pärla belägen i Göteborgs första skyskrapa Karlatornet! \r\n\r\nBostaden är en trea på våning 41 med balkong där utsikten är spektakulär. \r\n\r\nKarlatornet erbjuder även en uppsjö av exklusiva bekvämligheter såsom en reception med möjlighet till Roomservice och bokning av städning. Vidare finns det gym, spa, restaurang och en Skybar. Allt för att göra din tillvaro så bekväm som möjligt!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 20125 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 85.0,
+    "rent": 18995,
+    "floor": 41,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ebba Ljunggrens Gata 22, Västra Frölunda",
+    "url": "https://qasa.com/p/1442718",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec6e3e9ac42c40e89bc6a83754abd6d9eb975d06bbbf62bfc89e4f9615c55c97.jpg",
+    "description": "Välkommen hem till Urbana!   \n\nHär ges möjlighet att hyra en 2 Rum och Kök på 40 kvm med balkong, en helt nyproducerad bostad.   \n\n- Balkong \n- Induktionsspis med varmluftsugn \n- Mikrovågsugn   \n- Tvättmaskin och torktumlare   \n- Diskmaskin   \n- Externt förråd\n\nKostnaden för el, kall- och varmvatten tillkommer på din hyresavi och du debiteras efter din faktiska förbrukning. På så sätt kan du vara med och påverka dina boendekostnader likväl som miljön.\n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\nNotera att detta är exempelbilder.\n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nDet finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 9975,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Älvsborgsplan, Göteborg",
     "url": "https://qasa.com/p/1435005",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59686ce236ff7a8aea0fdc5d354c22aaf87b5db06f6767fe8fd85cd0a50a1141.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Torpavägen 103, Göteborg",
-    "url": "https://qasa.com/p/1442454",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/355b5b2672b37286dc8500970b23060b66bcc5b4b7e373169d3247e26feceef9.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. \n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med ljusa vitvaror och diskmaskin.\n\nLägenheten erbjuder även bra förvaring med garderober i hall och sovrum samt en klädkammare/förråd intill badrummet.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet.. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\nOBS! Planlösningen och bilder är endast ett exempel, avvikelser kan förekomma. \n\nVälkommen att söka!\n\nPARKERING\nDet finns många lediga parkeringsplatser på adressen, för att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 12407,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Källsprångsgatan, Göteborg",
-    "url": "https://qasa.com/p/1442298",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c9d6bc5719e6a1ee7c715f268c41dbb4fcd6963a5bd0d78fe2a0c9cd50ee9ff3.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/y8ac3q3prpdzyfreyige/vastra-gotaland/goteborg/kallsprangsgatan-2/2.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLigger centralt i fina Göteborg. Nära till alla kommunikation gångavstånd, nära kollektiv trafik, i grönt och lugnt område, öppen planlösning, med balkong. Uthyres möblerad och tillsvidare.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 57.0,
-    "rent": 14111,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T13:58:59+00:00", "clock": "13:58:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T14:42:10+00:00", "clock": "14:42:10"};
