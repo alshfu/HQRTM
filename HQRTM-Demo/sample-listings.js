@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hållstamsvägen , Askim",
+    "url": "https://qasa.com/p/1442858",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa3b1093465c8699ff31f44df8ebb61bb78fd6457a699354d5259a11fc371db3.jpg",
+    "description": "Mysig lägenhet i nederdel av villa med egen ingång. Fullt eller delvis möblerad samt fullt utrustat kök. Direkt närhet till grönområde och fina Sisjön. Bra kommunikationer till både hav och stad i närheten. Parkering finns efter överenskommelse. ",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Jungmansgatan, Göteborg",
+    "url": "https://qasa.com/p/1426822",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7cf33c629f793572ebf839dafed038e6363bc93cb113e732cd1d92c880bf0fd0.jpg",
+    "description": "Jag ska utomlands en period och hyr därför ut min älskade lägenhet i Linné/Masthugget precis vid Slottsskogen - Gbgs bästa läge om du frågar mig. Det är även nära till Järntorget och bra kommunikation till alla möjliga delar av Göteborg. Lägenheten ligger på bottenplan och är en etta på 38 kvm på med sovalkov, alla bekvämligheter finns och jag hyr ut möblerat med allt som kan behövas, det finns även en härlig innergård. I hyran ingår allt som vatten och el. Fler bilder kan lösas efter önskemål och jag visar gärna lägenheten så snart som möjligt för intressant hyresgäst :) ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 38.0,
+    "rent": 9700,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Teatergatan, Göteborg",
+    "url": "https://qasa.com/p/1442297",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c2c4d2b9f01dfcd16138d806b5527ee29707872ad9c9d3cf2e6d2984efdd924a.jpg",
+    "description": "Ljus och attraktiv 3,5:a med uteplats och balkong på Teatergatan\n\nVälkommen till en mycket fin och attraktiv bostad på 75 kvm, fördelad på 3 rum. Lägenheten erbjuder en härlig kombination av bekvämt boende, generösa ytor och både uteplats och balkong.\n\nBostaden ligger på Teatergatan, mitt i ett av Göteborgs mest attraktiva och eftertraktade områden. Här har du citys puls precis utanför dörren, samtidigt som du har nära till restauranger, caféer, shopping, kultur och allt annat som centrala Göteborg har att erbjuda.\n\nDen fina uteplatsen och balkongen ger dessutom möjlighet att njuta av utomhusmiljö och skapa en härlig känsla av extra yta.\n\nEtt perfekt boende för dig som söker ett centralt, bekvämt och attraktivt hem i ett av Göteborgs bästa lägen.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 75.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skånegatan, Göteborg",
     "url": "https://qasa.com/p/1343856",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/16ffc499002840ade9755c792fd23290e7cccbabe0a0e8055422684c861aa5e8.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ebba Ljunggrens Gata 22, Västra Frölunda",
-    "url": "https://qasa.com/p/1442718",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec6e3e9ac42c40e89bc6a83754abd6d9eb975d06bbbf62bfc89e4f9615c55c97.jpg",
-    "description": "Välkommen hem till Urbana!   \n\nHär ges möjlighet att hyra en 2 Rum och Kök på 40 kvm med balkong, en helt nyproducerad bostad.   \n\n- Balkong \n- Induktionsspis med varmluftsugn \n- Mikrovågsugn   \n- Tvättmaskin och torktumlare   \n- Diskmaskin   \n- Externt förråd\n\nKostnaden för el, kall- och varmvatten tillkommer på din hyresavi och du debiteras efter din faktiska förbrukning. På så sätt kan du vara med och påverka dina boendekostnader likväl som miljön.\n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\nNotera att detta är exempelbilder.\n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nDet finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 9975,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Älvsborgsplan, Göteborg",
-    "url": "https://qasa.com/p/1435005",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59686ce236ff7a8aea0fdc5d354c22aaf87b5db06f6767fe8fd85cd0a50a1141.jpg",
-    "description": "1:a på 40 kvm i härliga Majorna uthyres!\n\nLägenhet i kungsladugård uthyres fr o m mitten av September 2026 fram till mitten av Mars 2027 (med ev. möjlighet till förlängning). 1a i landshövdingehus med mysig innergård. Närhet till caféer och restauranger, 2 min till spårvagnen (Mariaplan eller Sannaplan). Badrum samt Kök nyrenoverade.\n\nEl, vatten, internet etc. ingår i hyran!\n\nPassar bra för 1 person eller ett par, uthyres möblerad.\nUthyres på grund av tillfälligt arbete på annan ort\n\nHör av er till mig det låter intressant så ger jag ut mer information!\n\nEmma",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillhagsparken 23D, Göteborg",
-    "url": "https://qasa.com/p/1442638",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/173bd13605392024f363aafd2dde083f6e3d5f28938712775d3dadfc819b9e2c.png",
-    "description": "Nyrenoverad lägenhet ledig på Lillhagsparken 23.\n\nEn trevlig nyproducerad fastighet med loftgångar och hiss.\nLägenheten är en 2 ROK om 55kvm på våning 2.\n\nI lägenheten finns genomgående parkettgolv, vita väggar och trevligt kök.\nDiskmaskin, tvättmaskin och torktumlare finns installerat.\n\nInflyttning 1/12-2026",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 10951,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T17:15:04+00:00", "clock": "17:15:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T17:44:35+00:00", "clock": "17:44:35"};
