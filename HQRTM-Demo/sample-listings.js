@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Båtyxegatan, Västra Frölunda",
     "url": "https://qasa.com/p/1320898",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38dd766f36bbfd4ce75fc6ce70566a6a09a8f509c3b2e57291befdea52b53e5e.jpg",
-    "description": "En hyresgäst sökes till fin vindsvåning i villa, Västra Frölunda. \nNära till både havet, grönområden och Frölunda Torg. \nOm lägenheten: Övervåning i en villa som är uppdelad i två lägenheter. Vindsvåningen har har 3 rum med trägolv och takbjälkar. Egen ytterdörr, hall och stort badrum (med dusch, toalett och badkar) på entréplan. Egen del av trädgård i anslutning till entrén. \n\nKöket ligger på entrévåningen och delas med oss. Det har låsbar dörr till lägenheterna. Matplats finns inte i köket utan i respektive lägenhet. Tvättstuga och cykelgarage delas på källarplan. \nHyra 8675:- Elkostnad tillkommer och varierar. \nInflytt 1 augusti eller 1 september. Tillsvidarekontrakt enligt överenskommelse. Ömsesidig uppsägningstid på 3 månader. \nVi lägger stor vikt vid att du är en pålitlig hyresgäst. Vi söker dig som är lugn, trevlig och tar hand om huset och trädgården.\n\nOm oss: \nVi heter Gabriella och Pontus och är 37 år. Vi arbetar med kultur och arkitektur och bor i husets andra lägenhet med vår lilla bebis.",
+    "description": "En hyresgäst sökes till fin vindsvåning i villa i Ängås, Västra Frölunda. Huset ligger i ett lugnt villaområde, nära till både havet, naturreservat och Frölunda Torg. \n\nOm lägenheten: Övervåning i en villa som är uppdelad i två lägenheter. Vindsvåningen har har 3 rum med trägolv och takbjälkar. Egen ytterdörr, hall och stort badrum (med dusch, toalett och badkar) på entréplan. Egen del av trädgård i anslutning till entrén. Uthyres omöblerad. \n\nKöket ligger på entrévåningen och delas med oss. Där finns egna skåp och lådor för förvaring av kökssaker samt låsbar dörr. Matplats finns inte i köket utan i respektive lägenhet. Tvättstuga och cykelgarage delas på källarplan. \n\nHyra 8675:- Elkostnad tillkommer och varierar. \nInflytt 1 september. Tillsvidarekontrakt enligt överenskommelse. Ömsesidig uppsägningstid på 3 månader. \nVi lägger stor vikt vid att du är en pålitlig hyresgäst. Vi söker dig som är lugn, trevlig och tar hand om huset och trädgården.\n\nOm oss: \nVi heter Gabriella och Pontus och är 37 år. Vi arbetar med kultur och arkitektur och bor i husets andra lägenhet med vår lilla bebis.",
     "district": "Västra Frölunda",
     "rooms": 3.0,
     "area_m2": 58.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T15:13:26+00:00", "clock": "15:13:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T15:48:15+00:00", "clock": "15:48:15"};
