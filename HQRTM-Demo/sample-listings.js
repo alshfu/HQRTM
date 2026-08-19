@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Lillhagsparken 23D, Göteborg",
+    "url": "https://qasa.com/p/1442638",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/173bd13605392024f363aafd2dde083f6e3d5f28938712775d3dadfc819b9e2c.png",
+    "description": "Nyrenoverad lägenhet ledig på Lillhagsparken 23.\n\nEn trevlig nyproducerad fastighet med loftgångar och hiss.\nLägenheten är en 2 ROK om 55kvm på våning 2.\n\nI lägenheten finns genomgående parkettgolv, vita väggar och trevligt kök.\nDiskmaskin, tvättmaskin och torktumlare finns installerat.\n\nInflyttning 1/12-2026",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 10951,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Önskevädersgatan, Göteborg",
     "url": "https://qasa.com/p/1442422",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/726944158a934eeb7fb1ecad79d3839845a1048ffc7239fb698f5f041809f6df.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ametistgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1442257",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/354d13839713d74d018aa5063acbed61a072f7d1f5e64c9d7d3e223947262a3e.jpg",
-    "description": "Välkommen till denna charmiga 4:a belägen i det populära bostadsområdet Opaltorget!\n\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita push-to-open luckor och eleganta handtag på lådorna, samt en tålig laminatbänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med vitt kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och en tvättmaskin. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\n\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök, samtliga med balkong eller uteplats. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 72.0,
-    "rent": 14832,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T13:12:03+00:00", "clock": "13:12:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T13:58:59+00:00", "clock": "13:58:59"};
