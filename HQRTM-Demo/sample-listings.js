@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Källsprångsgatan, Göteborg",
+    "url": "https://qasa.com/p/1442298",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e0857d2df20dd79c4af0b70579fc19d83db076529927819f35a055932890f67b.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/y8ac3q3prpdzyfreyige/vastra-gotaland/goteborg/kallsprangsgatan-2/2.5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLigger centralt i fina Göteborg. Nära till alla kommunikation gångavstånd, nära kollektiv trafik, i grönt och lugnt område, öppen planlösning, med balkong. Uthyres möblerad och tillsvidare.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 57.0,
+    "rent": 14111,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ametistgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1442257",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/354d13839713d74d018aa5063acbed61a072f7d1f5e64c9d7d3e223947262a3e.jpg",
@@ -11,6 +26,21 @@ window.HQRTM_SAMPLE = [
     "rooms": 4.0,
     "area_m2": 72.0,
     "rent": 14832,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nebulosagatan 2, Göteborg",
+    "url": "https://qasa.com/p/1442296",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2197bece38fcb7f99eb920ae9bcc95d55470343aaa6d01f799cc54a26cf4fe98.jpg",
+    "description": "Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna 2ROK i Bergsjön! En ljus, trevlig, lägenhet! Lägenheten har ett kök med ljusa vitvaror och förberett för diskmaskin. Badrummet är helkaklatkaklat med utrymme för en tvättmaskin. Maskinerna ingår inte i lägenheten men stanna kvar i lägenheten ifall kommande hyresgäst önskar ta över ansvaret för dem. Balkong finns via sovrummet. \n\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. \n\n\nOM OMRÅDET\nNär du bor i Bergsjön har du nära till naturområden men även centrala Göteborg, dit du enkelt tar dig med någon av spårvagnslinjerna. Nära lägenheten finns närlivs, barberare och pizzeria. Samt förskola och mycket grönområden. Finns även busshållplats med bra förbindelser till Göteborg centrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n  \nVälkommen med er ansökan!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 8282,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Temperaturgatan 57, Göteborg",
-    "url": "https://qasa.com/p/1442103",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/470b781ad8652b5b45883eab70e789e8bf794185b4563541cd229ef4a909600e.jpg",
-    "description": "1 december kan vi erbjuda 1 ROK på Temperaturgatan 57.\nLägenheten är belägen på våning 1 och är disponerad på 49 kvm.\n\nI hyreskontraktet ingår en parkeringsplats med för närvarande hyra: 400 kr/mån.\nHyran för parkeringsplatsen är inkluderad i hyran du ser på annonsen (7 222 kr/mån).\n\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 49.0,
-    "rent": 7222,
-    "floor": 1,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kilenvägen, Donsö",
-    "url": "https://qasa.com/p/1441993",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/362aab75b4d67d7124fa41ac348b8677d0ecd5eb2bd6ee0f0997e54686b055b8.jpg",
-    "description": "Trevlig villa på 1,5 plan samt källare och trädgård med gräsmattor och klippor.  På entréplan finns hall, ett sovrum med balkong, vardagsrum, badrum och kök med balkongdörr till altanen. På övre plan finns 2,5 sovrum, WC och hall. Från huset är det 10 minuters gångväg till Donsö hamn. Färjan tar mellan 20-35 minuter till Saltholmen och därifrån går spårvagn och vid rusningstrafik expressbuss. På ön finns en välsorterad livsmedelsbutik ICA, café och restaurang. Vanligt färdmedel är cykel och golfbil. Utöver hyran tillkommer kostnad för el. Det finns ett par naturstigar och flera badplatser.\n",
-    "district": "Donsö",
-    "rooms": 4.5,
-    "area_m2": 105.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T08:39:41+00:00", "clock": "08:39:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T09:15:59+00:00", "clock": "09:15:59"};
