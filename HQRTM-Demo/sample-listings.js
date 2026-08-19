@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skånegatan, Göteborg",
+    "url": "https://qasa.com/p/1343856",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/16ffc499002840ade9755c792fd23290e7cccbabe0a0e8055422684c861aa5e8.jpg",
+    "description": "\nCharmig 2:a med Balkong på 4 våningen vid Korsvägen i Lorensberg\n\nVälkommen till denna stilfulla och fullt inredda 2:an belägen på eftertraktade fjärde våningen i hjärtat av Lorensberg. Lägenheten erbjuder en harmonisk kombination av komfort och elegans, med högkvalitativa möbler som ger varje rum en sofistikerad touch.\n\nBostadsfakta:\n\nBalkong: Härlig balkong med utsikt över den lugna innergården, perfekt för morgonkaffet eller avkoppling efter en lång dag.\nMöblering: Lägenheten är fullt möblerad med smakfullt utvalda möbler som säkerställer både funktionalitet och estetik.\nKök: Modernt och fullutrustat kök med diskmaskin, vilket gör matlagning och städning till ett nöje.\nEspresso bar: I trapphuset finns en charmig espresso bar, ett bekvämt och lyxigt inslag som förhöjer vardagen.\nBo i en av Göteborgs mest attraktiva stadsdelar, nära till allt som staden har att erbjuda men ändå i en lugn och trivsam omgivning. Denna bostad är idealisk för dig som söker ett hem med både stil och bekvämlighet.\n\nHoppas detta passar! Om du har fler detaljer eller önskemål, tveka inte att höra av er.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 18000,
+    "floor": 4,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hålskogsgatan, Angered",
     "url": "https://qasa.com/p/1428631",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/321ff6110a531f04df3efab9a7b615b2b3c274c11a1d7ee7bb97b2974eafe3df.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Önskevädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1442422",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/726944158a934eeb7fb1ecad79d3839845a1048ffc7239fb698f5f041809f6df.jpg",
-    "description": "Lägenhet uthyres för längre period. (Över 1 år)\n\n\n*Hyr ut helst till 2 personer / par men ensam funkar med.\n*Du som hyr ska ha stabil inkomst och inte vara jobbsökande.\n\n55 kvm + balkong på ca 7 kvm\nLägenheten renoverades 2017.\n\n-Vad som ingår i hyran?\nKall & varm vatten.\nUppvärmning av lägenhet\nInternet och tv kanaler\nDiverse möbler: Soffa, dubbelsäng, tv-bänk, soffbord, köksbord, mikro och lite köksredskap.\n\n-Vad som behöver betalas extra varje månad?\nElen man förbrukat\n\nDet finns möjlighet att hyra parkeringsplats. I närheten av lägenheten, cirka 500 meter bort, finns en mataffär, en spelbutik och en restaurang. Spårvagnar finns också i närheten och resan till stadens centrum tar cirka 15 minuter med kollektivtrafik. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 10550,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T16:14:52+00:00", "clock": "16:14:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T16:50:22+00:00", "clock": "16:50:22"};
