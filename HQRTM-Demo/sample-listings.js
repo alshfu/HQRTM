@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Båtyxegatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1320898",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/38dd766f36bbfd4ce75fc6ce70566a6a09a8f509c3b2e57291befdea52b53e5e.jpg",
+    "description": "En hyresgäst sökes till fin vindsvåning i villa, Västra Frölunda. \nNära till både havet, grönområden och Frölunda Torg. \nOm lägenheten: Övervåning i en villa som är uppdelad i två lägenheter. Vindsvåningen har har 3 rum med trägolv och takbjälkar. Egen ytterdörr, hall och stort badrum (med dusch, toalett och badkar) på entréplan. Egen del av trädgård i anslutning till entrén. \n\nKöket ligger på entrévåningen och delas med oss. Det har låsbar dörr till lägenheterna. Matplats finns inte i köket utan i respektive lägenhet. Tvättstuga och cykelgarage delas på källarplan. \nHyra 8675:- Elkostnad tillkommer och varierar. \nInflytt 1 augusti eller 1 september. Tillsvidarekontrakt enligt överenskommelse. Ömsesidig uppsägningstid på 3 månader. \nVi lägger stor vikt vid att du är en pålitlig hyresgäst. Vi söker dig som är lugn, trevlig och tar hand om huset och trädgården.\n\nOm oss: \nVi heter Gabriella och Pontus och är 37 år. Vi arbetar med kultur och arkitektur och bor i husets andra lägenhet med vår lilla bebis.",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 58.0,
+    "rent": 8675,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1442674",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d467de7a398ac9d7783a77747328d3d39711c45af6ce2bb79e779011f9881ae.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smögengatan, Göteborg",
-    "url": "https://qasa.com/p/1442375",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f616a32d83f4f626eb71aa45e0734b09ece6a9d919a70bef72820df51e26db87.jpg",
-    "description": "3 rumslägenhet i Björkekärr hyrs ut från oktober tillsvidare.  Vår familj ska flytta utomlands och kommer därför hyra ut vår fina lägenhet på Smögengatan i Göteborg / Björkekärr. \nEtt stenkast från Härlanda tjärn och naturen samt östra sjukhuset med bra förbindelser till stan.\n\nLägenheten är 80 kvadrat med dubbla badrum, samt tvättmaskin och torktumlare i lägenheten. Fin takhöjd och ljusinsläpp samt en stor balkong med kvällssol. \nVårt andra sovrum är ganska litet, men går bra att göra till ett mindre barnrum eller gästrum/kontor. \n\nVi är måna om att hitta rätt hyresgäster.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T14:42:10+00:00", "clock": "14:42:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T15:13:26+00:00", "clock": "15:13:26"};
