@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ametistgatan 16A, Västra Frölunda",
+    "url": "https://qasa.com/p/1442213",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c8f7836b063f4e02267b3cc5d2206979142a6a37684a249231ed76b2345c750.jpg",
+    "description": "Välkommen till Ametistgatan, Västra Frölunda\n\nVälkommen till denna charmiga 4:a belägen i bostadsområdet Opaltorget!\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita luckor och eleganta handtag på lådorna, samt en tålig bänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och tvättmaskin samt torktumlare. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
+    "district": "Västra Frölunda",
+    "rooms": 4.0,
+    "area_m2": 72.0,
+    "rent": 15770,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Backadalen 14, Göteborg",
     "url": "https://qasa.com/p/1442167",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c9bd9a1a2ccef814e64ff791a22344f9b0a850eb2133f4bb2eecb50602e1b8af.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styrsö hamnväg, Styrsö",
-    "url": "https://qasa.com/p/1441962",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf77c1561fcf061bb989fae911352f29f0765d115d53dc3afb6f4fc33d5f8ed1.jpg",
-    "description": "Trivsamt möblerat hus för par eller mindre familj\nNu finns möjlighet att hyra ett möblerat hus på ca 110 m² på Styrsö Tången, med närhet till havet, egen uteplats och balkong med havsutsikt.\nHuset passar bra för ett par eller en mindre familj som vill bo bekvämt i Göteborgs södra skärgård, med enkel möjlighet att ta sig till Göteborg.\n\nEtt lugnt skärgårdsboende\nHär bor du med skärgården precis utanför dörren, samtidigt som färjeläget ligger bara cirka 2 minuters promenad från huset.\nFrån balkongen finns havsutsikt, och det finns även en uteplats där man kan njuta av soliga dagar och lugna kvällar.\n\nHuset\nPå entréplan finns:\n•\trymligt vardagsrum\n•\tmindre matrum\n•\tkök med spis, ugn, kyl/frys, diskmaskin och kaffebryggare\n•\tbadrum med badkar och dusch\n•\ttvättmaskin\nPå övervåningen finns:\n•\tsovrum med dubbelsäng\n•\tsovrum med två enkelsängar\n•\tytterligare sovplatser i två mindre utrymmen som kan avskärmas med gardiner\n\nHuset passar mycket bra för ett par eller en mindre familj som vill ha gott om utrymme.\nHuset hyrs ut möblerat.\nNära Göteborg – men ändå långt från stadens stress\nMed färjan bara några minuter bort är det enkelt att ta sig till Göteborg för arbete, skola eller aktiviteter. När du kommer hem väntar istället lugnet på Styrsö, med hav, natur och skärgårdsmiljö.\n\nUthyrning\nTillgängligt från: 1 september 2026\nStorlek: ca 110 m²\nUthyres: möblerat\nLäge: Styrsö Tången\nPassar: par eller mindre familj\nHyra: 21 900 kr/mån\nEl tillkommer enligt faktisk förbrukning.\nVid längre hyresperiod kan villkoren diskuteras.\nVälkommen att höra av dig för mer information, bilder eller visning!\n",
-    "district": "Styrsö",
-    "rooms": 6.0,
-    "area_m2": 110.0,
-    "rent": 20000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T07:12:43+00:00", "clock": "07:12:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T07:55:58+00:00", "clock": "07:55:58"};
