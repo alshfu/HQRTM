@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gyllenstensgatan, Göteborg",
+    "url": "https://qasa.com/p/1442978",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/625d40abd27fd99b7936a9c952470c4f9ea012d92cd56e2b33ed828f3b02243b.jpg",
+    "description": "Möblerad central 3 rum och kök i Göteborg. Ljus och tyst lägenhet högst upp i huset med stor takterass i söderläge. Utsikt över takåsar och trädkronorna i mysiga Kålltorp. \n\nFri parkering på gatorna i området. Mataffärer, restauranger och bageri på gångavstånd. Flera buss och spårvagnsförbindelser i området. \n\nKålltorp ligger nära grönområdena i Delsjön/Skatås och har fortfarande gång och cykelavstånd in till innerstan.  \n\nUthyres 6 månader till mycket skötsam, rökfri person utan barn. Ingen möjlighet till förlängning. Inga husdjur tillåtna. Referenser önskas.\n\nVärme/Vatten/Internet ingår. Hushållsel betalas separat. ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 71.0,
+    "rent": 14010,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ernst Torulfsgatan, Göteborg",
     "url": "https://qasa.com/p/1442912",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c3bb9fad08d3222800b6b41ca3b07a7180e7278327219afbd73a7d62b5674c7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Teatergatan, Göteborg",
-    "url": "https://qasa.com/p/1442297",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c2c4d2b9f01dfcd16138d806b5527ee29707872ad9c9d3cf2e6d2984efdd924a.jpg",
-    "description": "Ljus och attraktiv 3,5:a med uteplats och balkong på Teatergatan\n\nVälkommen till en mycket fin och attraktiv bostad på 75 kvm, fördelad på 3 rum. Lägenheten erbjuder en härlig kombination av bekvämt boende, generösa ytor och både uteplats och balkong.\n\nBostaden ligger på Teatergatan, mitt i ett av Göteborgs mest attraktiva och eftertraktade områden. Här har du citys puls precis utanför dörren, samtidigt som du har nära till restauranger, caféer, shopping, kultur och allt annat som centrala Göteborg har att erbjuda.\n\nDen fina uteplatsen och balkongen ger dessutom möjlighet att njuta av utomhusmiljö och skapa en härlig känsla av extra yta.\n\nEtt perfekt boende för dig som söker ett centralt, bekvämt och attraktivt hem i ett av Göteborgs bästa lägen.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 22000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T19:43:20+00:00", "clock": "19:43:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T20:01:28+00:00", "clock": "20:01:28"};
