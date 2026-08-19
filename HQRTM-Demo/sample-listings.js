@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Johan Gertssons Gata, Göteborg",
+    "url": "https://qasa.com/p/1443009",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1bcaf8bcd18ced317677e34bdf42c5c88d43a25652dc25b0e4a4661ff154e3e2.jpg",
+    "description": "Nu hyr jag ut min fina 1,5:a i Gamlestaden från oktober. Lägenheten ligger högst upp i huset och har en balkong med fin utsikt. 🚋 Spårvagn finns precis i närheten och tar dig smidigt in till centrala Göteborg.\n\nLägenheten är modern, ljus och passar perfekt för dig som söker ett bekvämt boende med nära till både city och kommunikationer.\n\nI hyran ingår allt, inklusive el, vatten, värme och bredband, med begränsad förbrukning till ett fastställt pris.\n\n📍 Gamlestaden\n🏠 1,5 rum och kök\n🌃 Balkong med utsikt\n🚋 Nära spårvagn\n⬆️ Högst upp i huset\n💡 Allt ingår i hyran, med begränsad förbrukning\n\n📅 Uthyres från oktober\n\nSkicka gärna ett meddelande vid intresse och berätta lite om dig själv!",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 37.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gyllenstensgatan, Göteborg",
     "url": "https://qasa.com/p/1442978",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/625d40abd27fd99b7936a9c952470c4f9ea012d92cd56e2b33ed828f3b02243b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Jungmansgatan, Göteborg",
-    "url": "https://qasa.com/p/1426822",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7cf33c629f793572ebf839dafed038e6363bc93cb113e732cd1d92c880bf0fd0.jpg",
-    "description": "Jag ska utomlands en period och hyr därför ut min älskade lägenhet i Linné/Masthugget precis vid Slottsskogen - Gbgs bästa läge om du frågar mig. Det är även nära till Järntorget och bra kommunikation till alla möjliga delar av Göteborg. Lägenheten ligger på bottenplan och är en etta på 38 kvm på med sovalkov, alla bekvämligheter finns och jag hyr ut möblerat med allt som kan behövas, det finns även en härlig innergård. I hyran ingår allt som vatten och el. Fler bilder kan lösas efter önskemål och jag visar gärna lägenheten så snart som möjligt för intressant hyresgäst :) ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 38.0,
-    "rent": 9700,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T21:01:31+00:00", "clock": "21:01:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T21:34:53+00:00", "clock": "21:34:53"};
