@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ernst Torulfsgatan, Göteborg",
+    "url": "https://qasa.com/p/1442912",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c3bb9fad08d3222800b6b41ca3b07a7180e7278327219afbd73a7d62b5674c7.jpg",
+    "description": "Bekväm och nyrenoverad tvåa i Munkebäck Göteborg. 1 min till spårvagnen som tar dig in till stan på 10-15 min. En tvåa, ett sovrum, ett stort vardagsrum, ett kök och en toa. Allting är nyrenoverat och fräscht. I hyran ingår alla uppvärmning och internet. \n\nVåra kriterier:\nInga husdjur- kommer ej förhandlas\nIngen rökning inomhus\nIngen fest \nIngen vandalisering eller skada \n2 månader deposition som fås tillbaka när man flyttar ut men kommer att användas för att åtgärda eventuella skador som skett under vistelsen\nHyrs ut till minst 6 månader",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Norra Krokslättsgatan, Göteborg",
+    "url": "https://qasa.com/p/1442822",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/292fe9f4b6b48186d2c1ab8c0c05cf4c24038d6164e10c9105a3889475e86a28.jpg",
+    "description": "Jag hyr ut ett möblerat sovrum i en rymlig 3:a på totalt 81 m². Läget är mycket bra, endast ett stenkast från Lisebergs södra entré och cirka två minuter med spårvagn till Korsvägen. Det är även nära till Chalmers och Göteborgs universitet.\n\nRummet är möblerat med enkelsäng, skrivbord, sängbord, garderob och en stor spegel. Rummet har även egen kyl och frys. Lägenheten är helt rökfri. Deposition krävs.\n\nDu har tillgång till kök, vardagsrum och badrum. Boendet delas med andra och erbjuder en lugn och välskött miljö där ordning och städning prioriteras. Elkostnaden delas mellan de boende.\n\nRummet hyrs ut för en längre period och jag söker en ordningsam, ansvarsfull och respektfull person. Referens önskas. Oseriösa förfrågningar undanbedes.\n\nBerätta gärna lite om dig själv, exempelvis vad du arbetar eller studerar med och hur länge du önskar hyra.\n\nHör gärna av dig om du vill veta mer eller boka en visning!\n\nMvh,\nLucia",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 6150,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Djuråsvägen, Göteborg",
     "url": "https://qasa.com/p/1320387",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec32476803d491d525bab4af8c67adc330d05db52a98865ad413b4e0cca88175.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skånegatan, Göteborg",
-    "url": "https://qasa.com/p/1343856",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/16ffc499002840ade9755c792fd23290e7cccbabe0a0e8055422684c861aa5e8.jpg",
-    "description": "\nCharmig 2:a med Balkong på 4 våningen vid Korsvägen i Lorensberg\n\nVälkommen till denna stilfulla och fullt inredda 2:an belägen på eftertraktade fjärde våningen i hjärtat av Lorensberg. Lägenheten erbjuder en harmonisk kombination av komfort och elegans, med högkvalitativa möbler som ger varje rum en sofistikerad touch.\n\nBostadsfakta:\n\nBalkong: Härlig balkong med utsikt över den lugna innergården, perfekt för morgonkaffet eller avkoppling efter en lång dag.\nMöblering: Lägenheten är fullt möblerad med smakfullt utvalda möbler som säkerställer både funktionalitet och estetik.\nKök: Modernt och fullutrustat kök med diskmaskin, vilket gör matlagning och städning till ett nöje.\nEspresso bar: I trapphuset finns en charmig espresso bar, ett bekvämt och lyxigt inslag som förhöjer vardagen.\nBo i en av Göteborgs mest attraktiva stadsdelar, nära till allt som staden har att erbjuda men ändå i en lugn och trivsam omgivning. Denna bostad är idealisk för dig som söker ett hem med både stil och bekvämlighet.\n\nHoppas detta passar! Om du har fler detaljer eller önskemål, tveka inte att höra av er.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 18000,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hålskogsgatan, Angered",
-    "url": "https://qasa.com/p/1428631",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/321ff6110a531f04df3efab9a7b615b2b3c274c11a1d7ee7bb97b2974eafe3df.jpg",
-    "description": "Rymlig 4:a om ca 100 m² med egen ingång och uteplats\n\nRymlig källarlägenhet om ca 100 m² med 3 sovrum, vardagsrum, fullt utrustat kök och 2 badrum, samt egen ingång och separat uteplats.\n\nBostaden färdigställdes tidigare, men flera delar har renoverats och uppdaterats under 2026, vilket ger ett fräscht och modernt intryck.\n\nMycket bra läge med endast ca 250 meter till spårvagnshållplats med tre linjer.\n\nBostaden erbjuder:\n\n* 3 sovrum om ca 10–15 m²\n* Rymligt vardagsrum\n* Fullt utrustat kök\n* 2 badrum med dusch/WC\n* Diskmaskin\n* Tvättmaskin och torktumlare\n* Egen ingång\n* Separat uteplats\n* Möjlighet till parkeringsplats\n\nHyra:\n15 000 kr/mån i grundhyra\n\n4 000 kr/mån för el, internet, sophantering och parkeringsplats\n\nTotalt: 19 000 kr/mån inklusive samtliga ovanstående kostnader\n\nBostaden är djur- och rökfri. Vi söker en skötsam och långsiktig hyresgäst med stabil huvudsaklig sysselsättning och utan betalningsanmärkningar. Referenser är meriterande.\n\nVid intresse, skicka gärna:\n\n* Sysselsättning\n* Kort presentation av dig/er\n* Ålder\n* Önskat inflyttningsdatum\n* Önskad hyresperiod\n\nOm bostaden\nByggnaden är från 2018. Bostaden färdigställdes tidigare och delar av lägenheten har renoverats och uppdaterats under 2026.",
-    "district": "Angered",
-    "rooms": 4.0,
-    "area_m2": 98.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T18:02:32+00:00", "clock": "18:02:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T18:49:34+00:00", "clock": "18:49:34"};
