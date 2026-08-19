@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ametistgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1442257",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/354d13839713d74d018aa5063acbed61a072f7d1f5e64c9d7d3e223947262a3e.jpg",
+    "description": "Välkommen till denna charmiga 4:a belägen i det populära bostadsområdet Opaltorget!\n\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita push-to-open luckor och eleganta handtag på lådorna, samt en tålig laminatbänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med vitt kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och en tvättmaskin. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\n\nOmrådet Opaltorget består av lägenheter på 2–4 rum och kök, samtliga med balkong eller uteplats. Detta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
+    "district": "Västra Frölunda",
+    "rooms": 4.0,
+    "area_m2": 72.0,
+    "rent": 14832,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ametistgatan 16A, Västra Frölunda",
     "url": "https://qasa.com/p/1442213",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c8f7836b063f4e02267b3cc5d2206979142a6a37684a249231ed76b2345c750.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vegagatan, Göteborg",
-    "url": "https://qasa.com/p/1441960",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9a048894a4daf2a5e0ef8bff332fc4278c9f140564cab84411fabce9729dd1db.jpg",
-    "description": "Ett möblerat RUM uthyres  i delad lägenhet.\n\n --- Vänligen läs hela annonstexten ---\n\nEn bostad i bästa läge i Linné mot lummig grön gård. Slottskogen, Långgatorna och Järntorget ligger på några minuters gångavstånd. Buss 61 intill huset och kort promenad till spårvagn 1, 2 och 6 på Linnégatan.\n\nEl, bredband, tv och förbrukningsartiklar för hushållet är inkluderat för cirka 350 kr/mån. i hyran.\n\nDu får utöver rummet även tillgång till en klädkammare och ett delat vardagsrum / badrum / kök.\n\nVi söker en ambitiös person som studerar eller arbetar på heltid.  Det är mycket viktigt med nattro mellan cirka 22:30 och 07:00 på vardagar. \n\nVi är två personer på 40 (kvinna, forskare i statsvetenskap) och 58 (man, samhällsbyggare) som är lugna, ansvarsfulla och ordentliga. Vi arbetar mer än heltid på dagtid och vardagar. Jag, mannen, arbetar på annan ort och kommer hem vissa helger.\n\nVi vill att bostaden ska vara en lugn plats för återhämtning. Vi gillar ärlighet och uppriktighet och behandlar varandra respektfullt. Vi städar noga efter oss i kök efter matlagning. Vi är väldigt noga med hygien och håller oss friska. Vi tar hänsyn till varandra. Vi slår inte i dörrar och musik har vi i lurar.. Vi håller inte fest. En mogen och lugn miljö helt enkelt. Vi håller oss för det mesta för oss själva. Köket blir ibland en kort mötesplats.\n\nVi har det rent, modernt, centralt och ekonomiskt men till priset av att dela lägenhet med två andra individer 😊\n\nRummet som hyrs ut är nummer 2 i planlösningen. Det är drygt 20 kvadratmeter stort.  I rummet finns en bekväm kontinentalsäng som är 140 cm bred. Den har tvättbara skydd för kuddar och madrass. Det finns en ergonomisk skrivbordstol till ett höj- och sänkbart skrivbord i rummet, En bokhylla, en stor byrå, ett nattduksbord och diverse lampor.\n\nRummet har kodlås i dörrhandtaget och bara du känner till koden då den ställs om med dig när du flyttar in.\n\nLägenheten har två toaletter varav ett med badkar, I köket finns diskmaskin, mikrovågsugn, varmluftsugn, ett väl utrustat kök med köksmaskiner.\n\nI fastigheten finns tvättstuga, förråd och garage med tvättplats. Kö till garage. Rätt till boendeparkering i område M om du skriver dig på adressen.\n\nSkriv lite om dig själv, om vad du gör, hur du försörjer dig och om du har några frågor som jag inte har besvarat här. \n\nSkriv när du vill flytta in och för hur länge du tänker dig att du vill hyra. Rummet är för närvarande uthyrt till och med november men kan hyras ut från 1 november efter överenskommelse.\n\nJag ber om överseende med att jag inte kan svara alla som jag vet lägger ner stor energi på att skriva men varje ansökan läses och beaktas.\n\nJag kan visa bostaden helgen kring 29 augusti.\n\nHälsningar Lars Krantz",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 6213,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T07:55:58+00:00", "clock": "07:55:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-19T08:39:41+00:00", "clock": "08:39:41"};
