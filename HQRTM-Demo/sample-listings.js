@@ -48,6 +48,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Blidvädersgatan 42, Göteborg",
+    "url": "https://qasa.com/p/1443208",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/852ca96e8d9c8b2c2f8c45c9d3874d594d913c77b6af5ac0fda7be48c83f314f.jpg",
+    "description": "Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna fräscha tvåa som genomgått ett willhemlyft 2023! Här kommer ni till en ljus, trevlig, lägenhet! Lägenheten har ett kök med rostfria vitvaror och diskmaskin. Badrummet är helkaklat förberett för tvättmaskin, där köp och installation står du som hyresgäst för.\n\nPå denna adress har en fasadrenovering genomförts under sommaren. Arbetet fortsätter under hösten på resterande adresser. Renoveringen omfattar fasad, fönster och balkonger.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nÖVRIGT\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen med er ansökan!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 56.0,
+    "rent": 8296,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fruktträdsgatan, Göteborg",
     "url": "https://qasa.com/p/1443004",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba0851f632a827db149bfdc83bf2c766f39b2060d2db27b41e0557f6c5efc4b7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Johan Gertssons Gata, Göteborg",
-    "url": "https://qasa.com/p/1443009",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1bcaf8bcd18ced317677e34bdf42c5c88d43a25652dc25b0e4a4661ff154e3e2.jpg",
-    "description": "Nu hyr jag ut min fina 1,5:a i Gamlestaden från oktober. Lägenheten ligger högst upp i huset och har en balkong med fin utsikt. 🚋 Spårvagn finns precis i närheten och tar dig smidigt in till centrala Göteborg.\n\nLägenheten är modern, ljus och passar perfekt för dig som söker ett bekvämt boende med nära till både city och kommunikationer.\n\nI hyran ingår allt, inklusive el, vatten, värme och bredband, med begränsad förbrukning till ett fastställt pris.\n\n📍 Gamlestaden\n🏠 1,5 rum och kök\n🌃 Balkong med utsikt\n🚋 Nära spårvagn\n⬆️ Högst upp i huset\n💡 Allt ingår i hyran, med begränsad förbrukning\n\n📅 Uthyres från oktober\n\nSkicka gärna ett meddelande vid intresse och berätta lite om dig själv!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 37.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T08:24:39+00:00", "clock": "08:24:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T09:05:40+00:00", "clock": "09:05:40"};
