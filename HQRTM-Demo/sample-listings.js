@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Grafiska vägen, Göteborg",
+    "url": "https://qasa.com/p/1443670",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/72d706a8a243c0053eb8aca65efcd8cfd50b39d6bf928d1ff7a420f13042d765.jpg",
+    "description": "Fin lägenhet i centrala göteborg. El, vatten och bredband ingår i hyran. Öppenplanlösning med balkong. Nära till centrum, 4min med vagn till korsvägen. 5 min till Ica supermarknad, Willys och nordic wellness. Hyr ut pga flytt utomlands. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Krokegatan, Göteborg",
     "url": "https://qasa.com/p/1443558",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d5dec0e5cd79ca84bf5848111ec20db50c7c83208a64d3567698f42e6d4bd52.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1437845",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/35c5a7e7e3c027c78a162cb0009488806ff6e53e42c9d1c347ff22c8401c1508.jpg",
-    "description": "Hej! Jag hyr ut min fina, moderna lägenhet i Karlatornet från oktober 2026, anledningen till uthyrningen är att jag ska jobba utomlands en period.\n\nLägenheten är en ljus och modern etta på 34 kvm, belägen på våning 26 i Karlatornet. Den hyrs ut möblerad och är perfekt för en person eller ett par som söker ett modernt, smidigt och trevligt boende. Planlösningen är öppen, med högt i tak och stora fönster som ger ett härligt ljusinsläpp. Badrummet är stort och fräscht, utrustat med både tvättmaskin och torktumlare. Köket är fullt utrustat med ugn, mikro, kyl/frys och diskmaskin, samt gott om förvaring.\n\nI hyran ingår el, vatten, wifi, samt tillgång till hotellets gym. Du får också möjlighet att använda gemensamma utrymmen som biorum, stort kök och allrum. Karlatornet erbjuder dessutom en fantastisk gemensam terrass på våning 15 med panoramautsikt över Göteborg.\n\nSpårvagn, buss och färja finns i närheten och du tar dig snabbt in till centrum. Området erbjuder också fina promenadstråk längs älven och vid Ramberget, och du har närhet till mataffärer, restauranger och caféer.\n\nJag söker en skötsam person eller ett par som vet hur man tar hand om ett hem och visar hänsyn till grannar. Lägenheten är djur- och rökfri.\n\nHör gärna av dig och berätta lite om dig själv, eller om du har några frågor!\n\nVänliga hälsningar, \nCaroline",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 12100,
-    "floor": 26,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T17:04:05+00:00", "clock": "17:04:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T17:41:01+00:00", "clock": "17:41:01"};
