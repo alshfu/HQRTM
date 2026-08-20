@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Åkerrensgatan, Göteborg",
+    "url": "https://qasa.com/p/1443781",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02cf4bbbcbfce38c7a7a7286806187d69b2ab3b79e2e5ee86414016589a9d67d.jpg",
+    "description": "Nyrenoverad lägenhet i källarplan i populära Kålltorp uthyres! Nära centrala stan men också Skatås friluftsområde och badsjön i Härlanda. Lägenheten har golvvärme i alla rum, helt nytt kök och badrum.   I hyran ingår värme, vatten, el och wifi. Här bor du i ett lugnt område med tillgång till trädgård och uteplats. Uthyres ett år med möjlighet till förlängning.   \n\nNewly renovated basement apartment in the popular Kålltorp area available for rent! Close to the city center but also to the Skatås outdoor recreation area and the swimming lake in Härlanda. The apartment features underfloor heating in all rooms, a completely new kitchen and bathroom. Rent includes heating, water, electricity and wifi. You’ll be living in a quiet area with access to a garden and outdoor patio. Available for one year with the option to extend.​​​​​​​​​​​​​​​​",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 6600,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilleby Bäckedalsväg, Torslanda",
     "url": "https://qasa.com/p/1443748",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/492e716c82290747f1e28a255660ad917b6174b1142ac42ebcf980334507a9ba.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Krokegatan, Göteborg",
-    "url": "https://qasa.com/p/1443558",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d5dec0e5cd79ca84bf5848111ec20db50c7c83208a64d3567698f42e6d4bd52.jpg",
-    "description": "3 ROK/65 kvm i Masthugget\nOmgående tillträde med 3 månader uppsägningstid\nHyra 12 537 kr\n1 månadshyra i deposition\nVärme, varmvatten samt Tv basutbud via Tele2 ingår\nHyresgäst tecknar eget avtal för el samt bredband (via Göteborg Energi och Tele2 respektive)\nKök utrustat med diskmaskin\nBalkong i vardagsrum\n1 våning (finns ej hiss)\nFörråd källare\nGemensam tvättstuga källare\nMöjlighet att hyra parkeringsplats (700 kr/mån)\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 65.0,
-    "rent": 12537,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T19:58:27+00:00", "clock": "19:58:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T20:37:29+00:00", "clock": "20:37:29"};
