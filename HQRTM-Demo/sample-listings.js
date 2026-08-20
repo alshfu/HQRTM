@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fruktträdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1443004",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba0851f632a827db149bfdc83bf2c766f39b2060d2db27b41e0557f6c5efc4b7.jpg",
+    "description": "Ljus och välplanerad 2 på ca 53 m² på Hisingen i Göteborg uthyres.\n\nLägenheten har en praktisk planlösning med separat sovrum, rymligt vardagsrum, kök, badrum samt balkong. Fastigheten har hiss och lägenheten passar bra för en person eller ett par som söker ett bekvämt boende.\n\nLägenheten ligger i ett lugnt och trevligt område nära Hisingsparken, med fina möjligheter till promenader, löpning och natur. Det finns även närhet till kollektivtrafik, mataffärer och annan service samt goda kommunikationer till centrala Göteborg.\n\nLägenheten hyrs ut möblerad. Observera att de första fyra bilderna är stylingbilder och visar hur lägenheten kan se ut. Lägenheten kommer att hyras ut möblerad enligt de övriga bilderna i annonsen.\n\nJag söker en skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten och respekterar grannarna.\n\nHör gärna av dig och berätta lite om dig själv, din arbetssituation/studier och vem som kommer att bo i lägenheten.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 13170,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kalendervägen, Göteborg",
+    "url": "https://qasa.com/p/1443051",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdde707446ce8dcbcacfa561bcafe7731d911664709078c9a606ae974f9cf125.png",
+    "description": "Det är en etta i en mysig del av Kortedala. Det är nära till en hållplats och när in till stan. \nDet är nära till mataffären, gym och apotek. \nJag kan hyra ut den möblerad eller inte om man har möbler.\nI lägenheten finns det en liten klädkammare. \nDet är ett litet kök/kokvrå, fint kaklar badrum med badkar. Lägenheten är ljus. \nJag hyr ut min lägenhet för jag ska flytta ihop med min kille och har inte bestämt mig om jag vill sälja då jag verkligen gillar den. Men min killes lägenhet är större. \nSå i min bostadsförening så får man bara hyra ut 6 månader och funkar allt så kan jag ansöka om förlänga uthyrningen.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Johan Gertssons Gata, Göteborg",
     "url": "https://qasa.com/p/1443009",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1bcaf8bcd18ced317677e34bdf42c5c88d43a25652dc25b0e4a4661ff154e3e2.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brottkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/777691",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7550a3d80cf835ec9de782d17e7a320c0b62918d1747741fa3da7758a68126dc.jpg",
-    "description": "\nHej! Jag hyr ut min lght i Nya Hovås, 1.5 rum med sovalkov.\nLägenheten är 39 kvm, med en stor balkong som löper längst med lägenheten mot den mysiga innergården. Max 3 minuter gång till gym, ICA, restauranger och nya Hovås mysiga butiker och caféer. Ca 15 min promenad till havet. Bussförbindelser precis utanför porten, ca 30 min med buss till Vasaplatsen i Göteborg. Möjlighet att hyra under en längre tid. Bostaden hyrs ut möblerad, fiber (internet) och tv utbud ingår. El tillkommer per månad, i enlighet med förbrukning.\nVid behov av parkering finns parkeringshus i närheten.",
-    "district": "Hovås",
-    "rooms": 1.5,
-    "area_m2": 39.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hållstamsvägen , Askim",
-    "url": "https://qasa.com/p/1442858",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa3b1093465c8699ff31f44df8ebb61bb78fd6457a699354d5259a11fc371db3.jpg",
-    "description": "Mysig lägenhet i nederdel av villa med egen ingång. Fullt eller delvis möblerad samt fullt utrustat kök. Direkt närhet till grönområde och fina Sisjön. Bra kommunikationer till både hav och stad i närheten. Parkering finns efter överenskommelse. ",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T05:38:20+00:00", "clock": "05:38:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T06:01:54+00:00", "clock": "06:01:54"};
