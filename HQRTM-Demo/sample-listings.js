@@ -6,11 +6,11 @@ window.HQRTM_SAMPLE = [
     "title": "Lilleby Bäckedalsväg, Torslanda",
     "url": "https://qasa.com/p/1443748",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/492e716c82290747f1e28a255660ad917b6174b1142ac42ebcf980334507a9ba.jpg",
-    "description": "Vi hyr ut vår loftlägenhet som ligger ovanpå garaget, byggnadsår 2019.\n\nToalett med golvvärme, tvättmaskin och dusch.\nKök med ugn, kyl och frys. \nSeparat mikrovågsugn ingår om så önskas.\nGarderob med skjutdörrar i hallen.\n\nDu har egen ingång.\nLägenheten är djur- och rökfri.\n\nInternet/fiber, sophämtning, uppvärmning och hushållsel ingår i hyran.\n\nEgen parkering ingår.\nVi hyr ut till EN hyresgäst.\n\nHyra: 7900:-\n\n1 månadshyra i deposition som återfås vid utflyttning efter besiktning.\n\nLägenheten kan även hyras ut möblerad! Återkom i så fall för pris!\n\nI området finns: \n50 till motionsspår och härlig natur. \n\nHållplatsen Lilleby Skolväg, ca 15 minuters promenad, 1,2 kilometer.\nDirektbuss till Hjalmar Brantingsplatsen på ca 32 minuter, Nordstan ca 37 min.\n\nHållplatsen Högstensgatan, 10 minuters promenad via skogsstig, 700 meter.\nDirektbuss till Lindholmen på ca 30 minuter, Nordstan ca 36 minuter.\n \nMataffären Willys Hemma, 13 minuters promenad via skogsstig, 900 meter. \nSillviks badstrand 3 kilometer.\n",
+    "description": "Vi hyr ut vår loftlägenhet som ligger ovanpå garaget, byggnadsår 2019.\n\nToalett med golvvärme, tvättmaskin och dusch.\nKök med ugn, kyl och frys. \nSeparat mikrovågsugn ingår om så önskas.\nGarderob med skjutdörrar i hallen.\n\nDu har egen ingång.\nLägenheten är djur- och rökfri.\n\nInternet/fiber, sophämtning, uppvärmning och hushållsel ingår i hyran.\n\nEgen parkering ingår.\nVi hyr ut till EN hyresgäst.\n\nHyra: 7900:-\n\n1 månadshyra i deposition som återfås vid utflyttning efter besiktning.\n\nLägenheten kan även hyras ut möblerad! Återkom i så fall för pris!\n\nI området finns: \n50 m till motionsspår och härlig natur. \n\nHållplatsen Lilleby Skolväg, ca 15 minuters promenad, 1,2 kilometer.\nDirektbuss till Hjalmar Brantingsplatsen på ca 32 minuter, Nordstan ca 37 min.\n\nHållplatsen Högstensgatan, 10 minuters promenad via skogsstig, 700 meter.\nDirektbuss till Lindholmen på ca 30 minuter, Nordstan ca 36 minuter.\n \nMataffären Willys Hemma, 13 minuters promenad via skogsstig, 900 meter. \nSillviks badstrand 3 kilometer.\n",
     "district": "Torslanda",
     "rooms": 1.0,
     "area_m2": 33.0,
-    "rent": 7528,
+    "rent": 7457,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T19:31:09+00:00", "clock": "19:31:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T19:58:27+00:00", "clock": "19:58:27"};
