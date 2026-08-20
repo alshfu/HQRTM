@@ -3,10 +3,25 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Apelgången, Göteborg",
+    "url": "https://qasa.com/p/1443682",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f21a4813e07fe426a7c26f32912678f83c1d79a92323e464586867ec29f8844.jpg",
+    "description": "Trevlig lägenhet i ett bostadshus på våning 2, egen ingång och lämplig för en person eller ett par.\nLägenheten har ett mycket bra läge med endast 150 meter till spårvagnen och buss. Med spårvagnen är det tre hållplatser till city. För den som cyklar är det ungefär 10 minuter med cykel till city och 10 minuter till skogsområde. \nInflyttning: helst 1 september, men datum kan diskuteras.\nPassar perfekt för dig som söker ett bekvämt boende med nära till både kommunikationer och city.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 14000,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Grafiska vägen, Göteborg",
     "url": "https://qasa.com/p/1443670",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/72d706a8a243c0053eb8aca65efcd8cfd50b39d6bf928d1ff7a420f13042d765.jpg",
-    "description": "Fin lägenhet i centrala göteborg. El, vatten och bredband ingår i hyran. Öppenplanlösning med balkong. Nära till centrum, 4min med vagn till korsvägen. 5 min till Ica supermarknad, Willys och nordic wellness. Hyr ut pga flytt utomlands. ",
+    "description": "Fin lägenhet i centrala göteborg. El, vatten och bredband ingår i hyran. Öppenplanlösning med balkong. Nära till centrum, 4min med vagn till korsvägen. 5 min till Ica supermarknad, Willys och nordic wellness.  Hur ut då jag bor med min sambo. Hur ut tills jag säljer lägenheten. ",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 34.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skiftesgatan, Göteborg",
-    "url": "https://qasa.com/p/1443425",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0e10a65601fa5cc8e9c340973d1c7ddf85c0c017d82e72314a674a80141da511.jpg",
-    "description": "Varmt välkommen till denna trivsamma och välplanerade enrummare med separat kök, belägen mitt i populära Kvillebäcken! Här bor du med stadens puls runt hörnet, men ändå i en lugn och ombonad miljö.\n \n Lägenheten erbjuder en ljus och luftig känsla tack vare generös takhöjd och stora fönster som släpper in rikligt med dagsljus. Vardagsrummet har plats för både soffa, soffbord, tv-möbel och säng – perfekt för dig som vill bo både praktiskt och stilfullt. Golven pryds av välbevarad ekstavsparkett och väggarna går i ljusa, neutrala toner.\n\n \n Badrummet är helkaklat och utrustat med dusch, och i hallen finns ytterligare förvaringsmöjligheter.\n\nLägenheten ligger ute på försäljning, jag vill hitta en hyresgäst som är redo för att det kan bli några visningar. Det är en gång i veckan max (söndagar) i 30 minuter. Jag kan erbjuda kompensation ifall det skulle bli visningar. \n\nKontraktet skriv för 1 år med tre månaders uppsägningstid. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 9890,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T17:41:01+00:00", "clock": "17:41:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T18:03:05+00:00", "clock": "18:03:05"};
