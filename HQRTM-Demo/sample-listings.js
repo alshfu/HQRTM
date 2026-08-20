@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Höstvädersgatan 59, Göteborg",
+    "url": "https://qasa.com/p/1443359",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dd7026c35fdc80989f269d644eaa3ebfacd0e887183ea9beb33c09482c10c74.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. Ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök i Biskopsgården! Genomgående ekparkett i lägenheten. Två badrum varav en har toalett. Förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 79.0,
+    "rent": 10472,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan 42C, GÖTEBORG",
+    "url": "https://qasa.com/p/1443353",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0f12ff1aa54834d9f2752e6b5ee4e11a3767906b5799043902f42842dad24359.jpg",
+    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 2 rum och kök på 63 kvm, belägen på våning 2 på Långströmsgatan 28 C.\n\nLägenhetsförråd finns i huset.\n\nHyra: 10 223 kr/månad\nInflyttning: 2026-12-01\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö, kontakta förvaltning",
+    "district": "GÖTEBORG",
+    "rooms": 2.0,
+    "area_m2": 63.0,
+    "rent": 10223,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Höstvädersgatan 67, Göteborg",
     "url": "https://qasa.com/p/1443310",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a3a4d158cfcde5fe647c8390d6473f619f0e9fab3bb35f881a994a8ee32f5fe.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kortvågsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1442562",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dd942e67feb1c3234e0da11e880e8951df1e4041fbe183ee0ea13d6c95762829.jpg",
-    "description": "🏡 Fullt möblerad villa om ca 125 kvm (6 rok) – ett av Göteborgs bästa lägen\n\nVälkommen till ett fullt möblerat och inflyttningsklart hus i lugna Järnbrott, ett unikt läge mellan stad och hav. På några minuter når du Linné, Haga och centrala Göteborg, samtidigt som salta bad, småbåtshamnar och naturreservat ligger lika nära åt andra hållet. För dig som vill bo i villa utan att ge upp närheten till stad, shopping, natur eller hav är läget svårslaget.\n\nHuset är modernt, välrenoverat och fullt utrustat. Du behöver bara ta med dina personliga tillhörigheter.  Möbler, köksutrustning, porslin, bestick, TV, vitvaror, tvättmaskin, fiberinternet och i princip allt annat finns redan på plats. Nyckelfärdigt för inflytt. \n\n6 rum och kök fördelat på två plan, med generösa sociala ytor på entréplanet och privata sovrum på övervåningen. Här finns även ett komplett hemmakontor och ett separat bibliotek. En av områdets största terrasser i bästa solläge med minimal insyn och en stor hörntomt.\n\nPerfekt för 1 bekväm person, paret eller lilla familjen.\n\nUthyrningen avser entréplan och övervåning. Källarplanet är en helt separat bostad och hyrs ut separat till 1st mkt tyst & trevlig hyresgäst. \n\nVi kommer att arbeta utomlands och söker därför en skötsam hyresgäst.\n\n📍 Läget\n🚶 1 min till buss (Sändaregatan)\n🚶 7 min till spårvagn (Positivgatan)\n🛍️ 10 min promenad till Frölunda Torg\n🚴 10 min med cykel till Linné, Haga och centrum\n🌊 10 min med cykel till havet, Askim och Näset\n🌳 200 m till naturområde\n🚗 Ca 5 min till AstraZeneca och Sahlgrenska\n🚗 Snabb anslutning till Volvo och flera större arbetsgivare.\n\n🏡 Huset:\n✔ Ca 125 kvm på två plan\n✔ 6 rum och kök\n✔ 2-3 sovrum\n✔ Komplett hemmakontor med höj-sänkbart skrivbord, kontorsstol, skärm, skrivare, whiteboard och snabbt fiberinternet\n✔ Separat bibliotek\n✔ Stort vardagsrum med öppen spis\n✔ Modernt kök\n✔ Walk-in closet\n✔ Badrum med golvvärme\n✔ Italienskt Rivono-trägolv och platsbyggt bibliotek i massiv ek\n✔ Smarta belysningssystem\n✔ Stor terrass i bästa solläge\n✔ Stor hörntomt\n✔ Uppfart för 2 bilar\n✔ Lugn återvändsgata i barnvänligt villaområde\n\n\n🌿 Uteplats\nStor terrass med sol hela dagen & kvällen och en generös hörntomt med plats för avkoppling, grillkvällar och umgänge.\n\n📦 I hyran ingår\n✅ Fullt möblerat inkl tavlor/böcker mm ( Se bilder)\n✅ Komplett köksutrustning\n✅ TV\n✅ Tvättmaskin\n✅ Snabbt fiberinternet\n✅ Trädgård och terrass\n✅ Parkeringsplatser\n\n⚠️ Observera\n\n🔇 Lugnt villaområde. Huset passar bäst för skötsamma hyresgäster som uppskattar ett lugnt boende och visar hänsyn till grannar.\n\n🎉 Meddela grannar i god tid om fest eller störande aktiviteter. Och var sparsamma med dessa tillfällen.\n\n🐶 Tysta och skötsamma husdjur välkomna +1 000 kr/mån.\n\nPrislista\n1 person: 18 000 kr/mån*\n2 pers: 20 000 kr/mån\n3 pers: 24 000 kr/mån\n4 pers: 28 000 kr/mån\n\n*Exkl. el, fjärrvärme, VA och sophämtning. Debiteras enligt faktisk förbrukning. Vår snittförbrukning: ca 4 000 kr/mån (Påverkbar). ",
-    "district": "Västra Frölunda",
-    "rooms": 6.0,
-    "area_m2": 125.0,
-    "rent": 18000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blidvädersgatan 42, Göteborg",
-    "url": "https://qasa.com/p/1443208",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/852ca96e8d9c8b2c2f8c45c9d3874d594d913c77b6af5ac0fda7be48c83f314f.jpg",
-    "description": "Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna fräscha tvåa som genomgått ett willhemlyft 2023! Här kommer ni till en ljus, trevlig, lägenhet! Lägenheten har ett kök med rostfria vitvaror och diskmaskin. Badrummet är helkaklat förberett för tvättmaskin, där köp och installation står du som hyresgäst för.\n\nPå denna adress har en fasadrenovering genomförts under sommaren. Arbetet fortsätter under hösten på resterande adresser. Renoveringen omfattar fasad, fönster och balkonger.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nÖVRIGT\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen med er ansökan!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 56.0,
-    "rent": 8296,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T10:50:37+00:00", "clock": "10:50:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T11:15:25+00:00", "clock": "11:15:25"};
