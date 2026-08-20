@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Höstvädersgatan 63, Göteborg",
+    "url": "https://qasa.com/p/1443392",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9bddf4d7cc54608c8a898a7aef71775b6cd5a9b29e47282bf36eca10228e89cd.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning* \n\nOM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 79.0,
+    "rent": 11016,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Höstvädersgatan 59, Göteborg",
     "url": "https://qasa.com/p/1443359",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dd7026c35fdc80989f269d644eaa3ebfacd0e887183ea9beb33c09482c10c74.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kavaljersgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1387663",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d64c46d4f80d832b5bceda22da36729c5d1d91004fe83ddb086c9510c6f2770.png",
-    "description": "Lägenheten är en fullt möblerad tvårumslägenhet med ett separat sovrum samt ett öppet kök och vardagsrum, vilket skapar en ljus och trivsam boendemiljö. Det finns även ett mindre förråd som kan användas som extra förvaring eller som en kompakt arbetsplats. Badrummet är helkaklat och utrustat med duschkabin samt golvvärme.\n\nLägenheten har ett fantastiskt ljusinsläpp och får rikligt med naturligt solljus under större delen av dagen, särskilt från kökssidan. Den ligger dessutom mycket bra till – endast 150 meter från busshållplatsen Akkas Gata, 600 meter från busshållplatsen Körkarlens Gata, cirka 650 meters promenad till Selma Lagerlöfs Torg och endast 10 minuters bilresa till Bäckebol Köpcentrum.\n\nBostaden är fullt utrustad med allt som behövs för ett bekvämt vardagsliv. Kylskåpet och tvättmaskinen är nya, och lägenheten är utrustad med alla nödvändiga möbler, köksutrustning, hushållsartiklar och övriga inventarier, vilket gör den inflyttningsklar från första dagen.\n\nI hyran ingår:\n- Uppvärmning\n- Varm- och kallvatten\n- Fiberinternet (500/500 Mbit/s) och TV\n- En utomhusparkeringsplats på Göstaberlingsgatan\n- Elförbrukning upp till 200 SEK per månad (Om den faktiska elförbrukningen överstiger detta belopp debiteras mellanskillnaden enligt HSB:s elredovisning var tredje månad.)\n\nÖvriga faciliteter:\n -  Eget förråd i källaren\n - Cykelförråd\n - Tillgång till gemensam tvättstuga och torkrum\n\nJag hyr ut lägenheten på grund av arbete. \n\nAndrahandsuthyrningen förutsätter godkännande från bostadsrättsföreningen (BRF HSB Bäckadalen).  Ett års kontrakt med möjlighet till förlängning om så blir godkänt.\n\nJag söker en ansvarsfull hyresgäst som kommer att ta väl hand om lägenheten.\n",
-    "district": "Hisings Backa",
-    "rooms": 2.5,
-    "area_m2": 66.0,
-    "rent": 12742,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T11:15:25+00:00", "clock": "11:15:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T11:46:35+00:00", "clock": "11:46:35"};
