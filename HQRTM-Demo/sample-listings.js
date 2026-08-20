@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Krokegatan, Göteborg",
+    "url": "https://qasa.com/p/1443558",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d5dec0e5cd79ca84bf5848111ec20db50c7c83208a64d3567698f42e6d4bd52.jpg",
+    "description": "3 ROK/65 kvm i Masthugget\nOmgående tillträde med 3 månader uppsägningstid\nHyra 12 537 kr\n1 månadshyra i deposition\nVärme, varmvatten samt Tv basutbud via Tele2 ingår\nHyresgäst tecknar eget avtal för el samt bredband (via Göteborg Energi och Tele2 respektive)\nKök utrustat med diskmaskin\nBalkong i vardagsrum\n1 våning (finns ej hiss)\nFörråd källare\nGemensam tvättstuga källare\nMöjlighet att hyra parkeringsplats (700 kr/mån)\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 65.0,
+    "rent": 12537,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kråkeskärsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1428875",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89323de15914ef7a9907086dcddc267d107b7e6f94b713744d92979c2b3e69c3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 63, Göteborg",
-    "url": "https://qasa.com/p/1443392",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9bddf4d7cc54608c8a898a7aef71775b6cd5a9b29e47282bf36eca10228e89cd.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning* \n\nOM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 11016,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T16:35:05+00:00", "clock": "16:35:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T17:04:05+00:00", "clock": "17:04:05"};
