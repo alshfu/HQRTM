@@ -33,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Temperaturgatan 29, Göteborg",
+    "url": "https://qasa.com/p/1443083",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee3a05d4e7d8c8403bfdd2bcfe510e79e151173b26d39c658a833233ec9fed38.jpg",
+    "description": "Nu kan vi erbjuda en 3 rum och kök på Temperaturgatan 29, som blir ledig 1 oktober. \nBostaden är disponerad på 78 kvm. \n\nInnan inflytt kommer vi måla och spackla hela lägenheten. Byta spis, kyl & frys. Slipa parkettgolvet.\n\nI hyresavtalet ingår garageplats. Den kostnaden är inkluderad i den totala hyran ni ser i annonsen (9 988 kr). Garagehyran är för närvarande 750kr/månaden.\n\nHär bor du med ett fantastiskt läge med närhet till mataffär, grönområden och där du med enkelhet tar dig in till mer centrala delar. \nLåter det intressant? Ansök redan idag!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 9988,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Johan Gertssons Gata, Göteborg",
     "url": "https://qasa.com/p/1443009",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1bcaf8bcd18ced317677e34bdf42c5c88d43a25652dc25b0e4a4661ff154e3e2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Djuråsvägen, Göteborg",
-    "url": "https://qasa.com/p/1320387",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ec32476803d491d525bab4af8c67adc330d05db52a98865ad413b4e0cca88175.jpg",
-    "description": "Rum uthyres i villa i Torslanda – delat boende\n\nNu finns möjlighet att hyra ett rum i en villa i lugna och trevliga Torslanda.\n\n🔹 Observera: Detta gäller uthyrning av ett enskilt rum – inte hela huset.\n\nVillan består av totalt 4 rum som hyrs ut separat, vilket innebär att du delar gemensamma utrymmen med andra hyresgäster.\n\nOm boendet:\n\nEget privat rum\nTillgång till gemensamt kök, badrum och vardagsrum\nLugnt område med bra kommunikationer\nNärhet till natur, service och hav\n\nOm dig:\nVi söker en skötsam och ansvarstagande person som trivs med att bo tillsammans med andra. Rökfri och ordningsam är ett plus.\n\nÖvrigt:\n\nInflytt enligt överenskommelse\nHyra: [ange hyra]\nDeposition kan komma att tas ut\n\nPassar perfekt för dig som söker ett prisvärt och socialt boende.\n\nVid intresse – skicka ett meddelande och berätta lite om dig själv!\n\nRoom for rent in a villa in Torslanda – shared accommodation\n\nA room is now available for rent in a villa located in the quiet and pleasant area of Torslanda.\n\n🔹 Please note: This listing is for one private room – not the entire house.\n\nThe villa consists of a total of 4 rooms, each rented out separately. This means you will share common areas with other tenants.\n\nAbout the accommodation:\n\nPrivate room\nAccess to shared kitchen, bathroom, and living room\nLocated in a calm area with good public transport connections\nClose to nature, services, and the sea\n\nAbout you:\nWe are looking for a responsible and tidy person who is comfortable living with others. Non-smoker is preferred.\n\nAdditional information:\n\nMove-in date: by agreement\nRent: [insert rent]\nDeposit may be required\n\nPerfect for someone looking for affordable and social living.\n\nIf you are interested, please send a message and tell us a bit about yourself!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4875,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T06:01:54+00:00", "clock": "06:01:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T07:01:12+00:00", "clock": "07:01:12"};
