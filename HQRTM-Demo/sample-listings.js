@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1355395",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3832dadf6495695c0865eb209c3a114ada26f79a07d1f514aa93541c0de6b216.jpg",
+    "description": "Lägenhet i Karlatornet uthyres.\nLägenheten befinner sig i våning 64.\nBalkong finns.\nI hyran ingår fri tillgång till hotellets (Clarion) spa och gym.\nFri tillgång till fitnessrum och yogarum i vån. 38.\nLägenheten uthyres möblerad.\nLägenheten finns tillgänglig för uthyrning from. 1/6.\nHör av dig vid intresse.\n\nVänliga hälsningar",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Åkerrensgatan, Göteborg",
     "url": "https://qasa.com/p/1443781",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02cf4bbbcbfce38c7a7a7286806187d69b2ab3b79e2e5ee86414016589a9d67d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Grafiska vägen, Göteborg",
-    "url": "https://qasa.com/p/1443670",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/72d706a8a243c0053eb8aca65efcd8cfd50b39d6bf928d1ff7a420f13042d765.jpg",
-    "description": "Fin lägenhet i centrala göteborg. El, vatten och bredband ingår i hyran. Öppenplanlösning med balkong. Nära till centrum, 4min med vagn till korsvägen. 5 min till Ica supermarknad, Willys och nordic wellness.  Hur ut då jag bor med min sambo. Hur ut tills jag säljer lägenheten. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T23:34:24+00:00", "clock": "23:34:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T23:55:58+00:00", "clock": "23:55:58"};
