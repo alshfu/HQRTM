@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1443419",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cecc3ddbe4d1597981b4b0503be740685bfa80e6d2daf0b6cce87374e0daa06f.png",
+    "description": "Välkommen till en trivsam och rymlig radhus på Hisingen, perfekt för familjen, företaget eller er som söker ett bekvämt boende med gott om utrymme.\n\nVillan erbjuder en välplanerad planlösning med generösa sociala ytor, flera sovrum och goda möjligheter till både avkoppling och umgänge. Här finns ett ljust vardagsrum, fullt utrustat kök med bra arbetsytor samt moderna och funktionella utrymmen för ett bekvämt boende.\n\nUtomhus finns egen tomt och trevliga uteplatser, med plats för grillning, middagar och avkoppling under årets varmare månader. Parkeringsmöjligheter finns i anslutning till huset.\n\nEtt attraktivt läge på Hisingen\n\nHär får du en fin kombination av lugnt villaområde, grönska och närhet till centrala Göteborg. Hisingen erbjuder stora naturområden, parker och goda möjligheter till promenader och friluftsliv, samtidigt som service, mataffärer, shopping och restauranger finns inom bekvämt avstånd.\n\nKommunikationerna till centrala Göteborg och övriga delar av staden är goda med buss och spårvagn. Hisingen har dessutom ett strategiskt läge för den som arbetar vid exempelvis Lindholmen, Volvo, Backa, Bäckebol eller andra större arbetsområden på Hisingen.\n\nKort om bostaden:\n\nRymlig radhus 3 våningen\nLjust och välplanerat boende\nEgen tomt och uteplats\nParkeringsmöjlighet\nNärhet till natur och grönområden\nGoda kommunikationer till centrala Göteborg\nPassar både familjer och företagsboende\n\nEtt utmärkt alternativ för dig som söker ett bekvämt och rymligt boende på Hisingen med både stad och natur inom räckhåll.\n\nDrifttillkommer",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 110.0,
+    "rent": 22500,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skiftesgatan, Göteborg",
+    "url": "https://qasa.com/p/1443425",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0e10a65601fa5cc8e9c340973d1c7ddf85c0c017d82e72314a674a80141da511.jpg",
+    "description": "Varmt välkommen till denna trivsamma och välplanerade enrummare med separat kök, belägen mitt i populära Kvillebäcken! Här bor du med stadens puls runt hörnet, men ändå i en lugn och ombonad miljö.\n \n Lägenheten erbjuder en ljus och luftig känsla tack vare generös takhöjd och stora fönster som släpper in rikligt med dagsljus. Vardagsrummet har plats för både soffa, soffbord, tv-möbel och säng – perfekt för dig som vill bo både praktiskt och stilfullt. Golven pryds av välbevarad ekstavsparkett och väggarna går i ljusa, neutrala toner.\n\n \n Badrummet är helkaklat och utrustat med dusch, och i hallen finns ytterligare förvaringsmöjligheter.\n\nLägenheten ligger ute på försäljning, jag vill hitta en hyresgäst som är redo för att det kan bli några visningar. Det är en gång i veckan max (söndagar) i 30 minuter. Jag kan erbjuda kompensation ifall det skulle bli visningar. \n\nKontraktet skriv för 1 år med tre månaders uppsägningstid. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 9890,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1437845",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/35c5a7e7e3c027c78a162cb0009488806ff6e53e42c9d1c347ff22c8401c1508.jpg",
+    "description": "Hej! Jag hyr ut min fina, moderna lägenhet i Karlatornet från oktober 2026, anledningen till uthyrningen är att jag ska jobba utomlands en period.\n\nLägenheten är en ljus och modern etta på 34 kvm, belägen på våning 26 i Karlatornet. Den hyrs ut möblerad och är perfekt för en person eller ett par som söker ett modernt, smidigt och trevligt boende. Planlösningen är öppen, med högt i tak och stora fönster som ger ett härligt ljusinsläpp. Badrummet är stort och fräscht, utrustat med både tvättmaskin och torktumlare. Köket är fullt utrustat med ugn, mikro, kyl/frys och diskmaskin, samt gott om förvaring.\n\nI hyran ingår el, vatten, wifi, samt tillgång till hotellets gym. Du får också möjlighet att använda gemensamma utrymmen som biorum, stort kök och allrum. Karlatornet erbjuder dessutom en fantastisk gemensam terrass på våning 15 med panoramautsikt över Göteborg.\n\nSpårvagn, buss och färja finns i närheten och du tar dig snabbt in till centrum. Området erbjuder också fina promenadstråk längs älven och vid Ramberget, och du har närhet till mataffärer, restauranger och caféer.\n\nJag söker en skötsam person eller ett par som vet hur man tar hand om ett hem och visar hänsyn till grannar. Lägenheten är djur- och rökfri.\n\nHör gärna av dig och berätta lite om dig själv, eller om du har några frågor!\n\nVänliga hälsningar, \nCaroline",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 12100,
+    "floor": 26,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Höstvädersgatan 63, Göteborg",
     "url": "https://qasa.com/p/1443392",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9bddf4d7cc54608c8a898a7aef71775b6cd5a9b29e47282bf36eca10228e89cd.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 63, Göteborg",
-    "url": "https://qasa.com/p/1443301",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9704e6b3b03da54dd52eaa7b92f467ae1793f745af250396086e2b886db8a4eb.jpg",
-    "description": "OM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10646,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Svalörtsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1441802",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b97fdf1545caff0365e4899143c3689ea9b4b0d7990e03afe2693b11b8ccde8.jpg",
-    "description": "Delvis möblerad 2  rums lägenhet med kök, duschrum samt hall i \nvillafastighet vid Kungsten. Goda kommunikationer.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 8868,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 59, Göteborg",
-    "url": "https://qasa.com/p/1443289",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bcfd2e9306148c4c7fbca1c9d4a6184101bcbc3fbd61eb0479dbaaaae439f894.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. Ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök i Biskopsgården! Genomgående ekparkett i lägenheten. Två badrum varav en har toalett. Förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 79.0,
-    "rent": 10434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T11:46:35+00:00", "clock": "11:46:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T12:16:35+00:00", "clock": "12:16:35"};
