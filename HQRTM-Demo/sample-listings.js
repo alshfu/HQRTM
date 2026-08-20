@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilleby Bäckedalsväg, Torslanda",
+    "url": "https://qasa.com/p/1443748",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/492e716c82290747f1e28a255660ad917b6174b1142ac42ebcf980334507a9ba.jpg",
+    "description": "Vi hyr ut vår loftlägenhet som ligger ovanpå garaget, byggnadsår 2019.\n\nToalett med golvvärme, tvättmaskin och dusch.\nKök med ugn, kyl och frys. \nSeparat mikrovågsugn ingår om så önskas.\nGarderob med skjutdörrar i hallen.\n\nDu har egen ingång.\nLägenheten är djur- och rökfri.\n\nInternet/fiber, sophämtning, uppvärmning och hushållsel ingår i hyran.\n\nEgen parkering ingår.\nVi hyr ut till EN hyresgäst.\n\nHyra: 7900:-\n\n1 månadshyra i deposition som återfås vid utflyttning efter besiktning.\n\nLägenheten kan även hyras ut möblerad! Återkom i så fall för pris!\n\nI området finns: \n50 till motionsspår och härlig natur. \n\nHållplatsen Lilleby Skolväg, ca 15 minuters promenad, 1,2 kilometer.\nDirektbuss till Hjalmar Brantingsplatsen på ca 32 minuter, Nordstan ca 37 min.\n\nHållplatsen Högstensgatan, 10 minuters promenad via skogsstig, 700 meter.\nDirektbuss till Lindholmen på ca 30 minuter, Nordstan ca 36 minuter.\n \nMataffären Willys Hemma, 13 minuters promenad via skogsstig, 900 meter. \nSillviks badstrand 3 kilometer.\n",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 7528,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Meijerbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1442914",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/84867f6418b46011926cc39f7e4e8f4d21dc3f68088c35623f92f10c872c1409.jpg",
+    "description": "Rum uthyres i Johanneberg\n\n*Förtur ges till student vid Göteborgs universitet / Chalmers tekniska högskola\n\nStorlek: 10 m2\n\nLägenheten delas med värden. Jag erbjuder ett tryggt och lugnt boende med respekt för privatlivet. Samtidigt är jag social, så jag pratar gärna när det passar.\n\nGångavstånd till Chalmers (Johanneberg) och flera av GU:s institutioner.\n\nLägenheten har ett gemensamt badrum och kök. En tvättstuga finns i fastigheten.\nHyresgästen har även tillgång till matbord i vardagsrummet, som i övrigt används främst av värden.\n\nPlanlösning: Köket, det uthyrda rummet och vardagsrummet ligger i fil med utsikt mot Liseberg och Kallebäck. Badrum och värdens rum vätter åt motsatta hållet.\n\nHyresgästen har tillgång till två privata garderober som är placerade utanför badrummet.\n\nRummet hyrs ut omöblerat vid inflyttning. Det kan dock finnas möjlighet att låna ett skrivbord eller annan tillgänglig möblering vid behov. \n\n*Observera att egen säng behöver tas med.\n\nJag söker en lugn och hänsynsfull hyresgäst som är rökfri. Jag ser helst att du inte har egna husdjur. Det är viktigt att du är bekväm med hundar, då jag har en nyfiken liten tax.\n\nLägenheten har även en balkong.\n\nI hyran ingår internet, el, vatten och värme.\n\nNära till bussar 60, 61, 63.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kråkeskärsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1428875",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89323de15914ef7a9907086dcddc267d107b7e6f94b713744d92979c2b3e69c3.jpg",
-    "description": "Hej! \nVi har en lägenhet,  källarplan i vårt hus i Önnered, Västra Frölunda, med promenadavstånd till havet. Vi söker nu en lugn, ”städad” hyresgäst utan husdjur till lägenheten som är 1 r o k, ca 25kvm, delvis möblerad samt badrum med dusch. \nEn liten uteplats finns till för förfogande för hyresgästen. Parkeringsmöjlighet finns för en bil. Hyran ligger på 9000kr och då ingår wifi, el och vatten. \n\nVår nuvarande hyresgäst flyttar sista augusti, därefter är lägenheten är ledig.\n\nLåter detta intressant, hör gärna av dig! \nHälsningar Johan och Karin ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fastlagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1443607",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf20042b3bc1e6902ad21e74c0196be9734bbe6d66983f342fcb3c89fdb4c581.jpg",
-    "description": "Välkommen till en mycket välplanerad och trivsam tvåa i ett lugnt område på Fastlagsgatan 12, Kortedala. Denna lägenhet erbjuder bland annat inglasad, möblerad balkong och utmärkta förbindelser till centrala Göteborg med spårvagn.\n\nLägenheten har en luftig och mycket bra planlösning. Här finns ett rymligt vardagsrum med plats för både soffgrupp och matbord, ett separat sovrum med goda förvaringsmöjligheter, samt ett rymligt kök med plats för matbord för 4 personer.\n\nBostaden hyrs ut delvis möblerad, vilket gör det enkelt och smidigt att flytta in. Det exakta möblemanget kan diskuteras utifrån dina behov, om du vill ta med dig egna möbler hittar vi en bra lösning tillsammans.\n\nI hyran ingår:\nVärme, vatten, el, bredband och parkering.\n\nAnledningen till uthyrningen är att jag ska hyra ut är pga. att jag ska studera på annan ort. Jag kommer därför att hyra ut lägenheten under 2 års tid. Givetvis sker uthyrningen med bostadsrättsföreningens godkännande.\n\n1 månads deposition är krav.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T18:55:08+00:00", "clock": "18:55:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T19:31:09+00:00", "clock": "19:31:09"};
