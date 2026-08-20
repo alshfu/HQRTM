@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Höstvädersgatan 63, Göteborg",
+    "url": "https://qasa.com/p/1443301",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9704e6b3b03da54dd52eaa7b92f467ae1793f745af250396086e2b886db8a4eb.jpg",
+    "description": "OBS! Lägenheten renoveras och kommer därför inte att visas.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 79.0,
+    "rent": 10646,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Svalörtsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1441802",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b97fdf1545caff0365e4899143c3689ea9b4b0d7990e03afe2693b11b8ccde8.jpg",
@@ -11,6 +26,21 @@ window.HQRTM_SAMPLE = [
     "rooms": 2.0,
     "area_m2": 60.0,
     "rent": 8868,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Höstvädersgatan 59, Göteborg",
+    "url": "https://qasa.com/p/1443289",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c277326dbf1dd323da9be2c98515a0ede20f460d27540bb61a07e54beac6ce0d.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. Ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök i Biskopsgården! Genomgående ekparkett i lägenheten. Två badrum varav en har toalett. Förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 79.0,
+    "rent": 10434,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kalendervägen, Göteborg",
-    "url": "https://qasa.com/p/1443051",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdde707446ce8dcbcacfa561bcafe7731d911664709078c9a606ae974f9cf125.png",
-    "description": "Det är en etta i en mysig del av Kortedala. Det är nära till en hållplats och när in till stan. \nDet är nära till mataffären, gym och apotek. \nJag kan hyra ut den möblerad eller inte om man har möbler.\nI lägenheten finns det en liten klädkammare. \nDet är ett litet kök/kokvrå, fint kaklar badrum med badkar. Lägenheten är ljus. \nJag hyr ut min lägenhet för jag ska flytta ihop med min kille och har inte bestämt mig om jag vill sälja då jag verkligen gillar den. Men min killes lägenhet är större. \nSå i min bostadsförening så får man bara hyra ut 6 månader och funkar allt så kan jag ansöka om förlänga uthyrningen.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 32.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Temperaturgatan 29, Göteborg",
-    "url": "https://qasa.com/p/1443083",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ee3a05d4e7d8c8403bfdd2bcfe510e79e151173b26d39c658a833233ec9fed38.jpg",
-    "description": "Nu kan vi erbjuda en 3 rum och kök på Temperaturgatan 29, som blir ledig 1 oktober. \nBostaden är disponerad på 78 kvm. \n\nInnan inflytt kommer vi måla och spackla hela lägenheten. Byta spis, kyl & frys. Slipa parkettgolvet.\n\nI hyresavtalet ingår garageplats. Den kostnaden är inkluderad i den totala hyran ni ser i annonsen (9 988 kr). Garagehyran är för närvarande 750kr/månaden.\n\nHär bor du med ett fantastiskt läge med närhet till mataffär, grönområden och där du med enkelhet tar dig in till mer centrala delar. \nLåter det intressant? Ansök redan idag!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 9988,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T09:47:39+00:00", "clock": "09:47:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T10:14:47+00:00", "clock": "10:14:47"};
