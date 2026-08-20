@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kavaljersgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1387663",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d64c46d4f80d832b5bceda22da36729c5d1d91004fe83ddb086c9510c6f2770.png",
+    "description": "Lägenheten är en fullt möblerad tvårumslägenhet med ett separat sovrum samt ett öppet kök och vardagsrum, vilket skapar en ljus och trivsam boendemiljö. Det finns även ett mindre förråd som kan användas som extra förvaring eller som en kompakt arbetsplats. Badrummet är helkaklat och utrustat med duschkabin samt golvvärme.\n\nLägenheten har ett fantastiskt ljusinsläpp och får rikligt med naturligt solljus under större delen av dagen, särskilt från kökssidan. Den ligger dessutom mycket bra till – endast 150 meter från busshållplatsen Akkas Gata, 600 meter från busshållplatsen Körkarlens Gata, cirka 650 meters promenad till Selma Lagerlöfs Torg och endast 10 minuters bilresa till Bäckebol Köpcentrum.\n\nBostaden är fullt utrustad med allt som behövs för ett bekvämt vardagsliv. Kylskåpet och tvättmaskinen är nya, och lägenheten är utrustad med alla nödvändiga möbler, köksutrustning, hushållsartiklar och övriga inventarier, vilket gör den inflyttningsklar från första dagen.\n\nI hyran ingår:\n- Uppvärmning\n- Varm- och kallvatten\n- Fiberinternet (500/500 Mbit/s) och TV\n- En utomhusparkeringsplats på Göstaberlingsgatan\n- Elförbrukning upp till 200 SEK per månad (Om den faktiska elförbrukningen överstiger detta belopp debiteras mellanskillnaden enligt HSB:s elredovisning var tredje månad.)\n\nÖvriga faciliteter:\n -  Eget förråd i källaren\n - Cykelförråd\n - Tillgång till gemensam tvättstuga och torkrum\n\nJag hyr ut lägenheten på grund av arbete. \n\nAndrahandsuthyrningen förutsätter godkännande från bostadsrättsföreningen (BRF HSB Bäckadalen).  Ett års kontrakt med möjlighet till förlängning om så blir godkänt.\n\nJag söker en ansvarsfull hyresgäst som kommer att ta väl hand om lägenheten.\n",
+    "district": "Hisings Backa",
+    "rooms": 2.5,
+    "area_m2": 66.0,
+    "rent": 12742,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kortvågsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1442562",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dd942e67feb1c3234e0da11e880e8951df1e4041fbe183ee0ea13d6c95762829.jpg",
+    "description": "🏡 Fullt möblerad villa om ca 125 kvm (6 rok) – ett av Göteborgs bästa lägen\n\nVälkommen till ett fullt möblerat och inflyttningsklart hus i lugna Järnbrott, ett unikt läge mellan stad och hav. På några minuter når du Linné, Haga och centrala Göteborg, samtidigt som salta bad, småbåtshamnar och naturreservat ligger lika nära åt andra hållet. För dig som vill bo i villa utan att ge upp närheten till stad, shopping, natur eller hav är läget svårslaget.\n\nHuset är modernt, välrenoverat och fullt utrustat. Du behöver bara ta med dina personliga tillhörigheter.  Möbler, köksutrustning, porslin, bestick, TV, vitvaror, tvättmaskin, fiberinternet och i princip allt annat finns redan på plats. Nyckelfärdigt för inflytt. \n\n6 rum och kök fördelat på två plan, med generösa sociala ytor på entréplanet och privata sovrum på övervåningen. Här finns även ett komplett hemmakontor och ett separat bibliotek. En av områdets största terrasser i bästa solläge med minimal insyn och en stor hörntomt.\n\nPerfekt för 1 bekväm person, paret eller lilla familjen.\n\nUthyrningen avser entréplan och övervåning. Källarplanet är en helt separat bostad och hyrs ut separat till 1st mkt tyst & trevlig hyresgäst. \n\nVi kommer att arbeta utomlands och söker därför en skötsam hyresgäst.\n\n📍 Läget\n🚶 1 min till buss (Sändaregatan)\n🚶 7 min till spårvagn (Positivgatan)\n🛍️ 10 min promenad till Frölunda Torg\n🚴 10 min med cykel till Linné, Haga och centrum\n🌊 10 min med cykel till havet, Askim och Näset\n🌳 200 m till naturområde\n🚗 Ca 5 min till AstraZeneca och Sahlgrenska\n🚗 Snabb anslutning till Volvo och flera större arbetsgivare.\n\n🏡 Huset:\n✔ Ca 125 kvm på två plan\n✔ 6 rum och kök\n✔ 2-3 sovrum\n✔ Komplett hemmakontor med höj-sänkbart skrivbord, kontorsstol, skärm, skrivare, whiteboard och snabbt fiberinternet\n✔ Separat bibliotek\n✔ Stort vardagsrum med öppen spis\n✔ Modernt kök\n✔ Walk-in closet\n✔ Badrum med golvvärme\n✔ Italienskt Rivono-trägolv och platsbyggt bibliotek i massiv ek\n✔ Smarta belysningssystem\n✔ Stor terrass i bästa solläge\n✔ Stor hörntomt\n✔ Uppfart för 2 bilar\n✔ Lugn återvändsgata i barnvänligt villaområde\n\n\n🌿 Uteplats\nStor terrass med sol hela dagen & kvällen och en generös hörntomt med plats för avkoppling, grillkvällar och umgänge.\n\n📦 I hyran ingår\n✅ Fullt möblerat inkl tavlor/böcker mm ( Se bilder)\n✅ Komplett köksutrustning\n✅ TV\n✅ Tvättmaskin\n✅ Snabbt fiberinternet\n✅ Trädgård och terrass\n✅ Parkeringsplatser\n\n⚠️ Observera\n\n🔇 Lugnt villaområde. Huset passar bäst för skötsamma hyresgäster som uppskattar ett lugnt boende och visar hänsyn till grannar.\n\n🎉 Meddela grannar i god tid om fest eller störande aktiviteter. Och var sparsamma med dessa tillfällen.\n\n🐶 Tysta och skötsamma husdjur välkomna +1 000 kr/mån.\n\nPrislista\n1 person: 18 000 kr/mån*\n2 pers: 20 000 kr/mån\n3 pers: 24 000 kr/mån\n4 pers: 28 000 kr/mån\n\n*Exkl. el, fjärrvärme, VA och sophämtning. Debiteras enligt faktisk förbrukning. Vår snittförbrukning: ca 4 000 kr/mån (Påverkbar). ",
+    "district": "Västra Frölunda",
+    "rooms": 6.0,
+    "area_m2": 125.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fruktträdsgatan, Göteborg",
     "url": "https://qasa.com/p/1443004",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba0851f632a827db149bfdc83bf2c766f39b2060d2db27b41e0557f6c5efc4b7.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ernst Torulfsgatan, Göteborg",
-    "url": "https://qasa.com/p/1442912",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c3bb9fad08d3222800b6b41ca3b07a7180e7278327219afbd73a7d62b5674c7.jpg",
-    "description": "Bekväm och nyrenoverad tvåa i Munkebäck Göteborg. 1 min till spårvagnen som tar dig in till stan på 10-15 min. En tvåa, ett sovrum, ett stort vardagsrum, ett kök och en toa. Allting är nyrenoverat och fräscht. I hyran ingår alla uppvärmning och internet. \n\nVåra kriterier:\nInga husdjur- kommer ej förhandlas\nIngen rökning inomhus\nIngen fest \nIngen vandalisering eller skada \n2 månader deposition som fås tillbaka när man flyttar ut men kommer att användas för att åtgärda eventuella skador som skett under vistelsen\nHyrs ut till minst 6 månader",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Krokslättsgatan, Göteborg",
-    "url": "https://qasa.com/p/1442822",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/292fe9f4b6b48186d2c1ab8c0c05cf4c24038d6164e10c9105a3889475e86a28.jpg",
-    "description": "Jag hyr ut ett möblerat sovrum i en rymlig 3:a på totalt 81 m². Läget är mycket bra, endast ett stenkast från Lisebergs södra entré och cirka två minuter med spårvagn till Korsvägen. Det är även nära till Chalmers och Göteborgs universitet.\n\nRummet är möblerat med enkelsäng, skrivbord, sängbord, garderob och en stor spegel. Rummet har även egen kyl och frys. Lägenheten är helt rökfri. Deposition krävs.\n\nDu har tillgång till kök, vardagsrum och badrum. Boendet delas med andra och erbjuder en lugn och välskött miljö där ordning och städning prioriteras. Elkostnaden delas mellan de boende.\n\nRummet hyrs ut för en längre period och jag söker en ordningsam, ansvarsfull och respektfull person. Referens önskas. Oseriösa förfrågningar undanbedes.\n\nBerätta gärna lite om dig själv, exempelvis vad du arbetar eller studerar med och hur länge du önskar hyra.\n\nHör gärna av dig om du vill veta mer eller boka en visning!\n\nMvh,\nLucia",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 6150,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T07:01:12+00:00", "clock": "07:01:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T07:51:11+00:00", "clock": "07:51:11"};
