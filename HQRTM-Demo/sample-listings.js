@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Apelgången, Göteborg",
     "url": "https://qasa.com/p/1443682",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f21a4813e07fe426a7c26f32912678f83c1d79a92323e464586867ec29f8844.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Klostergången, Göteborg",
-    "url": "https://qasa.com/p/1443469",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80ca17b7eef0650c240d6c56d3c613ec9310ac833ce23b26e348c242d9237709.jpg",
-    "description": "Välplanerad 1,5 rumslägenhet som passar perfekt för par eller ensamboende belägen på Masthugget med närhet till Slottsskogen, Linné och Majorna. Stort separat kök med diskmaskin, vardagsrum med plats för 2 skrivbord för de som jobbar hemifrån,  Walk-in-closet och Parkering i Garage. \n\nParking, El, vatten, värme, tv och internet ingår. \nI föreningen har du tillgång till gym och bastu utan kostnad. \n\nHär bor du med gångavstånd till restauranger, caféer, barer och shopping samtidigt som du bor i ett lugnt och trivsamt område med fina innergårdar. Vid Fjällgatan har du pizzeria,  godisbutik, sushirestaurang, mataffär och besöksgarage. Här går också buss 61 som tar in till stan, eller så kan du också gå till Masthuggstorget för spårvagnsförbindelser. \n\nUthyres pga utlandsflytt. Hyran kan sänkas om parkering inte önskas.\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 39.0,
-    "rent": 11959,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Björlandavägen, Göteborg",
-    "url": "https://qasa.com/p/1443419",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cecc3ddbe4d1597981b4b0503be740685bfa80e6d2daf0b6cce87374e0daa06f.png",
-    "description": "Välkommen till en trivsam och rymlig radhus på Hisingen, perfekt för familjen, företaget eller er som söker ett bekvämt boende med gott om utrymme.\n\nVillan erbjuder en välplanerad planlösning med generösa sociala ytor, flera sovrum och goda möjligheter till både avkoppling och umgänge. Här finns ett ljust vardagsrum, fullt utrustat kök med bra arbetsytor samt moderna och funktionella utrymmen för ett bekvämt boende.\n\nUtomhus finns egen tomt och trevliga uteplatser, med plats för grillning, middagar och avkoppling under årets varmare månader. Parkeringsmöjligheter finns i anslutning till huset.\n\nEtt attraktivt läge på Hisingen\n\nHär får du en fin kombination av lugnt villaområde, grönska och närhet till centrala Göteborg. Hisingen erbjuder stora naturområden, parker och goda möjligheter till promenader och friluftsliv, samtidigt som service, mataffärer, shopping och restauranger finns inom bekvämt avstånd.\n\nKommunikationerna till centrala Göteborg och övriga delar av staden är goda med buss och spårvagn. Hisingen har dessutom ett strategiskt läge för den som arbetar vid exempelvis Lindholmen, Volvo, Backa, Bäckebol eller andra större arbetsområden på Hisingen.\n\nKort om bostaden:\n\nRymlig radhus 3 våningen\nLjust och välplanerat boende\nEgen tomt och uteplats\nParkeringsmöjlighet\nNärhet till natur och grönområden\nGoda kommunikationer till centrala Göteborg\nPassar både familjer och företagsboende\n\nEtt utmärkt alternativ för dig som söker ett bekvämt och rymligt boende på Hisingen med både stad och natur inom räckhåll.\n\nDrifttillkommer",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 110.0,
-    "rent": 22500,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T18:03:05+00:00", "clock": "18:03:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T18:55:08+00:00", "clock": "18:55:08"};
