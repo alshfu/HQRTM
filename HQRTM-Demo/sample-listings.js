@@ -3,10 +3,25 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Höstvädersgatan 67, Göteborg",
+    "url": "https://qasa.com/p/1443310",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a3a4d158cfcde5fe647c8390d6473f619f0e9fab3bb35f881a994a8ee32f5fe.jpg",
+    "description": "OM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 79.0,
+    "rent": 10400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Höstvädersgatan 63, Göteborg",
     "url": "https://qasa.com/p/1443301",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9704e6b3b03da54dd52eaa7b92f467ae1793f745af250396086e2b886db8a4eb.jpg",
-    "description": "OBS! Lägenheten renoveras och kommer därför inte att visas.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
+    "description": "OM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
     "district": "Göteborg",
     "rooms": 4.0,
     "area_m2": 79.0,
@@ -35,7 +50,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Höstvädersgatan 59, Göteborg",
     "url": "https://qasa.com/p/1443289",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c277326dbf1dd323da9be2c98515a0ede20f460d27540bb61a07e54beac6ce0d.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bcfd2e9306148c4c7fbca1c9d4a6184101bcbc3fbd61eb0479dbaaaae439f894.jpg",
     "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. Ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök i Biskopsgården! Genomgående ekparkett i lägenheten. Två badrum varav en har toalett. Förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
     "district": "Göteborg",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fruktträdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1443004",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba0851f632a827db149bfdc83bf2c766f39b2060d2db27b41e0557f6c5efc4b7.jpg",
-    "description": "Ljus och välplanerad 2 på ca 53 m² på Hisingen i Göteborg uthyres.\n\nLägenheten har en praktisk planlösning med separat sovrum, rymligt vardagsrum, kök, badrum samt balkong. Fastigheten har hiss och lägenheten passar bra för en person eller ett par som söker ett bekvämt boende.\n\nLägenheten ligger i ett lugnt och trevligt område nära Hisingsparken, med fina möjligheter till promenader, löpning och natur. Det finns även närhet till kollektivtrafik, mataffärer och annan service samt goda kommunikationer till centrala Göteborg.\n\nLägenheten hyrs ut möblerad. Observera att de första fyra bilderna är stylingbilder och visar hur lägenheten kan se ut. Lägenheten kommer att hyras ut möblerad enligt de övriga bilderna i annonsen.\n\nJag söker en skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten och respekterar grannarna.\n\nHör gärna av dig och berätta lite om dig själv, din arbetssituation/studier och vem som kommer att bo i lägenheten.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 13170,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T10:14:47+00:00", "clock": "10:14:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T10:50:37+00:00", "clock": "10:50:37"};
