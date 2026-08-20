@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kråkeskärsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1428875",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/89323de15914ef7a9907086dcddc267d107b7e6f94b713744d92979c2b3e69c3.jpg",
+    "description": "Hej! \nVi har en lägenhet,  källarplan i vårt hus i Önnered, Västra Frölunda, med promenadavstånd till havet. Vi söker nu en lugn, ”städad” hyresgäst utan husdjur till lägenheten som är 1 r o k, ca 25kvm, delvis möblerad samt badrum med dusch. \nEn liten uteplats finns till för förfogande för hyresgästen. Parkeringsmöjlighet finns för en bil. Hyran ligger på 9000kr och då ingår wifi, el och vatten. \n\nVår nuvarande hyresgäst flyttar sista augusti, därefter är lägenheten är ledig.\n\nLåter detta intressant, hör gärna av dig! \nHälsningar Johan och Karin ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fastlagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1443607",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf20042b3bc1e6902ad21e74c0196be9734bbe6d66983f342fcb3c89fdb4c581.jpg",
+    "description": "Välkommen till en mycket välplanerad och trivsam tvåa i ett lugnt område på Fastlagsgatan 12, Kortedala. Denna lägenhet erbjuder bland annat inglasad, möblerad balkong och utmärkta förbindelser till centrala Göteborg med spårvagn.\n\nLägenheten har en luftig och mycket bra planlösning. Här finns ett rymligt vardagsrum med plats för både soffgrupp och matbord, ett separat sovrum med goda förvaringsmöjligheter, samt ett rymligt kök med plats för matbord för 4 personer.\n\nBostaden hyrs ut delvis möblerad, vilket gör det enkelt och smidigt att flytta in. Det exakta möblemanget kan diskuteras utifrån dina behov, om du vill ta med dig egna möbler hittar vi en bra lösning tillsammans.\n\nI hyran ingår:\nVärme, vatten, el, bredband och parkering.\n\nAnledningen till uthyrningen är att jag ska hyra ut är pga. att jag ska studera på annan ort. Jag kommer därför att hyra ut lägenheten under 2 års tid. Givetvis sker uthyrningen med bostadsrättsföreningens godkännande.\n\n1 månads deposition är krav.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Klostergången, Göteborg",
     "url": "https://qasa.com/p/1443469",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80ca17b7eef0650c240d6c56d3c613ec9310ac833ce23b26e348c242d9237709.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 59, Göteborg",
-    "url": "https://qasa.com/p/1443359",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6dd7026c35fdc80989f269d644eaa3ebfacd0e887183ea9beb33c09482c10c74.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. Ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök i Biskopsgården! Genomgående ekparkett i lägenheten. Två badrum varav en har toalett. Förberett för egen tvättmaskin, hyresgäst står själv för inköp och installation.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 79.0,
-    "rent": 10472,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 42C, GÖTEBORG",
-    "url": "https://qasa.com/p/1443353",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0f12ff1aa54834d9f2752e6b5ee4e11a3767906b5799043902f42842dad24359.jpg",
-    "description": "Välkommen till Långströmsgatan!\n\nNu finns möjlighet att hyra en renoverad och välplanerad lägenhet om 2 rum och kök på 63 kvm, belägen på våning 2 på Långströmsgatan 28 C.\n\nLägenhetsförråd finns i huset.\n\nHyra: 10 223 kr/månad\nInflyttning: 2026-12-01\n\nI hyran ingår värme, vatten och kabel-TV.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö, kontakta förvaltning",
-    "district": "GÖTEBORG",
-    "rooms": 2.0,
-    "area_m2": 63.0,
-    "rent": 10223,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T15:54:14+00:00", "clock": "15:54:14"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T16:35:05+00:00", "clock": "16:35:05"};
