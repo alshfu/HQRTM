@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Svalörtsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1441802",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0b97fdf1545caff0365e4899143c3689ea9b4b0d7990e03afe2693b11b8ccde8.jpg",
+    "description": "Delvis möblerad 2  rums lägenhet med kök, duschrum samt hall i \nvillafastighet vid Kungsten. Goda kommunikationer.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 8868,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kavaljersgatan, Hisings Backa",
     "url": "https://qasa.com/p/1387663",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d64c46d4f80d832b5bceda22da36729c5d1d91004fe83ddb086c9510c6f2770.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gyllenstensgatan, Göteborg",
-    "url": "https://qasa.com/p/1442978",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/625d40abd27fd99b7936a9c952470c4f9ea012d92cd56e2b33ed828f3b02243b.jpg",
-    "description": "Möblerad central 3 rum och kök i Göteborg. Ljus och tyst lägenhet högst upp i huset med stor takterass i söderläge. Utsikt över takåsar och trädkronorna i mysiga Kålltorp. \n\nFri parkering på gatorna i området. Mataffärer, restauranger och bageri på gångavstånd. Flera buss och spårvagnsförbindelser i området. \n\nKålltorp ligger nära grönområdena i Delsjön/Skatås och har fortfarande gång och cykelavstånd in till innerstan.  \n\nUthyres 6 månader till mycket skötsam, rökfri person utan barn. Ingen möjlighet till förlängning. Inga husdjur tillåtna. Referenser önskas.\n\nVärme/Vatten/Internet ingår. Hushållsel betalas separat. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 71.0,
-    "rent": 14010,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T07:51:11+00:00", "clock": "07:51:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T08:24:39+00:00", "clock": "08:24:39"};
