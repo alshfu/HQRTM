@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Klostergången, Göteborg",
+    "url": "https://qasa.com/p/1443469",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/80ca17b7eef0650c240d6c56d3c613ec9310ac833ce23b26e348c242d9237709.jpg",
+    "description": "Välplanerad 1,5 rumslägenhet som passar perfekt för par eller ensamboende belägen på Masthugget med närhet till Slottsskogen, Linné och Majorna. Stort separat kök med diskmaskin, vardagsrum med plats för 2 skrivbord för de som jobbar hemifrån,  Walk-in-closet och Parkering i Garage. \n\nParking, El, vatten, värme, tv och internet ingår. \nI föreningen har du tillgång till gym och bastu utan kostnad. \n\nHär bor du med gångavstånd till restauranger, caféer, barer och shopping samtidigt som du bor i ett lugnt och trivsamt område med fina innergårdar. Vid Fjällgatan har du pizzeria,  godisbutik, sushirestaurang, mataffär och besöksgarage. Här går också buss 61 som tar in till stan, eller så kan du också gå till Masthuggstorget för spårvagnsförbindelser. \n\nUthyres pga utlandsflytt. Hyran kan sänkas om parkering inte önskas.\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 39.0,
+    "rent": 11959,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1443419",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cecc3ddbe4d1597981b4b0503be740685bfa80e6d2daf0b6cce87374e0daa06f.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 67, Göteborg",
-    "url": "https://qasa.com/p/1443310",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8a3a4d158cfcde5fe647c8390d6473f619f0e9fab3bb35f881a994a8ee32f5fe.jpg",
-    "description": "OM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T12:16:35+00:00", "clock": "12:16:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-20T13:16:10+00:00", "clock": "13:16:10"};
