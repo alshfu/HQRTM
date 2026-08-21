@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Axel Dahlströms torg, Göteborg",
     "url": "https://qasa.com/p/1444214",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd5360aa85647d0c21f515baa48b6f65b608f68b768e1ca082f004b68cb40dbf.jpg",
-    "description": "Rymlig och välplanerad etta på Axel Dahlströms torg. Huset är byggt på 50-talet och lägenheten nyrenoverad 2021 med fräscha vitvaror. Gott om garderobsutrymme samt franska balkonger i både kök och allrum. \n\nJag hyr ut eftersom jag ska studera på annan ort i 3 år. I hyran ingår varmvatten, bredband och basic möblemang. Obs lite annorlunda än på bilderna, då jag tar med mig vissa möbler som kommer ersättas. Hyresgäst tecknar eget elavtal. \n\nMycket goda kommunikationer till centrum, Frölunda torg köpcentrum och naturområden. Spårvagnshållplats i princip utanför dörren. På torget precis nedanför finns restauranger, Icabutik, Gym, bibliotek och andra bekvämligheter. Promenadavstånd till Slottsskogen på ca 10 minuter och 15 minuter till Mariaplan/Majorna med fler restauranger och dylikt. Har trivts väldigt bra i området!",
+    "description": "Rymlig och välplanerad etta på Axel Dahlströms torg. Huset är byggt på 50-talet och lägenheten nyrenoverad 2021, med fräscha vitvaror. Gott om garderobsutrymme samt fransk balkong i både kök och allrum. \n\nJag hyr ut eftersom jag ska studera på annan ort i 3 år. I hyran ingår varmvatten, bredband och basic möblemang. Obs lite annorlunda än på bilderna, då jag tar med mig vissa möbler som kommer ersättas. Hyresgäst tecknar eget elavtal. \n\nMycket goda kommunikationer till centrum, Frölunda torg köpcentrum och naturområden. Spårvagnshållplats i princip utanför dörren. På torget precis nedanför finns restauranger, Icabutik, Gym, bibliotek och andra bekvämligheter. Promenadavstånd till Slottsskogen på ca 10 minuter och ca 15 minuter till Mariaplan/Majorna med fler restauranger och dylikt. Har trivts väldigt bra i området!",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 40.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T16:14:33+00:00", "clock": "16:14:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T16:54:46+00:00", "clock": "16:54:46"};
