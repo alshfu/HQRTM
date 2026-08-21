@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hängestensvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1443825",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/24d008f6838f393eff5947badc758ecbea956abdeb5eb22c02be8370e664f215.jpg",
+    "description": "Lägenhet på Näset i förstahand med nyrenoverat kök,  1,5 rum & kök på ca 36 kvm med egen uteplats på ca: 20 kvm. \nLägenheten har golvvärme i samtliga rum, det finns stor garderobsförvaring och fönster som vetter åt två väderstreck. \nKöket är nybyggt 2022, med diskmaskin, micro, ugn/häll, kyl/frys.\nBadrum har dusch, vägghängd wc, tvättmaskin, handdukstork.\n\nI hyran ingår: värme, vatten, sopor, bredband via fiber 250/250, Tv utbud.\nKostnad för el tillkommer.\nLägenheten ligger på en lugn gata som angränsar till natur, hav och strövområden. Det finns många badplatser i området, närmast badmöjlighet finns på 500 meters avstånd. Det finns goda kommunikationer med buss, närmaste busshållplats är Hammarvägen.  Närhet till sportarena, restaurang och mataffär. \n\nBostaden är djur och rökfri.\n\nEn deposition tas ut vid kontraktskrivning och betalas tillbaka vid utflytt.\nDet finns även möjlighet att hyra bostaden fullt möblerad om så önskas.\n\n ",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 8900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1355395",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3832dadf6495695c0865eb209c3a114ada26f79a07d1f514aa93541c0de6b216.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Apelgången, Göteborg",
-    "url": "https://qasa.com/p/1443682",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3f21a4813e07fe426a7c26f32912678f83c1d79a92323e464586867ec29f8844.jpg",
-    "description": "Trevlig lägenhet i ett bostadshus på våning 2, egen ingång och lämplig för en person eller ett par.\nLägenheten har ett mycket bra läge med endast 150 meter till spårvagnen och buss. Med spårvagnen är det tre hållplatser till city. För den som cyklar är det ungefär 10 minuter med cykel till city och 10 minuter till skogsområde. \nInflyttning: helst 1 september, men datum kan diskuteras.\nPassar perfekt för dig som söker ett bekvämt boende med nära till både kommunikationer och city.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 14000,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T04:21:59+00:00", "clock": "04:21:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T05:01:37+00:00", "clock": "05:01:37"};
