@@ -9,7 +9,7 @@ window.HQRTM_SAMPLE = [
     "description": "Trevlig och ljus lägenhet om 1 rum och ett kök med matplats och med härlig morgonsol och fullt utrustad köksutrustning samt diskmaskin. \nNyrenoverat badrum med tvättmaskin. \nMöblerad balkong i västerläge. \n\nGym och bastu finns att tillgå i BRF. \nEndast 3 minuters gångväg till buss 18,19,43 som på max 15 minuter tar dig till centrum, Eriksberg och Svingeln. \n\nI närheten finns butiker som Hemköp, ICA och Coop Xtra. \n\nEn fin lägenhet för dig som vill ha ett tryggt boende med grannsamverkan, grönska och närhet till det mesta. ",
     "district": "Hisings Backa",
     "rooms": 2.0,
-    "area_m2": 48.0,
+    "area_m2": 50.0,
     "rent": 10000,
     "floor": null,
     "has_balcony": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T11:03:07+00:00", "clock": "11:03:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T11:35:56+00:00", "clock": "11:35:56"};
