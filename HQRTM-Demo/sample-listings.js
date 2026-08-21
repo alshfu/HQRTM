@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Generalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1444379",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10fb10714ffa06f412f90d552462ab84c3f8d810cf3f3f7254329e5a1bb0e12b.png",
+    "description": "Hej\nHyr ut en trea i bellevue, mellan gamlestaden och kviberg.\nBra läge med 7 minuters spårvagn till centralstationen. \n\nArea: 69 kvadrat\nVåning: 2\nInternet och värme ingår i hyran.\nEl och vatten debiteras efter förbrukning.\n\nBestår av ett vardagsrum, två sovrum, kök plus en walk in closet.\nLägenheten har allt som behövs såsom: badkar, tvättmaskin, torktumlare, diskmaskin, inbyggd mikro samt två balkonger. \n\nUthyres endast till seriösa hyresgäster med god ekonomi, högt ansvar samt som avser att stanna minst ett år.\n\nVälkomna att höra av dig!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 69.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Handelsmyntet, Göteborg",
     "url": "https://qasa.com/p/1444452",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/869c29d620a38b4849e49f26fc46c76c4f7cdcd05229b41d22641bcceac1f56d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sagogången, Hisings Backa",
-    "url": "https://qasa.com/p/1444081",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/adf923142d8c42b51c2d9c11070235ee770f70038dfe8a4552b5a9d06566e316.jpg",
-    "description": "Trevlig och ljus lägenhet om 1 rum och ett kök med matplats och med härlig morgonsol och fullt utrustad köksutrustning samt diskmaskin. \nNyrenoverat badrum med tvättmaskin. \nMöblerad balkong i västerläge. \n\nGym och bastu finns att tillgå i BRF. \nEndast 3 minuters gångväg till buss 18,19,43 som på max 15 minuter tar dig till centrum, Eriksberg och Svingeln. \n\nI närheten finns butiker som Hemköp, ICA och Coop Xtra. \n\nEn fin lägenhet för dig som vill ha ett tryggt boende med grannsamverkan, grönska och närhet till det mesta. ",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T17:58:19+00:00", "clock": "17:58:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T18:48:53+00:00", "clock": "18:48:53"};
