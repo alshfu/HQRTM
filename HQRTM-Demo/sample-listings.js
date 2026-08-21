@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Beda Hanssons Gata 11, Västra Frölunda",
+    "url": "https://qasa.com/p/1444301",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/03d140e1c701be2813449e3de024d45be90ef936a1a5664123c6edf2fae20fbf.jpg",
+    "description": "I Järnbrott får du en nyproducerad trea från 2026 med modern komfort och smart planlösning. Som gavellägenhet får du fint ljusinsläpp från tre håll och en härlig balkong i söderläge.\n\nHär finns diskmaskin samt tvättmaskin och torktumlare för en smidig vardag. Ekparkett, stilrent kök och fräscht badrum ger en modern känsla från första dagen.\n\nI Järnbrott får du naturen alldeles runt hörnet som inbjuder till både motion och avkoppling. Samtidigt har du nära till Frölunda Torg med shopping, service och kultur.\n\nTre spårvagnslinjer gör det enkelt att ta sig in till centrala Göteborg, och med cykel tar du dig smidigt både mot havet och city. Här får du helt enkelt det bästa av två världar – lugnet nära naturen och stadens puls inom bekvämt avstånd.\n\nLåter det intressant? Anmäl ditt intresse redan idag! Alla intresseanmälningar görs via HomeQ och urvalet sker utifrån de vägledande köpoängen.",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 13935,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sagogången, Hisings Backa",
     "url": "https://qasa.com/p/1444081",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/adf923142d8c42b51c2d9c11070235ee770f70038dfe8a4552b5a9d06566e316.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Harald Hjärnesgatan , Göteborg",
-    "url": "https://qasa.com/p/1036518",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8aa0c68ca8629dc2ad3aa55241a52b8c5a459904ad549e01e24dead1c15670a1.jpg",
-    "description": "En välplanerade lägenhet med stort vardagsrum och stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade och badrummet har elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare,  belägen mitt emot entrédörren. \n\nI hyran ingår: El, vatten och bredband\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.  \nGärna att du/ni letar efter ett långsiktigt boende, men är öppen för dialog. \n\nVälkommen att höra av dig vid intresse!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T13:54:12+00:00", "clock": "13:54:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T14:31:57+00:00", "clock": "14:31:57"};
