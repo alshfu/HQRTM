@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sagogången, Hisings Backa",
+    "url": "https://qasa.com/p/1444081",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/adf923142d8c42b51c2d9c11070235ee770f70038dfe8a4552b5a9d06566e316.jpg",
+    "description": "Trevlig och ljus lägenhet om 1 rum och ett kök med matplats och med härlig morgonsol och fullt utrustad köksutrustning samt diskmaskin. \nNyrenoverat badrum med tvättmaskin. \nMöblerad balkong i västerläge. \n\nGym och bastu finns att tillgå i BRF. \nEndast 3 minuters gångväg till buss 18,19,43 som på max 15 minuter tar dig till centrum, Eriksberg och Svingeln. \n\nI närheten finns butiker som Hemköp, ICA och Coop Xtra. \n\nEn fin lägenhet för dig som vill ha ett tryggt boende med grannsamverkan, grönska och närhet till det mesta. ",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/1166440",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88befd7543b437ad5c7f947a8a189e1541ee2290fb4a7d5c21a5e17c0667d9d0.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hängestensvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1443825",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/24d008f6838f393eff5947badc758ecbea956abdeb5eb22c02be8370e664f215.jpg",
-    "description": "Lägenhet på Näset i förstahand med nyrenoverat kök,  1,5 rum & kök på ca 36 kvm med egen uteplats på ca: 20 kvm. \nLägenheten har golvvärme i samtliga rum, det finns stor garderobsförvaring och fönster som vetter åt två väderstreck. \nKöket är nybyggt 2022, med diskmaskin, micro, ugn/häll, kyl/frys.\nBadrum har dusch, vägghängd wc, tvättmaskin, handdukstork.\n\nI hyran ingår: värme, vatten, sopor, bredband via fiber 250/250, Tv utbud.\nKostnad för el tillkommer.\nLägenheten ligger på en lugn gata som angränsar till natur, hav och strövområden. Det finns många badplatser i området, närmast badmöjlighet finns på 500 meters avstånd. Det finns goda kommunikationer med buss, närmaste busshållplats är Hammarvägen.  Närhet till sportarena, restaurang och mataffär. \n\nBostaden är djur och rökfri.\n\nEn deposition tas ut vid kontraktskrivning och betalas tillbaka vid utflytt.\nDet finns även möjlighet att hyra bostaden fullt möblerad om så önskas.\n\n ",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 36.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T10:40:20+00:00", "clock": "10:40:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T11:03:07+00:00", "clock": "11:03:07"};
