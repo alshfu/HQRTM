@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Axel Dahlströms torg, Göteborg",
+    "url": "https://qasa.com/p/1444214",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd5360aa85647d0c21f515baa48b6f65b608f68b768e1ca082f004b68cb40dbf.jpg",
+    "description": "Rymlig och välplanerad etta på Axel Dahlströms torg. Huset är byggt på 50-talet och lägenheten nyrenoverad 2021 med fräscha vitvaror. Gott om garderobsutrymme samt franska balkonger i både kök och allrum. \n\nJag hyr ut eftersom jag ska studera på annan ort i 3 år. I hyran ingår varmvatten, bredband och basic möblemang. Obs lite annorlunda än på bilderna, då jag tar med mig vissa möbler som kommer ersättas. Hyresgäst tecknar eget elavtal. \n\nMycket goda kommunikationer till centrum, Frölunda torg köpcentrum och naturområden. Spårvagnshållplats i princip utanför dörren. På torget precis nedanför finns restauranger, Icabutik, Gym, bibliotek och andra bekvämligheter. Promenadavstånd till Slottsskogen på ca 10 minuter och 15 minuter till Mariaplan/Majorna med fler restauranger och dylikt. Har trivts väldigt bra i området!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 6913,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skånegatan, Göteborg",
     "url": "https://qasa.com/p/1444358",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/14f6503932c43e33e04aa7ce35818c8a782e9dbbe5ebc0f4b4561f2ed8fe6282.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslottsgatan 10, Göteborg",
-    "url": "https://qasa.com/p/1444145",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/68c0d264827841e20162307b3aea1926245e57c7c50d262628778224bbbb1938.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom planritning och exempelbilder på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. \n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med ljusa  vitvaror och en diskmaskin. \n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\nOBS! \n\nPlanlösningen och bilder är endast ett exempel, avvikelser kan förekomma. \n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 46.0,
-    "rent": 10194,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T15:06:05+00:00", "clock": "15:06:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T15:45:45+00:00", "clock": "15:45:45"};
