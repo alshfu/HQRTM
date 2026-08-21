@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Handelsmyntet, Göteborg",
+    "url": "https://qasa.com/p/1444452",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/869c29d620a38b4849e49f26fc46c76c4f7cdcd05229b41d22641bcceac1f56d.jpg",
+    "description": "Charmig 1,5:a i Högsbo på 7:e våningen med en stor och härlig balkong i västerläge.\nHär har du nära till livsmedelsbutiker, gym och grönområden. Endast 5 minuter med spårvagn till Frölunda Torg samt Slottskogen/Linneplatsen och 15 minuter in till Centrala Göteborg. Spårvagnshållplatsen är belägen precis utanför. Lägenhet passar perfekt för en person men går utmärkt att bo två i. \n\nLägenheten kommer fullt möblerad (om man så vill) med en stor tv och tillgång till bredband. En kombinerad tvätt/torktumlare finns i lägenheten samt tillgång till tvättstuga på entréplan. \n\nHyran 13000kr inklusive el, vatten, värme och bredband. \n\nPå grund av arbete på annan ort hyrs lägenheten ut fr.om 1/10 till tillsvidare. \n\nKontakta gärna vid övriga frågor eller önskemål.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 45.0,
+    "rent": 13000,
+    "floor": 7,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Axel Dahlströms torg, Göteborg",
     "url": "https://qasa.com/p/1444214",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd5360aa85647d0c21f515baa48b6f65b608f68b768e1ca082f004b68cb40dbf.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/1166440",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88befd7543b437ad5c7f947a8a189e1541ee2290fb4a7d5c21a5e17c0667d9d0.jpg",
-    "description": "Källarvåning med egen ingång på 78 kvm. \ntvå rum o kök.  möblerad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 78.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T17:28:37+00:00", "clock": "17:28:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T17:58:19+00:00", "clock": "17:58:19"};
