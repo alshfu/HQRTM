@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Harald Hjärnesgatan , Göteborg",
+    "url": "https://qasa.com/p/1036518",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8aa0c68ca8629dc2ad3aa55241a52b8c5a459904ad549e01e24dead1c15670a1.jpg",
+    "description": "En välplanerade lägenhet med stort vardagsrum och stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade och badrummet har elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare,  belägen mitt emot entrédörren. \n\nI hyran ingår: El, vatten och bredband\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.  \nGärna att du/ni letar efter ett långsiktigt boende, men är öppen för dialog. \n\nVälkommen att höra av dig vid intresse!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11434,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nebulosagatan 14, Göteborg",
     "url": "https://qasa.com/p/1443914",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce38456ea8612b6344233b2c8291f8f245e47fd345935ca58f9d944f9c7c5a65.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T07:59:26+00:00", "clock": "07:59:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T08:51:36+00:00", "clock": "08:51:36"};
