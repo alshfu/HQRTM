@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skånegatan, Göteborg",
+    "url": "https://qasa.com/p/1444358",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/14f6503932c43e33e04aa7ce35818c8a782e9dbbe5ebc0f4b4561f2ed8fe6282.jpg",
+    "description": "Välkommen till denna charmiga lägenhet på Skånegatan i hjärtat av Göteborg Centrum. Här erbjuds moderna bekvämligheter i en ljus och luftfull boendemiljö, komplett med en balkong där du kan njuta av utsikten över staden.\n\nOm bostaden:\nDenna trevliga lägenhet är perfekt för två personer och har en total boyta på 50 kvadratmeter. Den består av två rum, inklusive ett modernt kök som renoverades 2019, utrustat med alla nödvändiga vitvaror såsom kyl och frys, ugn, spis och mikrovågsugn. Här finns även en rymlig vardagsrumsdel där du kan koppla av och njuta av tid framför TV:n. Badrummet har en dusch och toalett. Du kommer också att ha tillgång till gemensamma bekvämligheter som tvättstuga och cykelrum. Flytta in tidigast 2025-08-31 och upplev detta fantastiska boende till och med 2026-06-01. Lägenheten ligger på fjärde våningen och du slipper trapporna tack vare en tillgänglig hiss.\n\nOmråde och kommunikationer:\nBelägen i Göteborg Centrum erbjuder detta hem enkel tillgång till stadens bästa utbud av shopping, kultur och nöje. Bara ett stenkast bort finner du Avenyn med dess pulserande nattliv och spännande restauranger. För den som söker grönområden är Trädgårdsföreningen en underbar park i närheten där du kan njuta av en lugn promenad eller en picknick. Buss- och spårvagnslinjer finns i närheten som tar dig smidigt runt om i staden och anslutningarna till kollektivtrafiken är utmärkta. Välkommen att uppleva ett bekvämt stadsboende i denna välkomnande bostad!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11600,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Bohusgatan, Göteborg",
+    "url": "https://qasa.com/p/1444346",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d38c94b3fd1a2038731bc8de27dba1a2a002ec3245bab430bc332fdc8f59dbeb.jpg",
+    "description": "- 2,5 RoK (sovrum, kontor/barnkammare/vardagsrum)\n- öppen planlösning mellan kök och TV rum\n- Walk-in-closet\n- inglasad balkong mot Bohusgatan\n- privat uteterass med bra insynskydd mot innergård\n- gemensamt gym och bastu finns att utnyttjas kostnadsfritt\n- tillgång till boulebana och grill på innergård \n- tillgång till cykelförråd\n- nära till ICA Nära, Willys m.m.\n- gångsavstånd till Valand, Centralstationen, Korsvägen m.m.\n- delvis möblerat (diskuterbart)\n\nBostaden hyrs ut i dagsläget och möbleringen ser inte ut som enligt bilderna. Hör av dig/er för visning 😊",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 65.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Borstbindaregatan, Göteborg",
     "url": "https://qasa.com/p/1444191",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungsladugårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1444032",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fa8e05e6726fcedc94cf52fa466353c98946ee87a26aa8b1f516140ef218de75.png",
-    "description": "Om bostaden\n\nLjus och trivsam lägenhet på 40 kvm i Kungsladugård. Lägenheten hyrs ut fullt möblerad och består av ett rymligt vardagsrum/sovrum, separat kök och badrum. Allt som behövs för att flytta in och känna sig hemma finns på plats.\n\nI hyran ingår el, värme, vatten och internet.\n\nKungsladugård är enligt mig ett av Göteborgs bästa områden – lugnt och grönt, men samtidigt nära till allt. Mariaplan med caféer, restauranger, mataffärer och spårvagn ligger runt hörnet och Slottsskogen nås på några minuters promenad. Det finns även fina promenad- och löpstråk i närområdet. Med spårvagn tar man sig smidigt in till centrala Göteborg på cirka 10–15 minuter.\n\nJag hyr ut lägenheten eftersom jag kommer att bo utomlands under det kommande året och söker därför någon som vill ta hand om den och ha den som sitt hem under tiden.\n\nJag söker framför allt en skötsam och pålitlig hyresgäst som uppskattar ett lugnt och trevligt boende.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 11790,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bildradiogatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1443962",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6592b03e3fda45896b279c4d6f6a5a381db1e93fca80b1bc8b793f3b8f94a7d.jpg",
-    "description": "Lägenhet, 2 rum, 56 m² i Järnbrott, hyrs ut möblerad\n\nJag hyr ut en tvåa med högt och fritt gavelläge på 56 kvadratmeter inkl. stor balkong, på våning 6 av 7. Lägenheten är belägen i ett lugnt och fint område i Järnbrott. Ligger i närheten av naturområden såsom Änggårdsbergen och Ruddalen och det är smidigt att ta sig in till centrum med buss eller spårvagn. Matbutik finns på gångavstånd. Tillgång finns till föreningens egna gym och bastu. \n\nI hyran ingår el, vatten, värme och bredband/TV. \nJag hyr ut lägenheten i 12 månader.\n\nTillträde 1 november, viss flexibilitet finns om det finns andra särskilda önskemål kring inflyttningsdatum.  \n\nHyran är på 12 000 kr.\n\nFakta om lägenheten:\nAdress: Bildradiogatan 6\nBoarea: 56 kvm \nVåningsplan 6 av 7 \nHiss: ja, en mindre hiss\nBalkong: ja, stor, med kattnät som kan tas bort\nSäng: 180 cm (ny)\nTvättmaskin: ja\nTvättstuga: ja, finns i ett hus intill\nCykelförråd: ja, i samma byggnad\nGym & bastu: finns i föreningens lokaler (tillträde dit ingår)\n\nHar ni frågor är det bara att höra av er.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 12000,
-    "floor": 6,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T14:31:57+00:00", "clock": "14:31:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T15:06:05+00:00", "clock": "15:06:05"};
