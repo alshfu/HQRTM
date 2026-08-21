@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Höstvädersgatan 61, Göteborg",
+    "url": "https://qasa.com/p/1444001",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c4f35d6ffb15d591618e8b1466cd1fea74c9e72eec91cfb4834d1adcb8702c7e.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning* \n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med möjlighet till tvättmaskin.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nVärme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 79.0,
+    "rent": 10534,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nebulosagatan 14, Göteborg",
     "url": "https://qasa.com/p/1443914",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce38456ea8612b6344233b2c8291f8f245e47fd345935ca58f9d944f9c7c5a65.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Meijerbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1442914",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/84867f6418b46011926cc39f7e4e8f4d21dc3f68088c35623f92f10c872c1409.jpg",
-    "description": "Rum uthyres i Johanneberg\n\n*Förtur ges till student vid Göteborgs universitet / Chalmers tekniska högskola\n\nStorlek: 10 m2\n\nLägenheten delas med värden. Jag erbjuder ett tryggt och lugnt boende med respekt för privatlivet. Samtidigt är jag social, så jag pratar gärna när det passar.\n\nGångavstånd till Chalmers (Johanneberg) och flera av GU:s institutioner.\n\nLägenheten har ett gemensamt badrum och kök. En tvättstuga finns i fastigheten.\nHyresgästen har även tillgång till matbord i vardagsrummet, som i övrigt används främst av värden.\n\nPlanlösning: Köket, det uthyrda rummet och vardagsrummet ligger i fil med utsikt mot Liseberg och Kallebäck. Badrum och värdens rum vätter åt motsatta hållet.\n\nHyresgästen har tillgång till två privata garderober som är placerade utanför badrummet.\n\nRummet hyrs ut omöblerat vid inflyttning. Det kan dock finnas möjlighet att låna ett skrivbord eller annan tillgänglig möblering vid behov. \n\n*Observera att egen säng behöver tas med.\n\nJag söker en lugn och hänsynsfull hyresgäst som är rökfri. Jag ser helst att du inte har egna husdjur. Det är viktigt att du är bekväm med hundar, då jag har en nyfiken liten tax.\n\nLägenheten har även en balkong.\n\nI hyran ingår internet, el, vatten och värme.\n\nNära till bussar 60, 61, 63.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T08:51:36+00:00", "clock": "08:51:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T09:26:10+00:00", "clock": "09:26:10"};
