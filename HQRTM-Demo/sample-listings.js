@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/1166440",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88befd7543b437ad5c7f947a8a189e1541ee2290fb4a7d5c21a5e17c0667d9d0.jpg",
+    "description": "Källarvåning med egen ingång på 78 kvm. \ntvå rum o kök.  möblerad.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 78.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kungsladugårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1444032",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fa8e05e6726fcedc94cf52fa466353c98946ee87a26aa8b1f516140ef218de75.png",
+    "description": "Om bostaden\n\nLjus och trivsam lägenhet på 40 kvm i Kungsladugård. Lägenheten hyrs ut fullt möblerad och består av ett rymligt vardagsrum/sovrum, separat kök och badrum. Allt som behövs för att flytta in och känna sig hemma finns på plats.\n\nI hyran ingår el, värme, vatten och internet.\n\nKungsladugård är enligt mig ett av Göteborgs bästa områden – lugnt och grönt, men samtidigt nära till allt. Mariaplan med caféer, restauranger, mataffärer och spårvagn ligger runt hörnet och Slottsskogen nås på några minuters promenad. Det finns även fina promenad- och löpstråk i närområdet. Med spårvagn tar man sig smidigt in till centrala Göteborg på cirka 10–15 minuter.\n\nJag hyr ut lägenheten eftersom jag kommer att bo utomlands under det kommande året och söker därför någon som vill ta hand om den och ha den som sitt hem under tiden.\n\nJag söker framför allt en skötsam och pålitlig hyresgäst som uppskattar ett lugnt och trevligt boende.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 11790,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Bildradiogatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1443962",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6592b03e3fda45896b279c4d6f6a5a381db1e93fca80b1bc8b793f3b8f94a7d.jpg",
+    "description": "Lägenhet, 2 rum, 56 m² i Järnbrott, hyrs ut möblerad\n\nJag hyr ut en tvåa med högt och fritt gavelläge på 56 kvadratmeter inkl. stor balkong, på våning 6 av 7. Lägenheten är belägen i ett lugnt och fint område i Järnbrott. Ligger i närheten av naturområden såsom Änggårdsbergen och Ruddalen och det är smidigt att ta sig in till centrum med buss eller spårvagn. Matbutik finns på gångavstånd. Tillgång finns till föreningens egna gym och bastu. \n\nI hyran ingår el, vatten, värme och bredband/TV. \nJag hyr ut lägenheten i 12 månader.\n\nTillträde 1 november, viss flexibilitet finns om det finns andra särskilda önskemål kring inflyttningsdatum.  \n\nHyran är på 12 000 kr.\n\nFakta om lägenheten:\nAdress: Bildradiogatan 6\nBoarea: 56 kvm \nVåningsplan 6 av 7 \nHiss: ja, en mindre hiss\nBalkong: ja, stor, med kattnät som kan tas bort\nSäng: 180 cm (ny)\nTvättmaskin: ja\nTvättstuga: ja, finns i ett hus intill\nCykelförråd: ja, i samma byggnad\nGym & bastu: finns i föreningens lokaler (tillträde dit ingår)\n\nHar ni frågor är det bara att höra av er.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 12000,
+    "floor": 6,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Harald Hjärnesgatan , Göteborg",
     "url": "https://qasa.com/p/1036518",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8aa0c68ca8629dc2ad3aa55241a52b8c5a459904ad549e01e24dead1c15670a1.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1355395",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3832dadf6495695c0865eb209c3a114ada26f79a07d1f514aa93541c0de6b216.jpg",
-    "description": "Lägenhet i Karlatornet uthyres.\nLägenheten befinner sig i våning 64.\nBalkong finns.\nI hyran ingår fri tillgång till hotellets (Clarion) spa och gym.\nFri tillgång till fitnessrum och yogarum i vån. 38.\nLägenheten uthyres möblerad.\nLägenheten finns tillgänglig för uthyrning from. 1/6.\nHör av dig vid intresse.\n\nVänliga hälsningar",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Åkerrensgatan, Göteborg",
-    "url": "https://qasa.com/p/1443781",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/02cf4bbbcbfce38c7a7a7286806187d69b2ab3b79e2e5ee86414016589a9d67d.jpg",
-    "description": "Nyrenoverad lägenhet i källarplan i populära Kålltorp uthyres! Nära centrala stan men också Skatås friluftsområde och badsjön i Härlanda. Lägenheten har golvvärme i alla rum, helt nytt kök och badrum.   I hyran ingår värme, vatten, el och wifi. Här bor du i ett lugnt område med tillgång till trädgård och uteplats. Uthyres ett år med möjlighet till förlängning.   \n\nNewly renovated basement apartment in the popular Kålltorp area available for rent! Close to the city center but also to the Skatås outdoor recreation area and the swimming lake in Härlanda. The apartment features underfloor heating in all rooms, a completely new kitchen and bathroom. Rent includes heating, water, electricity and wifi. You’ll be living in a quiet area with access to a garden and outdoor patio. Available for one year with the option to extend.​​​​​​​​​​​​​​​​",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 6600,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lilleby Bäckedalsväg, Torslanda",
-    "url": "https://qasa.com/p/1443748",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/492e716c82290747f1e28a255660ad917b6174b1142ac42ebcf980334507a9ba.jpg",
-    "description": "Vi hyr ut vår loftlägenhet som ligger ovanpå garaget, byggnadsår 2019.\n\nToalett med golvvärme, tvättmaskin och dusch.\nKök med ugn, kyl och frys. \nSeparat mikrovågsugn ingår om så önskas.\nGarderob med skjutdörrar i hallen.\n\nDu har egen ingång.\nLägenheten är djur- och rökfri.\n\nInternet/fiber, sophämtning, uppvärmning och hushållsel ingår i hyran.\n\nEgen parkering ingår.\nVi hyr ut till EN hyresgäst.\n\nHyra: 7900:-\n\n1 månadshyra i deposition som återfås vid utflyttning efter besiktning.\n\nLägenheten kan även hyras ut möblerad! Återkom i så fall för pris!\n\nI området finns: \n50 m till motionsspår och härlig natur. \n\nHållplatsen Lilleby Skolväg, ca 15 minuters promenad, 1,2 kilometer.\nDirektbuss till Hjalmar Brantingsplatsen på ca 32 minuter, Nordstan ca 37 min.\n\nHållplatsen Högstensgatan, 10 minuters promenad via skogsstig, 700 meter.\nDirektbuss till Lindholmen på ca 30 minuter, Nordstan ca 36 minuter.\n \nMataffären Willys Hemma, 13 minuters promenad via skogsstig, 900 meter. \nSillviks badstrand 3 kilometer.\n",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 7457,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T09:26:10+00:00", "clock": "09:26:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T10:01:02+00:00", "clock": "10:01:02"};
