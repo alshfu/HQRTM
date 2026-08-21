@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Thorburnsgatan, Göteborg",
+    "url": "https://qasa.com/p/1430550",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83908e171339ef43545a11a0659e5ee38f45e887dc16178bc26cb53bf413790b.jpg",
+    "description": "En tvåa på markplan nära beläget till centrala Göteborg. Lägenheten helrenoverades 2018 och badrum och kök är modernt och fräscht. Ett mindre förrådsutrymme finns i lägenheten samt vindsförråd. \n\nHyrs ut då jag ska flytta in hos min partner och hyrs ut omöblerad. I hyran ingår bredband. El tillkommer enligt inkommande fakturor under hyresperioden.\n\nLugnt barnfamiljsområde, två minuters promenad till närmsta matbutik och gym, samt fyra minuter spårvagn till korsvägen knutpunkt. \n\nInflyttning så snart som möjligt, dock tidigast upp till en månad från kontraktskrivning och inskickad ansökan om andrahandsuthyrning till wallenstam. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 10750,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Götaverksgatan, Göteborg",
     "url": "https://qasa.com/p/1444483",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d6b85b02c012c3f9be836dda0bfa5ac5c157e5252697bbb4c61d8cff62bf236.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borstbindaregatan, Göteborg",
-    "url": "https://qasa.com/p/1444191",
-    "image_url": null,
-    "description": "Bostadsrätt i kvillebäcken vån 2 ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 14000,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T19:16:38+00:00", "clock": "19:16:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T19:42:08+00:00", "clock": "19:42:08"};
