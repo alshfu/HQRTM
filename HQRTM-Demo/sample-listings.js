@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Götaverksgatan, Göteborg",
+    "url": "https://qasa.com/p/1444483",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d6b85b02c012c3f9be836dda0bfa5ac5c157e5252697bbb4c61d8cff62bf236.jpg",
+    "description": "Tre sovrum och kök i öppen planlösning. Balkong i sydvästläge med utsikt över vattnet och kajerna. Ett rymligt sovrum och två något mindre sovrum/arbetsrum/gästrum/barnrum. Stort badrum med dusch, tvättmaskin och torktumlare. Lägenheten ligger 250 meter söder om Regnbågsgatan station och 600 meter från Lindholmspiren. Transportmöjligheterna är mycket bekväma. Hyrs utan möbler.\n\nP.S. Det är en ganska fin och ny lägenhet. Den är dock omöblerad. Bilden är tagen innan alla möbler var borttagna. Hyrestiden är förhandlingsbar. Även om detta inte är planerat för långtidsuthyrning är hyreskostnaden förhandlingsbar och kan sänkas ytterligare vid behov.\nDessutom, eftersom det är en ny lägenhet, ingår inte el- och varmvattenkostnader i hyran. Övriga kostnader ingår.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 91.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Generalsgatan, Göteborg",
     "url": "https://qasa.com/p/1444379",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10fb10714ffa06f412f90d552462ab84c3f8d810cf3f3f7254329e5a1bb0e12b.png",
@@ -36,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Axel Dahlströms torg, Göteborg",
     "url": "https://qasa.com/p/1444214",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd5360aa85647d0c21f515baa48b6f65b608f68b768e1ca082f004b68cb40dbf.jpg",
-    "description": "Rymlig och välplanerad etta på Axel Dahlströms torg. Huset är byggt på 50-talet och lägenheten nyrenoverad 2021, med fräscha vitvaror. Gott om garderobsutrymme samt fransk balkong i både kök och allrum. \n\nJag hyr ut eftersom jag ska studera på annan ort i 3 år. I hyran ingår varmvatten, bredband och basic möblemang. Obs lite annorlunda än på bilderna, då jag tar med mig vissa möbler som kommer ersättas. Hyresgäst tecknar eget elavtal. \n\nMycket goda kommunikationer till centrum, Frölunda torg köpcentrum och naturområden. Spårvagnshållplats i princip utanför dörren. På torget precis nedanför finns restauranger, Icabutik, Gym, bibliotek och andra bekvämligheter. Promenadavstånd till Slottsskogen på ca 10 minuter och ca 15 minuter till Mariaplan/Majorna med fler restauranger och dylikt. Har trivts väldigt bra i området!",
+    "description": "Rymlig och välplanerad etta på Axel Dahlströms torg. Huset är byggt på 50-talet och lägenheten nyrenoverad 2021, med fräscha vitvaror. Gott om garderobsutrymme samt fransk balkong i både kök och allrum. \n\nJag hyr ut eftersom jag ska studera på annan ort i 3 år. I hyran ingår varmvatten, bredband och basic möblemang. Obs lite annorlunda än på bilderna, då jag tar med mig vissa möbler som kommer ersättas. Hyresgäst tecknar eget elavtal och hemförsäkring. \n\nMycket goda kommunikationer till centrum, Frölunda torg köpcentrum och naturområden. Spårvagnshållplats i princip utanför dörren. På torget precis nedanför finns restauranger, Icabutik, Gym, bibliotek och andra bekvämligheter. Promenadavstånd till Slottsskogen på ca 10 minuter och ca 15 minuter till Mariaplan/Majorna med fler restauranger och dylikt. Har trivts väldigt bra i området!",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 40.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Beda Hanssons Gata 11, Västra Frölunda",
-    "url": "https://qasa.com/p/1444301",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/03d140e1c701be2813449e3de024d45be90ef936a1a5664123c6edf2fae20fbf.jpg",
-    "description": "I Järnbrott får du en nyproducerad trea från 2026 med modern komfort och smart planlösning. Som gavellägenhet får du fint ljusinsläpp från tre håll och en härlig balkong i söderläge.\n\nHär finns diskmaskin samt tvättmaskin och torktumlare för en smidig vardag. Ekparkett, stilrent kök och fräscht badrum ger en modern känsla från första dagen.\n\nI Järnbrott får du naturen alldeles runt hörnet som inbjuder till både motion och avkoppling. Samtidigt har du nära till Frölunda Torg med shopping, service och kultur.\n\nTre spårvagnslinjer gör det enkelt att ta sig in till centrala Göteborg, och med cykel tar du dig smidigt både mot havet och city. Här får du helt enkelt det bästa av två världar – lugnet nära naturen och stadens puls inom bekvämt avstånd.\n\nLåter det intressant? Anmäl ditt intresse redan idag! Alla intresseanmälningar görs via HomeQ och urvalet sker utifrån de vägledande köpoängen.",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 13935,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T18:48:53+00:00", "clock": "18:48:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T19:16:38+00:00", "clock": "19:16:38"};
