@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Borstbindaregatan, Göteborg",
+    "url": "https://qasa.com/p/1444191",
+    "image_url": null,
+    "description": "Bostadsrätt i kvillebäcken vån 2 ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 14000,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sagogången, Hisings Backa",
     "url": "https://qasa.com/p/1444081",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/adf923142d8c42b51c2d9c11070235ee770f70038dfe8a4552b5a9d06566e316.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 61, Göteborg",
-    "url": "https://qasa.com/p/1444001",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c4f35d6ffb15d591618e8b1466cd1fea74c9e72eec91cfb4834d1adcb8702c7e.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. *Ingen fysisk visning* \n\nOM LÄGENHETEN\nVälkommen till denna trea! Modernt kök med rostfria vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med möjlighet till tvättmaskin.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nVärme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 79.0,
-    "rent": 10534,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T11:59:05+00:00", "clock": "11:59:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T13:03:17+00:00", "clock": "13:03:17"};
