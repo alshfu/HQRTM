@@ -33,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Smörslottsgatan 10, Göteborg",
+    "url": "https://qasa.com/p/1444145",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/68c0d264827841e20162307b3aea1926245e57c7c50d262628778224bbbb1938.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom planritning och exempelbilder på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. \n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med ljusa  vitvaror och en diskmaskin. \n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. \n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\nOBS! \n\nPlanlösningen och bilder är endast ett exempel, avvikelser kan förekomma. \n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 46.0,
+    "rent": 10194,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kungsladugårdsgatan, Göteborg",
     "url": "https://qasa.com/p/1444032",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fa8e05e6726fcedc94cf52fa466353c98946ee87a26aa8b1f516140ef218de75.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nebulosagatan 14, Göteborg",
-    "url": "https://qasa.com/p/1443914",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ce38456ea8612b6344233b2c8291f8f245e47fd345935ca58f9d944f9c7c5a65.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna charmiga etta! Lägenheten har ett modernt kök med rostfria vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 47.0,
-    "rent": 6745,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T11:35:56+00:00", "clock": "11:35:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-21T11:59:05+00:00", "clock": "11:59:05"};
