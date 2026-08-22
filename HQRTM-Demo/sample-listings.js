@@ -3,9 +3,24 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kopparslagaregatan, Göteborg",
+    "url": "https://qasa.com/p/1429964",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ac7efde304778716f992fa1333c81b90eab3157676009253a230438df065b6f.jpg",
+    "description": "Hyr ut min charmiga och centrala etta på 30 kvm med egen uteplats i lugna Johanneberg. Lägenheten hyrs ut helt omöblerad under ett år. \n\nLägenheten är smart planerad och har ett rymligt allrum med plats för både säng, soffa och arbetsplats. Köket är fullt utrustat med bland annat diskmaskin och plats för matbord. Det stora badrummet har golvvärme samt kombinerad tvättmaskin och torktumlare. Det finns även bra förvaring i platsbyggda garderober.\n\nHär bor du i ett lugnt och trivsamt område med gångavstånd till Willys, busshållplats, Chalmers, Korsvägen, Avenyn, restauranger och caféer.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Merkuriusgatan, Göteborg",
     "url": "https://qasa.com/p/1444563",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac4cb6ecaa23868808d08ddf856241fa097d730de588768282f3cb8b5b5035b3.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d77da4ef865f66c75f83fa292af9aea8f92ddc17772d700e8eac3b93b924787.jpg",
     "description": "Hyr ut min vackra lägenhet vid Merkuriusparken! Vån 3/3, balkong i sydost. Nyrenoverat badrum med badkar och två toaletter! Möblerad! From 1/10. Kortidsuthyrning 3-6 mån.  Nära till otroliga naturområden, sjö, kulturhus, affärer, bus och spårvagn. Husdjur är tyvärr inte välkomna! \n\nInternet, el och parkering ingår! \n\nSöker ansvarsfulla personer utan betalningsanmärkning och med referenser.",
     "district": "Göteborg",
     "rooms": 3.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skånegatan, Göteborg",
-    "url": "https://qasa.com/p/1444358",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/14f6503932c43e33e04aa7ce35818c8a782e9dbbe5ebc0f4b4561f2ed8fe6282.jpg",
-    "description": "Välkommen till denna charmiga lägenhet på Skånegatan i hjärtat av Göteborg Centrum. Här erbjuds moderna bekvämligheter i en ljus och luftfull boendemiljö, komplett med en balkong där du kan njuta av utsikten över staden.\n\nOm bostaden:\nDenna trevliga lägenhet är perfekt för två personer och har en total boyta på 50 kvadratmeter. Den består av två rum, inklusive ett modernt kök som renoverades 2019, utrustat med alla nödvändiga vitvaror såsom kyl och frys, ugn, spis och mikrovågsugn. Här finns även en rymlig vardagsrumsdel där du kan koppla av och njuta av tid framför TV:n. Badrummet har en dusch och toalett. Du kommer också att ha tillgång till gemensamma bekvämligheter som tvättstuga och cykelrum. Flytta in tidigast 2025-08-31 och upplev detta fantastiska boende till och med 2026-06-01. Lägenheten ligger på fjärde våningen och du slipper trapporna tack vare en tillgänglig hiss.\n\nOmråde och kommunikationer:\nBelägen i Göteborg Centrum erbjuder detta hem enkel tillgång till stadens bästa utbud av shopping, kultur och nöje. Bara ett stenkast bort finner du Avenyn med dess pulserande nattliv och spännande restauranger. För den som söker grönområden är Trädgårdsföreningen en underbar park i närheten där du kan njuta av en lugn promenad eller en picknick. Buss- och spårvagnslinjer finns i närheten som tar dig smidigt runt om i staden och anslutningarna till kollektivtrafiken är utmärkta. Välkommen att uppleva ett bekvämt stadsboende i denna välkomnande bostad!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11600,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T05:11:38+00:00", "clock": "05:11:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T05:43:33+00:00", "clock": "05:43:33"};
