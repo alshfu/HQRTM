@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Torkelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1440931",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46c682e8e0b01f602c1caffc2760061279b7ee77d84d41c76021bd9089e6b46d.jpg",
+    "description": "Charmig 4.a med äldre standard i populära Lunden.\nBelägen 1 trappa upp med balkong. Uthyres omöblerad.\n 2 mindre sovrum och ett stort. Rymligt Vardagsrum med plats både för matbord och stor soffa. Kök i äldre standard med nya vitvaror. 1 badrum med stor dusch. Tvättstuga finns i källaren\nFörråd finns.\nNära till affärer och restauranger.\nBuss i närheten och 5 minuters promenad till Redbergsplatsen.\nUthyres tom 31/8-27",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 10972,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Borraregatan, Göteborg",
     "url": "https://qasa.com/p/1444510",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/570ba7bc02f0fafdbd30761ca3f5cb4b0efcd15810ff877b73bda22b62165be3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vintervädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1444589",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4953c49e417ce28accba4e3fd1f8ee73895a995b3c11b563080fa28ab212bb13.jpg",
-    "description": "Jag söker en hyresgäst som är noggrann, ansvarsfull och vill ta väl hand om min ljusa och fräscha 2:a i Göteborg 💗\n\nLägenheten är ca 60 kvm med balkong och diskmaskin 💗 Den hyrs ut delvis möblerad och är mycket trivsam.\n\n💗 Lägenheten är belägen i området Friskväderstorget i Göteborg – ett lugnt och omtyckt område med mycket god närhet till service, kommunikationer och natur.\nLäget är mycket bra med närhet till allt. Precis utanför finns pizzeria, matbutiker (bl.a. Willys vid torget), samt frukt- och salladsbutiker. Endast ca 2 minuters gångavstånd till spårvagn 💗 Samtidigt bor du nära natur och skog.\n\n💗 Hyra: 14000 kr/månad (inklusive allt)\nI hyran ingår värme, el, vatten, parkering, förråd/skåp och wifi 💗\n\n💗 Tillgänglig från början av augusti\n💗 Uthyrning: 1 år med goda möjligheter till förlängning\n\nKrav:\n\n* Fast inkomst\n* Referenser\n* Deposition krävs 💗\n\nVid intresse, skicka gärna en kort prese",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T11:57:47+00:00", "clock": "11:57:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T12:52:55+00:00", "clock": "12:52:55"};
