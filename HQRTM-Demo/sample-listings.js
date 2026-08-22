@@ -48,21 +48,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Borraregatan, Göteborg",
-    "url": "https://qasa.com/p/1444510",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/570ba7bc02f0fafdbd30761ca3f5cb4b0efcd15810ff877b73bda22b62165be3.jpg",
-    "description": "Hej,\n\nJag hyr ut till en person.\n\nJag har en ljus trea om 86 kvadratmeter med inglasad balkong, modernt kök och badrum med. Eftersom jag själv veckopendlar från Göteborg och ofta är bortrest är jag sällan hemma och tänkte därför hyra ut lägenheten som en tvåa.\n\nJag behåller ett sovrum och är där på helgerna och ibland lediga vardagar. Du hyr det andra sovrummet med 120 cm säng,  skrivbord och bokhyllor. Resten av lägenheten som är 52 kvadrat öppet kök, matplats och vardagsrum har du fri tillgång till. \n\nLäget är mycket bra bredvid Chalmers, motionsslinga, gym och restauranger med cykelavstånd till det mesta och busshållplatsen på andra sidan vägen bara.\n\nBerätta gärna mer om dig själv i ett mail, så kan vi sedan pratas vid i telefon innan vi bestämmer om en visning. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 68.0,
-    "rent": 11650,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Snorregatan , Göteborg",
     "url": "https://qasa.com/p/326351",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a82d63c13c2ac51f78a397aad1225837d0f3bacddd8ced443365b4cadc6f2fec.jpg",
@@ -105,6 +90,21 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hansebräckavägen, Styrsö",
+    "url": "https://qasa.com/p/1444673",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cfaef776294b4a141a79e0685d70764c08229aa87466993e34e163d8c3f4a16f.jpg",
+    "description": "Villa Fridhem ligger på Styrsö i Göteborgs Södra skärgård. Det är en Art Novueau-villa byggd 1904 som ursprungligen uppfördes som tullvaktarbostad och som är belägen i öns vackra gamla fiskarsamhälle. \n\nBostaden utgörs av husets övervåning som har balkong med havsutsikt och sin egen separata ingång. I källaren finns tvättmaskin och torktumlare och i trädgården tillgång till en mysig uteplats. Bostaden är delvis möblerad och i hyran igår wifi.  El och värme tillkommer efter förbruk. Jag bor själv på bottenvåningen och i mitt hushåll ingår även två katter och sex fina höns. \n\nHuset ligger 5 minuter från färjeläget Styrsö Tången där båten går direkt till Saltholmen. På morgonen och eftermiddagen går båten även till och från Lindholmspiren och Stenpiren. Annars går snabbuss 114 och spårvagn 11 från Saltholmen till centrum. Det är enkelt att ta sig till och från stan, och båtturen är väldigt vacker.  \n\nPå sommaren (juni, juli och augusti) hyr jag ut övervåningen på dagsbasis till turister och sommargäster.\n",
+    "district": "Styrsö",
+    "rooms": 4.5,
+    "area_m2": 80.0,
+    "rent": 9500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T14:16:11+00:00", "clock": "14:16:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T14:41:56+00:00", "clock": "14:41:56"};
