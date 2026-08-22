@@ -36,11 +36,11 @@ window.HQRTM_SAMPLE = [
     "title": "Björkhöjdsgatan, Göteborg",
     "url": "https://qasa.com/p/1444916",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd6d04b89acf7eb1e138dff400c2257600f118679a762b4659a0ecb32343c2f3.jpg",
-    "description": "Fräsch och modern fristående bostad på 32 m² med egen ingång, belägen i ett lugnt och trevligt område i Västra Frölunda.\n\nBostaden har en öppen planlösning med kök och vardagsrum samt ett fräscht helkaklat badrum med stor dusch. Bostaden hyrs ut möblerad och är redo för inflyttning.\n\nI hyran ingår el, vatten och Wi-Fi. Fri parkering finns precis utanför bostaden.\n\nHär bor du med närhet till ICA och Frölunda Torg, där det finns ett stort utbud av butiker, restauranger, service och goda kommunikationer till centrala Göteborg.\n\nSöker en skötsam och ansvarsfull hyresgäst som tar väl hand om bostaden.",
+    "description": "Fräsch och modern fristående bostad på 32 m² med egen ingång, belägen i ett lugnt och trevligt område i Västra Frölunda.\n\nBostaden har en öppen planlösning med kök och vardagsrum samt ett fräscht helkaklat badrum med stor dusch. Bostaden hyrs ut möblerad och är redo för inflyttning.\n\nI hyran ingår el, vatten och Wi-Fi. Fri parkering finns precis utanför bostaden.\n\nLaddbox för elbil finns tillgänglig mot ett tillägg på 500 kr/månad.\n\nHär bor du med närhet till ICA och Frölunda Torg, där det finns ett stort utbud av butiker, restauranger, service och goda kommunikationer till centrala Göteborg.\n\nSöker en skötsam och ansvarsfull hyresgäst som tar väl hand om bostaden.",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 32.0,
-    "rent": 10000,
+    "rent": 10500,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T18:48:09+00:00", "clock": "18:48:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T19:11:33+00:00", "clock": "19:11:33"};
