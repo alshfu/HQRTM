@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Vintervädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1444589",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4953c49e417ce28accba4e3fd1f8ee73895a995b3c11b563080fa28ab212bb13.jpg",
+    "description": "Jag söker en hyresgäst som är noggrann, ansvarsfull och vill ta väl hand om min ljusa och fräscha 2:a i Göteborg 💗\n\nLägenheten är ca 60 kvm med balkong och diskmaskin 💗 Den hyrs ut delvis möblerad och är mycket trivsam.\n\n💗 Lägenheten är belägen i området Friskväderstorget i Göteborg – ett lugnt och omtyckt område med mycket god närhet till service, kommunikationer och natur.\nLäget är mycket bra med närhet till allt. Precis utanför finns pizzeria, matbutiker (bl.a. Willys vid torget), samt frukt- och salladsbutiker. Endast ca 2 minuters gångavstånd till spårvagn 💗 Samtidigt bor du nära natur och skog.\n\n💗 Hyra: 14000 kr/månad (inklusive allt)\nI hyran ingår värme, el, vatten, parkering, förråd/skåp och wifi 💗\n\n💗 Tillgänglig från början av augusti\n💗 Uthyrning: 1 år med goda möjligheter till förlängning\n\nKrav:\n\n* Fast inkomst\n* Referenser\n* Deposition krävs 💗\n\nVid intresse, skicka gärna en kort prese",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Berguvsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1444601",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/31aa3db9d530796f1fb4f8543da96d62e99465f47962261848fecc3bf0edcf7c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Generalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1444379",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10fb10714ffa06f412f90d552462ab84c3f8d810cf3f3f7254329e5a1bb0e12b.png",
-    "description": "Hej\nHyr ut en trea i bellevue, mellan gamlestaden och kviberg.\nBra läge med 7 minuters spårvagn till centralstationen. \n\nArea: 69 kvadrat\nVåning: 2\nInternet och värme ingår i hyran.\nEl och vatten debiteras efter förbrukning.\n\nBestår av ett vardagsrum, två sovrum, kök plus en walk in closet.\nLägenheten har allt som behövs såsom: badkar, tvättmaskin, torktumlare, diskmaskin, inbyggd mikro samt två balkonger. \n\nUthyres endast till seriösa hyresgäster med god ekonomi, högt ansvar samt som avser att stanna minst ett år.\n\nVälkomna att höra av dig!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 69.0,
-    "rent": 14500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T06:55:06+00:00", "clock": "06:55:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T07:31:39+00:00", "clock": "07:31:39"};
