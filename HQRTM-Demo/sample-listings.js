@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Aronsbergsvägen, Olofstorp",
+    "url": "https://qasa.com/p/1434018",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7459603bd4434e87094ae6e0d3c7dadddd4e0ed73484bbf5f12b1b1805542a8f.jpg",
+    "description": "Källarlägenhet i villa med egen ingång uthyres tillsvidare.\nNyrenoverat kök och badrum.\nLugnt område, ca 12 min till buss som tar dig till stan på 25-30 min.\nInternet och el ingår.\n\n",
+    "district": "Olofstorp",
+    "rooms": 2.0,
+    "area_m2": 32.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sankt Jörgens Väg, Hisings Backa",
+    "url": "https://qasa.com/p/1444757",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a7c5094a54ff640c4b1065619e20d43e0a70e56e2a77cbb00ba7e775f8f0bc8e.jpg",
+    "description": "Välkommen till Sankt Jörgens väg 28A vån3 och denna ljusa, välvårdade etta om 40 kvm.\nHär möts du av en öppen och social planlösning med generöst ljusinsläpp från sydväst. \nHiss finns.\n\nBostaden präglas av genomgående ljusa ytskikt, enhetliga golv och en modern standard som gör vardagen bekväm. \n\nDet stilrena köket med vita fronter är välutrustat och flyter harmoniskt samman med det rymliga vardagsrummet – perfekt för både vardagsmys och sociala sammankomster. \n\nStora härliga fönsterpartier skänker gott ljus och de sociala ytorna förlängs av balkongen som ligger i solsäkert sydväst läge med utsikt mot den lummiga gården, helt utan insyn.\n\nVidare har du ett helkaklat badrum med golvvärme och egen tvättmaskin. En sovalkov med smart avskärmning från vardagsrum. Garderober i anslutning till sovalkoven och hallen. Vidare finns ett förråd finns att nyttja i separat byggnad.\n\nHär bor du i ett naturskönt område längst in på en återvändsgata och som närmsta granne har du den grönskande omgivningen i Sankt Jörgens park samt naturområdet Hökälla med fantastiska promenadstråk. I området har du även närhet till två stycken golfbanor samt Hisingsparken och Slättadamm. Goda kommunikationer via buss tar dig enkelt in till centrala Göteborg på ca 15-20 minuter och det är nära till handel vid Tuve torg, Bäckebol eller Backaplan.\n\nVill du bo nära naturen men med city runt hörnet är detta ett perfekt område för dig. \nEn perfekt kombination av lugn, grönska och bekvämt stadsliv.",
+    "district": "Hisings Backa",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 11000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Torkelsgatan, Göteborg",
     "url": "https://qasa.com/p/1440931",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46c682e8e0b01f602c1caffc2760061279b7ee77d84d41c76021bd9089e6b46d.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hansebräckavägen, Styrsö",
-    "url": "https://qasa.com/p/1444673",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cfaef776294b4a141a79e0685d70764c08229aa87466993e34e163d8c3f4a16f.jpg",
-    "description": "Villa Fridhem ligger på Styrsö i Göteborgs Södra skärgård. Det är en Art Novueau-villa byggd 1904 som ursprungligen uppfördes som tullvaktarbostad och som är belägen i öns vackra gamla fiskarsamhälle. \n\nBostaden utgörs av husets övervåning som har balkong med havsutsikt och sin egen separata ingång. I källaren finns tvättmaskin och torktumlare och i trädgården tillgång till en mysig uteplats. Bostaden är delvis möblerad och i hyran igår wifi.  El och värme tillkommer efter förbruk. Jag bor själv på bottenvåningen och i mitt hushåll ingår även två katter och sex fina höns. \n\nHuset ligger 5 minuter från färjeläget Styrsö Tången där båten går direkt till Saltholmen. På morgonen och eftermiddagen går båten även till och från Lindholmspiren och Stenpiren. Annars går snabbuss 114 och spårvagn 11 från Saltholmen till centrum. Det är enkelt att ta sig till och från stan, och båtturen är väldigt vacker.  \n\nPå sommaren (juni, juli och augusti) hyr jag ut övervåningen på dagsbasis till turister och sommargäster.\n",
-    "district": "Styrsö",
-    "rooms": 4.5,
-    "area_m2": 80.0,
-    "rent": 9500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gånglåten, Västra Frölunda",
-    "url": "https://qasa.com/p/1444696",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/815f5f7bfc1a593bc83dd5b7129a053e3b1aa9a72e6af63c19b15568478a6669.png",
-    "description": "Rum uthyres i en stor och delad lägenhet – Gånglåten 31, Västra Frölunda\n\nHyr ett mysigt rum i en rymlig lägenhet i ett mycket tryggt och säkert område!\n\nOm lägenheten: Du hyr ett privat rum och delar kök och badrum med andra.\n\nOmråde & Service: Perfekt läge med gångavstånd till allt! Nära Frölunda Torg (köpcentrum), mataffärer, gym, idrottsklubbar, skolor och centrum. Excellenta förbindelser med buss och spårvagn.\n\nPassar för: Alla (studenter, arbetande, etc.).\n\nSkicka ditt telefonnummer till oss så hör vi av oss så snart som möjligt!\n\nEnglish (التركيز بالإنجليزية)\nRoom for Rent in a Shared Apartment – Gånglåten 31, Västra Frölunda\n\nA private room is available in a spacious shared apartment located in a very safe and quiet neighborhood.\n\nApartment Details: Private room with shared access to the kitchen and bathroom.\n\nLocation & Amenities: Prime location close to everything! Walking distance to Frölunda Torg mall, supermarkets, gyms, sports clubs, schools, and central connections. Excellent bus and tram transport.\n\nSuitable for: Everyone (students, working professionals, etc.).\n\nSend us your phone number, and we will get back to you as soon as possible!",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 6650,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T12:52:55+00:00", "clock": "12:52:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T13:26:36+00:00", "clock": "13:26:36"};
