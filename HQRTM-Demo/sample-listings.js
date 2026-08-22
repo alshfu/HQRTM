@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ångaren Indias Gata, Göteborg",
+    "url": "https://qasa.com/p/1444728",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/018c86fe910bcfec2e6ef9d4ea97423be31c7dc6dbb945f25e823d78e23e6807.jpg",
+    "description": "Fräsch 1.5a om 30kvm med altan om ytterligare 20 kvm. \n\nMycket rymligt kök med fräscha vitvaror. Rymligt badrum med ny tvätt/tork som fungerar oerhört bra! Totalt 3st fullstora garderober för kläder varav 1 idag används som städskrubb utöver det finns förvaring för linne, extra täcken, handdukar osv. Sovdelen är avskärmad från övriga lägenheten och rymmer en 140cm bred säng. Altanen är mot en väldigt trevlig innergård i söderläge. Buss 80m från bostaden som går till city på 11 minuter.\n\nLägenheten levereras med säng, soffa och utegrupp om det önskas,  grill. \n\nOBS: Under slutet av hyresperioden kommer lägenheten läggas ut till försäljning och ett krav är därmed att du som hyresgäst kan ställa lägenheten till förfogande för visning någon/några gånger när det blir aktuellt.\n\nDu som hyresgäst är djur/rökfri, ordningsam med ordnad ekonomi.\n\n\nFresh 1.5-room apartment of 30m² with a balcony of an additional 20m².\n\nVery spacious kitchen with modern appliances. Spacious bathroom with a new washer/dryer that works incredibly well! A total of 3 full-size wardrobes for clothes, with one currently being used as a cleaning closet. In addition, there is storage for linens, extra blankets, towels, etc. The sleeping area is separated from the rest of the apartment and accommodates a 140cm wide bed. The balcony faces a very pleasant courtyard with a southern exposure. Bus stop 80m from the apartment with a route to the city in 11 minutes.\n\nThe apartment is offered with a sofa, bed and outdoor furniture, if desired, along with a barbecue.\n\nNote: At the end of the rental lease the apartment will be listed for sale, and therefore, as a tenant, you will be required to make the apartment available for viewings a few times when the time comes.\n\nAs a tenant, you should be pet/smoke-free, orderly, and have a stable economy.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hansebräckavägen, Styrsö",
+    "url": "https://qasa.com/p/1444673",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cfaef776294b4a141a79e0685d70764c08229aa87466993e34e163d8c3f4a16f.jpg",
+    "description": "Villa Fridhem ligger på Styrsö i Göteborgs Södra skärgård. Det är en Art Novueau-villa byggd 1904 som ursprungligen uppfördes som tullvaktarbostad och som är belägen i öns vackra gamla fiskarsamhälle. \n\nBostaden utgörs av husets övervåning som har balkong med havsutsikt och sin egen separata ingång. I källaren finns tvättmaskin och torktumlare och i trädgården tillgång till en mysig uteplats. Bostaden är delvis möblerad och i hyran igår wifi.  El och värme tillkommer efter förbruk. Jag bor själv på bottenvåningen och i mitt hushåll ingår även två katter och sex fina höns. \n\nHuset ligger 5 minuter från färjeläget Styrsö Tången där båten går direkt till Saltholmen. På morgonen och eftermiddagen går båten även till och från Lindholmspiren och Stenpiren. Annars går snabbuss 114 och spårvagn 11 från Saltholmen till centrum. Det är enkelt att ta sig till och från stan, och båtturen är väldigt vacker.  \n\nPå sommaren (juni, juli och augusti) hyr jag ut övervåningen på dagsbasis till turister och sommargäster.\n",
+    "district": "Styrsö",
+    "rooms": 4.5,
+    "area_m2": 80.0,
+    "rent": 9500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gånglåten, Västra Frölunda",
+    "url": "https://qasa.com/p/1444696",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/815f5f7bfc1a593bc83dd5b7129a053e3b1aa9a72e6af63c19b15568478a6669.png",
+    "description": "Rum uthyres i en stor och delad lägenhet – Gånglåten 31, Västra Frölunda\n\nHyr ett mysigt rum i en rymlig lägenhet i ett mycket tryggt och säkert område!\n\nOm lägenheten: Du hyr ett privat rum och delar kök och badrum med andra.\n\nOmråde & Service: Perfekt läge med gångavstånd till allt! Nära Frölunda Torg (köpcentrum), mataffärer, gym, idrottsklubbar, skolor och centrum. Excellenta förbindelser med buss och spårvagn.\n\nPassar för: Alla (studenter, arbetande, etc.).\n\nSkicka ditt telefonnummer till oss så hör vi av oss så snart som möjligt!\n\nEnglish (التركيز بالإنجليزية)\nRoom for Rent in a Shared Apartment – Gånglåten 31, Västra Frölunda\n\nA private room is available in a spacious shared apartment located in a very safe and quiet neighborhood.\n\nApartment Details: Private room with shared access to the kitchen and bathroom.\n\nLocation & Amenities: Prime location close to everything! Walking distance to Frölunda Torg mall, supermarkets, gyms, sports clubs, schools, and central connections. Excellent bus and tram transport.\n\nSuitable for: Everyone (students, working professionals, etc.).\n\nSend us your phone number, and we will get back to you as soon as possible!",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 34.0,
+    "rent": 6650,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vintervädersgatan, Göteborg",
     "url": "https://qasa.com/p/1444589",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4953c49e417ce28accba4e3fd1f8ee73895a995b3c11b563080fa28ab212bb13.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Merkuriusgatan, Göteborg",
-    "url": "https://qasa.com/p/1444563",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3d77da4ef865f66c75f83fa292af9aea8f92ddc17772d700e8eac3b93b924787.jpg",
-    "description": "Hyr ut min vackra lägenhet vid Merkuriusparken! Vån 3/3, balkong i sydost. Nyrenoverat badrum med badkar och två toaletter! Möblerad! From 1/10. Kortidsuthyrning 3-6 mån.  Nära till otroliga naturområden, sjö, kulturhus, affärer, bus och spårvagn. Husdjur är tyvärr inte välkomna! \n\nInternet, el och parkering ingår! \n\nSöker ansvarsfulla personer utan betalningsanmärkning och med referenser.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 8000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Thorburnsgatan, Göteborg",
-    "url": "https://qasa.com/p/1430550",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83908e171339ef43545a11a0659e5ee38f45e887dc16178bc26cb53bf413790b.jpg",
-    "description": "En tvåa på markplan nära beläget till centrala Göteborg. Lägenheten helrenoverades 2018 och badrum och kök är modernt och fräscht. Ett mindre förrådsutrymme finns i lägenheten samt vindsförråd. \n\nHyrs ut då jag ska flytta in hos min partner och hyrs ut omöblerad. I hyran ingår bredband. El tillkommer enligt inkommande fakturor under hyresperioden.\n\nLugnt barnfamiljsområde, två minuters promenad till närmsta matbutik och gym, samt fyra minuter spårvagn till korsvägen knutpunkt. \n\nInflyttning så snart som möjligt, dock tidigast upp till en månad från kontraktskrivning och inskickad ansökan om andrahandsuthyrning till wallenstam. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 57.0,
-    "rent": 10750,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Götaverksgatan, Göteborg",
-    "url": "https://qasa.com/p/1444483",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6d6b85b02c012c3f9be836dda0bfa5ac5c157e5252697bbb4c61d8cff62bf236.jpg",
-    "description": "Tre sovrum och kök i öppen planlösning. Balkong i sydvästläge med utsikt över vattnet och kajerna. Ett rymligt sovrum och två något mindre sovrum/arbetsrum/gästrum/barnrum. Stort badrum med dusch, tvättmaskin och torktumlare. Lägenheten ligger 250 meter söder om Regnbågsgatan station och 600 meter från Lindholmspiren. Transportmöjligheterna är mycket bekväma. Hyrs utan möbler.\n\nP.S. Det är en ganska fin och ny lägenhet. Den är dock omöblerad. Bilden är tagen innan alla möbler var borttagna. Hyrestiden är förhandlingsbar. Även om detta inte är planerat för långtidsuthyrning är hyreskostnaden förhandlingsbar och kan sänkas ytterligare vid behov.\nDessutom, eftersom det är en ny lägenhet, ingår inte el- och varmvattenkostnader i hyran. Övriga kostnader ingår.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 91.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T09:57:35+00:00", "clock": "09:57:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T10:30:27+00:00", "clock": "10:30:27"};
