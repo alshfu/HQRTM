@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fyrbåksvägen , Torslanda",
+    "url": "https://qasa.com/p/1444679",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa50f589c34f1db73d62fff0b1f5a96d0d7ef2df5298e0016c3766b5378546f6.jpg",
+    "description": "Mycket ljus och hemtrevlig fristående gästhus/bostad längst in på en återvändsgata intill hav och skogsområde. Gästhuset når du via separat trappa direkt från egen parkeringsplats.  \nBostaden har en öppen planlösning mellan möblerat kök och vardagsrum + fransk balkong.  Ny 50´´Tv med  Apple-TV.  Separat sovrum med 160 säng + utgång till insynsskyddad altan på ca 20kvm.  Badrum med dusch och tvättmaskin. \n\nEl, vatten, värme, bredband, parkering samt sophämtning ingår. \n\nPromenad ca 10-15 min /cykel  ca 5 min till busshållplats (Långrevsvägen).\n \nVi söker dig som uppskattar ett  lugn och naturnära boende i ett tryggt villaområde.  Du är en trevlig, djur- och rökfri person som uppskattar lugnet före stadens puls.  Ordnad ekonomi  samt referenser. \n\nKan denna bostad passa just dig är du varmt välkommen att kontakta oss med ett beskrivning av dig själv och din bostadssituation. \n\n\n",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ångaren Indias Gata, Göteborg",
     "url": "https://qasa.com/p/1444728",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/018c86fe910bcfec2e6ef9d4ea97423be31c7dc6dbb945f25e823d78e23e6807.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kopparslagaregatan, Göteborg",
-    "url": "https://qasa.com/p/1429964",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ac7efde304778716f992fa1333c81b90eab3157676009253a230438df065b6f.jpg",
-    "description": "Hyr ut min charmiga och centrala etta på 30 kvm med egen uteplats i lugna Johanneberg. Lägenheten hyrs ut helt omöblerad under ett år. \n\nLägenheten är smart planerad och har ett rymligt allrum med plats för både säng, soffa och arbetsplats. Köket är fullt utrustat med bland annat diskmaskin och plats för matbord. Det stora badrummet har golvvärme samt kombinerad tvättmaskin och torktumlare. Det finns även bra förvaring i platsbyggda garderober.\n\nHär bor du i ett lugnt och trivsamt område med gångavstånd till Willys, busshållplats, Chalmers, Korsvägen, Avenyn, restauranger och caféer.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T10:30:27+00:00", "clock": "10:30:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T10:53:53+00:00", "clock": "10:53:53"};
