@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Borraregatan, Göteborg",
+    "url": "https://qasa.com/p/1444510",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/570ba7bc02f0fafdbd30761ca3f5cb4b0efcd15810ff877b73bda22b62165be3.jpg",
+    "description": "Hej,\n\nJag hyr ut till en person.\n\nJag har en ljus trea om 86 kvadratmeter med inglasad balkong, modernt kök och badrum med. Eftersom jag själv veckopendlar från Göteborg och ofta är bortrest är jag sällan hemma och tänkte därför hyra ut lägenheten som en tvåa.\n\nJag behåller ett sovrum och är där på helgerna och ibland lediga vardagar. Du hyr det andra sovrummet med 120 cm säng,  skrivbord och bokhyllor. Resten av lägenheten som är 52 kvadrat öppet kök, matplats och vardagsrum har du fri tillgång till. \n\nLäget är mycket bra bredvid Chalmers, motionsslinga, gym och restauranger med cykelavstånd till det mesta och busshållplatsen på andra sidan vägen bara.\n\nBerätta gärna mer om dig själv i ett mail, så kan vi sedan pratas vid i telefon innan vi bestämmer om en visning. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 68.0,
+    "rent": 11650,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Snorregatan , Göteborg",
+    "url": "https://qasa.com/p/326351",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a82d63c13c2ac51f78a397aad1225837d0f3bacddd8ced443365b4cadc6f2fec.jpg",
+    "description": "Lägenhet uthyres i Hisingen. Ett mycket fint villaområde i Lundby. Lägenheten har 2 rum med kök och badrum, och har separat ingång. Det ligger 3 minuters promenad till närmaste hållplats. Det är ett förstahandskontrakt",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 70.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fyrbåksvägen , Torslanda",
     "url": "https://qasa.com/p/1444679",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa50f589c34f1db73d62fff0b1f5a96d0d7ef2df5298e0016c3766b5378546f6.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Berguvsgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1444601",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/31aa3db9d530796f1fb4f8543da96d62e99465f47962261848fecc3bf0edcf7c.jpg",
-    "description": "Nyrenoverad och trivsam 1:a i centrala Hisingen\n\nVälkommen till en ljus och nyrenoverad etta i centrala Hisingen. Lägenheten har egen ingång och ligger i anslutning till vår villa, vilket ger ett privat och lugnt boende.\n\nMycket goda kommunikationer – endast ca 100 meter till busshållplats där buss 42 går till Backaplan. Från Backaplan finns flera buss- och spårvagnsförbindelser som tar dig vidare runt hela Göteborg. Restid till centrala Göteborg är ca 10 minuter med kollektivtrafik.\n\nParkeringsplats finns för dig som har egen bil.\n\nLägenheten är möblerad med det nödvändigaste, inklusive bäddsoffa som säng samt köksutrustning och basala köksredskap.\n\n- 38 kvm\n- Inflyttning omgående \n- Hyra: 9000kr (el/vatten ingår ej)\n- Önskad hyresgäst: 1 person, inga husdjur, lugnt och skötsam \n- Hyresperiod: Start 1 år med möjlighet till förlängning",
-    "district": "Hisings Backa",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björnväktarens Gata, Göteborg",
-    "url": "https://qasa.com/p/1444587",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4e76c2a0b21deabf114b6a3e54b643a22cc73320fc6bc1e32176a3ee70939716.jpg",
-    "description": "Våning i villa uthyres – tillgänglig omgående,\nEn våning i en villa uthyres i ett lugnt och trevligt villaområde i Bergsjön.\nBostaden består av 3 rum och kök.\nTillgång till en stor gård.\nBusshållplats finns cirka 3 minuters gångavstånd från bostaden.\nKontraktet gäller i ett år, med möjlighet till förlängning.\nHyra 12000:- El och värme tillkommer",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 64.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T11:17:17+00:00", "clock": "11:17:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T11:40:01+00:00", "clock": "11:40:01"};
