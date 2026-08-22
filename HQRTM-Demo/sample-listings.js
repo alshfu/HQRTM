@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ernst Torulfsgatan, Göteborg",
+    "url": "https://qasa.com/p/1444904",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d26270f4857f713298105eff19ec6cae3cca8c819ec0211a233651470e2b6236.jpg",
+    "description": "Fin och ljus etta i trivsamma Munkebäck med ett härligt ljusinsläpp.\n\nNär du kliver in i lägenheten möts du av en rymlig hall med köket direkt till höger. Köket är ljust och luftigt med två stora fönster som ger ett fint naturligt ljus.\n\nFrån hallen når du vardagsrummet, som är möblerat med en 2,5-sitssoffa, matta, soffbord, TV samt en enkelsäng (90 × 200 cm).\nI hyran ingår allt såsom bredband, värme, vatten. Finns spårvagns och bussförbindelse inom gångavstånd. \n\nLägenheten ligger nära till gym (SATS) och ICA Munkebäck kvantum. Finns även en Coop några hundra meter från lägenheten.\n\nUtöver det som syns på bild finns även en klädkammare i hallen. \nObservera att dataskärmen på bilden i köket ingår inte.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 44.0,
+    "rent": 10200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Majtorpsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1429813",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d41ac9b5f1df0b7b614b3d85f3e86ed1a468377bfe3114487dc5deb34891a23.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Snorregatan , Göteborg",
-    "url": "https://qasa.com/p/326351",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a82d63c13c2ac51f78a397aad1225837d0f3bacddd8ced443365b4cadc6f2fec.jpg",
-    "description": "Lägenhet uthyres i Hisingen. Ett mycket fint villaområde i Lundby. Lägenheten har 2 rum med kök och badrum, och har separat ingång. Det ligger 3 minuters promenad till närmaste hållplats. Det är ett förstahandskontrakt",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 70.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T17:28:20+00:00", "clock": "17:28:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T17:49:41+00:00", "clock": "17:49:41"};
