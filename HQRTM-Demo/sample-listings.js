@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Lönnskärsdamm, Brännö",
     "url": "https://qasa.com/p/1444837",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37176f23657679610e53832f0328887aa34eab76cd27058149551f5dcaf0f29a.jpg",
-    "description": "Jättefin stuga perfekt för två personer. Sovrum och wc , dusch och tvätt (rymligt så det går att hänga tvätt där) nere med ingång och trapp inne. Övervåning 27 m2 med kök , matplats samt del med bäddsoffa och braskamin.  Uteplatser runt om hela huset.\nFördelar/nackdelar : \nDet tar 1 tim till centrum. Man får cykla 10 min till skärgårdsbåten. \nMan kommer verkligen naturnära trots nörheten till staden. Det brukar bo studenter i småstugor på granntomterna.",
+    "description": "Jättefin stuga perfekt för två personer. Sovrum och wc , dusch och tvätt (rymligt så det går att hänga tvätt där) nere med ingång och trappa inne. Övervåning 27 m2 med kök , matplats samt del med bäddsoffa och braskamin.  Uteplatser runt om hela huset.\nFördelar/nackdelar : \nDet tar 1 tim till centrum. Man får cykla 10 min till skärgårdsbåten. Den går ca varje timme.\n\nMan kommer verkligen naturnära trots nörheten till staden. Det brukar bo studenter i småstugor på granntomterna.",
     "district": "Brännö",
     "rooms": 2.0,
     "area_m2": 50.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T15:29:35+00:00", "clock": "15:29:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T15:49:58+00:00", "clock": "15:49:58"};
