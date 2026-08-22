@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Merkuriusgatan, Göteborg",
+    "url": "https://qasa.com/p/1444563",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac4cb6ecaa23868808d08ddf856241fa097d730de588768282f3cb8b5b5035b3.jpg",
+    "description": "Hyr ut min vackra lägenhet vid Merkuriusparken! Vån 3/3, balkong i sydost. Nyrenoverat badrum med badkar och två toaletter! Möblerad! From 1/10. Kortidsuthyrning 3-6 mån.  Nära till otroliga naturområden, sjö, kulturhus, affärer, bus och spårvagn. Husdjur är tyvärr inte välkomna! \n\nInternet, el och parkering ingår! \n\nSöker ansvarsfulla personer utan betalningsanmärkning och med referenser.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 8000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Thorburnsgatan, Göteborg",
     "url": "https://qasa.com/p/1430550",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/83908e171339ef43545a11a0659e5ee38f45e887dc16178bc26cb53bf413790b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bohusgatan, Göteborg",
-    "url": "https://qasa.com/p/1444346",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d38c94b3fd1a2038731bc8de27dba1a2a002ec3245bab430bc332fdc8f59dbeb.jpg",
-    "description": "- 2,5 RoK (sovrum, kontor/barnkammare/vardagsrum)\n- öppen planlösning mellan kök och TV rum\n- Walk-in-closet\n- inglasad balkong mot Bohusgatan\n- privat uteterass med bra insynskydd mot innergård\n- gemensamt gym och bastu finns att utnyttjas kostnadsfritt\n- tillgång till boulebana och grill på innergård \n- tillgång till cykelförråd\n- nära till ICA Nära, Willys m.m.\n- gångsavstånd till Valand, Centralstationen, Korsvägen m.m.\n- delvis möblerat (diskuterbart)\n\nBostaden hyrs ut i dagsläget och möbleringen ser inte ut som enligt bilderna. Hör av dig/er för visning 😊",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 65.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T04:44:12+00:00", "clock": "04:44:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T05:11:38+00:00", "clock": "05:11:38"};
