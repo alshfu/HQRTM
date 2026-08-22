@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Majtorpsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1429813",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d41ac9b5f1df0b7b614b3d85f3e86ed1a468377bfe3114487dc5deb34891a23.jpg",
+    "description": "\n​Ljus och trevlig 3:a i lugna Hisings Backa (Åketorp) – Uthyres tills vidare!\n\n​Nu finns tillfälle att hyra ett trivsamt radhus i bottenvåning om 3 rum och kök (76 kvm) i det populära och lugna området Åketorp i Hisings Backa.  \n​Om bostaden:\n​Våningsplan: Bottenvåning.\n​Inflyttning: 1 september (uthyres tills vidare).\n​Egen ingång för privat känsla.  \n​Planlösning: 2 sovrum, ett rymligt vardagsrum samt ett stort, fullt utrustat kök.  \n​Utemiljö: Tillgång till trädgård i söderläge med utemöbler, samt utgång från vardagsrummet till en baksida där du kan njuta av kvällssolen.  \n​Bekvämligheter: Badrum och egen tvättstuga.  \n​Möblering: Uthyres möblerad eller omöblerad – efter dina önskemål!  \n​Område & Kommunikationer:\nHär bor du med närhet till allt du behöver: matbutiker, gym, vårdcentral, St. Jörgen Spa, golfbana och härliga grönområden.  \n​Busshållplats ligger precis tvärs över gatan (ca 50 m).  \n​Cirka 7 km till Göteborgs centrum.  \n​Hyra & Villkor:\n​Hyra: 12 800 kr/mån (avsett för 2 personer).  \n​Deposition: 2 månadshyra krävs.\n​Ingår i hyran: Internet, TV kanaler och vanlig parkeringsplats.  \n​Garage & Laddning: Möjlighet till garage med elbilsladdare finns mot en extra kostnad.\n​Tillkommer: El och vatten och sophämtning. \n​Krav på hyresgäst: Fast inkomst och inga husdjur.  \n\n​English version\n​Bright & Charming 2-Bedroom Terraced House in Peaceful Hisings Backa (Åketorp) – Long-term rent!\n​A lovely 76 sqm ground-floor terraced house (3 rooms + kitchen) is now available for long-term rent in the quiet and popular area of Åketorp, Hisings Backa.  \n​About the Home:\n​Floor: Ground floor.\n​Move-in date: September 1st (rented until further notice / long-term).\n​Private entrance for added privacy.  \n​Layout: 2 bedrooms, a spacious living room, and a large, fully equipped kitchen.  \n​Outdoor Space: Access to a south-facing garden with outdoor furniture, plus access from the living room to a backyard perfect for enjoying the evening sun.  \n​Amenities: Bathroom and dedicated laundry room.  \n​Furnishing: Can be rented furnished or unfurnished, based on your preferences.  \n​Location & Transport:\nGreat location close to everyday essentials: grocery stores, gyms, a medical center, St. Jörgen Spa, a golf course, and beautiful green areas.  \n​Bus stop right across the street (approx. 50 meters).  \n​Only 7 km to Gothenburg city center.  \n​Rental Terms:\n​Rent: 12, 800 SEK/month (intended for 2 people).  \n​Deposit: 2 tmonths' rent required.\n​Included: Internet, TV chanals and regular parking space.  \n​Garage & EV Charging: Option for a garage with EV charging available for an additional fee.\n​Additional: Electricity; waste and water costs.  \n​Requirements: Steady income and no pets allowed.  ",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 76.0,
+    "rent": 12800,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Björkhöjdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1444916",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd6d04b89acf7eb1e138dff400c2257600f118679a762b4659a0ecb32343c2f3.jpg",
+    "description": "Fräsch och modern fristående bostad på 32 m² med egen ingång, belägen i ett lugnt och trevligt område i Västra Frölunda.\n\nBostaden har en öppen planlösning med kök och vardagsrum samt ett fräscht helkaklat badrum med stor dusch. Bostaden hyrs ut möblerad och är redo för inflyttning.\n\nI hyran ingår el, vatten och Wi-Fi. Fri parkering finns precis utanför bostaden.\n\nHär bor du med närhet till ICA och Frölunda Torg, där det finns ett stort utbud av butiker, restauranger, service och goda kommunikationer till centrala Göteborg.\n\nSöker en skötsam och ansvarsfull hyresgäst som tar väl hand om bostaden.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lönnskärsdamm, Brännö",
     "url": "https://qasa.com/p/1444837",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37176f23657679610e53832f0328887aa34eab76cd27058149551f5dcaf0f29a.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrbåksvägen , Torslanda",
-    "url": "https://qasa.com/p/1444679",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa50f589c34f1db73d62fff0b1f5a96d0d7ef2df5298e0016c3766b5378546f6.jpg",
-    "description": "Mycket ljus och hemtrevlig fristående gästhus/bostad längst in på en återvändsgata intill hav och skogsområde. Gästhuset når du via separat trappa direkt från egen parkeringsplats.  \nBostaden har en öppen planlösning mellan möblerat kök och vardagsrum + fransk balkong.  Ny 50´´Tv med  Apple-TV.  Separat sovrum med 160 säng + utgång till insynsskyddad altan på ca 20kvm.  Badrum med dusch och tvättmaskin. \n\nEl, vatten, värme, bredband, parkering samt sophämtning ingår. \n\nPromenad ca 10-15 min /cykel  ca 5 min till busshållplats (Långrevsvägen).\n \nVi söker dig som uppskattar ett  lugn och naturnära boende i ett tryggt villaområde.  Du är en trevlig, djur- och rökfri person som uppskattar lugnet före stadens puls.  Ordnad ekonomi  samt referenser. \n\nKan denna bostad passa just dig är du varmt välkommen att kontakta oss med ett beskrivning av dig själv och din bostadssituation. \n\n\n",
-    "district": "Torslanda",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ångaren Indias Gata, Göteborg",
-    "url": "https://qasa.com/p/1444728",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/018c86fe910bcfec2e6ef9d4ea97423be31c7dc6dbb945f25e823d78e23e6807.jpg",
-    "description": "Fräsch 1.5a om 30kvm med altan om ytterligare 20 kvm. \n\nMycket rymligt kök med fräscha vitvaror. Rymligt badrum med ny tvätt/tork som fungerar oerhört bra! Totalt 3st fullstora garderober för kläder varav 1 idag används som städskrubb utöver det finns förvaring för linne, extra täcken, handdukar osv. Sovdelen är avskärmad från övriga lägenheten och rymmer en 140cm bred säng. Altanen är mot en väldigt trevlig innergård i söderläge. Buss 80m från bostaden som går till city på 11 minuter.\n\nLägenheten levereras med säng, soffa och utegrupp om det önskas,  grill. \n\nOBS: Under slutet av hyresperioden kommer lägenheten läggas ut till försäljning och ett krav är därmed att du som hyresgäst kan ställa lägenheten till förfogande för visning någon/några gånger när det blir aktuellt.\n\nDu som hyresgäst är djur/rökfri, ordningsam med ordnad ekonomi.\n\n\nFresh 1.5-room apartment of 30m² with a balcony of an additional 20m².\n\nVery spacious kitchen with modern appliances. Spacious bathroom with a new washer/dryer that works incredibly well! A total of 3 full-size wardrobes for clothes, with one currently being used as a cleaning closet. In addition, there is storage for linens, extra blankets, towels, etc. The sleeping area is separated from the rest of the apartment and accommodates a 140cm wide bed. The balcony faces a very pleasant courtyard with a southern exposure. Bus stop 80m from the apartment with a route to the city in 11 minutes.\n\nThe apartment is offered with a sofa, bed and outdoor furniture, if desired, along with a barbecue.\n\nNote: At the end of the rental lease the apartment will be listed for sale, and therefore, as a tenant, you will be required to make the apartment available for viewings a few times when the time comes.\n\nAs a tenant, you should be pet/smoke-free, orderly, and have a stable economy.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T16:58:48+00:00", "clock": "16:58:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T17:28:20+00:00", "clock": "17:28:20"};
