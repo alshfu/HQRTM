@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lönnskärsdamm, Brännö",
+    "url": "https://qasa.com/p/1444837",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37176f23657679610e53832f0328887aa34eab76cd27058149551f5dcaf0f29a.jpg",
+    "description": "Jättefin stuga perfekt för två personer. Sovrum och wc , dusch och tvätt (rymligt så det går att hänga tvätt där) nere med ingång och trapp inne. Övervåning 27 m2 med kök , matplats samt del med bäddsoffa och braskamin.  Uteplatser runt om hela huset.\nFördelar/nackdelar : \nDet tar 1 tim till centrum. Man får cykla 10 min till skärgårdsbåten. \nMan kommer verkligen naturnära trots nörheten till staden. Det brukar bo studenter i småstugor på granntomterna.",
+    "district": "Brännö",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Aronsbergsvägen, Olofstorp",
     "url": "https://qasa.com/p/1434018",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7459603bd4434e87094ae6e0d3c7dadddd4e0ed73484bbf5f12b1b1805542a8f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hansebräckavägen, Styrsö",
-    "url": "https://qasa.com/p/1444673",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cfaef776294b4a141a79e0685d70764c08229aa87466993e34e163d8c3f4a16f.jpg",
-    "description": "Villa Fridhem ligger på Styrsö i Göteborgs Södra skärgård. Det är en Art Novueau-villa byggd 1904 som ursprungligen uppfördes som tullvaktarbostad och som är belägen i öns vackra gamla fiskarsamhälle. \n\nBostaden utgörs av husets övervåning som har balkong med havsutsikt och sin egen separata ingång. I källaren finns tvättmaskin och torktumlare och i trädgården tillgång till en mysig uteplats. Bostaden är delvis möblerad och i hyran igår wifi.  El och värme tillkommer efter förbruk. Jag bor själv på bottenvåningen och i mitt hushåll ingår även två katter och sex fina höns. \n\nHuset ligger 5 minuter från färjeläget Styrsö Tången där båten går direkt till Saltholmen. På morgonen och eftermiddagen går båten även till och från Lindholmspiren och Stenpiren. Annars går snabbuss 114 och spårvagn 11 från Saltholmen till centrum. Det är enkelt att ta sig till och från stan, och båtturen är väldigt vacker.  \n\nPå sommaren (juni, juli och augusti) hyr jag ut övervåningen på dagsbasis till turister och sommargäster.\n",
-    "district": "Styrsö",
-    "rooms": 4.5,
-    "area_m2": 80.0,
-    "rent": 9500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T14:59:50+00:00", "clock": "14:59:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T15:29:35+00:00", "clock": "15:29:35"};
