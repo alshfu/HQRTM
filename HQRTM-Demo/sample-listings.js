@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Berguvsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1444601",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/31aa3db9d530796f1fb4f8543da96d62e99465f47962261848fecc3bf0edcf7c.jpg",
+    "description": "Nyrenoverad och trivsam 1:a i centrala Hisingen\n\nVälkommen till en ljus och nyrenoverad etta i centrala Hisingen. Lägenheten har egen ingång och ligger i anslutning till vår villa, vilket ger ett privat och lugnt boende.\n\nMycket goda kommunikationer – endast ca 100 meter till busshållplats där buss 42 går till Backaplan. Från Backaplan finns flera buss- och spårvagnsförbindelser som tar dig vidare runt hela Göteborg. Restid till centrala Göteborg är ca 10 minuter med kollektivtrafik.\n\nParkeringsplats finns för dig som har egen bil.\n\nLägenheten är möblerad med det nödvändigaste, inklusive bäddsoffa som säng samt köksutrustning och basala köksredskap.\n\n- 38 kvm\n- Inflyttning omgående \n- Hyra: 9000kr (el/vatten ingår ej)\n- Önskad hyresgäst: 1 person, inga husdjur, lugnt och skötsam \n- Hyresperiod: Start 1 år med möjlighet till förlängning",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 8500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Björnväktarens Gata, Göteborg",
+    "url": "https://qasa.com/p/1444587",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4e76c2a0b21deabf114b6a3e54b643a22cc73320fc6bc1e32176a3ee70939716.jpg",
+    "description": "Våning i villa uthyres – tillgänglig omgående,\nEn våning i en villa uthyres i ett lugnt och trevligt villaområde i Bergsjön.\nBostaden består av 3 rum och kök.\nTillgång till en stor gård.\nBusshållplats finns cirka 3 minuters gångavstånd från bostaden.\nKontraktet gäller i ett år, med möjlighet till förlängning.\nHyra 12000:- El och värme tillkommer",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 64.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kopparslagaregatan, Göteborg",
     "url": "https://qasa.com/p/1429964",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ac7efde304778716f992fa1333c81b90eab3157676009253a230438df065b6f.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Handelsmyntet, Göteborg",
-    "url": "https://qasa.com/p/1444452",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/869c29d620a38b4849e49f26fc46c76c4f7cdcd05229b41d22641bcceac1f56d.jpg",
-    "description": "Charmig 1,5:a i Högsbo på 7:e våningen med en stor och härlig balkong i västerläge.\nHär har du nära till livsmedelsbutiker, gym och grönområden. Endast 5 minuter med spårvagn till Frölunda Torg samt Slottskogen/Linneplatsen och 15 minuter in till Centrala Göteborg. Spårvagnshållplatsen är belägen precis utanför. Lägenhet passar perfekt för en person men går utmärkt att bo två i. \n\nLägenheten kommer fullt möblerad (om man så vill) med en stor tv och tillgång till bredband. En kombinerad tvätt/torktumlare finns i lägenheten samt tillgång till tvättstuga på entréplan. \n\nHyran 13000kr inklusive el, vatten, värme och bredband. \n\nPå grund av arbete på annan ort hyrs lägenheten ut fr.om 1/10 till tillsvidare. \n\nKontakta gärna vid övriga frågor eller önskemål.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 45.0,
-    "rent": 13000,
-    "floor": 7,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Axel Dahlströms torg, Göteborg",
-    "url": "https://qasa.com/p/1444214",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd5360aa85647d0c21f515baa48b6f65b608f68b768e1ca082f004b68cb40dbf.jpg",
-    "description": "Rymlig och välplanerad etta på Axel Dahlströms torg. Huset är byggt på 50-talet och lägenheten nyrenoverad 2021, med fräscha vitvaror. Gott om garderobsutrymme samt fransk balkong i både kök och allrum. \n\nJag hyr ut eftersom jag ska studera på annan ort i 3 år. I hyran ingår varmvatten, bredband och basic möblemang. Obs lite annorlunda än på bilderna, då jag tar med mig vissa möbler som kommer ersättas. Hyresgäst tecknar eget elavtal och hemförsäkring. \n\nMycket goda kommunikationer till centrum, Frölunda torg köpcentrum och naturområden. Spårvagnshållplats i princip utanför dörren. På torget precis nedanför finns restauranger, Icabutik, Gym, bibliotek och andra bekvämligheter. Promenadavstånd till Slottsskogen på ca 10 minuter och ca 15 minuter till Mariaplan/Majorna med fler restauranger och dylikt. Har trivts väldigt bra i området!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 6913,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T06:02:08+00:00", "clock": "06:02:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-22T06:55:06+00:00", "clock": "06:55:06"};
