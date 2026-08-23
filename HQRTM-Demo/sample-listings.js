@@ -3,14 +3,29 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Urmakaregatan, Göteborg",
-    "url": "https://qasa.com/p/1445476",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2392330c611c522a36fbe896ca3c7edae3d71834c57a8a11b5827870571687d9.jpg",
-    "description": "Långtidsuthyrning av vår attefallare från 1 augusti\n\nVi hyr omgående ut vår attefallare på 30 kvm i Utby. Byggnaden färdigställdes under 2022 och passar bäst för en person som är djur och rökfri.\n\nBostaden är friliggande och består av: \n\nSovrum\nmed en säng om 140 cm (med förvaring under)\nen garderob plus klädställ för förvaring av kläder\nsamt ett vägghängt (litet) skrivbord med stol\n\nKök / rum\nLitet kök med alla attiraljer, med bänkkyl och liten frys / induktionshäll (2 plattor) / kombiugn / liten diskmaskin\nKöket är välutrustat med glas, porslin och andra kökattiraljer\nBarbord med plats för 3 personer\nSäng / soffa (80 cm bred) – som går att bädda ut för en övernattande gäst\n\nBadrum\nToalett, handfat och dusch \nKombinerad tvätt / tork\n\nÖvrigt\nHyresgästen får tillgång till trädgården samt uteplats och egen (gasol) grill (gasol ingår inte i hyran). Men vid tillfälle så kan vi behöva kommer överens om nyttjande av sittgrupper etc. \n\nHyran är 7000 kronor i månaden och då ingår el och bredband. \n\nBostaden hyrs ut tillsvidare. Kontrakt kommer att skrivas och en ömsesidig uppsägning om 1 månad gäller för båda parter. Hyresgästen behöver också ta en hemförsäkring under boendetiden (kostar cirka 100 kr / mån).\n\nAttefallaren är belägen i Utby. Fri parkering är tillgänglig på gatorna i området. Närmsta busshållplats är belägen 2 minuter från bostaden. Direktbuss till Heden finns vid en hållplats 10 minuter från bostaden. Då är man i stan på cirka 25 min. \n\nÄr du intresserad så skicka ett meddelande och berätta mer om dig själv. Och är det intressant så ses vi för en kopp kaffe eller te och tar ett snack. \n/Katarina",
-    "district": "Göteborg",
+    "title": "Ormbunkegatan, Hisings Backa",
+    "url": "https://qasa.com/p/1445505",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f59dfbd44c44d164cdc983883e2a929c58c8f163ba8789ec6d28b4062e914da9.jpg",
+    "description": "Minilägenhet i villa uthyres till EN person. Eget Trinettkök, eget badrum med dusch och toalett.\n\nHyra: 6000 kr per månad inklusive värme, el och parkering.\n\nVi erbjuder en minilägenhet i bottenvåningen av vår suterrängvilla eftersom familjen inte brukar denna del av villan.  Vi har haft lägenheten uthyrd tidigare till veckopendlare och till studenter och detta har fungerat bra. Vi söker därför liknande hyresgäst för ny uthyrning. Lägenheten är på cirka 20 m2 och har egen dusch och toalett, minikök / trinettkök med två plattor, kylskåp med frysfack, mikrovågsugn. Tillgång till gemensam tvättstuga finns på våningsplanet alldeles intill lägenheten.\n\nTillgång till fri parkering för en bil. Tillgång till trådlöst internet (WiFi) finns. \n\nOBS! Lägenheten hyrs under inga omständigheter ut till familjer eller vuxen med barn. Lägenheten är helt enkelt inte tillräckligt stor eller avpassad för detta utan lämpar sig endast för EN person. Endast förfrågningar från intresserade som är ensamma sökande kommer att få svar. Då vi har barn hemma är det ett krav att sökande talar perfekt svenska och därmed kommer endast ansökningar på svenska att beaktas.\n\nLägenheten hyrs ut tillsvidare och med en månads ömsesidig uppsägning. Om uthyrningen sker problemfritt är vårt mål att den ska vara långsiktig (så har det varit tidigare).\n\n",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kobbegården, Askim",
+    "url": "https://qasa.com/p/1445487",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c378f5b7725e10378b0af28b25da1051fba6e47c008a5082b169fadb4e9ff14b.jpg",
+    "description": "En mycket trevlig bostad med egen trädgård och uteplats i anslutning till köket. Uthyres i andra hand. Alla formaliteter kring detta hanteras gemensamt med Stena Fastigheter när du väl bestämt dig för att flytta in.\n\nHyra: 10 670 kr/månad\nParkering (valfritt): 950 kr/månad\nInternet (valfritt): 550 kr/månad\n\nHör gärna av dig om du har några frågor.",
+    "district": "Askim",
     "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 7000,
+    "area_m2": 64.0,
+    "rent": 10670,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/839646",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63a05915e7ba7976cb6073e582809142d13f1d211d1915c8743fab53c79568f8.jpg",
-    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T18:08:50+00:00", "clock": "18:08:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T18:47:28+00:00", "clock": "18:47:28"};
