@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Urmakaregatan, Göteborg",
+    "url": "https://qasa.com/p/1445476",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2392330c611c522a36fbe896ca3c7edae3d71834c57a8a11b5827870571687d9.jpg",
+    "description": "Långtidsuthyrning av vår attefallare från 1 augusti\n\nVi hyr omgående ut vår attefallare på 30 kvm i Utby. Byggnaden färdigställdes under 2022 och passar bäst för en person som är djur och rökfri.\n\nBostaden är friliggande och består av: \n\nSovrum\nmed en säng om 140 cm (med förvaring under)\nen garderob plus klädställ för förvaring av kläder\nsamt ett vägghängt (litet) skrivbord med stol\n\nKök / rum\nLitet kök med alla attiraljer, med bänkkyl och liten frys / induktionshäll (2 plattor) / kombiugn / liten diskmaskin\nKöket är välutrustat med glas, porslin och andra kökattiraljer\nBarbord med plats för 3 personer\nSäng / soffa (80 cm bred) – som går att bädda ut för en övernattande gäst\n\nBadrum\nToalett, handfat och dusch \nKombinerad tvätt / tork\n\nÖvrigt\nHyresgästen får tillgång till trädgården samt uteplats och egen (gasol) grill (gasol ingår inte i hyran). Men vid tillfälle så kan vi behöva kommer överens om nyttjande av sittgrupper etc. \n\nHyran är 7000 kronor i månaden och då ingår el och bredband. \n\nBostaden hyrs ut tillsvidare. Kontrakt kommer att skrivas och en ömsesidig uppsägning om 1 månad gäller för båda parter. Hyresgästen behöver också ta en hemförsäkring under boendetiden (kostar cirka 100 kr / mån).\n\nAttefallaren är belägen i Utby. Fri parkering är tillgänglig på gatorna i området. Närmsta busshållplats är belägen 2 minuter från bostaden. Direktbuss till Heden finns vid en hållplats 10 minuter från bostaden. Då är man i stan på cirka 25 min. \n\nÄr du intresserad så skicka ett meddelande och berätta mer om dig själv. Och är det intressant så ses vi för en kopp kaffe eller te och tar ett snack. \n/Katarina",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Maskinkajen, Göteborg",
     "url": "https://qasa.com/p/1445334",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ecaa2ec6f8c96154490a01f17686c5118477c0ab1888e32138a243a867312be.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Longitudvägen, Torslanda",
-    "url": "https://qasa.com/p/1445176",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4f23794466c97b325d53244419e1d1f4a013110f3a8d7086959a5b4282bf7b2.jpg",
-    "description": "Möblerad och välskött 2-rumslägenhet om 40 kvm i ett mycket lugnt villaområde i Andalen, Torslanda. Boendet passar särskilt bra för veckopendlare, konsulter, entreprenörer eller andra som söker ett bekvämt tillfälligt boende under en kortare eller längre period. Lägenheten är en avskild del av vår villa med egen entré och privat altan.\n\nLägenheten har ett separat sovrum med dubbelsäng och bra klädförvaring samt ett vardagsrum med soffa och matplats. Matbordet fungerar också bra som arbetsplats och bostaden har snabbt och stabilt fiberinternet.\n\nKöket är kompakt och utrustat med kyl, frys, diskmaskin, tvättmaskin, två kokplattor och en mindre ugn. Det lämpar sig bäst för enklare matlagning. Badrum med dusch finns i lägenheten. Utanför finns en stor privat altan med gasolgrill.\n\nEl, värme, vatten, WiFi och egen parkeringsplats ingår. Sängkläder och handdukar finns också. Elbilsladdning kan ordnas efter överenskommelse.\n\nHär bor du naturnära och mycket lugnt med hav, badplatser och golfbana i närheten. Till Volvo Torslanda är det ca 10 minuter med bil, till Arendal/Göteborgs hamn ca 15 minuter och till centrala Göteborg ca 30 minuter. Närmaste mataffär ligger ca 5 minuter bort med bil. Det går även buss till Göteborgs centrum, men till busshållplatsen är det ca 30 minuters promenad. Bil är därför det klart smidigaste sättet att bo här och ta sig runt.\n\nLägenheten passar bäst för en person, men kan även fungera för två. Rökning och husdjur är inte tillåtna.\n\nVi är öppna för både veckopendling och längre hyresperioder. Angiven hyra är en utgångspunkt och kan anpassas beroende på hyresperiod, upplägg och vilken service som önskas. För företag som hyr bostad åt en konsult, entreprenör eller medarbetare kan vi även erbjuda städning och byte av sängkläder varannan vecka.\n\n",
-    "district": "Torslanda",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T17:27:54+00:00", "clock": "17:27:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T17:48:47+00:00", "clock": "17:48:47"};
