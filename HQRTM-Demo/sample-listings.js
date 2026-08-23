@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Longitudvägen, Torslanda",
+    "url": "https://qasa.com/p/1445176",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a4f23794466c97b325d53244419e1d1f4a013110f3a8d7086959a5b4282bf7b2.jpg",
+    "description": "Möblerad och välskött 2-rumslägenhet om 40 kvm i ett mycket lugnt villaområde i Andalen, Torslanda. Boendet passar särskilt bra för veckopendlare, konsulter, entreprenörer eller andra som söker ett bekvämt tillfälligt boende under en kortare eller längre period. Lägenheten är en avskild del av vår villa med egen entré och privat altan.\n\nLägenheten har ett separat sovrum med dubbelsäng och bra klädförvaring samt ett vardagsrum med soffa och matplats. Matbordet fungerar också bra som arbetsplats och bostaden har snabbt och stabilt fiberinternet.\n\nKöket är kompakt och utrustat med kyl, frys, diskmaskin, tvättmaskin, två kokplattor och en mindre ugn. Det lämpar sig bäst för enklare matlagning. Badrum med dusch finns i lägenheten. Utanför finns en stor privat altan med gasolgrill.\n\nEl, värme, vatten, WiFi och egen parkeringsplats ingår. Sängkläder och handdukar finns också. Elbilsladdning kan ordnas efter överenskommelse.\n\nHär bor du naturnära och mycket lugnt med hav, badplatser och golfbana i närheten. Till Volvo Torslanda är det ca 10 minuter med bil, till Arendal/Göteborgs hamn ca 15 minuter och till centrala Göteborg ca 30 minuter. Närmaste mataffär ligger ca 5 minuter bort med bil. Det går även buss till Göteborgs centrum, men till busshållplatsen är det ca 30 minuters promenad. Bil är därför det klart smidigaste sättet att bo här och ta sig runt.\n\nLägenheten passar bäst för en person, men kan även fungera för två. Rökning och husdjur är inte tillåtna.\n\nVi är öppna för både veckopendling och längre hyresperioder. Angiven hyra är en utgångspunkt och kan anpassas beroende på hyresperiod, upplägg och vilken service som önskas. För företag som hyr bostad åt en konsult, entreprenör eller medarbetare kan vi även erbjuda städning och byte av sängkläder varannan vecka.\n\n",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kryssdäcket, Göteborg",
     "url": "https://qasa.com/p/1445110",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/490cf0e1c901d171b8b593c6ff5126cafeb5a8bcfa33f356ee6d238e19e15313.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lönnskärsdamm, Brännö",
-    "url": "https://qasa.com/p/1444837",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37176f23657679610e53832f0328887aa34eab76cd27058149551f5dcaf0f29a.jpg",
-    "description": "Jättefin stuga perfekt för två personer. Sovrum och wc , dusch och tvätt (rymligt så det går att hänga tvätt där) nere med ingång och trappa inne. Övervåning 27 m2 med kök , matplats samt del med bäddsoffa och braskamin.  Uteplatser runt om hela huset.\nFördelar/nackdelar : \nDet tar 1 tim till centrum. Man får cykla 10 min till skärgårdsbåten. Den går ca varje timme.\n\nMan kommer verkligen naturnära trots nörheten till staden. Det brukar bo studenter i småstugor på granntomterna.",
-    "district": "Brännö",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T10:02:31+00:00", "clock": "10:02:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T10:35:00+00:00", "clock": "10:35:00"};
