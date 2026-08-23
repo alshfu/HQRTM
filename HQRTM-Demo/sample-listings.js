@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kryssdäcket, Göteborg",
+    "url": "https://qasa.com/p/1445110",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/490cf0e1c901d171b8b593c6ff5126cafeb5a8bcfa33f356ee6d238e19e15313.jpg",
+    "description": "Ljus och härlig 2:a med solig balkong – centralt vid Masthuggetstorget/Linné\n\nVi hyr ut vår fina och ljusa lägenhet på 61 kvm under sex månader medan vi själva är ute och reser. Här bor du centralt med närhet till allt, men med en lägenhet som samtidigt känns ljus, hemtrevlig och rymlig.\n\nLägenheten hyrs ut möblerad och har en härlig balkong med mycket sol – framför allt fantastisk kvällssol. Perfekt för middagar, ett glas vin eller bara för att sitta ute och njuta. ☀️\n\nLäget är svårslaget:\nJärntorget ligger bara cirka 7 minuters promenad bort, och precis nedanför finns Andra långgatan med barer och restauranger. Både Hemköp och Coop ligger precis nedanför, samt 24/7 fitness och Sats gym. Masthuggstorgets hållplats ligger dessutom precis utanför, så det är väldigt enkelt att ta sig runt i Göteborg med kollektivtrafiken.\n\nKort om lägenheten:\n\n* 61 kvm\n* Möblerad\n*Hiss\n* Balkong med mycket sol och framför allt kvällssol\n* Ljus och trivsam\n* Mycket centralt läge\n* Ca 7 min promenad till Järntorget/Andra Långgatan\n* Hemköp och Coop precis utanför\n* Masthuggstorgets hållplats precis utanför\n* Bredband ingår\n* El debiteras separat månadsvis enligt faktisk kostnad\n\nVi hyr ut lägenheten eftersom vi ska iväg på en längre resa och söker därför en ordentlig, ansvarsfull och pålitlig person eller ett par som vill ta hand om vårt hem under tiden. Vi ser gärna att du är rökfri. Djur är inga problem däremot.\n\nVi hoppas hitta någon som kommer trivas här lika mycket som vi gör. 🌿\n\nHör gärna av dig och berätta lite om dig/er om lägenheten känns intressant!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 61.0,
+    "rent": 9700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Storhöjdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1415702",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925e9b1e1ba7478b340dabf685f1ebef675daae690280e71c59ad1c57ffe0527.jpg",
+    "description": "Ljus och hemtrevlig 2 högst upp med balkong\n\nJag hyr ut min ljusa och hemtrevliga lägenhet om 43 m², belägen högst upp i huset med balkong och härlig, lång utsikt. Lägenheten är välplanerad med gott om ljusinsläpp och en mysig känsla.\n\nLägenheten hyrs ut fullt möblerad och allting ingår i hyran. Här finns allt som behövs för ett bekvämt och trivsamt boende.\n\nOm området\n\nLägenheten ligger i ett lugnt och trivsamt område med flera hållplatser och mataffärer inom gångavstånd. Det finns goda kommunikationer till centrala Göteborg, och även Redbergsplatsen ligger på bekvämt gångavstånd med ett stort utbud av spårvagns- och bussförbindelser.\n\nI närområdet och vidare ner mot Olskroken finns dessutom ett stort utbud av restauranger, caféer och annan service, vilket gör att det mesta finns inom bekvämt gångavstånd. Samtidigt ligger lägenheten lite mer avskilt och lugnt från de mer livliga delarna av området.\n\nKort om lägenheten\n\n2 rum och kök, 43 m²\nHögst upp i huset\nBalkong med lång utsikt\nFullt möblerad\nLjus och välplanerad\nMataffärer och hållplatser inom gångavstånd\nNära Redbergsplatsen och Olskroken\nGoda kommunikationer till centrala Göteborg\nRestauranger, caféer och service i närområdet\n\nOm dig som hyresgäst\n\nJag söker en skötsam och ansvarsfull hyresgäst som kommer att ta väl hand om lägenheten. Lägenheten hyrs ut till maximalt två personer. Jag söker ett barnfritt hushåll och lägenheten är rökfri.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 43.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kvartsekelsgatan, Göteborg",
     "url": "https://qasa.com/p/1445108",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4cfb15c713e79667e5620907a26c66b0c67cf4b0c7aa752a2b838eb1c686fabc.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Aronsbergsvägen, Olofstorp",
-    "url": "https://qasa.com/p/1434018",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7459603bd4434e87094ae6e0d3c7dadddd4e0ed73484bbf5f12b1b1805542a8f.jpg",
-    "description": "Källarlägenhet i villa med egen ingång uthyres tillsvidare.\nNyrenoverat kök och badrum.\nLugnt område, ca 12 min till buss som tar dig till stan på 25-30 min.\nInternet och el ingår.\n\n",
-    "district": "Olofstorp",
-    "rooms": 2.0,
-    "area_m2": 32.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sankt Jörgens Väg, Hisings Backa",
-    "url": "https://qasa.com/p/1444757",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a7c5094a54ff640c4b1065619e20d43e0a70e56e2a77cbb00ba7e775f8f0bc8e.jpg",
-    "description": "Välkommen till Sankt Jörgens väg 28A vån3 och denna ljusa, välvårdade etta om 40 kvm.\nHär möts du av en öppen och social planlösning med generöst ljusinsläpp från sydväst. \nHiss finns.\n\nBostaden präglas av genomgående ljusa ytskikt, enhetliga golv och en modern standard som gör vardagen bekväm. \n\nDet stilrena köket med vita fronter är välutrustat och flyter harmoniskt samman med det rymliga vardagsrummet – perfekt för både vardagsmys och sociala sammankomster. \n\nStora härliga fönsterpartier skänker gott ljus och de sociala ytorna förlängs av balkongen som ligger i solsäkert sydväst läge med utsikt mot den lummiga gården, helt utan insyn.\n\nVidare har du ett helkaklat badrum med golvvärme och egen tvättmaskin. En sovalkov med smart avskärmning från vardagsrum. Garderober i anslutning till sovalkoven och hallen. Vidare finns ett förråd finns att nyttja i separat byggnad.\n\nHär bor du i ett naturskönt område längst in på en återvändsgata och som närmsta granne har du den grönskande omgivningen i Sankt Jörgens park samt naturområdet Hökälla med fantastiska promenadstråk. I området har du även närhet till två stycken golfbanor samt Hisingsparken och Slättadamm. Goda kommunikationer via buss tar dig enkelt in till centrala Göteborg på ca 15-20 minuter och det är nära till handel vid Tuve torg, Bäckebol eller Backaplan.\n\nVill du bo nära naturen men med city runt hörnet är detta ett perfekt område för dig. \nEn perfekt kombination av lugn, grönska och bekvämt stadsliv.",
-    "district": "Hisings Backa",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 11000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T08:49:39+00:00", "clock": "08:49:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T09:13:58+00:00", "clock": "09:13:58"};
