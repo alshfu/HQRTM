@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Maskinkajen, Göteborg",
+    "url": "https://qasa.com/p/1445334",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ecaa2ec6f8c96154490a01f17686c5118477c0ab1888e32138a243a867312be.jpg",
+    "description": "Hej!👋😊\n\nHar ETT RUM + EGEN toalett och dusch + jättestor balkong med finaste utsikten ledigt så snart som möjligt på Eriksberg (precis vid vattnet).\n\nHela 5-rumslägenheten är 140 m2.\n\nMycket bra och säkert läge med caféer och restauranger i närheten.\n\nRummet är ca:\n-11 m²\n-En säng\n-En garderob\n-Jättestor balkong med fin utsikt 🌊🌁\n-EGEN toalett/dusch 🛀\n-Skrivbord\n-Spegel\n-Stol\n-Egen plats i kyl/frys\n-Egen plats i köket\n-Wifi, el, värme\n-Tvättstuga som behöver bokas\n\nOBS! Hyra + deposition. (7500sek+7500sek.)\n\nKommunikationer:\n5 minuter till Klippans färjeläge (Majorna) med färja 285 mot Stenpiren (centrum ca 15 min).\nFrån Eriksbergstorget finns flera busslinjer: 19, 21, 42 och 99 som tar dig runt Göteborg.\n\n-Buss 42 trafikerar V Eriksberg – Skogome – Hjalmar Brantingsplatsen, bra för att nå stora delar av stan.\n\n-Buss 19 går mot Marklandsgatan / IKEA Bäckebol.\n\n-Buss 21 tar dig in mot centrum (exempelvis Nordstan/centralstationen).\n\n-Buss 99 går från Eriksberg mot Frölunda Torg.\n\nService & Shopping / Närservice:\nSystemet, ICA, Coop, Tempo, restauranger finns nära.\n\nVarmt välkommen att höra av dig om du är intresserad! \n\nRummet är perfekt för dig som vill bo bekvämt nära vatten, shopping och universitetet i Lindholmen. 😊",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 11.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tjuvdalsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1445107",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/92711754d18f3d9b0d8e3529da29667aafc3cd4eea7d0111053591ac73cc5e2d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryssdäcket, Göteborg",
-    "url": "https://qasa.com/p/1445110",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/490cf0e1c901d171b8b593c6ff5126cafeb5a8bcfa33f356ee6d238e19e15313.jpg",
-    "description": "Ljus och härlig 2:a med solig balkong – centralt vid Masthuggetstorget/Linné\n\nVi hyr ut vår fina och ljusa lägenhet på 61 kvm under sex månader medan vi själva är ute och reser. Här bor du centralt med närhet till allt, men med en lägenhet som samtidigt känns ljus, hemtrevlig och rymlig.\n\nLägenheten hyrs ut möblerad och har en härlig balkong med mycket sol – framför allt fantastisk kvällssol. Perfekt för middagar, ett glas vin eller bara för att sitta ute och njuta. ☀️\n\nLäget är svårslaget:\nJärntorget ligger bara cirka 7 minuters promenad bort, och precis nedanför finns Andra långgatan med barer och restauranger. Både Hemköp och Coop ligger precis nedanför, samt 24/7 fitness och Sats gym. Masthuggstorgets hållplats ligger dessutom precis utanför, så det är väldigt enkelt att ta sig runt i Göteborg med kollektivtrafiken.\n\nKort om lägenheten:\n\n* 61 kvm\n* Möblerad\n*Hiss\n* Balkong med mycket sol och framför allt kvällssol\n* Ljus och trivsam\n* Mycket centralt läge\n* Ca 7 min promenad till Järntorget/Andra Långgatan\n* Dismaskin samt tvättmaskin och torktumlare\n*Badkar\n* Hemköp och Coop precis utanför\n* Masthuggstorgets hållplats precis utanför\n* Bredband ingår\n* El debiteras separat månadsvis enligt faktisk kostnad\n\nVi hyr ut lägenheten eftersom vi ska iväg på en längre resa och söker därför en ordentlig, ansvarsfull och pålitlig person eller ett par som vill hyra under tiden. Vi ser gärna att du är rökfri. Djur är inga problem däremot!\n\nVi hoppas hitta någon som kommer trivas här lika mycket som vi gör. 🌿\n\nHör gärna av dig och berätta lite om dig/er om lägenheten känns intressant!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 9700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T13:58:00+00:00", "clock": "13:58:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T14:30:27+00:00", "clock": "14:30:27"};
