@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Wahlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1445570",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/198dbd7ef3bfb17c03e1e6f1234cf16ab53e1c6318b9bd90581ded205c641509.jpg",
+    "description": "2:a uthyres i Munkebäck, Göteborg\n\nLjus och trevlig 2:a på cirka 52 kvm uthyres i Munkebäck, Göteborg. Lägenheten består av två rum och kök och ligger på Wahlbergsgatan 2.\n\nOm bostaden\n• 2 rum och kök\n• Ca 52 kvm\n• Hyra: 8 760 kr/mån\n• Inflyttning enligt överenskommelse\n• Varm- och kallvatten ingår i hyran\n• El och internet ingår inte\n• Parkering ingår inte\n\nLäge och kommunikationer\nLägenheten ligger mindre än 1 minuts promenad från Härlanda busstation och cirka 10 minuters promenad från spårvagnshållplats. Med bil tar det cirka 5–10 minuter till centrala Göteborg.\n\nJag söker en skötsam person, ett par eller studenter. Bostaden är rök- och djurfri.\n\nVid intresse, skicka gärna ett meddelande.",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 54.0,
+    "rent": 8760,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ormbunkegatan, Hisings Backa",
     "url": "https://qasa.com/p/1445505",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f59dfbd44c44d164cdc983883e2a929c58c8f163ba8789ec6d28b4062e914da9.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T19:35:21+00:00", "clock": "19:35:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T19:52:35+00:00", "clock": "19:52:35"};
