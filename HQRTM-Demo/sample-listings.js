@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Corneliusgatan, Göteborg",
+    "url": "https://qasa.com/p/1445298",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c1256068a9f912092514b18e9fc21bf26cd57c42b6fb938d082449f2feadaa69.jpg",
+    "description": "Välkommen till ett mysigt och nybyggt gårdshus på cirka 25 kvm!\n\nGårdshuset ligger lummigt och avskilt med egen ingång på vår tomts baksida, med närhet till goda kommunikationer, kollektivtrafik och affärer. Vi har tidigare hyrt ut till studenter, vilket har fungerat alldeles utmärkt, och vi söker nu ny hyresgäst i en liknande situation.\n\nOm gårdshuset\nBostaden hyrs ut möblerad, är helt fristående och utrustad med:\n- Skön queensize-säng\n- Dedikerad arbetsplats / skrivbord\n- Eget fräscht badrum med dusch, toalett och tvättmaskin (nytt)\n\nEget kök med två plattor, kyl med frysfack samt mikrovågsugn (nytt)\n\nVad som ingår i hyran\nHyra: 6 992 kr/månad.\nI hyran ingår värme, möbler, el och trådlöst internet (WiFi).\n\nVem söker vi?\nGårdshuset är utformat för en till två personer (passar utmärkt för en ensamstående men även som compact living för ett par, men inte för större familjer eller barn).\n\nVi hyr ut tillsvidare med en månads ömsesidig uppsägningstid. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 6600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Wahlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1445570",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/198dbd7ef3bfb17c03e1e6f1234cf16ab53e1c6318b9bd90581ded205c641509.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T19:52:35+00:00", "clock": "19:52:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T20:14:21+00:00", "clock": "20:14:21"};
