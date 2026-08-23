@@ -18,6 +18,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Blidvädersgatan 48, Göteborg",
+    "url": "https://qasa.com/p/1445621",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9648608a0443fa43cc8318bf87096f6d6b4bf78408a71b2265787248b1714a4e.jpg",
+    "description": "En fin och välplanerad lägenhet på 1 rum och kök. \nLägenheten genomgick ett Willhemlyft 2016-03-01.\n\nDe lägenheter som renoveras enligt Willhemlyftet har bland annat modernt kök , gasspis och rostfria vitvaror. Badrummet är helkaklat och det finns förberedelse för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin. Nya ytskikt  - Allt noga utvalt och varsamt installerat av våra proffsiga hantverkare. \n\nI lägenheten finns fibernät indragen och hyresgästen får själv teckna abonnemang avseende internet/telefoni, el samt gas. \nAntal boende i hushållet skall vara anpassat till lägenhetens storlek, max 2 personer.  \nHyran är preliminär, avser 2023 års hyresnivå och inkluderar värme & vatten.  ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 23.0,
+    "rent": 4644,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Corneliusgatan, Göteborg",
     "url": "https://qasa.com/p/1445298",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c1256068a9f912092514b18e9fc21bf26cd57c42b6fb938d082449f2feadaa69.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tjuvdalsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1445107",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/92711754d18f3d9b0d8e3529da29667aafc3cd4eea7d0111053591ac73cc5e2d.jpg",
-    "description": "Lägenhet nära hav och bad på Näset i Göteborg. Lägenheten ligger i bottenplan på en villa, passande för veckopendlare eller liknande. Lämplig för en person, finns ett sovrum och en bäddsoffa. \n\nLägenheten är möblerad och har ett allrum med öppen spis, bäddsoffa, fåtölj och tv. Matbordet är placerat i en separat del. \n\nSovrummet har en 140 cm säng samt garderob. \n\nKöket är utrustat med kyl, frys, spis, kombinerad ugn/mikrovågsugn samt husgeråd. \n\nBadrummet är utrustat med toalett, dubbla handfat, badkar och en tvättmaskin. \n\nEl, värme och vatten ingår i hyran. Sängkläder och handdukar ingår. \n\nGoda förbindelser till Frölunda torg och centrum finns, avstånd till buss ca 2 km. \n\nPå Näset finns flera av Göteborgs finaste badställen, det närmsta ca 400 meter från lägenheten.  \n\nEgen hemförsäkring behöver tecknas. ",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 9000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T22:55:41+00:00", "clock": "22:55:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T23:21:50+00:00", "clock": "23:21:50"};
