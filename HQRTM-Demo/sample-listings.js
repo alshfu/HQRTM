@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tjuvdalsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1445107",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/92711754d18f3d9b0d8e3529da29667aafc3cd4eea7d0111053591ac73cc5e2d.jpg",
+    "description": "Lägenhet nära hav och bad på Näset i Göteborg. Lägenheten ligger i bottenplan på en villa, passande för veckopendlare eller liknande. Lämplig för en person, finns ett sovrum och en bäddsoffa. \n\nLägenheten är möblerad och har ett allrum med öppen spis, bäddsoffa, fåtölj och tv. Matbordet är placerat i en separat del. \n\nSovrummet har en 140 cm säng samt garderob. \n\nKöket är utrustat med kyl, frys, spis, kombinerad ugn/mikrovågsugn samt husgeråd. \n\nBadrummet är utrustat med toalett, dubbla handfat, badkar och en tvättmaskin. \n\nEl, värme och vatten ingår i hyran. Sängkläder och handdukar ingår. \n\nGoda förbindelser till Frölunda torg och centrum finns, avstånd till buss ca 2 km. \n\nPå Näset finns flera av Göteborgs finaste badställen, det närmsta ca 400 meter från lägenheten.  \n\nEgen hemförsäkring behöver tecknas. ",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 9000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gunnilse Ljungbacke, Gunnilse",
     "url": "https://qasa.com/p/1445243",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e32366bce562ab55d2e6d243470d8277990fb5a812d093ce0d2d570442887710.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Storhöjdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1415702",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925e9b1e1ba7478b340dabf685f1ebef675daae690280e71c59ad1c57ffe0527.jpg",
-    "description": "Ljus och hemtrevlig 2 högst upp med balkong\n\nJag hyr ut min ljusa och hemtrevliga lägenhet om 43 m², belägen högst upp i huset med balkong och härlig, lång utsikt. Lägenheten är välplanerad med gott om ljusinsläpp och en mysig känsla.\n\nLägenheten hyrs ut fullt möblerad och allting ingår i hyran. Här finns allt som behövs för ett bekvämt och trivsamt boende.\n\nOm området\n\nLägenheten ligger i ett lugnt och trivsamt område med flera hållplatser och mataffärer inom gångavstånd. Det finns goda kommunikationer till centrala Göteborg, och även Redbergsplatsen ligger på bekvämt gångavstånd med ett stort utbud av spårvagns- och bussförbindelser.\n\nI närområdet och vidare ner mot Olskroken finns dessutom ett stort utbud av restauranger, caféer och annan service, vilket gör att det mesta finns inom bekvämt gångavstånd. Samtidigt ligger lägenheten lite mer avskilt och lugnt från de mer livliga delarna av området.\n\nKort om lägenheten\n\n2 rum och kök, 43 m²\nHögst upp i huset\nBalkong med lång utsikt\nFullt möblerad\nLjus och välplanerad\nMataffärer och hållplatser inom gångavstånd\nNära Redbergsplatsen och Olskroken\nGoda kommunikationer till centrala Göteborg\nRestauranger, caféer och service i närområdet\n\nOm dig som hyresgäst\n\nJag söker en skötsam och ansvarsfull hyresgäst som kommer att ta väl hand om lägenheten. Lägenheten hyrs ut till maximalt två personer. Jag söker ett barnfritt hushåll och lägenheten är rökfri.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 43.0,
-    "rent": 11500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T12:56:58+00:00", "clock": "12:56:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T13:35:47+00:00", "clock": "13:35:47"};
