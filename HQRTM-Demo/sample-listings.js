@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kvartsekelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1445108",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4cfb15c713e79667e5620907a26c66b0c67cf4b0c7aa752a2b838eb1c686fabc.jpg",
+    "description": "1 rum uthyres, rummet är cirka 10kvm med säng, garderob och stol/bord. Balkong med utsikt över större delen av Göteborg.\n\nGemensamt kök och 2 toaletter/badrum finns. Wifi och el/värme och vatten ingår i hyran.\n\nCirka 50-100 meter till Kortedala Torg med massa affärer och bra kommunikationer till Göteborg.\n\nBra om det kan lämnas 2 månaders deposition. Inflyttning är snarast eller efter överenskommelse.\n\nSkicka ett mail/meddelande och berätta lite om dig själv.\n\nSå länge annonsen finns kvar så finns rummet kvar.\nMvh Magnus",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 3335,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ernst Torulfsgatan, Göteborg",
     "url": "https://qasa.com/p/1444904",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d26270f4857f713298105eff19ec6cae3cca8c819ec0211a233651470e2b6236.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Torkelsgatan, Göteborg",
-    "url": "https://qasa.com/p/1440931",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46c682e8e0b01f602c1caffc2760061279b7ee77d84d41c76021bd9089e6b46d.jpg",
-    "description": "Charmig 4.a med äldre standard i populära Lunden.\nBelägen 1 trappa upp med balkong. Uthyres omöblerad.\n 2 mindre sovrum och ett stort. Rymligt Vardagsrum med plats både för matbord och stor soffa. Kök i äldre standard med nya vitvaror. 1 badrum med stor dusch. Tvättstuga finns i källaren\nFörråd finns.\nNära till affärer och restauranger.\nBuss i närheten och 5 minuters promenad till Redbergsplatsen.\nUthyres tom 31/8-27",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 95.0,
-    "rent": 10972,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T08:11:44+00:00", "clock": "08:11:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T08:49:39+00:00", "clock": "08:49:39"};
