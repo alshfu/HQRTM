@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fänriksgatan, Göteborg",
+    "url": "https://qasa.com/p/1445618",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b95e774e59a9c2ea10777498bdb6c8ebfa0a02787efe3cc0d0478d54d493dc86.jpg",
+    "description": "Hej, jag hyr ut ett rum i min 2 rums lägenhet.  Möblerat vi har gemensamt kök, toalett, jag själv bor i vardagsrummet.  Området är väldigt nära till centralstationen 7 min ungefär med spårvagnen bra förbindelse till stan med buss och spårvagnen.  Jag tar en månads deposition och referenser.  Vid intresse bara å fråga.  Detta passar som student boende. Med vänliga hälsningar ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Corneliusgatan, Göteborg",
     "url": "https://qasa.com/p/1445298",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c1256068a9f912092514b18e9fc21bf26cd57c42b6fb938d082449f2feadaa69.jpg",
@@ -36,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Ormbunkegatan, Hisings Backa",
     "url": "https://qasa.com/p/1445505",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f59dfbd44c44d164cdc983883e2a929c58c8f163ba8789ec6d28b4062e914da9.jpg",
-    "description": "Minilägenhet i villa uthyres till EN person. Eget Trinettkök, eget badrum med dusch och toalett.\n\nLäs hela annonsen innan du svarar.\nApplications in Swedish only! \n\nHyra: 6000 kr per månad inklusive värme, el och parkering.\n\nVi erbjuder en minilägenhet i bottenvåningen av vår suterrängvilla eftersom familjen inte brukar denna del av villan.  Vi har haft lägenheten uthyrd tidigare till veckopendlare och till studenter och detta har fungerat bra. Vi söker därför liknande hyresgäst för ny uthyrning. Lägenheten är på cirka 20 m2 och har egen dusch och toalett, minikök / trinettkök med två plattor, kylskåp med frysfack, mikrovågsugn. Tillgång till gemensam tvättstuga finns på våningsplanet alldeles intill lägenheten.\n\nTillgång till fri parkering för en bil. Tillgång till trådlöst internet (WiFi) finns. Eftersom WiFi:t är kopplat via trådlös 5G garanteras inte denna tjänst. Se det som en möjlighet. \n\nOBS! Lägenheten hyrs under inga omständigheter ut till familjer eller vuxen med barn. Lägenheten är helt enkelt inte tillräckligt stor eller avpassad för detta utan lämpar sig endast för EN person. Endast förfrågningar från intresserade som är ensamma sökande kommer att få svar. Då vi har barn hemma är det ett krav att sökande talar perfekt svenska och därmed kommer endast ansökningar på svenska att beaktas. Vi har två utekatter som kommer in någon gång per dag så du bör inte vara allergisk mot katt. Om du vill imponera på mig skriver du i din ansökan att det är ok med katt.\n\nLägenheten hyrs ut tillsvidare och med en månads ömsesidig uppsägning. Om uthyrningen sker problemfritt är vårt mål att den ska vara långsiktig (så har det varit tidigare).\n\n",
+    "description": "Minilägenhet i villa uthyres till EN person. Eget Trinettkök, eget badrum med dusch och toalett.\n\nLäs hela annonsen innan du svarar.\nApplications in Swedish only! \n\nHyra: 6000 kr per månad inklusive värme, el och parkering.\n\nVi erbjuder en minilägenhet i bottenvåningen av vår suterrängvilla eftersom familjen inte brukar denna del av villan.  Vi har haft lägenheten uthyrd tidigare till veckopendlare och till studenter och detta har fungerat bra. Vi söker därför liknande hyresgäst för ny uthyrning. Lägenheten är på cirka 20 m2 och har egen dusch och toalett, minikök / trinettkök med två plattor, kylskåp med frysfack, mikrovågsugn. Tillgång till gemensam tvättstuga finns på våningsplanet alldeles intill lägenheten.\n\nTillgång till fri parkering för en bil. Tillgång till trådlöst internet (WiFi) finns. Eftersom WiFi:t är kopplat via trådlös 5G garanteras inte denna tjänst. Se det som en möjlighet. \n\nOBS! Lägenheten hyrs under inga omständigheter ut till familjer eller vuxen med barn. Lägenheten är helt enkelt inte tillräckligt stor eller avpassad för detta utan lämpar sig endast för EN person. Endast förfrågningar från intresserade som är ensamma sökande kommer att få svar. Då vi har barn hemma är det ett krav att sökande talar perfekt svenska och därmed kommer endast ansökningar på svenska att beaktas. Vi har två utekatter som inte är sällskapssökande men som kommer in någon gång per dag.  Analogt du bör inte vara allergisk mot katt. Om du vill imponera på mig skriver du i din ansökan att det är \"ok med katt\". Detta eftersom de flesta inte läser hela annonsen de svarar på. Du ligger genast bättre till om du kommit hela vägen hit.\n\nLägenheten hyrs ut tillsvidare och med en månads ömsesidig uppsägning. Om uthyrningen sker problemfritt är vårt mål att den ska vara långsiktig (så har det varit tidigare).\n\n",
     "district": "Hisings Backa",
     "rooms": 1.0,
     "area_m2": 20.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gunnilse Ljungbacke, Gunnilse",
-    "url": "https://qasa.com/p/1445243",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e32366bce562ab55d2e6d243470d8277990fb5a812d093ce0d2d570442887710.jpg",
-    "description": "3 rok i suterräng med egen ingång – perfekt för företag och konsulter\nVälplanerad 3-rumslägenhet i suterräng med egen ingång uthyres. Bostaden erbjuder ett bekvämt och privat boende i lugn miljö med goda kommunikationer.\nLägenheten passar utmärkt för företag som söker boende åt konsulter, projektanställda eller annan personal. Centrala Göteborg nås på cirka 20 minuter, vilket gör boendet attraktivt för den som arbetar i Göteborgsområdet.\nOm bostaden\n3 rum och kök\nEgen ingång\nLugnt och trivsamt läge\nGoda kommunikationer\nCentrala Göteborg inom cirka 20 minuter\nLämplig för företagsuthyrning\nVi söker seriösa hyresgäster och välkomnar företagsförfrågningar.",
-    "district": "Gunnilse",
-    "rooms": 3.0,
-    "area_m2": 93.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T22:07:12+00:00", "clock": "22:07:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-23T22:35:49+00:00", "clock": "22:35:49"};
