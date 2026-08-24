@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tredje Långgatan, Göteborg",
+    "url": "https://qasa.com/p/1049087",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27957044d85a4359e99cfe9cc11353205531226fae9affb9094ca32759a06610.jpg",
+    "description": "Ljus och välplanerad 3:a på Tredje Långgatan – mitt i Linné\n\nVi hyr ut vår fina 3-rumslägenhet om 78 kvm på Tredje Långgatan 5, med ett mycket centralt och attraktivt läge i hjärtat av Linné. Lägenheten ligger på våning 4 i ett vackert äldre hus. Hiss finns men går till våning 5. \n\nLägenheten har en genomtänkt planlösning med rymligt vardagsrum, två sovrum, kök med plats för matbord samt badrum. Bostaden passar perfekt för ett par, en liten familj eller någon som vill ha ett extra rum för kontor, gästrum eller kreativt arbete.\n\nHär bor man med direkt närhet till Linnégatans restauranger, caféer, barer, butiker och mataffärer, samtidigt som Slottsskogen, Haga och Järntorget ligger på bekvämt gångavstånd. Kommunikationerna är mycket goda med spårvagn och buss runt hörnet.\n\nLägenheten hyrs ut möblerad och passar dig som söker ett bekvämt, trivsamt och centralt boende i Göteborg under en längre period.\n\nKort om bostaden:\n\n* 3 rum och kök\n* 78 kvm\n* Våning 4\n* Hiss finns i huset\n* Centralt läge i Linné\n* Nära Slottsskogen, Haga och Järntorget\n* Goda kommunikationer\n* Möblerad uthyrning\n\nVi söker ordningsamma och pålitliga hyresgäster som tar väl hand om bostaden.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 24000,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Strängnäsgatan, Göteborg",
     "url": "https://qasa.com/p/1446349",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/26fe732b901559e2503715104c1178754e024599b1bf96f0133e0c981643232c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Landalabergen, Göteborg",
-    "url": "https://qasa.com/p/1446031",
-    "image_url": null,
-    "description": "1 rum och kök i nyrenoverad lägenhet högt upp i huset. Gångavstånd till Chalmers och nära Sahlgrenska universitetssjukhuset.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T16:20:10+00:00", "clock": "16:20:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T17:01:13+00:00", "clock": "17:01:13"};
