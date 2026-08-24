@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Landalabergen, Göteborg",
+    "url": "https://qasa.com/p/1446031",
+    "image_url": null,
+    "description": "1 rum och kök i nyrenoverad lägenhet högt upp i huset. Gångavstånd till Chalmers och nära Sahlgrenska universitetssjukhuset.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 28.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1446113",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a0e62e01d8447521ba538b69d8c106799406a4b047d29f4e36af7f39b12833a.jpg",
@@ -65,7 +80,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Gårdstensvägen 55, Angered",
     "url": "https://qasa.com/p/1446090",
-    "image_url": null,
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7c8504e73fc5eaff7ff9526b2fcdd3a75a72bc48be7dc11ecc52ac8c61c62516.jpg",
     "description": "Välkommen hem! \n\nNu finns chansen att hyra en nyproducerad lägenhet på Gårdstensvägen 55 – en modern 2 ROK på 35 kvm, belägen på våning 5. Lägenheten byggdes 2022 och är perfekt för den som söker ett fräscht och funktionellt boende. Hyran är 7 308 kr/mån. Här hittar du allt du behöver för ett bekvämt hem, inklusive diskmaskin, keramikhäll, ugn, kyl/frys, mikrovågsugn och tvätt och torktumlare. \n\n \n\nLägenhetsförråd finns i bostaden.   \n\n  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. I hyran som marknadsförts, har vi inte inkluderat kostnad för kall- och varmvatten, vilket faktureras beroende på förbrukning. Hyran kommer därför att variera beroende på din vattenförbrukning. I hyran ingår värme och kabel-TV.  \n\n \n\nBilderna i annonsen är exempelbilder. \n\nLägenheten hyrs ut på planritning.\r\n\r\nKOMMUNIKATIONER\r\nPrecis utanför porten finns det busshållplats där du kan ta direktbuss till Angered eller in till de centrala delarna av Göteborg. Här hittar du all handel du kan tänka dig.\n\nDistanser till knutpunkter:\n•\t30 minuter till Göteborg\n•\t8 minuter till Angered Centrum\n•\t2 minuter till Gårdsten Centrum\n•\t10 minuter till Vättlefjälls naturreservat\r\n\r\nSERVICE\r\nPå bekvämt gångavstånd promenerar du till Gårdsten Centrum där matvaruhandel, café och vårdcentral finns. Vill du ha ett större utbud går du utanför porten och tar direktbussen till Angered eller Göteborg.\r\n\r\nPARKERING\r\nMöjligheten för parkering finns i vårt garage, ev. kölista för vissa avtal: \n \nUtan tak\t \nMed tak",
     "district": "Angered",
     "rooms": 2.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 53, Angered",
-    "url": "https://qasa.com/p/1446065",
-    "image_url": null,
-    "description": "Välkommen hem! \n\nNu finns chansen att hyra en nyproducerad lägenhet på Gårdstensvägen 53 – en modern 1 ROK på 30 kvm, belägen på våning 3. Lägenheten byggdes 2022 och är perfekt för den som söker ett fräscht och funktionellt boende. Hyran är 5 688 kr/mån. Här hittar du allt du behöver för ett bekvämt hem, inklusive diskmaskin, keramikhäll, ugn, kyl/frys, mikrovågsugn och tvätt och torktumlare. \n\n \n\nLägenhetsförråd finns i bostaden.   \n\n  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. I hyran som marknadsförts, har vi inte inkluderat kostnad för kall- och varmvatten, vilket faktureras beroende på förbrukning. Hyran kommer därför att variera beroende på din vattenförbrukning. I hyran ingår värme och kabel-TV.  \n\n \n\nBilderna i annonsen är exempelbilder. \n\nLägenheten hyrs ut på planritning.\r\n\r\nKOMMUNIKATIONER\r\nPrecis utanför porten finns det busshållplats där du kan ta direktbuss till Angered eller in till de centrala delarna av Göteborg. Här hittar du all handel du kan tänka dig.\n\nDistanser till knutpunkter:\n•\t30 minuter till Göteborg\n•\t8 minuter till Angered Centrum\n•\t2 minuter till Gårdsten Centrum\n•\t10 minuter till Vättlefjälls naturreservat\r\n\r\nSERVICE\r\nPå bekvämt gångavstånd promenerar du till Gårdsten Centrum där matvaruhandel, café och vårdcentral finns. Vill du ha ett större utbud går du utanför porten och tar direktbussen till Angered eller Göteborg.\r\n\r\nPARKERING\r\nMöjligheten för parkering finns i vårt garage, ev. kölista för vissa avtal: \n \nUtan tak\t \nMed tak\t\nLaddplats",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 5688,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T12:16:51+00:00", "clock": "12:16:51"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T13:24:21+00:00", "clock": "13:24:21"};
