@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sockenvägen , Göteborg",
+    "url": "https://qasa.com/p/1446557",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56522ec84f28fc4a787b3d020c6f26d6de68982bac67ea6416431e1df64d0347.jpg",
+    "description": "Nu finns chansen att hyra i andrahand en nyrenoverad tvåa från 2021 i ett lugnt och naturnära område i Lundby. Lägenheten passar perfekt för den som uppskattar närhet till både stadens bekvämligheter och grönområden.\n\nOm lägenheten:\n\t•\tBelägen i Sockenvägen, Lundby.\n\t•\tNyrenoverad från 2021, med en modern och fräsch standard.\n\t•\tLägenheten hyrs ut delvis möblerad. \n\t•\tBestår av separat sovrum, hall, badrum, kök och vardagsrum.\n\t•\tNära till spårvagnshållplats, endast 5 minuters gångväg, och du är i Brunnsparken på cirka 10 minuter.\n\t•\tOmringad av fina natur- och parkområden.\n\t•\tGym, restauranger och matbutiker(Willys och Hemköp)inom 100 meters avstånd.\n\nBekvämligheter:\n\t•\tAvgiftsfri parkering längs Sockenvägen, finns möjlighet att hyra egen P plats via hyresvärden för ca 480kr/månad\n\t•\tSopphus för sortering finns tillgängligt.\n\t•\tTvättmaskin i lägenheten, samt tillgång till bokad tvättid i tvättstugan i källaren.\n\nHyresvillkor:\n\t•\tAndrahandsuthyrning på grund av samboprovning, 12 månader.\n\t•\tHyresgästen ska vara rökfri och anmärkningsfri.\n\t•\tVi söker en lugn och ansvarsfull hyresgäst, då det är många barnfamiljer och äldre till grannar.\n\nIngår i hyran:\n\t•\tVatten, Internet och Värme ingår i hyran.\n\nEj inkluderat:\n\t•\tEl + hemförsäkring\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 10480,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ögontröstgatan, Göteborg",
     "url": "https://qasa.com/p/1446468",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bdefd0cbdbbd334f2bd9c61f314b181832aa3bf936dfd25ff5a205c189f1ab6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blackevägen, Göteborg",
-    "url": "https://qasa.com/p/1379931",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8486e091a537fc31920e5151348c423e10b7d4dea0dc34190c97491b62901ea6.jpg",
-    "description": "Välkommen till ett rymligt och fridfullt hem i Lundby, perfekt för familj eller delad bostad. Övervåningen i ett charmigt rödmålat trähus på Blackevägen, med egen ingång och privat uteplats.\n\nPLANLÖSNING (95 m², 4 rum + kök) Högt i tak! \n• Ljust vardagsrum med modulär sofflounge, smart-TV och öppen vägghylla\n• Fullt utrustat kök med matplats för 4 personer (kyl, frys, ugn, spishäll, diskmaskin, mikrovågsugn)\n• 3 separata sovrum:\n  – Huvudsovrum med dubbelsäng\n  – Sovrum 2 (familjevänligt, med skrivbord/läshörna)\n  – Sovrum 3 (mindre, fungerar som gästrum eller barnrum)\n• Eget badrum med dusch\n• Tvättstuga med egen tvättmaskin och torktumlare\n• Dedikerad arbetsyta för hemarbete\n\nVAD SOM INGÅR I HYRAN\n• Grunduppvärmning\n• Gratis parkering inom fastigheten (laddbox för elbil tillgänglig)\n• Fullt möblerat hem (linne, hushållsutrustning, mat- och köksredskap ingår)\n• Trädgård och gemensam uteplats\n\nHyran är 22 450 kr/månad. El betalas separat som fast månadstillägg om 900 kr (snittberäkning för 4–5 personer, ca 4 500 kWh/år).\n\nKOMMUNIKATION & OMRÅDE\nLundby är ett av Hisingens lugnaste områden med småhuskaraktär och grönska runt knuten. Du har:\n• Spårvagn 5–7 minuters promenad bort (linje 5/10, ca 20 min till Göteborgs centralstation)\n• Buss inom kort avstånd\n• Närbutik (ICA/Hemköp) inom 5 minuters gångavstånd\n• Förskolor, skolor och vårdcentral i området\n• Parker, motionsspår och nära till Hisingsparken\n• Bil: ca 10 min till E6 och västra Göteborg\n\nVARFÖR JAG HYR UT\nJag är fastighetsägare som tidigare hyrt ut huset på korttidsmarknaden (Airbnb, 4,9★ Superhost) och vill nu erbjuda en stabil, längre hyresperiod till en mer permanent hyresgäst. Jag är lättillgänglig, svarar inom timmar och har erfarenhet av att lösa praktiska frågor snabbt.\n\nHYRESGÄST OCH AVTAL\n• Långtidsuthyrning, tillträde 1 september 2026\n• Tillsvidare, 3 månaders ömsesidig uppsägning\n• Max 6 personer\n• Rökfritt\n• Husdjur kan diskuteras\n• Trygg uthyrning genom Qasa med hyresgaranti och depositionsgaranti\n\nVälkommen att höra av dig med frågor eller boka visning!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 95.0,
-    "rent": 22450,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T19:29:18+00:00", "clock": "19:29:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T19:57:08+00:00", "clock": "19:57:08"};
