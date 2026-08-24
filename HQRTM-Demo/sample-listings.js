@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Söndagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1446315",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5cc238e86c98eb86cae0a47f3ab6a7b2453a751a17e46b6abc9d9c6829426ad6.jpg",
+    "description": "Fin och ljus lägenhet på våning 2 uthyres i Kortedala. \nInflyttning kan ske ganska omgående men det är flexibelt. \nLägenhet uthyres omöblerad.\n\nEl, uppvärmning, vatten och internet ingår i månadshyran.\nMånadshyran är 8 500 kr/månad.\n\nLägenheten ligger i ett mycket lugnt och trevligt område nära naturen.\nI lägenheten finns ett välplanerat kök med goda ytor för matplats, ett rymligt sovrum med bra förvaringsmöjligheter samt hel kaklat badrum med badkar. Stort ljust och rymligt vardagsrum med ekparkett. Från vardagsrummet kan man gå ut till en nyrenoverad och stor inglasad balkong i västerläge.\n\nDet är ca 400 m till närmaste spårvagnsstation som är Allhelgonakyrkan och från stationen in till centrala Göteborg tar det cirka 16 minuter. På behagligt gång avstånd\nfinns Kortedala Torg med sitt rikliga utbud av bl.a. livsmedel, restauranger, caféer salonger och gym.\n\nSöker lugn och stabil hyresgäst som respekterar sin omgivning och vill bo under en längre period. \nDu ska även ha god ekonomi, inga betalningsanmärkningar samt vara djur och rökfri.\n\nI lägenheten finns även fiber uppkoppling (Com Hem). \n\nOm lägenheten verkar intressant vänligen berätta mer er själva, hur länge ni önskar hyra och när ni kan flytta in.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 8180,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Blackevägen, Göteborg",
+    "url": "https://qasa.com/p/1379931",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8486e091a537fc31920e5151348c423e10b7d4dea0dc34190c97491b62901ea6.jpg",
+    "description": "Välkommen till ett rymligt och fridfullt hem i Lundby, perfekt för familj eller delad bostad. Övervåningen i ett charmigt rödmålat trähus på Blackevägen, med egen ingång och privat uteplats.\n\nPLANLÖSNING (95 m², 4 rum + kök) Högt i tak! \n• Ljust vardagsrum med modulär sofflounge, smart-TV och öppen vägghylla\n• Fullt utrustat kök med matplats för 4 personer (kyl, frys, ugn, spishäll, diskmaskin, mikrovågsugn)\n• 3 separata sovrum:\n  – Huvudsovrum med dubbelsäng\n  – Sovrum 2 (familjevänligt, med skrivbord/läshörna)\n  – Sovrum 3 (mindre, fungerar som gästrum eller barnrum)\n• Eget badrum med dusch\n• Tvättstuga med egen tvättmaskin och torktumlare\n• Dedikerad arbetsyta för hemarbete\n\nVAD SOM INGÅR I HYRAN\n• Grunduppvärmning\n• Gratis parkering inom fastigheten (laddbox för elbil tillgänglig)\n• Fullt möblerat hem (linne, hushållsutrustning, mat- och köksredskap ingår)\n• Trädgård och gemensam uteplats\n\nHyran är 22 450 kr/månad. El betalas separat som fast månadstillägg om 900 kr (snittberäkning för 4–5 personer, ca 4 500 kWh/år).\n\nKOMMUNIKATION & OMRÅDE\nLundby är ett av Hisingens lugnaste områden med småhuskaraktär och grönska runt knuten. Du har:\n• Spårvagn 5–7 minuters promenad bort (linje 5/10, ca 20 min till Göteborgs centralstation)\n• Buss inom kort avstånd\n• Närbutik (ICA/Hemköp) inom 5 minuters gångavstånd\n• Förskolor, skolor och vårdcentral i området\n• Parker, motionsspår och nära till Hisingsparken\n• Bil: ca 10 min till E6 och västra Göteborg\n\nVARFÖR JAG HYR UT\nJag är fastighetsägare som tidigare hyrt ut huset på korttidsmarknaden (Airbnb, 4,9★ Superhost) och vill nu erbjuda en stabil, längre hyresperiod till en mer permanent hyresgäst. Jag är lättillgänglig, svarar inom timmar och har erfarenhet av att lösa praktiska frågor snabbt.\n\nHYRESGÄST OCH AVTAL\n• Långtidsuthyrning, tillträde 1 september 2026\n• Tillsvidare, 3 månaders ömsesidig uppsägning\n• Max 6 personer\n• Rökfritt\n• Husdjur kan diskuteras\n• Trygg uthyrning genom Qasa med hyresgaranti och depositionsgaranti\n\nVälkommen att höra av dig med frågor eller boka visning!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 22450,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hults Gata, Askim",
     "url": "https://qasa.com/p/1439448",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/339e4dbecc8c88384b08382057e7aaba4af904304b9a38916484ff07077956c8.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Drottninggatan 81A, Trollhättan ",
-    "url": "https://qasa.com/p/1446232",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a1a3a9ff0aa0275885330bac69ee7a2e89247ba0708305b2014d5ae481ce049e.jpg",
-    "description": "Välkommen till denna 4 rok på Drottninggatan 81A i Trollhättan.\nDenna 4 rok är belägen på våning 2.  I hyran ingår värme och varmvatten. \nParkering finns att hyra separat! Vi erbjuder dig gärna en visning! Är du intresserad? Vänligen lämna din intresseanmälan nedan!\n\n\n",
-    "district": "Trollhättan ",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 8183,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stockholmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1446076",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8980adec79ccc53f396745ba7eb4c80ab040e15dba53065c66096b7fac80b94.jpg",
-    "description": "En väldigt fin och välplanerad etta, perfekt för par! \n\nLägenheten har en öppen planlösning men med en skiljevägg i glas som separerar sängen från övriga delar. \nFullutrustat kök med diskmaskin. \nFräscht badrum med dusch. \n\nTill våren finns Göteborgs finaste innergård (enligt GP) några steg utanför dörren, där man kan grilla, njuta av en go frukost eller sola. \n\nLägenheten ligger på första våningen i bagaregården, ett lummigt område med närhet till både gamlestan, centrum och Skatås. Spårvagnshållplatsen ligger bara någon minut bort och fina cykelvägar finns till stan. Det är helt enkelt ett perfekt läge, både stad och lugn. \n\n\nJag hyr ut lägenheten pga av jobb utomlands. Lägenheten hyrs ut på 6 månader med chans till förlängning med ytterligare 6 månader.\n\n\nLägenheten hyrs ut möblerad, det är lite skillnader på nuvarande möblering och det som finns med på bilderna. Bredband ingår. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 39.0,
-    "rent": 9400,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T15:00:21+00:00", "clock": "15:00:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T15:50:09+00:00", "clock": "15:50:09"};
