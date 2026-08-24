@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Räntmästaregatan, Göteborg",
+    "url": "https://qasa.com/p/1445635",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/533bbc45614bba481192c5683286f2ca61b0c8913a41a2387c7bc3dc1e487f30.png",
+    "description": "Lägenheten är en 2a på 52 kvadrat. Från balkongen har man en fantastisk utsikt över Göteborg, med sol från tidig eftermiddag till solnedgång.\nDiskmaskin, tvättmaskin och vinkyl finns i köket samt en tvättstuga i föreningen.\nNärmsta busshållplats är Hogenskildsgatan (3 min promenad), spårvagn går från Redbergsplatsen (10 min promenad).\nNärområdet runt lägenheten utgörs av lägenhetshus och grönområden. Vid Redbergsplatsen och angränsande Olskroken finns ett flertal livsmedelsbutiker, restauranger, vårdcentralen, butiker mm samt ett torg med bland annat ost- och fiskhandlare.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 15102,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fänriksgatan, Göteborg",
     "url": "https://qasa.com/p/1445618",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b95e774e59a9c2ea10777498bdb6c8ebfa0a02787efe3cc0d0478d54d493dc86.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Maskinkajen, Göteborg",
-    "url": "https://qasa.com/p/1445334",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0ecaa2ec6f8c96154490a01f17686c5118477c0ab1888e32138a243a867312be.jpg",
-    "description": "Hej!👋😊\n\nHar ETT RUM + EGEN toalett och dusch + jättestor balkong med finaste utsikten ledigt så snart som möjligt på Eriksberg (precis vid vattnet).\n\nHela 5-rumslägenheten är 140 m2.\n\nMycket bra och säkert läge med caféer och restauranger i närheten.\n\nRummet är ca:\n-11 m²\n-En säng\n-En garderob\n-Jättestor balkong med fin utsikt 🌊🌁\n-EGEN toalett/dusch 🛀\n-Skrivbord\n-Spegel\n-Stol\n-Egen plats i kyl/frys\n-Egen plats i köket\n-Wifi, el, värme\n-Tvättstuga som behöver bokas\n\nOBS! Hyra + deposition. (7500sek+7500sek.)\n\nKommunikationer:\n5 minuter till Klippans färjeläge (Majorna) med färja 285 mot Stenpiren (centrum ca 15 min).\nFrån Eriksbergstorget finns flera busslinjer: 19, 21, 42 och 99 som tar dig runt Göteborg.\n\n-Buss 42 trafikerar V Eriksberg – Skogome – Hjalmar Brantingsplatsen, bra för att nå stora delar av stan.\n\n-Buss 19 går mot Marklandsgatan / IKEA Bäckebol.\n\n-Buss 21 tar dig in mot centrum (exempelvis Nordstan/centralstationen).\n\n-Buss 99 går från Eriksberg mot Frölunda Torg.\n\nService & Shopping / Närservice:\nSystemet, ICA, Coop, Tempo, restauranger finns nära.\n\nVarmt välkommen att höra av dig om du är intresserad! \n\nRummet är perfekt för dig som vill bo bekvämt nära vatten, shopping och universitetet i Lindholmen. 😊",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 11.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T03:47:44+00:00", "clock": "03:47:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T04:31:33+00:00", "clock": "04:31:33"};
