@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Strängnäsgatan, Göteborg",
+    "url": "https://qasa.com/p/1446349",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/26fe732b901559e2503715104c1178754e024599b1bf96f0133e0c981643232c.jpg",
+    "description": "Attefallshus på 25 kvm med loft som ligger i ett lugnt villaområde i Tollered. \nAttefallshuset har egen uteplats,  kök med ugn och spis, tvättmaskin/torktumlare, parkering samt ladd-box för elbil.  Närmaste spårvagnshållplats är  Eketrägatans hållplats som ligger 10 minuters promenad bort. \n\nI hyran ingår: El, vatten, värme, sopor, wifi, parkering med laddbox för elbil samt egen uteplats. \n\nOBS:  Vi sätter hyran beroende på vilket avtal vi skriver. Om det hyrs möblerat eller inte, låg eller kort tid. Priset i  annonsen är ca pris.  ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Söndagsgatan, Göteborg",
     "url": "https://qasa.com/p/1446315",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5cc238e86c98eb86cae0a47f3ab6a7b2453a751a17e46b6abc9d9c6829426ad6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1446113",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a0e62e01d8447521ba538b69d8c106799406a4b047d29f4e36af7f39b12833a.jpg",
-    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med enkelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 10.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T15:50:09+00:00", "clock": "15:50:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T16:20:10+00:00", "clock": "16:20:10"};
