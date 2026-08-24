@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stockholmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1446076",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8980adec79ccc53f396745ba7eb4c80ab040e15dba53065c66096b7fac80b94.jpg",
+    "description": "En väldigt fin och välplanerad etta, perfekt för par! \n\nLägenheten har en öppen planlösning men med en skiljevägg i glas som separerar sängen från övriga delar. \nFullutrustat kök med diskmaskin. \nFräscht badrum med dusch. \n\nTill våren finns Göteborgs finaste innergård (enligt GP) några steg utanför dörren, där man kan grilla, njuta av en go frukost eller sola. \n\nLägenheten ligger på första våningen i bagaregården, ett lummigt område med närhet till både gamlestan, centrum och Skatås. Spårvagnshållplatsen ligger bara någon minut bort och fina cykelvägar finns till stan. Det är helt enkelt ett perfekt läge, både stad och lugn. \n\n\nJag hyr ut lägenheten pga av jobb utomlands. Lägenheten hyrs ut på 6 månader med chans till förlängning med ytterligare 6 månader.\n\n\nLägenheten hyrs ut möblerad, det är lite skillnader på nuvarande möblering och det som finns med på bilderna. Bredband ingår. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 39.0,
+    "rent": 9400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Befälsgatan, Göteborg",
     "url": "https://qasa.com/p/1445981",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5261feba0bc30bbcacdd9b2205ee901f280c8bdf14864b8d3277a093e3082c40.jpg",
@@ -18,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Gårdstensvägen 55, Angered",
+    "url": "https://qasa.com/p/1446090",
+    "image_url": null,
+    "description": "Välkommen hem! \n\nNu finns chansen att hyra en nyproducerad lägenhet på Gårdstensvägen 55 – en modern 2 ROK på 35 kvm, belägen på våning 5. Lägenheten byggdes 2022 och är perfekt för den som söker ett fräscht och funktionellt boende. Hyran är 7 308 kr/mån. Här hittar du allt du behöver för ett bekvämt hem, inklusive diskmaskin, keramikhäll, ugn, kyl/frys, mikrovågsugn och tvätt och torktumlare. \n\n \n\nLägenhetsförråd finns i bostaden.   \n\n  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. I hyran som marknadsförts, har vi inte inkluderat kostnad för kall- och varmvatten, vilket faktureras beroende på förbrukning. Hyran kommer därför att variera beroende på din vattenförbrukning. I hyran ingår värme och kabel-TV.  \n\n \n\nBilderna i annonsen är exempelbilder. \n\nLägenheten hyrs ut på planritning.\r\n\r\nKOMMUNIKATIONER\r\nPrecis utanför porten finns det busshållplats där du kan ta direktbuss till Angered eller in till de centrala delarna av Göteborg. Här hittar du all handel du kan tänka dig.\n\nDistanser till knutpunkter:\n•\t30 minuter till Göteborg\n•\t8 minuter till Angered Centrum\n•\t2 minuter till Gårdsten Centrum\n•\t10 minuter till Vättlefjälls naturreservat\r\n\r\nSERVICE\r\nPå bekvämt gångavstånd promenerar du till Gårdsten Centrum där matvaruhandel, café och vårdcentral finns. Vill du ha ett större utbud går du utanför porten och tar direktbussen till Angered eller Göteborg.\r\n\r\nPARKERING\r\nMöjligheten för parkering finns i vårt garage, ev. kölista för vissa avtal: \n \nUtan tak\t \nMed tak",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 35.0,
+    "rent": 7308,
+    "floor": 5,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Walter Bengtssons Gata, Göteborg",
     "url": "https://qasa.com/p/1445926",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e216f51c6c0ecc6203003f7b359a963538029a2df9e95179ed9727d5b7f05fea.jpg",
@@ -28,6 +58,21 @@ window.HQRTM_SAMPLE = [
     "rent": 13780,
     "floor": null,
     "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gårdstensvägen 53, Angered",
+    "url": "https://qasa.com/p/1446065",
+    "image_url": null,
+    "description": "Välkommen hem! \n\nNu finns chansen att hyra en nyproducerad lägenhet på Gårdstensvägen 53 – en modern 1 ROK på 30 kvm, belägen på våning 3. Lägenheten byggdes 2022 och är perfekt för den som söker ett fräscht och funktionellt boende. Hyran är 5 688 kr/mån. Här hittar du allt du behöver för ett bekvämt hem, inklusive diskmaskin, keramikhäll, ugn, kyl/frys, mikrovågsugn och tvätt och torktumlare. \n\n \n\nLägenhetsförråd finns i bostaden.   \n\n  \n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. I hyran som marknadsförts, har vi inte inkluderat kostnad för kall- och varmvatten, vilket faktureras beroende på förbrukning. Hyran kommer därför att variera beroende på din vattenförbrukning. I hyran ingår värme och kabel-TV.  \n\n \n\nBilderna i annonsen är exempelbilder. \n\nLägenheten hyrs ut på planritning.\r\n\r\nKOMMUNIKATIONER\r\nPrecis utanför porten finns det busshållplats där du kan ta direktbuss till Angered eller in till de centrala delarna av Göteborg. Här hittar du all handel du kan tänka dig.\n\nDistanser till knutpunkter:\n•\t30 minuter till Göteborg\n•\t8 minuter till Angered Centrum\n•\t2 minuter till Gårdsten Centrum\n•\t10 minuter till Vättlefjälls naturreservat\r\n\r\nSERVICE\r\nPå bekvämt gångavstånd promenerar du till Gårdsten Centrum där matvaruhandel, café och vårdcentral finns. Vill du ha ett större utbud går du utanför porten och tar direktbussen till Angered eller Göteborg.\r\n\r\nPARKERING\r\nMöjligheten för parkering finns i vårt garage, ev. kölista för vissa avtal: \n \nUtan tak\t \nMed tak\t\nLaddplats",
+    "district": "Angered",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 5688,
+    "floor": 3,
+    "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
   },
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Arvesgärde, Göteborg",
-    "url": "https://qasa.com/p/1445798",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/facc32a8befad64b6aa83a327ab630d408e7b218fe718487f31aeded2570bf09.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/zfu2ym1vrlrrg88gsba3/vastra-gotaland/goteborg/arvesgarde-1/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nTotalrenoverad genomgångstvåa med inglasad balkong och hiss.\r\nEn välplanerad planlösning med mycket ljusinsläpp. \r\nPromenadavstånd till Tuve torg och nära till 17-bussen. \r\nRunt hörnet hittar ni även underbara promenadstråk i Hisingsparken och närhet till Kättilsröds 4H gård.\r\n\r\nLägenhetens 65,5 kvm är disponerade enligt följande:\r\n\r\nEn välkomnande hall med fin parkett och väggar i ljus ton. Från omkringliggande rum strömmar ljuset in. Garderoben som löper längs ena väggen garanterar förvaringsmöjligheter.\r\n\r\nRakt fram i hallen ligger det superfräscha badrummet som renoverades 2017. Badrummet är utrustat med vikbara duschväggar, wc, handdukstork handfat med kommod, badrumsskåp med spegel,tvättmaskin samt golvvärme.\r\n\r\nFräsht nyrenoverat kök. Maskinparken består av integrerad kyl/frys, häll, inbyggd mikrovågs/ugn, fläkt och integrerad diskmaskin. Matsaldelen har sin naturliga plats vid fönstret som både ger ljus och utsikt. Här finns den ena utgången till balkongen som ligger i ett fritt läge med utsikt mot innergården.\r\n\r\nSovrum som ligger i anslutning till hallen. Rummet är bra disponerat med plats för dubbelsäng, förvaring samt arbetsbord om så önskas. Utgång även här till balkongen.\r\n\r\nVidare in i bostaden kommer vi till det ljusa vardagsrummet med goda möbleringsmöjligheter samt det stora fönsterpartiet vilket skapar mycket ljusinsläpp.\r\n\r\nOmrådet är väldigt barnvänligt, med begränsad biltrafik och många lekplatser. \r\n\r\nDjur och rökfritt\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 14111,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrklöversgatan, Göteborg",
-    "url": "https://qasa.com/p/1411116",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/60e430ea1cb64af35bae01ee8d96a6fd958f10261d9591ecf22de354c9c6bd41.jpg",
-    "description": "Rymlig och välplanerad 3 med attraktivt läge i Göteborg – långtidsuthyrning\n\nVälkommen till denna trivsamma och välplanerade trerumslägenhet på Fyrklöversgatan 11 i Göteborg. Här erbjuds ett bekvämt boende med generösa ytor och ett attraktivt läge med närhet till både service, kommunikationer och grönområden.\n\nLägenheten har en genomtänkt planlösning med ett ljust vardagsrum, två rymliga sovrum och ett funktionellt kök som passar både vardag och umgänge. De stora fönstren ger ett fint ljusinsläpp och bidrar till en trivsam boendemiljö.\n\nFastigheten ligger i ett lugnt och omtyckt område med goda kommunikationer till centrala Göteborg. I närområdet finns matbutiker, restauranger, skolor, förskolor och andra bekvämligheter, vilket gör bostaden idealisk för såväl par som familjer.\n\nFakta:\n\n3 rum och kök\n\nAdress: Fyrklöversgatan 11, Göteborg\n\nLångtidsuthyrnin\n\nVälkomna att höra av er vid intresse!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 77.0,
-    "rent": 16824,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Birkagatan, Göteborg",
-    "url": "https://qasa.com/p/1445698",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8bfbbe55334ae1805ea46af0427f0a6d09ce4a9cc7ca970cde30b8b6a07efd8b.jpg",
-    "description": "Fin lya i Örgryte!\n\nUnikt möblerat rum med egen entré, eget WC med handfat, dusch och golvvärme. Walking closet, sov- och tv-rum med öppen spis samt eget kök beläget i det lugna och genuina Örgryte. Perfekt pendlings boende med nära till det mesta.\n\nI bostaden finns TV (basutbud från Tele 2) och tillgång till trådlöst Wi-Fi som ingår i hyran. I huset finns även tillgång till tvättstuga och cykelrum.\n\nDu bor i lugna och charmiga Örgryte. Närhet till det vackra Delsjöområdet med badplats och fin natur, gym (Nordic Wellness), tennis- och padel center (GLTK), Skatås motions center samt golfbana.\n\nI området finns mysiga kvarterskrogar, pizzerior och caféer samt flera närbutiker. Tre minuters promenad till 5:ans hållplats. Det är gång-/cykelavstånd till Göteborgs event område med Liseberg, Scandinavium, Svenska Mässan och Ullevi och till de centrala delarna av Göteborg.\n\nFrån september 2026 eller enligt annan överenskommelse.\n\nI första hand hyrs bostaden ut till en (1) person som är i behov av pendlings boende men bostaden fungerar också bra som student boende.\n\nDu är skötsam, rökfri och har inga husdjur.\n \n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T11:13:01+00:00", "clock": "11:13:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T11:45:43+00:00", "clock": "11:45:43"};
