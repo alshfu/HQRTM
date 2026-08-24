@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1446113",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a0e62e01d8447521ba538b69d8c106799406a4b047d29f4e36af7f39b12833a.jpg",
+    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med enkelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stockholmsgatan, Göteborg",
     "url": "https://qasa.com/p/1446076",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8980adec79ccc53f396745ba7eb4c80ab040e15dba53065c66096b7fac80b94.jpg",
@@ -26,6 +41,21 @@ window.HQRTM_SAMPLE = [
     "rooms": 2.0,
     "area_m2": 57.0,
     "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östra Torpavägen 101A, Göteborg",
+    "url": "https://qasa.com/p/1446110",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/040c0e57f8c919e929aa0b67b899d7576fcd3709e62d3c0789fa8a1a899d27be.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom 3D visningen och planritning på HomeQ. Ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna tvåa! Modernt kök med ljusa vitvaror och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum med tvättmaskin och torktumlare. Härlig balkong att njuta på.\n\nÖVRIGT\nVärme inkluderas i hyran. El och vatten debiteras via individuell mätning via oss, Bredband och hemförsäkring tecknas separat av hyresgästen. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 15150,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karl Gustavsgatan , Göteborg",
-    "url": "https://qasa.com/p/1445806",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4927c8db6ed0297fb1b9bba5cc72ab23abf9cae2dedf4e45cec9278a63512dfe.jpg",
-    "description": "Delad/time-sharing av ÖVERNATTNINGSLÄGENHET\nBelägen mitt i Vasastan med promenadavstånd till allt som finns i centrum. \nFör dig som vill ha en fast punkt att återkomma till i stället för att bo på hotell. Du får din egen garderob och eget skåp i köket. Jag hyr ut till en person. Du kanske vill hyra en vecka i månaden eller har andra önskemål. Det kan vi diskutera. Hyran sätts därefter men ett riktmärke är 5 500 kr för en vecka. Något lägre för två o s v. \nLägenheten är fullt utrustad och möblerad.\nVälkommen att ställa frågor och jag skickar gärna bilder om du är intresserad.\nNär du som hyresgäst använder lägenheten bor jag bo annat håll. Du är med andra ord ensam i lägenheten när du är där.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Helenebergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1444495",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ae25993db2c07c7df3fc79c4ca75ac84745e2985dc5c068d29112b4c404d9af4.png",
-    "description": "Welcome to a hidden oasis in the heart of Johanneberg!\n\nCentral 2a in cozy BRF Näckten with a fantastic outdoor patio facing the courtyard in a quiet and green area.\nThe apartment is top renovated with day light from three directions. \nNew bathroom, kitchen, painted walls and wallpaper in 2020. Excellent storage options with site-built solutions inside the apartment as well as a separate storage room.\nClose to nice restaurants, grocery stores, and green areas. Short walk to city center; 10-15 min walk to Korsvägen and Avenyn, 2 min walk to gym/outdoor gym/running track, 3 min walk to Willys.\n\nAs our family is growing, we now need to move to a bigger one and therefore hope to find tenants who will enjoy this lovely place as much as we have for the past 15 years.\n\nWelcome to see this unique gem!\n\nVälkommen till en gömd oas mitt i hjärtat av Johanneberg!\n\nCentral 2a i mysiga BRF Näckten (Nästan som Bullerbyn) med fantastisk uteplats mot innergård i lugnt och grönt område. \nLägenheten är topprenoverad med ljusinsläpp från tre vädersträck. Nytt badrum, kök, målade väggar och tapet 2020.  Utmärkta förvaringsmöjligheter med platsbyggda lösningar inne i lägenheten samt ett förråd. \nNära till både trevliga restauranger, livsmedelsbutiker,  och grönområden. 10-15 min promenad till Korsvägen och Avenyn, 2 minuters promenad till gym/utegym/löpspår, 3 minuters promenad till Willys.\n\nDå vår familj växer behöver vi nu flytta till större och hoppas därför hitta hyresgäster som kommer trivas här lika bra som vi gjort under de senaste 15 åren.\n\nVälkommen att se denna unika pärla!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 17500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T11:45:43+00:00", "clock": "11:45:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T12:16:51+00:00", "clock": "12:16:51"};
