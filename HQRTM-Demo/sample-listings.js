@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1445620",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/85dd0a25a733bf81bd241643511f4855d3c0ac6870cc0edf15360815d0b9f959.jpg",
+    "description": "English\n\nOn floor 26 you will find this well-planned apartment. The residence is carefully designed by some of the world's leading architects, where everything is thought through into the smallest detail, here you will find, among other things, windows from floor to ceiling, a balcony, smart solutions in the kitchen and new technology.  \nKarlatornet is, in several ways, accommodation beyond the ordinary, where access to selected facilities is included in the monthly fee. In addition, there is the possibility to take part in the services offered by the adjacent hotel for an additional cost, such as room service, laundry and cleaning.\nPerfect location on the new Lindholmen, with only 6 min to central.\nRent includes heating, Wi-Fi, car pool membership, gym card, exterior window cleaning twice/year, access to common facilities and service.\n\nFacilities included in the rent are:\n• Lobby with reception, lounge and fireplace\n• Gym on floor 2 in Karlatornet \n• Roof terrace on floor 15 with garden and areas for socializing and relaxing\n• Bookable kitchen + dining area for larger groups, adjacent to roof terrace\n• Activity room and cinema room\n• Cold room on the entrance floor for, for example, home delivery of food bags\n• Car pool membership\n\nPossibility of extension after 1 March 2027\n\nThe rent does not include electricity.\n\nSvenska \n\nPå våning 26 finner du denna välplanerade 1:a. Bostaden är omsorgsfullt designad av några av världens främsta arkitekter där allt är genomtänkt i minsta detalj, här finner du bland annat fönster från golv till tak, balkong, smarta lösningar i köket och ny teknik som förhöjer känslan.\nKarlatornet är på flera sätt ett boende utöver det vanliga, där tillgång till utvalda faciliteter ingår i månadsavgiften. Dessutom finns möjligheten att ta del av den service som erbjuds av det intilliggande hotellet mot tillkommande kostnad, som exempelvis room service, tvätt och städning.\n\nPerfekt läge på nya Lindhholmen, med endast 6 min till centralen. \n\nI hyran ingår värme, Wi-Fi, gymkort, medlemskap i bilpool, fönsterputsning utvändigt två gånger/år, tillgång till gemensamma faciliteter och service.\n\nFaciliteter som ingår i månadsavgiften är:\n\n•\tLobby med reception, lounge och eldstad\n•\tGym på våning 2 i Karlatornet \n•\tTakterrass på våning 15 med trädgård och ytor för umgänge och avkoppling\n•\tBokningsbart kök + matplats för större sällskap, i anslutning till takterrass\n•\tAktivitetsrum och biorum \n•\tKylrum på entréplan för exempelvis hemkörning av matkassar\n•\tMedlemskap i bilpool\n\nMöjlighet till förlängning efter 2027-03-01\n\nI hyran ingår inte el.\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 26.0,
+    "rent": 10700,
+    "floor": 26,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sockenvägen , Göteborg",
     "url": "https://qasa.com/p/1446557",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56522ec84f28fc4a787b3d020c6f26d6de68982bac67ea6416431e1df64d0347.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Söndagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1446315",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5cc238e86c98eb86cae0a47f3ab6a7b2453a751a17e46b6abc9d9c6829426ad6.jpg",
-    "description": "Fin och ljus lägenhet på våning 2 uthyres i Kortedala. \nInflyttning kan ske ganska omgående men det är flexibelt. \nLägenhet uthyres omöblerad.\n\nEl, uppvärmning, vatten och internet ingår i månadshyran.\nMånadshyran är 8 500 kr/månad.\n\nLägenheten ligger i ett mycket lugnt och trevligt område nära naturen.\nI lägenheten finns ett välplanerat kök med goda ytor för matplats, ett rymligt sovrum med bra förvaringsmöjligheter samt hel kaklat badrum med badkar. Stort ljust och rymligt vardagsrum med ekparkett. Från vardagsrummet kan man gå ut till en nyrenoverad och stor inglasad balkong i västerläge.\n\nDet är ca 400 m till närmaste spårvagnsstation som är Allhelgonakyrkan och från stationen in till centrala Göteborg tar det cirka 16 minuter. På behagligt gång avstånd\nfinns Kortedala Torg med sitt rikliga utbud av bl.a. livsmedel, restauranger, caféer salonger och gym.\n\nSöker lugn och stabil hyresgäst som respekterar sin omgivning och vill bo under en längre period. \nDu ska även ha god ekonomi, inga betalningsanmärkningar samt vara djur och rökfri.\n\nI lägenheten finns även fiber uppkoppling (Com Hem). \n\nOm lägenheten verkar intressant vänligen berätta mer er själva, hur länge ni önskar hyra och när ni kan flytta in.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 8180,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T19:57:08+00:00", "clock": "19:57:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T20:36:20+00:00", "clock": "20:36:20"};
