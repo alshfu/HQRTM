@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Walter Bengtssons Gata, Göteborg",
+    "url": "https://qasa.com/p/1445926",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e216f51c6c0ecc6203003f7b359a963538029a2df9e95179ed9727d5b7f05fea.jpg",
+    "description": "Nyproducerad 2023\nÖppen för korttid o långtidsuthyrning\nDiskmaskin\nTvättmaskin\nGolvvärme i toalett\nUteplats\n41kvm\nNära till stan, gym och matbutiker. En promenads avstånd till Mariaplan samt Röda sten och 10 minuter med vagn till stan.\nHyrs ut möblerad, en månads deposition. Lägenheten känns stor med öppen plan lösning och utegård, mycket mysig på sommartiden samt på kvällarna med utegården, allt ingår i hyran. Jag hyr ut min bostad för att resa!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 41.0,
+    "rent": 13780,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karl Gustavsgatan , Göteborg",
     "url": "https://qasa.com/p/1445806",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4927c8db6ed0297fb1b9bba5cc72ab23abf9cae2dedf4e45cec9278a63512dfe.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Olskroksgatan 22 A, Göteborg",
-    "url": "https://qasa.com/p/1445819",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c58dd4360962f298b07477a0b0933e11f3e920d81a55d39874eabf76ee648ad8.jpg",
-    "description": "Välkommen till denna ljusa och trivsamma tvåa i hjärtat av Övre Olskroken! Lägenheten renoverades 2017 och håller en modern standard med bekvämligheter som diskmaskin, handdukstork och balkong. Här bor du med smarta lösningar och tidlös design – perfekt för dig som söker ett centralt och bekvämt hem.\n\n\nÖvre Olskroken är ett charmigt område som kombinerar stadens puls med lugna, gröna omgivningar. Här finns gott om caféer, restauranger och butiker, allt på kort promenadavstånd.\n\nMed utmärkta kommunikationer tar du dig snabbt och enkelt in till centrala Göteborg. Spårvagnar och bussar finns precis runt hörnet, och för dig som pendlar är E6\nnära till hands.\n\n\nLåter det intressant? Anmäl ditt intresse redan idag och ta första steget mot ditt nya hem!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 9339,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T09:02:37+00:00", "clock": "09:02:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T09:58:13+00:00", "clock": "09:58:13"};
