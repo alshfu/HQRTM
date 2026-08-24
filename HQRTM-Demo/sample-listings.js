@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hedtångsvägen, Hovås",
+    "url": "https://qasa.com/p/1446425",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34c29b5c577536255379b0262e0c7367982cc7091d74b2aa1ca166b803dcdd8f.png",
+    "description": "Svenska\n\nLjus och modern möblerad 3:a om 70 m² i Nya Hovås, färdigställd 2021 och belägen på andra våningen.\n\nLägenheten har två sovrum, rymligt vardagsrum, matplats och fullt utrustat kök med induktionshäll, ugn, mikro, diskmaskin samt fullstor kyl och frys. Det helkaklade badrummet har dusch, golvvärme, tvättmaskin och torktumlare.\n\nEn stor höjdpunkt är den mycket stora balkongen som löper längs en stor del av lägenheten och nås både från vardagsrummet och ett av sovrummen.\n\nLägenheten hyrs ut fullt möblerad med bland annat stor soffa och TV, matbord, komplett sovrum samt ett andra sovrum inrett som hemmakontor. Gott om förvaring finns.\n\nMycket bekvämt läge med ICA Kvantum och Systembolaget direkt nedanför huset samt restauranger, caféer, butiker, gym, skolor och kollektivtrafik i närområdet. Samtidigt är det nära till hav och natur, bland annat Hovås, Askim och Amundön.\n\nHiss finns. Garageplats i underjordiskt garage med elbilsladdning kan finnas att hyra separat.\n\nJag söker en ansvarsfull hyresgäst som tar hand om lägenheten som sitt eget hem. Uthyrning cirka ett år, med möjlighet till förlängning efter överenskommelse.\n\n⸻\n\nEnglish\n\nBright and modern furnished 3-room apartment, 70 m², in Nya Hovås. Completed in 2021 and located on the second floor.\n\nThe apartment has two bedrooms, a spacious living room, dining area and a fully equipped kitchen with induction hob, oven, microwave, dishwasher and full-size fridge/freezer. The tiled bathroom includes a shower, heated floor, washing machine and tumble dryer.\n\nA major highlight is the exceptionally large balcony running along a large part of the apartment, accessible from both the living room and one of the bedrooms.\n\nThe apartment is fully furnished with a large sofa and TV, dining table, complete main bedroom and a second bedroom currently arranged as a home office. Plenty of storage is available.\n\nVery convenient location with ICA Kvantum and Systembolaget directly downstairs, plus restaurants, cafés, shops, gyms, schools and public transport nearby. The sea and nature around Hovås, Askim and Amundön are also within easy reach.\n\nElevator in the building. Underground parking with EV charging may be available separately.\n\nLooking for a responsible tenant who will treat the apartment as their own home. Intended rental period approx. one year, with possible extension by mutual agreement.",
+    "district": "Hovås",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 16500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tredje Långgatan, Göteborg",
     "url": "https://qasa.com/p/1049087",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27957044d85a4359e99cfe9cc11353205531226fae9affb9094ca32759a06610.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rörhed, Torslanda",
-    "url": "https://qasa.com/p/1446197",
-    "image_url": null,
-    "description": "Rum med eget badrum uthyres\n\nMöblerat (säng, bokhylla, skrivbord, stol, armatur, garderober) rum i nybyggd (2009) villa med egen ingång och tillgång till _eget_ fräscht helkaklat badrum uthyres i stabila lugna Lilleby / Torslanda.  \n\nTotalt ca 24-25 kvm\n\nEget kylskåp, mikrovågsugn, vattenkokare och kaffebryggare på rummet. Tillgång till TM / TT samt frysfack och kök. Gratis parkering på tomten.\n200 m till busshållplats varifrån Express 29 går till Centralstationen / Nordstan på ca 25 min. Avgångar var 6-7:e minut i rusningsriktningen annars var 15:e minut\nUthyres till skötsam och rökfri studerande, veckopendlare etc",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 26.0,
-    "rent": 4600,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T17:01:13+00:00", "clock": "17:01:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T17:39:03+00:00", "clock": "17:39:03"};
