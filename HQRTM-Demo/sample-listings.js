@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hults Gata, Askim",
+    "url": "https://qasa.com/p/1439448",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/339e4dbecc8c88384b08382057e7aaba4af904304b9a38916484ff07077956c8.jpg",
+    "description": "Möblerad lägenhet med egen ingång – nära havet och Göteborg\n\nVälkommen till en trivsam och möblerad lägenhet med egen ingång, belägen i källarplanet på ett hus.\n\nLägenheten har en praktisk planlösning med ett sovrum, kök och vardagsrum samt ett badrum med dusch. Det finns även egen tvättmaskin och torktumlare.\n\nLägenheten erbjuder:\n\n* Möblerad\n* Ett sovrum\n* Kök och vardagsrum\n* Badrum med dusch\n* Egen tvättmaskin och torktumlare\n* Egen ingång\n* Parkeringsplats\n\nI hyran ingår parkering, WiFi och el, vilket gör boendet enkelt och bekvämt utan extra kostnader.\n\nDet finns goda bussförbindelser till centrala Göteborg. Havet ligger bara cirka 10 minuters promenad bort, och i närområdet finns fina promenadstråk och härliga naturområden.\n\nEtt perfekt boende för dig som vill ha ett bekvämt, möblerat hem med närhet till både hav, natur och Göteborgs centrum",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Askims Kyrkåsväg, Askim",
     "url": "https://qasa.com/p/1396905",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d35ca0ed1a1e205464bf63ae6bbbdbadde792efb00df51e96cbb5f8b0caefec.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lergöksgatan 5C, Västra Frölunda",
-    "url": "https://qasa.com/p/1446220",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c8ffa1cbd9014c347cde66df0634bf408d57b91ec8152085918b219f529c7377.jpg",
-    "description": "Här ges möjlighet att hyra en 2 rum och kök på 52 kvadratmeter. \nBostaden hyrs ut via ett korttidskontrakt på HomeQ, där dina HomeQ-poäng bevaras och du fortsätter att samla poäng medan du bor hos oss. \n\n Boendetid: Garanterat fram till mars 2028\n\n-Diskmaskin\n-Spishäll med inbyggd ugn\n-Inbyggd mikrovågsugn\n-Tvättmaskin och torktumlare\n-Externt förråd i källare\n-Balkong\n\nPå planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger.\n\nObservera att bilderna är från en likvärdig lägenhet i samma område. Skillnader & normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n\nNotera att om inflyttningsdag infaller på en röd dag sker inflytt fr.o.m. nästkommande vardag.\n\nIngen visning erbjuds.\r\n\r\nOMGIVNING\r\nLergöksgatan ligger endast några hundra meter från Frölunda Torg som varje dag lockar ca 30 000 besökare. Området runt Lergöksgatan består av flerfamiljshus, matbutiker, restauranger, gymkedjor och andra verksamheter. Det är ett populärt område med ett levande grannskap.\r\n\r\nKOMMUNIKATIONER\r\nHållplats Munspelsgatan ligger precis utanför fastigheten och vid Frölunda Torg ligger ett resecentrum med flertalet buss- och spårvagnsmöjligheter. I direkt anslutning till Lergöksgatan ligger Tynneredsmotet som gör det enkelt att pendla med bil.\r\n\r\nSERVICE\r\nAll typ av service finns i närområdet.\r\n\r\nPARKERING\r\nSeparat kö. Mer information ges vid intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 11136,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T14:10:47+00:00", "clock": "14:10:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T15:00:21+00:00", "clock": "15:00:21"};
