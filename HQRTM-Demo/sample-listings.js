@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Hallegatan, Göteborg",
+    "url": "https://qasa.com/p/1446396",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a65196bfa0a2091c8a9425d2dd6b087746c961e9f9a081661bab7cd1311d35f8.jpg",
+    "description": "\nVälkommen till en ljus och välplanerad tvåa på Övre Hallegatan 54. Lägenheten är 61 kvm stor.  Här erbjuds kök och vardagsrum med öppen planlösning, separat sovrum, balkong och goda förvaringsmöjligheter. Samt en trevligt, mysig och nyrenoverad innegård. Lägenheten kommer att hyras ut delvis möblerad. \n\nOm bostaden\n\n* 2 rum och kök\n* 61 kvm\n* Balkong\n* Hiss\n* Ljus och välplanerad planlösning\n* Goda förvaringsmöjligheter\n* Attraktivt läge på Hisingen\n\nDetta ingår i hyran\n\n* Värme\n* Kall och varmt vatten\n* Bredband/internet\n\nHyresgästen tecknar eget elavtal och ansvarar för att ha en giltig hemförsäkring under hela hyrestiden. \n\nOm området\n\nBostaden ligger i ett trevligt och lugnt område med närhet till service, restauranger, grönområden och kollektivtrafik. Med spårvagnen precis nedanför kan man ta sig till centrala Göteborg, exempelvis Nordstan på under 10 min.\n\nVem söker jag?\n\nJag söker en seriös, skötsam och ansvarsfull hyresgäst som uppskattar ett lugnt och långsiktigt boende.\n\nSkicka gärna en kort presentation och berätta:\n\n* Vad du eller ni arbetar med eller studerar\n* Hur många personer som ska bo i lägenheten\n* Önskat inflyttningsdatum\n* Önskad hyrestid\n* Om referens från tidigare hyresvärd finns\n\nJag återkommer till aktuella kandidater för visning.\n\nVarmt välkommen att höra av dig!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 61.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hedtångsvägen, Hovås",
     "url": "https://qasa.com/p/1446425",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34c29b5c577536255379b0262e0c7367982cc7091d74b2aa1ca166b803dcdd8f.png",
@@ -20,8 +35,8 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Tredje Långgatan, Göteborg",
     "url": "https://qasa.com/p/1049087",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/27957044d85a4359e99cfe9cc11353205531226fae9affb9094ca32759a06610.jpg",
-    "description": "Ljus och välplanerad 3:a på Tredje Långgatan – mitt i Linné\n\nVi hyr ut vår fina 3-rumslägenhet om 78 kvm på Tredje Långgatan 5, med ett mycket centralt och attraktivt läge i hjärtat av Linné. Lägenheten ligger på våning 4 i ett vackert äldre hus. Hiss finns men går till våning 5. \n\nLägenheten har en genomtänkt planlösning med rymligt vardagsrum, två sovrum, kök med plats för matbord samt badrum. Bostaden passar perfekt för ett par, en liten familj eller någon som vill ha ett extra rum för kontor, gästrum eller kreativt arbete.\n\nHär bor man med direkt närhet till Linnégatans restauranger, caféer, barer, butiker och mataffärer, samtidigt som Slottsskogen, Haga och Järntorget ligger på bekvämt gångavstånd. Kommunikationerna är mycket goda med spårvagn och buss runt hörnet.\n\nLägenheten hyrs ut möblerad och passar dig som söker ett bekvämt, trivsamt och centralt boende i Göteborg under en längre period.\n\nKort om bostaden:\n\n* 3 rum och kök\n* 78 kvm\n* Våning 4\n* Hiss finns i huset\n* Centralt läge i Linné\n* Nära Slottsskogen, Haga och Järntorget\n* Goda kommunikationer\n* Möblerad uthyrning\n\nVi söker ordningsamma och pålitliga hyresgäster som tar väl hand om bostaden.\n",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4383f07ec85634e7dc7f232b47b16ded265dd5680693be5b0dec9821bb7f8548.jpg",
+    "description": "Ljus och välplanerad 3:a på Tredje Långgatan – mitt i Linné\n\nVi hyr ut vår fina 3-rumslägenhet om 78 kvm på Tredje Långgatan 5, med ett mycket centralt och attraktivt läge i hjärtat av Linné. Lägenheten ligger på våning 4 i ett vackert äldre hus. Hiss finns men går till våning 5. \n\nLägenheten har en genomtänkt planlösning med rymligt vardagsrum, två sovrum, kök med plats för matbord samt badrum. Bostaden passar perfekt för ett par, en liten familj eller någon som vill ha ett extra rum för kontor, gästrum eller kreativt arbete.\n\nHär bor man med direkt närhet till Linnégatans restauranger, caféer, barer, butiker och mataffärer, samtidigt som Slottsskogen, Haga och Järntorget ligger på bekvämt gångavstånd. Kommunikationerna är mycket goda med spårvagn och buss runt hörnet.\n\nLägenheten hyrs ut möblerad och passar dig som söker ett bekvämt, trivsamt och centralt boende i Göteborg under en längre period.\n\nKort om bostaden:\n\n* 3 rum och kök\n* 78 kvm\n* Våning 4\n* Hiss finns i huset\n* Centralt läge i Linné\n* Nära Slottsskogen, Haga och Järntorget\n* Goda kommunikationer\n* Möblerad uthyrning\n* Tillgång till tvättstugan\n* Hemförsäkring inkluderad\n* El och Värme inkluderad\n\nVi söker ordningsamma och pålitliga hyresgäster som tar väl hand om bostaden.\n",
     "district": "Göteborg",
     "rooms": 3.0,
     "area_m2": 78.0,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Kyrkåsväg, Askim",
-    "url": "https://qasa.com/p/1396905",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d35ca0ed1a1e205464bf63ae6bbbdbadde792efb00df51e96cbb5f8b0caefec.jpg",
-    "description": "Rymlig 4:a med egen ingång i lugna Askim\n\nOBS! Max 3 personer \n\nVälkommen till denna välplanerade och rymliga lägenhet på entréplan med egen ingång, belägen på en lugn villagata i populära Askim. Här bor du med närhet till både natur, hav och smidiga kommunikationer in till centrala Göteborg.\n\nNärmaste busshållplats ligger cirka 5 minuters promenad bort, och med X2-bussen tar du dig till Järntorget på ungefär 22 minuter. I området finns fina promenadstråk, naturreservat och havet inom bekvämt gång- eller cykelavstånd. Du har även nära till matbutiker, restauranger, gym och annan service.\n\nLägenheten är cirka 120 kvm och erbjuder generösa ytor med gott om förvaring. Här finns två sovrum, en rymlig hall samt ett ljust och öppet kök och vardagsrum som skapar en social och trivsam känsla.\n\nBostaden har två badrum. Det större badrummet är utrustat med bastu, jacuzzi, öppen dusch och toalett – perfekt för avkoppling hemma. Det finns även ett extra badrum för ökad bekvämlighet.\n\nLägenheten är i mycket gott skick. Köket är nyinstallerat och hela bostaden målades om under 2024.\n\nMöblering kan erbjudas efter överenskommelse.\n\nFri parkering finns på gatan precis utanför huset.\n\nInflyttning kan ske omgående.\n\nFakta\n\n* Ca 120 kvm\n* Egen ingång\n* 2 sovrum\n* Rymlig hall\n* Öppen planlösning mellan kök och vardagsrum\n* 2 badrum\n* Bastu, jacuzzi och öppen dusch\n* Nytt kök och nymålat 2024\n* Möblering möjlig efter överenskommelse\n* Lugnt och attraktivt läge i Askim\n* X2-buss till Järntorget på ca 22 minuter\n* Nära butiker, restauranger, gym och service\n* Gång- och cykelavstånd till natur och hav\n* Fri parkering på gatan\n* Tillgänglig för omgående inflyttning",
-    "district": "Askim",
-    "rooms": 4.0,
-    "area_m2": 120.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T18:03:44+00:00", "clock": "18:03:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T18:54:58+00:00", "clock": "18:54:58"};
