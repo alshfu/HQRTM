@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ögontröstgatan, Göteborg",
+    "url": "https://qasa.com/p/1446468",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bdefd0cbdbbd334f2bd9c61f314b181832aa3bf936dfd25ff5a205c189f1ab6.jpg",
+    "description": "Välkommen till Ögontröstgatan 1C, här bjuds du på genomgående ljusa och fräscha\nytor, ett stilfullt kök från IKEA med moderna inslag samt ett badrum utrustat\nmed ett avkopplande badkar. På en fridfull gata, omgiven av charmiga villor och grönska\nhittar du denna lägenhet. På bekvämt avstånd finns ett brett utbud av bekvämligheter,\ninklusive flertalet restauranger, gym samt den omtyckta Kville Saluhall. För bilägaren\nfinns gott om gratis parkeringsplatser precis utanför bostaden. Dessutom tar det endast\nnågra minuter att nå centrala Göteborg, antingen med spårvagn eller buss.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11434,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Hallegatan, Göteborg",
     "url": "https://qasa.com/p/1446396",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a65196bfa0a2091c8a9425d2dd6b087746c961e9f9a081661bab7cd1311d35f8.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hults Gata, Askim",
-    "url": "https://qasa.com/p/1439448",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/339e4dbecc8c88384b08382057e7aaba4af904304b9a38916484ff07077956c8.jpg",
-    "description": "Möblerad lägenhet med egen ingång – nära havet och Göteborg\n\nVälkommen till en trivsam och möblerad lägenhet med egen ingång, belägen i källarplanet på ett hus.\n\nLägenheten har en praktisk planlösning med ett sovrum, kök och vardagsrum samt ett badrum med dusch. Det finns även egen tvättmaskin och torktumlare.\n\nLägenheten erbjuder:\n\n* Möblerad\n* Ett sovrum\n* Kök och vardagsrum\n* Badrum med dusch\n* Egen tvättmaskin och torktumlare\n* Egen ingång\n* Parkeringsplats\n\nI hyran ingår parkering, WiFi och el, vilket gör boendet enkelt och bekvämt utan extra kostnader.\n\nDet finns goda bussförbindelser till centrala Göteborg. Havet ligger bara cirka 10 minuters promenad bort, och i närområdet finns fina promenadstråk och härliga naturområden.\n\nEtt perfekt boende för dig som vill ha ett bekvämt, möblerat hem med närhet till både hav, natur och Göteborgs centrum",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T18:54:58+00:00", "clock": "18:54:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T19:29:18+00:00", "clock": "19:29:18"};
