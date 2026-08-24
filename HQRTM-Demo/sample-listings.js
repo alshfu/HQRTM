@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Befälsgatan, Göteborg",
+    "url": "https://qasa.com/p/1445981",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5261feba0bc30bbcacdd9b2205ee901f280c8bdf14864b8d3277a093e3082c40.jpg",
+    "description": "Hej!\n\nMed anledning av studier tänkte jag hyra ut min lägenhet under tiden som den ligger uppe till försäljning.\nLägenheten kommer att vara delvis möblerad men det kommer att finnas möjlighet för mig att föra bort mina egna möbler efter tid om det önskas. \nOBS! Sängen på bilden i sovrummet kommer ej att finnas till hands.\n\nLägenheten är på 57kvm och är fräsch med stor inglasad balkong och rymligt kök, badkar finns.\nGångavstånd till buss samt spårvagn och goda förbindelser till stan samt nära till mataffärer, gym och naturområden.\n\nNotera att lägenheten ligger uppe till försäljning och att den kan komma att bli såld vid något tillfälle, överlåtelsen av lägenheten till eventuell köpare kommer att ske med hänsyn till dig som hyr av mig under tiden med avseende till uppsägningstiden i kontraket oss emellan.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Walter Bengtssons Gata, Göteborg",
     "url": "https://qasa.com/p/1445926",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e216f51c6c0ecc6203003f7b359a963538029a2df9e95179ed9727d5b7f05fea.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmlandsgatan , Göteborg",
-    "url": "https://qasa.com/p/1444521",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/98ccb3b5690d0350e6b9f4e0a6df89c7f3a74e54144665cb1d9b8e5ab990f7d9.jpg",
-    "description": "Välkommen till en fantastisk sekelskifteslägenhet med bevarade originaldetaljer som vackra stuckaturer och generös takhöjd. Lägenheten kombinerar klassisk charm med moderna inslag – kök och badrum totalrenoverades 2020 med stilrena materialval och smarta lösningar. Här bor du med gott om förvaring, inklusive en rymlig klädkammare. \n\nLäget är svårslaget – precis nedanför huset hittar du Coop, samt ett stort utbud av restauranger och mysiga caféer runt hörnet. Allt du behöver finns inom räckhåll!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 66.0,
-    "rent": 18000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T09:58:13+00:00", "clock": "09:58:13"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-24T10:44:13+00:00", "clock": "10:44:13"};
