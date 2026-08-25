@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Poesigatan, Hisings Backa",
+    "url": "https://qasa.com/p/1446710",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13797746096e5150823bf1b79d11a7cec9149993b98d17cefe3e044bc5b81f43.jpg",
+    "description": "Trevlig lägenhet i tyst söderläge med stor balkong. 400 meter från mataffär och 100 meter till buss. \n\nMin son jobbat i Arvika och behöver hyra ut sin lgh, så om du önskar hyra den längre än till jul så går det att ordna. \n\nDen är delvis möblerad som du ser på bilderna. Om du vill ha en video så finns det att efterfråga. Eftersom den är så stor går den inte att publicera här utan jag kan skicka den via whatsapp ! ",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 72.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bondegärdet, Angered",
     "url": "https://qasa.com/p/1446643",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tredje Långgatan, Göteborg",
-    "url": "https://qasa.com/p/1049087",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4383f07ec85634e7dc7f232b47b16ded265dd5680693be5b0dec9821bb7f8548.jpg",
-    "description": "Ljus och välplanerad 3:a på Tredje Långgatan – mitt i Linné\n\nVi hyr ut vår fina 3-rumslägenhet om 78 kvm på Tredje Långgatan 5, med ett mycket centralt och attraktivt läge i hjärtat av Linné. Lägenheten ligger på våning 4 i ett vackert äldre hus. Hiss finns men går till våning 5. \n\nLägenheten har en genomtänkt planlösning med rymligt vardagsrum, två sovrum, kök med plats för matbord samt badrum. Bostaden passar perfekt för ett par, en liten familj eller någon som vill ha ett extra rum för kontor, gästrum eller kreativt arbete.\n\nHär bor man med direkt närhet till Linnégatans restauranger, caféer, barer, butiker och mataffärer, samtidigt som Slottsskogen, Haga och Järntorget ligger på bekvämt gångavstånd. Kommunikationerna är mycket goda med spårvagn och buss runt hörnet.\n\nLägenheten hyrs ut möblerad och passar dig som söker ett bekvämt, trivsamt och centralt boende i Göteborg under en längre period.\n\nKort om bostaden:\n\n* 3 rum och kök\n* 78 kvm\n* Våning 4\n* Hiss finns i huset\n* Centralt läge i Linné\n* Nära Slottsskogen, Haga och Järntorget\n* Goda kommunikationer\n* Möblerad uthyrning\n* Tillgång till tvättstugan\n* Hemförsäkring inkluderad\n* El och Värme inkluderad\n\nVi söker ordningsamma och pålitliga hyresgäster som tar väl hand om bostaden.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 24000,
-    "floor": 4,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T06:35:00+00:00", "clock": "06:35:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T07:28:11+00:00", "clock": "07:28:11"};
