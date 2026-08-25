@@ -35,11 +35,11 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Karlagatan, Göteborg",
     "url": "https://qasa.com/p/1447117",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ee185ff3792d396f8d3ea2280ebf5df255acf3afd0c6503f57f804f2d08ec25.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09f0584f91cb490e797f190883a1eb4f219980c372f67a8cf8be038f81d59ad7.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/lz8xsx0pzkpq1x2bm6ij/vastra-gotaland/goteborg/karlagatan-34c/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVacker och trivsam etagelägenhet i mysiga Lunden. Lugnt och ostört område med stor och trevlig innergård. Nära till buss, affärer och grönområden och promenadavstånd  till centrum. Kök och balkong med fantastisk utsikt över Göteborg.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 4.0,
-    "area_m2": 95.0,
+    "area_m2": 97.0,
     "rent": 18452,
     "floor": null,
     "has_balcony": true,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T19:08:49+00:00", "clock": "19:08:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T19:44:45+00:00", "clock": "19:44:45"};
