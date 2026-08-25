@@ -48,6 +48,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Långströmsgatan 21B, Göteborg",
+    "url": "https://qasa.com/p/1446906",
+    "image_url": null,
+    "description": "Välkommen hem till Bergskristallen! Här ges möjlighet att hyra en 2 Rum och Kök på 47 kvm i ett bostadshus som byggdes klart under våren 2023. Lägenheten är på våning 1. En ljus och välplanerad bostad med avtalstid från 1a december. \n \nHyran för 2026 ligger på 5995 SEK/mån. \n \nLägenheten är utrustad med diskmaskin, inbyggd micro och kombimaskin. Till lägenheten hör ett förråd på vinden. \n \nOBS! Exempelbilder och planritningen är inte skalenlig. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. Där kan du även se om lägenheten har balkong, fransk balkong, uteplats eller om den saknar utemöjlighet. \n \nLägenheten har individuell mätning och debitering (IMD). IMD gör det möjligt att mäta förbrukningen av kall- och varmvatten och värme i varje enskild lägenhet. Det innebär att du som hyresgäst endast betalar för din förbrukning. IMD ger hyresgäster möjlighet att själva påverka sina kostnader, rättvist för alla och bra för miljön. Du betalar i efterskott för det vatten och värme som du faktiskt förbrukat. Förbrukningen debiteras med fem månaders eftersläpning. Hyran kommer alltså att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Bergskristallen så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. Hisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nseparat kö, kontakta förvaltningen",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 5995,
+    "floor": 1,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Poesigatan, Hisings Backa",
     "url": "https://qasa.com/p/1446710",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13797746096e5150823bf1b79d11a7cec9149993b98d17cefe3e044bc5b81f43.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1445620",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/85dd0a25a733bf81bd241643511f4855d3c0ac6870cc0edf15360815d0b9f959.jpg",
-    "description": "English\n\nOn floor 26 you will find this well-planned apartment. The residence is carefully designed by some of the world's leading architects, where everything is thought through into the smallest detail, here you will find, among other things, windows from floor to ceiling, a balcony, smart solutions in the kitchen and new technology.  \nKarlatornet is, in several ways, accommodation beyond the ordinary, where access to selected facilities is included in the monthly fee. In addition, there is the possibility to take part in the services offered by the adjacent hotel for an additional cost, such as room service, laundry and cleaning.\nPerfect location on the new Lindholmen, with only 6 min to central.\nRent includes heating, Wi-Fi, car pool membership, gym card, exterior window cleaning twice/year, access to common facilities and service.\n\nFacilities included in the rent are:\n• Lobby with reception, lounge and fireplace\n• Gym on floor 2 in Karlatornet \n• Roof terrace on floor 15 with garden and areas for socializing and relaxing\n• Bookable kitchen + dining area for larger groups, adjacent to roof terrace\n• Activity room and cinema room\n• Cold room on the entrance floor for, for example, home delivery of food bags\n• Car pool membership\n\nPossibility of extension after 1 March 2027\n\nThe rent does not include electricity.\n\nSvenska \n\nPå våning 26 finner du denna välplanerade 1:a. Bostaden är omsorgsfullt designad av några av världens främsta arkitekter där allt är genomtänkt i minsta detalj, här finner du bland annat fönster från golv till tak, balkong, smarta lösningar i köket och ny teknik som förhöjer känslan.\nKarlatornet är på flera sätt ett boende utöver det vanliga, där tillgång till utvalda faciliteter ingår i månadsavgiften. Dessutom finns möjligheten att ta del av den service som erbjuds av det intilliggande hotellet mot tillkommande kostnad, som exempelvis room service, tvätt och städning.\n\nPerfekt läge på nya Lindhholmen, med endast 6 min till centralen. \n\nI hyran ingår värme, Wi-Fi, gymkort, medlemskap i bilpool, fönsterputsning utvändigt två gånger/år, tillgång till gemensamma faciliteter och service.\n\nFaciliteter som ingår i månadsavgiften är:\n\n•\tLobby med reception, lounge och eldstad\n•\tGym på våning 2 i Karlatornet \n•\tTakterrass på våning 15 med trädgård och ytor för umgänge och avkoppling\n•\tBokningsbart kök + matplats för större sällskap, i anslutning till takterrass\n•\tAktivitetsrum och biorum \n•\tKylrum på entréplan för exempelvis hemkörning av matkassar\n•\tMedlemskap i bilpool\n\nMöjlighet till förlängning efter 2027-03-01\n\nI hyran ingår inte el.\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 26.0,
-    "rent": 10850,
-    "floor": 26,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T09:00:06+00:00", "clock": "09:00:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T09:45:31+00:00", "clock": "09:45:31"};
