@@ -3,9 +3,39 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Fogelbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1446857",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/520caf1142bcb324e702102e79f3d848d29ba9b2a40dc851aad1cfc0a9594938.png",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 29900 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kjfnuspvabfpvgir7gm0/vastra-gotaland/goteborg/nedre-fogelbergsgatan-5/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus och charmig 3:a i Vasastaden hyrs ut fullt möblerad under ett år, med möjlighet till förlängning.\r\n\r\nLägenheten har högt i tak, brädgolv, stuckatur och kakelugn som ger mycket karaktär. Det finns ett stort vardagsrum med gott om plats för både umgänge och avkoppling samt en rymlig balkong mot den lugna innergården.\r\n\r\nKöket är renoverat, fullt utrustat och har bra med förvaring. Lägenheten har ett separat sovrum med garderober samt ytterligare ett rum som idag används som matsal. Det rummet kan vid behov lämnas omöblerat och användas som exempelvis barnrum, arbetsrum eller gästrum.\r\n\r\nLägenheten hyrs ut fullt möblerad och i hyran ingår el och wifi.\r\n\r\nHär bor du centralt i Vasastaden med restauranger, caféer, butiker, grönområden och bra kommunikationer på nära avstånd, samtidigt som lägenheten har ett lugnt läge mot innergården.\r\n\r\nBostaden passar bra för ett par, en mindre familj eller någon som söker ett bekvämt och hemtrevligt boende under en längre period.\r\n\r\nVi söker någon som vill ta hand om lägenheten som sitt eget hem under uthyrningsperioden. Hör gärna av dig och berätta lite om dig/er om bostaden känns intressant.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 29900 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 28221,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Wieselgrensgatan, Göteborg",
+    "url": "https://qasa.com/p/1440729",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf8f1cabaa7d1feff57dc39bfa53b05e5ee4193703e99f485c6fff6c9613a2eb.jpg",
+    "description": "Välkommen till en trivsam trea på våning 3/3 om man inte räknar med vindsvåningen. Genomtänkta ytor och ett härligt ljusflöde från två väderstreck.\nBostaden erbjuder stilrena materialval, ett modernt kök med plats för matbord samt ett rymligt vardagsrum som leder ut till en solig balkong.\nHär finns två generösa sovrum, båda med plats för dubbelsäng om så önskas.\nTill lägenheten hör ett källarförråd.\nHär bor man med närhet till Wieselgrensplatsen som erbjuder goda kommunikationer med buss och spårvagn till centrum.\nHär finns även förskolor, skolor och flera matbutiker och restauranger att utforska.\n\nOps: bilderna är från en identisk lägenhet som är möblerad. Kan vara enstaka skillnader såsom färg på kakel. \n\nJag prioriterar en hyresgäst med goda referenser och för avsikt att bo där en lång tid framöver. \n\nVid frågor eller funderingar så tveka inte på att höra av dig! \n\nMed vänliga hälsningar Hampus Svensson",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 64.0,
+    "rent": 14000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smugglarevägen, Västra Frölunda",
     "url": "https://qasa.com/p/1446743",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19b6642373b92787926320318c691ffb62a77dc4c7c976f91ff22a6281c22e52.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ba14c9166ec5c82997277b85c095b962561e002ecb44973137382361b195be7.jpg",
     "description": "Lilla runda huset, ett smart planerat och mysigt minihus på 15 m² på vår tomt, bara tre min promenad från havet . Ett bra alternativ för dig som arbetar i Göteborg under veckorna och vill ha ett eget boende istället för hotell.\n\nHär bor du kompakt men bekvämt med badrum och ett pentry innehållandes 2 kokplattor, mikro och kyl/frys och diskmaskin. Stugan är även utrustad med tvättmaskin, wifi, musikanläggning och en apple-TV. \n\nEn egen liten uteplats och fri parkering finns i direkt anslutning till boendet. \n\nBoendet passar bäst för en person med bil, då närmaste busshållplats ligger ca 1,5 km bort.\n\nVi söker i första hand en veckopendlande person som uppskattar ett lugnt boende. Du har ordnad ekonomi och inga betalningsanmärkningar. Referenser kan komma att efterfrågas.\n\nI hyran ingår:\n• El, värme och vatten\n• Wi-Fi\n• Parkering\n\nBoendet uthyres för 1 person för längre vistelser.",
     "district": "Västra Frölunda",
     "rooms": 1.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sockenvägen , Göteborg",
-    "url": "https://qasa.com/p/1446557",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56522ec84f28fc4a787b3d020c6f26d6de68982bac67ea6416431e1df64d0347.jpg",
-    "description": "Nu finns chansen att hyra i andrahand en nyrenoverad tvåa från 2021 i ett lugnt och naturnära område i Lundby. Lägenheten passar perfekt för den som uppskattar närhet till både stadens bekvämligheter och grönområden.\n\nOm lägenheten:\n\t•\tBelägen i Sockenvägen, Lundby.\n\t•\tNyrenoverad från 2021, med en modern och fräsch standard.\n\t•\tLägenheten hyrs ut delvis möblerad. \n\t•\tBestår av separat sovrum, hall, badrum, kök och vardagsrum.\n\t•\tNära till spårvagnshållplats, endast 5 minuters gångväg, och du är i Brunnsparken på cirka 10 minuter.\n\t•\tOmringad av fina natur- och parkområden.\n\t•\tGym, restauranger och matbutiker(Willys och Hemköp)inom 100 meters avstånd.\n\nBekvämligheter:\n\t•\tAvgiftsfri parkering längs Sockenvägen, finns möjlighet att hyra egen P plats via hyresvärden för ca 480kr/månad\n\t•\tSopphus för sortering finns tillgängligt.\n\t•\tTvättmaskin i lägenheten, samt tillgång till bokad tvättid i tvättstugan i källaren.\n\nHyresvillkor:\n\t•\tAndrahandsuthyrning på grund av samboprovning, 12 månader.\n\t•\tHyresgästen ska vara rökfri och anmärkningsfri.\n\t•\tVi söker en lugn och ansvarsfull hyresgäst, då det är många barnfamiljer och äldre till grannar.\n\nIngår i hyran:\n\t•\tVatten, Internet och Värme ingår i hyran.\n\nEj inkluderat:\n\t•\tEl + hemförsäkring\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 10480,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ögontröstgatan, Göteborg",
-    "url": "https://qasa.com/p/1446468",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bdefd0cbdbbd334f2bd9c61f314b181832aa3bf936dfd25ff5a205c189f1ab6.jpg",
-    "description": "Välkommen till Ögontröstgatan 1C, här bjuds du på genomgående ljusa och fräscha\nytor, ett stilfullt kök från IKEA med moderna inslag samt ett badrum utrustat\nmed ett avkopplande badkar. På en fridfull gata, omgiven av charmiga villor och grönska\nhittar du denna lägenhet. På bekvämt avstånd finns ett brett utbud av bekvämligheter,\ninklusive flertalet restauranger, gym samt den omtyckta Kville Saluhall. För bilägaren\nfinns gott om gratis parkeringsplatser precis utanför bostaden. Dessutom tar det endast\nnågra minuter att nå centrala Göteborg, antingen med spårvagn eller buss.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T08:10:00+00:00", "clock": "08:10:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T09:00:06+00:00", "clock": "09:00:06"};
