@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långängen, Göteborg",
+    "url": "https://qasa.com/p/1447234",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be3491873d7e26d50ca34548025435efa63d1d6fb32ef5a349e1b3ae2ecdca69.jpg",
+    "description": "Jag hyr ut min ljusa och fräscha lägenhet med balkong på Långöngen 10. Lägenheten kan hyras ut möblerad, delvis möblerad eller omöblerad, beroende på vad som passar bäst.\n\nHyresgästen tecknar eget elavtal.\n \n Om läget:\n • Nära kommunikationer – Smidigt med buss och spårvagn till stan.\n • Gott om service – Mataffärer, gym och annan närservice finns i närheten.\n • Lugnt och centralt – Perfekt kombination av att ha nära till allt men ändå bo i ett lugnt område.\n \n Övrigt:\n \n ✅ Öppningsbar inglasad balkong\n ✅ El, vatten och övriga kostnader ingår i hyran.\n ✅ Parkeringsplats med elbilsladdning finns (1650 kr/mån), men kan sägas upp om det inte behövs.\n ✅ Jag söker ett par eller en person som är lugn, rökfri och djurfri, har fast anställning och god ekonomi. Någon som tar hand om lägenheten och inte har den som festbostad.!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karlagatan, Göteborg",
     "url": "https://qasa.com/p/1447117",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ee185ff3792d396f8d3ea2280ebf5df255acf3afd0c6503f57f804f2d08ec25.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bäckebolslyckan, Hisings Backa",
-    "url": "https://qasa.com/p/1439956",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/892adca939e9f0dba816bb0cc9e1adbc7e7767551dcc36c63a85c367ea1136b2.jpg",
-    "description": "Möblerad 2:a uthyres i Hisings Backa, nära Selma Lagerlöfs torg\n\n60 kvm, 2 rum och inglasad balkong\nNyrenoverat kök, nya möbler i vardagsrum & sovrum, 75-tums TV\nTvättmaskin & diskmaskin\nIngår: el, vatten, parkering & bredband 1000/1000\nKräver fast inkomst\nTillgänglig 2026-10-15, bra kommunikationer\n\nJag har medvetet satt hyran på en rimlig nivå eftersom jag värdesätter en ansvarsfull och skötsam hyresgäst som tar väl hand om bostaden framför att få ut maximalt i hyra.\n\nIntresserad? Skicka PM för mer info och visning.",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 10899,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T15:13:23+00:00", "clock": "15:13:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T16:02:52+00:00", "clock": "16:02:52"};
