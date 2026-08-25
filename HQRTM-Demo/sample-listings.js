@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smugglarevägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1446743",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19b6642373b92787926320318c691ffb62a77dc4c7c976f91ff22a6281c22e52.jpg",
+    "description": "Lilla runda huset, ett smart planerat och mysigt minihus på 15 m² på vår tomt, bara tre min promenad från havet . Ett bra alternativ för dig som arbetar i Göteborg under veckorna och vill ha ett eget boende istället för hotell.\n\nHär bor du kompakt men bekvämt med badrum och ett pentry innehållandes 2 kokplattor, mikro och kyl/frys och diskmaskin. Stugan är även utrustad med tvättmaskin, wifi, musikanläggning och en apple-TV. \n\nEn egen liten uteplats och fri parkering finns i direkt anslutning till boendet. \n\nBoendet passar bäst för en person med bil, då närmaste busshållplats ligger ca 1,5 km bort.\n\nVi söker i första hand en veckopendlande person som uppskattar ett lugnt boende. Du har ordnad ekonomi och inga betalningsanmärkningar. Referenser kan komma att efterfrågas.\n\nI hyran ingår:\n• El, värme och vatten\n• Wi-Fi\n• Parkering\n\nBoendet uthyres för 1 person för längre vistelser.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 6800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Poesigatan, Hisings Backa",
     "url": "https://qasa.com/p/1446710",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13797746096e5150823bf1b79d11a7cec9149993b98d17cefe3e044bc5b81f43.jpg",
@@ -14,6 +29,21 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sommarvädersgatan 48, Göteborg",
+    "url": "https://qasa.com/p/1446804",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ace8b1a52afbac1733fc2a84d80da8187535d4c956c99dd751ba433c63c7838.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom planritning och en kommande skanning. \n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna välplanerade 4-rumslägenhet som genomgick ett Willhemlyft år 2018. Lägenheten är belägen i ett av låghusen på Sommarvädersgatan.\n\nBostaden erbjuder ett stilrent kök utrustat med rostfria vitvaror och diskmaskin. Genomgående trägolv i hela lägenheten. Det helkaklade badrummet är förberett för installation av tvättmaskin.\n\nINFLYTTNING\nDenna lägenheten annonseras med snabb inflytt där kontraktet startar den 15/9 och detta datum går inte att ändra.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma såsom att den kan vara spegelvänd.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nVälkommen att söka!",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 81.0,
+    "rent": 10799,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Hallegatan, Göteborg",
-    "url": "https://qasa.com/p/1446396",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a65196bfa0a2091c8a9425d2dd6b087746c961e9f9a081661bab7cd1311d35f8.jpg",
-    "description": "\nVälkommen till en ljus och välplanerad tvåa på Övre Hallegatan 54. Lägenheten är 61 kvm stor.  Här erbjuds kök och vardagsrum med öppen planlösning, separat sovrum, balkong och goda förvaringsmöjligheter. Samt en trevligt, mysig och nyrenoverad innegård. Lägenheten kommer att hyras ut delvis möblerad. \n\nOm bostaden\n\n* 2 rum och kök\n* 61 kvm\n* Balkong\n* Hiss\n* Ljus och välplanerad planlösning\n* Goda förvaringsmöjligheter\n* Attraktivt läge på Hisingen\n\nDetta ingår i hyran\n\n* Värme\n* Kall och varmt vatten\n* Bredband/internet\n\nHyresgästen tecknar eget elavtal och ansvarar för att ha en giltig hemförsäkring under hela hyrestiden. \n\nOm området\n\nBostaden ligger i ett trevligt och lugnt område med närhet till service, restauranger, grönområden och kollektivtrafik. Med spårvagnen precis nedanför kan man ta sig till centrala Göteborg, exempelvis Nordstan på under 10 min.\n\nVem söker jag?\n\nJag söker en seriös, skötsam och ansvarsfull hyresgäst som uppskattar ett lugnt och långsiktigt boende.\n\nSkicka gärna en kort presentation och berätta:\n\n* Vad du eller ni arbetar med eller studerar\n* Hur många personer som ska bo i lägenheten\n* Önskat inflyttningsdatum\n* Önskad hyrestid\n* Om referens från tidigare hyresvärd finns\n\nJag återkommer till aktuella kandidater för visning.\n\nVarmt välkommen att höra av dig!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hedtångsvägen, Hovås",
-    "url": "https://qasa.com/p/1446425",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34c29b5c577536255379b0262e0c7367982cc7091d74b2aa1ca166b803dcdd8f.png",
-    "description": "Svenska\n\nLjus och modern möblerad 3:a om 70 m² i Nya Hovås, färdigställd 2021 och belägen på andra våningen.\n\nLägenheten har två sovrum, rymligt vardagsrum, matplats och fullt utrustat kök med induktionshäll, ugn, mikro, diskmaskin samt fullstor kyl och frys. Det helkaklade badrummet har dusch, golvvärme, tvättmaskin och torktumlare.\n\nEn stor höjdpunkt är den mycket stora balkongen som löper längs en stor del av lägenheten och nås både från vardagsrummet och ett av sovrummen.\n\nLägenheten hyrs ut fullt möblerad med bland annat stor soffa och TV, matbord, komplett sovrum samt ett andra sovrum inrett som hemmakontor. Gott om förvaring finns.\n\nMycket bekvämt läge med ICA Kvantum och Systembolaget direkt nedanför huset samt restauranger, caféer, butiker, gym, skolor och kollektivtrafik i närområdet. Samtidigt är det nära till hav och natur, bland annat Hovås, Askim och Amundön.\n\nHiss finns. Garageplats i underjordiskt garage med elbilsladdning kan finnas att hyra separat.\n\nJag söker en ansvarsfull hyresgäst som tar hand om lägenheten som sitt eget hem. Uthyrning cirka ett år, med möjlighet till förlängning efter överenskommelse.\n\n⸻\n\nEnglish\n\nBright and modern furnished 3-room apartment, 70 m², in Nya Hovås. Completed in 2021 and located on the second floor.\n\nThe apartment has two bedrooms, a spacious living room, dining area and a fully equipped kitchen with induction hob, oven, microwave, dishwasher and full-size fridge/freezer. The tiled bathroom includes a shower, heated floor, washing machine and tumble dryer.\n\nA major highlight is the exceptionally large balcony running along a large part of the apartment, accessible from both the living room and one of the bedrooms.\n\nThe apartment is fully furnished with a large sofa and TV, dining table, complete main bedroom and a second bedroom currently arranged as a home office. Plenty of storage is available.\n\nVery convenient location with ICA Kvantum and Systembolaget directly downstairs, plus restaurants, cafés, shops, gyms, schools and public transport nearby. The sea and nature around Hovås, Askim and Amundön are also within easy reach.\n\nElevator in the building. Underground parking with EV charging may be available separately.\n\nLooking for a responsible tenant who will treat the apartment as their own home. Intended rental period approx. one year, with possible extension by mutual agreement.",
-    "district": "Hovås",
-    "rooms": 3.0,
-    "area_m2": 70.0,
-    "rent": 16500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T07:28:11+00:00", "clock": "07:28:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T08:10:00+00:00", "clock": "08:10:00"};
