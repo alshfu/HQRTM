@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Karlagatan, Göteborg",
+    "url": "https://qasa.com/p/1447117",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ee185ff3792d396f8d3ea2280ebf5df255acf3afd0c6503f57f804f2d08ec25.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/lz8xsx0pzkpq1x2bm6ij/vastra-gotaland/goteborg/karlagatan-34c/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVacker och trivsam etagelägenhet i mysiga Lunden. Lugnt och ostört område med stor och trevlig innergård. Nära till buss, affärer och grönområden och promenadavstånd  till centrum. Kök och balkong med fantastisk utsikt över Göteborg.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 95.0,
+    "rent": 18452,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Volrat Thamsgatan, Göteborg",
+    "url": "https://qasa.com/p/1447092",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b3d0b64f0d3f2a5f957e3be256f1a5e279d36eea89360640fa6b42e608ddb242.jpg",
+    "description": "Mysig 1,5 på 40kvm men badkar och balkong i sydvästläge. \nLägenheten har ett fullstort kök samt ett allrum med sovalkov. Bra förvaringsutrymme. \nEtt litet badrum med badkar och det finns tillgång till en gemensam bastu och övernattningslägenhet via föreningen. \nMycket centralt läge med 10 minuters promenad till Götaplatsen och Korsvägen och endast ett stenkast från Chalmers universitet. \n\nLägenheten är belägen på tredje våningen och via balkongen blickar man ut över den trevliga gården där det finns grönska, grillar och möblemang. \n\nI hyran i går el, vatten och bredband. \nRäknar med att hyra ut lägenheten initialt 12 månader med möjlighet till förlängning. \n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långedragsvägen , Västra Frölunda",
+    "url": "https://qasa.com/p/1447086",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3bf4c6a7d60bac1e9af2753d0ea33ae2089e35056d74badf32ff8513a20c90d.jpg",
+    "description": "Mysig väldisponerad bostad. Nyrenoverad. Helkaklat badrum. Fint kök! Obs!  P-plats ingår! Uteplats. Trädgård. Förråd. 100 meter till spårvagn \n\nSäng 140 cm sovalkov. Bäddsoffa 140 cm (utbäddad. Cykelförråd men anslutning till trädgård. Fullt möblerad.\nNärhet till bageri med nygräddat till frukost. Kvarterskrog och nära hav och natur. Perfekt om du gillar att springa eller cykla. Centralt beläge men med lugn och ro. Bostaden uthyres endast till mycket aktsamma och lugna personer utan betalningsanmärkningar. Inget festande i bostaden.\n\nLägenheten går också att hyra veckvis för 6000 skr + Quasas påslag. Blir ca 6.500 kr/vecka.\nKontakta alltid innan bokning så att jag kan ändra förutsättningarna i bokningen. Det är alltid svårare stt ändra i efterhand. \n\nObs! Lägenheten passar bäst för 1 person om man hyr lång tid.\n\nVälkommen!\n\n\n\n",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 28.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Putsegårdsgatan, Göteborg",
     "url": "https://qasa.com/p/1432086",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6453e8127d11d7d6c88169d35d0e8c30cd6fa8bc9f28325f43889de169141451.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Fogelbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1446857",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/520caf1142bcb324e702102e79f3d848d29ba9b2a40dc851aad1cfc0a9594938.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 29900 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/kjfnuspvabfpvgir7gm0/vastra-gotaland/goteborg/nedre-fogelbergsgatan-5/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus och charmig 3:a i Vasastaden hyrs ut fullt möblerad under ett år, med möjlighet till förlängning.\r\n\r\nLägenheten har högt i tak, brädgolv, stuckatur och kakelugn som ger mycket karaktär. Det finns ett stort vardagsrum med gott om plats för både umgänge och avkoppling samt en rymlig balkong mot den lugna innergården.\r\n\r\nKöket är renoverat, fullt utrustat och har bra med förvaring. Lägenheten har ett separat sovrum med garderober samt ytterligare ett rum som idag används som matsal. Det rummet kan vid behov lämnas omöblerat och användas som exempelvis barnrum, arbetsrum eller gästrum.\r\n\r\nLägenheten hyrs ut fullt möblerad och i hyran ingår el och wifi.\r\n\r\nHär bor du centralt i Vasastaden med restauranger, caféer, butiker, grönområden och bra kommunikationer på nära avstånd, samtidigt som lägenheten har ett lugnt läge mot innergården.\r\n\r\nBostaden passar bra för ett par, en mindre familj eller någon som söker ett bekvämt och hemtrevligt boende under en längre period.\r\n\r\nVi söker någon som vill ta hand om lägenheten som sitt eget hem under uthyrningsperioden. Hör gärna av dig och berätta lite om dig/er om bostaden känns intressant.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 29900 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 28221,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Wieselgrensgatan, Göteborg",
-    "url": "https://qasa.com/p/1440729",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf8f1cabaa7d1feff57dc39bfa53b05e5ee4193703e99f485c6fff6c9613a2eb.jpg",
-    "description": "Välkommen till en trivsam trea på våning 3/3 om man inte räknar med vindsvåningen. Genomtänkta ytor och ett härligt ljusflöde från två väderstreck.\nBostaden erbjuder stilrena materialval, ett modernt kök med plats för matbord samt ett rymligt vardagsrum som leder ut till en solig balkong.\nHär finns två generösa sovrum, båda med plats för dubbelsäng om så önskas.\nTill lägenheten hör ett källarförråd.\nHär bor man med närhet till Wieselgrensplatsen som erbjuder goda kommunikationer med buss och spårvagn till centrum.\nHär finns även förskolor, skolor och flera matbutiker och restauranger att utforska.\n\nOps: bilderna är från en identisk lägenhet som är möblerad. Kan vara enstaka skillnader såsom färg på kakel. \n\nJag prioriterar en hyresgäst med goda referenser och för avsikt att bo där en lång tid framöver. \n\nVid frågor eller funderingar så tveka inte på att höra av dig! \n\nMed vänliga hälsningar Hampus Svensson",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 64.0,
-    "rent": 14000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smugglarevägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1446743",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ba14c9166ec5c82997277b85c095b962561e002ecb44973137382361b195be7.jpg",
-    "description": "Lilla runda huset, ett smart planerat och mysigt minihus på 15 m² på vår tomt, bara tre min promenad från havet . Ett bra alternativ för dig som arbetar i Göteborg under veckorna och vill ha ett eget boende istället för hotell.\n\nHär bor du kompakt men bekvämt med badrum och ett pentry innehållandes 2 kokplattor, mikro och kyl/frys och diskmaskin. Stugan är även utrustad med tvättmaskin, wifi, musikanläggning och en apple-TV. \n\nEn egen liten uteplats och fri parkering finns i direkt anslutning till boendet. \n\nBoendet passar bäst för en person med bil, då närmaste busshållplats ligger ca 1,5 km bort.\n\nVi söker i första hand en veckopendlande person som uppskattar ett lugnt boende. Du har ordnad ekonomi och inga betalningsanmärkningar. Referenser kan komma att efterfrågas.\n\nI hyran ingår:\n• El, värme och vatten\n• Wi-Fi\n• Parkering\n\nBoendet uthyres för 1 person för längre vistelser.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 6800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T12:36:30+00:00", "clock": "12:36:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T13:32:54+00:00", "clock": "13:32:54"};
