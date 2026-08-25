@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bäckebolslyckan, Hisings Backa",
+    "url": "https://qasa.com/p/1439956",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/892adca939e9f0dba816bb0cc9e1adbc7e7767551dcc36c63a85c367ea1136b2.jpg",
+    "description": "Möblerad 2:a uthyres i Hisings Backa, nära Selma Lagerlöfs torg\n\n60 kvm, 2 rum och inglasad balkong\nNyrenoverat kök, nya möbler i vardagsrum & sovrum, 75-tums TV\nTvättmaskin & diskmaskin\nIngår: el, vatten, parkering & bredband 1000/1000\nKräver fast inkomst\nTillgänglig 2026-10-15, bra kommunikationer\n\nJag har medvetet satt hyran på en rimlig nivå eftersom jag värdesätter en ansvarsfull och skötsam hyresgäst som tar väl hand om bostaden framför att få ut maximalt i hyra.\n\nIntresserad? Skicka PM för mer info och visning.",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 10385,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nedre Fogelbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1446857",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/520caf1142bcb324e702102e79f3d848d29ba9b2a40dc851aad1cfc0a9594938.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bondegärdet, Angered",
-    "url": "https://qasa.com/p/1446643",
-    "image_url": null,
-    "description": "Ljus och fräsch lägenhet i barnvänligt område nära naturen!\n\nVälkommen till denna trivsamma och nyrenoverade lägenhet som passar perfekt för både familjer och par! Lägenheten ligger i ett lugnt, barnvänligt område med närhet till grönområden och lekplatser — perfekt för dig som uppskattar naturen men ändå vill ha citypulsen inom räckhåll.\n\nBostaden är nyligen tapetserad och utrustad med både ny diskmaskin samt nytt kyl- och frysskåp för din bekvämlighet. Den inglasade balkongen ger ett extra rum att njuta av året runt — perfekt för morgonkaffet eller en lugn stund på kvällen.\n\nHär bor du med utmärkta kommunikationer, endast två hållplatser från centrum, vilket gör pendlingen smidig. Dessutom ligger ICA bara 300 meter bort, så vardagsinköpen blir enkla och snabba.\n\nSammanfattning:\n\t•\tBarnvänligt och naturnära område\n\t•\tInglasad balkong\n\t•\tNytapetserat och fräscht\n\t•\tNy diskmaskin, kyl & frys\n\t•\t2 hållplatser från centrum\n\t•\t300 m till ICA\n",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T10:53:42+00:00", "clock": "10:53:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T11:22:57+00:00", "clock": "11:22:57"};
