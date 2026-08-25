@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lillekärr Norra, Hisings Kärra",
+    "url": "https://qasa.com/p/1447451",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6f9d5031cae6e201a01f732d5e028eed72d6ffc2f00075e53fea8c925567774.jpg",
+    "description": "Jag hyr ut min välskötta och mycket fina lägenhet på grund av arbete på annan ort. Lägenheten har två sovrum, ett rymligt vardagsrum, ett stort kök samt balkong. Bostaden är i mycket gott skick och passar utmärkt för både par och barnfamiljer.\nI hyran ingår samtliga kostnader för:\n\nEl\nVärme\nVatten\nGarage\nBredband\n\nHyresgästen ansvarar själv för att teckna en egen hemförsäkring.\n\nOmrådet är särskilt barnvänligt, med flera lekplatser och fina ytor för barn i närheten. Goda kommunikationer finns också, och med buss tar det cirka 18 minuter till centrala Göteborg.\n\nNästa år kommer ett stambyte att genomföras i fastigheten. Arbetet beräknas pågå under några veckor. Hyresgästen behöver inte flytta ut under perioden utan kan, enligt de förutsättningar och lösningar som fastighetens ansvariga beslutar om, bo kvar i lägenheten under tiden arbetet pågår.\n\nJag söker en skötsam, ansvarsfull och ordningsam hyresgäst som tar väl hand om lägenheten.",
+    "district": "Hisings Kärra",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 13214,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Marklandsgatan, Göteborg",
     "url": "https://qasa.com/p/1444710",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a77259bfc7ddb2a545061b9f8d18a0aa9d3f403cf232f87ef8b2aaf04b6188f2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Putsegårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1432086",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6453e8127d11d7d6c88169d35d0e8c30cd6fa8bc9f28325f43889de169141451.jpg",
-    "description": "Hej,\nNu finns det en stor lägenhet att hyra till erat personal. \n4 sovrum. Två badrum. Kök ",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 120.0,
-    "rent": 22000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T20:44:57+00:00", "clock": "20:44:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T21:11:43+00:00", "clock": "21:11:43"};
