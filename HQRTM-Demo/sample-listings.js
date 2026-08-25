@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Putsegårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1432086",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6453e8127d11d7d6c88169d35d0e8c30cd6fa8bc9f28325f43889de169141451.jpg",
+    "description": "Hej,\nNu finns det en stor lägenhet att hyra till erat personal. \n4 sovrum. Två badrum. Kök ",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 120.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tryggvegatan, Göteborg",
     "url": "https://qasa.com/p/1446983",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4f8e8d2d6a421876307290f04acd3891071abcaea95dc80169212452164d5ff1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 21B, Göteborg",
-    "url": "https://qasa.com/p/1446906",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4302fe5b5ceb1bfb366cc31f239553100261814b1c18e17cb46c534e8904050b.jpg",
-    "description": "Välkommen hem till Bergskristallen! Här ges möjlighet att hyra en 2 Rum och Kök på 47 kvm i ett bostadshus som byggdes klart under våren 2023. Lägenheten är på våning 1. En ljus och välplanerad bostad med avtalstid från 1a december. \n \nHyran för 2026 ligger på 5995 SEK/mån. \n \nLägenheten är utrustad med diskmaskin, inbyggd micro och kombimaskin. Till lägenheten hör ett förråd på vinden. \n \nOBS! Exempelbilder och planritningen är inte skalenlig. På planritningen kan du se vart i huset lägenheten är belägen och i vilket väderstreck den ligger. Där kan du även se om lägenheten har balkong, fransk balkong, uteplats eller om den saknar utemöjlighet. \n \nLägenheten har individuell mätning och debitering (IMD). IMD gör det möjligt att mäta förbrukningen av kall- och varmvatten och värme i varje enskild lägenhet. Det innebär att du som hyresgäst endast betalar för din förbrukning. IMD ger hyresgäster möjlighet att själva påverka sina kostnader, rättvist för alla och bra för miljön. Du betalar i efterskott för det vatten och värme som du faktiskt förbrukat. Förbrukningen debiteras med fem månaders eftersläpning. Hyran kommer alltså att variera beroende på din förbrukning.\r\n\r\nOMGIVNING\r\nLångströmsalléns resa till att bli ett mysigt och familjärt men också modernt och citynära bostadsområde, förändras dagligen. Det som inte förändras är den ständiga utveckling som sker här. När du flyttar till Bergskristallen så flyttar du till en plats i rörelse. Ett område där avstånden ständigt blir kortare eftersom Hisingen för varje dag som går blir en mer central del av Göteborgs centrum. Hisingen har många platser som är värda ett besök och med avstamp från Stenhuggaren kan dessa enkelt upplevas på cykel.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. \nTill Backaplan tar det ca 15min.\nTill Göteborgs centralstation tar det ca 25 minuter\r\n\r\nSERVICE\r\nPå centrala Hisingen, vid Wieselgrensplatsen och Backaplan finns ett flertal för, -grund – och gymnasieskolor, fritidsgårdar, biljard, bowling, minigolf, affärer, caféer och restauranger med smaker från hela världen. Bibliotek finns i Kvillebäcken och vid Kyrkotorget.\r\n\r\nPARKERING\r\nseparat kö, kontakta förvaltningen",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 33.0,
-    "rent": 5995,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T11:53:05+00:00", "clock": "11:53:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T12:36:30+00:00", "clock": "12:36:30"};
