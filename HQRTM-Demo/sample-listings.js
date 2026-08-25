@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bondegärdet, Angered",
+    "url": "https://qasa.com/p/1446643",
+    "image_url": null,
+    "description": "Ljus och fräsch lägenhet i barnvänligt område nära naturen!\n\nVälkommen till denna trivsamma och nyrenoverade lägenhet som passar perfekt för både familjer och par! Lägenheten ligger i ett lugnt, barnvänligt område med närhet till grönområden och lekplatser — perfekt för dig som uppskattar naturen men ändå vill ha citypulsen inom räckhåll.\n\nBostaden är nyligen tapetserad och utrustad med både ny diskmaskin samt nytt kyl- och frysskåp för din bekvämlighet. Den inglasade balkongen ger ett extra rum att njuta av året runt — perfekt för morgonkaffet eller en lugn stund på kvällen.\n\nHär bor du med utmärkta kommunikationer, endast två hållplatser från centrum, vilket gör pendlingen smidig. Dessutom ligger ICA bara 300 meter bort, så vardagsinköpen blir enkla och snabba.\n\nSammanfattning:\n\t•\tBarnvänligt och naturnära område\n\t•\tInglasad balkong\n\t•\tNytapetserat och fräscht\n\t•\tNy diskmaskin, kyl & frys\n\t•\t2 hållplatser från centrum\n\t•\t300 m till ICA\n",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 82.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1445620",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/85dd0a25a733bf81bd241643511f4855d3c0ac6870cc0edf15360815d0b9f959.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Strängnäsgatan, Göteborg",
-    "url": "https://qasa.com/p/1446349",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/26fe732b901559e2503715104c1178754e024599b1bf96f0133e0c981643232c.jpg",
-    "description": "Attefallshus på 25 kvm med loft som ligger i ett lugnt villaområde i Tollered. \nAttefallshuset har egen uteplats,  kök med ugn och spis, tvättmaskin/torktumlare, parkering samt ladd-box för elbil.  Närmaste spårvagnshållplats är  Eketrägatans hållplats som ligger 10 minuters promenad bort. \n\nI hyran ingår: El, vatten, värme, sopor, wifi, parkering med laddbox för elbil samt egen uteplats. \n\nOBS:  Vi sätter hyran beroende på vilket avtal vi skriver. Om det hyrs möblerat eller inte, låg eller kort tid. Priset i  annonsen är ca pris.  ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T02:06:59+00:00", "clock": "02:06:59"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T03:10:56+00:00", "clock": "03:10:56"};
