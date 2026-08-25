@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Tryggvegatan, Göteborg",
+    "url": "https://qasa.com/p/1446983",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4f8e8d2d6a421876307290f04acd3891071abcaea95dc80169212452164d5ff1.jpg",
+    "description": "Nu finns möjlighet att hyra en totalrenoverad källarlägenhet på 3 rum med egen ingång, belägen i det lugna och trevliga villaområdet Bjurslättsliden på Hisingen.\n\nLägenheten har ett fullutrustat kök med diskmaskin samt egen toalett och tvättmaskin. Här bor du med lugn och ro samtidigt som du har bra och direkta kommunikationer in till centrala Göteborg.\n\nLedig från och med 1 oktober.\n\nHör gärna av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 60.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Haråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1364823",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2021443890c87ad180a3491192a3149428041d0bbf649f2d5c1f2f842a528529.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13800 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/zlncxlp8ht1j6zzugyzh/vastra-gotaland/goteborg/harasgatan-5/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFullt möblerad lägenhet på våning 3 av 4\r\nej hiss\r\nbalkong i västerläge\r\nmodernt kök\r\ntvättstuga i källaren\r\n\r\nuthyres 6 månader, oktober 2026 - april 2027\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13800 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 68.0,
+    "rent": 13025,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bäckebolslyckan, Hisings Backa",
     "url": "https://qasa.com/p/1439956",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/892adca939e9f0dba816bb0cc9e1adbc7e7767551dcc36c63a85c367ea1136b2.jpg",
@@ -10,7 +40,7 @@ window.HQRTM_SAMPLE = [
     "district": "Hisings Backa",
     "rooms": 2.0,
     "area_m2": 60.0,
-    "rent": 10385,
+    "rent": 10899,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Poesigatan, Hisings Backa",
-    "url": "https://qasa.com/p/1446710",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/13797746096e5150823bf1b79d11a7cec9149993b98d17cefe3e044bc5b81f43.jpg",
-    "description": "Trevlig lägenhet i tyst söderläge med stor balkong. 400 meter från mataffär och 100 meter till buss. \n\nMin son jobbat i Arvika och behöver hyra ut sin lgh, så om du önskar hyra den längre än till jul så går det att ordna. \n\nDen är delvis möblerad som du ser på bilderna. Om du vill ha en video så finns det att efterfråga. Eftersom den är så stor går den inte att publicera här utan jag kan skicka den via whatsapp ! ",
-    "district": "Hisings Backa",
-    "rooms": 3.0,
-    "area_m2": 72.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sommarvädersgatan 48, Göteborg",
-    "url": "https://qasa.com/p/1446804",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9ace8b1a52afbac1733fc2a84d80da8187535d4c956c99dd751ba433c63c7838.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom planritning och en kommande skanning. \n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna välplanerade 4-rumslägenhet som genomgick ett Willhemlyft år 2018. Lägenheten är belägen i ett av låghusen på Sommarvädersgatan.\n\nBostaden erbjuder ett stilrent kök utrustat med rostfria vitvaror och diskmaskin. Genomgående trägolv i hela lägenheten. Det helkaklade badrummet är förberett för installation av tvättmaskin.\n\nINFLYTTNING\nDenna lägenheten annonseras med snabb inflytt där kontraktet startar den 15/9 och detta datum går inte att ändra.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Planlösningen är endast ett exempel, avvikelser kan förekomma såsom att den kan vara spegelvänd.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 81.0,
-    "rent": 10799,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T11:22:57+00:00", "clock": "11:22:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T11:53:05+00:00", "clock": "11:53:05"};
