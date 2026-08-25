@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Marklandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1444710",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a77259bfc7ddb2a545061b9f8d18a0aa9d3f403cf232f87ef8b2aaf04b6188f2.jpg",
+    "description": "Lägenheten består av två rum och kök med toalett och dusch. Det finns även en inglasad balkong i västerläge med ringa insyn då lägenheten ligger på femte våningen. Lägenheten är möblerad och är inflyttningsklar.  I hyran ingår möblemang, värme, el och vatten samt internet. Sängkläder ingår inte. Det är nära till Marklandsgatans knutpunkt för vidare transport med buss eller spårvagn till centrum. Sahlgrenska och Chalmers är inom smidigt cykelavstånd. Naturområden Slottskogen och Ängårdsbergen med Botaniska Trädgården ligger alldeles i närheten.  Shoppingcentret Frölunda Torg är bara några hållplatser bort och till närmaste matbutiken är det endast 200m.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Björcksgatan, Göteborg",
     "url": "https://qasa.com/p/1445557",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e739aa6fd82af4715661963aede31726979bfb6a6c284721cde62a489f46afba.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tryggvegatan, Göteborg",
-    "url": "https://qasa.com/p/1446983",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4f8e8d2d6a421876307290f04acd3891071abcaea95dc80169212452164d5ff1.jpg",
-    "description": "Nu finns möjlighet att hyra en totalrenoverad källarlägenhet på 3 rum med egen ingång, belägen i det lugna och trevliga villaområdet Bjurslättsliden på Hisingen.\n\nLägenheten har ett fullutrustat kök med diskmaskin samt egen toalett och tvättmaskin. Här bor du med lugn och ro samtidigt som du har bra och direkta kommunikationer in till centrala Göteborg.\n\nLedig från och med 1 oktober.\n\nHör gärna av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 60.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T19:44:45+00:00", "clock": "19:44:45"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T20:09:36+00:00", "clock": "20:09:36"};
