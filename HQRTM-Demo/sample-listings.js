@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Björcksgatan, Göteborg",
+    "url": "https://qasa.com/p/1445557",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e739aa6fd82af4715661963aede31726979bfb6a6c284721cde62a489f46afba.jpg",
+    "description": "Vi hyr ut vår lägenhet i en månad! \n\nRymlig och ljus trea i ett landshövdingehus i Kålltorp. Stort vardagsrum, två luftiga sovrum, välplanerat kök och helkaklat badrum med tvättmaskin och torktumlare. Ett av sovrummen har dubbelsäng och ett sovrum har enkelsäng. \n\nI hyran ingår vatten, el och bredband. \n\nLägenheten ligger i ett välunderhållet hus med solig gemensam uteplats. Precis vid Solrosparken med lekplatser, restauranger och kaféer i närheten. Ett stenkast från Skatås naturområde. Goda förbindelser med buss och spårvagn till centrum.\n\nPerfekt för den lilla barnfamiljen eller ett par.  Hör av er om ni är intresserade så ordnar vi en träff. Jag kan även skicka fler bilder om det önskas!\n\n\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 78.0,
+    "rent": 15100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långängen, Göteborg",
     "url": "https://qasa.com/p/1447234",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be3491873d7e26d50ca34548025435efa63d1d6fb32ef5a349e1b3ae2ecdca69.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Haråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1364823",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2021443890c87ad180a3491192a3149428041d0bbf649f2d5c1f2f842a528529.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 13800 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/zlncxlp8ht1j6zzugyzh/vastra-gotaland/goteborg/harasgatan-5/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFullt möblerad lägenhet på våning 3 av 4\r\nej hiss\r\nbalkong i västerläge\r\nmodernt kök\r\ntvättstuga i källaren\r\n\r\nuthyres 6 månader, oktober 2026 - april 2027\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 13800 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 13025,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T16:50:38+00:00", "clock": "16:50:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-25T17:21:11+00:00", "clock": "17:21:11"};
