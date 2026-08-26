@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brottkärrs byväg, Hovås",
+    "url": "https://qasa.com/p/1447576",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/960f006db3b6eca8402b6a4c9d02ee9ae554ae639e94071bbae4b2f84ffd1363.jpg",
+    "description": "Bostaden ligger i markplan med egen ingång och uteplats. Den är nybyggd (2022)och fullt möblerad . Allrum/pentry, sovalkov med 2 sängar alt dubbelsäng. Dusch/wc med tvättmaskin. Nära busshållplats, bad, Nya Hovås, tennis,golf, säröbanan, natur. Bra kommunikationer till centrum. Passar bra till en eller två studenter/forskare\nVärme, internet, tv ingår i hyran. El mätes och ligger utöver hyran. \nBarnen har flyttat hemifrån och vi är pensionärer så vi gjorde iordning denna del till uthyrning och bor kvar i huset.\nPlanlösning se bilder",
+    "district": "Hovås",
+    "rooms": 1.5,
+    "area_m2": 28.0,
+    "rent": 6000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fjärde Långgatan, Göteborg",
     "url": "https://qasa.com/p/1447541",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e47b3e988c905f6d12fe7fd7a2810de8b5ac38056c855ee05c66571783604a0.png",
@@ -13,6 +28,21 @@ window.HQRTM_SAMPLE = [
     "rent": 7500,
     "floor": null,
     "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lillhagsparken 23D, Göteborg",
+    "url": "https://qasa.com/p/1447606",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d155d8f93b7da562399e0820adeb0d9cf553f863ec7a4ac705d9896c4476a4b3.jpg",
+    "description": "Lägenheterna på Lillhagsparken 19 & 23 är moderna och välplanerade. Samtliga lägenheter innehar ekparkett genomgående med vitmålade väggar, klinker i hall och helkaklat badrum. I köken finner man ett modern Marbodal-kök, utrustat med diskmaskin och inbyggd mikrovågsugn. Badrummen är utrustade med tvättmaskin och torktumlare. Samtliga lägenheter har antingen balkong eller uteplats beroende på våningsplan. Det finns både parkering och garage att hyra, i mån av plats, med laddmöjlighet. \n\nUtöver hyran tillkommer kostnad för el och varmvatten. Endast kallvatten och värme ingår i hyran.\n\nInflyttning 1 maj 2025.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 13827,
+    "floor": null,
+    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långängen, Göteborg",
-    "url": "https://qasa.com/p/1447234",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/be3491873d7e26d50ca34548025435efa63d1d6fb32ef5a349e1b3ae2ecdca69.jpg",
-    "description": "Jag hyr ut min ljusa och fräscha lägenhet med balkong på Långöngen 10. Lägenheten kan hyras ut möblerad, delvis möblerad eller omöblerad, beroende på vad som passar bäst.\n\nHyresgästen tecknar eget elavtal.\n \n Om läget:\n • Nära kommunikationer – Smidigt med buss och spårvagn till stan.\n • Gott om service – Mataffärer, gym och annan närservice finns i närheten.\n • Lugnt och centralt – Perfekt kombination av att ha nära till allt men ändå bo i ett lugnt område.\n \n Övrigt:\n \n ✅ Öppningsbar inglasad balkong\n ✅ El, vatten och övriga kostnader ingår i hyran.\n ✅ Parkeringsplats med elbilsladdning finns (1650 kr/mån), men kan sägas upp om det inte behövs.\n ✅ Jag söker ett par eller en person som är lugn, rökfri och djurfri, har fast anställning och god ekonomi. Någon som tar hand om lägenheten och inte har den som festbostad.!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Karlagatan, Göteborg",
-    "url": "https://qasa.com/p/1447117",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/09f0584f91cb490e797f190883a1eb4f219980c372f67a8cf8be038f81d59ad7.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 19550 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/lz8xsx0pzkpq1x2bm6ij/vastra-gotaland/goteborg/karlagatan-34c/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVacker och trivsam etagelägenhet i mysiga Lunden. Lugnt och ostört område med stor och trevlig innergård. Nära till buss, affärer och grönområden och promenadavstånd  till centrum. Kök och balkong med fantastisk utsikt över Göteborg.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 19550 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 97.0,
-    "rent": 18452,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T06:20:55+00:00", "clock": "06:20:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T07:21:58+00:00", "clock": "07:21:58"};
