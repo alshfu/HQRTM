@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Prilyckegatan, Hisings Kärra",
+    "url": "https://qasa.com/p/1448315",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4763a85ec989c561e706f7411461adee9381ca12f4c77ba4d790cb1b20a9014d.jpg",
+    "description": "Mysigt radhus i tryggt område.\nI huset bor en 50 åring kvinna inneboende och jag, 66 åring kvinna. Vi är ursprungligen från Peru och Spanien. Jag söker en kvinna till som inneboende. Uthyrnings tid kan förlängas om det funkar.\nHuset har 2 kompletta badrum, 2 balkonger och en liten trädgård.\nI området finns på få minuters promenad avstånd: Ica/mataffär, simhallen och gym, pizzeria mm. skogen, busshållplatsen med express bus som tar ca 20 min. till stan. ",
+    "district": "Hisings Kärra",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kobergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1448310",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c8b8740646627b158f64f9446130d1de8cdf6fe849233c4f3a05ad9ccb32b273.png",
+    "description": "Hej!\n\nJag ska sambotesta och hyr ut min lägenhet på Kobergsgatan 18 under 1 år från och med 1/11!\n\nHYRA: 13.000\n\nStorlek: 40kvm\n\n2a\n\nLägenheter ligger i mysiga och lugna området Strömmensberg mellan Munkebäck och Kålltorp!\n\nGångavstånd till en ICA Kvantum, goa kafeér och restauranger (Portens Bageri/Ozio)!\n\nCirka 10-15 minuter till Drottningtorget med spårvagn\n\n10 min gång till Redbergsplatsen \n\nSpånvagnshållsplats 5 minuter gång ifrån lägenheten!\n\nMan kommer undan men har nära till stan och det goda livet runtom!\n\nAng möbler, ser det ut som att lämnar jag säng, ett utfällbart köksbord med stolar, tv bänk, soffbord, TV, matta i vardagsrummet, bestick, matta i sovrummet, hyllor i vardagsrummet (just nu staplade), ska kika igenom vilka köksredskap jag lämnar kvar men det kommer finnas lite redskap att ta av. Finns viss flexibilitet!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nordgårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1448297",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f18a39d0cfbc2f7aea52eb24700b3eca50f3d700f207c72060bf0653d3974537.jpg",
+    "description": "En stor och ljus etta med öppen planlösning och högt i tak hyrs ut i Elisedal. Lägenheten ligger precis vid en stor Willys butik och fem minuters prommenad till ICA Maxi. I närområdet finns det gott om gym, resturanger och nära till kollektivtrafik.\nDet är endast 5 minuter med spårvagn till korsvägen och cirke 15 minuter till centralstationen. \nTycker man om att vistas utomhus finns det utegym och närhet till Safjället i Mölndal. \nLägenheten har balkong, diskmaskin, tvättmaskin och torktummlare.\nI hyran ingår el, vatten, möblering samt bredband. \nLägenheten hyrs ut på grund av samboprövning",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 39.0,
+    "rent": 10300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nils Dahlbecks Gata, Göteborg",
     "url": "https://qasa.com/p/1448244",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d8da8d4ba0602c18e07f1c4328920d54f4e5d56df4598ec780893468db2ebd6.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Eriksbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1448126",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/165d12289207ec79379792d38d26ef82c1c32c99e2382ed42c9b70c248d83696.jpg",
-    "description": "Lägenheten ligger mellan Sörhallstorgets och Eriksbergstorgets busshållplats. Planlösning: Öppet kök med stort vardagsrum. Ett badrum med toalett, dusch, tvättmaskin och torktumlare. Ett sovrum med garderob och ett förrådsrum/klädkammare/kontorsrum. Inglasad balkong, möjlighet att grilla med elgrill ute på balkongen. Det finns  gemensam uteplats i byggnaden. Friskis&Svettis gym precis nedanför byggnaden\n\nMöblerad lägenhet: 2 sängar (1 enkel, 1 dubbel), soffor, gardiner, matbord, 8 stolar, kastruller, bestick/tallrikar, kyl & frys, spis & ugn, diskmaskin, vattenkokare, brödrost, tvättmaskin & torktumlare, mikrovågsugn, dammsugare, mopp, taklampa\n\nParkering i samma byggnad ingår, finns även parkering med laddbox för elbilar.\nInternet fiber 1000/1000 med router ingår\nTV-Kanaler bas ingår\nVatten och värme ingår\nCykelrum ingår\nFörråd ingår\nEl ingår",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 74.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blåsutgatan, Göteborg",
-    "url": "https://qasa.com/p/1448095",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/69aa6770a62e2e3d1e69f54a157c758de01120277e7fad36ade6817a66b1807d.png",
-    "description": "Jag hyr ut min 1:a på 25 kvm i Majorna, med flexibel inflyttning omkring slutet av september/början av oktober.\n\nLägenheten ligger på tredje våningen (hiss finns) och har en jättefin utsikt över Älvsborgsbron. Den hyrs ut möblerad och är utrustad med bland annat tvättmaskin, wifi, TV med Chromecast och komplett kök.\n\nHärifrån är det nära till både Chapmanstorg och Mariaplan, med väldigt bra spårvagnsförbindelser. Det tar ca 7 minuter till Järntorget och ca 15–20 minuter in till centrala Göteborg.\n\nJag söker en skötsam och pålitlig hyresgäst som vill hyra tillsvidare, med en minsta hyrestid på 4 månader.\n\nLägenheten ligger samtidigt ute till försäljning. Det innebär att hyresgästen behöver vara okej med att lägenheten vid enstaka tillfällen kan behöva visas för potentiella köpare efter överenskommelse. Hyresgästen har 1 månads uppsägningstid och jag som hyresvärd har 3 månaders uppsägningstid.\n\nI hyran ingår el, vatten och wifi. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Munkebäcksgatan 24C, Göteborg",
-    "url": "https://qasa.com/p/1448142",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3fc47f25096ebee59c2f4de865a39e66a48cd9aa4b40c2b972c7dcc68090d587.png",
-    "description": "Välkommen till en nyproducerad och välplanerad tvårumslägenhet om 42 kvm på vindsvåningen på Munkebäcksgatan 24C.\n\nLägenheten erbjuder ett modernt och trivsamt boende med en genomtänkt planlösning. För extra bekvämlighet är lägenheten utrustad med egen tvättmaskin och torktumlare.\n\nHär bor du högst upp i fastigheten i populära Kålltorp, med närhet till kollektivtrafik, service, restauranger och grönområden.\n\n• Boyta: 42 kvm\n• Antal rum: 2 rum och kök\n• Månadshyra: 11 000 kr\n• Inflyttning: Snarast\n\nVälkommen att lämna din intresseanmälan!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 11298,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T20:05:04+00:00", "clock": "20:05:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T23:27:09+00:00", "clock": "23:27:09"};
