@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Brottkärrsvägen, Hovås",
+    "url": "https://qasa.com/p/1448193",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/de9c04a134f89b906c3936d7e3199f4cb0377c2453fabc0daad92e76a7982cec.jpg",
+    "description": "Köket är från Marbodal och är utrustat med kyl och frys, inbyggnadsugn, induktionshäll, mikro, diskmaskin samt fläkt från Bosch. Ovanför arbetsytorna sitter spotlights som ger bra arbetsbelysning.\n\nBostaden disponeras som 1,5 rum då en vägg har satts upp för att skapa en separat sovdel, vilket ger en mer avskild och ombonad sovplats samtidigt som bostaden behåller sin öppna känsla. Förvaringen är väl tilltagen med skjutdörrsgarderob.\n\nFrån köket nås den rymliga balkongen som vetter mot gården – en lugn och trevlig plats att koppla av på.\n\nBadrummet är helkaklat med grått klinkergolv och utrustat med dusch med vikbara glasdörrar, WC samt handfat med kommod. Här finns även egen tvättmaskin och torktumlare samt praktisk förvaring. Till lägenheten hör dessutom ett källarförråd.\n\nNya Hovås är ett attraktivt och växande område som präglas av modern arkitektur, närhet till hav och en småstadsliknande känsla. Här finns ett brett serviceutbud med matbutiker, caféer, restauranger, gym och annan vardagsservice samlat runt det levande torget. Området erbjuder goda kommunikationer in till centrala Göteborg samtidigt som du har natur, grönområden och salta bad inom bekvämt avstånd. Ett område som passar dig som vill ha lugn och livskvalitet utan att kompromissa med närheten till stadens utbud.",
+    "district": "Hovås",
+    "rooms": 1.5,
+    "area_m2": 39.0,
+    "rent": 10900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Virginsgatan, Göteborg",
+    "url": "https://qasa.com/p/1448167",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc2ee3a30967a707843b3af32df6bb23301b37b90c542305bbbd0585e4e1792a.jpg",
+    "description": "Möblerad tvåa i Kålltorp – nära stan och Delsjöområdet\n\nVälkommen till en trivsam och möblerad tvåa på 47 kvm i populära Kålltorp/Härlanda. Lägenheten hyrs ut i ett år, med möjlighet till inflytt så snart som möjligt.\n\nHär bor du med ett väldigt bra läge för dig som vill kombinera närheten till Göteborgs centrum med natur och friluftsliv. Delsjöområdet och Härlanda tjärn ligger nära, samtidigt som du enkelt tar dig in till stan. Området kring Kålltorp är lugnt och grönt, med mataffärer, restauranger och kollektivtrafik på bekvämt avstånd. \n\nLägenheten:\n– 47 kvm.\n– 2 rum och kök.\n– Möblerad.\n– Dusch.\n– Gemensam tvättstuga med två tvättmaskiner, torktumlare och torkrum.\n– Gratis gatuparkering i området.\n\nHyra: 12 000 kr/mån – allt ingår.\n\nI hyran ingår samtliga löpande boendekostnader, vilket gör det enkelt att veta vad boendet kostar varje månad. Den som hyr lägenheten måste godkännas av föreningen som kräver en referens.\n\nOm området:\nKålltorp är ett av Göteborgs citynära områden där du får det bästa av två världar. Du har stadens utbud på nära håll, samtidigt som Delsjöområdet erbjuder stora möjligheter till promenader, löpning, bad och friluftsliv. Härlanda tjärn och Delsjöarna är särskilt fina för den som gillar att komma ut i naturen. \n\nLägenheten passar bra för dig som arbetar eller studerar i Göteborg och vill ha ett bekvämt, möblerat boende under en längre period.\n\nUthyres i ett år på grund av jobb. Inflyttning enligt överenskommelse, så snart som möjligt.\n\nRökning och husdjur är inte tillåtet.\n\nSkicka gärna ett meddelande och berätta lite om dig själv, så återkommer jag!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Östra Eriksbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1448126",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/165d12289207ec79379792d38d26ef82c1c32c99e2382ed42c9b70c248d83696.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmegatan 9, Göteborg",
-    "url": "https://qasa.com/p/1448041",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c09dbab3ca6e4744f6ca80868d57a47306debaf7b0208b45c710c64baddd9eaf.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna 3:a med två badrum och balkong! Modernt kök med diskmaskin, gasspis och separat kyl & frys. I det större badrummet är det förberett för tvättmaskin. \n\nINFLYTTNING\nLägenheten publiceras med snabb inflyttning där datum ej kan förflyttas.\n\nIngen fysisk visning möjlig.\n\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 9150,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Litteraturgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1447806",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c91f12bb01cb618cfc44b447919ae5186b791b7ddb6646a67a708b217905418b.jpg",
-    "description": "Ny och fräsch 2:a med fin utsikt och stor uteplats!\n\nFin och modern lägenhet med fri utsikt utan byggnader framför. Bra läge nära buss, garage med parkeringsmöjlighet och mittemot Coop. Nära Selma Lagerlöfs torg med Hemköp, restauranger och annan service. Lägenheten har ett stort, fräscht badrum samt en rymlig uteplats med plats för både avkoppling och lek.",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 10719,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T16:23:53+00:00", "clock": "16:23:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T18:12:52+00:00", "clock": "18:12:52"};
