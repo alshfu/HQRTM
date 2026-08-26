@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Köldgatan 19, Göteborg",
+    "url": "https://qasa.com/p/1448043",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd52deeaf77ada8b89faf100c6bdd7d015fdc4ee083c01c34b4dfa179dfad4d5.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom en tidsbestämd fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Biskopsgården! Lägenheten har genomgått en av våra willhemlyft, och har därför ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Genomgående ekparkett med klinkers i hall och helkaklat badrum med förberedelse för tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 9364,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Värmegatan 9, Göteborg",
+    "url": "https://qasa.com/p/1448041",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c09dbab3ca6e4744f6ca80868d57a47306debaf7b0208b45c710c64baddd9eaf.jpg",
+    "description": "OM LÄGENHETEN\nVälkommen till denna 3:a med två badrum och balkong! Modernt kök med diskmaskin, gasspis och separat kyl & frys. I det större badrummet är det förberett för tvättmaskin. \n\nINFLYTTNING\nLägenheten publiceras med snabb inflyttning där datum ej kan förflyttas.\n\nIngen fysisk visning möjlig.\n\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 63.0,
+    "rent": 9150,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Litteraturgatan, Hisings Backa",
     "url": "https://qasa.com/p/1447806",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c91f12bb01cb618cfc44b447919ae5186b791b7ddb6646a67a708b217905418b.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 105, Angered",
-    "url": "https://qasa.com/p/1447752",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e1848bf059b10d137bfee14c7d0a07aa2c08f8dd407ed932de03fd3c3529c7e7.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong i sydväst på 7 kvm. På bilderna och planritningen kan du se i viket hus, samt vart i huset lägenheten är belägen. Filmen som visas för lägenheten är en film från en likadan lägenhet med samma planlösning, men i ett annat hus och ev. annat våningsplan.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare eller kombinerad tvätt och tork.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. \n",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 7664,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brottkärrs byväg, Hovås",
-    "url": "https://qasa.com/p/1447576",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/960f006db3b6eca8402b6a4c9d02ee9ae554ae639e94071bbae4b2f84ffd1363.jpg",
-    "description": "Bostaden ligger i markplan med egen ingång och uteplats. Den är nybyggd (2022)och fullt möblerad . Allrum/pentry, sovalkov med 2 sängar alt dubbelsäng. Dusch/wc med tvättmaskin. Nära busshållplats, bad, Nya Hovås, tennis,golf, säröbanan, natur. Bra kommunikationer till centrum. Passar bra till en eller två studenter/forskare\nVärme, internet, tv ingår i hyran. El mätes och ligger utöver hyran. \nBarnen har flyttat hemifrån och vi är pensionärer så vi gjorde iordning denna del till uthyrning och bor kvar i huset.\nPlanlösning se bilder",
-    "district": "Hovås",
-    "rooms": 1.5,
-    "area_m2": 28.0,
-    "rent": 6000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T14:03:58+00:00", "clock": "14:03:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T14:57:51+00:00", "clock": "14:57:51"};
