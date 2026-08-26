@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nils Dahlbecks Gata, Göteborg",
+    "url": "https://qasa.com/p/1448244",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0d8da8d4ba0602c18e07f1c4328920d54f4e5d56df4598ec780893468db2ebd6.jpg",
+    "description": "Ljus och yteffektiv tvåa på våning 2 i Örgryte Torp, Poseidons nyproduktion från 2018. Separat sovrum, öppen köksdel mot vardagsrum och balkong på ca 7 m² mot lugn innergård. Ingen insyn från gatan och tyst på kvällarna.\n\nKök med diskmaskin, kyl/frys, spis och ugn. Egen tvättmaskin och torktumlare i badrummet, så ingen bokning i tvättstuga. Ovanligt mycket förvaring för storleken: två linneskåp, två garderober, städskåp och kapphylla i hallen. Hiss i huset, eget förråd och cykelrum. Parkering finns att hyra i området (jag har ingen plats i dag).\n\nLäget är det som gör lägenheten. Delsjöområdets naturreservat börjar i princip bakom knuten, ut genom porten och du är inne i skogen inom någon minut. Stora Torp med grillplatser och öppna gräsytor ligger ett par hundra meter bort, Skatås motionscentrum når du på en kort cykeltur och Delsjöbadet på en kvarts promenad genom skogen. Har du löpning, cykling eller skidor som intresse är det svårslaget. På sommaren går dessutom badbussen till Delsjöbadet från hållplatsen närmast huset.\n\nSamtidigt är du snabbt inne i stan. Hållplats Bögatan ligger 250 m från porten, spårvagn 5 går till Korsvägen på ca 8 minuter och till Brunnsparken/Centralen på ca 15. Avenyn på tio minuters cykling. Mataffär ett par minuters promenad bort och gym (Nordic Wellness Örgryte) under tio minuter till fots.\n\nJag byter enbart för att jag fått jobb i Stockholm/Uppsala. Annars hade jag bott kvar.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 12100,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Mölndalsvägen, Göteborg",
+    "url": "https://qasa.com/p/1448175",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/14bee857591ae18081f223d96861b2b439162c2377c9d68a001c4e5aa7485f2f.jpg",
+    "description": "Lägenhet med ett rum och kök, cirka 30 kvadratmeter, uthyres. Belägen i centrala Göteborg på Mölndalsvägen, på sjätte våningen. 3 minuter till hållplats Almedal. Om du är intresserad, kontakta oss.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 6000,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brottkärrsvägen, Hovås",
     "url": "https://qasa.com/p/1448193",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/de9c04a134f89b906c3936d7e3199f4cb0377c2453fabc0daad92e76a7982cec.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Munkebäcksgatan 24C, Göteborg",
-    "url": "https://qasa.com/p/1448139",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4217b891f79504cf2b9410dcc372f0e1c81785dce67df28614a767248d5ad012.png",
-    "description": "Välkommen till en helt nyproducerad och välplanerad trerumslägenhet om 68,5 kvm på andra våningen på Munkebäcksgatan 24C.\n\nLägenheten erbjuder ett modernt och bekvämt boende med genomtänkt planlösning och egen balkong. Köket är utrustat med diskmaskin och i lägenheten finns även egen tvättmaskin och torktumlare.\n\nHär bor du i populära Kålltorp, med närhet till kollektivtrafik, service, restauranger och grönområden.\n\n• Boyta: 68,5 kvm\n• Antal rum: 3 rum och kök\n• Våningsplan: Andra våningen\n• Månadshyra: 15 400 kr\n• Inflyttning: Snarast\n• Balkong\n• Diskmaskin\n• Egen tvättmaskin och torktumlare\n\nVälkommen att lämna din intresseanmälan!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 15400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Köldgatan 19, Göteborg",
-    "url": "https://qasa.com/p/1448043",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bd52deeaf77ada8b89faf100c6bdd7d015fdc4ee083c01c34b4dfa179dfad4d5.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom en tidsbestämd fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Biskopsgården! Lägenheten har genomgått en av våra willhemlyft, och har därför ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Genomgående ekparkett med klinkers i hall och helkaklat badrum med förberedelse för tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nOBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 63.0,
-    "rent": 9364,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T18:12:52+00:00", "clock": "18:12:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T20:05:04+00:00", "clock": "20:05:04"};
