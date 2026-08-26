@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Litteraturgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1447806",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c91f12bb01cb618cfc44b447919ae5186b791b7ddb6646a67a708b217905418b.jpg",
+    "description": "Ny och fräsch 2:a med fin utsikt och stor uteplats!\n\nFin och modern lägenhet med fri utsikt utan byggnader framför. Bra läge nära buss, garage med parkeringsmöjlighet och mittemot Coop. Nära Selma Lagerlöfs torg med Hemköp, restauranger och annan service. Lägenheten har ett stort, fräscht badrum samt en rymlig uteplats med plats för både avkoppling och lek.",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 10719,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fjärde Långgatan, Göteborg",
-    "url": "https://qasa.com/p/1447541",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e47b3e988c905f6d12fe7fd7a2810de8b5ac38056c855ee05c66571783604a0.png",
-    "description": "Jag hyr ut två sovrum i min fyra på 115 kvadrat. Till en eller två hyresgäster. Hyran är per rum. Sovrummen ligger i en egen korridor, nära toalett. Vardagsrum och kök får användas. Läget på Fjärde långgatan kan inte bli bättre. Rummen är tysta eftersom de ligger in mot gården, men ett steg utanför huset finns tillgång till stadens puls, restauranger, Slottsskogen, allt på fem minuters gångavstånd. Det är bara 50 meter till Linnégatan med allmänna kommunikationer. I hyran ingår, el, vatten, Internet. Jag bor själv i det större sovrummet, men reser en hel del i arbetet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 9.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T11:00:28+00:00", "clock": "11:00:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T11:38:16+00:00", "clock": "11:38:16"};
