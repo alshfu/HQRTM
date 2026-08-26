@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skogsgapet, Brännö",
+    "url": "https://qasa.com/p/1447705",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d58c939a014743ce0bb846d75325f34698e83812763ad939a33c806416be86f9.jpg",
+    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 8625 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/jyhtb0rncp2bg1sw05ef/vastra-gotaland/branno/skogsgapet-24/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälkommen till ett mysigt och charmigt småhus om 42 kvm, perfekt för dig som söker ett lugnt och hemtrevligt boende. \r\n\r\nBostaden hyrs ut fullt möblerad och är redo för inflyttning. Här finns ett fullt utrustat kök samt både tvättmaskin och torktumlare, vilket ger ett bekvämt och praktiskt boende.\r\n\r\nHuset erbjuder en trivsam och ombonad miljö där ytorna är väl tillvaratagna. Bostaden passar utmärkt för en eller två personer, med maximalt två boende.\r\n\r\nDet finns ingen fast förbindelse till fastlandet, vilket bidrar till den lugna och avskilda känslan. Samtidigt är det smidigt att ta sig in till fastlandet med färjeresan på bara 20 minuter. \r\n\r\nEtt charmigt boende för dig som uppskattar lugn och ro.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 8625 kr.\nBook a viewing by following the above link to Samtrygg;",
+    "district": "Brännö",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 8141,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Brottkärrs byväg, Hovås",
     "url": "https://qasa.com/p/1447576",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/960f006db3b6eca8402b6a4c9d02ee9ae554ae639e94071bbae4b2f84ffd1363.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björcksgatan, Göteborg",
-    "url": "https://qasa.com/p/1445557",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e739aa6fd82af4715661963aede31726979bfb6a6c284721cde62a489f46afba.jpg",
-    "description": "Vi hyr ut vår lägenhet i en månad! \n\nRymlig och ljus trea i ett landshövdingehus i Kålltorp. Stort vardagsrum, två luftiga sovrum, välplanerat kök och helkaklat badrum med tvättmaskin och torktumlare. Ett av sovrummen har dubbelsäng och ett sovrum har enkelsäng. \n\nI hyran ingår vatten, el och bredband. \n\nLägenheten ligger i ett välunderhållet hus med solig gemensam uteplats. Precis vid Solrosparken med lekplatser, restauranger och kaféer i närheten. Ett stenkast från Skatås naturområde. Goda förbindelser med buss och spårvagn till centrum.\n\nPerfekt för den lilla barnfamiljen eller ett par.  Hör av er om ni är intresserade så ordnar vi en träff. Jag kan även skicka fler bilder om det önskas!\n\n\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 15100,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T08:05:52+00:00", "clock": "08:05:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T08:59:03+00:00", "clock": "08:59:03"};
