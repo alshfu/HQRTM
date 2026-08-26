@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fjärde Långgatan, Göteborg",
+    "url": "https://qasa.com/p/1447541",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e47b3e988c905f6d12fe7fd7a2810de8b5ac38056c855ee05c66571783604a0.png",
+    "description": "Jag hyr ut två sovrum i min fyra på 115 kvadrat. Till en eller två hyresgäster. Hyran är per rum. Sovrummen ligger i en egen korridor, nära toalett. Vardagsrum och kök får användas. Läget på Fjärde långgatan kan inte bli bättre. Rummen är tysta eftersom de ligger in mot gården, men ett steg utanför huset finns tillgång till stadens puls, restauranger, Slottsskogen, allt på fem minuters gångavstånd. Det är bara 50 meter till Linnégatan med allmänna kommunikationer. I hyran ingår, el, vatten, Internet. Jag bor själv i det större sovrummet, men reser en hel del i arbetet.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 9.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gubbe Lars Väg 3, Göteborg",
+    "url": "https://qasa.com/p/1447539",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2a217af9389b853475e5feb56f757efa09e7865ce4be920896e2fff12681bf21.jpg",
+    "description": "Nu kan vi erbjuda en 3 ROK på Gubbe Lars väg 3 från 1 december.\nLägenheten är belägen på våning 2 och är disponerad på 74 kvm.\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten, denna debitering tillkommer på hyran.\n\nAnsök redan idag! ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 12849,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillekärr Norra, Hisings Kärra",
     "url": "https://qasa.com/p/1447451",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c6f9d5031cae6e201a01f732d5e028eed72d6ffc2f00075e53fea8c925567774.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Volrat Thamsgatan, Göteborg",
-    "url": "https://qasa.com/p/1447092",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b3d0b64f0d3f2a5f957e3be256f1a5e279d36eea89360640fa6b42e608ddb242.jpg",
-    "description": "Mysig 1,5 på 40kvm men badkar och balkong i sydvästläge. \nLägenheten har ett fullstort kök samt ett allrum med sovalkov. Bra förvaringsutrymme. \nEtt litet badrum med badkar och det finns tillgång till en gemensam bastu och övernattningslägenhet via föreningen. \nMycket centralt läge med 10 minuters promenad till Götaplatsen och Korsvägen och endast ett stenkast från Chalmers universitet. \n\nLägenheten är belägen på tredje våningen och via balkongen blickar man ut över den trevliga gården där det finns grönska, grillar och möblemang. \n\nI hyran i går el, vatten och bredband. \nRäknar med att hyra ut lägenheten initialt 12 månader med möjlighet till förlängning. \n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långedragsvägen , Västra Frölunda",
-    "url": "https://qasa.com/p/1447086",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a3bf4c6a7d60bac1e9af2753d0ea33ae2089e35056d74badf32ff8513a20c90d.jpg",
-    "description": "Mysig väldisponerad bostad. Nyrenoverad. Helkaklat badrum. Fint kök! Obs!  P-plats ingår! Uteplats. Trädgård. Förråd. 100 meter till spårvagn \n\nSäng 140 cm sovalkov. Bäddsoffa 140 cm (utbäddad. Cykelförråd men anslutning till trädgård. Fullt möblerad.\nNärhet till bageri med nygräddat till frukost. Kvarterskrog och nära hav och natur. Perfekt om du gillar att springa eller cykla. Centralt beläge men med lugn och ro. Bostaden uthyres endast till mycket aktsamma och lugna personer utan betalningsanmärkningar. Inget festande i bostaden.\n\nLägenheten går också att hyra veckvis för 6000 skr + Quasas påslag. Blir ca 6.500 kr/vecka.\nKontakta alltid innan bokning så att jag kan ändra förutsättningarna i bokningen. Det är alltid svårare stt ändra i efterhand. \n\nObs! Lägenheten passar bäst för 1 person om man hyr lång tid.\n\nVälkommen!\n\n\n\n",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 28.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T05:46:52+00:00", "clock": "05:46:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-26T06:20:55+00:00", "clock": "06:20:55"};
