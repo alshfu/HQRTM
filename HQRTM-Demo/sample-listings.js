@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Torskogsvägen, Torslanda",
+    "url": "https://qasa.com/p/1432609",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d3186f9564577664f0ed38f445224c3dd0026fcf867c84c9e90ccb116814d33c.png",
+    "description": "Ett tiny house för en-två vuxna i eftertraktade Torslanda-Lilleby. Huset har ett allrum med dagbädd som kan förvandlas till en dubbelsäng, litet bord med sittbänk, TV med chromecast, en kokvrå med ugn, kokplatta och diskmaskin. Kyl/frys finns också. I hallen finns klädförvaring och bokhylla. I badrummet finns handfat, dusch, toalett, kombimaskin och gott om förvaring. Till huset hör också en altan och liten gräsmatta. \nI hyran ingår el och wifi. \nNära till kollektivtrafik. Parkering finns på tomten om man har bil. Gott om cykelbanor om man föredrar det. Nära till Volvo Torslanda och Arendal. \nNära till natur och havsbad!",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 8500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1449815",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c569d9a0b4a47e6831aecbb6d1945d6c2acfbd6938538773af0d4dd42a5f23c.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carl Grimbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1449481",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4885088e58ccf92bbd6dc2c335f51fea76c4fd7290160fac7b0e0c3ebbfd3586.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11601 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/cmb3pmsvuppjpcyfnk1k/vastra-gotaland/goteborg/carl-grimbergsgatan-25/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus och rymlig tvåa på fjärde våning i Annedal. Vardagsrummet har hörnläge med två stora fönster mot väster och fin kvällssol. Balkongen med sol på eftermiddagen och kväll bjuder in till mysiga sommarkvällar. Lägenheten ligger väldigt lugnt mot det bilfria bostadsområde och grannskapen är väldigt trevlig och trivsam. Helkaklat badrum med dusch. Köket är välplanerad med plats för matbord, diskmaskin, inbyggd mikro, kyl och frys. Fin trägolv och fina originaldetaljer i trä i alla rum förutom sovrummet. Inbyggda väggskåp rymmer det flesta och skapar ordning i korridoren och entrén.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11601 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 67.0,
-    "rent": 10949,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-28T22:21:49+00:00", "clock": "22:21:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-29T03:46:19+00:00", "clock": "03:46:19"};
