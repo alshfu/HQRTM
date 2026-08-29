@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fyrbåksvägen , Torslanda",
+    "url": "https://qasa.com/p/1444679",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa50f589c34f1db73d62fff0b1f5a96d0d7ef2df5298e0016c3766b5378546f6.jpg",
+    "description": "Mycket ljus och hemtrevlig fristående gästhus/bostad längst in på en återvändsgata intill hav och skogsområde. Gästhuset når du via separat trappa direkt från egen parkeringsplats.  \nBostaden har en öppen planlösning mellan möblerat kök och vardagsrum + fransk balkong.  Ny 50´´Tv med  Apple-TV.  Separat sovrum med 160 säng + utgång till insynsskyddad altan på ca 20kvm.  Badrum med dusch och tvättmaskin. \n\nEl, vatten, värme, bredband, parkering samt sophämtning ingår. \n\nPromenad ca 10-15 min /cykel  ca 5 min till busshållplats (Långrevsvägen).\n \nVi söker dig som uppskattar ett  lugn och naturnära boende i ett tryggt villaområde.  Du är en trevlig, djur- och rökfri person som uppskattar lugnet före stadens puls.  Ordnad ekonomi  samt referenser. \n\nKan denna bostad passa just dig är du varmt välkommen att kontakta oss med ett beskrivning av dig själv och din bostadssituation. \n\n\n",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 9800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hemmansägaregatan, Göteborg",
+    "url": "https://qasa.com/p/1450263",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e01383291ff7d73d91b896b2b29e843fcc40dcfe9d8f0d957191a0c6fe814363.jpg",
+    "description": "Attefallshus belägen på centrala Hisingen.\nSöker skötsam hyresgäst utan betalningsanmärkningar. Rökfri, inga husdjur tillåtet. \nHuset är möblerat samt fullt inrett kök.\nKombinerad tvättmaskin/ torktumlare.\nBadrum med WC, dusch och golvvärme.\nI uthyrningspriset ingår el, vatten och internet.\nBra kommunikation, bara 2 minuter från hållplats Toleredsgatan. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 25.0,
+    "rent": 6900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skäpplandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1450257",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1d8752e1846b0409a5f248e31558b5dc27a613b505b9f44cf0756724409fd341.jpg",
+    "description": "Söker en inneboende/någon att dela  min fina centrala trea med. Som boende här har du utöver ditt eget rum självklart tillgång till bostadens vardagsrum, hall, kök, och badrum. \nOch här får du inte bara bo i en bostad utan i ett hem. Du får gärna vilja bo en längre tid.  \nFantastiskt läge! Med vagn typ tre -tio min resa, till mysiga Majorna, en fika i Linne, handling på Frölunda torg eller studier på Chalmers eller GU. Bara en kort bussresa till havet eller insjön, och parker och naturområden, och till och med berg finns på gångavstånd! \nGrymt läge med 2 min till hållplats, 1.5 -2 min till mataffär, gym, frisör och pizzeria. Härifrån går bussar och vagnar till hela stan. Bekväma cykelavstånd, bra cykelvägar och lånecyklar finns. Stenkast ifrån parker och flera naturområden. Knappt 10 min promenad till bibliotek, apotek och annan samhällsservice. Uteplats utanför huset.\n\nJag ser fram emot ditt personliga meddelande - att du berättar om dig, och vem du är! Prefabricerade meddelanden eller AI-genererade texter bortses ifrån. Ser fram emot att höra om  hur du fungerar med andra, varför du är intresserad av att bo just här, vad du sysselsätter dig med, intressen, hur du bor idag och bott tidigare etc.\n\nRummet är möblerat ungefär enligt vad som finns på bilderna, men vissa förändringar i möblemanget har skett, och mer förvaringsutrymme har tillkommit. Sängen är en 140 cm säng. Skrivbord finnes i vardagsrummet, men som vi som bor här tillsammans delar på, men som kan användas när det är ledigt, och självklart kan du använda köksbordet för studier när så möjligt med.  \nBra tvättstuga med lätt att få tider. Vid besök kan finnas möjlighet att hyra in sig i fastighetens gästrum.\nOm hyra etc: I hyran ingår, snabbt internet, el, värme, vatten, även vissa förbrukningsvaror. Du betalar en månads deposition.\n\nVår supermysiga katt är där en del, katten är en av de raser som räknas som låg-allergena eller allergivänliga.\n\nLite om dig: \nJag söker dig som respekterar och är varsam med mitt hem och det som är här. Dig som söker den privata sfären och lugnet. Som uppskattar samvaron och det sociala! Du håller god ordning, rent och fräscht runt dig, är trygg med dig själv och stabil, har stadig inkomst/studiemedel, röker inte och har inga djur, använder inte droger. Inga fester i bostaden.  Du är öppen och bra på att kommunicera, och vill samarbeta, ömsesidig tillit och respekt är viktigt. Är du vegetarian, veckopendlare eller utbytesstudent är det en fördel.\n\nBilder också på uteplats med blomsterprakt, och närliggande odlingsområde med möjlighet till fikastund.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5250,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vintervädersgatan, Göteborg",
     "url": "https://qasa.com/p/1450191",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/26d1a55ba854b44b14df879b087b1583614264e791969b8780702862c8a14b64.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fastlagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1450111",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bc91294c0305dc24dda560c32ca337e0e7ec0d14fd9a4ce0908540b597f6877b.png",
-    "description": "Ljus och välplanerad tvåa på 56 kvm, belägen högst upp i huset på våning 3 av 3. Lägenheten har en genomgående ljus och stilren känsla, fönster i två väderstreck och gott om förvaring. Det rymliga köket har gott om arbetsyta och en separat matplats med plats för 4–6 personer. Vardagsrummet är luftigt och har ett vackert fiskbensmönstrat golv.\nFrån vardagsrummet når du den inglasade och insynsskyddade balkongen som vetter mot en grönskande skogsdunge. Balkongen har sol från öst och syd och är en härlig plats att njuta av under stora delar av dagen. Sovrummet rymmer en dubbelsäng och har en garderobsvägg med gott om förvaring. Det stamrenoverade, helkaklade badrummet har golvvärme, handdukstork och vädringsfönster.\nLägenheten ligger i ett lugnt och naturnära område med cirka 8 minuters promenad till Kortedala Torg, där det finns mataffär, restauranger, gym och annan service. Spårvagn 7 och 11 går från torget och tar dig till centrala Göteborg på cirka 15 minuter.\nLägenheten hyrs ut eftersom jag arbetar på sjön och därför inte nyttjar den under hela året. Jag är flexibel kring möbleringen och kan hyra ut den möblerad, delvis möblerad eller omöblerad beroende på hyresgästens önskemål.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 10000,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kobbeslätten, Askim",
-    "url": "https://qasa.com/p/1450079",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e02bbe82a261cfc29fa3c1b71683d5a381536c77f2e91971f6cf8e2d67391774.jpg",
-    "description": "Välkommen till en modern och välplanerad tvåa med egen ingång och uteplats. Här erbjuds stilrena materialval, smart planlösning och öppna sociala ytor som passar både vardag och umgänge. Kök och vardagsrum samspelar i en öppen planlösning som skapar rymd och ett naturligt flöde genom bostaden. Det moderna köket är fullt utrustat med goda arbetsytor och generös förvaring, medan vardagsrummet rymmer både soffgrupp och matplats. Stora fönsterpartier ger ett fint ljusinsläpp och bidrar till en trivsam atmosfär. Det rofyllda sovrummet har plats för dubbelsäng och förvaring. Uteplatsen erbjuder gott om utrymme för utemöbler, grill och växter – perfekt för avkoppling eller sociala stunder. Det helkaklade badrummet är stilrent inrett och utrustat med dusch samt egen tvättmaskin och torktumlare, vilket ger extra komfort i vardagen. I entrén möts du av bra förvaringsmöjligheter och ett välkomnande första intryck.\n\nBostaden är belägen i populära Sisjön, ett område som erbjuder ett unikt samspel mellan service och natur. Här finns ett brett utbud av butiker, gym och restauranger på bekvämt avstånd, samtidigt som du har nära till sjöar, badplatser, motionsspår och grönområden samt havet. Goda kommunikationer tar dig smidigt vidare mot Göteborgs city.\n\nEtt modernt och lättskött hem med egen ingång, uteplats och ett attraktivt läge – perfekt för dig som söker både bekvämlighet och livskvalitet.\n\nAllt ingår i hyran utan parkering. Men det finns att hyra.\nHyr ut lägenheten, då jag försökt sälja den, men marknaden varit kall.\nDe krav jag sätter som hyresvärd är att hyresgästen 1 gång/mån accepterar att visning hålls i lägenheten och att uppsägningstiden vid ev försäljning är 2 månader.",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hagmarksgatan, Göteborg",
-    "url": "https://qasa.com/p/1424851",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/57da90c8a5e09637b6fdd42e4eb6df8866f6303a7951a39f7326c27857f03d49.jpg",
-    "description": "Ljus lägenhet med fina ytmaterial och sköna rumsproportioner belägen i en tvåfamiljsvilla i Örgryte, lämplig för 2 personer.  Balkong med fin utsikt åt väster fån det rymliga vardagsrummet. Generöst ”master bedroom” med fönster åt två håll. Ett gästrum med kontor i fil.  Badrummet har badkar med dusch, dubbla handfat, wc, tvättmaskin och torktumlare samt förvaring. På vintern är det skönt med värmen i golvets natursten. I köket finns plats för många att sitta ner eller deltaga i matlagning. Separat kyl och frys, ugn och micro samt diskmaskin och induktionshäll gör hushållsarbetet enkelt. Köket har fönster åt trädgården i öster och en mysig liten gata åt norr, där många går ut med hund eller följer barn till dagis och skola. Lägenheten har många garderober och ett städskåp. El, vatten och fiber ingår i hyran. Det är nära till både natur samt buss och spårvagn. 25 min promenad till centrum.",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 105.0,
-    "rent": 18770,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-29T15:15:36+00:00", "clock": "15:15:36"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-29T18:37:56+00:00", "clock": "18:37:56"};
