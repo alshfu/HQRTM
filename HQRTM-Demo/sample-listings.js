@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gårdstensvägen, Angered",
+    "url": "https://qasa.com/p/1315323",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37ea252bdb6f48e4b9b62675881209f64bd506cabc9bd1a9d859893927c001d1.jpg",
+    "description": "Nu finns möjlighet att hyra en ljus och trevlig lägenhet på 2 rum och kök (ca 48 kvm) högst upp i huset på Gårdstensvägen 120. Lägenheten är fullt möblerad, har högt i tak, egen tvättmaskin och ligger precis vid busshållsplats – smidigt till både Angered och centrala Göteborg.\n\nLägenheten är:\nFullt möblerad\nTvättmaskin i lägenheten\nEl, bredband och vatten ingår (upp till viss nivå)\nMöjlighet till parkering (400 kr/mån)\nLugnt område med natur och service i närheten",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 10920,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Torskogsvägen, Torslanda",
     "url": "https://qasa.com/p/1432609",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d3186f9564577664f0ed38f445224c3dd0026fcf867c84c9e90ccb116814d33c.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Väderlekstorget 1E, Göteborg",
-    "url": "https://qasa.com/p/1449619",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c82072f317365f9a35115a4a90d5b52d8b472702c182fb31bbd32d79ee3e9f9e.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna etta i Biskopsgården! Lägenheten har ett modernt kök utrustat med elspis och rostfri kombinerad kyl/frys. Badrummet är helkaklat och det finns förberedelse för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin. \n\nOM OMRÅDET\nHär bor du ett stenkast från centrala Göteborg dit du enkelt tar dig med kollektivtrafiken. \n\nÖVRIGT\nI lägenheten finns fibernät indragen och hyresgästen får själv teckna abonnemang avseende internet/telefoni samt el.\n\nHyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 41.0,
-    "rent": 7430,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-29T03:46:19+00:00", "clock": "03:46:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-29T10:27:59+00:00", "clock": "10:27:59"};
