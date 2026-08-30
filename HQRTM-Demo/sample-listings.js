@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Krokegatan, Göteborg",
+    "url": "https://qasa.com/p/1425386",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/578106c4490ed7534aecb058982f131c40246a63c34c13bb0350c5ed5d17cdfc.jpg",
+    "description": "Modern 2:a i Masthugget – uthyres våren 2027\n\nJag hyr ut min fina och välplanerade 2:a om 35 m² i Masthugget under perioden 1 februari–31 maj 2027, då jag ska studera utomlands.\n\nLägenheten hyrs ut möblerad och har ett modernt kök och badrum, fransk balkong samt diskmaskin. I huset finns en stor och fräsch tvättstuga. Internet, el, värme och vatten ingår.\n\nLägenheten ligger i lugna och charmiga Masthugget med gångavstånd till Linné, Stigbergstorget och Järntorget. Närmaste hållplats är Fjällgatan, med utmärkta kommunikationer.\n\nJag söker en skötsam hyresgäst som kommer att ta väl hand om lägenheten. Hör gärna av dig och berätta lite om dig själv om du är intresserad!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 35.0,
+    "rent": 12300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Doktor Liborius Gata, Göteborg",
+    "url": "https://qasa.com/p/1450895",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4b1230e08c425e056475e28d175e4d0c5dbcf369274dcf638d1a22e5cc1deb0a.jpg",
+    "description": "Inneboende sökes\n\nHej!\nMin inneboende ska flytta vidare så jag söker nu efter någon som vill bo med mig i min fina 4a i Guldheden.\nHär erbjuds lugn och ro, mentalt och fysiskt space i en lägenhet som är på 82kvm och har alla bekvämligheter man kan tänkas behöva. (diskmaskin, balkong, badkar och en fungerande öppen spis).\nLäget är perfekt med 10 minuter på spårvagn till centrum och 10-15 minuter promenad till fina grönområden, ca 3 minuters promenad till mataffär/apotek/bibliotek/gym/pizzeria/spårvagnshållplats.\n\nDu kommer att ha det största sovrummet i lägenheten(inringat i rött på planritningen), tillgång till egen toalett såväl som till alla gemensamma utrymmen kök, badrum, vardagsrum och balkong. Ett gästrum med en enkelsäng finns också tillgängligt för kortare besök utav vänner/familj.\nRummet uthyres möblerat med en 160cm bred kontinentalsäng samt ett skrivbord. El och bredband ingår också i priset.\n\nJag som bor här är lättsam och trevlig, social och har ett stort behov utav egentid. Livet utanför jobb och förpliktelser är rikt på fritidsintressen/hobbies och spenderas inte sällan med vänner. Jag får energi utav lugn och ro, uppskattar när det är rent och fint och har inga problem med att plocka undan efter mig. Min förhoppning är att hitta någon likasinnad. Rökare och snusare undanbedes.\n\nHar du några frågor så är det bara att höra av sig, skicka din intresseanmälan och så bokar vi in en visning.\nInkludera gärna några rader om hur du är och hur din vardag ser ut. Förutsätter att du som sökande har stabil och ordnad ekonomi.\n\nSå länge annonsen finns kvar så är rummet fortfarande tillgängligt.\n\nInflyttningsdatum är flexibelt. Runt den 1a November!\n\nMvh\nDaniel\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1445122",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9c6b523a973d034611df76e85b72ecd9e5e9f65be35f2b6ec0560a428add496d.jpg",
+    "description": "Välkommen till en underbar 2:a i Karlatornet! Bostaden är på våning 33 med balkong med spektakulär utsikt mot läppstiftet och stan. \n\nKarlatornet erbjuder även en uppsjö av exklusiva bekvämligheter såsom reception, gym som ingår för 2 personer, restaurang och skybar. \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 16500,
+    "floor": 33,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hulanvägen, Billdal",
     "url": "https://qasa.com/p/1443721",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f9bb31549e648d79992b1715392807a08fe4ccc24cded31cb5c457f28930fb31.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Luftvärnsvägen, Göteborg",
-    "url": "https://qasa.com/p/1450671",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/14ebc2ec415777a24b1a1f4a51181fd819766d2657209ba7599e3a9e8a908b9e.jpg",
-    "description": "Nybyggd 2:a i Kviberg uthyres möblerad\n\nModern och ljus lägenhet på 55 kvm, färdigställd nov 2024, uthyres i 3 månader från 1 februari till 30 april (viss flexibilitet i in- & utflyttsdatum).\n\nLägenheten ligger i ett lugnt och trivsamt område nära Kvibergs sportcenter, gym, naturområden och fina promenadstigar. Spårvagn 3 min bort, ca 10 min till centrala Göteborg.\n\nOm bostaden:\n- Öppen planlösning\n- Balkong + fransk balkong\n- Diskmaskin & tvättmaskin\n- Fullt utrustat kök\n- Gemensam uteplats med grill\n- Möblerad (vad som lämnas kvar kan diskuteras)\n- Djur tillåtet\n\nIngår / tillkommer:\n- Internet ingår\n- El & varmvatten tillkommer (ca 200 kr/mån)\n\nHyra: 12 347 kr/mån\n\nBostaden hyrs ut då jag och min sambo ska på en utlandsresa i tre månader. Uthyrning sker i andra hand,  du som hyr kommer att ha kontakt med oss som förstahandshyresgäster. \n\nSöker en skötsam hyresgäst med fast inkomst. Hör gärna av dig med en kort presentation om dig själv vid intresse, så hörs vi vidare kring visning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12347,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skårsgatan, Göteborg",
-    "url": "https://qasa.com/p/1450646",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f81d7aba421ab93ac74f6c23d3e53598ba35249f4cdf996172245bc1dcb4e4ca.jpg",
-    "description": "Möblerad lägenhet i ett charmigt funkishus från 1948. Lägenheten ligger i källarplan men har flera fönster som ger ett trevligt ljusinsläpp och en egen separat ingång som ger ett privat och avskilt boende. Här bor du lugnt och bekvämt med skogen alldeles i närheten, samtidigt som det är nära till busshållplats och stan – perfekt för dig som vill ha både natur och stadsliv nära till hands.\n\nFrån den egna ingången kommer du in i en hall med badrum direkt till vänster, utrustat med dusch, toalett och tvättmaskin. Därefter kommer du in allrummet med köksdel och soffa. Här finns även en våningssäng med två 90 cm breda sängar. \nFrån allrummet når du sovrummet, som har bra med förvaringsutrymme och en dubbelsäng som är 180 cm bred.\n\nI hyran ingår el, vatten och wifi. Det är även gratis parkering utanför på gatan.\n\nVi är relativt flexibla med in och utflyttningsdatum så fråga oss gärna om du har andra önskemål än det som står här i annonsen. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 10855,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gulsparvsgatan, Göteborg",
-    "url": "https://qasa.com/p/1307553",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0df9839afa5d9e950dea72e0d0e1ab23623d48f3d79f1f1419bfad21d3a40aa6.jpg",
-    "description": "Välkommen till en ljus och högt belägen våning på Gulsparvsgatan. Här får du den perfekta kombinationen av huskänsla och lägenhetens bekvämlighet – belägen i pittoreska Örgryte-Skår.\n\nOm bostaden\nDenna välplanerade våning ligger högst upp i huset, insynsskyddat läge och  ljusinsläpp från flera väderstreck. \n * Sociala ytor: Köket och vardagsrummet utgör lägenhetens hjärta. Köket är stilrent renoverat (2016) med integrerad diskmaskin och goda arbetsytor, med en naturlig matplats intill fönstret.\n * Sovrum: Två rymliga sovrum med praktisk förvaring i kattvindar. Det största sovrummet rymmer enkelt dubbelsäng och förvaringsmöbler.\n * Badrum: Generöst och tidlöst badrum (renoverat 2013) med golvvärme, badkar, dubbelhandfat samt kombinerad tvättmaskin och torktumlare. Utöver detta finns en separat toalett i hallen.\n * Uteplats: Du har exklusiv tillgång till din alldeles egna stenbelagda uteplats i trädgården, inramad av buskar och träd.\nVad som ingår i hyran\n * Fjärrvärme och vatten (Sovrummen värms med el som ej inngår)\n * Grundutbud av TV-kanaler\n * Tillgång till trädgården\n\nHyrestid & Tillträde\n​Tillträde: 1 nov (Finns möjlighet till tillträde tidigast 15 oktober).\n​Hyresperiod: Avtalet tecknas på 12 månader, med möjlighet tillförlängning\n​Uppsägningstid: Då bostaden parallellt ligger ute till försäljning gäller 3 månaders ömsesidig uppsägningstid. Om försäljning sker kan avtalet därmed sägas upp i förtid med 3 månaders varsel\n\nSärskilda villkor\nBostaden ligger för närvarande ute till försäljning. Som ett villkor för uthyrningen behöver hyresgästen vara tillmötesgående med att hålla lägenheten tillgänglig för enstaka mäklarvisningar. Självklart planeras dessa i god tid och i samråd med dig för att minimera störningar i din vardag.\nFöreningen kräver godkännande av hyresgäst\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 69.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-30T17:03:40+00:00", "clock": "17:03:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-30T19:47:50+00:00", "clock": "19:47:50"};
