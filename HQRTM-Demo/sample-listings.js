@@ -3,16 +3,16 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Fyrbåksvägen , Torslanda",
-    "url": "https://qasa.com/p/1444679",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa50f589c34f1db73d62fff0b1f5a96d0d7ef2df5298e0016c3766b5378546f6.jpg",
-    "description": "Mycket ljus och hemtrevlig fristående gästhus/bostad längst in på en återvändsgata intill hav och skogsområde. Gästhuset når du via separat trappa direkt från egen parkeringsplats.  \nBostaden har en öppen planlösning mellan möblerat kök och vardagsrum + fransk balkong.  Ny 50´´Tv med  Apple-TV.  Separat sovrum med 160 säng + utgång till insynsskyddad altan på ca 20kvm.  Badrum med dusch och tvättmaskin. \n\nEl, vatten, värme, bredband, parkering samt sophämtning ingår. \n\nPromenad ca 10-15 min /cykel  ca 5 min till busshållplats (Långrevsvägen).\n \nVi söker dig som uppskattar ett  lugn och naturnära boende i ett tryggt villaområde.  Du är en trevlig, djur- och rökfri person som uppskattar lugnet före stadens puls.  Ordnad ekonomi  samt referenser. \n\nKan denna bostad passa just dig är du varmt välkommen att kontakta oss med ett beskrivning av dig själv och din bostadssituation. \n\n\n",
-    "district": "Torslanda",
+    "title": "Borstbindaregatan, Göteborg",
+    "url": "https://qasa.com/p/1430005",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b98164bbf614b3574c309bd45c7f5ece281c9cdde455e89601ff84a6a0c96737.jpg",
+    "description": "En välplanerad 2a på 59 kvadratmeter. Boende i föreningen har tillgång till takterrassen med kök och grill. \n\nLigger ca 2 min från Hjalmar brantingsplatsen och tar 4 min till nordstan (centralstationen) med kollektivtrafiken \n\nHyresgäst\nHa en stabil inkomst \nInga betalningsanmärkningar \n",
+    "district": "Göteborg",
     "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 9800,
+    "area_m2": 59.0,
+    "rent": 12700,
     "floor": null,
-    "has_balcony": true,
+    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-30T01:25:11+00:00", "clock": "01:25:11"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-30T07:07:20+00:00", "clock": "07:07:20"};
