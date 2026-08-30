@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Persgatan, Göteborg",
+    "url": "https://qasa.com/p/1451009",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5472393fb0650790270f74650d3775c3a78dc104bcfc2d394d39912be810563.jpg",
+    "description": "Hej!\n\nJag hyr ut min ljusa och trivsamma tvåa på 54 kvm i populära Lunden under hösten. Lägenheten har varit uthyrd en längre tid eftersom jag arbetat på annan ort, men i början eller mitten av december flyttar jag tillbaka till Göteborg. Därför finns nu möjlighet att hyra lägenheten under en begränsad period.\n\nLägenheten ligger på andra våningen och är fullt möblerad med ett välutrustat kök. Den är inflyttningsklar från och med idag och passar perfekt för dig som söker ett bekvämt och hemtrevligt boende under hösten.\n\nLunden är ett lugnt och trevligt område med närhet till både city och natur. Du promenerar till Redbergsplatsen på cirka 6 minuter, där det finns goda kommunikationer. För den som tycker om löpning, promenader eller friluftsliv ligger Skatås dessutom nära.\n\nI hyran ingår:\n-El\n-Vatten\n-Internet\n-TV\n\nHör gärna av dig om du är intresserad, har några frågor eller vill veta mer om lägenheten!\n\nVänliga hälsningar,\nKlara",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Idtjärnsgatan, Angered",
+    "url": "https://qasa.com/p/1450973",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9de0f831a6f88ed60e01440a813a5cea86b8ae7e533014644588c7a4ff6748af.jpg",
+    "description": "En del av en radhus. Egen ingång, 1,5 våning med 4ROK. Liten trädgård med uteplats. Tvättmaskin i badrummet. Nymålat med uppdatering av köket. många av vita varor nyligen bytta. Hyres som kallhyra Trevlig och välskött bostad i radhus med egen ingång, fördelad på 1,5 plan med 4 rum och kök. Till bostaden hör en liten trädgård med uteplats som erbjuder goda möjligheter till avkoppling. Bostaden har nyligen målats om och köket har uppdaterats. Flera vitvaror har bytts ut under senare år och badrummet har försetts med nya badrumsmöbler. Tvättmaskin finns installerad i badrummet. Uthyres som kallhyra.",
+    "district": "Angered",
+    "rooms": 4.0,
+    "area_m2": 100.0,
+    "rent": 14000,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Krokegatan, Göteborg",
     "url": "https://qasa.com/p/1425386",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/578106c4490ed7534aecb058982f131c40246a63c34c13bb0350c5ed5d17cdfc.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skanstorget, Göteborg",
-    "url": "https://qasa.com/p/1450722",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7c64c5bdab57b9705f67fd8da826fc50327f0fb62311d92e864c2513d87aa50.jpg",
-    "description": "Charmig sekelskiftestvåa med balkong vid Skanstorget. Här bor du i en av Göteborgs mest attraktiva stadsdelar, med Haga Nygata, Linnés restauranger och Skansen Kronan precis utanför dörren. Lägenheten har högt i tak, vackra originaldetaljer och en dekorativ kakelugn som bidrar till den genuina känslan.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 15230,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmsallén, Göteborg",
-    "url": "https://qasa.com/p/1450312",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0eb7a5cf32ac469caf13261e53ba8bac012e587e2a5da7a656d98c202eec3a89.jpg",
-    "description": "Lägenheten ligger i mitten av Lindholmsallén, i hjärtat av Lindholmen. Lägenheten är omringad av fina vyer över kajen, bra förbindelser med både spårvagn och bus, samt en uppsjö av restauranger. \n\nI uthyrningen av lägenheten ingår el och vatten (kall & varm). Lägenheten har ett eget sovrum i anknytning till balkongen där utsikten sträcker sig över Lindholms kajen, och bjuder på vackra frukostar under de soliga tiderna på året. Badrummet erbjuder både tvättmaskin och torktumlare. Allrummet har plats för ett matbord och vardagsrums möbler. I detta rum finns även köket som är original sedan 2020. Köket erbjuder en rymlig kyl och frys, spis, mikrovågsugn, ugn och en vinkyl. Föreningen är en mycket skötsam sådan. Ni kommer bo i en byggnad med mycket hög trygghetskänsla, skötsel av fastighet samt gård, och god grannskap.\n\nNärmsta hållplats är \"Lindholmen\" och erbjuder både spårvagn och buss, där det tar ca 10 minuter att ta sig in till centralstationen i Göteborg. Det finns även en gratis färja (Lindholmspiren) som gör resan till stan ännu enklare och på bara 5 minuter. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 14500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-30T19:47:50+00:00", "clock": "19:47:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-30T22:08:19+00:00", "clock": "22:08:19"};
