@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Såggatan, Göteborg",
+    "url": "https://qasa.com/p/1452162",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f864fc34e085a728f0e0b91161c54728c1280dcf0f8f0dc74dbe3b6b7c41a601.jpg",
+    "description": "Ett ljust charmigt rum i landshövdingahus. Med Ljusa trägolv och högt i tak. Med entré i stengolv och spotlights i tak som leder till två separata rum med dörrar. Gemensamma köket har stort fönster in mot gården. Renoverade badrummet är placerad i hallen. Wi-Fi och el ingår i hyran. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Svängrumsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1452097",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f9c590d5fd996d45f237ccb9ff32574e82d42287206e5f61f09c91a6c44a2817.jpg",
@@ -25,7 +40,7 @@ window.HQRTM_SAMPLE = [
     "district": "Hisings Backa",
     "rooms": 1.0,
     "area_m2": 31.0,
-    "rent": 8950,
+    "rent": 9400,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Schottisvägen, Agnesberg",
-    "url": "https://qasa.com/p/1451476",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4814f089b92ad17d3c40bf46369c2318f53e6b12b8da1c6a29a7c1f7d615aefb.jpg",
-    "description": "Uthyres\n\nHelt nyrenoverad 2:a på 57 kvm i Agnesberg – uthyres från 15 september 2026 i ett år.\n\n\n\nOm bostaden:\n\n• Möblerad\n• balkong, diskmaskin \n• Internet ingår i hyran\n• Varmvatten ingår i hyran upp till 200 kr/mån\n• Gratis parkering finns precis utanför huset\n• Mindre än 1 minuts promenad till busshållplatsen\n• Lugnt och fint område med trevliga grannar\n\n\nEl ingår inte i hyran utan tecknas och betalas separat av hyresgästen.\n\nVi söker dig/er som:\n\n• Är max 3 personer\n• Har fast inkomst och stabil ekonomi\n• Kan visa anställningsbevis eller lönespecifikation\n• Är rökfria och utan husdjur \n\n\nVid intresse, skicka gärna ett meddelande och berätta lite om dig själv och din sysselsättning. 😊",
-    "district": "Agnesberg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 9700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-31T19:42:20+00:00", "clock": "19:42:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-31T23:26:13+00:00", "clock": "23:26:13"};
