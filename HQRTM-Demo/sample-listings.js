@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Altplatsen 3, Göteborg",
+    "url": "https://qasa.com/p/1451098",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d28389b466ae9290f4377f53b0d996dc05a180f7a941babcba0f74bb435e3a4b.jpg",
+    "description": " Välplanerad 3 RoK med balkong!\nDenna rymliga och välplanerade trea om 69,4 kvm med naturligt ljusinsläpp och som ger er gott om utrymme för alla era tillhörigheter.\nEn avgränsande hall med gott om förvaring för dig vidare in mot kök och vardagsrum, samtliga med ljusa moderna ytskikt. \nHelkaklat badrum med dusch och kombimaskin. \nBåda sovrummen har rikligt med ljusinsläpp och goda förvaringsmöjlighet. \n\nStandardinfo om lägenheten:\nVäggarna är vitmålade och golven består av parkett i samtliga rum.\nBadrummet är helkaklat i en ljusgrå ton och är utrustat med kombinerad tvättmaskin och torktumlare. Köket har vita skåpsluckor med grå bänkskiva, installerat finns också diskmaskin. \nBalkong eller uteplats finns i samtliga lägenheter oavsett storlek. \n \nFastighetsägaren tillämpar individuell mätning och debitering av varmvatten och el. Hyresgästen skall betala utifrån sin förbrukning till självkostnadspris.\n \nInformation om fastigheten\nFastigheten uppförs och står klar i början på 2024.\nI bottenplan etablerar sig Willys hemma och Nordic Wellness. I anslutning till bostadshuset byggs ett äldreboende som kommer att drivas i privat regi.\n \nFör att vi ska kunna erbjuda dig en välmående boendemiljö råder rökförbud i hela fastigheten. Lägenheter, gemensamhetsutrymmen, balkonger och gårdar är samtliga rökfria. Då avtal tecknas accepteras dessa villkor. \nHusdjur är tillåtna. \n \nOmråde\nMed promenadavstånd till natursköna Ruddalen och ett stenkast från butikerna på Frölunda Torg samt Frölunda kulturhus blir möjligheterna oändliga för dig som boende. På Ruddalens idrottscentrum återfinns motionsspår, frisbeegolf och fotbollsplaner. Vintertid anläggs även isbanor för skridskoåkning. Då Willys Hemma och Nordic Wellness öppnar i bottenplan blir det direktanslutning till så väl livsmedel som gym.\n \nEtt par minuters promenad bort finns spårvagns- och busshållplats. \n \nÖvrigt\nI etapp 1 kommer uthyrning att ske på ritning då fastigheten då ännu inte är färdigställd. Erbjudande skickas ut löpande. \nFör att bli godkänd som hyresgäst ställs följande krav:\n \n•\tDu ska ha fyllt 18 år\n•\tDu ska ha svenskt personnummer\n•\tAvtal skrivs endast med den person som har sökt lägenheten och denne ska ha lägenheten som stadigvarande bostad\n•\tVi accepterar inga betalningsanmärkningar\n•\tBoendereferens ska lämnas innan Du kan godkännas som intressent\n•\tInkomstkrav sätts i förhållande till Normalbeloppet för 2023. Med inkomst avses inkomst av tjänst eller studiemedel\n•\tHyresvärden anpassar regler för trångboddhet utefter storleken på Din lägenhet\n•\tVi tar ej emot personliga intresseanmälningar eller förfrågningar gällande uthyrningsprocessen av lägenheten via telefon eller mail.\n \nVälkommen med en intresseanmälan!\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 69.0,
+    "rent": 13653,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kopparslagaregatan, Göteborg",
     "url": "https://qasa.com/p/1429964",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7ac7efde304778716f992fa1333c81b90eab3157676009253a230438df065b6f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Persgatan, Göteborg",
-    "url": "https://qasa.com/p/1451009",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e5472393fb0650790270f74650d3775c3a78dc104bcfc2d394d39912be810563.jpg",
-    "description": "Hej!\n\nJag hyr ut min ljusa och trivsamma tvåa på 54 kvm i populära Lunden under hösten. Lägenheten har varit uthyrd en längre tid eftersom jag arbetat på annan ort, men i början eller mitten av december flyttar jag tillbaka till Göteborg. Därför finns nu möjlighet att hyra lägenheten under en begränsad period.\n\nLägenheten ligger på andra våningen och är fullt möblerad med ett välutrustat kök. Den är inflyttningsklar från och med idag och passar perfekt för dig som söker ett bekvämt och hemtrevligt boende under hösten.\n\nLunden är ett lugnt och trevligt område med närhet till både city och natur. Du promenerar till Redbergsplatsen på cirka 6 minuter, där det finns goda kommunikationer. För den som tycker om löpning, promenader eller friluftsliv ligger Skatås dessutom nära.\n\nI hyran ingår:\n-El\n-Vatten\n-Internet\n-TV\n\nHör gärna av dig om du är intresserad, har några frågor eller vill veta mer om lägenheten!\n\nVänliga hälsningar,\nKlara",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-31T00:36:14+00:00", "clock": "00:36:14"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-08-31T06:08:00+00:00", "clock": "06:08:00"};
