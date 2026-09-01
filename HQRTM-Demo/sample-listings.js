@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Virvelvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1453370",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7133f5d3a3411cc11764affd2d9bb6a3e2ba6a4bc90579ed014f6e2efcfcd497.jpg",
+    "description": "Hej!\nHyr ut min helmöblerade nya bostad, etta om ca 45kvm med centralt läge på Hisingen. Inglasad balkong med utsikt mot grönskan som ligger i soligt sydvästläge. Köket är renoverat 2018, diskmaskin och vinkyl finns. Det som ingår är mikrovågsugn, vattenkokare, kaffebryggare, porslin samt kastruller.\n\nBadrum med golvvärme samt tvättmaskin. Gratis wifi med tv. Hiss finns.\nParkering ingår i hyran.\nElförbrukning betalas separat. \n\nPå gångavstånd har man all tänkbar service, fin natur och mycket goda kommunikationer. Här finns Kville Saluhall vid Vägmästareplatsen, Backaplan med ett stort utbud av affärer och restauranger samt ett flertal gym. Mycket bra kommunikationer som tar dig smidigt in till centrum, tex. så tar du dig med spårvagn från Wieselgrensplatsen till Brunnsparken på ca 10 minuter\n\nSöker en skötsam, ordentlig och lugn person som inte ställer till med bekymmer. Betalningsanmärkningar eller skulder godkänns inte. Hyr ut andrahandskontrakt 1 år i taget via föreningen.\n\nEn månadshyra i deposition krävs. Denna återfås när du flyttar ut förutsatt att lägenheten och innehållet är i samma skick som du fick det.\n\nRök och husdjurs-fri lägenhet.\n\nHyran ligger på 12000kr",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 45.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1453325",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0e7549daad5a468c1845a169605ba6e61c6a2c34a0fbef0994cb90fac89e07ba.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Oterdahlsgatan, Göteborg",
-    "url": "https://qasa.com/p/1452981",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/016f9b88a2bf96bbe6d8637767adc6bf6fb203a75975659ac3e840d1321bacda.jpg",
-    "description": "Välplanerad och nyrenoverad tvåa på 49 m² uthyres i centrala Lundby på Hisingen. Lägenheten har ljusa ytor, modern standard och en trivsam balkong.\n\nOm lägenheten:\n•\t2 rum och kök, 49 m²\n•\tFräsch och nyligen renoverad\n•\tBalkong\n•\tFörråd ingår\n•\tTillgång till tvättstuga\n\nLäget:\nHär bor du centralt med allt du behöver runt hörnet. Mycket goda kollektivtrafikförbindelser gör det enkelt att ta sig till city. Inom gångavstånd finns mataffärer, butiker, restauranger och grönområden.\n\nDen här bostaden passar perfekt för dig som vill ha ett bekvämt boende med både stadens puls och naturen nära.\n\nOBS! Möblerna på bilderna kan skilja sig från nuvarande möblering, men kommer vara någorlunda likt.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 49.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-01T19:50:35+00:00", "clock": "19:50:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-01T22:08:29+00:00", "clock": "22:08:29"};
