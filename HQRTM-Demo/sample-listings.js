@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Linnarhultsvägen, Angered",
+    "url": "https://qasa.com/p/1454268",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9c95ab6c8b5e57b09bd031dd4c8fb693026c4d8b8e8c5cc99cf7982b28a7093.jpg",
+    "description": "Rymlig och möblerad lägenhet på 63 kvm med egen ingång\n\nNu finns möjlighet att hyra en trevlig och rymlig lägenhet på ca 63 kvm.  Lägenheten hyrs ut möblerad och har egen ingång, vilket ger en privat och självständig boendekänsla.\n\nBostaden har ett stort vardagsrum med soffgrupp, TV och matplats. Det finns gott om förvaring och köket är utrustat med bland annat kyl, frys, spis, diskmaskin samt goda arbets- och förvaringsytor. Tvättmaskin och torktumlare finns också i bostaden.\n\nBadrummet är utrustat med WC, handfat, förvaring och dusch. Lägenheten har även luftvärmepump, vilket bidrar till en behaglig temperatur året runt.\n\nBostaden passar bra för exempelvis ett par, en ensamstående eller någon som söker ett bekvämt och färdigmöblerat boende.",
+    "district": "Angered",
+    "rooms": 1.5,
+    "area_m2": 63.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillekärr södra, Hisings Kärra",
     "url": "https://qasa.com/p/1386171",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c3dc45750962d4439079f83712b3576f4b63070eaf29aa60d061faba075a0d49.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blendas gata, Hisings Backa",
-    "url": "https://qasa.com/p/1453698",
-    "image_url": null,
-    "description": "En fin tvåa i Hisingsbacka väldigt nära Selma Lagerlöfs och backaplan  buss till stan tas på 12 minuter.  \nStor tvåa  på 62kv med inglasad balkongen ",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 4685,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T19:52:56+00:00", "clock": "19:52:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T22:15:22+00:00", "clock": "22:15:22"};
