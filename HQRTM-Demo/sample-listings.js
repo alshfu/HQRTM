@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Astris Gata, Göteborg",
+    "url": "https://qasa.com/p/1453795",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c95f1989e5ed48245f90e95e05a468f37a033d5b6db7114a9f686d99f22c4c0b.jpg",
+    "description": "Välkommen till en mycket välaktad och smart planerad 1,5 rumslägenhet högst upp i huset på våning 4.  Lägenheten har ett härligt ljusinsläpp och balkong i söderläge, perfekt för att njuta av solen under stora delar av dagen. Lägenheten har ett mycket  lugnt läge mot innergården. \n\nTack vare sin smarta planering erbjuder lägenheten en öppen och modern känsla med bra ytor för både vardagsrum, matplats och sovdel. Lägenheten är genomgående i mycket fint skick och passar perfekt för en person eller ett par som söker ett modernt och bekvämt boende. \n\nBalkongen blir en naturlig förlängning av lägenheten under årets varmare månader och läget på fjärde våningen ger både fint ljusinsläpp och en härlig känsla av rymd. \n\nJag köpte lägenheten i samband med mina Pilotstudier i Göteborg. Då mina fortsatta pilotstudier nu bedrivs i Lidköping kommer jag inte längre att bo i Göteborg och därför väljer jag att hyra ut min lägenhet.\n\nBostaden på övre Eriksberg ligger i vacker omgivning nära Färjenäsparken och Göta älv där gatorna kantas av planterade träd i alléer. Ett mycket trivsamt boende för sig som uppskattar en välplanerad, ljus och fräsch lägenhet med attraktivt söderläge högst upp i huset.\n\nLägenheten kan hyras ut helt möblerad, delvis möblerad eller omöblerad beroende på vad hyresgästen önskar. \n\nI hyran ingår: värme, vatten och bredband. EL tillkommer efter faktisk förbrukning.  Även parkering med laddningsplats i garaget under huset kan tillkomma om önskemål finns och godkännande från bostadsrättsföreningen. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 13000,
+    "floor": 4,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ernst Torulfsgatan, Göteborg",
     "url": "https://qasa.com/p/1444904",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aa241a620db755d34eeebf68c36cb53b5317bd93d43f36fdb4ef12593b03430a.jpg",
@@ -21,7 +36,7 @@ window.HQRTM_SAMPLE = [
     "title": "Conrad Olssons väg, Askim",
     "url": "https://qasa.com/p/1453862",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0af7c8b6644dbaf5a109657062bd51582b4a5e1023bf8106b9a8a69b831727e1.jpg",
-    "description": "Nybyggt och välplanerat attefallshus i Askim – 30 kvm med egen ingång och stor solig altan, nära hav, natur och Göteborgs centrum.\n\nHuset är i skandinavisk stil med byggår 2023 och ligger i ett lugnt och trivsamt bostadsområde. \n\nPerfekt boende för dig som söker ett mindre, modernt och lättskött hem med bra kommunikationer och närhet till det mesta. Passar lika bra för en studerande, ensamstående eller ett par.\n\nOm bostaden:\n- 30 kvm, byggt 2023\n- Egen ingång\n- Fullt utrustat kök med diskmaskin, kyl & frys\n- Badrum med dusch\n- Tvättmaskin och torktumlare\n- Sovloft med dubbelsäng (180) \n- Bäddsoffa i vardagsrummet\n- Matplats inomhus\n- Stor privat altan med sol stora delar av dagen\n\n\nLäget:\n\nHär bor du nära cykelbana, busshållplats och gratis parkering på tomten\n\n- Cirka 20 minuters promenad till hav och bad\n- Cirka 15 minuter med expressbuss till centrala Göteborg\n- Cirka 10 minuter med bil till Göteborgs centrum\n\nMatbutik, apotek, bageri, gym, restauranger, bensinstation, systembolag och shoppingcenter finns cirka 5 minuter bort med bil.\n\nDet här är ett boende för dig som uppskattar ett lugnt område, modern standard och med närhet till stad, natur och hav. Trots att huset är kompakt är det välplanerat och erbjuder alla bekvämligheter som behövs för ett trivsamt vardagsboende.\n\nUthyrning: Tillsvidare\nInflyttning: Tillgängligt från idag \nEl/internet: Ingår i hyran \n\nVälkommen att höra av dig med en kort presentation av dig själv och vad du söker i ditt boende!\n\nFör oss är det viktigaste att hitta rätt match och en hyresgäst med stabil ekonomi som kommer att trivas och ta väl hand om boendet. ",
+    "description": "Nybyggt och välplanerat attefallshus i Askim – 30 kvm med egen ingång och stor solig altan, nära hav, natur och Göteborgs centrum.\n\nHuset är i skandinavisk stil med byggår 2023 och ligger i ett lugnt och trivsamt bostadsområde. \n\nPerfekt boende för dig som söker ett mindre, modernt och lättskött hem med bra kommunikationer och närhet till det mesta. Passar lika bra för en studerande, ensamstående eller ett par.\n\nOm bostaden:\n- 30 kvm, byggt 2023\n- Egen ingång\n- Fullt utrustat kök med diskmaskin, kyl & frys\n- Badrum med dusch\n- Tvättmaskin och torktumlare\n- Sovloft med dubbelsäng (180) \n- Bäddsoffa i vardagsrummet\n- Matplats inomhus\n- Stor privat altan med sol stora delar av dagen\n\nLäget:\nNära cykelbana, busshållplats samt gratis parkering på tomten\n\n- Cirka 20 minuters promenad till hav och bad\n- Cirka 15 minuter med expressbuss till centrala Göteborg\n- Cirka 10 minuter med bil till Göteborgs centrum\n\nMatbutik, apotek, bageri, gym, restauranger, bensinstation, systembolag och shoppingcenter finns cirka 5 minuter bort med bil.\n\nDet här är ett boende för dig som uppskattar ett lugnt område, modern standard och med närhet till stad, natur och hav. Trots att huset är kompakt är det välplanerat och erbjuder alla bekvämligheter som behövs för ett trivsamt vardagsboende.\n\nUthyrning: Tillsvidare\nInflyttning: Tillgängligt från idag \nEl/internet: Ingår i hyran \n\nVälkommen att höra av dig med en kort presentation av dig själv och vad du söker i ditt boende!\n\nFör oss är det viktigaste att hitta rätt match och en hyresgäst med stabil ekonomi som kommer att trivas och ta väl hand om boendet. ",
     "district": "Askim",
     "rooms": 2.0,
     "area_m2": 30.0,
@@ -44,6 +59,21 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Tamburingatan 9, Västra frölunda",
+    "url": "https://qasa.com/p/1453957",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5ffa593723cf8d0c04f49ce9f88ccab7dec20a158813c74a23c663946f7c12d8.jpg",
+    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2024. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n \nHyran avser 2026 års hyresnivå. \n \nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\n \nOBS! Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13105,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Saxofongatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1430590",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7bbb4798fcaec3cb029674341de6709bd8531d74c75560f3b975d3505695929b.jpg",
-    "description": "En ljus och nyrenoverad 2a i perfekt läge i Ruddalen. Lägenheten är rymlig med en stor inglasad balkong och bara några få minuters gångavstånd från spårvagnshållplats (musikvägen), gym och mataffär. Lägenheten är fullt möblerad. Finns tvättmaskin, torktumlare, samt diskmaskin (även tvättstuga om man föredrar det). El, vatten och internet ingår i hyran. Hyr ut till en början fram till maj 2027 men finns möjlighet till förlängning.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 13500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Onyxgatan 2, Västra frölunda",
-    "url": "https://qasa.com/p/1453745",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/20ff31b0502d72c45860e482058b526a024d59f6728e415d631e82174d7a4613.jpg",
-    "description": "Vi välkomnar dig till en fin 1a på ca 31 kvm på Onyxgatan 2 i Tynnered. Lägenheten ligger på våning sju. Debitering för el, varm- och kallvatten tillkommer efter förbrukning. Egna avtal för detta behövs inte skrivas utan tecknas i samband med kontraktsskrivning. Kv Parkhuset är belägen utmed Ametistgatan vid nya Opalparken, mellan Frölunda torg och havet i Tynnered i Göteborg. Fastigheten är uppkopplad mot ett mobilt låssystem vilket innebär att du som hyresgäst låser upp trapphusdörrarna med mobil access. Du låser enkelt upp dörren med en knapptryckning via bluetooth, så internetuppkoppling är inte nödvändig. Till lägenheten kommer fysiska nycklar kvitteras ut. Lägenheten genomgående 3 stavs ekparkett, takhöjd om 2,5 meter och ljusa väggar. Badrummet har klinkergolv och kaklade väggar med duschvägg samt kombimaskin. I köket möts du av släta luckor samt stänkskydd och bänkskiva i laminat med infälld vask, mikro, diskmaskin, inbyggnadsugn och induktionshäll. Lägenheten har även balkong. Lägenheten har ett tillhörande förråd placerat i lägenheten eller i källarplan (se planritning). Observera att bilderna i annonsen är exempelbilder. Sveaviken PM tillämpar bakgrundskontroll vid uthyrning. Hyran är baserad på 2026 års framförhandlade nivå. Om tillträdesdagen infaller på en helgdag så sker tillträdet den första vardagen efter.",
-    "district": "Västra frölunda",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 8261,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T13:34:38+00:00", "clock": "13:34:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T17:18:34+00:00", "clock": "17:18:34"};
