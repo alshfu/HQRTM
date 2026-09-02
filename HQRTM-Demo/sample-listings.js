@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lillekärr södra, Hisings Kärra",
+    "url": "https://qasa.com/p/1386171",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c3dc45750962d4439079f83712b3576f4b63070eaf29aa60d061faba075a0d49.jpg",
+    "description": "Bostaden är belägen i ett lugnt och populärt område i Hisings Kärra med bekvämt avstånd till mataffär, skolor, simhall och goda kommunikationer.\n\nTill höger om hallen hittar du kök med arbetsytor och matplats. Går du längre in i hallen och tar höger igen nås du av ett nyrenoverat badrum med dusch, tvättmaskin och golvvärme. Längst in i lägenheten når du ett stort vardagsrum. På vardera sida av vardagsrummet har du varsitt sovrum. Från vardagsrum och sovrum når ni den generösa balkongen i soligt söderläge.\n\nDet som ingår i hyran;\n-1 st parkeringsplats i värmegarage\n-Värme\n-El\n-Bredband \n-Delvis möblerat\n\nUthyrning pga kommande försäljning och därför kommer lägenhetsvisningar förekomma under uthyrningsperioden.  Uthyrningsperioden kan också ändras pga kommande försäljning.",
+    "district": "Hisings Kärra",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 12621,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Vattugatan, Göteborg",
+    "url": "https://qasa.com/p/1454132",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/927b6371a102797c1c0775ebe24aa7f5ae3fc0aa099c652a7c2f75fb5afc05b2.jpg",
+    "description": "Välkommen att hyra denna välplanerade och mysiga lägenhet i centrala och fina Masthugget.\n\nI lägenheten finns det gott om förvaringsmöjligheter och ett modernt kök. Den trevliga vardagsrumsdelen rymmer en stor soffa och sovalkoven gör att sängen står avskilt. Skrivbordet ingår om en arbetsplats önskas, annars kan utrymmet frigöras till annat.\n\nLägenheten är belägen i ett lugnt och trivsamt område med goda kommunikationer, närhet till centrum, långgatorna och slottsskogen.\nTrevlig och grön innergård. Tvättid i den stora tvättstugan bokas digitalt via app, där även bastu och gemensamt övernattningsrum kan bokas vid behov. Det finns även ett hobbyrum i föreningen.\n\nI hyran ingår vatten, värme och bredband.\nBostaden hyrs ut då jag har flyttat ihop med flickvännen. Förråd samt el ingår ej.\n\nHyresgästen behöver bli godkänd innan kontrakt kan skrivas. Referens kommer att krävas. Uthyrningen är godkänd av föreningen t.o.m. 2027-10-31.\nFörlängning kan vara möjlig, men det finns också vissa tankar om att sälja lägenheten under kommande året. I så fall behöver åtkomst ges för ev. visning m.m.\n\nFöljande möbler ingår:\n\n- Hörnsoffa.\n- Soffbord.\n- Säng (140cm bred).\n- Sänggavel.\n- Matbord.\n- Sideboard vid kök.\n- Vitrinskåp (3st billyhyllor).\n- Förvaringsmöbel med lådor i hallen.\n- Skrivbord + kontorsstol vid sovalkov.\n- Garderober i hall och vid sovalkov.\n- Takbelysning i hall, ovan matbord och ovan vardagsrumsbord. (Lägenheten är utrustad med ett smart belysningssystem från Plejd).\n\nMöblemang kan anpassas vid behov.\nVissa möbler kan skilja sig åt mot bilderna.\n\nHör av dig vid intresse, och berätta gärna kort om vem du är och varför du vill hyra. Visning av lägenheten kan ske löpande.\n\nMvh // Anton",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kalmargatan, Göteborg",
+    "url": "https://qasa.com/p/1454115",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d6c29e28fc16834713bc890ae816d3c5b88f39a130d1248091d88ad8eaf78d7.jpg",
+    "description": "Underbart lägenhet som ligger på bottenplan i en villa med egen ingång (i det populära området Tolered/Lundby).\n15 minuter till centrum med kollektivtrafik. \n5 minuter promenad till hållplats Eketrägatan och Gropegårdsgatan. Värme, el och internet ingår i hyran.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 9000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Astris Gata, Göteborg",
     "url": "https://qasa.com/p/1453795",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c95f1989e5ed48245f90e95e05a468f37a033d5b6db7114a9f686d99f22c4c0b.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tamburingatan 9, Västra frölunda",
-    "url": "https://qasa.com/p/1453957",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5ffa593723cf8d0c04f49ce9f88ccab7dec20a158813c74a23c663946f7c12d8.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet som HEM renoverades år 2024. Lägenheten om 80 kvadratmeter har ljusa väggar och på golvet ligger ekparkett. I det välplanerade köket finns två rymliga kyl och frys, inbyggnadsugn, diskmaskin, induktionshäll och fläktkåpa – allt detta i rostfritt stål. Badrummet är helkaklat med duschväggar i glas, komfortvärme, handdukstork samt tvättmaskin och torktumlare. Lägenhetsförrådet finner ni i lägenheten. OBS! Normalt slitage kan förekomma i lägenheten. Då ingen fysisk visning kommer att hållas, hyr du lägenheten baserat på ritning.\n \nHyran avser 2026 års hyresnivå. \n \nVänligen notera att om avtalsstart infaller på en röd dag, sker inflyttning istället på nästkommande vardag.\n \nOBS! Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nHär bor du i en ljus och öppen lägenhet med närhet till shopping och allmänna kommunikation.\n\nGemensamt för Frölunda Park är den socialt tilltalande utemiljön, alla delningstjänster, närheten till shopping, avkoppling och friluftsliv – samt inte minst de nya moderna bostäderna.\n\nVi satsar på ett hållbart miljöarbete när vi bygger som visar sig på olika sätt. Bland annat har vi installerat en bil-pool som du kan nyttja när behovet dyker upp. I Frölunda Park har vi också byggt upp en grannlaga miljö som bland annat består av flertal lekplatser, sittgrupper, grillplatser, odlingsplatser och underjordiska bilgarage.\r\n\r\nKOMMUNIKATIONER\r\nPå Frölunda torg finns resecenter för såväl spårvagn som buss. Avstånd till spårvagn 350 meter och busshållplats 350 meter. Cykelbanor finns i anslutning till området.\n17 kollektiva buss- och spårvagnslinjer, Västerleden och Dag Hammarskjöldsleden i all ära – för du bor verkligen mitt i ett nav av vägar och färdmedel. Men den största fördelen av alla kanske ändå är hur rak och snabb cykelleden till havet och centrum är. Dessutom lär den inte bli mindre intressant i framtiden.\r\n\r\nSERVICE\r\nMataffär inom promenad avstånd samt hela Frölunda Torg med stort utbud av affärer. Finns det önskemål om parkeringsplats, är detta en separat kö.\r\n\r\nPARKERING\r\nFinns att hyra i mån av plats. Vi berättar mer vid intresse. \n \nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Västra frölunda",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13105,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hedtångsvägen, Hovås",
-    "url": "https://qasa.com/p/1453699",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/870eab9e5ffd4d1a8636c99140508b33cf583b0e0c683f9d25e17de89e42cbe6.jpg",
-    "description": "Jag hyr ut min fina och välplanerade tvåa på 42 kvm i populära Nya Hovås. Lägenheten ligger på 5 våningen och har en balkong. Här bor man i ett tryggt och lugnt område med närhet till allt man behöver.\n\nBara någon minuts promenad bort finns ICA, apotek, gym, restauranger, caféer och butiker. Busshållplats ligger endast 100 meter bort och tar dig till centrum på cirka 20 minuter. Dessutom är det nära till havet och fina promenader.\n\nI hyran ingår vatten, värme och bredband. Lägenheten har bra förvaringsmöjligheter samt en klädkammare i anslutning till sovrummet. I badrummet finns en kombimaskin för både tvätt och tork.",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 12000,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Handelsmyntet 5, Göteborg",
-    "url": "https://qasa.com/p/1453760",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2d3912cd3f7e6f2b97b2bda63a43fdd52b48a30412242db0c6406b0a88b6a50b.jpg",
-    "description": "Yteffektiv etta med modern standard. Genomgående ekparkett kombineras med klinker vid entrén. Köket är modernt utrustat med spis med häll, kombinerad kyl/frys, spisoch mikrovågsugn. Det helkaklade badrummet håller samma höga standard och erbjuder  golvvärme, duschväggar, handfat med kommod samt handdukstork för extra komfort. Det är förberett för tvättmaskin.\n\nFastigheten färdigställdes hösten 2019. Bilderna i annonsen är tagna från fastighetens visningslägenhet år 2019.\n\n Alla bostäder på Handelsmyntet hyrs ut med rökfrihetskrav för en sund boendemiljö, rökning är inte tillåten i bostaden, på balkong, uteplats, loftgång eller i närheten av huset.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 27.0,
-    "rent": 7202,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T17:18:34+00:00", "clock": "17:18:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T19:52:56+00:00", "clock": "19:52:56"};
