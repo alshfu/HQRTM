@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hålskogsgatan, Angered",
+    "url": "https://qasa.com/p/1454014",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4329e71d1a75e1af0c9fff98d77742b56a2a27c2965b647e1af48a59013d8373.jpg",
+    "description": "källarvåning uthyres – 3 sovrum, 2 badrum, 1 kök\n\nRenoverad 2026, ca 100 m², med egen ingång och separat uteplats. Mycket bra läge – endast ca 250 m till spårvagn (3 linjer).\n\nIngår:\n • 3 sovrum (ca 10–15 m²)\n • 2 dusch/WC\n • 1 fullt utrustat kök\n • Vardagsrum\n • Diskmaskin, tvättmaskin, torktumlare\n\nHyra: 15 000 kr/mån + el (egen mätare)\n\nVillkor:\nRökfritt, huvudsaklig sysselsättning arbete, inga betalningsanmärkningar, referenser är ett plus.\n\nVid intresse – skicka gärna:\n • Sysselsättning\n • Kort om dig själv\n • Ålder\n • Inflyttningsdatum\n • Hyresperiod",
+    "district": "Angered",
+    "rooms": 4.0,
+    "area_m2": 100.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Linnarhultsvägen, Angered",
     "url": "https://qasa.com/p/1454268",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b9c95ab6c8b5e57b09bd031dd4c8fb693026c4d8b8e8c5cc99cf7982b28a7093.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Conrad Olssons väg, Askim",
-    "url": "https://qasa.com/p/1453862",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0af7c8b6644dbaf5a109657062bd51582b4a5e1023bf8106b9a8a69b831727e1.jpg",
-    "description": "Nybyggt och välplanerat attefallshus i Askim – 30 kvm med egen ingång och stor solig altan, nära hav, natur och Göteborgs centrum.\n\nHuset är i skandinavisk stil med byggår 2023 och ligger i ett lugnt och trivsamt bostadsområde. \n\nPerfekt boende för dig som söker ett mindre, modernt och lättskött hem med bra kommunikationer och närhet till det mesta. Passar lika bra för en studerande, ensamstående eller ett par.\n\nOm bostaden:\n- 30 kvm, byggt 2023\n- Egen ingång\n- Fullt utrustat kök med diskmaskin, kyl & frys\n- Badrum med dusch\n- Tvättmaskin och torktumlare\n- Sovloft med dubbelsäng (180) \n- Bäddsoffa i vardagsrummet\n- Matplats inomhus\n- Stor privat altan med sol stora delar av dagen\n\nLäget:\nNära cykelbana, busshållplats samt gratis parkering på tomten\n\n- Cirka 20 minuters promenad till hav och bad\n- Cirka 15 minuter med expressbuss till centrala Göteborg\n- Cirka 10 minuter med bil till Göteborgs centrum\n\nMatbutik, apotek, bageri, gym, restauranger, bensinstation, systembolag och shoppingcenter finns cirka 5 minuter bort med bil.\n\nDet här är ett boende för dig som uppskattar ett lugnt område, modern standard och med närhet till stad, natur och hav. Trots att huset är kompakt är det välplanerat och erbjuder alla bekvämligheter som behövs för ett trivsamt vardagsboende.\n\nUthyrning: Tillsvidare\nInflyttning: Tillgängligt från idag \nEl/internet: Ingår i hyran \n\nVälkommen att höra av dig med en kort presentation av dig själv och vad du söker i ditt boende!\n\nFör oss är det viktigaste att hitta rätt match och en hyresgäst med stabil ekonomi som kommer att trivas och ta väl hand om boendet. ",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 10370,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-02T22:15:22+00:00", "clock": "22:15:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-03T00:20:42+00:00", "clock": "00:20:42"};
