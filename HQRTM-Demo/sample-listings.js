@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kobbegården, Askim",
+    "url": "https://qasa.com/p/1445487",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c378f5b7725e10378b0af28b25da1051fba6e47c008a5082b169fadb4e9ff14b.jpg",
+    "description": "En mycket trevlig bostad med egen trädgård och uteplats i anslutning till köket. Uthyres i andra hand. Alla formaliteter kring detta hanteras gemensamt med Stena Fastigheter när du väl bestämt dig för att flytta in.\n\nHyra: 10 670 kr/månad\nParkering (valfritt): 950 kr/månad\nInternet (valfritt): 550 kr/månad\n\nHör gärna av dig om du har några frågor.",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 10670,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nordostpassagen, Göteborg",
+    "url": "https://qasa.com/p/1455107",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7a14faf76be05342c53366d44701f6436c8bd4eef6a46570479d2b71587532eb.jpg",
+    "description": "[ENGLISH BELOW]\n · Fullt möblerad, ljus gavellägenhet om 4 rum och 2 badrum i ett av Göteborgs mest eftertraktade områdena.\n · Belägen på 5:e våningen med ett läge som ger maximalt naturligt ljus och eftermiddagssol.\n · Lugnt bilfritt område med mycket goda kommunikationer.\n · 5 minuters promenad till Slottsskogen, Linnégatan och Järntorget. Flera förskolor, grundskola och mataffär inom 200 meter.\n · Tre sovrum, samtliga med arbetsplats.\n · Kök renoverat 2025, med fullstor kyl och fullstor frys.\n · Två kompletta badrum, varav ett med tvättmaskin och torktumlare. Tvättstuga finns också tillgänglig.\n · Stort burspråk i vardagsrummet.\n · Inglasad balkong med skjutbara glaspartier som kan öppnas helt, samt infravärme.\n · Uppgraderad säkerhetsdörr.\n · Snabbt WiFi och TV ingår i hyran. Parkeringsplats finns att hyra separat, med möjlighet till elbilsladdning.\n · I föreningen finns även två välutrustade gästlägenheter och en stor föreningslokal som boende kan boka.\n \n Property description in English:\n · Fully furnished 4-room, 2-bathroom corner apartment in one of Gothenburg’s most sought-after areas.\n · Located on the 5th floor and oriented to maximize natural light and afternoon sun.\n · Quiet pedestrian area with excellent transport connections.\n · A 5-minute walk from Slottsskogen park, Linnégatan and Järntorget. Several pre-schools, primary school and supermarket within 200 metres.\n · Three bedrooms, each with a work desk.\n · Kitchen renovated in 2025, with full-sized fridge and full-sized freezer.\n · Two full bathrooms, one with washing machine and dryer. Laundry room also available.\n · Wide bay window in the living room.\n · Glazed balcony with sliding panels that can be fully opened, and infrared heating.\n · Upgraded security door.\n · Hi-speed WiFi and TV included in the rent.\n · Parking space available to rent separately, with option for EV charging.\n · The housing association also has two hotel-style guest suites and a large function room that residents can book.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 85.0,
+    "rent": 23500,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karl Gustavsgatan, Göteborg",
     "url": "https://qasa.com/p/1454942",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e8999af30fc2c99b7c57c5f801e0f981a80ec9657f58334264d8fc89f498b502.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Toredalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1454867",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4969689b6026e81840ffc1d9cfac390b792f9b7302506e0fff50aa4f8593d06f.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/tpkg8k7ztjnqcsvaikzw/vastra-gotaland/goteborg/toredalsgatan-19/5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nFull möblerad och separat våning 90 kvm - Lundby i stor villa centrala Hisingen består av 3 sovrum kök matsal vardagsrum vi söker en skötsam ansvarsfull och pålitlig hyresgäst som ta hand om bostaden vid intresse skriv gärna om er tack\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 90.0,
-    "rent": 14111,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Flygplatsvägen, Torslanda",
-    "url": "https://qasa.com/p/1402500",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7657723b5e030fcb3b307ea3beb58bfa8d0dad3465eaf5e0fc0b156133269a3f.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/uklf1ngbogvufuqzcl75/vastra-gotaland/torslanda/gamla-flygplatsvagen-34e/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nNära till kommunikationer in till stan, där buss tar 15-20 min. Nära till matbutiker, övriga klädbutiker och apotek i Torslanda.\r\nCykelavstånd till havet på 10 min.\r\n\r\nPARKERING OCH GARAGE FINNS TILLGÄNGLIGT I ANSLUTNING TILL BOSTADEN\r\n\r\nFräsch fyrarummare med två badrum. \r\nHuset var nybyggt när vi flyttade in 2019. Parkett i hela lägenheten och två helkaklade badrum med dusch i båda. Klädkammare i lägenheten samt förråd i källaren.\r\nLägenheten är placerad på andra våningen med stor balkong med söderläge. Barnvänligt område med trevlig gård  och utsikt över park.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16000 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Torslanda",
-    "rooms": 4.0,
-    "area_m2": 97.0,
-    "rent": 15246,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-03T17:14:04+00:00", "clock": "17:14:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-03T19:53:46+00:00", "clock": "19:53:46"};
