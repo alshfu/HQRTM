@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilla Tunnlandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1456478",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b6b702fe41444378b5e4284569c45fbbd020b4e1a23cf9e148062b7edff580b.jpg",
+    "description": "Fin möblerad tvåa med stor balkong uthyres\n\nNu finns möjlighet att hyra min fina och välplanerade tvåa, belägen på våning 2.\n\nLägenheten har en jättefin och rymlig planlösning, ett stort och fräscht badrum med både tvättmaskin och torktumlare, samt gott om förvaring med många stora och praktiska garderober.\n\nEn av lägenhetens stora höjdpunkter är den stora, fina balkongen, där du har sol från morgon till eftermiddag – perfekt för morgonkaffet, avkoppling eller härliga kvällar.\n\n🏡 Uthyres möblerad\n📅 6 månader, med möjlighet till förlängning upp till 1 år.\n\nLägenheten passar dig som söker ett fint, bekvämt och välplanerat boende med gott om förvaring och en härlig balkong.\n\nMer information om hyra, område och inflyttning lämnas gärna vid intresse.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 15500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kopparslagaregatan, Göteborg",
+    "url": "https://qasa.com/p/1456474",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c96b0bb9dc0a8ac46d45ee5bca46e40053b20effc1f4980372ff986b98836fc.jpg",
+    "description": "English:\nCharming and centrally located 30 sqm studio apartment in the peaceful Johanneberg area. The apartment is rented completely unfurnished for 6 months, with the possibility of extension.\n\nThe apartment is efficiently laid out and features a spacious living area with room for a bed, sofa, and workspace. The kitchen includes a dishwasher and space for a dining table. The large bathroom has underfloor heating as well as a combined washer and dryer. There is also plenty of storage in built-in wardrobes.\n\nLocated in a quiet and pleasant neighborhood within walking distance of grocery stores, bus stops, Chalmers University of Technology, Korsvägen, Avenyn, restaurants, and cafés. The private patio faces a peaceful garden and feels like an extra room during the warmer months.\n\nSvenska:\nLjus och charmig etta på 29 kvm med egen solig uteplats i lugna Johanneberg. Lägenheten hyrs ut helt omöblerad under 6 månader med möjlighet till förlängning. \n\nLägenheten är smart planerad och har ett rymligt allrum med plats för både säng, soffa och arbetsplats. Köket är fullt utrustat med bland annat diskmaskin och plats för matbord. Det stora badrummet har golvvärme samt kombinerad tvättmaskin och torktumlare. Det finns även bra förvaring i platsbyggda garderober.\n\nHär bor du i ett lugnt och trivsamt område med gångavstånd till matbutiker, busshållplats, Chalmers, Korsvägen, Avenyn, restauranger och caféer. Uteplatsen vetter mot en lugn trädgård och blir som ett extra rum under årets varmare månader.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/839646",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63a05915e7ba7976cb6073e582809142d13f1d211d1915c8743fab53c79568f8.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norumsgärde, Göteborg",
-    "url": "https://qasa.com/p/1430413",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65e93defa1f1f5612d1da2a860240475e7e4b0ee76a23bef34843703a3a3f265.jpg",
-    "description": "Modern och välplanerad 2:a (Attefallshus) med loft och altan i Tuve\n\nVälkommen till ett modernt och yteffektivt boende i ett lugnt och naturnära område med utmärkta förbindelser till centrala Göteborg. Detta fullt möblerade attefallshus på 30 m² med ett sovloft på 8 m² är perfekt för en person eller ett par.\n\nBoendet\nHuset är smart planerat med ett ljust allrum, ett separat rum som passar utmärkt som hemmakontor samt ett mysigt sovloft. Från allrummet når du altanen på 9 m² i soligt söderläge.\n\nBekvämligheter som ingår:\n- Fullt möblerat: Inflyttningsklart med allt från soffa och säng till skrivbord.\n- Komplett kök: Utrustat med spis, ugn, mikrovågsugn och husgeråd.\n- Egen tvättutrustning: Badrummet har en kombinerad tvättmaskin och torktumlare.\n- Internet: Fiber (100/100 Mbit/s) ingår i hyran.\n\nOmrådet\nHär bor du med naturen runt hörnet och all tänkbar service på bekvämt avstånd.\n- Nära naturen: En kort promenad tar dig till Hisingsparken, Göteborgs största park, med fina motionsspår.\n- Utmärkta kommunikationer: Buss 17 tar dig till centrum på cirka 20 minuter, med avgångar var fjärde minut under rusningstid.\n- Service: Gångavstånd till både ICA och Willys, samt apotek, gym, bibliotek och restauranger.\n\nVi söker dig som är rökfri och djurfri.\n\nOm detta låter som ett boende för dig, hör av dig och berätta lite om dig själv.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 8800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fastlagsgatan , Göteborg",
-    "url": "https://qasa.com/p/1455817",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d968da82d3310eeee7bdc95e2ffeeb605cf35bbd587290a19070d5042e72a13f.jpg",
-    "description": "Trea med inglasad balkong i lummigt, lugnt läge. \nTvå bekväma sovrum, nyrenoverat kök (2023), rymligt vardagsrum, fiber, ny inglasad rymlig balkong (2024) samt tvättmaskin och torktumlare. \n\nPå gemensamma ytor i bostadsområdet finns grillplatser, bastu, gym, boulebana och lekplats. En gemensam festlokal och gästlägenhet finns att hyra. \n\nHär är det nära till grönområden och Lärjeåns vackra naturreservat. Kortedala torg med butiker, apotek, bibliotek och restauranger är ca 500 m bort samt bra förbindelser med tre olika spårvagnar till centrala Göteborg på ca 20 min.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 60.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T19:36:31+00:00", "clock": "19:36:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T21:41:40+00:00", "clock": "21:41:40"};
