@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Monsungatan, Göteborg",
+    "url": "https://qasa.com/p/1456172",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6792fc07a78f116800eb841591399bf37f9cec9db69538308e65352edea71507.jpg",
+    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Altarbacken, Torslanda",
+    "url": "https://qasa.com/p/1429701",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d672f33bab2ca799865c0f18719ca4b06ed1783bc1f21e47e39d27861c2fc58a.jpg",
+    "description": "Möblerad enrummare med altan och nära till bad uthyres tillsvidare. Uthyrning per vecka kan diskuteras, kontakta oss.\n(English description below)\n\nVi hyr ut en trevlig och ljus lägenhet med egen entré i vår villa i Lilleby, Torslanda. Huset ligger väldigt lugnt i slutet på en återvändsgata. Lägenheten är fullt möblerad och med golvvärme i hela lägenheten. Både badrum och kök är i princip nya. El, värme och vatten ingår. i hyran Bra trådat eller trådlöst internetanslutning kan ordnas till en liten tilläggskostnad. Om du har bil kan du parkera gratis på gatan.\n\nEn stor altan hör till lägenheten, med utemöbler och möjlighet till att grilla - som gjort för att njuta av varma sommarkvällar. Flera trevliga badstränder finns inom 3 kilometer samt nära till skog och natur för promenader och jogging. Goda kommunikationer till centrum, Torslanda torg och Volvo Torslanda.  Busshållplatsen ligger 5 minuter bort.\n\nUthyres omgående och tillsvidare, endast till rökfri- och djurfriperson/par med ordnad ekonomi.\n\nVill du bara hyra enstaka vecka? Kontakta oss!\n\n---\nWe are renting out a nice and bright apartment in our house in Lilleby, Torslanda. Both long term (months) or short term, week(s), rental is possible. \n\nOur house is located quietly  at the end of a street. The apartment has its own separate entrance and is fully furnished. Underfloor heating in the whole apartment. Both the kitchen and the bathroom are essentially new. Electricity, heating and water are included in the rent. Good wired or wireless internet can be arranged for a small extra fee. If you have car, you can park it free of charge on the street.\n\nA spacious patio with outdoor furtniture and possibility to barbecue is part of the rent - as made for enjoying warm summer days. There are several beaches within 3 km from the apartment. Close to nice nature for walking and jogging. Bus stand is just 5 minutes away with buses going to the city center, Torslanda torg, and Volvo Cars. \n\nThe apartment is available straight away. For rent only to non-smoking and pet-free person or pair with economy in good order.\n\nIf you'd like to rent only for a week or two, contact us.",
+    "district": "Torslanda",
+    "rooms": 1.0,
+    "area_m2": 28.0,
+    "rent": 7800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Norumsgärde, Göteborg",
+    "url": "https://qasa.com/p/1430413",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/65e93defa1f1f5612d1da2a860240475e7e4b0ee76a23bef34843703a3a3f265.jpg",
+    "description": "Modern och välplanerad 2:a (Attefallshus) med loft och altan i Tuve\n\nVälkommen till ett modernt och yteffektivt boende i ett lugnt och naturnära område med utmärkta förbindelser till centrala Göteborg. Detta fullt möblerade attefallshus på 30 m² med ett sovloft på 8 m² är perfekt för en person eller ett par.\n\nBoendet\nHuset är smart planerat med ett ljust allrum, ett separat rum som passar utmärkt som hemmakontor samt ett mysigt sovloft. Från allrummet når du altanen på 9 m² i soligt söderläge.\n\nBekvämligheter som ingår:\n- Fullt möblerat: Inflyttningsklart med allt från soffa och säng till skrivbord.\n- Komplett kök: Utrustat med spis, ugn, mikrovågsugn och husgeråd.\n- Egen tvättutrustning: Badrummet har en kombinerad tvättmaskin och torktumlare.\n- Internet: Fiber (100/100 Mbit/s) ingår i hyran.\n\nOmrådet\nHär bor du med naturen runt hörnet och all tänkbar service på bekvämt avstånd.\n- Nära naturen: En kort promenad tar dig till Hisingsparken, Göteborgs största park, med fina motionsspår.\n- Utmärkta kommunikationer: Buss 17 tar dig till centrum på cirka 20 minuter, med avgångar var fjärde minut under rusningstid.\n- Service: Gångavstånd till både ICA och Willys, samt apotek, gym, bibliotek och restauranger.\n\nVi söker dig som är rökfri och djurfri.\n\nOm detta låter som ett boende för dig, hör av dig och berätta lite om dig själv.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 8800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fastlagsgatan , Göteborg",
     "url": "https://qasa.com/p/1455817",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d968da82d3310eeee7bdc95e2ffeeb605cf35bbd587290a19070d5042e72a13f.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kobbarnas väg 17, GÖTEBORG",
-    "url": "https://qasa.com/p/1455757",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/444b0464b569edf63f58141c659fd3f4b14d7621aee139821f1f85ff43810f51.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet med 1 rum och kök på 46 kvm. Lägenheten renoverades enligt Balders HEM-koncept år 2021 med ett välutrustat kök och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett. Observera att bilderna i annonsen är exempelbilder.\r\n\r\nKOMMUNIKATIONER\r\nGångavstånd till hållplats med goda kommunikationer.\r\n\r\nSERVICE\r\nI närheten finns det ett brett utbud av caféer, restauranger och matbutiker.",
-    "district": "GÖTEBORG",
-    "rooms": 1.0,
-    "area_m2": 46.0,
-    "rent": 9632,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Claessonsgatan, Göteborg",
-    "url": "https://qasa.com/p/1455426",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0fb1fd762ce1d471c352e869b54d8954a74aac30026685091a77bfd61a5a904.jpg",
-    "description": "Välkommen till Claessonsgatan\n\nStorlek: 103 kvm\nMöblering: Delvis möblerad\nBalkong/uteplats: Ja\nDiskmaskin: Ja\nTvättmaskin: Nej, gemensam tvättstuga\nIngår i hyran: Värme, vatten och bredband\n\nVälkommen till en ljus och rymlig lägenhet i ett charmigt villaområde på Claessonsgatan, belägen i populära och grönskande Örgryte. Lägenheten erbjuder en trivsam boendemiljö för dig som uppskattar lugn och ro, samtidigt som du vill ha närhet till Göteborgs stadsliv.\n\nÖrgryte är ett av Göteborgs mest uppskattade och natursköna områden, känt för sina vackra villor, lummiga omgivningar och lugna atmosfär. Här finns gott om fina promenadstråk, parker och grönområden för avkoppling och rekreation.\n\nSamtidigt har du nära till både kollektivtrafik och centrala Göteborg, vilket gör det enkelt att ta sig in till city. I närområdet finns även caféer, butiker och annan service inom bekvämt avstånd.\n\nHär får du helt enkelt det bästa av två världar – ett lugnt och grönt boende med stadens puls på bekvämt avstånd.\n\n-------------------------------------------------------------------------------\n\nWelcome to Claessonsgatan\n\nSize: 103 sqm\nFurnishing: Partially furnished\nBalcony/patio: Yes\nDishwasher: Yes\nWashing machine: No, shared laundry room\nIncluded in the rent: Heating, water and broadband\n\nWelcome to a bright and spacious apartment in a charming residential area on Claessonsgatan, located in the popular and green area of Örgryte. The apartment offers a pleasant living environment for those who appreciate peace and quiet while still wanting to be close to the city life of Gothenburg.\n\nÖrgryte is one of Gothenburg’s most appreciated and scenic areas, known for its beautiful villas, lush surroundings and peaceful atmosphere. There are plenty of nice walking paths, parks and green areas for relaxation and recreation.\n\nAt the same time, you are close to both public transportation and central Gothenburg, making it easy to get into the city centre. There are also cafés, shops and other services within a convenient distance in the surrounding area.\n\nHere, you get the best of both worlds – a peaceful and green home with the city’s vibrant atmosphere within easy reach.\n",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 103.0,
-    "rent": 23596,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Torpavägen 101A, Göteborg",
-    "url": "https://qasa.com/p/1455741",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d4b1cb8d9a7e6b4475aee03a527eaf9c56c05085e291f448de93de929325874.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till denna 4 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. \n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. \n\nKöket är utrustat med ljusa vitvaror och en helintegrerad diskmaskin. Bra förvaring med garderober i hallen och förråd/klädkammare i lägenheten.\n\nDenna lägenhet hyrs ut via en digital skanning och planritning, ingen fysisk visning.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. Björkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran inkluderar värme och vatten. Individuell mätning tillkommer på elen. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 71.0,
-    "rent": 16012,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T05:43:37+00:00", "clock": "05:43:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T09:26:41+00:00", "clock": "09:26:41"};
