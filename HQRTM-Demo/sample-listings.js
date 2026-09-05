@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilla Regementsvägen, Göteborg",
+    "url": "https://qasa.com/p/1456037",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f887215cd16ab382bec0ae0015b57503a078ee5a1034bba400aa8463e857a814.jpg",
+    "description": "Hej!\n\n​Jag hyr ut min moderna och välplanerade trea om 65 kvm på Lilla Regementsvägen i Kviberg. Huset är en nyproduktion från 2024 med genomgående hög standard, öppen planlösning mellan kök och vardagsrum, två rymliga sovrum samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\n​Bostadens stora höjdpunkt är den rejäla altanen på hela 43 kvm med fin utsikt mot föreningens gemensamhetsplats – en underbar yta för utemöbler och avkoppling.\n\n​För mig är det absolut viktigast att hitta rätt person eller par som uppskattar ett nytt och fräscht boende och som kommer att vårda och ta hand om lägenheten som om den vore sin egen.\n​Kort om bostaden:\n\n​3 rum och kök, 65 kvm boarea (hiss finns).\n​Stor altan på 43 kvm med utsikt mot gemensamhetsplats.\n​Nyproduktion (2024) med moderna vitvaror, diskmaskin och kombinerad tvätt/tork.\n​Belägen i ett lugnt och trevligt område nära Kviberg Park, natur och motionsspår.\n​Snabba kommunikationer in till Göteborgs centrum (ca 10–15 min).\nObservera: Externt källar-/vindsförråd ingår ej.\n\n​Hyresvillkor & ekonomi:\n\n​Månadshyra: 14 800 kr/månad (deposition och betalning hanteras tryggt via Qasa).\n​El och vatten: Tillkommer utöver hyran baserat på faktisk förbrukning. Föreningen debiterar detta med två månaders fördröjning (exempelvis faktureras förbrukningen för april i början av juli).\n​Tillträde: Från 21 september 2026.\n​Period: Långtidsuthyrning / tillsvidare.\n​Vem jag söker:\n\n​Stabil ekonomi med fast inkomst och inga betalningsanmärkningar.\n​Helt rökfri (absolut krav).\n​Husdjur kan diskuteras efter överenskommelse.\n​Lugn, ansvarsfull och noggrann med att hålla bostaden ren och välskött.\n​Skriv gärna en kort presentation och berätta lite om dig/er, er sysselsättning och varför ni söker bostad. Referenser från tidigare hyresvärdar är ett stort plus!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 65.0,
+    "rent": 14800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1456172",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6792fc07a78f116800eb841591399bf37f9cec9db69538308e65352edea71507.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Olskroksgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1455782",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/939086458485962f67dfb28b63e38e9cd706c4fae16f3d39ff5f09ccc677635e.jpg",
-    "description": "Här ges möjlighet att hyra en lägenhet med 1 rum och kök på 42 kvm. Lägenheten renoverades enligt Balders HEM-koncept år 2019 med ett välutrustat kök och ett helkaklat badrum med LED-belyst spegel, handdukstork och golvvärme. Hallen har ett praktiskt klinkergolv och i övriga rum är golven klädda i ekparkett. Observera att bilderna i annonsen är exempelbilder.\r\n\r\nOMGIVNING\r\nOlskroken är ett område med närhet till både grönområden och centrum.\r\n\r\nKOMMUNIKATIONER\r\nFrån Olskrokstorget finns bra kollektivtrafikförbindelser.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 42.0,
-    "rent": 7930,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T09:26:41+00:00", "clock": "09:26:41"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T12:57:00+00:00", "clock": "12:57:00"};
