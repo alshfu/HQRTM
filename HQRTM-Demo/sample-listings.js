@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ahrenbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1456418",
+    "image_url": null,
+    "description": "Fin hörnlägenhet (endast en gemensam vägg mot granne) på andra våningen i Munkebäck. Uthyres då jag numera jobbar utomlands. \n\nVäldigt bra planerad lägenhet där alla rum nås från hallen. Hall med två garderober. Badrum med klinker och golvvärme. Sovrum, med klädkammare, som vetter mot lugn innergård. Fin nybyggd balkong som fortsätter runt hörnet av vardagsrummet ifrån sydost och till sydväst. Sol mest hela dagen med andra ord. Kök med glashällsspis, ugn, kyl o frys. Bord för 4 ryms utan problem. Fri parkering på gatan men man får se upp med sopdagar i mars/april. Föreningen har parkeringsplatser samt 3 garageplatser men vet ej hur lång väntetid. \n\nCoop, ICA Kvantum, gym, restauranger, systembolag och många andra butiker finns allt på gångavstånd. Spårvagn tar 11 min och bussen tar 8min till Centralen. Pendeltåget mellan Gbg - Alingsås på 5 min avstånd.  Så väldigt lätt att ta sig till o från stan både med kollektivt, cykel, eller till och med gå (ca 50min till centralen beroende på rödljus etc). Sedan finns Skatås nära. Ca 1,5km till grusspåren om man gillar löpning, natur, bada, fiske osv. \n\nÖvrig info: \nComhem-hus för bredband/TV osv. \nBredband liksom el står hyresgästen för. \nVärme/vatten/VVS ingår så klart. \nLägenheten renoverades invändigt år 2019 (utom köksutrustning) samt badrummet 2021. Vid renoveringen byggdes även klädkammaren i sovrummet. 2025 ny fin balkong samt nya fönster. I år byts fasad och entrédörrarna vilket pågår just nu och ska vara helt klart här i höst.  ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Tunnlandsgatan, Göteborg",
     "url": "https://qasa.com/p/1456478",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b6b702fe41444378b5e4284569c45fbbd020b4e1a23cf9e148062b7edff580b.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Altarbacken, Torslanda",
-    "url": "https://qasa.com/p/1429701",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d672f33bab2ca799865c0f18719ca4b06ed1783bc1f21e47e39d27861c2fc58a.jpg",
-    "description": "Möblerad enrummare med altan och nära till bad uthyres tillsvidare. Uthyrning per vecka kan diskuteras, kontakta oss.\n(English description below)\n\nVi hyr ut en trevlig och ljus lägenhet med egen entré i vår villa i Lilleby, Torslanda. Huset ligger väldigt lugnt i slutet på en återvändsgata. Lägenheten är fullt möblerad och med golvvärme i hela lägenheten. Både badrum och kök är i princip nya. El, värme och vatten ingår. i hyran Bra trådat eller trådlöst internetanslutning kan ordnas till en liten tilläggskostnad. Om du har bil kan du parkera gratis på gatan.\n\nEn stor altan hör till lägenheten, med utemöbler och möjlighet till att grilla - som gjort för att njuta av varma sommarkvällar. Flera trevliga badstränder finns inom 3 kilometer samt nära till skog och natur för promenader och jogging. Goda kommunikationer till centrum, Torslanda torg och Volvo Torslanda.  Busshållplatsen ligger 5 minuter bort.\n\nUthyres omgående och tillsvidare, endast till rökfri- och djurfriperson/par med ordnad ekonomi.\n\nVill du bara hyra enstaka vecka? Kontakta oss!\n\n---\nWe are renting out a nice and bright apartment in our house in Lilleby, Torslanda. Both long term (months) or short term, week(s), rental is possible. \n\nOur house is located quietly  at the end of a street. The apartment has its own separate entrance and is fully furnished. Underfloor heating in the whole apartment. Both the kitchen and the bathroom are essentially new. Electricity, heating and water are included in the rent. Good wired or wireless internet can be arranged for a small extra fee. If you have car, you can park it free of charge on the street.\n\nA spacious patio with outdoor furtniture and possibility to barbecue is part of the rent - as made for enjoying warm summer days. There are several beaches within 3 km from the apartment. Close to nice nature for walking and jogging. Bus stand is just 5 minutes away with buses going to the city center, Torslanda torg, and Volvo Cars. \n\nThe apartment is available straight away. For rent only to non-smoking and pet-free person or pair with economy in good order.\n\nIf you'd like to rent only for a week or two, contact us.",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 7800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-05T23:21:30+00:00", "clock": "23:21:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T01:08:01+00:00", "clock": "01:08:01"};
