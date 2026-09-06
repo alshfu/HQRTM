@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ingebäcksvägen, Hisings Kärra",
+    "url": "https://qasa.com/p/1457007",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ee03ce9fffc5ba90b066f52b640a71b6cd8da5c6b44a89937f02958ea3cfc8d.jpg",
+    "description": "Mysig villa i ett lugnt och naturnära område ligger 3 minuter från en busshållplats med direktbussar till stan i rusningstid.\nRökfri villa, ljust och fullt möblerad hyrs ut till ansvarsfulla personer som vill hyra huset i 5 månader, under perioden 20 oktober till sista mars. Vår älskade katt Cesar kommer nämligen att bo kvar i huset under vinterhalvåret. Han är väldigt självständig och har egen kattlucka, vilket gör skötseln superenkel – du behöver egentligen bara se till att mat- och vattenskålen är full och ge honom lite gos och kärlek när han är inne.\nI huset finns en braskamin för kalla vinterkvällar samt ett piano tillgängligt.\n\nHuset är 1.5 plan och har har 4 sovrum, två badrum, ett fint uterum och en stor altan där en badtunna är placerad. \n\nI övrigt finns kök, tvättstuga och en klädkammare.\n\nHyresgästen kommer att stå för el- och uppvärmningskostnader.\nYtterligare bilder kan skickas vid behov.",
+    "district": "Hisings Kärra",
+    "rooms": 5.0,
+    "area_m2": 140.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bäckegatan, Göteborg",
     "url": "https://qasa.com/p/1456979",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf313afa196d70a1c8f26ff4488abb866f4be33d58fd53e406497183cbf52d2e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1456932",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ed3b23494f414c31021b05f2160cd0673635e3adc8b6cf54a8bc6bf25ef1d312.jpg",
-    "description": "Möblerat rum uthyres i Örgryte \nVi hyr ut ett möblerat rum på ca 14 kvm.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 Endast studenter bor i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten andra våning är ca 130 kvm och ligger på andravåningen med egen ingång. \nDen består av fyra sovrum, kök, vardagsrum och badrum.\nDu delar gemensamma utrymmen med tre studenter.\nRummet är ca 14 kvm, möblerat med enkelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 14.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T20:47:52+00:00", "clock": "20:47:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T22:27:37+00:00", "clock": "22:27:37"};
