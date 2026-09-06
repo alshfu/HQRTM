@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bäckegatan, Göteborg",
+    "url": "https://qasa.com/p/1456979",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf313afa196d70a1c8f26ff4488abb866f4be33d58fd53e406497183cbf52d2e.jpg",
+    "description": "Fullt möblerad lägenhet på 77 m² i Masthugget, Göteborg. Lägenheten ligger på Bäckegatan, i ett lugnt och centralt område i Masthugget, med goda kollektivtrafikförbindelser och nära till centrala Göteborg.\n\nLägenheten har:\n77 m²\n2 separata sovrum\nVardagsrum\nFullt utrustat kök\n1 badrum\nKlädkammare\nFullt möblerad\n\nPassar bra för ett par, en familj eller någon som tillfälligt arbetar eller bor i Göteborg. \n\nI hyran ingår el, vatten, internet och TV. \n\nUthyrningen sker pga utlandsvistelse. Den initiala hyresperioden är 1 oktober 2026–29 januari 2027. Det kan finnas möjlighet att förlänga hyresperioden efter januari enligt separat överenskommelse.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 77.0,
+    "rent": 17933,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Norra Liden, Göteborg",
+    "url": "https://qasa.com/p/1456985",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/665040dfed8c7ab3f885832c73dbb0414da0b74d9ea755697ca19e863b4d44a2.jpg",
+    "description": "Hej! Hyr ut min lägenhet då jag kommer vara på utlandstjänst i 2 år. Lägenheten är en tvåa på 49kvm belägen på Otterhällan, centralt i Göteborg. Bra läge mitt i stan men ändå väldigt lugnt område då det ligger på en höjd. och har goda kommunikationer, med mindre än 5 minuters promenad till Stenpiren och domkyrkan, ungefär 10 till Brunnsparken. Ett separat sovrum, med kombinerat kök och vardagsrum.\nFinns goda möjligheter till förvaring i lägenheten med stor inbyggd garderob i sovrummet och en walk-in closet. Badrum och kök har renoverats. Den uthyres möblerad. Finns ingen egen parkeringsplats, men finns ett garage i huset där det kan finnas möjlighet att få parkering och finns även boendeparkering på gatan precis utanför. \nI hyran ingår el, internet, vatten, värme, och allt sånt som är kopplat till bostaden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 49.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Månskäregatan, Göteborg",
+    "url": "https://qasa.com/p/1347995",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6df774e120f3a86a22f91470b28bd0db7faf3f253499c23b4e88882b628d5f5.jpg",
+    "description": "Obs - Söker veckopendlare mån-fre som inneboende i samband med arbete på annan ort. Du har lägenheten själv dessa dagar. Hyresvärden nyttjar lägenheten på helgerna.  \n\nMöblerad 2:a med balkong och lugnt läge, nära grönområde och mataffär. Några minuters promenad till spårvagnen som tar 5 min till Korsvägen. Gratis parkering på gatan och enkelt att ta sig till E6. \n\nInternet och el betalas separat. \nHyresgästen tecknar egen hemförsäkring. Deposition 2 mån. \n\nFoto av kök och badrum finns ej då arbete pågår. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ejdergatan, Göteborg",
     "url": "https://qasa.com/p/1439174",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a2b7fed3406ef9e7d042f52af517e18830c1527d4c67f0dd20be4b659efa54c.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Paternostergatan, Göteborg",
-    "url": "https://qasa.com/p/1456851",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/309b69bbf9f469f7e488f60217e6e9d3f0d41bbafef114a588d61aaa14adfc6d.jpg",
-    "description": "Lägenheten ligger i Majorna och är en fantastisk bostad i ett mycket bra område. Den är nybyggd och helt omöblerad, vilket ger dig möjlighet att inreda den efter egen smak. Lägenheten är i markplan och har ett utmärkt läge i en attraktiv och trivsam del av staden. Planlösning 0.  Varm vatten ingår i hyran. El och internet ej ingår i hyran!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 36.0,
-    "rent": 6500,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stora Älsjövägen, Olofstorp",
-    "url": "https://qasa.com/p/1456834",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bda7a7db587d6e0ddf70c2d9ffb5e37cef5843bd8113e2de44d1a99877812f8e.jpg",
-    "description": "Väldigt fin liten lägenhet \nIngår el&vatten\nEgen ingång,kök,toalett med dusch samt tvättmaskin och torktumlare ",
-    "district": "Olofstorp",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Olivedalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1456107",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5f3d8c709ca6fa8907cf6102944660b2c0dab4b5fef88c76a8e7da5114f5a993.jpg",
-    "description": "Fin lägenhet uthyres i populära Linné – Göteborg\n\nJag hyr ut min lägenhet på Olivedalsgatan 16 i Linné under ett år, för samboprövning.\n\nLägenheten hyrs ut delvis möblerad, vilket innebär att säng, soffa, soffbord, köksbord och stolar finns kvar. I hyran ingår dessutom el, värme, vatten och bredband, vilket gör det enkelt att flytta in utan att behöva tänka på extra driftkostnader.\n\nAdress: Olivedalsgatan 16, Linné\nUthyrningsperiod: 1 år\nDelvis möblerad\nEl, värme, vatten & bredband ingår\n\nLinné är ett av Göteborgs mest omtyckta områden, med ett stort utbud av restauranger, caféer, barer och butiker. Det är dessutom nära till Slottsskogen, och med goda kommunikationer till övriga delar av Göteborg.\n\nJag söker en ordningsam, ansvarsfull och skötsam person som är mån om sitt boende och tar väl hand om lägenheten.\n\nVälkommen att höra av dig och berätta lite om dig själv!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 48.0,
-    "rent": 12910,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T18:34:48+00:00", "clock": "18:34:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T20:47:52+00:00", "clock": "20:47:52"};
