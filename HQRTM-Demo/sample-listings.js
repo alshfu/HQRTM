@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Parkgatan, Göteborg",
+    "url": "https://qasa.com/p/1456737",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8fa0f7b99446eac92a5ff43c482336a935ff8b98504f3273654ff8d2d13126a.png",
+    "description": "Unik möblerad, modern city studio i ett av Vasastadens vackraste sekelskiftes hus med ingång från Storgatan ett stenkast från Vasaplatsen mitt i centrala Göteborg uthyres from  så snart som möjligt eller enligt ök. ( blivit tillgängligt då nuvarande hyresgäst kommit in på reserv plats på annan ort och därför måste flytta )\n\nSöker rökfri, skötsam och lugn person utan husdjur eller hemmaboende barn.\n\nBostaden är modernt inredd och nyligen renoverad, finns fint kök med diskmaskin, porslin och husgeråd. Lyxigt stort badrum med bubbelbadkar, dusch, tvättmaskin. Liten arbetsplats, fint med garderob, köksö och soffa.\n\nRekommenderas mobilavtal med obegränsad surf som nyttjas som mobilt Wifi.\n\nHushållsel, värme och sophämtning ingår.\n\nSökande som ligger utanför efterfrågad profil besvaras ej.\n\nHyrs ut till en person, gärna studerande på kvalificerad högskoleutbildning.\n\nSom en första kontakt Välkommen med en intresseanmälan, beskriv gärna vem du är, syssla, varför boendet i Vasastaden skulle passa dig och hur länge du önskar hyra.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Brämaregatan, Göteborg",
+    "url": "https://qasa.com/p/1456690",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a365d7ff75b67c54796a464ec9266772d5eb910f5d45d026cf845f2b887fdd33.jpg",
+    "description": "Välkommen till Brämaregatan, Göteborg!\n\nHär bor du ett stenkast från stan, med gångavstånd till allt: flera matbutiker, apotek, gym, Backaplans köpcentrum, Lindholmen och Ramberget. Bara 5 minuter med spårvagn till centrum.\n\nDenna charmiga lilla tvåa på 33 kvm ligger på våning 4 (utan hiss) i en nyproducerad vindslägenhet från 2020. Här möts du av ett stort separat sovrum och ett ljust kök/vardagsrum i öppen planlösning. Parkettgolv, vita väggar och högt i tak med spots och stora fönster som ger en luftig och varm känsla. Badrummet är helkaklat med handfat, toalett och dusch. Ljust kök från Marbodal med kyl, frys, spis, ugn och diskmaskin.\n\nTill lägenheten hör förråd i källaren, och tvättstuga finns i huset. Bastu går att boka.\n\nHyra: 12 000 kr/månad + avgiften som qasa tar ut. I hyran ingår värme, vatten, el upp till 300 kWh, tv paket (basutbud) och bredband. Förbrukning över 300 kWh debiteras löpande.\n\nLägenheten hyrs ut möblerad, redo att flytta in i direkt:\n\n- Matbord med fyra stolar\n- Stor skänk\n- Tresits soffa\n- Golvlampa\n- Persienner\n- Garderober\n- Förvaring i hallen\n- Två 90 sängar som kan användas ihop eller bytas till en egen 180 madrass att lägga över\n- Nattduksbord\n- Fullt utrustat kök\n\nUthyres från 1 oktober, ett år med möjlighet till förlängning, till en rökfri och djurfri hyresgäst med god ekonomi som vill bo här länge och tar väl hand om lägenheten. Referenser från tidigare hyresvärd samt arbetsgivarintyg eller studieintyg efterfrågas. Föreningen ska godkänna hyresgästen innan avtalsskrivning.\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 33.0,
+    "rent": 12000,
+    "floor": 4,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Wrangelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1456681",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/31ddb862009ad8a49e05db6407149eed5aba962da12c6061365c73c89edd68e6.jpg",
+    "description": "Ljus och välplanerad tvåa på 45 kvm i trevliga Lunden. Lägenheten hyrs ut möblerad och har en ny balkong.\n\nBostaden ligger på Wrangelsgatan 4A i ett lugnt och omtyckt område med närhet till mataffärer, caféer, restauranger och grönområden. Det är cirka 5 minuters promenad till Redbergsplatsen, där det finns flera spårvagns och busslinjer med smidiga förbindelser till hela Göteborg.\n\nI hyran ingår vatten, el, värme, wifi och TV.\n\nJag hyr ut lägenheten under en period eftersom jag ska åka på utbytesstudier i Milano. Lägenheten passar bra för en person eller ett par som söker ett trivsamt och bekvämt boende med bra läge och goda kommunikationer. Jag söker en skötsam och ansvarsfull hyresgäst som tar väl hand om bostaden.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fastlagsgatan, Göteborg",
     "url": "https://qasa.com/p/1456607",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0c54f52a8ab5184befb521b02df5c39e8878cfe464225d80d7e9b34c8fba816.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kondensatorsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1456557",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ecf436effff219d489d48c39204b85a8a84791259f9f5f2818794c60ec644283.jpg",
-    "description": "Genomgående planlösning med fönster åt öster och väster, sol på balkongen på eftermiddag & kväll.\nSeparat kök. \nMånga garderober i sovrummet och en garderob i hallen.\n",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 8200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ahrenbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1456418",
-    "image_url": null,
-    "description": "Fin hörnlägenhet (endast en gemensam vägg mot granne) på andra våningen i Munkebäck. Uthyres då jag numera jobbar utomlands. \n\nVäldigt bra planerad lägenhet där alla rum nås från hallen. Hall med två garderober. Badrum med klinker och golvvärme. Sovrum, med klädkammare, som vetter mot lugn innergård. Fin nybyggd balkong som fortsätter runt hörnet av vardagsrummet ifrån sydost och till sydväst. Sol mest hela dagen med andra ord. Kök med glashällsspis, ugn, kyl o frys. Bord för 4 ryms utan problem. Fri parkering på gatan men man får se upp med sopdagar i mars/april. Föreningen har parkeringsplatser samt 3 garageplatser men vet ej hur lång väntetid. \n\nCoop, ICA Kvantum, gym, restauranger, systembolag och många andra butiker finns allt på gångavstånd. Spårvagn tar 11 min och bussen tar 8min till Centralen. Pendeltåget mellan Gbg - Alingsås på 5 min avstånd.  Så väldigt lätt att ta sig till o från stan både med kollektivt, cykel, eller till och med gå (ca 50min till centralen beroende på rödljus etc). Sedan finns Skatås nära. Ca 1,5km till grusspåren om man gillar löpning, natur, bada, fiske osv. \n\nÖvrig info: \nComhem-hus för bredband/TV osv. \nBredband liksom el står hyresgästen för. \nVärme/vatten/VVS ingår så klart. \nLägenheten renoverades invändigt år 2019 (utom köksutrustning) samt badrummet 2021. Vid renoveringen byggdes även klädkammaren i sovrummet. 2025 ny fin balkong samt nya fönster. I år byts fasad och entrédörrarna vilket pågår just nu och ska vara helt klart här i höst.  ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lilla Tunnlandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1456478",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6b6b702fe41444378b5e4284569c45fbbd020b4e1a23cf9e148062b7edff580b.jpg",
-    "description": "Fin möblerad tvåa med stor balkong uthyres\n\nNu finns möjlighet att hyra min fina och välplanerade tvåa, belägen på våning 2.\n\nLägenheten har en jättefin och rymlig planlösning, ett stort och fräscht badrum med både tvättmaskin och torktumlare, samt gott om förvaring med många stora och praktiska garderober.\n\nEn av lägenhetens stora höjdpunkter är den stora, fina balkongen, där du har sol från morgon till eftermiddag – perfekt för morgonkaffet, avkoppling eller härliga kvällar.\n\n🏡 Uthyres möblerad\n📅 6 månader, med möjlighet till förlängning upp till 1 år.\n\nLägenheten passar dig som söker ett fint, bekvämt och välplanerat boende med gott om förvaring och en härlig balkong.\n\nMer information om hyra, område och inflyttning lämnas gärna vid intresse.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 15500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T10:31:43+00:00", "clock": "10:31:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T13:47:07+00:00", "clock": "13:47:07"};
