@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Södra Vårvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1457923",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fa284ddbf3e4ea9f4cce4dd69f3b4333a1f54851ac591c98ffd493f9b796f99f.jpg",
+    "description": "Tillgänglig: från 1 November 2026\nUthyrning: 6 månader med möjlighet till förlängning\n\nVälkommen till denna mysiga och fullt möblerade tvåa på 49 kvm, belägen på tredje våningen med fransk balkong. Lägenheten hyrs ut möblerad, perfekt för dig som vill ha ett bekvämt boende med allt på plats!\n\nBostaden:\n\t•\t2 rum och kök, 49kvm\n\t•\tFransk balkong med fint ljusinsläpp\n\t•\tVardagsrum med soffa och matplats\n\t•\tSovrum med säng och garderober\n\t•\tFullt utrustat kök: kyl/frys, diskmaskin, ugn/spis samt allt porslin, kastruller och bestick\n\t•\tBadrum med tvättmaskin och torktumlare\n\nHyra:\n\t•\t12 000 kr/mån (möblerad, värme, vatten, internet, el\n\nÖvrigt:\n\t•\tHyrs ut möblerad\n\t•\tCentralt läge med nära till spårvagn, buss, affärer och restauranger\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 49.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Helenebergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1444495",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ae25993db2c07c7df3fc79c4ca75ac84745e2985dc5c068d29112b4c404d9af4.png",
+    "description": "Welcome to a hidden oasis in the heart of Johanneberg!\n\nCentral 2a in cozy BRF Näckten with a fantastic outdoor patio facing the courtyard in a quiet and green area.\nThe apartment is top renovated with day light from three directions. \nNew bathroom, kitchen, painted walls and wallpaper in 2020. Excellent storage options with site-built solutions inside the apartment as well as a separate storage room.\nClose to nice restaurants, grocery stores, and green areas. Short walk to city center; 10-15 min walk to Korsvägen and Avenyn, 2 min walk to gym/outdoor gym/running track, 3 min walk to Willys.\n\nAs our family is growing, we now need to move to a bigger one and therefore hope to find tenants who will enjoy this lovely place as much as we have for the past 15 years.\n\nWelcome to see this unique gem!\n\nVälkommen till en gömd oas mitt i hjärtat av Johanneberg!\n\nCentral 2a i mysiga BRF Näckten (Nästan som Bullerbyn) med fantastisk uteplats mot innergård i lugnt och grönt område. \nLägenheten är topprenoverad med ljusinsläpp från tre vädersträck. Nytt badrum, kök, målade väggar och tapet 2020.  Utmärkta förvaringsmöjligheter med platsbyggda lösningar inne i lägenheten samt ett förråd. \nNära till både trevliga restauranger, livsmedelsbutiker,  och grönområden. 10-15 min promenad till Korsvägen och Avenyn, 2 minuters promenad till gym/utegym/löpspår, 3 minuters promenad till Willys.\n\nDå vår familj växer behöver vi nu flytta till större och hoppas därför hitta hyresgäster som kommer trivas här lika bra som vi gjort under de senaste 15 åren.\n\nVälkommen att se denna unika pärla!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 16500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Grevegårdsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1457816",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/abeedbe99940fccdd4041e9a01d0d074c6a0f33dbadb13176bdc2729656195b1.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lasarettsgatan, Göteborg",
-    "url": "https://qasa.com/p/1453487",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c3ea9d34487c819901366b02c1decc5013683a5f1e9a69e2af16c8d0357df1b.jpg",
-    "description": "Exklusiv möblerad 2,5 om 77 kvm i Kungshöjd – mitt i centrala Göteborg\n\nVälkommen till en unik och stilfull bostad om 77 kvm i attraktiva Kungshöjd, ett av Göteborgs mest centrala och eftertraktade områden.\n\nLägenheten ligger högt upp i huset och kombinerar generös takhöjd på över tre meter, stora fönsterpartier, synliga takbjälkar och tidstypisk karaktär med en modern och exklusiv interiör. Bostaden hyrs ut fullt möblerad och är inflyttningsklar – idealisk för exempelvis en företagsanställd, konsult, expat eller ett par som söker ett representativt och bekvämt boende i centrala Göteborg.\n\nDet rymliga vardagsrummet präglas av den generösa takhöjden och stora fönster med utsikt mot Kungsgatan. Här finns gott om plats för både sociala ytor och avkoppling.\n\nKöket är fullt utrustat och integrerat med bostadens stilrena uttryck. Sovrummet är lugnt och privat, och bostadens planlösning erbjuder även utrymme som lämpar sig väl för hemmakontor eller arbetsplats.\n\nDet helkaklade badrummet har golvvärme och genomgående håller lägenheten en hög standard.\n\nSom boende finns dessutom tillgång till föreningens stora gemensamma takterrass om cirka 150 kvm – en fantastisk plats under vår- och sommarmånaderna med utsikt över Göteborgs takåsar.\n\nLäget\n\nHär bor du mitt i Göteborg med det mesta inom bekvämt gångavstånd.\n\nPå några minuter når du Kungsgatan och centrala Göteborg, samtidigt som Järntorget, Andra Långgatan, Linné, Rosenlund och Stenpiren ligger precis i närheten.\n\nOmrådet erbjuder ett stort utbud av restauranger, caféer, barer, butiker och kultur, samtidigt som lägenhetens höga läge ger en mer privat känsla ovanför stadslivet.\n\nMycket goda kollektivtrafikförbindelser finns inom kort gångavstånd.\n\nKort om bostaden\n\n• 77 kvm• 2,5 rum och kök• Kungshöjd, centrala Göteborg• Högt läge i fastigheten• Hiss• Över 3 meter i takhöjd• Stora fönsterpartier och mycket karaktär• Fullt möblerad• Fullt utrustat kök• Badrum med golvvärme• Gemensam takterrass om cirka 150 kvm• Bredband• Passar utmärkt för en person eller ett par• Långtidsuthyrning, cirka 10 månader\n\nHyra\n\n24 000 kr/månad.\n\nBredband, värme och vatten ingår. El debiteras separat efter förbrukning.\n\nSeriösa hyresgäster med stabil ekonomi prioriteras. Referenser och sedvanlig kreditkontroll kan komma att efterfrågas.\n\nBostaden passar särskilt väl för företagsuthyrning, internationella medarbetare, konsulter eller andra som söker ett exklusivt och komplett boende mitt i Göteborg under en begränsad period.",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 77.0,
-    "rent": 19000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Basilikagatan, Angered",
-    "url": "https://qasa.com/p/1457218",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6838afe1a29995170c02b250dff308586699cc0fd8dd9d5319fb8f1659e54e0.jpg",
-    "description": "Flexibelt företagsboende i Gårdsten\n\nENDAST FÖRETAGSUTHYRNING. EJ PRIVATUTHYRNING.\nCORPORATE RENTALS ONLY. NO PRIVATE RENTALS.\n\nWorkers Hotel erbjuder flexibla boendelösningar för större arbetslag och projekt. Vi erbjuder fullt utrustade och möblerade lägenheter som kan anpassas efter antal personer, önskat läge och behov.\n\nLägenheten i Gårdsten passar för 3 personer, med möjlighet att bo upp till 4 personer.\n\nLägenheten erbjuder\n4 rum och kök\n88 kvm\nBoende för 3 personer, med möjlighet till 4 personer\n2 badrum\nFullt utrustat kök\nDiskmaskin\nTvättmaskin och torktumlare\nFullt möblerad\nTV\nWi-Fi\nEl, vatten och värme ingår\nParkering ingår\nFöretagsboende i Gårdsten\n\nBasilikagatan 6, Göteborg\n\nHyra: 27 000 kr/månad för 3 personer, med möjlighet till 4 personer.\n\nBoendet passar företag som söker boende för personal, projektgrupper eller entreprenörer. Både korttids- och långtidsuthyrning är möjlig.\n\nFlexible Team Accommodation in Gårdsten\n\nCORPORATE RENTALS ONLY. NO PRIVATE RENTALS.\nENDAST FÖRETAGSUTHYRNING. EJ PRIVATUTHYRNING.\n\nWorkers Hotel provides flexible accommodation solutions for larger teams and projects. We offer fully equipped, fully furnished apartments that can be adapted to the number of people, preferred location and required standard.\n\nThe apartment in Gårdsten is suitable for 3 people, with the option to accommodate up to 4 people.\n\nThe apartment offers\n4-room apartment\n88 sqm\nAccommodation for 3 people, with the option to accommodate up to 4 people\n2 bathroom\nFully equipped kitchen\nDishwasher\nWashing machine and tumble dryer\nFully furnished\nTV\nWi-Fi\nElectricity, water and heating included\nParking included\nCorporate Accommodation in Gårdsten\n\nBasilikagatan 6, Gothenburg\n\nRent: SEK 27,000/month for 3 people, with the option to accommodate up to 4 people.\n\nThe accommodation is suitable for companies seeking housing for employees, project teams or contractors. Both short- and long-term rentals are available.",
-    "district": "Angered",
-    "rooms": 4.0,
-    "area_m2": 88.0,
-    "rent": 27000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-07T19:20:16+00:00", "clock": "19:20:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-07T22:07:50+00:00", "clock": "22:07:50"};
