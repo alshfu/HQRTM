@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Claessonsgatan, Göteborg",
+    "url": "https://qasa.com/p/1455426",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0fb1fd762ce1d471c352e869b54d8954a74aac30026685091a77bfd61a5a904.jpg",
+    "description": "Välkommen till Claessonsgatan\n\nStorlek: 103 kvm\nMöblering: Delvis möblerad\nBalkong/uteplats: Ja\nDiskmaskin: Ja\nTvättmaskin: Nej, gemensam tvättstuga\nIngår i hyran: Värme, vatten och bredband\n\nVälkommen till en ljus och rymlig lägenhet i ett charmigt villaområde på Claessonsgatan, belägen i populära och grönskande Örgryte. Lägenheten erbjuder en trivsam boendemiljö för dig som uppskattar lugn och ro, samtidigt som du vill ha närhet till Göteborgs stadsliv.\n\nÖrgryte är ett av Göteborgs mest uppskattade och natursköna områden, känt för sina vackra villor, lummiga omgivningar och lugna atmosfär. Här finns gott om fina promenadstråk, parker och grönområden för avkoppling och rekreation.\n\nSamtidigt har du nära till både kollektivtrafik och centrala Göteborg, vilket gör det enkelt att ta sig in till city. I närområdet finns även caféer, butiker och annan service inom bekvämt avstånd.\n\nHär får du helt enkelt det bästa av två världar – ett lugnt och grönt boende med stadens puls på bekvämt avstånd.\n\n-------------------------------------------------------------------------------\n\nWelcome to Claessonsgatan\n\nSize: 103 sqm\nFurnishing: Partially furnished\nBalcony/patio: Yes\nDishwasher: Yes\nWashing machine: No, shared laundry room\nIncluded in the rent: Heating, water and broadband\n\nWelcome to a bright and spacious apartment in a charming residential area on Claessonsgatan, located in the popular and green area of Örgryte. The apartment offers a pleasant living environment for those who appreciate peace and quiet while still wanting to be close to the city life of Gothenburg.\n\nÖrgryte is one of Gothenburg’s most appreciated and scenic areas, known for its beautiful villas, lush surroundings and peaceful atmosphere. There are plenty of nice walking paths, parks and green areas for relaxation and recreation.\n\nAt the same time, you are close to both public transportation and central Gothenburg, making it easy to get into the city centre. There are also cafés, shops and other services within a convenient distance in the surrounding area.\n\nHere, you get the best of both worlds – a peaceful and green home with the city’s vibrant atmosphere within easy reach.\n",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 103.0,
+    "rent": 23596,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1456940",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/60fde4a1c891817a17a25dcd189d9ccf6cb22bcf4df2554436420bd7261b4361.jpg",
+    "description": "Möblerat rum uthyres i Örgryte\nVi hyr ut ett möblerat rum på ca 10 kvm\n\n 🏡 Om fastigheten är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en generös altan på 40 kvm – perfekt för avkoppling och socialt umgänge.  \n👩‍🎓 För närvarande bor endast studenter i huset och  lägenheterna. \n 🛏 Om lägenheten och rummet: Lägenheten är ca 130 kvm och ligger på bottenvåningen med egen ingång. Den består av fyra sovrum, kök, vardagsrum och badrum. Du delar gemensamma utrymmen med tre studenter. Rummet är ca 10 kvm ( 6kmv för sövrum+ 4 kvm walk  in closet), med möblerat med enkelsäng och en stor garderob. El, vatten, värme och internet ingår i hyran.  \n\n📍 Läge och kommunikationer 15 minuter till Chalmers och Göteborgs universitet. 10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum. 5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 10.0,
+    "rent": 7000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Stenhedsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1457062",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c31f714cbed8c45253add10f3fa3f0cbfe5335d7611ad8292d4f142903bd10f9.jpg",
+    "description": "Nybyggd attefallshus på  60 m2 finns att hyra ut fån 30 november 2026. Det är 2 sovrum, vardagsrum/kök, badrum och toalett. Attefallshuset är byggd i vår tomt separat från vår villa.  Huset är fullt utrustat med tvättmaskin torktumlare , golvvärme överallt och har två stora sovrum vilket gör boendet extra rymligt.\nDet är stora glasfönster i första våningen, vilket ger en luftig och fri känsla.\nDet är väldigt fint område med 5 min gångs avstånd till hemköp, vårdcentralen, tandläkare och gym mm. Till bussen är det bara ca 4-5 min gångavstånd från huset som tar dig till backaplan eller femmanhuset på 5 - 10 min. Samt väldigt fina promenad stråk i området.\nDu som söker skall vara rök/ djur fri.\nDetta mysiga attefallshus är ett perfekt boende för exempelvis två studenter, ensamstående eller den lilla familjen på högst tre personer.\nHa en fast inkomst. Jobba eller studerande. Hyran på 13000 kr. I hyran ingår vatten, värme, el, sophämtning, internet samt möjlighet till parkering.\nTvå månads hyra i deposition vid kontrakt.\nHyran betalas i förskott varje månad den 25. \n\n",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 60.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/839646",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63a05915e7ba7976cb6073e582809142d13f1d211d1915c8743fab53c79568f8.jpg",
@@ -21,7 +66,7 @@ window.HQRTM_SAMPLE = [
     "title": "Ingebäcksvägen, Hisings Kärra",
     "url": "https://qasa.com/p/1457007",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ee03ce9fffc5ba90b066f52b640a71b6cd8da5c6b44a89937f02958ea3cfc8d.jpg",
-    "description": "Mysig villa i ett lugnt och naturnära område ligger 3 minuter från en busshållplats med direktbussar till stan i rusningstid.\nRökfri villa, ljust och fullt möblerad hyrs ut till ansvarsfulla personer som vill hyra huset i 5 månader, under perioden 20 oktober till sista mars. Vår älskade katt Cesar kommer nämligen att bo kvar i huset under vinterhalvåret. Han är väldigt självständig och har egen kattlucka, vilket gör skötseln superenkel – du behöver egentligen bara se till att mat- och vattenskålen är full och ge honom lite gos och kärlek när han är inne.\nI huset finns en braskamin för kalla vinterkvällar samt ett piano tillgängligt.\n\nHuset är 1.5 plan och har har 4 sovrum, två badrum, ett fint uterum och en stor altan där en badtunna är placerad. \n\nI övrigt finns kök, tvättstuga och en klädkammare.\n\nHyresgästen kommer att stå för el- och uppvärmningskostnader.\nYtterligare bilder kan skickas vid behov.",
+    "description": "Mysig villa i ett lugnt och naturnära område ligger 3 minuter från en busshållplats med direktbussar till stan i rusningstid.\nRökfri villa, ljust och fullt möblerad hyrs ut till ansvarsfulla personer som vill hyra huset i 5 månader, under perioden 20 oktober till sista mars. Vår älskade katt Cesar kommer nämligen att bo kvar i huset under vinterhalvåret. Han är väldigt självständig och har egen kattlucka, vilket gör skötseln superenkel – du behöver egentligen bara se till att mat- och vattenskålen är full och ge honom lite gos och kärlek när han är inne.\nI huset finns en braskamin för kalla vinterkvällar samt ett piano tillgängligt.\n\nHuset är 1.5 plan och har har 4 sovrum, två badrum, ett fint uterum och en stor altan där en badtunna är placerad. \n\nI övrigt finns kök, tvättstuga och en klädkammare. Huset är utrustat med central dammsugare.\n\nHyresgästen kommer att stå för el- och uppvärmningskostnader.\nYtterligare bilder kan skickas vid behov.",
     "district": "Hisings Kärra",
     "rooms": 5.0,
     "area_m2": 140.0,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Månskäregatan, Göteborg",
-    "url": "https://qasa.com/p/1347995",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6df774e120f3a86a22f91470b28bd0db7faf3f253499c23b4e88882b628d5f5.jpg",
-    "description": "Obs - Söker veckopendlare mån-fre som inneboende i samband med arbete på annan ort. Du har lägenheten själv dessa dagar. Hyresvärden nyttjar lägenheten på helgerna.  \n\nMöblerad 2:a med balkong och lugnt läge, nära grönområde och mataffär. Några minuters promenad till spårvagnen som tar 5 min till Korsvägen. Gratis parkering på gatan och enkelt att ta sig till E6. \n\nInternet och el betalas separat. \nHyresgästen tecknar egen hemförsäkring. Deposition 2 mån. \n\nFoto av kök och badrum finns ej då arbete pågår. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 57.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ejdergatan, Göteborg",
-    "url": "https://qasa.com/p/1439174",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5a2b7fed3406ef9e7d042f52af517e18830c1527d4c67f0dd20be4b659efa54c.jpg",
-    "description": "Jag hyr ut min charmiga genomgångslägenhet på Ejdergatan! Bostaden är smart planerad med köket som central punkt, gott om förvaringsutrymme och plats för en stor matsalsgrupp. Genomgående parkettgolv och ljusa ytor gör det enkelt att inreda, med ljusinsläpp från två väderstreck. Vidare finner du helkaklat och stilrent badrum. \n\nUtanför porten har föreningen en gemensam vacker och grönskande innergård med utemöbler och grillmöjligheter. Runt hörnet finns utmärkta kommunikationer från Redbergsplatsen som tar dig till stadens alla hörn. Utöver Bagaregårdens mysiga gator så finns även Danska vägen och Olskrokstorget nära med sitt utbud av både butiker och restauranger. \n\nLägenheten vetter mot motorvägen med nyinsatta, isolerade 3-glasfönster.\n\nI hyran ingår vatten, värme, ComHem TV basutbud samt nyttjande av ett vindsförråd. Bredband (fiber alt. ComHem), el och hemförsäkring står hyresgästen själv för.\n\nJag hyr ut bostaden i väntan på försäljning. Försäljning är planerad till slutet av uthyrningsperioden (våren 2027). Du som hyresgäst förväntas vara samarbetsvillig i försäljningsprocessen med allt vad det innebär. Om försäljning skulle dra ut på tiden kan möjlighet till förlängning av uthyrning på månadsbasis diskuteras.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Palmsundsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1456925",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6625d22a05c7aa3937201bcdbbdeb98bf1eb3bbc57bb3883186c511bdbfd1dbf.jpg",
-    "description": "Exklusiv taklägenhet på 78 qm. Nytt kök med matplats. Vardagsrum, stort badrum i marmor.\nSovrum samt mindre rum för t.ex. homeoffice.\nLiten tillhörande balkong för två. Dessutom stor takterrass med 360 gr utsikt till bl. a. hinsholmen och havet. \nHuset har hiss . Parkeringsplats med laddning ingår.\nLämplig för en till två personer. \nRökning samt husdjur oönskade.\nKan hyras möblerad eller omöblerad..",
-    "district": "Västra Frölunda",
-    "rooms": 2.5,
-    "area_m2": 78.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-07T04:52:30+00:00", "clock": "04:52:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-07T09:52:24+00:00", "clock": "09:52:24"};
