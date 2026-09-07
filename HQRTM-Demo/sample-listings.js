@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/839646",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/63a05915e7ba7976cb6073e582809142d13f1d211d1915c8743fab53c79568f8.jpg",
+    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ingebäcksvägen, Hisings Kärra",
     "url": "https://qasa.com/p/1457007",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6ee03ce9fffc5ba90b066f52b640a71b6cd8da5c6b44a89937f02958ea3cfc8d.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Söndagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1456935",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c7e527ae8b33b1f87c97ba3459d14f99d5eb029559874ea0988608b1b11398eb.jpg",
-    "description": "Möblerad lägenhet på 2 rok i Kortedala uthyres från 1 oktober 2026 till juni 2027 med ev möjlighet till förlängning. Tredje våningen (utan hiss), stor balkong i söderläge, lungt trevligt område. Fina skogspromenader vid Lärjeån runt hörnet. 15 min med vagnen till Centralstationen. \n\nBredband, el och vatten är inkluderat i hyran. \n\nUthyres till 1-2 personer. Ej rökare. \n\nSäng (140 cm bred, ny kvalitetssäng) \nBäddsoffa i vardagsrummet (140 cm bred som säng.)\nDiskmaskin finns. \nStor klädkammare (walk in closet). \n\nVid intresse önskar jag en beskrivning av dig/er som önskar hyra. Skriv om vem du är, din sysselsättning, hur du är som hyresgäst och lämna referens till tidigare hyresvärd. \n\nHyra: 12000 kr/mån",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 11300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-06T22:27:37+00:00", "clock": "22:27:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-07T00:15:08+00:00", "clock": "00:15:08"};
