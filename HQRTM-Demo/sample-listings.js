@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamlestadsvägen, Göteborg",
+    "url": "https://qasa.com/p/1457927",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fdb6fe8e712003da955f1c1ced3e91789573a08cb79700809fcc340c98eac338.jpg",
+    "description": "Lägenheten är en 3a som ligger i bottenvåningen. \n\njag hyr ut ena rummet som är på 12m2.\nRummet är möblerat med :\n- en enkelsäng 90cm med en undersäng (+90cm)\n- ett höj och sänkbart skrivbord\n- en kontors pall\n- en garderob\n- en byrå\n\nKöket och badrummet är renoverade 2024. \nI vardagsrummet har en ganska ny soffa, TV och bokhylla.\n\nInternet 100Mbit och el ingår i hyran.\n\nHyresgästen kommer nästan alltid vara ensam i lägenheten då jag oftast är bortrest.\nInflyttning är 1/10. ev. tidigare inflytt kan diskuteras.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 48.0,
+    "rent": 6600,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Södra Vårvindsgatan, Göteborg",
     "url": "https://qasa.com/p/1457923",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fa284ddbf3e4ea9f4cce4dd69f3b4333a1f54851ac591c98ffd493f9b796f99f.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Järnmalmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1457608",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ae4363c61c13aaba26f39bf4066fdbe822d28873f72c5253d1eac4ffd6e07fed.png",
-    "description": "Välkommen till Klädesholmen, en unik och fullt möblerad husbåt i vår marina i Göteborg, perfekt för dig som söker ett bekvämt och annorlunda boende under en längre period.\n\nKlädesholmen har en smart och rymlig planlösning med två separata sovrum med dubbelsängar samt en bäddsoffa, vilket gör att boendet passar både för en person, ett par, familj eller kollegor som behöver bo tillsammans under en period. Här finns även eget kök, badrum och vardagsrum med allt som behövs för ett bekvämt vardagsliv.\n\nHusbåten är utrustad med uppvärmning och används även under höst och vinter. Eftersom det är ett boende på vattnet kan inomhusklimat och energiförbrukning skilja sig från en vanlig lägenhet under årets kallaste perioder.\n\nBoendet hyrs ut fullt möblerat och är redo för inflyttning. Vatten och grundläggande faciliteter ingår. El och eventuella övriga kostnader specificeras beroende på hyresperiod och upplägg.\n\nHär får du något som är svårt att hitta i en vanlig lägenhet – ett privat boende direkt på vattnet, med lugn marinamiljö precis utanför dörren samtidigt som du har goda möjligheter att ta dig vidare till centrala Göteborg och övriga delar av staden.\n\nKlädesholmen används främst för korttidsuthyrning under sommaren, men under höst, vinter och vår erbjuder vi gärna längre hyresperioder. Boendet passar särskilt bra för projektanställda, företag, veckopendlare, studerande eller privatpersoner som söker ett möblerat boende i Göteborg under några månader.\n\nLängre hyresperioder prioriteras och vi är öppna för att diskutera upplägg beroende på hyrestid och antal personer.\n\nHör gärna av dig med önskad hyresperiod och lite information om vem eller vilka som önskar bo här.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 39.0,
-    "rent": 20000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-07T22:07:50+00:00", "clock": "22:07:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-08T00:22:44+00:00", "clock": "00:22:44"};
