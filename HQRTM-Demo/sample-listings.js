@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hjalmar Brantingsgatan, Göteborg",
+    "url": "https://qasa.com/p/1458736",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2716a61003c5f14ee6e0d3dd8fce09ec986dc25d87481d882edc4e67bec323cc.png",
+    "description": "Välkommen till en ljus och trevlig tvåa om 50 kvm på Hjalmar Brantingsgatan i Göteborg. Lägenheten har en smart planlösning med separat sovrum, rymligt vardagsrum och ett funktionellt kök.\nHär bor du med nära tillgång till kommunikationer, service, restauranger och allt som centrala Göteborg har att erbjuda.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 13500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Folkungagatan, Göteborg",
     "url": "https://qasa.com/p/1438546",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dab9978bba9202070a5d21f2f2c683fabc27c951517e76884063bfea5205388.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kulvertkonstens väg, Hisings Backa",
-    "url": "https://qasa.com/p/1364398",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eabbaad4a1a8124b56d99e0531f86b6193560be93018a9e958fc0e2d3491dd16.jpg",
-    "description": "Nybyggd, ljus, modern och energieffektiv lägenhet som håller hög standard.\n\nHökälla Säteri är beläget högt i den sydöstra delen av Lillhagsparken på Hisingen i Göteborg, i direkt anslutning till skogen.\n\nLägenheten känns relativt stor då du kommer att ha högt i tak samt öppen planlösning (kök/vardagsrum) som öppnar upp lägenheten ytterligare. Tornet Ab som hyresvärd inkluderar även en tvättmaskin/torktumlare 2i1 lösning. Upplever att den både tvättar och torkar väldigt bra. Billig el då förbrukningen ligger på ca 1.7-1.8kr per kWh (första kvartalet 2024). Balkong med goda möjligheter för till exempel en grillkväll då den är 12 kvadratmeter stor.\n\nBåde varmvatten och elkostnad mäts och ingår tyvär inte i hyran.\n\nNära till livsmedelsbutiken, frisören och pizzerian. I anslutning till bostaden (2min ca) finns även busshållplats där du kan välja att ta dig till centrum på 20minuter.\n\nHar inte spenderat mycket tid i lägenheten sedan jag flyttade in i slutet av 2022 då boendet var ny byggt, också därav en av anledningarna till uthyrningen. Obs första handskontrakt och därmed inte jag som skall kontaktas i första hand utan då Boplats/ Tornet AB",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 7878,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-08T20:14:52+00:00", "clock": "20:14:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-08T22:44:05+00:00", "clock": "22:44:05"};
