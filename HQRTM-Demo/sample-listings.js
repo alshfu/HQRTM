@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Folkungagatan, Göteborg",
+    "url": "https://qasa.com/p/1438546",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4dab9978bba9202070a5d21f2f2c683fabc27c951517e76884063bfea5205388.jpg",
+    "description": "En hyresrätt som känns som en bostadsrätt\nGammalt möter nytt\nNyrenoverat kök och badrum, nymålat i hela lägenheten\nFiskbensparkett\nStuckatur\nGenomgående\nHögt i tak\nSmal balkong ut mot Folkungagatan\n\n1 kök med diskmaskin\nBadrum med tvättmaskin\nSovrum 1 fönster mot innergården\nSovrum 2 mindre och fönster mot gatan\nStort vargdagsrum\nMellanrum mellan vardagsrum och sovrum\nInbyggda garderober\n\nMysig innergård \nLiten lekplats för de minsta\n\nGöteborg centralstation: 8min gångväg \nUllevi Norra: 1 min gångväg\nHeden: 15 min \n\nOBS! hyresgästen ska bli godkänd av vår hyresvärd Skandia Fastigheter.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Klippan, Göteborg",
+    "url": "https://qasa.com/p/1458620",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/47bbde76382e22b8fb87a1ed34761e8c9e81457eb490e37492736c46d2768aaf.jpg",
+    "description": "En trevlig 1:a i Klippan/Majorna i lugnt område med närhet till både centrum, havet och natur uthyres. Perfekt boende för studenter. OBS! Uthyrningen gäller under förutsättning att hyresgästen godkänns av bostadsrättsföreningen.\n\nLägenheten har en smart planlösning där kök och vardagsrumsdel avgränsas av en rumsavdelare vilket ger känslan av mer separata ytor. Framför matplatsen finns ett golv-till-tak-fönster som ger fint ljusinsläpp och trevlig utsikt.\n\nI hyran ingår värme, vatten, bredband, elnät samt elförbrukning.\n\nKöket är fullt utrustat och har relativt nya vitvaror. Lägenheten hyrs ut möblerad och köksutrustning såsom porslin, bestick, glas, kastruller och andra köksredskap finns tillgängligt för hyresgästen.\n\nÖvriga möbler som ingår är: säng (160x200), 2-sits bäddsoffa, fåtölj, matbord och 3 tillhörande stolar, TV och TV-bord, rymlig garderob, hatthylla och skohylla samt byrå med förvaringsutrymme.\n\nLägenheten har goda kommunikationer till centrala Göteborg. Närmaste spårvagnshållplats, Vagnhallen Majorna, ligger ungefär 7 min promenad bort. Därifrån tar det ca 15 min till Järntorget, ca 10 min till Marklandsgatan och ca 25 min till Centralstationen. Enbart 5 min bort ligger även Färjeläget Klippan med kommunikation till Stenpiren, Lindholmspiren och övriga Eriksberg. I närområdet finns även många hemtrevliga caféer, restauranger och barer. Närmsta mataffärer är närbutikerna Hemköp Majorna eller Coop Mariagatan men större butiker finns bara några hållplatser bort.\n\nJag hyr ut lägenheten under en period på grund av studier.\n\nBilderna är tagna från visning 2025.  Vissa möbler är utbytta.\n\nHör gärna av er om ni vill komma hit och kolla på lägenheten!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fjärde Kvillängsvägen, Hisings Backa",
     "url": "https://qasa.com/p/1456520",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8227cfa98b98dc700eac152c0be7a274b177956fc40b293ed2d171536587ba6.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Zirkongatan 25C, Västra Frölunda",
-    "url": "https://qasa.com/p/1458471",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e296afe27d92091ad3a01526e4e27f6dd5ec34a7289545590509ec89fb35df7c.jpg",
-    "description": "Välkommen till denna charmiga 2:a belägen i bostadsområdet Opaltorget!\nLägenheten hälsar dig välkommen med ett underbart ljusinsläpp och en öppen planlösning mellan kök och vardagsrum. Köksinredningen är av hög standard med vita luckor och eleganta handtag på lådorna, samt en tålig bänksskiva. Den är komplett med vita vitvaror och en helintegrerad diskmaskin för att underlätta din vardag. Badrummet är smakfullt utformat med kakel och infällda spotlights i taket, en kommod med lådor och spegelskåp, duschdörrar i glas, en handdukstork och tvättmaskin samt torktumlare. Förvaringsmöjligheterna är generösa med garderober i både hall och sovrum, samt en praktisk klädkammare/förråd intill hallen. Vita väggar och vackert laminatgolv pryder hela lägenheten och skapar en ljus och trivsam atmosfär.\n\nDetta är ett lugnt och barnvänligt bostadsområde med en radhuskänsla. I närområdet finns lekplatser, naturområden, havet och cykelstråk, vilket gör det till en perfekt plats för barnfamiljer. En kort cykeltur bort tar dig till Göteborgs centrum med mysiga caféer, restauranger och shoppingmöjligheter. Förskola och skola finns också i närheten.\n\nParkering finns att hyra separat. Interiörbilder från en annan lägenhet med samma fina standard.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 57.0,
-    "rent": 12674,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsbacken 30, Göteborg",
-    "url": "https://qasa.com/p/1458453",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/56df1ab03cf41df8153c6c90608a765f91868b5d278ed0dd643021380dacc74c.png",
-    "description": "Modern 1:a på 31 kvm – allt inkluderat!\n\nVälkommen till denna ljusa och välplanerade etta på 31 kvm, belägen på våning 3. Lägenheten erbjuder en öppen planlösning och smart utnyttjad yta – perfekt för dig som vill ha ett modernt, funktionellt och lättskött hem.\n\nBostaden har bland annat:\n• Öppen planlösning som maximerar känslan av rymd\n• Ljust kök från Marbodal med kakel och diskmaskin\n• Ljust golv som ger ett fräscht och luftigt intryck\n• Helkaklat badrum med golvvärme och kombimaskin för tvätt och tork\n\nHär bor du bekvämt med allt nära till hands – och hyran inkluderar el, värme, vatten och bredband, vilket gör vardagen enkel och kostnaderna förutsägbara.\n\nLägenheten hyrs ut i andra hand via Peab Bostad med avstående från besittningsskydd, hyrs ut omöblerad och ska nyttjas som permanentbostad.\n\nTips: Kika gärna på 3D-scanningen för att se hur lägenheten ser ut i detalj. Observera att planlösningen är densamma, men vissa små skillnader kan förekomma.\nFörst till kvarn gäller – missa inte denna möjlighet!\n\nKontakta oss på atthyra@fastiella.se för mer information eller för att boka en visning och upplev ditt nya hem på plats.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 31.0,
-    "rent": 8800,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-08T17:35:19+00:00", "clock": "17:35:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-08T20:14:52+00:00", "clock": "20:14:52"};
