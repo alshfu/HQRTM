@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Guldkällegatan, Göteborg",
+    "url": "https://qasa.com/p/1459371",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2159934c9b919d9edae7a99d8ba5121c7a5c413dc0736ec9148a484c794ff98e.jpg",
+    "description": "Hyr ut ny fin 1a i fina Fixfabriksområdet i Kungsladugård. \nÖppet kök/ rum samt fint badrum. Balkong i västerläge. \nTrevligt kvarter nära till Mariagatan och Klippan och kommunikationer. \nEl och vatten tillkommer. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skogshyddegatan, Göteborg",
     "url": "https://qasa.com/p/1459199",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/32dfd3d54f966d2ba1a9827799893a6254952cea1ac0107bf2b1d7e8d5c5d969.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lantmätaregatan 12 F, Göteborg",
-    "url": "https://qasa.com/p/1458809",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b244dd5559a0e03101e026c8e08e720683d0196420e022bced7f621bd24f0320.jpg",
-    "description": "Kvillebäcken ger dig en modern och nyproducerad trea från 2023, perfekt för dig som uppskattar bekvämlighet och egen yta. Här får du både tvättmaskin och diskmaskin som underlättar vardagen.\n\nPå markplan har du en egen entré och en uteplats där du kan njuta av en stund utomhus. Planerad inflyttning är 1 december 2026.\n\n\n\n\nHär får du det bästa av två världar – ett levande stadsområde med restauranger, shopping och mötesplatser, samtidigt som gröna ytor och Ramberget finns nära. Kville Saluhall och Backaplan erbjuder ett brett utbud för vardagens alla behov.\n\nSpårvagnslinjerna 5, 6 och 10 tar dig smidigt till centrala Göteborg, och flera busslinjer ger ytterligare möjligheter. Med cykel eller bil når du innerstaden på cirka 10–15 minuter.\n\n\nLåter det intressant? Anmäl ditt intresse redan idag!\n\nAlla intresseanmälningar görs via HomeQ. Vi tar tyvärr inte emot ansökningar via telefon, mejl eller personliga besök.\n\nUrvalet sker utifrån de vägledande köpoängen i HomeQ och processen påverkas därför inte genom att kontakta oss direkt. \nTack för din förståelse och lycka till med din ansökan!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 96.0,
-    "rent": 16042,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T14:12:25+00:00", "clock": "14:12:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T17:50:55+00:00", "clock": "17:50:55"};
