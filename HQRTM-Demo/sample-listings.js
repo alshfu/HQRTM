@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760675",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
+    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 3900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kabelgatan, Göteborg",
+    "url": "https://qasa.com/p/1458772",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e37d1a942a405f0b80ba9fd9a0575720c4c046541617916713e7479d3dab739f.jpg",
+    "description": "Möblerat rum i nyrenoverad lägenhet i Majorna\n\nEtt fullt möblerat rum uthyres från 1 november i en fräsch och nyrenoverad lägenhet om ca 55 m² i Majorna.\n\nRummet är möblerat med säng och har bra förvaring med en stor garderob. Som boende har du även tillgång till gemensamt vardagsrum, fullt utrustat kök, badrum, hall och balkong.\n\nLägenheten är komplett möblerad med bland annat soffa, matbord, arbetsplats och köksutrustning. El, vatten och internet ingår i hyran.\nLägenheten har en trivsam och välplanerad planlösning med goda kommunikationer och närhet till service och centrala Göteborg.\n\nJag söker en skötsam, ansvarsfull och respektfull person. God kommunikation och att man tar hand om bostaden är viktigt. Berätta gärna lite om dig själv, vad du gör till vardags och hur länge du är intresserad av att bo.\n\nInflyttning: 1 november\nUthyrning: Tillsvidare",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hjalmar Brantingsgatan, Göteborg",
     "url": "https://qasa.com/p/1458736",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2716a61003c5f14ee6e0d3dd8fce09ec986dc25d87481d882edc4e67bec323cc.png",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skogsviksvägen, Torslanda",
-    "url": "https://qasa.com/p/1458557",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dee03a5271f3eb212b9105322ab7e823e2dbb524dc8de52b6b51a443dc834f09.jpg",
-    "description": "Ett nybyggt attefallshus på två våningar. Ett lugnt och lantligt område med närhet till skog och hav. \n\nDe två sovrummen ligger på bottenvåningen tillsammans med toalet med dush och tvättmaskin/torktumlare. Dubbla garderober i båda sovrummen och i hallen.\n\nLjust och luftigt vardagsrum och kök på övervåningen. Fönster i alla väderstreck. En 55\" tv och bäddsoffa i vardagsrumsdelen. Det finns även en liten toalett även på övervåningen.\n\nUteplats med bord,stolar och grill.\n\nUppvärmning, el och internet ingår i hyran.",
-    "district": "Torslanda",
-    "rooms": 3.0,
-    "area_m2": 50.0,
-    "rent": 12500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stampgatan, Göteborg",
-    "url": "https://qasa.com/p/1458537",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dded167d9d14c16ce4961b967a4b9e71c2e8e878aa95b893e888e29d37629348.jpg",
-    "description": "Möblerad 21 kvm lägenhet – centralt i Göteborg\n\nVälkommen till en liten men välplanerad och komplett lägenhet på 21 kvm, med ett fantastiskt centralt läge i Göteborg. Här bor du med Centralstationen precis i närheten, precis vid Ullevi och cirka 5/10 minuters promenad till Avenyn, Göteborgs huvudgata.\n\nLägenheten är möblerad och har allt du behöver för ett bekvämt boende – bland annat säng, TV, byrå, skrivbord, kök, hall, separat badrum och gott om förvaring trots den kompakta storleken. Det finns även balkong, vilket ger ett extra utrymme att njuta av.\n\nI lägenheten finns egen tvättmaskin, och som boende har du dessutom tillgång till föreningens tvättstuga. Det finns även gemensam bastu i föreningen.\n\nDet här är ett boende för dig som framför allt värdesätter ett riktigt centralt läge. Du har nära till restauranger, shopping, nöjen, kollektivtrafik, Centralstationen, Ullevi och Avenyn – med det mesta inom bekvämt gångavstånd.\n\nI hyran ingår:\n\n* El\n* Bredband\n* TV\n* Varmvatten\n* Möbler\n* Tillgång till tvättstuga\n* Tillgång till föreningens gemensamma bastu\n\nJag söker en ordentlig och ansvarsfull hyresgäst som tar väl hand om lägenheten och bostadsrätten som om den vore sin egen. Lägenheten passar dig som prioriterar att bo så centralt som möjligt i Göteborg och vill ha ett smidigt, komplett och bekvämt boende med närhet till precis allt.\n\n21 välplanerade kvadratmeter – men ett läge som är svårt att slå.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 21.0,
-    "rent": 10895,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stora Älsjövägen, Olofstorp",
-    "url": "https://qasa.com/p/1458431",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b6d11edc66abcca02dcf1a34d9bea3b1613733ee8fc43a8ea0c90481de3e7027.jpg",
-    "description": "Välskött villa med privat läge, jacuzzi och stor trädgård\n\nVälkommen till denna välskötta villa om 119 kvm i Olofstorp. Här erbjuds ett trivsamt boende med en stor och härlig trädgård, generös altan och ett privat läge utan direkt insyn från grannarna.\n\nBostaden är i mycket gott skick och erbjuder en hemtrevlig och modern känsla. Den stora trädgården ger gott om plats för lek, umgänge och avkoppling. På altanen finns även en jacuzzi som förgyller både sommarkvällar och årets kallare dagar.\n\nPå tomten finns dessutom en separat gäststuga med värme, med plats för ytterligare en person att sova. Perfekt för gäster, familj eller som ett extra utrymme när behovet finns.\n\nHär bor du lugnt och privat samtidigt som du har gångavstånd till både sjö och lekplats. Ett uppskattat läge för den som vill ha närhet till natur och möjlighet till ett aktivt uteliv.\n\nEn villa med mycket att uppskatta, från den stora trädgården och den härliga altanen till det insynsskyddade läget, gästhuset och närheten till sjö och lekplats.",
-    "district": "Olofstorp",
-    "rooms": 4.0,
-    "area_m2": 119.0,
-    "rent": 17500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-08T22:44:05+00:00", "clock": "22:44:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T00:41:26+00:00", "clock": "00:41:26"};
