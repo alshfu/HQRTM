@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skäpplandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1450257",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1d8752e1846b0409a5f248e31558b5dc27a613b505b9f44cf0756724409fd341.jpg",
+    "description": "Söker en inneboende/någon att dela  min fina centrala trea med. Som boende här har du utöver ditt eget rum självklart tillgång till bostadens vardagsrum, hall, kök, & badrum. Och viss egen tillgång till bostaden.\nHär får du inte bara bo i en bostad utan i ett hem. Gärna en längre tid.  \nFantastiskt läge! Med vagn typ tre -tio min resa, till mysiga Majorna, en fika i Linne, handling på Frölunda torg eller studier på Chalmers eller GU. Kort bussresa till hav eller insjö, parker och naturområden finns på gångavstånd! \nGrymt läge med 2 min till hållplats, 1.5 -2 min till mataffär, gym, frisör och pizzeria. Härifrån går bussar och vagnar till hela stan. Bekväma cykelavstånd, bra cykelvägar & lånecyklar finns.  Knappt 10 min promenad till bibliotek, apotek & annan samhällsservice. Uteplats utanför huset.\n\nRummet är möblerat typ enligt vad som finns på bilderna, men förändringar i möblemanget har skett, mer förvaringsutrymme har tillkommit. Sängen är en 140 cm säng. Skrivbord finnes i vardagsrummet, som vi som bor här tillsammans delar på, men som kan användas när det är ledigt, självklart kan du använda köksbordet för studier när så möjligt.  \nBra tvättstuga med lätt att få tider. Vid besök kan finnas möjlighet att hyra in sig i fastighetens gästrum.\nOm hyra etc: I hyran ingår snabbt internet, el, värme, vatten, vissa förbrukningsvaror. Du betalar en månads deposition.\n\nVår supermysiga katt är där en del, katten är en av de raser som räknas som låg-allergena eller allergivänliga.\n\nLite om dig: \nJag söker dig som respekterar och är varsam med mitt hem och det som är här. Dig som söker den privata sfären och lugnet. Som uppskattar samvaron och det sociala! Du håller god ordning, rent och fräscht runt dig, är trygg med dig själv och stabil, har stadig inkomst/studiemedel, röker inte och har inga djur, använder inte droger. Inga fester i bostaden.  Du är öppen och bra på att kommunicera, och vill samarbeta, ömsesidig tillit och respekt är viktigt. Är du vegetarian, veckopendlare eller utbytesstudent är det en fördel.\n\nBilder också på uteplats med blomsterprakt, och närliggande odlingsområde med möjlighet till fikastund.\n\nJag ser fram emot ditt personliga meddelande - att du berättar om dig, om vem du är! För att få en bättre bild vill jag veta lite om hur du fungerar med andra, varför du är intresserad av att bo just här, vad du sysselsätter dig med, intressen, hur du bor idag & bott tidigare etc. Prefabricerade meddelanden, såna utan innehåll,  med bara en mening eller nån fråga eller AI-genererade texter bortses ifrån. Meddelanden från sökandes föräldrar bortses ifrån. \n\nObs! Jag kollar betalningsanmärkning, belastningsregister, studieintyg/jobbintyg samt boendereferens innan inflytt. Kan vara dig behjälplig med detta. Även legitimation kollas så du är den kontraktet skrivs med. Du som boende behöver ha en egen hemförsäkring, vilket även är ett krav från Qasa. En sån kostar inte mycket, vanligen max omkring 50-70 kr/månad. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Västra Arödsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1457709",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b71a3ed585e093e76d22019e96f8a89b2ebc9e331419fbdea02744b9ff4533bf.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Berzeliigatan, Göteborg",
-    "url": "https://qasa.com/p/1459003",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a381fd990dcca18046ea7ac5c9bb69b2750a0d01e4dca906d1fb2b0483f6743e.jpg",
-    "description": "2 rums lägenhet med kök centralt i Göteborg.\nNära Götaplatsen och Scandinavium med mängder av restauranger nära.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T20:09:22+00:00", "clock": "20:09:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T22:33:06+00:00", "clock": "22:33:06"};
