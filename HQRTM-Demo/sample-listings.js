@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skogshyddegatan, Göteborg",
+    "url": "https://qasa.com/p/1459199",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/32dfd3d54f966d2ba1a9827799893a6254952cea1ac0107bf2b1d7e8d5c5d969.jpg",
+    "description": "Ljus och exklusiv 5:a med härlig altan i lugna Örgryte, tillträde 10 okt\n\nVill du bo stort och bekvämt i ett av Göteborgs mest omtyckta bostadsområden? Nu finns chansen att hyra hela entréplanet i en vacker villa på en lugn gata intill Överåsvallen.\n\nLägenheten omfattar 5 rum och kök om 130 kvm, plus ett rymligt allrum på cirka 45 kvm i källaren. Totalt blir det hela 175 kvm att röra sig på.\n\nPlanlösningen är öppen och smakfull med ett modernt kök. Här finns fyra sovrum, badrum samt en extra toalett.\n\nEn härlig altan i soligt söderläge nås både från köket och från ett av sovrummen. Altanen vetter mot en lummig trädgård, en fin plats för morgonkaffet eller en avkopplande stund utomhus.\n\nI källaren finns förutom allrummet även tvättstuga och flera förråd, så det finns gott om plats för både vardag och prylar.\n\nPraktisk info\nHyra: 25 750 kr/mån, el och vatten ingår\nTillträde: tidigast 10 oktober\nParkering: egen infart samt gatuparkering\nOmöblerat\nHusdjur och rökning: ej tillåtet\n\nViktigt att veta: huset ligger för närvarande till försäljning, så vi vill vara tydliga med att uthyrningen kan komma att bli ett kortare boende beroende på hur försäljningen går. Våningen behöver också kunna stå till förfogande för visningar under försäljningsprocessen. Hör gärna av dig om du har frågor kring detta, vi berättar gärna mer.\n\nVarmt välkommen med din intresseanmälan!",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 175.0,
+    "rent": 24100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Värmegatan 2, Göteborg",
+    "url": "https://qasa.com/p/1459285",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4a3332fa1316556fbefe54fcb3169da8a56d4b69bc3704e41daef4fde38275ed.jpg",
+    "description": "Lägenheten hyrs ut genom planritning och bilderna som är publicerade i annonsen, ingen fysisk visning.\n\nOM LÄGENHETEN\nVälkommen till denna 4 rum och kök med balkong i Biskopsgården! Lägenheten totalrenoverades år 2016, och har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Genomgående ekparkett med klinkers i hall och helkaklat badrum med förberedelse för tvättmaskin och torktumlare. Du når balkongen genom badrummet. \n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 77.0,
+    "rent": 10717,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Höstvädersgatan 63, Göteborg",
+    "url": "https://qasa.com/p/1459280",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d0acf8438812618e687c710d4068ca6c7639f042ee907aa9e8299374b4b1c1bc.jpg",
+    "description": "OM LÄGENHETEN\nVälkommen till denna 4:a med balkong i Biskopsgården! I lägenheten finns det två badrum, varav en är förberedd för tvättmaskin. Modernt kök med diskmaskin och gasspis. Totalrenoverad år 2022.\n\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. \n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 79.0,
+    "rent": 10889,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1459037",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c232eed2b9588212fda34226f20935719196630cf5ac09d7380ddc8d714ed250.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b7360953b8066a132fbda58050371f789df7dca501e850bfa29b349f8d10e353.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kabelgatan, Göteborg",
-    "url": "https://qasa.com/p/1458772",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e37d1a942a405f0b80ba9fd9a0575720c4c046541617916713e7479d3dab739f.jpg",
-    "description": "Möblerat rum i nyrenoverad lägenhet i Majorna\n\nEtt fullt möblerat rum uthyres från 1 november i en fräsch och nyrenoverad lägenhet om ca 55 m² i Majorna.\n\nRummet är möblerat med säng och har bra förvaring med en stor garderob. Som boende har du även tillgång till gemensamt vardagsrum, fullt utrustat kök, badrum, hall och balkong.\n\nLägenheten är komplett möblerad med bland annat soffa, matbord, arbetsplats och köksutrustning. El, vatten och internet ingår i hyran.\nLägenheten har en trivsam och välplanerad planlösning med goda kommunikationer och närhet till service och centrala Göteborg.\n\nJag söker en skötsam, ansvarsfull och respektfull person. God kommunikation och att man tar hand om bostaden är viktigt. Berätta gärna lite om dig själv, vad du gör till vardags och hur länge du är intresserad av att bo.\n\nInflyttning: 1 november\nUthyrning: Tillsvidare",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T09:54:21+00:00", "clock": "09:54:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T14:12:25+00:00", "clock": "14:12:25"};
