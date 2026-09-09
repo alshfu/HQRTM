@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Västra Arödsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1457709",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b71a3ed585e093e76d22019e96f8a89b2ebc9e331419fbdea02744b9ff4533bf.jpg",
+    "description": "Det är en mysig 3 rums lägenhet på 67 m2 boyta samt 12 m2 biyta med naturen in på husknuten i två plan. Ligger i Aröd i Hisings Backa ett lugnt villaområde. Har alla bekvämligheter. Köket har Kombinerat kyl och frys, diskmaskin, granitskiva med integrerad häll micro och ugn i högskåp. \n\nEntré in i en hall på bottenplan med en ektrappa upp till övervåning. Ett kontor/sovrum innanför hallen. På övervåningen är badrummet direkt till vänster med tvättmaskin samt torktumlare. Mitt emot är sovrum. Därefter in till vänster kommer köket som är integrerat i en öppen planlösning med vardagsrummet. Längst ut mot takfoten är det skjutdörrar längs med sidorna att nyttja till förvaring.\n\nGolvvärme i alla rum\n\nLägenheten har egen uteplats och man får nyttja trädgården.\n\nHushållsel och internet ingår i hyran\n\nHas a cozy 3-room apartment with 67 m2 of living space and 12 m2 of living space with nature on the side of the house on two levels. Located in Aröd in Hisings Backa, a quiet residential area. Has all the comforts and is very lavish. The kitchen has a combined fridge and freezer, dishwasher, granite worktop with integrated hob, microwave and oven in tall cupboards.\n\nEntrance into a hall on the ground floor with an oak staircase to the upper floor. An office/bedroom inside the hall. Upstairs, the bathroom is directly to the left with a washing machine and tumble dryer. Opposite is the bedroom. Then to the left comes the kitchen, which is integrated into an open plan with the living room. Along the eaves, there are sliding doors along the sides that can be used for storage.\n\nUnderfloor heating in all rooms\n\nThe apartment has its own patio and you can use the garden.\n\nHousehold electricity and internet are included in the rent",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 14200,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Guldkällegatan, Göteborg",
     "url": "https://qasa.com/p/1459371",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2159934c9b919d9edae7a99d8ba5121c7a5c413dc0736ec9148a484c794ff98e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kristinehöjdsgatan 4, Göteborg",
-    "url": "https://qasa.com/p/1458828",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/260cde12dd3ff132cd4d4d054b2dbbf69e517ac8c7d217b5d9bdd6e814f0821d.jpg",
-    "description": "1 januari år 2027 får vi denna 2 ROK ledig på Kristinehöjdsgatan 4 i centrala Göteborg.\nLägenheten är belägen på våning 3 och är disponerad på 58 kvm.\n\nVi erbjuder dig gärna fysisk visning.\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 10261,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T17:50:55+00:00", "clock": "17:50:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-09T20:09:22+00:00", "clock": "20:09:22"};
