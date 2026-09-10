@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Billdals storegårdsväg , billdal",
+    "url": "https://qasa.com/p/1459801",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6da9ac7c6aa08ad9408b55bd52d6f64ad16d75c21b9db17497c1dc9b16e00f72.jpg",
+    "description": "En nyrenoverad lägenhet , del av ett hus.  Ett stort rum med kök och vardagsrum i ett. En stor klädkammare. Egen härlig uteplats.\nNära till både hav och skog. Billdals park med ett mysigt kafé och fina promenad vägar.\nCa 1 km till bussen.\nParkeringsplats finns.\nFester är inte tillåtet. ",
+    "district": "billdal",
+    "rooms": 2.0,
+    "area_m2": 70.0,
+    "rent": 11640,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Pianogatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1460220",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10793994329934bbaea4734f5ad693a2399795445401d098fb185e3846d63ceb.jpg",
+    "description": "Hyr ut ett sovrum möblerad med en säng, garderob, nattduksbord och litet skrivbord.\n\nLigger nära Frölunda torg och kollektivtrafik.\n\nGemensamt kök och badrum. Tillgång till tvättstuga.\n\nEndast svensktalande eller spansktalande person sökes.\n\nInte tillåtet med droger, rökning eller djur.\n\nDeposition 2000 kr.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Flundregatan, Västra Frölunda",
     "url": "https://qasa.com/p/1460120",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d90b2e505c044d6f19eb2d1764e9748014dc1bc3f9b541577cad05c61516603.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Marklandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1460045",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/00c412fb6a2cb2abaad26de248b8cb884f641b270580c0560f9751a93191dc6d.jpg",
-    "description": "Hej!\nJag kommer hyra ut min tvåa belägen i Högsbo🌷\nHyresperioden sträcker sig från 1 december 2026 t.o.m - 1 december 2027. Lägenheten hyrs ut möblerad alternativt delvis möblerad🛋️ \nLägenheten är en 2:a på 54 kvadrat med inglasad balkong, sovrum och ett badrum. Köket är utrustad med kyl/frys, spis, fläkt och diskmaskin. Intill ryms även en matplats för 4 personer. Balkongen ligger i västerläge, så du har sol från tidig förmiddag till sen eftermiddag. Stor yta i alla rum, och gott om förvaring finns i flera garderober. I föreningen delar man även på en idyllisk innegård med sittplatser och grill platser på våren/sommaren.  Från bostaden har man även nära till all tänkbar service. Finns även tillgång till bastu som man kan hyra. På några minuters promenad når man Slottskogen, och på ca 10-15 minuter med spårvagn når man Göteborgs centralstation, Frölunda torg.\n\nVem jag söker som hyresgäst: \nJag är väldigt noga med att hitta rätt hyresgäst. Jag söker därför en lugn, ordningsam och pålitlig hyresgäst utan betalningsanmärkningar samt med fast inkomst. Hyresgästen skall även vara rökfri. Tar gärna emot rekommendation från tidigare hyresvärd. Söker en hyresgäst som vill bo i lägenheten under hela hyresperioden då jag kommer att studera. Ser därför att det som hyr, hyr hela avtalsperioden. Finns tillgång till tvättstuga/torktumlare i samma hus. Finns även tillgång till natt tvättstuga. Skicka gärna ett PM till mig om du är intresserad och vill veta mer. \nFöreningen kommer behöva godkänna dig som hyresgäst innan kontrakt skrivs.   \nParkering ingår i hyran, samt varm/kallvatten, internet.\nMed vänlig hälsning\nNathalie Ryding\n\nHyra 12.500",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Annikas gata, Västra Frölunda",
-    "url": "https://qasa.com/p/1455279",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6485708eb29cff2941b2de71a14a2b563384cf1ab8eda1f9014566d740aa2f6d.jpg",
-    "description": "Lägenheten är belägen i natursköna Näset i Göteborg. Den ligger i markplan i en suterrängvilla. Den består av ett rum med ett platsbyggt litet kök med skåp, diskho, två kokplattor, mikro, köksfläkt, kyl med frysfack. Villan har två våningar och toalett och badrum (i anslutning till en bastu och ångbad, som kan användas av mig ibland enligt överenskommelse) är \"eget\" men på en delad yta på nedre våningen. På övre terrass finns även en pool som får användas enligt överenskommelse. Internet ingår.. En tvättstuga finns i anslutning till lägenheten på nedre plan. Öppen spis finns. \nEl ingår så länge det är rimligt (inte basta varje dag till exempel...)\nHelst en person, med fördel kvinnlig studerande.\nBilderna visar inte dagens möblering, där vitrinskåpet finns på bild finns idag en garderob.\nDet finns även ett matbord med fyra platser.\nJag hyr ut därför att jag inte behöver 275 kvm själv, när jag dessutom ofta inte är hemma.\nDet tar cirka tio+ minuter att gå till busstation.\nRökning helt OK utanför lägenheten (förra hyresgästen rökte). FInns även två stolar och ett litet bord direkt utanför.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 7000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-10T17:26:21+00:00", "clock": "17:26:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-10T19:58:06+00:00", "clock": "19:58:06"};
