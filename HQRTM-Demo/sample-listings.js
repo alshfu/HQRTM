@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1355396",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1094b2a36ec1eb980eeba84ccabf06a397bf429a1a5d1db79669c27f63a1f26b.jpg",
+    "description": "Lägenhet i Karlatornet uthyres.\nLägenheten befinner sig i våning 64.\nBalkong finns.\nI hyran ingår fri tillgång till hotellets (Clarion) spa och gym.\nFri tillgång till fitnessrum och yogarum i vån. 38.\nLägenheten uthyres möblerad.\nTillgänglig för uthyrning från 1/6.\nHör av dig vid intresse.\n\nVänliga hälsningar",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smörgatan, Göteborg",
     "url": "https://qasa.com/p/1460725",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3b42f08e01856e1da5da5926fa58fb812ad2e723ba556d6b38901ae98522596e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hålskogsgatan, Angered",
-    "url": "https://qasa.com/p/1430818",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b695a00f7e1f1b9e807d56e94a4a8246ca96fb512414c29b6d34c8df25dc1937.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 14950 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/6ptxgrlbghwd51q3et9l/vastra-gotaland/angered/halskogsgatan-27a/4-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nHej, \r\nVi hyr ut vårt fina hus som är både barnvänligt och handikappanpassad med stort uteplats, glasrum, stor altan och stort tomt. Carport finns, och plats för minst tre bilar. Ca 200 m  till Storås hållplats och 5 minuter till Angered centrum. \r\nFullt möblerat. \r\nInflytt-och utflyttningsdatum kan diskuteras.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 14950 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Angered",
-    "rooms": 4.0,
-    "area_m2": 140.0,
-    "rent": 14246,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-11T13:43:39+00:00", "clock": "13:43:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-11T17:18:32+00:00", "clock": "17:18:32"};
