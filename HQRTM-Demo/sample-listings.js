@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Gubberogatan 24, Göteborg",
+    "url": "https://qasa.com/p/1460334",
+    "image_url": null,
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna charmiga lägenhet på ett ! Modernt kök med ljusa vitvaror. Genomgående trägolv i lägenheten. Helkaklat badrum.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!\n \n\nDM ingårgår ej installera tm, \n\nTvå balkonger med balkongdörrar från båda sovrummen, walk in closet, fiskbensparkett.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 92.0,
+    "rent": 13698,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Billdals storegårdsväg , billdal",
     "url": "https://qasa.com/p/1459801",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6da9ac7c6aa08ad9408b55bd52d6f64ad16d75c21b9db17497c1dc9b16e00f72.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1460026",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f4cb04c2a76d455ba3068fda92081b61c0dd999a52ec87568793aa78599271d1.jpg",
-    "description": "Lägenhet uthyres i tre månader 2026 – oktober, november och december\nJag hyr ut min nymålade, fräscha och omöblerade lägenhet under oktober, november och december.\nUthyrningen gäller endast dessa tre månader, eftersom jag själv flyttar och mitt hyreskontrakt hos hyresvärden upphör efter denna period. Därefter kommer en annan person att bo i lägenheten enligt hyresvärdens regler.\nLägenheten passar bra för familj med barn, par eller singel. Den ligger på våning 3 och har en inglasad balkong.\nI lägenheten finns:\n•\tNymålade och fräscha ytor\n•\tTvättmaskin och torktumlare i badrummet\n•\t2 kylskåp och 2 frysar i köket\n•\tDiskmaskin\n•\tInbyggd mikro\n•\tInglasad balkong\n•\tVarmt och kallt vatten ingår i hyran\nBra kommunikationer: Busshållplatsen ligger endast 1 minut från huset. Med buss tar det cirka 2 minuter till Eketrägatan, och därifrån tar det cirka 15 minuter med kollektivtrafik till centrum, Brunnsparken.\nParkering och garage finns och kan hyras mot extra kostnad för den som önskar.\nHyra: 12 413 kr/månad.\nEl och internet ingår inte. Varmt och kallt vatten ingår.\nHyran är inte förhandlingsbar.\nVid seriöst intresse, skicka gärna ett meddelande och berätta lite om dig/er.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 12413,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-10T22:26:05+00:00", "clock": "22:26:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-11T00:23:17+00:00", "clock": "00:23:17"};
