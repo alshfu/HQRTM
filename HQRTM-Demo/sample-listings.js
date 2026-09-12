@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Carl Gunérs väg, Askim",
+    "url": "https://qasa.com/p/1461225",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/68e698d0c3d9b4d08bd5840be5b03a355b9b5e877efbf23caa3e7027124833bd.jpg",
+    "description": "Vårt fräscha attefallshus på 26 kvm + 8 kvm loft finner ni i Askim endast 10 minuter från Göteborgs centrum på en lugn återvändsgata i närhet till både stan, skogen, klippor & bad. Ta expressbussen enkelt in till stadskärnan på några minuter eller varför inte cykeln på smidig cykelled.\nHusets nybyggda altan badar i ljus från tidig morgon till solnedgång. Bara ett stenkast bort finner ni även Askims ridhus, friluftsområden, sportanläggningar såsom padel- och tennisbanor samt shoppingcenter. \nFri parkering för bil på gatan direkt utanför huset eller förvaring av cykel i vårt garage.\n\nBusshållplatsen finns på fyra minuters promenadavstånd. Där tar expressbussen dig in till Linneplatsen på tio minuter. \n\nWifi/internet\nSmartlås\nTv & alla kanaler ingår \nTvättmaskin \nDiskmaskin\nAircondition\nGolvvärme \nWc/dusch \nKök med all utrustning \nAltan/uteplats \nMöblerat \n\nHyran är 11 000kr per månad och då ingår allt ovan samt el, vatten och sophantering.\n\nHuset är anpassat för max två personer och ni måste vara rök- och djurfria samt inte ha några betalningsanmärkningar. \n\nEn månadshyra betalas direkt som deposition och sen förskottsbetalning månadsvis.\n\nTillträde enl överenskommelse.\n",
+    "district": "Askim",
+    "rooms": 1.5,
+    "area_m2": 26.0,
+    "rent": 10405,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ströms väg, Olofstorp",
     "url": "https://qasa.com/p/1306354",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fe2849f9a61e1ae023aef1377f71b50b913da74d3e168e273e15fb5ff4395cc3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760675",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
-    "description": "Centralt trevligt rum till rök- och spritfri kvinna 18m2. Jag kan dessvärre inte hyra ut til studenter utan endast till kvinnor med arbetet.  Nära till Avenyn i lugnt och tryggt villaområde. Fullt möblerat, wifi. Tillgång till både badrum och kök, gratis parkering. LÅG HYRA: 3900 kr per månad inklusive allt. OBS! Endast 3200 kronor om du är veckopendlare! \nGoda referenser krävs. Om du mailar, glöm inte lämna att lämna tel.nr.Jag är lättast att nå per telefon.  Deposition.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 18.0,
-    "rent": 3900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-12T15:46:53+00:00", "clock": "15:46:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-12T17:52:55+00:00", "clock": "17:52:55"};
