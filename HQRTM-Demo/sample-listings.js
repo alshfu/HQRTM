@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bratteråsgatan, Göteborg",
+    "url": "https://qasa.com/p/1460996",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46b8efaef1ef165908ff1327e35ee04203444b373e851a31f5339234073a6619.jpg",
+    "description": "En stor och supermysig tvårummare om 61kvm i centrala Eriksberg. Full utrustad maskinpark i både kök och badrum och en lägenhet att verkligen bara flytta in i. \nLägenheten ligger precis intill Eriksbergkajen i juvelområdet. Huset i sig är Q-märkt. Trots att det är nybyggt från 2013 med bekväma faciliteter som tex hiss, så har det en oerhörd charm med gammal bevarad tegel och spröjsade fönster. \n\nI just den här lägenheten bor man dessutom högt upp i huset. Vån 5/7 med en fantastisk utsikt över Göteborg och glimtar av Göta älv. Här får man ta som vana att stora båtar och fartyg kryssar förbi medan man står och grillar eller hänger på balkongen.\n\nLägenheten i sig har inte så mycket mer att önska. Fräsch, relativt nybyggt och goda förvaringsmöjligheter. Mycket mysig/hemtrevlig bostad samtidigt som den är helkontinental då all praktisk utrustning redan finns i lägenheten. Närhet till både havet, kommunikationer och mataffärer. \n\n\nOBS\n-Vi tog bilderna i vintras!\n-Lägenheten är inte lika möblerad nu vilket innebär att hyresgästen/hyresgästerna får ta med mycket av sina egna möbler om man önskar!\n-Kräver ordningsamma hyresgäster som inte röker.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 13500,
+    "floor": 5,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Regementsvägen, Göteborg",
+    "url": "https://qasa.com/p/1456037",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0fdb5d1e5d8c7dbfdb20b57e063bfbbccb035fcf8cef90098512a590b930ae78.jpg",
+    "description": "Hej!\n\n​Jag hyr ut min moderna och välplanerade trea om 65 kvm på Lilla Regementsvägen i Kviberg. Huset är en nyproduktion från 2024 med genomgående hög standard, öppen planlösning mellan kök och vardagsrum, två rymliga sovrum samt ett helkaklat badrum med kombinerad tvättmaskin och torktumlare.\n\n​Bostadens stora höjdpunkt är den rejäla altanen på hela 43 kvm med fin utsikt mot föreningens gemensamhetsplats – en underbar yta för utemöbler och avkoppling.\n\n​För mig är det absolut viktigast att hitta rätt person eller par som uppskattar ett nytt och fräscht boende och som kommer att vårda och ta hand om lägenheten som om den vore sin egen.\n​Kort om bostaden:\n\n​3 rum och kök, 65 kvm boarea (hiss finns).\n​Stor altan på 43 kvm med utsikt mot gemensamhetsplats.\n​Nyproduktion (2024) med moderna vitvaror, diskmaskin och kombinerad tvätt/tork.\n​Belägen i ett lugnt och trevligt område nära Kviberg Park, natur och motionsspår.\n​Snabba kommunikationer in till Göteborgs centrum (ca 10–15 min).\nObservera: Externt källar-/vindsförråd ingår ej.\n\n​Hyresvillkor & ekonomi:\n\n​Månadshyra: 14 800 kr/månad (deposition och betalning hanteras tryggt via Qasa).\n​El och vatten: Tillkommer utöver hyran baserat på faktisk förbrukning. Föreningen debiterar detta med två månaders fördröjning (exempelvis faktureras förbrukningen för april i början av juli).\n​Tillträde: Från 21 september 2026.\n​Period: Långtidsuthyrning / tillsvidare.\n​Vem jag söker:\n\n​Stabil ekonomi med fast inkomst och inga betalningsanmärkningar.\n​Helt rökfri (absolut krav).\n​Husdjur kan diskuteras efter överenskommelse.\n​Lugn, ansvarsfull och noggrann med att hålla bostaden ren och välskött.\n​Skriv gärna en kort presentation och berätta lite om dig/er, er sysselsättning och varför ni söker bostad. Referenser från tidigare hyresvärdar är ett stort plus!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 65.0,
+    "rent": 14800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1460936",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eb09c8af2536bb13d38791dc4aa1ae485d5ad71ab3d03faa8c50f5e2b7432d79.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Smörslätten 8, Göteborg",
-    "url": "https://qasa.com/p/1460785",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aff32a8f1b842efb1707c24498672279baa326d5ced09685b6cea3b1d2268d7d.jpg",
-    "description": "Med bara 10 minuter till centrala Göteborg hittar du denna smakfullt renoverade lägenheten – perfekt för dig som söker ett modernt och bekvämt boende. Lägenheten totalrenoverades 2018 och har en välplanerad planlösning med hög standard och hållbara materialval.\nHallen välkomnar med praktiskt och stilrent klinkergolv, medan övriga rum har parkett i ek. Badrummet är modernt med kaklade väggar, duschvägg i glas, golvvärme och smarta detaljer som LED-spegel och handdukstork. I köket finner du allt du behöver – inbyggd ugn, diskmaskin, induktionshäll, fläkt samt kyl och frys.\nHär bor du i natursköna Björkekärr, bara ett stenkast från Härlanda Tjärn och andra grönområden, med smidiga förbindelser till stadens puls. Observera att bilderna i annonsen är exempelbilder och mindre avvikelser i planlösning kan förekomma. Oavsett är standarden lika hög.\r\n\r\nOMGIVNING\r\nSmörslätten är beläget i Björkekärr i Östra Göteborg. Området består av 6 huskroppar på 6 våningar vardera och ett daghem. Området ligger på gångavstånd till Delsjöns naturreservat med fina vandringsleder, ridvägar, fiskemöjligheter, motionsspår och flera fina badplatser.\r\n\r\nKOMMUNIKATIONER\r\nFrån närliggande Backvägen har du enkel tillgång till Svartexpress-busslinjen, som snabbt tar dig till centrala delar av staden. Dessutom kan du enkelt ta spårvagnarna 1 och 5 från Östra Sjukhuset, vilket gör det enkelt att pendla till och från arbete eller utforska staden. Busslinje 17 från Smörslottsgatan erbjuder också en smidig transportförbindelse. Oavsett var du behöver åka, så har du flera alternativ inom bekvämt räckhåll från din nya bostad.\r\n\r\nSERVICE\r\nÖstra sjukhuset ligger alldeles över gatan. Där finns både apotek och pressbyrå. En hållplats bort ligger Spåntorget med pizzeria, servicebutik och gym.\r\n\r\nPARKERING\r\nI området finns tillgänglig parkering för boende. Det finns en separat kö för parkeringsplatser i garage, där även möjlighet till elbilsplats finns. Du kan ansöka om en plats enligt tillgänglighet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 7656,
-    "floor": 6,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kvillepiren, Göteborg",
-    "url": "https://qasa.com/p/1156571",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9676634661efbdbce821faaa0d01ea25950b474b13ac316f40eff439fc5af62e.jpg",
-    "description": "Precis intill vattnet och bara minuter från city ligger Waterfront Cabins. Vi erbjuder fullt utrustade studios på Kvillepiren – för dig, oavsett vem du är eller vad du behöver. Vi finns här genom livets olika faser och erbjuder både korta och längre vistelser. Det är smart, flexibelt och bekvämt.\n\nSöker du boende i höst? Priser från endast 9000 kr/månad\n\nSamtliga studios är stilfullt möblerade, med ett fullt utrustat kök, rymligt badrum, kombinerad tvätt- och torkmaskin, sköna sängar och snabbt Wi-Fi. Kostnader för el, värme, AC och vattenförbrukning ingår självklart i vistelsen. Dessutom har vi personal på plats dygnet runt om du har frågor eller behöver hjälp. Det är vad vi kallar all-inclusive.\n\nDeposition och administrationsavgift tillkommer.\n\nVi vill att det ska vara både enkelt och bekvämt att välja Waterfront Cabins!\n\nVälkommen!\n(OBS: Bilderna är exempelbilder på hur en studiotyp kan se ut.)",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 9450,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-12T04:41:53+00:00", "clock": "04:41:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-12T08:51:56+00:00", "clock": "08:51:56"};
