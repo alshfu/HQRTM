@@ -51,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Västerslänt, Angered",
     "url": "https://qasa.com/p/1460868",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d25c35dfa0d1c1c9cadd3b251b5447a6d5a67d0e0052b2c3b7236a6337ecc40f.jpg",
-    "description": "Delat boende från och med 2026-10-09 och du får ditt egna rum med individuellt lås! 🔐 Du bestämmer själv hur länge du vill bo i ett lugnt och fint radhusområde.\n\nDetta är inte ett andrahands boende som du måste flytta ifrån efter 1 års tid. Så du behöver inte oroa dig över att bara bo här tillfälligt. \n\nRadhuset har 5 rum totalt (utöver kök, vardagsrum och tvättrum etc.). Och jag ägaren kommer själv bo i ett av rummen på nedervåningen. \n\nDessutom så bor 1 kille och 2 stycken gifta par i 3 st andra rum. Vissa av sovrummen är väldigt små medan andra rum är mycket större. \n\nHuset håller på att renoveras de kommande åren. Jag har hittills hunnit renovera vardagsrummet, ett badrum, duschen, stora delar av köket och alla sovrummen. \n\nDet finns 1 st extra gratis parkeringsplats under tak. Eventuellt plats för några cyklar eller liknande. \n\nDessutom så är det varmhyra och otroligt mycket ingår i hyran.",
+    "description": "Delat boende och du får ditt egna rum med individuellt lås! 🔐 Du bestämmer själv hur länge du vill bo i ett lugnt och fint radhusområde.\n\nDetta är inte ett andrahands boende som du måste flytta ifrån efter 1 års tid. Så du behöver inte oroa dig över att bara bo här tillfälligt. \n\nRadhuset har 5 rum totalt (utöver kök, vardagsrum och tvättrum etc.). Och jag ägaren kommer själv bo i ett av rummen på nedervåningen. \n\nDessutom så bor 1 kille och 2 stycken gifta par i 3 st andra rum. Vissa av sovrummen är väldigt små medan andra rum är mycket större. \n\nHuset håller på att renoveras de kommande åren. Jag har hittills hunnit renovera vardagsrummet, ett badrum, duschen, stora delar av köket och alla sovrummen. \n\nDet finns 1 st extra gratis parkeringsplats under tak. Eventuellt plats för några cyklar eller liknande. \n\nDessutom så är det varmhyra och otroligt mycket ingår i hyran.",
     "district": "Angered",
     "rooms": 1.0,
     "area_m2": 12.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-12T20:01:55+00:00", "clock": "20:01:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-12T22:11:59+00:00", "clock": "22:11:59"};
