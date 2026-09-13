@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stengetsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1461738",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/956ca158a7af30a35c9c88882e6e89de3b2c42760be622b9394fa90451d62270.jpg",
+    "description": "HYR ETT RUM i  43 dagar \nIngen deposition för dessa dagar \nJag bor med min dotter och hyr ett rum i vår 3:a \nHyr ut till skötsam  tjej / kvinna \nDu har tillgång till hylla för torrvaror 2 hyllor i kylskåp \nEn låda i frys\nDu kan laga mat i vårt kök -där vi har dialog mellan oss så vi inte lagar samtidigt \nDelat badrum med dusch \nFinns tvättmaskin / torktumlare i badrummet \nEl och Internät ingår \nLakan & Handukar ingår ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bohusgatan, Göteborg",
     "url": "https://qasa.com/p/1461717",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8fab1e820d06166f66a2d0254cc9cd5de5ecac71ff2412d174cbfe0733735a1e.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stampgatan, Göteborg",
-    "url": "https://qasa.com/p/1461671",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0cac0439e59ee165dd7258f82bf761dfc46a1e3498f5e33b7e769670bb124e0e.jpg",
-    "description": "Hyr ut min lägenhet på Stampen under ett års tid på grund utav utlandstjänstgöring. \n\nPerfekt läge med nära till alla bekvämligheter så som mataffär, gym, grönska och gångavstånd till både centralstationen och centrum. Spårvagnslinje 1, 3, 6 och 8 passerar precis utanför. Från Svingeln finns ytterligare knutpunkt med flera busslinjer. \n\nHyr ut lägenheten möblerad och fullt utrustad. Vissa mindre möbler/dekorationsmöbler kommer tas bort inför uthyrningen. \nBalkong mot Stampgatan med morgon- och förmiddagssol. \n\nJag har hund i lägenheten för nuvarande men önskar hyra ut djurfritt. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 15800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-13T19:33:21+00:00", "clock": "19:33:21"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-13T21:38:54+00:00", "clock": "21:38:54"};
