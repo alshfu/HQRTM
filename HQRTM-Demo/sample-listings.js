@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kvillegatan, Göteborg",
+    "url": "https://qasa.com/p/1461404",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e267439ee69dd1d08876e33677c65e16d50d876cddaed9e6c375a5d02dcde6fe.jpg",
+    "description": "En fin lägenhet 2 rok med balkong, fullt möblerad. \nJag kommer arbeta utomlands, och lägenheten uthyres fram till 270601 pga detta, med möjlighet till förlängning fram till 271231. Lägenheten ligger väldigt nära centrum, och några minuters avstånd till både spårvagnar samt busshållplats. Badrummet är utrustad med tvättmaskin samt torktumlare. Lägenheten har en fin vy över Göteborg. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 13800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Terapislingan, Hisings Backa",
+    "url": "https://qasa.com/p/1461395",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/715f9024f07bf124ddc142a033ca99baef3ba6e0505d8699c4bbc47365192e5c.jpg",
+    "description": "Modern 3:a i lugnt område – nära natur och bra kommunikationer\n\nVi hyr ut vår ljusa och välplanerade 3:a i Skogome (62 kvm), byggd 2022. Lägenheten har två sovrum och öppen planlösning mellan kök och vardagsrum.\n\nLugnt och trevligt område med närhet till natur, matbutik och buss som tar dig smidigt in till centrala Göteborg.\n\nOm lägenheten\n- 3 rum och kök, 62 kvm\n- Våning 2 av 2\n- Byggår 2022\n\nVillkor\n- Inflytt: Så snart som möjligt \n- Uthyres: Tillsvidare (1 år åt gången)\n- Möblering: Omöblerad\n- Ingår: Bredband, varm/kallvatten\n\nVi söker en skötsam hyresgäst med ordnad ekonomi.\nSkriv gärna och berätta lite om dig själv, hur många ni är och hur länge ni söker boende.\n\nObs! \nDenna lägenhet ligger ute till salu parallellt och har gjort det sedan december. Dock varit svalt intresse därav uthyrning. Så förutsättningarna skulle vara att vi kan signera 1 år åt gången, men att den kan komma att säljas innan dess och då är det 3 månader uppsägning som ni har rätt till.\nOm det skulle vara visning undertiden ni är hyresgäst så får ni avdrag från hyran som kompensation.",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 62.0,
+    "rent": 13000,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carl Gunérs väg, Askim",
     "url": "https://qasa.com/p/1461225",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/68e698d0c3d9b4d08bd5840be5b03a355b9b5e877efbf23caa3e7027124833bd.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gräddgatan, Göteborg",
-    "url": "https://qasa.com/p/1461150",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e08d9e7270e03c9ef5669eefedc74de693be5218fc172d86a2abbefd44ee2927.jpg",
-    "description": "Hej😊\n\nJag har en supertrevlig tvåa på 53 kvm i Kallebäck. Lägenheten kommer vara tillgänglig från 1 november. \n\n- 100 meter till närmsta hållplats som tar dig direkt till avenyn på 13 minuter. \n- Balkong\n- Hiss\n- Bra med förvaringsyta\n- Tvätt/torkmaskin\n- 50 meter till gym \n- 50 meter till tennishall\n- 150 meter till Coop\n- Nära till grönområden (Delsjön) - golfbana samt badplats. \n- Skola i området. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 12200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Utlandagatan, Göteborg",
-    "url": "https://qasa.com/p/1461113",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/694688bd68d348ac630ebde9b3a4ec3482159fcb44352e620e98ba094bcb7527.jpg",
-    "description": "Charmig tvåa i Johanneberg uthyres\n\nJag hyr ut min trevliga tvåa på 41 kvm i Johanneberg då jag ska flytta. Lägenheten har egen ingång, en mysig uteplats samt smidig tillgång till tvätt- och torkrum.\n\nLägenheten hyrs ut möblerad (möblerna skiljer sig från de på bilderna) och i hyran ingår el, vatten, värme och bredband.\n\nPerfekt för dig som vill bo centralt med bra kommunikationer och ändå ha ett lugnt och hemtrevligt boende.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 41.0,
-    "rent": 11400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-13T05:36:37+00:00", "clock": "05:36:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-13T09:43:32+00:00", "clock": "09:43:32"};
