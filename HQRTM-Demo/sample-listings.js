@@ -66,7 +66,7 @@ window.HQRTM_SAMPLE = [
     "title": "Drällvävaregatan, Göteborg",
     "url": "https://qasa.com/p/1452116",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34fd37e62904543de729562939b923dc7d473bcd6ef6454d336733d2a7ae1756.jpg",
-    "description": "En charmig, fullt möblerad lägenhet på ca 60 m2 som ligger på övervåningen i ett radhus från -47. Lägenheten har ett sovrum, vardagsrum , kök, toa och balkong. Dusch och tvättstuga finns i källaren och delas med lägenheten på entreplan. \nLägenheten ligger i ett mycket lungt område med naturen inpå knuten. Nära till Kvibergs motionsområde och ca 150 meter till busshållplats. Gratis parkering på gatorna i området.",
+    "description": "En charmig, fullt möblerad lägenhet på ca 60 m2 som ligger på övervåningen i ett radhus från -47. Lägenheten har ett sovrum, vardagsrum , kök, toa och balkong. Dusch och tvättstuga finns i källaren och delas med lägenheten på entreplan. \nLägenheten ligger i ett mycket lungt område med naturen inpå knuten. Nära till Kvibergs motionsområde och ca 150 meter till busshållplats. Gratis parkering på gatorna i området. \nI hyran ingår internet samt att lägenheten är fullt möblerad. Hyran för lägeheten är kallhyra så elkostnaden är en grov uppskattning av förbrukning och pris.  Därmed är det stora skillnader mellan månaderna och det finns en möjlighet att påverka förbrukningen. Vi vill bara ta betalt för den faktiska kostnaden. ",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 60.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-13T21:38:54+00:00", "clock": "21:38:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-13T23:31:29+00:00", "clock": "23:31:29"};
