@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Rödlönnsgången, Göteborg",
+    "url": "https://qasa.com/p/1460203",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/04bb7af888c2a2f144faaf976621bc48a6484a64bdb5876b477b7c8d91c54268.jpg",
+    "description": "Kvadratsmarta och mysiga mini-tvåa, belägen på femte våningen i ett modernt och stilrent hus byggt 2019. Här får du en optimal planlösning med ett avskilt sovrum som ger en mysig och privat känsla. Den franska balkongen släpper in härligt ljus och ger en luftig atmosfär. Perfekt för den som söker en lättskött och funktionell bostad i ett populärt område.\n\nI hyran ingår vatten, värme och internet (100/100). Bostaden hyrs ut då jag flyttat till Malmö men ej fått sålt bostaden.\n\nNotera att BRF behöver godkänna hyresgäst innan eventuell inflytt. \n\nBostaden hyrs ut delvis möblerad,  med säng, skrivbord och soffa.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 31.0,
+    "rent": 8490,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kopparslagaregatan, Göteborg",
     "url": "https://qasa.com/p/1462506",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1dcb3d87c7f721b9d17f2e524700f4595048883d51d8a65a0178442a2fb540b7.jpg",
@@ -27,6 +42,36 @@ window.HQRTM_SAMPLE = [
     "area_m2": 98.0,
     "rent": 27000,
     "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Onyxgatan 2, Västra frölunda",
+    "url": "https://qasa.com/p/1462558",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/46bd0d1a777ca6fa6ef88ffa5ed2c71bfce72cc3e053ad1b216d4fb1200a846a.jpg",
+    "description": "Vi välkomnar dig till en fin 1a på ca 31 kvm på Onyxgatan 2 i Tynnered. Lägenheten ligger på våning 4. Debitering för el, varm- och kallvatten tillkommer efter förbrukning. Egna avtal för detta behövs inte skrivas utan tecknas i samband med kontraktsskrivning. Kv Parkhuset är belägen utmed Ametistgatan vid nya Opalparken, mellan Frölunda torg och havet i Tynnered i Göteborg. Fastigheten är uppkopplad mot ett mobilt låssystem vilket innebär att du som hyresgäst låser upp trapphusdörrarna med mobil access. Du låser enkelt upp dörren med en knapptryckning via bluetooth, så internetuppkoppling är inte nödvändig. Till lägenheten kommer fysiska nycklar kvitteras ut. Lägenheten genomgående 3 stavs ekparkett, takhöjd om 2,5 meter och ljusa väggar. Badrummet har klinkergolv och kaklade väggar med duschvägg samt kombimaskin. I köket möts du av släta luckor samt stänkskydd och bänkskiva i laminat med infälld vask, mikro, diskmaskin, inbyggnadsugn och induktionshäll. Lägenheten har även balkong. Lägenheten har ett tillhörande förråd placerat i lägenheten eller i källarplan (se planritning). Observera att bilderna i annonsen är exempelbilder. Sveaviken PM tillämpar bakgrundskontroll vid uthyrning. Hyran är baserad på 2026 års framförhandlade nivå. Om tillträdesdagen infaller på en helgdag så sker tillträdet den första vardagen efter.",
+    "district": "Västra frölunda",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 8002,
+    "floor": 4,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Onyxgatan 2, Västra frölunda",
+    "url": "https://qasa.com/p/1462556",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/4bb07e279b93703e010b4a830c176395833af396ef74600571890c38769c558d.png",
+    "description": "Vi välkomnar dig till en fin 3a på ca 55 kvm på Onyxgatan 2 i Tynnered. Lägenheten ligger på våning 2. Debitering för el, varm- och kallvatten tillkommer efter förbrukning. Egna avtal för detta behövs inte skrivas utan tecknas i samband med kontraktsskrivning. Kv Parkhuset är belägen utmed Ametistgatan vid nya Opalparken, mellan Frölunda torg och havet i Tynnered i Göteborg. Fastigheten är uppkopplad mot ett mobilt låssystem vilket innebär att du som hyresgäst låser upp trapphusdörrarna med mobil access. Du låser enkelt upp dörren med en knapptryckning via bluetooth, så internetuppkoppling är inte nödvändig. Till lägenheten kommer fysiska nycklar kvitteras ut. Lägenheten genomgående 3 stavs ekparkett, takhöjd om 2,5 meter och ljusa väggar. Badrummet har klinkergolv och kaklade väggar med duschvägg samt kombimaskin. I köket möts du av släta luckor samt stänkskydd och bänkskiva i laminat med infälld vask, mikro, diskmaskin, inbyggnadsugn och induktionshäll. Lägenheten har även balkong. Lägenheten har ett tillhörande förråd placerat i lägenheten eller i källarplan (se planritning). Observera att bilderna i annonsen är exempelbilder. Sveaviken PM tillämpar bakgrundskontroll vid uthyrning. Hyran är baserad på 2026 års framförhandlade nivå. Om tillträdesdagen infaller på en helgdag så sker tillträdet den första vardagen efter.",
+    "district": "Västra frölunda",
+    "rooms": 3.0,
+    "area_m2": 55.0,
+    "rent": 11588,
+    "floor": 2,
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Landalagången, Göteborg",
-    "url": "https://qasa.com/p/1462216",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d54887a8e8e104cde581e7e5e9b76bd06e951e5cfa0aef8302238ff7c6a2576.jpg",
-    "description": "1 rum och kök i Centrum, Göteborg – möblerad, uthyres 12 månader\n\nHyra: 6000 kr/mån (möblerad, exkl. parkering)\nTillträde: kan diskuteras \nUthyrningsperiod: ca 12 månader, med möjlighet till förlängning\nStorlek: 29 kvm, 3 tr\n\nOm lägenheten\nVad som ingår\nFullt möblerad – säng, matbord, förvaring och komplett köksutrustning.  Ingen parkering ingår, men finns möjlighet att hyra för 1800 kr /mån\n\nVarför jag hyr ut\nJag har mitt förstahandskontrakt här men provar på att bo i Stockholm ett år, därför hyr jag ut i andra hand under tiden. Jag planerar att flytta tillbaka om inget annat händer så uthyrningen är tidsbegränsad till ca 12 månader men möjlighet att förlänga. \n\nKommunikation\nJag svarar snabbt på meddelanden här på Qasa, Boka gärna en visning så kan vi ses eller ta det på videosamtal om det passar bättre.\n\nVänligen, \nSusanne \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 6000,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 52A, GÖTEBORG",
-    "url": "https://qasa.com/p/1462350",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/182373b2a4abc995946cd9e420b177932e45eab5118b7afee1f491c93df0a4e7.jpg",
-    "description": "Välkommen hem till Långströmsgatan! Här ges möjlighet att hyra en lägenhet på Långströmsgatan 52 A, 1 ROK på 41 kvm - bottenvåning. En ljus och välplanerad bostad med avtalstid från 1 december. Lägenheten renoverades under 2021 och har bekvämligheter så som inbyggd mikrovågsugn, diskmaskin och golvvärme. Hyran ligger på 7 434 kr/mån. Lägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 1.0,
-    "area_m2": 41.0,
-    "rent": 7434,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 42C, GÖTEBORG",
-    "url": "https://qasa.com/p/1462341",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/372be18fcd2d199b12e3b091f7579cef0837c83f4b63ba3325554f5ca8e05444.jpg",
-    "description": "Välkommen hem till Långströmsgatan! Här ges möjlighet att hyra en lägenhet på Långströmsgatan 42 C, 5 ROK på 109 kvm - våning 1. En ljus och välplanerad bostad med avtalstid från 1 december. Hyran ligger på 15 176 kr/mån. Lägenheten är försedd med diskmaskin, mikrovågsugn, balkong, tvättmaskin och torktumlare. Lägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. OBS! Exempelbilder och planritningen är inte skalenlig.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
-    "district": "GÖTEBORG",
-    "rooms": 5.0,
-    "area_m2": 109.0,
-    "rent": 15176,
-    "floor": 1,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-14T19:03:43+00:00", "clock": "19:03:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-14T22:26:19+00:00", "clock": "22:26:19"};
