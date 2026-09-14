@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan 12A, GÖTEBORG",
+    "url": "https://qasa.com/p/1461832",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bdc638e56b2261039a4fa09102272d0089b5644ae2ae015a9c136eb91430507c.jpg",
+    "description": "Välkommen till Långströmsgatan 12 A!\n\nNu finns möjlighet att hyra en välplanerad lägenhet på 3 rum och kök på våning 2. \n\nLägenheten har ett trivsamt kök, ett ljust vardagsrum med plats för både soffgrupp och matbord, samt två sovrum. Lägenheten har även en balkong.\n\nLägenhetsförråd finns i huset.\n\nHyra: 12 413 kr/månad\nInflyttning: 2027-01-01\n\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Lägenheten hyrs ut i befintligt skick. Bilderna i annonsen är exempelbilder från liknande lägenheter. Planritningen är inte skalenlig.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat parkeringskö.",
+    "district": "GÖTEBORG",
+    "rooms": 3.0,
+    "area_m2": 83.0,
+    "rent": 12413,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lindholmsallén, Göteborg",
+    "url": "https://qasa.com/p/1461788",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f69a11d9cda1886f35d10814178cc779376b724c362f7130900d0c2b8df79caf.jpg",
+    "description": "Hej,\nJag planerar att hyra ut min lägenhet vid Lindholmsvarvet, precis mittemot Karlatornet. Det är en välplanerad 1,5 ROK med loft och stor privat uteplats, som hyrs ut omöblerad.\n\nHyres­period: Från 2026.11.30 till 2027-11-30. Båda parter skriver under kontrakt som måste godkännas av bostadsrättsföreningen. \nMånadshyra: 11 000 kr (internet, el, vatten,sopor ingår).\nUtrustning: Egen mikro, diskmaskin och kombimaskin (tvätt/tork).\nDeposition: En månadshyra (11 000 kr) betalas i samband med kontraktsskrivning. \nJag söker en hyresgäst med fast inkomst. Vi förutsätter att du är ordningsam och har möjlighet att betala hyran i tid.\n\nBerätta gärna lite om dig själv och bifoga ett foto, så återkommer jag så snart jag kan.\nJag söker efter någon som vill bo där under en lång tid. \nFörskottsbetalning och deposition erläggs efter visning och vid undertecknande av hyresavtalet.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 33.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1461789",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/efb79861683d8bb99370bd68c2160907f1ec49cfbc4f7e234189afe629b5bf31.png",
+    "description": "1:a på 33 kvm i Karlatornet – våning 18\n\nNu finns möjlighet att hyra en modern och attraktiv 1:a om 33 kvm i populära Karlatornet.\n\n📍 Karlatornet, våning 18\n💰 Hyra: 12 500 kr/mån\n📅 Inflyttning: omgående\n🛋️ Möblerad eller omöblerad – enligt överenskommelse\n\nSom boende har du tillgång till flera uppskattade gemensamma faciliteter, bland annat:\n\n🏋️ Gym\n🐾 Pet spa\n🎬 Biorum\n🌇 Takterrass\n🧖 Spa som kan bokas för endast 100 kr\n\nEtt perfekt boende för dig som vill ha ett modernt hem med hög standard och tillgång till många bekvämligheter i huset.\n\n📩 Skicka gärna ett meddelande med lite information om dig själv vid intresse.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 12500,
+    "floor": 18,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stengetsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1461738",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/956ca158a7af30a35c9c88882e6e89de3b2c42760be622b9394fa90451d62270.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Drällvävaregatan, Göteborg",
-    "url": "https://qasa.com/p/1452116",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/34fd37e62904543de729562939b923dc7d473bcd6ef6454d336733d2a7ae1756.jpg",
-    "description": "En charmig, fullt möblerad lägenhet på ca 60 m2 som ligger på övervåningen i ett radhus från -47. Lägenheten har ett sovrum, vardagsrum , kök, toa och balkong. Dusch och tvättstuga finns i källaren och delas med lägenheten på entreplan. \nLägenheten ligger i ett mycket lungt område med naturen inpå knuten. Nära till Kvibergs motionsområde och ca 150 meter till busshållplats. Gratis parkering på gatorna i området. \nI hyran ingår internet samt att lägenheten är fullt möblerad. Hyran för lägeheten är kallhyra så elkostnaden är en grov uppskattning av förbrukning och pris.  Därmed är det stora skillnader mellan månaderna och det finns en möjlighet att påverka förbrukningen. Vi vill bara ta betalt för den faktiska kostnaden. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 9700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Utlandagatan, Göteborg",
-    "url": "https://qasa.com/p/1461610",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f618a4e385219ad9f4d07e51808e7a1886cea00b1c6bd616b609b5e00c3e1ad6.png",
-    "description": "Trivsam och rofylld lägenhet med villakänsla i johanneberg\n\nLägenheten består av ett fullutrustat kök med köksö. Ett stort sovrum med kontinentalsäng (180cm) samt en väl tilltagen dubbelgarderob. Rymligt badrum med tvättmaskin och torktumlare. Ett vardagsrum med matbord för 8 personer, kontorsplats samt soffa vid TVn.\n\nEn gemensam uteplats med grill finns att tillgå. Ingen bokning krävs\n\nPassar 1-2 personer som vill bo centralt med nära till allt, men ändå i ett lugnt och vackert område.\n\nUthyres på grund av flytt\n\nI hyran ingår allt nödvändigt:\nEl\nBredband\nFörsäkring\nV/A\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 75.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Tuvevägen, Göteborg",
-    "url": "https://qasa.com/p/1461698",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/baa2d878da8b073c1fba51bbcafc69ca915b359aadbe03e396b4cf952fe31172.jpg",
-    "description": "Välkommen till en ljus och modern tvåa med öppen planlösning, bara ett stenkast från Hjalmar Brantingsplatsen. Lägenheten ligger med gångavstånd till både spårvagn och buss. Och med 5 minuter gång till Backaplan med alla dess butiker. I området hittar man både Coop, Ica, Willys och Lidl.\nLägenheten kommer fullt möblerad med fulla köksskåp.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-14T01:33:26+00:00", "clock": "01:33:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-14T07:01:39+00:00", "clock": "07:01:39"};
