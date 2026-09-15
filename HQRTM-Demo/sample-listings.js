@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Oskarsgatan 9, Göteborg",
+    "url": "https://qasa.com/p/1462586",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e198964f522bb4d5b81e9843d634be8cbf0fb38ba11ba1ea05ce2df9a07a0a27.jpg",
+    "description": "Välkommen till denna charmiga lägenhet om 61 kvm på Oskarsgatan 9, även känd som Amerikahuset, i hjärtat av Göteborg.\n\nHär bor du i en fastighet med både karaktär och historia, vackert belägen med utsikt över älven. En av fastighetens uppskattade kvaliteter är den gemensamma inomhusgården – en trivsam och skyddad miljö som skapar möjlighet till gemenskap och avkoppling oavsett väder.\n\nBostaden erbjuder en välplanerad och behaglig inomhusmiljö där modern bekvämlighet möter historisk charm. För extra bekvämlighet finns tvättstuga på samma våningsplan, cykelrum i markplan samt förråd som hör till lägenheten.\n\nAmerikahuset bär på en fascinerande historia från en tid då handeln med Amerika var en viktig del av Göteborgs utveckling. Byggnaden präglas av tidstypiska detaljer och en genuin karaktär som gör boendet unikt.\n\nDenna lägenhet passar perfekt för dig som söker ett hem med personlighet, centralt läge och närhet till stadens puls – samtidigt som fastighetens miljö, inomhusgård och älvutsikt bidrar till en särskild känsla av Göteborgs rika historia och själ.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 6178,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rödlönnsgången, Göteborg",
     "url": "https://qasa.com/p/1460203",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/04bb7af888c2a2f144faaf976621bc48a6484a64bdb5876b477b7c8d91c54268.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Teleskopgatan, Göteborg",
-    "url": "https://qasa.com/p/1462388",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bbed031135a7985a32fbfdb7fb5f1352c1d34ba9b4480ec34f16ba12f0e25942.png",
-    "description": "Rum uthyres i Bergsjön - inflyttning 2/10\n\nJag hyr ut ett rum i min 73 kvm stora trerumslägenhet på Teleskopgatan i Bergsjön, med inflyttning från 2 oktober.\n\nDu får ett eget rum och delar kök, badrum, toalett och balkong med mig. Lägenheten är rymlig och passar bra för dig som söker ett lugnt och trivsamt boende med bra kommunikationer.\n\nJag som äger och bor i lägenheten är en kille som studerar på avancerad nivå vid Linnéuniversitetet. Jag är dessutom ofta bortrest, vilket innebär att du under många perioder kommer att ha stora delar av lägenheten för dig själv.\n\nTeleskopgatan är ett lugnt och trevligt område med mycket goda kommunikationer. Det tar cirka 2 minuter att promenera till spårvagnshållplatsen, och därifrån tar det ungefär 20 minuter till Göteborgs centralstation.\n\nJag söker gärna en skötsam, lugn och ansvarsfull person som respekterar det gemensamma boendet och tar hand om lägenheten som sitt eget hem.\nObservera att det finns ytterligare ett ledigt rum som du får välja mellan.\n\nDet som ingår i hyran är: internet, el, Telenor TV kanaler.\n\nHör gärna av dig med en kort presentation av dig själv om du är intresserad.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4890,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-14T22:26:19+00:00", "clock": "22:26:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-15T00:49:08+00:00", "clock": "00:49:08"};
