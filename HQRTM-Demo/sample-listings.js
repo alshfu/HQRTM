@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lilla Munkebäcksgatan, Göteborg",
+    "url": "https://qasa.com/p/1463285",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cf36b5a5e78e2de6133f454d0029d1c3c267acbabd4f5dac8a2d5b01416b2f7e.jpg",
+    "description": "Bostadsrätt med radhuskänsla på lilla munkebäcksgatan uthyres.\nEgen altan som går ner till föreningens inhängnade gräsmatta på baksidan. \nKök nyrenoverat och relativt rymligt, badrum renoverar för ca 6 år sen, stora fönster som gör lägenheten ljus. Diskmaskin.\nVärme, wifi, tv abonnemang ingår.\nLugn och bra förening.\nMöblerad med de viktigaste möblerna.\nKort avstånd till Ica kvantum, munkebäckstorg, gym och flera spårvagn och busslinjer. Caféer och restauranger i området. Närhet till Skatås och Delsjön.\nFinns möjlighet att hyra parkering av föreningen till bra pris.\n32 kvadrat, 1 rum och kök, förråd kan ordnas.\n10 000kr\nInflytt i maj.\nVi diskuterar detaljerna  vidare 😊",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 32.0,
+    "rent": 8300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Toppsegelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1463307",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7abf73e530ad7de91ad51241d8ee6cb82eaeb58066e22cbc42d55a6f33b0bd1e.jpg",
+    "description": "Väl planerad och lugn 2;a i Majorna.  Nära till mysiga cafeer, pubar, Slottsskogen och havet.  Stort kök med stora arbetsytor. Fräscht badrum med härlig takdusch. Lugnt och tyst sovrum och balkong i sydväst. Balkong ut mot en park. \nTV och bredband och värme ingår i hyran. \nSpårvagnshållplatser för flera linjer inom kort gångavstånd. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bäckebolslyckan, Hisings Backa",
     "url": "https://qasa.com/p/1463240",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a56a0d76f1f62dcb6bd3b92158bab95f2be61e0d80468b9f272055f9a9cc9be6.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gräddgatan, Göteborg",
-    "url": "https://qasa.com/p/1463131",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/308f88162c97a4bb5853d8436ff9e24456b294e46a2d7b2064e3772c4e24c786.jpg",
-    "description": "Modern halvt möblerad lägenhet på 45 kvm i Kallebäck, 11:e våningen med inglasad balkong\n\nLetar du efter en ljus och rymlig lägenhet med utsikt och närhet till både stad och natur? Denna halvt möblerade lägenhet på 45 kvadratmeter i Kallebäck är perfekt för dig!\n\nOm lägenheten:\n\n\t•\tStorlek: 45 kvm\n\t•\tVåning: 11:e våningen med fantastisk utsikt\n\t•\tBalkong: Inglasad balkong utrustad med utemöbler, perfekt för att njuta av både soliga och regniga dagar\n\t•\tMöblering: Halvt möblerad med soffbord, matbord och utemöbler inkluderade\n\t•\tKök: Fullt utrustat kök med gott om plats för matlagning\n\t•\tInternet: Ingår i hyran\n\t•\tBra förbindelser: Närhet till kollektivtrafik som tar dig snabbt till Göteborgs centrum\n\t•\tNärhet till natur: Perfekt för dig som gillar att vara ute med tillgång till grönområden och natur i närheten\n\nLäget:\n\nKallebäck är ett lugnt område bara ett stenkast från Göteborgs innerstad. Här bor du med nära till både natur och stadspuls, samt utmärkta förbindelser med buss och spårvagn till alla delar av staden.\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 13000,
-    "floor": 11,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Torggatan, Göteborg",
-    "url": "https://qasa.com/p/1463103",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5429d4c02fcc175523896f3a2719cb3dbcafa511325938278ad59f77302f0424.jpg",
-    "description": "OBS! endast sökanden som uppfyller samtliga kriterier kommer få svar. Börja meddelandet med att berätta kort om dig själv och bekräfta att du uppfyller samtliga kriterier såsom inkomst och möjlighet att erlägga 2 månaders deposition. Hyra för lägenhet inkl internet och el är 12 000 kr.\n\nEnglish below\nNyproducerad 2017 finner ni denna fina och ljusa lägenhet på 45 kvadratmeter. Fina materialval och öppen planlösning som lätt kan avgränsas till en liten tvåa tack vare sovalkovet. Fina materialval med helkaklat badrum med golvvärme och handdukstork, fint parkettgolv och kök från Marbodal. Trevlig uteterass.\n\nLägenheten uthyres i 12 månader med god chans till förlängning om allting fungerar.\n\nDet som gäller i korthet:\n\nFullt möblerad förutom säng\nEl ingår i hyran\nBredband (fiber) ingår\nKrav på minimum inkomst på 34.000 kr (måste kunna styrkas)\nKrav på egen hemförsäkring\nKunna erlägga deposition på 2 månadshyror (kommer ej krävas förrän vi signat kontrakt)\nLägenheten är tillgänglig från och med 1 december\n\nHör endast av dig om du uppfyller samtliga kriterier ovan då jag får många förfrågningar.\n\nNOTE! Only applicants who meet all of the criteria will receive a response.\nPlease start your message by briefly introducing yourself and confirming that you meet all the requirements, including the income requirement and the ability to pay a two-month security deposit.\nThe rent for the apartment is SEK 12,000 per month, including internet and electricity.\n\nNewly built in 2017, this bright and well-planned 45 sqm apartment is now available for rent.\nFeaturing high-quality materials and an open layout that can easily be converted into a small one-bedroom apartment thanks to the sleeping alcove. The home includes a fully tiled bathroom with underfloor heating and a heated towel rail, beautiful parquet flooring, and a stylish kitchen from Marbodal. Enjoy the cozy outdoor terrace.\n\nThe apartment is available for a 12-month lease, with a strong possibility of extension if everything runs smoothly.\n\nKey details:\n\nFully furnished, except for the bed\n\nElectricity included in the rent\n\nBroadband (fiber) included\n\nMinimum income requirement: SEK 34,000/month (must be verifiable)\n\nMust have home insurance\n\nSecurity deposit equivalent to 2 months’ rent (only due upon signing the contract)\n\nAvailable from December 1st\n\nPlease only reach out if you meet all of the above criteria, as I receive many inquiries.\n\nIn your message, include a few lines about yourself, what you do for a living, and when you would be able to move in.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 45.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-15T18:59:05+00:00", "clock": "18:59:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-15T22:06:03+00:00", "clock": "22:06:03"};
