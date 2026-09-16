@@ -3,21 +3,6 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
-    "title": "Korsåsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1464102",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/eac8b70dc5bae304137d1a711045d05dddce3e4a39257afcac16907c6c4673a4.jpg",
-    "description": "Möblerat radhus uthyres i Göteborg\n\nNu finns möjlighet att hyra ett trivsamt och välskött möblerat radhus i ett lugnt och familjevänligt område i Göteborg passar perfekt för exempelvis ett par, en familj eller någon som söker ett tillfälligt boende.\n\nRadhuset är fullt möblerat och inflyttningsklart med ljusa, rymliga ytor och ett fullt utrustat kök. Här finns även egen uteplats och trädgård, vilket ger ett bekvämt och trevligt boende.\n\nI hyran ingår:\n\nFullt möblerad bostad\n\nVärme\n\nVatten och avlopp\n\nSophämtning\n\nFiberbredband/Wi-Fi\n\nParkeringsplats med möjlighet till laddning \n\nEl vid normal förbrukning\n\nJag söker en skötsam och ansvarstagande hyresgäst med ordnad ekonomi som kommer att ta väl hand om bostaden. Rökning är inte tillåten inomhus. Husdjur kan diskuteras efter överenskommelse.\n\nVid intresse är du varmt välkommen att skicka en kort presentation om dig själv, vem som ska bo i bostaden, syftet med uthyrningen samt önskat inflyttningsdatum.\nUppsägningstid: 3 månader för båda parter",
-    "district": "Västra Frölunda",
-    "rooms": 4.0,
-    "area_m2": 116.0,
-    "rent": 24400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Gökevägen, Hisings Backa",
     "url": "https://qasa.com/p/1464080",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e23eb24dc4b3d572f82821cbfe4839333ef5ee81b4c5b4bb767356bbc19ab4bb.jpg",
@@ -105,6 +90,21 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Pärtåsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1421002",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9b0da420dc031bf6de288d4c44bd12ca2fc7e22f6a7a7d622103754a57bc7dbe.jpg",
+    "description": "Om bostaden\natt hyra ut fån  1 november 2026. Det är  nästan nytt med årsbygg i2022 , 3sovrum, vardagsrum/kök, två hall,badrum och toalett. Huset är fullt utrustat med tvättmaskin , golvvärme överallt och har två stora sovrum vilket gör boendet extra rymligt.\nDet är stora glasfönster , vilket ger en luftig och fri känsla.parkering tar 5 bilar \nDet är väldigt fint område med 5 min gångs avstånd till hemköp, vårdcentralen, tandläkare och gym mm. Till bussen är det bara ca 4-5 min gångavstånd från huset som tar dig till backaplan eller femmanhuset på 5 - 10 min. Samt väldigt fina promenad stråk i området",
+    "district": "Hisings Backa",
+    "rooms": 6.0,
+    "area_m2": 170.0,
+    "rent": 28700,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-16T18:16:43+00:00", "clock": "18:16:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-16T21:24:45+00:00", "clock": "21:24:45"};
