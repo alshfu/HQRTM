@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Myntgatan, Göteborg",
+    "url": "https://qasa.com/p/1464878",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dfec23fc54cde4e3c4c26c7d2daeeeef229542b6cf51ea4c9dac56e6fa9e374.jpg",
+    "description": "Nyproducerad, modern tvåa med stort rymligt kök utrustat med varmlufts ugn ,diskmaskin m.m\nBostaden genomsyras av genomgående hög kvalité och smakfulla färg- och materialval.\nPåkostade vitvaror från Cylinda, ekparkett och fina ytskikt samt helkaklat badrum.\nStor gemensam uteplats.\nFörråd, Fjärrvärme, Internet-fiber\nToppläge endast 5 minuter från City.\nDessutom omedelbar närhet till Backaplan, Kville Saluhall, Eriksberg och Ramberget, Göteborgs finast utsiktsplats.\nHyra 12950kr/mån.\nLångtids hyresgäster prioriteras. \nTillträde: 2026-11-01",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 12950,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Slottsskogsgatan, Göteborg",
     "url": "https://qasa.com/p/1464818",
     "image_url": null,
@@ -18,6 +33,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Älvefjordsgatan 11B, Göteborg",
+    "url": "https://qasa.com/p/1464889",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/75bceb5efa7071b18b6625cee2d7b6b2d1587b663dd7f654be2311c024b3a618.jpg",
+    "description": "Ljus, modern och mycket välskött lägenhet från 2021 i tre plan med tre sovrum i parhus, belägen i ett lugnt och tryggt villaområde med lite trafik. Läget är ändå centralt med goda kommunikationer som t ex en vältrafikerad spårvagnshållplats ca 200 meter från lägenheten.\n\nLägenheten är ljus och rymlig och har genomgående hög standard. Alla rum har ekparkett utom badrummen som är helkaklade med klinkers. Även tvättstugan och entrén är försedd med klinkers. I köket, hallen och badrummen finns spotlights. Lägenheten har två badrum, ett på första våningen och ett på andra våningen. Dusch finns i båda badrummen.\n\nTill lägenheten hör en egen uteplats och ett förråd. Det finns även en gemensam gräsmatta. En parkeringsplats ingår i hyran. Parkeringsplatsen är förberedd för och utrustas med laddstolpe när ett behov uppstår.\n\nAlla våra lägenheter är rökfria och det är inte tillåtet att röka vare sig i eller utanför lägenheten eller någonstans på fastigheten.\n\nBilderna i annonsen är visningsexempel från en av våra lägenheter och visar lägenhetens standard och materialval. Den annonserade lägenheten kan ha mindre avvikelser gentemot exempelbilderna.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 119.0,
+    "rent": 19760,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Inägogatan, Göteborg",
     "url": "https://qasa.com/p/1464799",
     "image_url": null,
@@ -25,7 +55,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 10.0,
-    "rent": 5200,
+    "rent": 5000,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan 8C, GÖTEBORG",
-    "url": "https://qasa.com/p/1464715",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9f1d1c61ceba3bc783a8ea719c3f011abaed3563ea708ee77ce763f03282a847.jpg",
-    "description": "Nu finns möjlighet att hyra en välplanerad lägenhet på 3 rum och kök på våning 2. \n\nLägenheten har ett trivsamt kök, ett ljust vardagsrum med plats för både soffgrupp och matbord, samt två sovrum. Lägenheten har även en balkong.\n\nLägenhetsförråd finns i huset.\n\nHyra: 12 413 kr/månad\nInflyttning: 1/1 2027\n\nI hyran ingår värme, vatten och kabel-TV.\n\nObservera: Bilderna i annonsen är exempelbilder från liknande lägenheter och kan avvika från bostadens faktiska utförande. Planritningen är inte skalenlig.\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25 st huskroppar. Husen är trevåningshus med tre uppgångar per hus. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter\r\n\r\nPARKERING\r\nSeparat parkeringskö.",
-    "district": "GÖTEBORG",
-    "rooms": 3.0,
-    "area_m2": 83.0,
-    "rent": 12413,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Landalabergen, Göteborg",
-    "url": "https://qasa.com/p/1464536",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f9c3b98ab68911e4fc5db4c597abb9c4c092a61e0af4b30357dd2df8724005f6.jpg",
-    "description": "Ljus och rymlig tvåa med inglasad balkong\nVälkommen till denna ljusa och charmiga lägenhet på 64 kvm, som erbjuder en perfekt kombination av stadens bekvämligheter, grönska och en rofylld boendemiljö.\nLägenheten består av två rum och kök och ligger på fjärde våningen i ett hus med sex våningar. En av höjdpunkterna är den inglasade balkongen i soligt läge med utsikt över grönska – en härlig plats att njuta av morgonkaffet eller koppla av under varma sommarkvällar.\nVäggarna har nyligen tapetserats om, vilket ger lägenheten en fräsch och välkomnande känsla. Fastighetens utsida renoverades för cirka tre år sedan, inklusive nya balkonger och fönster. Ett nytt badkar har också installerats.\nLägenheten har även några fina och moderna inslag. Här finns en helt ny 85-tums-TV som förvandlas till ett konstverk när den är avstängd, vilket ger vardagsrummet en stilfull prägel. Sovrummet är utrustat med en helt ny säng från Viking Beds of Sweden, vilket ger hög komfort och en lyxig sovupplevelse.\nUtmärkt läge\nLäget är svårslaget. Lägenheten ligger i ett centralt men lugnt och bilfritt område, bara en kort promenad från Vasastan och Götaplatsen. Det gör det enkelt att ta del av allt staden har att erbjuda samtidigt som man kommer hem till en lugn och grön miljö.\nPrecis runt hörnet ligger Landala Torg med allt du behöver i vardagen – bland annat Coop, Systembolaget, restauranger, pizzerior, falafelställen, godisbutik, hälsokostbutik, gym, pubar och en charmig bokhandel med café. Och såklart Brogyllen, perfekt för en kaffe och ett av deras läckra bakverk.\nInnergården är barnvänlig med lekplatser och fotbollsplan, och gränsar till ett härligt grönområde som bjuder på pulkabacke vintertid. Det finns också flera fina utsiktsplatser i närheten med vy över stadskärnan och älven – perfekt för picknick och avkopplande sommardagar.\nMed sin ljusa interiör, soliga inglasade balkong, stilfulla nya TV, helt nya säng från Viking Beds of Sweden, fräscha väggar och utmärkta läge är detta ett perfekt hem för dig som vill njuta av både stadslivets energi och lugnet i ett grönt bostadsområde. Bostadsfakta:\n•\t2 rum och kök\n•\t64 m²\n•\tVåning 4 av 6\n•\tByggår 1972\n•\tInglasad balkong i soligt läge\n•\tHelt ny 85-tums-TV som förvandlas till ett konstverk när den är avstängd\n•\tHelt ny säng från Viking Beds of Sweden\n•\tNyligen omtapetserad\n•\tNyligen renoverad fasad, balkonger och fönster\n•\tNytt badkar\n•\tCentralt och bilfritt läge\n•\tNära till butiker, restauranger, kaféer, gym och kollektivtrafik",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 13900,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-17T17:00:49+00:00", "clock": "17:00:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-17T20:12:52+00:00", "clock": "20:12:52"};
