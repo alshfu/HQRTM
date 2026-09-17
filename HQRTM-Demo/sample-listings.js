@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hisingsgatan, Göteborg",
+    "url": "https://qasa.com/p/1464922",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/084f54d603b5adcec2b2cfd6bcd3c1a2d4674daefca7abbaaefaec7cfb4306c8.jpg",
+    "description": "Ljus och välplanerad 1,5 om 42 kvm i attraktiva Brämaregården. Lägenheten ligger högt upp i huset och har fin utsikt samt en smart planlösning med separat sovalkov.\n\nBostaden är från 2018 och har genomgående ekparkett, ljusa väggar och ett modernt kök från Vedum med vitvaror från Siemens. Hallen har bra avhängningsmöjligheter och gott om förvaring i garderober. Det stilrena badrummet är utrustat med egen tvättmaskin och torkmöjlighet.\n\nHär bor du modernt och bekvämt mitt bland Brämaregårdens charmiga landshövdingehus, med närhet till butiker, caféer, restauranger, gym och klätterhall. Kommunikationerna är mycket goda, med knappt fem minuter till Centralstationen. Det är även gångavstånd till både Frihamnen och Lindholmen.\n\nHuset och gårdsmiljön är genomtänkt utformade med mycket trä, grönska och flera gemensamma ytor. På gården finns växter, träd, sittgrupper, gemensamma balkonger och trädäck i olika nivåer.\n\nI uthyrningen ingår kyl och frys, ugn, spis, diskmaskin och mikrovågsugn. Lägenheten har egen dusch och toalett samt tvättmaskin och torktumlare. Det finns även balkong/uteplats och internet, förråd, cykelrum, hiss, återvinningsrum och säkerhetsdörr.\n\nParkering med laddbox för elbil finns tillgänglig, men parkeringsplats ingår inte automatiskt i hyran utan behöver ansökas om separat i samband med inflyttning.\n\nObservera att möbleringen kan skilja sig något från bilderna. Lägenheten hyrs dock ut möblerad och kommer att vara utrustad med det som behövs för ett bekvämt boende.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 43.0,
+    "rent": 12459,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Myntgatan, Göteborg",
     "url": "https://qasa.com/p/1464878",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5dfec23fc54cde4e3c4c26c7d2daeeeef229542b6cf51ea4c9dac56e6fa9e374.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tryggvegatan, Göteborg",
-    "url": "https://qasa.com/p/1464698",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/59220adede1c3dc848d57d743e6c942b987027217bdd22763d720788dea31a84.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 11500 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/ehntyjrdgxigpwddhqdq/vastra-gotaland/goteborg/tryggvegatan-5/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nEn Total renoverat 5:a med kök, ny toalett som är ledig för uthyrning, nära till natur och affärer ligger nära Brunnsbo Hisingen Backa med bra förbindelse till Brunnsbotorget, Backaplan och centralstationen.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 11500 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 60.0,
-    "rent": 10854,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-17T20:12:52+00:00", "clock": "20:12:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-17T22:52:06+00:00", "clock": "22:52:06"};
