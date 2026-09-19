@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Värslevägen, Askim",
+    "url": "https://qasa.com/p/1465799",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925ea6e5a876dcefae85b5e918cb9b5373ca6b3e5d2858fa83abf1d566a924ab.jpg",
+    "description": "Hej!\nNu har du chansen att hyra denna etta i lugna Askim, med 5 minuters promenad till Askimsbadet och knappt en minut gång till Trollängens busshållplats. Med buss X2 tar du dig till Järntorget på 15 min.\n\nLägenheten är en etta med sovalkov som rymmer en 160 säng, separat kök med diskmaskin samt en klädkammare som kan nyttjas som kontor. Köket är nyrenoverat med mycket plats för förvaring. Lägenheten ligger på bottenplan och har en uteplats med en häck som ger insynsskydd.\n\nInflytt så snart som möjligt och lägenheten kommer hyras ut för 8 000kr/mån.\n\nI hyran ingår:\n- El,\n- Vatten,\n- Värme.\n\nDen hyrs ut delvis möblerad. Det som inte kommer finnas är säng och TV. Rymligt förråd finns tillgängligt i byggnaden på samma våning som lägenheten. Flera bokningsbara tvättstugor finns i området.\n\nKontraktet är på 6 månader, med möjlighet till förlängning. Detta är reglerat av HSBs krav på uthyrning i andrahand. I och med att lägenheten ligger ute för försäljning kan visningar förekomma. Eventuella visningar sker alltid efter överenskommelse och aldrig utan förvarning. \n\nDeposition på 1 månad som lämnas tillbaka vid utflytt. ",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 8000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kummingatan, Göteborg",
     "url": "https://qasa.com/p/1465891",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c7f1764ffd3749e8426f422e48bb9a08241286332bde0d71445504fcd459182.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Solståndsgatan, Göteborg",
-    "url": "https://qasa.com/p/1465645",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0f281a843cf8854995d109b2e1d4c3ade2931f22224628577f9eabb0d91a4bc0.jpg",
-    "description": "Bra planering då våra sovrum ligger en bit ifrån varandra.\nOmrådet är jättelungt och bra grannar.\nNära skog för promenader eller plocka svamp/bär.\nPå torget finns Hemköp,Apotek, Bibliotek och mycket mera.\n7 min gångväg till spårvagnarna/torget. 7,11 och 6:ans spårvagn går och tar ca 13-14 min till centralstationen.\n\nJag söker någon trevlig och morgontrött som SKA jobba heltid eller ha heltidsstudier i skolan.\nStudieintyg eller anställningsbevis krävs innan kontrakt påskrivet.\nOch ha ett aktivt fritidsliv.\nMinst 30+ år och tala bra svenska så vi kan kommunicera gott😊 och undvika missförstånd.\n\nDu ska också ha i åtanke att du flyttar in hos mig och att man måste visa hänsyn.\nDu ska ha tecknat egen hemförsäkring som inneboende innan inflyttning är ett KRAV.\n\nPorslin och så delas men mat, kryddor och annat liknande,täcke,handuk,kuddar,lakan och så står du själv för.\nJa,allt utom köksredskap står du själv för.\nVi städar efter oss!\n\nLÄS NOGA ANNONSEN SAMT HYRESKONTRAKT innan du bestämmer dig så du är med på vad som gäller.\nHyresavtal är bindande med 3 månaders uppsägningstid om vi inte kommer överens om annat.\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T16:33:54+00:00", "clock": "16:33:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T18:50:53+00:00", "clock": "18:50:53"};
