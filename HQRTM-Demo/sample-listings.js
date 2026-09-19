@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kummingatan, Göteborg",
+    "url": "https://qasa.com/p/1465891",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c7f1764ffd3749e8426f422e48bb9a08241286332bde0d71445504fcd459182.jpg",
+    "description": "En rymlig 2a på 62kvm, bottenplan med en stor fin grönlig uteplats. \nMöblerad men kan självklart komma överens om ändringar.\n- Tv, vatten, internet ingår. \n- El ingår ej, tillkommer separat.\n- Parkering finns som tillägg. \n- Hyrestid enligt överenskommelse men minst 1 år.\n- 3 månader uppsägningstid.\n- 1 månadshyra i deposition.\n\nÖvrigt: \nNärmsta matbutik ca 5 min gångavstånd.\nAngered Centrum ca 7 min med buss.\nBusshållplats ca 5 min gångavstånd\nTvättstuga finns ca 50 meter bort.\nStort naturområde omkring.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 9000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nymilsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1464167",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c0822c74d3b22ec1d57db4ad38e564609e784630a7ff996f4a38f58e18e4d30c.jpg",
+    "description": "Ljus 3:a på 65 kvm i Flatås uthyres möblerad i andra hand.\n\nVi hyr ut vår lägenhet på Nymilsgatan i Flatås, Göteborg. Huset är byggt omkring 2020. Nära centrala Göteborg, med matbutiker och service inom gångavstånd.\n* 3 rum och kök, 65 kvm\n* Femte våningen med hiss\n* Hyrs ut möblerad\n* Tvättmaskin, torktumlare och diskmaskin i lägenheten\n* Balkong\n* Rökfritt hus\n* Hyra ca 16 000 kr/mån inkl. el, vatten och bredband\n* Inflyttning runt 25 oktober, uthyrning ca 1 år\n\nUthyrningen sker under förutsättning att hyresvärden godkänner.",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 65.0,
+    "rent": 16000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Trollåsvägen, Askim",
     "url": "https://qasa.com/p/1465852",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca1c258be25c0cd758ccc3fdd8fce01bddb2b2a08fba627a7c623a30d32f45e9.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Landsvägsgatan, Göteborg",
-    "url": "https://qasa.com/p/1465528",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e1f9b136edccb5cb8e61df38904ef6f331d19215e26099099616ebe8259f43c.jpg",
-    "description": "Ljus och attraktiv sekelskifteslägenhet i idylliska Haga, Göteborg\n\nVälkommen till denna smakfullt renoverade sekelskifteslägenhet med bevarad charm och moderna inslag. Lägenheten erbjuder ett stilrent Marbodal-kök med framtagen tegelvägg och infällda spotlights i taket – en perfekt kombination av karaktär och funktion.\n\nOmmålad 2025,  vackra vita trägolven, medan hallen pryds av elegant svart stengolv. Två av tre generösa rum om ca 18–26 kvm ger gott om utrymme för både vardagsliv och socialt umgänge.\n\nLägenheten har två praktiska walk-in-closets – en i hallen och en i det rymliga master bedroom. Som hörnlägenhet med stora, höga fönster i flera väderstreck bjuds du på ett fantastiskt ljusinsläpp från morgon till sen eftermiddag.\n\nÄr du intresserad av att hyra master bedroom är du välkommen att kontakta mig.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 115.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Badvädersgatan, Göteborg",
-    "url": "https://qasa.com/p/1464208",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7a0afc4fa7930b6e8101f581fe03f6c6926c72588e4af869d580c10a2907a198.jpg",
-    "description": "En fräsch möblerad lägenhet med två sovrum och en balkong, ett badrum och ett kök. Lägenheten är utrustad med möbler, TV, Wi-Fi och köksutrustning.\nI området finns en gemensam tvättstuga med tvättmaskiner och torktumlare. Det är enkelt att boka tvättid. Lägenheten ligger nära centrum, med goda kommunikationer. Spårvagnar och bussar tar dig till centralstationen på cirka 17 minuter. I närheten finns mataffärer, apotek och bensinstation.\nOmrådet erbjuder även fina naturstigar för promenader, lekplats för barn samt en pizzeria. 🅿️ inklusive. OBS!!! EL ingår inte. En månads deposition krävs. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 67.0,
-    "rent": 14999,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T13:17:42+00:00", "clock": "13:17:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T16:33:54+00:00", "clock": "16:33:54"};
