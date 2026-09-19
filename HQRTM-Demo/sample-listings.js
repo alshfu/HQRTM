@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Söndagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1466014",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac923fe12592a80c6e2cb472fb2350585f8ff840fed4dcd2ba9d1edea9f2d06d.jpg",
+    "description": "Välkommen till denna smakfullt renoverade 2:a på attraktiva Söndagsgatan i Kortedala – ett hem som kombinerar stil, komfort och ett fantastiskt läge!\n\nHär bor du på våning 2 av 3 i en välskött förening, med en underbar inglasad balkong i perfekt sydvästläge. Njut av solen från eftermiddag till sen kväll – en idealisk plats för både avkoppling och sociala stunder.\n\nLägenheten är genomgående fint renoverad med moderna materialval och en harmonisk känsla. Planlösningen är både praktisk och trivsam, med ljusa ytor som skapar en inbjudande atmosfär att verkligen känna sig hemma i.\n\nOmrådet erbjuder det bästa av två världar – här har du nära till grönskande natur samtidigt som stadens puls enkelt nås via goda kommunikationer. Dessutom präglas huset av en varm gemenskap med omtänksamma grannar. Sköter du dina kort rätt kan du mycket väl bli bortskämd med hembakade godsaker – en bonus som sätter guldkant på vardagen.\n\nTill lägenheten hör två praktiska förråd som ger gott om förvaringsmöjligheter. I husets källare finns även tvättstuga med tillhörande torkrum, vilket gör vardagslivet smidigt och bekvämt.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 11100,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Värslevägen, Askim",
     "url": "https://qasa.com/p/1465799",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/925ea6e5a876dcefae85b5e918cb9b5373ca6b3e5d2858fa83abf1d566a924ab.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ostgatan, Göteborg",
-    "url": "https://qasa.com/p/1465705",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fde64fff328ec5c8b54f38b57fa1e1c66b0a8b0ebf3b3ebd425b1f1e1d0a1c8.jpg",
-    "description": "Jag är pensionär och ofta hemma dagtid. Passar studenter eller pendeljobbare, eller boende för några månader. Helst en kvinnlig student. \n\nUthyrning av litet, möblerat rum 7 m2. Delad toalett med den andra boende, studenten och delad dusch. Bor högst upp, våning 9.  Lugnt område. Fin utsikt. 100 m till busshållplats och 10 minuter till Korsvägen, ca 15 minuter härifrån till Chalmers. Bussarna går var 15 minut. Det finns en välsorterad mataffär i närheten. I detta område, Kallebäck byggs det mycket just nu. Cykel förråd finns.\n\nLägenheten har 4 r o k. En gästtoalett och en större med dusch. Gemensam tvättstuga i källare, lätt att få en tvättid. Ingår värme, vatten och el i hyran. Uthyrning enligt överenskommelse. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 7.0,
-    "rent": 5000,
-    "floor": 9,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T21:09:27+00:00", "clock": "21:09:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T23:04:00+00:00", "clock": "23:04:00"};
