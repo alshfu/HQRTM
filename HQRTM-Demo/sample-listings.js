@@ -3,13 +3,43 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Trollåsvägen, Askim",
+    "url": "https://qasa.com/p/1465852",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca1c258be25c0cd758ccc3fdd8fce01bddb2b2a08fba627a7c623a30d32f45e9.jpg",
+    "description": "Hyr ut en fräsch och välplanerad stuga med egen ingång i ett av Askims bästa och lugnaste villaområden. Här bor du med naturen och havet runt knuten samtidigt som du tar dig snabbt och smidigt in till centrala Göteborg.\n\nOm bostaden:\n\nEget badrum: Helt nyrenoverat och stambytt i år med sprillans ny dusch och toalett.\nKök: Modernt och fräscht kök, renoverat för bara ett år sedan.\nEgen ingång: Avskilt och privat läge på tomten.\nOmråde: Mycket lugnt och tryggt villaområde utan genomfartstrafik.\n\nLäge och kommunikationer:\nHav & natur: Endast 5 minuter till populära Askimsbadet \nTill stan: Utmärkta förbindelser – direktbussen tar dig in till staden på bara 17 minuter.\n\nVem söker vi?\nVi söker en trevlig, skötsam och lugn person med ordnad ekonomi som uppskattar ett rofyllt boende och tar väl hand om stugan. Rök- och djurfri är ett plus.\n\nSkriv gärna några rader om dig själv, din sysselsättning och varför du tror att boendet skulle passa just dig!",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 38.0,
+    "rent": 6600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ögontröstgatan, Göteborg",
+    "url": "https://qasa.com/p/1458684",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/23ca0c4cce62189ae0ccec98820ea0eab8c650711a00f8f793a9da5236d68d64.jpg",
+    "description": "Hej! \n\nJag och min sambo ska flytta till Spanien och hyr därför ut vår bostadsrätt. \n\nLägenheten ligger på 3:e våningen utan hiss och är en vindslägenhet. Det finns diskmaskin och tvättmaskin i lägenheten. Man har också tillgång till tvättstuga med torktumlare och torkrum. \n\nDe flesta möbler kommer att finnas kvar, dock ej sängen eller sminkbordet. \n\nDet som ingår i hyran är varmvatten och Wi-Fi. Elen betalas utefter förbrukning. \n\nLägenheten ligger i Kvillebäcken som är nära till stan och Backplan. Det finns en LIDL och Willys i närheten. \n\nNärmsta busshållplats är Swedenborgsplatsen där 17-bussen går. Närmsta spårvagnshållplats är Vågmästareplatsen och tar ca 10 min att gå. \n\nHör av er om ni vill ha en visning, kan ordnas online eller på plats. \n\nMed vänliga hälsningar \n\nCamila Axelsson",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 10000,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Asperögatan, Göteborg",
     "url": "https://qasa.com/p/1465679",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cee40c4f8d6fbb4ac066e772133cc414b3e570fd1b54176c727888146768e5f0.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f0845d0cddbe9ffe62af4e5d768539b75f3445d0343e8ab7adb6fd3b3354ae28.jpg",
     "description": "Lägenheten ligger i Sandarna, Majorna i Göteborg. \n2 minuter till hållplatsen som leder mot alla håll runt om i Göteborg. Tex. 15 min ifrån city.\nAlltid bra förbindelser. \nSlottskogen ligger precis intill och är ett vackert naturbeläget ställe som många älskar att besöka för diverse fina plaster som erbjuds där, såsom promenadstråk, djur att besöka och lekplatser, discgolfbana, cafe/restauranger, minigolf, stora ytor där människor ofta håller till för att umgås eller olika evenemang som brukar äga rum där.\n\nI majorna finns enormt många restauranger/barer, caféer, mataffärer som är öppna mellan 7.30-23 tex. ICA, WILLYS, HEMKÖP, osv.\nATG ombud, Systembolag, spårvagn, båt och bussförbindelser till & från stan.\n\nVälplanerad och attraktiv genomgående lägenhet, vilket ger en luftig känsla även om man delar på den.\nLägenheten är i helhet nyrenoverad, och devis så sent som nu i september. \n\nI hyran ingår\n\n● Eget rum på ca 10 m2\n● Dörr med lås.\n● Egen balkong med 2 vackra salongsdörrar som öppnar upp rummet nästan helt ut till balkongen och ger en härlig lufig känsla i rummet. \n● Balkongen har en ett mindre bord och en härlig solstol att kunna tillbringa tid på.\n● Utöver rummet så ingår dusch och toalett  gemensamt.\n● Köket är gemensamt och där ingår en del i kyl, frys och skafferi utrymmen. \nDet ingår även gasspis och mikrovågsugn, samt diverse tillbehör för matlagning som tex stekpannor, kastruller, bestick, tallrikar glas och diverse köksredskap. \n● Lägenheten har även 1:a klassad säkerhetsdörr och egen brevlåda utanför dörren.\n● Bredband ingår.\n● Tvättstuga ingår.\n● Cykelrum ingår \n● Sophämtnin\n\nJag jobbar skift. Är djur & rökfri, dricker ej alkohol och är en lugn person som söker en inneboende som också är en lugn person som är skuldfri, djur och rökfri och inte tar hem folk till bostaden då det är viktigt att vi respekterar varandra och varandras olika tider som man gemensamt tar hänsyn till.\n\nDet är ett lugnt härligt attraktivt område i hjärtat av Göteborg.\nI trapphuset har vi alla en god och fin respekt till varandra.\n\nKrav: \n\n● Hemförsäkring. (Skall uppvisas vid inflytt)\n● Särskildpostadress som skall visas vid inflytt (ej folkbokföring) \n● Skuldfri, skall visas upp.\n● Deposition på 2 månader. Som betalas tillbaka såvida allt gått korrekt till vid hyrning av bostaden och inga fel eller lagar brutits. \n● Djur & drog/rökfri. \n● Vid förfrågan av att ha gäster på besök ska det ske i samråd med mig som uthyrare för godkännande. \n● Inga fester eller massa alkohol/fylla eller narkotika samt djur i bostaden.\n● OBS. Då elen & nätverk så är den rörlig så månadsvis ska den delas upp mellan oss båda, att vi betalar lika mycket. \n● Rummet hyrs ut till endast person, ej par eller barn eller annan anhörig, osv.\n\nOm fler krav eller regler dyker upp så kommer det isåfall tas upp vid vidare prat om uthyrningen.\n\nEn god kommunikation och full respekt mellan varandra, samt att samtliga krav uppfylls så ska kommer du nog trivas jättebra som hyresgäst ihop med mig.\n\n\n",
     "district": "Göteborg",
     "rooms": 1.0,
-    "area_m2": 10.0,
+    "area_m2": 12.0,
     "rent": 6500,
     "floor": null,
     "has_balcony": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Eklandagatan, Göteborg",
-    "url": "https://qasa.com/p/1465195",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3ea8e69fd307a1e96d00e753d4a28cfd99a0cc909e187d4dd4ad6ba8c1cc945b.jpg",
-    "description": "Rum lämpligt för pendlare 2-4 nätter/vecka som har sin permanenta bostad på annat ställe och som hyr på långtid. Du ska ha intyg om studieplats o/e arbetsgivarintyg). Nuvarande hyresgäst är referent och har köpt egen bostad efter 32 månaders hyresperiod). Bostaden är en 3 rums lägenhet på 55m2 där hyresvärden har 30m2, hyresgästen 8 m2 och 17m2 är gemensamt nyttjade kök och toa med dusch.\n\nÄgarna är ett pensionärspar som nyttjar sin del 2-3 dygn i veckan. Avgiften ligger 1600:- under av algoritmerna rekommenderad nivå, baserad på att du nyttjar den som deltidboende.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Knektebacken, Billdal",
-    "url": "https://qasa.com/p/1464217",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/11e035f8a5d5a5814ac205c013714a944a9d23134edd50babb1bf98c03e1d911.jpg",
-    "description": "OBS tidsbegränsat boende! Ej möjligt med förlängning över sommaren -27. \n\n”Gårdshuset” är ett underbart gammalt hus med anor från 1800-talet.  Det är ett separat hus på vår tomt, vårt bostadshus ligger intill.  Stugan har två våningar, 4 rum och kök. Kök, badrum, vardagsrum och litet sovrum på nedervåningen. Allrum/sovrum och ett större sovrum på övervåningen. Huset ligger i natursköna Billdal med promenadavstånd till både hav och natur. Det är samtidigt nära till Göteborg, cirka 20 min med bil och busshållplats ligger nära. Stugan är mysig i lantlig stil, här finns både vedspis och gammalt trägolv. Stugan hyrs ut möblerad, el tillkommer. Eget internet behövs. Egen tvättmaskin finns i husets källare. Till stugan finns egen altan och en egen parkeringsplats. ",
-    "district": "Billdal",
-    "rooms": 4.0,
-    "area_m2": 80.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T09:24:50+00:00", "clock": "09:24:50"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T13:17:42+00:00", "clock": "13:17:42"};
