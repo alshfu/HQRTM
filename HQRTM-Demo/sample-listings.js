@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Asperögatan, Göteborg",
+    "url": "https://qasa.com/p/1465679",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cee40c4f8d6fbb4ac066e772133cc414b3e570fd1b54176c727888146768e5f0.jpg",
+    "description": "Lägenheten ligger i Sandarna, Majorna i Göteborg. \n2 minuter till hållplatsen som leder mot alla håll runt om i Göteborg. Tex. 15 min ifrån city.\nAlltid bra förbindelser. \nSlottskogen ligger precis intill och är ett vackert naturbeläget ställe som många älskar att besöka för diverse fina plaster som erbjuds där, såsom promenadstråk, djur att besöka och lekplatser, discgolfbana, cafe/restauranger, minigolf, stora ytor där människor ofta håller till för att umgås eller olika evenemang som brukar äga rum där.\n\nI majorna finns enormt många restauranger/barer, caféer, mataffärer som är öppna mellan 7.30-23 tex. ICA, WILLYS, HEMKÖP, osv.\nATG ombud, Systembolag, spårvagn, båt och bussförbindelser till & från stan.\n\nVälplanerad och attraktiv genomgående lägenhet, vilket ger en luftig känsla även om man delar på den.\nLägenheten är i helhet nyrenoverad, och devis så sent som nu i september. \n\nI hyran ingår\n\n● Eget rum på ca 10 m2\n● Dörr med lås.\n● Egen balkong med 2 vackra salongsdörrar som öppnar upp rummet nästan helt ut till balkongen och ger en härlig lufig känsla i rummet. \n● Balkongen har en ett mindre bord och en härlig solstol att kunna tillbringa tid på.\n● Utöver rummet så ingår dusch och toalett  gemensamt.\n● Köket är gemensamt och där ingår en del i kyl, frys och skafferi utrymmen. \nDet ingår även gasspis och mikrovågsugn, samt diverse tillbehör för matlagning som tex stekpannor, kastruller, bestick, tallrikar glas och diverse köksredskap. \n● Lägenheten har även 1:a klassad säkerhetsdörr och egen brevlåda utanför dörren.\n● Bredband ingår.\n● Tvättstuga ingår.\n● Cykelrum ingår \n● Sophämtnin\n\nJag jobbar skift. Är djur & rökfri, dricker ej alkohol och är en lugn person som söker en inneboende som också är en lugn person som är skuldfri, djur och rökfri och inte tar hem folk till bostaden då det är viktigt att vi respekterar varandra och varandras olika tider som man gemensamt tar hänsyn till.\n\nDet är ett lugnt härligt attraktivt område i hjärtat av Göteborg.\nI trapphuset har vi alla en god och fin respekt till varandra.\n\nKrav: \n\n● Hemförsäkring. (Skall uppvisas vid inflytt)\n● Särskildpostadress som skall visas vid inflytt (ej folkbokföring) \n● Skuldfri, skall visas upp.\n● Deposition på 2 månader. Som betalas tillbaka såvida allt gått korrekt till vid hyrning av bostaden och inga fel eller lagar brutits. \n● Djur & drog/rökfri. \n● Vid förfrågan av att ha gäster på besök ska det ske i samråd med mig som uthyrare för godkännande. \n● Inga fester eller massa alkohol/fylla eller narkotika samt djur i bostaden.\n● OBS. Då elen & nätverk så är den rörlig så månadsvis ska den delas upp mellan oss båda, att vi betalar lika mycket. \n● Rummet hyrs ut till endast person, ej par eller barn eller annan anhörig, osv.\n\nOm fler krav eller regler dyker upp så kommer det isåfall tas upp vid vidare prat om uthyrningen.\n\nEn god kommunikation och full respekt mellan varandra, samt att samtliga krav uppfylls så ska kommer du nog trivas jättebra som hyresgäst ihop med mig.\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ostgatan, Göteborg",
+    "url": "https://qasa.com/p/1465705",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9fde64fff328ec5c8b54f38b57fa1e1c66b0a8b0ebf3b3ebd425b1f1e1d0a1c8.jpg",
+    "description": "Jag är pensionär och ofta hemma dagtid. Passar studenter eller pendeljobbare, eller boende för några månader. Helst en kvinnlig student. \n\nUthyrning av litet, möblerat rum 7 m2. Delad toalett med den andra boende, studenten och delad dusch. Bor högst upp, våning 9.  Lugnt område. Fin utsikt. 100 m till busshållplats och 10 minuter till Korsvägen, ca 15 minuter härifrån till Chalmers. Bussarna går var 15 minut. Det finns en välsorterad mataffär i närheten. I detta område, Kallebäck byggs det mycket just nu. Cykel förråd finns.\n\nLägenheten har 4 r o k. En gästtoalett och en större med dusch. Gemensam tvättstuga i källare, lätt att få en tvättid. Ingår värme, vatten och el i hyran. Uthyrning enligt överenskommelse. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 7.0,
+    "rent": 5000,
+    "floor": 9,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Solståndsgatan, Göteborg",
+    "url": "https://qasa.com/p/1465645",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0f281a843cf8854995d109b2e1d4c3ade2931f22224628577f9eabb0d91a4bc0.jpg",
+    "description": "Bra planering då våra sovrum ligger en bit ifrån varandra.\nOmrådet är jättelungt och bra grannar.\nNära skog för promenader eller plocka svamp/bär.\nPå torget finns Hemköp,Apotek, Bibliotek och mycket mera.\n7 min gångväg till spårvagnarna/torget. 7,11 och 6:ans spårvagn går och tar ca 13-14 min till centralstationen.\n\nJag söker någon trevlig och morgontrött som SKA jobba heltid eller ha heltidsstudier i skolan.\nStudieintyg eller anställningsbevis krävs innan kontrakt påskrivet.\nOch ha ett aktivt fritidsliv.\nMinst 30+ år och tala bra svenska så vi kan kommunicera gott😊 och undvika missförstånd.\n\nDu ska också ha i åtanke att du flyttar in hos mig och att man måste visa hänsyn.\nDu ska ha tecknat egen hemförsäkring som inneboende innan inflyttning är ett KRAV.\n\nPorslin och så delas men mat, kryddor och annat liknande,täcke,handuk,kuddar,lakan och så står du själv för.\nJa,allt utom köksredskap står du själv för.\nVi städar efter oss!\n\nLÄS NOGA ANNONSEN SAMT HYRESKONTRAKT innan du bestämmer dig så du är med på vad som gäller.\nHyresavtal är bindande med 3 månaders uppsägningstid om vi inte kommer överens om annat.\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Landsvägsgatan, Göteborg",
     "url": "https://qasa.com/p/1465528",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e1f9b136edccb5cb8e61df38904ef6f331d19215e26099099616ebe8259f43c.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Johan Gertssons Gata, Göteborg",
-    "url": "https://qasa.com/p/1465428",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/757e4972719a107fc126e562c7af30af85c969f52605ba94c45899483495d509.jpg",
-    "description": "Charmig 1,5:a på 37 kvm belägen på våning 2 i huset med härligt ljus och fin utsikt. Den öppna ytan ger plats för både vardagsrum och sovhörna, och det moderna köket gör matlagningen enkel och rolig. Från balkongen kan du njuta av solen och lugnet.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 10000,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skogsmilsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1465370",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/979238730bce16dee4b0b0fd3fb25d056645f8c49b2bcd2190711167ffec376d.jpg",
-    "description": "Fin och trevlig 2a uthyres under November/December månad pga jobb på annan ort. \nLägenheten ligger i ett tryggt och trevligt område med många barnfamiljer. \n\n- Ca 200m till spårvagn där 1an, 7an och 8an går\n- Närhet till Frölunda Torg, Axel Dahlströmstorg mm\n- Gemensam bastu i bostadsföreningen\n- Nyligen inglasad balkong, innebär att man kan sitta där även på vintern\n- Bra med förvaringsutrymmen (walk in closet, källarförråd)",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 11400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Seglaregatan, Göteborg",
-    "url": "https://qasa.com/p/1465274",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5345e03af27d0b8ec163080a17d3b4f7dd6c60bef6fbef793fe4ef2b026c2099.jpg",
-    "description": "Ljus och välplanerad tvåa på 42 kvm med fin utsikt och inglasad balkong. Lägenheten hyrs ut möblerad och är redo för inflytt.\n\nPlanlösningen består av vardagsrum med inglasad balkongen, sovrum, kök och helkaklat badrum med egen tvättmaskin.\n\nLägenheten ligger i ett lugnt och trevligt område med cirka 5 minuters promenad till spårvagn, som tar dig smidigt in till centrala Göteborg. Hemköp och annan service finns i närheten.\n\nI föreningen finns flera gemensamma faciliteter som bastu, gym, pingisrum, uteplatser med grillmöjligheter, cykelförvaring och en bra gemensam tvättstuga.\n\nLägenheten hyrs ut eftersom jag ska flytta ihop med min sambo.\n\nIngår i hyran: el/värme/vatten/bredband\n\nObs! Har renoverat och bytt möbler från det som är på många bilder ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 43.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T05:00:42+00:00", "clock": "05:00:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-19T09:24:50+00:00", "clock": "09:24:50"};
