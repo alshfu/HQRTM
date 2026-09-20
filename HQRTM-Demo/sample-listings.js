@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Doktor Bex Gata, Göteborg",
+    "url": "https://qasa.com/p/1466493",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53036493b1140fbe5d695a4289b2e909d746af0646597446350bd1a5602c8794.jpg",
+    "description": "Charmig tvåa med balkong på Guldheden.\nDet är en bra planerad lägenhet på 54kvm på andra våningen. Den kommer omöblerad!\nBra kommunikation till spårvagn och Doktor Fries torg.\n\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Regementsvägen, Göteborg",
     "url": "https://qasa.com/p/1466369",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fefd6d25d5093492ebe2b3e6a63ac0c5c094f0ec42a85729653ad166da0f7652.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1466209",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/005d8cf162aa7b4fb7bf2157d4b2ca12d902d0c31de8f4e3d4b0a0b93fdba083.jpg",
-    "description": "Modern villa från 2022 med stor terrass, garage, solceller och flexibla ytor\n\nVälplanerad och rymlig villa om 163 kvm, byggd 2022, med fyra sovrum, två badrum, ett allrum och ett vardagsrum. Generösa sociala ytor och ett fint ljusinsläpp. Huset ligger på en tomt om 1 012 kvm och erbjuder gott om plats för både familjeliv, arbete hemifrån och umgänge.\n\nPå övervåningen finns en öppen planlösning där kök, matplats, ett sovrum och vardagsrum binds samman till en stor och social yta. Här finns även eldstad och utgång till den generösa terrassen, med gott om plats för både matgrupp och loungemöbler.\n\nPå bottenvåningen finns tre sovrum samt ett separat allrum. Allrummet är förberett med framdraget vatten och avlopp, vilket ger extra flexibilitet för framtida användning och möjlighet att exempelvis inreda en separat köksdel vid behov.\n\nHuset har två badrum samt separat tvättstuga. Materialvalen är moderna och huset är genomgående ljust och funktionellt planerat.\n\nFastigheten är utrustad med solcellsanläggning och batterilagring, vilket bidrar till att hålla elkostnaderna nere. Till huset hör även ett uppvärmt garage om cirka 20 kvm, och på tomten finns möjlighet att parkera flera bilar.\n\nDen stora tomten och terrassen ger gott om utrymme utomhus, samtidigt som huset erbjuder en ovanligt flexibel planlösning med både stora gemensamma ytor och flera separata rum.\n\nVarför bostaden hyrs ut?\nHuset hyrs ut eftersom ägarna har separerat och därför inte längre kommer att bo kvar i huset tillsammans. Bostaden hyrs ut under tiden en mer långsiktig lösning för fastigheten tas fram. \n\nVad som ingår i hyran?\nSophämtning och trädgårdsskötsel. Fastighetsförsäkring. Hyresgästen betalar för egen hemförsäkring. \n",
-    "district": "Västra Frölunda",
-    "rooms": 6.0,
-    "area_m2": 163.0,
-    "rent": 27000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-20T14:44:30+00:00", "clock": "14:44:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-20T17:42:16+00:00", "clock": "17:42:16"};
