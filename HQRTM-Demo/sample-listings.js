@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Penselgatan, Göteborg",
+    "url": "https://qasa.com/p/1466586",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca403594190082a0dc3dcbdc4ca560c8086073ba4c7ca3ae11fdbfeb76ba9de9.jpg",
+    "description": "Jag hyr nu ut min fina lägenhet i Kvillebäcken då jag flyttat ihop med min sambo. Lägenheten ligger på 5e våningen och är på 56 kvadrat. I västerläge finns en stor inglasad balkong som kan nyttjas stora delar av året. I området finns det både gott om mataffärer, restauranger, barer, affärer och annat som man kan tänkas vilja ha nära till hands. Om man ska längre bort så har man Hjalmar Brantingsplatsen inom 5 minuter gång vilket tar en snabbt in till centrum.\n\nTanken är att lägenheten hyrs ut delvis möblerad men detta är flexibelt så vi kan komma överens innan om vad som ska stå kvar vad som ska tas bort. Lägenheten är tillgänglig i stort sätt direkt och uthyrningsperioden är 12 månader till att börja med.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Famngatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1466508",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8463eb2eb5670510a54fb66fd9cad882808804219f8d562e8f1dc85df7cbbd0b.png",
+    "description": "Vacker 2a med mycket fönster i östlig riktning. Överst i huset så inga grannar ovanför. Fräsht badrum och öppet kök/vardagsrum för dig som gillar sol. En balkong i öster läge med sol fram till 8 på de flesta kvällar. \n\nSpårvagn 1,7 och 8 går från Nymilsgatan som ligger 4 minuters gångväg bort. Nära till både stan och Frölunda Torg, närmaste affärer är en livs 2 minuter bort och en Lidl med ca 7 minuter gång. Pizzeria och sushi ligger också inom 3 minuters gång. \n\nHyr ut tillfälligt då jag nyligen flyttat ihop med flickvännen.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Doktor Bex Gata, Göteborg",
     "url": "https://qasa.com/p/1466493",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/53036493b1140fbe5d695a4289b2e909d746af0646597446350bd1a5602c8794.jpg",
@@ -35,8 +65,8 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Nolviksvägen, Torslanda",
     "url": "https://qasa.com/p/1466323",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f8bbdccf1f0387ebeea9d29f3ffbb696f55d7bb5d7e160f25e2e1c9064de0656.jpg",
-    "description": "Nu finns möjlighet att hyra en rymlig och totalrenoverad villa på 202 kvm i Björlanda. Ett trivsamt boende med stora sociala ytor, flera sovrum och en härlig tomt – perfekt för dig som vill bo naturnära men samtidigt ha nära till Göteborg.\n\nOm bostaden\n\nVillan byggdes till och totalrenoverades 2014 och erbjuder 202 kvm boyta.\n\nPlanlösning:\n\n3–5 sovrum\nStort kök och vardagsrum i öppen planlösning\nRyggåstak och öppet till nock\nFlera allrum/extra rum\n2 helkaklade badrum med golvvärme\nGästtoalett\nTvättstuga med tvättmaskin och torktumlare\nGott om förvaring\nKamin\nStor altan och rymlig gräsmatta\n\nKöket har gott om arbetsyta, stor bardel, rostfria vitvaror och ett praktiskt walk-in-skafferi. Från vardagsrummet finns utgång till altanen genom stora öppningsbara Hajom-partier, vilket skapar en härlig övergång mellan inne och ute.\n\nPå övervåningen finns ytterligare sovrum och ett stort allrum som kan användas som exempelvis kontor, TV-rum eller extra sovrum.\n\nLäget och kommunikationer\n\nHär bor du lugnt och naturnära i Björlanda med närhet till hav, natur och Göteborg. Björlanda Kile ligger i närheten och området erbjuder fina möjligheter till promenader, båtliv och friluftsliv.\n\nFörskola och skolor finns i närområdet och busshållplats ligger endast cirka 100 meter från huset.\n\n🚗 Ca 10 minuter till Volvo\n🚗 Ca 25 minuter till Göteborg city\n🚌 Ca 100 meter till busshållplats\n🌊 Nära Björlanda Kile\n\nVad ingår i hyran?\n\nI hyran ingår internet, parkering och sophämtning\n\nDriftskostnader som el och värme hanteras av hyresgästen\n\nVarför hyr vi ut?\n\nVi hyr ut bostaden eftersom  vi själva kommer att bo på annan ort under en längre period. Vi söker därför en skötsam och ansvarsfull hyresgäst som vill ta väl hand om huset och trivas här.",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b78db94040fcdea67c5a1b7fed11fc22e16769fec65a4e033a9372d1fb69666c.jpg",
+    "description": "Nu finns möjlighet att hyra en rymlig och totalrenoverad villa på 220 kvm i Björlanda. Ett trivsamt boende med stora sociala ytor, flera sovrum och en härlig tomt – perfekt för dig som vill bo naturnära men samtidigt ha nära till Göteborg.\n\nOm bostaden\n\nVillan byggdes till och totalrenoverades 2014 och erbjuder 220 kvm boyta.\n\nPlanlösning:\n\n3–5 sovrum\nStort kök och vardagsrum i öppen planlösning\nRyggåstak och öppet till nock\nFlera allrum/extra rum\n2 helkaklade badrum med golvvärme\nGästtoalett\nTvättstuga med tvättmaskin och torktumlare\nGott om förvaring\nKamin\nStor altan och rymlig gräsmatta\n\nKöket har gott om arbetsyta, stor bardel, rostfria vitvaror och ett praktiskt walk-in-skafferi. Från vardagsrummet finns utgång till altanen genom stora öppningsbara Hajom-partier, vilket skapar en härlig övergång mellan inne och ute.\n\nPå övervåningen finns ytterligare sovrum och ett stort allrum som kan användas som exempelvis kontor, TV-rum eller extra sovrum.\n\nLäget och kommunikationer\n\nHär bor du lugnt och naturnära i Björlanda med närhet till hav, natur och Göteborg. Björlanda Kile ligger i närheten och området erbjuder fina möjligheter till promenader, båtliv och friluftsliv.\n\nFörskola och skolor finns i närområdet och busshållplats ligger endast cirka 100 meter från huset.\n\n🚗 Ca 10 minuter till Volvo\n🚗 Ca 25 minuter till Göteborg city\n🚌 Ca 100 meter till busshållplats\n🌊 Nära Björlanda Kile\n\nVad ingår i hyran?\n\nI hyran ingår internet, parkering och sophämtning\n\nDriftskostnader som el och värme hanteras av hyresgästen\n\nVarför hyr vi ut?\n\nVi hyr ut bostaden eftersom  vi själva kommer att bo på annan ort under en längre period. Vi söker därför en skötsam och ansvarsfull hyresgäst som vill ta väl hand om huset och trivas här.",
     "district": "Torslanda",
     "rooms": 6.0,
     "area_m2": 220.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stenberga, Olofstorp",
-    "url": "https://qasa.com/p/1466277",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8f1ab6ff4087eb41aaf044c34059f3c69c97dd1bcb028fdb4081637ee6c1ce1f.png",
-    "description": "Rymlig bostad i Stenberga, Olofstorp – ca 110 m² med 3 sovrum\n\nNu finns möjlighet att hyra en rymlig bostad på ca 110 m²  Stenberga 1  Olofstorp. Bostaden har 3 sovrum, generösa sällskapsytor och egen separat ingång.\n\nBostaden ligger med bra kommunikationer. Busshållplats finns precis vid fastigheten och bussen tar cirka 25–30 minuter in till centrala Göteborg. Parkering ingår.\n\nPå bottenvåningen i byggnaden planeras en pizzeria med helt separat verksamhet och ingång. Bostaden ligger på övervåningen och är avskild från lokalen.\n\nInformation:\n\n* Ca 110 m²\n* 3 sovrum\n* Egen separat ingång\n* Hyra: 13 000 kr/mån\n* Parkering ingår\n* El tillkommer\n* Deposition: 2 månadshyror\n* Förstahandskontrakt\n* Tillgänglig från 1 november 2026\n* Bra bussförbindelser till centrala Göteborg\n\nVi söker skötsamma och seriösa hyresgäster som vill bo långsiktigt. Vid intresse är ni välkomna att höra av er och berätta lite om er själva.",
-    "district": "Olofstorp",
-    "rooms": 4.0,
-    "area_m2": 110.0,
-    "rent": 13000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bagaregårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1466214",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a43ceb20ea71521294c7605c66dc76773482f85e7f20d79f6c5cf8527ba9240e.png",
-    "description": "Lägenhet i landshövdingehus, 3 rok, 75 kvm, Bagaregården\n\nLägenheten hyrs ut januari till juni 2027 under en forskningsvistelse i Japan. Ej möjlighet till förlängning. \n\nPlanlösningen har ett sovrum på vardera sida om hallen. Det ena är ett dubbelrum med garderober, det andra ett mindre rum med bäddsoffa, inbyggd hylla i nisch och fönster mot trädkronor. Kök och vardagsrum ligger i öppen planlösning. Vardagsrummet har fiskbensparkett.\n\nKöket är renoverat med pärlspont, mörk bänkskiva, induktionshäll, inbyggnadsugn, micro och diskmaskin, samt plats för matbord vid fönstret. Badrummet är helkaklat med dusch och tvättmaskin. Förvaring finns i hall och sovrum.\n\nTill huset hör en innergård med gemensam grill och lekplats. \n\nOmrådet\nBagaregården är ett lugnt landshövdingehusområde i östra Göteborg. Härifrån är det kort spårvagnsresa till centrum via Redbergsplatsen, där det också finns mataffärer, apotek och kaféer. Delsjöområdet och Härlanda tjärn ligger inom räckhåll för promenad eller en kort cykeltur, och Östra sjukhuset ligger också nära med spårvagn eller cykel.\n\nÖvrigt\nLägenheten hyrs ut möblerad. El, internet och tv ingår i hyran. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-20T17:42:16+00:00", "clock": "17:42:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-20T19:48:15+00:00", "clock": "19:48:15"};
