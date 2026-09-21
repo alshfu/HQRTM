@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Cederflychts Gata, Hisings Backa",
+    "url": "https://qasa.com/p/1467429",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1f1ad189a1186d6e64e8cb2e1f536c5fbd67d8397b79cd1dd9ae902398bd4da4.jpg",
+    "description": "Lägenheten om 53 kvm är rymlig och välplanerad med kök, badrum, stort vardagsrum och sovalkov. Där till finns ett inglasat uterum som blir en förlängning av lägenheten och vätter ut till den egna uteplatsen på husets baksida där det är sol från eftermiddag till kväll. \n\nLägenheten har även egen ingång med en stenlagd uteplats samt gräsyta vid entrén. Här är det österläge vilket innebär att det är en perfekt plats att avnjuta morgonkaffet. \n\nDet finns möjlighet till att hyra parkeringsplats om så önskas. Åker man kollektivt finns det goda anslutningar med exempelvis expressbuss som tar dig till innerstan på 9 minuter. Det finns olika hållplatser att tillgå, med promenad avstånd på cirka 10 minuter. \n\nHALL\nVälkommen in i en rymlig hall med plats för avhängning av skor och ytterkläder direkt till höger. Här finns gott om plats för förvaring i 6 st garderober. \n\nBADRUM\nDirekt till vänster ligger bostadens helkaklade badrum. Här finns badkar, wc, handfat med kommod och spegelskåp, kombinerad tvätt och torkmaskin samt skåp för förvaring.\n\nKÖK\nTill vänster från hallen ligger köket. Här finns plats för en stor matplats för 4-6 personer. Köksinredningen är vit med rostfria handtag.\nHär finns kyl/frys, inbyggnadsugn, mikro, spishäll samt diskmaskin. Köket renoverades 2025 med ny bänkskiva i ljus ek, nytt laminat golv samt ny kyl och frys. Även väggarna är nymålade sedan 2025. \n\nVARDAGSRUM\nRakt fram från hallen ligger bostadens vardagsrum med sovalkov. Här finns gott om plats för både säng, stor soffgrupp och förvaring. Väggarna är målade i vitt med undantag från en grå/grön fondvägg och golvet pryds av laminat.\n\nFrån vardagsrummet har du utgång till uterummet och uteplatsen som har plats för stort matbord som finns att tillgå. \n\nVad som ingår i hyran: \n- Varm och kallvatten \n- El \n- Kabel TV \n- Bredband",
+    "district": "Hisings Backa",
+    "rooms": 1.5,
+    "area_m2": 53.0,
+    "rent": 8490,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Köldgatan 29, Göteborg",
+    "url": "https://qasa.com/p/1467454",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/baff7fec0dfe8000cbbfacc139ab4df80e4666e9af6b4a4ea163ff1450b5493a.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till en fin och välplanerad lägenhet på 1 rum och kök som genomgick ett Willhemlyft år 2014.\n\nDe lägenheter som renoveras enligt Willhemlyftet har bland annat modern kokvrå med elspis och rostfri kombinerad kyl/frys, det finns även förberedelse för diskmaskin.\n\nBadrummet är helkaklat och det finns förberedelse för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nI lägenheten finns fibernät indragen och hyresgästen får själv teckna abonnemang avseende el och internet/telefoni. Hyran inkluderar värme & vatten.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 47.0,
+    "rent": 6968,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bågskyttebacken, Göteborg",
     "url": "https://qasa.com/p/1467409",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/074c5731e07aff9de5a916ed45078ff427f0cba9ae0f4d009dc11627d3cd9bc4.jpg",
@@ -21,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Godemansgatan, Göteborg",
     "url": "https://qasa.com/p/1467406",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9af469ff3942237f07ae63c581b8a93de2f1c5c930fb052c830f4414a533b764.jpg",
-    "description": "En kvadratsmart etta om 38 kvm på Godemansgatan 9D! \nGenomgångsplanlösningen erbjuder ljusinsläpp från två väderstreck,  bostaden upplevs luftig och ljus. \nGolv i stora rummet har fiskbensparkett och fönsterbrädor av sten. Köket är praktiskt utformat och välutrustat för vardagen, vardagsrummet är lätt att möblera med nyinsatt skjutdörrsgarderob samt nyrenoverat badrum från 2021. \n\nLäget är väldigt bra med gångavstånd till backaplan och kville saluhall. Närmsta spårvagnshållplats är Vågmästareplatsen och Hjalmar brantningsplatsen som tar dig in till stan på 5min.\n\nFör den naturintresserade finns grönområden på behändigt avstånd som Keillers park eller Hisingsparken.\n\nI hyran ingår el, värme, vatten och internet och parkering.",
+    "description": "English below😃\nEn kvadratsmart etta om 38 kvm på Godemansgatan 9D! \nGenomgångsplanlösningen erbjuder ljusinsläpp från två väderstreck,  bostaden upplevs luftig och ljus. \nGolv i stora rummet har fiskbensparkett och fönsterbrädor av sten. Köket är praktiskt utformat och välutrustat för vardagen, vardagsrummet är lätt att möblera med nyinsatt skjutdörrsgarderob samt nyrenoverat badrum från 2021. \n\nLäget är väldigt bra med gångavstånd till backaplan och kville saluhall. Närmsta spårvagnshållplats är Vågmästareplatsen och Hjalmar brantningsplatsen som tar dig in till stan på 5min.\n\nFör den naturintresserade finns grönområden på behändigt avstånd som Keillers park eller Hisingsparken.\n\nI hyran ingår el, värme, vatten och internet och parkering.\n\n\nENGLISH 🤗\nA smartly designed 38 m² one-bedroom apartment at Godemansgatan 9D!\n\nThe through-apartment layout allows natural light to enter from two directions, making the home feel bright, spacious, and airy.\n\nThe main room features beautiful herringbone parquet flooring and stone windowsills. The kitchen is practical and well-equipped for everyday living, while the living room is easy to furnish and includes a newly installed sliding-door wardrobe. The bathroom was newly renovated in 2021.\n\nThe location is excellent, within walking distance of Backaplan and Kville Saluhall. The nearest tram stops are Vågmästareplatsen and Hjalmar Brantingsplatsen, with trams taking you into the city centre in approximately 5 minutes.\n\nFor those who enjoy nature, there are green areas within easy reach, such as Keillers Park and Hisingsparken.\n\nElectricity and heating are included in the rent.",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 38.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sundshagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1466378",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac6c9601cd8d659f4784ee42531efd83d33aa416e25846395bb8ae6d15659f96.jpg",
-    "description": "Central, rymlig tvårumslägenhet 85 kvadratmeter på 2:a våningen i tvåfamiljsvilla i charmiga Kungsladugård precis intill Slottsskogen. Toppenläge nära stan, kommunikationer, grönområden och havet. Lägenheten har  1 hall ,1 sovrum och 1 vardagsrum i fil, stort kök med matplats för 6-8 personer och stort fräscht badrum med både dusch och badkar. Det finns även ett litet utrymme som kan användas som kontor alt. förråd. Utgång från vardagsrum till balkong i soligt läge med utsikt över lummiga trädgårdar. ( Ej tillgång till hyresvärdens trädgård). Delad  tvättstuga med tvättmaskin och torktumlare i källaren. Tillgång till 1 förråd i källaren. Möjlighet till boendeparkering på gatan. Cykel kan förvaras i garage vid behov.\nNågra minuters promenad till mataffär, spårvagnshållplatser och utegym. \n10 min promenad till Mariaplan med restauranger, caféer och affärer.\n20 min promenad till Linnéplatsen , Botaniska trädgården och naturområdet Änggårdsbergen. \n25 min promenad till Sahlgrenska Universitetssjukhuset.\n\nLägenheten uthyres omöblerade  tills vidare till 1-2  lugna, ansvarsfulla, rökfria personer utan barn och utan husdjur. Fast inkomst. Inga betalningsanmärkningar. \n\nI kostnaden ingår:\nHyra, elnät, elförbrukning, fjärrvärme, vatten, sophämtning, fiber /WiFi. \n ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 85.0,
-    "rent": 16500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värslevägen, Askim",
-    "url": "https://qasa.com/p/1467139",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6c2b60aca115bffac66ac75240d7186a9df16357c0f3f377a7d90a790cc8d3a.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 10000 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/czulsfih9t7lz2cv36id/vastra-gotaland/askim/varslevagen-39/1-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nHej! Jag hyr nu ut min 1: a på Värslevägen 39 i Askim.\r\n\r\nPraktisk information:\r\n📐 1 rum, 37,3 m²\r\n💰 Hyra: 8 700 kr/mån\r\n📅 Uthyres i 6 månader, med möjlighet till förlängning\r\n🔑 1 månads uppsägningstid\r\n🌿 Egen uteplats\r\n🛋️ Möblerad – säng ingår ej\r\n🌐 Bredband ingår ej\r\n⚡ El och vatten ingår i hyran\r\n🚗 Parkering finns att hyra för 200 kr/mån\r\n📦 Förråd finns\r\n📅 Inflyttning: 1 oktober eller enligt överenskommelse\r\n\r\nViktigt att känna till:\r\nLägenheten är för närvarande ute till försäljning. Det innebär att en försäljning kan komma att ske under hyresperioden och att visningar därför kan behöva genomföras. Visningar planeras självklart med god framförhållning och i samråd med hyresgästen.\r\n\r\nOm lägenheten säljs gäller 1 månads uppsägningstid.\r\n\r\nLåter det intressant? Skicka gärna ett meddelande och berätta lite om dig själv, din sysselsättning och när du önskar flytta in.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 10000 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 9438,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-21T20:20:49+00:00", "clock": "20:20:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-21T23:24:08+00:00", "clock": "23:24:08"};
