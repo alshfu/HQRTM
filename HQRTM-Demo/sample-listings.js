@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kosmosgatan 8, Göteborg",
+    "url": "https://qasa.com/p/1467521",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9beda04136d5818fa5ab9377ce07b6aaf5cda3db2336341925ed50ac517dc236.png",
+    "description": "Välkommen hem till denna välplanerade lägenhet på 46 kvadratmeter! Här erbjuds ett stilrent och modernt boende där varje detalj är noggrant utvald för att skapa en trivsam och funktionell vardag.\n \nSamtliga väggar och tak i lägenheten har målats i ljusa färger. En säkerhetsdörr är installerad för att ge dig en extra trygg känsla i vardagen. I hallen möts du av ett snyggt och praktiskt klinkergolv som både tål slitage och ger ett välkomnande intryck. I resten av hemmet ligger ett elegant ekparkettgolv som ger både värme och karaktär åt bostaden.\n \nDet helkaklade badrummet är utrustat med både klinker och kakel, och har även försetts med en handdukstork och en spegel. Köket, hemmets hjärta, är välutrustat med inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kombinerad kyl och frys. Här finns gott om utrymme för både matlagning och gemenskap. I direkt anslutning hittar du även balkongen, perfekt för dig som gillar att sitta ute och njuta av vädret och utsikten.\n \nI hyran ingår värme, vatten och kabel-TV med basutbud.\nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma. Normalt slitage kan förekomma i lägenheten.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad med 2026 års hyresnivå.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 46.0,
+    "rent": 7941,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/760675",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/2b9c37d4760135f343757f2c7c2c0c263c3e66bfcdf932b3f7a21f52942a4c15.jpg",
@@ -43,21 +58,6 @@ window.HQRTM_SAMPLE = [
     "rent": 8490,
     "floor": null,
     "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Köldgatan 29, Göteborg",
-    "url": "https://qasa.com/p/1467454",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/baff7fec0dfe8000cbbfacc139ab4df80e4666e9af6b4a4ea163ff1450b5493a.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till en fin och välplanerad lägenhet på 1 rum och kök som genomgick ett Willhemlyft år 2014.\n\nDe lägenheter som renoveras enligt Willhemlyftet har bland annat modern kokvrå med elspis och rostfri kombinerad kyl/frys, det finns även förberedelse för diskmaskin.\n\nBadrummet är helkaklat och det finns förberedelse för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nI lägenheten finns fibernät indragen och hyresgästen får själv teckna abonnemang avseende el och internet/telefoni. Hyran inkluderar värme & vatten.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 47.0,
-    "rent": 6968,
-    "floor": null,
-    "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T01:43:07+00:00", "clock": "01:43:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T06:49:18+00:00", "clock": "06:49:18"};
