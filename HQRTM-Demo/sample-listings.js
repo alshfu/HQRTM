@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Terrassgatan, Göteborg",
+    "url": "https://qasa.com/p/1468225",
+    "image_url": null,
+    "description": "Unik representationsvåning om 220 kvm (6 rok) i hjärtat av Lorensberg\n\nEtt sällsynt tillfälle att hyra en fantastisk våning om cirka 220 kvm på Terrassgatan, på en av Göteborgs mest attraktiva adresser.\n\nDet här är en klassisk representationsvåning med en rymd och karaktär som är svår att hitta på hyresmarknaden. Högt i tak, vackra trägolv och stora, ljusa rum skapar en elegant men samtidigt varm och hemtrevlig känsla.\n\nVåningens generösa sällskapsrum ligger i klassisk fil med vackra skjutdörrar emellan. Dörrarna kan öppnas upp för att skapa stora sammanhängande ytor för middagar, umgänge och representation, eller stängas när man vill skapa mer separata rum.\n\nBostaden erbjuder fyra sovrum och gott om plats för en större familj. Här finns ett badrum samt separat gästtoalett. En av våningens verkligt ovanliga kvaliteter är de fyra balkongerna, som tillsammans med de stora fönsterpartierna och takhöjden förstärker känslan av ljus och rymd.\n\nPlanlösningen gör bostaden särskilt attraktiv för en familj som vill bo centralt utan att kompromissa med yta, eller för en internationell executive eller företagsledning som söker ett representativt hem under en längre vistelse i Göteborg.\n\nLäget på Terrassgatan i Lorensberg är svårslaget. Här bor man i ett av Göteborgs mest etablerade och eftertraktade bostadsområden, med stadens restauranger, kultur, shopping, skolor och kommunikationer på bekvämt avstånd.\n\nI korthet:\n• cirka 220 kvm\n• fyra sovrum, totalt 6 rum \n• fyra balkonger\n• stora sällskapsrum i fil\n• högt i tak\n• vackra trägolv genomgående\n• klassiska skjutdörrar\n• ett badrum\n• separat gästtoalett\n• mycket generösa sociala ytor\n• representativ bostad på attraktiv adress i Lorensberg\n\nEn ovanlig bostad för den som söker ett stort, vackert och representativt hem mitt i Göteborg.\n\nLångtidsuthyrning prioriteras. Bostaden lämpar sig mycket väl för företagsuthyrning och internationell relocation.",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 210.0,
+    "rent": 30000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "musikvägen , Västra Frölunda",
+    "url": "https://qasa.com/p/1468116",
+    "image_url": null,
+    "description": "Endast för dig som pendlar.. ej heltidsbonde \n\n30kvm med sjysst planlösning, separat kök, badrum och liten hall med förvaring. \n\nAllting ingår i hyran, el, värme, vatten, internet, parkering. ",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Oterdahlsgatan, Göteborg",
     "url": "https://qasa.com/p/1466705",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d40dff9b9c5a9845dc0d53caabbc0bc60cb63f2bde043899541896f9215b8e57.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1467832",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e71f1a6612f82a1ce31de492962b4326a2ebbeffd191aa810ca30accbf933c95.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 21275 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/ugvqedlkbw8eutnltimh/vastra-gotaland/goteborg/lodjursstraket-1/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nI Nordens högsta skyskrapa, Karlatornet, kan du nu hyra en fullt möblerad 3-rumslägenhet.\r\nMed utsikt över Lindholmsallén och delar av hamninloppet är denna lyxlägenhet på 5:e våningen tillgänglig för långtidsuthyrning.\r\n\r\nMed exklusiv inredning unikt designad för Karlatornet bor du här med högsta nyproduktionsstandard i form av ett modernt HTH-kök med integrerade vitvaror, ekparkett och ett helkaklat stilrent badrum. Lägenheten är också smakfullt inredd, allt för ett bekvämt boende.\r\n\r\nUtöver detta finns även lyxiga faciliteter som en reception där du kan beställa rumsservice eller boka städning. I huset kommer det även att erbjudas gym, bilpool, co-working area, privat biorum, gemensam eventlokal på plan 15 kopplat till en stor takyta, kylrum i entréplan för matleverans, spa och restaurang. Det kommer även att finnas en skybar på plan 69 med en förtrollande utsikt! På tröskeln öppnar sig ett nytt kvarter med ett ännu bredare serviceutbud.\r\n\r\nFrån Lindholmen finns goda kommunikationer med både buss och båt.  Med Älvsnabben båt når du city inom 10 minuter. Med buss åker du till Brunnsparken på 9 minuter och Frölunda Torg på 19 minuter.\r\n\r\nI hyran ingår: Gym, Internet, Elektricitet (normal användning), Uppvärmning, Vatten (normal användning)\r\n\r\nOBS! Handläggningstiden för godkännande av hyresgäst från bostadsrättsföreningen kan ta upp till 4 veckor.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 21275 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 73.0,
-    "rent": 20080,
-    "floor": 5,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillekärr Södra, Hisings Kärra",
-    "url": "https://qasa.com/p/1467747",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66678e1d40ebef8e0443641a1be8876853b7ec48f1292c3f00f8e51212bdcba7.webp",
-    "description": "Hyr ut min fina bostadsrätt i Hisings Kärra pga test av samboende. \n\nUrsprungligen en trea, men omgjord till en fyra – så tre sovrum plus vardagsrum, totalt 75,5 kvm. Inglasad balkong finns.\n\nUthyres omöblerad under ett år, med möjlighet till förlängning.\n\n📍 Lillekärr Södra, Hisings Kärra\n🏠 4 rum (3 sovrum), 75,5 kvm\n🏢 Våning 2 av 2\n🌇 Inglasad balkong\n🚗 Parkering ingår\n📅 Inflyttning: 8 december\n💰 16 000 kr/mån\n\nOBS: Hyresgästen måste bli godkänd av föreningen.\n\nHör av dig om du är intresserad eller har frågor!",
-    "district": "Hisings Kärra",
-    "rooms": 4.0,
-    "area_m2": 75.0,
-    "rent": 16000,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T16:54:32+00:00", "clock": "16:54:32"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T20:00:58+00:00", "clock": "20:00:58"};
