@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Majorsgatan, Göteborg",
+    "url": "https://qasa.com/p/1468155",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19a1ee40f11cbf2670e35a0228419171108a011316f130fc2b2e243d87a1d10c.png",
+    "description": "En jättefin tvåa från början av 1900-talet, i en lugn och stilla BRF med gångavstånd till Göteborgs bästa sidor - Linnégatan och långgatorna, med både buss- och spårvagn i närheten. Den ligger lite högre upp och har därmed inga störande ljud från trafik eller nattliv. Finns en innergård med gemensamma bänkar och lekplats samt en liten plaskdamm. Gemensam yta för grill och gräsmatta finns också. Ut mot Vegagatan finns en stor och rymlig balkong, där jag brukar ställa fram en pallsoffa med kuddar och solskydds-duk sommarhalvåret.\n\nLägenheten är i gott skick, med fint framtaget trägolv, fungerande kakelugn, med kök och badrum som renoverades 2020-2021. Möblerna håller hög kvalitet och är i fint skick.  Vindsförråd finns en trappa upp från lägenheten och kan ges tillträde att dela på. I badrummet finns handdurkstork samt en tvättmaskin i halv-storlek, men det finns också en tvättstuga på markplan med 3 tvättmaskiner, 2 torktumlare och 1 torkskåp.\n\nVIKTIG INFO: Lägenheten ligger i försäljningsprocess. Jag jobbar heltid i Stockholm, och skulle därför behöva en hyresgäst som hyr kortsiktigt (3-6 mån perspektiv) med kort uppsägning, som dessutom kan vara flexibel och ge tillgång till mäklaren för visning (och kan hålla lite städat inför visningar). Hyr därför ut en bit under marknadspris för den flexibiliteten. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 14000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Eklandagatan, Göteborg",
+    "url": "https://qasa.com/p/1468246",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/49057375312ef45b72bb60ce221b0d822a7713076459e9fbe9091191920901a9.jpg",
+    "description": "Hej! Jag ska flytta ihop med min pojkvän och hyr därför ut min mysiga lägenhet i Johanneberg. Lägenheten ligger på 2:a våningen och är 31 kvadratmeter stor, den har 1 rum och kök. Väldigt centralt läge med fem minuters gångavstånd till Götaplatsen och Korsvägen, nära till både Chalmers och Göteborgs universitet. Närhet till flera fina parker, mataffärer och restauranger. Närmaste busshållplats är Carlandersplatsen som ligger precis bredvid lägenheten.\n\nLägenheten hyrs ut fullt möblerad och utrustad, med tillgång till gemensam tvättstuga, cykelrum, uteplats och ett eget förråd.\n\nI hyran ingår internet och varmvatten. El och gas tillkommer baserat på förbrukning (för mig brukar det vara omkring 500 kr i månaden totalt).\n\nInflyttningsdatum enligt överenskommelse, men senast 1/11. Uthyrning kan ske först efter godkännande från bostadsrättsföreningen. Godkännande ges 6 månader i taget. \n\nVid intresse får du gärna kontakta mig och berätta lite om dig själv, din sysselsättning och vilket datum du önskar flytta in. Jag söker en ansvarsfull hyresgäst som kommer ta god hand om lägenheten. Ingen rökning tillåts i lägenheten.\n\nKontakta mig gärna om du har fler frågor!\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 10000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Terrassgatan, Göteborg",
     "url": "https://qasa.com/p/1468225",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värslevägen, Askim",
-    "url": "https://qasa.com/p/1453126",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/dc771c81144e1eccab181d2876447938be7cc1bddedb41e2aa43023196578488.jpg",
-    "description": "Jag hyr ut min mysiga 1,5:a i Askim med öppen planlösning och stora fönster, då jag kommer befinna mig utomlands hela våren. Lägenheten är 35 kvm och har en 12 kvm uteplats med hängmatta och utemöbler att njuta på framåt vårkanten.\n\nBuss X2 går precis utanför lägenheten och tar 8 min till Marklansdsgatan, 10 min till Linnéplatsen, 14 minuter till Järntorget; knutpunkter som har bra kommunikation till hela stan. \n\nÅt andra hållet tar det endast 5 minuter för att komma till Nya Hovås med ICA, Apoteket, Systembolaget, restauranger och kaféer. \n\nAskims Torg med Sushirestaurang, pizzeria, thairestaurang, biblioteket osv ligger 5 minuter promenad bort. \n\nKöpområden som Frölunda Torg, Sisjön Handelscentrum och Köpcenter 421 ligger också i närheten. \n\nNaturen är väldigt nära och lättillgänglig, bara 5 minuters promenad bort ligger havet, och med många fina badplatser i närområdet och en promenad/cykelbana som i flera kilometer följer havet. \nEndast  15 min promenad bort finns ett stort skogs område med promenad/spring stråk och sjön Sisjön.  \n\nAskim är ett lugnt och tryggt område med mestadels villor. \n\nLägenheten vetter mot innergård, är väldigt tyst och har endast grannar åt ett håll. Alla grannar i uppgången är tysta och trevliga.  Hög häck och bambustaket gör att lägenheten är insynsskyddad. Ett privat, lugnt, tyst och trivsamt hem med närhet till stan och natur.\n\nDet finns en diskmaskin och finns även en parkeringsplats att tillgå. Två tvättmaskiner, torktumlare och torkrum finns i tvättstugan alldeles intill lägenheten, och ytterligare fem till tvättstugor finns tillgängliga i området, så man kan alltid tvätta.\n\nI hyran ingår allt, d.v.s el, vatten, internet osv. \n\nSöker en lugn och skötsam person som kan trivas i och ta väl hand om mitt hem medan jag är borta. ",
-    "district": "Askim",
-    "rooms": 1.5,
-    "area_m2": 37.0,
-    "rent": 8700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gyllenkrooksgatan, Göteborg",
-    "url": "https://qasa.com/p/1467814",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/67f25c5f977e5225139a7b4e35cb3f507eafb8483b0d7a5e4b26808be060fc6e.jpg",
-    "description": "Hej!\n\nNu finns möjligheten att hyra min lägenhet i Johanneberg. Lägenheten är en tvåa om 51 kvm högst upp i huset. Den är nyrenoverad (förutom badrummet) och har en öppen planlösning med gott om förvaring, härligt ljusinsläpp och en balkong med superfin utsikt.\n\nLägenheten ligger i attraktiva Johanneberg som är ett lugnt och trivsamt område med närhet till både grönområden och stadspuls med gångavstånd till Chalmers, Korsvägen, Liseberg och Avenyn, samtidigt som restauranger, caféer, matbutiker och goda kommunikationer finns i närområdet.  Inflytt önskas början oktober. \n\nHyran är 16 800 kr per månad, där el, vatten och internet ingår.  Hyran speglar läge, standard och att lägenheten hyrs ut fullt möblerad – endast seriösa intressenter.\n\nJag söker en ansvarsfull och skötsam hyresgäst med stabil ekonomi som kommer att ta väl hand om lägenheten.\n\nSkicka gärna ett PM och berätta lite om dig själv om du är intresserad!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 16800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T20:00:58+00:00", "clock": "20:00:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T22:53:42+00:00", "clock": "22:53:42"};
