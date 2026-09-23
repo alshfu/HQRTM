@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gårdstensvägen 113, Angered",
+    "url": "https://qasa.com/p/1468313",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66cb2449ed3191327ebebe6e5c1e7334d8dbb669c217df47e031700d6527a006.jpg",
+    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 7 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. ",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 10565,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Oskarsgatan 9, Göteborg",
     "url": "https://qasa.com/p/1468284",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10c499b74dff046b6bc620f9ffb6c5d247dba284b99b71e2ac97bf209d635049.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björkhöjdsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1468071",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b6ac4eaa3c51cc26ddc2e0ebd888ef9e6a1e232ddb3f3abec3b764c51ffb7821.jpg",
-    "description": "2:a på 69 kvm med uteplats uthyres – Västra Frölunda, Björkhöjdsgatan\n\nJag hyr ut lägenheten eftersom jag ska provsamboende.\n\nJag hyr ut min trivsamma 2:a på 69 kvm i Västra Frölunda. Lägenheten ligger i markplan med egen uteplats, i ett lugnt område nära affärer och kollektivtrafik.\n\nOm bostaden\n• 69 kvm, 2 rum och kök\n• Våning 0 med egen uteplats\n• Tvättmaskin och torktumlare\n• Parkering finns att hyra\n• Hyrs ut delvis möblerad eller omöblerad, enligt överenskommelse\n• Cirka 380m till smyckengatan busshållplats och 790m till Frölunda tog \n\nHyra och villkor\n• Hyra: 8900kr/ månad  (Bostadskostnaderna ökar vid april månad)\n•Bredband: 409kr/ månad \n •El ca 400-600kr/ månad ( beror på hur mycket man använder) (vattenräkningen tillkommer) \n• Tillträde: 1 november 2026\n•Uthyrning i andra hand, 1 år med eventuell möjlighet till förlängning ytterligare 1 år\n• 3 månaders uppsägningstid\n\nJag söker dig som\när skötsam, ansvarsfull samt skuld- och rökfri och tar väl hand om bostaden. Referenser och kreditupplysning kommer att kontrolleras.\n\nIntresserad?\nSkicka ett kort meddelande och berätta lite om dig själv – vad du jobbar med, vilka som ska bo i lägenheten, och varför du söker bostad just nu.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 69.0,
-    "rent": 9309,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T01:13:04+00:00", "clock": "01:13:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T06:01:58+00:00", "clock": "06:01:58"};
