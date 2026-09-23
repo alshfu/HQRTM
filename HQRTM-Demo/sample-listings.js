@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Måns Bryntessonsgatan, Göteborg",
+    "url": "https://qasa.com/p/1468783",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M37DJBMAWE90DG47JED3AP21.jpg",
+    "description": "Välplanerad tvåa med inglasad balkong hyrs ut omöblerad från början av november. \nUthyres 2 månader med eventuell möjlighet till förlängning.\nEl och tv/internet ingår i hyran. \nGoda förbindelser från hållplats SKF eller Gamlestads Torg. \nHyrs ut pga pågående försäljning, vilket kan innebära visningar enligt överenskommelse med hyresgäst. \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lilla Grevegårdsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1468587",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M36XX9643FXYM76V20FESGK2.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 113, Angered",
-    "url": "https://qasa.com/p/1468313",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66cb2449ed3191327ebebe6e5c1e7334d8dbb669c217df47e031700d6527a006.jpg",
-    "description": "Här erbjuds en fin, välplanerad och nyproducerad hyresrätt med balkong på 7 kvm. På planritningen kan du se i viket hus samt vart i huset lägenheten är belägen.\n \nKöket har luckor och lådor i stilrent vitt och är utrustad med diskmaskin, häll, moderna vitvaror, stänkskydd i vitt kakel och plats för mikrovågsugn. Badrummet har klinker i svart, kakel i vitt och badrumsskåp med belysning. Här finns även tvättmaskin och torktumlare.\n\nPå vinden alternativt i källaren finns förråd, och i garaget under byggnaderna finns bil och MC-parkeringar att hyra. Cykeln ställer du i cykelförrådet på gården eller i källaren.\n\nVarje lägenhet har individuell mätning för el, kall- samt varmvattenförbrukning vilket faktureras utifrån förbrukning. I hyran ingår värme. Vad gäller bredband, tv, telefoni är fastigheten ansluten till fibernätet, där du som hyresgäst själv kan teckna abonnemang.\n\n\nOMRÅDET\nPå gården finns grill- och lekplats och baksidan av husen gränsar till ett skogsområde. Gårdsten Centrum med restauranger, livsmedelsbutik och vårdcentral ligger inom gångavstånd. Även flera förskolor och skolor finns i området, vilket gör att boendet passar perfekt för dig som flyttar hit med din familj.\n\nKOMMUNIKATIONER\nBusshållplatsen ligger inom kort avstånd från husen. Och med kollektivtrafiken tar du dig enkelt till Angered centrum på 10 min, eller Göteborgs centrum på ca 30 min. ",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 10565,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T11:25:24+00:00", "clock": "11:25:24"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T15:31:19+00:00", "clock": "15:31:19"};
