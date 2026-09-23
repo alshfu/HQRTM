@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Oskarsgatan 9, Göteborg",
+    "url": "https://qasa.com/p/1468284",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/10c499b74dff046b6bc620f9ffb6c5d247dba284b99b71e2ac97bf209d635049.jpg",
+    "description": "Amerikahuset, Oskarsgatan 9\n\nVälkommen till denna charmiga lägenhet om 61 kvm på Oskarsgatan 9, även känd som Amerikahuset, i hjärtat av Göteborg.\n\nHär bor du i en fastighet med både karaktär och historia, vackert belägen med utsikt över älven. En av fastighetens uppskattade kvaliteter är den gemensamma inomhusgården – en trivsam och skyddad miljö som skapar möjlighet till gemenskap och avkoppling oavsett väder.\n\nBostaden erbjuder en välplanerad och behaglig inomhusmiljö där modern bekvämlighet möter historisk charm. För extra bekvämlighet finns tvättstuga på samma våningsplan, cykelrum i markplan samt förråd som hör till lägenheten.\n\nAmerikahuset bär på en fascinerande historia från en tid då handeln med Amerika var en viktig del av Göteborgs utveckling. Byggnaden präglas av tidstypiska detaljer och en genuin karaktär som gör boendet unikt.\n\nDenna lägenhet passar perfekt för dig som söker ett hem med personlighet, centralt läge och närhet till stadens puls – samtidigt som fastighetens miljö, inomhusgård och älvutsikt bidrar till en särskild känsla av Göteborgs rika historia och själ.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 61.0,
+    "rent": 9988,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Övre Majorsgatan, Göteborg",
     "url": "https://qasa.com/p/1468155",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/19a1ee40f11cbf2670e35a0228419171108a011316f130fc2b2e243d87a1d10c.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fruktträdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1468024",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b871d6fdc3ab5982d6422d5343a03392629ff3f471640f2880d425c4f663b513.jpg",
-    "description": "Nyrenoverad lägenhet belägen nära centrum och samtidigt i närhet till natursköna områden. Lägenheten är möblerad och har en balkong. Busshållplats finns direkt utanför. I lägenheten ingår diskmaskin, tvättmaskin samt torktumlare. Förvaring och garderob finns i sovrummet och i hallen. El och vatten betalas vart tredje månad och brukar uppgå till cirka 200 kr.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 36.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-22T22:53:42+00:00", "clock": "22:53:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T01:13:04+00:00", "clock": "01:13:04"};
