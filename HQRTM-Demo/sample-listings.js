@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fredbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1467396",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5811d2013dca3009fd58841c21a5574ce0576dce8ca6e0a45f69a0e6217d910.jpg",
+    "description": "Välkommen att hyra en mysig och ombonad tvåa i Majorna.\n\nLägenheten är 54 kvm och består av ett separat sovrum, kök och vardagsrum. Den ligger på andra våningen och har fönster åt två håll, vilket ger ett fint ljusinsläpp. Lägenheten är inredd med mycket växter och har en varm och hemtrevlig känsla. Det finns även balkong och en mindre uteplats.\n\nLäget är en av lägenhetens stora fördelar. Här bor du nära stan samtidigt som Slottsskogen och annan natur finns på bekvämt avstånd. I närområdet finns gott om mysiga caféer och restauranger, och området har en trevlig och avslappnad känsla.\n\nLägenheten hyrs ut från oktober. Tanken är att börja med ett halvår och därefter förlänga ytterligare om allt fungerar bra, upp till 1 år totalt.\n\nJag hyr ut lägenheten eftersom jag ska bo på annat håll under en period.\n\nJag söker en skötsam person eller ett par som tar hand om lägenheten som sin egen. Hyresgästen kommer behöva bli godkänd av hyresvärd och referenser kommer att efterfrågas.\n\nHör gärna av dig och berätta lite kort om dig själv, vilka som ska bo i lägenheten och varför du söker boende.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 9475,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skådemyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1468876",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M37NE1ZY8160DKNH9X9EQGCJ.jpg",
+    "description": "Hej!\n\nJag hyr ut min fina nyproducerade etta med fantastisk utsikt då jag ska flytta ihop med min pojkvän. I Högsbohöjd har man närhet till centrala Göteborg, goda kommunikationsmöjligheter vare sig om man åker kollektivt eller cyklar, tar ca 20 min in till stan med buss från närmsta hållplats Sjupundsgatan. Även Botaniska trädgården, Slottskogen och havet ligger nära. \n\nBalkong mot nordost med väldigt fin utsikt över centrala Göteborg.\nFöreningen godkänner 1 års uthyrning till att börja med, och om allt fungerar bra finns det ingen anledning till att neka förlängning.\n\nLägenheten hyrs ut omöblerad och i hyran ingår bredband, varmvatten och el. :)",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 33.0,
+    "rent": 9900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Svankällevägen, Kungälv",
+    "url": "https://qasa.com/p/1468868",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M37JV9Z27MSEBWQ0A87CZDJV.jpg",
+    "description": "02/02/2023\n\nTillsvidare\n\nBostadstyp\n\nVilla\n\nStorlek\n\n5 rum, 115 m²\n\nAntal hyresgäster\nUpp till 5\n\nBeskrivning\nHus på 115kvm 2 plan\n\nPlan 1: Kök, matsal och vardagsrum i öppen planlösning. Badrum med dusch. \n\nPlan 2: 3 sovrum, samt toalett.\n\nHuset är byggt 2022 Vårgårda i en idyllisk gårdsmiljö, omgivet med vacker björkskog \n\nKallhyra: 16000kr/mån\nIngår i hyra : avlop, vatten,internet, avaf hantering \nVarmhyra erbjuds efter överenskommelse",
+    "district": "Kungälv",
+    "rooms": 5.0,
+    "area_m2": 115.0,
+    "rent": 19000,
+    "floor": 1,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Måns Bryntessonsgatan, Göteborg",
     "url": "https://qasa.com/p/1468783",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M37DJBMAWE90DG47JED3AP21.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordreviksvägen, Billdal",
-    "url": "https://qasa.com/p/1468327",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a57b0a7aff785b28406ddc747229473490980dd59a63787a11a91225fff6f5d1.jpg",
-    "description": "Fräsch modern lägenhet i stor villa med egen ingång och stor mysig balkong. 82 kvm golvyta fördelat på 3 rum och kök med öppen planlösning. Entréhall på markplan, övriga rum en trappa upp. Lägenheten är fullt utrustad. Ligger i fina Nordreviken med närhet till havsbad, naturområden samt till busshållplats (Snipen) med expressbuss (20 min) till Göteborgs centrum. \n\n-Parkering för en bil ingår\n-Allt ingår förutom el\n\nHyresgästen skall ha stabil och god ekonomi och vara skötsam\nMax tre personer i hushållet\nEn månadshyra i deposition\nBerätta kort om er själva, vad ni arbetar med etc.\n\n\n",
-    "district": "Billdal",
-    "rooms": 3.0,
-    "area_m2": 82.0,
-    "rent": 15000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blåsvädersgatan 18, Göteborg",
-    "url": "https://qasa.com/p/1468416",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b711993a7c01e15251627b9f1b292d0d1ad6434d3875a7a57b90e8ab7547424f.jpg",
-    "description": "OM LÄGENHETEN\nVälkommen till en mysig 2ROK på 61 kvm! Denna lägenhet har ett rymligt vardagsrum som leder ut till en balkong. Köket är välutrustat och förberett för att kunna installera sin egna diskmaskin, och har en matplats. Lägenheten hyrs ut genom en digital skanning och planritning, ingen fysisk visning. \n\nSovrummet är stort nog för en dubbelsäng och har gott om förvaring. Badrummet är fräscht med dusch. Här finns även en praktisk klädkammare och en separat WC. Perfekt för ett bekvämt och enkelt boende!\n\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten.\n\nINFLYTTNING\nInflyttning sker måndagen den 4 januari 2027. Då den 1 januari infaller på en röd dag, följt av helg, sker inflyttningen nästkommande vardag.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\n Välkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 7411,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sommarvädersgatan 8, Göteborg",
-    "url": "https://qasa.com/p/1468413",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/096bc4e0d9a64a4e7524c7bf9fe2b9fe02c792eeacd64a3f1542c2ff74546093.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nTrivsam 4:a rum och kök! Utrustad med diskmaskin, gasspis och separat kyl & frys. Helkaklat badrum förberett för installation av en egen tvättmaskin och torktumlare, Wc finns att hitta vid hallen. \n\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni, hemförsäkring samt el och gas. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nINFLYTTNING\nInflyttning sker måndagen den 4 januari 2027. Då den 1 januari infaller på en röd dag, följt av helg, sker inflyttningen nästkommande vardag.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 77.0,
-    "rent": 10432,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T15:31:19+00:00", "clock": "15:31:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T19:11:10+00:00", "clock": "19:11:10"};
