@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gneisgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1468985",
+    "image_url": null,
+    "description": "Hus på en hörntomt centralt i Göteborg med bra uteplatser inkl. stor pool och ett dubbel garage i anslutning till huset. Byggår 2017. Flera parkeringsplatser på uppfarten.\n\n",
+    "district": "Hisings Backa",
+    "rooms": 7.0,
+    "area_m2": 200.0,
+    "rent": 60000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fredbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1467396",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f5811d2013dca3009fd58841c21a5574ce0576dce8ca6e0a45f69a0e6217d910.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Värmegatan 2, Göteborg",
-    "url": "https://qasa.com/p/1468448",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/aeaed0092eaa2f1a5df334da37929e03088454f7174dd26405a65f3613dcd8f9.jpg",
-    "description": "OM LÄGENHETEN\nHär hittar du en rymlig tvåa med balkong! Lägenheten har klinkers i hall och trägolv i resterande rum, och helkaklat i badrum. Köket är modernt med gasspis och plats för matbord. Balkongen hittar man genom badrummet.\n\nLägenheten hyrs ut via planritning och en tidsbestämd fysisk visning. \n**OBS! Planlösningen är spegelvänd.\n\nHYRAN\nI lägenheten finns fibernät indragen och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. \n\nINFLYTTNING\nInflyttning sker måndagen den 4 januari 2027. Då den 1 januari infaller på en röd dag, följt av helg, sker inflyttningen nästkommande vardag.\n\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 8339,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T19:11:10+00:00", "clock": "19:11:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-23T22:18:26+00:00", "clock": "22:18:26"};
