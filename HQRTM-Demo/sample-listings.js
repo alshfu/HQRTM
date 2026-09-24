@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Västerhavsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1469685",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3AFMH1HG8810ZKMX21RA5E9.jpg",
+    "description": "Lägenheten ligger i markplan och byggdes som en additionsbostad/egen lägenhet från början. Lägenheten har en egen uteplats mot trädgård och egen parkeringsplats. Bra kommunikationsmöjligheter med spårvagn 8-10 minuters gångpromenad. Goda möjligheter till promenad/jogging/bad och nära frtidsbåthamn. I hyran ingår värme, vatten, el och internet.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 9000,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Eketrägatan, Göteborg",
     "url": "https://qasa.com/p/1469649",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3ABV864STH5YDZ6A0CCZMBX.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brottkärrsvägen, Hovås",
-    "url": "https://qasa.com/p/1469395",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M39RZ55NQTE1ZM94VBZMS7E8.jpg",
-    "description": "Attefallshus 150 m från havet vid Lilla och Stora Amundön. Mycket nära till naturreservat, golf, tennis, badstränder, cykelbana, busshållplats, butiker, apotek, vård, tandvård, andra servicefunktioner, skolor, restauranger, caféer samt systembolag i Nya Hovås.  Bo i eget hus med egen altan på 25 m2 i bottenplan med dubbla loft 10+8 m2. Totalt ca 43 m2. Ej ståhöjd på sovrummen uppe. En bilparkering ingår. El och vatten ingår. Tv, tvättmaskin och duschkabin samt köksutrustning ingår.  Modem ingår men ni får köpa önskat abonnemang själva. Max 2 personer kan dela huset. Ligger vackert på vår tomt intill en bäck. Våra barn har bott i huset fram tills i sommar och vi har renoverat det nyss.",
-    "district": "Hovås",
-    "rooms": 3.0,
-    "area_m2": 40.0,
-    "rent": 9750,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-24T19:18:55+00:00", "clock": "19:18:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-24T22:33:04+00:00", "clock": "22:33:04"};
