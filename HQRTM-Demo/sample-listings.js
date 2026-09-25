@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kyrkåsgatan, Göteborg",
+    "url": "https://qasa.com/p/1470477",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3D8FSSG6FAQ1VP9YTY5PV26.jpg",
+    "description": "Mysig uthyrningslägenhet i villa – 3.5 rok, egen ingång.\nLjus och rymlig lägenhet med 2 sovrum, vardagsrum + stort separat rum med skjutdörrar (kan användas som ett sovrum eller kontor), kök och badrum (med kombinerad tvättmaskin torktumlare).\nUtrustat kök, fräscht badrum och bra förvaring.\n\nMed ett mycket centralt läge i Kålltorp ligger denna rymliga lägenhet i villa – ganska nära till Virginsgatan hållplats med smidig spårvagn till Korsvägen/Liseberg på 10–15 minuter. Lägenheten ligger nära Delsjön, med fina badplatser, vandrings- och löpspår samt möjligheter till paddling och naturupplevelser, samt Skatås motionscentrum med gym, bastu och utomhusaktiviteter. I området finns även Göteborgs Lawn Tennisklubb (GLTK) med tennis och padel. I närområdet finns även caféer och restauranger (t.ex. Oizo, Sannegårdens Pizzeria) samt bagerier för frukost och fika. Lägenheten ligger i mitten av några av Göteborgs bästa skolor (Kärralundsskolan, Parkskolan, Lundenskolan).\n\nKostnader som ingår i hyran:\nParkering och bredband ingår i hyran. \nKostnader som inte ingår i hyran: \nUppvärmning, vatten/avlopp, el ingår inte i hyran, de betalas separat enligt faktisk förbrukning.\nEn månads deposition krävs.\n\nVI SÖKER...\nVi söker en ansvarsfull person, ett par eller en familj som söker ett långsiktigt boende och som tar väl hand om bostaden. Stabil inkomst och goda referenser från tidigare hyresvärd är viktigt för oss. Lägenheten är en separat uthyrningsdel i vår privatägda villa och har egen ingång. Vi värdesätter ordning, hänsyn och en god och konstruktiv kommunikation. Långtidsuthyrning prioriteras. Möjlighet till förlängning.\nVi tar gärna den tid som behövs för att hitta rätt hyresgäst.",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 103.0,
+    "rent": 18500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Monsungatan, Göteborg",
+    "url": "https://qasa.com/p/1470473",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3D7DNXY12WE7XPQSJ2P5TJN.jpg",
+    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Vasagatan, Göteborg",
+    "url": "https://qasa.com/p/1470465",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3D5WCA7N222XGVG1APAAGNR.jpg",
+    "description": "Uthyres en designerlägenhet på hela 190 m², centralt belägen i Göteborg. Lägenheten erbjuder tre rymliga sovrum, separat matsal, stort vardagsrum samt två toaletter. Stort balkong med kvällssol. \n",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 190.0,
+    "rent": 31975,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Träkilsgatan, Göteborg",
     "url": "https://qasa.com/p/1470420",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3CX8CP46RCXHC680PVKSQX1.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Legendgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1470329",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3CH6VAFDAA4X02998SEM3PG.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 20700 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/issi4lrdmbqajdsx3o9l/vastra-gotaland/hisings-backa/legendgatan-44/5-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nTrivsamt parhus på 135 kvm, fördelat på två våningar. På övervåningen finns tre sovrum och ett allrum, medan bottenvåningen har ett stort vardagsrum. Det finns ett badrum med dusch och jacuzzi på övervåningen och en gästtoalett på bottenvåningen.  Ny varmvattenberedare och tvättmaskin på bottenplan. Huset är fullt möblerat och utrustat med två luftkonditioneringssystem, en 75\" TV och i köket finns två stora kylskåp. \r\n\r\nBostaden är belägen i ett lugnt villaområde nära tre stora shoppingcenter: Backaplan, Bäckebol Shopping Mall och IKEA, Selma Lagerlöfs torg. Området har bra kollektivtrafik med buss nummer 40 och det är bara fem minuter till Backaplan. Det finns också enkel tillgång till E6 och Marieholmstunneln.\r\n\r\nGoda parkeringsmöjligheter med en plats inomhus och ytterligare två utomhus. Inflyttnings- och utflyttningsdatum kan diskuteras. \r\n\r\nFör mer information, vänligen boka in på visning och kontakta oss via chatten!\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 20700 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Hisings Backa",
-    "rooms": 5.0,
-    "area_m2": 135.0,
-    "rent": 19538,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Harald Hjärnesgatan , Göteborg",
-    "url": "https://qasa.com/p/1470053",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3C40RNN191FND4VP7QHD1V0.jpg",
-    "description": "En välplanerade lägenhet med stort vardagsrum och stora fönster som släpper in gott om naturligt ljus. Köket och badrummet är nyligen renoverade och badrummet har elburen golvvärme.\n\nFörvaring är smidigt löst med en klädkammare,  belägen mitt emot entrédörren. \n\nI hyran ingår: El, vatten och bredband\n\nVi söker hyresgäster som värdesätter sitt hem och tar hand om bostaden.  \nGärna att du/ni letar efter ett långsiktigt boende, men är öppen för dialog. \n\nVälkommen att höra av dig vid intresse!\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11434,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 65, Göteborg",
-    "url": "https://qasa.com/p/1470339",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5341cf1adb09533aec201c985209e7483d91b4805303cbdafb55f52b506deaf7.jpg",
-    "description": "OBS! Lägenheten totalrenoveras och hyrs ut genom exempelbilder och en planritning.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna fyra med balkong i Biskopsgården!\n\nLägenheten håller just nu på att renoveras enligt vårt koncept Willhemlyftet. De lägenheter som renoverats enligt Willhemlyftet är totalrenoverade och har bland annat modernt kök med rostfria vitvaror, Gasspis*, vilket skiljer sig från exempelbilden, varmluftsugn och diskmaskin.\n\nLägenheten har även helkaklat badrum med wc, tvättställ med kommod, dusch med glasdörrar, handdukstork samt förberedd installation av egen tvättmaskin/torktumlare. Lägenheten kommer att ha genomgående vita väggar, ekparkett samt slitstarkt klinker i hallen. Via denna länk kan ni läsa mer om Willhemlyftet: https://www.willhem.se/kundservice/willhemlyftet/\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå och inkluderar värme och vatten. El, gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt. därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10751,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T19:28:17+00:00", "clock": "19:28:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T22:42:46+00:00", "clock": "22:42:46"};
