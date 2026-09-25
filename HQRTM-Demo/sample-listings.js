@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lantmätaregatan 6, Göteborg",
+    "url": "https://qasa.com/p/1469763",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/de5d2673f3a33ff3323bc1b6f2e69a6f2dbf4bb5336e1e3df1889d4a9c4abd64.jpg",
+    "description": "Brämaregården ger dig en modern och stilren tvåa som totalombyggdes 2023. Här får du ett hem med genomtänkta materialval och diskmaskin som gör vardagen lite enklare.\n\nDen egna uteplatsen mot innergården blir en härlig plats för eftermidagskaffet eller en stunds avkoppling. Planerad inflyttning är 1 januari 2027.\n\n\nBrämaregården får du nära till Kvilletorget och Kville Saluhall med mysiga restauranger och butiker. Du bor också nära Keillers Park och Ramberget, där du kan njuta av grönska och fin utsikt.\n\nFrån Hjalmar Brantingsplatsen tar du dig till centrala Göteborg på cirka 5 minuter med spårvagn eller buss. Här finns även gott om cykelvägar och via gångbron når du enkelt Jubileumsparken och Frihamnen.\n\n\n\n\nLåter det intressant? Anmäl ditt intresse redan idag!\n\nAlla intresseanmälningar görs via HomeQ. Vi tar tyvärr inte emot ansökningar via telefon, mejl eller personliga besök.\n\nUrvalet sker utifrån de vägledande köpoängen i HomeQ och processen påverkas därför inte genom att kontakta oss direkt. Tack för din förståelse och lycka till med din ansökan!\n\n\n2026 års hyra.\nTyvärr saknas planritning till denna lägenhet.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 59.0,
+    "rent": 9607,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Västerhavsvägen, Västra Frölunda",
     "url": "https://qasa.com/p/1469685",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3AFMH1HG8810ZKMX21RA5E9.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Doktor Sydows Gata, Göteborg",
-    "url": "https://qasa.com/p/1469528",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M39ZWR98CM8Y140M5742JS48.jpg",
-    "description": "Rum i bostad kök och wc delas av 1 boende.\nBredband och el ingår",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 23.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T00:45:53+00:00", "clock": "00:45:53"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T05:28:26+00:00", "clock": "05:28:26"};
