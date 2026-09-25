@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Backadalen 14, Göteborg",
+    "url": "https://qasa.com/p/1469974",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/975491e622261ec7c5c9284f70a0399ceb736c754a5a49d310bb35427c80354c.jpg",
+    "description": "Nyproducerad 2RoK för dig som är 70+! Välplanerad och ljus lägenhet med öppna ytor och balkong. Rymligt sovrum med förvaring, öppen planlösning mellan vardagsrum och kök och hallen är väl tilltagen samt här återfinns gott med förvaringsutrymme. Lägenheten är fullt utrustad med diskmaskin och kombinerad tvättmaskin och torktumlare. Fastigheten stod klar 2021 och ytskikt så väl som materialval återspeglar detta. I detta trygghetsboende välkomnar vi dig som är 70+. Fastigheten inrymmer gemensamhetslokaler med anställda trygghetsvärdar där aktiviteter och planering kan, om intresset finns, bli en del av vardagen. Ta en fika, spela spel, ut och gå stavgång, utöva gymnastik, åk med på utflykter eller se en film är en del av det utbud som brukar stå på schemat! Fastigheten är tillgänglighetsanpassad och på varje våningsplan återfinns rum för förvaring av rullatorer och rullstolar. Övriga bekvämligheter i fastigheten är gemensam tvättstuga samt cykelförråd och till varje lägenhet hör ett förråd i vind- eller källarplan. Bilderna i annonsen är exempelbilder och är inte bilder från lägenheten. Parkeringsmöjligheter I källarplan finns garage med möjlighet att hyra parkeringsplats separat. Övrigt Bredband och el debiteras i samband med hyran. \n\nBilderna som visas i annonsen är enbart exempelbilder. \n\nHyran avser 2026 års nivå. Inkomstkrav sätts i förhållande till Normalbeloppet för 2023: Hyra + 5 717kr för ensamstående vuxen Hyra + 9 445kr för samlevande makar och sambor Urval och visningar vid bestämd tid och under dagtid, mer information kommer för dig som blir erbjuden en visning. Vi accepterar inga betalningsanmärkningar.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 9354,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Näckrosvägen, Torslanda",
+    "url": "https://qasa.com/p/1469770",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3BK8J0MQ9M9M5JK6BV6APVP.jpg",
+    "description": "Ett rymligt hus med stor tomt och fantastiska möjligheter.\n\nNu hyr vi ut vårt trivsamma och rymliga hus i Lilleby, Torslanda. Här får du ett hem med gott om plats, en stor och härlig hörntomt och ett lugnt läge – samtidigt som du har närhet till hav, natur, service och Göteborg.\n\nHuset är 154 kvm och har 6 rum och kök, vilket ger gott om utrymme för både familjeliv, hemmakontor och sociala tillställningar.\n\nDet som verkligen utmärker huset är den generösa tomten på cirka 1 300 kvm. Som hörntomt får den en härlig känsla av rymd och erbjuder gott om plats för barnens lek, sommarkvällar med familj och vänner eller bara avkoppling i lugn och ro.\n\nÖppen Planlösning med braskamin och gott om utrymme för både vardag och umgänge.\n\nTill huset hör ett stort dubbelgarage på cirka 40 kvm Här finns plats för två bilar och samtidigt gott om utrymme för förvaring, cyklar, fritidsutrustning.\n\nNy bergvärmepump med frånluftsåtervinning vilket innebär ett energieffektivt uppvärmningssystem.\n\nHär finns fina promenad- och naturområden och närhet till hav och bad. Samtidigt är det enkelt att ta sig vidare till Torslanda och Göteborgs övriga delar.\n\n• 154 kvm\n• 6 rum och kök\n• Hörntomt ca 1 300 kvm\n• Dubbelgarage ca 40 kvm\n• Ny bergvärmepump\n• Lugnt och familjevänligt läge\n• Närhet till natur, hav och service\n• Ca 10 min promenad till busshållplats \n\nHyra: 23 500 kr/månad\n\nInflyttning från 1 november 2026\n\nVi söker en familj eller ett par som är ansvarsfulla och skötsamma. \n\nVälkommen att höra av er.",
+    "district": "Torslanda",
+    "rooms": 6.0,
+    "area_m2": 154.0,
+    "rent": 23500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lantmätaregatan 6, Göteborg",
     "url": "https://qasa.com/p/1469763",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/de5d2673f3a33ff3323bc1b6f2e69a6f2dbf4bb5336e1e3df1889d4a9c4abd64.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vägen, Göteborg",
-    "url": "https://qasa.com/p/1467463",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/584ec3633b6052da8d76108a6c843efa58774c4c7aeba80fb2a24739ed733492.jpg",
-    "description": "Rum uthyres till pendlare\n\nEtt möblerat rum nära Korsvägen (vid Världskulturmuseet) uthyres måndag- fredag. OBS endast till pendlare! Hyra beror på antal nätter /vecka. Delat kök och badrum. Städ och tvätt av lakan ingår.\nPernilla\n\nRoom for rent to commuters\n\nA furnished room near Korsvägen (close to Världskulturmuseet) for rent Monday-Friday. NOTE only for commuters! Rent depends on how many night/week.  Shared kitchen and bathroom. Cleaning and washing of sheets are included.\nPernilla\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 5.0,
-    "rent": 3000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fyrskeppsvägen, Torslanda",
-    "url": "https://qasa.com/p/1469564",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3A36V1ZXASC58659GA0JBGC.jpg",
-    "description": "Ljus och trivsamt hus med uteplats och privat parkering i lugna och natursköna Hjuvik. Mycket goda möjligheter att arbeta hemifrån med snabbt wifi. Endast 300m från havet. Vackra  stigar i skogar samt klippor att springa och promenera på. Badbrygga för bad året runt finns. Hyresgästen har tillgång till en fin uppvuxen trädgård . Huset hyrs ut delvis möblerad. Vi har även ett stort hus på tomten med mycket trevliga hyresgäster. \n\nLight and peaceful tiny house with a private patio and private parking in the calm and scenic Hjuvik. Only 300m from the sea. Very good opportunities to work from home due to fast Wifi and undisturbed environment. Excellent opportunities for outdoor activities in the area along cliffs and in forests. A bathing bridge for year-round swimming is available. The tenant has access to a beautiful, mature garden. We also have a big house with apartments on the property with pleasant tenants. \n\nRumsbeskrivning:\nFloorplan:\n\nMinivillan är ca 50 kvadrat och har ett sovrum där det får plats en 160-180 cm säng, kombinerat kök med vardagsrum, hall  samt ljust badrum med dusch och toalett och kombinerad tvättmaskin och torktumlare.  Hög hastighet på internet.\n\nThe Tiny house is approximately 50 square meters and consists of one bedroom with space for a 160-180 cm bed, a combined kitchen and living room, a hallway, a nice bathroom with shower, toilet and washing machine and drying cabinet. High-speed internet available.\n\nNärområde: \nNeighborhood:\n\n300 m\t- Småbåtshamn och badplats\n4 km\t- Torslandavallen med upplyst motionsspår, tennishall, fotbollsplaner etc.\n4,5 km\t- Amhult Torg med ICA Maxi, Willys, systembolag, apotek, gym, vårdcentral etc.\n\n300 m\t- Marina and swimming place\n4 km\t- Torslandavallen with jogging track, tennis hall, football fields etc.\n4.5 km\t- Amhult Torg shopping center with ICA Maxi supermarket, Willys, Systembolaget, pharmacy, Gym, medical center and more.\n\nKommunikationer:\nCommunications:\n\n300m   - hållplats ”Fyrskeppsvägen”. Buss 24 tar dig till centralen på ca 40 minuter. \n800m   - hållplats ”Majvik”. Röd Express tar dig till centrala Göteborg på dryga 30 minuter eller till Volvo på ca 20 minuter. \nBil        - Järntorget 24min, Lindholmen 19min, Volvo 15 min\n\n300m \t- bus stop “Fyrskeppsvägen”. Bus 24 to central Gothenburg in just over 40 min or to Volvo in 20 min. \n800m\t- bus stop “Majvik”. Red Express to central Gothenburg in just over 30 min or to Volvo Cars in 20min.\nCar \t- City Centre  24 min, Lindholmen Science Park 19 min, Volvo 15 min\n\nHyran inkluderar internet och VA/avlopp/renhållning. \nRent includes Internet and water/sewage/garbage\n\nKostnad för el tillkommer varje månad. \nElectricity costs are added every month.\n\nVi önskar lugna hyresgäster som trivs att bo vid havet och en bit från Göteborgs innerstad.\nWe prefer quiet tenants who enjoy living by the sea and a bit away from the city center of Gothenburg.\n\nVi ser fram emot att höra från dig/er!\nWe look forward hearing from you!\n\nJohanna och Magnus\n\n",
-    "district": "Torslanda",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T05:28:26+00:00", "clock": "05:28:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T10:28:51+00:00", "clock": "10:28:51"};
