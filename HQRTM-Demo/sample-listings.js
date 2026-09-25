@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Träkilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1470420",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3CX8CP46RCXHC680PVKSQX1.jpg",
+    "description": "🏡 Fullt möblerad 3:a uthyres i Göteborg – långtid\nJag hyr ut min lägenhet i andra hand då jag ska provbo tillsammans med min sambo. Lägenheten hyrs ut fullt möblerad och på ett tidsbestämt avtal om minst ett år, med stor möjlighet till förlängning för rätt hyresgäst.\n\n📍 Adress: Träkilsgatan 31, 416 78 Göteborg \n💰 Hyra: 10 622 kr/månad \n📅 Inflyttning: 1 oktober 2026\n 🚗 Parkering: Ingår \n📶 WiFi: Ingår \n⚡ El: Tillkommer och faktureras månadsvis \n💰 Deposition: 2 månadshyror, betalas i samband med inflyttning\n\n🏠 Om lägenheten\n* 2 sovrum\n* Vardagsrum\n* Kök\n* Tvättmaskin\n* Fullt möblerad\n* Fullutrustat kök\n* Balkong – balkongmöbler ingår inte\n* Parkering ingår\n* WiFi ingår\n\n📅 Hyrestid och kontrakt\nAvtalet skrivs som ett tidsbestämt andrahandsavtal från 1 oktober 2026 till 30 september 2027, med stor möjlighet till förlängning efter överenskommelse och i enlighet med bostadsbolagets regler.\nUppsägning sker enligt gällande lag och villkoren i andrahandsavtalet.\nAndrahandskontraktet är ett standardiserat kontrakt enligt bostadsbolagets regler. Kontraktet ska vara påskrivet senast två veckor före inflyttning, alltså senast 17 september 2026.\nAndrahandsuthyrningen förutsätter erforderligt godkännande från bostadsbolaget.\n\n👤 Jag söker\nJag söker lugna, skötsamma och ansvarsfulla hyresgäster som tar väl hand om både bostaden, möblerna och visar hänsyn till grannarna.\nKrav:\n* Rökfri\n* Djurfri\n* Fast och stabil inkomst\n* Inga betalningsanmärkningar\n* Gärna ett par eller max 3 personer\n* Referenser från tidigare boende är meriterande\n* Seriösa och långsiktiga hyresgäster prioriteras\nEftersom bostaden hyrs ut fullt möblerad är det viktigt för mig att den behandlas med respekt och lämnas tillbaka i gott skick.\n\n📋 Vid seriöst intresse\nSkriv gärna några rader om dig/er, exempelvis:\n* Vilka som ska bo i lägenheten\n* Sysselsättning och anställningsform\n* Önskad hyrestid\n* Eventuella referenser från tidigare boende\nVid seriöst intresse bokar vi en visning och går igenom detaljerna.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 65.0,
+    "rent": 10622,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fänkålsgatan, Angered",
+    "url": "https://qasa.com/p/1470020",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3C1P08K6EH4HWXJAWG3M9PB.jpg",
+    "description": "Rum uthyres i fin 3:a – möblerad lägenhet\n\nVi hyr ut ett rum i en fin och välplanerad lägenhet på 87 kvm. Lägenheten består av tre sovrum, ett rymligt vardagsrum, fullt utrustat kök med matplats, badrum samt förråd och garderober. Lägenheten är möblerad och har allt som behövs för ett bekvämt boende.\nDu kommer att dela bostaden med två lugna och skötsamma syskon (23 och 16 år), så vi söker dig som är ansvarsfull, ordningsam och respektfull. Vi ser gärna att du är kvinna (t.ex. student eller arbetande), då detta passar bäst i nuvarande boendesituation.\n\nLäget är lugnt och trevligt, med goda möjligheter till ett tryggt och harmoniskt boende.\n\nHyra: 8 000 kr/månad\n\n(I hyran ingår möblering och tillgång till gemensamma utrymmen.)\nVid intresse, skriv gärna lite om dig själv!",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 87.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hammarkroken, Angered",
     "url": "https://qasa.com/p/1470314",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3CGT0ZPZSM178CPNBHKX88E.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Säve Kyrkväg, Säve",
-    "url": "https://qasa.com/p/1470153",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3CAC7VP690P1F40XGWK5WWQ.png",
-    "description": "Vi hyr ut ett övernattningsrum/arbetsrum på kortare eller längre tid. Litet pentry, dusch och wc, bäddsoffa för 1-2 personer, garderob och förvaring. Det finns ingen tvättmaskin eller spis. Mikro och vattenkokare finns. \nFiber är indraget så om man hyr under längre tid kan man teckna eget avtal för tv/internet. Lägenheten ingår i ett lägenhetshotell och är ingen permanent bostad.",
-    "district": "Säve",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 61, Göteborg",
-    "url": "https://qasa.com/p/1470338",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fb517eba0ee2f693606efb40ed596868932fc7dcfb37163a641c20f52b922033.jpg",
-    "description": "OBS! Lägenheten totalrenoveras och hyrs ut genom exempelbilder och en planritning.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna fyra med balkong i Biskopsgården!\n\nLägenheten håller just nu på att renoveras enligt vårt koncept Willhemlyftet. De lägenheter som renoverats enligt Willhemlyftet är totalrenoverade och har bland annat modernt kök med rostfria vitvaror, Gasspis*, vilket skiljer sig från exempelbilden, varmluftsugn och diskmaskin.\n\nLägenheten har även helkaklat badrum med wc, tvättställ med kommod, dusch med glasdörrar, handdukstork samt förberedd installation av egen tvättmaskin/torktumlare. Lägenheten kommer att ha genomgående vita väggar, ekparkett samt slitstarkt klinker i hallen. Via denna länk kan ni läsa mer om Willhemlyftet: https://www.willhem.se/kundservice/willhemlyftet/\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå och inkluderar värme och vatten. El, gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt. därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10959,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T15:29:01+00:00", "clock": "15:29:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-25T19:28:17+00:00", "clock": "19:28:17"};
