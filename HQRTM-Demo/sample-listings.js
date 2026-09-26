@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Borgmästaregatan, Göteborg",
+    "url": "https://qasa.com/p/1470724",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3EW7FDDZJKEMSC5MHQBFMC3.jpg",
+    "description": "My current roommate have recently found a new job elsewhere and will be moving out, so I am now looking for a new roommate to share our fully equipped semi-detached house with garden.\n\nI am a male in my early 30s, Swiss citizen, working in research, sporty and social, and occasionally have friends over. I’m looking for someone comfortable with sharing the house in a relaxed and respectful co-living arrangement.\n\nThe house is a three-bedroom semi-detached home (~110 m²) over two floors plus attic. One bedroom is mine, the larger bedroom is rented out separately, and this listing is for the smaller bedroom. \n\nThis room is approx. 7 m² (2.5 × 2.8 m) and partially furnished with a wardrobe and desk. (We currently use it as a shared study)\n\nThe house includes a modern kitchen with dishwasher, coffee machine and two fridge/freezers; a living room with sofa, 65” TV and dining table; two bathrooms; washing machine and dryer; storage in entry closets and attic; a large wooden deck with barbecue; and a shared garden. Bicycle stand and free street parking available.\n\nExcellent public transport with direct tram to the main station (~15 minutes).\n\nRent: including heating, water and internet. Electricity and home insurance are shared and usually low.\n\nLooking for a like-minded person who treats the house as a shared home. Please send a short introduction (max 100 words).\n\nSvenska:\n\nMin nuvarande rumskamrat har fått ett nytt jobb på annan ort och flyttar ut, så jag söker nu en ny rumskamrat till vårt fullt utrustade parhus med trädgård.\n\nJag är en man i tidiga 30-årsåldern, schweizisk medborgare, arbetar inom forskning, är sportig och social och har ibland vänner över. Jag söker någon som är bekväm med att dela huset i ett avslappnat och respektfullt boende.\n\nHuset är ett parhus med tre sovrum (~110 m²) i två plan plus vind. Ett sovrum är mitt, det större rummet hyrs ut separat och denna annons gäller det mindre rummet.\n\nRummet är ca 7 m² (2,5 × 2,8 m) och delvis möblerat med garderob och skrivbord.\n\nHuset har modernt kök med diskmaskin, kaffemaskin och två kyl/frysar, vardagsrum med soffa, 65” TV och matbord, två badrum, tvättmaskin och torktumlare, förvaring i hall och på vind, stor träaltan med grill samt gemensam trädgård. Cykelställ och gratis gatuparkering finns.\n\nMycket bra kommunikationer med direkt spårvagn till centralstationen (~15 minuter).\n\nHyra: inklusive värme, vatten och internet. El och hemförsäkring delas och är vanligtvis låga.\n\nSöker en likasinnad person som ser huset som ett gemensamt hem. Skicka gärna en kort presentation (max 100 ord).",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 7.0,
+    "rent": 6100,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Angered, Angered",
+    "url": "https://qasa.com/p/1470700",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3ESNA1TDFSAPWQ6DRVR5QNJ.jpg",
+    "description": "Fin och välplanerad 1:a på 42 kvm uthyres.\nJag ska flytta till en annan stad på grund av arbete. Lägenheten ligger i ett lugnt område nära kollektivtrafik och natur och har även balkong.\nEl och internet ingår i hyran. Parkering finns möjlighet att ordna.\nPassar bra för en person eller ett par.",
+    "district": "Angered",
+    "rooms": 1.0,
+    "area_m2": 42.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillekärr Norra, Hisings Kärra",
     "url": "https://qasa.com/p/1470639",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3EM0DCMHDF8S8XFP4HSD2J6.jpg",
@@ -40,7 +70,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 50.0,
-    "rent": 11500,
+    "rent": 12000,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Monsungatan, Göteborg",
-    "url": "https://qasa.com/p/1470473",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3D7DNXY12WE7XPQSJ2P5TJN.jpg",
-    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 12500,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vasagatan, Göteborg",
-    "url": "https://qasa.com/p/1470465",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3D5WCA7N222XGVG1APAAGNR.jpg",
-    "description": "Uthyres en designerlägenhet på hela 190 m², centralt belägen i Göteborg. Lägenheten erbjuder tre rymliga sovrum, separat matsal, stort vardagsrum samt två toaletter. Stort balkong med kvällssol. \n",
-    "district": "Göteborg",
-    "rooms": 5.0,
-    "area_m2": 190.0,
-    "rent": 31975,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-26T10:56:01+00:00", "clock": "10:56:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-26T14:54:48+00:00", "clock": "14:54:48"};
