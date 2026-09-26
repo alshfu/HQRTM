@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Björlandavägen, Göteborg",
+    "url": "https://qasa.com/p/1470874",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3FJXRSPVVXFC5C82SX98C7Y.jpg",
+    "description": "Välkommen till ett helt nybyggt och modernt attefallshus på 30 kvm med hög standard. Bostaden har en smart planlösning, nya vitvaror och kan hyras möblerad, delvis möblerad eller omöblerad enligt överenskommelse.\nTill huset hör en stor privat uteplats med altan och tillgång till en rymlig tomt på cirka 200 kvm – perfekt för avkoppling eller umgänge utomhus.\nI hyran ingår el, vatten, sophämtning och parkering. Bostaden ligger på Gamla Björlandavägen i ett lugnt och trivsamt område med närhet till kollektivtrafik, service, natur och goda kommunikationer till centrala Göteborg.\nVi söker en skötsam hyresgäst med ordnad ekonomi. Rökning inomhus är inte tillåten.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 30.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Borgmästaregatan, Göteborg",
     "url": "https://qasa.com/p/1470724",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3EW7FDDZJKEMSC5MHQBFMC3.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kyrkåsgatan, Göteborg",
-    "url": "https://qasa.com/p/1470477",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3D8FSSG6FAQ1VP9YTY5PV26.jpg",
-    "description": "Mysig uthyrningslägenhet i villa – 3.5 rok, egen ingång.\nLjus och rymlig lägenhet med 2 sovrum, vardagsrum + stort separat rum med skjutdörrar (kan användas som ett sovrum eller kontor), kök och badrum (med kombinerad tvättmaskin torktumlare).\nUtrustat kök, fräscht badrum och bra förvaring.\n\nMed ett mycket centralt läge i Kålltorp ligger denna rymliga lägenhet i villa – ganska nära till Virginsgatan hållplats med smidig spårvagn till Korsvägen/Liseberg på 10–15 minuter. Lägenheten ligger nära Delsjön, med fina badplatser, vandrings- och löpspår samt möjligheter till paddling och naturupplevelser, samt Skatås motionscentrum med gym, bastu och utomhusaktiviteter. I området finns även Göteborgs Lawn Tennisklubb (GLTK) med tennis och padel. I närområdet finns även caféer och restauranger (t.ex. Oizo, Sannegårdens Pizzeria) samt bagerier för frukost och fika. Lägenheten ligger i mitten av några av Göteborgs bästa skolor (Kärralundsskolan, Parkskolan, Lundenskolan).\n\nKostnader som ingår i hyran:\nParkering och bredband ingår i hyran. \nKostnader som inte ingår i hyran: \nUppvärmning, vatten/avlopp, el ingår inte i hyran, de betalas separat enligt faktisk förbrukning.\nEn månads deposition krävs.\n\nVI SÖKER...\nVi söker en ansvarsfull person, ett par eller en familj som söker ett långsiktigt boende och som tar väl hand om bostaden. Stabil inkomst och goda referenser från tidigare hyresvärd är viktigt för oss. Lägenheten är en separat uthyrningsdel i vår privatägda villa och har egen ingång. Vi värdesätter ordning, hänsyn och en god och konstruktiv kommunikation. Långtidsuthyrning prioriteras. Möjlighet till förlängning.\nVi tar gärna den tid som behövs för att hitta rätt hyresgäst.",
-    "district": "Göteborg",
-    "rooms": 3.5,
-    "area_m2": 103.0,
-    "rent": 18500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-26T18:23:25+00:00", "clock": "18:23:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-26T21:21:51+00:00", "clock": "21:21:51"};
