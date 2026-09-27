@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bronsfyndsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1471446",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3J5MZ40DN2W19GP1F25G1XQ.jpg",
+    "description": "Ljus och rymlig bostad på 91 m² på övervåningen i en villa i ett lugnt och trivsamt villaområde i Kannebäck, Västra Frölunda. Bostaden har egen separat ingång och hyrs ut omöblerad.\nBostaden består av två separata sovrum, ett rymligt vardagsrum med öppen planlösning mot köket samt badrum med dusch. Stora fönster ger fint ljusinsläpp och bostaden har en ljus och luftig känsla.\nKöket är utrustat med diskmaskin, ugn, spishäll, kyl/frys och mikrovågsugn. Egen tvättmaskin och torktumlare finns i bostaden.\nBostaden har även balkong och uteplats samt tillgång till en parkeringsplats. Det är cirka 5 minuters promenad till ICA och busshållplats.\nVatten, sophämtning och en parkeringsplats ingår i hyran. El tillkommer efter faktisk förbrukning och mäts med separat elmätare.\nVi söker en skötsam och ansvarsfull hyresgäst för ett stabilt och långsiktigt boende. Företag är också välkomna att höra av sig.",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 91.0,
+    "rent": 16500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Grimmeredsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1471411",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3J3AM5TNC3SBBG4RKNT9P6G.jpg",
+    "description": "Bottenvåning i tvåfamiljshus iGrimmered. Trädgård och parkering ingår. Goda kommunikationer. I hyran ingår även värme och bredband",
+    "district": "Västra Frölunda",
+    "rooms": 3.0,
+    "area_m2": 85.0,
+    "rent": 13000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Björn, Göteborg",
+    "url": "https://qasa.com/p/1471408",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3J2N00HXVCAZDDWA8PC4K83.jpg",
+    "description": "Väldigt lugnt villaområde med busshållplats en stenkast från lägenheten.  Väldigt bra och moderna vitvaror. Egen uteplats och parkering. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 9200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Landalabergen, Göteborg",
     "url": "https://qasa.com/p/1471363",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3HXHH5RMX7QQC0C75BP4M12.jpg",
@@ -40,7 +85,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 36.0,
-    "rent": 11500,
+    "rent": 11200,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Björsaredsvägen, Göteborg",
-    "url": "https://qasa.com/p/1471303",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3HQYF5D2MX4N9KT9AS7GRJP.jpg",
-    "description": "2,5 rum och kök i källarplan med egen ingång. Tillgång till stor trädgård samt egen altan i söderläge.\nBadrum med egen toalett, dusch samt tvättmaskin. Plan finns på badrumsrenovering inom närtid.\nObservera att bostaden uthyres omöblerad!\n\nBadsjö med sandstrand och badbrygga finns 10 minuters promenad från bostaden. Likaså vandringsleder, löparspår etc. i lugn skogsmiljö. \n\nBusshållplats finns 10 minuters promenad från bostaden. Bussen tar 25 min in till centralstationen i Göteborg. \n\nI Björsared finns bensinstation med postservice samt pizzeria och grill.\n\nMöjlighet att ha med husdjur finns. \nBostaden är rökfri- rökning utomhus tillåtet. \n\nKallhyra. Kostnad för elförbrukning står hyresgästen själv för i enlighet med separat elmätare för bostaden. Grundvärme ingår i månadsavgiften.\n\nHantering av hushållssopor & matavfall samt avgift till områdets vägförening ingår i hyran. Hyresgästen ansvarar för sortering av återvinning i rätt kärl från Göteborgs stad, som finns på tomten.\n\nParkeringsplats för 1 bil finns tillgänglig.\n\nBostaden lämpar sig för max 2 personer.\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 55.0,
-    "rent": 8700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ernst Torulfsgatan, Göteborg",
-    "url": "https://qasa.com/p/1466245",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3HMPPYGVFY1S6KCRM3ZG4JZ.jpg",
-    "description": "Det är dags för mig att testa på sambolivet och därför hyr jag nu ut min lägenhet. Den uthyres möblerad under ett år med möjlighet till förlängning.   \n\nLägenheten ligger högst upp och är ljus och luftig med stor balkong i härligt söderläge. Nära till spårvagnshållplats för linje 1 och 5 och inom gångavstånd finns matbutiker, restauranger, gym och grönområdena Härlanda Tjärn och Delsjön. \n\nI hyran ingår bredband och basutbud av TV kanaler, el och hemförsäkring får hyresgästen själv teckna avtal för.\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 12500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borgmästaregatan, Göteborg",
-    "url": "https://qasa.com/p/1470728",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3EWPP99C82CW1QXX2EG58EY.jpg",
-    "description": "Möblerat rum 10 m² med dubbelsäng – parhus med trädgård\n\nRummet: ca 10 m² (3,4 × 2,8 m), möblerat med dubbelsäng och garderob. Behöver du ett skrivbord ordnar vi det. Obs: Huset har tre sovrum.\n\nHuset: Parhus på ca 110 m² i två plan plus vind. Du delar hela huset med mig och har tillgång till allt:\n– kök med diskmaskin, kaffemaskin och två kyl/frysar\n– vardagsrum med soffa, 65\" TV och matbord\n– två badrum\n– tvättmaskin, torktumlare och robotdammsugare\n– förråd i hallen och på vinden\n– stor träaltan med grill och trädgård\n\nLäge: Direkt spårvagn till centralstationen på ca 15 minuter. Cykelställ och gratis parkering på gatan.\n\nOm mig: Jag är i början av 30-årsåldern, kommer från Schweiz och jobbar med forskning. Jag är aktiv, social och har ibland vänner på besök. Min rumskamrat har fått jobb i en annan stad, och därför söker jag nu nya rumskamrater.\n\nPraktiskt: Värme, vatten och internet ingår i hyran. El och hemförsäkring delar vi, och det brukar bli billigt. Kontraktet skriver du direkt med hyresvärden.\n\nJag hoppas hitta någon som vill trivas här och se huset som ett gemensamt hem, med en avslappnad och respektfull stämning. Skicka gärna några rader om dig själv (max 100 ord)!\n\n---\n\nEnglish:\n\nFurnished 10 m² room with double bed – semi-detached house with garden\n\nThe room: approx. 10 m² (3.4 × 2.8 m), furnished with a double bed and wardrobe. A desk can be arranged if you need one. Note: The house has three bedrooms. \n\nThe house: Semi-detached, approx. 110 m² over two floors plus attic. You share the whole house with me and have access to everything:\n– kitchen with dishwasher, coffee machine and two fridge/freezers\n– living room with sofa, 65\" TV and dining table\n– two bathrooms\n– washing machine, dryer and robot vacuum\n– storage in the hallway and attic\n– large wooden deck with barbecue, and a garden\n\nLocation: Direct tram to the main station in about 15 minutes. Bike stand and free street parking.\n\nAbout me: I'm in my early 30s, from Switzerland, and work in research. I'm active and social, and friends come over now and then. My roommate got a job in another city, so I'm now looking for new roommates.\n\nPractical: Heating, water and internet are included in the rent. Electricity and home insurance are shared and usually cheap. You sign the contract directly with the landlord.\n\nI hope to find someone who wants to feel at home here and treat the house as a shared home, in a relaxed and respectful atmosphere. Feel free to send a few lines about yourself (max 100 words)!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 7600,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-27T17:43:19+00:00", "clock": "17:43:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-27T20:26:27+00:00", "clock": "20:26:27"};
