@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Strömstarevägen, Olofstorp",
+    "url": "https://qasa.com/p/1470953",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3GV8X89X9XF3QZY0N1DWTG6.jpg",
+    "description": "Från oktober finns en mysig och fullt utrustad 2 rok i Olofstorp ledig. \n\nLägenheten ligger i ett lugnt område med närhet till både natur och Göteborg. Här finns ett ljust vardagsrum med matplats, fullt utrustat kök, sovrum, wifi, arbetsplats och gratis parkering. Det är cirka 10 minuters promenad till bussen som tar dig vidare mot Avenyn och Göteborgs Central på 25 min. \n",
+    "district": "Olofstorp",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 9000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Björlandavägen, Göteborg",
     "url": "https://qasa.com/p/1470874",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3FJXRSPVVXFC5C82SX98C7Y.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gräddgatan, Göteborg",
-    "url": "https://qasa.com/p/1470507",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3E272GJDBSC6FBPS9KSPJ1Q.jpg",
-    "description": "Nyproducerad 3:a med utsikt i natursköna Kallebäck – 68 kvm\n\nVi hyr ut en ljus och modern trea på 68 kvm i ett naturnära och familjevänligt område i Kallebäck, mitt i centrala Göteborg. Lägenheten ligger på 9:e våningen med sydvästligt läge och erbjuder en fantastisk utsikt över staden.\n\nHär bor du med närhet till både stad och natur – endast 10 minuter till centrala Göteborg och Mölndal, samt 20 minuter till Göteborgs universitet. I området finns skola, förskola och Delsjöns härliga grönområden precis i närheten.\n\nLägenheten är nyproducerad (byggd 2019) och har två rymliga sovrum, ett stort förråd som även kan användas som kontor eller ateljé, samt en inglasad balkong – perfekt för alla årstider.\n\nVi söker en skötsam person, ett par eller en familj som vill hyra.\n\n\nHyra: 17500kr/månaden\nI hyran ingår: vatten, värme, kabel-TV internet, El (normal förbrukning) \n\n\n\n\nModern 2-Bedroom Apartment with City View in Scenic Kallebäck – 68 sqm\n\nWe are renting out a bright and modern 2-bedroom apartment, 68 sqm, located in the green and family-friendly area of Kallebäck – right in the heart of Gothenburg. Situated on the 9th floor with a southwest-facing balcony, the apartment offers a beautiful view over the city skyline.\n\nYou’ll live close to both nature and the city: just 10 minutes to downtown Gothenburg and Mölndal, and 20 minutes to the University of Gothenburg. The area also offers schools, preschools, and the beautiful Delsjön nature reserve just around the corner.\n\nThe apartment was newly built in 2019 and features two spacious bedrooms, a large storage room that can double as an office or studio, and a glazed balcony – perfect for year-round use.\n\nWe are looking for a responsible tenant – individual, couple, or family .\n\nRent: SEK 17500kr/month\nIncluded in the rent: water, heating, cable TV, and internet, electricity (within normal consumption). ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 17500,
-    "floor": 9,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-27T01:51:07+00:00", "clock": "01:51:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-27T07:14:56+00:00", "clock": "07:14:56"};
