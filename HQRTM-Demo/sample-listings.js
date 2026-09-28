@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan 30A, Göteborg",
+    "url": "https://qasa.com/p/1471637",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/fc1d6f579e02734b53c82f881fe665f0a59825d93019c20b29f9ba232072e671.jpg",
+    "description": "Välkommen till Långströmsgatan 30 A!\n Här finns en lägenhet på 3 rum och kök - våning 3.\n\nLägenheten består av ett ljust vardagsrum med plats för både soffgrupp och matbord, ett trivsamt kök samt två sovrum. Lägenhetsförråd finns i huset.\n\nDen annonserade hyran gäller för 2026. Hyran kommer därefter att justeras i samband med den årliga hyresförhandlingen.\nInflyttning: 1 januari 2027\n\nI hyran ingår:\n\nVärme\n\nVatten\n\nKabel-TV\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både daghem och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 2 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 83.0,
+    "rent": 12428,
+    "floor": 3,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Tunnlandsgatan 7, Göteborg",
+    "url": "https://qasa.com/p/1471628",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/99eb89920a740e01a96399fe9a516d81a5348c7e72c27701ad07295fba96f4b6.jpg",
+    "description": "Trevlig lägenhet belägen på översta våningen. Öppen planlösning mellan kök och vardagsrum med utgång till generös balkong med soligt söderläge. Lägenheten är välutrustad med diskmaskin i köket samt tvättmaskin och torktumlare i det helkaklade badrummet. \nParkeringsplatser finns både ute och i garage men det kan vara viss kö.\nPromenadavstånd till Marklandsgatan som är knutpunkt för många av Västtrafiks linjer. \nKostnad för varmvattenförbrukning tillkommer.\nOBS att hyran som anges avser 2025 års hyra, förhandling om hyran för 2026 pågår.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 11745,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ödmansgatan 8, Göteborg",
+    "url": "https://qasa.com/p/1471560",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/26db2d716f94a779f6bf1f5cc299bda8c9fcba96a4e1f92c01d9839aafdca3de.jpg",
+    "description": "Lägenheten uthyres i befintligt skick. Den uthyres med korttidskontrakt med avstående från besittningsskydd med 3 månaders ömsesidig uppsägningstid. Boendetid cirka 9-12 månader. \n1 rum med kokvrå, med sovdel.\nLägenheten hyrs ut möblerad.Passar för 1 person.\nBra kommunikationer\nNära Eriksberg och Lindholmen\nTrivsam innegård\nMöjlighet till egen parkering .\nOm intresse finns för parkering skriv ett pm.\nDeposition  10.000kr\n\n\n\nThe apartment is rented out in its current condition. It is let under a short-term contract involving a waiver of security of tenure, with a mutual notice period of three months. The rental period is approximately 9–12 months.\nStudio apartment with a kitchenette and sleeping area.\nThe apartment is rented furnished. Suitable for one person.\nGood transport links.\nClose to Eriksberg and Lindholmen.\nPleasant courtyard.\nOption for private parking.\nIf you are interested in parking, please send a private message.\nDeposit 10.000kr",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 4464,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bronsfyndsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1471446",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3J5MZ40DN2W19GP1F25G1XQ.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjälmavägen, Torslanda",
-    "url": "https://qasa.com/p/1422189",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/52d5e3a2936a507e8816b10a379f6cda38326fada738d3de01f1f8330568f987.jpg",
-    "description": "Nybyggt gästhus i Nolvik Torslanda.\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\nNytt kök med all utrustning\n\n- Fristående\n- Möblerat\n\nPassar till 1-2 personer.\n\nVärme, vatten och EL ingår i hyran. \n\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
-    "district": "Torslanda",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lövskogsgatan, Göteborg",
-    "url": "https://qasa.com/p/1471338",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3HTNWSEEB81VJCQCW1MNDPA.jpg",
-    "description": "Mysig etta med balkong, perfekt läge mellan Chalmers och Sahlgrenska\n\nNu hyr jag ut min välplanerade etta på 36 kvm med balkong och härligt solläge både dag och kvällstid. Lägenheten ligger i ett lugnt område mellan Chalmers och Sahlgrenska, med närhet till både stadspuls och grönområden.\n\n Läget:\n\t•\t6 minuters promenad till Linné\n\t•\t7 minuter med spårvagn till Avenyn, Korsvägen och Järntorget\n\t•\tGångavstånd till både Slottskogen och Änggårdsbergen\n\n Om bostaden:\n\t•\t36 kvm, välplanerad etta\n\t•\tBalkong med sol under dagen och kvällen\n\t•\tNärhet till både universitet, sjukhus och stadens uteliv\n\nLägenheten passar perfekt för student, forskare eller yrkesperson som vill bo centralt men ändå nära naturen.\n\nHyra 11 500 utanför Qasa med 1 månadshyra som deposition",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 11200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Virvelvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1447431",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6e7b382d02a35fbe5853bacbf658796f2f89f0e691439a7ec7e00438c5e9557b.jpg",
-    "description": "Viktig info:\n- Hyresavtal December-Februari (tillfälligt, full möblerad)\n\nVälkommen till ditt framtida hem i hjärtat av Göteborg! Denna moderna lägenhet i Lundby kombinerar komfort och stil med elegant nyrenoverat kök och badrum. Med sina generösa ytor och moderna bekvämligheter är den en perfekt plats för dig som söker ett trivsamt och bekvämt boende.\n\nOm bostaden\nDenna rymliga lägenhet är 60 kvadratmeter stor och består av två rum. Här finns allt du behöver, från frys, ugn och diskmaskin till mikrovågsugn. Njut av friska luft på balkongen eller njut av soliga dagar på den gemensamma uteplatsen. För extra bekvämlighet finns även tillgång till gemensam tvättstuga, torkrum och cykelrum. Dessutom finns säkerhetsdörr och hiss för din trygghet. Lägenheten är möblerad och inflyttningsklar från 2025-06-01, med utflyttning planerad till 2026-06-01. Upp till två hyresgäster är tillåtna.\n\nOmråde och kommunikationer\nBelägen i det charmiga kvarteret Lundby, ligger denna lägenhet i ett av Göteborgs mest eftertraktade områden. Här har du nära till bekvämligheter, med goda kommunikationer som gör det enkelt att nå stadens centrum. Ta en promenad till den populära parken Keillers Park för en avkopplande dag i grönskan eller upptäck det pulserande kulturlivet i närheten. Bor du här har du alltid något nytt att upptäcka och uppleva.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 10800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-28T01:46:28+00:00", "clock": "01:46:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-28T07:45:03+00:00", "clock": "07:45:03"};
