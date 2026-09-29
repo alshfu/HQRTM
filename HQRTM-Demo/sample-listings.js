@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Liden, Göteborg",
+    "url": "https://qasa.com/p/1473124",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3PW9ERMTW2J9MTSV9NTSDDK.jpg",
+    "description": "Ljus och rymlig möblerad 2:a om 69 kvm på Norra Liden, med mycket centralt läge i Göteborg. Lägenheten består av vardagsrum, sovrum, kök och badrum samt balkong med fin utsikt. Hiss finns i fastigheten. Lägenheten är fullt möblerad och utrustad med bland annat diskmaskin, mikrovågsugn, TV och bredband. Tvättstuga finns i fastigheten. Värme, vatten, el, bredband och sophämtning ingår i hyran. Boendeparkering kan sökas via Göteborgs Stad. Uthyres i första hand långsiktigt, minst 12 månader. Rökning och husdjur är inte tillåtna. Passar utmärkt för person eller par som söker ett bekvämt och centralt boende i Göteborg. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 69.0,
+    "rent": 17500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Bohusgatan, Göteborg",
+    "url": "https://qasa.com/p/1461717",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8fab1e820d06166f66a2d0254cc9cd5de5ecac71ff2412d174cbfe0733735a1e.jpg",
+    "description": "Nybyggd och möblerad 3:a på Heden – 73 kvm\nUthyres: Helt nybyggd och möblerad 3:a på attraktiva Heden i Göteborg.\n\nVi hyr ut vår fina, helt nybyggda lägenhet på 73 kvm på Bohusgatan vid Heden under en begränsad period. Vi får nycklarna den i början av november 2026 och lägenheten kommer att hyras ut möblerad.\n\nAnledningen till uthyrningen är att min man spelar basket i Spanien under säsongen, och därför kommer vi att vara bortresta under denna period.\n\nLägenheten har en modern och fin planlösning med två sovrum, och passar perfekt för exempelvis ett par, en liten familj eller två personer som söker ett bekvämt och centralt boende.\n\nLägenheten erbjuder\n73 kvm\n3 rum och kök\n2 sovrum\nHelt nybyggd\nMöblerad\nBalkong\nModernt kök med diskmaskin\nEgen tvättmaskin och torktumlare\nModernt badrum\nEl och bredband ingår i hyran, varmvatten mäts varje månad och debiteras i efterhand. \n\nLäget\nLägenheten ligger på Bohusgatan, precis vid Heden, med ett fantastiskt centralt läge. Här har du gångavstånd till city, restauranger, caféer, shopping, gym och goda kommunikationer. Ett perfekt läge för dig som vill ha nära till allt.\n\nHyresperiod\nMitten av november 2026 – mitten av maj 2027\nVi söker en seriös, skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten. Lägenheten är rökfri och vi tillåter inga husdjur.\n\nVid seriöst intresse berättar vi mer om hyresvillkor.\n\nDå lägenheten är ny så har vi inte sett slutresultatet, utan vi har några bilder som visar på ett ungefär och sen kommer vi få bilder i slutet av oktober. \n\nTillträde: cirka 15 november 2026\nUtflytt: cirka 15 maj 2027\n\nVid intresse får du/ni gärna skicka en kort presentation av er själva, exempelvis sysselsättning, vilka som ska bo i lägenheten och varför ni söker boende under perioden.\n\nVälkommen att höra av dig!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 73.0,
+    "rent": 21000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Flöjtgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1473012",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3PMYC9KA9YY8SWA9RT7NDJY.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 69, Göteborg",
-    "url": "https://qasa.com/p/1473009",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cd65d5844ba4cb92728571b6da46cbc8d18830e4aa10550af54463f077b6660c.jpg",
-    "description": "OBS! Lägenheten totalrenoveras och hyrs ut genom exempelbilder och en planritning. \n*Ingen fysisk visning*\n\nINFLYTTMNING\nDenna lägenheten har ett snabbt inflyttningsdatum med kontraktstart 15 oktober 2026. Detta datum går ej att flytta på.\n\nOM LÄGENHETEN\nVälkommen till denna fyra med balkong i Biskopsgården! \n\nLägenheten håller just nu på att renoveras enligt vårt koncept Willhemlyftet. De lägenheter som renoverats enligt Willhemlyftet är totalrenoverade och har bland annat modernt kök med rostfria vitvaror, Gasspis*, vilket skiljer sig från exempelbilden, varmluftsugn och diskmaskin.\n\nLägenheten har även helkaklat badrum med wc, tvättställ med kommod, dusch med glasdörrar, handdukstork samt förberedd installation av egen tvättmaskin/torktumlare. Lägenheten kommer att ha genomgående vita väggar, ekparkett samt slitstarkt klinker i hallen. Via denna länk kan ni läsa mer om Willhemlyftet: https://www.willhem.se/kundservice/willhemlyftet/\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå och inkluderar värme och vatten. El, gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt. därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 7788,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Höstvädersgatan 71, Göteborg",
-    "url": "https://qasa.com/p/1472996",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/99381e056f2b0f3c5e86940262d2f14006cfd04810b585910c7eb78bbd54ab5c.jpg",
-    "description": "OM LÄGENHETEN \nVälkommen till denna fina och välplanerade 4:a i Biskopsgården! Lägenheten har ett modernt kök utrustat med gasspis, diskmaskin och rostfria vitvaror. Badrummet är helkaklat och det är förberett för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el och gas. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nNFLYTTNING\nInflyttning sker måndagen den 4 januari 2027. Då den 1 januari infaller på en röd dag, följt av helg, sker inflyttningen nästkommande vardag.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 79.0,
-    "rent": 10162,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-29T14:14:22+00:00", "clock": "14:14:22"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-29T19:27:26+00:00", "clock": "19:27:26"};
