@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan 52A, GÖTEBORG",
+    "url": "https://qasa.com/p/1472566",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/cb723920189ad0acc9a7af633d35f86aa8b377269e5f3fefc23ba0f5cd98930a.jpg",
+    "description": "Välkommen hem till Långströmsallén!\nHär ges möjlighet att hyra en lägenhet på Långströmsgatan 52 A, 1 ROK på 41 kvm - bottenplan. En ljus och välplanerad bostad med avtalstid från 1 januari.\n\nLägenheten är försedd med diskmaskin, induktionshäll, varmluftsugn, kyl/frys och mikrovågsugn. Lägenhetsförråd finns i huset. I hyran ingår vatten, värme och kabel-TV. Tvättstuga finns i huset bredvid. OBS! Exempelbilder och planritningen är inte skalenlig.\n\nDen annonserade hyran gäller för 2026. Hyran kommer därefter att justeras i samband med den årliga hyresförhandlingen.\nInflyttning: 2027-01-01\r\n\r\nOMGIVNING\r\nLångströmsgatan ligger i lugna och natursköna Svartedalen i Biskopsgården på Hisingen. Området består av 25st huskroppar. Husen är tre-våningshus med tre uppgångar i varje. I området finns både förskola och skolor. På gångavstånd hittar man även Flunsåsparken och Svarte Mosse med löpspår och naturstigar.\r\n\r\nKOMMUNIKATIONER\r\nBuss 44 till Eketrägatan tar ca 5 min. Från Eketrägatan går spårvagn 5, 6 och 10 och även ett flertal bussar. Till Göteborgs centralstation tar det ca 25 minuter.\r\n\r\nPARKERING\r\nSeparat kö.",
+    "district": "GÖTEBORG",
+    "rooms": 1.0,
+    "area_m2": 41.0,
+    "rent": 7434,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Smörkärnegatan, Göteborg",
     "url": "https://qasa.com/p/1472417",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3MZ2FEJV0E2NM07MAATJFC2.jpg",
@@ -13,21 +28,6 @@ window.HQRTM_SAMPLE = [
     "rent": 10500,
     "floor": null,
     "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borstbindaregatan , Göteborg",
-    "url": "https://qasa.com/p/1468441",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3MP9ZFH76G08W0W1TBZJDPR.jpg",
-    "description": "Välplanerad och ljus omöblerad 2:a på 60 kvm på Borstbindaregatan uthyresDå jag ska prova på sambolivet hyr jag nu ut min trivsamma tvåa på 60 kvm på Borstbindaregatan 7. Lägenheten hyrs ut helt omöblerad, vilket ger dig perfekta möjligheter att sätta din egen prägel på ditt nästa hem.Lägenheten är mycket välplanerad med rymliga rum, fint ljusinsläpp och bra förvaringsmöjligheter.• Köket Rymligt med goda arbetsytor och plats för ett eget matbord.• Vardagsrum: Stort och lättmöblerat med gott om plats för en rejäl soffgrupp.• Sovrum: Trivsamt och stort med plats för dubbelsäng och garderober.• Badrum: Fräscht och funktionellt finns tvättmaskin och tork.stort Härlig balkong med plats för utemöbler.Lägenheten uthyres från [2026/11/02] till [2027/11/02], med god chans till förlängning om allt fungerar bra. och Här bor du i ett av Göteborgs mest populära områden på Hisingen, nära Kvillebäcken och Backaplan.Gångavstånd till Vågmästareplatsen och Hjalmar Brantingsplatsen. Spårvagnar och bussar tar dig till Göteborgs Centralstation på bara 5–7 minuter.• Service & Mat: Mycket nära till Kville Saluhall, ett stort utbud av restauranger, caféer, gym samt Backaplans köpcentrum med alla tänkbara butiker.\n Hyra: [14000] kr/månad.• Ingår i hyran: [Värme, vatten, bredband och el].• Deposition: En månadshyra tillämpas och återfås vid utflytt.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   },
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-29T01:27:18+00:00", "clock": "01:27:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-29T07:24:40+00:00", "clock": "07:24:40"};
