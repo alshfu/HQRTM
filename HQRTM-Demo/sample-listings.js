@@ -6,7 +6,7 @@ window.HQRTM_SAMPLE = [
     "title": "Smörkärnegatan, Göteborg",
     "url": "https://qasa.com/p/1472417",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3MZ2FEJV0E2NM07MAATJFC2.jpg",
-    "description": "Ljus och trivsam lägenhet på 53 kvm på Smörkärnegatan 1 i Göteborg. Lägenheten är modern och välplanerad med ett rymligt vardagsrum, separat sovrum, fullt utrustat kök och badrum. Ett lugnt och trevligt boende med bra kommunikationer till centrala Göteborg.\n\nPassar perfekt för dig som söker ett bekvämt och välskött boende under en kortare period.\n\nUthyres fram till 31 December 2026",
+    "description": "Obs! Korttidsuthyrning fram till 31 December 2026\n\nLjus och trivsam lägenhet på 53 kvm på Smörkärnegatan 1 i Göteborg. Lägenheten är modern och välplanerad med ett rymligt vardagsrum, separat sovrum, fullt utrustat kök och badrum. Ett lugnt och trevligt boende med bra kommunikationer till centrala Göteborg.\n\nPassar perfekt för dig som söker ett bekvämt och välskött boende under en kortare period.",
     "district": "Göteborg",
     "rooms": 2.0,
     "area_m2": 53.0,
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-28T21:54:00+00:00", "clock": "21:54:00"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-29T01:27:18+00:00", "clock": "01:27:18"};
