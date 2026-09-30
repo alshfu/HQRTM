@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjurstråket (Karlatornet), Göteborg",
+    "url": "https://qasa.com/p/1474431",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3SYSKJ08JHV24WH3C0W1M17.jpg",
+    "description": "Modern 1:a i Karlatornet, våning 7\n\nNu finns möjlighet att hyra en modern och välplanerad lägenhet om 31 kvm på våning 7 i Karlatornet.\n\nHyra: 11 000 kr/mån + 500 kr/mån i preliminärt el- och vattenförskott\n Inflyttning: Omgående\n Hyrestid: 12 månader (t.o.m. 30 september 2027)\n\nOm bostaden\n\n31 kvm\nOmöblerad\nVärme ingår\nRökning ej tillåten\nHusdjur ej tillåtna\n\nFaciliteter Tillgång till Karlatornets gemensamma faciliteter såsom lobby, bio- och aktivitetsrum, kylrum, gemensamt kök, gym, skybar och takterrass enligt gällande regler, bokningsvillkor och tillgänglighet.\n\nEl och vatten Hyresgästen betalar ett preliminärt tillägg om 500 kr per månad för el och vatten. Beloppet utgör ett förskott och är inte en fast avgift. Efter hyrestidens slut görs en slutavräkning baserad på faktisk kostnad enligt underlag från fastighetsägaren. Om den faktiska kostnaden understiger inbetalat förskott återbetalas mellanskillnaden till hyresgästen. Om den faktiska kostnaden överstiger inbetalat förskott ska hyresgästen betala mellanskillnaden.\n\nIngår inte\n\nInternet\nParkeringsplats\nBilpoolens användningsavgifter\nEventuella medlems- eller bokningsavgifter kopplade till faciliteterna\n\nUthyrning: Uthyrningen sker genom Qasa. Hyresavtal, betalningar och deposition hanteras enligt Qasas gällande villkor. Qasa hanterar även deposition och betalningsadministration för uthyrningar via plattformen.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 11000,
+    "floor": 7,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mölndalsvägen, Göteborg",
     "url": "https://qasa.com/p/1474410",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3SXD9MVBWGX74FVBTWHE90M.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Djupedalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1474173",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3SH42TCW3DMXPRWRD9XRFJ7.jpg",
-    "description": "Ovanligt fin sekelskifteslägenhet i Linnéstaden\n\nSekelskifteslägenhet med mycket karaktär, mitt i Linnéstaden, med högt i tak, spegeldörrar och balkong mot innergården.\n\nLägenheten är 64 kvm och har ett generöst vardagsrum, stort kök och stort sovrum med vacker tegelvägg. Från köket når du balkongen och husets nyrenoverade, stenlagda innergård.\n\nHär bor du mitt i Linnéstaden, med Slottsskogen, restauranger, kaféer, butiker och ett rikt kulturutbud nära till hands.\n\nAvsikten är att hyra ut lägenheten under cirka ett år, med möjlighet till förlängning. El och wifi ingår i hyran.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 18122,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-30T20:02:40+00:00", "clock": "20:02:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-09-30T23:42:19+00:00", "clock": "23:42:19"};
