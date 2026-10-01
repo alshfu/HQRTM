@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Myntgatan, Göteborg",
+    "url": "https://qasa.com/p/1475356",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3WAYZJ52Z7WQZ2N0BGEJ4PB.jpg",
+    "description": "Nyproducerad, modern tvåa med stort och rymligt kök utrustat med varmluftsugn, diskmaskin m.m.\nBostaden genomsyras av genomgående hög kvalitet och smakfulla färg- och materialval.\nPåkostade vitvaror från Cylinda, ekparkett och fina ytskikt samt helkaklat badrum.\n\nStor gemensam uteplats.\nFörråd, fjärrvärme och fiberinternet ingår.\n\nToppläge endast 5 minuter från city, med omedelbar närhet till Backaplan, Kville Saluhall, Eriksberg och Ramberget – Göteborgs finaste utsiktsplats.\n\nLångtids hyresgäster prioriteras.\n\nTillträde: 2026-11-01\nHyra: 12 950 kr/mån",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 12950,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Björcksgatan, Göteborg",
     "url": "https://qasa.com/p/1475256",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3W2A86QVH4W5ZDQ2K9WFK02.jpg",
@@ -14,21 +29,6 @@ window.HQRTM_SAMPLE = [
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Noleredsvägen, Torslanda",
-    "url": "https://qasa.com/p/1475242",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3W14H053RK6320F4Q2XZ3B5.png",
-    "description": "Hyr ut vår 3a på Noleredsvägen 4 eftersom vi kommer flytta i slutet på november. \nVälskött lägenhet med inglasad balkong. Stort sovrum och vardagsrum samt ett mindre sovrum finns. Finns även tvättmaskin alternativt tvättstuga och diskmaskin i köket. \nI hyran ingår värme, el, bredband och tv samt finns möjlighet att hyra parkeringsplats. \nVid intresse hör av er och ange referens från tidigare hyresvärd. 1 månadshyra i depositionsavgift. ",
-    "district": "Torslanda",
-    "rooms": 3.0,
-    "area_m2": 78.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
     "listing_type": "fcfs"
   },
   {
@@ -107,4 +107,4 @@ window.HQRTM_SAMPLE = [
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-01T16:33:44+00:00", "clock": "16:33:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-01T21:17:48+00:00", "clock": "21:17:48"};
