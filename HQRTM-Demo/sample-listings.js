@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Övre Fogelbergsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1475488",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/bf2561a3fb30bf297d631def9745c2fe4cef41b7039e50766618fcfe73f246a6.jpg",
+    "description": "I januari har ni möjligheten att flytta in i en fantastisk lägenhet på Övre Fogelbergsgatan i Vasastaden. Här bor du med närhet till allt du kan tänkas behöva.\nBostaden är beläget på våning 2.\nLägenheten är en tre rum och kök på 80 kvm.\n\nVälkommen med din ansökan redan idag.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 80.0,
+    "rent": 13341,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Övre Fogelbergsgatan 1, Göteborg",
+    "url": "https://qasa.com/p/1475490",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/995613daa6e79f2ef9b04d8ae29af33d0dc651c4c861677b9170920d34abb3d8.jpg",
+    "description": "I januari kan vi erbjuda en 2 ROK på Övre Fogelbergsgatan 1 i centrala Göteborg.\nLägenheten ligger i Vasastaden.\nLägenheten är belägen på våning 2 och är disponerad på 58kvm.\n\nVälkommen med din ansökan redan idag.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 10495,
+    "floor": 2,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Myntgatan, Göteborg",
     "url": "https://qasa.com/p/1475356",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3WAYZJ52Z7WQZ2N0BGEJ4PB.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sommarvädersgatan 20, Göteborg",
-    "url": "https://qasa.com/p/1475209",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/389ae4277e9f9320175a6edb23d3e48f0b0de29ab04bdf5cce3ccdbf18b19769.jpg",
-    "description": "OBS! Lägenheten totalrenoveras och hyrs ut genom exempelbilder och en planritning.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna fyra i Biskop!\n\nLägenheten håller just nu på att renoveras enligt vårt koncept Willhemlyftet. De lägenheter som renoverats enligt Willhemlyftet är totalrenoverade och har bland annat modernt kök med rostfria vitvaror, gasspis, varmluftsugn och diskmaskin.\n\nLägenheten har även helkaklat badrum med wc, tvättställ med kommod, dusch med glasdörrar, handdukstork. Tvättmaskin finns inte, utan gemensam tvättstuga gäller. Lägenheten kommer att ha genomgående vita väggar, ekparkett samt slitstarkt klinker i hallen. Via denna länk kan ni läsa mer om Willhemlyftet: https://www.willhem.se/kundservice/willhemlyftet/\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå och inkluderar värme och vatten. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt. därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 81.0,
-    "rent": 10771,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sommarvädersgatan 28, Göteborg",
-    "url": "https://qasa.com/p/1475199",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/0884df8ceab7e5eea18a834cdba1b011566ad02e8cd4c0e65a75ff1f0b430bb1.jpg",
-    "description": "OBS! Lägenheten totalrenoveras och hyrs ut genom exempelbilder och en planritning.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna fyra i Biskop!\n\nLägenheten håller just nu på att renoveras enligt vårt koncept Willhemlyftet. De lägenheter som renoverats enligt Willhemlyftet är totalrenoverade och har bland annat modernt kök med rostfria vitvaror, gasspis, varmluftsugn och diskmaskin.\n\nLägenheten har även helkaklat badrum med wc, tvättställ med kommod, dusch med glasdörrar, handdukstork. Tvättmaskin finns inte, utan gemensam tvättstuga gäller. Lägenheten kommer att ha genomgående vita väggar, ekparkett samt slitstarkt klinker i hallen. Via denna länk kan ni läsa mer om Willhemlyftet: https://www.willhem.se/kundservice/willhemlyftet/\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering\n\nÖVRIGT\nHyran avser 2026 års hyresnivå och inkluderar värme och vatten. El, Gas, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n\nVälkommen att söka!\n\nAll information om lägenheten finns i annonsen. Vi har tyvärr inte möjlighet att besvara ytterligare frågor innan du som sökande eventuellt får ett erbjudande. Ansökningar tas endast emot via HomeQ – inte via telefon, e-post eller besök. Det går därför inte att påverka processen genom att kontakta oss direkt. därför inte att påverka processen genom att kontakta oss direkt.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 81.0,
-    "rent": 10771,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-01T21:17:48+00:00", "clock": "21:17:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-02T00:55:02+00:00", "clock": "00:55:02"};
