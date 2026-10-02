@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordenskiöldsgatan, Göteborg",
+    "url": "https://qasa.com/p/1476033",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3Z8C1TFM19XN6GV2HX3NF1A.jpg",
+    "description": "Renoverad 2 rok i Linné – möblerad, parkering och allt inkluderat\n\nVälkommen till en renoverad och mycket välplanerad citytvåa på attraktiva Nordenskiöldsgatan, mitt i hjärtat av Linné.\nLägenheten är 47 m² och erbjuder en genomtänkt planlösning med ljusa ytskikt, härligt ljusinsläpp och en social, delvis öppen planlösning mellan kök och vardagsrum. Från vardagsrummet finns en fransk balkong med utsikt över Linnés stadsmiljö.\nBostaden\n•\t47 m², 2 rum och kök\n•\tRenoverad och smakfullt inredd\n•\tFullt möblerad\n•\tModernt kök med diskmaskin\n•\tVardagsrum med soffgrupp och matplats\n•\tSovrum med dubbelsäng\n•\tHelkaklat badrum med badkar\n•\tPraktisk walk-in closet/förvaring\n•\tHiss\n•\tVåning 4 \n•\tFransk balkong\n\nI hyran ingår\n15 000 kr/mån totalt, inklusive:\n•\tMöbler\n•\tParkeringsplats i garage, möjlighet till laddning\n•\tEl\n•\tElnät\n•\tBredband\n•\tTV\n\nOm området\nHär bor du med Linnés stora utbud av restauranger, caféer, barer, service och träningsmöjligheter precis runt hörnet. Samtidigt är det nära till Slottsskogen och goda kommunikationer med spårvagn och buss.\nBostadsrättsföreningen har en gemensam gård och tvättstuga.\n\nOm uthyrningen\nLägenheten hyrs ut fullt möblerad och passar en skötsam person eller ett par som söker ett bekvämt och centralt boende under en längre period.\nVi söker en ansvarsfull och ordningsam hyresgäst med stabil ekonomi. Referenser och sedvanlig kontroll kan komma att begäras.\nInflyttning: november alt överenskommelse\nUthyrningsperiod: tillsvidare\nHyra: 15 000 kr/mån\nDeposition: 2 månadshyror (30 000)\nVid seriöst intresse, berätta gärna lite om dig/er, vad ni arbetar med och vilken period ni söker bostad för\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 15000,
+    "floor": 4,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ebbe Lieberathsgatan, Göteborg",
+    "url": "https://qasa.com/p/1475975",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3YYE2VE287YSK33V6S7SS9T.jpg",
+    "description": "Ljus och välplanerad lägenhet i ett nybyggt (2018-2019) , trevligt kvarter med goda kommunikationer samt gångavstånd (ca 15-20 min) till såväl Göteborgs stadskärna som Mölndals nybyggda centrum.\nBostaden har öppen planlösning med vita väggar och ljusa parkettgolv av ask samt franskbalkong med fin utsikt. Badrummet är tidlöst vitkaklat med antracitgrå klinker på golven. Givetvis är det förberett för egen tvätt- och torkutrustning. Köket har utrustats med vita släta köksluckor, bänkskiva i mörkgrå laminat samt en klassisk diskbänk med två hoar. Vitvaror utgörs av kyl/frys och spis med energieffektiv induktionshäll. För den som vill installera egen diskmaskin, är köket förberett även för detta. Fastigheten är försedd med öppen fiberlösning, så att man själv kan välja tjänsteutbud av bredband, TV och telefoni. Möjlighet till parkering erbjuds i garage, som finns under bostadskvarteret. Detta nås via hiss från samtliga trapphus.\n\n2 mån deposition och hyresavtal enligt hyresrättsföreningen regler\n\nBV",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 11700,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gärdsåsgatan , Göteborg",
     "url": "https://qasa.com/p/1475950",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3YVK3Q3ASKE6ANS4WHPRFV0.jpg",
@@ -36,7 +66,7 @@ window.HQRTM_SAMPLE = [
     "title": "Saffransgatan, Angered",
     "url": "https://qasa.com/p/1475919",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3YQ95A4A113Q3X889MKB19S.jpg",
-    "description": "Korttidsuthyrning februari–maj\n\nJag ska studera utomlands under den perioden och hyr därför ut min mysiga tvåa med uteplats i Gårdsten. Jag söker en lugn, skötsam och ansvarsfull person som tar väl hand om bostaden. Mina möbler är nya och jag är väldigt mån om dem, så jag söker någon som är försiktig och rädd om hemmet. \n\nRökning är okej på uteplatsen.\n\nLägenheten ligger i ett lugnt område där det bor mycket familjer. Det är lugnt från grannarna och man störs inte av ljud. Precis utanför porten finns avfall och avgifts parkering finns också. \n\nDet finns en skola på baksidan, uteplatsen ligger vid en vändplan så det är väldigt lite aktivitet där. Uteplatsen har utsikt mot skog.\n\nBusshållplats ligger ca 2 minuter bort och bussarna går ungefär var 10:e minut. Gårdsten centrum ligger ca 5 minuters promenad bort med ICA, restauranger, bibliotek m.m.\n\nMed bil tar det ca 9 minuter till Angereds centrum och gallerian.\n\nVatten och el mäts utifrån förbrukning. \n\nSkriv gärna om du är intresserad och berätta lite om dig själv.",
+    "description": "Korttidsuthyrning\nShort-term contract\n februari–maj\n\nJag ska studera utomlands under den perioden och hyr därför ut min mysiga tvåa med uteplats i Gårdsten. Jag söker en lugn, skötsam och ansvarsfull person som tar väl hand om bostaden. Mina möbler är nya och jag är väldigt mån om dem, så jag söker någon som är försiktig och rädd om hemmet. \n\nRökning är okej på uteplatsen.\n\nLägenheten ligger i ett lugnt område där det bor mycket familjer. Det är lugnt från grannarna och man störs inte av ljud. Precis utanför porten finns avfall och avgifts parkering finns också. \n\nDet finns en skola på baksidan, uteplatsen ligger vid en vändplan så det är väldigt lite aktivitet där. Uteplatsen har utsikt mot skog.\n\nBusshållplats ligger ca 2 minuter bort och bussarna går ungefär var 10:e minut. Gårdsten centrum ligger ca 5 minuters promenad bort med ICA, restauranger, bibliotek m.m.\n\nMed bil tar det ca 9 minuter till Angereds centrum och gallerian.\n\nVatten och el mäts utifrån förbrukning. \n\nSkriv gärna om du är intresserad och berätta lite om dig själv.",
     "district": "Angered",
     "rooms": 2.0,
     "area_m2": 60.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kvartsekelsgatan, Göteborg",
-    "url": "https://qasa.com/p/1475717",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3Y3E3VQTDV16TMHP2288DA1.jpg",
-    "description": "Ett ljust och stort rum uthyres, rummet är cirka 15kvm med säng, garderob och stol/bord.\n\nGemensamt kök och 2 toaletter/badrum finns. Wifi och el/värme och vatten ingår i hyran.\n\nCirka 50-100 meter till Kortedala Torg med massa affärer och bra kommunikationer till Göteborg.\n\nBra om det kan lämnas 2 månaders deposition.\n\nSkicka ett mail/meddelande och berätta lite om dig själv.\n\nSå länge annonsen finns kvar så finns rummet kvar.\nMvh Magnus",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 3762,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Löparegatan, Göteborg",
-    "url": "https://qasa.com/p/1475652",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3XXC79GPC4DK5D7RF6KN55K.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 26450 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/ruqbuqsixtycrbuxp7ak/vastra-gotaland/goteborg/loparegatan-17/6-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nKlassiskt sekelskifteshem beläget i eftertraktade bagaregården i Göteborg. \r\n\r\nDenna bostad erbjuder balans mellan stadens bekvämligheter och ett lugnt familjeliv, där stadskärnas nås på bara 10 minuter med spårvagn, cykel eller bil. Huset är idealiskt för småbarnsfamiljer och erbjuder en lummig, privat baksida med ett rymligt trädäck och gräsmatta, samt en uteplats på framsidan där ni kan njuta av härlig kvällssol. Egen parkeringsplats med elbilsladdare finns tillgänglig på tomten. \r\n\r\nUtöver öppna sällskapsytor på entréplan och lugna avskilda sovrum en trappa upp finns här också en renoverad källarvåning som erbjuder en helt privat gästsvit eller tonårslägenhet med egen ingång och eget badrum. Detta flexibla utrymme passar utmärkt för långväga familjebesök, ett avskilt hemmakontor eller liknande behov av en mer separat del av huset.\r\n\r\nFinns en källarplan som\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 26450 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 6.0,
-    "area_m2": 110.0,
-    "rent": 24965,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-02T18:30:04+00:00", "clock": "18:30:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-02T22:29:56+00:00", "clock": "22:29:56"};
