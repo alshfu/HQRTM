@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ebbe Lieberathsgatan, Göteborg",
+    "url": "https://qasa.com/p/1476416",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41C4M0DKNB568W67VBSPENK.jpg",
+    "description": "Ljus och välplanerad lägenhet i ett nybyggt (2018-2019) , trevligt kvarter med goda kommunikationer samt gångavstånd (ca 15-20 min) till såväl Göteborgs stadskärna som Mölndals nybyggda centrum.\nBostaden har öppen planlösning med vita väggar och ljusa parkettgolv av ask samt franskbalkong med fin utsikt. Badrummet är tidlöst vitkaklat med antracitgrå klinker på golven. Givetvis är det förberett för egen tvätt- och torkutrustning. Köket har utrustats med vita släta köksluckor, bänkskiva i mörkgrå laminat samt en klassisk diskbänk med två hoar. Vitvaror utgörs av kyl/frys och spis med energieffektiv induktionshäll. För den som vill installera egen diskmaskin, är köket förberett även för detta. Fastigheten är försedd med öppen fiberlösning, så att man själv kan välja tjänsteutbud av bredband, TV och telefoni. Möjlighet till parkering erbjuds i garage, som finns under bostadskvarteret. Detta nås via hiss från samtliga trapphus.\n\n2 mån deposition och hyresavtal enligt hyresrättsföreningen regler\n\nBV",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 62.0,
+    "rent": 12325,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Norra Liden, Göteborg",
+    "url": "https://qasa.com/p/1472270",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41BHB728NWCWM94SXZF1K7Q.jpg",
+    "description": "Hej! Min kille och jag ska på utbyte till våren och hyr därför ut vår lägenhet! En välplanerad och öppen tvåa med balkong i sydvästläge. Lägenheten ligger inom vallgraven, med några minuter gång till Kungsgatan, Järntorget och Stenpiren! 💗\n\nLägenheten är fullt möblerad och utrustad med diskmaskin! I hyran ingår vatten, värme, el och internet!\n\nHör gärna av dig om du undrar något eller vill ha fler bilder!💗",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 41.0,
+    "rent": 13750,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Askims Domarringsväg, Askim",
+    "url": "https://qasa.com/p/1476398",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41AAATMGCQVKY60B14W8PXW.jpg",
+    "description": "Charmigt rum i lugnt och tryggt kvinnligt kollektiv!\nLängtar du efter ett harmoniskt boende med närhet till både stad och natur? Från och med 1  november finns ett ljust rum på ca 20 kvm ledigt i mitt fina radhus i Askim/Östra Sisjön.\nOm hemmet:\nHär delar du ett rymligt kök, ett välkomnande vardagsrum och två badrum med två andra trevliga kvinnor. Vi värdesätter en trygg och lugn atmosfär där man trivs tillsammans.\nVarför du kommer älska läget:\n• Natur runt hörnet: Området är fantastiskt för dig som gillar löprundor i skogen, långa vandringar eller ett morgondopp i Sisjöns fina badsjöar.\n• Smidig pendling: Busshållplatserna Gåsmossen och Varpemossen ligger alldeles i närheten och tar dig snabbt dit du behöver.\n• Allt inkluderat: Hyran ligger på 4500 kr/mån och då ingår precis allt – el, värme och snabbt bredband. Inga dolda kostnader!\nVi söker en ansvarsfull kvinna som vill bli en del av vårt hem. Låter det som något för dig? Skicka ett meddelande och berätta lite om dig själv!\nEnglish proposal: Cozy room in a peaceful, female-only townhouse\nExperience the best of both worlds – Nature and City convenience!\nAre you looking for a calm, safe, and friendly place to call home? I’m renting out a bright 20 sq m room in our lovely townhouse in Askim/Östra Sisjön, available from november 1st.\nThe Living Space:\nYou will be sharing a fully equipped kitchen, a spacious living room, and two bathrooms with two other women. We aim to keep a harmonious and tidy home where everyone feels welcome.\nHighlights of the area:\n• Outdoor Paradise: Located in a quiet area right next to lush forests, scenic hiking trails, and beautiful swimming lakes. Perfect for nature lovers!\n• Easy Commute: Just a short walk to the bus stops Gåsmossen and Varpemossen, connecting you easily to the rest of Gothenburg.\n• Stress-free Rent: The monthly rent is 4500 SEK, and that covers everything: electricity, heating, and high-speed internet.\nWho are we looking for?\nTo maintain the current dynamic of the house, we are looking for a female tenant.\nInterested? Send us a message and tell us a bit about yourself. We look forward to meeting our new housemate",
+    "district": "Askim",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Varpmossevägen, Askim",
     "url": "https://qasa.com/p/1476327",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4112SM3ZCATKDZ6BZPMQYWM.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1476171",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M40HF5NT3ZQNRT0WZQMSB85A.jpg",
-    "description": "Rum uthyres i centralt belägen villa i Örgryte – Perfekt för studenter\nVi hyr ut ett möblerat rum på ca 12 kvm. \n\nOm boendet\n🏡 Villan är 352 kvm, fördelad på tre våningar med källare, där varje våning är en separat lägenhet med egen entré och rummet som hyrs ut är på första våningen. Villan har en stor altan på 40 kvm, som alla boende kan använda för avkoppling och socialt umgänge.\n\nOm lägenheten & rummet\n-Lägenhet cirka 130 kvm. Ligger  första våningen, med egen entré.\n-Lägenheten har fyra sovrum, kök, vardagsrum och badrum.\n-Du delar köket, vardagsrummet och badrummet med tre andra studenter.\n-Rummet är ca 12 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n👩‍🎓För närvarande bor endast studenter i huset.\n\n📍 Utmärkt läge med goda kommunikationer:\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset, där det finns en välsorterad mataffär, apotek och Systembolaget.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1475933",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3YRJAPWK07T5MK5A0EX65HD.jpg",
-    "description": "Möblerat rum uthyres i Örgryte \nVi hyr ut ett möblerat rum på ca 14 kvm.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 Endast studenter bor i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten andra våning är ca 130 kvm och ligger på andravåningen med egen ingång. \nDen består av fyra sovrum, kök, vardagsrum och badrum.\nDu delar gemensamma utrymmen med tre studenter.\nRummet är ca 14 kvm, möblerat med enkelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 14.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordenskiöldsgatan, Göteborg",
-    "url": "https://qasa.com/p/1476033",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3Z8C1TFM19XN6GV2HX3NF1A.jpg",
-    "description": "Renoverad 2 rok i Linné – möblerad, parkering och allt inkluderat\n\nVälkommen till en renoverad och mycket välplanerad citytvåa på attraktiva Nordenskiöldsgatan, mitt i hjärtat av Linné.\nLägenheten är 47 m² och erbjuder en genomtänkt planlösning med ljusa ytskikt, härligt ljusinsläpp och en social, delvis öppen planlösning mellan kök och vardagsrum. Från vardagsrummet finns en fransk balkong med utsikt över Linnés stadsmiljö.\nBostaden\n•\t47 m², 2 rum och kök\n•\tRenoverad och smakfullt inredd\n•\tFullt möblerad\n•\tModernt kök med diskmaskin\n•\tVardagsrum med soffgrupp och matplats\n•\tSovrum med dubbelsäng\n•\tHelkaklat badrum med badkar\n•\tPraktisk walk-in closet/förvaring\n•\tHiss\n•\tVåning 4 \n•\tFransk balkong\n\nI hyran ingår\n15 000 kr/mån totalt, inklusive:\n•\tMöbler\n•\tParkeringsplats i garage, möjlighet till laddning\n•\tEl\n•\tElnät\n•\tBredband\n•\tTV\n\nOm området\nHär bor du med Linnés stora utbud av restauranger, caféer, barer, service och träningsmöjligheter precis runt hörnet. Samtidigt är det nära till Slottsskogen och goda kommunikationer med spårvagn och buss.\nBostadsrättsföreningen har en gemensam gård och tvättstuga.\n\nOm uthyrningen\nLägenheten hyrs ut fullt möblerad och passar en skötsam person eller ett par som söker ett bekvämt och centralt boende under en längre period.\nVi söker en ansvarsfull och ordningsam hyresgäst med stabil ekonomi. Referenser och sedvanlig kontroll kan komma att begäras.\nInflyttning: november alt överenskommelse\nUthyrningsperiod: tillsvidare\nHyra: 15 000 kr/mån\nDeposition: 2 månadshyror (30 000)\nVid seriöst intresse, berätta gärna lite om dig/er, vad ni arbetar med och vilken period ni söker bostad för\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 47.0,
-    "rent": 14400,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-03T16:11:47+00:00", "clock": "16:11:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-03T19:14:33+00:00", "clock": "19:14:33"};
