@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Älvdanshagen, Torslanda",
+    "url": "https://qasa.com/p/1476483",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41QRTJDE6A3R19G5X81Y69R.jpg",
+    "description": "Ljus och charmig 2-rumslägenhet på 59 kvm med högt i tak och stora fönster som släpper in ljus hela dagen. Lägenheten är delvis möblerad med dubbel säng, soffa, byrå och garderober, samtidigt som det finns gott om plats om du vill ta med egna möbler. Det finns också balkong där man kan njuta av morgonkaffet eller kvällssolen. \n\nHyran inkluderar varmt vatten och parkering. Övriga kostnader såsom el och internet ordnar hyresgästen själv. Lägenheten har förråd, parkering, och i badrummet finns både tvättmaskin och torktumlare.\n\nBelägen i lugna och naturnära Lilleby, Torslanda, nära havet och med familjevänliga omgivningar, perfekt för den som vill ha fred och ro men ändå nära service som Hemköp, ICA Maxi och Willys. Några minuters promenad till busshållplats och cirka 30 minuter till Nordstan gör det lätt att ta sig runt.\n\nLägenheten hyrs ut tillsvidare eftersom jag flyttar utomlands, och det finns möjlighet att ta över första hand-kontraktet för rätt hyresgäst. Detta är ett perfekt hem för dig som vill kombinera ljusa, öppna ytor med närhet till natur, hav och ett lugnt område.",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 59.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Bredängen, Billdal",
+    "url": "https://qasa.com/p/1476450",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41M2Z9X0CGGDJC9EWB8EXD1.jpg",
+    "description": "Ljus och välplanerad 3 på 74 kvm med balkong i sydläge.\n\nNu finns möjlighet att hyra en ljus och välplanerad 3 på 74 kvm, belägen på våning 2 av 2. Ett trivsamt hem för dig som uppskattar generösa sociala ytor, bra ljusinsläpp, lugnt läge och en flexibel planlösning.\n\nLägenheten är en attraktiv hörnlägenhet med fönster åt både syd och nord, vilket ger ett fint ljusinsläpp under stora delar av dagen. Som hörnlägenhet har du dessutom ingen direkt passage av personer utanför fönstren, vilket skapar en extra känsla av lugn och avskildhet.\n\nLägenheten har två sovrum, varav det ena vetter mot den lugna innergården. Här finns även en stor balkong i sydläge, perfekt för att njuta av solen, ta en kaffe eller äta middag under sommarkvällarna.\n\nDet öppna köket och vardagsrummet skapar en naturlig och social yta som passar lika bra för vardagsliv som för umgänge med familj och vänner. Köket är fullt utrustat med diskmaskin, mikrovågsugn, ugn, kyl, frys, spis och fläkt.\n\nLägenheten har genomgått en omfattande renovering, inklusive ett påkostat badrum från 2025, vilket ger en känsla av lyx och kvalitet. Även delar av tak, väggar och golv i lägenheten är nyligen renoverade. Genomgående i hela lägenheten ligger klassisk och stilren ekparkett, vilket ger den en varm och tidlös känsla.\n\nFlexibel planlösning – möjlighet till upp till tre sovrum\n\nDen stora hallen ger lägenheten ytterligare flexibilitet. Genom att exempelvis sätta upp hyllor eller en annan avskärmning går det att skapa ett separat mindre rum eller arbetsrum. För den som behöver fler sovplatser finns därför möjlighet att skapa upp till tre sovrum.\n\nDet här ingår i hyran\n\nInternet\nVatten\nEgen parkering under tak\nKallhyra\n\nBra kommunikationer\n\nLäget passar utmärkt för dig som pendlar. X2 går ofta och tar dig in till stan på cirka 20 minuter, vilket gör det enkelt och smidigt att ta sig till och från centrum.\n\nOm uthyrningen\n\nJag bor tillsammans med min sambo och söker därför en hyresgäst från 1 december, med möjlighet att hyra lägenheten i ett år framåt.\n\nDet här är ett hem för dig som uppskattar ljus, lugn, en flexibel planlösning, balkong, bra kommunikationer och egen parkering under tak.\n\nVälkommen att höra av dig med en kort presentation av dig själv om du är intresserad!",
+    "district": "Billdal",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 15000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b56595740aa6ccab70492e51cebf1305270113758ea40ee774772e71dbf7a103.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ebbe Lieberathsgatan, Göteborg",
     "url": "https://qasa.com/p/1476416",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41C4M0DKNB568W67VBSPENK.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bögatan, Göteborg",
-    "url": "https://qasa.com/p/1476237",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M40RFKZPS93YCDZ8NTQGT2WH.jpg",
-    "description": "Charmig och fullt möblerad vindslägenhet om 2 rum och kök i hjärtat av Örgrytes lugna villakvarter.\n\nHär bor du med närhet till både stad och natur. Spårvagn 5 ligger cirka sju minuters promenad från bostaden och tar dig smidigt in till centrala Göteborg. Delsjöområdet med bad, promenadstråk och friluftsliv finns också på bekvämt gångavstånd.\n\nLägenhetens badrum helrenoverades 2026. Köket uppdaterades sommaren 2026 med nya skåp, kylskåp och spis samt kombinerad mikro och airfryer, och är fullt utrustat för matlagning.\n\nWifi och vatten ingår i hyran, medan el tillkommer. Delad tvättstuga finns i källaren och tillgång till trädgården kan ordnas enligt överenskommelse.\n\nFastighetsägaren bor i husets nedre våningar. Lägenheten hyrs ut till en person och bostaden är rökfri.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungsgatan, Göteborg",
-    "url": "https://qasa.com/p/1476213",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M40P4M2ZGYZWGH7SRBXBFCF7.jpg",
-    "description": "Möblerad nyrenoverad trea på 100 m² på Kungshöjd – uthyres januari–februari\n\nVi hyr ut vår lägenhet under januari och februari medan vi är borta. Här bor du på Kungshöjd, mitt i centrala Göteborg, med gångavstånd till restauranger, caféer, shopping och grönområden.\n\nPremium läge med Linné, Järntorget, Slottsskogen, Domkyrkan och Brunnsparken inom promenadavstånd. Stenpiren finns ett stenkast bort, med färjeförbindelser över till Lindholmen och Lundby.\n\nLägenheten\nLägenheten är 100 m² och består av två separata sovrum, ett vardagsrum och ett kök. Köket och vardagsrummet ligger i anslutning till varandra och ger gott om plats för matlagning och umgänge.\n\nDet ena sovrummet har en dubbelsäng på 180 cm och det andra en säng på 120 cm. Vid behov går det även att bädda för en bekväm sovplats i vardagsrummets soffa.\n\nKök och badrum\nKöket är utrustat med all nödvändig köksutrustning och en espressomaskin för gott kaffe på morgonen.\n\nI det nyrenoverade badrummet finns regndusch, golvvärme samt tvättmaskin med torkfunktion. Det finns även en gemensam tvättstuga en trappa ner via innergården och ett gemensamt källarutrymme.\n\nTV och underhållning\nI vardagsrummet finns en 65-tums TV och en PlayStation 5 med spel och två handkontroller.\n\nKommunikationer och parkering\nNärmaste spårvagnshållplatser är Domkyrkan och Grönsakstorget. Stenpiren och Järntorget ligger också nära, cirka 5–6 minuters promenad bort.\n\nParkering sker på gatan och tillgången till platser är begränsad. Om det finns behov av bil under vistelsen kan bil med boendeparkering eventuellt ordnas mot en extra kostnad.\n\nHör gärna av dig med en kort presentation av dig eller er och vilka datum ni är intresserade av!",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 100.0,
-    "rent": 23000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "A R Lorents gata, Göteborg",
-    "url": "https://qasa.com/p/1476227",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M40PZ1JHNZ4FV1HMQQB01YMY.jpg",
-    "description": "TYP\nBostadsrättslägenhet\nUPPLÅTELSEFORM\n2:a-hands uthyrning\nVÅNINGSPLAN\n2 av 5\nHISS\nJa\nRUM\n3\nBOAREA\n81 kvm\n \nOm lägenheten:\nStor och luftigt 3:a. Två sovrum och ett större förråd i lägenheten. Öppet nyrenoverat kök med köksö. Ny fullstor kyl och frys, diskmaskin och mikro finns. \nRymlig hall, stort badrum med ny tvättmaskin och torktumlare. Stor balkong med solläge och tillåtelse att grilla. Stort förråd finns även separat i källaren. Lediga parkeringsplatser finns att hyra separat i garage direkt under lägenheten.\n \nOm området:\nLugnt och trevligt område med närhet till centrum och stad. Här finns vatten, promenadstråk, båthamn, caféer och restauranger precis intill knuten. Mycket nära till spårvagn, buss och båt som går direkt in till centrum.\n \nOm uthyrning:\nLägenheten hyrs ut omöblerad fram tills årsskiftet. \n \nVem/vilka söker vi:\nVi letar efter er som är seriösa, rökfria och omhändertagande om hemmet. Hund kan diskuteras 😊",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 81.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-03T19:14:33+00:00", "clock": "19:14:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-03T22:10:26+00:00", "clock": "22:10:26"};
