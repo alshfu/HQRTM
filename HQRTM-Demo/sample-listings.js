@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Varpmossevägen, Askim",
+    "url": "https://qasa.com/p/1476327",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4112SM3ZCATKDZ6BZPMQYWM.jpg",
+    "description": "Charmigt och välplanerat Attefallshus i naturnära Sisjön!\n\nLetar du efter ett trivsamt och lugnt boende med närhet till både natur och stad?\n\nNu finns möjlighet att hyra detta yteffektiva Attefallshus med ett fantastiskt läge i Sisjön.\nBostaden passar perfekt för dig som söker ett långsiktigt boende i en harmonisk miljö.\nVälplanerad planlösning med smarta ytor med egen avskilld ingång direkt från gatan.\nEgen parkeringsplats, precis utanför dörren.\nStenlagd uteplats, perfekt för avkoppling och trevliga grillkvällar.\n\nLäge och kommunikationer:\n3–5 minuters promenad, till närmaste busshållplats.\n10 minuters promenad, till Sisjöns badsjö och rekreationsområd med fina motionsstigar och elljusspår.\n2 km till Sisjöns stora shoppingcenter med ett stort utbud av butiker.\n12 km till Göteborgs centralstation.\n\nEkonomi och villkor:\nEl ingår i hyran upp till 6 000 kWh/år (observera att elbilsladdning ej ingår). Vid normal förbrukning ger detta god marginal.\n\nWifi ingår\n\nVem söker vi?\nVi söker i första hand dig som är ensamstående, pendlare eller av liknande skäl uppskattar denna typ av boende.\n\nLångtidsperspektiv: Vi lägger stor vikt vid ömsesidig trivsel och söker en hyresgäst som är intresserad av att hyra under en längre tid. \n\nSkriv några rader om dig själv och varför detta boende passar just dig.\n\nKorttidsuthyrning är ej av intresse.\n\n",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 25.0,
+    "rent": 8700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bögatan, Göteborg",
     "url": "https://qasa.com/p/1476237",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M40RFKZPS93YCDZ8NTQGT2WH.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gärdsåsgatan , Göteborg",
-    "url": "https://qasa.com/p/1475950",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3YVK3Q3ASKE6ANS4WHPRFV0.jpg",
-    "description": "Hur ut 2 rum i källaren i mitt hus. Det finns eget badrum och egen ingång. Litet kök med kyl/frys, mikrovågsugn och kokplatta.\nRummen består av ett litet vardagsrum och ett sovrum. I sovrummet finns en garderob med spegel.\n\nVi delar på tvättmaskinen som är på nedervåningen. Annars är nedervåningen i princip din egen. Liten hund finns i hemmet.\n\n\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 30.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-03T12:04:23+00:00", "clock": "12:04:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-03T16:11:47+00:00", "clock": "16:11:47"};
