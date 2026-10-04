@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gyllenstensgatan, Göteborg",
+    "url": "https://qasa.com/p/1442978",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/625d40abd27fd99b7936a9c952470c4f9ea012d92cd56e2b33ed828f3b02243b.jpg",
+    "description": "Möblerad central 3 rum och kök i Göteborg. Ljus och tyst lägenhet högst upp i huset med stor takterass i söderläge. Utsikt över takåsar och trädkronorna i mysiga Kålltorp. \n\nFri parkering på gatorna i området. Mataffärer, restauranger och bageri på gångavstånd. Buss 17, och spårvagn 1, 3, 5 runt hörnet. \n\nKålltorp ligger nära grönområdena i Delsjön/Skatås och har fortfarande gång och cykelavstånd in till innerstan.  \n\nUthyres 6 månader till mycket skötsam, rökfri person utan barn. Ingen möjlighet till förlängning. Inga husdjur tillåtna. Referenser önskas.\n\nVärme/Vatten/Internet ingår. Hushållsel betalas separat. ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 71.0,
+    "rent": 14010,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ankarhjelmsvägen, Göteborg",
+    "url": "https://qasa.com/p/1476525",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M42P64PB5HF5C6WF9DP650EC.jpg",
+    "description": "🌟 Nyrenoverad studiolägenhet uthyres – nära Tuve Torg 🌟\n\nFräsch och nyrenoverad (2025) studiolägenhet uthyres i lugnt och trevligt område nära Tuve Torg. Lägenheten har egen ingång och passar perfekt för en person som söker ett modernt och bekvämt boende. \n\nBostaden ligger i anslutning till en villa. Vi som bor här är en familj på två vuxna och två barn.\n\n🏡 Om lägenheten:\n\nNyrenoverad\n\nEgen entré\n\nEget badrum med tvättmaskin och torktumlare\n\nFullt utrustat kök med ugn, mikro, spis och kyl/frys\n\nWifi ingår i hyran\n\n\n💡 Övrigt:\n\nEl tillkommer\n\nNära till bussförbindelser, mataffärer och service vid Tuve Torg.\n\nMvh/\nKamrul & Daniela",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 5200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sankt Sigfridsgatan, Göteborg",
+    "url": "https://qasa.com/p/1476510",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M429XFTVZRMSB4TRKTQVAJ5M.jpg",
+    "description": "\nPlanlösning\nFrån hallen når du kök, vardagsrum, badrum och två sovrum. De två stora rummen på 20 kvm  fungerar som vardagsrum och matsal eller extra sovrum. Sovrummet ligger avskilt mot trädgården. Köket har jungfrukammaren på 4cm intill och utgång till altanen. Badrummet ligger rakt fram i hallen.\n\nVad som ingår i hyran\nI hyran på 17 000 kr ingår värme, vatten, el och bredband. Tvättmöjlighet: delad tvättatuga i källaren. Trädgården och altanen får användas fritt. Reserverad parkering på tomten kostar 1000kr.\n\nKommunikation\nBusshållplatsen till buss 18 ligger utanför dörren, och därifrån är det 10 minuter till centrum. Nära till Delsjöområdets natur. Cykelavstånd till city.\n\nVarför vi hyr ut\nVi är en familj som har bott här i flera år och nu vill prova på ett liv närmare naturen under en period. Huset ägs av familjen, så du får en trygg hyresvärd som bryr sig om bostaden och finns nära till hands.\n\n***\n\nEnglish: \nLayout\nFrom the hallway you reach the kitchen, living room, bathroom and two bedrooms. The two large rooms of 20 sqm each work well as a living and dining room, or as extra bedrooms. The main bedroom is quietly located facing the garden. Next to the kitchen is a small 4 sqm former maid's room, perfect as a home office or storage, with access to the deck. The bathroom is straight ahead from the hallway.\n\nWhat's included in the rent\nThe rent of SEK 17,000/month includes heating, water, electricity and broadband. Shared laundry room in the basement. The garden and deck are yours to enjoy. Reserved parking on the property is available for SEK 1,000/month.\n\nGetting around\nBus 18 stops right outside the door, with a 10-minute ride to the city centre. The Delsjön nature area is close by, and the city is within easy cycling distance.\n\nWhy we're renting out\nWe're a family who has lived here for several years and now want to try living closer to nature for a while. The house is family-owned, so you'll have a reliable landlord who cares about the home and is always close at hand.\n",
+    "district": "Göteborg",
+    "rooms": 3.5,
+    "area_m2": 94.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Älvdanshagen, Torslanda",
     "url": "https://qasa.com/p/1476483",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41QRTJDE6A3R19G5X81Y69R.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Liden, Göteborg",
-    "url": "https://qasa.com/p/1472270",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41BHB728NWCWM94SXZF1K7Q.jpg",
-    "description": "Hej! Min kille och jag ska på utbyte till våren och hyr därför ut vår lägenhet! En välplanerad och öppen tvåa med balkong i sydvästläge. Lägenheten ligger inom vallgraven, med några minuter gång till Kungsgatan, Järntorget och Stenpiren! 💗\n\nLägenheten är fullt möblerad och utrustad med diskmaskin! I hyran ingår vatten, värme, el och internet!\n\nHör gärna av dig om du undrar något eller vill ha fler bilder!💗",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 41.0,
-    "rent": 13750,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Domarringsväg, Askim",
-    "url": "https://qasa.com/p/1476398",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M41AAATMGCQVKY60B14W8PXW.jpg",
-    "description": "Charmigt rum i lugnt och tryggt kvinnligt kollektiv!\nLängtar du efter ett harmoniskt boende med närhet till både stad och natur? Från och med 1  november finns ett ljust rum på ca 20 kvm ledigt i mitt fina radhus i Askim/Östra Sisjön.\nOm hemmet:\nHär delar du ett rymligt kök, ett välkomnande vardagsrum och två badrum med två andra trevliga kvinnor. Vi värdesätter en trygg och lugn atmosfär där man trivs tillsammans.\nVarför du kommer älska läget:\n• Natur runt hörnet: Området är fantastiskt för dig som gillar löprundor i skogen, långa vandringar eller ett morgondopp i Sisjöns fina badsjöar.\n• Smidig pendling: Busshållplatserna Gåsmossen och Varpemossen ligger alldeles i närheten och tar dig snabbt dit du behöver.\n• Allt inkluderat: Hyran ligger på 4500 kr/mån och då ingår precis allt – el, värme och snabbt bredband. Inga dolda kostnader!\nVi söker en ansvarsfull kvinna som vill bli en del av vårt hem. Låter det som något för dig? Skicka ett meddelande och berätta lite om dig själv!\nEnglish proposal: Cozy room in a peaceful, female-only townhouse\nExperience the best of both worlds – Nature and City convenience!\nAre you looking for a calm, safe, and friendly place to call home? I’m renting out a bright 20 sq m room in our lovely townhouse in Askim/Östra Sisjön, available from november 1st.\nThe Living Space:\nYou will be sharing a fully equipped kitchen, a spacious living room, and two bathrooms with two other women. We aim to keep a harmonious and tidy home where everyone feels welcome.\nHighlights of the area:\n• Outdoor Paradise: Located in a quiet area right next to lush forests, scenic hiking trails, and beautiful swimming lakes. Perfect for nature lovers!\n• Easy Commute: Just a short walk to the bus stops Gåsmossen and Varpemossen, connecting you easily to the rest of Gothenburg.\n• Stress-free Rent: The monthly rent is 4500 SEK, and that covers everything: electricity, heating, and high-speed internet.\nWho are we looking for?\nTo maintain the current dynamic of the house, we are looking for a female tenant.\nInterested? Send us a message and tell us a bit about yourself. We look forward to meeting our new housemate",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Varpmossevägen, Askim",
-    "url": "https://qasa.com/p/1476327",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4112SM3ZCATKDZ6BZPMQYWM.jpg",
-    "description": "Charmigt och välplanerat Attefallshus i naturnära Sisjön!\n\nLetar du efter ett trivsamt och lugnt boende med närhet till både natur och stad?\n\nNu finns möjlighet att hyra detta yteffektiva Attefallshus med ett fantastiskt läge i Sisjön.\nBostaden passar perfekt för dig som söker ett långsiktigt boende i en harmonisk miljö.\nVälplanerad planlösning med smarta ytor med egen avskilld ingång direkt från gatan.\nEgen parkeringsplats, precis utanför dörren.\nStenlagd uteplats, perfekt för avkoppling och trevliga grillkvällar.\n\nLäge och kommunikationer:\n3–5 minuters promenad, till närmaste busshållplats.\n10 minuters promenad, till Sisjöns badsjö och rekreationsområd med fina motionsstigar och elljusspår.\n2 km till Sisjöns stora shoppingcenter med ett stort utbud av butiker.\n12 km till Göteborgs centralstation.\n\nEkonomi och villkor:\nEl ingår i hyran upp till 6 000 kWh/år (observera att elbilsladdning ej ingår). Vid normal förbrukning ger detta god marginal.\n\nWifi ingår\n\nVem söker vi?\nVi söker i första hand dig som är ensamstående, pendlare eller av liknande skäl uppskattar denna typ av boende.\n\nLångtidsperspektiv: Vi lägger stor vikt vid ömsesidig trivsel och söker en hyresgäst som är intresserad av att hyra under en längre tid. \n\nSkriv några rader om dig själv och varför detta boende passar just dig.\n\nKorttidsuthyrning är ej av intresse.\n\n",
-    "district": "Askim",
-    "rooms": 2.0,
-    "area_m2": 25.0,
-    "rent": 8700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-04T00:38:15+00:00", "clock": "00:38:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-04T06:21:28+00:00", "clock": "06:21:28"};
