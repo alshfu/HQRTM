@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nilssonsberg, Göteborg",
+    "url": "https://qasa.com/p/1477001",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M442VZVQVWN2KF7EHVFB009G.jpg",
+    "description": "Jag söker en inneboende att dela min bostad med.\n\nJag kommer flytta in i lägenheten i början av december och hyr ut ett av rummen från och med januari. \n\nLägenheten är 73 kvadratmeter, och rummet som hyrs ut 9-10 kvadratmeter. Om önskas kan rummet vara möblerat. Badrum,  kök och gemensamma ytor delas med mig. \n\nGångavstånd till Chalmers, Handelshögskolan, Sahlgrenska, centrum, Haga, Linné, m.m.\n\n7000kr/ mån, inklusive el, bredband, värme och vatten.\n\nLägenheten har tvättmaskin, torktumlare, diskmaskin och balkong. Det går att hyra parkering för 1200 kr/mån.\n\nBilderna är från förra ägarna, möblering kommer se annorlunda ut.\n\nSöker en social, ordningsam och trevlig tjej!",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 73.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långströmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1476954",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M43XE4BNCGMKY6SERK2V9BX2.jpg",
+    "description": "Nyproduktion lägenhet med öppen planlösning, separat sovrum och mycket förvaring. I hallen finns två stora garderober för städprodukter och ytterkläder. Badrummet är rymligt med tvättmaskin/tork. En ”walk in closet” med flera inbyggda garderober. Kan användas som kontor om önskas kan garderoberna flyttas. Kök med inbyggd micro, ugn och spis. Parkering ingår i hyran. Busshållsplats precis utanför lägenheten.\n\nInglasad balkong med utemöbler. \n\nParkering precis utanför byggnaden. Busshållplats precis utanför byggnaden. 20 min med kollektivtrafik till Brunnsparken. 20 min med kollektivtrafik till Lindholmen. \n\nNära till flera stora matbutiker och Backaplan där det finns affärer. Liten matbutik och pizzeria i byggnaden framför. \n\nParkering, Internet och varmvatten ingår i hyran.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gunnaredsterrassen, Angered",
     "url": "https://qasa.com/p/1476911",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M43VG80STVY7A7CHE7QMSEE0.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Måns Bryntessonsgatan, Göteborg",
-    "url": "https://qasa.com/p/1476662",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M436TKNWTT3Q25BX9XYWAJ05.jpg",
-    "description": "SÖKER VECKOPENDLARE - Mån - Fre - till min trevliga lägenhet.\n-Boendet gäller vardagar från Måndag 08:00 till Fredag 15:00 då Du har   lägenheten helt för dig själv.\n-Uthyres ej helger då lägenheten nyttjas av mig. \n-Det finns dock en möjlighet att tilläggshyra lägenheten vissa helger, efter   överenskommelse.\n\nLägenheten som ligger i Gamlestaden, på gångavstånd till Gamlestadens resecentrum med snabba förbindelser till centrum, kan sammanfattas enligt följande:\n- 2 rok i HSB-förening\n- hörnlägenhet i utkanten av området med naturen direkt utanför och utan insyn.\n- 2:a handshyresavtal.\n- vån 3 (3)\n- inglasad balkong\n- parkeringsplats ingår\n- internet ingår\n- lägenheten hyrs ut möblerad med utrustat kök\n- hyra 6900:-\n- lägenheten hyrs ut till en (samma) person\n- deposition om två månadshyror i samband med kontraktsskrivning.\n\nDet är alltså viktigt att den som är intresserad att hyra har en möjlighet till annat boendealternativ på helgerna \nVid intresse, skicka PM med en kort beskrivning av dig själv och referens(er).",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 6900,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Vipgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1475142",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3VV3ZRYTVFG0FK1R8H94R1V.jpg",
-    "description": "Liten lägenhet i en villa. Separat egen ingång med en liten uteplats.  I lägenheten finns kokvrå, dusch och wc samt ett rum för sov och uppehållsrum.  Lägenheten är lämplig för studerande. Deposition tillkommer och rökning är inte tillåtet.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 26.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-04T17:01:43+00:00", "clock": "17:01:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-04T20:05:08+00:00", "clock": "20:05:08"};
