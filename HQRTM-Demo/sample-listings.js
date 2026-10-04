@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Helgdagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1477135",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M44F3MYJPYH72ZNQ39PV2AVH.jpg",
+    "description": "Rymlig villa uthyres – 160 kvm, 5–6 sovrum och stor trädgård.\n\nNu finns möjlighet att hyra en rymlig och trivsam villa på ca 160 kvm, perfekt för en familj eller ett större hushåll.\n\nVillan erbjuder gott om plats med 5–6 sovrum, ett stort och ljust vardagsrum samt en härlig trädgård som passar utmärkt för både avkoppling och umgänge.\n\n🏠 Om bostaden\n\n* Boarea: ca 160 kvm\n* 5–6 sovrum\n* Stort vardagsrum\n* Kök\n* Badrum/WC\n* Stor och härlig trädgård\n* Gott om förvaringsmöjligheter\n* Passar perfekt för familj eller större sällskap\n\nOm bostaden\n\nHär får du ett bekvämt och rymligt boende med gott om plats för hela familjen. Den stora trädgården ger möjlighet till lek, grillkvällar och sociala aktiviteter under årets varmare månader.\n\nVillan har en flexibel planlösning och de många sovrummen gör att bostaden även passar bra för exempelvis en familj med flera barn eller för den som behöver extra rum som kontor eller gästrum.\n\n📍 Område: Göteborg/ Kortedala\n💰 Hyra: 23 000kr/mån\n📅 Inflyttning: När som\n⏳ Hyresperiod: Tillsvidare /tidsbegränsad\n🚗 Parkering: Ja \n⚡ Driftskostnader: ca 4000kr\n\nVid intresse, skicka gärna en kort presentation av dig/er, vilka som ska bo i huset samt önskat inflyttningsdatum.\n\nVälkommen att höra av dig för mer information och visning",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 160.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fyrklöversgatan, Göteborg",
+    "url": "https://qasa.com/p/1477127",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M44C7NMRJNWX8B5SHA4S8H9A.jpg",
+    "description": "Jag studerar i Umeå och hyr därför ut min lägenhet på Hisingen, nära Wieselgrensplatsen.\n\nLägenheten är ca 30 kvm, inklusive förråd, och ligger på bottenplan med uteplats. Badrummet renoverades för två år sen, och lägenheten hyrs ut omöblerad. I hyran ingår vatten och värme, bredband kan fås för en extra kostnad på 379kr/mån. Elavtal och hemförsäkring måste man teckna själv. Eventuellt kommer individuell mätning och debitering av vatten införas i bostaden, vilket skulle leda till en annan hyra och en extra kostnad, men detta är fortfarande oklart.\n\nNärservice:\n- Tempo & Preem ligger 3 min promenad bort\n- Willys & Coop på Wieselgrensplatsen ligger 15 min promenad bort, eller 5 min med buss\n\nKommunikationer:\n- 2 min till närmaste busshållplats där bland annat buss 25 går, som tar 10 min till Hjalmar Brantingsplatsen, och 17 min till Brunnsparken\n\nNära till Slätta Damm, ett trevligt naturområde med promenadstråk och ett charmigt våffelcafé.\n\nHyresperioden är t.o.m. den 31/7/2027, med stor möjlighet till förlängning om 1 år åt gången.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 4750,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Paternostergatan, Göteborg",
+    "url": "https://qasa.com/p/1477101",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M448YP4X56WQ2AB4E6CK0PT8.jpg",
+    "description": "Stort rum i hjärtat av Majorna nära Slottsskogen, Mariaplan, Linnéstaden och bra kommunikationer. Du kommer att ha ett eget rum med tillgång till kök, badrum, tvättstuga, vardagsrum, balkong. Lugn återvändsgata med bra parkeringsmöjligheter i området. Hoppas det låter intressant!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nilssonsberg, Göteborg",
     "url": "https://qasa.com/p/1477001",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M442VZVQVWN2KF7EHVFB009G.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjällbogärdet, Angered",
-    "url": "https://qasa.com/p/1476891",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M43S0RVF36XD1BJ4KAX10EDR.jpg",
-    "description": "Hej!\nJag hyr ut en fantastiskt 3a på 71 kvm med ett stort vardagsrum samt stor balkong. där väldigt mycket ingår.\nI hyran ingår El , vatten , värme , beredband , samt tv paket via telia.\nLägenheten har nya fräscha golv på hela lägenheten samt badrummet är helt nytt renoverad. Lägenheten hyrs ut omöblerad.\nDet är ett fantastiskt områgde med väldigt trevliga grannar\nAdress hjällbogärdet 36 \ninflyttning sker from 31 December (tidigare inflyttning går o komma överens om) \nHusdjur är ej tillåtet i lägenheten samt rökning är ej tillåtet.\nunder uthyrningen skiver vi ett kontrakt som trygghet för dig och mig.\nFör mer info skriv Pm hade gott så länge!\n",
-    "district": "Angered",
-    "rooms": 3.0,
-    "area_m2": 71.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Torholmsvägen, Donsö",
-    "url": "https://qasa.com/p/1428578",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66c41723dc1dc2f2f646ec5b71a1ba6016ae488c847e907b59f6c09794338ecd.jpg",
-    "description": "Ett mysigt skärgårdshus nära naturen och nära havet med egen altan och trädgård på ön Donsö i Göteborgs södra skärgård.\nHuset har tvättrum och två badrum, varav ett har dusch. Här finns ett vardagsrum med öppen spis med utgång till altanen på baksidan. Villan har 3 - 4 sovrum, möjlighet för kontor och ett helt nyrenoverat kök. \nPå tomten finns även ett litet separat cykelgarage.\n\nDonsö är en trygg ö med ca 1600 invånare. Här finns såklart förskolor, skola och livsmedelsbutik. Donsö är en aktiv ö perfekt för familjer.\nDet går färjor från Donsö med totalt cirka 1 timme kollektivtrafik till centrala Göteborg.\nPå ön finns ingen vanlig biltrafik, vanligaste färdmedlen på ön är cyklar eller små elbilar.\n",
-    "district": "Donsö",
-    "rooms": 5.0,
-    "area_m2": 120.0,
-    "rent": 17500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stora Arödsgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1452201",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/afa440d8be6c4b188969b7dfefe6f83efdb2a2397aa50acafdef00a694ce4396.jpg",
-    "description": "Välkommen till en trivsam och rymlig villa på Stora Arödsgatan 7, där du hyr en egen våning med gott om utrymme, hemtrevlig känsla och en stor, privat balkong.\n\nBostaden ligger i ett lugnt och trevligt villaområde med goda kommunikationer och närhet till det mesta du behöver i vardagen. Här bor du med en härlig balans mellan lugn och närhet till Göteborgs service, butiker och restauranger.\n\nDen uthyrda våningen ligger avskilt ovanför husets övriga del och erbjuder ett privat och bekvämt boende, perfekt för ett par som söker ett lugnt och långsiktigt hem.\n\nEl och vatten tillkommer utöver hyran och debiteras efter faktisk förbrukning.",
-    "district": "Hisings Backa",
-    "rooms": 4.0,
-    "area_m2": 85.0,
-    "rent": 16000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-04T20:05:08+00:00", "clock": "20:05:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-04T23:03:05+00:00", "clock": "23:03:05"};
