@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Herkulesgatan, Göteborg",
+    "url": "https://qasa.com/p/1477181",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M45CN35TC36Y6CB9N2T66VWK.png",
+    "description": "Möblerad 1:a i centrala Göteborg – för 2 personer\n\nVälkommen till ett bekvämt och fullt möblerat boende mitt i Göteborg. Lägenheten passar perfekt för företag, konsulter eller projektanställda som söker ett smidigt och centralt boende för upp till två personer.\n\nLägenheten har ett rum med kök, eget badrum med dusch och allt som behövs för ett bekvämt boende. WiFi ingår och köket är utrustat för vardagens behov.\n\nHär bor ni centralt med närhet till kollektivtrafik, restauranger, butiker och Göteborgs cityliv.\n\nIngår i boendet:\n\n* Full möblering\n* WiFi\n* Eget kök\n* Eget badrum med dusch\n* Boende för upp till 2 personer\n* Service \n\nPerfekt för företag som söker ett flexibelt och inflyttningsklart boende i centrala Göteborg.\n\nHittar du inte rätt boende här? Vi erbjuder företagsboenden i hela Sverige och på flera platser i Europa. Kontakta oss gärna om du söker boende i en annan stad eller för ett större team — vi hjälper dig att hitta en lösning som passar.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 16500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Helgdagsgatan, Göteborg",
     "url": "https://qasa.com/p/1477135",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M44F3MYJPYH72ZNQ39PV2AVH.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nilssonsberg, Göteborg",
-    "url": "https://qasa.com/p/1476869",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M43S52XYR9BHG0RY1WEQ48MF.jpg",
-    "description": "Vi hyr ut vår fina och centrala lägenhet på 61 kvm eftersom vi tillfälligt kommer att arbeta på annan ort.\n\nLägenheten har ett mycket centralt läge i Göteborg, med nära till bland annat Sahlgrenska sjukhus, universitetet och Haga. Det finns goda möjligheter att ta sig runt med kollektivtrafik och mataffär finns endast cirka 3 minuters promenad från bostaden.\n\nLägenheten erbjuder:\n\n* 61 kvm med bra planlösning\n* Stort och ljust vardagsrum med fint ljusinsläpp\n* Stort sovrum med gott om förvaring\n* Rymlig hall med bra förvaringsmöjligheter\n* Fräscht badrum med dusch\n* Kök med fullstor kyl och frys samt diskmaskin\n* Balkong med härlig eftermiddagssol\n*  Bra ljudisolering\n* Tillgång till ett mindre gemensamt gym i huset man kan boka\n* Bastu i byggnaden som boende kan boka och använda kostnadsfritt\n* OBS! Tvättmaskin ingår inte.\n\nI hyran ingår även internet och elförbrukning, vilket gör det enkelt att hålla koll på de löpande kostnaderna.\n\nVi är flexibla när det gäller möblering och kan anpassa hur lägenheten hyrs ut beroende på önskemål. Vi är även relativt flexibla med inflyttningsdatum, så hör gärna av dig även om våra önskade datum inte passar exakt.\n\nLägenheten passar exempelvis bra för dig som arbetar eller studerar i Göteborg och vill bo centralt med närhet till både stadsliv, service och goda kommunikationer. Djur är inte tillåtet.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-05T01:53:04+00:00", "clock": "01:53:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-05T08:08:50+00:00", "clock": "08:08:50"};
