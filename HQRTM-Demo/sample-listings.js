@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kulvertkonstens Väg, Hisings Backa",
+    "url": "https://qasa.com/p/1478059",
+    "image_url": null,
+    "description": "🏡 Möblerad nybyggd 2:a med balkong och fin utsikt – uthyres från 1 januari 2027\n\nJag hyr ut min fina lägenhet i Hisings Backa då jag ska bo utomlands under minst ett år.\n\nLägenheten ligger i ett nybyggt hus från 2022, och jag är den första som har bott i bostaden. Den är modern, fräsch och välplanerad med bra förvaring och gott om utrymme trots sina 45,3 m².\n\n✨ Om lägenheten\n• 2 rum och kök, 45,3 m²\n• Möblerad\n• Balkong\n• Mycket fin utsikt\n• Härligt ljusinsläpp och sol under dagen\n• Kombinerad tvättmaskin och torktumlare\n• Diskmaskin\n• Bra förvaringsutrymmen\n• Snabb hiss\n• Postbox i huset\n• Nybyggt och mycket fräscht\n• Väldigt trevliga och lugna grannar\n\n\n📅 Inflytt: 1 januari 2027\n⏳ Uthyrningsperiod: Minst 1 år\n\n\nUtöver hyran tillkommer kostnad för varmvattenförbrukning och elförbrukning efter faktisk förbrukning. Wifi/internet ingår inte utan ordnas och bekostas av hyresgästen själv.\n\n🚗 Parkering\nParkering på markplan finns tillgänglig för cirka 1 125 kr/månad, mycket nära lägenheten.\n\nDet finns även möjlighet till garageplats för den som önskar, mot en något högre kostnad. Även parkeringsplats med möjlighet till elbilsladdning finns.\n\n🐾 Husdjur är välkomna\nLägenheten har haft hund och kommer inte att allergisaneras inför uthyrningen. Bostaden är därför inte lämplig för personer med pälsdjursallergi.\n\n🚭 Rökfritt område\nOmrådet är rökfritt. För den som röker finns särskilt anvisade platser för detta.\n\nJag söker en skötsam och ansvarsfull hyresgäst som vill ta väl hand om bostaden under tiden jag bor utomlands.\n\nVid intresse får du gärna skicka ett meddelande och berätta lite om dig själv, sysselsättning och vem eller vilka som kommer att bo i lägenheten.",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 8575,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "C A Reuterswärds Gata, Göteborg",
+    "url": "https://qasa.com/p/1477582",
+    "image_url": null,
+    "description": "Mysig lägenhet med öppen planlösning. Stort badrum och inglasad balkong. Klädkammare med både skoställ och stänger . Trevlig innergård och 5 min promenad från friggagatan där man hittar matbutiker och restauranger. Lugnt område och nära till natur. \nBuss 60 går precis utanför och spårvagnar från Svingeln.  El och varmvatten ingår ej i hyran. \nSöker hyresgäst då jag ska flytta ihop med pojkvän. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 51.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Björkuddsgatan, Göteborg",
     "url": "https://qasa.com/p/1477939",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M46FZHC9AWA15ECP7XP2FN8Y.jpg",
@@ -40,7 +70,7 @@ window.HQRTM_SAMPLE = [
     "district": "Hisings Kärra",
     "rooms": 5.0,
     "area_m2": 140.0,
-    "rent": 18850,
+    "rent": 19850,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hjälmavägen, Torslanda",
-    "url": "https://qasa.com/p/1477714",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M468YVJ44WR7JEX8KAEF3SQE.jpg",
-    "description": "Nybyggt gästhus i Nolvik Torslanda.\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\nNytt kök med all utrustning\n\n- Fristående\n- Möblerat\n\nPassar till 1-2 personer.\n\nVärme, vatten och EL ingår i hyran. \n\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
-    "district": "Torslanda",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 8900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ryttaregatan, Göteborg",
-    "url": "https://qasa.com/p/1477581",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M46735D0DV0SKC9EAEXHQXH3.jpg",
-    "description": "Nyrenoverad lägenhet uthyres på Ryttaregatan 4B i Göteborg.\n\nNu hyr jag ut min nyrenoverade lägenhet på Ryttaregatan 4B. Lägenheten är fräsch, välskött och redo för inflyttning. Bostaden passar bra för dig som söker ett fint och bekvämt boende i Göteborg.\n\nLägenheten kommer även vara till salu. Uthyrningen sker därför med 2 månaders uppsägningstid. Jag söker en skötsam och ansvarsfull hyresgäst som tar väl hand om bostaden.\n\nInformation:\n• Nyrenoverad och i mycket fint skick\n• 2 månaders uppsägningstid\n• Uthyres tills vidare med 2 månaders uppsägning pga försäljning\n• 2 rum och kök\n• 51 kvm\n• Hyra: 11000 kr/månad\n• Inflyttning: Omgående\n• Omöblerad]\n• Bredband, Internet, vatten ingår. El tillkommer på runt 100kr per månad.\n\nVid intresse, skicka gärna en kort presentation av dig själv/er, sysselsättning, önskat inflyttningsdatum och hur länge ni är intresserade av att hyra.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-05T17:07:58+00:00", "clock": "17:07:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-05T23:09:19+00:00", "clock": "23:09:19"};
