@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långströmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1479142",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M49BGKPBE38CZ142QFEZZCEZ.jpg",
+    "description": "Hyr ut fräsch relativt ny och möblerad etta (halvmöblerad  går).  \nPga studier på annan ort (tänkt 1.5 år). \n- Ljus lägenhet med öppen planlösning (30kvm). \n- Stor balkong med dag och kvällssol.\n- Tvätt och torktumlare finns i badrummet.\n- nedfällbar säng.\n- Internet och el (och parkering om det skulle behövas) ingår i avgiften. \n- Drygt 15 mintuer till centrala stan.  5 min promenad till knytpunktshållplats Eketrägatan.\n- Lugnt familjeområde, i grönt och lummigt område.  \n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 6800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Anna Branzells Gata, Göteborg",
+    "url": "https://qasa.com/p/1478532",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M48APJHA6FKDYTX83SA3249Q.jpg",
+    "description": "Modern 3:a i Kviberg uthyres i andrahand pågrund av att annan bostad är köpt.\nFräsch lägenhet med mycket förvaring byggd 2019, 72 kvm, möblerad. \n\nLägenheten:\n• 3 rum och kök\n• Disk- & tvättmaskin, stor balkong\n• Förråd – Tillgänglig från mitten av december\n• 3:e våningen, cykel- & barnvagnsrum\n• Möblerad (ej sängar)  inkl. el & bredband\n• Rök- & djurfritt\n• Uthyrning kräver BRF-godkännande\n• Uthyres i 6 månader med möjlighet till förlängning\n\nOmrådet:\n• 3 min till mataffär & gym\n• 7 min med spårvagn till Centralen\n• Närhet till buss, skolor, förskolor, lekplatser, Serneke Arena & utegym",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 72.0,
+    "rent": 16000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sundshagsgatan, Göteborg",
     "url": "https://qasa.com/p/1466378",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ac6c9601cd8d659f4784ee42531efd83d33aa416e25846395bb8ae6d15659f96.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Delsjövägen, Göteborg",
-    "url": "https://qasa.com/p/1425539",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/d8154cddbe79f67bbaf4ca556cd95f31672ea285e0094d60afaf1254aaff34f6.jpg",
-    "description": "I stan grön område. Nära affären,gym och spårvagn. I sidan om en villa och fösta plan med uteplats. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 30.0,
-    "rent": 9500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stureplatsen, Göteborg",
-    "url": "https://qasa.com/p/1478657",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M48KVE2SEZQY9XBVAZWZE57T.jpg",
-    "description": "Möblerat rum om ca 17 m² i en vacker sekelskifteslägenhet vid Heden, centralt i Göteborg. Rummet är möblerat med säng och arbetsplats och har även kakelugn.\n\nDu delar lägenheten med mig och en kvinnlig student som är inneboende. Vi är totalt tre personer som bor i lägenheten, och det kommer inte att bo fler än tre personer här.\n\nGemensamma utrymmen består av ett fullt utrustat kök och vardagsrum. Badrummet har dusch som delas av samtliga tre boende. Du som flyttar in delar WC med den kvinnliga inneboende, medan jag använder en separat toalett.\n\nTvättstuga finns i fastigheten.\n\nHyran är 5 500 kr per månad och inkluderar el, bredband och övriga driftskostnader. Boendet är rökfritt.\n\nLägenheten ligger mycket centralt med närhet till Heden, restauranger, service och kollektivtrafik. Spårvagn finns i närheten och Centralstationen nås på cirka 5–10 minuters promenad.\n\nRummet är tillgängligt för inflyttning från och med 1 november, då nuvarande hyresgäst flyttar ut i slutet av oktober.\n\nHyrestid enligt överenskommelse.\n\nVid en visning får du möjlighet att träffa den kvinnliga inneboende som kommer att bo kvar. Hon kan även berätta hur det fungerar att bo här. Den nuvarande hyresgästen som flyttar ut kan också lämna referens om boendet.\n\nVid intresse, berätta gärna kort om dig själv och din sysselsättning.\n\n ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 17.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-06T16:43:54+00:00", "clock": "16:43:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-06T21:16:32+00:00", "clock": "21:16:32"};
