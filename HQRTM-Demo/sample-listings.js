@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Körkarlens Gata, Hisings Backa",
+    "url": "https://qasa.com/p/1478171",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M477PW8E3KNK3Z5FKZ04Y75K.jpg",
+    "description": "FIN 3:A PÅ 74 KVM MED INGLASAD BALKONG – BACKA\n\nFin och ljus 3:a på 74 kvm uthyres på Körkarlens gata i ett lugnt och familjevänligt område. Inglasad balkong och bra planlösning.\n\nNära Selma Lagerlöfs Torg och Bäckebol Köpcenter, ca 5 min med buss. Goda bussförbindelser, hållplats ca 2–3 minuter från bostaden. \n\nIngår: värme, vatten, bredband, digital-TV och IP-telefoni.\nFinns bl.a: tvättmaskin, torktumlare, diskmaskin, spegelgarderob. I övrigt omöblerad.\n\nHyra: 14 000 kr/mån + 1 månads deposition.\n(Uthyrningsavgift ingår i hyran). \nKrav:\n- Rök- och djurfri/lugn\n- Fast inkomst och inga betalningsanmärkningar\n- Referenser är meriterande.\n\nUthyres i 1 år med 3 månaders uppsägningstid, med god möjlighet till förlängning. \nInflyttning: omgående eller enligt överenskommelse.\n\nObs! Lägenheten har genomgått vissa förändringar, så bilderna stämmer inte helt överens med hur den ser ut idag. \nVisning kommer att ske på plats.\n\nVid intresse, skicka gärna ett meddelande och berätta kort om dig.",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kulvertkonstens Väg, Hisings Backa",
     "url": "https://qasa.com/p/1478059",
     "image_url": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mittviksvägen, Vrångö, Göteborg",
-    "url": "https://qasa.com/p/1439741",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f2eb7ca19c25324c8a2c9b483c1d410cb30e25eaa69af907ee5e97e8e951686f.jpg",
-    "description": " Stuga på Vrångö i Göteborgs Södra Skärgården uthyres från 1 September t.o.m 31 maj 2027 med möjlighet att komma tillbacka efter sommaren.\n\nPassar utmärkt till 1-2 personer\n\nFullt utrustat kök med spis, ugn, micro, kyl och frys, tvättmaskin.m.m\n\nEgen uteplats med grill och trädgårdsmöbler.\n\nHyra är 8500 kr. El, värme,  vatten, wi-fi  ingår\n\n\n\nOBS!!\nPendelavstånd till Göteborg centrum ca 1 timme med färja och buss. \nKolla gärna läget innan ni kontaktar oss.\n\nUthyres endast till skötsamma personer med ordnat ekonomi och utan betalningsanmärkningar.\n\nVänligen skriv en kort presentation och berätta vad du sysslar med.\nVi svarar tyvärr endast till gäster som känns passande för oss\n\nMvH Viktoriya och Joachim \n\n\n",
-    "district": "Vrångö, Göteborg",
-    "rooms": 3.0,
-    "area_m2": 50.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-05T23:09:19+00:00", "clock": "23:09:19"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-06T02:57:54+00:00", "clock": "02:57:54"};
