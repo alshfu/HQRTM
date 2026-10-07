@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smörslätten, Göteborg",
+    "url": "https://qasa.com/p/1479907",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4BQGH205DGGPNZJE6C4A86R.jpg",
+    "description": "Hyr ut min fina lilla 1a med bra planering. Nyrenoverad 2019/2020. Fräscht fint kök med alla faciliteter och upplyst spegel toa.  \nNära natur, bad och ca 10 min in till Centralen. Nära till buss och spårvagn. \n\nAllt ingår i hyran förutom internet. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 23.0,
+    "rent": 6400,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hellstedtsgatan, Göteborg",
     "url": "https://qasa.com/p/1479700",
     "image_url": null,
@@ -48,6 +63,21 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
+    "title": "Östra Torpavägen 105, Göteborg",
+    "url": "https://qasa.com/p/1479751",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/doc/2fc2c32a44187a784519ab1ae509af04ac2781a71102f61cc8badecbec911f3c.pdf",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum.\n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin.\n\nLägenheten erbjuder även bra förvaring med garderober i hallen.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service.\n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2025 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\nOBS! Planlösningen och bilder är endast ett exempel, avvikelser kan förekomma.\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11996,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillhagsvinkeln, Hisings Backa",
     "url": "https://qasa.com/p/1479599",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4B3NDH95AJDHVJND4QAE3KD.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östra Torpavägen 101A, Göteborg",
-    "url": "https://qasa.com/p/1479717",
-    "image_url": null,
-    "description": "OBS: Den här lägenheten hyrs enbart ut via 3D-scanning. \n\nOM LÄGENHETEN\nVälkommen till denna 2 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum.\n\nBadrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv. Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare. Köket är utrustat med diskmaskin.\n\nLägenheten erbjuder även bra förvaring med garderober i hall och sovrum.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service.\n\nBjörkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. Individuell mätning tillkommer på elen.\n\nVälkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11996,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backebogatan, Hisings Backa",
-    "url": "https://qasa.com/p/1479481",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4AX68M1K48245D6DJVXY8T3.jpg",
-    "description": "Jag hyr ut en villa lägenhet med ensklid ingång, två sovrumrum och vardagsrum och kök. Lägenheten är en tvrea på totalt 46 kvm med eget badrum . I anslutningen finns tvättstuga som delas med en annan lägenhet i huset. Lägenheten ligger på Backa, Hisingen med goda kommunikation förbindelser till centrum. Det tar 12 minuter till Brunnsparken med stambuss18, finns även cykelbana till centrum.  Lägenheten är ledig från idag. Hyran ligger på 11 000 kr med allt inkluderat: el, vatten, värme, bredband, sophämtning etc. Vid intresse skicka gärna ett pm, så återkommer jag till de som är aktuella.\nLämplig också för två vänner som kan dela på allt. Visa färre",
-    "district": "Hisings Backa",
-    "rooms": 3.0,
-    "area_m2": 46.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-07T13:55:18+00:00", "clock": "13:55:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-07T19:46:10+00:00", "clock": "19:46:10"};
