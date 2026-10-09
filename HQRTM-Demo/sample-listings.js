@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Myntgatan, Göteborg",
+    "url": "https://qasa.com/p/1481556",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4H7K175BK0TEH0GSFWHJ90S.jpg",
+    "description": "Nyproducerad, modern tvåa med stort och rymligt kök utrustat med varmluftsugn, diskmaskin m.m.\nBostaden genomsyras av genomgående hög kvalitet och smakfulla färg- och materialval.\nPåkostade vitvaror från Cylinda, ekparkett och fina ytskikt samt helkaklat badrum.\n\nStor gemensam uteplats.\nFörråd, fjärrvärme och fiberinternet ingår.\n\nToppläge endast 5 minuter från city, med omedelbar närhet till Backaplan, Kville Saluhall, Eriksberg och Ramberget – Göteborgs finaste utsiktsplats.\n\nLångtids hyresgäster prioriteras.\n\nTillträde: 2026-11-01\nHyra: 12 500 kr/mån",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 11798,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Engelbrektsgatan, Göteborg",
+    "url": "https://qasa.com/p/1480392",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4GKNWJ480S76JWN03GCWB1J.jpg",
+    "description": "Exclusive Accommodation in the Heart of Gothenburg\n\nExperience unique living in the heart of Vasastan, just steps away from Avenyn, Gothenburg’s most iconic boulevard. This exclusive accommodation is available for rent to a responsible and respectful tenant.\n\nEnjoy a luxurious, hotel-inspired atmosphere in a magnificent 27 m² private room, situated within a stunning Victorian apartment featuring timeless charm and elegant architectural details.\n\nEverything you need for a comfortable stay is included:\n\n    ●    Electricity, heating, Wi-Fi, TV and Apple TV\n    ●    Bathrobe and slippers\n    ●    Essential toiletries\n    ●    Two complete sets of towels and bed linen\n    ●    Access to a shared kitchen and bathroom\n\nAn unbeatable central location\n\nWith everything right at your doorstep, you’ll enjoy easy access to public transportation, airport buses, train connections, restaurants, charming cafés, cinemas, concert venues, theatres and the city library. A gym is also conveniently located just around the corner.\n\nA unique opportunity to enjoy stylish, comfortable living in Gothenburg’s most desirable neighbourhood.\n\n\n\nExklusivt boende mitt i Vasastan precis intill Göteborgs paradgata Avenyn, hyrs ut till skötsam yrkesverksam person.\nHotellkänsla i magnifikt rum på 27 m2, i pampig sekelskiftesvåning. Boendet inkluderar El, värme, wifi, tv och apple-tv . Utöver det ingår morgonrock, tofflor,  hygienartiklar, samt dubbla set av handdukar och lakan. Del i kök och badrum. \nDirekt närhet till kollektivtrafik, flygbussar, tåg, restauranger, fik, biografer, konserthus, teatrar och stadsbibliotek. Gym finns runt hörnet.\n\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 27.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Torgny Segerytedtsgatan , Västra Frölunda",
     "url": "https://qasa.com/p/1358593",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b0e676c29f25ba82dad77f240049316125246f58c3f2d718830b6ebd1f6be592.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Doktor Lindhs Gata, Göteborg",
-    "url": "https://qasa.com/p/1480898",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4FT799933CZ1RDCF38FH8MB.jpg",
-    "description": "Fin och ljus lägenhet med bästa syd/väst läge och kvällssol. Halvinglasad balkong med solstolar och fri utsikt. Lyxigt nytt badrum med golvvärme, handdukstork, och badkar. Fräscht renoverat kök med fullstor kyl/frys.\n\n• Perfekt läge nära Chalmers & Sahlgrenska\n• Trivsam planlösning ed nyslipat parkettgolv.\n• Ingen insyn \n• Avskild sovalkov\n• Inbyggda originalgarderober i hallen samt nya garderober med skjutdörrar mellan rum och sovalkov.\n• Stora fönster med mycket ljusinsläpp\n• Bredband ingår\n• Trevlig gård mellan husen med grillplatser mm.\n• Gästlägenhet finns att boka.\n• Föreningslokal, gym & hobbylokal\n• Ca 500 meter till mataffär\n• Bra kommunikationer\n• Nära Änggårdsbergen & Slottsskogen\n• El, vatten och bredband ingår i hyran.\n\nUthyres tills vidare pga. ändrad studieort.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 38.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Universumsgatan 24, Göteborg",
-    "url": "https://qasa.com/p/1481246",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/e7e8e729d123c354b0a0366624b374154ca76dbcf09a283d9e5ba9078f0d3055.jpg",
-    "description": "Välkommen till Bergsjö Höjd! \n \nHär erbjuds en ljus och välplanerad lägenhet om 28 kvm, byggd 2022, med öppen planlösning och moderna materialval. \n \nFrån köket finns utgång till en rymlig balkong som passar bra för att njuta av frisk luft eller en kopp kaffe. Köket är utrustat med diskmaskin och mikrovågsugn, och i badrummet finns en kombinerad tvättmaskin och torktumlare som underlättar vardagen.  \n \nTill lägenheten hör även ett förråd i källaren.  \n \nI hyran som marknadsförts ingår inte kostnad för el och vatten då du betalar för din faktiska förbrukning.  \n  \nObservera att bilderna i annonsen är exempelbilder. Avvikelser från planritningen kan förekomma.\r\n\r\nOMGIVNING\r\nBergsjön erbjuder storslagen natur med härliga promenadstråk i närområdet. Stadsdelen fick sitt namn efter den sjö som ligger 250 meter ifrån Bergsjö Höjd och som idag utgör det attraktiva utflyktsmålet Bergsjöbadet. Här finns flera bryggor, soldäck, lekplats och vandringsleder som nyttjas av boende och besökare året runt.  \nI området finner du även den omtyckta stadslantgården Galaxen som är en levande bondgård öppen för besök året runt. Här bedrivs även ungdomsverksamhet i form av en fritidsgård.\r\n\r\nKOMMUNIKATIONER\r\nEtt stenkast från Bergsjö Höjd ligger Komettorgets spårvagnshållplats. Med linje 7 eller 11 tar du dig till centrala Göteborg på cirka 20 minuter.   \nOm du pendlar till någon av grannkommunerna når du enkelt tågförbindelser till exempelvis Ale, Vänersborg och Älvängen från Gamlestadens tågstation.\r\n\r\nSERVICE\r\nI området nära Bergsjö Höjd finner du Komettorget samt Rymdtorget - här finns livsmedelsbutiker, kiosker, bibliotek och grundskolor. Nära Bergsjö Höjd ligger även Kviberg och Gamlestan som erbjuder grundskolor, fritidsgårdar, friluftsliv, nöje och restauranger. Det omtyckta köpcentret Allum når du på 10 minuter med bil och här finner du en uppsjö av välkända butiker. Med närhet till skolor, förskolor och fritidshem är Bergsjön ett utmärkt alternativ för barnfamiljen.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran utan finns att hyra via separat avtal. Kölista kan förekomma. Kostnad från 530 kr/månad.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 5533,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-09T16:59:09+00:00", "clock": "16:59:09"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-09T21:34:23+00:00", "clock": "21:34:23"};
