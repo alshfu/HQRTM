@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Linnégatan, Göteborg",
+    "url": "https://qasa.com/p/1467371",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8950f192f6bf00b6314f10687a96cc5d914de432f04325329a44bb467ae63e1.jpg",
+    "description": "Fin, möblerad lägenhet med öppen planlösning i centrala Linné. Lugnt, tyst läge mot innergård och nära till både natur, caféer och restauranger. \n\nKöket är helt nyrenoverat sedan cirka 1,5 år tillbaka med mycket bänkyta, köksö med barstolar samt en vinkyl. Vardagsrummet är rymligt med soffa och fåtölj. Sovrummet har en  stor 180-kontinentalsäng med sänggavel samt rymlig dubbelgarderob. Stort badrum som genomgick en lättare renovering samtidigt som köket, där det finns tvättmaskin, handduksvärmare samt golvvärme. Praktisk hall med stora kakelplattor. Stor balkong i österläge med soffa och träklädda väggar samt nylagd trall. \n\nHiss finns, även flera cykelförråd. I byggnaden finns två tvättstugor. Internet och el ingår i hyran. Lägenheten är en bostadsrätt i en stabil och välskött förening. \n\nPrecis runt hörnet ligger Slottskogen, några minuters cykling bort även botaniska trädgården och naturreservatet Änggården. Det ligger massor med restauranger, barer och caféer runtom samt mysiga butiker. Utanför dörren går 3 spårvagnslinjer, ytterligare kommunikation finns ett kvarter bort vid linneplatsen. \n\n1 min promenad till närmaste hållplats (olivedalsgatan) \n2 min promenad till närmaste mataffär \n2 min promenad till närmaste gym (Nordic wellness) \n3 min promenad till Slottskogen \n7 min promenad till Haga \n10 min promenad till Järntorget \n7 min spårvagn till Brunnsparken (ca 12 min att cykla) \n\nJag letar efter en person eller ett par som är lugna, skötsamma, djur- och rökfria och som vill ta god hand om min fina lägenhet. De behöver ha stabil ekonomi. Jag hyr ut den då jag ska flytta ihop med min pojkvän.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 13600,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lindholmsvägen, Göteborg",
     "url": "https://qasa.com/p/1481896",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4K7TBCYM5G36DZNE21EQC1H.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vårvindsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1481688",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/21f25aaf3546b3166c2e84f5972f13b1e1e99555f252921e81d89a868e2040b7.jpg",
-    "description": "Huset på Södra Vårvind 1 och grannhuset 3 är rök- och djurfria fastigheter. \n\nIngen rökning inom fastigheternas gränser är tillåten. Här ska allergiker kunna hitta ett hem.\n\nVad roligt att du är intresserad av lägenhet i huset på Södra Vårvindsgatan 1. Lägenheten har en modern och effektiv planlösning. Köket är ett Vedumkök med vita luckor, svart bänkskiva, vitt kakel och delad kyl/frys. Vitvarorna är av märket Elektrolux. Badrummet har vitt kakel, antracitgrå klinker, kombinerad tvättmaskin/torktumlare, dusch med draperistång, toa, handfat och ett badrumsskåp med belysning. Hall och rum har målade vita väggar. Golven har lagts med lackad ekparkett, med tre rader antracitgrå klinker i hallen. Det finns öppen fiber i huset. p-platser finns att hyra ...\n\n\nEnglish:\n\nThe building at Södra Vårvind 1 and the neighboring building at number 3 are smoke-free and pet-free properties.\n\nSmoking is not permitted anywhere on the premises. These buildings are designed to provide a suitable home for people with allergies.\n\nWe are delighted that you are interested in an apartment at Södra Vårvindsgatan 1. The apartment features a modern, efficient layout. The kitchen is a Vedum model with white cabinet doors, a black countertop, white wall tiles, and a split fridge-freezer unit; the appliances are by Electrolux. The bathroom features white wall tiles, anthracite-grey floor tiles, a combined washer-dryer, a shower with a curtain rod, a toilet, a washbasin, and an illuminated bathroom cabinet. The hallway and living areas have white-painted walls. The floors are laid with lacquered oak parquet, with a three-row strip of anthracite-grey tiles in the hallway. High-speed fiber-optic internet is available in the building. Parking spaces are available for rent...",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 12402,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T18:04:16+00:00", "clock": "18:04:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T21:35:58+00:00", "clock": "21:35:58"};
