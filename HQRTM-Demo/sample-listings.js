@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lindholmsvägen, Göteborg",
+    "url": "https://qasa.com/p/1481896",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4K7TBCYM5G36DZNE21EQC1H.jpg",
+    "description": "Välkommen till en ljus och trivsam trerummare på Lindholmen, med en stor, solig uteplats i västerläge!\n\nLägenheten ligger i ett lugnt och grönt område intill Slottsberget, samtidigt som du har nära till centrala Göteborg. Här får du lite av känslan av att bo i hus, men med alla bekvämligheter som en modern lägenhet erbjuder.\n\nBostaden har en öppen planlösning mellan kök och vardagsrum, stora fönster som ger fint ljusinsläpp och två rymliga sovrum med goda förvaringsmöjligheter. Det finns även ett rymligt badrum med tvättmaskin och torktumlare.\n\nEn av lägenhetens stora höjdpunkter är uteplatsen med härlig eftermiddags- och kvällssol. Här finns gott om utrymme för både umgänge och avkoppling, och en fin gasolgrill ingår – perfekt för långa sommarkvällar och middagar utomhus.\n\n**Lägenheten hyrs ut fullt möblerad**, inklusive komplett köksutrustning, så det är bara att flytta in och känna sig hemma. I hyran ingår el, värme, vatten och bredband.\n\nI föreningen finns en trevlig gemensam innergård med stora gräsytor, grillmöjligheter, cykelrum och en övernattningslägenhet för gäster.\n\nOmrådet är en av Lindholmens lugnare delar, med charmig äldre bebyggelse, grönområden och fina promenadstråk längs älven. Samtidigt finns ICA Kvantum, restauranger, caféer, gym och annan service på bekvämt gångavstånd. Goda förbindelser med kollektivtrafik gör det enkelt att ta sig till centrala Göteborg.\n\nBostaden hyrs ut initialt under ett år, med möjlighet till förlängning enligt överenskommelse.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 69.0,
+    "rent": 18500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Plåtmyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1481787",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4JXG9R89VRJYB7X4RH0WVEA.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Berzeliigatan, Göteborg",
-    "url": "https://qasa.com/p/1481599",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4J6FPXNQRT1APTQ75PMWDSC.jpg",
-    "description": "Fullt möblerad lägenhet med separat kök, badrum med dusch och tvättmaskin samt kombinerat vardagsrum och sovdel. \n\nLägenheten har bra förvaring och ligger högst upp i huset.\n\nHyrs ut i ett år med möjlighet till förlängning. \nEl och bredband ingår inte i hyran.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 41.0,
-    "rent": 9847,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T13:47:07+00:00", "clock": "13:47:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T18:04:16+00:00", "clock": "18:04:16"};
