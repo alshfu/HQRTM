@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Berzeliigatan, Göteborg",
+    "url": "https://qasa.com/p/1481599",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4J6FPXNQRT1APTQ75PMWDSC.jpg",
+    "description": "Fullt möblerad lägenhet med separat kök, badrum med dusch och tvättmaskin samt kombinerat vardagsrum och sovdel. \n\nLägenheten har bra förvaring och ligger högst upp i huset.\n\nHyrs ut i ett år med möjlighet till förlängning. \nEl och bredband ingår inte i hyran.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 41.0,
+    "rent": 9847,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Myntgatan, Göteborg",
     "url": "https://qasa.com/p/1481556",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4H7K175BK0TEH0GSFWHJ90S.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsbacken, Göteborg",
-    "url": "https://qasa.com/p/1480313",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4G8H7JH10SPM8AT5FEQEE7P.jpg",
-    "description": "Välkommen till en perfekt planerad och stilren lägenhet på 47 kvm på Bratteråsbacken 35. Här bor du/ni på bekvämt läge på våning 2 i ett lugnt och tryggt område, med direkt närhet till både sprudlande folkliv vid Eriksbergskajen och smidiga kommunikationer in till centrala Göteborg.\n\n Höjdpunkter med boendet:\n\n• Generös rymd: Den smarta planlösningen gör att lägenheten känns otroligt luftig, ljus och rymlig för att vara en etta.\n• Modern standard: Stilfullt kök och fräscht badrum med hög standard.\n• Härligt ljusinsläpp: Stora fönsterpartier som släpper in gott om naturligt ljus och skapar en hemtrevlig atmosfär.\n• Hiss och bekvämlighet: Fastigheten är modern och välskött med smidig tillgång till hiss.\n\n Perfekt läge & kommunikationer:\n\n• Eriksbergskajen: Bara en kort promenad bort hittar du caféer, restauranger och mysiga promenadstråk längs vattnet.\n• Snabba resor: Med buss eller Älvsnabben (färjan) tar du/ni er enkelt och smidigt in till Nordstan, Lindholmen eller Järntorget på bara 10–15 minuter.\n• Service: Mataffärer, gym och all tänkbar service finns i närområdet.\n\n Praktisk information:\n\n• Storlek: 47 kvm, 1 rum och kök, stort badrum med dusch, stor walk in closet och inglasad balkong (ca 12 kvm extra utöver lägenheten).\n• Ingår i hyran: Varmvatten, el och internet 1000/1000 mbit.\n• Möblering: 160 säng, köksbord och stolar, soffa, smart tv, balkongmöbler, utrustat kök .\nSöker du ett charmigt och modernt hem i ett av Göteborgs mest populära områden? Hör av dig/er med en kort beskrivning av vem du/ni är, så återkopplar jag!\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 47.0,
-    "rent": 11000,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T01:13:02+00:00", "clock": "01:13:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T07:12:52+00:00", "clock": "07:12:52"};
