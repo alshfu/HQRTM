@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Liberagatan, Göteborg",
+    "url": "https://qasa.com/p/1474463",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3T4R6BJDMB6ZX6CQT1F7JJ4.jpg",
+    "description": "Brf Norrsken, Karlastaden-\n\nLjus och välplanerad 2:a på 55 kvm, med öppen planlösning mellan kök och vardagsrum, högt i tak (2,7 m) och balkong. Lägenheten ligger på våning 4 i ett nybyggt hus med gym, garage och pizzeria i bottenplan.\n\nDetaljer:\n    •    Marbodalkök med ljusgrå luckor, betongmönstrad bänkskiva\n    •    Induktionshäll, integrerad diskmaskin, inbyggd mikro, rostfria vitvaror\n    •    Sovrum med skjutdörrsgarderob\n    •    Helkaklat badrum med duschvägg, kombimaskin (tvätt/tork), arbetsbänk, förvaring och dimbar belysning\n    •    Ekparkett i hela lägenheten\n    •    Förråd i hallen\n    •    Balkong \n\nOm området – Karlastaden (Lindholmen)\nPerfekt läge – centralt men lugnt. Färja till Stenpiren tar 10 min, buss till Centralstationen 10 min.\nNy stadsdel som växer snabbt med restauranger, kontor, butiker och service runt hörnet.\n\nBekvämligheter i huset:\n    •    STC gym\n    •    Garage\n    •    Pizzeria\n\nEl,vatten och avgift för internet tillkommer. \n\nVälkommen!\n\n\n\nBrf Norrsken, Karlastaden\n\nBright and well-planned 1-bedroom apartment (55 sqm) with open layout between kitchen and living room, high ceilings (2.7 m), and a balcony. Located on the 4th floor of a newly built building with a gym, garage, and pizzeria in the same complex.\n\nDetails:\n    •    Marbodal kitchen with light grey cabinets and concrete-style countertop\n    •    Induction cooktop, built-in microwave, integrated dishwasher, stainless steel appliances\n    •    Bedroom with sliding door wardrobe\n    •    Fully tiled bathroom with glass shower wall, washer/dryer combo, worktop and storage, dimmable spotlights\n    •    Oak parquet flooring throughout\n    •    Storage room in the hallway\n    •    Balcony with space for outdoor seating\n\nAbout the area – Karlastaden (Lindholmen)\nPerfect location – quiet yet central. 10 minutes by ferry to Stenpiren, 10 minutes by bus to Central Station.\nA new and growing neighborhood with restaurants, offices, shops, and everyday services just around the corner.\n\nBuilding amenities:\n    •    STC gym\n    •    Garage\n    •    Pizzeria\n\nElectricity, water, and internet are charged separately\n\nWelcome!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 14500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Linnégatan, Göteborg",
     "url": "https://qasa.com/p/1467371",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a8950f192f6bf00b6314f10687a96cc5d914de432f04325329a44bb467ae63e1.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Asperögatan, Göteborg",
-    "url": "https://qasa.com/p/1477390",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M45RZMFZ721C7MFW07ZHJRC2.jpg",
-    "description": "Lägenheten ligger i Sandarna, Majorna i Göteborg. \n2 minuter till hållplatsen som leder mot alla håll runt om i Göteborg. Tex. 15 min ifrån city.\nAlltid bra förbindelser. \nSlottskogen ligger precis intill och är ett vackert naturbeläget ställe som många älskar att besöka för diverse fina plaster som erbjuds där, såsom promenadstråk, djur att besöka och lekplatser, discgolfbana, cafe/restauranger, minigolf, stora ytor där människor ofta håller till för att umgås & olika evenemang som brukar äga rum där.\n\nI majorna finns enormt många restauranger/barer, caféer, mataffärer som är öppna mellan 7.30-23, ICA, WILLYS, HEMKÖP, osv.\nATG ombud, Systembolag, apotek, spårvagn, båt & bussförbindelser till & från stan.\n\nVälplanerad och attraktiv genomgående lägenhet, vilket ger en luftig känsla även om man delar på den.\nLägenheten är i helhet nyrenoverad, och devis så sent som nu i september. \n\nI hyran ingår\n\n● Eget rum på ca 12 m2\n● Dörr med lås.\n● Egen balkong med 2 vackra salongsdörrar som öppnar upp rummet nästan helt ut till balkongen och ger en härlig lufig känsla i rummet. \n● Balkongen har en ett mindre bord och en härlig solstol att kunna tillbringa tid på.\n● Inbyggd garderob i rummet\n● Utöver rummet så ingår dusch och toalett  gemensamt.\n● Köket är gemensamt och där ingår en del i kyl, frys och skafferi utrymmen. \nDet ingår även gasspis och mikrovågsugn, samt diverse tillbehör för matlagning som tex stekpannor, kastruller, bestick, tallrikar glas och diverse köksredskap. \n● Lägenheten har även 1:a klassad säkerhetsdörr och egen brevlåda utanför dörren.\n● Bredband ingår.\n● Tvättstuga ingår.\n● Cykelrum ingår \n● Sophämtning\n\nJag jobbar skift. Är djur & rökfri, dricker ej alkohol och är en lugn person som söker en inneboende som också är en lugn person som är skuldfri, djur och rökfri och inte tar hem folk till bostaden då det är viktigt att vi respekterar varandra och varandras olika tider som man gemensamt tar hänsyn till.\n\nDet är ett lugnt härligt attraktivt område i hjärtat av Göteborg.\nI trapphuset har vi alla en god och fin respekt till varandra.\n\nKrav: \n\n● Hemförsäkring. (Skall uppvisas vid inflytt) \n● Djur & drog/rökfri. \n● Vid förfrågan av att ha gäster på besök ska det ske i samråd med mig som uthyrare för godkännande. \n● Inga fester eller massa alkohol/fylla eller narkotika samt djur i bostaden.\n● OBS. Då elen & nätverk så är den rörlig så månadsvis ska den delas upp mellan oss båda, att vi betalar lika mycket. \n● Rummet hyrs ut till endast person, ej par eller barn eller annan anhörig, osv.\n\nOm fler krav eller regler dyker upp så kommer det isåfall tas upp vid vidare prat om uthyrningen.\n\nEn god kommunikation och full respekt mellan varandra, samt att samtliga krav uppfylls så ska kommer du nog trivas jättebra som hyresgäst ihop med mig.\n\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-10T21:35:58+00:00", "clock": "21:35:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-11T00:27:38+00:00", "clock": "00:27:38"};
