@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kvillegatan, Göteborg",
+    "url": "https://qasa.com/p/1470979",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4NSHQK5HAMJ2Z4VZ44Z1ZP7.jpg",
+    "description": "Hej!\n\nJag och familjen planerar eventuellt att flytta utomlands ett år och vill då hyra ut vår fina lägenhet, helst till ett par eller en liten familj. Därför vill vi nu undersöka intresset för bostaden om vi flyttar. Datumen går inte att förhandla och det finns inte möjlighet till förlängning. \n\nLägenheten är fullt möblerad och har möblerats om sen bilderna togs så den är annorlunda. T.ex. är det ett runt bord i köket och det finns fler skåp.\n\nI hyran ingår, el, vatten, Internet (höghastighet), och parkering i garage, väldigt nära lägenheten. I badrummet finns golvvärme och balkongen är rymlig med utsikt över innergården och daglig sol under flera timmar under sommaren. Förråd ingår inte. \n\nBostaden är 5 minuters promenad från knytpunkten Hjalmar Brantingsplatsen och på promenadavstånd till Backaplan, Keillers park, Jubileumsparken, restauranger, butiker och Kville torg.\n\nTveka inte att fråga mig om det är något som du undrar över.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Barnhusgatan, Göteborg",
+    "url": "https://qasa.com/p/1482274",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4NHT0K0T31YERX9Y9QH74FV.png",
+    "description": "🏡 Lägenhet uthyres centralt i Göteborg – Barnhusgatan 30\n\nJag hyr ut min fina lägenhet på Barnhusgatan 30 i Göteborg under perioden 27 november 2026 till 1 november 2027.\n\nLägenheten är 53 m² med 1,5 rum och kök och ligger i ett mycket centralt läge, perfekt för dig som vill ha nära till allt!\n\n📍 Fantastiskt läge\n\n* 🚉 Endast cirka 3 minuters promenad till Göteborgs centralstation.\n* 🏋️ Gym i närheten.\n* 🛒 Nära till mataffärer, restauranger och shopping.\n* 🚋 Bra kommunikationer med spårvagn, buss och tåg.\n* 🏙️ Centralt läge med allt du behöver inom bekvämt avstånd.\n\n🗓️ Uthyrningsperiod\n\nFrån 27 november 2026 till 1 november 2027.\n\nHyra: Enligt överenskommelse.\n\nLåter detta intressant? Skicka gärna ett meddelande och berätta lite om dig själv. Jag återkommer gärna med mer information och bilder.\n\nVälkommen att höra av dig! 😊",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 53.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Sörredsvägen, Torslanda",
     "url": "https://qasa.com/p/1482052",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4MS7J949C9YWBXAQFG9929W.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Rambergsvägen, Göteborg",
-    "url": "https://qasa.com/p/1482170",
-    "image_url": null,
-    "description": "Liten lägenhet på 28 m2. Egen toalett med dusch.\nMindre kök.\nEl, vatten och parkering ingår i hyran\nPå andra våningen.\nNära till kommunikationer, Lindholmen",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 28.0,
-    "rent": 4600,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Domarringsväg, Askim",
-    "url": "https://qasa.com/p/1482089",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4MZ5A4E6PXQKKDTH4M6HPB0.jpg",
-    "description": "Charmigt rum i lugnt och tryggt kvinnligt delat boende!\nLängtar du efter ett harmoniskt boende med närhet till både stad och natur? Från och med 1 december finns ett ljust rum på ca 20 kvm ledigt i mitt fina radhus i Askim/Östra Sisjön. Det ligger i källaren och tillsammans med ett annat rum är det avskiljt med en egen våning. Rummet är försett med ett bra fönster och bra ventilation.\nOm hemmet:\nHär delar du kök och badrum med en annan kvinna. Boendet värdesätter en trygg och lugn atmosfär där man trivs tillsammans.\nVarför du kommer älska läget:\n Natur runt hörnet: Området är fantastiskt för dig som gillar löprundor i skogen, långa vandringar eller ett morgondopp i Sisjöns fina badsjöar.\n Smidig pendling: Busshållplatserna Gåsmossen och Varpemossen ligger alldeles i närheten och tar dig snabbt dit du behöver.\n Allt inkluderat: Hyran ligger på 5 000 kr/mån och då ingår precis allt – el, värme och snabbt bredband. Inga dolda kostnader!\nJag söker en ansvarsfull kvinna som vill bli en del av detta.\n\nCharming room in a quiet and safe female flatshare!\nAre you looking for a harmonious home close to both the city and nature? Starting December 1st, a bright room of approximately 20 sqm will be available in my lovely townhouse in Askim/Östra Sisjön. It is located in the basement level and, together with another room, forms its own separate, private unit. The room features a good-sized window and excellent ventilation.\nAbout the home:\nYou will share a kitchen and bathroom with one other woman. We value a safe, calm, and friendly atmosphere where everyone feels comfortable and at home.\nWhy you’ll love the location:\n Nature right around the corner: The area is wonderful if you enjoy running in the woods, long hikes, or a morning swim in the beautiful lakes of Sisjön.\n Easy commute: The bus stops Gåsmossen and Varpemossen are right nearby and will quickly take you wherever you need to go.\n All-inclusive: Rent is 5,000 SEK/month and includes everything – electricity, heating, and high-speed broadband. No hidden fees!\nI am looking for a responsible woman who would like to become part of this home.\n",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-11T13:06:01+00:00", "clock": "13:06:01"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-11T18:02:26+00:00", "clock": "18:02:26"};
