@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Sörredsvägen, Torslanda",
+    "url": "https://qasa.com/p/1482047",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4MRHCVARZ663KD64NPT9K4K.jpg",
+    "description": "Vi hyr ut två lägenheterna som ligger ovanpå ett garage, med separat ingång via loftgång. \nLägenheterna hyrs ut separat tillsvidare, ingen sluttid.\n91B är den till vänster (beige) -> Denna annons.\n91C är den till höger (grå)\n\nIngår:\n- Golvvärme som uppvärmning (värme ingår)\n- Vattenförbrukning \n- Parkering \n- Uteplats på loftgång \n- Yale dörrlås (inga nycklar)\n- Finns tillgång till elbilsladdare (elförbrukning betalas av hyresgäst)\n\n- Avstånd busshållplats: 1,5km \n- Källsortering är ett krav \n- Krav på utlämning av egen UC \n- Deposition 2 månadshyra \n- Inga djur tillåtna \n- Ej rökning \n- Uppsägningstid 1 månad \n\nIngår ej:\n- Elförbrukning \n- Fiber finns indraget separat för lägenheterna hos Telia - abonnemang ingår ej.\n\nVår familj bor i fastigheten bredvid. Lägenheterna är byggda för att hyras ut. ",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 11100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Liberagatan, Göteborg",
     "url": "https://qasa.com/p/1474463",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3T4R6BJDMB6ZX6CQT1F7JJ4.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Monsungatan, Göteborg",
-    "url": "https://qasa.com/p/1481697",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4JH5733JZHTSVVPAKXHY56X.jpg",
-    "description": "Trevlig bostad invid vattnet under Eriksbergs bockkran. Område med liv och rörese. Kring vattnet finns flera olika restauranger och Eriksbergstorget med kajpromenaden bara en kort promenad bort. Lägenheten är utrustad med ett nytt kök med diskmaskin. Fint badrum med kombinerad tvättmaskin/torktumlare. Öppet kök längs med kortsidan av ett stort rymligt utrymme med plats för matbord och TV-hörna. Längst in i lägenheten finns en sovalkov med platsbyggda garderober. Utanpå hela lägenheten finns en stor inglasad balkong på 15kvm med utsikt över vattnet och innergården. Möjlighet finns att hyra möblerad eller omöblerad efter överenskommelse.\n\nI förreningen finns festlokal, bastu samt övernattningslägenhet.\n\nUtanför lägenheten går buss och från Eriksbergstorget kan man ta färja över älven både mot Majorna och Stenpiren/Lilla bommen.\n\nI hyran ingår Internet/TV, el & vatten. Lägenheten hyrs ut då jag ska flytta in hos min sambo. ",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 39.0,
-    "rent": 12300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-11T00:27:38+00:00", "clock": "00:27:38"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-11T06:17:25+00:00", "clock": "06:17:25"};
