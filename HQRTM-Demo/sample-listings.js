@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Vallfrögatan, Göteborg",
+    "url": "https://qasa.com/p/1482583",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4PH9JV4PBSQDVVE7CW4TZ5G.jpg",
+    "description": "Hej! Jag heter Alexander och söker en skötsam hyresgäst till min lägenhet på 44 kvm i bo yta med en rymlig uteplats på 11 kvm, då jag på grund av arbete kommer att bo på annan ort under en längre period. Fastigheten byggdes av Skanska år 2022 och håller en modern standard.\n\nI hyran ingår el, bredband, varmvatten och övriga boendekostnader. Lägenheten har en diskmaskin och egen tvättmaskin. Inomhusparkering kan diskuteras. Finns en länga gratis utomhusparkering precis utanför byggnaden.\n\nPå bara 4–5 minuters promenad når du Slätta Damm (Göteborgs största park), perfekt för motion och avkoppling. Fastigheten har dessutom en privat innergård där du kan njuta av en lugn och trevlig utemiljö.\n\nI samma byggnad finns bland annat gymmet STC, kiosk och en skönhetssalong. Tempo, Preem och ett par resturanger ligger bara tvärs över gatan.\n\nPrecis utanför byggnaden finns en busshållplats med täta avgångar, cirka 2–3 minuter till Saluhallen och 6–7 minuter till Nordstan. Dessutom finns en poolbil att hyra via byggnaden.\n\nJag söker någon som vill hyra långsiktigt, helst minst ett år, med goda möjligheter till förlängning.\n\nTa gärna en titt på bilderna och hör av dig om du är intresserad av en visning eller har några frågor!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 44.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kvillegatan, Göteborg",
     "url": "https://qasa.com/p/1470979",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4NSHQK5HAMJ2Z4VZ44Z1ZP7.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Västergatan, Göteborg",
-    "url": "https://qasa.com/p/1482121",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4N6T9W7PNF8ARP0HX61ACN3.jpg",
-    "description": "En tvåa i lummiga Annedal, precis på gränsen till Olivedal. 5 minuter till Linnéplatsen via Seminarieparken, och spårvagnshållplatsen Seminariegatan precis utanför. \n\nDetta är en välplanerad 2:a med stort vardagsrum och rymligt sovrum och kök. Köket är nyrenoverat sen hösten 2019, då sattes det även in en säkerhetsdörr. Balkong och fönster är nytt sen 2021.\n\nBostaden hyrs ut möblerad. Allt ingår förutom klädkammaren.\n\nLägenheten hyrs ut pågrund av att jag och min sambo har var sin lägenhet, och därför väljer att hyra ut denna lägenheten till augusti.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 12344,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-11T21:50:29+00:00", "clock": "21:50:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-12T00:47:27+00:00", "clock": "00:47:27"};
