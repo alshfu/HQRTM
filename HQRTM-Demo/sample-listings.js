@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Karlavagnsgatan, Göteborg",
+    "url": "https://qasa.com/p/1483418",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4RGC78ECRX4CRTJPQD73PF5.webp",
+    "description": "Ny modern lägenhet i en av Sveriges mest attraktiva gator Karlastaden. Balkong i västerläge och stora ljusinsläpp hela dagarna. Denna lägenhet är i toppskick och är av de bäst planerade 2or i byggnaden. Fina nya lindholmsallèn precis över gatan och ca 30sek promenad till lindholmens buss/spårvagnshållsplats. Massa restauranger i området samt att STC gym finns i samma byggnad. Lägenheten är i toppskick.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 15700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Masthamnsgatan, Göteborg",
+    "url": "https://qasa.com/p/1483382",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4RE7CFPF7FSN0HVAJNBWJNP.jpg",
+    "description": "🏡 LÄGENHET UTHYRES I MASTHUGGET – FÖRSTA LÅNGGATAN, GÖTEBORG\n\nNu finns möjlighet att hyra en fin och yteffektiv lägenhet på 35 kvm med sovalkov och balkong, belägen i attraktiva Masthugget vid Första Långgatan! 🤍\n\n📅 Uthyrningsperiod: Slutet av november 2026 till och med 31 januari 2027\n💰 Hyra: 10 000 kr/månad\n📐 Storlek: 35 kvm\n🏢 Våning: 3\n🛋️ Uthyres omöblerad\n\n✨ Om lägenheten:\n\n* Sovalkov med smart planlösning\n* Egen balkong\n* Diskmaskin\n* Kombinerad tvättmaskin och torktumlare\n* Kallvatten ingår i hyran\n* El och varmvatten tillkommer\n* Husdjur är tillåtna 🐾\n\n📍 Läget: Superbra kommunikationer och nära till restauranger, caféer, matbutiker och allt som centrala Göteborg har att erbjuda.\n\n🔑 Deposition tillkommer och återbetalas vid utflytt, förutsatt att villkoren för återbetalning är uppfyllda.\n\nLägenheten passar perfekt för dig som söker ett tillfälligt boende i Göteborg under vintern!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Parkgatan, Göteborg",
+    "url": "https://qasa.com/p/1483392",
+    "image_url": null,
+    "description": "Trevlig bostad  ca 100m till närmaste busshållplats. 200m till avenyn.  Nära till allt helt enkelt.  Jag hyr eventuellt ut ett rum till  rätt person.  Den finns 1st 120säng och 4 st garderober i det rummet . Tillgång till hela lägenheten, all köks utrustning finns ,  Du ska ha ett arbete eller studera och kunna visa din inkomst.  Själv åker jag hemifrån ca 05.30 och är hemma igen ca 16.30. Är 52år gammal.  Lägger inte ut några bilder.  Är du intresserad  skriv varför du vill hyra och lite om dig själv. Ha det bäst Tero ",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 98.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hjälmavägen, Torslanda",
     "url": "https://qasa.com/p/1483307",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4R9YWXSKA81J34ZPYHE2YZ4.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Knapegatan, Göteborg",
-    "url": "https://qasa.com/p/1483135",
-    "image_url": null,
-    "description": "Mysig och rymlig etta nära både stan och naturen\n\nEn rymlig och möblerad etta med kök i ett trevligt och levande område där du har nära till allt som kan behövas. Här finns caféer, restauranger, matbutiker och Backaplan runt hörnet, samtidigt som Ramberget och Keillers park ligger nära för promenader och natur.\n\nHållplatsen ligger bara två minuter bort och på cirka fem minuter tar du dig in till stan. Läget passar därför lika bra för dig som gillar att ha nära till stadens puls och allt som händer, som för dig som uppskattar lugnare stunder och närheten till naturen.\n\nLägenheten hyrs ut möblerad och har ett välutrustat kök med det mesta du behöver, samt säng, soffa och annan grundläggande inredning. Det finns även en fin innergård och trevliga grannar som bidrar till en hemtrevlig känsla.\n\nHelt enkelt ett bekvämt boende med det bästa av två världar – nära till både liv och rörelse och lugn och grönska. \n\nI hyran ingår värme, vatten och internet och lägenheten hyrs ut då jag fått nytt jobb på annan ort. Därav finns också goda möjligheter till förlängning. \n\nMer information ges på begäran. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Zenitgatan 6, Göteborg",
-    "url": "https://qasa.com/p/1483310",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/683fbc03b4f114e04094bf20a720e80dbf1c3dfcac7bb29c018cfae85b14453a.png",
-    "description": "Välkommen hem till denna nyrenoverade och inflyttningsklara lägenhet om 56 välplanerade kvadratmeter! Här får du ett stilrent och modernt boende där varje detalj är noga utvald för att skapa en trivsam och funktionell vardag.\n\nLägenheten har genomgått en totalrenovering där samtliga väggar och tak målats i ljusa färger. En säkerhetsdörr är installerad för att ge dig en extra trygg känsla i vardagen. I hallen möts du av ett snyggt och praktiskt klinkergolv som både tål slitage och ger ett välkomnande intryck. I resten av hemmet ligger ett elegant ekparkettgolv som ger både värme och karaktär åt bostaden.\n\nDet helkaklade badrummet är utrustat med både klinker och kakel, och har även försetts med en handdukstork, golvvärme och en spegel med stilfull LED-belysning. Köket, hemmets hjärta, är välutrustat med inbyggnadsugn, häll, diskmaskin, fläktkåpa samt kombinerad kyl och frys. Här finns utrymme för både matlagning och gemenskap. I direkt anslutning hittar du även balkongen – perfekt för dig som gillar att sitta ute och njuta av vädret och utsikten. \n\nI hyran ingår värme, vatten och kabel-TV. \nObservera att bilderna i annonsen är digitalt stylade. Avvikelser från planritningen och bilder kan förekomma. Annonserad hyra avser 2026 års hyresnivå, ny hyresnivå för 2027 kommer att sättas Q1 2027. Visning sker enligt planritning.\r\n\r\nOMGIVNING\r\nI området finns gott om lekplatser, idrottsplaner och grönområden. Söder om Bergsjövägen hittar du dessutom Bergsjönbadet med bryggor, badstegar, hopptorn och lekplats. Naturen är ständigt närvarande och tillgänglig i hela stadsdelen. Just nu pågår en stor satsning på Bergsjön. Nya bostäder är byggda och området utvecklas på alla plan. Vi vill bidra till ett grönare, tryggare och trivsammare bostadsområde.\r\n\r\nKOMMUNIKATIONER\r\nDet finns bra förbindelser från Bergsjön med flera spårvagnar och bussar som enkelt tar dig till Göteborg centrum på cirka 20 minuter.\r\n\r\nSERVICE\r\nApotek, matbutik, kiosk och pizzeria finns i området och nås med en kortare promenad om cirka 10 minuter.\r\n\r\nPARKERING\r\nParkeringsplats ingår inte i hyran. \nKölista, månadshyra mellan 450–605 kronor/månad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 8827,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Basilikagatan, Angered",
-    "url": "https://qasa.com/p/1483082",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4R0MSRP8BQC2DMT8KYTF52H.jpg",
-    "description": "Välkommen till denna nyproducerade 3 rok.\n\nDenna lägenhet erbjuder ett modernt och genomtänkt boende med ljusa ytor, stilrena\nmaterialval och en öppen planlösning. Här får du en bostad där funktion och komfort\nstår i fokus, med stora fönsterpartier och en generös balkong.\n\nInflyttning\nLägenheten är tillgänglig 1 april 2027.\n\nPlanlösning\nLägenheten har en öppen och social planlösning där kök och vardagsrum bildar\nbostadens naturliga samlingspunkt. De stora fönsterpartierna skapar ett generöst\nljusinsläpp och ger rummet en luftig känsla.\n\nI sovrummet finns det en skjutgarderob med Elfa-system. Från vardagsrummet når du balkongen,\nsom ger ytterligare en yta att använda under årets varmare månader.\nPlanlösningen är genomtänkt och har lättmöblerade ytor som passar både vardag och\numgänge.\n\nMaterial & utrustning\nBostaden har moderna och tidlösa materialval. Köket är från Vedum och är i vitt med\nsläta luckor, en stilren stenbänkskiva i en grå/beige nyans och är utrustat med kyl och\nfrys, spis, ugn, mikro samt diskmaskin.\nGenomgående golv och målade väggar ger bostaden ett ljust och enhetligt uttryck.\nDet helkaklade badrummet har en dusch med glasväggar som ger ett rent och modernt\nintryck. Här finns även tvättmaskin och torktumlare som underlättar vardagen.\n\nOm området\nGårdsten är ett omtyckt och etablerat bostadsområde i östra Göteborg, cirka 1,5 km utanför\ncitykärnan. Här bor du med närhet till både natur och stadens utbud. I området finns\nförskolor, grundskolor och gymnasium. Goda bussförbindelser gör det enkelt att ta sig till Göteborg och för den som cyklar finns väl utbyggda gång- och cykelvägar. Gårdsten erbjuder också grönområden, motionsspår och service i närområdet – ett bekvämt läge\nför både studenter, familjer och yrkesverksamma.\n\nÖvrigt\nP-plats hyrs ut separat.\n\nBilderna är från en liknande lägenhet i ett annat projekt, därav kan viss skillnad\nförekomma.\n\nÄr detta ditt nästa hem? Skicka in din intresseanmälan.",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 61.0,
-    "rent": 12310,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-12T16:06:55+00:00", "clock": "16:06:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-12T22:56:00+00:00", "clock": "22:56:00"};
