@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Haga Kyrkogata, Göteborg",
+    "url": "https://qasa.com/p/1482385",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4NVGP8B8YPJDAGPTMJ7T03F.jpg",
+    "description": "En liten fyra i centrala Göteborg vid Handelshögskolan. En unik lägenhet byggd 2014 med ett stort kök på entréplan och vardagsrum, 3 sovrum och badrum i källarplan.  Lägenheten är fullt möblerad med köksutrustning etc.\n\nEn mindre och välskött bostadsrättsförening med gemensam mysig uteplats på gården, bra tvättstuga,  bastu och vinkällare. Alla förväntas deltaga i bostadsrättsföreningens gemensamma 2 städdagar och följa föreningens trivselregler.\n\nIngår i hyran: Wifi, värme, vatten och el. Ni behöver ha er egen hemförsäkring för era ägodelar. \n\nVästlänken byggs i området vilket dagtid kan innebära störningar.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 80.0,
+    "rent": 18000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Trekantsgatan 2 D, Göteborg",
+    "url": "https://qasa.com/p/1482646",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b2872d76445a5112269ae3b83bde1b1eb2edfe93f43a9cb494d2908a5a7b4bf3.jpg",
+    "description": "I trivsamma Rambergsstaden väntar en nyrenoverad tvåa med modern standard efter en totalrenovering under 2025. Här får du ett hem där komfort och funktion möts i en genomtänkt helhet. \n\nKöket är utrustat med diskmaskin och för extra bekvämlighet finns både tvättmaskin och torktumlare i bostaden. För dig som har bil finns även möjlighet att hyra parkeringsplats.\n\n\n\n\nHär bor du med ett attraktivt läge vid foten av Ramberget och nära Keillers Park. Njut av grönområden, promenadstråk och vackra utsikter samtidigt som stadens utbud finns inom bekvämt räckhåll.\n\nMed både buss och spårvagn i närheten tar du dig enkelt till centrala Göteborg. Backaplan ligger också nära med ett brett utbud av shopping, restauranger, service och allt som underlättar vardagen.\n\n\n\n\nLåter det intressant? Anmäl ditt intresse redan idag via HomeQ och ta chansen att hitta ditt nästa hem!\n\n2026 års hyra.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 8462,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Vallfrögatan, Göteborg",
     "url": "https://qasa.com/p/1482583",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4PH9JV4PBSQDVVE7CW4TZ5G.jpg",
@@ -21,7 +51,7 @@ window.HQRTM_SAMPLE = [
     "title": "Kvillegatan, Göteborg",
     "url": "https://qasa.com/p/1470979",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4NSHQK5HAMJ2Z4VZ44Z1ZP7.jpg",
-    "description": "Hej!\n\nJag och familjen planerar eventuellt att flytta utomlands ett år och vill då hyra ut vår fina lägenhet, helst till ett par eller en liten familj. Därför vill vi nu undersöka intresset för bostaden om vi flyttar. Datumen går inte att förhandla och det finns inte möjlighet till förlängning. \n\nLägenheten är fullt möblerad och har möblerats om sen bilderna togs så den är annorlunda. T.ex. är det ett runt bord i köket och det finns fler skåp.\n\nI hyran ingår, el, vatten, Internet (höghastighet), och parkering i garage, väldigt nära lägenheten. I badrummet finns golvvärme och balkongen är rymlig med utsikt över innergården och daglig sol under flera timmar under sommaren. Förråd ingår inte. \n\nBostaden är 5 minuters promenad från knytpunkten Hjalmar Brantingsplatsen och på promenadavstånd till Backaplan, Keillers park, Jubileumsparken, restauranger, butiker och Kville torg.\n\nTveka inte att fråga mig om det är något som du undrar över.",
+    "description": "Hej!\n\nJag och familjen planerar att bo utomlands ett år och vill då hyra ut vår fina lägenhet, helst till ett par eller en liten familj. Därför vill vi nu undersöka intresset för bostaden om vi flyttar. Datumen går inte att förhandla och det finns inte möjlighet till förlängning. \n\nLägenheten är fullt möblerad och har möblerats om sen bilderna togs så den är annorlunda. T.ex. är det ett runt bord i köket och det finns fler skåp.\n\nI hyran ingår, el, vatten, Internet (höghastighet), och parkering i garage, väldigt nära lägenheten. I badrummet finns golvvärme och balkongen är rymlig med utsikt över innergården och daglig sol under flera timmar under sommaren. Förråd ingår inte. \n\nBostaden är 5 minuters promenad från knytpunkten Hjalmar Brantingsplatsen och på promenadavstånd till Backaplan, Keillers park, Jubileumsparken, restauranger, butiker och Kville torg.\n\nTveka inte att fråga mig om det är något som du undrar över.",
     "district": "Göteborg",
     "rooms": 3.0,
     "area_m2": 74.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1482224",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4NDHRZX5VXPY0VE30E2VJHS.jpg",
-    "description": "Möblerat rum uthyres i Örgryte \nVi hyr ut ett möblerat rum på ca 14 kvm.\n\n🏡 Om boendet\nVillan är 352 kvm och fördelad på tre våningar med källare. Varje våning är en separat lägenhet med egen entré. Alla boende har tillgång till en altan på 40 kvm – perfekt för avkoppling och socialt umgänge.\n\n👩‍🎓 Endast studenter bor i huset.\n\n🛏 Om lägenheten och rummet\nLägenheten andra våning är ca 130 kvm och ligger på andravåningen med egen ingång. \nDen består av fyra sovrum, kök, vardagsrum och badrum.\nDu delar gemensamma utrymmen med tre studenter.\nRummet är ca 14 kvm, möblerat med enkelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n📍 Läge och kommunikationer\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset med mataffär, apotek och Systembolag.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 14.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen, Angered",
-    "url": "https://qasa.com/p/1315323",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/37ea252bdb6f48e4b9b62675881209f64bd506cabc9bd1a9d859893927c001d1.jpg",
-    "description": "Nu finns möjlighet att hyra en ljus och trevlig lägenhet på 2 rum och kök (ca 48 kvm) högst upp i huset på Gårdstensvägen 120. Lägenheten är fullt möblerad, har högt i tak, egen tvättmaskin och ligger precis vid busshållsplats – smidigt till både Angered och centrala Göteborg.\n\nLägenheten är:\nFullt möblerad\nTvättmaskin i lägenheten\nEl, bredband och vatten ingår (upp till viss nivå)\nMöjlighet till parkering (400 kr/mån)\nLugnt område med natur och service i närheten",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 48.0,
-    "rent": 9998,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-12T00:47:27+00:00", "clock": "00:47:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-12T06:38:11+00:00", "clock": "06:38:11"};
