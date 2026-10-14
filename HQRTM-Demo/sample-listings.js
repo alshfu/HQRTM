@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Fogelbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1484421",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4WG3973QKSKP59R2WWZ65X1.jpg",
+    "description": "Unikt tillfälle att hyra en totalrenoverad, välplanerad trea i pampiga Vasastaden. Lägenheten som är mycket välplanerad erbjuder ett modernt och välutrustat kök med köksinredning i grått samt ett stilfullt badrum med väl valda materialval. Två mysiga sovrum med lugnt gårdsläge och djupa fönsternischer. Genomgående vitpigmenterade brädgolv och ljusa väggar som ger en neutral bas att inreda efter. Lägenheten uthyres i första hand omöblerad men kan även inredas enligt överenskommelse med hyresgäst. Värme, vatten, kabel-TV och bredband ingår i månadshyra.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 62.0,
+    "rent": 21000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Östra Eriksbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1424213",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b5a6ef11e83ed777a3190713f9e93457db7759f2f72346f5ecd529aa37c48dc5.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Plantagegatan, Göteborg",
-    "url": "https://qasa.com/p/1483934",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4THZKA5R7HD4AZCKGC02E5J.jpg",
-    "description": "Välkommen till en ljus och rymlig 2,5:a om 81 kvm, mitt i hjärtat av Linné. Här får du en härlig kombination av sekelskiftescharm och moderna bekvämligheter, med 3,5 meter i takhöjd, vacker stuckatur och höga golvlister. Lägenheten har två stora och ljusa rum med utsikt mot Linnégatan och Hagabion. Det rymliga köket vetter mot den lugna innergården och har gott om arbetsytor, diskmaskin och stora fönster som ger ett fint ljusinsläpp. Det nyrenoverade badrummet har dusch, tvättmaskin och golvvärme. En del av hallen har avgränsats och används idag som ett separat arbetsrum – perfekt för dig som arbetar hemifrån.\nI anslutning till hallen finns en stor klädkammare (5,5 m2) med gott om förvaring. Lägenheten har ljusa väggar genomgående och känns både luftig och ombonad. De vackra originaldetaljerna ger bostaden en unik karaktär, samtidigt som planlösningen erbjuder gott om praktiska ytor.\n\nHär bor du mitt i stadens puls, med restauranger, caféer, butiker och allt som Linné har att erbjuda precis runt hörnet. Samtidigt får du lugnet från den fina innergården via de stora fönstren i köket. Det är mycket goda kommunikationer med både spårvagn och buss, härifrån tar du dig lätt till olika delar av Göteborg.\n\nEl (normalförbrukning), Bredband (1 Gbit/s), värme och vatten ingår.\nJag söker ordningsamma och pålitliga hyresgäster som tar väl hand om bostaden, den är lämplig för 1-2 personer. Uthyres tillvidare, men 6 månader i taget.",
-    "district": "Göteborg",
-    "rooms": 2.5,
-    "area_m2": 81.0,
-    "rent": 18500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-14T01:17:47+00:00", "clock": "01:17:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-14T06:14:38+00:00", "clock": "06:14:38"};
