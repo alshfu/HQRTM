@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Kålltorpsgatan, Göteborg",
+    "url": "https://qasa.com/p/1468355",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9f2726905d7348cd182f1b910e6a2382872b8b7e078af231d8cab5c1f1ceb82d.jpg",
+    "description": "Mysig och välplanerad tvåa på 50 kvm, belägen en trappa upp i ett litet och lugnt hus med endast 10 lägenheter. Ingen hiss. Lägenheten hyrs ut omöblerad.\n\nHuset har en mysig gemensam trädgård med uteplats som passar fint för umgänge och sommarkvällar. Det finns även tillgång till bastu i huset samt en gemensam tvättstuga i källaren.\n\nLägenheten ligger naturnära, mellan Östra kyrkogården och villaområdet i Kålltorp, med Kåken och områdets mysiga caféer och restauranger på nära avstånd.\n\nBra kommunikationer:\n• Ca 4 minuters promenad till spårvagn 1 och 3 vid Stockholmsgatan\n• Ca 4 minuter till spårvagn 5 vid Sanatoriegatan\n• Buss 60 går från Nobelgatan\n• Gratis parkering på gatan i området\n\nHyra: 13 800 kr/månad inklusive el, vatten och internet.\n\nJag hyr ut lägenheten eftersom jag själv har flyttat till Hönö, där jag kommer ifrån. Jag arbetar fortfarande centralt i Göteborg och har därför möjlighet att vara tillgänglig om något skulle behöva ordnas på plats.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 13800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hackspettsgatan, Göteborg",
     "url": "https://qasa.com/p/1450518",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5d3480cec9a3d2a5cf897a9650adbd3a2352f6ce4ed4ef0c70a2da738f613cb6.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bronsfyndsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1484944",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4XERG3X6B8RJ35RFDC6B2Z0.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16100 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/xjyagbrhze4y1e14b2yc/vastra-gotaland/vastra-frolunda/bronsfyndsgatan-22/3-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus och rymlig bostad på 91 m² på övervåningen i en villa i ett lugnt och trivsamt villaområde i Näset, Västra Frölunda. Bostaden har egen separat ingång och hyrs ut omöblerad.\r\nBostaden består av två separata sovrum, ett rymligt vardagsrum med öppen planlösning mot köket samt badrum med dusch. Stora fönster ger fint ljusinsläpp och bostaden har en ljus och luftig känsla.\r\nKöket är utrustat med diskmaskin, ugn, spishäll, kyl/frys och mikrovågsugn. Egen tvättmaskin och torktumlare finns i bostaden.\r\nBostaden har även balkong och uteplats samt tillgång till en parkeringsplats. Det är cirka 5 minuters promenad till ICA och busshållplats. Hyran är 15 000 kr.\r\n\r\nVatten, sophämtning och en parkeringsplats ingår i hyran. El tillkommer efter faktisk förbrukning och mäts med separat elmätare.\r\n\r\nVi söker en skötsam och ansvarsfull hyresgäst för ett stabilt och långsiktigt boende. Företag är också välkomna att höra av sig.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16100 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 118.0,
-    "rent": 15196,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-14T20:38:18+00:00", "clock": "20:38:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-14T23:26:33+00:00", "clock": "23:26:33"};
