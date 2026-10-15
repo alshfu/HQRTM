@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Eklandagatan, Göteborg",
+    "url": "https://qasa.com/p/1452249",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M50HD8P4EHD5YS1DX5TN28YN.jpg",
+    "description": "Mysig möblerad lägenhet uthyres i Johanneberg\n\nJag hyr nu ut min fina lägenhet då jag ska bli sambo och därför flyttar till annat boende. Jag trivs väldigt bra i lägenheten och hoppas därför hitta en skötsam och ansvarsfull hyresgäst som kommer trivas lika bra och ta väl hand om den.\n\nLägenheten hyrs ut möblerad och är redo för inflyttning. Den passar bra för dig/er som söker ett bekvämt och trivsamt boende i Göteborg under en längre period. Kort promenad till både Korsvägen och Götaplatsen. \n\nLägenheten har balkong och ett vindsförråd som är tömt och gärna får användas. \nI hyran ingår internet, el, vatten och möbler. \nHyresperiod gärna ca 1 år. Uppsägningstid 1 månad åt båda håll. \n\nObservera att uthyrningen behöver godkännas av bostadsrättsföreningen innan hyresavtal kan tecknas.\n\nJag söker dig/er som är ordningssam, ansvarsfull och tar väl hand om bostaden. \nBerätta gärna lite mer om dig själv och din situation om du är intresserad,  så hör jag av mig! ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 11900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gåsagången, Hisings Backa",
+    "url": "https://qasa.com/p/1485841",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M50CTG1WV9CP40F2FH86Y4NW.jpg",
+    "description": "Välkommen till Gåsagången i Hisings Backa!\nCentralt beläget och trivsamt boende med goda kommunikationer till centrala Göteborg, cirka 3 km bort. Lägenheten ligger intill vackra Selma Parken och har ett lugnt och trevligt läge.\nRummet är en del av en rymlig trea och du har tillgång till:\nKök\nToalett och badrum\nFullt utrustat kök\nVacker uteplats\nJag är ofta bortrest, vilket innebär att du vid dessa tillfällen även kan ha möjlighet att använda fler av bostadens bekvämligheter.\nJag lägger stor vikt vid renlighet, ordning och respekt för personlig integritet. Därför söker jag en boende som uppskattar ett lugnt, rent och respektfullt boende. Här är alla som sköter sig välkomna – arbetande och studenter, män och kvinnor.\nVälkommen att höra av dig vid intresse!",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 3200,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Glöstorps Röseväg, Göteborg",
+    "url": "https://qasa.com/p/1485845",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M50DC07HDD8WHYRKR5EV4PB9.jpg",
+    "description": "Unikt tillfälle att hyra denna fyra rummare i familjevänliga området Tuve med grön utsikt från inglasad balkong, insynsskyddat läge. tvättstuga och gott om förvaring!\n\n84 välplanerade kvadratmeter med 4 rum och kök.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 84.0,
+    "rent": 19000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ole Måns gata, Västra Frölunda",
     "url": "https://qasa.com/p/1485773",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M505V542PKXP8MA5RSA6SPZ0.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sommarvädersgatan 36, Göteborg",
-    "url": "https://qasa.com/p/1485673",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5b828701ab033624bc31b4ed8c0f8c9236f66bd4e56eac82c884ece0851f019b.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna rymliga 2 rum och kök med uteplats i Biskopsgården! Lägenheten har förberett för tvättmaskin.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 8356,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vägen, Göteborg",
-    "url": "https://qasa.com/p/1483043",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4ZM02B33DAHH8MGS69EDEG6.jpg",
-    "description": "Nu finns möjlighet att hyra en ljus och välplanerad lägenhet om 39 kvm på Södra Vägen 68B i attraktiva Lorensberg. Här bor du centralt med restauranger, caféer och shopping runt hörnet, samtidigt som lägenheten har ett lugnt och insynsskyddat läge.\n\nLägenheten ligger på våning 4 av 5 i en charmig funkisfastighet från 1939 med hiss. Bostaden har ett generöst ljusinsläpp, högt i tak och en smart planlösning där varje kvadratmeter tas till vara. I allrummet finns plats för både soffgrupp, arbetsyta och en avskild sovdel. Originalparketten slipades 2025 och köket renoverades 2019.\n\nFrån köket når du den härliga balkongen i västerläge, där du kan njuta av eftermiddags- och kvällssolen med utsikt över grönskan och Carlanderska. Köket är utrustat med diskmaskin och lägenheten hyrs ut fullt möblerad, så det är bara att flytta in!\n\nHär bor du med ett centralt läge, bara ett stenkast från Avenyns restauranger, barer och shopping. Korsvägen ligger på bekvämt gångavstånd och erbjuder goda kommunikationer med både buss och spårvagn. Härifrån tar du dig enkelt runt i Göteborg, och det finns även anslutning till flygbussen mot Landvetter. Chalmers ligger också i närheten.\n\nJag ska flytta till Stockholm för jobb och vill därför hyra ut min lägenhet under en begränsad period. Jag söker en skötsam och ansvarsfull hyresgäst som vill trivas i bostaden och ta väl hand om den.\n\nLåter det intressant? Skicka gärna ett meddelande och berätta lite om dig själv, vad du arbetar med eller studerar och hur länge du önskar hyra. Jag berättar gärna mer och ordnar en visning!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 39.0,
-    "rent": 12760,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nebulosagatan 6, Göteborg",
-    "url": "https://qasa.com/p/1485666",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/84944f5b9af50443d67cb8f3f11a0a8d4e44cad8433055eb210b3d28bcb89f2c.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n \nOM LÄGENHETEN\nVälkommen till denna 4ROK! En ljus, trevlig, lägenhet! Lägenheten har ett kök med ljusa vitvaror och diskmaskin. Badrummet är helkaklat med tvättmaskin, och det finns ett extra WC.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n \nÖVRIGT\nHyran avser 2026 års hyresnivå, värme och vatten ingår. El, bredband och hemförsäkring tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen med er ansökan!",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 96.0,
-    "rent": 11602,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-15T16:51:14+00:00", "clock": "16:51:14"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-15T20:06:33+00:00", "clock": "20:06:33"};
