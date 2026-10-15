@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Såggatan, Göteborg",
+    "url": "https://qasa.com/p/1485873",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M50GYHE9Q07F4FJNMBRRKK95.jpg",
+    "description": "Ett ljust charmigt rum i landshövdingahus. Med Ljusa trägolv och högt i tak. Med entré i stengolv och spotlights i tak som leder till två separata rum med dörrar. Gemensamma köket har stort fönster in mot gården. Renoverade badrummet är placerad i hallen. Wi-Fi och el ingår i hyran.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 6500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Eklandagatan, Göteborg",
     "url": "https://qasa.com/p/1452249",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M50HD8P4EHD5YS1DX5TN28YN.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Paradisgatan 15A, Göteborg",
-    "url": "https://qasa.com/p/1485690",
-    "image_url": null,
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\nOM LÄGENHETEN\nVälkommen till denna charmiga 2 rum och kök på Paradisgatan på Masthugget!\n\nINFLYTTNING\nKontraktsstart är den 1 januari, men tillträde till lägenheten sker den 4 januari med anledning av nyårsdagen och efterföljande helgdagar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2026 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 56.0,
-    "rent": 7578,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-15T20:06:33+00:00", "clock": "20:06:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-15T23:03:34+00:00", "clock": "23:03:34"};
