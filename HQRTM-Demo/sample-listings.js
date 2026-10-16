@@ -3,14 +3,29 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamlestads Brygga, Göteborg",
+    "url": "https://qasa.com/p/1486584",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M53517JX1DETF3M5AMWZ68K2.png",
+    "description": "Nära till kollektiv, både spårvagn, tåg och buss.\nNära till vårdcentral.\nNära till stan.\nFinns livsmedelsbutik inom en hållplats.\nGarage parkering med eller utan laddning.\nStort badrum.\nFinns ett sovrum.\nStor balkong med rätt bra utsikt samt bra solljus.\nGott om garderob/förvaring.\nFöreningen har ett gemensamt uteplats på taket med möbler och kan grilla.\nEn del restauranger runt om.\nFinns 2 gym precis nedanför.\n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kvadrantgatan, Göteborg",
     "url": "https://qasa.com/p/1486556",
-    "image_url": null,
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M53244P8DPWRZYABCKW2MJ4Z.jpg",
     "description": "Suteräng våning med både balkong på första våningen och stor uteplats ca 200 m2 med stor altan med paviljong 3m×4m och utomhusmöbler, litet växthus, odlingslotters, grillplats, stor studsmatta och lekstuga.\nSol under hela dagen. \n",
     "district": "Göteborg",
     "rooms": 4.0,
     "area_m2": 82.0,
-    "rent": 16000,
+    "rent": 15080,
     "floor": null,
     "has_balcony": true,
     "has_kitchen": null,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Österlyckan, Göteborg",
-    "url": "https://qasa.com/p/1486353",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M52BBXTZY8HW5YHTMV1MXRNG.jpg",
-    "description": "Uthyres fullt möblerad lägenhet på ca 25 kvm. I hyran ingår värme och bredband. ( El:  med egen mätare ca 200 kr/mån) Lägenheten har fullt utrustat kök, WC/dusch, tvättmaskin, torktumlare . Lägenheten ligger i villaområde  med egen ingång. Ligger i ett lugnt villaområde med närhet till skog. 4 minuters gångavstånd till busshållplats Österlyckan . Tillträde sker 1 november  med 1 mån uppsägningstid. 1 mån hyra i deposition. Uthyres till endast 1 person. Krav: jobb eller studier. Söker en skötsam person, ej rökare och inga husdjur. Hyra: 7300 kr/mån. Vid intresse så kontakta mig. \n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 7300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-16T18:46:04+00:00", "clock": "18:46:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-16T21:46:12+00:00", "clock": "21:46:12"};
