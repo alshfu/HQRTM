@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Älvsborgsplan, Göteborg",
+    "url": "https://qasa.com/p/1485878",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M522TGV20Y4FS097Z9AFJGR6.png",
+    "description": "Välkommen till en ljus och hemtrevlig lägenhet i hjärtat av Majorna/Kungsladugård, med utsikt över Mariaplan och dess levande gatuliv, trevliga restauranger, vinbarer, kaféer och små butiker.\n\nLägenheten är en välplanerad 1,5:a på 41 kvadratmeter och hyrs ut fullt möblerad. Jag har börjat arbeta i Stockholm och hyr därför ut min lägenhet. Den ligger på andra våningen i ett charmigt landshövdingehus från 1929. \n\nTill huset hör en mycket mysig innergård med sittplatser och grillmöjligheter, som har blivit utsedd till en av Majornas mysigaste innergårdar. \n\nLägenheten är ljus och luftig med högt i tak och en genomtänkt planlösning. Det kombinerade sov- och vardagsrummet är smart avdelat med en vägg, vilket skapar en tydlig sovdel samtidigt som rummet behåller en öppen och rymlig känsla.\n\nDet nyrenoverade köket är stort, ljust och fullt utrustat med allt du behöver. Här finns bland annat spis, mikrovågsugn och diskmaskin samt gott om förvaring för både matvaror och köksredskap. Badrummet är modernt och stilrent med dusch, och den rymliga hallen erbjuder flera garderober och bra förvaringsmöjligheter. Det finns även möjlighet till tillgång till källarförråd.\n\nMajorna/Kungsladugård är ett av Göteborgs mest trivsamma områden, med en härlig kombination av stadsliv, grönområden och närhet till vattnet. Runt hörnet, i samma kvarter, finns en nyrenoverad och välsorterad Coop. På bekvämt promenadavstånd ligger både Slottsskogen och Röda Sten vid Göteborgs hamninlopp.\n\nHärifrån är det enkelt att ta sig runt i Göteborg, oavsett om du föredrar att gå, cykla, köra bil eller åka kollektivt. Närmaste spårvagnshållplats ligger cirka en minuts promenad bort, och på omkring 15 minuter når du många delar av centrala Göteborg. Du tar dig även enkelt till Saltholmen, där du kan bada eller fortsätta med skärgårdsbåtarna ut till öarna.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 41.0,
+    "rent": 11232,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Monsungatan, Göteborg",
+    "url": "https://qasa.com/p/1486146",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M521081TMZE8DEEE8499XMWM.jpg",
+    "description": "Hej, Hyr ut en omöblerad 1.5 med sovalkov på ca.40 kv i populära Eriksberg med stor  balkong. Lägenheten är ljus och smakfull samt inredd med fingertoppskänsla, Ett bekymmersfritt boende mitt i fina området och ändå nära till naturen och vattnet mitt i stan. Helt ny lägenhet i Eriksberg.   Uthyrning börjar med  start ,  omgående, ett år med chans till förlängning.  Lägenheten är på våning 2 . Lägenheten har alla bekvämligheter så som egen tvättmaskin och diskmaskin och cykelrum, . Eriksberg är ett av de bästa områden i Göteborg. Från Eriksberg tar du dig lätt med buss, hållplatsen nära lägenheten  som kommer så ofta till stan på några minuter. Eriksberg är ett av de bästa områden i Göteborg Det finns Ica , coop och allt som man behöver i närheten. Du är skuldfri med bra inkomst. Jag kommer träffa seriösa intressenter personligen då jag är väldigt mån om att rätt person hyr lägenheten.  allt tv och internet ,..ingår. Lägenheten passar till 2 personer, men helst är jag ute efter bara 1 person, går bra för 2 personer också.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 12500,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Såggatan, Göteborg",
     "url": "https://qasa.com/p/1485873",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M50GYHE9Q07F4FJNMBRRKK95.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ögonmåttsgatan 5, Göteborg",
-    "url": "https://qasa.com/p/1485699",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6696496a33b408465eb41bbac7c357022085d4f770faf5ed21908e2909e28c67.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna charmiga tvåa med terrass! Modernt kök med rostfria vitvaror och diskmaskin. Genomgående trägolv i lägenheten. Helkaklat badrum med förberedelse för tvättmaskin.\n \nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering.\n\nÖVRIGT\nHyran inkluderar värme och vatten. El, bredband och hemförsäkring samt gas tecknas separat av hyresgästen. Förråd finns. Planlösningen är endast ett exempel, avvikelser kan förekomma.\n \nVälkommen att söka!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 52.0,
-    "rent": 9185,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b56595740aa6ccab70492e51cebf1305270113758ea40ee774772e71dbf7a103.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-16T05:55:05+00:00", "clock": "05:55:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-16T10:51:25+00:00", "clock": "10:51:25"};
