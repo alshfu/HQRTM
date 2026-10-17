@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ostindiefararen, Göteborg",
+    "url": "https://qasa.com/p/1486815",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54W02NBF7QGS3HGK95AETQ4.jpg",
+    "description": "En pärla i Eriksberg med fantastisk panoramautsikt över Göta älv\n\nVälkommen till en ljus och fullt möblerad 2-rumslägenhet i Västra Eriksberg med en fantastisk panoramautsikt över Göta älvs glittrande vatten. Denna unika pärla bjuder på ett kompromisslöst ljusinsläpp och en helt fri vy som kan njutas från både vardagsrummet, sovrummet och den härliga, inglasade balkongen. Här bor du i en lugn fastighet med hiss, med den prisbelönta strandpromenaden, caféer och restauranger direkt utanför porten samt smidiga kommunikationer till city med både buss och färja.\n\nBostaden erbjuder en öppen och social planlösning mellan det tilltalande köket och det hemtrevliga vardagsrummet som är möblerat med en bekväm bäddsoffa och TV. Det rymliga sovrummet är utrustat med dubbelsäng, skrivbordsyta och generös förvaring, medan det stora badrummet har både tvättmaskin och torktumlare för maximal bekvämlighet. Snabbt internet ingår – ett inflyttningsklart drömhem på ett av områdets absolut bästa lägen. Hör av dig idag för mer information eller visning!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 64.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nya Älvegårdsvägen, Torslanda",
+    "url": "https://qasa.com/p/1486753",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54P0PXGNG90Y1SC36TR6RG2.jpg",
+    "description": "Fantastisk lägenhet på markplan med två uteplatser\nÖppet kök/ rum samt 2,5 sov rum\nLugnt grönområde med buss till Göteborg 100 m bort..,",
+    "district": "Torslanda",
+    "rooms": 3.5,
+    "area_m2": 75.0,
+    "rent": 7500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skintebovägen, Billdal",
+    "url": "https://qasa.com/p/1486754",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54P1EQF1WGNVBPS7FTZA4PT.jpg",
+    "description": "Fantastiskt hus med ett oslagbart läge precis vid vattnet och magisk utsikt över hamnen. Huset erbjuder 3 sovrum, 2 badrum, ett rymligt kök och vardagsrum i öppen planlösning samt ett extra vardagsrum på övervåningen. Utomhus finns en stor, härlig terrass med både pool och bubbelpool där man kan njuta av den vackra utsikten och det havsnära läget.",
+    "district": "Billdal",
+    "rooms": 5.0,
+    "area_m2": 155.0,
+    "rent": 38000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Distansgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1486511",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54F9FG9H8TQ7CDC4NQVYDTX.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kvadrantgatan, Göteborg",
-    "url": "https://qasa.com/p/1486556",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M53244P8DPWRZYABCKW2MJ4Z.jpg",
-    "description": "Suteräng våning med både balkong på första våningen och stor uteplats ca 200 m2 med stor altan med paviljong 3m×4m och utomhusmöbler, litet växthus, odlingslotters, grillplats, stor studsmatta och lekstuga.\nSol under hela dagen. \n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 82.0,
-    "rent": 15080,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mölndalsvägen, Göteborg",
-    "url": "https://qasa.com/p/1486546",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M52XFQBPQHHBKAVZB0WAXXCZ.jpg",
-    "description": "Jag hyr ut min möblerade 2:a, 55 m², våning 3, med diskmaskin, kombimaskin och inglasad balkong. Gavellägenhet med ljusinsläpp från alla rum! Ca 100m till Ica Maxi, spårvagn precis utanför (Varbergsvägen), nära till gym, Willys, restauranger m.m.\n\n- El & Varmvatten: Tillkommer\n- Bredband & wifi: Inkluderat\n\nIntresserad? Hör av dig för mer info och visning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 13400,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kommendörsgatan, Göteborg",
-    "url": "https://qasa.com/p/1486508",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M52QF36Q8EJT7WY04AW6VW17.jpg",
-    "description": "Då jag ska flytta till Italien över vintern hyr jag nu ut min lägenhet i Majorna.\nDet är 2 rok på 50 kvm nära Stigbergstorget, med mycket charm – bland annat kakelugn, diskmaskin och enkel tillgång till föreningens mysiga innergård med uteplatser.\n\nI föreningen finns även gym, bastu och 6 tvättstugor.\nLägenheten hyrs ut fullt möblerad.\n\nI hyran ingår värme, vatten, bredband och hushållsel.\nPeriod: 1 september–31 december",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 49.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T08:30:02+00:00", "clock": "08:30:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T12:21:29+00:00", "clock": "12:21:29"};
