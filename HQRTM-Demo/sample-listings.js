@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Distansgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1486511",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54F9FG9H8TQ7CDC4NQVYDTX.jpg",
+    "description": "Lite info om lägenheten:\n\n* Storlek: Stor etta på 42,5 kvm med balkong\n* Boende: Egen lägenhet med både tvättmaskin och diskmaskin\n* Hyra: 8300 kr/mån, el tillkommer\n* Ingår i hyran: Bredband, värme, gym och bastu. Lägenheten är delvis möblerad (kan skicka en lista med möbler/saker vid intresse).\n\nLägenheten ligger cirka 3 minuters promenad från hållplats Nymilsgatan, där spårvagn 1, 7 och 8 går.\n\nBra att känna till: Det är planerat ett stambyte i fastigheten under månadsskiftet april/maj och lägenheten ligger ute som kommande försäljning inför tiden efter stambytet. Mer information om detta ges självklart vid intresse!\n\nI annonsen finns tidigare mäklarbilder från 2020, möblerna är utbytta men likvärdiga.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 43.0,
+    "rent": 8300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ernst Torulfsgatan, Göteborg",
+    "url": "https://qasa.com/p/1486657",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M547AHEYP0K39F3XC45SB2A7.jpg",
+    "description": "Ljusa 3rum och kök i funkisstil, södervänt balkong, och 4st generösa inbyggda förvaringsmöjligheter inom lägenheten. Enkel tillgång till lugn och trevlig uteplats. Köket lämnar inga önskemål ang. plats för köksredskåp och skafferi. Bänkdiskmaskin och mikrovågnsugnen finns, kan dock tas bort om så önskas. \n\nUtmärkt läge mellan natur och centrum med mycket bra  kommunikationsmöjligheter: tågstation, spårvagns- och busshållplats i gångavstånd. Nära till mataffärer, gym, frisör, massage, djuraffär och ett varierande utbud av restauranger. Massage, BVC och vårdcentral finns i gångavstånd, Östra sjukhuset kan också nås inom få minuter med spårvagn. \n\nI hyran ingår värme, sophämtning, rymlig vind och källarförråd, åtkomst till tvättstugan (2 tvättmaskiner, 1 torktumlare) och torkrummet. \nCyklar och barnvagn kan parkeras i källaren. \nDelvis möblerat - ett stort garderob och köksbordet ingår. Bilderna som tillhör annonsen visar bara inredningsförslag för sovrummen och vardagsrummet. \n\nIngår inte: el och internet. \nDjurfritt.\nParkering kan möjligtvis hyras med BRF-styrelsensen godkännande. \n\n\nLägenheten hyrs ut pga låg köpefterfrågan på marknaden.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 67.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lebergsvägen, Donsö",
+    "url": "https://qasa.com/p/1486647",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M544NDN9SSS1Q50EX7CAA50Z.jpg",
+    "description": "Hej,\n\nNu söker vi ny hyresgäst till vår nyrenoverade lägenhet på Donsö. En ö i Göteborgs södra skärgård. \n\n60m2\n\n2 sovrum\n\n1 vardagsrum\n\n1 kök\n\n1 badrum\n\n1 tvättrum\n\nDjur- och rökfritt.\n\nLägenheten är ledig från början av oktober.",
+    "district": "Donsö",
+    "rooms": 4.0,
+    "area_m2": 60.0,
+    "rent": 11326,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamlestads Brygga, Göteborg",
     "url": "https://qasa.com/p/1486584",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M53517JX1DETF3M5AMWZ68K2.png",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Haggårdsvägen, Brännö",
-    "url": "https://qasa.com/p/1429453",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c4d67e914f2e79f2d9b38cf7217157f35021dd98f7d32fb6bfcd4f9ed94c7c5d.jpg",
-    "description": "Detta är ett mindre boende på 26 kvm med ett loft med 2 bäddar som passar för 2 personer.  Härlig uteplats med havsutsikt.\nI hyran ingår El, Vatten, Sophämtning och Internet.\nBoendet är på Brännö som man tar sig lättast till med Skärgårdsbåten,(Västtrafik);  som går regelbundet. Boendet är ca 5min gångavstånd till hamnen där båtar avgår till Saltholmen som tar ca 20 min.  ",
-    "district": "Brännö",
-    "rooms": 1.5,
-    "area_m2": 26.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ahrenbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1486486",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M52MRPNC7WSPMJCWYABDRSGF.jpg",
-    "description": "En tvåa på 49 kvm i Munkebäck med ljusinsläpp från två håll.\nDenna lägenhet ligger på våning 2 av 3 och har bra läge med närhet till bl.a. matbutik, gym och motionsspår. God kommunikation med både buss och spårvagn, cirka fem minuter till centralstationen och östra sjukhuset.\n\nVardagsrummet har fint ljusinsläpp och med plats för både stor soffa, tv och matbord. \n\nKöket har kyl, frys, micro och ugn samt diskmaskin. Det finns mycket förvaring och även en matplats.\n\nBadrummet är fräscht och har en ny toalett sedan 2025 och ny kommod som sattes in i början av 2026.\n\nSovrummet har fint ljusinsläpp och har gott med utrymme för en dubbelsäng och garderob. \n\nI föreningen finns en tvättstuga och torkrum. Det finns tillgång till parkeringar runt om i området där en del är gratis. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 49.0,
-    "rent": 12900,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Örebrogatan, Göteborg",
-    "url": "https://qasa.com/p/1486459",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M52HHERK7B25RDTPEQ23P69E.jpg",
-    "description": "Ett eget mysigt fristående relativt nybyggt hus i två våningar. Två badrum med dusch och toalett i varje badrum. Öppen planlösning på bottenvåning med kök och vardagsrum. Vardagsrummet har stora fönster från golvet och dörr ut till uteplatsen. Två sovrum på övre plan och badrum.  Bra förbindelse med spårvagn eller buss till centrum. Endast en minuts gångavstånd till spårvagn och buss. Fullt möblerat hus, el, värme och internet ingår. Vi bor i stora huset på samma tomt. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 75.0,
-    "rent": 18500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T04:02:20+00:00", "clock": "04:02:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T08:30:02+00:00", "clock": "08:30:02"};
