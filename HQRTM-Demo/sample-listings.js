@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Gamla Lillhagsvägen, Hisings Backa",
+    "url": "https://qasa.com/p/1486940",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M55AX6N6D73PDKFY3QNFW36H.jpg",
+    "description": "Mysigt attefallshus i ett lugnt och tryggt villaområde uthyres!\n\nKrav på hyresgäst:\n* Max 1 hyresgäst. \n* Djur och rökfri \n\n🌸 Om lägenheten\nLägenheten är fullt möblerad med:\n\n* Säng (180cm)\n* Garderob \n* Soffa och soffbord \n* Tv och tv bänk\n* Köksutrustning \n\nDet går givetvis att hyra den omöblerad om så önskas. \n\nHyresgästen har även tillgång till tvättrummet som är på källarplan i huset som delas med oss. \n\n🌸 Om området\nOmrådet är lugnt och trivsamt och boendet ligger ca 150m från busshållplatsen  För den som uppskattar natur finns fina grönområden på kort avstånd. Backaplan ligger ca 10 min bort med buss där förbindelser finns till övriga delar av stan.\n\n🌸 Detta ingår i hyran\n\n* El\n* Kall- och varmvatten\n* Smart-TV\n* Parkering\n\nInternet behöver ordnas på egen hand. \n\n🌸 Övrigt\nVi är flexibla med inflytt/utflytt! \nVi är väldigt måna om att hitta rätt hyresgäst då huset vi bor i är ca 10 m bort. Berätta gärna lite om dig själv vid intresse. \n\nVi svarar gärna på frågor och berättar mer om lägenheten!",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 29.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Arvid Lindmansgatan, Göteborg",
+    "url": "https://qasa.com/p/1486918",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M557ZNQACEK0GBKW2T9Y3WGH.png",
+    "description": "Välkommen att söka denna välplanerade, rymliga och ljusa 2an i härliga Kvillebäcken! Lägenheten är belägen högst upp i huset (våning 3/3) med balkong i soligt sydvästläge och kommer utrustad med diskmaskin. I samma byggnad finns tillgång till tvättstuga, torkrum, samt förrådsutrymme.\n\nKöket renoverades för några år sedan och är i väldigt bra skick. Väggar i flera rum är nymålade och nya golv har lagts in i både kök och sovrum.\n\nLägenheten ligger i ett lugnt och grönt område med bara 250 meter till både mataffär och Göteborgs största park – Hisingsparken. Buss 25 tar dig till med täta avgångar till Backaplan på några minuter, och vidare till centrala Göteborg på ca 10–15 minuter. Perfekt för den som vill bo både centralt och naturnära!\n\nSom hyresgäst får du dessutom tillgång till gemensamma utrymmen: cykelrum, bastu, gym (100 kr/mån), hobbyrum för snickeri och måleri, övernattningslägenhet samt föreningslokal. Parkeringsplats kan hyras för 250–375 kr/mån.\n\nI bashyran ingår värme, vatten och el.\n\nLägenheten hyrs ut eftersom att jag har flyttat till en annan lägenhet med min sambo. \n\nUthyrningen gäller i ett år med chans till förlängning. Inflyttningsdatumet kan eventuellt justeras.\n\nJag välkomnar frågor och ser fram emot att höra från dig!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 10350,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Berguven, Hovås",
     "url": "https://qasa.com/p/1486860",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54ZP0HCPPV6JTHRVSB91XHM.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Distansgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1486511",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54F9FG9H8TQ7CDC4NQVYDTX.jpg",
-    "description": "Lite info om lägenheten:\n\n* Storlek: Stor etta på 42,5 kvm med balkong\n* Boende: Egen lägenhet med både tvättmaskin och diskmaskin\n* Hyra: 8300 kr/mån, el tillkommer\n* Ingår i hyran: Bredband, värme, gym och bastu. Lägenheten är delvis möblerad (kan skicka en lista med möbler/saker vid intresse).\n\nLägenheten ligger cirka 3 minuters promenad från hållplats Nymilsgatan, där spårvagn 1, 7 och 8 går.\n\nBra att känna till: Det är planerat ett stambyte i fastigheten under månadsskiftet april/maj och lägenheten ligger ute som kommande försäljning inför tiden efter stambytet. Mer information om detta ges självklart vid intresse!\n\nI annonsen finns tidigare mäklarbilder från 2020, möblerna är utbytta men likvärdiga.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 43.0,
-    "rent": 8300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ernst Torulfsgatan, Göteborg",
-    "url": "https://qasa.com/p/1486657",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M547AHEYP0K39F3XC45SB2A7.jpg",
-    "description": "Ljusa 3rum och kök i funkisstil, södervänt balkong, och 4st generösa inbyggda förvaringsmöjligheter inom lägenheten. Enkel tillgång till lugn och trevlig uteplats. Köket lämnar inga önskemål ang. plats för köksredskåp och skafferi. Bänkdiskmaskin och mikrovågnsugnen finns, kan dock tas bort om så önskas. \n\nUtmärkt läge mellan natur och centrum med mycket bra  kommunikationsmöjligheter: tågstation, spårvagns- och busshållplats i gångavstånd. Nära till mataffärer, gym, frisör, massage, djuraffär och ett varierande utbud av restauranger. Massage, BVC och vårdcentral finns i gångavstånd, Östra sjukhuset kan också nås inom få minuter med spårvagn. \n\nI hyran ingår värme, sophämtning, rymlig vind och källarförråd, åtkomst till tvättstugan (2 tvättmaskiner, 1 torktumlare) och torkrummet. \nCyklar och barnvagn kan parkeras i källaren. \nDelvis möblerat - ett stort garderob och köksbordet ingår. Bilderna som tillhör annonsen visar bara inredningsförslag för sovrummen och vardagsrummet. \n\nIngår inte: el och internet. \nDjurfritt.\nParkering kan möjligtvis hyras med BRF-styrelsensen godkännande. \n\n\nLägenheten hyrs ut pga låg köpefterfrågan på marknaden.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 67.0,
-    "rent": 15500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T15:46:08+00:00", "clock": "15:46:08"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T17:58:02+00:00", "clock": "17:58:02"};
