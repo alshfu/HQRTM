@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Berguven, Hovås",
+    "url": "https://qasa.com/p/1486860",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54ZP0HCPPV6JTHRVSB91XHM.jpg",
+    "description": "HYR UT MIN 3ROK I NYA HOVÅS I ANDRA HAND, INKLUSIVE KATTER, FEB TILL MAJ 🐱 \n\nTill två personer eller tre om enad är ett par. Den hyresgäst som åtar sig att ta hand om katterna kan få en liiite lägre hyra. Jag betalar såklart allt till katterna. \n\nJag har även from nu ett extra rum from nu att hyra ut. Det är på 8 kvm. \n\nJag ska praktisera på annan ort från 1 februari till 7 maj och jag hyr ut min lägenhet då. Men kan diskutera datum. \n\nDen är 74 kvm varav ett rum är 8 kvm och ett är 12 kvm. Vardagsrum och kök i öppen planlösning, men ändå olika rum. \n\nDen är möblerad med allt som behövs. Hyra 13.100 ca beroende på varmvattenkostnad för hela lägenheten. \nWifi ingår. El cirka 350 kr i månaden delat på två om ni är två som hyr.\n\nHemförsäkring behövs också. \n\nUtrymmen är vardagsrum, kök, badrum och en stor balkong med sol till cirka 14 på em på sommaren. \nFinns även gemensam takterass för alla i lägenhetshuset, samt bastu som går att boka i ett annat hus. \n\nBoendet ligger väldigt nära hav, badplatser och natur.\n\nTar 26 min till Järntorget \nTar 5 min till Amundön,\nTar 10 min till Frölunda torg med kollektivtrafik från närmsta hållplats.\n\nNära till mataffär, restauranger, fik, pub och butiker, samt till vårdcentral, tandläkare och gym och annan service. \n\nÄ",
+    "district": "Hovås",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Legendgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1486777",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54R18MRJ4RHT2H27Y3RP5BB.jpg",
+    "description": "Bright and well-maintained second-floor of a duplex house for rent in a safe and quiet residential area. The unit is completely separated from the first floor and has a private entrance, offering good privacy. I'm looking for a new tenant since my current tenants are moving out at the end of October\n\nLocation:\n- Calm and safe neighborhood\n- 2-minute walk to Legendgatan bus stop\n- Approx. 900 m walk to Backa Kyrkogata bus stop\n\nApartment details:\n- Kitchenette suitable for everyday cooking\n- Walk-in closet with good storage space\n- Bathroom with bathtub\n- West-facing balcony with plenty of natural light\n- Washing machine inside the apartment\n\nFurnishing (partially furnished):\n- Bed\n- Dining table and chairs\n- Coffee table\n- TV stand\n- Electric stove, microwave oven, and toaster\n- Washing machine\n\nIncluded / not included:\n- Water included\n- 250 Mbps internet included\n- Electricity not included\n- Free outdoor parking included\n\nRental conditions\n- Suitable for one person or a couple\n- No pets, no children\n- Two months’ deposit\n- Rental period: 1 year with possibility of extension\n- Available from November 1\n\nThis apartment is ideal for tenants who appreciate a quiet and calm living environment. Preferably a working individual or couple with a regular daily routine.\n\nPlease send a short introduction about yourself when applying. Please don't apply if you're more than 2 people.",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 60.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ostindiefararen, Göteborg",
     "url": "https://qasa.com/p/1486815",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54W02NBF7QGS3HGK95AETQ4.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lebergsvägen, Donsö",
-    "url": "https://qasa.com/p/1486647",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M544NDN9SSS1Q50EX7CAA50Z.jpg",
-    "description": "Hej,\n\nNu söker vi ny hyresgäst till vår nyrenoverade lägenhet på Donsö. En ö i Göteborgs södra skärgård. \n\n60m2\n\n2 sovrum\n\n1 vardagsrum\n\n1 kök\n\n1 badrum\n\n1 tvättrum\n\nDjur- och rökfritt.\n\nLägenheten är ledig från början av oktober.",
-    "district": "Donsö",
-    "rooms": 4.0,
-    "area_m2": 60.0,
-    "rent": 11326,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamlestads Brygga, Göteborg",
-    "url": "https://qasa.com/p/1486584",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M53517JX1DETF3M5AMWZ68K2.png",
-    "description": "Nära till kollektiv, både spårvagn, tåg och buss.\nNära till vårdcentral.\nNära till stan.\nFinns livsmedelsbutik inom en hållplats.\nGarage parkering med eller utan laddning.\nStort badrum.\nFinns ett sovrum.\nStor balkong med rätt bra utsikt samt bra solljus.\nGott om garderob/förvaring.\nFöreningen har ett gemensamt uteplats på taket med möbler och kan grilla.\nEn del restauranger runt om.\nFinns 2 gym precis nedanför.\n\n",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T12:21:29+00:00", "clock": "12:21:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T15:46:08+00:00", "clock": "15:46:08"};
