@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sundshagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1466378",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5be7db9087611d1dbe7495a6194e279d1f8a35d48283089cc177ece9ecab9ea9.jpg",
+    "description": "Central  2-rumslägenhet i villa 85 kvm i KUNGSLADUGÅRD ( Majorna ) uthyres omöblerad tillsvidare. \n\nHYRAN inkluderar allt: \nel, fjärrvärme, fiber/WiFi, vatten, sophämtning \n\nLägenheten är  renoverad, ljus och fin med balkong i soligt läge på 2:a våningen i villan. \nToppenläge precis intill Slottsskogen, nära centrala stan, kommunikationer, grönområden och många träningsmöjligheter.\n\nLägenheten: \n•1 sovrum \n• Vardagsrum \n• Stort modernt kök  med diskmaskin \n• Helkaklat badrum med dusch och badkar \n• Balkong med utsikt över trädgårdar.\n ( Ej tillgång till hyresvärdens trädgård). \n• Delad  tvättstuga med tvättmaskin och  torktumlare i källaren .\n•Tillgång till 1 förråd i källaren. \n\nMöjlighet till boendeparkering på gatan. \nCykel kan förvaras i garage vid behov.\nNågra minuters promenad till mataffär, spårvagnshållplatser och utegym. \n10 min promenad till Mariaplan med restauranger, caféer och affärer.\n20 min promenad till Linnéplatsen , Botaniska trädgården och Änggårdsbergen. \nEnkelt att ta sig till bl.a Sahlgrenska sjukhuset och Chalmers.\n \nUthyres till 1-2  lugna, ansvarsfulla, rökfria personer utan barn och utan husdjur. \nStabil ekonomi. Inga betalningsanmärkningar. Referenser kommer efterfrågas.\n\nVälkommen att skriv några rader om dig själv vid intresse och boka tid för visning.\nVänliga hälsning/ Anna\n ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 85.0,
+    "rent": 15580,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gamla Lillhagsvägen, Hisings Backa",
     "url": "https://qasa.com/p/1486940",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M55AX6N6D73PDKFY3QNFW36H.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skintebovägen, Billdal",
-    "url": "https://qasa.com/p/1486754",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54P1EQF1WGNVBPS7FTZA4PT.jpg",
-    "description": "Fantastiskt hus med ett oslagbart läge precis vid vattnet och magisk utsikt över hamnen. Huset erbjuder 3 sovrum, 2 badrum, ett rymligt kök och vardagsrum i öppen planlösning samt ett extra vardagsrum på övervåningen. Utomhus finns en stor, härlig terrass med både pool och bubbelpool där man kan njuta av den vackra utsikten och det havsnära läget.",
-    "district": "Billdal",
-    "rooms": 5.0,
-    "area_m2": 155.0,
-    "rent": 38000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T20:27:20+00:00", "clock": "20:27:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-17T22:33:44+00:00", "clock": "22:33:44"};
