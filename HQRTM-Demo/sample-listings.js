@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skäpplandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1487187",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M57B15RFMQBBXZK7B022GQ0R.jpg",
+    "description": "Söker en inneboende till min fina centrala stora trea. Som boende här har du utöver ditt eget rum självklart tillgång till bostadens vardagsrum, hall, kök, & badrum. Viss egen tillgång till bostaden.\nHär får du inte bara bo i en bostad utan i ett hem. Gärna längre tid.  \nFantastiskt läge! Med vagn typ tre -tio min resa, till mysiga Majorna, en fika i Linne, handling på Frölunda torg eller studier på Chalmers eller GU. Kort bussresa till hav eller insjö, parker och naturområden finns på gångavstånd! \nGrymt läge, 150 m till hållplats, 1.5 -2 min till mataffär, gym, frisör och pizzeria. Härifrån går bussar och vagnar till hela stan. Bekväma cykelavstånd, bra cykelvägar & lånecyklar.  Knappt 10 min promenad till bibliotek, apotek & samhällsservice. Uteplats utanför huset.\n\nRummet är möblerat typ enligt vad som finns på bilderna, men förändring i möblemanget har skett, mer förvaringsutrymme har tillkommit. Sängen är en 140 cm säng. Skrivbord finnes i vardagsrummet, som vi som bor här tillsammans delar på, men som kan användas när det är ledigt, självklart kan du använda köksbordet för studier när möjligt.  \nBra tvättstuga med lätt att få tider. Vid besök kan finnas möjlighet att hyra in sig i fastighetens gästrum.\nOm hyra etc: I hyran ingår snabbt internet, el, värme, vatten, vissa förbrukningsvaror. Du betalar en månads deposition.\n\nVår supermysiga katt är ofta här, katten är en av de raser som räknas som låg-allergena/allergivänliga.\n\nLite om dig: \nJag söker dig som respekterar och är varsam med mitt hem och det som är här. Dig som söker privat sfär och lugn, men uppskattar samvaron och det sociala! Du håller god ordning, rent och fräscht runt dig, är trygg med dig själv och stabil, har stadig inkomst/studiemedel, röker inte, inga djur, använder inte droger. Inga fester i bostaden.  Du är öppen, bra på att kommunicera, och vill samarbeta, ömsesidig tillit och respekt är viktigt. Är du vegetarian, veckopendlare eller utbytesstudent är det en fördel.\n\nBilder också på uteplats med blomsterprakt, & närliggande odlingsområde.\n\nJag ser fram emot ditt personliga meddelande-att du berättar om dig, om vem du är! För att få en bättre bild vill jag veta hur du fungerar med andra, varför du är intresserad av att bo just här, vad du sysselsätter dig med, intressen, hur du bor idag & bott tidigare etc. Prefabricerade meddelanden, såna utan innehåll, med bara en mening eller fråga eller AI-genererade texter liksom meddelanden från sökandes föräldrar bortses ifrån. \n\nObs! Efter att du presenterat dig och berättar mer, bokar vi in ett videomöte, ev en fysisk visning.  Jag brukar vilja kolla betalningsanmärkning,belastningsregister, studieintyg/jobbintyg samt boendereferens innan inflytt, går oftast snabbt & smidigt. Kan vara dig behjälplig med detta. Sen skrivs kontrakt. Legitimation kollas så du är den kontraktet skrivs med. Du som boende behöver ha egen hemförsäkring, även krav från Qasa. En sån kostar inte mycket, vanligen max ca 50-70 kr/månad. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5110,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kommendörsgatan, Göteborg",
+    "url": "https://qasa.com/p/1487141",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M574B2MYK7CE1GYNE1ZCCE54.png",
+    "description": "INDUSTRISTIL I TOPPKLASS MED MILSVID UTSIKT \nEtt unikt boende centralt i Majorna, med stor balkong i söderläge och en rumstempererad loggia som suddar ut gränsen mellan ute och inne. Lägenheten är genomgående med stora fönsterpartier i två väderstreck som ger ett generöst ljusinsläpp och vyer över takåsar och hamninloppet. Svarta skjutdörrar som löper in i väggarna och blir helt dolda i öppet läge skapar en stilren och minimalistisk helhet. Fastigheten färdigställdes 2020 och är i toppskick, med en arkitektur som kombinerar brutalistiska drag och influenser från internationella hamnkvarter.\n\nSNABBFAKTA\nVåning: 4 av 5 (hiss finns)\nBalkong: Ja, söderläge (+loggia i norrläge)\nTak & Väggar: Rå betong\nGolv: Vitpigmenterad ek\nFönster: Höga industrifönster\nLjus: Dimbara ljuspunkter samtliga rum\nVärme: Vattenburen golvvärme (el i badrum)\nÖvrigt: Dolda skjutdörrar (samtliga rum)\n\nVARDAGSRUM & KÖK (HTH)\nKlädhängare\nMatgrupp\nSoffa & soffbord\nMattor\nInduktionshäll\nVarmluftsugn\nMikro\nKolfilterfläkt\nKyl/frys (integrerad)\nDiskmaskin (integrerad)\nSkafferi\nKöksredskap/-utrustning \nKaffekokare \n\nSOVRUM\nSäng (komplett) \nGarderober: två 60 cm i fullhöjd + en inbyggd 3 m³ Elfa-system\nLjudisolerad vikbar glasvägg mot loggia\nLamellgardiner (mörkläggning)\n\nBADRUM\nBetongklinker & industrikakel\nDusch med glasvägg\nVägghängd toalett\nHandfat\nKommod\nKombinerad Tvättmaskin & Torktumlare (Smeg)\nHanddukstork\nHyllor\nBad- & handdukar\nStäd- & tvättartiklar\nHårfön\n\nLOGGIA\nExtra ljudisolerade fönster (öppningsbara)\nHyllor & Skåp\n\nBALKONG\nBalkongbänk/förvaring\nUtemöbler (inkl. dynor)\nKrukor\n\nGEMENSAMMA UTRYMMEN\nInnergård med utemöbler\nGasolgrill, pizzaugn och utekök\nOrangeri med matplats (bokas)\nLägenhetsförråd (ca 3 m³, uppvärmt)\nCykel-, moped- och barnvagnsrum (uppvärmt)\nHiss & Trappuppgång\nSoprum\n\nHYRA & VILLKOR\nIngår: värme, Telia TV-start 7 kanaler (TV ingår ej), delvis möblerad (EJ enligt foton).\nTillkommer: Vatten (ca 150 kr*), El (ca 300 kr*), Hemförsäkring (ca 200 kr**). \nFrivilligt: Bredband** (Technicolor-router finns).\n*Baserat på två personer. Individuell mätning och pris. Avtal tecknas av hyresgäst.\n**Tecknas av hyresgäst.\n\nPARKERING\nGratis korttidsparkering (≤2h) på gatan samt i P-hus 'Hängmattan' (ca 50 m bort).\nLångtidsparkering i P-hus 'Hängmattan' via Bostadsbolaget eller övriga P-hus via Göteborgs Stads Parkering.\n\nOM OMRÅDET \nMajorna är en populär stadsdel mellan Göta älv och Slottsskogen med charmiga landshövdingehus, kultur och ett stort utbud av caféer, restauranger och butiker. Goda kommunikationer till centrala Göteborg.\n\nAVSTÅND\n- Till fots:\nSpårvagnshållplats: 3 min\nMatbutik (ICA/Hemköp/Willys): 2–6 min\nGym (Nordic Wellness/Fitness24Seven): 3–5 min\nYogastudio: 1 min\nParkeringshus: 3 min\nBageri: 5 min\nVatten: 5 min\nSlottsskogen: 10 min\nJärntorget: 20 min\n- Med spårvagn:\nJärntorget: 5 min\nCentrum: 10 min\nSaltholmen (skärgård): 20 min",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 51.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Röds Lekevall , Torslanda",
     "url": "https://qasa.com/p/1487127",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M573DE9EDF3F1YAYQ9DYVZVZ.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sundshagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1466378",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5be7db9087611d1dbe7495a6194e279d1f8a35d48283089cc177ece9ecab9ea9.jpg",
-    "description": "Central  2-rumslägenhet i villa 85 kvm i KUNGSLADUGÅRD ( Majorna ) uthyres omöblerad tillsvidare. \n\nHYRAN inkluderar allt: \nel, fjärrvärme, fiber/WiFi, vatten, sophämtning \n\nLägenheten är  renoverad, ljus och fin med balkong i soligt läge på 2:a våningen i villan. \nToppenläge precis intill Slottsskogen, nära centrala stan, kommunikationer, grönområden och många träningsmöjligheter.\n\nLägenheten: \n•1 sovrum \n• Vardagsrum \n• Stort modernt kök  med diskmaskin \n• Helkaklat badrum med dusch och badkar \n• Balkong med utsikt över trädgårdar.\n ( Ej tillgång till hyresvärdens trädgård). \n• Delad  tvättstuga med tvättmaskin och  torktumlare i källaren .\n•Tillgång till 1 förråd i källaren. \n\nMöjlighet till boendeparkering på gatan. \nCykel kan förvaras i garage vid behov.\nNågra minuters promenad till mataffär, spårvagnshållplatser och utegym. \n10 min promenad till Mariaplan med restauranger, caféer och affärer.\n20 min promenad till Linnéplatsen , Botaniska trädgården och Änggårdsbergen. \nEnkelt att ta sig till bl.a Sahlgrenska sjukhuset och Chalmers.\n \nUthyres till 1-2  lugna, ansvarsfulla, rökfria personer utan barn och utan husdjur. \nStabil ekonomi. Inga betalningsanmärkningar. Referenser kommer efterfrågas.\n\nVälkommen att skriv några rader om dig själv vid intresse och boka tid för visning.\nVänliga hälsning/ Anna\n ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 85.0,
-    "rent": 15580,
-    "floor": 2,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gamla Lillhagsvägen, Hisings Backa",
-    "url": "https://qasa.com/p/1486940",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M55AX6N6D73PDKFY3QNFW36H.jpg",
-    "description": "Mysigt attefallshus i ett lugnt och tryggt villaområde uthyres!\n\nKrav på hyresgäst:\n* Max 1 hyresgäst. \n* Djur och rökfri \n\n🌸 Om lägenheten\nLägenheten är fullt möblerad med:\n\n* Säng (180cm)\n* Garderob \n* Soffa och soffbord \n* Tv och tv bänk\n* Köksutrustning \n\nDet går givetvis att hyra den omöblerad om så önskas. \n\nHyresgästen har även tillgång till tvättrummet som är på källarplan i huset som delas med oss. \n\n🌸 Om området\nOmrådet är lugnt och trivsamt och boendet ligger ca 150m från busshållplatsen  För den som uppskattar natur finns fina grönområden på kort avstånd. Backaplan ligger ca 10 min bort med buss där förbindelser finns till övriga delar av stan.\n\n🌸 Detta ingår i hyran\n\n* El\n* Kall- och varmvatten\n* Smart-TV\n* Parkering\n\nInternet behöver ordnas på egen hand. \n\n🌸 Övrigt\nVi är flexibla med inflytt/utflytt! \nVi är väldigt måna om att hitta rätt hyresgäst då huset vi bor i är ca 10 m bort. Berätta gärna lite om dig själv vid intresse. \n\nVi svarar gärna på frågor och berättar mer om lägenheten!",
-    "district": "Hisings Backa",
-    "rooms": 2.0,
-    "area_m2": 29.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T09:08:29+00:00", "clock": "09:08:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T13:15:33+00:00", "clock": "13:15:33"};
