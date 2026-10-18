@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Markmyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1482526",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4P62JYNK4FZ20CTX3K4TKKD.jpg",
+    "description": "Fin lägenhet uthyres 1 år på grund av samboprövning. \n\n2 rum med kök med två balkonger.\n\nNära till hållplatsen Axel Dahlströms torg. \n\nNärhet till ICA, gym, apotek, kiosk med paketutlämning, restauranger, café, bibliotek och frisör. \n\nNärhet till skogen och andra grönonmråden. Promenadavstånd till Ruddalen och Slottsskogen. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 6822,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Solventilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1487274",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M57MCWCX7FX0B6Z522Z48A73.jpg",
+    "description": "Fin lägenhet med stor balkong i söderläge.\n\nNu finns möjlighet att hyra en fin lägenhet på Solventilsgatan 3 i Göteborg, belägen i en bostadsrättsförening med ett attraktivt läge och goda kommunikationer.\n\nLägenheten har en öppen och social planlösning enligt bilderna samt en stor balkong i fritt söderläge med goda möjligheter att njuta av solen.\n\nLäget erbjuder det mesta inom bekvämt avstånd:\n\nKommunikationer: Smidiga förbindelser till Göteborgs centrum och cirka 5 minuter till Göteborgs centralstation. \nKort promenad till resecentrum för spårvagn och buss.\n\nShopping och service: Nära till prisvärda mataffärer och köpcentrum. \n\nRestauranger och nöjen: Brett utbud av restauranger i närområdet. \n\nTräning och hälsa: Gym och vårdcentral i närheten. \n\nUniversitet: Promenadavstånd till Chalmers. \n\nInternet & TV (basutbud) ingår i hyran:\n \nEl debiteras separat och beräknas uppgå till cirka 200 kr per månad.\n\nDeposition: 20 000 kr, som återbetalas vid avflyttning vid felfritt överlämnande.\n\nEn trivsam lägenhet med ett bekvämt läge för dig som vill bo nära både stadens utbud och goda kommunikationer.\n\nVid intresse, skicka gärna en kort presentation av dig själv och berätta från vilket datum du önskar hyra lägenheten.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1445122",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6f94f4711a295e6d8b92bac875a5732c653a6d92c7ee6059625c7b68889e3c89.jpg",
+    "description": "Välkommen till en underbar 2:a i Karlatornet! Bostaden är på våning 33 med balkong med spektakulär utsikt mot läppstiftet och stan. \n\nKarlatornet erbjuder även en uppsjö av exklusiva bekvämligheter såsom reception, gym som ingår för 2 personer, restaurang och skybar. \n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 16500,
+    "floor": 33,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skäpplandsgatan, Göteborg",
     "url": "https://qasa.com/p/1487187",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M57B15RFMQBBXZK7B022GQ0R.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Borstbindaregatan, Göteborg",
-    "url": "https://qasa.com/p/1487034",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M561WXAZQ9RK091T86PXQJE6.jpg",
-    "description": "Modern 2-Room Apartment with Balcony in Kvillebäcken, Gothenburg\n\nWelcome to this modern and bright 58.5 sqm apartment located in the popular area of Kvillebäcken, Hisingen, Gothenburg.\n\nBuilt in 2015, the apartment features a stylish and functional layout with oak parquet flooring, bright interiors, and a spacious living room with an open-plan feel. The well-equipped kitchen offers a modern design, while the fully tiled bathroom includes a private laundry area for added convenience.\n\nThe apartment also features a comfortable bedroom and a spacious south-facing balcony, perfect for enjoying sunny days and relaxing outdoors.\n\nResidents can also enjoy access to a fantastic shared rooftop terrace, complete with green spaces, a greenhouse, and a kitchenette that can be booked for gatherings with family and friends. A private storage unit in the basement is also included.\n\nExcellent Location & Convenient Transport\n\nThe apartment is centrally located in Kvillebäcken, a vibrant and growing neighbourhood known for its modern architecture, charming streets, green spaces, and welcoming atmosphere.\n\nEverything you need is just around the corner, including grocery stores, a market hall, gyms, hair salons, cafés, and other everyday amenities. The nearby Backaplan area is also undergoing development, bringing even more shopping and services to the neighbourhood.\n\nWith excellent public transport connections, you can reach central Gothenburg in approximately 5 minutes.\n\nHighlights\n\n- 58.5 sqm of living space\n- Built in 2015\n- Bright and modern interior\n- Oak parquet flooring\n- Well-equipped kitchen\n- Fully tiled bathroom with laundry facilities\n- Spacious south-facing balcony\n- Shared rooftop terrace with greenhouse and kitchenette\n- Private basement storage\n- Convenient access to shops, services, and public transport\n\nThis apartment is an excellent choice for anyone looking for a modern, comfortable home in a convenient and well-connected part of Gothenburg.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 15000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Börsåsgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1486934",
-    "image_url": null,
-    "description": "Liten 3 rums Lägenhet med fönster i 3 väderstreck. Äldre standard men nya ytskikt i alla rum utom badrum. Stor uteplats med utsikt åt väster och norr. 3-5 minuter s promenad till buss hållplats Balladgatan. 10min promenad till Brunnsbo torg.",
-    "district": "Hisings Backa",
-    "rooms": 3.0,
-    "area_m2": 45.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stampgatan, Göteborg",
-    "url": "https://qasa.com/p/1458537",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c523007dd6d6d31a46ae87da52d2edebc7633722986177a23e1864f4026df40.jpg",
-    "description": "Möblerad 21 kvm lägenhet – centralt i Göteborg\n\nVälkommen till en liten men välplanerad och komplett lägenhet på 21 kvm, med ett fantastiskt centralt läge i Göteborg. Här bor du med Centralstationen precis i närheten, precis vid Ullevi och cirka 5/10 minuters promenad till Avenyn, Göteborgs huvudgata.\n\nLägenheten är möblerad och har allt du behöver för ett bekvämt boende – bland annat säng, TV, byrå, skrivbord, kök, hall, separat badrum och gott om förvaring trots den kompakta storleken. Det finns även balkong, vilket ger ett extra utrymme att njuta av.\n\nI lägenheten finns egen tvättmaskin, och som boende har du dessutom tillgång till föreningens tvättstuga. Det finns även gemensam bastu i föreningen.\n\nDet här är ett boende för dig som framför allt värdesätter ett riktigt centralt läge. Du har nära till restauranger, shopping, nöjen, kollektivtrafik, Centralstationen, Ullevi och Avenyn – med det mesta inom bekvämt gångavstånd.\n\nI hyran ingår:\n\n* El\n* Bredband\n* TV\n* Varmvatten\n* Möbler\n* Tillgång till tvättstuga\n* Tillgång till föreningens gemensamma bastu\n\nJag söker en ordentlig och ansvarsfull hyresgäst som tar väl hand om lägenheten och bostadsrätten som om den vore sin egen. Lägenheten passar dig som prioriterar att bo så centralt som möjligt i Göteborg och vill ha ett smidigt, komplett och bekvämt boende med närhet till precis allt.\n\n21 välplanerade kvadratmeter – men ett läge som är svårt att slå.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 21.0,
-    "rent": 9895,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T13:15:33+00:00", "clock": "13:15:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T16:35:33+00:00", "clock": "16:35:33"};
