@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Prospect Hillgatan, Göteborg",
+    "url": "https://qasa.com/p/1487480",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M585P1RN7BVN7XVG5FD1K8HA.jpg",
+    "description": "Välkommen till charmig sekelskiftesvilla med panoramautsikt över hela Göteborg. En lägenhet erbjuds med fri tillgång till gemensam uteplats, allrum men eget badrum, toalett och kök. Hyran inkluderar el, vatten, värme, sophämtning, internet. Gratis parkering finns på gatan i direkt anslutning till fastigheten. Hyrestillägg för par: 1500 kr/mån.",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 44.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Markmyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1482526",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4P62JYNK4FZ20CTX3K4TKKD.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hovås Bronsåldersväg, Hovås",
-    "url": "https://qasa.com/p/1487134",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M573AP8Z314QJXE9FEGJ2SB0.jpg",
-    "description": "Separat lägenhet 1,5 rok  i villa med egen uteplats. och separat entré. Endast 1 person. \nUthyres från datum enligt överenskommelse. Hyra 9400 kr månad inkl: Möbler, el, vatten, värme, wifi, sophämtning,, carport och tvättmaskin. 300 meter till busshållplats med goda förbindelser, 15 minuter till \ncentrum. \nReferenser krävs, student eller arbete \n2 månaders uppsägning \n1 månads deposition",
-    "district": "Hovås",
-    "rooms": 1.5,
-    "area_m2": 50.0,
-    "rent": 9400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T16:35:33+00:00", "clock": "16:35:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T18:54:10+00:00", "clock": "18:54:10"};
