@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fastlagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1481485",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4GVSW158N1KA26QTP7F929X.jpg",
+    "description": "Lägenhet uthyres – 2 rum och kök, 52 kvm\n\nTrevlig och välplanerad tvåa på 52 kvm på Fastlagsgatan 31. Lägenheten har en väldigt stor balkong och erbjuder ett bekvämt boende med allt du behöver.\n\nI avgiften ingår allt, inklusive el och varmvatten, så du slipper tänka på extra kostnader för detta. Parkeringsplats för elbil finns. Som boende har du även tillgång till gym och bastu som delas med föreningen.\n\nLägenheten ligger nära Kortedala torg, med spårvagnshållplats, butiker och annan service på bekvämt avstånd.\n\nEtt perfekt boende för dig som vill ha ett smidigt och bekvämt vardagsliv med bra bekvämligheter!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Södra Ligården, Hisings Kärra",
+    "url": "https://qasa.com/p/1472181",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M588MP7C3DSYQZ97TGW3FK7R.jpg",
+    "description": "Välkommen till ett mycket trevligt och välplanerad boende i två plan, totalrenoverat radhus med två rymliga altaner, där balkongen samt den stora altanen är i söderläge. Du får tillgång till 4 sovrum, två toaletter samt en rymlig klädkällare. I bostaden ingår även ett förråd, ett garage samt 4 parkeringsplatser. \n\nBostaden befinner sig i ett mycket lugnt och barnvänligt område nära till lekplatser, Kärra torget och Bäckebol centrum. Goda möjligheter till bussförbindelser in till Göteborg centrum. \n\nFör planlösning, var god se separat bild.\nDu får ett positivt första intryck direkt vid hallen, som även har golvvärme, samt erbjuder bra förvaringsytor. \n\nDetta är ett rök- och djurfritt hem. \n\n\n\n\n\n\n\n\n\n\n\n",
+    "district": "Hisings Kärra",
+    "rooms": 5.0,
+    "area_m2": 133.0,
+    "rent": 25000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Prospect Hillgatan, Göteborg",
     "url": "https://qasa.com/p/1487480",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M585P1RN7BVN7XVG5FD1K8HA.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kommendörsgatan, Göteborg",
-    "url": "https://qasa.com/p/1487141",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M574B2MYK7CE1GYNE1ZCCE54.png",
-    "description": "INDUSTRISTIL I TOPPKLASS MED MILSVID UTSIKT \nEtt unikt boende centralt i Majorna, med stor balkong i söderläge och en rumstempererad loggia som suddar ut gränsen mellan ute och inne. Lägenheten är genomgående med stora fönsterpartier i två väderstreck som ger ett generöst ljusinsläpp och vyer över takåsar och hamninloppet. Svarta skjutdörrar som löper in i väggarna och blir helt dolda i öppet läge skapar en stilren och minimalistisk helhet. Fastigheten färdigställdes 2020 och är i toppskick, med en arkitektur som kombinerar brutalistiska drag och influenser från internationella hamnkvarter.\n\nSNABBFAKTA\nVåning: 4 av 5 (hiss finns)\nBalkong: Ja, söderläge (+loggia i norrläge)\nTak & Väggar: Rå betong\nGolv: Vitpigmenterad ek\nFönster: Höga industrifönster\nLjus: Dimbara ljuspunkter samtliga rum\nVärme: Vattenburen golvvärme (el i badrum)\nÖvrigt: Dolda skjutdörrar (samtliga rum)\n\nVARDAGSRUM & KÖK (HTH)\nKlädhängare\nMatgrupp\nSoffa & soffbord\nMattor\nInduktionshäll\nVarmluftsugn\nMikro\nKolfilterfläkt\nKyl/frys (integrerad)\nDiskmaskin (integrerad)\nSkafferi\nKöksredskap/-utrustning \nKaffekokare \n\nSOVRUM\nSäng (komplett) \nGarderober: två 60 cm i fullhöjd + en inbyggd 3 m³ Elfa-system\nLjudisolerad vikbar glasvägg mot loggia\nLamellgardiner (mörkläggning)\n\nBADRUM\nBetongklinker & industrikakel\nDusch med glasvägg\nVägghängd toalett\nHandfat\nKommod\nKombinerad Tvättmaskin & Torktumlare (Smeg)\nHanddukstork\nHyllor\nBad- & handdukar\nStäd- & tvättartiklar\nHårfön\n\nLOGGIA\nExtra ljudisolerade fönster (öppningsbara)\nHyllor & Skåp\n\nBALKONG\nBalkongbänk/förvaring\nUtemöbler (inkl. dynor)\nKrukor\n\nGEMENSAMMA UTRYMMEN\nInnergård med utemöbler\nGasolgrill, pizzaugn och utekök\nOrangeri med matplats (bokas)\nLägenhetsförråd (ca 3 m³, uppvärmt)\nCykel-, moped- och barnvagnsrum (uppvärmt)\nHiss & Trappuppgång\nSoprum\n\nHYRA & VILLKOR\nIngår: värme, Telia TV-start 7 kanaler (TV ingår ej), delvis möblerad (EJ enligt foton).\nTillkommer: Vatten (ca 150 kr*), El (ca 300 kr*), Hemförsäkring (ca 200 kr**). \nFrivilligt: Bredband** (Technicolor-router finns).\n*Baserat på två personer. Individuell mätning och pris. Avtal tecknas av hyresgäst.\n**Tecknas av hyresgäst.\n\nPARKERING\nGratis korttidsparkering (≤2h) på gatan samt i P-hus 'Hängmattan' (ca 50 m bort).\nLångtidsparkering i P-hus 'Hängmattan' via Bostadsbolaget eller övriga P-hus via Göteborgs Stads Parkering.\n\nOM OMRÅDET \nMajorna är en populär stadsdel mellan Göta älv och Slottsskogen med charmiga landshövdingehus, kultur och ett stort utbud av caféer, restauranger och butiker. Goda kommunikationer till centrala Göteborg.\n\nAVSTÅND\n- Till fots:\nSpårvagnshållplats: 3 min\nMatbutik (ICA/Hemköp/Willys): 2–6 min\nGym (Nordic Wellness/Fitness24Seven): 3–5 min\nYogastudio: 1 min\nParkeringshus: 3 min\nBageri: 5 min\nVatten: 5 min\nSlottsskogen: 10 min\nJärntorget: 20 min\n- Med spårvagn:\nJärntorget: 5 min\nCentrum: 10 min\nSaltholmen (skärgård): 20 min",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 17000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Röds Lekevall , Torslanda",
-    "url": "https://qasa.com/p/1487127",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M573DE9EDF3F1YAYQ9DYVZVZ.jpg",
-    "description": "Möblerat hus men plats för egna sängar, soffa. Annars står mycket kvar såsom en soffgrupp, tvbänkar och tv,  skrivbord, bokhyllor, köksbord, barstolar och flera förvaringsmöbler (många byråar).. Även möblerna i uterum och utemöblerna kommer stå kvar och finns tillgängliga såsom både kol- & gasolgrill. Robotgräsklippare finns . \nLite underhålls- och årliga storstädning på hushållsmaskinerna och alla utrymmen sköts utav hyresgästen eller anlitad firma.\nHuset är energisnålt med både bergvärme och solceller. Tillkommer rörliga kostnader såsom hushållsel, vatten och sophämtning, internet.\n Laddboxen för bil finns. Parkering för 2 bilar på uppfarten. \nIdag finns 3 sovrum på ovanvåningen det 4:e på nedervåningen används i dag som gästrum och önskas så kan dubbelsängen stå kvar. Och önskas så tas den bort helt så ni kan använda rummet såsom ni önskar. Nedervåningen är väldigt sval sommartid. Och markiser på övervåning samt terassmarkiss och parasoll. \nHuset är nyrenoverat och bör ses/upplevas på plats. Kanske nu under höstlovet?\nVälkomna!\n",
-    "district": "Torslanda",
-    "rooms": 6.0,
-    "area_m2": 154.0,
-    "rent": 23000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T18:54:10+00:00", "clock": "18:54:10"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-18T21:14:42+00:00", "clock": "21:14:42"};
