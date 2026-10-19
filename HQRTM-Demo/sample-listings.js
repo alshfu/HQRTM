@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mesanvägen, Torslanda",
+    "url": "https://qasa.com/p/1488363",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5B2T0EXA7SVDK9PS5FBSRY3.jpg",
+    "description": "Villa uthyres i Torslanda – lugnt läge med stor terrass och trädgård\n\nNu finns möjlighet att hyra en fin villa i Torslanda, belägen i ett lugnt och trivsamt område med närhet till naturen.\n\n🏡 Om villan:\n\n* 4 rum\n* Stor terrass för avkoppling och trevliga stunder utomhus\n* Trädgård\n* Lugnt och naturnära område\n* Nära till affärer och kollektivtrafik",
+    "district": "Torslanda",
+    "rooms": 4.0,
+    "area_m2": 100.0,
+    "rent": 20000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Forsstenagatan, Göteborg",
     "url": "https://qasa.com/p/1488301",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5ASPQD5VSTYR6ZTFKJAHY43.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fridhemsgatan, Göteborg",
-    "url": "https://qasa.com/p/1487860",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M59TJ4YVDK7B1R1GVQZM82YM.jpg",
-    "description": "Jag hyr ut min lägenhet i 5 månader, 8:e januari – 6:e juni 2027. OBS! Du måste vara student, det betyder du ska studera minst 15 hp/termin på plats vid Göteborgs Universitet, Chalmers eller Linnéuniversitetet under uthyrningsperioden). \n\nMånadshyran är 5 373 SEK inklusive allt (internet, el, varmvatten m.m.). Det är en liten etta som passar perfekt för en person eller ett par. Den är fullt möblerad och köket har allt du behöver. Lägenheten ligger i Sandarna, alldeles intill Majorna. Det finns en liten mataffär tvärs över gatan och en spårvagnshållplats precis framför huset. Hör gärna av dig om du har några frågor!\n\nI am renting out my apartment for 5 months, Jan 08 - June 06, 2027. ATTENTION: you have to be registered as a student studying at least 15 credits per semester at GU, Chalmers or Linneuniversitet.\n\nMonthly rent is 5373 SEK incl everything (internet, electricity, warm water etc).  It's a small studio and perfect for one person or a couple. It' fully furnished and the kitchen has everything you need. The apartment is located in Sandarna, right next to Majorna. Small supermarket is right across the street, tram stop right in front of the house. Just hit me up if you have questions!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 5373,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-19T19:40:43+00:00", "clock": "19:40:43"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-19T23:05:45+00:00", "clock": "23:05:45"};
