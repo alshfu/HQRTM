@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Storkgatan 3, Göteborg",
+    "url": "https://qasa.com/p/1488423",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f7f431295c0385f6351e5cb4e772b86b049e9945a5f20b95facc144fa76e6214.jpg",
+    "description": "Förstahandslägenhet.\n2 rum och kök i populära Bagaregården, med bekvämligheter som diskmaskin Tvätt/Torkmaskin, handdukstork.\n 10 minuter till stan med spårvagn. Hållplats 40 meter.\nTrevlig innegård\n\nDeposition 15.000 kr\n\n\n\nFirst-hand apartment.\n2 room and kitchen in popular Bagaregården, with amenities such as dishwasher, washer/dryer, towel dryer. \n10 minutes to the city by tram. Stop 40 meters.\n. Nice courtyard\n\nDeposit 15,000 SEK",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 67.0,
+    "rent": 9380,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fanjunkaregatan, Göteborg",
+    "url": "https://qasa.com/p/1468962",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M37VJPGX7YJ94BCNKQ84XFBE.png",
+    "description": "Nyrenoverad och rymlig 2a i Gamlestaden/Kviberg. Nära till hållplatsen Bellevue där du kan ta dig in till centralen på 10 minuter.  I närheten hittar du mataffärer (ICA, Coop, Willys) och gym inom gångavstånd. Området ligger nära naturen och många trevliga restauranger. \nFinns: diskmaskin, plats till förvaring. \nKöket är ett eget rum med dörr, ett sovrum och ett vardagsrum. Det finns även en rymlig klädkammare med mycket plats till förvaring. Passar både för den som vill bo själv men även om man vill bo som par. \n\nNätverk ingår.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 47.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Mesanvägen, Torslanda",
     "url": "https://qasa.com/p/1488363",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5B2T0EXA7SVDK9PS5FBSRY3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ekehöjdsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1389679",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/3a19dfbbb8245b4d74cccb2780315ffb2e102e485333d2117fffc722bbdc77e2.jpg",
-    "description": "Vi hyr ut vår rymliga 3:a i Västra Frölunda på 95 kvm med förstahandskontrakt. Lägenheten ligger på bottenvåningen i ett lägenhetshus mitt i Ekebäck.\n\nLägenheten är möblerad och har egen parkering precis utanför dörren samt egen tvättmaskin och torktumlare. Till lägenheten hör också en egen uteplats mot trädgården.\n\nInvändigt finns två sovrum, ett med en dubbelsäng (180 cm) och ett med en enkelsäng (90 cm). Det finns två separata badrum med dusch och toalett i båda. Lägenheten har även egen tvättstuga, ett rymligt kök och stora sällskapsytor.\n\nI hyran ingår:\nEl\nVatten\nInternet\nParkering\nAllente TV-kanaler",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 95.0,
-    "rent": 18000,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Famngatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1487964",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5A2FD6XPD5NW4R83CEEKCF1.jpg",
-    "description": "Fin rymlig etta högst upp i huset med solig balkong! Nära till spårvagnshållplats. \nAllt ingår. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-20T01:46:06+00:00", "clock": "01:46:06"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-20T06:42:41+00:00", "clock": "06:42:41"};
