@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Olskroksgatan, Göteborg",
+    "url": "https://qasa.com/p/1489159",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5DCGCMTG52H65MJ6Z3BA2KG.jpg",
+    "description": "Bostaden har en öppen och social planlösning där kök, matplats och vardagsrum hänger ihop. De stora fönsterpartierna ger ett fint ljusinsläpp och skapar en luftig känsla. Bostaden är nyrenoverad sedan 2025 och erbjuder hög standard. \n\nI hyran ingår bredband, el och vatten.\n\nLäget erbjuder mycket goda kommunikationer med både bussar och flera spårvagnslinjer i närheten. Det tar cirka 6 minuter att promenera till Olskrokstorget/redbegrsplatsen, där det finns butiker, restauranger och matbutiker. \n\nLägenheten ligger på första våningen, vilket innebär att det till viss del kan förekomma insyn. På andra sidan ligger kontorsbyggnad där människor främst vistas under arbetstider. Under kvällar och helger är lokalerna vanligtvis nedsläckta och tomma, vilket gör att insynen upplevs som mindre besvärlig under dessa tider. \n\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 43.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Mäster Johansgatan, Göteborg",
+    "url": "https://qasa.com/p/1489116",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5D8JM1VFEH4GGX50QECA3S7.png",
+    "description": "🇸🇪 Svenska – Fin och välskött lägenhet uthyres i andra hand\n\nVi hyr ut vår fina, fräscha och välskötta lägenhet i andra hand på grund av en tillfällig förändring i vår boendesituation.\n\nLägenheten hyrs ut omöblerad och har ett ljust och rymligt vardagsrum, ett mysigt sovrum, ett fint kök samt badrum med både tvättmaskin och torktumlare. Bostaden är mycket ren, välskött och i gott skick, med en trivsam och hemtrevlig känsla.\n\nLägenheten är tillgänglig för inflyttning inom kort. Vi planerar i första hand att hyra ut den under ett år, men det finns även möjlighet till förlängning enligt överenskommelse.\n\nVi söker en lugn, skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten.\n\nVid intresse är du varmt välkommen att kontakta oss för mer information eller visning!\n\n⸻\n\n🇬🇧 English – Beautiful and Well-Maintained Apartment for Sublet\n\nWe are renting out our beautiful, clean, and well-maintained apartment as a second-hand rental due to a temporary change in our living situation.\n\nThe apartment is rented unfurnished and features a bright and spacious living room, a cozy bedroom, a nice kitchen, and a bathroom equipped with both a washing machine and a tumble dryer. The property is very clean, well-maintained, and in good condition, offering a comfortable and welcoming atmosphere.\n\nThe apartment will be available for move-in soon. We are initially planning to rent it out for one year, with the possibility of extending the rental period by mutual agreement.\n\nWe are looking for a quiet, responsible, and reliable tenant who will take good care of the apartment.\n\nIf you are interested, please feel free to contact us for more information or to arrange a viewing!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 59.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Dammen på Kärr, Torslanda",
+    "url": "https://qasa.com/p/1489005",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5CZTNY7P5BHAWXQ4JGCB7VG.jpg",
+    "description": "Välkommen till Dammen På Kärr, Torslanda\n\nNu finns möjligheten att få hyra ett parhus på Dammen på Kärr 3a i Torslanda. Huset uthyrs med en stor friköpt tomt om ca 760 kvm. Här får du en skön villakänsla med låg driftskostnad, promenadavstånd till skolor, matbutiker, salta, golf, restauranger med mera.\n \n-Fyra sovrum, vardagsrum, badrum, toalett, två förråd och kök fördelat på 63+33 kvm.\n-Tre egna parkeringsplatser i anslutning till bostaden\n-Stor trädgård\n-Lågt uppvärmningsbehov tack vare en energieffektiv huskonstruktion samt energisnål frånluftvärmepump.\n \nHyra 18 975 kr/mån. El, vatten, sopor och fiber tillkommer. Trädgården ska skötas av hyrestagaren och plantering osv. kan ske i samråd med fastighetsförvaltaren.\n \nHyrestid är tillsvidare med tre månaders ömsesidig uppsägningstid då besittningsrätten avtalas bort enligt 12 kapitlet 46 paragrafen punkt 6 med hänvisning till att nu ska bostaden säljas. Kreditupplysning kommer utföras, tillsvidareanställning eller annan godkänd inkomst och deposition en månadshyra kommer att krävas.\n \nDet finns även möjlighet till Hyrköp. Period avtalas. Kontakta gärna mäklare Daniel Hedwall på Husman Hagberg Torslanda i så fall.\n \nVid enbart önskan att hyra, kontakta oss via kontakt kanalerna här i annonsen.\n",
+    "district": "Torslanda",
+    "rooms": 5.0,
+    "area_m2": 96.0,
+    "rent": 18975,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Forsstenagatan, Göteborg",
     "url": "https://qasa.com/p/1489035",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5D24M9FPS6FG7NTP9RNHGK7.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddväxtgatan, Angered",
-    "url": "https://qasa.com/p/1488694",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5CEVJ0WGH865J2Y1AZQA4Z4.jpg",
-    "description": "Rymlig villa i två plan i ett lugnt och etablerat villaområde i Angered, nära natur och Surtesjön.\n\nPlanlösning\nÖvre plan: tre sovrum, allrum med takfönster samt badrum med bubbelbadkar och dusch.\nNedre plan: vardagsrum med utgång till uterummet, stort modernt kök med inbyggda vitvaror, diskmaskin och matplats, inglasat uterum med golvvärme och utsikt över trädgården samt separat toalett.\nTvättmaskin och torktumlare finns i bostaden. Luftkonditionering finns i allrum och vardagsrum.\n\nOBS: Planritningen visar hela fastigheten. Den rödmarkerade delen är en separat lägenhet som inte ingår i uthyrningen.\n\nUtomhus\nStor inhägnad trädgård, stenlagd terrass samt parkering för en bil.\n\nMöblering\nVillan hyrs ut omöblerad. Möblering kan ordnas efter önskemål mot ett tillägg i hyran.\n\nKommunikation\nBusshållplats Kryddnejlikegatan på gångavstånd och cirka 2 km till Angered centrum med spårvagn till Göteborgs centrum. Goda förbindelser till Hisingen och arbetsplatser som Volvo, Sahlgrenska och Gamlestaden.\n\nVillkor\n- Tillsvidareavtal med tre månaders ömsesidig uppsägningstid\n- Hyresgästen ansvarar för hemförsäkring samt skötsel av trädgård och snöröjning\n- Lugnt boende i villaområde – hänsyn till grannar är ett krav\n\nVarmt välkommen med din intresseanmälan och en kort presentation av dig själv, din sysselsättning och hur många ni är i hushållet.\n",
-    "district": "Angered",
-    "rooms": 6.0,
-    "area_m2": 120.0,
-    "rent": 18500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kapellgatan, Göteborg",
-    "url": "https://qasa.com/p/1488696",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5CEGE56SAEBK4W545JX1B6W.jpg",
-    "description": "Hej,\nvi hyr ut ett ljust rymligt rum i charmerande lägenhet mitt i Göteborg, takvåning med utsikt över takåsarna i centrala Göteborg. (Bästa läget i stan) Kapellgatan (Vasastan) nära Chalmers ca:500m, Handelshögskolan, Sahlgrenska, Slottsskogen, Avenyn, mm mm. \nDet är ett lugnt område med tillgång till allt som mataffär, systembolag, gym, vårdcentral, apotek, restauranger och caféer precis utanför porten. \nRummet har tre garderober och är möblerat med 90cm säng, 2st stolar och ett litet bord, tv och en divan. El ingår.\nRummet lämpar sig bäst för studenter eller pendlare. Endast lugn och skötsam person. Rummet är bara för en person.\nJag förväntar att hyresgäst har arbete eller regelbundna studier.\n \nTillgång till kök, dusch (badkar), tvättmaskin (tvättstuga) och toalett. Balkonger finns i trappuppgång, hiss. \nInflyttning enligt överenskommelse.\n3 månaders uppsägningstid.\nVi som bor här är ett par som är lugna och skötsamma.\nKommunikationer\nMycket goda kommunikationer och nära till allt.\n\nHör av er om det verkar intressant. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Krokegatan 6, Göteborg",
-    "url": "https://qasa.com/p/1488825",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a1eb32b127da24c95085508985705681150dd2a45fbc9dc301dc6a336fd1ee48.jpg",
-    "description": "Nybyggd lägenhet i markplan med egen entré samt uteplats.  Möjlighet till parkeringsplats finns och hyrs ut separat. \nDet är promenadavstånd in till centrum samt till Slottsskogens gröna områden, samt spårvagnar och bussar inom närområdet. \nAlexandersson fastigheter strävar efter att våra fastigheter ska hållas rökfria, det är därför inte tillåtet att röka i lägenheten eller på balkong/uteplats.\n\nVi hanterar INTE separata mail, telefonsamtal eller besök utan all kontakt ska vara genom HomeQ.\n\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 10862,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-20T17:19:23+00:00", "clock": "17:19:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-20T20:43:03+00:00", "clock": "20:43:03"};
