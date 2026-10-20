@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Karl Johansgatan, Göteborg",
+    "url": "https://qasa.com/p/1488966",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5DP2PDBPADF0D8KCGAB4GRC.jpg",
+    "description": "Charmigt rum som är 18 m2 i sekelskiftes hus i hjärtat av Majorna strax intill Musikens hus . Rummet har högt i tak och är nymålat och har fin stuckatur . Två stora fönster och är ljust och trivsamt. Tillgång till kök o bad såklart. Närhet  till matbutiker, restauranger, musikställen och inte minst charmiga kvarter och parker. Här finns ett skönt folkliv och trevlig stämning. Möblering sker efter eget önskemål. Det är bra om du som vill  hyra är pendlare men inget krav.  I hyran ingår el, wifi, köksutrustning, diskmaskin. Rummet ligger lite avskilt från det rum som hyresvärden bor i så ger bra utrymme för privatliv.  ( se planlösningsbild)Kommunikationerna är mycket bra . Spårvagnen direkt utanför huset men ej störande. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 18.0,
+    "rent": 4600,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Olskroksgatan, Göteborg",
     "url": "https://qasa.com/p/1489159",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5DCGCMTG52H65MJ6Z3BA2KG.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Klippan, Göteborg",
-    "url": "https://qasa.com/p/1488772",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5CJTVNZW00M38KR9ZH85VHX.jpg",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16675 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/ucyypgrxgxpjwytvtajr/vastra-gotaland/goteborg/klippan-1g/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nBostaden erbjuder en välplanerad och lättmöblerad planlösning med ett rymligt sovrum och en generös klädkammare alldeles intill. Som en förlängning av hemmet väntar den stora uteplatsen, en härlig plats för både lugna morgnar och umgänge med vänner. Här bor du dessutom med goda grannar och en trivsam känsla i området.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16675 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 15739,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-20T20:43:03+00:00", "clock": "20:43:03"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-20T23:26:38+00:00", "clock": "23:26:38"};
