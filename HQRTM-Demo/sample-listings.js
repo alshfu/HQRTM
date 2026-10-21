@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Batterigatan, Göteborg",
+    "url": "https://qasa.com/p/1489930",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5G0ZSH3KJB5ANVF199R0YMP.png",
+    "description": "Jag hyr ut en tvåa i Gamlestaden med sovrum, vardagsrum, kök,  hall och toa med dusch. Det är en bostadsrätt och föreningen tillåter kontrakt på 1 år åt gången med möjlighet till förlängning varje år utan begränsning. Annars är det 3 månaders uppsägning som gäller.  Det är en mysig lägenhet med gamla trägolv i alla rum. Fräscht badrum som renoverades för några år sen och lägenheten är belägen i ett lugnt och mysigt område nära skog och natur, men också nära trevliga restauranger och barer. Du kan antingen hyra lägenheten delvis möblerad eller omöblerad. \n\nDen ligger 3 minuters promenad från SKF hållplats som har 7 min till centralstationen med spårvagn. Det finns många olika linjer att välja mellan, så läget har mycket bra förbindelser. \n\nHyran är 11500 kronor + el. Ingår internet och tv med comhem. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skomakaregården, Torslanda",
     "url": "https://qasa.com/p/1489495",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5F2C6BW20FZ0KR8G8S9AKMH.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Torskogsvägen, Torslanda",
-    "url": "https://qasa.com/p/1432609",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8c0e3268f2c6a589e789f7ba3fa50afc7b9ae9923b497c2584fe4c6137abfb09.png",
-    "description": "Ett tiny house för en-två vuxna i eftertraktade Torslanda-Lilleby. Huset har ett allrum med dagbädd som kan förvandlas till en dubbelsäng, litet bord med sittbänk, TV med chromecast, en kokvrå med ugn, kokplatta och diskmaskin. Kyl/frys finns också. I hallen finns klädförvaring och bokhylla. I badrummet finns handfat, dusch, toalett, kombimaskin och gott om förvaring. Till huset hör också en altan och liten gräsmatta. \nI hyran ingår el och wifi. \nNära till kollektivtrafik. Parkering finns på tomten om man har bil. Gott om cykelbanor om man föredrar det. Nära till Volvo Torslanda och Arendal. \nNära till natur och havsbad!",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 8400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-21T17:40:23+00:00", "clock": "17:40:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-21T20:53:56+00:00", "clock": "20:53:56"};
