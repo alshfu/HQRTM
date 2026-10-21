@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ekehöjdsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1477941",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M46FK3297DDQA30X4KJ5VQG8.jpg",
+    "description": "Nyrenoverat boende i mysiga Ekebäck (villaområde strax utanför Majorna). \n\nVi är en familj som hyr ut två möblerade rum i en separat lägenhetsdel av vår villa med egen ingång, badrum och kök (du delar alltså lägenheten med en annan tjej).\n\nUteplats med utemöbler och härlig kvällssol ingår. \n\nEn stor tvättstuga med allt som behövs finns i separat del av huset, den har en egen ingång och delas med oss i familjen.\n\nDet är enkelt att ta sig in till centrum med kollektivtrafik eller cykel och det är nära till både buss och spårvagn. Närmsta hållplatser är Kungssten och Tolvskillingsgatan. \nDu kommer också  enkelt ut till havet till Långedrag eller Nya varvet.\nGångavstånd till Majorna. \n\nStor mataffär finns inom 15 min gångväg.\n \n\nVälkomna! \n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 5474,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Karl Johansgatan, Göteborg",
     "url": "https://qasa.com/p/1488966",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5DP2PDBPADF0D8KCGAB4GRC.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hovås Bronsåldersväg, Hovås",
-    "url": "https://qasa.com/p/1487963",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5A6RMKVTPBA3HPXXPV3SFR8.jpg",
-    "description": "Rymlig möblerad bostad i Hovås – 110 m², 3 sovrum och 2 badrum\n\nVälkommen till en rymlig och fullt möblerad bostad på 110 m² i lugna och attraktiva Hovås, söder om Göteborg.\n\nBostaden ligger i ett separat suterrängplan i en villa och har egen entré samt tillgång till egen uteplats.\n\nBostaden passar särskilt bra för tre yrkesverksamma personer, konsulter eller kollegor som vill ha varsitt privat sovrum med arbetsplats och samtidigt dela på generösa gemensamma ytor. Även företag som söker ett bekvämt långtidsboende för sina anställda är välkomna.\n\nBostaden erbjuder\n\n110 m² uppmätt boarea.\n3 separata sovrum, samtliga med fönster, dagsljus, säng, skrivbord och förvaring.\n2 moderna badrum, båda med dusch.\nStort möblerat vardagsrum med soffgrupp och TV.\nSeparat matsal och loungedel med matbord och extra sittplatser.\nFullt utrustat kök med vitvaror, porslin och köksutrustning.\nTvättmaskin och tvättmöjligheter.\nTvå extra disponibla utrymmen för exempelvis förvaring eller klädförvaring.\n\nEgen entré och uteplats.\n\nWi-Fi, el, värme och vatten ingår.\n\nLäge och kommunikationer.\n\nBostaden ligger i ett lugnt villaområde i Hovås med cirka två minuters promenad till närmaste busshållplats. Härifrån finns goda kommunikationer mot bland annat Volvo och övriga Göteborg.\n\nParkeringsmöjligheter finns i närområdet, men någon reserverad parkeringsplats ingår inte.\n\nInformation om golven:\nDe två extra förvaringsutrymmena har för närvarande betonggolv utan klinker. Det finns även en mindre del av passagen där klinker saknas och golvet delvis täcks av en matta.\n\nDessa ytor upplåts i befintligt skick och är främst avsedda för förvaring respektive passage. Sovrummen, badrummen, köket, matsalen och vardagsrummet är möblerade och avsedda att användas som vanligt.\n\nHyresvillkor\n\n Inkluderar el, värme, vatten och Wi-Fi\n\nUthyres fullt möblerad\n\nÖnskad hyresperiod: minst 6 månader, gärna längre\n\nHela bostaden hyrs ut tillsammans, helst till tre personer\n\nVisning kan ordnas enligt överenskommelse\n\nEtt rymligt och praktiskt boende med möjlighet till både avskildhet och gemenskap – perfekt för tre personer som vill bo bekvämt under en längre period.",
-    "district": "Hovås",
-    "rooms": 5.0,
-    "area_m2": 110.0,
-    "rent": 24500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-21T01:52:58+00:00", "clock": "01:52:58"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-21T06:53:42+00:00", "clock": "06:53:42"};
