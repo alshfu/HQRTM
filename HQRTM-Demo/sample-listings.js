@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Laholmsgatan, Göteborg",
+    "url": "https://qasa.com/p/1490562",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5JA9SYVYNAQ4011N63X4FWV.jpg",
+    "description": "Rummet ligger på 8 minuters gång avstånd till närmaste spårvagn som tar till dig direkt till centrum. De ligger på bottenplan av en villa med stor trädgård och skog runt omkring. Dvs väldigt lungt och avslappnat.\n\nFör mer information eller fråga är det bara att skriva till mig\nMvh",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5000,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hisingen, Göteborg",
+    "url": "https://qasa.com/p/1490504",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5J595MSVAT5SES6TQV7MD51.jpg",
+    "description": "Hej, \nJag hyr ut min fullt möblerade lägenhet i minst 1 år pga. utlandsvistelse. Lägenheten hyrs ut med omgående. I lägenheten finns 2 sovrum, stor vardagsrum, kök, badrum, balkong, och 2 garderober. Spårvagnshållplats finns bara 3-4 minuter bort. 3 spårvagnslinjer åker härifrån varannan minut och tar dig till centrala station på ca 15 min. I hyran ingår internet (fiber) varmvatten, värme, sophantering samt källare . El avgift tillkommer. Parkeringsplats finns tillgänglig och kan ordnas om det behövs. En månads hyra måste lämnas in som deposition och betalas ut vid utflytt, om allting är oskadd. Vill du veta mer?  Skriv för mer information och bilder. \n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 71.0,
+    "rent": 11384,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lövskogsgatan, Göteborg",
+    "url": "https://qasa.com/p/1490482",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5J3PGDNMZH5TBEXTJZETKCS.jpg",
+    "description": "Trevlig lägenhet med fantastisk utsikt över Linnestaden. Två rum och kök samt balkong mot väst. Våning 3/5. Hiss. Lugnt område. El, värme och WiFi ingår i hyran. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 12000,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Blidvädersgatan 42, Göteborg",
     "url": "https://qasa.com/p/1490337",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b972e97b2b2b20ea53c8078f14c121d97ebab1a2716de001fe0b5d6fbd4a2317.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Siriusgatan, Göteborg",
-    "url": "https://qasa.com/p/1489967",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5HJJC3TWVX8EEG5QSA4M6J8.png",
-    "description": "Jag hyr en 2a på ca 60 kvm i Västra Bergsjön som jag bor i tillsammans med mina 2 katter. Tänker hyra ut sovrummet till en tjej under en testperiod. \n\nKök och badrum kommer delas på. Vardagsrum finns tillgängligt under dagtid. Finns 2 dörrar att stänga till alla rum (obs på planlösningen så är de endast 1 dörr till sovrummet och vardagsrummet men de stämmer inte. Kostnad för el och bredband tillkommer. Intill sovrummet finns balkong, som får diskuteras om den är gemensam. Rummet uthyrs omöblerat.\n\nJag kommer börja studera till undersköterska och jobba deltid, vill testa hyra ut sovrummet under en begränsad period med chans till förlängning.\n\nIngen rökare och inga fester hemma. Jag är ingen pedant & av förklarliga skäl så kräver jag inte det av dig heller",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 3000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Köldgatan 29, Göteborg",
-    "url": "https://qasa.com/p/1490132",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1b66d62b69076d1f00badd1d59911618610ffd13a6e837fd96da6faf3e8e8ddb.jpg",
-    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till en fin och välplanerad lägenhet på 1 rum och kök som genomgick ett Willhemlyft år 2014.\n\nDe lägenheter som renoveras enligt Willhemlyftet har bland annat modern kokvrå med elspis och rostfri kombinerad kyl/frys.\n\nBadrummet är helkaklat och det finns förberedelse för tvättmaskin. Som hyresgäst ansvarar man själv för inköp och installation av eventuell tvättmaskin.\n\nI lägenheten finns fibernät indragen och hyresgästen får själv teckna abonnemang avseende el och internet/telefoni. Hyran inkluderar värme & vatten.\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 47.0,
-    "rent": 6968,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Arsenalsgatan, Göteborg",
-    "url": "https://qasa.com/p/1490007",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5H43MKQK7Y3MWWRMFESPCKF.jpg",
-    "description": "Med absolut bästa läget på Kungshöjd, mitt på Arsenalsgatan i en pampig fastighet, erbjuds nu en vindsvåning i en klass för sig. Utsikten är svårslagen med fri vy över Linnés takåsar, Skansen Kronan, hamninloppet och stadens kyrktorn som reser sig i horisonten. Det fria söderläget ger ett genomgående ljus som fyller bostaden året runt. Söker ni en trea med extra allt har ni hittat rätt.\n\nHögst upp i huset, i ett av Arsenalsgatans karaktäristiska torn, breder denna unika vindsvåning ut sig. Arkitekturen är distinkt med en tydlig känsla av rymd där taklinjer, vinklar och ljus samverkar och skapar ett hem med stark identitet. Den generösa takhöjden i kombination med stora fönsterpartier i vackra burspråk ger ett ljusinsläpp som fångar varje del av bostaden. Utsikten är närvarande i varje rum och förändras med dygnets skiftningar och hallen erbjuder goda förvaringsmöjligheter.\n\nKök och vardagsrum möts i en öppen och social planlösning som blir bostadens självklara mittpunkt. Här ryms både större middagar och avslappnade kvällar, och den fungerande öppna spisen tillför en varm och inbjudande känsla. Härifrån nås en av bostadens två takterrasser.\nBostaden erbjuder två sovrum i avskilda lägen. Det större sovrummet har direkt närhet till badrum, medan det andra sovrummet ligger mer privat med egen närhet till den andra takterrassen. Ett flexibelt rum som lämpar sig lika väl som barnrum, gästrum eller arbetsrum.\nEtt rymligt badrum tillsammans med en separat WC skapar en bekväm vardag och god funktion även vid sociala tillfällen. Förvaringen är genomtänkt med garderober och lösningar som tar tillvara på bostadens unika utformning. Utanför lägenheten finns en korridor med glasdörr som kräver nyckel för access och på samma plan finns även ett stort vindsförråd precis utanför bostaden. För barnfamiljer finns dessutom en fantastisk lekplats att tillgå precis utanför huset med utsikt över hela Göteborg.\n\nTvå takterrasser, fungerande eldstad, generös takhöjd och ett fritt läge med en utsikt som tillhör stadens absolut bästa gör detta till ett boende som står i en egen kategori. En vindsvåning för den som inte vill kompromissa. Mitt i Göteborg.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 115.0,
-    "rent": 32000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-22T14:02:57+00:00", "clock": "14:02:57"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-22T18:28:35+00:00", "clock": "18:28:35"};
