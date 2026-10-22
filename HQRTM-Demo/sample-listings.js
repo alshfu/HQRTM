@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Majtorpsgatan, Göteborg",
+    "url": "https://qasa.com/p/1490640",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5JNM7VTST0D2HSC39F88QE3.jpg",
+    "description": "Helt självständig & ljus 3:a med stor söderbalkong i lugna Åketorp, Hisings Backa – Uthyres tills vidare\n​Nu finns möjligheten att hyra en helt separerad och självständig lägenhet om 3 rum och kök (70 kvm). Bostaden utgör hela det övre planet i ett trivsamt radhus i populära Åketorp och har en helt egen ingång för maximal privat känsla samt en underbar utsikt.\n​Om bostaden:\n​Typ: Helt separerad och självständig lägenhet (3 ROK, 70 kvm) på övre plan med egen ingång.\n​Inflyttning: 2027-02-15 (Uthyres tills vidare).\n​Planlösning: Två bra sovrum, ett rymligt och lättmöblerat allrum, utrustat kök samt en stor och praktisk walk-in closet.\n​Utemiljö: Stor balkong i soligt söderläge med härlig, öppen utsikt.\n​Möblering: Både inomhus- och utemöbler ingår i hyran (kan även anpassas om du önskar omöblerat).\n​Område & Kommunikationer:\nEtt perfekt läge för dig som vill ha nära till både natur och stadspuls. I närområdet finns matbutiker, gym, vårdcentral, St. Jörgen Spa, golfbana och fina grönområden.\n​Buss: Hållplats ca 50 meter från dörren.\n​Avstånd: Endast ca 7 km till Göteborgs centrum.\n​Hyra & Villkor:\n​Hyra: 14 800 kr/mån (avsett för max 2 personer).\n​Ingår i hyran: Internet, TV-kanaler samt både inne- och utemöbler.\n​Tillkommer: El, vatten och sophämtning.\n​Deposition: 2 månadshyror.\n​Garage: Möjlighet att hyra garage med laddstolpe för elbil mot extra kostnad.\n​Krav: Fast inkomst, djur- och rökfri samt goda referenser.\n​Varmt välkommen att höra av dig med en kort presentation av dig/er vid intresse!\n​English Translation\n​Fully Self-Contained & Bright 2-Bedroom Apartment with Large South-Facing Balcony in Peaceful Hisings Backa (Åketorp) – Long-Term Lease\n​A fantastic opportunity to rent a completely self-contained and separate 3-room apartment (70 sqm) occupying the entire upper floor of a pleasant townhouse in popular Åketorp! The home features a private entrance for total privacy and lovely views.\n​About the Apartment:\n​Type: Fully self-contained, separate apartment (3 rooms & kitchen, 70 sqm) – upper floor with private entrance.\n​Move-in date: February 15, 2027 (Long-term rental).\n​Layout: Two comfortable bedrooms, a spacious family/living room, an equipped kitchen, and a large, practical walk-in closet.\n​Outdoor Space: Large south-facing balcony offering plenty of sunshine and beautiful open views.\n​Furnishing: Both indoor and outdoor furniture are included in the rent (can be adjusted to unfurnished if requested).\n​Location & Transport:\nAn ideal location combining green surroundings with city convenience. Nearby you will find grocery stores, gyms, a healthcare center, St. Jörgen Spa, a golf course, and lovely parks.\n​Bus: Bus stop right across the street (approx. 50 meters).\n​Distance: Only about 7 km to Gothenburg city center.\n​Rent & Terms:\n​Rent: SEK 14,800/month (intended for up to 2 people).\n​Included: High-speed internet, TV channels, and both indoor and outdoor furniture.\n​Utilities (additional): Electricity, water, and waste collecti\n\n\n\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 70.0,
+    "rent": 14800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Folkungagatan, Göteborg",
+    "url": "https://qasa.com/p/1438546",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/088aa616ea21127a842f2ff1ea14d24a899fe4c6a10dd8517912bdb3a6f2ee8a.jpg",
+    "description": "En hyresrätt som känns som en bostadsrätt\nGammalt möter nytt\nNyrenoverat kök och badrum, nymålat i hela lägenheten\nFiskbensparkett\nStuckatur\nGenomgående\nHögt i tak\nSmal balkong ut mot Folkungagatan\n\n1 kök med diskmaskin\nBadrum med tvättmaskin\nSovrum 1 fönster mot innergården\nSovrum 2 mindre och fönster mot gatan\nStort vargdagsrum\nMellanrum mellan vardagsrum och sovrum\nInbyggda garderober\n\nMysig innergård \nLiten lekplats för de minsta\n\nGöteborg centralstation: 8min gångväg \nUllevi Norra: 1 min gångväg\nHeden: 15 min \n\nOBS! hyresgästen ska bli godkänd av vår hyresvärd Skandia Fastigheter.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 74.0,
+    "rent": 15500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Laholmsgatan, Göteborg",
     "url": "https://qasa.com/p/1490562",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5JA9SYVYNAQ4011N63X4FWV.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fruktträdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1468024",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b871d6fdc3ab5982d6422d5343a03392629ff3f471640f2880d425c4f663b513.jpg",
-    "description": "Nyrenoverad lägenhet belägen nära centrum och samtidigt i närhet till natursköna områden. Lägenheten är möblerad och har en balkong. Busshållplats finns direkt utanför. I lägenheten ingår diskmaskin, tvättmaskin samt torktumlare. Förvaring och garderob finns i sovrummet och i hallen. El och vatten betalas vart tredje månad och brukar uppgå till cirka 200 kr.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 36.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Herkulesgatan, Göteborg",
-    "url": "https://qasa.com/p/1490048",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5H7R262BZ54FP1VJQD1EKFD.jpg",
-    "description": "Fin lägenhet på Hisingen med ett bra läge nära Lindholmen, Volvo lastvagnar och Cars samt övriga delar av Hisingen. Lägenheten har en mycket bra standard och erbjuder allt som behövs för ett bekvämt boende.\n\nFullt möblerad lägenhet\n- Separata sängar (enkelsängar)\n- Fullt Utrustat kök\n- Wi-Fi\n- Eget badrum med dusch\n- Plats för upp till 5 personer\n- Service och support under vistelsen\n\nFlexibel hyresperiod 1-12 månader.\n\nFully Furnished 2-Bedroom Apartment on Hisingen\n\nA spacious and fully furnished 2-bedroom apartment on Hisingen, Gothenburg, conveniently located near Lindholmen, Volvo Trucks, Volvo Cars, and other key business areas across Hisingen.\n\nThe apartment is of a high standard and provides everything needed for a comfortable and convenient stay. It is ideal for companies, consultants, and project employees looking for flexible accommodation.\n\nIncluded in the Accommodation:\n-Fully furnished apartment\n-Separate single beds\n-Fully equipped kitchen\n-Wi-Fi\n-Private bathroom with shower\n-Accommodation for up to 6 guests\n-Service and support throughout the stay\n\nFlexible rental periods from 1 to 12 months.",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 75.0,
-    "rent": 24000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-22T18:28:35+00:00", "clock": "18:28:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-22T21:52:37+00:00", "clock": "21:52:37"};
