@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Berzeliigatan, Göteborg",
+    "url": "https://qasa.com/p/1491318",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5MVC7N720XEFCZ5BSAYQPA8.jpg",
+    "description": "Nice and clean room with private balcony, fully furnished for rent in the most central part of Gothenburg.  1 bed, 1 working desk, clothes hanger, small wardrobe, sofa, coffee table, side table. \n\nTwo balconies and shared kitchen and small pentry with all necessities.\n\nNext to the Avenyn, Heden, Ullevi Arena, Scandinavium, Gothia Towers, Götaplatsen and Korsvägen with direct access to public transportation and to everywhere in Gothenburg. Next to Gothenburg City Library.  \nWalking distance to Chalmers, Gothenburg University, Valhallabadet (city swimming), Haga and all the things the city can offer etc. Right outside the doorstep you get direct access to restaurants, cafeterias, events, universities, museums, culture, boutiques, parks etc. You could not have it more comfortable.  \n \nI am looking for a calm, tidy and responsible student and I respect the privacy of my roomies. No parties or sleepovers. \n\nThe rent is 10000:-/month.  The rent includes electricity, heating, water and internet, bed sheets and towel.  Access to new washing room, modern and very fresh bathroom from 2020, 3 toilets, big balcony, kitchen with all necessities.   \nTwo months rent in deposit.  Please contact me if this sounds interesting.   \n\nBest regards",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 16.0,
+    "rent": 9434,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/760704",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b56595740aa6ccab70492e51cebf1305270113758ea40ee774772e71dbf7a103.jpg",
+    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 3800,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Borgmästaregatan, Göteborg",
     "url": "https://qasa.com/p/1470724",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3EW7FDDZJKEMSC5MHQBFMC3.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ängemarken, Göteborg",
-    "url": "https://qasa.com/p/1490955",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5M4W7CPQ9SRN6PG40FMJ9H5.png",
-    "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 16100 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/8by8hjihvusyqtzhebk7/vastra-gotaland/goteborg/angemarken-7b/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nVälplanerad funkistvåa i Norra Guldheden med en underbar balkong i härligt västerläge! På balkongen har ni fri sikt i vackert grönskande omgivningar och tack vare läget har ni fina soltimmar under eftermiddag och kväll. Nylagt parkettgolv, vackra fönsterbräden i sten och generös takhöjd bidrar till fin karaktär och trevlig funkisprägel. Genomgångsläget ger härligt ljusa rum och ni har bra förvaring såväl inne i lägenheten som i de två tillhörande förråden. \r\n\r\nFöreningen har populära gemensamhetslokaler och gångavstånd till flera av Göteborgs universitet, Chalmers, grönområden i Änggårdsbergen och Slottsskogen samt citypulsen i Linné och Vasastaden.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 16100 kr.\nBook a viewing by following the above link to Samtrygg;",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 15196,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hallegatan, Göteborg",
-    "url": "https://qasa.com/p/1490895",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5M1CECF8QVZBNXWXS6Q8RM8.png",
-    "description": "Ljus och välplanerad 1:a om 35,5 kvm på Hallegatan 13 på Centrala Hisingen. Lägenheten ligger på våning 6 av 11 och har både hiss och balkong. Bostaden har en smart planlösning som gör att ytan nyttjas effektivt och passar bra för en person eller ett par.\n\nLägenheten ligger i ett trevligt område med närhet till kollektivtrafik, mataffärer, service och restauranger samt goda kommunikationer till centrala Göteborg.\n\nBostaden hyrs ut på grund av samboprövning. Jag söker en skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten under uthyrningsperioden.\n\nLägenheten hyrs ut möblerad och i hyran ingår värme, vatten, el och bredband.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 10800,
-    "floor": 6,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-23T14:53:48+00:00", "clock": "14:53:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-23T18:52:35+00:00", "clock": "18:52:35"};
