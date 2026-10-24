@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/839646",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/181331163c4279dc196f83bbdc22b5d7c34d8fb1ee887abd7a7d7dca329336ed.jpg",
+    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kongahällavägen, Torslanda",
+    "url": "https://qasa.com/p/1483784",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4T8BB4ND5YAXXPGHCY87KGQ.jpg",
+    "description": "Helt nyrenoverad 2023/2024 och mycket fin egen våning, i en villa, i härliga Björlanda/Torslanda.\nOmrådet är ett lugnt och tryggt villaområde med gångavstånd till det mesta.\n\nVåningen uthyres omgående och tillsvidare.\nYtan är på totalt ca 90 kvm varav ca 8 kvm är biarea. \n\nBostaden har genomgått en stor renovering av samtliga ytor och rum som är klart nu under 2023, 2024\n\nKöket som är byggt från grunden 2023, där allt är byggt 2023, från golv till kökslådor och vitvaror.\nÄven badrummet är renoverat med ny toalettstol, handfat och kommod under 2023.\nNi har en egen tvättstuga som även den är renoverad i 2023, med bla tvättmaskin.\nÖvriga rum i våningen är uppfräschade med ny målarfärg på tak och väggar. \n\nTill våningen ingår ca 300 kvm egen trädgård med en härlig uteplats att nyttja nu när våren är här.\nEgen parkeringsplats i direkt anslutning till villan ingår.\n\nGångavstånd på ca 20 min till havet.\nCa 1 min gångavstånd till kollektivtrafik.\nUngefär 20 minuters bilfärd till Göteborgs innerstad och vill ni åka kommunalt kör bussen \"Svart Express\" raka vägen till centrum på ca 20 minuter.\nSamt även nära till livsmedel och Zenith idrottsplats med härligt skogsområde för\nträning och löpningen eller promenader.\n\nHyra 10497 kr i månaden.\nAllt ingår förutom hushållsel och uppvärmning som tillkommer. \nNormal förbrukning hushållsel beräknas till 499kr i månaden.\nNormal förbrukning uppvärmning och vatten beräknas till 1999kr i månaden.\n(Totalt: 12 995kr)\n\nEn fantastisk våning med stora ytor, helt nyrenoverad samt en stor och mysig uteplats och trädgård ingår.\n\nRökfritt hus och rökfritt inom tomtgränsen men husdjur kan ev vara tillåtet efter överenskommelse.\nEn månadshyra erläggs i deposition, vid kontraktsskrivning.\n\nReferenser samt en personlig presentation önskas i er ansökan.",
+    "district": "Torslanda",
+    "rooms": 3.0,
+    "area_m2": 90.0,
+    "rent": 9907,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Tegnérsgatan, Göteborg",
+    "url": "https://qasa.com/p/1491477",
+    "image_url": null,
+    "description": "Det är en sekelskiftfastighet med stora rum och högt i tak. Lägenheten ligger i hörnet och därmed ljus och fin med balkong. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 80.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Berzeliigatan, Göteborg",
     "url": "https://qasa.com/p/1491318",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5MVC7N720XEFCZ5BSAYQPA8.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kronhusgatan, Göteborg",
-    "url": "https://qasa.com/p/1490554",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5J9X4EX77TDG3WRS89Z1CY7.jpg",
-    "description": "Möblerad 1:a med sovalkov, 44 m² – uthyres i ett år från 1 december\nKronhusgatan 12 i centrala Göteborg . Nära till Brunnsparken och Nordstan .\n\nNu finns möjlighet att hyra en trevlig och möblerad lägenhet om 44 m² med sovalkov. Lägenheten hyrs ut under ett år från och med den 1 december till dig som söker ett bekvämt och välutrustat boende.\n\nOm lägenheten\n\nLägenheten har en praktisk planlösning med kombinerat vardagsrum och sovalkov, vilket ger separata ytor för avkoppling och sömn. Vardagsrummet har en rymlig soffgrupp och lägenheten har gott om möjligheter att trivas både till vardags och under lediga dagar.\nDet finns gott om förvaring i de tre garderober som är inbyggda.\n\nKöket har även en köksö som ger extra arbetsyta och en trevlig plats för måltider.\n\nLägenheten hyrs ut fullt möblerad, så det är enkelt att flytta in utan att behöva ordna egna möbler.\n\nDetta ingår:\n\n- 44 m², 1 rum och kök med sovalkov\n- Fullt möblerad lägenhet\n- Köksö i köket\n- El ingår i hyran\n- Bredband ingår i hyran\n- TV ingår inte\n\nHyresvillkor\n\n- Hyra: 8 250 kr per månad\n- Deposition: 15 000 kr\n- Uthyrningsperiod: 1 december 2026–30 november 2027\n- Inflyttning: 1 december 2026\n- Möblering: Fullt möblerad\n- El och bredband: Ingår i hyran\n\nVem söker jag?\n\nJag söker en skötsam, ansvarsfull och pålitlig hyresgäst som tar väl hand om lägenheten.\n\nFöljande är viktigt:\n\n- Rökfri – detta är ett krav.\n- Ordnad ekonomi och möjlighet att betala hyran regelbundet.\n- Gärna fast anställning eller annan dokumenterbar och stabil inkomst.\n- Goda referenser från tidigare hyresvärd är meriterande.\n- Du är varsam med bostaden och visar hänsyn till grannar.\n- Du är införstådd med att lägenheten hyrs ut under en begränsad period om ett år.\n\nJag kommer att göra en sedvanlig kontroll av referenser och betalningsförmåga innan avtal tecknas.\n\nIntresserad?\n\nSkriv gärna en kort presentation av dig själv och berätta:\n\n- Vem du är och vad du arbetar med eller studerar.\n- Om du har referenser från tidigare hyresvärd.\n\n\n\nJag ser fram emot att komma i kontakt med en seriös hyresgäst som vill ha ett trivsamt boende under det kommande året!",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 44.0,
-    "rent": 7800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Rivöfjordsgatan , Göteborg",
-    "url": "https://qasa.com/p/1491014",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5M7ZJDVM699G7VSGEP3C3JD.jpg",
-    "description": "En fin etagelägenhet som ligger i en tvåfamiljsvilla med utsikt mot Älvsborgsbron samt bra kommunikation till övriga delar av stan, endast 12 min med spårvagn in till Brunnsparken. Sovrummet ligger på andra våningen med kök, badrum och vardagsrum på vindsvåningen. I hyran ingår vatten, varmvatten, sophämtning och tillgång till gemensam tvättstuga. Tillträdes omgående. Hyres ut till en början i ett år, med möjlighet för förlängning.\n\nMvh\nLotta",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Zirkongatan 25, Göteborg",
-    "url": "https://qasa.com/p/1491084",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/31357c93688124291b9cdf8d2a9b7d76dd13dc4fbdf4f4569bc00061689a87f8.png",
-    "description": "Välkommen till denna nyproducerade 3 rok.\n\nDenna lägenhet erbjuder ett modernt och genomtänkt boende med ljusa ytor, stilrena\nmaterialval och en öppen planlösning. Här får du en bostad där funktion och komfort\nstår i fokus, med stora fönsterpartier och en generös balkong.\n\nPlanlösning\nLägenheten har en öppen och social planlösning där kök och vardagsrum bildar\nbostadens naturliga samlingspunkt. De stora fönsterpartierna skapar ett generöst\nljusinsläpp och ger rummet en luftig känsla.\n\nI sovrummet finns det en skjutgarderob med Elfa-system. Från vardagsrummet når du balkongen,\nsom ger ytterligare en yta att använda under årets varmare månader.\nPlanlösningen är genomtänkt och har lättmöblerade ytor som passar både vardag och\numgänge.\nMaterial & utrustning\nBostaden har moderna och tidlösa materialval. Köket är från Vedum och är i vitt med\nsläta luckor, en stilren stenbänkskiva i en grå/beige nyans och är utrustat med kyl och\nfrys, spis, ugn, mikro samt diskmaskin.\nGenomgående golv och målade väggar ger bostaden ett ljust och enhetligt uttryck.\nDet helkaklade badrummet har en dusch med glasväggar som ger ett rent och modernt\nintryck. Här finns även tvättmaskin och torktumlare som underlättar vardagen.\n\nOm området\nOpaltorget är ett omtyckt och etablerat bostadsområde i Göteborg, med närhet till \ncitykärnan. Här bor du med närhet till både natur och stadens utbud. I området finns\nförskolor, grundskolor och gymnasium. Goda bussförbindelser gör det enkelt att ta sig till Göteborg och för den som cyklar finns väl utbyggda gång- och cykelvägar. Opaltorget erbjuder också grönområden, motionsspår och service i närområdet – ett bekvämt läge\nför både studenter, familjer och yrkesverksamma.\n\nÖvrigt\nP-plats hyrs ut separat.\n\nBilderna är från en liknande lägenhet i ett annat projekt, därav kan viss skillnad\nförekomma.\n\nÄr detta ditt nästa hem? ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 14534,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-24T04:28:39+00:00", "clock": "04:28:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-24T09:03:16+00:00", "clock": "09:03:16"};
