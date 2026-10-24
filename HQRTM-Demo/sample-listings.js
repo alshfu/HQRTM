@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Skogsmilsgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1491724",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5QEJS5B86T2VPSN4NXTW3KC.jpg",
+    "description": "Hejsan \nVill hyra ut min lägenhet från och med 1/11/2026 lägenhet är i bra skick och totalt renoverade för ca 3 år sen . En del möblerade \nDen är en ettan med badrummet och liten kök och en stor garderob \nIngår i hyran \nVärme \nInternet och tv \nVatten \n\nElkostnader Tillkommer \nElnät och El\n\nParkering finns för 299 kr /månad \n",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 25.0,
+    "rent": 6900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Terapislingan, Hisings Backa",
     "url": "https://qasa.com/p/1491689",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Q8W1JT1QT3BGE1XMPSBGJA.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1483609",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4SX2SMSRV9CVQ5VK4K4T596.jpg",
-    "description": "Ta chansen att bo i en av de mest prisvärda lägenheterna i Karlatornet. \n\nBostaden är modernt designad, hyrs ut omöblerad och har bekvämligheter så som balkong samt tvättmaskin och torktumlare.\n\nI hyran ingår:\nVatten, värme, el, fiber, tv och tillgång till gym.\n\nYtterliggare bekvämligheter som finns tillgängliga i byggnaden:\n\n- Bemannad reception\n- Post- & Paketrum (inkl. Kylrum)\n- Hundspa\n- Lounge\n- Bio\n- Avkopplingsrum\n- Konferensrum\n- Allmänt kök\n- Gym\n- Roomservice fr. 2024 (mot tilläggsavgift)\n\nUtanför byggnaden finns det goda kommunikationsmöjligheter till resten av staden.\n\nHar du frågor eller vill se bostaden? Hör gärna av dig.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 11750,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-24T16:41:49+00:00", "clock": "16:41:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-24T19:02:42+00:00", "clock": "19:02:42"};
