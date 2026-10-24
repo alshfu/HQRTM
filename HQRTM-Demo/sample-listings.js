@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Erik Dahlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1490588",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5QR1WBSJT089CHDDZJJTFZT.jpg",
+    "description": "Charmig sekelskifteslägenhet om 56 kvm med två rum, belägen i hjärtat av Vasastaden i centrala Göteborg. \n\nLägenheten präglas av tidstypisk karaktär och klassisk elegans, med en vacker kakelugn som ger bostaden en varm och inbjudande atmosfär. Ett hem med genuin sekelskiftescharm och ett attraktivt läge nära stadens restauranger, caféer och nöjesliv. Planlösningen är mycket bra med god förvaring. Balkong med sol från cirka 09:00-16:30 på sommaren.  Lägenheten hyrs enbart ut på grund av att jag omgående har behov av en större lägenhet.  ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 56.0,
+    "rent": 19000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Klippan, Göteborg",
+    "url": "https://qasa.com/p/1491786",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5QQPJQG2RRHDABM3AR8DTQT.jpg",
+    "description": "Bostaden erbjuder en välplanerad och lättmöblerad planlösning med ett rymligt sovrum och en generös klädkammare alldeles intill. Som en förlängning av hemmet väntar den stora uteplatsen, en härlig plats för både lugna morgnar och umgänge med vänner. Här bor du dessutom med goda grannar och en trivsam känsla i området.\n\nNotis: Inte alla möbler som är på bilderna ingår vid uthyrningen.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 14100,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skogsmilsgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1491724",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5QEJS5B86T2VPSN4NXTW3KC.jpg",
@@ -21,11 +51,11 @@ window.HQRTM_SAMPLE = [
     "title": "Terapislingan, Hisings Backa",
     "url": "https://qasa.com/p/1491689",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Q8W1JT1QT3BGE1XMPSBGJA.jpg",
-    "description": "Modern och ljus lägenhet på 76,4 m² med 4 rum, belägen i ett lugnt och naturnära område på Hisingen. Lägenheten är byggd 2022 och passar perfekt för exempelvis en familj, ett par eller personer som vill dela boende.\n\n🏡 Lägenheten\n- 3 sovrum med sängar i alla rum. Observera att bilderna inte visar den nuvarande möbleringen: Det största sovrummet har en stor säng och de två andra sovrummen har varsin enkelsäng. Matbordet och stolarna som syns på bilderna finns inte längre kvar.\n- Öppen planlösning med kök och vardagsrum.\n- Fullutrustat kök och modernt, helkaklat badrum.\n- Egen tvättmaskin och torktumlare.\n- El, vatten och internet ingår i hyran.\n\n💰 Hyra\n- 14 500 kr/mån utan parkering.\n- 15 000 kr/mån inklusive parkeringsplats precis utanför bostaden.\n\n🌳 Området\n- Precis intill skog med fina promenadstigar – perfekt för hundägare och naturälskare.\n- Cirka 4 minuters promenad till busshållplats med förbindelser mot Hjalmar Brantingsplatsen och Svingeln.\n- Livsmedelsbutik, pizzeria och frisör cirka 4 minuter bort.\n- Nordic Wellness och Tuve Torg ligger bara några minuters bilresa bort.\n- Fotbollsplan cirka 3 minuters promenad bort.\n- Förskola i direkt närhet.\n- Lugnt och trivsamt område med lite trafik och störande ljud.\n\nEn modern och välplanerad bostad med gott om utrymme, bekvämligheter och natur precis utanför dörren.\nVid intresse, skicka gärna ett meddelande och berätta lite om dig själv och vilka som ska bo i lägenheten.",
+    "description": "Modern och ljus lägenhet på 76,4 m² med 4 rum, belägen i ett lugnt och naturnära område på Hisingen. Lägenheten är byggd 2022 och passar perfekt för exempelvis en familj, ett par eller personer som vill dela boende.\n\n🏡 Lägenheten\n- 3 sovrum med sängar i alla rum. Observera att bilderna inte visar den nuvarande möbleringen: Det största sovrummet har en stor säng och de två andra sovrummen har varsin enkelsäng. Matbordet och stolarna som syns på bilderna finns inte längre kvar.\n- Öppen planlösning med kök och vardagsrum.\n- Fullutrustat kök och modernt, helkaklat badrum.\n- Egen tvättmaskin och torktumlare.\n- El, vatten och internet ingår i hyran.\n\n💰 Hyra\n- 16 000 kr/mån utan parkering.\n- 16 500 kr/mån inklusive parkeringsplats precis utanför bostaden.\n\n🌳 Området\n- Precis intill skog med fina promenadstigar – perfekt för hundägare och naturälskare.\n- Cirka 4 minuters promenad till busshållplats med förbindelser mot Hjalmar Brantingsplatsen och Svingeln.\n- Livsmedelsbutik, pizzeria och frisör cirka 4 minuter bort.\n- Nordic Wellness och Tuve Torg ligger bara några minuters bilresa bort.\n- Fotbollsplan cirka 3 minuters promenad bort.\n- Förskola i direkt närhet.\n- Lugnt och trivsamt område med lite trafik och störande ljud.\n\nEn modern och välplanerad bostad med gott om utrymme, bekvämligheter och natur precis utanför dörren.\nVid intresse, skicka gärna ett meddelande och berätta lite om dig själv och vilka som ska bo i lägenheten.",
     "district": "Hisings Backa",
     "rooms": 4.0,
     "area_m2": 76.0,
-    "rent": 13686,
+    "rent": 15101,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blåmusslegatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1409139",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/1237a850dfa5cd8e34da6d7a9f10c2f8872cb589772b9b753f64296cecbd2274.jpg",
-    "description": "Ett härligt attefallshus på 31 kvm (inkl sovloft) med trappa till sovloft beläget i ett lugnt villaområde i Fiskebäck, Västra Frölunda. Du får närhet till härlig natur och bad (t.ex. Hinsholmen och Fiskebäcksbadet), och har enbart 4 min till närmaste busshållplats med direktlinje till Göteborgs centrum och direktlinje till Frölunda Torg.  \n\nHyrs ut möblerat och ligger på samma tomt som huset där vi själva bor så det är viktigt att vi hittar rätt hyresgäst/-er. Vi söker en lugn, skötsam person eller par för långtidsuthyrning. \n\nSkicka gärna dina / era uppgifter och skriv lite om dig / er själv(a) och hur länge du / ni tänkt bo, så hör vi av oss vid intresse.\n\n• Möblerat: Ja\n• Delat boende: Nej\n• Parkering : Ja, gratis parkering på gatan\n• Husdjur: Ej tillåtet\n• Rökning: Ej tillåtet\n• Diskmaskin: Ja\n• Tvättmaskin: Ja\n• Internet: Ja\n• Tillgänglig med rullstol: Nej\n• Egen dusch: Ja\n• Egen toalett: Ja\n• Balkong/uteplats: Man får gärna använda gräsmattan som uteplats",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 25.0,
-    "rent": 9200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hults gata, Askim",
-    "url": "https://qasa.com/p/1491589",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5PTTCJBVSZZ7631HDZPCWE2.jpg",
-    "description": "English below:\nNyrenoverad. Månadshyra 6500 kr.  Inflyttning under jan/feb Inga avgifter. Ingen deposition. Kontrakt skrivs direkt med hyresvärden.\n\nMöblerad lägenhet på 90 m2 på entréplan i mitt hus. Du har ett eget sovrum och delar hall, vardagsrum/matplats, kök/tvättstuga, dusch/toalett och uteplats.  Köket är fullt utrustat.  De andra hyresgästerna är två män. Den ena studerar och den andra är civilingenjör och jobbar på Volvo.\n\nRummet är möblerat med säng 120 cm, skrivbord, bokhyllor, 2 byråer och dubbgarderob. Mörkerrullgardin för en god sömn och reglerbar plisse’gardin mot insyn. Rummet vetter mot trädgården och den lugna gatan. Huset är beläget i trevligt och tryggt område nära hav och skog.  Det går snabbt och smidigt att ta sig till centrala Göteborg.\nI hyran ingår fiber/wifi, el, värme, vatten och sophämtning. Förvaring av cykel i låst garage. Gratis bilparkering på gatan utanför.\nMycket goda kommunikationer från busshållplatsen \"Pilegården Göteborg\" som du når till fots på någon minut.\nBuss X2 tar 12 min till Linnéplatsen. Buss 258 tar 10 min till Sahlgrenska och 14 min till Chalmers.  Buss 180 tar 21 min till Volvo. Buss 89: 5 min till Frölunda torg Eller cykla in till stan på den lummiga cykelbanan.  Affärer och service i närområdet.\n\nLite om mig: Jag är sjuksköterska och bor själv i den övre lägenheten som är helt separerad från uthyrningslägenheten på bottenplan.\nMin entré är på baksidan av huset.\n\nFör din TRYGGHET: Ingen deposition. Inga avgifter. Verifierad värd.\n\nVÄLKOMMEN att höra av dig för mer info.\n------------------------------------------------------\nMoving in during jan/feb\nNewly renovated. 6500 kr/month. Contract directly with the landlord.  No fees. No deposit .  \n\nShared apartment (90m2) on first floor of my house. You have your own bedroom and share \nlivingroom/diningroom, kitchen/laundryroom, bathroom and part of the garden.  The other tenants are two men. One are studying and the other is working as engineer at Volvo.\n\nRent includes fiber/wifi, electricity, heat and water.  Bike can be placed in locked garage. Free parkingplace for a car. The room is furnished with 120 cm bed, desk, drawers,cupboards, bookshelves,  carpets, dark blinder for a good night sleep and is facing the garden and the quiet street.  Kitchen is fully equiped. The house is situated in a nice and safe area with wonderful nature around the  corner.\n\nEasy access to citycenter.\nA few minutes walk takes you to the bus station \"Pilegården Göteborg\" with frequently departures.  Bus X2:  12 minutes to Linneplatsen. Bus 258: 10 min to Sahlgrenska and 14 min to Chalmers.                       \nBus 180: 21 min to Volvo. Bus 89: 5 min to Frölunda torg. Or take the bike to town along the nice green bikeway. All sorts of shops and service in the neighbourhood.\n\nI live in the apartment on topfloor with seperate entrance. I live by myself working as a nurse.\n\nFor your SAFETY: No deposit. No fees. Verified host.\nWELCOME to get in touch with me for more info.",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 15.0,
-    "rent": 6135,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-24T19:02:42+00:00", "clock": "19:02:42"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-24T21:32:47+00:00", "clock": "21:32:47"};
