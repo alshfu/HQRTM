@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Stabbegatan, Göteborg",
+    "url": "https://qasa.com/p/1492324",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5T9BZ1W2844MMNXV5YKA50Z.jpg",
+    "description": "En välplanerad etta på 38kvm på Stabbegatan i Björkekärr i Göteborg. Det hyrs ut i ett år med möjlighet till förlängning. \n\nI Björkekärr bor du naturnära med Härlanda tjärn och Skatås motionsspår inom promenadavstånd. Det är också smidigt att ta sig in till stan med buss 17 eller x5 samt spårvagn 1 och 5. \n\nLägenheten ligger på bottenplan med en stor uteplats där det finns gott om plats för både en matgrupp och loungemöbler och krukor för odling. \n\nbadrummet är stamrenoverat 2022 och köket är i gott skick med fräscha vitvaror och induktions häll från 2024. \n\nLägenheten hyrs ut möblerad, utemöbler till altanen ingår också. Bostadsrättsföreningen behöver godkänna dig som hyresgäst. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 10500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ögärdesvägen, Askim",
     "url": "https://qasa.com/p/1492252",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5T3GW76HCBBCDSXKY61620W.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Storkgatan, Göteborg",
-    "url": "https://qasa.com/p/1492088",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5SMDFSFY07QTYAW419WYJKS.jpg",
-    "description": "Nu finns möjlighet att hyra en trivsam etta på 36 kvm i mysiga Bagaregården under fem månader.\n\nLägenheten ligger på våning 1 av 3 och erbjuder ett bekvämt boende i ett lugnt och trevligt område. Här bor du med närhet till grönområden, caféer, restauranger och goda kommunikationer till centrala Göteborg.\n\nOm lägenheten\n\n* Storlek: 36 kvm\n* Rum: 1 rum och kök\n* Våning: 1 av 3, ingen hiss\n* Hyra: 10 500 kr/mån\n* Uthyrningsperiod: 5 månader\n* Möblering: Kan anpassas efter dina behov\n* Övrigt: Förråd finns att tillgå\n\nLägenheten passar perfekt för dig som söker ett trivsamt boende i Göteborg under en begränsad period, exempelvis för arbete eller studier.\n\nJag söker en skötsam och ansvarsfull hyresgäst som vill ta väl hand om lägenheten.\n\nIntresserad?\n\nSkicka gärna ett meddelande och berätta lite om dig själv. \n\nVälkommen att höra av dig!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 10500,
-    "floor": 1,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-25T19:14:31+00:00", "clock": "19:14:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-25T21:52:28+00:00", "clock": "21:52:28"};
