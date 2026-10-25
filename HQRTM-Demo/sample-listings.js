@@ -3,10 +3,40 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ögärdesvägen, Askim",
+    "url": "https://qasa.com/p/1492252",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5T3GW76HCBBCDSXKY61620W.jpg",
+    "description": "Nu finns möjlighet att hyra en mycket fin och välplanerad bostad om ca 75 kvm i natursköna Askim, med närhet till både hav, natur och Göteborgs centrum.\n\nBostaden är en helt avskild del av vår L-formade villa, med egen uppfart och separat entré. Här bor du med känslan av ett eget litet hus, med hög integritet och utan gemensamma utrymmen med huvudbostaden.\n\nOm bostaden\n\nLägenheten är ljus, trivsam och har en genomtänkt planlösning med generösa sällskapsytor och hög standard.\n\nVardagsrum med matplats och braskamin – en härlig samlingspunkt som skapar extra värme och mysfaktor.\n\nTotalrenoverat, modernt kök med kyl/frys, induktionshäll, ugn, fläkt och diskmaskin.\n\nSovrum med tillhörande toalett och praktiskt klädförråd.\n\nFräscht badrum utrustat med både egen tvättmaskin och torktumlare.\n\nEntréhall med plats för ytterkläder och förvaring.\n\nFiberbredband finns installerat.\n\nEtt boende med det lilla extra\n\nDet som verkligen gör den här bostaden speciell är känslan av att bo i ett eget hus. Med egen uppfart, separat entré och en avskild placering från huvudvillan får du ett privat och bekvämt boende.\n\nHär bor du dessutom i ett lugnt och attraktivt villaområde i Askim, med närhet till vackra naturområden, naturreservat, havet, badplatser och goda möjligheter till rekreation.\n\nKort om bostaden\n\nBoyta: ca 75 kvm\n\nOmråde: Askim, Göteborg\n\nBoendeform: Självständig del av villa\n\nEntré: Egen\n\nUppfart: Egen\n\nUthyrning: Omöblerad\n\nUtrustning: Fullt utrustat kök, tvättmaskin, torktumlare, braskamin och fiber\n\nEtt perfekt boende för dig som söker lugnet och friheten i ett villaboende, men med bekvämligheten hos en modern lägenhet.\n\nVälkommen att höra av dig med en kort presentation av dig själv om du är intresserad av bostaden!",
+    "district": "Askim",
+    "rooms": 2.0,
+    "area_m2": 75.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ebbe Lieberathsgatan, Göteborg",
+    "url": "https://qasa.com/p/1492224",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5T0WF13MDAJ0BMA5KVGC0Z1.jpg",
+    "description": "En fin etta med kök. Nära till spårvagnshållplatserna Elisedal och Varbersgatan. Willys och Ica Maxi inom 3-5 minuters gångavstånd. Granne med Nordic Wellness och flera trevliga restauranger. \n\nI hyran ingår el, vatten, och bredband. Lägenheten är möblerad. Observera att det kommer vara annan TV (46 tum) och eventuellt annan soffa än på bilderna. \n\nObservera att bostadsrättsföreningen godkänner andrahandsuthyrning 1 år i taget. Jag är dock eventuellt intresserad av att hyra ut längre, men då behöver vi förnya godkännande av bostadsrättsföreningen.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 11260,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Ågatan, Göteborg",
     "url": "https://qasa.com/p/1492198",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5SYM4SV86WS2X23ZEV8ZVMM.jpg",
-    "description": "LEDIGT FRÅN 4 OKTOBER 2026\nEN PERSON\n\nLäs annonsen ordentligt.  Jag kommer inte svara er som vill hyra innan 4/10, har en mindre budget, är fler än en eller har husdjur med. \n\nEtt härligt rum i en ren  o fräsch lägenhet. \nHyran är 6000 kr\nRummet är möblerat med 1.20 säng, 42\" tv, \nbyrå med lådor, mindre skrivbord, kyl/frys, micro, vattenkokare, 3 stora garderober och lite annat smått o gott för hemtrivsel. \nWifi 500/500, el, värme och tv-kanaler ingår i hyran. Chromecast finns. \nVi delar dusch, kök o matplats. \nDu har egen uteplats i anslutning till rummet med utemöbler. Egen garderob i hallen för ytterkläder och extra skor. \nBuss o spårvagn ca 5 min bort. \nI området finns restauranger, butiker, apotek, vårdcentral mm mm\nBra att veta:\nVi passar en liten hund ibland.\n\nDeposition 6000 kr när kontraktet skrivs.\n\nVi är ett par runt 60. \nBåda jobbar och är aktiva på helger o semester. \nVi söker dig som vi känner att vi kan lita på när vi reser och är borta. \nRummet är för EN person. Inga djur eller rökare. \nVi vill att du har sysselsättning i form av arbete eller skola på minst deltid. \nReferenser, arbetsgivarintyg eller intyg från skola om utbildningens längd och omfattning önskas vid en ev presentation av rummet. \n\n\nAVAILABLE FROM 4 OCTOBER 2026\nONE PERSON. \n\nRead the advertisement carefully. I will not answer you who want to rent before 4/10, have a smaller budget, are more than one or have pets.\n\nA lovely room in a clean and fresh apartment. \n The rent is 6000 SEK\nThe room is furnished with a 1.20 bed, 42\" TV, \ndresser with drawers, small desk, fridge/freezer, microwave, kettle, 3 large wardrobes and a few other small and good things for home comfort. \nWifi 500/500, electricity, heating and TV channels are included in the rent. Chromecast available\nWe share a shower, kitchen and dining area. \nYou have your own patio next to the room with outdoor furniture. Your own wardrobe in the hall for outerwear and extra shoes. \nBus and tram about 5 minutes away. \nIn the area there are restaurants, shops, pharmacies, health centers etc.\n\nDeposit 6000 SEK when the contract is signed.\n\nWe are a couple around 60. \nBoth work and are active on weekends and holidays. \nWe are looking for someone we feel we can trust when we travel and are away. \nThe room is for ONE person. No animals or smokers. \nWe want you to have employment in the form of work or school at least part-time. \nReferences, employer certificates or certificates from schools regarding the length and scope of education are required when presenting the room\n",
+    "description": "LEDIGT FRÅN 11 April 2027\nEN PERSON\n\nLäs annonsen ordentligt.  Jag kommer inte svara er som vill hyra innan 11/4-27, har en mindre budget, är fler än en eller har husdjur med. \n\nEtt härligt rum i en ren  o fräsch lägenhet. \nHyran är 6000 kr\nRummet är möblerat med 1.20 säng, 42\" tv, \nbyrå med lådor, mindre skrivbord, kyl/frys, micro, vattenkokare, 3 stora garderober och lite annat smått o gott för hemtrivsel. \nWifi 500/500, el, värme och tv-kanaler ingår i hyran. Chromecast finns. \nVi delar dusch, kök o matplats. \nDu har egen uteplats i anslutning till rummet med utemöbler. Egen garderob i hallen för ytterkläder och extra skor. \nBuss o spårvagn ca 5 min bort. \nI området finns restauranger, butiker, apotek, vårdcentral mm mm\nBra att veta:\nVi passar en liten hund ibland.\n\nDeposition 6000 kr när kontraktet skrivs.\n\nVi är ett par runt 60. \nBåda jobbar och är aktiva på helger o semester. \nVi söker dig som vi känner att vi kan lita på när vi reser och är borta. \nRummet är för EN person. Inga djur eller rökare. \nVi vill att du har sysselsättning i form av arbete eller skola på minst deltid. \nReferenser, arbetsgivarintyg eller intyg från skola om utbildningens längd och omfattning önskas vid en ev presentation av rummet. \n\n\nAVAILABLE FROM 11 April 2027\nONE PERSON. \n\nRead the advertisement carefully. I will not answer you who want to rent before 11/4-27, have a smaller budget, are more than one or have pets.\n\nA lovely room in a clean and fresh apartment. \n The rent is 6000 SEK\nThe room is furnished with a 1.20 bed, 42\" TV, \ndresser with drawers, small desk, fridge/freezer, microwave, kettle, 3 large wardrobes and a few other small and good things for home comfort. \nWifi 500/500, electricity, heating and TV channels are included in the rent. Chromecast available\nWe share a shower, kitchen and dining area. \nYou have your own patio next to the room with outdoor furniture. Your own wardrobe in the hall for outerwear and extra shoes. \nBus and tram about 5 minutes away. \nIn the area there are restaurants, shops, pharmacies, health centers etc.\n\nDeposit 6000 SEK when the contract is signed.\n\nWe are a couple around 60. \nBoth work and are active on weekends and holidays. \nWe are looking for someone we feel we can trust when we travel and are away. \nThe room is for ONE person. No animals or smokers. \nWe want you to have employment in the form of work or school at least part-time. \nReferences, employer certificates or certificates from schools regarding the length and scope of education are required when presenting the room\n",
     "district": "Göteborg",
     "rooms": 1.0,
     "area_m2": 14.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Carlbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1492025",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5SFB1AQGX75CXGYWKXBV7J3.jpg",
-    "description": "Rum uthyres i centralt belägen villa i Örgryte – Perfekt för studenter\nVi hyr ut ett möblerat rum på ca 12 kvm. \n\nOm boendet\n🏡 Villan är 352 kvm, fördelad på tre våningar med källare, där varje våning är en separat lägenhet med egen entré och rummet som hyrs ut är på första våningen. Villan har en stor altan på 40 kvm, som alla boende kan använda för avkoppling och socialt umgänge.\n\nOm lägenheten & rummet\n-Lägenhet cirka 130 kvm. Ligger  första våningen, med egen entré.\n-Lägenheten har fyra sovrum, kök, vardagsrum och badrum.\n-Du delar köket, vardagsrummet och badrummet med tre andra studenter.\n-Rummet är ca 12 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n👩‍🎓För närvarande bor endast studenter i huset.\n\n📍 Utmärkt läge med goda kommunikationer:\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset, där det finns en välsorterad mataffär, apotek och Systembolaget.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Legendgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1491796",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5QT3WZ73JNA52RNEQ21KDXQ.jpg",
-    "description": "Bright and well-maintained second-floor of a duplex house for rent in a safe and quiet residential area. The unit is completely separated from the first floor and has a private entrance, offering good privacy. I'm looking for a new tenant since my current tenants are moving out at the end of October\n\nLocation:\n- Calm and safe neighborhood\n- 2-minute walk to Legendgatan bus stop\n- Approx. 900 m walk to Backa Kyrkogata bus stop\n\nApartment details:\n- Kitchenette suitable for everyday cooking\n- Walk-in closet with good storage space\n- Bathroom with bathtub\n- West-facing balcony with plenty of natural light\n- Washing machine inside the apartment\n\nFurnishing (partially furnished):\n- Bed\n- Dining table and chairs\n- Coffee table\n- TV stand\n- Electric stove, microwave oven, and toaster\n- Washing machine\n\nIncluded / not included:\n- Water included\n- 250 Mbps internet included\n- Electricity not included\n- Free outdoor parking included\n\nRental conditions\n- Suitable for one person or a couple\n- No pets, no children\n- Two months’ deposit\n- Rental period: 1 year with possibility of extension\n- Available from November 1\n\nThis apartment is ideal for tenants who appreciate a quiet and calm living environment. Preferably a working individual or couple with a regular daily routine.\n\nPlease send a short introduction about yourself when applying and please don't apply if you're more than 2 people.",
-    "district": "Hisings Backa",
-    "rooms": 2.5,
-    "area_m2": 60.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-25T16:35:56+00:00", "clock": "16:35:56"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-25T19:14:31+00:00", "clock": "19:14:31"};
