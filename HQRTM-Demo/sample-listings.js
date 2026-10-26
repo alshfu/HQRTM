@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Börsåsgatan 39, Hisings Backa",
+    "url": "https://qasa.com/p/1492465",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/9d59534e0c398985289bc5d38635e8f8690c595e435481229a451db5ededfac3.jpg",
+    "description": "Lägenhet på 60 kvm i suterrängplan i mindre hyresfastighet\n\n1 sovrum, 1 vardagsum och kök och toalett,  \n\nKomplett möblerad med 2 sängar, TV, fullt utrustat kök, kyl/frys, micro, kaffebryggare, porslin etc.\n\nEgen Tvättmaskin & Diskmaskin i lägenheten\n\nPopulärt område med nära till allt.\n10 min till Göteborgs centrum, 300m till busshållplats\n\nI hyran ingår\n• Värme\n• Varmvatten\n• Hushålls el\n• Internet\n\nLägenheten är tillåten för maximalt 2 personer\n\nLägenheten hyrs ut från 2026-11-02 \n\nHyra 8 500 kr/månad.\n\nDeposition med 4 000kr som återfås vid utflytt efter inspektion av lägenheten",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 60.0,
+    "rent": 8500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Altplatsen 3, Göteborg",
+    "url": "https://qasa.com/p/1492448",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/a513aed174dee01d7dc30bcf90679e18b3bf8e9d088c21ba77e22a347a7850bb.jpg",
+    "description": "Välplanerad tvåa med balkong!\nDenna rymliga och välplanerade tvåa om 58,7 kvm innehar stora öppna ytor och rikligt med ljusinsläpp.\nEn avgränsande hall med mycket god möbleringsförmåga och gott om förvaring för dig vidare in mot kök och vardagsrum, samtliga med ljusa moderna ytskikt. \nDet separata sovrummet innehar även det rikligt med förvaring och härligt ljusinsläpp. \n \nStandardinfo om lägenheten:\nVäggarna är vitmålade och golven består av parkett i samtliga rum.\nBadrummet är helkaklat i en ljusgrå ton och är utrustat med kombinerad tvättmaskin och torktumlare. Köket har vita skåpsluckor med grå bänkskiva, installerat finns också diskmaskin. \nBalkong eller uteplats finns i samtliga lägenheter oavsett storlek. \n \nFastighetsägaren tillämpar individuell mätning och debitering av varmvatten och el. Hyresgästen skall betala utifrån sin förbrukning till självkostnadspris. \n \nInformation om fastigheten\nFastigheten uppförs och står klar i början på 2024.\nI bottenplan etablerar sig Willys hemma och Nordic Wellness. I anslutning till bostadshuset byggs ett äldreboende som kommer att drivas i privat regi.\n \nFör att vi ska kunna erbjuda dig en välmående boendemiljö råder rökförbud i hela fastigheten. Lägenheter, gemensamhetsutrymmen, balkonger och gårdar är samtliga rökfria. Då avtal tecknas accepteras dessa villkor. \nHusdjur är tillåtna. \n \nOmråde\nMed promenadavstånd till natursköna Ruddalen och ett stenkast från butikerna på Frölunda Torg samt Frölunda kulturhus blir möjligheterna oändliga för dig som boende. På Ruddalens idrottscentrum återfinns motionsspår, frisbeegolf och fotbollsplaner. Vintertid anläggs även isbanor för skridskoåkning. Då Willys Hemma och Nordic Wellness öppnar i bottenplan blir det direktanslutning till så väl livsmedel som gym.\n \nEtt par minuters promenad bort finns spårvagns- och busshållplats. \n \nFör att bli godkänd som hyresgäst ställs följande krav:\n \n•\tDu ska ha fyllt 18 år\n•\tDu ska ha svenskt personnummer\n•\tAvtal skrivs endast med den person som har sökt lägenheten och denne ska ha lägenheten som stadigvarande bostad\n•\tVi accepterar inga betalningsanmärkningar\n•\tBoendereferens ska lämnas innan Du kan godkännas som intressent\n•\tInkomstkrav sätts i förhållande till Normalbeloppet för 2023. Med inkomst avses inkomst av tjänst eller studiemedel\n•\tHyresvärden anpassar regler för trångboddhet utefter storleken på Din lägenhet\n•\tVi tar ej emot personliga intresseanmälningar eller förfrågningar gällande uthyrningsprocessen av lägenheten via telefon eller mail.\n \nVisningar erbjuds ej.\n\nVälkommen med en intresseanmälan!\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 11860,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lilla Munkebäcksgatan, Göteborg",
+    "url": "https://qasa.com/p/1297002",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/360b8804ee0398c719cbef8324c49c67e0c46cf2018c6422a16a21b47f30bf96.jpg",
+    "description": "Takvåning med rymlig balkong med utsikt mot kolonilotterna och grönska.\nLägenheten är nyrenoverad med öppen planlösning. Helkaklat badrum med badkar och golvvärme. \n\nInternet och Tele2 TV ingår. \n\nSöker skötsam hyresgäst med stabil ekonomi.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 45.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Femkampsgatan, Göteborg",
     "url": "https://qasa.com/p/1492411",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5TTFCHZQZ92EXEPZHBPB2BD.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norra Ågatan, Göteborg",
-    "url": "https://qasa.com/p/1492198",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5SYM4SV86WS2X23ZEV8ZVMM.jpg",
-    "description": "LEDIGT FRÅN 11 April 2027\nEN PERSON\n\nLäs annonsen ordentligt.  Jag kommer inte svara er som vill hyra innan 11/4-27, har en mindre budget, är fler än en eller har husdjur med. \n\nEtt härligt rum i en ren  o fräsch lägenhet. \nHyran är 6000 kr\nRummet är möblerat med 1.20 säng, 42\" tv, \nbyrå med lådor, mindre skrivbord, kyl/frys, micro, vattenkokare, 3 stora garderober och lite annat smått o gott för hemtrivsel. \nWifi 500/500, el, värme och tv-kanaler ingår i hyran. Chromecast finns. \nVi delar dusch, kök o matplats. \nDu har egen uteplats i anslutning till rummet med utemöbler. Egen garderob i hallen för ytterkläder och extra skor. \nBuss o spårvagn ca 5 min bort. \nI området finns restauranger, butiker, apotek, vårdcentral mm mm\nBra att veta:\nVi passar en liten hund ibland.\n\nDeposition 6000 kr när kontraktet skrivs.\n\nVi är ett par runt 60. \nBåda jobbar och är aktiva på helger o semester. \nVi söker dig som vi känner att vi kan lita på när vi reser och är borta. \nRummet är för EN person. Inga djur eller rökare. \nVi vill att du har sysselsättning i form av arbete eller skola på minst deltid. \nReferenser, arbetsgivarintyg eller intyg från skola om utbildningens längd och omfattning önskas vid en ev presentation av rummet. \n\n\nAVAILABLE FROM 11 April 2027\nONE PERSON. \n\nRead the advertisement carefully. I will not answer you who want to rent before 11/4-27, have a smaller budget, are more than one or have pets.\n\nA lovely room in a clean and fresh apartment. \n The rent is 6000 SEK\nThe room is furnished with a 1.20 bed, 42\" TV, \ndresser with drawers, small desk, fridge/freezer, microwave, kettle, 3 large wardrobes and a few other small and good things for home comfort. \nWifi 500/500, electricity, heating and TV channels are included in the rent. Chromecast available\nWe share a shower, kitchen and dining area. \nYou have your own patio next to the room with outdoor furniture. Your own wardrobe in the hall for outerwear and extra shoes. \nBus and tram about 5 minutes away. \nIn the area there are restaurants, shops, pharmacies, health centers etc.\n\nDeposit 6000 SEK when the contract is signed.\n\nWe are a couple around 60. \nBoth work and are active on weekends and holidays. \nWe are looking for someone we feel we can trust when we travel and are away. \nThe room is for ONE person. No animals or smokers. \nWe want you to have employment in the form of work or school at least part-time. \nReferences, employer certificates or certificates from schools regarding the length and scope of education are required when presenting the room\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 14.0,
-    "rent": 6000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fjällgatan, Göteborg",
-    "url": "https://qasa.com/p/1492187",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5SXM0N6H1WPZCE1MSJJ4Y8Q.jpg",
-    "description": "Lugnt och centralt läge, nära Slottskogen, Majorna och Linnéstaden. Busshållplats inom 50m från dörr. En 99m2 etagelägenhet med vardagsrum på övervåningen. Nedervåning har 3 sovrum, kök, badrum och balkong. De tre sovrummen har sängar med storlek på: 90cm, 105cm och 160cm. 3:e våningen, (ej hiss).\n\nVi är bortresta tre månader och hyr endast ut under denna period från 2026-12-22 till 2027-03-30",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 99.0,
-    "rent": 11600,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skolspåret, Angered",
-    "url": "https://qasa.com/p/1492153",
-    "image_url": null,
-    "description": "Ljus och stor etta med balkong och stora fönster mot skogen. ",
-    "district": "Angered",
-    "rooms": 1.5,
-    "area_m2": 40.0,
-    "rent": 5500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-26T01:46:15+00:00", "clock": "01:46:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-26T07:03:53+00:00", "clock": "07:03:53"};
