@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Femkampsgatan, Göteborg",
+    "url": "https://qasa.com/p/1492411",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5TTFCHZQZ92EXEPZHBPB2BD.jpg",
+    "description": "Välskött och hemtrevlig 2:a med balkong och utsikt åt två väderstreck. Närhet till fina grönområden och busshållplats strax utanför lägenheten som tar en ner till centralstationen på 8 minuter. Gratis parkering längs gatorna i hela området.  Internet, värme och vatten ingår i hyran. Välutrustat tvättrum med två tvättmaskiner, torktumlare och torkrum som enkelt bokas via app. \n\nFlexibelt utflyttningsdatum från 20 dec- 6 januari. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 49.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Stabbegatan, Göteborg",
     "url": "https://qasa.com/p/1492324",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5T9BZ1W2844MMNXV5YKA50Z.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nordhemsgatan , Göteborg",
-    "url": "https://qasa.com/p/1485178",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4YW3ASSBA1PE4GYQDH495FR.png",
-    "description": "Hyr ut ett rum av 2 i lägenheten.  Lägenheten är 60 kvm stor, renoverad, nytt och fräscht. Rummet är möblerad med säng, soffa och bord. Ligger perfekt, några minuter till Järntorget, nära till kommunikationer, nära till \nallt! Inom några minuter når du hela Göteborg. Finns en kombinerad tvätt/tork i lägenheten, räcker inte det till så finns det en tvättstuga. Komplett kök med diskmaskin, ugn, häll och fläkt.och självklart mikro.  Elen ingår i hyran, wi-fi finns också.\nSöker dig som är skötsam, rent och fräscht ska det vara!\nDu kommer att dela lägenheten med en kille, skötsam och ordentlig.\nFrågor? Hör av dig. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 60.0,
-    "rent": 6950,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-25T23:41:40+00:00", "clock": "23:41:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-26T01:46:15+00:00", "clock": "01:46:15"};
