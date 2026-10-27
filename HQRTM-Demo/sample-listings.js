@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lyrfågelgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1494126",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5ZH927J55W52E6DA20MW33F.jpg",
+    "description": "Lägenheten som del i hus. Färdigställdes i samband med att huset renoverades 2021 och renoverades separat 2023. Fungerar bra för 1 person då allt finns såsom fullutrustat kök, egen toalett med tvättmaskin och sovalkov. Närhet till både spårvagn och buss för enkel kommunikation.  Perfekt för pendlare eller student.\n\nI hyran ingår el, vatten, sophämtning. ",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 27.0,
+    "rent": 7200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Rörstrandsgatan, Göteborg",
+    "url": "https://qasa.com/p/1466747",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/7d002176071b74d49526f9cc2e9c54516d21053838ec6091a5440a6e89ccfc01.jpg",
+    "description": "Välkommen till en trivsam genomgångs-tvåa där du bor med lugnt läge och utsikt mot en grön innergård. Här erbjuds en bostad med generösa ytor, fint ljusinsläpp och ett hem som passar lika bra för den som vill ha gott om plats som för den som arbetar hemifrån ibland.\n\nDet nyligen renoverade köket är både stilrent och praktiskt med bra förvaring och plats för matbord intill fönstret. Härifrån har du utsikt över den trevliga innergården med sittplatser och grillmöjligheter som skapar en härlig miljö under årets varmare månader. Även sovrummet vetter mot gården vilket ger ett lugnt och rofyllt läge.\n\nDet stora vardagsrummet erbjuder gott om plats för både soffgrupp, tv möbel och ytterligare möblemang. För den som önskar finns även möjlighet att skapa ett naturligt hörn för hemmakontor utan att rummet tappar sin luftiga känsla.\nBadrummet är stamrenoverat och helkaklat i tidlösa färger med en modern och fräsch känsla.\n\nHär bor du i ett trevligt område med närhet till all service du behöver såsom mataffärer, restauranger och goda kommunikationer. Samtidigt finns naturen nära med Rambergets fina promenadstråk och utsiktsplatser samt Jubileumsparkens hamnbadet där du kan njuta av både svalkande dopp och värmande bastu året om.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 58.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lokattsbacken, Västra Frölunda",
     "url": "https://qasa.com/p/1493936",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Z6G6JATHDSPJ2HEFJ08ZHE.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skalldalsbacken, Hovås",
-    "url": "https://qasa.com/p/1493650",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YK82WE0QBJRMP1H4KD9D6Y.png",
-    "description": "En trivsam tvåa med genomtänkt planlösning, generösa ytor och påtagligt lugn. Byggt 2023 där endast jag varit ägare. \nRymlig och välkomnande hall med god plats för avhängning.\nKomplett och modernt kök som möter vardagsrummet i öppen och social disposition med gott om plats för både matbord och soffgrupp. Därtill en stor generös balkong som knyter samman lägenheten med naturen. \nRymligt sovrum med plats för dubbelsäng och ytterligare möblering samt platsbyggda garderober med inredning. Även här ges direkt access till balkong. \nHelkaklat badrum med egen tvättmaskin och kombinerad torktumlare. \nGenerös klädkammare med mycket goda förvaringsmöjligheter utöver eget förråd som även finns att tillgå i byggnaden.\n\nKort gångavstånd till hållplatsen Hovås Nedre som snabbt tar dig in till Göteborgs Centrum och/eller kringliggande områden på nolltid. Därtill naturen runt hörnet med fina slingor samt gångavstånd till havet och badplatser i Askim och Hovås.  \n\nI hyran ingår värme, vatten, el och internet. \n\nUthyres pga. flytt till annan stad. ",
-    "district": "Hovås",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Sandbanksvägen, Hisings Backa",
-    "url": "https://qasa.com/p/1493702",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YMH96TPGQA1VQB4978MWPE.jpg",
-    "description": "Ljus och stilren etta med sovalkov och inglasad balkong i Skogome\n\nVälkommen till en trivsam och välplanerad etta på 34,2 kvm där ljusa ytskikt, vacker fiskbensparkett och ett stilrent kök skapar ett inbjudande hem. Här bor du i Skogome med bra kommunikationer in till centrala Göteborg.\n\nKöket har en modern utformning med vita, släta skåpsluckor, mörka bänkskivor och gott om förvaring. Här finns inbyggd ugn och mikro, spishäll, fläkt samt kyl och frys. Den praktiska bardisken ger extra arbetsyta och en naturlig plats för morgonkaffet eller en enkel middag.\n\nDen ombonade sovalkoven skapar en avskild plats för vila och ger en tydlig uppdelning mellan sömn och umgänge. Ljusa väggar och infällda spotlights bidrar till en behaglig atmosfär, medan fiskbensparketten tillför värme och karaktär.\n\nEn av bostadens stora tillgångar är den inglasade balkongen med generösa glaspartier och utsikt mot gårdens gräsytor och omgivande bebyggelse. Här finns plats för bord och stolar – en härlig miljö för frukost, läsning eller en avkopplande stund.\n\nBadrummet har vita kaklade väggar och mörkt klinkergolv, med dusch bakom glasvägg, takdusch, tvättställ med kommod och spegelskåp. Ett fönster släpper in dagsljus och egen tvättmaskin gör vardagen bekväm.\n\nEtt ljust och lättmöblerat hem med genomtänkta detaljer och en fin balans mellan funktion och trivsel.\n\nUthyres delvis möblerad med 160 cm säng, soffa, byråer och TV.\n\nInternet, tv, uppvärmning samt parkeringsplats ingår i hyran.",
-    "district": "Hisings Backa",
-    "rooms": 1.0,
-    "area_m2": 34.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-27T19:37:54+00:00", "clock": "19:37:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-27T23:11:30+00:00", "clock": "23:11:30"};
