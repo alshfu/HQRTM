@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lokattsbacken, Västra Frölunda",
+    "url": "https://qasa.com/p/1493936",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Z6G6JATHDSPJ2HEFJ08ZHE.jpg",
+    "description": "Härlig och rymlig etta med separat kök, sovalkov och uteplats. Lägenheten är 46,5 kvadratmeter med separat kök, mysig sovalkov och egen uteplats. Lägenheten har ett fint ljusinsläpp tack vare fönster i tre olika väderstreck, vilket skapar en ljus och luftig känsla. Från tidigt på morgonen ligger solen på uteplatsen och i köket. Under den ljusaste tiden på året stannar solen kvar på uteplatsen fram till omkring klockan två-tre på eftermiddagen, och visar sig på andra sidan på kvällen. Lägenheten ligger i ett mycket fint, lugnt och tryggt område med minimal trafik. Naturen är nära för fina promenader, från området kan man se havet som ligger ganska nära. I föreningen finns även en gemensam bastu. Spårvagnshållplatsen ligger mindre än 500 meter bort och busshållplatsen 300 meter bort.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 46.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Styrfarten, Göteborg",
+    "url": "https://qasa.com/p/1493913",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Z07957Y6KZ3NFBND8MXCHQ.jpg",
+    "description": "✨ Inneboende sökes, stor, ljus lägenhet nära havet ✨ Söker en trevlig inneboende till ett rum på ca 8 kvm i en 102 kvm stor, ljus och rymlig lägenhet. Lägenheten har dubbla balkonger på varsin sida, perfekt för både morgon och kvällssol 🌅🌞 🏖 Havet ligger bara en kort promenad bort 🚪 Egen toalett 🧺 Tvättstuga finns i huset 🚌 Goda kommunikationer med både buss och båt 👤 Om personen du bor med: Jimmie heter jag och driver eget företag och arbetar främst hemifrån (har även kontor). På fritiden gillar jag att spela dator- och TV-spel 🎮. Jag är lugn, trevlig och social men värdesätter också egentid. 📅 Inflytt: snarast 💰 Hyra: 7 500 kr/mån (inkl. el, värme & internet) Detta passar dig som vill bo rymligt, ljust och havsnära, och dela hem med en varm och omtänksam person. Dock ej vardagsrummet. Jag skickar gärna fler bilder till rätt person. Tills vidare bjuder jag på ett smakprov från balkongerna, så kan du ana känslan och stilen i lägenheten ✨ 📩 Skicka gärna ett PM med en kort presentation av dig själv om du är intresserad.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 8.0,
+    "rent": 7500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Kryddväxtgatan, Angered",
     "url": "https://qasa.com/p/1493828",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YTW8KDKE3WSE1DHVCAAPWR.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Övre Fogelbergsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1493655",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/caa862a59a8ce5a2ade6ce77f665fdf32fe5bf81bce414bb23c9bc591413d05c.jpg",
-    "description": "Nu har ni möjligheten att flytta in i en fantastisk lägenhet på Övre Fogelbergsgatan i Vasastaden. \nHär bor du med närhet till allt du kan tänkas behöva. \n\nLägenheten blir ledig 1 februari och är en 3 rum och kök på 80 kvm.\n\nVälkommen med din ansökan redan idag.\n\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 80.0,
-    "rent": 13303,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Landalagången, Göteborg",
-    "url": "https://qasa.com/p/1493418",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Y8H7Y9Y4HMECXKWM3CFZKQ.jpg",
-    "description": "Centralt rum beläget nära Chalmers för ickerökare. Tillgång till kök. Eget badrum. Wifi.  Tvättstuga i källarplan. Nära kommunikationer och affärer. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 27.0,
-    "rent": 8500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-27T14:37:26+00:00", "clock": "14:37:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-27T19:37:54+00:00", "clock": "19:37:54"};
