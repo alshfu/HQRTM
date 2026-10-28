@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Bronsåldersgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1272288",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c5407f85e1d7203ed692be7a368ce1c2c4b693fcd3f9e8be9791e76a540f84cc.jpg",
+    "description": "INNEBOENDES SÖKES from 1 Januari 2027\nHär finns ett mysigt och trevligt möblerat rum att hyra i Västra Frölunda, nära Opaltorget. \nLägenheten som totalt är på 3RoK ligger i ett vackert, lugnt och tryggt område med trevliga grannar nära Askimsviken och Näset. Stor lummig gård med uteplatser och grillplatser. Det är nära till spårvagn-och busshållplats med bra kollektivförbindelser, ca 20 min in till Centrum, Chalmers, Universitet etc. Vid torget, ca 6 min promenad, finns större mataffär, ekokött, apotek, läkare, tandläkare, kyrka, SGS studentboende och en stor lummig park. \nRummet har utsikt mot havet åt SÖ med morgonsol. Det är fullt möblerat med 120cm säng, sängbord, skrivbord, bokhylla, byrå, fåtölj och garderober. Ljusa väggar och textilier. \nVi delar kök, badrum, toalett och vardagsrum samt balkong åt gården o NV. Tvättstugan ligger nära lgh. Hela lägenheten är ca 80 kvm och rummet är ca 12 kvm. Rummet som uthyres ligger närmast entrén och mittemot köket, se planlösning sista bilden. \nI hushållet finns två härliga, sociala katter, så du måste gilla katter och kan inte vara allergiker. Hyran är 5950 kr i månaden, då ingår rum, delad övrig lgh, el och WiFi. En månadshyra i deposition. Söker gärna student eller veckopendlare men allt beror på person o hur vi kommer överens. Uthyres enbart till icke-rökare med ordnad ekonomi och goda referenser. Fler bilder på lägenheten sänds vid seriöst visat intresse.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5950,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1493363",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Y1HW16FPENKGCV6VD1C5GC.png",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styrfarten, Göteborg",
-    "url": "https://qasa.com/p/1493913",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Z07957Y6KZ3NFBND8MXCHQ.jpg",
-    "description": "✨ Inneboende sökes, stor, ljus lägenhet nära havet ✨ Söker en trevlig inneboende till ett rum på ca 8 kvm i en 102 kvm stor, ljus och rymlig lägenhet. Lägenheten har dubbla balkonger på varsin sida, perfekt för både morgon och kvällssol 🌅🌞 🏖 Havet ligger bara en kort promenad bort 🚪 Egen toalett 🧺 Tvättstuga finns i huset 🚌 Goda kommunikationer med både buss och båt 👤 Om personen du bor med: Jimmie heter jag och driver eget företag och arbetar främst hemifrån (har även kontor). På fritiden gillar jag att spela dator- och TV-spel 🎮. Jag är lugn, trevlig och social men värdesätter också egentid. 📅 Inflytt: snarast 💰 Hyra: 7 500 kr/mån (inkl. el, värme & internet) Detta passar dig som vill bo rymligt, ljust och havsnära, och dela hem med en varm och omtänksam person. Dock ej vardagsrummet. Jag skickar gärna fler bilder till rätt person. Tills vidare bjuder jag på ett smakprov från balkongerna, så kan du ana känslan och stilen i lägenheten ✨ 📩 Skicka gärna ett PM med en kort presentation av dig själv om du är intresserad.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-28T02:17:23+00:00", "clock": "02:17:23"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-28T08:43:36+00:00", "clock": "08:43:36"};
