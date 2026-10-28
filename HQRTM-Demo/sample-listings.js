@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lodjursstråket, Göteborg",
+    "url": "https://qasa.com/p/1493363",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5Y1HW16FPENKGCV6VD1C5GC.png",
+    "description": "Hyr ut min lägenhet på 24m2 på våning 10 i Karlatornet på grund av utlandsvistelse med möjlighet till förlängning. \nUthyrning är bundet till BRF godkännande.\n\nI hyra ingår: El, Varm- & kallvatten, uppvärmning. Lägenheten uthyrs delvis möblerad (utan säng 160-180cm säng får plats, men finns merparten av övriga möbler & redskap för att leva där, lista kan bifogas). 1m2 förråd är inkluderat.\n\nI lägenheten bor du med exklusiv inredning framtagen för just Karlatornet med högsta nyproduktionsstandard i form av ett stilsäkert HTH-kök, integrerade vitvaror, genomgående ekparkett samt helkaklat badrum som ger en lugnande spakänsla, precis som på hotell. \n\nDu bor på våning 10 med fönster från golv till tak, fransk balkong och utsikt över lugnande Ramberget.\n\nSom boende i Karlatornet har du tillgång till:\n•\tBemannad Reception/Lobby med Lounge\n•\tBiorum med & biostolar för större sällskap.\n•\tFullt utrustat bokningsbart kök våning 15 med panoramautsikt över Göteborg rymmer 25 sittande gäster.\n•\tTakterass med 360 graders vy över hela Göteborg\n•\tKonferensrum för större grupper\n•\tKylrum för evenemang\n•\tMedlemskap i bilpool\n•\tAllrum / Spelrum med pingisbord & loungefotöljer\n•\tSpa för djurvännerna\n•\tGym - våning 2\n\n- 50m Karlatornet Clarion Hotel\n- 50m Strawberry’s Elements Spa \n- 400m Kooperativet foodmarket\n- 700m Ica Kvantum\n- 200m Restauranger & caféer\n- 250m Buss till Centrum & Volvo Cars, Volvo Group\n- 600m båt till Stenpiren med Gratis färjetrafik\n\nVänta inte - ansök idag och hör av dig om du har frågor! ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 24.0,
+    "rent": 12385,
+    "floor": 10,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Oskarsgatan 9, Göteborg",
+    "url": "https://qasa.com/p/1494185",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/f6d3eb6105522e6a6de0ceea0f8c846e87a5aa6eae864f03edee9da10a2d3557.jpg",
+    "description": "Välkommen till denna charmiga lägenhet om 38 kvm på Oskarsgatan 9, även känd som Amerikahuset, i hjärtat av Göteborg.\nHär bor du i en fastighet med både karaktär och historia, vackert belägen med utsikt över älven. En av fastighetens uppskattade kvaliteter är den gemensamma inomhusgården – en trivsam och skyddad miljö som skapar möjlighet till gemenskap och avkoppling oavsett väder.\nBostaden erbjuder en välplanerad och behaglig inomhusmiljö där modern bekvämlighet möter historisk charm. För extra bekvämlighet finns tvättstuga på samma våningsplan, cykelrum i markplan samt förråd som hör till lägenheten.\nAmerikahuset bär på en fascinerande historia från en tid då handeln med Amerika var en viktig del av Göteborgs utveckling. Byggnaden präglas av tidstypiska detaljer och en genuin karaktär som gör boendet unikt.\nDenna lägenhet passar perfekt för dig som söker ett hem med personlighet, centralt läge och närhet till stadens puls – samtidigt som fastighetens miljö, inomhusgård och älvutsikt bidrar till en särskild känsla av Göteborgs rika historia och själ.\n\nInflytt: 2027-01-04\n2026 års hyra",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 38.0,
+    "rent": 6753,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Oskarsgatan 9, Göteborg",
+    "url": "https://qasa.com/p/1494183",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ed86897d35f1357120eaab10fc000de4dc978520544176088e35487df8c176e8.jpg",
+    "description": "Välkommen till denna charmiga lägenhet om 45 kvm på Oskarsgatan 9, även känd som Amerikahuset, i hjärtat av Göteborg.\nHär bor du i en fastighet med både karaktär och historia, vackert belägen med utsikt över älven. En av fastighetens uppskattade kvaliteter är den gemensamma inomhusgården – en trivsam och skyddad miljö som skapar möjlighet till gemenskap och avkoppling oavsett väder.\nBostaden erbjuder en välplanerad och behaglig inomhusmiljö där modern bekvämlighet möter historisk charm. För extra bekvämlighet finns tvättstuga på samma våningsplan, cykelrum i markplan samt förråd som hör till lägenheten.\nAmerikahuset bär på en fascinerande historia från en tid då handeln med Amerika var en viktig del av Göteborgs utveckling. Byggnaden präglas av tidstypiska detaljer och en genuin karaktär som gör boendet unikt.\nDenna lägenhet passar perfekt för dig som söker ett hem med personlighet, centralt läge och närhet till stadens puls – samtidigt som fastighetens miljö, inomhusgård och älvutsikt bidrar till en särskild känsla av Göteborgs rika historia och själ.\n\nInflytt: 2027-01-04\n2026 års hyra",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 45.0,
+    "rent": 7436,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lyrfågelgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1494126",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5ZH927J55W52E6DA20MW33F.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddväxtgatan, Angered",
-    "url": "https://qasa.com/p/1493828",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YTW8KDKE3WSE1DHVCAAPWR.jpg",
-    "description": "Trevlig lägenhet på 2 rum och kök i ett lugnt och etablerat villaområde i Angered, nära natur och Surtesjön.\n\nPlanlösning\nLägenheten består av vardagsrum, sovrum, kök och badrum. Lägenheten är en del av en villa men helt separat, med egen ingång och allt fristående från villan.\n\nUtomhus\nParkering för en bil.\n\nMöblering\nLägenheten hyrs ut omöblerad. Möblering kan ordnas efter önskemål mot ett tillägg i hyran.\n\nDriftkostnader\nSophämtning, el, värme och vatten tillkommer på hyran och beräknas utifrån antalet boende.\n\nKommunikation\nBusshållplats Kryddnejlikegatan på gångavstånd och cirka 2 km till Angered centrum med spårvagn till Göteborgs centrum. Goda förbindelser till Hisingen och arbetsplatser som Volvo, Sahlgrenska och Gamlestaden.\n\nVillkor\n\n\t•\tTillsvidareavtal med tre månaders ömsesidig uppsägningstid\n\t•\tHyresgästen ansvarar för hemförsäkring\n\t•\tLugnt boende i villaområde – hänsyn till grannar är ett krav\n\nVarmt välkommen med din intresseanmälan och en kort presentation av dig själv, din sysselsättning och hur många ni är i hushållet.",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 8490,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fastlagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1493844",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YVGJRJ6PVHF6158RD2DV0R.jpg",
-    "description": "Rymligt och ljus 3:a — Kortedala, Göteborg\nEn välbelägen lägenhet uthyres på femte våningen i Kortedala. Lägenheten har fönster åt tre håll med insynsfritt läge mot grönska och ett lugnt, omtyckt läge en kvart från centrum med spårvagnen.\nLägenheten är rymlig och passar dig som söker ett tryggt och välskött boende med en ansvarsfull hyresvärd.\nOm rummen:\nTvå sovrum ett vardagsrum plus förvaringsrum\nMöblerat\n\nDelade ytor:\nKök med fullutrustad köksutrustning\nBadrum med dusch, wc och fönster\nVardagsrum\nHall\nIngår i hyran:\nVatten och värme\nFiber 1000/1000 Mbit/s\nTillgång till tvättstuga i huset\nGym i föreningen för 50 kr/månad\n\nÖvrigt:\nParkering kan ordnas för ca 270 kr/månad\nHiss finns.\nSpårvagnshållplats nära, 15 min till centrum\n\nHyresvärd: Ägaren är bortrest under Januari-April för studier.\nTillträde: 18 januari eller senare — förlängning av tre månaders hyresperiod kan diskuteras.\nPris: 12000 sek",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 66.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kastellgatan, Göteborg",
-    "url": "https://qasa.com/p/1493795",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YS9ZZZF4Y6EVX5CSA4CXQ4.jpg",
-    "description": "Charmig sekelskifteslägenhet med i Linné\n\nPå Kastellgatan, intill Skansberget, finns denna personliga lägenhet om 50 m² och 1,5 rum. Drygt tre meters takhöjd, originalbrädgolv, stuckatur och stora fönster ger ett ljust och luftigt hem med utsikt mot grönska.\n\nBostaden har ett välutrustat kök med matplats och diskmaskin, vardagsrum, rymlig klädkammare samt badrum med dusch och tvättmaskin. Sovplatsen ligger på ett specialbyggt loft och nås via trappa. Egen entré med trappa upp till bostaden.\n\nHär bor du nära Linnés restauranger, caféer, mataffärer och butiker, med promenadavstånd till Haga, Järntorget och Slottsskogen. Spårvagnar och bussar finns i närområdet både Annedal och Prinsgatan. Läget mot Skansberget ger en grön inramning mitt i staden.\n\nHyr ut lägenheten för att jag har fått barn och bor nu större, annars hade jag aldrig flyttat...\n\nHyrs ut delvis möblerad, med möjlighet att anpassa möbleringen efter överenskommelse.\n\nHYRA TBD",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 50.0,
-    "rent": 14153,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-27T23:11:30+00:00", "clock": "23:11:30"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-28T02:17:23+00:00", "clock": "02:17:23"};
