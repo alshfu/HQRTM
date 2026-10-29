@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Storgatan, Göteborg",
+    "url": "https://qasa.com/p/1495635",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6452F8N88BP4H35RC9HDHBE.jpg",
+    "description": "Studio lägenhet 30 kvm Storgatan i centrala Göteborg uthyres.   Lägenheten är nyrenoverad, mycket fräsch och ljus. Lägenheten består av ett vardagsrum med soffa och bord, ett fullt utrustat kök,  ett badrum med dush, toalett samt tvättmaskin/torktumlare.  Sängen befinner sig i loftet. Ett skrivbord och en stol finns tillgängligt om så önskas. El, vatten, värme och internet ingår i hyran. \n\nStudio apartment 30 sqm Storgatan in the centre of Gothenburg available. The apartment is renovated to a high standard and is very bright and fresh.  It has a living room with sofa and a table, a fully equipped modern kitchen with oven, fridge and freezer. The bathroom has toilet, shower washing machine/dryer.   The bed is situated in the loft easily accessible via stairs. A working desk and a chair is available if needed. Electricity, heating, water and Internet are included in the rent.\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 8000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fastlagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1494829",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M61JF0219PPBHNWH10K248MM.jpg",
+    "description": "Hyr ut min fina lägenhet i Kortedala och söker en pålitlig hyresgäst. \n\nLägenheten är en ljus och rymlig 54kvm belägen i ett lugnt och trevligt område med närhet till spårvagn 5 min bort. \n\nBeskrivning av lägenheten:\n\nStorlek: 54 kvm \nUtrustning: fullt möblerad, diskmaskin samt inglasad balkong. \nHyra: 10.500 ingår el, vatten, internet. \n\n\nFöreningen erbjuder gym, bastu, övernattningslägenhet samt festlokal. \n\nHelt nyrenoverad tvättstuga finns på plats med 4 tvättmaskiner. \n\nDet finns tillgång till cykel & vagn rum inomhus samt så kan man ansöka om parkeringsplats. \n\nSöker en djur och rökfri person. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 54.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Plåtmyntsgatan, Göteborg",
+    "url": "https://qasa.com/p/1495618",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M643X17W4N69BSHR5GR1ZM40.jpg",
+    "description": "Möblerad 2-rumslägenhet uthyres – nära Axel Dahlstöms torget / Högsbotorp\n\nNu hyr jag ut min fina och fullt möblerade 2-rumslägenhet med ett lugnt och bra läge nära centrum.\n\nLägenheten har:\n\n2 rum och kök\nBalkong\nFullt möblerad\nKök med det som behövs\n\nI hyran ingår:\n\nVärme\nVatten\nInternet \nÖvriga driftkostnader enligt överenskommelse.\n\nEl ingår inte och betalas av hyresgästen.\n\nLägenheten passar perfekt för en person eller ett par. Goda kommunikationer finns i närheten och området är lugnt med närhet till natur och service.\n\nSkicka gärna ett meddelande och berätta lite om dig själv om du är intresserad\n\n- 2 första månadshyrorna betalas som depositions",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 57.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Skintebovägen, Billdal",
     "url": "https://qasa.com/p/1486754",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M54P2Z9P7PJP2369TXXEXRHE.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddväxtgatan, Angered",
-    "url": "https://qasa.com/p/1493828",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YTW8KDKE3WSE1DHVCAAPWR.jpg",
-    "description": "Trevlig lägenhet på 2 rum och kök i ett lugnt och etablerat villaområde i Angered, nära natur och Surtesjön.\n\nPlanlösning\nLägenheten består av vardagsrum, sovrum, kök och badrum. Lägenheten är en del av en villa men helt separat, med egen ingång och allt fristående från villan.\n\nUtomhus\nParkering för en bil.\n\nMöblering\nLägenheten hyrs ut omöblerad. Möblering kan ordnas efter önskemål mot ett tillägg i hyran.\n\nDriftkostnader\nSophämtning, el, värme och vatten tillkommer på hyran och beräknas utifrån antalet boende.\n\nKommunikation\nBusshållplats Kryddnejlikegatan på gångavstånd och cirka 2 km till Angered centrum med spårvagn till Göteborgs centrum. Goda förbindelser till Hisingen och arbetsplatser som Volvo, Sahlgrenska och Gamlestaden.\n\nVillkor\n\n\t•\tTillsvidareavtal med tre månaders ömsesidig uppsägningstid\n\t•\tHyresgästen ansvarar för hemförsäkring\n\t•\tLugnt boende i villaområde – hänsyn till grannar är ett krav\n\nVarmt välkommen med din intresseanmälan och en kort presentation av dig själv, din sysselsättning och hur många ni är i hushållet.",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 8490,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddväxtgatan, Angered",
-    "url": "https://qasa.com/p/1488694",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5CEVJ0WGH865J2Y1AZQA4Z4.jpg",
-    "description": "Rymlig villa i två plan i ett lugnt och etablerat villaområde i Angered, nära natur och Surtesjön.\n\nPlanlösning\nÖvre plan: tre sovrum, allrum med takfönster samt badrum med bubbelbadkar och dusch.\nNedre plan: vardagsrum med utgång till uterummet, stort modernt kök med inbyggda vitvaror, diskmaskin och matplats, inglasat uterum med golvvärme och utsikt över trädgården samt separat toalett.\nTvättmaskin och torktumlare finns i bostaden. Luftkonditionering finns i allrum och vardagsrum.\n\nOBS: Planritningen visar hela fastigheten. Den rödmarkerade delen är en separat lägenhet som inte ingår i uthyrningen.\n\nUtomhus\nStor inhägnad trädgård, stenlagd terrass samt parkering för en bil.\n\nMöblering\nVillan hyrs ut omöblerad. Möblering kan ordnas efter önskemål mot ett tillägg i hyran.\n\nDriftkostnader\nSophämtning, el, värme och vatten tillkommer på hyran och beräknas utifrån antalet boende.\n\nKommunikation\nBusshållplats Kryddnejlikegatan på gångavstånd och cirka 2 km till Angered centrum med spårvagn till Göteborgs centrum. Goda förbindelser till Hisingen och arbetsplatser som Volvo, Sahlgrenska och Gamlestaden.\n\nVillkor\n\n\t•\tTillsvidareavtal med tre månaders ömsesidig uppsägningstid\n\t•\tHyresgästen ansvarar för hemförsäkring samt skötsel av trädgården\n\t•\tLugnt boende i villaområde – hänsyn till grannar är ett krav\n\nVarmt välkommen med din intresseanmälan och en kort presentation av dig själv, din sysselsättning och hur många ni är i hushållet.",
-    "district": "Angered",
-    "rooms": 6.0,
-    "area_m2": 120.0,
-    "rent": 18500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Onyxgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1495078",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M627H4HD3JB4YAZWAR3RSJ06.jpg",
-    "description": "Ljus och modern trea – 3 rum och kök (61 m², 2 sovrum + vardagsrum) på våning 5 i ett nybyggt hus (2024) på Onyxgatan, Västra Frölunda. Balkong med kvällssol och fin utsikt.\n\nLÄGET\n- 30 sekunder till matbutik\n- 1 minut till spårvagnshållplatsen (linje 1 och 7)\n- 30 sekunder till Opalparken\n- Direkt spårvagn till Sahlgrenska, Chalmers, Linnégatan och centrala Göteborg\n\nBOSTADEN\n- Diskmaskin och ugn\n- Egen tvättmaskin och torktumlare\n- Balkong och hiss\n- Wifi ingår\n- Delvis möblerad (se bilderna)\n\nUthyrning från januari 2027 på 1 år, med möjlighet till förlängning. Jag hyr ut eftersom jag ska arbeta på annan ort.\n\nObservera: Uthyrningen kräver godkännande av bostadsrättsföreningens styrelse. Ansökan lämnas in med den valda hyresgästens uppgifter (namn, kontaktuppgifter och antal personer i hushållet). Styrelsen sammanträder normalt en gång i månaden.\n\n---\n\nBright, modern 3-room apartment (61 m²: 2 bedrooms + living room, plus kitchen) on the 5th floor of a new building (2024) on Onyxgatan, Västra Frölunda, Gothenburg. Balcony with evening sun and a nice view.\n\nLOCATION\n- 30 seconds to the grocery store\n- 1 minute to the tram stop (lines 1 and 7)\n- 30 seconds to Opalparken\n- Direct tram to Sahlgrenska, Chalmers, Linnégatan and central Gothenburg\n\nTHE APARTMENT\n- Dishwasher and oven\n- Own washing machine and tumble dryer\n- Balcony and elevator\n- Wifi included\n- Partly furnished (see photos)\n\nAvailable from January 2027 for 1 year, with the possibility of extension. I am renting it out because I will be working in another city.\n\nPlease note: the rental is subject to approval by the housing association's board. The application is submitted with the selected tenant's details (name, contact details and number of people in the household). The board normally meets once a month.",
-    "district": "Västra Frölunda",
-    "rooms": 3.0,
-    "area_m2": 61.0,
-    "rent": 12000,
-    "floor": 5,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-29T12:51:54+00:00", "clock": "12:51:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-29T18:43:54+00:00", "clock": "18:43:54"};
