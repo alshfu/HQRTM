@@ -18,21 +18,6 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Fastlagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1494829",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M61JF0219PPBHNWH10K248MM.jpg",
-    "description": "Hyr ut min fina lägenhet i Kortedala och söker en pålitlig hyresgäst. \n\nLägenheten är en ljus och rymlig 54kvm belägen i ett lugnt och trevligt område med närhet till spårvagn 5 min bort. \n\nBeskrivning av lägenheten:\n\nStorlek: 54 kvm \nUtrustning: fullt möblerad, diskmaskin samt inglasad balkong. \nHyra: 10.500 ingår el, vatten, internet. \n\n\nFöreningen erbjuder gym, bastu, övernattningslägenhet samt festlokal. \n\nHelt nyrenoverad tvättstuga finns på plats med 4 tvättmaskiner. \n\nDet finns tillgång till cykel & vagn rum inomhus samt så kan man ansöka om parkeringsplats. \n\nSöker en djur och rökfri person. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 54.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
     "title": "Plåtmyntsgatan, Göteborg",
     "url": "https://qasa.com/p/1495618",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M643X17W4N69BSHR5GR1ZM40.jpg",
@@ -105,6 +90,21 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kryddväxtgatan, Angered",
+    "url": "https://qasa.com/p/1493828",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YTW8KDKE3WSE1DHVCAAPWR.jpg",
+    "description": "Trevlig lägenhet på 2 rum och kök i ett lugnt och etablerat villaområde i Angered, nära natur och Surtesjön.\n\nPlanlösning\nLägenheten består av vardagsrum, sovrum, kök och badrum. Lägenheten är en del av en villa men helt separat, med egen ingång och allt fristående från villan.\n\nUtomhus\nParkering för en bil.\n\nMöblering\nLägenheten hyrs ut omöblerad. Möblering kan ordnas efter önskemål mot ett tillägg i hyran.\n\nDriftkostnader\nSophämtning, el, värme och vatten tillkommer på hyran och beräknas utifrån antalet boende.\n\nKommunikation\nBusshållplats Kryddnejlikegatan på gångavstånd och cirka 2 km till Angered centrum med spårvagn till Göteborgs centrum. Goda förbindelser till Hisingen och arbetsplatser som Volvo, Sahlgrenska och Gamlestaden.\n\nVillkor\n\n\t•\tTillsvidareavtal med tre månaders ömsesidig uppsägningstid\n\t•\tHyresgästen ansvarar för hemförsäkring\n\t•\tLugnt boende i villaområde – hänsyn till grannar är ett krav\n\nVarmt välkommen med din intresseanmälan och en kort presentation av dig själv, din sysselsättning och hur många ni är i hushållet.",
+    "district": "Angered",
+    "rooms": 2.0,
+    "area_m2": 42.0,
+    "rent": 8490,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-29T18:43:54+00:00", "clock": "18:43:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-29T22:59:54+00:00", "clock": "22:59:54"};
