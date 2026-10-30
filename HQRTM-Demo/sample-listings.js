@@ -3,9 +3,39 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Citrongatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1496630",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66YJVPQ4JXA4Y3529MK28M7.jpg",
+    "description": "Här erbjuds Ni en arkitektritad lägenhet på 30kvm + 12kvm sovloft med en 40 kvm stor altan belägen i Fiskebäck.\n\n\nPå insidan möts du av ett modernt fullutrustat kök med inbyggnadsugn och micro, spishäll, kyl/frys och diskmaskin. Ett vardagsrum möblerat med byråer, soffa, tv-bord och bänk och hela 3.5m till tak. Även badrummet är fullutrustat med tvättmaskin och torktumlare.\n\nVidare på sovloftet finns dubbla sängbottnar samt en byrå och en smidig sänggavel för mindre förvaring.\n\nPå utsidan har Ni egen separat entré som leder upp till en stor altan på 40 kvm där en pergola står med tillhörande soffgrupp där Ni kan njuta av kvällssolen.\n\nHela lägenheten har golvvärme. \nWifi finns tillgängligt både inomhus och utomhus,\nBusshållplats finns strax utanför dörren som tar Er till Frölunda torg på 12 min och till Brunnsparken på 30 min. Ca 5 min gångväg till Ica butik och ca 20 min gångväg till Fiskebäcksbadet.\n\nLägenheten hyrs ut med “fast” möblemang såsom dubbla sängbottnar, byråer, tv-bänk/bord, soffa, köksbord med stolar och utomhusmöbler.\n\nAllt byggt med noga utvalda kvalités material och produkter. \n\nVi söker dig som är aktsam, ordningsam, rök/djur fri och fri från betalningsanmärkningar.\nEnbart intresserad av personer som vill hyra minst 1 år eller mer. El bils laddning ingår ej\n\nI hyran ingår allt såsom vatten, sopor, el, parkering, wifi och möblemang.\n\nMvh Emil & Emmy",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 42.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Masthuggsliden, Göteborg",
+    "url": "https://qasa.com/p/1496611",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66Y5WA5JZ4TYYDNWNBMGX8G.jpg",
+    "description": "Ljus 2,5:a med inglasad terrass i Masthugget – flexibel möblering!\n\nVälkommen till Masthuggsliden 20! Här erbjuds en ljus och välplanerad bostad om 63,5 m² med öppen planlösning, stora fönsterpartier och en inglasad terrass i söderläge. Terrassen förlänger bostaden och blir en härlig plats att vistas på under stora delar av året.\n\nKök och vardagsrum bildar en social och luftig yta med gott om plats för både matbord och soffgrupp. Köket har bra arbetsytor och diskmaskin. Bostaden disponeras som 2,5 rum med ett rymligt sovrum och ett mindre, tillbyggt extrarum som kan användas som hemmakontor, gästrum eller extra sovutrymme.\n\nDET HÄR ERBJUDER BOSTADEN\n\n* Inglasad terrass i söderläge\n* Öppen planlösning och fint ljusinsläpp\n* Sovrum samt flexibelt extrarum\n* Diskmaskin\n* Egen tvättmaskin och torktumlare\n* Golvvärme i hall och badrum\n* Goda förvaringsmöjligheter och hiss\n\nFLEXIBEL MÖBLERING\n\nLägenheten kan hyras omöblerad eller med möbler efter överenskommelse. Just nu finns bland annat soffor och en våningssäng kvar. Det finns också möjlighet att komplettera med exempelvis dubbelsäng, matbord och stolar.\n\nExakt möblering bestäms innan avtal skrivs. Bilderna visar tidigare möblering och alla möbler som syns ingår inte automatiskt.\n\nOMRÅDET\n\nMasthugget är ett omtyckt område med närhet till Linné, Majorna och centrala Göteborg. Här finns restauranger, kaféer, matbutiker, grönområden och goda kollektivtrafikförbindelser.\n\nHYRA OCH VILLKOR\n\n* Hyra: 16 900 kr/månad\n* Värme, vatten och bredband ingår\n* El ingår inte – hyresgästen tecknar eget elavtal\n* Parkering ingår inte\n* Husdjur välkomna\n* Rökning inte tillåten i bostaden\n* Planerat tillträde 1 december 2026, eventuellt tidigare efter överenskommelse och föreningens godkännande\n* Planerad uthyrning tills vidare med tre månaders uppsägningstid\n\nVIKTIGT OM UTHYRNINGEN\n\nUTHYRNINGSPERIOD OCH VILLKOR\n\nPlanerad uthyrning tills vidare med tre månaders uppsägningstid för båda parter. Tillträde från 1 december 2026 eller enligt överenskommelse.\n\nBostaden ligger samtidigt ute till försäljning. Uthyrningen kan därför komma att avslutas vid en försäljning, med avtalad uppsägningstid. Eventuella mäklarvisningar planeras i samråd med hyresgästen, med målsättningen att ge minst tre dagars framförhållning.\n\nUthyrningen och avtalsupplägget förutsätter bostadsrättsföreningens godkännande. Föreningen beviljar tillstånd för högst ett år i taget.\n\nBerätta gärna vilka som ska bo i lägenheten, när du vill flytta in och om du önskar möblering.\n\nVälkommen att höra av dig!",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 63.0,
+    "rent": 16900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Norra Liden, Göteborg",
     "url": "https://qasa.com/p/1496534",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66Q2B04MEXJ1SW8H2NH5EPF.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66RHCPD8DAG7GJ73NK815CN.jpg",
     "description": "Möjligt att hyra depositionsfritt genom Samtrygg. Månadskostnad: 18400 kr. \n________________________________________________________________\n\nSnabbast bokar du visning genom att följa denna länk till Samtrygg:\nhttps://www.samtrygg.se/object/a42epykogtnu9ynflagl/vastra-gotaland/goteborg/norra-liden-8/2-rok?utm_source=blocket&utm_medium=referral \n\nHär hittar du även fler bilder och mer info.\n________________________________________________________________ \n\nLjus och rymlig 2:a på 69 kvm med attraktivt läge på Norra Liden i centrala Göteborg.\r\nLägenheten har en fantastisk utsikt över vattnet och staden och hyrs ut fullt möblerad. Här finns ett trivsamt vardagsrum, sovrum, kök och badrum. Köket är utrustat med bland annat en ny diskmaskin.\r\nHär bor du centralt med närhet till restauranger, butiker, kollektivtrafik och fina promenadstråk.\r\nLägenheten hyrs ut under cirka ett år eftersom ägaren arbetar utomlands.\r\nVi söker en skötsam och ansvarsfull hyresgäst som tar väl hand om lägenheten.\n\nThis accommodation is rented out through Samtrygg. Monthly cost: 18400 kr.\nBook a viewing by following the above link to Samtrygg;",
     "district": "Göteborg",
     "rooms": 2.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Grimmeredsvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1496186",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M666MSMJA9206EVWX9QP3WFE.jpg",
-    "description": "Lägenhet i bottenvåningen i ett tvåfamiljshu Direktutgång till trädgården från sovrummen. Stort vsrdagsrum i vinkel.",
-    "district": "Västra Frölunda",
-    "rooms": 3.5,
-    "area_m2": 85.0,
-    "rent": 13000,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lillhagsvinkeln 25, Göteborg",
-    "url": "https://qasa.com/p/1496346",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/66cbacdfcb82033d245b1308aedc243c8605adbfdb06bb7940fda4080dd58746.png",
-    "description": "2 rum och kök med högt i tak och höga fönsterpartier. Trevlig balkong åt en park mot väster med eftermiddagssol.\nInflyttning kan ske tidigare då nuvarande hyresgäst redan har flyttat ut.\nRökning är inte tillåten i lägenheten eller på balkongen.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 11733,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-30T15:40:07+00:00", "clock": "15:40:07"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-30T20:08:29+00:00", "clock": "20:08:29"};
