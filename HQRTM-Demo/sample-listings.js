@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Ångaren Indias Gata, Göteborg",
+    "url": "https://qasa.com/p/1495889",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M64Z136HH5K85892SDG9GJHY.jpg",
+    "description": "Detta är en stor studio med stora fönsterrutor och med renoverat kök & badrum.\nMöblerat och klart nära busshållplats och 50m till vatten. Tv,  internet och el ingår i hyran.\nDet finns dubbelsäng och lägenhet passar till 2 personer.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 45.0,
+    "rent": 14000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Uggleberget, Hovås",
+    "url": "https://qasa.com/p/1495882",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M64VPCB3Y4A6XYF7JJTVBZGW.jpg",
+    "description": "Nyproducerad lägenhet. Lugnt o fint område nära till allt: restauranger, ICA, gym, vårdcentralen, havet. Busshålplats 5 min, 20 min till stan direkt linje.\nVardagsrum på 20 m2 tillsammans med kök som är full utrustad med Siemens utrusningen. Sovrum på 15 m2 med dubbelsäng och nya Emma madrassen med fõrvaro, helkalkad badrummet med golvvärme, dusch, tvättmaschine och torktumlare.\nStor, ljusig balkong som tittar mot söder.\nCykelrum...osv\nI hyran (14500 kr) ingår allt förutom el, alltså vatten, TV, wifi och värme.\nFinns stor parkeringshus i källaren som ej ingår.\nVälkommen!",
+    "district": "Hovås",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Storgatan, Göteborg",
     "url": "https://qasa.com/p/1495635",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6452F8N88BP4H35RC9HDHBE.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kortedala Torg, Göteborg",
-    "url": "https://qasa.com/p/1495057",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M62587DFXP960BD0MF8YEVC8.png",
-    "description": "Omöblerad lägenhet på entréplan, mitt på Kortedala Torg, hyrs ut tillsvidare.\n\nHär finns inglasad balkong, diskmaskin, tvättmaskin och torktumlare. Gott om förvaring i lägenheten, plus ett förråd i källaren. Internet via fiber (600/600 Mbit/s) och Telias TV & Streaming Start (6 kanaler) ingår i hyran.\n\nHemköp, apotek, vårdcentral, folktandvård och flera restauranger finns knappt två minuter bort. Spårvagnen går direkt från torget, och med 7:an eller 11:an är du i centrum på 15 minuter.\n\nJag söker dig som har fast inkomst, är skötsam och tar väl hand om lägenheten. Ingen rökning (inte heller på balkongen) och inga husdjur.\n\nLägenheten är till salu, så visningar kan förekomma enligt överenskommelse. Vid försäljning gäller tre månaders uppsägningstid.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 41.0,
-    "rent": 9900,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kryddväxtgatan, Angered",
-    "url": "https://qasa.com/p/1493828",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5YTW8KDKE3WSE1DHVCAAPWR.jpg",
-    "description": "Trevlig lägenhet på 2 rum och kök i ett lugnt och etablerat villaområde i Angered, nära natur och Surtesjön.\n\nPlanlösning\nLägenheten består av vardagsrum, sovrum, kök och badrum. Lägenheten är en del av en villa men helt separat, med egen ingång och allt fristående från villan.\n\nUtomhus\nParkering för en bil.\n\nMöblering\nLägenheten hyrs ut omöblerad. Möblering kan ordnas efter önskemål mot ett tillägg i hyran.\n\nDriftkostnader\nSophämtning, el, värme och vatten tillkommer på hyran och beräknas utifrån antalet boende.\n\nKommunikation\nBusshållplats Kryddnejlikegatan på gångavstånd och cirka 2 km till Angered centrum med spårvagn till Göteborgs centrum. Goda förbindelser till Hisingen och arbetsplatser som Volvo, Sahlgrenska och Gamlestaden.\n\nVillkor\n\n\t•\tTillsvidareavtal med tre månaders ömsesidig uppsägningstid\n\t•\tHyresgästen ansvarar för hemförsäkring\n\t•\tLugnt boende i villaområde – hänsyn till grannar är ett krav\n\nVarmt välkommen med din intresseanmälan och en kort presentation av dig själv, din sysselsättning och hur många ni är i hushållet.",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 42.0,
-    "rent": 8490,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-29T22:59:54+00:00", "clock": "22:59:54"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-30T02:31:38+00:00", "clock": "02:31:38"};
