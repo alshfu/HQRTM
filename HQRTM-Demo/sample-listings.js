@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hackspettsgatan, Göteborg",
+    "url": "https://qasa.com/p/1496753",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M68E3XQDRR3G3MP4DTZJ3XCD.jpg",
+    "description": "Ljus och väldisponerad lägenhet på 105 kvm med öppen planlösning uthyres på andra våningen i flerfamiljsvilla. Två sovrum, varav ett har utgång till stor balkong. Ett badrum med badkar och toalett finnes men det finns även en gästtoalett. Öppen planlösning mellan kök, matsal och vardagsrum. I vardagsrummet finns en fungerande öppen spis samt utgång till balkong. Härlig utsikt i vardagsrum. Nyslipade parkett golv. Stor möblerbar hall. Egen uteplats finns i trädgården. Lugnt område. Parkering finns gratis på gatan utanför. Lägenheten hyrs ut i andra hand tillsvidare och är en del av en flerfamiljsvilla. Nära till busshållplats, centrum och leden samt flygplats. Plats för cykel finns i garage. I hyran ingår värme och vatten. Man betalar själv för egen förbrukning av el samt fiber. Stor tvättstuga som delas med övriga 2 hyresgäster. ",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 105.0,
+    "rent": 16300,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Nedergårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1496046",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M660E6BMDYERNGXWP7J1CB0Z.jpg",
+    "description": "Flerfamiljvilla som är en Brf (bostadsrättsförening med 3 lägenheter med extra rum i bottenplan som uthyres. Villan ligger i ett lugnt område nära Skatås. \n3 min till buss o spårvagnsmöjligheter in till Göteborg som tar 15 min.\nRummet är på mark/bottenplan och man har egen toalett/dusch i tvättstugan på samma plan. Där finns också möjlighet att diska.\nInternet, el och värme ingår i hyran. I rummet finns säng, garderob, spisplatta, skrivbord/stol, hyllor.\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 4500,
+    "floor": 0,
+    "has_balcony": null,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Bua Västergårdsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/603459",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/98754ff9cc5012186a7fcd4eb4ad114f49c87d43659e48dbbb7cbd8d40f035a5.jpg",
+    "description": "Huset på näset är 35 kvadrat och fullt utrustat med kök och badrum.  Det ligger nära fina bad, bland annat Smittska udden och Stegerholmens badplats . Det är dessutom nära till kommunikationer, som tar dig till Frölunda torg på 10 minuter och centrum på 25 minuter. Från huset går det en stig upp på Valeberget till en gammal Tullstuga, där man har milsvid utsikt över skärgård och ända in till centrum.\nJag som hyr ut är intresserad av att hyra ut till någon som även tycker om att ta hand om sin del av trädgården där man även får lov att odla.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 35.0,
+    "rent": 9250,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Citrongatan, Västra Frölunda",
     "url": "https://qasa.com/p/1496630",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66YJVPQ4JXA4Y3529MK28M7.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lindholmsallén, Göteborg",
-    "url": "https://qasa.com/p/1496413",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66G8XH18RMA89YEN7GSJ4YG.jpg",
-    "description": "Hej,\nJag planerar att hyra ut min lägenhet vid Lindholmsvarvet, precis mittemot Karlatornet. Det är en välplanerad 1,5 ROK med loft och stor privat uteplats, som hyrs ut omöblerad.\n\nHyres­period: Från 2026.12.01 tills vidare.\nMånadshyra: 11 000 kr (internet, el, vatten, sopor ingår enligt rimlig rekommenderad användning per person). \nUtrustning: Egen mikro, diskmaskin och kombimaskin (tvätt/tork).\nDeposition: En månadshyra (11 000 kr) betalas i samband med kontraktsskrivning. \n\nJag söker efter någon som vill bo där långvarigt och är säker på sin framtida livssituation och ekonomi.  \nVi förutsätter att du är ordningsam och har möjlighet att betala hyran i tid.\nFörskottsbetalning och deposition erläggs efter visning och vid undertecknande av hyresavtalet.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 33.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gibraltargatan 44, Göteborg",
-    "url": "https://qasa.com/p/1496463",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/201f1901db0c37f4d5337d73d0400f793ff0669767603380cfb2f65050f4e3f9.jpg",
-    "description": "Nyrenoverad 3-4 rums lägenhet på 88 m2 med fönster åt tre väderstreck, balkong och gäst Wc i Johanneberg. Lägenheten totalrenoveras nu med nytt kök utrustat med diskmaskin, micro, hel kaklat badrum, genomgående ljus materialval, parkett i alla rum.\nEldningsförbud i den öppna spisen.\nAnsökningar tas enbart emot via HomeQ.\nVi eftersträvar en rökfri miljö för våra hyresgäster och det är inte tillåtet att röka i lägenheten, på balkongen samt i allmänna utrymmen.\nBilder är från en likvärd lägenhet.\n\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 88.0,
-    "rent": 16500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långströmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1496364",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M66ESQ9WEPX8TCS4J26RSDFA.jpg",
-    "description": "Hej allihopa! Jag hyr ut min nyproducerade 1:a i Lundby, i Göteborg. \nDen har en öppen planlösning, ett fräscht stort badrum med både tvättmaskin och torktumlare samt en stor privat uteplats mot en lugn innergård. \n\nLägenheten hyrs ut fullt möblerad.\n\nLägenhetsdetaljer:\n*   Byggd 2019\n*   Modern och lättskött lägenhet\n*   Bra kollektivtrafikförbindelser\n*   Passar en person eller ett par\n*   65’ TV\n\nUthyrningen är godkänd av bostadsrättsföreningen och är avsedd för ett stabilt långsiktigt boende. \n\nPm gärna mig för intresse😊 \n\nPs. Sängen i lägenheten är 180 x 200cm. Om ni skulle vilja ha en mindre säng för mer utrymme, så är det inga problem för mig att ställa min i mitt förråd.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 9950,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-31T02:46:37+00:00", "clock": "02:46:37"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-31T08:57:32+00:00", "clock": "08:57:32"};
