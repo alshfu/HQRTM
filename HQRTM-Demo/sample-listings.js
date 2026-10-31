@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Mölndalsvägen, Göteborg",
+    "url": "https://qasa.com/p/742633",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M698YF94DZCMJ6STHTACPS37.jpg",
+    "description": "Ska bo och jobba i Norge och hyr därför ut min fina, möblerade lägenhet! ☀️\n\nDet är en ljus och fin 2:a på 55 m², belägen på våning 3. Lägenheten är en gavellägenhet med ljusinsläpp från alla rum och har både diskmaskin, kombimaskin och inglasad balkong.  Lägenheten hyrs ut fullt möblerad och husgeråd ingår. Jag kommer även att lämna kvar växter, böcker, spel och annat smått som gör det hemtrevligt. 🌿\n\nHär bor du med ICA Maxi och spårvagn precis utanför (Varbergsvägen). Dessutom har du nära till gym, bageri, Willys, restauranger och mycket mer.\n\nPraktisk information:\n* El och varmvatten tillkommer.\n* Bredband och wifi ingår.\n\nLåter det intressant? Hör gärna av dig för mer information eller för att boka en visning!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 12700,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Lantmätaregatan, Göteborg",
+    "url": "https://qasa.com/p/1497044",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6989MVNBKRS40F2N48XB8HD.jpg",
+    "description": "Lägenhet uthyres på centrala Hisingen!\n\nHyr nu ut min bostadsrätt på 35 m2 med balkong och sovalkov. \nKontrakt på 1 år. Lägenheten är omöblerad och uthyres för 10 000 / mån.\n\nHuset / föreningen\n\nLigger på våning 2 i ett 3-våningshus från 1955 (välisolerat) med lugna grannar.\nLiten förening med tre trappuppgångar\nGästrum finns att boka gratis i föreningen\nInnergård med grillplats i söderläge\nNio garage och en parkeringsplats (separat kö)\nLätt att få tvättid i tvättstuga (2 maskiner, 1 torktumlare, stort torkrum)\n\nLägenheten\n\nDiskmaskin i kök\nSovalkov med platsbyggd 140 säng med praktisk förvaring under\nBalkong ligger i söderläge\nSäkerhetsdörr\nBredband och tv ingår i hyra\nOmöblerad lägenhet\nVindsförråd och källarförråd\n\nOmrådet nya Kville\n\nLugnt område\n250 meter till Vågmästareplatsens spårvagn 5,6,10,13\nBuss 25, 17, 99\n7 min med buss eller spårvagn till centralstationen\n150 meter till Kville saluhall och flertalet restauranger\n400 Meter till Ica\n450 meter till Willys\n500 meter till Nordic Wellness, kamsportsklubb och West coast pole\n350 meter till Friskis och Svettis\n650 meter till ”gamla” Kvilletorget med restauranger och krogar som Kville biljard, ölstugan tullen, Tildas osv\n700 meter till stora Coop Backaplan\n700 meter till Systembolaget Backaplan\n25 minuter promenad / 2 km till Lindholmen med vacker strandpromenad längs Sannegårdshamnen och Eriksberg\n",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 35.0,
+    "rent": 10000,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Hedåsgatan, Göteborg",
     "url": "https://qasa.com/p/1485909",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5AC0KQA7C6CFG37RHVV96ER.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hackspettsgatan, Göteborg",
-    "url": "https://qasa.com/p/1496753",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M68E3XQDRR3G3MP4DTZJ3XCD.jpg",
-    "description": "Ljus och väldisponerad lägenhet på 105 kvm med öppen planlösning uthyres på andra våningen i flerfamiljsvilla. Två sovrum, varav ett har utgång till stor balkong. Ett badrum med badkar och toalett finnes men det finns även en gästtoalett. Öppen planlösning mellan kök, matsal och vardagsrum. I vardagsrummet finns en fungerande öppen spis samt utgång till balkong. Härlig utsikt i vardagsrum. Nyslipade parkett golv. Stor möblerbar hall. Egen uteplats finns i trädgården. Lugnt område. Parkering finns gratis på gatan utanför. Lägenheten hyrs ut i andra hand tillsvidare och är en del av en flerfamiljsvilla. Nära till busshållplats, centrum och leden samt flygplats. Plats för cykel finns i garage. I hyran ingår värme och vatten. Man betalar själv för egen förbrukning av el samt fiber. Stor tvättstuga som delas med övriga 2 hyresgäster. ",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 105.0,
-    "rent": 16300,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedergårdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1496046",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M660E6BMDYERNGXWP7J1CB0Z.jpg",
-    "description": "Flerfamiljvilla som är en Brf (bostadsrättsförening med 3 lägenheter med extra rum i bottenplan som uthyres. Villan ligger i ett lugnt område nära Skatås. \n3 min till buss o spårvagnsmöjligheter in till Göteborg som tar 15 min.\nRummet är på mark/bottenplan och man har egen toalett/dusch i tvättstugan på samma plan. Där finns också möjlighet att diska.\nInternet, el och värme ingår i hyran. I rummet finns säng, garderob, spisplatta, skrivbord/stol, hyllor.\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4500,
-    "floor": 0,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-31T15:13:20+00:00", "clock": "15:13:20"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-10-31T19:20:07+00:00", "clock": "19:20:07"};
