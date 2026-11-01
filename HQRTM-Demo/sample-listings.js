@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Virginsgatan, Göteborg",
+    "url": "https://qasa.com/p/1497854",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6C6EQM0R6CW72C47KC9QKN9.jpg",
+    "description": "En fin nybyggd lägenhet 31m2 med 9m2 balkong mot skogen och planlösningen är väldigt yteffektiv. Den ligger på Virginsgatan i Kålltorp, 5 minuters promenad till spårvagnen 3-an, 5-an.\nI hyran ingår följande avgifter: värme, vatten,  internet. El tillkommer, cirka 300kr.\nGratis parkering på Virginsgatan.\nBostaden uthyres till en person. Jag ser gärna att hyresgästen har en fast sysselsättning och stabil inkomst.\"\nInflyttningsdatum fastställs efter föreningens godkännande.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Landalagången, Göteborg",
+    "url": "https://qasa.com/p/1497485",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6C58ZHRGFVPYAMJZ026W6Q9.jpg",
+    "description": " Möblerad etta på 29 kvm i Landala, Göteborg\n\nBeskrivning\nJag hyr ut min trivsamma etta på 29 kvm eftersom jag tillfälligt flyttar till en annan bostad. Lägenheten är smart planerad och komplett möblerad, så du kan flytta in med bara väskan.\n\nInflyttning: 1 december\nHyresperiod: 6 månader, med goda chanser till förlängning\n\nLägenheten\nEtt ljust rum med säng/bäddsoffa och skrivplats, kokvrå med spis, kyl/frys och micro samt badrum med dusch/WC. Allt du behöver för att laga mat, jobba och vila finns på plats.\n\nLäge\nLandala torg ligger runt hörnet med mataffär och annan service. Hållplats Kapellplatsen är din närmaste kollektivtrafik, med spårvagn och buss som tar dig snabbt till centrum. Chalmers ligger nära, vilket gör boendet extra bra för student, doktorand eller dig som jobbar i området.\n\nOm dig\nJag söker en ordningsam hyresgäst som vill ha ett lugnt boende. Berätta gärna lite om dig själv och om du vill ha lägenheten på längre sikt.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 29.0,
+    "rent": 6000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Carlbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1497732",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6BY8SRC9XJFAPPDHSM6D2SQ.jpg",
+    "description": "Rum uthyres i centralt belägen villa i Örgryte – Perfekt för studenter\nVi hyr ut ett möblerat rum på ca 12 kvm. \n\nOm boendet\n🏡 Villan är 352 kvm, fördelad på tre våningar med källare, där varje våning är en separat lägenhet med egen entré och rummet som hyrs ut är på första våningen. Villan har en stor altan på 40 kvm, som alla boende kan använda för avkoppling och socialt umgänge.\n\nOm lägenheten & rummet\n-Lägenhet cirka 130 kvm. Ligger  första våningen, med egen entré.\n-Lägenheten har fyra sovrum, kök, vardagsrum och badrum.\n-Du delar köket, vardagsrummet och badrummet med tre andra studenter.\n-Rummet är ca 12 kvm, möblerat med dubbelsäng och en stor garderob.\nEl, vatten, värme och internet ingår i hyran.\n\n👩‍🎓För närvarande bor endast studenter i huset.\n\n📍 Utmärkt läge med goda kommunikationer:\n15 minuter till Chalmers och Göteborgs universitet.\n10 minuters promenad till Liseberg, Ullevi, Scandinavium och Universeum.\n5 minuters gångavstånd till Focushuset, där det finns en välsorterad mataffär, apotek och Systembolaget.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Föreningsgatan, Göteborg",
     "url": "https://qasa.com/p/1497607",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6BQRWEWERYPN3Z2RQ04D4Y9.jpg",
@@ -50,7 +95,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Eldaregatan, Göteborg",
     "url": "https://qasa.com/p/1433639",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6BK018FQFGJ6828ZX020G01.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6BK0149MC5FCQQFD0J75WDC.jpg",
     "description": "Jag hyr ut min ljusa och mysiga etta med separat kök i Masthugget, ett lugnt och trevligt område med närhet till både Slottsskogen och Linnéstadens restauranger och caféer. Här bor man med gångavstånd till mataffärer, grönområden och bra spårvagnsförbindelser som gör det enkelt att ta sig till övriga delar av Göteborg.\n\nLägenheten har en rymlig planlösning med plats för både sovdel och vardagsrum samt ett separat kök med plats för matbord. Fönster i två väderstreck ger ett fint ljusinsläpp och från lägenheten har man utsikt över takåsarna och fina solnedgångar. Planritning finns bifogad tillsammans med bilderna.\n\nI hyran ingår värme, vatten, bredband och övriga boendekostnader, med undantag för hushållsel, elnätsavgift och eventuell varmvattenförbrukning som överstiger den mängd som ingår i grundavgiften.\n\nAnledningen till uthyrningen är att jag ska flytta ihop med min sambo. Jag söker en skötsam hyresgäst som är djur- och rökfri samt utan betalningsanmärkningar.",
     "district": "Göteborg",
     "rooms": 1.0,
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bratteråsgatan, Göteborg",
-    "url": "https://qasa.com/p/1497490",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6BFX4D0Z2EXS36TA2F1TEXW.jpg",
-    "description": "Fin möblerad 2:a uthyres på Eriksberg - 53 kvm\nNu finns möjlighet att hyra en trivsam och möblerad\nlägenhet på Eriksberg i Göteborg.\nLägenheten är 53 kvm och består av två rum och\nkök. Den hyrs ut möblerad och passar perfekt för dig eller er som söker ett bekvämt boende med allt inkluderat.\nHyra: 14 000 kr/mån\nDetta ingår i hyran:\n* Möblerad lägenhet\n* 티\n* Vatten och varmvatten\n* Värme\n* Bredband\n* En månadshyra i deposition\n* Skriftligt hyreskontrakt på ett år.\n* Uppsägningstid 3 månader åt båda hållen.\nJag söker skötsam och seriös hyresgäst med\nordnad ekonomi.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 53.0,
-    "rent": 13686,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Juteskärsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1497341",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6B6W1FNBYSW3VW7V1983WK7.jpg",
-    "description": "Nu finns möjlighet att hyra en trivsam lägenhet om ca 28 m² i ett lugnt och trevligt radhusområde i Önnered. Lägenheten har  egen ingång och  består av två rum: sovrum/entré, samt vardagsrum med kokvrå – samt egen uteplats. \n\nHär bor du med närhet till både service, kommunikationer och natur. Busshållplats (Juteskärsgatan) endast 2 minuters promenad bort, med direktbuss till centrala Göteborg på morgonen; 10–15 minuters promenad till närmaste spårvagnshållplats (Opaltorget, men linje 1 och 7). Mataffär, gym, frisör och restauranger på bekvämt gångavstånd. Nära till både hav, båtliv och fina naturområden.\n\nVi söker en lugn, tyst och skötsam hyresgäst som uppskattar ett stillsamt boende och visar hänsyn till sina grannar. Vi är själva en barnfamilj som bor i huset. Vi är inte högljudda, men det är viktigt att du som hyresgäst är införstådd med att det kan förekomma normala ljud från familjelivet.\nVi önskar ett lugnt boende och därför är fester och liknande inte tillåtna.\n\nÖvriga förutsättningar: Rökning är inte tillåten vare sig inne i eller i anslutning till lägenheten. Inga husdjur. Inga droger.\n\nI hyran ingår el, värme, vatten, internet, sophämtning, men hemförsäkring för eget lösöre tillkommer.\n\nLåter detta som ett boende för dig? Hör gärna av dig och berätta lite om dig själv, så återkommer vi med mer information!",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 28.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hagforsgatan, Göteborg",
-    "url": "https://qasa.com/p/1497351",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6B5V5X0WFB38ZCEA0B77CXB.jpg",
-    "description": "Lägenheten ligger på Hagforsgatan i Östra Torpa alldeles i närheten av Östra sjukhuset med närhet till delsjöområdet samt goda kommunikationer. Den är i etage och rummet som hyrs ut ligger på bottenvåningen. Det är en femrumslägenhet och den totala ytan är 107 kvm. Som hyresgäst tar du också självklart del av gemensamma utrymmen som kök, bad- och vardagsrum och balkonger. Lägenheten har också disk- och tvättmaskin samt 2 balkonger med mycket vacker utsikt.  \n\nJag är 41 år och bor varannan vecka med mina barn 14 och 10\nJag är disputerad i kulturstudier vid Göteborgs universitet och forskar bland annat om kulturfrågor i stadsplanering och språkpolitik. Jag gillar att träna, meditera, greja med datorer, läsa och vara med mina barn, vänner och flickvän. Jag använder inga droger förutom kaffe. Jag älskar kaffe. Rummet har idag en 90 säng och en hylla samt en egen walkinarderob, också skrivbord, lampa och stol.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 4300,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-01T14:57:28+00:00", "clock": "14:57:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-01T19:28:00+00:00", "clock": "19:28:00"};
