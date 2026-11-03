@@ -93,18 +93,18 @@ window.HQRTM_SAMPLE = [
   },
   {
     "source": "qasa",
-    "title": "Engelbrektsgatan, Göteborg",
-    "url": "https://qasa.com/p/1498570",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6E9VQF7XKYDJP0T84FVMS9A.jpg",
-    "description": "Exclusive Accommodation in the Heart of Gothenburg\n\nExperience unique living in the heart of Vasastan, just steps away from Avenyn, Gothenburg’s most iconic boulevard. This exclusive accommodation is available for rent to a responsible and respectful tenant.\n\nEnjoy a luxurious, hotel-inspired atmosphere in a magnificent 12 m² private room, situated within a stunning Victorian apartment featuring timeless charm and elegant architectural details.\n\nEverything you need for a comfortable stay is included:\n\n    ●    Electricity, heating, Wi-Fi, TV and Apple TV\n    ●    Bathrobe and slippers\n    ●    Essential toiletries\n    ●    Two complete sets of towels and bed linen\n    ●    Access to a shared kitchen and bathroom\n\nAn unbeatable central location\n\nWith everything right at your doorstep, you’ll enjoy easy access to public transportation, airport buses, train connections, restaurants, charming cafés, cinemas, concert venues, theatres and the city library. A gym is also conveniently located just around the corner.\n\nA unique opportunity to enjoy stylish, comfortable living in Gothenburg’s most desirable neighbourhood.\n\n\n\nExklusivt boende mitt i Vasastan precis intill Göteborgs paradgata Avenyn, hyrs ut till skötsam yrkesverksam person.\nHotellkänsla i magnifikt rum på 12 m2, i pampig sekelskiftesvåning. Boendet inkluderar El, värme, wifi, tv och apple-tv . Utöver det ingår morgonrock, tofflor,  hygienartiklar, samt dubbla set av handdukar och lakan. Del i kök och badrum. \nDirekt närhet till kollektivtrafik, flygbussar, tåg, restauranger, fik, biografer, konserthus, teatrar och stadsbibliotek. Gym finns runt hörnet.",
+    "title": "Generalsgatan, Göteborg",
+    "url": "https://qasa.com/p/1498357",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6E94PFYJEEA4ATR9M640CHW.jpg",
+    "description": "Fin lägenhet i stadsdelen Kviberg. 55 kvm, 2 rum med kök. Utrustad med tvättmaskin och torktumlare. Balkong + uteplats (utemöbler ingår). Nära förbindelser med spårvagn, buss, cykel och bil. Snabbt och lätt att ta sin in till Göteborg centrum. \n\nI Hyran ingår Värme och bredband. Vatten och el ingår inte. \n\nOmöblerad förutom taklampor och uteplats möbler.\n\nFör att hyra min bostadsrätt ska du vara ordningsam, ärlig, ha god ekonomi och vara djur och rökfri. \n\n1-2 hyresgäster\n\n12 månader med chans till förlängning. \n\nÄr du intresserad? hör av dig och berätta lite om dig själv, din situation och varför du vill hyra min bostadsrätt. \n\n\n\n",
     "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 8000,
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 15722,
     "floor": null,
-    "has_balcony": null,
+    "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-02T19:47:35+00:00", "clock": "19:47:35"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-03T01:52:06+00:00", "clock": "01:52:06"};
