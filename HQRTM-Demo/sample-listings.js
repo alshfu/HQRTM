@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sisjövägen 59, Göteborg",
+    "url": "https://qasa.com/p/1499892",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c1700fb9f615833932b490ed132986ed7b1601393683b7ef4a23f5772a3fcd8.jpg",
+    "description": "Tänk dig att ta morgondoppet i Sisjön och kvällsdoppet i havet. Visst låter det härligt? Den nya stadsdelen Sisjödal växer fram i Askim i sydvästra Göteborg – med fint läge nära både stad, natur och hav. \n\nOm Bostaden\nDenna fastighet är byggd 2022 och det har bott andra hyresgäster innan dig i lägenheten. \nAlla bostäder har en balkong eller egen uteplats samt en gemensam uteplats. Lägenheten är ljus med säkerhetsdörr, vitmålade väggar och parkettgolv av ek. Köket har vita skåp, kakel som stänkskydd och bänkskiva av laminat. Köket är utrustat med spis, ugn, kyl/frys och diskmaskin. Badrummet är helkaklat med golv av klinker samt försett med kombimaskin för tvätt och tork. \nDe interiöra bilderna är tagna i visningslägenheterna och därför kan avvikelser förekomma.\nHyra\nVärme och kallvatten ingår i hyran. \n\n\nOm du är en av dem med längst kötid kan du komma att bli inbjuden till visning. Visningarna är inte obligatoriska att gå på. I vissa fall behöver du ta ställning till bostaden enbart utifrån en ritning. För en snabbare process så går det bra att tacka ja till lägenheten utan visning. \n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 9652,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Fritiof Anderssons Gata, Göteborg",
     "url": "https://qasa.com/p/1499847",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6HKCYK4BXN5QW364DBAND7R.jpg",
@@ -40,7 +55,7 @@ window.HQRTM_SAMPLE = [
     "district": "Göteborg",
     "rooms": 1.5,
     "area_m2": 37.0,
-    "rent": 11000,
+    "rent": 10500,
     "floor": null,
     "has_balcony": null,
     "has_kitchen": true,
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Marklandsgatan, Göteborg",
-    "url": "https://qasa.com/p/1499563",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6GXH96YAPK2BG16KK6CK57V.jpg",
-    "description": "Jag och min fru vill testa på att bo i ett annat land i ett par år och vill därför hyra ut vår lägenhet under tiden.  \nLägenheten är perfekt belägen mellan havet och centrala Göteborg, på 57 kvm med inglasad balkong i västerläge. \nHela lägenheten är relativt nymålad så det är bara att flytta in. Fräscht badrum med uppdaterade badrumsmöbler. \nI hyran ingår värme, vatten och parkering.  Parkeringsplatsen har även en laddbox ifall man har elbil men det tillkommer lite extra kostnader för att ha igång den samt för laddningen av bilen.  \n\nFem minuters promenad har du till Marklandsgatan som är en stor kollektivtrafikknutpunkt för spårvagnar eller bussar som åker åt alla håll oavsett vart du vill åka i Göteborg med omnejd. \nSlottskogen kommer du till på 10 minuter till fots samt Änggårdsbergen tar du dig till på 15 minuter. Där är det väldigt härlig natur, sjöar och bra stigar för promenader och löprundor.  Också en bra plats om man vill komma bort från storstadsbullret! \n\nUndrar du något mer så tveka inte att höra av dig!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 57.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-03T22:03:44+00:00", "clock": "22:03:44"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-04T02:13:29+00:00", "clock": "02:13:29"};
