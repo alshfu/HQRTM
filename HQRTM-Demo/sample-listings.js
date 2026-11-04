@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Steken, Agnesberg",
+    "url": "https://qasa.com/p/1500615",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6M3S6W7K370GYY971BD755F.jpg",
+    "description": "Hyr ut min lägenhet med tre rum på 66 kvm som ligger på tredje våningen. \nI hyran allt, alltså Wifi, El, parkering. Finns bekvämligheter såsom tillgång till balkong, gemensam bastu och gym utan extra kostnad. \n\nLägenheten kan hyras ut både på kort och långsikt. Exempelvis som fast boende pga jobb/studier eller över praktikperiod. ",
+    "district": "Agnesberg",
+    "rooms": 2.0,
+    "area_m2": 14.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rösebergsgatan , Göteborg",
     "url": "https://qasa.com/p/1500406",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6KJ54NXN04R0R72508EB0QY.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Madängsgatan 1, Göteborg",
-    "url": "https://qasa.com/p/1500294",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/5c017485304170283d5d011e42d21e740dba91c73796dcceb3a4b7f3686b17ce.jpg",
-    "description": "Vi kan med glädje meddela att vi har en studentlägenhet som blir ledig från 1 juli. \n\nBostaden är disponerad på 29,5kvm och belägen på våning 2.\nI hyran ingår värme, varmvatten & el.\n\nMadängsgatan ligger perfekt placerad bakom Backaplan och här har du närhet till såväl skolor, köpcentrum samt Nordstan. \n\n\nVarmt välkommen med din ansökan redan idag",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 5751,
-    "floor": 2,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-04T17:23:55+00:00", "clock": "17:23:55"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-04T22:44:47+00:00", "clock": "22:44:47"};
