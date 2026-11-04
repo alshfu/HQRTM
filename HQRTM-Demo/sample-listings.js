@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Finlandsvägen 53, Göteborg",
+    "url": "https://qasa.com/p/1500008",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/8274f92921e65e8c27ef0c8189c795ec2e9f6dbbebf3ef8e62b1338250dc5edb.jpg",
+    "description": "Från 1 februari 2027 kan vi erbjuda en 3 rum och kök på Finlandsvägen 53 i Tuve.\nLägenheten är belägen på våning 3 och är disponerad på 73 kvm.\n\nLägenheten har en modern inredning som håller en hög standard. \nLägenheten är bland annat utrustad med:\nSäkerhetsdörr\nKöksfläkt\nDiskmaskin\nKombimaskin (tvättmaskin och torktumlare i samma)\nBalkong\n\nBostaden har individuell mätning och debitering av kostnaden för förbrukning för varm- och kallvatten.\n\nBilderna ovan visar ej  den aktuella lägenhet utan planlösning och storlek kan variera. Bilderna är enbart bifogade för att ge en uppfattning av vilka materialval/standard lägenheten har. \n\nObservera att planlösningen är spegelvänd!\n\nLåter detta intressant är ni välkommen med er ansökan.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 73.0,
+    "rent": 12849,
+    "floor": 3,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Brämaregatan, Göteborg",
+    "url": "https://qasa.com/p/1499926",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6JNGKQ92GZHYM58Z9FT4EG4.png",
+    "description": "Välkommen till en ljus, rymlig och välplanerad lägenhet på 57 kvm i populära Kvillebäcken, Göteborg!\n\nLägenheten består av ett stort vardagsrum, en separat sovalkov som kan avskärmas med gardiner, ett fullt utrustat kök med gott om arbetsytor och en separat matplats. Här finns även ett rymligt badrum med dusch och bra förvaringsmöjligheter.\n\nEn av lägenhetens stora fördelar är den generösa, takförsedda balkongen med utsikt över Kvilletorget. Balkongen är möblerad med en bekväm loungesoffa och passar perfekt för avkoppling.\n\nMöblering och utrustning\n\nLägenheten hyrs ut delvis möblerad. Säng, soffa, TV, matbord med stolar samt grundläggande köksutrustning såsom tallrikar, glas och bestick finns på plats. Källarförråd ingår inte.\n\nLäge och kommunikationer\n\nKvillebäcken är ett levande och attraktivt område på Hisingen, med restauranger, caféer, mataffärer och service inom bekvämt gångavstånd. Här bor du nära Backaplan och har goda kollektivtrafikförbindelser till centrala Göteborg.\n\nOm uthyrningen\n\nJag hyr ut lägenheten under 12 månader eftersom jag har flyttat ihop med min partner. Tillträde är möjligt från 1 december, med viss flexibilitet.\n\nJag söker en skötsam, ansvarsfull och ordningsam hyresgäst med stabil ekonomi och goda referenser, som tar väl hand om bostaden.\n\nUthyrningen sker under förutsättning att fastighetsägaren Ivar Kjellberg godkänner andrahandsuthyrningen och den tilltänkta hyresgästen.\n\nVarmt välkommen att höra av dig vid intresse!",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 57.0,
+    "rent": 10900,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Sehlstedtsgatan 7 B, Göteborg",
+    "url": "https://qasa.com/p/1499999",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ba7d2d51f10bfc7e5014819df726205ca29be269c9a99168b29b74d8b0fa7cfd.png",
+    "description": "Vi kan nu erbjuda en 2 rum och kök på 53 m² på Sehlstedtsgatan 7 B som blir ledig 1 februari 2027. \nFastigheten ligger ute i Kvillebäcken. Här har du  närhet till kollektivtrafik, vilket gör det enkelt att ta sig runt i staden eller till de mer centrala delarna. Det finns även flera grönområden och parker i närheten.\n\n\nLåter detta intressant, välkommen med din intresseanmälan redan idag!\n\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 6059,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Sisjövägen 59, Göteborg",
     "url": "https://qasa.com/p/1499892",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6c1700fb9f615833932b490ed132986ed7b1601393683b7ef4a23f5772a3fcd8.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Famngatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1487964",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M5A2FD620NGBAZ33S2AA9309.jpg",
-    "description": "Fin rymlig etta högst upp i huset med solig balkong! Nära till spårvagnshållplats. \nAllt ingår. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Krokegatan, Göteborg",
-    "url": "https://qasa.com/p/1499715",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6H7BJE7H5WW3GMEV2A0NTZQ.jpg",
-    "description": "Modern 2:a i Masthugget – uthyres våren 2027\n\nJag hyr ut min fina och välplanerade 2:a om 35 m² i Masthugget under perioden 1 februari–31 maj 2027, då jag ska studera utomlands.\n\nLägenheten hyrs ut möblerad och har ett modernt kök och badrum, fransk balkong samt diskmaskin. I huset finns en stor och fräsch tvättstuga. Internet, el, värme och vatten ingår.\n\nLägenheten ligger i lugna och charmiga Masthugget med gångavstånd till Linné, Stigbergstorget och Järntorget. Närmaste hållplats är Fjällgatan, med utmärkta kommunikationer.\n\nJag söker en skötsam hyresgäst som kommer att ta väl hand om lägenheten. Hör gärna av dig och berätta lite om dig själv om du är intresserad!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 35.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Norumsgärde, Göteborg",
-    "url": "https://qasa.com/p/1499622",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6H1FWA34MBBT3T5N2TGW0AG.jpg",
-    "description": "Jag hyr nu ut ett möblerat rum i källaren i lugna Norumsgärde. Rummet är ca 20 kvm stort och passar perfekt för en student eller veckopendlare.\n\n🛏️ Fullt möblerat (säng, skrivbord, garderob m.m.)\n🚿 Delat badrum\n🍳 Tillgång till kök (fullutrustad)\n🌐 Wi-Fi / TV ingår\n💡 El, värme och vatten ingår i hyran\n🚌 Nära till kollektivtrafik (300 meter)\n🅿️ Parkering finns tillgänglig\n🛒 Gångavstånd till mataffär\n🌳 Nära till grönområden och natur för promenader\n\nÖvrigt: Ej rökare. Inga husdjur.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 21.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-04T02:13:29+00:00", "clock": "02:13:29"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-04T09:23:11+00:00", "clock": "09:23:11"};
