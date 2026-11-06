@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Lars Kaggsgatan, Göteborg",
+    "url": "https://qasa.com/p/1502090",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6SGQNRERCYK1D702BCZE25R.jpg",
+    "description": "Välkommen till denna smakfulla och välplanerade lägenhet som erbjuder ett välordnat boende med fina sociala ytor och generöst ljusinsläpp!\n\nRedan i hallen möts du av en varm och inbjudande känsla. Väggarna är målade i naturnära toner som skapar en harmonisk atmosfär, och här finns gott om plats för både avhängning och förvaring i den praktiska garderoben.\nDet trivsamma köket är välutrustat med spis, ugn, fläkt, kyl och frys. Det stora fönsterpartiet släpper in rikligt med dagsljus och skapar en ljus och luftig miljö för både matlagning och umgänge.\n\nVardagsrummet är bostadens naturliga samlingspunkt med plats för både soffgrupp och matplats. De stora fönsterpartierna ger ett fantastiskt ljusinsläpp och bidrar till den öppna och välkomnande känslan. Härifrån når du även den härliga balkongen som är en perfekt plats att njuta av lugna stunder eller trevliga kvällar utomhus. Sovrummet nås från vardagsrummet och erbjuder gott om plats för dubbelsäng. Längs ena väggen finns garderober som ger utmärkta förvaringsmöjligheter.\n\nBadrummet är funktionellt och ljust med toalett, duschhörna, handfat, spegel och praktiska hyllor. Fönstret bidrar med ett naturligt ljusinsläpp som ger rummet extra rymd och trivsel.\n\nHär bor du i en välskött förening med fina gemensamma gårdar. De stora gräsytorna, stenlagda grillplatserna med grillutrustning och det populära jätteschacket skapar en trivsam miljö för både avkoppling och sociala aktiviteter. Föreningen erbjuder även möjlighet att hyra extra förråd och lokaler.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 40.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Borgaregatan, Göteborg",
+    "url": "https://qasa.com/p/1500459",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6KPW222Z4N48PFC37PG3Q9R.jpg",
+    "description": "Trevlig fyrarummare  på 99 kvm belägen på 2 våningen  i Olskroken.\nHyra: 11260\nOm man vill hyra varm garage 1450kr ställa dig i kö hos husvärden Poseidon \nBarnvagn förråd finns och utanför finns cykel förråd. \nTre sovrum och ett större vardagsrum med parkettgolv med genomgående parkett ut i hallen. \nInglasad balkong med sol från ca 14.00 till ca 20.00\nDu ser ut på innergården.\nBra genomgående planlösning. \nBadrummet har en dusch och det finns  en mindre \"gästtoalett\".\nGod förvaring med flertal garderober och klädkammare. Förråd i ett annat hus i närheten ett stenkast.\nFiber installerat i lägenheten. Välj själv tv-, bredband- och telefonileverantör.\nBarnvänlig och välskött innergård med sandlåda, gungor klätterställning. Finns utsedd plats för grillning med bord och bänkar.\nPå Borgaregatan bor ni i ett perfekt läge med Olskrokstorget runt hörnet. Ica, Postens serviceombud, spel & tobak, fiskebod, köttbod, caféer, restauranger, butiker, pizzeria, systembolaget, blomsteraffär, gym etc.\nBra kommunikationer med spårvagn och buss. 1:an, 3:an, 6:an, 8:an och 17-bussen är några utav spårvagnarna och bussar som går här utanför, endast 5 minuter till centralstationen.\nHär har Ni även cykelavstånd till grönområden kring Skatås och Delsjöreservatet där du finner de mesta inom friluftsliv som tennis, badsjö, ridhus, motionscentral, gym och mycket mer.\nCykel- och gångavstånd till Göteborg city.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 99.0,
+    "rent": 14260,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Carlbergsgatan, Göteborg",
     "url": "https://qasa.com/p/1502004",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6RZ3N8W4HFM0J5MM6BYKCC9.png",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Legendgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1470329",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6RQF1H8ENNTWYC0KA3DASDZ.jpg",
-    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/issi4lrdmbqajdsx3o9l/vastra-gotaland/hisings-backa/legendgatan-44/5-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nFullt möblerat parhus 135 kvm i Hisingsbacka – 3 sovrum, jacuzzi, AC och garage\r\n\r\nVälkommen till ett trivsamt och fullt möblerat parhus på 135 kvm över två plan, i ett lugnt villaområde i Hisingsbacka.\r\n\r\nBottenvåning: Stort vardagsrum med 75\" TV, kök med två stora kylskåp, diskmaskin, ugn, gästtoalett samt tvättmaskin och ny varmvattenberedare.\r\n\r\nÖvervåning: Tre sovrum, allrum och badrum med dusch och jacuzzi.\r\n\r\nHuset har två luftkonditioneringssystem som ger svalka på sommaren. Trädgård/uteplats.\r\n\r\nParkering: En plats inomhus och två utomhus.\r\n\r\nLäge: Nära Backaplan, Bäckebol (med IKEA) och Selma Lagerlöfs torg. Buss 44 går i närheten och det tar bara fem minuter till Backaplan. Enkel tillgång till E6 och Marieholmstunneln. \r\n\r\nBoka en visning eller kontakta oss via chatten för mer information!\r\n-------------------------------------------------------------------------------\r\nEnglish\r\n\r\nFully furnished 135 m² semi-detached house in Hisingsbacka – 3 bedrooms, jacuzzi, AC and indoor parking\r\n\r\nWelcome to a cosy, fully furnished 135 m² semi-detached house on two floors, in a quiet residential area of Hisingsbacka, Göteborg.\r\n\r\nGround floor: Spacious living room with a 75\" TV, kitchen with two large fridges, dishwasher, oven, guest toilet, plus washing machine and a new water heater.\r\n\r\nUpper floor: Three bedrooms, a family/TV room, and a bathroom with shower and jacuzzi.\r\n\r\nThe house has two air-conditioning units, which keep it cool in summer. Garden/patio.\r\n\r\nParking: One indoor space and two outdoor spaces.\r\n\r\nLocation: Close to three shopping areas: Backaplan, Bäckebol (with IKEA) and Selma Lagerlöfs torg. Bus 44 stops nearby and Backaplan is just five minutes away. Easy access to the E6 and the Marieholm tunnel.\r\n\r\nBook a viewing or message us via chat for more information!",
-    "district": "Hisings Backa",
-    "rooms": 5.0,
-    "area_m2": 135.0,
-    "rent": 17367,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Legendgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1501615",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6R42CXAFY7QRRPGZP176EV7.jpg",
-    "description": "***Please send a short introduction about yourself when applying and please don't apply if you're more than 2 people.***\n\nBright and well-maintained second floor of a duplex house for rent in a safe and quiet residential area. The unit is completely separated from the first floor and has a private entrance, offering good privacy. I'm looking for a new tenant since my current tenants are moving out at the end of October\n\nLocation:\n- Calm and safe neighborhood\n- 2-minute walk to Legendgatan bus stop\n- Approx. 900 m walk to Backa Kyrkogata bus stop\n\nApartment details:\n- Kitchenette suitable for everyday cooking\n- Walk-in closet with good storage space\n- Bathroom with bathtub\n- West-facing balcony with plenty of natural light\n- Washing machine inside the apartment\n\nFurnishing (partially furnished):\n- Bed\n- Dining table and chairs\n- Coffee table\n- TV stand\n- Electric stove, microwave oven, and toaster\n- Washing machine\n\nIncluded / not included:\n- Water included\n- 250 Mbps internet included\n- Electricity not included\n- Free outdoor parking included\n\nRental conditions\n- Suitable for one person or a couple\n- No pets, no children\n- Two months’ deposit\n- Rental period: 1 year with possibility of extension\n- Available from November 1\n\nThis apartment is ideal for tenants who appreciate a quiet and calm living environment. Preferably a working individual or couple with a regular daily routine.",
-    "district": "Hisings Backa",
-    "rooms": 2.5,
-    "area_m2": 60.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-06T18:20:18+00:00", "clock": "18:20:18"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-06T23:18:45+00:00", "clock": "23:18:45"};
