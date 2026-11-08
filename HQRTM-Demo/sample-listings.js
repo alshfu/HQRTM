@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Virvelvindsgatan, Göteborg",
+    "url": "https://qasa.com/p/1502928",
+    "image_url": null,
+    "description": "Hej! Jag söker en trevlig person, eller kanske två, som vill hyra min omöblerade lägenhet i andra hand. Det är en etta på 36 kvm vid Vågmästareplatsen, Hisingen, Göteborg. Det är en fin lägenhet med bra planlösning, inglasad balkong, trevligt kök och nyrenoverad badrum. Jag kommer hyra ut den omöblerad, så du får sätta din egen prägel på den. \nJag planerar att hyra ut i minst ett halvår, gärna upp till ett år. Inflytt från och med 1/12.\nDen kommer kosta 11.000/mån och då ingår även vatten, el, internet, värme. Det du behöver lägga till själv är en egen hemförsäkring. \n\nI området finns det mesta du behöver - mataffär, gym, bibliotek, restauranger, saluhall. Ett stenkast hemifrån finns 3 spårvagnslinjer och en handfull bussar som snabbt tar dig över bron, om du vill åka över till fastlandet. \n\nJag hoppas hitta någon som kommer trivas här lika bra som jag har gjort. \nSkriv en rad, berätta lite om dig själv. ",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fagottgatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1502818",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6Y0KSS1EDVJFQWXDKKV6EER.jpg",
+    "description": "Hej! Jag hyr ut min lägenhet i Frölunda igen pga nuvarande hyresgäster flyttar ut. Uthyres från och med 4:e december. 6-12 månader. \n\n-Fagottgatan\n-31m2 \n-1 rum + kök + badrum \n-Parkering finns\n-tvättmaskin finns i lägenheten\n-Uthyres omöblerad/semi-möblerad \n-Passar bra för en person eller ett par \n-Våning 12/12 , magisk utsikt men inte för den höjdrädde! \n\nSkicka gärna en kort hälsning om dig själv vid intresse. 🙂\n\nAllt gott, \nAlvin",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 31.0,
+    "rent": 9180,
+    "floor": 12,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ekskogsliden, Gunnilse",
+    "url": "https://qasa.com/p/1502807",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6XZTJ5J7YG24Y336P6MNTJ5.jpg",
+    "description": "Rymligt och modernt parhus – perfekt för familjen eller studentgruppen!\n\nNu har du chansen att hyra ett rymligt och energieffektivt parhus i ett lugnt och trevligt område i Göteborg, bara 15–20 minuter från city med kollektivtrafik!\n\nDetta moderna parhus om 151 m² är byggt 2020 och håller fortfarande mycket fint skick. Här får du känslan av att bo i villa – med egen parkering precis intill huset och två generösa våningsplan att njuta av.\n\nDet här hemmet passar lika bra för en barnfamilj som för en grupp studenter som vill bo tillsammans med gott om plats, eget rum till alla – och fortfarande nära stadens puls.\n\nLäge: Bo i ett lugnt bostadsområde med natur och grönområden runt hörnet, samtidigt som du har snabb tillgång till centrala Göteborg.\n\nFakta i korthet:\n    •    151 m² fördelat på 2 plan\n    •    4 sovrum – perfekt för familjen eller fyra studenter som vill dela\n    •    Öppen planlösning på nedre plan – kök, matplats och vardagsrum i ett luftigt flöde\n    •    Vardagsrum även på övervåning – extra yta för umgänge eller avkoppling\n    •    2 fräscha badrum – ett på varje våning\n    •    Energieffektivt boende med låga driftkostnader\n    •    Egen parkeringsplats\n    •    Bara ca 200 meter till närmaste hållplats\n    •    Smidig kollektivtrafik till centrala Göteborg (15–20 min)\n\nTillgänglig för uthyrning nu – missa inte chansen!\nFör mer info eller för att boka visning, hör av dig redan idag.",
+    "district": "Gunnilse",
+    "rooms": 5.0,
+    "area_m2": 151.0,
+    "rent": 21000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/839646",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/181331163c4279dc196f83bbdc22b5d7c34d8fb1ee887abd7a7d7dca329336ed.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fabelgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1502666",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6XKM31NEGFTJ297FGF8YV6Q.jpg",
-    "description": "Mycket fint radhus i toppläge, endast 7min med buss till centrala stan, hyrs ut omöblerad 1år med eventuell möjlighet till förlängning.\n\nTotalt 4 rum och kök, 2 toaletter med bad/dusch och en fin uteplats.\n\nHuset helrenoverades 2014 och i Juni 2021 totalrenoverades båda badrummen till ny standard (kakel/klinkers, badkar/dusch).\n\nMycket nära till förskola, skola, butik och natur.  \n\nBusstationen är endast 3min gångväg bort, där var femte minut avgår en buss som tar Er till centrala stan på 7min). \n\nHyra 21.500:-/månad inkl värme, vatten, sophämtning & internet. \nEndast Hushållsel tillkommer. \n\nUthyres ett år med eventuell möjlighet till förlängning.",
-    "district": "Hisings Backa",
-    "rooms": 4.0,
-    "area_m2": 104.0,
-    "rent": 21500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Östes gata, Västra Frölunda",
-    "url": "https://qasa.com/p/1502493",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6WY9WPX2G3KW12D543AQ11N.jpg",
-    "description": "Attefallshus utbyres. \nPlats: Fiskebäck \n1,5 rum, 20m2\nBeläget i utkanten av ett lugnt radhusområde.\nNära till ”allt”, 3min till busshållplats som tar dig till Göteborgs centrum på 10min. 15 minuters promenad till havet, mindre och större mataffärer i närheten. \nHuset är nybyggt, invigdes Feb 2022. \nHelkaklat badrum med dusch, toalett och handdukstork. \nKöksdel med ugn, häll, spisfläkt, kyl, frys, vinkyl, diskmaskin, tvätt/torkmaskin, Nespresso kapselmaskin, SodaStreamer.\nKöket är komplett utrustat med kastruller, porslin m.m. \nFri bilparkering på lokalkörbana 20 meter från huset. \nI hyran ingår värme, el, vatten, internet, kabel-TV, cykel. \nVill påpeka att huset lämpar sig endast för en person. ",
-    "district": "Västra Frölunda",
-    "rooms": 1.5,
-    "area_m2": 20.0,
-    "rent": 8000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Blackevägen, Göteborg",
-    "url": "https://qasa.com/p/1502481",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6WNM7X5P6Y6CBQNX1SFVE9P.jpg",
-    "description": "Välkommen hem till Blackevägen i Tolered!\n\nLägenheten ligger i vårt bruna trähus och har egen ingång och en egen uteplats på baksidan. Här bor du lugnt med grönska runt knuten, men ändå bara en kort spårvagnsresa från centrala Göteborg. Den passar fint för ett par eller för dig som vill komma hem till något ombonat efter jobbet.\n\nBostaden är 95 m² och fullt möblerad, så du kan flytta in med bara resväskan. Sovrummet har en skön dubbelsäng, sängbord och läslampor. Vardagsrummet är ljust med soffa, soffbord och tv, och runt det runda matbordet blir det lätt långa middagar. Köket har allt du behöver: kyl, frys, ugn, spishäll, diskmaskin och mikro, plus porslin och köksredskap. I badrummet finns både badkar och dusch, och du har tillgång till tvättstuga med tvättmaskin. Det hänger konst och tavlor i hela lägenheten, och när det blir varmt ute är uteplatsen husets bästa plats för middagar och sena sommarkvällar.\n\nI hyran ingår wifi via fiber, värme, parkering på tomten och sänglinne. Hyran är 19 500 kr i månaden. El tillkommer med en fast summa på 600 kr i månaden.\n\nOmrådet är ett av Hisingens lugnaste, med villor och mycket grönt. Spårvagnen (linje 5 och 10) ligger 5 till 7 minuters promenad bort och tar dig till Centralstationen på ungefär 20 minuter. Bussen går nära, och till ICA och Hemköp är det fem minuter att gå. Förskolor, skolor och vårdcentral finns i närheten, och det är nära till Hisingsparken och motionsspåren. Med bil är du ute på E6 på cirka 10 minuter.\n\nHuset ägs av mig och jag hyr ut på grund av planer att bo utomlands ett tag.  \n\nDet praktiska\nTillträde 1 februari 2027\nDu kan hyra kortare eller längre tid, minst 3 månader eller tillsvidare\nVid tillsvidareavtal gäller 3 månaders ömsesidig uppsägningstid\nMax 2 personer\nRökfritt\nHusdjur kan diskuteras\nHyresgaranti och depositionsgaranti via Qasa\n\nHör gärna av dig om du har frågor eller vill komma på visning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 95.0,
-    "rent": 19500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-08T16:14:52+00:00", "clock": "16:14:52"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-08T20:34:25+00:00", "clock": "20:34:25"};
