@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Liberagatan, Göteborg",
+    "url": "https://qasa.com/p/1474463",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3T4R6BJDMB6ZX6CQT1F7JJ4.jpg",
+    "description": "Brf Norrsken, Karlastaden-\n\nLjus och välplanerad 2:a på 55 kvm, med öppen planlösning mellan kök och vardagsrum, högt i tak (2,7 m) och balkong. Lägenheten ligger på våning 4 i ett nybyggt hus med gym, garage och pizzeria i bottenplan.\n\nDetaljer:\n    •    Marbodalkök med ljusgrå luckor, betongmönstrad bänkskiva\n    •    Induktionshäll, integrerad diskmaskin, inbyggd mikro, rostfria vitvaror\n    •    Sovrum med skjutdörrsgarderob\n    •    Helkaklat badrum med duschvägg, kombimaskin (tvätt/tork), arbetsbänk, förvaring och dimbar belysning\n    •    Ekparkett i hela lägenheten\n    •    Förråd i hallen\n    •    Balkong \n\nOm området – Karlastaden (Lindholmen)\nPerfekt läge – centralt men lugnt. Färja till Stenpiren tar 10 min, buss till Centralstationen 10 min.\nNy stadsdel som växer snabbt med restauranger, kontor, butiker och service runt hörnet.\n\nBekvämligheter i huset:\n    •    STC gym\n    •    Garage\n    •    Pizzeria\n\nEl,vatten och avgift för internet tillkommer. \n\nVälkommen!\n\n\n\nBrf Norrsken, Karlastaden\n\nBright and well-planned 1-bedroom apartment (55 sqm) with open layout between kitchen and living room, high ceilings (2.7 m), and a balcony. Located on the 4th floor of a newly built building with a gym, garage, and pizzeria in the same complex.\n\nDetails:\n    •    Marbodal kitchen with light grey cabinets and concrete-style countertop\n    •    Induction cooktop, built-in microwave, integrated dishwasher, stainless steel appliances\n    •    Bedroom with sliding door wardrobe\n    •    Fully tiled bathroom with glass shower wall, washer/dryer combo, worktop and storage, dimmable spotlights\n    •    Oak parquet flooring throughout\n    •    Storage room in the hallway\n    •    Balcony with space for outdoor seating\n\nAbout the area – Karlastaden (Lindholmen)\nPerfect location – quiet yet central. 10 minutes by ferry to Stenpiren, 10 minutes by bus to Central Station.\nA new and growing neighborhood with restaurants, offices, shops, and everyday services just around the corner.\n\nBuilding amenities:\n    •    STC gym\n    •    Garage\n    •    Pizzeria\n\nElectricity, water, and internet are charged separately\n\nWelcome!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 14500,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Änggårdsgatan, Göteborg",
     "url": "https://qasa.com/p/1502455",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6W04ZY2XA1X9JM72TZ950SQ.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Malörtsgatan , Göteborg",
-    "url": "https://qasa.com/p/1500636",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6M6ZV8TAX8HSKE8F25J9QPE.jpg",
-    "description": "Ett rymligt rum på cirka 20 kvm uthyres i en stor och välutrustad lägenhet på totalt 107 kvm i Västra Frölunda, Göteborg.\n\nLägenheten har ett badrum och en separat toalett samt ett fullt utrustat kök med det mesta som behövs för en bekväm vardag.\n\nI lägenheten ingår:\n\n* Tvättmaskin och torktumlare\n* Diskmaskin, ugn och mikrovågsugn\n* Välutrustat kök med köksredskap och annan utrustning\n* Internet och el\n* Tillgång till gemensam tvättstuga\n* Förråd och cykelrum\n\nLäge och kommunikationer:\n\nLägenheten ligger i ett område med goda kollektivtrafikförbindelser och närhet till både shopping, restauranger och service.\n\n* 2 minuters promenad till närmaste spårvagnshållplats\n* Cirka 3 minuter med kollektivtrafik till Frölunda Torg, som erbjuder ett stort utbud av butiker, restauranger och service\n* Flera mataffärer, restauranger och andra bekvämligheter inom 5–10 minuters promenad\n\nBoendet passar särskilt bra för studenter eller unga yrkesverksamma som söker ett bekvämt och välutrustat boende i Göteborg.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-07T23:35:28+00:00", "clock": "23:35:28"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-08T02:41:18+00:00", "clock": "02:41:18"};
