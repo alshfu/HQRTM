@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Fastlagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1504705",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M73WJEW53F773JQS1YJET95J.jpg",
+    "description": "Välkommen till en fin tvåa om 53 kvm i Kortedala!\n\nLägenheten erbjuder ett trivsamt boende med en bra planlösning, rymliga ytor och en stor härlig balkong där du kan njuta av både morgonkaffet och fina dagar. Bostaden hyrs ut delvis möblerad, vilket gör det enkelt att flytta in och komma till rätta.\n\nLäget är väldigt bra med mindre än fem minuters promenad till närmaste spårvagnshållplats. Härifrån finns direktförbindelse till Centralen, vilket gör det smidigt att ta sig till och från stan. I området finns även mataffärer, service och grönområden.\n\nI hyran ingår samtliga driftkostnader, vilket innebär att du slipper tänka på extra kostnader för exempelvis el, värme och vatten.\n\nAnledningen till uthyrningen är att jag kommer att flytta till Stockholm. Jag söker därför en ansvarsfull och skötsam hyresgäst som kommer att ta väl hand om bostaden.\n\nUthyrningen sker tills vidare. Jag värdesätter god kommunikation och hoppas hitta någon som kommer att trivas och känna sig hemma här!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 53.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Östra Torpavägen 105, Göteborg",
+    "url": "https://qasa.com/p/1504783",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/194e8575588e49033a7d112b8f805c7fe364a963809c4b02f03af898ad80a16f.jpg",
+    "description": "OBS! Lägenheten hyrs ut baserat på planritning och en 3D skanning. Observera att ingen fysisk visning kommer att hållas. \n\nOM LÄGENHETEN\nVälkommen till denna 4 rum och kök i Björkekärr! Lägenheten är av hög standard och erbjuder ett härligt ljusinsläpp samt en öppen planlösning mellan kök och vardagsrum. Badrummet är utrustat med wc, dusch och tvättmöjligheter, med vitt kakel och klinkergolv.\n\n Här finns också ett handfat med kommod och lådor, spegelskåp med belysning, duschdörrar i glas, handdukstork samt tvättmaskin och torktumlare.\n\n Köket är utrustat med rostfria vitvaror och en helintegrerad diskmaskin. Bra förvaring med garderober i hallen och förråd/klädkammare i lägenheten.\n\nOMRÅDET\nOmrådet ligger strategiskt nära Östra Sjukhuset och erbjuder närhet till naturen samt goda förbindelser till stadens centrum. I området finns Trätorget, Stabbetorget och Spåntorget med mataffärer, småbutiker, frisör, restauranger och annan offentlig service. Björkekärr gränsar till det stora grönområdet Delsjön, som erbjuder många trevliga promenadstråk, badplatser och motionsanläggningar.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet. Hyran inkluderar värme och vatten. Individuell mätning tillkommer på elen. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 71.0,
+    "rent": 16012,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Bäckedalsvägen, Göteborg",
     "url": "https://qasa.com/p/1504595",
     "image_url": null,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Tellusgatan, Göteborg",
-    "url": "https://qasa.com/p/1414309",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M72VGKNV5738C6348QNV4TNQ.jpg",
-    "description": "**Nybyggd 3:a på 68 kvm – allt ingår i hyran**\n\nNu finns möjlighet att hyra en modern och välplanerad 3:a på 68 kvm. Lägenheten är nybyggd (endast 5 år gammal) och håller hög standard med ljusa ytskikt, ett funktionellt kök, rymligt vardagsrum, två sovrum och gott om förvaringsutrymme.\n\n**Planlösning:** Två sovrum, öppet och ljust vardagsrum, modernt kök samt badrum – en planlösning som passar både par, familjer och den som behöver ett hemmakontor.\n\n**Det här ingår i hyran:** vatten,värme,tv och internet samt möjlighet till parkering.\n\n**Kommunikation:** Goda kommunikationer med närhet till kollektivtrafik och service, vilket gör det enkelt att ta sig till arbete, studier och andra delar av staden.\n\nVarför jag hyr ut: Bostaden hyrs ut eftersom jag inte kommer att bo där under uthyrningsperioden, då jag själv söker något större.\n\nJag söker en ansvarsfull hyresgäst som är rädd om bostaden. Hör gärna av dig och berätta lite om dig själv vid intresse.\n",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 68.0,
-    "rent": 13300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ahrenbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1504135",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M72QZ0ACNJHZPAMG8PCS5372.jpg",
-    "description": "En tvåa med stort sovrum, luftigt vardagsrum och separat kök. \nBalkong med kvällssol, gemensam uteplats, samt gemensamt gym i källare.\n\nI hyran ingår el, värme, försäkring, internet och TV. \n\nNärmsta spårvagnshållplats ligger ett stenkast bort och har två alternativ in mot stan, antningen drottningtorget eller korsvägen. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 14750,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-11T01:23:05+00:00", "clock": "01:23:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-11T07:57:55+00:00", "clock": "07:57:55"};
