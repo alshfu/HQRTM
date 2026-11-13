@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Träkilsgatan, Göteborg",
+    "url": "https://qasa.com/p/1506359",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M78S2D8DEFW69J4M5G7WS5QB.jpg",
+    "description": "Lägenheten ligger i ett mycket trevligt och lugnt område med en balkong som vetter mot en liten skog.\nFör dig som tycker om att promenera finns skogen bara 10 minuter bort. Det är även endast 5 minuters promenad till närmaste mataffär.\nDet tar cirka 5–7 minuter att gå till busshållplatsen och ungefär 12 minuter till centrum.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 83.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Putsegårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1432086",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M78QWD1MCGGKC70Q4BV9KF49.jpg",
+    "description": "Hej,\nNu finns det en stor lägenhet att hyra till erat personal. \n3 sovrum. Två badrum. Kök ",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 120.0,
+    "rent": 22000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Landalabergen, Göteborg",
     "url": "https://qasa.com/p/1240282",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M78ES1M5ZJ95WWSVBTBYJEYX.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Hängestensvägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1505940",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M77PHWS4WYMQ03QYXWKSKXKJ.jpg",
-    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/hpxm565bggiizwnbzvoa/vastra-gotaland/vastra-frolunda/hangestensvagen-60/7-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nInsynsskyddad villa med spa på havsnära Näset\r\n\r\nOm bostaden:\r\n\r\nRymlig och modern villa på 317 kvm (216 kvm boarea och 101 kvm biarea) i ett mycket insynsskyddat läge på Näset. Huset har 7 rum, varav 5 sovrum, vardagsrum och ett tv-rum på övervåningen. Det uthyrs fullt möblerat med moderna möbler.\r\n\r\nI källarvåningen finns en spaavdelning på 57 kvm med bubbelpool, torrbastu, ångbastu, tv-rum och toalett. Utomhus finns en trädgård med gräsmatta, en överbyggd terrass och en terrass i soligt läge.\r\nParkering, internet och betal-tv ingår i hyran. El, värme, vatten och sophämtning betalas av hyresgästen. \r\n\r\nOm området:\r\n\r\nNäset är en lugn och grön halvö i sydvästra Göteborg med havet runt hörnet. Här finns populära badplatser som Näsetbadet och Smithska udden, och i området finns flera badföreningar. Båtplats kan ordnas i någon av de närliggande småbåtshamnarna. Det finns också promenadstigar längs vattnet, förskolor, skolor och matbutik i närheten. Frölunda Torg ligger en kort bilresa bort, och till centrala Göteborg tar det cirka 20 minuter med bil eller 35–40 minuter med buss.",
-    "district": "Västra Frölunda",
-    "rooms": 7.0,
-    "area_m2": 317.0,
-    "rent": 36810,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Prospect Hillgatan, Göteborg",
-    "url": "https://qasa.com/p/1505736",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M77743E6J9JCFFGEW1J8XFTG.jpg",
-    "description": "Välkommen till charmig sekelskiftesvilla med panoramautsikt över hela Göteborg. Ett rum erbjuds med fri tillgång till gemensamt kök och badrum, uteplats och tvättstuga. Hyran inkluderar el, vatten, värme, sophämtning, internet. Gratis parkering finns på gatan i direkt anslutning till fastigheten. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 16.0,
-    "rent": 6200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-12T19:05:27+00:00", "clock": "19:05:27"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-13T00:15:02+00:00", "clock": "00:15:02"};
