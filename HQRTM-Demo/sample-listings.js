@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Chalmersgatan, Göteborg",
+    "url": "https://qasa.com/p/1506418",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M795M0QFZRY6W83GFNEY3DHV.jpg",
+    "description": "Stor lägenhet i centrala Göteborg, precis mellan Vasaparken och Avenyn.\nHögt i tak (3,5m) & stora fönster. Ett sovrum och ett stort vardagsrum, anslutet med ett mellanrum (till exempel kontor).\nDelvis möblerad (köksbord+bänkar, micro, soffa+fåtölj (vardagsrum), TV (sovrum), TV-bord + TV-bänk (vardagsrum). Ej säng).\nVärme, varmvatten & bredband (1000/1000) ingår, el tillkommer.\n\nJag bor för tillfället på annan ort och önskar därför hyra ut min lägenhet i ett år, från och med December.",
+    "district": "Göteborg",
+    "rooms": 2.5,
+    "area_m2": 95.0,
+    "rent": 14634,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Träkilsgatan, Göteborg",
     "url": "https://qasa.com/p/1506359",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M78S2D8DEFW69J4M5G7WS5QB.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bautastensgatan 11 B, Göteborg",
-    "url": "https://qasa.com/p/1506114",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/075f3258d8fa659e3fbe271f9d7217b0b438d8f77003872dc3926c1b0b126b71.jpg",
-    "description": "I attraktiva Sannegården väntar en ljus och modern etta som passar dig som vill ha ett bekvämt boende med det lilla extra. Lägenheten är helrenoverad till modern standard och erbjuder både diskmaskin och smarta lösningar för en enkel vardag.\n\nNjut av en stund i kvällssolen på den egna balkongen. Här får du ett hem att trivas i från första dagen.\n\n\n\n\nHär bor du med närhet till både grönska och vatten. På bara några minuter når du älvstranden med fina promenadstråk, parker, caféer och restauranger. Dessutom finns mataffärer, apotek, vårdcentral, bibliotek och annan service inom bekvämt gångavstånd.\n\nFör dig som vill ta dig runt smidigt finns goda kommunikationer i området. Med Älvsnabben kan du enkelt resa över älven till centrala Göteborg, och du har även möjlighet att ta med cykeln ombord.\n\n\n\n\nLåter det intressant? Anmäl ditt intresse redan idag via HomeQ och ta första steget mot ditt nya hem i Sannegården!\n\n\nAlla intresseanmälningar görs via HomeQ. Vi tar tyvärr inte emot ansökningar via telefon, mejl eller personliga besök. Urvalet sker utifrån de vägledande köpoängen i HomeQ och påverkas därför inte genom att kontakta oss direkt. Tack för din förståelse och lycka till med din ansökan!\n\n2026 års hyra\nP-plats finns att hyra.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 32.0,
-    "rent": 6328,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-13T00:15:02+00:00", "clock": "00:15:02"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-13T06:55:39+00:00", "clock": "06:55:39"};
