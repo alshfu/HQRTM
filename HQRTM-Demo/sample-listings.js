@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Södra Ligården, Hisings Kärra",
+    "url": "https://qasa.com/p/1472181",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M588MP6WKZXJK1DGH5K0B77J.jpg",
+    "description": "Välkommen till ett mycket trevligt och välplanerad boende i två plan, totalrenoverat radhus med två rymliga altaner, där balkongen samt den stora altanen är i söderläge. Du får tillgång till 4 sovrum, två toaletter samt en rymlig klädkällare. I bostaden ingår även ett förråd, ett garage samt 4 parkeringsplatser. \n\nBostaden befinner sig i ett mycket lugnt och barnvänligt område nära till lekplatser, Kärra torget och Bäckebol centrum. Goda möjligheter till bussförbindelser in till Göteborg centrum. \n\nFör planlösning, var god se separat bild.\nDu får ett positivt första intryck direkt vid hallen, som även har golvvärme, samt erbjuder bra förvaringsytor. \n\nDetta är ett rök- och djurfritt hem. \n\n\n\n\n\n\n\n\n\n\n\n",
+    "district": "Hisings Kärra",
+    "rooms": 5.0,
+    "area_m2": 133.0,
+    "rent": 21000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Harald Hjärnesgatan, Göteborg",
+    "url": "https://qasa.com/p/1507328",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7DD6C6RWVVXN6EJPRF9THN9.jpg",
+    "description": "Ljus och välplanerad tvåa på 51 kvm med balkong\n\nVälkommen till en ljus och trivsam tvåa om 51 kvm med moderna materialval och smarta förvaringslösningar. Lägenheten erbjuder ett stilrent och välutrustat kök med matplats, ett rymligt sovrum med platsbyggda garderober, ett fräscht helkaklat badrum samt ett ljust och lättmöblerat vardagsrum. Från sovrummet nås även en mysig balkong, perfekt för morgonkaffet eller avkoppling under varmare dagar.\n\nBostaden ligger i ett lugnt och trevligt område med närhet till allt du behöver. Backaplan ligger på bekvämt avstånd och erbjuder ett stort utbud av butiker, restauranger, caféer och gym. I närheten finns även matbutiker, grönområden och goda kommunikationer med buss och spårvagn till centrala Göteborg.\n\nHyresinformation\n\nTillgänglig från: Mitten av januari 2027\n\nHyresperiod: 31 January 2028, med 3 månaders uppsägningstid\n\nIngår i hyran: Vatten, internet och parkeringsplats\n\nEl: Betalas separat efter faktisk förbrukning och brukar ligga på cirka 300–500 kr per månad\n\nEn perfekt bostad för dig som söker ett modernt, bekvämt och trivsamt hem med närhet till både stadsliv och natur.\n\nVälkommen att höra av dig vid intresse eller för mer information!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 12250,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Terapislingan, Hisings Backa",
+    "url": "https://qasa.com/p/1507338",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7DA1ATDEHSTAVEJ4YXH8BX1.png",
+    "description": "Möblerad lägenhet uthyres i ett lugnt och skönt område, med en park utanför och skog med fina promenadstråk precis bakom huset.\n\nLägenheten har stora fönster i två väderstreck som ger ett fint ljusinsläpp. Kök och vardagsrum har en öppen planlösning med plats för både matbord och soffhörna (bäddsoffa). Köket är utrustat med diskmaskin, ugn, spishäll samt kyl och frys.\n\nSovrummet har gott om förvaring bakom skjutdörrar. Byrå och skrivbord kommer inte att vara kvar. Vill man ställa in en större säng så tar vi bort den nuvarande. \n\nBadrummet är helkaklat och har dusch, egen tvättmaskin och torktumlare.\n\nWi-fi och el ingår.\n\nParkeringsplats finns att hyra mot en extra kostnad.\n\nUthyres under 6 månader och sedan med 3 månaders uppsägning. Lägenheten kommer att ligga till försäljning framöver och visning kan ske - men ni meddelas i förväg. \n\nÄr du intresserad? Skicka gärna ett meddelande och berätta lite om dig själv!",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 50.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gåsagången, Hisings Backa",
     "url": "https://qasa.com/p/1506941",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7D0NPR5FK8NM3XEZQHXQXAH.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/760704",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b56595740aa6ccab70492e51cebf1305270113758ea40ee774772e71dbf7a103.jpg",
-    "description": "Välkommen till din egna privata tillflyktsort mitt i hjärtat av staden. Detta charmiga och mysiga rum är perfekt för kvinnan som söker en lugn oas.\n\nRummet uthyres till kvinna med arbete, rök och spritfri. Det kan också hyras ut till veckopendlande kvinna med arbete. Då är hyran 3200 kronor.\n\nBeläget i ett fridfullt och säkert villaområde bara en kort promenad från livliga Avenyn. Här kan du njuta av stadens pulserande atmosfär samtidigt som du återvänder till din egen fristad av lugn och ro.\n\nDet fullt möblerade rummet på 8m2 erbjuder allt du behöver för ett övernattningsrum: tillgång till wifi, tvättställ, kök (dock inte för veckopendlare),  kylskåp och mikrovågsugn, samt fri parkering.\n\nFör endast 3800 kr inklusive alla avgifter, är detta ett oslagbart erbjudande för den som söker både komfort och ett prisvärt boende. \nGoda referenser är ett krav.\n\nGlöm inte att lämna ditt telefonnummer när du ansöker så att vi kan nå dig snabbt och smidigt. \n\nDetta rum är exklusivt för en kvinna för att säkerställa en trygg och harmonisk boendemiljö för alla våra hyresgäster.\n\nVälkommen att kontakta oss för att upptäcka din nya oas i staden! Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 8.0,
-    "rent": 3800,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Orrebacksgatan, Göteborg",
-    "url": "https://qasa.com/p/1503028",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6ZHYXTZEF9NSH4XMBXST6A8.jpg",
-    "description": "\nBostaden är min lägenhet i ett hus på två våningar med fyra lägenheter totalt. Min lägenhet ligger på övervåningen och har tre rum som hyrs ut separat. Du hyr ett rum och delar lägenheten med två andra. Idag bor två studenter i de andra rummen. Ni har gemensamt ansvar för badrum och kök.\n\nRummet är 10 kvadratmeter och möblerat. Bilden på sovrummet i annonsen visar inte det aktuella rummet. Jag kan skicka en bild när jag kommer till lägenheten i helgen. Alla övriga bilder stämmer.\n\nTvättstuga finns i källaren och där kan man boka tvättid.\n\nI hyran ingår el, vatten, Wi-Fi och möblering. Även köksutrustning finns komplett.\n\nDet finns en livsmedelsaffär cirka 50 meter från huset och en busshållplats cirka 100 meter bort med direktförbindelse till centrum.\n\nLägenheten hyrs ut till studerande och vi kommer överens om en avtalstid som passar båda.\n\nBerätta gärna lite om dig själv, vad du studerar och varför du är intresserad av att hyra rummet.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 10.0,
-    "rent": 2703,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Nedre Fogelbergsgatan, Göteborg",
-    "url": "https://qasa.com/p/1484421",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4WG3991605NS0DZVC1F0TC2.jpg",
-    "description": "Unikt tillfälle att hyra en totalrenoverad, välplanerad trea i pampiga Vasastaden. Lägenheten som är mycket välplanerad erbjuder ett modernt och välutrustat kök med köksinredning i grått samt ett stilfullt badrum med väl valda materialval. Två mysiga sovrum med lugnt gårdsläge och djupa fönsternischer. Genomgående vitpigmenterade brädgolv och ljusa väggar som ger en neutral bas att inreda efter. Lägenheten uthyres i första hand omöblerad men kan även inredas enligt överenskommelse med hyresgäst. Värme, vatten, kabel-TV och bredband ingår i månadshyra.",
-    "district": "Göteborg",
-    "rooms": 3.0,
-    "area_m2": 62.0,
-    "rent": 18854,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-14T14:57:15+00:00", "clock": "14:57:15"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-14T19:50:32+00:00", "clock": "19:50:32"};
