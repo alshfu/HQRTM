@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Fogelbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1484421",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M4WG3991605NS0DZVC1F0TC2.jpg",
+    "description": "Unikt tillfälle att hyra en totalrenoverad, välplanerad trea i pampiga Vasastaden. Lägenheten som är mycket välplanerad erbjuder ett modernt och välutrustat kök med köksinredning i grått samt ett stilfullt badrum med väl valda materialval. Två mysiga sovrum med lugnt gårdsläge och djupa fönsternischer. Genomgående vitpigmenterade brädgolv och ljusa väggar som ger en neutral bas att inreda efter. Lägenheten uthyres i första hand omöblerad men kan även inredas enligt överenskommelse med hyresgäst. Värme, vatten, kabel-TV och bredband ingår i månadshyra.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 62.0,
+    "rent": 18854,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Gläntevägen, Hisings Backa",
+    "url": "https://qasa.com/p/1507122",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7CA8JTJ3Z4ZEX7NN6SWEG0E.jpg",
+    "description": "Nybyggt attefallshus i Hisings Backa – Lugnt läge nära naturen\n​\nVi hyr ut vårt nybyggda attefallshus på 30 kvm (BYA). Detta är ett separat boende för dig som söker ett lugnt och harmoniskt hem nära naturen och härligt fågelkvitter, men som samtidigt vill ha nära till stadspulsen.\n\nOm bostaden: \nHuset har en ljus och öppen planlösning och är utrustat med hög komfort.\n​Kök: Fullt utrustat kök med diskmaskin.\n​Badrum: Fräsch toalett med dusch, tvättmaskin och skön golvvärme.\n​Klimat/Innemiljö: Utrustat med AC som ger skön svalka under varma sommardagar och effektiv värme under vintern.\n​Utemiljö: Fantastiska möjligheter till uteliv med en stor uteplats på både framsidan och baksidan – perfekt för att njuta av solen.\n​\nLäge och kommunikationer: \n​Ett privat och avskilt boende omgivet av lugn och ro.\n​Mycket goda bussförbindelser till stan. Det tar endast 2 minuter att gå till busshållplatsen.\n\nVillkor: \n​Boendet är helt djur- och rökfritt.\nKostnad för el tillkommer till hyran.\n\n​Vem söker vi?\n​Vi söker dig som är skötsam, ansvarsfull och tar väl hand om vår bostad.\n​\nLåter det intressant?\nSkicka gärna ett meddelande och berätta lite om vem du är vid ditt intresse!",
+    "district": "Hisings Backa",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 8600,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lillhagsparken 19A, Göteborg",
     "url": "https://qasa.com/p/1506909",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/927525b9a52cb317a6aab65a090915faae94045dd3bcf4c043dda4956d90fd33.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kvillepiren, Göteborg",
-    "url": "https://qasa.com/p/1156571",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/88b3381c7ce58c09a89fc0b50302cd95b4dfa7f01084995c716e0f3f7a1ef476.jpg",
-    "description": "Precis intill vattnet och bara minuter från city ligger Waterfront Cabins. Vi erbjuder fullt utrustade studios på Kvillepiren – för dig, oavsett vem du är eller vad du behöver. Vi finns här genom livets olika faser och erbjuder både korta och längre vistelser. Det är smart, flexibelt och bekvämt.\n\nSöker du boende i höst? Priser från endast 9000 kr/månad\n\nSamtliga studios är stilfullt möblerade, med ett fullt utrustat kök, rymligt badrum, kombinerad tvätt- och torkmaskin, sköna sängar och snabbt Wi-Fi. Kostnader för el, värme, AC och vattenförbrukning ingår självklart i vistelsen. Dessutom har vi personal på plats dygnet runt om du har frågor eller behöver hjälp. Det är vad vi kallar all-inclusive.\n\nDeposition och administrationsavgift tillkommer.\n\nVi vill att det ska vara både enkelt och bekvämt att välja Waterfront Cabins!\n\nVälkommen!\n(OBS: Bilderna är exempelbilder på hur en studiotyp kan se ut.)",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 29.0,
-    "rent": 9600,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Dalagärdet, Hisings Backa",
-    "url": "https://qasa.com/p/1505813",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M77EFGAVZDF93MX5VQBYWY2J.jpg",
-    "description": "Välkommen till ett hemtrevligt radhus i ett lugnt och mycket barnvänligt område på Dalagärdet i Hisings Backa. Här bor du i ett område med många barnfamiljer, trevliga grannar och närhet till både grönområden, löpstigar och fina promenadstråk. Samtidigt finns goda kommunikationer med buss som smidigt tar dig in till centrala Göteborg.\n\nBostaden erbjuder en social och öppen planlösning på entréplanet, där kök och vardagsrum möts i en naturlig samlingspunkt för umgänge med familj och vänner. Härifrån nås även en stor uteplats som ger extra utrymme för avkoppling och sociala stunder. På övervåningen finns tre sovrum som erbjuder gott om plats för familj, gäster eller hemmakontor.\n\nRadhuset har två toaletter, med badkar på entréplanet och dusch på övervåningen, vilket gör vardagen extra bekväm.\n\nEtt perfekt boende för dig som söker ett trivsamt hem med familjevänlig omgivning, närhet till naturen och smidig tillgång till Göteborgs stadsliv!",
-    "district": "Hisings Backa",
-    "rooms": 4.0,
-    "area_m2": 100.0,
-    "rent": 24000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-14T01:36:17+00:00", "clock": "01:36:17"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-14T07:59:52+00:00", "clock": "07:59:52"};
