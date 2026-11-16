@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Landalabergen, Göteborg",
+    "url": "https://qasa.com/p/1508013",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7GTP83WZ3VVGTXRCVAHN888.jpg",
+    "description": "Hyr ut vårt extrarum, gärna till en student eller kulturarbetare. Vi är själva i kulturbranschen och behöver dryga ut våra inkomster.\n\nLägenheten är belägen i Landala i Göteborg med  4 minuter till hållplats Kapellplatsen. Ligger precis bredvid Landala Torg med Coop, Systembolaget, gym och restauranger. Dessutom promenadavstånd till både Chalmers, Göteborgs Universitet och Handelshögskolan.\n\nI hyran ingår el, vatten och wi-fi. Rummet är möblerat med säng, hylla, skrivbord och klädhängare. Gemensamt kök och badrum. Dessvärre ingen diskmaskin, men vi planerar att skaffa en.\n\nDet bor en katt i lägenheten, så du bör ej vara allergisk. Katten släpps såklart inte in i gästrummet.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Helgdagsgatan, Göteborg",
+    "url": "https://qasa.com/p/1477135",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M44F3MYJPYH72ZNQ39PV2AVH.jpg",
+    "description": "Rymlig villa uthyres – 160 kvm, 5–6 sovrum och stor trädgård.\n\nNu finns möjlighet att hyra en rymlig och trivsam villa på ca 160 kvm, perfekt för en familj eller ett större hushåll.\n\nVillan erbjuder gott om plats med 5–6 sovrum, ett stort och ljust vardagsrum samt en härlig trädgård som passar utmärkt för både avkoppling och umgänge.\n\n🏠 Om bostaden\n\n* Boarea: ca 160 kvm\n* 5–6 sovrum\n* Stort vardagsrum\n* Kök\n* Badrum/WC\n* Stor och härlig trädgård\n* Gott om förvaringsmöjligheter\n* Passar perfekt för familj eller större sällskap\n\nOm bostaden\n\nHär får du ett bekvämt och rymligt boende med gott om plats för hela familjen. Den stora trädgården ger möjlighet till lek, grillkvällar och sociala aktiviteter under årets varmare månader.\n\nVillan har en flexibel planlösning och de många sovrummen gör att bostaden även passar bra för exempelvis en familj med flera barn eller för den som behöver extra rum som kontor eller gästrum.\n\n📍 Område: Göteborg/ Kortedala\n💰 Hyra: 17000kr/mån\n📅 Inflyttning: När som\n⏳ Hyresperiod: Tillsvidare /tidsbegränsad\n🚗 Parkering: Tillgängligt \n⚡ Driftskostnader: ca 5000kr\n\nVid intresse, skicka gärna en kort presentation av dig/er, vilka som ska bo i huset samt önskat inflyttningsdatum.\n\nVälkommen att höra av dig för mer information och visning",
+    "district": "Göteborg",
+    "rooms": 6.0,
+    "area_m2": 160.0,
+    "rent": 17000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Gunnilse backaväg, Gunnilse",
     "url": "https://qasa.com/p/818558",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/79f97d9ee4378a4ab03cbf14d4ad1fa461b69486cc69f9f6da5c250e182c5521.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skårsgatan, Göteborg",
-    "url": "https://qasa.com/p/1502032",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6S3XSQYQZ8JY8MFTHRJ0935.jpg",
-    "description": "Bakom den typiska funkisfasaden döljer sig ett ovanligt välbevarat hem där 1930-talets arkitektur fortfarande få tala med egen röst. Generösa sällskapsrum, en öppen spis och vacker fiskbensparketter och bevarade orginaldetaljer. Här bor du i ett av Örgrytes mest eftertraktade villaområden, med naturen runt hörnet och Göteborgs stadskärna bara några minuter bort. Det är ca; 200 m till spårvagnen \nHuset har två lägenheter och vi kommer hyra ute lägenheten som är på första våningen , vi kommer bo på andra våningen och vinden.  Vi som bor på andra våningen är en familj på två vuxna och två barn , i åldrarna 12 och 15 år. Gemensam \"huvudingång\" , sedan är det ett trapphus och separat ingångar till respektive lägenhet  \nPlanlösning: hall, vardagsrum , matsal eller sovrum, ett stort sovrum , ett mindre sovrum eller kontor, kök och badrum med badkar.  Från det stora sovrummet så kommer man ut till en balkong.   Tvättmaskin med torktumlare finns i källaren som delas med ägarna av huset.\n(Trädgården ingår inte)\n\nMöjlighet att komma och titta på lägenheten kommer var tidigas den 18/12.\nReferenser från tidigare hyresvärd kommer efterfrågas.\n\nHyrs ut omöblerat , möjlighet till parkering finns på gatan.\nVi hyr ut från  1/1 2027 till 31/12 2027, men det kan finnas möjlighet till förlängning.  \n\n\n",
-    "district": "Göteborg",
-    "rooms": 4.0,
-    "area_m2": 102.0,
-    "rent": 18670,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Pennygången, Göteborg",
-    "url": "https://qasa.com/p/1507877",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7G62BRKD47XPZ8AXTGA8SVM.jpg",
-    "description": "Möblerat rum i nyrenoverad 3:a – nära Chalmers & Sahlgrenska\n\nEtt ljust och rymligt möblerat rum uthyres i en fin och välplanerad 3:a på 85 kvm i lugna och trevliga Högsbohöjd.\n\nLägenheten ligger högst upp i huset (våning 4 av 4) med hiss, balkong och fin utsikt. Den totalrenoverades invändigt 2023 och är i mycket fint skick, med generösa ytor och en härlig känsla av rymd.\n\nOm boendet\n\nRummet är möblerat med en säng med förvaringslådor, ett mindre förvaringsskåp och ett skrivbord, perfekt för studier eller hemarbete.\n\nLägenheten är i övrigt fullt möblerad och välutrustad. Här finns ett stort och ljust vardagsrum, ett rymligt kök med matplats samt ett helkaklat badrum med golvvärme.\n\nKöket är fullt utrustat med diskmaskin, porslin, köksredskap och allt som behövs för vardagen. Det finns även en egen tvättmaskin i lägenheten.\n\nDu får ett eget sovrum och delar kök, vardagsrum, badrum och balkong.\n\nOm mig och boendesituationen\n\nJag är masterstudent vid Göteborgs universitet och bor i lägenheten tillsammans med min sambo. På grund av ett nytt jobb kommer hon framöver huvudsakligen att bo i Stockholm.\n\nDu kommer därför i vardagen att dela lägenheten med mig. Min sambo kommer endast att bo här vid enstaka tillfällen, exempelvis under högtider eller vid kortare besök.\n\nVi uppskattar ett lugnt, rent och trivsamt hem och söker någon som delar samma inställning.\n\nLäge och kommunikationer\n\nLägenheten ligger i ett lugnt och trevligt bostadsområde med goda buss kommunikationer till centrala Göteborg(20min), Chalmers(10min) och Sahlgrenska(8min).\n\nICA, Hemköp, STC och bussförbindelser finns inom kort promenadavstånd. Även Slottsskogen ligger nära, perfekt för promenader och avkoppling.\n\nPraktisk information\n\n* Hyra: 6 800 kr/mån\n* Inflyttning: Mitten av januari eller februari 2027, enligt överenskommelse\n* Möblerat rum\n* El, Vatten och bredband ingår i hyran\n* Tillgång till fullt utrustat kök, vardagsrum, badrum och balkong\n* Rökfritt boende\n\nVem söker vi?\n\nVi söker en lugn, skötsam och ansvarsfull person som uppskattar ett rent och trivsamt hem.\n\nStudenter prioriteras, men även andra är välkomna att höra av sig.\n\nBerätta gärna lite om dig själv, vad du studerar eller arbetar med och när du önskar flytta in.\n\nVarmt välkommen att höra av dig vid intresse!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6800,
-    "floor": 4,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-15T21:59:04+00:00", "clock": "21:59:04"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-16T01:49:39+00:00", "clock": "01:49:39"};
