@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Hjälmavägen, Torslanda",
+    "url": "https://qasa.com/p/1483307",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7HP51AS2HKJ7S2XPP5E55ZW.png",
+    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/d2pak0qryjejs3m6dmg7/vastra-gotaland/torslanda/hjalmavagen-100/2-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nNybyggt attefallhus i Nolvik Torslanda.\r\n30 kvm + 11 kvm sovloft, helkaklat badrum med kombinerad tvätt och tork.\r\nNytt kök med all utrustning\r\n\r\n- Fristående\r\n- Möblerat\r\n\r\nPassar till 1-2 personer.\r\n\r\nVärme, vatten och el ingår i hyran. \r\n\r\nAnvänds till gäster under sommaren och ska nu hyras ut några månader.",
+    "district": "Torslanda",
+    "rooms": 2.0,
+    "area_m2": 30.0,
+    "rent": 9226,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Engelbrektsgatan, Göteborg",
+    "url": "https://qasa.com/p/1508092",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7HMVNF80GTGDJK6Y5X3Y4P2.jpg",
+    "description": "FEMALES/KVINNOR ENDAST!\nEtt ljust rum  (till vänster på planlösningen) in mot gården i centralt belägen en trerumslägenhet. Nära till Chalmers, Handelshögskolan, IHM och närmsta hållplats är Södra Ullevi, Berzeliigatan och Valand vid Avenyn. Willys, Coop och ICA i närheten. I rummet finns det persienner, säng 120 cm, fåtölj, skrivbord, byråer, en garderob i rummet och en garderob i hallen. Sängkläder och handdukar finns om det behövs. Rökning bara ute på balkongen.\n\nJag håller på att flytta så beroende på när jag får den nya lägenheten kan jag hyra ut antingen ett rum för 5 500 kr från 1 december eller hela lägenheten för 11 500 kr fram till 28 februari (kan bli sista mars också beroende på kontraktsskrivning).\n\nDet finns två katter här så du bör inte vara allergisk, svårt att städa bort till 10 %.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 12.0,
+    "rent": 5500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Snörmakaregatan, Göteborg",
+    "url": "https://qasa.com/p/1508062",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7HJMJYBYY640G7A7XBGSNKB.jpg",
+    "description": "OBS ! DET RÖR SIG OM ETT RUM I VILLA\n\n\nTrevlig villa på 120 kvm i två våningar med en mysig entre.\n\n2 badrum\nKamin i vardagsrummet \nRymlig planlösning \nTomt med mysig uteplats. \nWiFi/Vatten/El ingår i priset\n\nNära till natursköna områden som exempelvis Utby bergen.\nSnäll hund finns i huset så inga allergier bör förekomma. \n\n\n",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Landalabergen, Göteborg",
     "url": "https://qasa.com/p/1508013",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7GTP83WZ3VVGTXRCVAHN888.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Brunnehagen, Göteborg",
-    "url": "https://qasa.com/p/1507955",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7GCPFGYAKSJ8VS6M0PM2Z9P.png",
-    "description": "En tvårumslägenhet på 62 kvm uthyres i Tuve\n\nNu finns möjlighet att hyra en fin och välplanerad tvåa på 62 kvm i Tuve. Lägenheten har ett nyrenoverat kök med gott om förvaring samt två inbyggda garderober i hallen.\n\nDet är cirka tre minuter till närmaste busshållplats och nära till matbutik, restauranger och apotek. Parkeringsplats med elstolpe finns att hyra för 475 kr per månad.\n\nLägenheten hyrs ut delvis möblerad och är tillgänglig från december eller enligt överenskommelse.\n\nUthyrningen är helst långsiktig och uppsägningstiden är tre månader från båda parter.\n\nJag söker en ansvarsfull och skötsam hyresgäst med stabil ekonomi som tar väl hand om lägenheten.\n\nHyra: 13 000 kr per månad. Kabel-tv-/bredbandsavgift samt värme avgift ingår. El och varmvatten tillkommer efter faktisk förbrukning.\n\nDeposition: En månadshyra.\n\nSkicka gärna ett PM och berätta lite om dig själv om du är intresserad.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 62.0,
-    "rent": 13000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Klåvavägen, Hovås",
-    "url": "https://qasa.com/p/1507923",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7GBBBJXAA93AGC7XYP79M6H.jpg",
-    "description": "Exklusiv etagelägenhet på 99 kvm med känslan av ett eget townhouse: bostaden är fördelad över två våningsplan med generös takhöjd, fantastiskt ljusinsläpp och ett privat, ostört läge helt utan grannar ovanför. Entréplanet erbjuder ett rymligt vardagsrum och matplats, master bedroom samt helkaklat badrum med tvättutrustning. Det nyrenoverade köket har stilren design, generösa arbetsytor, mycket god förvaring och utgång till en av bostadens två privata balkonger. En trappa upp finns ett andra vardagsrum med takfönster och snedtak, ytterligare ett sovrum, badrum och klädkammare/förråd. Övre planet har dessutom egen entré från trapphuset och passar utmärkt för gäster, tonårsbarn eller hemmakontor. Attraktivt läge i Nya Hovås med restauranger, caféer, gym, butiker och service nära, samt cykelavstånd till havet och goda kommunikationer till Göteborg. Möjlighet till parkeringsplats med elbilsladdning finns mot extra kostnad. Planerar hyra ut under dec 2026- dec 2027 pga av annat boende.",
-    "district": "Hovås",
-    "rooms": 3.0,
-    "area_m2": 99.0,
-    "rent": 18840,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kabelgatan, Göteborg",
-    "url": "https://qasa.com/p/1507914",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7G8SHDYY8JSRVAKEK350XAT.png",
-    "description": "På grund av arbete i en annan stad hyr jag tillfälligt ut min lägenhet. Det är en 2:an delvis möblerad på tredje våningen; ingen hiss och ingen balkong. Badrum med dusch och egen tvättmaskin; det finns även tillgång till tvättstuga vid behov. Förråd finns i källaren.\nDet är 5 minuters promenad till Majorna eller Chapmans Torg, och 15 minuters promenad till Stigbergstorget eller Slottsskogen.\nVatten, värme och bredband ingår i hyran, el kostnader tillkommer. Du ska ha egen försäkring. Deposition 1 mån hyra. ",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 8700,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-16T01:49:39+00:00", "clock": "01:49:39"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-16T08:39:26+00:00", "clock": "08:39:26"};
