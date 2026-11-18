@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/839646",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/181331163c4279dc196f83bbdc22b5d7c34d8fb1ee887abd7a7d7dca329336ed.jpg",
+    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Korgbollsvägen, Angered",
+    "url": "https://qasa.com/p/1509396",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7N7NKSAX17BFMM2H1QYS3B2.jpg",
+    "description": "Nyrenoverad lägenhet om 73 m² med egen entré och parkering i Göteborg\n\nNu erbjuds möjlighet att hyra en nyrenoverad och välplanerad lägenhet om 73 m², belägen i ett lugnt och trivsamt villaområde i Göteborg.\n\nBostaden är belägen i en villas källarplan och har en egen separat entré, helt avskild från husets övre bostadsdel. Här erbjuds ett privat och funktionellt boende med generösa utrymmen, moderna ytskikt och bekvämligheter som underlättar vardagen.\n\nLägenheten har en genomtänkt planlösning med ett rymligt vardagsrum, två separata rum med flexibla användningsmöjligheter samt ett eget kök.\n\nBostaden har även ett badrum med dusch och toalett, en separat gästtoalett samt egen tvättmaskin och torktumlare.\n\nBostaden erbjuder:\n\n* 73 m² välplanerad bostadsyta\n* Egen entré utan invändig förbindelse med övriga villan\n* Rymligt vardagsrum\n* Två separata rum\n* Eget kök\n* Badrum med dusch och toalett\n* Separat gästtoalett\n* Egen tvättmaskin och torktumlare\n* Nyrenoverade ytskikt\n* Kostnadsfri parkering på tomten\n\nOmråde och kommunikationer\n\nLägenheten ligger i ett lugnt och etablerat villaområde i Göteborg, med goda möjligheter att kombinera ett avskilt boende med närhet till stadens utbud.\n\nOmrådet har goda kollektivtrafikförbindelser med både buss och spårvagn till centrala Göteborg, vilket underlättar pendling till arbete, studier och fritidsaktiviteter.\n\nFör den som har bil erbjuds parkering direkt på fastigheten, inkluderad i hyran.\n\nFör att erbjuda ett enkelt och förutsägbart boende ingår följande i månadshyran:\n\n* Hushållsel\n* Internet\n* Uppvärmning\n* Varm- och kallvatten\n* Parkering på fastigheten\n\nSamtliga ovanstående kostnader ingår i hyran. Inga separata avgifter tillkommer för dessa tjänster.\n\nTillträde: Enligt överenskommelse\nVisning: Efter överenskommelse\n\nUthyrning och intresseanmälan\n\nVi eftersträvar en trygg, seriös och långsiktig uthyrning där tydlig kommunikation och ömsesidig respekt står i fokus.\n\nUthyrningen sker genom ett skriftligt hyresavtal med tydligt angivna villkor, så att både hyresgäst och hyresvärd har en gemensam förståelse för vad som gäller.\n\nVi välkomnar intresseanmälningar från personer som söker ett välskött och trivsamt boende.\n\nVid intresse får du gärna skicka en kort presentation av dig själv, din nuvarande sysselsättning, hur många personer som avser att bo i lägenheten samt önskat inflyttningsdatum.\n\nYtterligare information och exakt adress lämnas vid fortsatt kontakt med intresserade hyresgäster.\n\n**Observera:** Planritningen är illustrativ och avsedd att ge en översiktlig bild av bostadens planlösning. Mindre avvikelser i mått, utformning och detaljer kan förekomma jämfört med verkligheten.\n\nVarmt välkommen med din intresseanmälan!",
+    "district": "Angered",
+    "rooms": 3.0,
+    "area_m2": 73.0,
+    "rent": 11000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Tellusgatan, Göteborg",
     "url": "https://qasa.com/p/1509411",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7N8PSVTSP5HMG76A9HWHJ15.webp",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kallkällegatan, Göteborg",
-    "url": "https://qasa.com/p/1509288",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7MY5J58TN5J553V5N7TJCKJ.jpg",
-    "description": "Nu finns chansen att hyra ett ljust och fint studentrum om cirka 20 kvadratmeter, beläget mitt i charmiga Kålltorp – ett lugnt och trevligt område med närhet till både natur och stadens puls. Bostaden är i mycket gott skick och passar perfekt för en student som söker ett trivsamt hem med goda kommunikationer.\n\nRummet har ett eget kök med kokplatta, kyl, frys och bra förvaringsmöjligheter, vilket ger full frihet att sköta sin egen matlagning. Badrummet delas med en annan hyresgäst och håller även det hög standard. Rummet är välplanerat med plats för både säng, skrivbord och förvaring, och de stora fönstren släpper in gott om ljus, vilket skapar en luftig och hemtrevlig känsla.\n\nLäget är optimalt – med spårvagn och buss på kort gångavstånd tar du dig enkelt till både centrum, Chalmers och Göteborgs universitet. I närheten finns även mataffärer, caféer, grönområden och allt du kan behöva för ett bekvämt vardagsliv.\n\nRummet hyrs ut till en skötsam student. Inflyttning sker enligt överenskommelse, och hyran betalas månadsvis inklusive el, vatten och internet.\n\nLåter det intressant? Skicka gärna en kort presentation om dig själv så hör vi av oss för visning. Välkommen att bo i ett mysigt hem med ett av Kålltorps bästa lägen!\n\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 6500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Södra Vårvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1509273",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7MX7G3RQ7RYZG1703TZS5M4.jpg",
-    "description": "Studentboende – Rum i trevlig delad studentvåning\n\nSöker du ett prisvärt och trivsamt boende under studietiden? Nu finns ett rum ledigt i en studentvåning med gemensamma utrymmen.\n\nOm boendet:\n\n* Ett privat rum att hyra.\n* Gemensamt kök med allt som behövs för matlagning.\n* Gemensamt badrum och toalett.\n* Tvättstuga med tvättmaskin och torktumlare.\n* Lugn och trevlig boendemiljö, nära busshållplatsen med smidig transport till stan.\n* Passar dig som uppskattar ordning, respekt och ett trivsamt boende.\n\nLäge:\nLägenheten har ett bra läge med närhet till kollektivtrafik, universitet/högskola samt mataffärer och annan service.\n\nInflyttning:\nEnligt överenskommelse.\n\nVid intresse är du varmt välkommen att höra av dig med en kort presentation om dig själv. Vi svarar gärna på frågor och bokar visning.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 4355,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-17T19:30:49+00:00", "clock": "19:30:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-18T01:50:16+00:00", "clock": "01:50:16"};
