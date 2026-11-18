@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Norra Skeppspromenaden, Göteborg",
+    "url": "https://qasa.com/p/1509665",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7PSHD1YT3E7CFY7FP8X9551.jpg",
+    "description": "Jag hyr ut min fina och rymliga 2:a på 71 m², centralt belägen i Eriksberg, Göteborg. Lägenheten är fullt möblerad och har ett stort och ljust vardagsrum med öppet kök, ett separat sovrum och ett badrum med badkar, tvättmaskin och torktumlare.\n\nEn av lägenhetens bästa delar är den privata uteplatsen, omgiven av grönska. Här kan man njuta av lugna morgnar, äta middag utomhus eller bara koppla av.\n\nLägenheten ligger i ett väldigt lugnt och familjevänligt område, samtidigt som det är nära till det mesta. Både buss och färja finns inom mindre än fem minuters promenad, vilket gör det enkelt att ta sig till centrala Göteborg. I närheten finns även mataffärer, restauranger, caféer och fina promenadstråk längs älven.\n\nLägenheten hyrs ut fullt möblerad och i hyran ingår el, vatten, värme och internet.\n\nEftersom jag bor utomlands för tillfället vill jag gärna hyra ut lägenheten till någon som söker ett trevligt och bekvämt boende och som tar väl hand om den.\n\nUthyrningen sker efter godkännande från bostadsrättsföreningen. Uthyrning planeras inledningsvis för ett år, med möjlighet till förlängning efter godkännande från bostadsrättsföreningen.\n\nHör gärna av dig om du är intresserad eller har några frågor!",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 71.0,
+    "rent": 14500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Långåsliden, Göteborg",
     "url": "https://qasa.com/p/839646",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/181331163c4279dc196f83bbdc22b5d7c34d8fb1ee887abd7a7d7dca329336ed.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Styrgången, Göteborg",
-    "url": "https://qasa.com/p/1507289",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7DYX5H6D37NW801AB8RR5RD.jpg",
-    "description": "Hej!\nVi är en familj som har en lägenhet i Eriksberg med tre rum och kök som vill hyra ut den extra rummet . Rummet är möblerat och du har tillgång till allt i huset.\nHyran för att bli inneboende ligger på 5000 kronor i månad, el och nät ingår\nTrevligt lägenhet som erbjuder lugnt och närhet till allt,( Apotek-restaurang-affär-bibliotek med mera).\nKök och badrum är ny renoverad. Mycket fint område och trevliga grannar. Goda kommunaltrafik till centrum .\nVi är lunga och hjälpsamma människor, har inte barn och icke rökare, Vi har en liten söt hund som är allergifri och mycket glad, social och snäll.\nDu är värm välkommen för mer info att kontakta via telefon. lämna ditt nummer då jag ringer upp dig.\nMVH Mahshid",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 9.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-18T01:50:16+00:00", "clock": "01:50:16"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-18T09:17:28+00:00", "clock": "09:17:28"};
