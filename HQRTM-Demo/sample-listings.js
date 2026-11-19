@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Östra Arödsgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1510297",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7R0CQZAVQYJ0ZSHAP12KHAA.jpg",
+    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/tq5vphh78fglpn4riubn/vastra-gotaland/hisings-backa/ostra-arodsgatan-26/2-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nFÖRSTA HANDS KONTRAKT! Rymlig källarvåning med stora fönster.\r\nVälkommen till denna totalrenoverade och ljusa källarvåning som erbjuder ett perfekt boende för 1–2 personer. Här får du både komfort och funktionalitet, med moderna lösningar och stora fönster som släpper in mycket ljus.\r\n\r\nOm bostaden:\r\n\r\n    Helt nyrenoverad med nytt kök och badrum\r\n    Stora fönster som ger ett härligt ljusinsläpp\r\n    Vattenburen golvvärme genom hela bostaden, uppvärmd via bergvärme\r\n    Mycket rymlig – perfekt för den som söker extra utrymme\r\n    Nytt kök och nya vita varor (häll, spis, kyl/frys, tvättmaskin)\r\n    Bra kommunikationer till Göteborg, ca 10 minuter till centrum. \r\n\r\nVärme, normalförbrukning av el, varmt och kallt vatten, internet och sophämtning ingår i hyran, kostnaden baserad på en person. Om ni är två kommer vi överens om kostnaden.! Parkering kan diskuteras.\r\n\r\nUthyrning: Tillsvidare\r\n\r\nIdealisk för 1–2 personer som söker ett bekvämt och modernt boende. Den öppna planlösningen och de genomtänkta detaljerna ger ett funktionellt hem med goda förvaringsmöjligheter.\r\n\r\nVälkommen att höra av dig för mer information eller för att boka visning!",
+    "district": "Hisings Backa",
+    "rooms": 2.0,
+    "area_m2": 60.0,
+    "rent": 11289,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fribergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1510268",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7QXR0C9JXW7GX2555EWD3X0.jpg",
+    "description": "Uthyrning av litet sovrum i delad lägenhet \n**söker endast kvinnliga hyresgäster\n\nEtt mindre sovrum hyrs ut i en trivsam och ljus lägenhet som delas med mig. Lägenheten ligger på 4:e våningen med hiss och har en fin utsikt över park och horisonten mot Mölndal. Passar en vecko-pendlare.\n\nOm lägenheten\n\nLägenheten har en smart planlösning med fyra rum samt kök. Vardagsrum och matrum är idag öppna mot varandra men kommer delas av med skiljevägg.\n\nNär du kommer in i lägenheten ligger vardagsrummet rakt fram, med det lilla sovrummet och köket till vänster. Till höger finns hall med garderober, badrum med dusch samt ett större sovrum med balkong.\n\n\n\nKök\n\n* Spis med varmluftsugn (ca 5 år gammal)\n* Ny köksfläkt installerad februari 2025\n* Diskmaskin finns \n\n Badrum\n\n* Kaklat badrum med duschkabin\n* Relativt litet och inte handikappanpassat\n* Tvättstuga finns i huset på bottenplan med två nya maskiner, torktumlare och torkrum\n\n Övrigt\n\n* Öppen spis (ej fungerande)\n* Parkettgolv\n* Inbyggda garderober\n* Originaldörrar\n* Nya trägolv i sovrummen\n* Lägenheten målades om för cirka tre år sedan\n\nFörvaring\n\n* Förråd på vinden\n* Förråd på markplan\n* Cykelrum i huset\n\n Extra\n\n* Parkeringsplats finns på gatan utanför\n",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 20.0,
+    "rent": 6300,
+    "floor": 0,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Jakobshöjdsvägen, Göteborg",
     "url": "https://qasa.com/p/1510110",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7QNP7R0TSRZW6TVMBSGK7XC.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gårdstensvägen 46A, Angered",
-    "url": "https://qasa.com/p/1509977",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/ca8d1e1e8d0ae52749894e89f4b69c14a664abaff5449479f585f9a6cf5d95cb.jpg",
-    "description": "Välkommen till denna nyproducerade 2 rok.\n\nDenna lägenhet erbjuder ett modernt och genomtänkt boende med ljusa ytor, stilrena\nmaterialval och en öppen planlösning. Här får du en bostad där funktion och komfort\nstår i fokus, med stora fönsterpartier och en generös balkong.\n\nInflyttning\nLägenheten är tillgänglig 1 april 2027.\n\nPlanlösning\nLägenheten har en öppen och social planlösning där kök och vardagsrum bildar\nbostadens naturliga samlingspunkt. De stora fönsterpartierna skapar ett generöst\nljusinsläpp och ger rummet en luftig känsla.\n\nI sovrummet finns det en skjutgarderob med Elfa-system. Från vardagsrummet når du balkongen,\nsom ger ytterligare en yta att använda under årets varmare månader.\nPlanlösningen är genomtänkt och har lättmöblerade ytor som passar både vardag och\numgänge.\n\nMaterial & utrustning\nBostaden har moderna och tidlösa materialval. Köket är från Vedum och är i vitt med\nsläta luckor, en stilren stenbänkskiva i en grå/beige nyans och är utrustat med kyl och\nfrys, spis, ugn, mikro samt diskmaskin.\nGenomgående golv och målade väggar ger bostaden ett ljust och enhetligt uttryck.\nDet helkaklade badrummet har en dusch med glasväggar som ger ett rent och modernt\nintryck. Här finns även tvättmaskin och torktumlare som underlättar vardagen.\n\nOm området\nGårdsten är ett omtyckt och etablerat bostadsområde i östra Göteborg, cirka 1,5 km utanför\ncitykärnan. Här bor du med närhet till både natur och stadens utbud. I området finns\nförskolor, grundskolor och gymnasium. Goda bussförbindelser gör det enkelt att ta sig till Göteborg och för den som cyklar finns väl utbyggda gång- och cykelvägar. Gårdsten erbjuder också grönområden, motionsspår och service i närområdet – ett bekvämt läge\nför både studenter, familjer och yrkesverksamma.\n\nÖvrigt\nP-plats hyrs ut separat.\n\nBilderna är från en liknande lägenhet i ett annat projekt, därav kan viss skillnad\nförekomma.\n\nÄr detta ditt nästa hem? Skicka in din intresseanmälan eller kontakta ansvarig\nuthyrare",
-    "district": "Angered",
-    "rooms": 2.0,
-    "area_m2": 51.0,
-    "rent": 10710,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Temperaturgatan 81, Göteborg",
-    "url": "https://qasa.com/p/1509936",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/54caa00b3e12c4feb687e7bcddf66d0b6b45cd59dc64662e2d5d2bd75b1fd60b.jpg",
-    "description": "Nu kan vi erbjuda en  2 ROK på Temperaturgatan 81 från 1 februari.\nLägenheten är belägen på våning 3 och är disponerad på 64 kvm.\nBalkong finns. \n\nI lägenhetskontraktet ingår en garageplats med för närvarande hyra: 750:-. Hyran är inkluderad i annonsen på 8315 kr/mån.\n\nAnsök redan idag!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 64.0,
-    "rent": 8315,
-    "floor": 3,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-18T18:12:34+00:00", "clock": "18:12:34"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-19T00:27:26+00:00", "clock": "00:27:26"};
