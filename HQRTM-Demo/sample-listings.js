@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Antenngatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1504805",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M75MTNZRMFQWKXV7JBRVPCPR.jpg",
+    "description": "Välkommen till en rymlig och luftig etta på 40 kvm med separat kök, sovalkov och balkong! Lägenheten har en öppen och trivsam känsla med gott om utrymme. Sovalkoven har jag själv använt som en del av vardagsrummet, men den kan även inredas som en separat sovplats. Se gärna planritningen bland bilderna för en bättre överblick av planlösningen.\n\nPå balkongen finns en mysig lastpallssoffa och ett hopfällbart balkongbord – perfekt för att njuta av en kopp kaffe eller lite frisk luft.\n\nLägenheten hyrs ut delvis möblerad och följande möbler ingår:\n\nSoffa och soffbord\n\nSäng (bredd 120 cm)\n\nKöksbord och tre pinnstolar\n\nByrå i vardagsrummet\n\nGarderob\n\nTV\n\nMikrovågsugn\n\nÄr det några av de mindre möblerna som önskas tas bort så är det absolut möjligt.\n\nI hyran ingår värme, varm- och kallvatten samt internet. Det finns även tillgång till ett rymligt källarförråd, där halva förrådet ingår i uthyrningen. Den andra halvan kommer jag att använda för förvaring av mina egna saker. \n\nGemensam tvättstuga finns tillgängligt och denna bokas via app. Genom denna app finns även möjlighet att boka bastu om så önskas.\n\nHyresgästen tecknar eget elavtal.\n\nLägenheten har goda kollektivtrafikförbindelser. Busshållplats Radiotorget ligger cirka 100 meter från bostaden, och spårvagnshållplats med flera linjer nås på ungefär 10 minuters promenad.\n\nJag hyr ut lägenheten eftersom jag ska provbo som sambo. Uthyrningen planeras initialt till ett år, med möjlighet till förlängning om bostadsrättsföreningen godkänner detta.\n\nInflyttningsdatum är flexibelt och kan diskuteras.",
+    "district": "Västra Frölunda",
+    "rooms": 1.0,
+    "area_m2": 40.0,
+    "rent": 9500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hängestensvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1510432",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7S5P4RSXZ508MBAFD5GEJWP.jpg",
+    "description": "Lägenhet på Näset i förstahand med nyrenoverat kök,  1,5 rum & kök på ca 36 kvm med egen uteplats på ca: 20 kvm. \nLägenheten har golvvärme i samtliga rum, det finns stor garderobsförvaring och fönster som vetter åt två väderstreck. \nKöket är nybyggt 2022, med diskmaskin, micro, ugn/häll, kyl/frys.\nBadrum har dusch, vägghängd wc, tvättmaskin, handdukstork.\n\nI hyran ingår: värme, vatten, sopor, bredband via fiber 250/250, Tv utbud.\nKostnad för el tillkommer.\nLägenheten ligger på en lugn gata som angränsar till natur, hav och strövområden. Det finns många badplatser i området, närmast badmöjlighet finns på 500 meters avstånd. Det finns goda kommunikationer med buss, närmaste busshållplats är Hammarvägen.  Närhet till sportarena, restaurang och mataffär. \n\nBostaden är djur och rökfri.\n\nEn deposition tas ut vid kontraktskrivning och betalas tillbaka vid utflytt.\nDet finns även möjlighet att hyra bostaden fullt möblerad om så önskas.\n\n ",
+    "district": "Västra Frölunda",
+    "rooms": 1.5,
+    "area_m2": 36.0,
+    "rent": 8350,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Östra Arödsgatan, Hisings Backa",
     "url": "https://qasa.com/p/1510297",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7R0CQZAVQYJ0ZSHAP12KHAA.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Askims Fornborgsväg, Askim",
-    "url": "https://qasa.com/p/1509955",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7QCH6VJW6MA8CHEVMJ4YHGD.jpg",
-    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/1zfcny7b2l8ssewinvoo/vastra-gotaland/askim/askims-fornborgsvag-9/1-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nModernt, hemtrevligt och fräscht med pentry & badrum för omgående uthyrning.\r\nNyrenoverat för några år sedan, egen ingång, 1 privat villa.\r\nMöblerat rum med pentry, toalett med dusch.\r\nBoyta 25 kvm.\r\n- El, värme, Wi-Fi och sophantering ingår\r\n- Städning ingår ej\r\n- Rökning inte tillåten\r\n- Husdjur är inte tillåtna\r\n- Tillgång till egen del av trädgården\r\n\r\nNärmaste busshållplatser:\r\n- Ringestensvägen (linje 82)\r\n- Trollängen (linje 180, 184, 258, X2) Gåsmossen eller Varpemossen, distans 50m. De vanligaste busslinjerna är 84 & 83.\r\n\r\nRadhuset ligger på Askims Fornborgsväg i Askim, sydväst om Göteborgs stadskärna\r\n- 12 minuter från Göteborgs centrum\r\n- 15 minuters promenad från Sisjöns affärscentrum. Här finns några av Göteborgs största livsmedelsbutiker (Stadium, XXL Sport och Vildmark, Inet, Rusta, Jula, ÖoB, Biltema, Nordic Wellness, SATS m.fl.)\r\n\r\nDärifrån har du både hav (Askimsbadet) och skog & sjöar (sisjön) inom räckhåll. Runt sjön finns motionsspår, naturstigar och grillplatser.\r\n\r\n_______________________________________________\r\n_______________________________________________\r\n\r\nModern, homely and fresh with kitchenette & bathroom for immediate rent.\r\nNewly renovated few years ago, own private entrance, 1 private house.\r\nFurnished room with kitchenette, toilet with shower.\r\nLiving space 25 sqm.\r\n- Electricity, heating, Wi-Fi and garbage disposal included\r\n- Cleaning not included\r\n- Smoking not allowed\r\n- Pets not allowed\r\n- Access to your own part of the garden\r\n\r\nNearest bus stops:\r\n- Ringestensvägen (line 82)\r\n- Trollängen (line 180, 184, 258, X2) Gåsmossen or Varpemossen, distance 50m. The most common bus routes are 84 & 83.\r\n\r\nThe townhouse is located on Askims Fornborgsväg in Askim, southwest of Gothenburg's city centre\r\n- 12 minutes from Göteborg center\r\n- 15 minutes' walk from Sisjön's business centre. Here are some of Gothenburg's largest grocery stores (Stadium, XXL Sport and Vildmark, Inet, Rusta, Jula, ÖoB, Biltema, Nordic Wellness, SATS, etc.)\r\n\r\nFrom there you have both sea (Askimsbadet) and forest & lakes (sisjön) within easy reach. Around the lake there are exercise tracks, nature trails and barbecue areas.\r\n\r\nEnergy class : The building has energy class C.\r\n\r\nRenovations\r\nThe kitchen is renovated (5-10 years)\r\nThe bathroom is renovated (5-10 years)",
-    "district": "Askim",
-    "rooms": 1.0,
-    "area_m2": 25.0,
-    "rent": 7587,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Malörtsgatan, Angered",
-    "url": "https://qasa.com/p/1508840",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7K5DCWBYT1HPH7KYRRVZXD9.jpg",
-    "description": "We have a furnished room in a house that has 5 rooms, two bathrooms, a large kitchen, a laundry room and 2 Altans, and is located in Gothenburg. The cost of a furnished room + Wi-Fi + electricity + water + heating + cable TV + area service is within the above price.\nPhotos speak best about the reality of the House",
-    "district": "Angered",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-19T00:27:26+00:00", "clock": "00:27:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-19T07:47:39+00:00", "clock": "07:47:39"};
