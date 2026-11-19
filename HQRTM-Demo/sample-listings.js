@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Långåsliden, Göteborg",
+    "url": "https://qasa.com/p/839646",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/181331163c4279dc196f83bbdc22b5d7c34d8fb1ee887abd7a7d7dca329336ed.jpg",
+    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 20.0,
+    "rent": 4900,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Skårsgatan, Göteborg",
+    "url": "https://qasa.com/p/1510945",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7TBK7PQQYQ8BQX1Y8EDCQVV.jpg",
+    "description": "\nMöblerat rum i centrala Örgryte/Skår. Rummet är komplett möblerat och har stort perspektivfönster mot trädgård. I hyran ingår el och värme, vatten, möjlighet att ansluta kostnadsfritt till bredband. Tillgång till fullt utrustat kök, toalett och bad. I rummet finns även garderob och ytterligare skåp som inte är med på bilderna. Bortom huset finns delsjöområdet med fantastiska promenadslingor/ löprundor och badplats sommartid. Ett par minuters promenad till kollektivtrafik och cykel/ promenadavstånd till Göteborgs centrum och universiteten, buss utanför på gatan. Har du bil finns gratis parkering på gatan. Ett säkert boende för dig som prioriterar trygghet, beläget i Göteborgs bästa område. Den som hyr rummet erlägger en månadshyra i deposition som återfås vid hyrestidens slut. Kontraktet har en ömsesidig uppsägningstid på 2 månader.  Skriv gärna ett par rader om dig själv eller din verksamhet och hur länge du vill hyra. Den som så önskar kan hyra en längre tidsperiod. Tillträde enligt överenskommelse och det går att tillträda omgående om så önskas. Hyran är 4850.- oavsett om blocket anger något annat. Tidigare tillträde möjligt Bilägg gärna ett mobilnummer eller mejladress i ansökan för enklare hantering. Rummet är avsett för en person. Annonsen ligger kvar tills att kontrakt är tecknat. Välkommen med din ansökan.\n\nFurnished room located in central fashionable Örgryte/Skår. In rent is all included heating, water, electricity and possibility to connect to the internet free of charge. There is a wardrobe and cabinet that is not shown on the pictures. Access to full equipped kitchen, bathroom. Free parking outside. Walking distance to city centre and university and bus direct outside and tram within 3 minutes walking distance. Located in the in the best are area in Gothenburg if you prioritize a safe location.\n1 months deposit that is repaid after contracts end. Notice time 2 months for both parties. Possibility to rent for a long time period. Earlier move in date could be possible. Total rent 4850.- Add mobile number or email address for a convenient contact. You could apply in English or German if wanted. Welcome with your application.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 9.0,
+    "rent": 4620,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Virveltorget, Göteborg",
     "url": "https://qasa.com/p/1510831",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7T7WZJ88ERS6PGDRY8YTDGN.png",
@@ -20,7 +50,7 @@ window.HQRTM_SAMPLE = [
     "source": "qasa",
     "title": "Turkosgatan, Västra Frölunda",
     "url": "https://qasa.com/p/1510883",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7T65Y7M3VF95KDYR0QZZ0MF.jpg",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7TFBEB4PCZYFFGMDV9JG8TD.jpg",
     "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/joqe9ovrgj492hhjkdti/vastra-gotaland/vastra-frolunda/turkosgatan-20/1-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nHall: Med laminatgolv. En stor skjutdörrsgarderob med spegeldörrar som tar hand om mycket av förvaringen. Till vänster ligger wc/dusch. Rakt fram finns vardagsrum/sovrum.\r\n\r\nVardgsrum/sovrum: Ekgolv med vita väggar. Ett stort fönsterparti ut mot den inglasade balkongen.\r\n\r\nKök: Golv av laminat. kök utrustat med spis, spiskåpa, kyl/frys och städskåp och skåp för köksförvaring.\r\nWc/dusch: Är halvkaklat med vitt kakel och på golvet ligger mosaik i blå och vitt. Duschkabin finns.\r\n\r\nInglasad balkong: Ligger i sydväst mot gården. Här finns eluttag, solskyddsgardiner och en blå filtmatta.\r\n\r\nÖvrigt: Lugnt/välskött område med många grönområde. Fin utsikt över grönområdet från kök, vardagsrum och inglasad balkong. Bilfritt. 5-10 min gåväg till buss/spårvagn. Nära till livsmedelsbutik och närhet till Frölunda centrum(shoppingcentrum). Till lägenheten finns en parkeringsplats som ingår i hyran. Det finns också ett källarföråd och en gemensam tvättstuga.\r\nUthyres på 1 år, kan ev. förlängas. Vid behov kan ev. basmöblering ordnas.",
     "district": "Västra Frölunda",
     "rooms": 1.0,
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Kungshöjdsgatan, Göteborg",
-    "url": "https://qasa.com/p/1510399",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7RE735632HE32R0T0X6M8XK.jpg",
-    "description": "Studio lägenhet 39 kvm Kungshöjdsgatan i centrala Göteborg uthyres.   Lägenheten är nyrenoverad, mycket fräsch och ljus. Lägenheten består av ett vardagsrum med soffa och bord, ett fullt utrustat kök,  ett badrum med dush, toalett samt tvättmaskin/torktumlare. Sängen befinner sig i loftet. Ett skrivbord och en stol finns tillgängligt om så önskas. El, vatten, värme och internet ingår i hyran. \n\nStudio apartment 39 sqm Kungshöjdsgatan in the centre of Gothenburg available. The apartment is renovated to a high standard and is very bright and fresh.  It has a living room with sofa and a table, a fully equipped modern kitchen with oven, fridge and freezer. The bathroom has toilet, shower washing machine/dryer. The bed is situated in the loft easily accessible via stairs. A working desk and a chair is available if needed. Electricity, heating, water and Internet are included in the rent.\n",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 39.0,
-    "rent": 9000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Backadalen 14, Göteborg",
-    "url": "https://qasa.com/p/1510689",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/6340f3ab318f7a6c4adcad0c07bead145c7909c70cfb34e9931cbb83cd515fb1.jpg",
-    "description": "Nyproducerad 2RoK för dig som är 70+! Välplanerad och ljus lägenhet med öppna ytor och balkong. Rymligt sovrum med förvaring, öppen planlösning mellan vardagsrum och kök och hallen är väl tilltagen samt här återfinns gott med förvaringsutrymme. Lägenheten är fullt utrustad med diskmaskin och kombinerad tvättmaskin och torktumlare. Fastigheten stod klar 2021 och ytskikt så väl som materialval återspeglar detta. I detta trygghetsboende välkomnar vi dig som är 70+. Fastigheten inrymmer gemensamhetslokaler med anställda trygghetsvärdar där aktiviteter och planering kan, om intresset finns, bli en del av vardagen. Ta en fika, spela spel, ut och gå stavgång, utöva gymnastik, åk med på utflykter eller se en film är en del av det utbud som brukar stå på schemat! Fastigheten är tillgänglighetsanpassad och på varje våningsplan återfinns rum för förvaring av rullatorer och rullstolar. Övriga bekvämligheter i fastigheten är gemensam tvättstuga samt cykelförråd och till varje lägenhet hör ett förråd i vind- eller källarplan. Bilderna i annonsen är exempelbilder och är inte bilder från lägenheten. Parkeringsmöjligheter I källarplan finns garage med möjlighet att hyra parkeringsplats separat. Övrigt Bredband och el debiteras i samband med hyran. Bilderna som visas i annonsen är enbart exempelbilder. Hyran avser 2026 års nivå. Inkomstkrav sätts i förhållande till Normalbeloppet för 2023: Hyra + 5 717kr för ensamstående vuxen Hyra + 9 445kr för samlevande makar och sambor. Urval och visningar vid bestämd tid och under dagtid, mer information kommer för dig som blir erbjuden en visning. Vi accepterar inga betalningsanmärkningar.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 45.0,
-    "rent": 9197,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-19T16:50:25+00:00", "clock": "16:50:25"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-19T23:18:09+00:00", "clock": "23:18:09"};
