@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nedre Kvarnbergsgatan, Göteborg",
+    "url": "https://qasa.com/p/1511356",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7WAVF12YQCPH8ASKCFFNB5D.jpg",
+    "description": "Mitt i city \nMöblerat rum mitt i city uthyres 1 februari  2027 och tillsvidare. Rummet ligger några minuters promenad från Gustav Adolfsson torg, Nordstans Affärscentrum, Stenpiren och Centralstationen Rummet ligger i en fyrarumslägenhet med Tillgång till kök med full utrustning  badrum med dusch och gästtoalett. I hyran ingår värme vatten, elektricitet och Wi-Fi.. En månadshyra i deposition.  Välkommen\n\nCity center Furnished room in the centre of the city for rent February  1 th.  2027 and until further notice. The room is a few minutes walk from Gustav Adolfsson torg, Nordstan Business Centre, Stenpiren and Central Station. The room is located in a four-room apartment with access to a fully equipped kitchen. bathroom with shower and guest toilet. The rent includes heating, water, electricity and Wi-Fi. One month's rent in deposit. You are welcome to contact us. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 14.0,
+    "rent": 6200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Änggårdsgatan, Göteborg",
+    "url": "https://qasa.com/p/1512170",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7ZMFA84G0TB346RDMEECMS9.jpg",
+    "description": "1 rum på källarplan uthyres från 14 December 2026 i vackra Änggården.\n\nHär bor du med närhet till Änggårdsbergen, universitetet, Slottsskogen och centrala Göteborg. Du har egen ingång och delar kök och badrum med en annan kvinnlig hyresgäst. Rummet är möblerat och hyran är 4925 kronor per månad, inklusive el, värme och vatten. Egen kyl och frys ingår, liksom tillgång till tvättmaskin och torktumlare. Det finns även möjlighet att vistas i trädgården. Vi söker en rökfri och ordningsam kvinnlig hyresgäst. Skriv gärna några rader om dig själv och varför du vill bo hos oss.\n\nIn English:\n1 Room for rent on basement level from 14 December 2026, in beautiful Änggården. \n\nLive close to Änggårdsbergen, the university, Slottsskogen park, and the city center of Gothenburg. You will have a private entrance and share a kitchen and bathroom with another female tenant. The room is furnished, and the rent is 4925 SEK per month, including electricity, heating, and water. You will have your own fridge and freezer, as well as access to a washing machine and dryer. There is also an opportunity to spend time in the garden. We are looking for a non-smoking, tidy female tenant. Please write a few lines about yourself and why you would like to live here.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 4925,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Batterigatan, Göteborg",
+    "url": "https://qasa.com/p/1512120",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7ZDJXRHQ5G7TWJ5XM1MSJC5.jpg",
+    "description": "Möblerad lägenhet med egen balkong och uteplats uthyres\n\nPå grund av ett sista minuten-avhopp läggs denna pärla ut igen! Då nuvarande hyresgästen har köpt en egen lägenhet i samma kvarter, hyrs denna mysiga lägenhet ut medan jag arbetar i Malmö.\n\nHär bor du nära både centrum och grönområden, med SKF:s spårvagnshållplats bara några meter bort. Med spårvagnen når du Nordstan på under 10 minuter. Coop, gym, restauranger och park finns alldeles runt hörnet.\n\nLägenheten har nyrenoverat kök och badrum samt egen diskmaskin. Den hyrs ut möblerad med bland annat ett komplett utrustat kök, en 160 cm bred säng och bäddsoffa. Se bilderna för att få en uppfattning om allt möblemang som ingår.\nPå våningen under finns en tvättstuga med två industritvättmaskiner, torktumlare och torkrum.\n\nStorlek: 1,5 rum + kök och badrum, ca 40 kvm. Balkong och altan är inte inräknade i den boytan.\n\nTillträde: 1 december 2026, men datumet går att diskutera.\n\nAvtal kan skrivas till och med 31 juli 2027, eftersom föreningen vill ha ett bestämt slutdatum. Om det blir aktuellt är jag öppen för en förlängning och hyr gärna ut till någon som vill bo kvar längre.\n\nHyra: 9 800 kr/mån inklusive vatten och värme. El och bredbandsavgift tillkommer med ca 300 kr/mån. Blockets serviceavgift tillkommer vid uthyrning via Qasa.",
+    "district": "Göteborg",
+    "rooms": 1.5,
+    "area_m2": 40.0,
+    "rent": 9800,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Ryttaregatan, Göteborg",
     "url": "https://qasa.com/p/1492097",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M6CD23WS2VG5AW04A9DFPDKV.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Legendgatan, Hisings Backa",
-    "url": "https://qasa.com/p/1511906",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7YKX9VMNEVJW1RMCBQC38X1.jpg",
-    "description": "***Please send a short introduction about yourself when applying and please don't apply if you're more than 2 people.***\n\nBright and well-maintained second floor of a duplex house for rent in a safe and quiet residential area with free parking for residents. The unit is completely separated from the first floor and has a private entrance, offering good privacy.\n\nLocation:\n- Calm and safe neighborhood\n- 2-minute walk to Legendgatan bus stop\n- Approx. 900 m walk to Backa Kyrkogata bus stop\n\nApartment details:\n- Kitchenette suitable for everyday cooking\n- Walk-in closet with good storage space\n- Bathroom with bathtub\n- West-facing balcony with plenty of natural light\n- Washing machine inside the apartment\n\nFurnishing (partially furnished):\n- Bed\n- Dining table and chairs\n- Coffee table\n- TV stand\n- Electric stove, microwave oven, and toaster\n- Washing machine\n\nIncluded / not included:\n- Water included\n- 250 Mbps internet included\n- Electricity not included (on average 1000 sek per month)\n- Free outdoor parking included\n\nRental conditions\n- Suitable for one person or a couple\n- No pets, no children\n- Two months’ deposit\n- Rental period: 1 year with possibility of extension\n\nThis apartment is ideal for tenants who appreciate a quiet and calm living environment. Preferably a working individual or couple with a regular daily routine.",
-    "district": "Hisings Backa",
-    "rooms": 2.5,
-    "area_m2": 60.0,
-    "rent": 10500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stensbovägen, Västra Frölunda",
-    "url": "https://qasa.com/p/1507667",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7FHQX8FKX9VZQBHNX024Q0G.jpg",
-    "description": "Villa – granne med Grimmered/Ruddalen, det bästa av två världar\n\nVilla med ett soligt och högt läge i attraktiva Grimmered, granne med Ruddalen! Framör huset har du stadens puls och bekvämligheter, och direkt bakom tar staden slut och övergår i skog och grönska. Här bor ni på cykelavstånd till hav och härliga bad såväl som in till stan. Nära till Frölunda Torg med dess stora utbud av butiker, caféer och restauranger.\n\nSjälva huset är en helt fristående villa med fria sidor runt om, entréplan med öppen planlösning, två duschrum, allrum och två härliga altaner/balkong. Ett omtyckt boende med närhet till skolor, förskolor, buss och mataffär.\n\nVillan är 139 m² och rymmer tre sovrum som ingår i uthyrningen (ett rum är låst och ingår inte). Här finns ett separat tvättrum med både tvättmaskin och torktumlare, luftkonditionering för sköna sommardagar, samt en rymlig altan och en trädgård med egna fruktträd – perfekt för umgänge och avkoppling. Tomten är omkring 449 m².\n\nDirekt bakom huset finns en lekplats för barnen, och strax därefter skog och stigar som leder vidare mot Slottsberget, Slottsbergs Mosse och Ruddalens stora idrotts- och friluftsområde med löpspår, fotbollsplaner och skridskobanor på kort promenadavstånd. I närheten ligger även populära Positivparken. På cykelavstånd når du havet och baden vid Ganlet och Fiskebäcksbadet, samt Önnereds brygga med båtliv och restaurang.\n\nTrots det lugna läget tar du dig snabbt in till city – cirka 10 minuter med bil – och till Frölunda Torg på bara ett par minuter med bil. Goda förbindelser till kollektivtrafik finns bara någon minut bort, och Västerleden ligger nära för dig som pendlar.\n\nHuset hyrs ut möblerat, men möbleringen är flexibel och kan anpassas efter dina behov – hör av dig så löser vi det tillsammans.\n\nParkering finns direkt framför huset, med laddmöjlighet för elbil. Platsen är inte en dedikerad plats utan delas i området.\n\nInflyttning 1 december 2026 (eller enligt överenskommelse) till och med 15 juli 2027, med möjlighet till förlängning.\n\nHyra: 24 500 kr/mån (kallhyra). El, uppvärmning, vatten och sophämtning betalas av hyresgästen efter förbrukning. Alternativt 28 500 kr/mån inkl. allt vid normal hushållsförbrukning (vid ovanligt hög förbrukning regleras det överskjutande med hyresgästen).\n\nKrav på hyresgäst: Rök- och djurfri, ordnad ekonomi med verifierbar inkomst samt goda referenser. Passar utmärkt för företagsuthyrning, projektanställning eller familj.\n\nBilderna är vägledande; viss möblering och inredning kan komma att ändras.",
-    "district": "Västra Frölunda",
-    "rooms": 6.0,
-    "area_m2": 139.0,
-    "rent": 24500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Ulfsparregatan, Göteborg",
-    "url": "https://qasa.com/p/1511868",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7YF738PM8YA7B49531ANX8Z.jpg",
-    "description": "Ett ordentligt kök med gott om plats och diskmaskin.\nGolvvärme i badrummet.\nBalkong mot väster.\nKöksfönster mot öster.\nTyst och lugnt område i populära Örgryte.\nBuss precis utanför dörren hela vägen in till stan.\nEn kort promenad bort finns mataffärer etc.\nMycket fräsch tvättstuga i källaren som bokas online.\nFörråd finns också i källaren.\nVäldigt fina övernattningsrum kan bokas mot en extra kostnad. Cykelförråd finns.  \n\nBredband ingår i hyran.\nEl tillkommer med ca 150kr/mån.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 37.0,
-    "rent": 9400,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-21T16:31:26+00:00", "clock": "16:31:26"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-21T21:50:48+00:00", "clock": "21:50:48"};
