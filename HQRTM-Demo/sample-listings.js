@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Legendgatan, Hisings Backa",
+    "url": "https://qasa.com/p/1511906",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7YKX9VMNEVJW1RMCBQC38X1.jpg",
+    "description": "***Please send a short introduction about yourself when applying and please don't apply if you're more than 2 people.***\n\nBright and well-maintained second floor of a duplex house for rent in a safe and quiet residential area with free parking for residents. The unit is completely separated from the first floor and has a private entrance, offering good privacy.\n\nLocation:\n- Calm and safe neighborhood\n- 2-minute walk to Legendgatan bus stop\n- Approx. 900 m walk to Backa Kyrkogata bus stop\n\nApartment details:\n- Kitchenette suitable for everyday cooking\n- Walk-in closet with good storage space\n- Bathroom with bathtub\n- West-facing balcony with plenty of natural light\n- Washing machine inside the apartment\n\nFurnishing (partially furnished):\n- Bed\n- Dining table and chairs\n- Coffee table\n- TV stand\n- Electric stove, microwave oven, and toaster\n- Washing machine\n\nIncluded / not included:\n- Water included\n- 250 Mbps internet included\n- Electricity not included (on average 1000 sek per month)\n- Free outdoor parking included\n\nRental conditions\n- Suitable for one person or a couple\n- No pets, no children\n- Two months’ deposit\n- Rental period: 1 year with possibility of extension\n\nThis apartment is ideal for tenants who appreciate a quiet and calm living environment. Preferably a working individual or couple with a regular daily routine.",
+    "district": "Hisings Backa",
+    "rooms": 2.5,
+    "area_m2": 60.0,
+    "rent": 10500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Stensbovägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1507667",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7FHQX8FKX9VZQBHNX024Q0G.jpg",
+    "description": "Villa – granne med Grimmered/Ruddalen, det bästa av två världar\n\nVilla med ett soligt och högt läge i attraktiva Grimmered, granne med Ruddalen! Framör huset har du stadens puls och bekvämligheter, och direkt bakom tar staden slut och övergår i skog och grönska. Här bor ni på cykelavstånd till hav och härliga bad såväl som in till stan. Nära till Frölunda Torg med dess stora utbud av butiker, caféer och restauranger.\n\nSjälva huset är en helt fristående villa med fria sidor runt om, entréplan med öppen planlösning, två duschrum, allrum och två härliga altaner/balkong. Ett omtyckt boende med närhet till skolor, förskolor, buss och mataffär.\n\nVillan är 139 m² och rymmer tre sovrum som ingår i uthyrningen (ett rum är låst och ingår inte). Här finns ett separat tvättrum med både tvättmaskin och torktumlare, luftkonditionering för sköna sommardagar, samt en rymlig altan och en trädgård med egna fruktträd – perfekt för umgänge och avkoppling. Tomten är omkring 449 m².\n\nDirekt bakom huset finns en lekplats för barnen, och strax därefter skog och stigar som leder vidare mot Slottsberget, Slottsbergs Mosse och Ruddalens stora idrotts- och friluftsområde med löpspår, fotbollsplaner och skridskobanor på kort promenadavstånd. I närheten ligger även populära Positivparken. På cykelavstånd når du havet och baden vid Ganlet och Fiskebäcksbadet, samt Önnereds brygga med båtliv och restaurang.\n\nTrots det lugna läget tar du dig snabbt in till city – cirka 10 minuter med bil – och till Frölunda Torg på bara ett par minuter med bil. Goda förbindelser till kollektivtrafik finns bara någon minut bort, och Västerleden ligger nära för dig som pendlar.\n\nHuset hyrs ut möblerat, men möbleringen är flexibel och kan anpassas efter dina behov – hör av dig så löser vi det tillsammans.\n\nParkering finns direkt framför huset, med laddmöjlighet för elbil. Platsen är inte en dedikerad plats utan delas i området.\n\nInflyttning 1 december 2026 (eller enligt överenskommelse) till och med 15 juli 2027, med möjlighet till förlängning.\n\nHyra: 24 500 kr/mån (kallhyra). El, uppvärmning, vatten och sophämtning betalas av hyresgästen efter förbrukning. Alternativt 28 500 kr/mån inkl. allt vid normal hushållsförbrukning (vid ovanligt hög förbrukning regleras det överskjutande med hyresgästen).\n\nKrav på hyresgäst: Rök- och djurfri, ordnad ekonomi med verifierbar inkomst samt goda referenser. Passar utmärkt för företagsuthyrning, projektanställning eller familj.\n\nBilderna är vägledande; viss möblering och inredning kan komma att ändras.",
+    "district": "Västra Frölunda",
+    "rooms": 6.0,
+    "area_m2": 139.0,
+    "rent": 24500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Ulfsparregatan, Göteborg",
+    "url": "https://qasa.com/p/1511868",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7YF738PM8YA7B49531ANX8Z.jpg",
+    "description": "Ett ordentligt kök med gott om plats och diskmaskin.\nGolvvärme i badrummet.\nBalkong mot väster.\nKöksfönster mot öster.\nTyst och lugnt område i populära Örgryte.\nBuss precis utanför dörren hela vägen in till stan.\nEn kort promenad bort finns mataffärer etc.\nMycket fräsch tvättstuga i källaren som bokas online.\nFörråd finns också i källaren.\nVäldigt fina övernattningsrum kan bokas mot en extra kostnad. Cykelförråd finns.  \n\nBredband ingår i hyran.\nEl tillkommer med ca 150kr/mån.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 37.0,
+    "rent": 9400,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Dunfins Gata, Hisings Backa",
     "url": "https://qasa.com/p/1511840",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7XS33NF59C8TH4SZ0HE11P3.png",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Gläntevägen, Hisings Backa",
-    "url": "https://qasa.com/p/1507122",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7CA8JTJ3Z4ZEX7NN6SWEG0E.jpg",
-    "description": "Nybyggt attefallshus i Hisings Backa – Lugnt läge nära naturen\n​\nVi hyr ut vårt nybyggda attefallshus på 30 kvm (BYA). Detta är ett separat boende för dig som söker ett lugnt och harmoniskt hem nära naturen och härligt fågelkvitter, men som samtidigt vill ha nära till stadspulsen.\n\nOm bostaden: \nHuset har en ljus och öppen planlösning och är utrustat med hög komfort.\n​Kök: Fullt utrustat kök med diskmaskin.\n​Badrum: Fräsch toalett med dusch, tvättmaskin och skön golvvärme.\n​Klimat/Innemiljö: Utrustat med AC som ger skön svalka under varma sommardagar och effektiv värme under vintern.\n​Utemiljö: Fantastiska möjligheter till uteliv med en stor uteplats på både framsidan och baksidan – perfekt för att njuta av solen.\n​\nLäge och kommunikationer: \n​Ett privat och avskilt boende omgivet av lugn och ro.\n​Mycket goda bussförbindelser till stan. Det tar endast 2 minuter att gå till busshållplatsen.\n\nVillkor: \n​Boendet är helt djur- och rökfritt.\nKostnad för el tillkommer till hyran.\n\n​Vem söker vi?\n​Vi söker dig som är skötsam, ansvarsfull och tar väl hand om vår bostad.\n​\nLåter det intressant?\nSkicka gärna ett meddelande och berätta lite om vem du är vid ditt intresse!",
-    "district": "Hisings Backa",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 8600,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Lodjursstråket, Göteborg",
-    "url": "https://qasa.com/p/1511657",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7WTX6EFSV5E3SHYE3VH7SR9.jpg",
-    "description": "Möblerad tvåa på vån 62 i Karlatornet - söderläge och havsutsikt.\n\nPå våning 62 i Karlatornets Sky Level ligger den högst belägna tvåan i söderläge inom Sky Level med vidsträckt utsikt över staden & hamninloppet.\n\nLägenheten hyrs ut fullt möblerad med påkostad inredning.\nKöket är från italienska Binova med vitvaror från Gaggenau. \n\nElegant badrum med ljus marmor och tvättmaskin & torktumlare från Miele.\n\nSom boende i Sky Level har du fri tillgång till bl a Clarion Hotels gym & spa samt yoga- och fitnessrum på vån 38.\n",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 17500,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fastlagsgatan, Göteborg",
-    "url": "https://qasa.com/p/1511437",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7WRQ7ST392VN7CQNA2HD8D8.jpg",
-    "description": "Superfin tvåa som ligger några minuters promenad till närmsta spårvagnshållplats och 15 minuter från centrala Göteborg. Området är lugnt och familjevänligt. Parkering, el och internet (1000 Mbit/s) ingår i hyran på 11 200 kr (2027 års hyra och utan Qasas serviceavgift).\n\nLägenheten har välplanerade ytor, med fönster åt båda håll och gott om förvaring. Badrummet är förberett för tvättmaskin om man som hyresgäst vill ordna med det. Det finns en stor inglasad balkong utan insyn från grannar/förbipasserande som fungerar utmärkt som ett extra sällskapsrum under de varmare månaderna. Lägenheten är möblerad, men egna möbler kan tas med förutsatt att befintliga möbler förvaras i bostadens källarförråd. Detta får hyresgästen ordna med själv.\n\nTvättstuga, gym och bastu finns i bostadshuset.\n\nDu som hyr ska vara djur- och rökfri, samt ha fast inkomst. Lägenheten är ledig från 8 jan 2027 och jag ser gärna att du som hyr vill bo här under minst ett år, men helst längre.\n\nVid intresse, skicka gärna ett meddelande och berätta kort om dig själv och din sysselsättning!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 50.0,
-    "rent": 11200,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-21T01:48:47+00:00", "clock": "01:48:47"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-21T08:52:33+00:00", "clock": "08:52:33"};
