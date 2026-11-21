@@ -3,6 +3,36 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Dunfins Gata, Hisings Backa",
+    "url": "https://qasa.com/p/1511840",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7XS33NF59C8TH4SZ0HE11P3.png",
+    "description": "Andrahandsuthyrning – ljus och fin 3:a vid Selma Lagerlöfs torg\nHej!\n\nNu uthyrs en trevlig 3 rum och kök på 73 m² från 1 februari 2027 och ett år framåt. Lägenheten ligger en våning upp på våning 2 precis vid Selma Lagerlöfs torg i Hisings Backa. Det är en ljus och välplanerad lägenhet med två separata sovrum, rymligt vardagsrum, fullt utrustat kök, badrum med dusch, balkong och bra förvaring.\n\nBussförbindelserna är riktigt bra – hållplatsen Selma Lagerlöfs Torg ligger i princip utanför dörren med linjerna 18, 19, 43, 44 och 142. Det tar bara en kort stund in till stan.\n\nHyran är 13 403 kr i månaden. Parkering kan erbjudas också till en kostnad.\n\nHör gärna av dig om du är intresserad, så berättar jag mer och vi kan boka en visning!\n\nVänliga hälsningar\n",
+    "district": "Hisings Backa",
+    "rooms": 3.0,
+    "area_m2": 73.0,
+    "rent": 13403,
+    "floor": 2,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Blidvädersgatan 10, Göteborg",
+    "url": "https://qasa.com/p/1511837",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/b963d9ca7583944fb1ccc7f1ebb51f2ce2ae6f6b94910dd0d3c05aa26a5b3fe8.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ. \n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Biskopsgården! I köket finns diskmaskin installerat.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2025 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se Vill du få tips via mejl på lediga parkeringsplatser där du bor kan du lägga upp en bevakning.\n",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 56.0,
+    "rent": 8372,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Monsungatan, Göteborg",
     "url": "https://qasa.com/p/1511347",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7W8T7ZA0N0XBDGKEK16MCFT.jpg",
@@ -75,36 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Mölndalsvägen, Göteborg",
-    "url": "https://qasa.com/p/1487729",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7WRF42JRJVXA1253HPEAX6C.jpg",
-    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/hzbuevbu7rztl6wvco4f/vastra-gotaland/goteborg/molndalsvagen-65/2-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nTrivsam och modern lägenhet från 2015. Balkong in mot innergård . Stor gemensam takterrass i föreningen.\r\nNärhet till Liseberg (500m) och centrala Göteborg, Chalmers samt Astra Zeneca.\r\nLigger strategiskt med närhet till stora trafikleder som bla tar er till Landvetter flygplats på 20 min ( tex ).\r\nSpårvagnshållplats 50 m från porten.\r\nICA maxi drygt 500 m och en stor Willys 300 m från porten.\r\nFlertalet gym finns inom promenadavstånd. Det finns parkering i området.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 65.0,
-    "rent": 15196,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Årekärrsvägen, Billdal",
-    "url": "https://qasa.com/p/1511626",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7WQZZNV24EHBYMZGAJ2R8CJ.png",
-    "description": "Möjlighet att hyra utan deposition via Samtrygg. Boka visning kostnadsfritt via länken nedan.\n\nKopiera länken till din webbläsare:\nhttps://www.samtrygg.se/object/yvwzwoq2kqivuxwdlraa/vastra-gotaland/billdal/arekarrsvagen-124/1-rok?utm_source=blocket&utm_medium=referral\n\nPå Samtrygg ser du alla bilder och kan ställa dina frågor direkt till oss. Vi hjälper dig gärna! Skapa ett gratis konto och boka visning på några minuter.\n\nOm bostaden:\nLigger i Sandsjöbacka naturreservat på en vacker plats i Billdal. Huset är välskött och ligger ihop med fastigheten där  vi själva bor permanent . Fördel om du gillar trädgård eller vill odla något själv. Stor fin ut veranda tillhör huset . Perfekt om du har hund eller katt. Storstuga med kök o hall. Värmen sköts av en luftvärmepump eller braskamin om du vill, huset är välisolerat 10 år gammalt, Du måste ha bil, 4 km till bussen adressen är Årekärrsvägen 124 ,Allt ingår utan el. \r\n\r\nGarage plats för motorcykel kan ordnas.",
-    "district": "Billdal",
-    "rooms": 1.0,
-    "area_m2": 45.0,
-    "rent": 9552,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-20T20:46:48+00:00", "clock": "20:46:48"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-21T01:48:47+00:00", "clock": "01:48:47"};
