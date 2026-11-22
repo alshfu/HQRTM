@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Toppsegelsgatan, Göteborg",
+    "url": "https://qasa.com/p/1463307",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/12ecd12b04db2f08200addeab1432441da669e4b6ff397488d9df2a86317d637.jpg",
+    "description": "Väl planerad och lugn 2;a i Majorna.\nDatum kan diskuteras ! \n\n  Nära till mysiga cafeer, pubar, Slottsskogen och havet.  Stort kök med stora arbetsytor. Fräscht badrum med härlig takdusch. Lugnt och tyst sovrum och balkong i sydväst. Balkong ut mot en park. \nTV och bredband och värme ingår i hyran. \nSpårvagnshållplatser för flera linjer inom kort gångavstånd. ",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 13000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Önneredsvägen, Västra Frölunda",
+    "url": "https://qasa.com/p/1512655",
+    "image_url": null,
+    "description": "Ljus och trivsam lägenhet med balkong uthyres i Önnered!\n\nNuvarande hyresgäst har köpt eget boende och vi söker därför en ny hyresgäst till vår fina lägenhet.\n\nLägenheten är belägen på andra våningen i vår villa och har en egen ingång, vilket ger ett privat och bekvämt boende. Den har en genomtänkt planlösning med generöst ljusinsläpp, mysiga rum och en härlig balkong.\n\nBostaden ligger i trevliga Önnered, med närhet till havet, fina naturområden och goda kommunikationer. Parkering finns på gatan precis utanför huset.\n\nI hyran ingår:\n\nEl\nVärme\nTV\nFiber\nVi söker dig som har en stabil inkomst, ordnad ekonomi och som är mån om att ta väl hand om ditt boende.\n\nVi kommer endast att återkoppla till de personer som vi bedömer uppfyller våra krav.\n\nVarmt välkommen att höra av dig vid frågor eller funderingar kring boendet samt om du önskar se bilder på lägenheten. \n\nVäl mött!",
+    "district": "Västra Frölunda",
+    "rooms": 4.0,
+    "area_m2": 75.0,
+    "rent": 15000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Doktor Bex Gata, Göteborg",
+    "url": "https://qasa.com/p/1512614",
+    "image_url": null,
+    "description": "Ett rum 10m* uthyres i 3-rumslägenhet. Del i kök och toalett/dusch. Mesta tiden tillgång även till vardagsrum med TV och härlig balkong. Gemensam tvättstuga i källaren + cykelrum. Trevligt naturnära område. Gångavstånd till Chalmers och Sahlgrenska, men spårvagn finns utanför dörren. Nära till affär, pizzeria mm.",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 4400,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Humlekärret, Billdal",
     "url": "https://qasa.com/p/1512586",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M82035BCBCTYKKCVKE6M6PC0.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bygdeborgsvägen , Göteborg",
-    "url": "https://qasa.com/p/1512201",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M7ZSXNMSGESCPSCF7RX4P8HV.jpg",
-    "description": "I källaren av vår villa har vi en renoverad lägenhet med 4 möblerade rum som vi hyr ut till studenter. Lägenheten ligger i ett lugnt villaområde nära busshållplatsen Bjurslättsliden. Goda förbindelser till city/universitetet och nära natur samt löparspår i Hisingsparken.\n\nLägenheten har en separat ingång och ni som hyr delar kök, matplats, allrum och badrum. Det finns diskmaskin och tvättmaskin. Vatten, el, värme och internet ingår i hyran.\n\nVi har ett rum ledigt på 12kvm med hyra på 5300kr / månad.\n\nVi hyr inte ut hela lägenheten och det är inte okej att dela på ett rum. Förskottsbetalning och 2 månaders uppsägning. Vi vill att den som hyr är rökfri och husdjur undanbedes. Det finns dessvärre inte möjlighet att parkera bil på gatan eller uppfarten vid huset. \n\nSkicka oss en kort presentation om du är intresserad så hör vi av oss om det blir aktuellt. \n\nMed vänlig hälsning \n\nAndreas och Therese",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5300,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Bronsåldersgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1272288",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/c5407f85e1d7203ed692be7a368ce1c2c4b693fcd3f9e8be9791e76a540f84cc.jpg",
-    "description": "INNEBOENDES SÖKES from 1 Januari 2027\nHär finns ett mysigt och trevligt möblerat rum att hyra i Västra Frölunda, nära Opaltorget. \nLägenheten som totalt är på 3RoK ligger i ett vackert, lugnt och tryggt område med trevliga grannar nära Askimsviken och Näset. Stor lummig gård med uteplatser och grillplatser. Det är nära till spårvagn-och busshållplats med bra kollektivförbindelser, ca 20 min in till Centrum, Chalmers, Universitet etc. Vid torget, ca 6 min promenad, finns större mataffär, ekokött, apotek, läkare, tandläkare, kyrka, SGS studentboende och en stor lummig park. \nRummet har utsikt mot havet åt SÖ med morgonsol. Det är fullt möblerat med 120cm säng, sängbord, skrivbord, bokhylla, byrå, fåtölj och garderober. Ljusa väggar och textilier. \nVi delar kök, badrum, toalett och vardagsrum samt balkong åt gården o NV. Tvättstugan ligger nära lgh. Hela lägenheten är ca 80 kvm och rummet är ca 12 kvm. Rummet som uthyres ligger närmast entrén och mittemot köket, se planlösning sista bilden. \nI hushållet finns två härliga, sociala katter, så du måste gilla katter och kan inte vara allergiker. Hyran är 5800 kr i månaden, då ingår rum, delad övrig lgh, el och WiFi. En månadshyra i deposition. Söker gärna student eller veckopendlare men allt beror på person o hur vi kommer överens. Uthyres enbart till icke-rökare med ordnad ekonomi och goda referenser. Fler bilder på lägenheten sänds vid seriöst visat intresse.",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5800,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Körkarlens Gata, Hisings Backa",
-    "url": "https://qasa.com/p/1512262",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M80T4JWBYN985BX5QN9VA7WG.jpg",
-    "description": "FIN OCH LJUS 3:A PÅ 74 KVM MED INGLASAD BALKONG – BACKA\n\nNu finns möjlighet att hyra en fin och ljus 3:a på 74 kvm på Körkarlens gata i Backa. Lägenheten ligger i ett lugnt och familjevänligt område och har en bra planlösning samt en inglasad balkong.\n\nLäge och kommunikation:\n- Nära Selma Lagerlöfs Torg och Bäckebol Köpcenter (ca 5 min. med buss).\n- Smidiga bussförbindelser till centrala Göteborg, med restid på cirka 10–20 minuter beroende på busslinje.\n- Busshållplats ca 3 minuters promenad från bostaden.\n\nDetta ingår i hyran:\n- Värme och vatten\n- Bredband\n- Digital-TV\n- IP-telefoni\n\nUtrustning i lägenheten:\n- Tvättmaskin och torktumlare\n- Diskmaskin\n- Spegelgarderob\n- Lägenheten hyrs ut delvis möblerad.\n\nHyra och villkor:\n- Hyra: 14 000 kr/månad.\n- Deposition: 1 månadshyra.\n- Uthyrningsavgift ingår i hyran.\n- Uthyres i 1 år med 3 månaders uppsägningstid.\n- God möjlighet till förlängning.\n- Uthyrningen förutsätter att hyresgästen godkänns av bostadsrättsföreningen och att föreningen beviljar tillstånd till andrahandsuthyrningen.\n\nKrav och önskemål:\n- Rök- och djurfritt hushåll.\n- Fast och stabil inkomst.\n- Inga betalningsanmärkningar.\n- Referenser är meriterande.\n- Vi söker ansvarsfulla och skötsamma hyresgäster som är måna om bostaden och tar väl hand om den.\n\nInflyttning:\nOmgående eller enligt överenskommelse.\n\nVisning och intresseanmälan:\nVisning kommer att ske på plats. \n\nVid intresse ber vi dig att först läsa igenom hela annonsen och därefter skicka ett meddelande där du kort berättar om dig själv, eventuella övriga personer i hushållet, vad du arbetar med samt din nuvarande boendesituation.\n\nOm du inte talar svenska ber vi dig att ta med en svensktalande person till visningen, så att vi kan kommunicera och gå igenom viktig information på ett smidigt sätt.\n\nVi uppskattar genomtänkta och seriösa intresseanmälningar. Meddelanden som inte innehåller någon information om den sökande kommer tyvärr inte att prioriteras.\n\nObservera:\nSå länge annonsen finns kvar är lägenheten fortfarande tillgänglig.\n\nVi försöker återkoppla så snart vi har möjlighet. Svarstiden kan variera, men vi återkommer så snart vi kan. \n\nVälkommen att höra av dig vid seriöst intresse. ",
-    "district": "Hisings Backa",
-    "rooms": 3.0,
-    "area_m2": 74.0,
-    "rent": 14000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-22T16:51:49+00:00", "clock": "16:51:49"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-22T22:14:05+00:00", "clock": "22:14:05"};
