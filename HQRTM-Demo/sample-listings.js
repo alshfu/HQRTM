@@ -3,6 +3,21 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Värmegatan 16, Göteborg",
+    "url": "https://qasa.com/p/1512815",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/86d4be4e811a58a09fc1a3930545489e211a18d74bc8993c3b1f81bc95a56358.jpg",
+    "description": "OBS! Lägenheten hyrs ut genom digital visning. 3D-visningen hittar ni i annonsen på HomeQ.\n*Ingen fysisk visning*\n\nOM LÄGENHETEN\nVälkommen till denna 3 rum och kök med balkong i Biskopsgården! Modernt kök med rostfria vitvaror och diskmaskin installerat. Genomgående parkett i lägenheten. Helkaklat badrum förberett för tvättmaskin, hyresgäst står själv för inköp och installation.\n\nINFLYTTNING\nEftersom 1/2 infaller en söndag, sker inflyttning 2/2.\n\nHYRAN\nI lägenheten finns fibernät indraget och hyresgästen kan själv teckna abonnemang avseende internet/telefoni samt el. Hyran avser 2025 års hyresnivå och inkluderar värme och vatten. OBS! Planlösningen är endast ett exempel, avvikelser kan förekomma. Välkommen att söka!\n\nPARKERING\nFör att göra en intresseanmälan eller teckna avtal på en ledig parkeringsplats behöver du ha ett konto på Mina sidor. Du hittar alla våra lediga parkeringsplatser på vår hemsida willhem.se/parkering",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 64.0,
+    "rent": 9551,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Toppsegelsgatan, Göteborg",
     "url": "https://qasa.com/p/1463307",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/12ecd12b04db2f08200addeab1432441da669e4b6ff397488d9df2a86317d637.jpg",
@@ -90,21 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Måns Torbjörnsvägen, Göteborg",
-    "url": "https://qasa.com/p/1512524",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M81W1DKV3R6PRJ99NN16B53T.jpg",
-    "description": "Nyrenoverad 2 rums bostad på 58 kvm i ett lugnt och trevligt område nära Volvo Lundby, Hisingsparken  och centrala Göteborg. Perfekt för företag som söker boende till anställda, samt för studenter som planerar att bo och studera i Göteborg under flera år.\n\nBostaden är ett fristående, ombyggt garage med nytt kök, nytt badrum med dusch och ny varmvattenberedare, ny Tvättmaskin och torktumlare. \nUthyres omöblerad- kan ordna med en 120 säng vid behov.\nI hyran ingår:\n1 parkeringsplats\nEl,\nVatten\nVärme\nSophämtning\n\nBra kommunikationer:\n8 min med buss till Backaplan\n15 min med buss till centrala Göteborg\n\nHyra: 12 000kr\nBostaden hyrs ut till rökfria hyresgäster utan husdjur.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 58.0,
-    "rent": 12000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-22T22:14:05+00:00", "clock": "22:14:05"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-23T02:52:52+00:00", "clock": "02:52:52"};
