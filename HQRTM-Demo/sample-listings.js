@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Smörgatan, Göteborg",
+    "url": "https://qasa.com/p/1513720",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M860HFQ3SEBR6C931W72QFZB.jpg",
+    "description": "Hyr ett rum i vårt minikollektiv 🤗 nyrenoverad lägenhet centralt i Göteborg. Bussen går precis utanför dörren och du har samtidigt hela delsjöns fridluftsområde på gångavstånd. \n\nVi som bor här är jag och min kompis Emmie så vi ser gärna att det är en till tjej som flyttar in. Jag har en liten hund så du bör inte vara allergisk. \nVi gillar att hänga med vänner, dricka vin och ha middagar och går ut på bar ibland. \nDu väljer själv hur social du vill vara och behöver inte känna någon press att umgås om du hellre bara håller dig till dig själv. Men möjligheten finns om man vill ☺️ \n\nI hyran ingår el, vatten, internet. \nStort Kök, vardagsrum, balkong, badrum och tvättstuga delas mellan oss. Det går även att lösa plats i förrådet om det skulle behövas. Rummet hyrs ut möblerat men vill man ha med egna möbler så tar vi bort så det får plats, allt går att lösa! \n\nLåter detta som något för dig? Hör av dig! ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hogenskildsgatan, Göteborg",
+    "url": "https://qasa.com/p/1513705",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M85PJ41JFJDTP5WA3Z51GF9R.jpg",
+    "description": "Möblerat rum uthyres på Hogenskildsgatan. Området är lugnt med mycket natur utanför. Till centralstationen tar det 13 min med buss som går precis utanför bostaden. Redbergsplatsen och danska vägen ligger nära intill med många restauranger och affärer. Tillgång till kök med alla faciliteter, vardagsrum, badrum och balkong. Tv, internet finnes. ",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 5000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Kalendervägen, Göteborg",
+    "url": "https://qasa.com/p/1513691",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M85AW61J5JV4DWFW17NZFKAD.jpg",
+    "description": "Lägenhet på 52 kvm – 2 rum och kök\nJag hyr ut min lägenhet på 52 kvm eftersom jag kommer att vara bortrest under en period.\nLägenheten hyrs ut möblerad. Hyresgästen har tillgång till vardagsrummet, köket, badrummet och hallen. Sovrummet kommer att vara låst och ingår inte i uthyrningen, eftersom jag förvarar mina personliga tillhörigheter där.\n\nJag ska resa bort och vill därför hyra ut delar av min lägenhet under tiden jag är borta.\nHyresgästen får ett bekvämt och möblerat boende med tillgång till lägenhetens alla huvudsakliga utrymmen, med undantag för det låsta sovrummet.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 52.0,
+    "rent": 7000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lars Kaggsgatan, Göteborg",
     "url": "https://qasa.com/p/1512770",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M82GAF1B9JPPCM1M3YAHDHJK.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": true,
     "has_kitchen": null,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Skogsmilsgatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1513523",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M84SH8APT6S0TR02K4MK4AR7.png",
-    "description": "Ljus och välplanerad lägenhet med fin utsikt över Änggårdsbergen.\nHall med ingång till toalett och dusch på vänster sida. \nEfter hallen öppnar vardagsrummet upp sig med TV-hörna och soffgrupp till höger, och matplats för fyra till vänster mot en varm träpanelsvägg, samt utgång till balkong rakt fram.\n\nVidare in till höger ligger ett lugnt sovrum med en stor dubbelsäng. I anslutning till denna finns en rymlig walk-in closet med bra förvaringsmöjligheter samt klädhängare.\n\nTvättstuga och cykelförråd i huset. Lugnt läge i Högsbo nära Axel Dahlströms torg med mataffär, apotek och gym. Spårvagnshållplats några minuter bort med snabb förbindelse till Marklandsgatan, Linnéplatsen och centrala stan.\n\nHyr ut lägenheten eftersom jag skall flytta ihop med min partner på annan ort.\nHyrs ut 6-månader i taget enligt föreningens stadgar med god chans till förlängning.",
-    "district": "Västra Frölunda",
-    "rooms": 2.0,
-    "area_m2": 39.0,
-    "rent": 11170,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Guldkällegatan, Göteborg",
-    "url": "https://qasa.com/p/1512902",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M83NQQBPZK1W68WNDERR29NH.jpg",
-    "description": "Hyr ut ny fin 1a i fina Fixfabriksområdet i Kungsladugård. \nÖppet kök/ rum samt fint badrum. Balkong i västerläge. \nTrevligt kvarter nära till Mariagatan och Klippan och kommunikationer. \nEl och vatten tillkommer. ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 30.0,
-    "rent": 10000,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Virvelvindsgatan, Göteborg",
-    "url": "https://qasa.com/p/1513422",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M84GMJSNZ9TFAB26NRNPESRH.jpg",
-    "description": "Välkommen till våning 8 och denna väldisponerade 1,5:a på 35,5 kvm – med en generös inglasad balkong i soligt västerläge.\n\nHär bor du högt upp, insynsskyddat och med grönskande utsikt, samtidigt som du har ett mycket centralt läge på Hisingen. Det tar endast ca 7 minuter med kollektivtrafik till Göteborgs centrum.\n\nLägenheten erbjuder ett fint och funktionellt kök, ett ljusstarkt vardagsrum med smart sovalkov samt en rymlig klädkammare. Här flyttar du in i en välskött bostad där TV och bredband ingår, vilket gör vardagen både smidig och bekväm.\n\nDen stora inglasade balkongen i västerläge bjuder på eftermiddags- och kvällssol – perfekt för avkoppling året runt.",
-    "district": "Göteborg",
-    "rooms": 1.5,
-    "area_m2": 35.0,
-    "rent": 11000,
-    "floor": 8,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-23T22:55:12+00:00", "clock": "22:55:12"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-24T06:47:38+00:00", "clock": "06:47:38"};
