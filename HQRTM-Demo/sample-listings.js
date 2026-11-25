@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sankt Sigfridsgatan, Göteborg",
+    "url": "https://qasa.com/p/1514532",
+    "image_url": null,
+    "description": "Charmig lägenhet i äldre stil belägen på andra våningen i en tvåfamiljsvilla. Uthyres under en begränsad tid. En del möbler kan ingå men i det stora hela är den omöblerad. El, elnät, VA, avfall ingår i hyran. Nära busshållplats, lugnt område. Återkommer med uppdatering av yta! Tre separata sovrum finnes varav ett är lite mindre. Därtill ett vardagsrum samt ett mindre kök och ett mindre badrum. Förråd/p-plats ingår inte men kan evt. hyras separat vid behov. Deposition är ett krav.",
+    "district": "Göteborg",
+    "rooms": 4.0,
+    "area_m2": 70.0,
+    "rent": 14200,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Fjäderharvsgatan, Angered",
+    "url": "https://qasa.com/p/1514297",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M87MCA0BHCS4HFSGB5GF085H.jpg",
+    "description": "\nRum uthyres till lugn och skötsam kvinna i en 3:a – Inflyttning 1 december \n\nJag hyr ut ett sovrum i en lägenhet på 3 rum och kök på Fjäderharvsgatan i Angered. Jag får tillträde till lägenheten den 1 december, så inflyttning kan ske från och med det datumet. Lägenheten kommer inte att vara möblerad från start (och rummet hyrs ut omöblerat). \n\nLägenheten består av två sovrum samt gemensamt vardagsrum, kök och badrum som vi delar på. Den ligger nära Angered Centrum med goda kommunikationer och service. Bilder på rummet och lägenheten skickas vid intresse. \n\nOm boendet, hyra och villkor:\nHyra & räkningar: 3 500 kr/månad. Utöver hyran delar vi lika på löpande räkningar för el och bredband/Wi-Fi.\nDeposition & uppsägningstid: 1 månads deposition (3 500 kr) samt 1 månads ömsesidig uppsägningstid.\nUtrustning: Lägenheten och rummet är omöblerade vid inflytt. Tillgång till gemensam tvättstuga i huset finns. \n\nVem söker jag?\nJag söker en person, antingen arbetande eller student, som är mycket renlig, ordningsam och ansvarsfull. Det är ett krav att du har en ordnad ekonomi med fast månadsinkomst (eller CSN/motsvarande månadsinkomst om du studerar). \n\nViktiga trivselregler:\nHemmet ska vara en lugn plats för vila och avkoppling. Därför gäller följande: \n\n* Djur- och rökfritt: Inga husdjur och ingen rökning är tillåten.\n* Lugn och ro: Ingen hög musik, inget stoj och inga fester i lägenheten.\n* Gäster: Inga övernattande gäster. Dagsbesök är okej i lugn och ro, men ska alltid meddelas i förväg. Hög ljudnivå eller stoj accepteras inte – varken med eller utan besökare.\n* Renlighet i gemensamma utrymmen: Vi delar på vardagsrum, kök och badrum. Det är mycket viktigt att alltid lämna kök och badrum i samma fina skick som man fann dem – det vill säga inget hår kvar i badrummet och inga matrester i diskhon. Vi delar och turas om med städningen av de gemensamma ytorna.\n\nOm du delar samma syn på hur man har det hemma och letar efter ett harmoniskt boende är du varmt välkommen att höra av dig och berätta lite om dig själv! \n\nENGLISH SUMMARY:\nUnfurnished bedroom for rent to a tidy, responsible person (working or student with stable income/CSN) in a 3-room apartment on Fjäderharvsgatan, near Angered Centrum. Move-in from December 1st. \n\n* Rent & Bills: 3,500 SEK/month + 50% share of electricity and Wi-Fi.\n* Deposit & Notice: 1 month deposit (3,500 SEK) and 1 month mutual notice period.\n* Shared spaces: Living room, kitchen, bathroom, and building laundry room.\n* House rules: No pets, no smoking, no parties or loud noise. No overnight guests (quiet daytime visits allowed if agreed in advance). Strict cleanliness in shared areas is required.\n\nIf you are looking for a peaceful, clean home, please send a short message about yourself!",
+    "district": "Angered",
+    "rooms": 1.0,
+    "area_m2": 10.0,
+    "rent": 3500,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Famngatan, Västra Frölunda",
+    "url": "https://qasa.com/p/1513828",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M86B8H1B0VAYVD30WGE6MY63.jpg",
+    "description": "Vacker 2a med mycket fönster i östlig riktning. Överst i huset så inga grannar ovanför. Fräsht badrum och öppet kök/vardagsrum för dig som gillar sol. En balkong i öster läge med sol fram till 8 på de flesta kvällar. \n\nSpårvagn 1,7 och 8 går från Nymilsgatan som ligger 4 minuters gångväg bort. Nära till både stan och Frölunda Torg, närmaste affärer är en livs 2 minuter bort och en Lidl med ca 7 minuter gång. Pizzeria och sushi ligger också inom 3 minuters gång. \n\nHyr ut tillfälligt då jag nyligen flyttat ihop med flickvännen.",
+    "district": "Västra Frölunda",
+    "rooms": 2.0,
+    "area_m2": 48.0,
+    "rent": 12000,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Nordhemsgatan, Göteborg",
     "url": "https://qasa.com/p/1514344",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M87KQPKMX0P32JKMEMBDPRBY.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Liberagatan, Göteborg",
-    "url": "https://qasa.com/p/1474463",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M3T4R6BJDMB6ZX6CQT1F7JJ4.jpg",
-    "description": "Brf Norrsken, Karlastaden-\n\nLjus och välplanerad 2:a på 55 kvm, med öppen planlösning mellan kök och vardagsrum, högt i tak (2,7 m) och balkong. Lägenheten ligger på våning 4 i ett nybyggt hus med gym, garage och pizzeria i bottenplan.\n\nDetaljer:\n    •    Marbodalkök med ljusgrå luckor, betongmönstrad bänkskiva\n    •    Induktionshäll, integrerad diskmaskin, inbyggd mikro, rostfria vitvaror\n    •    Sovrum med skjutdörrsgarderob\n    •    Helkaklat badrum med duschvägg, kombimaskin (tvätt/tork), arbetsbänk, förvaring och dimbar belysning\n    •    Ekparkett i hela lägenheten\n    •    Förråd i hallen\n    •    Balkong \n\nOm området – Karlastaden (Lindholmen)\nPerfekt läge – centralt men lugnt. Färja till Stenpiren tar 10 min, buss till Centralstationen 10 min.\nNy stadsdel som växer snabbt med restauranger, kontor, butiker och service runt hörnet.\n\nBekvämligheter i huset:\n    •    STC gym\n    •    Garage\n    •    Pizzeria\n\nEl,vatten och avgift för internet tillkommer. \n\nVälkommen!\n\n\n\nBrf Norrsken, Karlastaden\n\nBright and well-planned 1-bedroom apartment (55 sqm) with open layout between kitchen and living room, high ceilings (2.7 m), and a balcony. Located on the 4th floor of a newly built building with a gym, garage, and pizzeria in the same complex.\n\nDetails:\n    •    Marbodal kitchen with light grey cabinets and concrete-style countertop\n    •    Induction cooktop, built-in microwave, integrated dishwasher, stainless steel appliances\n    •    Bedroom with sliding door wardrobe\n    •    Fully tiled bathroom with glass shower wall, washer/dryer combo, worktop and storage, dimmable spotlights\n    •    Oak parquet flooring throughout\n    •    Storage room in the hallway\n    •    Balcony with space for outdoor seating\n\nAbout the area – Karlastaden (Lindholmen)\nPerfect location – quiet yet central. 10 minutes by ferry to Stenpiren, 10 minutes by bus to Central Station.\nA new and growing neighborhood with restaurants, offices, shops, and everyday services just around the corner.\n\nBuilding amenities:\n    •    STC gym\n    •    Garage\n    •    Pizzeria\n\nElectricity, water, and internet are charged separately\n\nWelcome!",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 55.0,
-    "rent": 13500,
-    "floor": 0,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Berzeliigatan, Göteborg",
-    "url": "https://qasa.com/p/1514173",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M875AW1YYMVXAZAPS9D7Z66E.jpg",
-    "description": "A great corner apartment at one of the most central addresses. 5-10 min to the central station, as well as Chalmers University and the School of Business, Economics and Law. Avenyn is 3 min away.  \n\nA classic turn-of-the-century apartment of 120 sqm that comes with everything you need in the kitchen and furnishings.  \n\nI live here myself, so I’m away a couple of days a week at times.  \n\nPerfect accommodation for you who are a student and want to live centrally, or for you who work at AstraZeneca or Volvo.  \n\nBest regards,  \n\nTibor\n\nSwedish: \n\nEn toppen hörnlägenhet på en av mest centrala adresser. 5-10 min. centralstationen, samt Chalmers Universitet och Handelshögskolan. Avenyn ligger 3 min bort. \n\nEn klassisk sekelskiftslägenhet på 120 kvm som delas med allt som behövs i kök och möblering. \n\nJag bor själv och sover därav borta ett par dagar i veckan i perioder. \n\nPerfekt boende för dig som är student och vill bo centralt eller för dig som arbetar på Astra Zeneca eller Volvo. \n\nMvh \n\nTibor ",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 22.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Långåsliden, Göteborg",
-    "url": "https://qasa.com/p/839646",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/181331163c4279dc196f83bbdc22b5d7c34d8fb1ee887abd7a7d7dca329336ed.jpg",
-    "description": "Centralt trevligt rum i attraktivt område\n\nRum med separat ingång, 20 kvm, med mini-kök, tv, gratis wifi,  fullt möblerat, tillgång till badrum, fri parkering, hyra: 4900 kr. God ref erfordras. Endast till män, rök- och spritfria. Deposition.",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 20.0,
-    "rent": 4900,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-25T02:41:31+00:00", "clock": "02:41:31"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-25T11:44:59+00:00", "clock": "11:44:59"};
