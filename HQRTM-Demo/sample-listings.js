@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Nordhemsgatan, Göteborg",
+    "url": "https://qasa.com/p/1514344",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M87KQPKMX0P32JKMEMBDPRBY.jpg",
+    "description": "Fin etta uthyres i Linné, Göteborg – 6 månader med möjlighet till förlängning\n\nJag planerar att resa utomlands under en längre period och kommer därför att hyra ut min lägenhet i Linné. Lägenheten ligger i ett väldigt fint och centralt område i Göteborg, med närhet till både Linnéplatsen och Järntorget.\n\nLägenheten är fullt möblerad och utrustad med allt som behövs, inklusive köksutrustning.\n\nInformation:\n\n* Område: Linné, Göteborg\n* Storlek: 30 m²\n* Hyra: 5 689 kr/månad + el\n* Bredband: Ingår i hyran\n* Tillgänglig från: Så snart som möjligt\n* Uthyrningsperiod: 6 månader, med möjlighet till förlängning upp till 12 månader\n\nJag söker en ansvarsfull och skötsam person som tar väl hand om lägenheten medan jag är bortrest.\n\nHör gärna av dig om du är intresserad eller vill veta mer! 😊",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 30.0,
+    "rent": 5689,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Mackliersgatan, Göteborg",
+    "url": "https://qasa.com/p/1514342",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M87KMAM281AQCX523BNER9G1.jpg",
+    "description": "2:a på 55 m2 med balkong i Johanneberg nära matbutik, gym, busshållplats.",
+    "district": "Göteborg",
+    "rooms": 2.0,
+    "area_m2": 55.0,
+    "rent": 10855,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Hjalmar Brantingsgatan, Göteborg",
+    "url": "https://qasa.com/p/1514326",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M87HPCSVM7B659JN07E9Q7Y4.jpg",
+    "description": "Hej! Mina nuvarande hyresgäster har flyttat och jag söker ny hyresgäst. \nLägenheten är på 35 kvm med separat kök och matplats. Nyrenoverat kök 2020 med diskmaskin och inbyggd mikro. Helkaklat badrum med stor dusch och golvvärme. Mysig innergård med grill och gräsplats. Cykelförråd och cykelförvaring inne på innergården. Gemensam tvättstuga med två tvättmaskiner, en torktumlare och ett torkskåp. Festlokal med kök, biljard och bordtennis finns att tillgå. \n\nUthyres från och med 1/1/2027 till och med 31/12/2027. Går att få omöblerad/delvis möblerad, detta kan vi komma överens om.\nLägenheten ligger i Kvillebäcken. Du har två minuter till Willys, tre minuter till Coop och tio minuter till Hemköp.\nFem minuter till buss (buss 25) och spårvagn (5, 6, 10, 13) som tar dig in till centrum på 5-8 minuter.\n\n\nHyran är på 10.000/månad och inkluderar allt (värme, vatten, el, internet). Deposition på en månadshyra önskas (fås tillbaka vid slutet av uthyrningsperioden om allt är i sin ordning). \nUppsägningstiden är två månader.\n\nSkicka ett meddelande om du är intresserad, för mer bilder och en eventuell visning av lägenheten.\n\nInformation about this apartment can also be provided in English, just text me!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 35.0,
+    "rent": 10000,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Rödlönnsgången, Göteborg",
     "url": "https://qasa.com/p/1514262",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M87B90T8TZVT455FTNT9ACHP.jpg",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Famngatan, Västra Frölunda",
-    "url": "https://qasa.com/p/1514166",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M873PV42FHMCE1VSPMW95FTE.jpg",
-    "description": "Hyr ut möblerad 1:a i Högsbo från 1 januari 2027\n\nJag flyttar till Stockholm för ett nytt jobb och hyr därför ut min hyresrätt i andra hand.\n\nFakta\n\t•\t1 rum på 36kvm\n\t•\tVåning 3/4, hiss finns\n\t•\tTvättmaskin i badrummet\n\t•\tFullt möblerad, men är flexibel (kan tänka mig delvis eller omöblerat med)\n\nHyra och villkor\n\t•\t7000kr/månad\n\t•\tInternet ingår\n\t•\tEl, värme och vatten tillkommer efter förbrukning\n\t•\tTillträde 1 januari 2027 tidigast\n\t•\tHyrestid 6–12 månader, med möjlighet till förlängning\n\t•\tHusdjur är välkomna\n\nOmrådet\nLägenheten ligger i Flatås som är ett lugnt område som byggdes 2022. Här finns både hyresrätter och bostadsrätter, och många unga bor i området.\n\nKommunikationer\nSpårvagnshållplatsen Nymilsgatan ligger precis utanför porten:\n\t•\tLinnéplatsen: 9 min\n\t•\tChalmers: 13 min\n\t•\tValand: 18 min\n\t•\tDrottningtorget: 21 min",
-    "district": "Västra Frölunda",
-    "rooms": 1.0,
-    "area_m2": 36.0,
-    "rent": 7000,
-    "floor": 3,
-    "has_balcony": null,
-    "has_kitchen": null,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fjärde Långgatan, Göteborg",
-    "url": "https://qasa.com/p/1491315",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M86P3W7VAG9XDAVCR0KTDFCZ.jpg",
-    "description": "Välplanerad 2:a om 59 kvm med rymligt vardagsrum, separat sovrum, kök och balkong. Lägenheten har en trivsam och lättmöblerad planlösning med bra förvaring och gott om plats för både vardag och hemmakontor.\n\n El, fiberbredband och kabel-TV (baspaket) via SAPPA ingår i hyran.\n\nJag hyr ut lägenheten eftersom jag har flyttat till en annan bostad. Under hyresperioden kommer lägenheten även att finnas ute till försäljning, så ett mindre antal visningar, uppskattningsvis 1–5 tillfällen, kan förekomma. Jag kommer självklart att ha god framförhållning och försöka göra det så smidigt som möjligt för dig som hyr.",
-    "district": "Göteborg",
-    "rooms": 2.0,
-    "area_m2": 59.0,
-    "rent": 13121,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Fornborgsgatan, Torslanda",
-    "url": "https://qasa.com/p/1513960",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M86KG9JB3MJBDK1K2AM54FV5.jpg",
-    "description": "Ett rum i ljus & fräsch 4- rumslägenhet. 120 cm säng, sängbord, byrå med 6 lådor, fåtölj och spegel. \nLgh har fullt utrustat kök, vardagsrum och två nyligen renoverade badrum. Bredband ingår i hyran.\nLivsmedelsaffär 4 min promenad, Tumlehedsbadet 15 min med cykel. Busshållplats 6 min promenad, 30 min med buss in till centrum. Pendelparkering och besöksparkering finns.",
-    "district": "Torslanda",
-    "rooms": 1.0,
-    "area_m2": 12.0,
-    "rent": 5000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-24T18:23:40+00:00", "clock": "18:23:40"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-25T02:41:31+00:00", "clock": "02:41:31"};
