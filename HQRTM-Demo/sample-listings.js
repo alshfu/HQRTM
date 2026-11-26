@@ -3,6 +3,51 @@
 window.HQRTM_SAMPLE = [
   {
     "source": "qasa",
+    "title": "Sanatoriegatan, Göteborg",
+    "url": "https://qasa.com/p/1515174",
+    "image_url": null,
+    "description": "Detta rum hittar du i fantastiska Kålltorp. Det passar perfekt för dig som är student –  bra bredband ingår i hyran, och du tar dig snabbt och smidigt till såväl centrum som bibliotek och evenemang. \nHär hos mig bor du i eget rum, med egen dusch, och tillgång till kök och vardagsrum. Här bor också en hund (så bra om du inte är hundrädd!) och, varannan vecka, mina två tonåriga döttrar.\n\nDitt rum är luftigt och ljust. Det är utrustat med två skrubbar och en rymlig garderob, så goda möjligheter till förvaring!\nLägenheten är en etagelägenhet, och tjejerna och jag sover en trappa upp och har vårt badrum däruppe.\nDitt rum ligger i anslutning till hallen och köket och har gästbadrummet utanför.  Duschen där kommer vara din egna.\n\nKommunikationen är god. Både treans, femmans och 17-bussens hållplatser ligger inom gångavstånd och de tar dig till centrum på en kvart. \n\nJag söker dig som är lugn och skötsam, och hoppas på en inneboende som gärna stannar en längre tid.\nVälkommen att höra av dig så berättar jag gärna mer och visar dig runt!",
+    "district": "Göteborg",
+    "rooms": 1.0,
+    "area_m2": 15.0,
+    "rent": 4248,
+    "floor": null,
+    "has_balcony": null,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Brämaregatan, Göteborg",
+    "url": "https://qasa.com/p/1515084",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M8AEP6E6CZXZH7AMSP3G5P3Y.jpg",
+    "description": "Lägenheten är högst upp i huset med stor balkong . Eftermiddagssol  tills den går ner. En toalett med duschkabin som delas med  Emil som hyr ett sovrum. Jag har ett eget badrum. Jag har två entrédörrar så vill man går man direkt in till sitt rum . Inget krav att hälsa eller prata om man inte känner för det. Du har tillgång till hela lägenheten och köket är stort och fint. Huset ligger på Kvilletorget och det finns en massa olika restauranger,   fem  på torget och flera på ett par minuters gångavstånd. Stort affärscentrum på Backaplan  som du når på 10 min promenad. Hjalmar Brantingsplatsen är en stor trafikpunkt med olika bussar och spårvagnar  fem min från Kvilletorget.",
+    "district": "Göteborg",
+    "rooms": 5.0,
+    "area_m2": 12.0,
+    "rent": 5700,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": true,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
+    "title": "Regnvädersgatan, Göteborg",
+    "url": "https://qasa.com/p/1503496",
+    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M70AXV862PS53VEX84K0T5C6.jpg",
+    "description": "Rymlig och ljus två balkonger en inglasad, hiss. Trevlig utemiljö, 4 min till spårvagn. Ligger precis intill stor skog med stigar, gång o cykelvägar. Passar för 2-3 personer. Kan hyra ut till inneboende, för den som trivs som inneboende. Jag bor i V Värmland och arbetar som jobonär på en Vårdcentral. Vilket jag har plan att göra fortsättningsvis minst sommaren -27. Har funderat på att sälja, men vill flytta hem, när jag slutar arbeta.",
+    "district": "Göteborg",
+    "rooms": 3.0,
+    "area_m2": 72.0,
+    "rent": 11500,
+    "floor": null,
+    "has_balcony": true,
+    "has_kitchen": null,
+    "listing_type": "fcfs"
+  },
+  {
+    "source": "qasa",
     "title": "Lodjursstråket, Göteborg",
     "url": "https://qasa.com/p/1515101",
     "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M8A5X8ERVSPRSPGXMTSP5V96.png",
@@ -60,51 +105,6 @@ window.HQRTM_SAMPLE = [
     "has_balcony": null,
     "has_kitchen": true,
     "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Strannevägen, Köpstadsö",
-    "url": "https://qasa.com/p/1514155",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M8A0C5XNE8WT88FN7EXQ1QCH.jpg",
-    "description": "For english, please see below \n\nBo i skärgårdsidyll helt nära Göteborg. Mysig, möblerad lägenhet för dig som söker livskvalitet med närhet till havet OCH uppskattar lätt tillgång till Göteborg med kollektivtrafik. Köpstadsö ligger bara 9-21 min på bekväm båt, som går ofta, till och från Saltholmens snabbuss och spårvagn. Allt inom zon A. Se detaljer i ToGo appen eller vasttrafik punkt se \n\nHel övervåning - 65 kvadratmeter - i klassisk skärgårdsvilla, med utsikt över Köpstadsös fina småbåtshamn. Stort, öppet allrum med soffgrupp, TV och matplats för sex personer. Kök med kyl/frys, diskmaskin, induktionshäll, ugn och separat micro. Badrum med golvvärme, dusch och toalett. Tre sovrum med totalt fyra sängar. Balkong i söderläge. Uthyres möblerad, med alla bekvämligheter. Bredband 250/250. Tvättmaskin i separat källare. Tillgång till trädgård med uteplats, grill och 80 meter ner till hamnen.\n\nUtmärkt för studenter att dela eller 1-3 vuxna som sambor. Ingen rökning. Skötsamt husdjur tänkbart. \n\nUthyres från tidigt januari 2027 till 22 juni 2027, med möjlighet till förlängning efter sommaren. Hyra 7.500 kr plus el. Deposition 8.000\n\nIntresserad? Berätta kortfattat om dig och ditt arbete eller studier och om ni är fler som vill bo tillsammans.\n\n--\nLive in the archipelago, very close to Gothenburg. Cozy, furnished apartment for anyone looking for quality of life, proximity to the sea AND appreciates easy access to Gothenburg by public transport. Köpstadsö is only 9-21 minutes away by comfortable boat to and from Saltholmen's express bus and tram. Everything within zone A. See details in the ToGo app or vasttrafik point see\n\nYou rent the entire upper floor - 65 square meters - in a classic island-house, with a view over Köpstadsö's picturesque harbour. Large, open living-room with sofas, TV and a dining area for six people. Kitchen with fridge/freezer, dishwasher, induction hob, oven and separate microwave. Bathroom with underfloor heating, shower and toilet. Three bedrooms with a total of four beds. Balcony facing south.  Furnished, with all amenities. Broadband 250/250. Washing machine in separate basement. Access to garden with patio, barbecue and 80 meters to the harbour.\n\nIdeal for students to share or 1-3 adults. No smoking. Well behaved pets possible.\n\nAvailable from early January 2027 until June 22, 2027 , then possibly extended after the summer. Rent is SEK 7.500 plus electricity. Deposit 8.000\n\nInterested? Please tell us about yourself, your work or what you study, and if you plan to share the apartment with someone.",
-    "district": "Köpstadsö",
-    "rooms": 4.0,
-    "area_m2": 65.0,
-    "rent": 7500,
-    "floor": null,
-    "has_balcony": true,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stockholmsgatan, Göteborg",
-    "url": "https://qasa.com/p/1514895",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M89Q4MRWZCV43XSM8SDYB7E4.jpg",
-    "description": "Hyr ut min lägenhet i Bagaregården – ett av Göteborgs mest omtyckta områden!\n\nEn väldigt trevlig och social lägenhet med stort kök och otrolig innergård. De flesta som bor här är runt 30 årsåldern och alla hälsar på varandra vilket också bidrar till trygghet och trivsel.\n\nHär bor du i ett lugnt och trivsamt område med närhet till både natur, restauranger, caféer och goda kommunikationer. Med spårvagn direkt utanför och vid Redbergsplatsen tar du dig enkelt till centrala Göteborg.\n\nInformation:\nTillträde: Från och med 1 Januari.\nKostnader: Internet och vatten ingår, elkostnader tillkommer\nUthyres: Möblerad och med fullt utrustat kök\nHyrestid: Tillsvidare, längre period. Bor i Stockholm så lär inte använda lägenheten på några år.\n\nHör gärna av dig vid intresse eller om du har några frågor!",
-    "district": "Göteborg",
-    "rooms": 1.0,
-    "area_m2": 40.0,
-    "rent": 11000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
-  },
-  {
-    "source": "qasa",
-    "title": "Stora Älsjövägen, Olofstorp",
-    "url": "https://qasa.com/p/1514979",
-    "image_url": "https://qasa-static-prod.s3-eu-west-1.amazonaws.com/img/01M89V3GBE8T239TC7NJQBYPNA.jpg",
-    "description": "Väldigt fin liten lägenhet \nIngår el&vatten\nEgen ingång,kök,toalett med dusch samt tvättmaskin och torktumlare ",
-    "district": "Olofstorp",
-    "rooms": 2.0,
-    "area_m2": 40.0,
-    "rent": 7000,
-    "floor": null,
-    "has_balcony": null,
-    "has_kitchen": true,
-    "listing_type": "fcfs"
   }
 ];
-window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-25T20:41:33+00:00", "clock": "20:41:33"};
+window.HQRTM_META = {"count": 7, "region": "Göteborg", "sources": {"qasa": 7}, "generatedAt": "2026-11-26T03:09:42+00:00", "clock": "03:09:42"};
